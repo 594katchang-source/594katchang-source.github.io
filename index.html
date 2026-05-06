@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>營養搶答對戰</title>
+    <meta name="description" content="中高齡友善的營養教育搶答遊戲，包含食物分類、我的餐盤份量與彩虹食物。" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar" aria-label="遊戲狀態">
+        <div class="brand-lockup">
+          <svg viewBox="0 0 64 64" aria-hidden="true" class="brand-mark">
+            <circle cx="32" cy="32" r="28" fill="#fef3c7" />
+            <path d="M18 35a14 14 0 0 1 28 0v9H18z" fill="#16a34a" />
+            <path d="M21 30h22a11 11 0 0 0-22 0z" fill="#f97316" />
+            <path d="M19 41h26" stroke="#1f2937" stroke-width="4" stroke-linecap="round" />
+            <circle cx="26" cy="25" r="4" fill="#dc2626" />
+            <circle cx="38" cy="25" r="4" fill="#2563eb" />
+          </svg>
+          <div>
+            <p class="eyebrow">QR Code 進場對戰</p>
+            <h1>營養搶答對戰</h1>
+          </div>
+        </div>
+        <button class="ghost-button" id="shareButton" type="button">顯示 QR</button>
+      </header>
+      <main>
+        <section class="screen active" id="loginScreen" aria-labelledby="loginTitle">
+          <div class="intro-grid">
+            <div class="intro-copy">
+              <p class="eyebrow">紅隊藍隊隨機分組</p>
+              <h2 id="loginTitle">選一個模式，開始搶答</h2>
+              <p>題庫以台灣食物代換表、國健署「我的餐盤」與彩虹食物概念設計，按鈕大、對比高，適合中高齡學員一起玩。</p>
+            </div>
+            <div class="plate-visual" aria-label="我的餐盤示意圖">
+              <svg viewBox="0 0 240 240" role="img">
+                <title>我的餐盤六大類食物示意</title>
+                <circle cx="120" cy="120" r="104" fill="#fff7ed" stroke="#1f2937" stroke-width="6" />
+                <path d="M120 120 120 16a104 104 0 0 1 90 52z" fill="#22c55e" />
+                <path d="M120 120 210 68a104 104 0 0 1 0 104z" fill="#f97316" />
+                <path d="M120 120 210 172a104 104 0 0 1-90 52z" fill="#2563eb" />
+                <path d="M120 120 120 224a104 104 0 0 1-90-52z" fill="#facc15" />
+                <path d="M120 120 30 172a104 104 0 0 1 0-104z" fill="#dc2626" />
+                <path d="M120 120 30 68a104 104 0 0 1 90-52z" fill="#8b5cf6" />
+                <circle cx="120" cy="120" r="36" fill="#ffffff" stroke="#1f2937" stroke-width="5" />
+                <text x="120" y="114" text-anchor="middle" class="plate-text">六大類</text>
+                <text x="120" y="138" text-anchor="middle" class="plate-text">均衡吃</text>
+              </svg>
+            </div>
+          </div>
+          <form class="login-card" id="loginForm">
+            <label for="playerName">名字或隊員代號</label>
+            <input id="playerName" name="playerName" type="text" maxlength="18" placeholder="例如：阿美、A1" />
+            <fieldset>
+              <legend>選擇登入模式</legend>
+              <div class="mode-grid" id="modeGrid"></div>
+            </fieldset>
+            <button class="primary-button" type="submit">隨機分隊並開始</button>
+          </form>
+        </section>
+        <section class="screen" id="gameScreen" aria-labelledby="gameModeTitle">
+          <div class="status-row">
+            <div class="player-card" id="playerCard"></div>
+            <div class="scoreboard" aria-live="polite">
+              <div class="team-score red"><span>紅隊</span><strong id="redScore">0</strong></div>
+              <div class="team-score blue"><span>藍隊</span><strong id="blueScore">0</strong></div>
+            </div>
+          </div>
+          <div class="game-layout">
+            <section class="question-panel" aria-live="polite">
+              <p class="round-pill" id="roundInfo">第 1 題</p>
+              <h2 id="gameModeTitle"></h2>
+              <p class="question-text" id="questionText"></p>
+              <div class="answer-grid" id="answerGrid"></div>
+              <div class="feedback" id="feedback" role="status"></div>
+            </section>
+            <aside class="control-panel" aria-label="搶答與控制">
+              <div class="buzz-card">
+                <p class="panel-label">搶答區</p>
+                <button class="buzz red" id="redBuzz" type="button">紅隊搶答</button>
+                <button class="buzz blue" id="blueBuzz" type="button">藍隊搶答</button>
+                <p class="buzzer-status" id="buzzerStatus">請先按下隊伍搶答鍵</p>
+              </div>
+              <div class="host-actions">
+                <button class="secondary-button" id="nextButton" type="button" disabled>下一題</button>
+                <button class="secondary-button" id="resetBuzzButton" type="button">重新搶答</button>
+                <button class="ghost-button wide" id="changeModeButton" type="button">回模式選擇</button>
+              </div>
+              <details class="source-box">
+                <summary>資料來源重點</summary>
+                <ul>
+                  <li>雲端硬碟最新教案：2026-05-05「我的餐盤健康吃，代謝、肌少遠離我」。</li>
+                  <li>雲端硬碟最新簡報：2026-05-05 建立、2026-02-20 更新「我的餐盤-標準教學簡報」。</li>
+                  <li>國健署「我的餐盤」六口訣與六大類食物資料。</li>
+                </ul>
+              </details>
+            </aside>
+          </div>
+        </section>
+      </main>
+    </div>
+    <dialog id="shareDialog" class="share-dialog" aria-labelledby="shareTitle">
+      <h2 id="shareTitle">掃描加入遊戲</h2>
+      <p>發布到 GitHub Pages 後，這裡會自動用目前網址產生 QR Code。</p>
+      <img id="qrImage" alt="遊戲網址 QR Code" />
+      <input id="shareUrl" readonly />
+      <button class="primary-button" id="closeShare" type="button">關閉</button>
+    </dialog>
+    <script src="app.js"></script>
+  </body>
+</html>
