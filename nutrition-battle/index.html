@@ -40,6 +40,12 @@
         <section class="screen" id="studentScreen"><div class="student-wrap"><div class="panel join-panel" id="joinPanel"><p class="eyebrow">學員進場</p><h2>輸入名字加入活動</h2><label for="joinCode">場次代碼</label><input id="joinCode" maxlength="8" autocomplete="off" /><label for="studentName">名字</label><input id="studentName" maxlength="18" placeholder="例如：阿美、A1" /><button class="primary" id="joinRoom" type="button">加入並自動分隊</button></div><div class="student-game hidden" id="studentGame"><div class="student-team" id="studentTeam"></div><div class="score-strip compact"><div class="score red"><span>紅隊</span><strong id="studentRedScore">0</strong></div><div class="score blue"><span>藍隊</span><strong id="studentBlueScore">0</strong></div></div><div class="question-board"><p class="round" id="studentRound">等待開始</p><h2 id="studentQuestion">請看講台畫面，等待講師開始。</h2><button class="buzz-me" id="buzzMe" type="button" disabled>我要搶答</button><div class="answers" id="studentAnswers"></div><div class="buzz-status" id="studentBuzz">尚未開放搶答</div></div></div></div></section>
       </main>
     </div>
+    <script>
+      if (!localStorage.getItem("nutrition_config_v3_ready")) {
+        localStorage.removeItem("nutrition_firebase_config");
+        localStorage.setItem("nutrition_config_v3_ready", "1");
+      }
+    </script>
     <script type="module" src="app-v3.js"></script>
   </body>
 </html>
