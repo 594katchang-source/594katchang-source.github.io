@@ -68,7 +68,8 @@ const state = {
   db: null,
   roomData: null,
   selectedCount: 10,
-  sound: true
+  sound: true,
+  celebratedKey: ""
 };
 localStorage.setItem("nutrition_uid", state.uid);
 
@@ -120,7 +121,7 @@ function playTone(kind) {
   const audio = new AudioContext();
   const gain = audio.createGain();
   const osc = audio.createOscillator();
-  const freq = { join: 520, buzz: 760, right: 920, wrong: 160, next: 440 }[kind] || 440;
+  const freq = { join: 520, buzz: 760, right: 920, wrong: 160, next: 440, award: 1040 }[kind] || 440;
   osc.frequency.value = freq;
   osc.type = kind === "wrong" ? "sawtooth" : "sine";
   gain.gain.setValueAtTime(0.001, audio.currentTime);
@@ -129,6 +130,10 @@ function playTone(kind) {
   osc.connect(gain).connect(audio.destination);
   osc.start();
   osc.stop(audio.currentTime + 0.24);
+}
+
+function playVictory() {
+  ["right", "next", "buzz", "award", "right"].forEach((kind, index) => setTimeout(() => playTone(kind), index * 150));
 }
 
 function renderModeOptions() {
@@ -142,22 +147,12 @@ async function createRoom() {
     el("hostBuzz").textContent = "正在建立場次...";
     initFirebase(config);
     state.room = randomRoomCode();
+    state.celebratedKey = "";
     const mode = el("modeSelect").value;
     const count = Math.max(1, Math.min(60, Number(el("customCount").value || state.selectedCount)));
     const bank = banks[mode].questions;
     const order = shuffle(bank.map((_, index) => index)).slice(0, Math.min(count, bank.length));
-    await set(roomRef(), {
-      code: state.room,
-      mode,
-      requestedCount: count,
-      order,
-      index: -1,
-      status: "lobby",
-      scores: { red: 0, blue: 0 },
-      buzz: null,
-      answer: null,
-      createdAt: serverTimestamp()
-    });
+    await set(roomRef(), { code: state.room, mode, requestedCount: count, order, index: -1, status: "lobby", scores: { red: 0, blue: 0 }, buzz: null, answer: null, createdAt: serverTimestamp() });
     listenRoom();
     const joinUrl = `${location.origin}${location.pathname}?room=${state.room}&cfg=${encodeConfig(config)}`;
     el("roomCode").textContent = state.room;
@@ -180,8 +175,10 @@ async function nextQuestion() {
   const data = state.roomData;
   if (!data) return;
   const next = (data.index ?? -1) + 1;
-  if (next >= data.order.length) await update(roomRef(), { status: "ended", buzz: null });
-  else {
+  if (next >= data.order.length) {
+    await update(roomRef(), { status: "ended", buzz: null });
+    playVictory();
+  } else {
     await update(roomRef(), { index: next, buzz: null, answer: null, status: "playing" });
     playTone("next");
   }
@@ -189,6 +186,7 @@ async function nextQuestion() {
 
 async function endRoom() {
   await update(roomRef(), { status: "ended", buzz: null });
+  playVictory();
 }
 
 async function joinRoom() {
@@ -256,19 +254,52 @@ function listenRoom() {
   });
 }
 
+function maybeCelebrate(data) {
+  const key = `${state.room}:${data.status}:${data.scores?.red || 0}:${data.scores?.blue || 0}`;
+  if (data.status === "ended" && state.celebratedKey !== key) {
+    state.celebratedKey = key;
+    playVictory();
+  }
+}
+
+function championInfo(scores = {}) {
+  const red = scores.red || 0;
+  const blue = scores.blue || 0;
+  if (red === blue) return { team: "tie", label: "雙方平手", className: "tie" };
+  return red > blue ? { team: "red", label: "紅隊冠軍", className: "red" } : { team: "blue", label: "藍隊冠軍", className: "blue" };
+}
+
+function reviewQuestions(data) {
+  return (data.order || []).map((questionIndex, index) => ({ number: index + 1, question: banks[data.mode].questions[questionIndex] }));
+}
+
+function renderFinale(data, prefix) {
+  const champion = championInfo(data.scores);
+  const red = data.scores?.red || 0;
+  const blue = data.scores?.blue || 0;
+  el(`${prefix}Round`).textContent = "活動結束";
+  el(`${prefix}Question`).innerHTML = `<div class="champion-card ${champion.className}"><div class="fireworks" aria-hidden="true"><span></span><span></span><span></span><span></span></div><p>頒獎時間</p><strong>${champion.label}</strong><small>紅隊 ${red} 分　藍隊 ${blue} 分</small></div>`;
+  const answers = el(`${prefix}Answers`);
+  answers.classList.add("final-review");
+  answers.innerHTML = reviewQuestions(data).map(({ number, question }) => `<article class="review-item"><p>第 ${number} 題</p><h3>${escapeHtml(question.text)}</h3><strong>答案：${escapeHtml(question.options[question.answer])}</strong><span>${escapeHtml(question.explain)}</span></article>`).join("");
+  el(`${prefix}Buzz`).textContent = champion.team === "tie" ? "今天兩隊表現一樣精彩，可以一起討論答題策略。" : `${champion.label}，掌聲鼓勵！`;
+}
+
 function renderHost() {
   const data = state.roomData;
   if (!data) return;
+  maybeCelebrate(data);
   el("hostRedScore").textContent = data.scores?.red || 0;
   el("hostBlueScore").textContent = data.scores?.blue || 0;
   renderRoster(data.players || {});
+  el("startRound").disabled = data.status !== "lobby";
+  el("nextQuestion").disabled = data.status !== "playing" || !data.answer;
+  if (data.status === "ended") return renderFinale(data, "host");
   const question = currentQuestion(data);
-  el("hostRound").textContent = data.status === "ended" ? "活動結束" : data.index >= 0 ? `第 ${data.index + 1} 題 / ${data.order.length}` : `等待學員加入：${banks[data.mode].label}`;
+  el("hostRound").textContent = data.index >= 0 ? `第 ${data.index + 1} 題 / ${data.order.length}` : `等待學員加入：${banks[data.mode].label}`;
   el("hostQuestion").textContent = question ? question.text : "學員掃描 QR Code 後，名字會出現在隊伍名單。";
   renderAnswers(el("hostAnswers"), question, data.answer, false);
   el("hostBuzz").textContent = buzzText(data);
-  el("startRound").disabled = data.status !== "lobby";
-  el("nextQuestion").disabled = data.status !== "playing" || !data.answer;
 }
 
 function renderRoster(players) {
@@ -283,12 +314,14 @@ function renderStudent() {
   const data = state.roomData;
   const me = data?.players?.[state.uid];
   if (!data || !me) return;
+  maybeCelebrate(data);
   el("studentTeam").className = `student-team ${me.team}`;
   el("studentTeam").textContent = `${me.name}，你是${me.team === "red" ? "紅隊" : "藍隊"}`;
   el("studentRedScore").textContent = data.scores?.red || 0;
   el("studentBlueScore").textContent = data.scores?.blue || 0;
+  if (data.status === "ended") return renderFinale(data, "student");
   const question = currentQuestion(data);
-  el("studentRound").textContent = data.status === "ended" ? "活動結束" : data.index >= 0 ? `第 ${data.index + 1} 題 / ${data.order.length}` : "等待講師開始";
+  el("studentRound").textContent = data.index >= 0 ? `第 ${data.index + 1} 題 / ${data.order.length}` : "等待講師開始";
   el("studentQuestion").textContent = question ? question.text : "請看講台畫面，等待講師開始。";
   el("buzzMe").disabled = data.status !== "playing" || Boolean(data.buzz) || Boolean(data.answer);
   renderAnswers(el("studentAnswers"), question, data.answer, data.buzz?.uid === state.uid && !data.answer);
@@ -296,6 +329,7 @@ function renderStudent() {
 }
 
 function renderAnswers(container, question, answer, clickable) {
+  container.classList.remove("final-review");
   if (!question) {
     container.innerHTML = "";
     return;
@@ -315,7 +349,6 @@ function renderAnswers(container, question, answer, clickable) {
 }
 
 function buzzText(data) {
-  if (data.status === "ended") return `活動結束。紅隊 ${data.scores?.red || 0} 分，藍隊 ${data.scores?.blue || 0} 分。`;
   if (data.answer) return `${data.answer.name} 已作答：${data.answer.correct ? "答對" : "答錯"}。${data.answer.explain}`;
   if (data.buzz) return `${data.buzz.name}（${data.buzz.team === "red" ? "紅隊" : "藍隊"}）搶到答題權。`;
   if (data.status === "playing") return "開放搶答。";
@@ -327,14 +360,8 @@ function escapeHtml(value) {
 }
 
 function setupEvents() {
-  el("hostEntry").addEventListener("click", () => {
-    state.role = "host";
-    show(loadConfig() ? "hostScreen" : "setupScreen");
-  });
-  el("studentEntry").addEventListener("click", () => {
-    state.role = "student";
-    show(loadConfig() ? "studentScreen" : "setupScreen");
-  });
+  el("hostEntry").addEventListener("click", () => { state.role = "host"; show(loadConfig() ? "hostScreen" : "setupScreen"); });
+  el("studentEntry").addEventListener("click", () => { state.role = "student"; show(loadConfig() ? "studentScreen" : "setupScreen"); });
   el("saveConfig").addEventListener("click", () => {
     try {
       const config = JSON.parse(el("firebaseConfig").value);
@@ -360,10 +387,7 @@ function setupEvents() {
   el("endRoom").addEventListener("click", endRoom);
   el("joinRoom").addEventListener("click", joinRoom);
   el("buzzMe").addEventListener("click", buzzMe);
-  el("soundToggle").addEventListener("click", () => {
-    state.sound = !state.sound;
-    el("soundToggle").textContent = state.sound ? "音效" : "靜音";
-  });
+  el("soundToggle").addEventListener("click", () => { state.sound = !state.sound; el("soundToggle").textContent = state.sound ? "音效" : "靜音"; });
 }
 
 function boot() {
