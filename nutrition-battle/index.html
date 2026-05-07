@@ -6,6 +6,20 @@
     <title>營養對戰教室</title>
     <meta name="description" content="講師投影、學員手機同步參與的營養教育對戰活動。" />
     <link rel="stylesheet" href="styles.css" />
+    <script>
+      window.NUTRITION_FIREBASE_CONFIG = {
+        apiKey: "AIzaSyBFPjEXxNp5-UPqApClA1FaACD4UE6aRT0",
+        authDomain: "realtime-database-2fcbb.firebaseapp.com",
+        databaseURL: "https://realtime-database-2fcbb-default-rtdb.firebaseio.com",
+        projectId: "realtime-database-2fcbb",
+        storageBucket: "realtime-database-2fcbb.firebasestorage.app",
+        messagingSenderId: "7723390214",
+        appId: "1:7723390214:web:a227cd5d88b9f01274fa87"
+      };
+      if (!localStorage.getItem("nutrition_firebase_config")) {
+        localStorage.setItem("nutrition_firebase_config", JSON.stringify(window.NUTRITION_FIREBASE_CONFIG));
+      }
+    </script>
   </head>
   <body>
     <div class="app">
@@ -26,7 +40,7 @@
           </div>
           <div class="choice-row"><button class="primary" id="hostEntry" type="button">我是講師，建立場次</button><button class="secondary" id="studentEntry" type="button">我是學員，輸入代碼</button></div>
         </section>
-        <section class="screen" id="setupScreen"><div class="panel"><p class="eyebrow">第一次使用設定</p><h2>貼上 Firebase 設定</h2><p class="lead small">多人手機同步需要即時資料庫。請建立 Firebase Realtime Database，將 Web app config 貼在這裡。設定會放進 QR Code，學員掃碼後會進同一個資料庫。</p><textarea id="firebaseConfig" spellcheck="false" placeholder='例如：{"apiKey":"...","authDomain":"...","databaseURL":"...","projectId":"...","appId":"..."}'></textarea><div class="hint-box"><strong>Realtime Database 規則建議：</strong><pre>{
+        <section class="screen" id="setupScreen"><div class="panel"><p class="eyebrow">Firebase 設定</p><h2>已內建設定</h2><p class="lead small">目前已內建 Firebase 設定。若日後要換專案，可在這裡貼新的 Web app config。</p><textarea id="firebaseConfig" spellcheck="false" placeholder='例如：{"apiKey":"...","authDomain":"...","databaseURL":"...","projectId":"...","appId":"..."}'></textarea><div class="hint-box"><strong>Realtime Database 規則建議：</strong><pre>{
   "rules": {
     "rooms": {
       "$room": {
@@ -35,7 +49,7 @@
       }
     }
   }
-}</pre></div><div class="choice-row"><button class="primary" id="saveConfig" type="button">儲存設定</button><button class="ghost" id="skipConfig" type="button">先看介面</button></div></div></section>
+}</pre></div><div class="choice-row"><button class="primary" id="saveConfig" type="button">儲存設定</button><button class="ghost" id="skipConfig" type="button">使用內建設定</button></div></div></section>
         <section class="screen" id="hostScreen"><div class="host-layout"><aside class="panel host-controls"><p class="eyebrow">講師主控</p><label for="modeSelect">活動模式</label><select id="modeSelect"></select><label for="questionPreset">題數</label><div class="segmented"><button data-count="10" type="button">10 題</button><button data-count="20" type="button">20 題</button><button data-count="custom" type="button">自填</button></div><input id="customCount" type="number" min="1" max="60" value="10" /><button class="primary" id="createRoom" type="button">建立新場次</button><button class="secondary" id="startRound" type="button" disabled>開始活動</button><button class="secondary" id="nextQuestion" type="button" disabled>下一題</button><button class="danger" id="endRoom" type="button" disabled>結束場次</button></aside><section class="stage"><div class="room-banner"><div><p class="eyebrow">場次代碼</p><strong id="roomCode">尚未建立</strong></div><img id="qrCode" alt="學員加入 QR Code" /></div><div class="score-strip"><div class="score red"><span>紅隊</span><strong id="hostRedScore">0</strong></div><div class="score blue"><span>藍隊</span><strong id="hostBlueScore">0</strong></div></div><div class="question-board"><p class="round" id="hostRound">等待講師建立場次</p><h2 id="hostQuestion">學員掃描 QR Code 後，名字會出現在隊伍名單。</h2><div class="answers" id="hostAnswers"></div><div class="buzz-status" id="hostBuzz">尚未搶答</div></div><div class="team-rosters"><div class="roster red"><h3>紅隊隊員</h3><ul id="redRoster"></ul></div><div class="roster blue"><h3>藍隊隊員</h3><ul id="blueRoster"></ul></div></div></section></div></section>
         <section class="screen" id="studentScreen"><div class="student-wrap"><div class="panel join-panel" id="joinPanel"><p class="eyebrow">學員進場</p><h2>輸入名字加入活動</h2><label for="joinCode">場次代碼</label><input id="joinCode" maxlength="8" autocomplete="off" /><label for="studentName">名字</label><input id="studentName" maxlength="18" placeholder="例如：阿美、A1" /><button class="primary" id="joinRoom" type="button">加入並自動分隊</button></div><div class="student-game hidden" id="studentGame"><div class="student-team" id="studentTeam"></div><div class="score-strip compact"><div class="score red"><span>紅隊</span><strong id="studentRedScore">0</strong></div><div class="score blue"><span>藍隊</span><strong id="studentBlueScore">0</strong></div></div><div class="question-board"><p class="round" id="studentRound">等待開始</p><h2 id="studentQuestion">請看講台畫面，等待講師開始。</h2><button class="buzz-me" id="buzzMe" type="button" disabled>我要搶答</button><div class="answers" id="studentAnswers"></div><div class="buzz-status" id="studentBuzz">尚未開放搶答</div></div></div></div></section>
       </main>
