@@ -10,15 +10,13 @@
       window.NUTRITION_FIREBASE_CONFIG = {
         apiKey: "AIzaSyBFPjEXxNp5-UPqApClA1FaACD4UE6aRT0",
         authDomain: "realtime-database-2fcbb.firebaseapp.com",
-        databaseURL: "https://realtime-database-2fcbb-default-rtdb.firebaseio.com",
+        databaseURL: "https://realtime-database-2fcbb-default-rtdb.asia-southeast1.firebasedatabase.app",
         projectId: "realtime-database-2fcbb",
         storageBucket: "realtime-database-2fcbb.firebasestorage.app",
         messagingSenderId: "7723390214",
         appId: "1:7723390214:web:a227cd5d88b9f01274fa87"
       };
-      if (!localStorage.getItem("nutrition_firebase_config")) {
-        localStorage.setItem("nutrition_firebase_config", JSON.stringify(window.NUTRITION_FIREBASE_CONFIG));
-      }
+      localStorage.setItem("nutrition_firebase_config", JSON.stringify(window.NUTRITION_FIREBASE_CONFIG));
     </script>
   </head>
   <body>
