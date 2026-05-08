@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>草木心語 情緒覺察卡</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+<div><p class="kicker">草木心語 情緒覺察卡</p><h1>36 張互動卡牌</h1><p class="desc">首頁直接呈現 36 張背面。點選卡牌後會翻面並放大成正面說明，背面植物名稱與正面內容使用同一筆資料綁定，避免配對錯誤。</p></div>
+<div class="status">正反面配對：36 / 36</div>
+</header>
+<main class="grid" id="grid" aria-label="36 張卡牌背面"></main>
+</div>
+<div class="modal" id="modal" aria-modal="true" role="dialog">
+<div class="frontCard">
+<button class="close" id="close" aria-label="關閉">×</button>
+<div class="card" style="inset:0"><div class="inner">
+<div class="frame"></div><div class="orb top"></div><div class="orb bottom"></div><div class="no" id="frontNo"></div>
+<div class="plantArt" aria-hidden="true"><div class="stem"></div><div class="leaf l1"></div><div class="leaf l2"></div><div class="leaf l3"></div><div class="leaf l4"></div><div class="leaf l5"></div><div class="flower"></div></div>
+<div class="textPanel"><div class="content">
+<h2 class="title" id="frontTitle"></h2><p class="descText" id="frontDesc"></p>
+<div class="qa"><div class="box"><h3>問題</h3><p id="frontQuestion"></p></div><div class="box"><h3>練習</h3><p id="frontPractice"></p></div></div>
+<div class="pair" id="pair"></div>
+</div></div>
+</div></div>
+</div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
