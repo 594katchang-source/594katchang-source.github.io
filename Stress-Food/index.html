@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stress Food</title>
+    <meta
+      name="description"
+      content="用生活壓力情境練習組合健康紓壓飲食的線上解謎遊戲。"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="game-shell">
+      <section class="hero-strip" aria-labelledby="game-title">
+        <div>
+          <p class="eyebrow">Stress Food</p>
+          <h1 id="game-title">Stress Food</h1>
+          <p class="designer">設計：張雁雲營養師 / 食品營養博士 / 健康管理碩</p>
+        </div>
+        <div class="hero-actions">
+          <a class="home-link" href="https://594katchang-source.github.io/info">回首頁</a>
+          <button class="icon-button" id="resetButton" type="button" aria-label="重新開始">
+            <span aria-hidden="true">↻</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="mission-panel" aria-labelledby="scenarioTitle">
+        <div class="scene-card">
+          <p class="card-kind" id="scenarioCode">情境 A</p>
+          <h2 id="scenarioTitle">深夜趕工時分</h2>
+          <p id="scenarioText"></p>
+          <div class="tag-row" id="tagRow" aria-label="情境標籤"></div>
+        </div>
+
+        <div class="goal-card">
+          <p class="eyebrow">第一步：判斷壓力飲食需求</p>
+          <h2>這一關最需要補強什麼？</h2>
+          <div class="goal-options" id="goalOptions"></div>
+        </div>
+      </section>
+
+      <section class="builder-grid">
+        <aside class="pantry-panel" aria-labelledby="pantry-title">
+          <div class="panel-heading">
+            <h2 id="pantry-title">食材卡</h2>
+            <span id="pickCounter">已選 0/4</span>
+          </div>
+          <div class="food-grid" id="foodGrid"></div>
+        </aside>
+
+        <section class="plate-panel" aria-labelledby="plate-title">
+          <div class="panel-heading">
+            <h2 id="plate-title">你的餐盤</h2>
+            <button class="small-button ghost" id="clearPlateButton" type="button">清空</button>
+          </div>
+          <div class="plate-zone" id="plateZone" aria-live="polite">
+            <p>從左邊選 2 到 4 張食材卡，組成你在這個情境下會選的飲食。</p>
+          </div>
+          <div class="action-row">
+            <button class="small-button" id="submitButton" type="button">提交餐盤</button>
+            <button class="small-button next" id="nextButton" type="button">下一關</button>
+          </div>
+        </section>
+
+        <aside class="score-panel" aria-labelledby="score-title">
+          <div class="panel-heading">
+          <h2 id="score-title">營養雷達</h2>
+            <strong id="roundValue">1/5</strong>
+          </div>
+          <div class="radar-list" id="radarList"></div>
+          <div class="total-score">
+            <span>總分</span>
+            <strong id="scoreValue">0</strong>
+          </div>
+        </aside>
+      </section>
+
+      <section class="feedback-panel" aria-live="polite">
+        <div>
+          <p class="eyebrow">解謎回饋</p>
+          <h2 id="feedbackTitle">先判斷，再組餐</h2>
+          <p id="feedbackText">每一關都不是背標準答案，而是練習在真實生活中做有理由的飲食取捨。</p>
+        </div>
+        <ol id="roundLog" aria-label="關卡紀錄"></ol>
+      </section>
+
+      <footer class="site-footer">
+        <span>Stress Food</span>
+        <span>設計：張雁雲營養師 / 食品營養博士 / 健康管理碩</span>
+        <a href="https://594katchang-source.github.io/info">回首頁</a>
+      </footer>
+    </main>
+
+    <template id="foodTemplate">
+      <button class="food-card" type="button">
+        <span class="food-icon" aria-hidden="true"></span>
+        <strong></strong>
+        <small></small>
+      </button>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>
