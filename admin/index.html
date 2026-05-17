@@ -6,28 +6,35 @@
   <title>Blog 編輯器 | Kat Chang</title>
   <link rel="stylesheet" href="../styles.css">
   <style>
-    .admin-wrap{max-width:920px;margin:0 auto;padding:48px 18px 80px}.admin-form{display:grid;gap:16px}.field{display:grid;gap:7px}.field label{font-weight:800}.field input,.field textarea{width:100%;border:1px solid var(--line);border-radius:14px;padding:12px 14px;font:inherit;background:#fff;color:var(--ink)}.field textarea{min-height:150px;resize:vertical}.note{padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#f8fbf7;color:var(--muted)}.admin-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:8px}.status{white-space:pre-line;border-radius:14px;padding:14px 16px;background:#173d33;color:#fff;display:none}.status.show{display:block}.preview{margin-top:26px}.preview .post-card{pointer-events:none}.danger-note{background:#fff7ed;border-color:#fed7aa;color:#7c2d12}</style>
+    .admin-wrap{max-width:920px;margin:0 auto;padding:48px 18px 80px}.admin-form{display:grid;gap:16px}.field{display:grid;gap:7px}.field label{font-weight:800}.field input,.field textarea,.field select{width:100%;border:1px solid var(--line);border-radius:14px;padding:12px 14px;font:inherit;background:#fff;color:var(--ink)}.field textarea{min-height:150px;resize:vertical}.note{padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#f8fbf7;color:var(--muted)}.admin-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:8px}.status{white-space:pre-line;border-radius:14px;padding:14px 16px;background:#173d33;color:#fff;display:none}.status.show{display:block}.preview{margin-top:26px}.preview .post-card{pointer-events:none}.danger-note{background:#fff7ed;border-color:#fed7aa;color:#7c2d12}.admin-panel{margin:22px 0;padding:18px;border:1px solid var(--line);border-radius:18px;background:#fff}.mode-label{font-weight:900;color:var(--green-dark)}</style>
 </head>
 <body>
   <header class="site-header"><a class="brand" href="../"><span>Kat Chang</span></a><nav><a href="../">首頁</a><a href="../blog/">Blog</a></nav></header>
   <main class="admin-wrap">
     <p class="eyebrow">Admin</p>
-    <h1>新增衛教文章</h1>
-    <p class="lead">此頁會把文章資料寫入 <code>blog/posts.json</code>，圖片寫入 <code>blog/images/</code>。需要 GitHub fine-grained token，權限只開此 repository 的 Contents read/write。</p>
+    <h1>衛教文章編輯器</h1>
+    <p class="lead">可新增或修改文章。文章資料寫入 <code>blog/posts.json</code>，圖片寫入 <code>blog/images/</code>。需要 GitHub fine-grained token，權限為 Contents read/write。</p>
     <div class="note danger-note">Token 只存在目前瀏覽器頁面記憶體，不會存到網站或 localStorage。請不要在公共電腦使用。</div>
-    <form id="editor" class="admin-form">
+
+    <section class="admin-panel">
       <div class="field"><label for="token">GitHub token</label><input id="token" name="token" type="password" autocomplete="off" required placeholder="github_pat_..."></div>
+      <div class="admin-actions"><button class="btn" id="loadPostsBtn" type="button">載入既有文章</button><button class="btn" id="newPostBtn" type="button">新增模式</button></div>
+      <div class="field"><label for="postSelect">選擇要修改的文章</label><select id="postSelect"><option value="">尚未載入</option></select></div>
+      <p class="note">目前模式：<span id="modeLabel" class="mode-label">新增文章</span></p>
+    </section>
+
+    <form id="editor" class="admin-form">
       <div class="field"><label for="title">標題</label><input id="title" name="title" required></div>
       <div class="field"><label for="date">日期</label><input id="date" name="date" type="date" required></div>
       <div class="field"><label for="slug">文章 ID / 網址代號</label><input id="slug" name="slug" required placeholder="例如: protein-breakfast"></div>
       <div class="field"><label for="excerpt">摘要</label><textarea id="excerpt" name="excerpt" required></textarea></div>
       <div class="field"><label for="body">內文</label><textarea id="body" name="body" required placeholder="可直接貼文字。空白行會自動分段。若要用 HTML，也可以直接輸入 <h2> 與 <p>。"></textarea></div>
-      <div class="field"><label for="image">封面圖片</label><input id="image" name="image" type="file" accept="image/*"></div>
-      <div class="admin-actions"><button class="btn primary" type="submit">發布到 Blog</button><button class="btn" id="previewBtn" type="button">預覽</button></div>
+      <div class="field"><label for="image">封面圖片</label><input id="image" name="image" type="file" accept="image/*"><small id="currentImage"></small></div>
+      <div class="admin-actions"><button class="btn primary" type="submit">發布/更新 Blog</button><button class="btn" id="previewBtn" type="button">預覽</button></div>
     </form>
     <div id="status" class="status"></div>
     <section class="preview"><div id="preview"></div></section>
   </main>
-  <script src="admin.js"></script>
+  <script src="admin.js?v=20260517-edit"></script>
 </body>
 </html>
