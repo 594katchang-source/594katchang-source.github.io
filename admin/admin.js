@@ -68,7 +68,7 @@ form.addEventListener('submit', async (event) => {
     dateInput.valueAsDate = new Date();
     previewBox.innerHTML = '';
   } catch (error) {
-    setStatus(`發布失敗：${error.message}`);
+    setStatus(`發布失敗：${friendlyGitHubError(error.message)}`);
   }
 });
 
@@ -117,6 +117,16 @@ function authHeaders(token) {
     Accept: 'application/vnd.github+json',
     'X-GitHub-Api-Version': '2022-11-28'
   };
+}
+
+function friendlyGitHubError(message) {
+  if (message.includes('403') && message.includes('Resource not accessible by personal access token')) {
+    return 'GitHub token 沒有 Contents 寫入權限。請到 token 設定確認 Repository permissions 裡是「Contents: Read and write」，不是「Repository advisories」。Repository access 必須包含 594katchang-source/594katchang-source.github.io。';
+  }
+  if (message.includes('404')) {
+    return '找不到 repo 或檔案。請確認 token 的 Resource owner 是 594katchang-source，且 Repository access 包含 594katchang-source/594katchang-source.github.io。';
+  }
+  return message;
 }
 
 function slugify(value) {
