@@ -1,0 +1,38 @@
+# robots.txt for https://594katchang-source.github.io/
+# Optimized for Search Engines & AI Search Assistants (ChatGPT, Claude, Perplexity, Gemini, etc.)
+
+User-agent: *
+Allow: /
+Allow: /teach/
+Allow: /teach/Stress-Food/
+Allow: /teach/emotion-cards/
+Allow: /teach/nutrition-battle/
+Allow: /blog/
+
+# Explicitly Allow AI Crawler Bots (Preventing automatic blocklists)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# Sitemap Location
+Sitemap: https://594katchang-source.github.io/sitemap.xml
