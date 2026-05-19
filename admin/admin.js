@@ -1,22 +1,200 @@
-const OWNER='594katchang-source';const REPO='594katchang-source.github.io';const BRANCH='main';const POSTS_PATH='blog/posts.json';const API=`https://api.github.com/repos/${OWNER}/${REPO}/contents/`;
-const form=document.querySelector('#editor'),statusBox=document.querySelector('#status'),previewBox=document.querySelector('#preview'),dateInput=document.querySelector('#date'),titleInput=document.querySelector('#title'),slugInput=document.querySelector('#slug'),tokenInput=document.querySelector('#token'),postSelect=document.querySelector('#postSelect'),modeLabel=document.querySelector('#modeLabel'),currentImage=document.querySelector('#currentImage'),keywordsInput=document.querySelector('#keywords'),showOnHomeInput=document.querySelector('#showOnHome');
-let loadedPosts=[],postsSha='',editingId='';dateInput.valueAsDate=new Date();
-titleInput.addEventListener('input',()=>{if(slugInput.dataset.touched||editingId)return;slugInput.value=slugify(titleInput.value)});slugInput.addEventListener('input',()=>{slugInput.dataset.touched='1'});document.querySelector('#previewBtn').addEventListener('click',renderPreview);document.querySelector('#loadPostsBtn').addEventListener('click',loadPostsForEdit);document.querySelector('#newPostBtn').addEventListener('click',resetToNewMode);postSelect.addEventListener('change',()=>{if(postSelect.value)fillPost(postSelect.value)});
-form.addEventListener('submit',async event=>{event.preventDefault();setStatus('準備發布...');const data=readForm();try{validateToken(data.token);if(!postsSha)await loadPostsData(data.token);const posts=[...loadedPosts];const existingIndex=posts.findIndex(post=>post.id===editingId);const sameSlugIndex=posts.findIndex(post=>post.id===data.slug);if(!editingId&&sameSlugIndex>=0)throw new Error(`文章 ID 已存在：${data.slug}`);if(editingId&&sameSlugIndex>=0&&sameSlugIndex!==existingIndex)throw new Error(`文章 ID 已被其他文章使用：${data.slug}`);const homeCount=posts.filter((post,index)=>post.showOnHome===true&&index!==existingIndex).length;if(data.showOnHome&&homeCount>=4)throw new Error('首頁精選文章最多四則。請先取消其他文章的「顯示在首頁」。');
-let image=data.existingImage||'';if(data.imageFile){setStatus('上傳圖片...');const ext=extensionFromFile(data.imageFile);const imagePath=`blog/images/${data.slug}.${ext}`;const oldImage=await getOptionalFile(imagePath,data.token);const imageBase64=await fileToBase64(data.imageFile);await githubPut(imagePath,data.token,{message:`Upload blog image ${data.slug}`,content:imageBase64,sha:oldImage?.sha,branch:BRANCH});image=imagePath.replace(/^blog\//,'')}
-const post={id:data.slug,title:data.title,date:data.date,image,excerpt:data.excerpt,keywords:data.keywords,showOnHome:data.showOnHome,body:normalizeBody(data.body)};if(editingId&&existingIndex>=0){posts[existingIndex]=post}else{posts.unshift(post)}setStatus('更新文章列表...');await githubPut(POSTS_PATH,data.token,{message:editingId?`Update blog post ${data.slug}`:`Add blog post ${data.slug}`,content:encodeBase64Utf8(JSON.stringify({posts},null,2)+'\n'),sha:postsSha,branch:BRANCH});loadedPosts=posts;editingId=data.slug;setStatus(`完成。\n文章網址：../blog/post.html?id=${encodeURIComponent(data.slug)}`);populateSelect();postSelect.value=data.slug;modeLabel.textContent='編輯文章';currentImage.textContent=image?`目前圖片：${image}`:''}catch(error){setStatus(`發布失敗：${friendlyGitHubError(error.message)}`)}});
-async function loadPostsForEdit(){try{validateToken(tokenInput.value.trim());await loadPostsData(tokenInput.value.trim());populateSelect();setStatus('已載入既有文章，請從下拉選單選擇要修改的文章。')}catch(error){setStatus(`載入失敗：${friendlyGitHubError(error.message)}`)}}
-async function loadPostsData(token){const postsFile=await githubGet(POSTS_PATH,token);postsSha=postsFile.sha;const postsData=JSON.parse(decodeBase64Utf8(postsFile.content));loadedPosts=Array.isArray(postsData.posts)?postsData.posts:[];return loadedPosts}
-function populateSelect(){postSelect.innerHTML='<option value="">選擇文章</option>'+loadedPosts.map(post=>`<option value="${escapeHtml(post.id)}">${post.showOnHome?'★ ':''}${escapeHtml(post.date||'')} ${escapeHtml(post.title)}</option>`).join('')}
-function fillPost(id){const post=loadedPosts.find(item=>item.id===id);if(!post)return;editingId=post.id;modeLabel.textContent='編輯文章';titleInput.value=post.title||'';dateInput.value=post.date||'';slugInput.value=post.id||'';slugInput.dataset.touched='1';document.querySelector('#excerpt').value=post.excerpt||'';keywordsInput.value=Array.isArray(post.keywords)?post.keywords.join(', '):'';showOnHomeInput.checked=post.showOnHome===true;document.querySelector('#body').value=htmlToEditableText(post.body||'');document.querySelector('#image').value='';currentImage.textContent=post.image?`目前圖片：${post.image}。如需更換，重新選一張圖片。`:'';renderPreview()}
-function resetToNewMode(){editingId='';modeLabel.textContent='新增文章';form.reset();dateInput.valueAsDate=new Date();slugInput.dataset.touched='';currentImage.textContent='';previewBox.innerHTML='';postSelect.value=''}
-function readForm(){const existing=editingId?loadedPosts.find(post=>post.id===editingId):null;return{token:tokenInput.value.trim(),title:titleInput.value.trim(),date:dateInput.value,slug:slugify(slugInput.value),excerpt:document.querySelector('#excerpt').value.trim(),keywords:keywordsInput.value.split(/[,，]/).map(s=>s.trim()).filter(Boolean).slice(0,5),showOnHome:showOnHomeInput.checked,body:document.querySelector('#body').value.trim(),imageFile:document.querySelector('#image').files[0],existingImage:existing?.image||''}}
-function renderPreview(){const data=readForm();const html=normalizeBody(data.body);previewBox.innerHTML=`<article class="post-card"><div><div class="post-meta">${escapeHtml(data.date)}${data.showOnHome?'｜首頁精選':''}</div><h3>${escapeHtml(data.title||'未命名文章')}</h3><p>${escapeHtml(data.excerpt||'摘要將由內文自動擷取')}</p><div class="keywords">${data.keywords.map(k=>`<span>${escapeHtml(k)}</span>`).join('')}</div><div class="article-body">${html}</div></div></article>`}
-function normalizeBody(body){if(/<[a-z][\s\S]*>/i.test(body))return body;return body.split(/\n\s*\n/).filter(Boolean).map(p=>`<p>${escapeHtml(p).replace(/\n/g,'<br>')}</p>`).join('')}
+const OWNER='594katchang-source';
+const REPO='594katchang-source.github.io';
+const BRANCH='main';
+const POSTS_PATH='blog/posts.json';
+const API=`https://api.github.com/repos/${OWNER}/${REPO}/contents/`;
+
+const form=document.querySelector('#editor'),statusBox=document.querySelector('#status'),previewBox=document.querySelector('#preview'),dateInput=document.querySelector('#date'),titleInput=document.querySelector('#title'),slugInput=document.querySelector('#slug'),tokenInput=document.querySelector('#token'),postSelect=document.querySelector('#postSelect'),modeLabel=document.querySelector('#modeLabel'),currentImage=document.querySelector('#currentImage'),keywordsInput=document.querySelector('#keywords'),showOnHomeInput=document.querySelector('#showOnHome'),deletePostBtn=document.querySelector('#deletePostBtn');
+let loadedPosts=[],postsSha='',editingId='';
+dateInput.valueAsDate=new Date();
+
+titleInput.addEventListener('input',()=>{if(slugInput.dataset.touched||editingId)return;slugInput.value=slugify(titleInput.value)});
+slugInput.addEventListener('input',()=>{slugInput.dataset.touched='1'});
+document.querySelector('#previewBtn').addEventListener('click',renderPreview);
+document.querySelector('#loadPostsBtn').addEventListener('click',loadPostsForEdit);
+document.querySelector('#newPostBtn').addEventListener('click',resetToNewMode);
+deletePostBtn.addEventListener('click',deleteCurrentPost);
+postSelect.addEventListener('change',()=>{if(postSelect.value)fillPost(postSelect.value);else resetToNewMode()});
+
+form.addEventListener('submit',async event=>{
+  event.preventDefault();
+  setStatus('準備發布...');
+  const data=readForm();
+  try{
+    validateToken(data.token);
+    if(!postsSha)await loadPostsData(data.token);
+    const posts=[...loadedPosts];
+    const existingIndex=posts.findIndex(post=>post.id===editingId);
+    const sameSlugIndex=posts.findIndex(post=>post.id===data.slug);
+    if(!editingId&&sameSlugIndex>=0)throw new Error(`文章 ID 已存在：${data.slug}`);
+    if(editingId&&sameSlugIndex>=0&&sameSlugIndex!==existingIndex)throw new Error(`文章 ID 已被其他文章使用：${data.slug}`);
+    const homeCount=posts.filter((post,index)=>post.showOnHome===true&&index!==existingIndex).length;
+    if(data.showOnHome&&homeCount>=4)throw new Error('首頁精選文章最多四則。請先取消其他文章的「顯示在首頁」。');
+    let image=data.existingImage||'';
+    if(data.imageFile){
+      setStatus('上傳圖片...');
+      const ext=extensionFromFile(data.imageFile);
+      const imagePath=`blog/images/${data.slug}.${ext}`;
+      const oldImage=await getOptionalFile(imagePath,data.token);
+      const imageBase64=await fileToBase64(data.imageFile);
+      await githubPut(imagePath,data.token,{message:`Upload blog image ${data.slug}`,content:imageBase64,sha:oldImage?.sha,branch:BRANCH});
+      image=imagePath.replace(/^blog\//,'');
+    }
+    const post={id:data.slug,title:data.title,date:data.date,image,excerpt:data.excerpt,keywords:data.keywords,showOnHome:data.showOnHome,body:normalizeBody(data.body)};
+    if(editingId&&existingIndex>=0){posts[existingIndex]=post}else{posts.unshift(post)}
+    setStatus('更新文章列表...');
+    const result=await githubPut(POSTS_PATH,data.token,{message:editingId?`Update blog post ${data.slug}`:`Add blog post ${data.slug}`,content:encodeBase64Utf8(JSON.stringify({posts},null,2)+'\n'),sha:postsSha,branch:BRANCH});
+    postsSha=result.content?.sha||postsSha;
+    loadedPosts=posts;
+    editingId=data.slug;
+    setStatus(`完成。\n文章網址：../blog/post.html?id=${encodeURIComponent(data.slug)}`);
+    populateSelect();
+    postSelect.value=data.slug;
+    modeLabel.textContent='編輯文章';
+    deletePostBtn.disabled=false;
+    currentImage.textContent=image?`目前圖片：${image}`:'';
+  }catch(error){setStatus(`發布失敗：${friendlyGitHubError(error.message)}`)}
+});
+
+async function loadPostsForEdit(){
+  try{
+    validateToken(tokenInput.value.trim());
+    await loadPostsData(tokenInput.value.trim());
+    populateSelect();
+    deletePostBtn.disabled=true;
+    setStatus('已載入既有文章，請從下拉選單選擇要修改或刪除的文章。');
+  }catch(error){setStatus(`載入失敗：${friendlyGitHubError(error.message)}`)}
+}
+
+async function loadPostsData(token){
+  const postsFile=await githubGet(POSTS_PATH,token);
+  postsSha=postsFile.sha;
+  const postsData=JSON.parse(decodeBase64Utf8(postsFile.content));
+  loadedPosts=Array.isArray(postsData.posts)?postsData.posts:[];
+  return loadedPosts;
+}
+
+function populateSelect(){
+  postSelect.innerHTML='<option value="">選擇文章</option>'+loadedPosts.map(post=>`<option value="${escapeHtml(post.id)}">${post.showOnHome?'★ ':''}${escapeHtml(post.date||'')} ${escapeHtml(post.title)}</option>`).join('');
+}
+
+function fillPost(id){
+  const post=loadedPosts.find(item=>item.id===id);
+  if(!post)return;
+  editingId=post.id;
+  modeLabel.textContent='編輯文章';
+  deletePostBtn.disabled=false;
+  titleInput.value=post.title||'';
+  dateInput.value=post.date||'';
+  slugInput.value=post.id||'';
+  slugInput.dataset.touched='1';
+  document.querySelector('#excerpt').value=post.excerpt||'';
+  keywordsInput.value=Array.isArray(post.keywords)?post.keywords.join(', '):'';
+  showOnHomeInput.checked=post.showOnHome===true;
+  document.querySelector('#body').value=htmlToEditableText(post.body||'');
+  document.querySelector('#image').value='';
+  currentImage.textContent=post.image?`目前圖片：${post.image}。如需更換，重新選一張圖片。`:'';
+  renderPreview();
+}
+
+function resetToNewMode(){
+  editingId='';
+  modeLabel.textContent='新增文章';
+  deletePostBtn.disabled=true;
+  form.reset();
+  dateInput.valueAsDate=new Date();
+  slugInput.dataset.touched='';
+  currentImage.textContent='';
+  previewBox.innerHTML='';
+  postSelect.value='';
+}
+
+async function deleteCurrentPost(){
+  const token=tokenInput.value.trim();
+  try{
+    validateToken(token);
+    if(!editingId)throw new Error('請先從下拉選單選擇要刪除的文章。');
+    if(!postsSha)await loadPostsData(token);
+    const post=loadedPosts.find(item=>item.id===editingId);
+    if(!post)throw new Error('找不到目前選取的文章，請重新載入文章列表。');
+    const confirmed=window.confirm(`確定刪除「${post.title||post.id}」？\n\n此動作會從 Blog 列表移除文章，並嘗試刪除未被其他文章共用的封面圖。`);
+    if(!confirmed)return;
+    setStatus('刪除文章資料...');
+    const posts=loadedPosts.filter(item=>item.id!==editingId);
+    const result=await githubPut(POSTS_PATH,token,{message:`Delete blog post ${post.id}`,content:encodeBase64Utf8(JSON.stringify({posts},null,2)+'\n'),sha:postsSha,branch:BRANCH});
+    postsSha=result.content?.sha||postsSha;
+    loadedPosts=posts;
+    let imageMessage='';
+    if(post.image&&!posts.some(item=>item.image===post.image)){
+      const imagePath=post.image.startsWith('blog/')?post.image:`blog/${post.image}`;
+      const imageFile=await getOptionalFile(imagePath,token);
+      if(imageFile?.sha){
+        setStatus('刪除文章資料...\n刪除封面圖片...');
+        await githubDelete(imagePath,token,{message:`Delete blog image for ${post.id}`,sha:imageFile.sha,branch:BRANCH});
+        imageMessage=`\n已刪除封面圖：${post.image}`;
+      }
+    }
+    const deletedTitle=post.title||post.id;
+    resetToNewMode();
+    populateSelect();
+    setStatus(`已刪除文章：${deletedTitle}${imageMessage}`);
+  }catch(error){setStatus(`刪除失敗：${friendlyGitHubError(error.message)}`)}
+}
+
+function readForm(){
+  const existing=editingId?loadedPosts.find(post=>post.id===editingId):null;
+  return{token:tokenInput.value.trim(),title:titleInput.value.trim(),date:dateInput.value,slug:slugify(slugInput.value),excerpt:document.querySelector('#excerpt').value.trim(),keywords:keywordsInput.value.split(/[,，]/).map(s=>s.trim()).filter(Boolean).slice(0,5),showOnHome:showOnHomeInput.checked,body:document.querySelector('#body').value.trim(),imageFile:document.querySelector('#image').files[0],existingImage:existing?.image||''};
+}
+
+function renderPreview(){
+  const data=readForm();
+  const html=normalizeBody(data.body);
+  previewBox.innerHTML=`<article class="post-card"><div><div class="post-meta">${escapeHtml(data.date)}${data.showOnHome?'｜首頁精選':''}</div><h3>${escapeHtml(data.title||'未命名文章')}</h3><p>${escapeHtml(data.excerpt||'摘要將由內文自動擷取')}</p><div class="keywords">${data.keywords.map(k=>`<span>${escapeHtml(k)}</span>`).join('')}</div><div class="article-body">${html}</div></div></article>`;
+}
+
+function normalizeBody(body){
+  if(/<[a-z][\s\S]*>/i.test(body))return body;
+  return body.split(/\n\s*\n/).filter(Boolean).map(p=>`<p>${escapeHtml(p).replace(/\n/g,'<br>')}</p>`).join('');
+}
+
 function htmlToEditableText(html){return html.replace(/<\/p>\s*<p>/g,'\n\n').replace(/^<p>|<\/p>$/g,'').replace(/<br\s*\/?>/g,'\n')}
-async function githubGet(path,token){const res=await fetch(`${API}${path}?ref=${BRANCH}`,{headers:authHeaders(token)});if(!res.ok)throw new Error(`GitHub 讀取失敗 ${res.status}: ${await res.text()}`);return res.json()}
-async function getOptionalFile(path,token){const res=await fetch(`${API}${path}?ref=${BRANCH}`,{headers:authHeaders(token)});if(res.status===404)return null;if(!res.ok)throw new Error(`GitHub 讀取檔案失敗 ${res.status}: ${await res.text()}`);return res.json()}
-async function githubPut(path,token,payload){const clean=Object.fromEntries(Object.entries(payload).filter(([,value])=>value!==undefined&&value!==null));const res=await fetch(`${API}${path}`,{method:'PUT',headers:{...authHeaders(token),'Content-Type':'application/json'},body:JSON.stringify(clean)});if(!res.ok)throw new Error(`GitHub 寫入失敗 ${res.status}: ${await res.text()}`);return res.json()}
-function authHeaders(token){return{Authorization:`Bearer ${token}`,Accept:'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'}}function validateToken(token){if(!token.startsWith('github_')&&!token.startsWith('ghp_'))throw new Error('GitHub token 格式看起來不正確。')}
-function friendlyGitHubError(message){if(message.includes('403')&&message.includes('Resource not accessible by personal access token'))return'GitHub token 沒有 Contents 寫入權限。請確認 Repository permissions 是「Contents: Read and write」。';if(message.includes('404'))return'找不到 repo 或檔案。請確認 token 的 Resource owner 是 594katchang-source，且 Repository access 包含 594katchang-source/594katchang-source.github.io。';return message}
-function slugify(value){return value.trim().toLowerCase().replace(/[^a-z0-9\u4e00-\u9fa5]+/g,'-').replace(/^-+|-+$/g,'').slice(0,80)}function extensionFromFile(file){const byName=file.name.split('.').pop()?.toLowerCase();if(byName&&/^[a-z0-9]+$/.test(byName))return byName==='jpeg'?'jpg':byName;const byType=file.type.split('/').pop();return byType||'png'}function fileToBase64(file){return new Promise((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve(String(reader.result).split(',')[1]);reader.onerror=()=>reject(reader.error);reader.readAsDataURL(file)})}function encodeBase64Utf8(value){return btoa(unescape(encodeURIComponent(value)))}function decodeBase64Utf8(value){return decodeURIComponent(escape(atob(value.replace(/\n/g,''))))}function escapeHtml(value){return String(value).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[char]))}function setStatus(message){statusBox.textContent=message;statusBox.classList.add('show')}
+
+async function githubGet(path,token){
+  const res=await fetch(`${API}${path}?ref=${BRANCH}`,{headers:authHeaders(token)});
+  if(!res.ok)throw new Error(`GitHub 讀取失敗 ${res.status}: ${await res.text()}`);
+  return res.json();
+}
+async function getOptionalFile(path,token){
+  const res=await fetch(`${API}${path}?ref=${BRANCH}`,{headers:authHeaders(token)});
+  if(res.status===404)return null;
+  if(!res.ok)throw new Error(`GitHub 讀取檔案失敗 ${res.status}: ${await res.text()}`);
+  return res.json();
+}
+async function githubPut(path,token,payload){
+  const clean=Object.fromEntries(Object.entries(payload).filter(([,value])=>value!==undefined&&value!==null));
+  const res=await fetch(`${API}${path}`,{method:'PUT',headers:{...authHeaders(token),'Content-Type':'application/json'},body:JSON.stringify(clean)});
+  if(!res.ok)throw new Error(`GitHub 寫入失敗 ${res.status}: ${await res.text()}`);
+  return res.json();
+}
+async function githubDelete(path,token,payload){
+  const clean=Object.fromEntries(Object.entries(payload).filter(([,value])=>value!==undefined&&value!==null));
+  const res=await fetch(`${API}${path}`,{method:'DELETE',headers:{...authHeaders(token),'Content-Type':'application/json'},body:JSON.stringify(clean)});
+  if(!res.ok)throw new Error(`GitHub 刪除失敗 ${res.status}: ${await res.text()}`);
+  return res.json();
+}
+
+function authHeaders(token){return{Authorization:`Bearer ${token}`,Accept:'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'}}
+function validateToken(token){if(!token.startsWith('github_')&&!token.startsWith('ghp_'))throw new Error('GitHub token 格式看起來不正確。')}
+function friendlyGitHubError(message){
+  if(message.includes('403')&&message.includes('Resource not accessible by personal access token'))return'GitHub token 沒有 Contents 寫入權限。請確認 Repository permissions 是「Contents: Read and write」。';
+  if(message.includes('404'))return'找不到 repo 或檔案。請確認 token 的 Resource owner 是 594katchang-source，且 Repository access 包含 594katchang-source/594katchang-source.github.io。';
+  if(message.includes('409'))return'GitHub 檔案版本衝突。請按「載入既有文章」重新載入後再操作。';
+  return message;
+}
+function slugify(value){return value.trim().toLowerCase().replace(/[^a-z0-9\u4e00-\u9fa5]+/g,'-').replace(/^-+|-+$/g,'').slice(0,80)}
+function extensionFromFile(file){const byName=file.name.split('.').pop()?.toLowerCase();if(byName&&/^[a-z0-9]+$/.test(byName))return byName==='jpeg'?'jpg':byName;const byType=file.type.split('/').pop();return byType||'png'}
+function fileToBase64(file){return new Promise((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve(String(reader.result).split(',')[1]);reader.onerror=()=>reject(reader.error);reader.readAsDataURL(file)})}
+function encodeBase64Utf8(value){return btoa(unescape(encodeURIComponent(value)))}
+function decodeBase64Utf8(value){return decodeURIComponent(escape(atob(value.replace(/\n/g,''))))}
+function escapeHtml(value){return String(value).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[char]))}
+function setStatus(message){statusBox.textContent=message;statusBox.classList.add('show')}
