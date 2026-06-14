@@ -1,6 +1,7 @@
 # Kat Chang 凱特營養師
 
-Kat Chang 張雁雲營養師是食品營養博士、健康管理碩士與中高齡營養專家。網站提供營養衛教文章、授課主題、互動衛教工具與食品營養成分查詢。
+Kat Chang 張雁雲營養師是食品營養博士（高齡健康組）、美國健康管理碩士 MBA 與中高齡營養專家。
+「凱特指路，讓你年輕吃美食、年長吃好食！」
 
 ## 主要頁面
 
@@ -10,16 +11,33 @@ Kat Chang 張雁雲營養師是食品營養博士、健康管理碩士與中高�
 - 衛教文章：https://594katchang-source.github.io/blog/
 - 互動衛教工具：https://594katchang-source.github.io/teach/
 - NutriRank 食品營養排行榜：https://594katchang-source.github.io/teach/nutritionranking/
+- Stress Food 壓力飲食教具：https://594katchang-source.github.io/teach/Stress-Food/
+- 情緒覺察卡：https://594katchang-source.github.io/teach/emotion-cards/
+- Nutrition Battle：https://594katchang-source.github.io/teach/nutrition-battle/
 
 ## 專業主題
 
 - 中高齡營養與健康促進
-- 疾病營養、功能醫學與精準營養
+- 疾病營養、功能醫學（AFMCP）與精準營養
 - 保健食品、植物輔療與芳香調理
-- 營養衛教課程與互動教具
+- 營養衛教課程與互動教具設計
+- 企業健康促進講座
+- 減重班與個別營養諮詢
 
 ## 作者
 
-- 姓名：張雁雲營養師
+- 姓名：張雁雲營養師（Kat Chang，RD）
 - 品牌：Kat Chang 凱特營養師
+- 學歷：食品營養博士（高齡健康組）、美國健康管理碩士 MBA
+- 認證：美國功能醫學（AFMCP）、澳洲芳療認證
+- 官網：https://sites.google.com/view/katchang
+- 傳送門：https://portaly.cc/katchang
 - 聯絡：https://594katchang-source.github.io/#contact
+- Email：594katchang@gmail.com
+
+## 相關連結
+
+- Facebook: https://www.facebook.com/cthpa2019/
+- Instagram: https://www.instagram.com/rd.katchang
+- YouTube: https://www.youtube.com/@kat-7185
+- Line 官方帳號: https://lin.ee/uGHIQcH
