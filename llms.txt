@@ -1,0 +1,25 @@
+# Kat Chang 凱特營養師
+
+Kat Chang 張雁雲營養師是食品營養博士、健康管理碩士與中高齡營養專家。網站提供營養衛教文章、授課主題、互動衛教工具與食品營養成分查詢。
+
+## 主要頁面
+
+- 首頁：https://594katchang-source.github.io/
+- 專業簡介：https://594katchang-source.github.io/about.html
+- 授課主題：https://594katchang-source.github.io/class.html
+- 衛教文章：https://594katchang-source.github.io/blog/
+- 互動衛教工具：https://594katchang-source.github.io/teach/
+- NutriRank 食品營養排行榜：https://594katchang-source.github.io/teach/nutritionranking/
+
+## 專業主題
+
+- 中高齡營養與健康促進
+- 疾病營養、功能醫學與精準營養
+- 保健食品、植物輔療與芳香調理
+- 營養衛教課程與互動教具
+
+## 作者
+
+- 姓名：張雁雲營養師
+- 品牌：Kat Chang 凱特營養師
+- 聯絡：https://594katchang-source.github.io/#contact

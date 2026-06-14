@@ -6,4 +6,25 @@ function keywords(post){if(Array.isArray(post.keywords)&&post.keywords.length)re
 function truncate(text,max){return text.length>max?`${text.slice(0,max-1)}…`:text}
 function imageSrc(post){if(!post.image)return'images/default.svg';if(/^https?:\/\//.test(post.image)||post.image.startsWith('/'))return post.image;if(post.image.startsWith('blog/images/'))return post.image.replace(/^blog\//,'');if(post.image.startsWith('images/'))return post.image;return `images/${post.image}`}
 function card(post){return `<a class="post-card" href="post.html?id=${encodeURIComponent(post.id)}"><img class="post-thumb" src="${imageSrc(post)}" alt=""><div><div class="post-meta">${post.date}</div><h3>${post.title}</h3><p>${summary(post)}</p><div class="keywords">${keywords(post).map(k=>`<span>${k}</span>`).join('')}</div></div></a>`}
-async function main(){const res=await fetch('posts.json',{cache:'no-store'});const posts=(await res.json()).posts||[];const list=document.querySelector('#posts');if(list){list.innerHTML=posts.map(card).join('')||'<p>尚無文章。</p>';return}const article=document.querySelector('#article');if(article){const id=new URLSearchParams(location.search).get('id');const post=posts.find(p=>p.id===id)||posts[0];if(!post){article.innerHTML='<p>找不到文章。</p>';return}document.title=`${post.title} | Kat Chang`;article.innerHTML=`<a class="back-link" href="./">← 返回文章列表</a><div class="post-meta">${post.date}</div><h1>${post.title}</h1><div class="keywords">${keywords(post).map(k=>`<span>${k}</span>`).join('')}</div>${post.image?`<img class="article-cover" src="${imageSrc(post)}" alt="">`:''}<div class="article-body">${post.body||''}</div>`}}main().catch(()=>{const el=document.querySelector('#posts,#article');if(el)el.innerHTML='<p>內容載入失敗。</p>'});
+function setMeta(selector,attrs){let el=document.head.querySelector(selector);if(!el){el=document.createElement('meta');document.head.appendChild(el)}Object.entries(attrs).forEach(([key,value])=>el.setAttribute(key,value))}
+function setArticleSeo(post){
+  const url=`${location.origin}${location.pathname}?id=${encodeURIComponent(post.id)}`;
+  const description=summary(post);
+  const image=new URL(imageSrc(post),location.href).href;
+  document.title=`${post.title} | Kat Chang 凱特營養師`;
+  let canonical=document.head.querySelector('link[rel="canonical"]');
+  if(!canonical){canonical=document.createElement('link');canonical.rel='canonical';document.head.appendChild(canonical)}
+  canonical.href=url;
+  setMeta('meta[name="description"]',{name:'description',content:description});
+  setMeta('meta[name="robots"]',{name:'robots',content:'index, follow, max-image-preview:large, max-snippet:-1'});
+  setMeta('meta[property="og:type"]',{property:'og:type',content:'article'});
+  setMeta('meta[property="og:title"]',{property:'og:title',content:post.title});
+  setMeta('meta[property="og:description"]',{property:'og:description',content:description});
+  setMeta('meta[property="og:url"]',{property:'og:url',content:url});
+  setMeta('meta[property="og:image"]',{property:'og:image',content:image});
+  setMeta('meta[property="article:published_time"]',{property:'article:published_time',content:post.date});
+  let jsonLd=document.querySelector('#article-jsonld');
+  if(!jsonLd){jsonLd=document.createElement('script');jsonLd.type='application/ld+json';jsonLd.id='article-jsonld';document.head.appendChild(jsonLd)}
+  jsonLd.textContent=JSON.stringify({'@context':'https://schema.org','@type':'BlogPosting',headline:post.title,description,image:[image],datePublished:post.date,dateModified:post.date,mainEntityOfPage:url,author:{'@type':'Person',name:'張雁雲營養師',alternateName:'Kat Chang 凱特營養師',url:'https://594katchang-source.github.io/about.html'},publisher:{'@type':'Person',name:'張雁雲營養師',url:'https://594katchang-source.github.io/'}});
+}
+async function main(){const res=await fetch('posts.json',{cache:'no-store'});const posts=(await res.json()).posts||[];const list=document.querySelector('#posts');if(list){list.innerHTML=posts.map(card).join('')||'<p>尚無文章。</p>';return}const article=document.querySelector('#article');if(article){const id=new URLSearchParams(location.search).get('id');const post=posts.find(p=>p.id===id)||posts[0];if(!post){article.innerHTML='<p>找不到文章。</p>';return}setArticleSeo(post);article.innerHTML=`<a class="back-link" href="./">← 返回文章列表</a><div class="post-meta">${post.date}｜作者：<a href="../about.html">張雁雲營養師</a></div><h1>${post.title}</h1><div class="keywords">${keywords(post).map(k=>`<span>${k}</span>`).join('')}</div>${post.image?`<img class="article-cover" src="${imageSrc(post)}" alt="${post.title}">`:''}<div class="article-body">${post.body||''}</div>`}}main().catch(()=>{const el=document.querySelector('#posts,#article');if(el)el.innerHTML='<p>內容載入失敗。</p>'});
