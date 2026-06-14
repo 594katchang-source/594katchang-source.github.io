@@ -215,6 +215,32 @@ button {
   justify-content: space-between;
 }
 
+.creator-home-link {
+  display: block;
+  width: fit-content;
+  margin: -5px auto 10px;
+  padding: 3px 12px;
+  color: var(--text-secondary);
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 999px;
+}
+
+.creator-home-link:hover,
+.creator-home-link:focus-visible {
+  color: var(--color-primary-hover);
+  background: var(--color-primary-light);
+}
+
+@media (max-width: 768px) {
+  .creator-home-link {
+    width: calc(100% - 30px);
+    margin-top: 0;
+    font-size: 0.78rem;
+  }
+}
+
 .logo-area {
   display: flex;
   align-items: center;
@@ -2009,4 +2035,3 @@ button {
     grid-template-columns: 1fr 1fr;
   }
 }
-
