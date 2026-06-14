@@ -217,13 +217,14 @@ button {
 
 .creator-home-link {
   display: block;
-  width: fit-content;
+  width: 100%;
+  max-width: 1400px;
   margin: -5px auto 10px;
-  padding: 3px 12px;
+  padding: 3px 25px;
   color: var(--text-secondary);
   font-size: 0.88rem;
   font-weight: 700;
-  text-align: center;
+  text-align: left;
   border-radius: 999px;
 }
 
@@ -235,8 +236,9 @@ button {
 
 @media (max-width: 768px) {
   .creator-home-link {
-    width: calc(100% - 30px);
+    width: 100%;
     margin-top: 0;
+    padding: 3px 15px;
     font-size: 0.78rem;
   }
 }
