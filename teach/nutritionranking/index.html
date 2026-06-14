@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NutriRank - 台灣地區食品營養成分排行榜與查詢系統</title>
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="運用台灣食藥署(TFDA)公開資料庫製作的食品營養成分排行榜與查詢系統。提供三大營養素、維生素、礦物質在六大類食物中的排行榜，並提供兩千多種食材的營養標示與對比工具。">
+  <meta name="keywords" content="食品營養成分資料庫, 營養排行榜, 礦物質, 維生素, 三大營養素, 六大類食物, 營養素查詢, 鉀排行榜, 鈣排行榜">
+  <!-- Unique element IDs for testability -->
+  <meta name="app-id" content="nutrirank-spa-v1">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Custom Styling -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme">
+  <!-- App Container -->
+  <div id="app-root" class="layout">
+    
+    <!-- Header Navigation -->
+    <header class="main-header">
+      <div class="header-container">
+        <div class="logo-area" id="nav-logo">
+          <span class="logo-icon">🥗</span>
+          <h1 class="logo-text">NutriRank <span class="logo-sub">食品營養排行榜</span></h1>
+        </div>
+        <nav class="nav-links">
+          <a href="#" class="nav-item active" id="btn-nav-home" data-view="home">首頁</a>
+          <a href="#" class="nav-item" id="btn-nav-rank" data-view="rank">營養排行榜</a>
+          <a href="#" class="nav-item" id="btn-nav-search" data-view="search">食品查詢</a>
+          <a href="#" class="nav-item" id="btn-nav-compare" data-view="compare">
+            食品對比
+            <span class="compare-badge" id="compare-count" style="display: none;">0</span>
+          </a>
+          <a href="#" class="nav-item" id="btn-nav-matrix" data-view="matrix">進階交叉查詢</a>
+        </nav>
+        <div class="header-actions">
+          <button class="theme-toggle" id="btn-theme-toggle" title="切換深淺色主題">
+            <span class="theme-icon">🌙</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="content-viewport">
+      
+      <!-- 1. HOME VIEW -->
+      <section id="view-home" class="app-view active-view">
+        <div class="hero-banner">
+          <div class="hero-content">
+            <h2>找尋食材中的營養密碼</h2>
+            <p>依據衛生福利部食品藥物管理署最新「食品營養成分資料庫」整合開發，助您精準掌握食材的營養核心。</p>
+            <div class="hero-search-bar">
+              <input type="text" id="home-search-input" placeholder="輸入食材名稱，如：鯖魚、馬鈴薯、燕麥...">
+              <button id="home-search-btn">搜尋食材</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="home-presets-grid">
+          <!-- Preset 1: Macronutrients -->
+          <div class="preset-card glass-panel" id="preset-macro">
+            <div class="preset-header macro-accent">
+              <span class="preset-icon">🔥</span>
+              <h3>三大營養素 & 熱量</h3>
+            </div>
+            <p class="preset-desc">人體主要的能量與結構來源，維持日常代謝和機能運作。</p>
+            <ul class="preset-links">
+              <li><a href="#" data-nutrient="calories">熱量 (Calories)</a></li>
+              <li><a href="#" data-nutrient="protein">粗蛋白 (Protein)</a></li>
+              <li><a href="#" data-nutrient="fat">粗脂肪 (Fat)</a></li>
+              <li><a href="#" data-nutrient="carbs">總碳水化合物 (Carbs)</a></li>
+              <li><a href="#" data-nutrient="fiber">膳食纖維 (Fiber)</a></li>
+              <li><a href="#" data-nutrient="sugar">糖質總量 (Sugars)</a></li>
+              <li><a href="#" data-nutrient="water">水分 (Water)</a></li>
+            </ul>
+          </div>
+
+          <!-- Preset 2: Minerals -->
+          <div class="preset-card glass-panel" id="preset-mineral">
+            <div class="preset-header mineral-accent">
+              <span class="preset-icon">⛰️</span>
+              <h3>礦物質</h3>
+            </div>
+            <p class="preset-desc">構成身體組織、調節生理機能不可或缺的微量金屬與非金屬元素。</p>
+            <ul class="preset-links">
+              <li><a href="#" data-nutrient="calcium">鈣 (Calcium)</a></li>
+              <li><a href="#" data-nutrient="potassium">鉀 (Potassium)</a></li>
+              <li><a href="#" data-nutrient="iron">鐵 (Iron)</a></li>
+              <li><a href="#" data-nutrient="sodium">鈉 (Sodium)</a></li>
+              <li><a href="#" data-nutrient="zinc">鋅 (Zinc)</a></li>
+              <li><a href="#" data-nutrient="magnesium">鎂 (Magnesium)</a></li>
+              <li><a href="#" data-nutrient="phosphorus">磷 (Phosphorus)</a></li>
+            </ul>
+          </div>
+
+          <!-- Preset 3: Vitamins -->
+          <div class="preset-card glass-panel" id="preset-vitamin">
+            <div class="preset-header vitamin-accent">
+              <span class="preset-icon">🧪</span>
+              <h3>維生素</h3>
+            </div>
+            <p class="preset-desc">參與人體各種生化反應，是細胞修護與能量轉換的重要輔酶。</p>
+            <ul class="preset-links">
+              <li><a href="#" data-nutrient="vitA">維生素 A (Vitamin A)</a></li>
+              <li><a href="#" data-nutrient="vitB1">維生素 B1</a></li>
+              <li><a href="#" data-nutrient="vitB2">維生素 B2</a></li>
+              <li><a href="#" data-nutrient="vitB6">維生素 B6</a></li>
+              <li><a href="#" data-nutrient="vitB12">維生素 B12</a></li>
+              <li><a href="#" data-nutrient="vitC">維生素 C (Vitamin C)</a></li>
+              <li><a href="#" data-nutrient="vitD">維生素 D (Vitamin D)</a></li>
+              <li><a href="#" data-nutrient="vitE">維生素 E (Vitamin E)</a></li>
+              <li><a href="#" data-nutrient="folate">葉酸 (Folate)</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Info Section -->
+        <div class="home-info-section glass-panel">
+          <h3>💡 食品分類與膳食建議指南</h3>
+          <div class="info-content-grid">
+            <div class="info-box">
+              <h4>六大類食物分類標準</h4>
+              <p>我們將庫中 2,181 種食品，對應台灣國健署劃分的<strong>六大類食物</strong>，以便您快速對比同類食物中的營養素密度，做出最健康的選擇。</p>
+            </div>
+            <div class="info-box">
+              <h4>什麼是每100公克含量？</h4>
+              <p>本站所有營養素排名與數值均以 <strong>100公克 (100g) 可食部分</strong>為單位計算。這提供了國際通用的標準化基準，方便對比不同食材的真實營養密度。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. RANKING VIEW -->
+      <section id="view-rank" class="app-view">
+        <div class="rank-layout">
+          <!-- Sidebar selector -->
+          <aside class="rank-sidebar glass-panel">
+            <div class="sidebar-group">
+              <h4>三大營養素</h4>
+              <div class="sidebar-buttons" id="rank-btns-macro"></div>
+            </div>
+            <div class="sidebar-group">
+              <h4>礦物質</h4>
+              <div class="sidebar-buttons" id="rank-btns-mineral"></div>
+            </div>
+            <div class="sidebar-group">
+              <h4>維生素</h4>
+              <div class="sidebar-buttons" id="rank-btns-vitamin"></div>
+            </div>
+          </aside>
+
+          <!-- Main ranking panel -->
+          <div class="rank-main-panel">
+            <div class="rank-header-card glass-panel">
+              <div class="rank-title-row">
+                <h2 id="active-nutrient-name">--- 排行榜</h2>
+                <span class="unit-badge" id="active-nutrient-unit">每 100g 含量</span>
+              </div>
+              <p id="active-nutrient-desc" class="nutrient-desc-text">請在左側選擇一個營養素，查看它在六大類食物中的排行榜。</p>
+            </div>
+
+            <!-- 6 Columns grid for the 6 Major Food Groups + Others -->
+            <div class="food-groups-rank-grid" id="groups-rank-container">
+              <!-- Dynamically populated 7 categories columns -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. SEARCH VIEW -->
+      <section id="view-search" class="app-view">
+        <div class="search-controls-card glass-panel">
+          <h2>🔍 食品綜合查詢</h2>
+          <p>可透過關鍵字搜尋所有食材，並依類別篩選，點擊可看完整台灣格式營養標示。</p>
+          <div class="search-input-row">
+            <div class="input-wrapper">
+              <input type="text" id="search-keyword-input" placeholder="輸入食材關鍵字...如：牛肉、豆腐、芭樂">
+              <span class="search-clear-btn" id="search-clear-btn" style="display: none;">×</span>
+            </div>
+            <button id="search-btn">立即查詢</button>
+          </div>
+          <div class="filter-group">
+            <span class="filter-label">食物類別篩選：</span>
+            <div class="filter-chips" id="search-category-chips">
+              <button class="chip active" data-category="all">全部</button>
+              <button class="chip" data-category="grains">全穀雜糧類</button>
+              <button class="chip" data-category="beans-meat">豆魚蛋肉類</button>
+              <button class="chip" data-category="dairy">乳品類</button>
+              <button class="chip" data-category="vegetables">蔬菜類</button>
+              <button class="chip" data-category="fruits">水果類</button>
+              <button class="chip" data-category="fats-nuts">油脂與堅果種子類</button>
+              <button class="chip" data-category="others">其他類</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="search-stats" id="search-stats-text">
+          請輸入關鍵字開始查詢食材營養成分...
+        </div>
+
+        <!-- Search Results Grid -->
+        <div class="search-results-grid" id="search-results-container">
+          <!-- Dynamically populated cards -->
+        </div>
+        
+        <!-- Pagination -->
+        <div class="pagination-container" id="pagination-controls" style="display: none;">
+          <button class="pag-btn" id="pag-prev">上一頁</button>
+          <span class="pag-info" id="pag-info">第 1 / 1 頁</span>
+          <button class="pag-btn" id="pag-next">下一頁</button>
+        </div>
+      </section>
+
+      <!-- 4. COMPARE VIEW -->
+      <section id="view-compare" class="app-view">
+        <div class="compare-intro-card glass-panel">
+          <h2>⚖️ 食品營養對比</h2>
+          <p>您可以將多達 3 種食材加入此面板，進行深入的 nutritional 對比。系統將以直觀的表格與柱狀圖，為您指出每項營養素最高與最低的食材選項。</p>
+          <div class="compare-actions-row">
+            <button class="btn-primary" id="btn-go-search-compare">前往搜尋食材並加入對比</button>
+            <button class="btn-danger" id="btn-clear-compare" style="display: none;">清空對比名單</button>
+          </div>
+        </div>
+
+        <!-- Selected items indicators -->
+        <div class="compared-items-row" id="compared-items-container">
+          <!-- Dynamically populated comparing items -->
+        </div>
+
+        <!-- Comparative Table and Charts -->
+        <div class="compare-details-wrapper" id="compare-details-section" style="display: none;">
+          <div class="compare-table-card glass-panel">
+            <h3>📊 營養數值對比表（每 100g 含量）</h3>
+            <div class="table-responsive">
+              <table class="compare-table" id="compare-matrix-table">
+                <thead>
+                  <tr id="compare-table-header">
+                    <th>營養分析項目</th>
+                    <!-- Food items headers -->
+                  </tr>
+                </thead>
+                <tbody id="compare-table-body">
+                  <!-- Generated comparison rows -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. MATRIX QUERY VIEW -->
+      <section id="view-matrix" class="app-view">
+        <div class="view-header">
+          <h2>📊 進階交叉查詢 (營養矩陣)</h2>
+          <p class="view-subtitle">自由選取多個「食物大類」與「營養素」，產生跨維度的營養成分比較矩陣，支援動態排序。</p>
+        </div>
+        
+        <!-- Filter Control Card -->
+        <div class="matrix-controls-card glass-panel animate-fade-in">
+          <div class="matrix-control-group">
+            <div class="group-title-row">
+              <h3>Step 1. 篩選食物大類</h3>
+              <div class="control-actions">
+                <button class="small-action-btn" id="btn-matrix-cat-all">全選</button>
+                <button class="small-action-btn" id="btn-matrix-cat-none">清空</button>
+              </div>
+            </div>
+            <div class="matrix-checkbox-grid" id="matrix-categories-container">
+              <!-- Dynamically populated categories -->
+            </div>
+          </div>
+          
+          <div class="matrix-control-group" style="margin-top: 25px;">
+            <div class="group-title-row">
+              <h3>Step 2. 選擇比較營養素</h3>
+              <div class="control-actions">
+                <button class="small-action-btn" id="btn-matrix-nut-presets-macro">三大營養素</button>
+                <button class="small-action-btn" id="btn-matrix-nut-presets-min">礦物質</button>
+                <button class="small-action-btn" id="btn-matrix-nut-presets-vit">維生素</button>
+                <button class="small-action-btn" id="btn-matrix-nut-presets-amino">胺基酸</button>
+                <button class="small-action-btn" id="btn-matrix-nut-presets-fatty">脂肪酸</button>
+                <button class="small-action-btn" id="btn-matrix-nut-presets-sugar">糖類</button>
+                <button class="small-action-btn" id="btn-matrix-nut-all">全選</button>
+                <button class="small-action-btn" id="btn-matrix-nut-none">清空</button>
+              </div>
+            </div>
+            
+            <div class="nutrient-groups-checkboxes">
+              <div class="nut-group-col">
+                <h4>🧪 三大營養素 & 宏量</h4>
+                <div class="matrix-checkbox-grid" id="matrix-nutrients-macro"></div>
+              </div>
+              <div class="nut-group-col">
+                <h4>⚡ 礦物質 & 微量元素</h4>
+                <div class="matrix-checkbox-grid" id="matrix-nutrients-mineral"></div>
+              </div>
+              <div class="nut-group-col">
+                <h4>☀️ 維生素</h4>
+                <div class="matrix-checkbox-grid" id="matrix-nutrients-vitamin"></div>
+              </div>
+              <div class="nut-group-col">
+                <h4>🧬 胺基酸</h4>
+                <div class="matrix-checkbox-grid" id="matrix-nutrients-amino"></div>
+              </div>
+              <div class="nut-group-col">
+                <h4>🥑 脂肪酸</h4>
+                <div class="matrix-checkbox-grid" id="matrix-nutrients-fatty"></div>
+              </div>
+              <div class="nut-group-col">
+                <h4>🍬 糖類 & 其他</h4>
+                <div class="matrix-checkbox-grid" id="matrix-nutrients-other"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Results Card -->
+        <div class="matrix-results-card glass-panel animate-fade-in" style="margin-top: 30px;">
+          <div class="matrix-results-header">
+            <div class="results-info">
+              <h3>🔍 查詢結果矩陣</h3>
+              <span class="results-badge" id="matrix-total-count">共 0 項食品</span>
+            </div>
+            <div class="results-actions">
+              <div class="search-box-mini">
+                <span class="search-icon-mini">🔍</span>
+                <input type="text" id="matrix-search-input" placeholder="在結果中搜尋食品名稱...">
+              </div>
+              <button class="action-btn-secondary" id="btn-matrix-export">
+                <span>📥 匯出 CSV</span>
+              </button>
+            </div>
+          </div>
+          
+          <!-- Table Wrapper -->
+          <div class="matrix-table-wrapper">
+            <table class="matrix-table" id="matrix-results-table">
+              <thead>
+                <!-- Dynamically populated headers -->
+              </thead>
+              <tbody>
+                <!-- Dynamically populated rows -->
+              </tbody>
+            </table>
+          </div>
+          
+          <!-- Pagination -->
+          <div class="matrix-pagination" id="matrix-pagination-container">
+            <!-- Pagination controls -->
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer Area -->
+    <footer class="main-footer">
+      <div class="footer-container">
+        <nav class="site-connection-links" aria-label="網站導覽">
+          <a href="../../">網站首頁</a>
+          <a href="../">互動衛教工具</a>
+        </nav>
+        <p>@2026 Kat Chang 凱特營養師｜中高齡營養專家</p>
+        <p>資料來源：中華民國衛生福利部食品藥物管理署公開資料集《食品營養成分資料庫》(Dataset ID: 8543)</p>
+        <p>本站僅提供數據排行榜參考，具體臨床飲食規劃請諮詢專業執業營養師或醫師。</p>
+      </div>
+    </footer>
+
+    <!-- SHIMMER/LOADING OVERLAY -->
+    <div id="loading-overlay" class="loading-overlay">
+      <div class="loader-content">
+        <div class="spinner" id="loading-spinner"></div>
+        <p class="loader-text" id="loader-status-text">載入食品成分資料庫中...</p>
+        <div class="progress-bar-wrapper">
+          <div class="progress-bar-inner" id="db-load-progress"></div>
+        </div>
+        <div id="loader-server-hint" style="display:none; margin-top:20px; padding:16px; background:rgba(255,255,255,0.12); border-radius:12px; border:1px solid rgba(255,100,100,0.3); text-align:left; max-width:420px;">
+          <p style="font-size:0.9rem; color:#ef4444; font-weight:700; margin-bottom:8px;">⚠️ 資料庫載入失敗</p>
+          <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:10px;">請勿直接以 <code style="background:rgba(0,0,0,0.1);padding:1px 5px;border-radius:4px;">file://</code> 開啟 HTML 檔案。<br>請透過 HTTP 伺服器訪問：</p>
+          <ol style="font-size:0.85rem; color:var(--text-secondary); padding-left:20px; line-height:2;">
+            <li>在專案資料夾開啟 PowerShell</li>
+            <li>執行：<code style="background:rgba(0,0,0,0.1);padding:1px 6px;border-radius:4px;">powershell -ExecutionPolicy Bypass -File server.ps1</code></li>
+            <li>瀏覽器前往：<a href="http://localhost:8000/" style="color:#10b981;font-weight:700;">http://localhost:8000/</a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- FOOD NUTRITIONfacts MODAL -->
+    <div id="detail-modal" class="modal-overlay">
+      <div class="modal-card glass-panel">
+        <button class="modal-close-btn" id="btn-modal-close">×</button>
+        
+        <div class="modal-header">
+          <span class="modal-category-tag" id="modal-food-category">魚貝類</span>
+          <h2 id="modal-food-name">鯖魚(炒)</h2>
+          <p class="modal-food-id">整合編號: <span id="modal-food-id-val">J0414801</span></p>
+          <p class="modal-food-subtitle" id="modal-food-subtitle" style="display:none;"></p>
+        </div>
+
+        <div class="modal-content-grid">
+          
+          <!-- Left side: Visual representation and daily values dials -->
+          <div class="modal-visuals">
+            <div class="macro-dials-row">
+              <div class="dial-card calories-accent">
+                <span class="dial-value" id="dial-calories">410</span>
+                <span class="dial-unit">kcal</span>
+                <span class="dial-label">熱量</span>
+              </div>
+              <div class="dial-card protein-accent">
+                <span class="dial-value" id="dial-protein">16.7</span>
+                <span class="dial-unit">g</span>
+                <span class="dial-label">蛋白質</span>
+              </div>
+              <div class="dial-card fat-accent">
+                <span class="dial-value" id="dial-fat">37.6</span>
+                <span class="dial-unit">g</span>
+                <span class="dial-label">脂肪</span>
+              </div>
+              <div class="dial-card carbs-accent">
+                <span class="dial-value" id="dial-carbs">0.1</span>
+                <span class="dial-unit">g</span>
+                <span class="dial-label">碳水化合物</span>
+              </div>
+            </div>
+
+            <!-- Dietary fibers & other indicators -->
+            <div class="secondary-indicators glass-panel">
+              <div class="ind-row">
+                <span>膳食纖維:</span>
+                <strong id="modal-ind-fiber">0 g</strong>
+              </div>
+              <div class="ind-row">
+                <span>糖質總量:</span>
+                <strong id="modal-ind-sugar">0 g</strong>
+              </div>
+              <div class="ind-row">
+                <span>膽固醇:</span>
+                <strong id="modal-ind-cholesterol">67 mg</strong>
+              </div>
+              <div class="ind-row">
+                <span>水分含量:</span>
+                <strong id="modal-ind-water">44.5 g</strong>
+              </div>
+            </div>
+
+            <!-- Compare Actions inside details -->
+            <div class="modal-actions-panel">
+              <button class="btn-action-primary" id="btn-modal-add-compare">加入食品對比</button>
+            </div>
+          </div>
+
+          <!-- Right side: Taiwan Package-Style Nutrition Facts Label -->
+          <div class="modal-label-container">
+            <div class="nutrition-label">
+              <div class="label-title">營養標示</div>
+              <div class="label-subtitle">每 100 公克 (g) 可食部分</div>
+              
+              <div class="label-divider thick"></div>
+              
+              <div class="label-row main-item">
+                <span>熱量</span>
+                <span class="label-val"><span id="lbl-calories">410</span> 大卡 (kcal)</span>
+              </div>
+              
+              <div class="label-divider"></div>
+              
+              <div class="label-row main-item">
+                <span>蛋白質</span>
+                <span class="label-val"><span id="lbl-protein">16.7</span> 公克 (g)</span>
+              </div>
+              
+              <div class="label-divider"></div>
+              
+              <div class="label-row main-item">
+                <span>脂肪</span>
+                <span class="label-val"><span id="lbl-fat">37.6</span> 公克 (g)</span>
+              </div>
+              <div class="label-row sub-item">
+                <span>飽和脂肪</span>
+                <span class="label-val"><span id="lbl-saturated-fat">--</span> 公克 (g)</span>
+              </div>
+              <div class="label-row sub-item">
+                <span>反式脂肪</span>
+                <span class="label-val"><span id="lbl-trans-fat">--</span> 公克 (g)</span>
+              </div>
+              
+              <div class="label-divider"></div>
+              
+              <div class="label-row main-item">
+                <span>碳水化合物</span>
+                <span class="label-val"><span id="lbl-carbs">0.1</span> 公克 (g)</span>
+              </div>
+              <div class="label-row sub-item">
+                <span>糖</span>
+                <span class="label-val"><span id="lbl-sugar">0</span> 公克 (g)</span>
+              </div>
+              <div class="label-row sub-item">
+                <span>膳食纖維</span>
+                <span class="label-val"><span id="lbl-fiber">0</span> 公克 (g)</span>
+              </div>
+              
+              <div class="label-divider"></div>
+              
+              <div class="label-row main-item">
+                <span>鈉</span>
+                <span class="label-val"><span id="lbl-sodium">68</span> 毫克 (mg)</span>
+              </div>
+
+              <div class="label-divider thick"></div>
+
+              <!-- Micro Minerals and Vitamins section -->
+              <div class="label-section-title">其他微量營養素資訊</div>
+              <div class="label-divider"></div>
+              
+              <div class="label-grid-row">
+                <div class="grid-cell">
+                  <span>鉀 (K):</span>
+                  <strong><span id="lbl-potassium">--</span> mg</strong>
+                </div>
+                <div class="grid-cell">
+                  <span>鈣 (Ca):</span>
+                  <strong><span id="lbl-calcium">--</span> mg</strong>
+                </div>
+              </div>
+              
+              <div class="label-grid-row">
+                <div class="grid-cell">
+                  <span>鎂 (Mg):</span>
+                  <strong><span id="lbl-magnesium">--</span> mg</strong>
+                </div>
+                <div class="grid-cell">
+                  <span>鐵 (Fe):</span>
+                  <strong><span id="lbl-iron">--</span> mg</strong>
+                </div>
+              </div>
+
+              <div class="label-grid-row">
+                <div class="grid-cell">
+                  <span>鋅 (Zn):</span>
+                  <strong><span id="lbl-zinc">--</span> mg</strong>
+                </div>
+                <div class="grid-cell">
+                  <span>磷 (P):</span>
+                  <strong><span id="lbl-phosphorus">--</span> mg</strong>
+                </div>
+              </div>
+              
+              <div class="label-divider"></div>
+              
+              <div class="label-grid-row">
+                <div class="grid-cell">
+                  <span>維生素 A:</span>
+                  <strong><span id="lbl-vitA">--</span> IU</strong>
+                </div>
+                <div class="grid-cell">
+                  <span>維生素 C:</span>
+                  <strong><span id="lbl-vitC">--</span> mg</strong>
+                </div>
+              </div>
+
+              <div class="label-grid-row">
+                <div class="grid-cell">
+                  <span>維生素 D:</span>
+                  <strong><span id="lbl-vitD">--</span> ug</strong>
+                </div>
+                <div class="grid-cell">
+                  <span>維生素 E:</span>
+                  <strong><span id="lbl-vitE">--</span> mg</strong>
+                </div>
+              </div>
+
+              <div class="label-grid-row">
+                <div class="grid-cell">
+                  <span>維生素 B1:</span>
+                  <strong><span id="lbl-vitB1">--</span> mg</strong>
+                </div>
+                <div class="grid-cell">
+                  <span>維生素 B2:</span>
+                  <strong><span id="lbl-vitB2">--</span> mg</strong>
+                </div>
+              </div>
+
+              <div class="label-grid-row">
+                <div class="grid-cell">
+                  <span>維生素 B6:</span>
+                  <strong><span id="lbl-vitB6">--</span> mg</strong>
+                </div>
+                <div class="grid-cell">
+                  <span>維生素 B12:</span>
+                  <strong><span id="lbl-vitB12">--</span> ug</strong>
+                </div>
+              </div>
+
+              <div class="label-grid-row">
+                <div class="grid-cell">
+                  <span>葉酸:</span>
+                  <strong><span id="lbl-folate">--</span> ug</strong>
+                </div>
+                <div class="grid-cell">
+                  <span>膽固醇:</span>
+                  <strong><span id="lbl-cholesterol">--</span> mg</strong>
+                </div>
+              </div>
+              
+              <div class="label-divider thick"></div>
+              <div class="label-footer">* 每日營養素攝取量基準值請參考中華民國衛生福利部最新公告之每日營養素攝取量基準 (DRIs)。</div>
+            </div>
+          </div>
+          
+        </div>
+
+        <!-- Dynamic Additional Nutrients Section (amino acids, fatty acids, trace minerals) -->
+        <div id="modal-dynamic-nutrients" class="modal-dynamic-nutrients" style="display:none;">
+          <!-- Populated dynamically by renderDynamicNutrients() -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="nutrition_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
