@@ -169,6 +169,16 @@ Kat Chang 網站是張雁雲營養師的專業展示、課程合作、衛教文�
 - 資料檔載入失敗時有基本提示。
 - 分數、結果與狀態不會因重複操作而錯亂。
 
+## GitHub Pages 部署排查
+
+若收到 GitHub Actions 部署失敗信，先看該次 run 的 job log。若 `Checkout`、`Setup Pages`、`Upload artifact` 都成功，只有 `Deploy to GitHub Pages` 出現 `Deployment failed, try again later.`，排查順序如下：
+
+- 先確認公開網站是否仍可開啟，避免把既有線上頁面誤判成下線。
+- 重跑失敗 job 一次，確認是否為 GitHub Pages 短暫服務端錯誤。
+- 若重跑後同樣失敗，檢查 `.github/workflows/pages.yml` 使用的 actions 版本是否已落後。優先用官方 GitHub release 資訊確認最新版，再更新 workflow。
+- 若 workflow 已是新版且仍失敗，從 GitHub 後台檢查 Settings > Pages 的 Source 是否為 GitHub Actions，也檢查 `github-pages` environment 是否有卡住的 deployment 或保護規則。
+- 本機 `gh` 若尚未登入，可用已連線的 GitHub Actions 工具讀取 job log 與重跑 failed jobs。若需要改 Pages 設定，仍需使用者在 GitHub 網頁後台確認。
+
 ## 專案收尾 SOP
 
 - 任務完成前，先確認本次輸出是否真的可交付。至少檢查頁面能開、重要連結正常、資料檔未壞、這次改到的區塊沒有明顯版面錯誤。

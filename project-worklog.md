@@ -77,3 +77,40 @@
 - `agent.md`：已更新
 - `project-worklog.md`：已更新
 - 全域 `AGENTS.md`：本次無跨專案規則更新
+
+## 2026-07-06
+
+### 任務
+
+- 查看 GitHub Actions 信件通知中的 GitHub Pages 部署失敗。
+- 排查 run `28738942936`，嘗試修復靜態網站部署流程。
+
+### 主要輸出
+
+- 讀取失敗 job log，確認失敗點在 `Deploy to GitHub Pages`。
+- 重跑失敗 job 一次，重跑後仍在同一階段失敗。
+- 更新 `.github/workflows/pages.yml`，將 Pages workflow 使用的 action 升到目前查得的官方 release 版本：`actions/checkout@v7`、`actions/configure-pages@v6`、`actions/upload-pages-artifact@v5`、`actions/deploy-pages@v5`。
+- 更新 `agent.md`，補上 GitHub Pages 部署失敗排查流程。
+
+### 驗證
+
+- 已確認本機工作樹起始狀態為乾淨。
+- 已確認公開網站 `https://594katchang-source.github.io/` 回傳 200，既有線上頁面仍可開啟。
+- 已確認原 run 的 artifact 上傳成功，檔案大小約 23 MB。
+- 已確認 GitHub Status API 在 2026-07-06 回報 GitHub Pages 與 Actions 為 operational。
+
+### 錯誤或風險
+
+- GitHub Pages log 只回傳 `Deployment failed, try again later.`，未提供更細的後端錯誤。
+- 若更新 workflow 後仍失敗，下一步需到 GitHub 網頁後台檢查 Pages Source 是否為 GitHub Actions，以及 `github-pages` environment 是否有卡住的 deployment 或保護規則。
+- 本機 `gh` 目前尚未登入，Actions log 讀取與重跑是透過已連線的 GitHub 工具完成。
+
+### 新學到的規則
+
+- GitHub Pages 若 artifact 上傳成功但 deploy 階段失敗，先重跑 failed job。若仍失敗，檢查 Pages Source、environment 狀態與 action release 版本。
+
+### 回寫狀態
+
+- `agent.md`：已更新
+- `project-worklog.md`：已更新
+- 全域 `AGENTS.md`：本次無新增跨專案規則
