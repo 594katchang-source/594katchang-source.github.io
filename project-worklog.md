@@ -92,6 +92,7 @@
 - 更新 `.github/workflows/pages.yml`，將 Pages workflow 使用的 action 升到目前查得的官方 release 版本：`actions/checkout@v7`、`actions/configure-pages@v6`、`actions/upload-pages-artifact@v5`、`actions/deploy-pages@v5`。
 - 更新 `agent.md`，補上 GitHub Pages 部署失敗排查流程。
 - 推送修正 commit `9f2a5cc` 後，新 run `28795226316` 已成功完成。
+- 推送最後工作日誌 commit `1c56598` 後，內建 Pages run `28796072444` 一開始仍在 deploy 階段失敗。等待約 2 分鐘後重跑同一 run，第 3 次嘗試成功。
 
 ### 驗證
 
@@ -101,6 +102,8 @@
 - 已確認 GitHub Status API 在 2026-07-06 回報 GitHub Pages 與 Actions 為 operational。
 - 已確認新 GitHub Actions run `28795226316` 結果為 success。
 - 已確認推送後本機工作樹回到乾淨狀態。
+- 已確認最新 Pages run `28796072444` 第 3 次嘗試結果為 success。
+- 已確認公開 `project-worklog.md` 已包含最新修復紀錄，代表公開網站已發布到 commit `1c56598`。
 
 ### 錯誤或風險
 
@@ -110,11 +113,13 @@
 - 後續確認最新版 workflow 仍會在 Pages deploy 階段間歇失敗，決定改回 GitHub Pages 直接從 `main` 分支發布，並移除 `.github/workflows/pages.yml`，避免 Actions 繼續寄失敗信。
 - GitHub Pages Source 已改成 `Deploy from a branch`，來源為 `main` 與 `/ (root)`。
 - 推送 commit `7473757` 後，GitHub 產生的 `pages build and deployment` run `28795994127` 已成功完成。
+- GitHub Pages 後台可能在短時間連續部署時仍回 `Deployment failed, try again later.`。若建置與 artifact 都成功、公開網站仍可開啟，先等待數分鐘再重跑同一個 failed run，不要一直推新 commit 製造更多部署。
 
 ### 新學到的規則
 
 - GitHub Pages 若 artifact 上傳成功但 deploy 階段失敗，先重跑 failed job。若仍失敗，檢查 Pages Source、environment 狀態與 action release 版本。
 - 純靜態網站若不需要建置流程，優先使用 GitHub Pages branch source，減少 Actions deploy 服務端狀態造成的失敗點。
+- Pages deploy 階段若是 GitHub 服務端短暫卡住，重跑前先等幾分鐘，同一 run 成功後再用公開檔案內容確認最新 commit 已上線。
 
 ### 回寫狀態
 
