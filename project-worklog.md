@@ -164,6 +164,33 @@
 - `project-worklog.md`：已更新。
 - 全域 `AGENTS.md`：本次無新增跨專案規則。
 
+## 2026-07-18｜公開版提交至 GitHub
+
+### 任務
+
+- 依使用者授權，把公開唯讀版提交到 `594katchang-source/594katchang-source.github.io` 的 `main`。
+
+### 主要輸出
+
+- 公開頁、中文折疊標籤、76 篇公開成果資料、入口頁、`agent.md` 與工作日誌均已寫入 GitHub。
+
+### 驗證
+
+- GitHub `main` 最新修正版 commit 為 `26094d165a618ec89f3172f9515ca78cc17255da`。
+- 遠端資料檔首段、末段與指定 DOI `10.1016/j.ajcnut.2026.101393` 均已核對。
+- 公開 JSON 本機資料仍為 76 篇，頁面標籤檢查通過。
+
+### 錯誤或風險
+
+- GitHub CLI 未完成登入，改用已授權的 GitHub 連線推送。
+- 第一次大型 JSON 傳輸有截斷風險，已從 commit `a9620725` 重新以 39 段原始位元組建立完整資料 blob，並由 commit `26094d1` 更新 `main`。
+
+### 回寫狀態
+
+- `agent.md`：已更新。
+- `project-worklog.md`：已更新。
+- 全域 `AGENTS.md`：本次無新增跨專案規則。
+
 ## 2026-07-18｜公開頁折疊標籤中文化
 
 ### 任務
