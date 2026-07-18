@@ -142,7 +142,7 @@
     const withoutAuthor = withoutLabel.replace(/^[^：]+?\s+-\s+/u, "");
     const candidate = /[一-龥]/u.test(withoutAuthor) ? withoutAuthor : /[一-龥]/u.test(withoutLabel) ? withoutLabel : "";
     if (candidate) {
-      return candidate.replace(/\s+(全文評讀|摘要層級評讀|品質評讀|摘要評讀|評讀)$/u, "").trim();
+      return candidate.replace(/\s*(全文評讀|摘要層級評讀|品質評讀|摘要評讀|評讀)$/u, "").replace(/\bdocking\b/gi, "分子對接").trim();
     }
     return TITLE_LABELS[item.title] || item.title || "未命名論文";
   }
