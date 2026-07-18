@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>論文讀書小站｜公開閱讀版 | Kat Chang</title>
+  <meta name="description" content="Kat Chang 論文讀書小站的公開閱讀版，整理可公開查閱的論文摘要、合法全文連結與中文閱讀成果。">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+  <link rel="canonical" href="https://594katchang-source.github.io/teach/paper-radar/">
+  <link rel="stylesheet" href="../../styles.css">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"CollectionPage","name":"論文讀書小站｜公開閱讀版","url":"https://594katchang-source.github.io/teach/paper-radar/","description":"可公開查閱的論文摘要、合法全文連結與中文閱讀成果。","isPartOf":{"@type":"WebSite","name":"Kat Chang","url":"https://594katchang-source.github.io/"},"author":{"@type":"Person","name":"張雁雲營養師","url":"https://594katchang-source.github.io/about.html"}}
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../../"><img src="https://firebasestorage.googleapis.com/v0/b/portaly-ca9e1.appspot.com/o/IbOLRa4GSrjg8stvcQxd%2Favatar?alt=media&token=c0926019-dced-49ae-8d74-a49116aaa479" alt="Kat Chang 凱特營養師"><span>Kat Chang</span></a>
+    <nav aria-label="主要導覽">
+      <a href="../../about.html">簡介</a>
+      <a href="../../class.html">授課</a>
+      <a href="../">教具</a>
+      <a href="../../index.html#blog">文章</a>
+      <a href="../../index.html#contact">聯絡</a>
+    </nav>
+  </header>
+
+  <main class="paper-radar-page">
+    <section class="paper-hero" aria-labelledby="page-title">
+      <div>
+        <p class="eyebrow">PUBLIC PAPER RADAR</p>
+        <h1 id="page-title">論文讀書小站</h1>
+        <p class="lead">把已完成、適合公開查閱的論文資料與中文閱讀成果，整理成一個安靜好找的閱讀入口。</p>
+        <p class="paper-hero-note">公開頁只放核准的論文欄位與成果，不連接私人網站，不提供排程、上傳或寫入功能。</p>
+      </div>
+      <aside class="paper-hero-panel" aria-label="資料說明">
+        <span class="panel-label">公開資料</span>
+        <strong id="updated-at">讀取中</strong>
+        <span>由完成成果的公開白名單產生</span>
+      </aside>
+    </section>
+
+    <section class="paper-stats" aria-label="公開資料統計">
+      <div><strong id="total-count">0</strong><span>篇公開成果</span></div>
+      <div><strong id="review-count">0</strong><span>品質評讀</span></div>
+      <div><strong id="digest-count">0</strong><span>全文評讀</span></div>
+    </section>
+
+    <section class="paper-controls" aria-label="搜尋與篩選">
+      <label class="paper-search">
+        <span>搜尋論文與閱讀成果</span>
+        <input id="query" type="search" placeholder="標題、作者、期刊、DOI、摘要或筆記內容，中英文主題詞會互相展開" autocomplete="off">
+      </label>
+      <div class="paper-filters" role="group" aria-label="成果類型">
+        <button type="button" class="active" data-kind="all">全部</button>
+        <button type="button" data-kind="review">品質評讀</button>
+        <button type="button" data-kind="digest">全文評讀</button>
+      </div>
+      <p id="status" class="paper-status" role="status">正在讀取公開資料</p>
+    </section>
+
+    <section id="paper-list" class="paper-list" aria-live="polite"></section>
+    <nav id="pagination" class="paper-pagination" aria-label="論文頁碼"></nav>
+  </main>
+
+  <footer>@2026 Kat Chang 凱特營養師｜論文讀書小站公開閱讀版</footer>
+  <script src="app.js" defer></script>
+</body>
+</html>
