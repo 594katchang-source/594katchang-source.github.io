@@ -1,4 +1,4 @@
-≠rá^—f•ñÿ¶{]ly 'v√Æ∂õ≠(function () {
+(function () {
   "use strict";
 
   const PAGE_SIZE = 50;
