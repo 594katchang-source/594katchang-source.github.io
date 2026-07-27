@@ -312,3 +312,12 @@
 - 錯誤或風險：Nutrition Battle 仍保留使用者自行貼入 Firebase Web app config 的教學流程，設定只存瀏覽器，不含內建 API key。Firebase 專案的 API restrictions 與資料庫規則仍需在 Console 核對。
 - 新增規則：公開網站圖片資產改放 repo 內，避免把第三方下載 token 寫進 HTML 或 metadata。
 - 回寫狀態：已更新本工作日誌與專案 `agent.md`，未修改全域 skill。
+
+## 2026-07-27｜收工核對
+
+- 產出狀態：公開 repo `main` 已推送 `0f60e7f`，本次只新增文字雲 Firebase 邊界規則與工作日誌，沒有改動文字雲程式、Firebase 設定或論文資料。
+- 驗證狀態：公開 repo 工作樹乾淨且遠端同步。公開論文資料仍為 295 篇，線上論文頁仍使用本地人像資產。線上文字雲仍載入 Firebase 設定、Firebase SDK、Firestore 與 `onSnapshot`。
+- 未驗證與風險：尚未進入 Firebase Console 核對文字雲 key 的 API 限制、配額與 Firestore Rules，未執行會新增課堂資料的實際寫入測試。
+- 使用者偏好：GitHub Pages 一般頁面的頭像 token 清理，不能影響 teach 文字雲。文字雲固定保留 Firebase。
+- 錯誤與修正：已將頭像資產與文字雲服務分開核對，並把規則寫入 `agent.md`。下次先盤點外連工具的服務依賴，再處理公開資產或 token 清理。
+- 回寫狀態：本次收工紀錄已寫入專案工作日誌，沒有把真實 key 寫入工作日誌或 GitHub。
