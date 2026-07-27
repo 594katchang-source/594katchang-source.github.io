@@ -287,3 +287,12 @@
 - 驗證狀態：線上頁面顯示 295 篇、198 篇品質評讀、97 篇全文評讀，每頁 50 篇，更新日期為 2026 年 7 月 27 日。公開 repo 工作樹乾淨，發布狀態為 `published`。
 - 錯誤記錄：本次以合併提交保留本機公開資料與遠端頁面修正，再完成 GitHub `main` 推送。Node 連線曾需使用系統憑證設定重跑。
 - 回寫狀態：已更新本工作日誌，未寫入私人 Sites 資料、PDF、token 或其他憑證。
+
+## 2026-07-27｜移除公開管理頁
+
+- 任務：處理公開 GitHub Pages repo 中可直接開啟的 `/admin/` Blog 管理頁，避免訪客在公開頁面輸入 GitHub token。
+- 主要輸出：移除 `admin/index.html` 與 `admin/admin.js`，移除 Blog 首頁的公開管理入口，保留 Blog 閱讀頁與論文公開頁。
+- 驗證：目前版本已沒有 `admin/` 檔案、管理入口或 GitHub token 輸入欄位。公開論文頁的資料檔與程式仍維持原狀。
+- 錯誤或風險：`noindex` 不能提供權限控制。公開 repo 歷史仍保留舊版 Firebase key 樣式內容，需另到 Firebase 或 Google Cloud Console 確認是否已停用、更換與收緊規則。
+- 新增規則：需要貼上 GitHub token 的管理功能不得放在公開 GitHub Pages。管理功能固定移至私人或本機環境。
+- 回寫狀態：已更新本工作日誌與專案 `agent.md`，未修改全域 skill。
