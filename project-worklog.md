@@ -392,8 +392,8 @@
 - 已搜尋主要頁面，確認 zcal 預約連結、CHT 證照、官方 Line、Email、首頁 contact 錨點均存在。
 - 已確認 teach 頁沒有「原本 info 底下的工具已整理到 teach 目錄。」。
 - 已確認 teach、blog 入口頁與 blog 文章頁都帶有專用 body class，CSS 會覆蓋行動版深色背景與黑色 h1 問題。
-- GitHub 推送後，需用帶版本參數的公開網址重新核對 HTML 與 CSS。實機 375px、390px 截圖仍受目前瀏覽器連線能力限制，需標示為未取得。
-- 已在公開頁以約 375px 寬度做行動版計算樣式檢查：teach 與 blog 背景為淺色、h1 為深色、內文至少 1rem、頁面沒有水平溢出。簡介頁曾發現 hero 裝飾造成水平溢出，已補上行動版 `overflow-x:hidden`，並更新 CSS 快取版本。
+- 已用帶版本參數的公開網址重新核對 HTML 與 CSS。瀏覽器約 375px 寬度檢查結果：teach 與 blog 背景為淺色、h1 為深色、內文至少 1rem、頁面沒有水平溢出。簡介頁曾發現 hero 裝飾造成水平溢出，已補上 html 與 body 的行動版 `overflow-x:hidden`，並更新 CSS 快取版本。
+- 尚未取得實體手機裝置截圖，已完成瀏覽器行動版尺寸檢查。
 
 ### 錯誤或風險
 
