@@ -296,3 +296,12 @@
 - 錯誤或風險：`noindex` 不能提供權限控制。公開 repo 歷史仍保留舊版 Firebase key 樣式內容，需另到 Firebase 或 Google Cloud Console 確認是否已停用、更換與收緊規則。
 - 新增規則：需要貼上 GitHub token 的管理功能不得放在公開 GitHub Pages。管理功能固定移至私人或本機環境。
 - 回寫狀態：已更新本工作日誌與專案 `agent.md`，未修改全域 skill。
+
+## 2026-07-27｜移除公開 Firebase Storage token
+
+- 任務：移除公開 HTML 中人像圖片的 Firebase Storage download token，保留原本的人像 logo。
+- 主要輸出：新增 `assets/profile/kat-avatar.jpg`，根頁面、簡介、授課、Blog、教具入口與論文公開頁改用 repo 內圖片路徑。
+- 驗證：公開 HTML 已找不到 `firebasestorage.googleapis.com`、Firebase Storage token 或 `token=` 圖片網址。`papers-public.json` 仍可解析，共 295 篇。
+- 錯誤或風險：Nutrition Battle 仍保留使用者自行貼入 Firebase Web app config 的教學流程，設定只存瀏覽器，不含內建 API key。Firebase 專案的 API restrictions 與資料庫規則仍需在 Console 核對。
+- 新增規則：公開網站圖片資產改放 repo 內，避免把第三方下載 token 寫進 HTML 或 metadata。
+- 回寫狀態：已更新本工作日誌與專案 `agent.md`，未修改全域 skill。
