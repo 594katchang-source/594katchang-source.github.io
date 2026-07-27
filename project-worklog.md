@@ -297,6 +297,13 @@
 - 新增規則：需要貼上 GitHub token 的管理功能不得放在公開 GitHub Pages。管理功能固定移至私人或本機環境。
 - 回寫狀態：已更新本工作日誌與專案 `agent.md`，未修改全域 skill。
 
+## 2026-07-27｜確認 teach 文字雲保留 Firebase
+
+- 任務：確認移除 GitHub Pages 一般頁面頭像 Firebase Storage token 時，沒有誤改 `teach/` 入口外連的文字雲。
+- 驗證：`teach/index.html` 仍連到 `https://teaching-3809d.web.app/`。線上文字雲仍載入 `/firebase-config.js`，其 `app.js` 仍載入 Firebase SDK、Firestore 與 `onSnapshot` 即時監聽。本機文字雲設定檔仍存在於忽略檔 `public/firebase-config.js`，沒有進入 Git。
+- 新增規則：文字雲是獨立的 Firebase Hosting 工具，必須保留 Firebase 設定注入與 Firestore 即時回饋。GitHub Pages 頭像改用 repo 內圖片的規則只適用一般頁面，不能套用到文字雲。
+- 回寫狀態：已更新本專案 `agent.md` 與工作日誌，沒有修改文字雲程式或 Firebase 設定。
+
 ## 2026-07-27｜移除公開 Firebase Storage token
 
 - 任務：移除公開 HTML 中人像圖片的 Firebase Storage download token，保留原本的人像 logo。

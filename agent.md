@@ -79,6 +79,7 @@ Kat Chang 網站是張雁雲營養師的專業展示、課程合作、衛教文�
 - `teach/nutrition-battle/`：營養知識互動挑戰。
 - `teach/nutritionranking/`：食品營養排行與查詢工具。
 - `https://teaching-3809d.web.app/`：文字雲互動工具，從 `teach/` 入口頁外連。
+- 文字雲是獨立的 Firebase Hosting 工具，必須保留 Firebase 設定注入與 Firestore 即時回饋。維護 GitHub Pages 一般頁面時，不得移除或改寫文字雲專案的 Firebase 設定。
 - 文章管理頁已從 GitHub Pages 移除，文章管理改由私人或本機流程執行。
 - `assets/`：個人照、課程頁素材與共用圖片。
 
@@ -238,6 +239,7 @@ Kat Chang 網站是張雁雲營養師的專業展示、課程合作、衛教文�
 - 公開頁的折疊標籤固定使用中文，包括「查看摘要」「全文評讀」「品質評讀」「自我測驗」。成果標題依類型顯示「全文評讀：論文標題」或「品質評讀：論文標題」。
 - 公開頁左上角品牌區固定沿用主頁的人像 logo、品牌名稱與首頁連結。
 - 公開網站的人像 logo 固定使用 repo 內的 `assets/profile/kat-avatar.jpg`，不得使用 Firebase Storage download token URL。
+- 上述頭像規則只適用 GitHub Pages 一般頁面，不能套用到 `teach` 外連的 Firebase 文字雲。
 - 公開頁卡片的論文標題與期刊分類固定優先顯示繁體中文，原始英文欄位仍保留在搜尋資料中，避免中文檢索失效。
 - 公開 repo 不得放置需要訪客貼上 GitHub token 的管理頁。`noindex` 只能降低搜尋引擎收錄，不能當成存取控制。管理功能需放在私人或本機環境。
 
