@@ -410,3 +410,24 @@
 - `agent.md`：已更新。
 - `project-worklog.md`：本筆已更新。
 - 全域 `AGENTS.md`：本次規則限於本網站，未更新。
+
+## 2026-07-28｜收工核對
+
+### 收尾結果
+
+- 本機工作樹乾淨，`HEAD` 與 `origin/main` 的差異為 `0 0`。
+- 最新提交為 `7dd1ac0 Record final mobile verification`。
+- 公開首頁已核對頁尾「官方 Line」「Email」、頂端「聯絡」與 `styles.css?v=20260727-contact3`。
+- 公開 teach 入口已核對標題、body class、頁尾兩個聯絡按鈕。
+- 公開 blog 入口已核對標題、body class、頁尾兩個聯絡按鈕與共用 CSS 版本。
+
+### 連線狀態與風險
+
+- PowerShell 直接查 GitHub 時遇到 Windows Schannel 憑證通道錯誤，改用瀏覽器完成公開頁核對。
+- 實體手機截圖仍未取得，已保留瀏覽器行動版尺寸檢查結果。
+
+### 回寫狀態
+
+- `agent.md`：既有桌面與手機同步規則仍有效。
+- `project-worklog.md`：已補上本次收工紀錄。
+- 全域 `AGENTS.md` 與 skill：本次無新增跨專案規則。
