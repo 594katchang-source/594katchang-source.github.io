@@ -368,3 +368,44 @@
 
 - GitHub `main` 已推送至 `181f112`，公開頁已讀到最新導覽與 CSS 版本。
 - 本機工作樹已完成清理檢查，未留下未提交的網站修改。
+
+## 2026-07-27｜聯絡入口與高齡閱讀版面統一
+
+### 任務
+
+- 將簡介頁「立即行動」連到預約頁 `https://zcal.co/katchang`。
+- 檢查主要網站頁面的頁尾聯絡按鈕，統一為「官方 Line」與「Email」。
+- 補上 teach、blog、文章內容頁與論文公開頁的頁尾聯絡區。
+- 在簡介證照補上 `CHT園藝治療師證照`。
+- 修正 blog 行動版標題黑字落在深色背景的問題，讓 teach 與 blog 入口頁採用一致的淺色背景與深色標題。
+- 把首頁頂端「聯絡」改成明確的 `index.html#contact`，並把桌面與手機版同步檢查規則寫入 `agent.md`。
+
+### 主要輸出
+
+- 更新 `about.html`、`class.html`、`index.html`、`blog/index.html`、`blog/post.html`、`teach/index.html`、`teach/paper-radar/index.html`。
+- 更新 `styles.css`，補上 blog 入口與文章頁的行動版配色、標題與內文字級規則。
+- 更新 `agent.md`，新增桌面與手機同步修改、頁尾按鈕、聯絡錨點與中高齡閱讀字級規則。
+
+### 驗證
+
+- `git diff --check` 通過。
+- 已搜尋主要頁面，確認 zcal 預約連結、CHT 證照、官方 Line、Email、首頁 contact 錨點均存在。
+- 已確認 teach 頁沒有「原本 info 底下的工具已整理到 teach 目錄。」。
+- 已確認 teach、blog 入口頁與 blog 文章頁都帶有專用 body class，CSS 會覆蓋行動版深色背景與黑色 h1 問題。
+- GitHub 推送後，需用帶版本參數的公開網址重新核對 HTML 與 CSS。實機 375px、390px 截圖仍受目前瀏覽器連線能力限制，需標示為未取得。
+
+### 錯誤或風險
+
+- `teach/` 內的個別互動工具是獨立頁面與獨立樣式，這次頁尾聯絡區先統一網站入口頁、文章頁與論文公開頁，沒有改寫教具互動邏輯。
+- GitHub Pages 可能保留舊 CSS 快取，發布後要用新的 CSS 版本參數或重新整理核對。
+
+### 新學到的規則
+
+- 網站頁面調整要把 HTML 內容、共用 CSS、導覽路徑與頁尾聯絡入口放在同一次檢查中。
+- 面向中高齡讀者的行動版內文與卡片說明以 `1rem` 為下限，標題與按鈕要確認背景對比及換行。
+
+### 回寫狀態
+
+- `agent.md`：已更新。
+- `project-worklog.md`：本筆已更新。
+- 全域 `AGENTS.md`：本次規則限於本網站，未更新。
