@@ -667,5 +667,7 @@
 
 ### 驗證
 
-- 待本次修改後執行 `git diff --check`、JavaScript 語法檢查、HTML 標記與 CSS 字級靜態檢查。
+- `git diff --check`、7 個 JavaScript 檔案語法檢查、主站 HTML 標記與 CSS 字級靜態檢查均通過。
+- GitHub push 已成功，提交為 `e981c52`，本機 `HEAD` 與 `origin/main` 追蹤標記一致，工作樹乾淨。
+- 追加執行 `git ls-remote` 時，Windows TLS 憑證通道回報 `SEC_E_NO_CREDENTIALS`，因此未能以第二種方式讀取遠端摘要。推送回應與本機追蹤分支已完成核對。
 - 實體手機與 375px 瀏覽器 viewport 仍需另行確認，現有瀏覽器介面無法切換至該寬度。
