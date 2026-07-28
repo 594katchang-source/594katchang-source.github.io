@@ -431,3 +431,46 @@
 - `agent.md`：既有桌面與手機同步規則仍有效。
 - `project-worklog.md`：已補上本次收工紀錄。
 - 全域 `AGENTS.md` 與 skill：本次無新增跨專案規則。
+
+## 2026-07-28｜全站桌機、手機、資安與 SEO 稽核
+
+### 任務
+
+- 盤點公開網站所有 HTML 頁面，核對桌機與約 375px 行動版的頁首、頁尾、配色、字級、導覽與聯絡入口。
+- 檢查公開頁的資安曝露、外部服務、Firebase 設定使用方式與 SEO 欄位。
+
+### 主要輸出
+
+- 主要品牌頁 `index.html`、`about.html`、`class.html`、`teach/index.html`、`blog/index.html` 與 `teach/paper-radar/index.html` 共用頁首、頁尾與官方 Line、Email 聯絡區，桌機版視覺已大致一致。
+- 主要頁在行動版的 h1 對比、背景與水平溢出已符合目前規則。Console 基本載入檢查沒有觀察到錯誤或警告。
+- 確認獨立工具 `emotion-cards`、`Stress-Food`、`nutrition-battle`、`nutritionranking` 使用各自頁首與頁尾，和本站品牌頁不一致。`nutritionranking` 在約 375px 寬度有導覽與按鈕超出畫面的問題，列為高優先修正項目。
+- 確認 Blog 行動版入口內容區左右留白不足，標題、摘要與卡片貼近畫面邊緣，列為中優先修正項目。`paper-radar` 頂端導覽少了「服務」入口。
+- SEO 基礎欄位大多存在。文章內容頁的 canonical、Open Graph 與 BlogPosting JSON-LD 目前由 JavaScript 載入後補上，靜態原始 HTML 沒有完整 fallback。`sitemap.xml` 日期停在 2026-06-14，且漏列 `teach/paper-radar/`。`llms.txt` 也漏列公開論文工具。
+- 未在目前追蹤檔案找到實際 API key、token 或 secret。資安風險集中在 Nutrition Battle 顯示公開讀寫 Firebase Rules 的示例、將含設定的完整房間網址交給 QR 服務，以及 Blog 內容進入 `innerHTML` 前的清理不足。這些項目需要在後續修版處理。
+
+### 驗證
+
+- 讀取並盤點 13 個 HTML 檔案，排除 Google 驗證檔這類非內容頁。
+- 以公開網址檢查桌機與行動版畫面，核對共用樣式、頁首、頁尾、聯絡區、h1 顏色、內文尺寸與水平溢出。
+- 以公開文章網址確認動態 canonical、Open Graph 與 BlogPosting JSON-LD 能在頁面載入後產生。
+- 量測 Blog 行動版內容區與 NutriRank 導覽的實際邊界。NutriRank 的導覽列右側延伸至約 592px，超過約 375px 的手機畫面。
+- 掃描追蹤檔案的憑證樣式、外部資源與不安全新視窗連結。未發現未加 `noopener` 的 `target="_blank"` 連結。
+- 未執行實體手機、Lighthouse、PageSpeed、Firebase Console Rules 與實際資料庫寫入測試，這些仍屬待驗證項目。
+
+### 錯誤或風險
+
+- PowerShell 直接連線公開 GitHub 時遇到 Windows 憑證通道錯誤，已改用瀏覽器完成公開頁核對。
+- GitHub Pages 原始碼目前沒有可直接設定的 CSP、HSTS、X-Frame-Options 與 Permissions-Policy 標頭，需由部署層補強。
+- 共用品牌頁已達到目前的頁首、頁尾與聯絡規則，獨立工具仍未形成同一套站體，不能把目前結果判定為整站完成一致化。
+
+### 新增規則
+
+- `teach/` 內獨立工具也要檢查品牌辨識、返回首頁、頁尾聯絡入口與 375px 寬度，不能只檢查入口頁。
+- SEO 更新要同步檢查靜態 canonical、Open Graph、sitemap、llms 與頁面類型結構化資料。
+- Firebase 規則、設定傳遞與第三方 QR 服務要一起做資安檢查，不能把公開讀寫範例當成可部署設定。
+
+### 回寫狀態
+
+- 已更新 `agent.md` 與本工作日誌。
+- 沒有更新全域 `AGENTS.md` 或 skill，因為本次沉澱內容屬 Kat Chang 網站專案規則。
+- 本次沒有修改網站 HTML、CSS 或 JavaScript，待使用者確認修版範圍後再處理列出的問題。
