@@ -72,3 +72,51 @@ h1,h2,h3,p{margin-top:0}h1{max-width:none;margin-bottom:22px;font-size:clamp(2.3
   .blog-directory main .post-meta{font-size:1.04rem}
   .blog-directory main .keywords span{font-size:1rem}
 }
+
+/* 主站手機版閱讀基準，獨立教具保留各自版型。 */
+@media(max-width:520px){
+  body:is(.site-main,.blog-directory,.teach-directory) main p,
+  body:is(.site-main,.blog-directory,.teach-directory) main li,
+  body:is(.site-main,.blog-directory,.teach-directory) main dd,
+  body:is(.site-main,.blog-directory,.teach-directory) main dt,
+  body:is(.site-main,.blog-directory,.teach-directory) main small,
+  body:is(.site-main,.blog-directory,.teach-directory) main span,
+  body:is(.site-main,.blog-directory,.teach-directory) main .post-meta,
+  body:is(.site-main,.blog-directory,.teach-directory) main .eyebrow,
+  body:is(.site-main,.blog-directory,.teach-directory) main .lead,
+  body:is(.site-main,.blog-directory,.teach-directory) main .credential-row b,
+  body:is(.site-main,.blog-directory,.teach-directory) main .credential-row span,
+  body:is(.site-main,.blog-directory,.teach-directory) main .keywords span,
+  body:is(.site-main,.blog-directory,.teach-directory) main .btn,
+  body:is(.site-main,.blog-directory,.teach-directory) main .back-link,
+  body:is(.site-main,.blog-directory,.teach-directory) main .text-link,
+  body:is(.site-main,.blog-directory,.teach-directory) main .topic-detail summary,
+  body:is(.site-main,.blog-directory,.teach-directory) main .course-image-grid figcaption{
+    font-size:1.2rem;
+    line-height:1.55;
+  }
+  body.blog-directory .section-title .lead,
+  body.teach-directory .section-title .lead,
+  body.blog-directory main .article-body,
+  body.blog-directory main .article-body p,
+  body.blog-directory main .article-body li{
+    font-size:1.2rem;
+    line-height:1.55;
+  }
+  body:is(.site-main,.blog-directory,.teach-directory) main h3,
+  body:is(.site-main,.blog-directory,.teach-directory) main h4,
+  body:is(.site-main,.blog-directory,.teach-directory) .service-card h3,
+  body:is(.site-main,.blog-directory,.teach-directory) .tool-card h3,
+  body:is(.site-main,.blog-directory,.teach-directory) .post-card h3,
+  body:is(.site-main,.blog-directory,.teach-directory) .home-post-card h3,
+  body:is(.site-main,.blog-directory,.teach-directory) .home-post-body h3{
+    font-size:1.2rem;
+    line-height:1.45;
+  }
+  body:is(.site-main,.blog-directory,.teach-directory) .site-header nav a,
+  body:is(.site-main,.blog-directory,.teach-directory) .site-header .brand span,
+  body:is(.site-main,.blog-directory,.teach-directory) footer{
+    font-size:1.2rem;
+    line-height:1.45;
+  }
+}
