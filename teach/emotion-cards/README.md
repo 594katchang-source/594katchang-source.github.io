@@ -6,7 +6,7 @@
 
 完成後網址：
 
-https://594katchang-source.github.io/info/emotion-cards/
+https://594katchang-source.github.io/teach/emotion-cards/
 
 ## 檔案結構
 

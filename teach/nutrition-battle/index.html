@@ -6,6 +6,16 @@
     <title>營養對戰教室</title>
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <link rel="canonical" href="https://594katchang-source.github.io/teach/nutrition-battle/">
+    <meta property="og:type" content="software">
+    <meta property="og:title" content="營養對戰教室 | Kat Chang">
+    <meta property="og:description" content="講師投影、學員手機同步參與的營養教育對戰活動。">
+    <meta property="og:url" content="https://594katchang-source.github.io/teach/nutrition-battle/">
+    <meta property="og:image" content="https://594katchang-source.github.io/assets/profile/kat-avatar.jpg">
+    <meta property="og:site_name" content="Kat Chang 凱特營養師">
+    <meta property="og:locale" content="zh_TW">
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"SoftwareApplication","name":"營養對戰教室","applicationCategory":"EducationalApplication","operatingSystem":"Web","url":"https://594katchang-source.github.io/teach/nutrition-battle/","description":"講師投影、學員手機同步參與的營養教育對戰活動。","author":{"@type":"Person","name":"張雁雲營養師","url":"https://594katchang-source.github.io/about.html"},"offers":{"@type":"Offer","price":"0","priceCurrency":"TWD"}}
+    </script>
     <meta name="description" content="講師投影、學員手機同步參與的營養教育對戰活動。" />
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -28,12 +38,23 @@
           </div>
           <div class="choice-row"><button class="primary" id="hostEntry" type="button">我是講師，建立場次</button><button class="secondary" id="studentEntry" type="button">我是學員，輸入代碼</button></div>
         </section>
-        <section class="screen" id="setupScreen"><div class="panel"><p class="eyebrow">Firebase 設定</p><h2>貼上 Firebase Web app config</h2><p class="lead small">為了避免 GitHub Secret Scanning 警示，網站不再內建 API key。講師第一次開場前，請貼上 Firebase 專案設定中的 Web app config，設定只會存於這台瀏覽器並放入本場 QR Code。</p><textarea id="firebaseConfig" spellcheck="false" placeholder='例如：{"apiKey":"...","authDomain":"...","databaseURL":"...","projectId":"...","appId":"..."}'></textarea><div class="hint-box"><strong>Realtime Database 規則建議：</strong><pre>{
+        <section class="screen" id="setupScreen"><div class="panel"><p class="eyebrow">Firebase 設定</p><h2>貼上 Firebase Web app config</h2><p class="lead small">為了避免 GitHub Secret Scanning 警示，網站不再內建 API key。講師第一次開場前，請貼上 Firebase 專案設定中的 Web app config，設定只會存於這台瀏覽器，QR Code 會在本機產生，不會把完整房間網址送到 QR 代碼第三方服務。</p><textarea id="firebaseConfig" spellcheck="false" placeholder='例如：{"apiKey":"...","authDomain":"...","databaseURL":"...","projectId":"...","appId":"..."}'></textarea><div class="hint-box"><strong>Realtime Database 規則建議：</strong><pre>{
   "rules": {
     "rooms": {
       "$room": {
-        ".read": true,
-        ".write": true
+        ".read": "auth != null",
+        ".write": "!data.exists() && auth != null && newData.child('hostUid').val() == auth.uid",
+        "players": {
+          "$uid": {
+            ".write": "auth != null && auth.uid == $uid"
+          }
+        },
+        "status": { ".write": "auth != null && data.parent().child('hostUid').val() == auth.uid" },
+        "index": { ".write": "auth != null && data.parent().child('hostUid').val() == auth.uid" },
+        "scores": { ".write": "auth != null && data.parent().child('hostUid').val() == auth.uid" },
+        "order": { ".write": "auth != null && data.parent().child('hostUid').val() == auth.uid" },
+        "buzz": { ".write": "auth != null && (auth.uid == data.parent().child('hostUid').val() || (!data.exists() && newData.child('uid').val() == auth.uid))" },
+        "answer": { ".write": "auth != null && (auth.uid == data.parent().child('hostUid').val() || (newData.child('uid').val() == auth.uid && data.parent().child('buzz').child('uid').val() == auth.uid))" }
       }
     }
   }

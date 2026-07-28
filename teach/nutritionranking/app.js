@@ -35,6 +35,10 @@ const GROUP_DETAILS = {
   'others': { name: '其他類', icon: '🍬', color: 'others' }
 };
 
+function escapeHtml(value = '') {
+  return String(value).replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' })[char]);
+}
+
 // Complete nutrient registry with Metadata and Dietary Reference Intakes (DRIs)
 const NUTRIENTS = {
   // Macronutrients
@@ -509,7 +513,7 @@ function renderRankSidebar() {
     btn.className = 'sidebar-btn';
     btn.setAttribute('data-nutrient', key);
     btn.innerHTML = `
-      <span>${meta.name}</span>
+      <span>${escapeHtml(meta.name)}</span>
       <span class="sidebar-btn-val">${key.charAt(0).toUpperCase() + key.slice(1)}</span>
     `;
 
@@ -604,7 +608,7 @@ function renderRankings() {
     const colHeader = document.createElement('div');
     colHeader.className = 'rank-group-header';
     colHeader.innerHTML = `
-      <h3>${groupMeta.icon} ${groupMeta.name}</h3>
+      <h3>${groupMeta.icon} ${escapeHtml(groupMeta.name)}</h3>
       <span class="rank-group-count">共 ${foodsList.length} 項</span>
     `;
     col.appendChild(colHeader);
@@ -630,8 +634,8 @@ function renderRankings() {
         item.innerHTML = `
           <div class="rank-item-meta">
             <span class="rank-num">${idx + 1}</span>
-            <span class="rank-item-name" title="${food.name}">${food.name}</span>
-            <span class="rank-item-val">${food.value} <span style="font-size:0.75rem; font-weight:400; color:var(--text-muted)">${meta.unit}</span></span>
+            <span class="rank-item-name" title="${escapeHtml(food.name)}">${escapeHtml(food.name)}</span>
+            <span class="rank-item-val">${escapeHtml(food.value)} <span style="font-size:0.75rem; font-weight:400; color:var(--text-muted)">${escapeHtml(meta.unit)}</span></span>
           </div>
           <div class="rank-item-bar-container">
             <div class="rank-item-bar-fill bar-${meta.type}" style="width: ${widthPercent}%"></div>
@@ -689,7 +693,7 @@ function renderSearchResults() {
 
   if (totalCount === 0) {
     container.innerHTML = '';
-    statsText.innerHTML = `❌ 沒有找到任何符合「<strong>${state.searchQuery}</strong>」的食材資訊，請嘗試更換關鍵字。`;
+    statsText.innerHTML = `❌ 沒有找到任何符合「<strong>${escapeHtml(state.searchQuery)}</strong>」的食材資訊，請嘗試更換關鍵字。`;
     pagination.style.display = 'none';
     return;
   }
@@ -724,10 +728,10 @@ function renderSearchResults() {
 
     card.innerHTML = `
       <div class="card-header-row">
-        <h3 class="food-name" title="${food.name}">${food.name}</h3>
-        <span class="category-tag" style="border: 1px solid var(--color-${grpDetails.color}); color: var(--color-${grpDetails.color}); background: var(--color-${grpDetails.color}-light)">${food.category}</span>
+        <h3 class="food-name" title="${escapeHtml(food.name)}">${escapeHtml(food.name)}</h3>
+        <span class="category-tag" style="border: 1px solid var(--color-${grpDetails.color}); color: var(--color-${grpDetails.color}); background: var(--color-${grpDetails.color}-light)">${escapeHtml(food.category)}</span>
       </div>
-      ${food.commonName ? `<div class="card-common-name">俗名：${food.commonName}${food.englishName ? ' / ' + food.englishName : ''}</div>` : (food.englishName ? `<div class="card-common-name">${food.englishName}</div>` : '')}
+      ${food.commonName ? `<div class="card-common-name">俗名：${escapeHtml(food.commonName)}${food.englishName ? ' / ' + escapeHtml(food.englishName) : ''}</div>` : (food.englishName ? `<div class="card-common-name">${escapeHtml(food.englishName)}</div>` : '')}
       <div class="card-nutrients-preview">
         <div class="preview-item">
           <span class="preview-val">${food.nutrients.calories || 0}</span>
@@ -743,8 +747,8 @@ function renderSearchResults() {
         </div>
       </div>
       <div class="card-actions">
-        <span class="card-id-text">整合編號: ${food.id}</span>
-        <button class="btn-card-compare ${isAdded ? 'added' : ''}" data-food-id="${food.id}">
+        <span class="card-id-text">整合編號: ${escapeHtml(food.id)}</span>
+        <button class="btn-card-compare ${isAdded ? 'added' : ''}" data-food-id="${escapeHtml(food.id)}">
           ${isAdded ? '移除對比' : '加入對比'}
         </button>
       </div>
@@ -826,8 +830,8 @@ function renderComparison() {
       const food = state.compareList[i];
       slot.innerHTML = `
         <div class="slot-item-info">
-          <span class="slot-item-name">${food.name}</span>
-          <span class="slot-item-cat">${food.category} (ID: ${food.id})</span>
+          <span class="slot-item-name">${escapeHtml(food.name)}</span>
+          <span class="slot-item-cat">${escapeHtml(food.category)} (ID: ${escapeHtml(food.id)})</span>
         </div>
         <button class="btn-remove-slot" data-food-id="${food.id}">×</button>
       `;
@@ -868,8 +872,8 @@ function generateComparisonMatrix() {
     const th = document.createElement('th');
     th.style.width = `${60 / state.compareList.length}%`;
     th.innerHTML = `
-      <div style="font-weight:700; color:var(--text-primary)">${food.name}</div>
-      <div style="font-size:0.75rem; color:var(--text-muted); font-weight:400">${food.category}</div>
+      <div style="font-weight:700; color:var(--text-primary)">${escapeHtml(food.name)}</div>
+      <div style="font-size:0.75rem; color:var(--text-muted); font-weight:400">${escapeHtml(food.category)}</div>
     `;
     headerRow.appendChild(th);
   });
@@ -877,7 +881,7 @@ function generateComparisonMatrix() {
   // Calculate comparisons row-by-row
   Object.entries(NUTRIENTS).forEach(([key, meta]) => {
     const tr = document.createElement('tr');
-    tr.innerHTML = `<td style="font-weight:600; color:var(--text-secondary)">${meta.name} (${meta.unit})</td>`;
+    tr.innerHTML = `<td style="font-weight:600; color:var(--text-secondary)">${escapeHtml(meta.name)} (${escapeHtml(meta.unit)})</td>`;
 
     // Extract values for matching compared items
     const values = state.compareList.map(food => food.nutrients[key] || 0);
@@ -1086,8 +1090,8 @@ function renderDynamicNutrients(food) {
       const cell = document.createElement('div');
       cell.className = 'dynamic-nutrient-cell';
       cell.innerHTML = `
-        <span class="dn-name">${meta.name}</span>
-        <span class="dn-value">${val} <span class="dn-unit">${meta.unit}</span></span>
+        <span class="dn-name">${escapeHtml(meta.name)}</span>
+        <span class="dn-value">${escapeHtml(val)} <span class="dn-unit">${escapeHtml(meta.unit)}</span></span>
       `;
       grid.appendChild(cell);
     });
@@ -1433,9 +1437,9 @@ function renderMatrix() {
   const nutCols = state.matrixNutrients.map(k => {
     const nut = NUTRIENTS[k];
     if (nut) {
-      return { key: k, name: `${nut.name}<br><span style="font-size:0.75rem; font-weight:400; color:var(--text-muted)">(${nut.unit})</span>`, isNum: true };
+      return { key: k, name: `${escapeHtml(nut.name)}<br><span style="font-size:0.75rem; font-weight:400; color:var(--text-muted)">(${escapeHtml(nut.unit)})</span>`, isNum: true };
     }
-    return { key: k, name: k, isNum: true };
+    return { key: k, name: escapeHtml(k), isNum: true };
   });
   
   const allCols = [...baseCols, ...nutCols];
@@ -1490,7 +1494,7 @@ function renderMatrix() {
       const catTd = document.createElement('td');
       const grpKey = CATEGORY_MAP[food.category] || 'others';
       const grp = GROUP_DETAILS[grpKey];
-      catTd.innerHTML = `<span class="category-tag" style="border: 1px solid var(--color-${grp.color}); color: var(--color-${grp.color}); background: var(--color-${grp.color}-light); padding:2px 8px; border-radius:6px; font-size:0.8rem;">${food.category}</span>`;
+      catTd.innerHTML = `<span class="category-tag" style="border: 1px solid var(--color-${grp.color}); color: var(--color-${grp.color}); background: var(--color-${grp.color}-light); padding:2px 8px; border-radius:6px; font-size:0.8rem;">${escapeHtml(food.category)}</span>`;
       row.appendChild(catTd);
       
       // Nutrient cells

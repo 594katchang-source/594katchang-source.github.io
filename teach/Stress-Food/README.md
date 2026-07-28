@@ -40,7 +40,7 @@ Stress Food 是一個繁體中文的「組餐解謎」教學遊戲。玩家會�
 
 ## GitHub Pages
 
-發布位置：`https://594katchang-source.github.io/info/Stress-Food/`
+發布位置：`https://594katchang-source.github.io/teach/Stress-Food/`
 
 ## 注意
 

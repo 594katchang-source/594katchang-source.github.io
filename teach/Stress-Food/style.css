@@ -470,4 +470,8 @@ h2 {
     min-height: 240px;
     border-radius: 8px;
   }
+
+  .designer,.hero-strip p,.mission-card p,.food-card small,.goal-options label,.plate-zone p,.feedback-panel p,.site-footer{font-size:1rem;line-height:1.7}
+  .hero-strip h1,.mission-card h2,.feedback-panel h2{line-height:1.25}
+  .hero-actions .home-link{font-size:1rem}
 }

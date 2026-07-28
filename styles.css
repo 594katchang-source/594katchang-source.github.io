@@ -46,3 +46,15 @@ h1,h2,h3,p{margin-top:0}h1{max-width:none;margin-bottom:22px;font-size:clamp(2.3
 @media(max-width:520px){.teach-directory .tool-card p,.blog-directory .post-card p,.blog-directory .home-post-card p{font-size:1.02rem;line-height:1.75}.blog-directory{background:var(--bg)}.blog-directory .site-header{background:rgba(251,252,250,.96);border-bottom-color:var(--line);color:var(--ink)}.blog-directory .site-header nav a{color:var(--muted)}.blog-directory main{padding-top:34px}.blog-directory .section-title h1,.blog-directory .article h1{font-size:clamp(2rem,9vw,2.7rem);line-height:1.15;color:var(--ink)}.blog-directory .section-title .lead{color:var(--muted);font-size:1.08rem;line-height:1.7}.blog-directory .post-meta{font-size:1rem}.blog-directory .keywords span{font-size:.9rem}.blog-directory .article-body{font-size:1.08rem;line-height:1.8}}
 @media(max-width:520px){html,body{overflow-x:hidden}}
 @media(max-width:520px){.site-header nav{justify-content:flex-start;gap:8px 14px}.site-header nav a{font-size:1rem}}
+
+@media(max-width:520px){
+  main p,main li{font-size:1.05rem;line-height:1.75}
+  .service-card h3,.tool-card h3,.post-card h3,.home-post-card h3{font-size:1.2rem;line-height:1.4}
+  .service-card p,.tool-card p,.post-card p,.home-post-card p{font-size:1.05rem;line-height:1.75}
+  .blog-directory .blog-page{padding-inline:18px}
+  .blog-directory .post-list{width:100%}
+  .blog-directory .post-card{margin-inline:0;padding:18px;border-radius:20px}
+  .blog-directory .article{padding-inline:18px}
+  .blog-directory .article-body p,.blog-directory .article-body li{font-size:1.08rem;line-height:1.85}
+  .teach-directory .tool-card{padding:20px}
+}

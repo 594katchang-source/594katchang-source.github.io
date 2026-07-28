@@ -8,6 +8,7 @@ Allow: /teach/Stress-Food/
 Allow: /teach/emotion-cards/
 Allow: /teach/nutrition-battle/
 Allow: /teach/nutritionranking/
+Allow: /teach/paper-radar/
 Allow: /blog/
 Allow: /about.html
 Allow: /class.html
