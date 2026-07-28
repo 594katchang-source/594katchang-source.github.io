@@ -162,7 +162,7 @@ Kat Chang 網站是張雁雲營養師的專業展示、課程合作、衛教文�
 
 - 每次修改 HTML 或 CSS，都要同時檢查桌面寬度與手機寬度，不能只修單一畫面。
 - 主要內容頁頁尾聯絡區固定使用「官方 Line」與「Email」兩個按鈕，連結分別為 `https://lin.ee/uGHIQcH` 與 `mailto:594katchang@gmail.com`。
-- 各頁頂端「聯絡」固定連到首頁 `index.html#contact`，子目錄頁使用對應的相對路徑。
+- 各頁頂端「聯絡」固定連到 `https://zcal.co/katchang`，使用 `target="_blank"` 與 `rel="noopener"` 開啟預約頁。
 - 行動版文字要讓中高齡讀者容易閱讀，內文與卡片說明避免小於 `1rem`，標題、按鈕與導覽列要檢查對比度與換行。
 - teach 與 blog 入口頁要維持淺色背景、深色標題，並保留頁尾聯絡區。
 

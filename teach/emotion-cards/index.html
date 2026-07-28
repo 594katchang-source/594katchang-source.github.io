@@ -23,5 +23,19 @@ function openCard(id){const c=cards.find(x=>x.id===id);viewer.innerHTML=`<div cl
 function closeCard(){modal.classList.remove('open');document.body.style.overflow=''}
 grid.onclick=e=>{const b=e.target.closest('.cardbtn');if(b)openCard(Number(b.dataset.id))};q.oninput=()=>{const s=q.value.trim();render(cards.filter(c=>!s||String(c.id).includes(s)||c.plant.includes(s)||c.theme.includes(s)))};modal.onclick=e=>{if(e.target===modal||e.target.className==='close')closeCard()};document.onkeydown=e=>{if(e.key==='Escape')closeCard()};render(cards);
 </script>
+<script>
+const emotionHomeLink=document.querySelector('.tools .home');
+if(emotionHomeLink){
+  emotionHomeLink.href='../../';
+  emotionHomeLink.textContent='首頁';
+  const emotionContactLink=document.createElement('a');
+  emotionContactLink.className='home';
+  emotionContactLink.href='https://zcal.co/katchang';
+  emotionContactLink.target='_blank';
+  emotionContactLink.rel='noopener';
+  emotionContactLink.textContent='聯絡';
+  emotionHomeLink.insertAdjacentElement('afterend',emotionContactLink);
+}
+</script>
 </body>
 </html>
