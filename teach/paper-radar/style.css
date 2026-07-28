@@ -2,3 +2,12 @@
 @media(max-width:760px){.paper-radar-page{width:100%;padding:30px 18px 58px}.paper-hero{grid-template-columns:1fr;padding:28px 22px;border-radius:26px}.paper-hero-panel{max-width:none}.paper-stats{gap:8px}.paper-stats div{padding:16px 12px;border-radius:16px}.paper-stats strong{font-size:1.8rem}.paper-stats span{font-size:.84rem}.paper-controls{grid-template-columns:1fr}.paper-filters{width:100%}.paper-filters button{flex:1}.paper-card-head{display:grid;gap:14px}.paper-scope{justify-self:start;text-align:left}.paper-section summary{display:block}.paper-section summary span{display:block;margin-top:5px}}
 
 .paper-list{gap:14px}.paper-card{padding:clamp(18px,2.4vw,26px)}.paper-card h2{margin-bottom:8px}.paper-links{margin-top:13px}.paper-section{margin-top:13px;padding-top:12px}.paper-abstract-section{margin-top:13px}.paper-abstract-section .paper-abstract{margin:12px 0 0}.paper-pagination{display:grid;gap:12px;justify-items:center}.page-summary{color:var(--muted);font-size:.93rem}.page-buttons{display:flex;justify-content:center;gap:8px;flex-wrap:wrap}.page-buttons button{min-height:42px;padding:9px 14px;border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--muted);font:inherit;font-weight:900;cursor:pointer}.page-buttons button:hover,.page-buttons button.active{background:var(--green-dark);border-color:var(--green-dark);color:#fff}.page-buttons button:disabled{cursor:not-allowed;opacity:.45}.page-buttons button[aria-current="page"]{box-shadow:0 0 0 3px rgba(31,122,91,.16)}
+
+@media(max-width:760px){
+  .paper-radar-page{font-size:1.1rem}
+  .paper-hero-note,.paper-hero-panel .panel-label,.paper-hero-panel span:last-child,.paper-stats span,.paper-status,.paper-kicker span,.paper-scope,.paper-meta,.paper-tags span,.paper-section summary span,.page-summary{font-size:1rem;line-height:1.7}
+  .paper-card{font-size:1.1rem;line-height:1.8}
+  .paper-card h4{font-size:1.2rem;line-height:1.5}
+  .paper-authors,.paper-abstract,.paper-note,.quiz-card p,.paper-empty span{font-size:1.1rem;line-height:1.8}
+  .paper-section summary,.paper-search,.paper-filters button,.paper-link,.page-buttons button{font-size:1.08rem;line-height:1.6}
+}

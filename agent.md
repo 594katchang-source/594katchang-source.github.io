@@ -165,7 +165,7 @@ Kat Chang 網站是張雁雲營養師的專業展示、課程合作、衛教文�
 - 每次修改 HTML 或 CSS，都要同時檢查桌面寬度與手機寬度，不能只修單一畫面。
 - 主要內容頁頁尾聯絡區固定使用「官方 Line」與「Email」兩個按鈕，連結分別為 `https://lin.ee/uGHIQcH` 與 `mailto:594katchang@gmail.com`。
 - 各頁頂端「聯絡」固定連到 `https://zcal.co/katchang`，使用 `target="_blank"` 與 `rel="noopener"` 開啟預約頁。
-- 行動版文字要讓中高齡讀者容易閱讀，內文與卡片說明避免小於 `1rem`，標題、按鈕與導覽列要檢查對比度與換行。
+- 行動版文字要讓中高齡讀者容易閱讀，共用頁與獨立工具的內文、卡片說明、表單標籤與結果文字以 `1.12rem` 為檢查基準，h3、h4 與卡片標題以 `1.2rem` 以上為檢查基準。標題、按鈕與導覽列要檢查對比度與換行。
 - teach 與 blog 入口頁要維持淺色背景、深色標題，並保留頁尾聯絡區。
 
 修改後至少檢查：
@@ -183,6 +183,7 @@ Kat Chang 網站是張雁雲營養師的專業展示、課程合作、衛教文�
 - 文章 JSON 或其他可編輯資料若會進入 `innerHTML`，要做文字跳脫、HTML 白名單或可信任的清理流程。Blog 正文只能通過明確允許的標籤、屬性與網址協定，禁止事件屬性、script、style、iframe 與不安全連結。
 - GitHub Pages 原始碼無法直接設定 CSP、HSTS、X-Frame-Options、Permissions-Policy 等 Response Header。若工具日後加入私人資料或登入，必須在 CDN、反向代理或其他部署層補標頭與存取控制，不能用 `noindex` 代替權限。
 - NutriRank 行動版要檢查頁首網格、網站導覽、搜尋區、卡片與表格的 375px 水平邊界，不能只看 h1 與 h2。
+- 手機字級修改要逐頁檢查 `index.html`、`about.html`、`class.html`、`blog/`、`teach/`、NutriRank、Paper Radar、Stress Food、Nutrition Battle 與情緒卡，不能只依賴共用 `styles.css`。各獨立工具的 CSS 都要有自己的行動版文字覆寫。
 
 若改到互動工具，再補測：
 

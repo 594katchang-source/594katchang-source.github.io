@@ -475,3 +475,13 @@ h2 {
   .hero-strip h1,.mission-card h2,.feedback-panel h2{line-height:1.25}
   .hero-actions .home-link{font-size:1rem}
 }
+
+@media (max-width: 640px) {
+  body{font-size:1.08rem}
+  .hero-strip p,.mission-panel p,.mission-card p,.food-card small,.goal-options label,.plate-zone p,.feedback-panel p,#roundLog,.site-footer{font-size:1.12rem;line-height:1.8}
+  .hero-strip h2,.mission-panel h2,.panel-heading h2,.feedback-panel h2{font-size:1.35rem;line-height:1.4}
+  .tag{font-size:1rem;line-height:1.5}
+  .card-kind,.goal-option,.food-card strong,.plate-chip,.radar-row,.total-score span{font-size:1.08rem;line-height:1.6}
+  .small-button,.hero-actions .home-link,.icon-button{font-size:1.08rem}
+  .food-card{font-size:1.08rem}
+}
