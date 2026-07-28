@@ -570,3 +570,26 @@
 
 - GitHub `main` 已推送至 `3e821f1`。
 - 本機工作樹與 `origin/main` 同步，待本次工作日誌寫入後再完成收尾提交。
+
+## 2026-07-28｜公開頁第二輪驗證
+
+### 驗證結果
+
+- 本機 `main` 與 `origin/main` 位於 `81779b3`，工作樹初始狀態乾淨。
+- 逐頁載入首頁、簡介、授課、教具索引、文章列表、Blog 文章、NutriRank、Paper Radar、Stress Food、情緒卡與 Nutrition Battle。
+- 各主要頁的 canonical、Open Graph、JSON-LD、頁首「聯絡」zcal 連結均正常。獨立情緒卡返回首頁指向網站根目錄。
+- NutriRank 載入 41 個營養按鈕，Paper Radar 載入 50 筆公開資料，情緒卡載入 36 張卡片。
+- 公開頁桌機寬度檢查沒有水平溢出，網站來源沒有 error 或 warning。
+- 逐一審核 `innerHTML` 使用點，Blog、Paper Radar、NutriRank、Nutrition Battle、Stress Food 與情緒卡的外部或資料欄位都有跳脫、白名單、固定選項或 DOM textContent 保護。
+- `sitemap.xml`、`llms.txt`、舊 `/info/` 路徑、公開 Rules 字串與 QR Server 網址檢查均正常。
+
+### 尚未驗證
+
+- 現有瀏覽器介面無法切換 375px viewport，因此手機版以 CSS 規則與靜態邊界完成檢查，未宣稱實體手機驗證。
+- Windows 的 PowerShell、curl TLS 通道無法取得公開 Response Header。CSP、HSTS、X-Frame-Options、Permissions-Policy 仍需在部署層或 CDN 實際確認。
+- Firebase Console 的匿名登入、Realtime Database Rules enforcement 與真實房間寫入流程仍需在 Firebase 專案端測試。
+
+### 發布狀態
+
+- 本次只新增驗證紀錄，未修改網站程式。
+- 待本紀錄提交後，GitHub `main` 應與本機同步且工作樹保持乾淨。
