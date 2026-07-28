@@ -516,3 +516,57 @@
 
 - GitHub `main` 已推送至 `619e829`。
 - 公開頁已用版本參數重新讀取，桌機約 1280px 與手機約 375px 都確認新的頁首入口。
+
+## 2026-07-28｜SEO、資安與行動版修正
+
+### 任務
+
+- 補強公開頁 SEO、結構化資料與靜態 metadata。
+- 修正 Firebase Rules 示範、QR 服務傳遞、Blog HTML 清理與舊路由。
+- 改善 NutriRank、Blog、互動教具的行動版字級、留白與水平邊界。
+- 清理本機空的未追蹤資料夾，確認 GitHub `main` 與本機版本一致。
+
+### 主要輸出
+
+- `about.html`、`class.html`、`teach/index.html` 與互動工具補上 Open Graph 與頁面類型 JSON-LD。
+- Blog 文章補上靜態 canonical 與 OG fallback，動態內容改用 HTML 白名單清理與文字跳脫。
+- `sitemap.xml` 更新至 2026-07-28，加入 `teach/paper-radar/`。`llms.txt` 補上公開論文工具。
+- Nutrition Battle 改用匿名登入、host UID 與受限房間規則，QR 圖片改為瀏覽器本機生成，移除公開讀寫示範。
+- NutriRank 導覽與內容區補上手機寬度限制與較易閱讀的內文字級。Blog 補上內容卡片邊界與左右留白。
+- emotion-cards 返回首頁改為網站根目錄，移除舊 `/info/` 轉址依賴。
+- `agent.md` 補寫獨立教具、Firebase、QR、SEO、HTML 清理與 375px 檢查規則。
+
+### 驗證
+
+- `git diff --check` 通過，主要 JavaScript 通過 Node 語法檢查。
+- 8 個 JSON-LD 區塊通過 JSON 解析，`sitemap.xml` 通過 XML 解析並含 13 個網址。
+- 靜態搜尋確認未保留公開 Rules 範例、QR Server 網址與工具頁舊 `/info/` 路徑。
+- 公開頁檢查確認主要頁 canonical、OG、JSON-LD、頁首首頁與 zcal 聯絡連結正常。
+- Blog 實際 DOM 未發現 script、事件屬性、危險 href 或危險 img src。
+- NutriRank 公開頁載入資料正常，瀏覽器紀錄沒有頁面 error 或 warning。
+- 行動版以 375px CSS 規則、水平邊界與字級靜態檢查完成。現有瀏覽器介面無法切換 viewport，未宣稱已完成實體手機驗證。
+- Git 工作樹已清理，移除空的未追蹤 `.github/workflows`、`.github` 與 `admin` 資料夾。
+
+### 錯誤或風險
+
+- Firebase Console 的匿名登入、實際 Rules enforcement 與資料庫寫入流程尚未在本次環境執行整合測試。
+- GitHub Pages 原始碼無法直接設定 CSP、HSTS、X-Frame-Options、Permissions-Policy，需由 CDN 或部署層補上 Response Header。
+- 未執行實體手機、Lighthouse、PageSpeed 與部署層安全標頭檢查。
+- QR 既有加入房間流程仍將必要設定放在網址中，已停止送往第三方 QR 服務，後續若要進一步降敏需改設計房間邀請資料格式。
+
+### 新增規則
+
+- 每次 SEO 或版面修改都要同時檢查桌機頁與手機 CSS 邊界，內容文字不可壓到高齡者難以閱讀的尺寸。
+- Blog 或其他資料進入 `innerHTML` 前，必須先做文字跳脫或白名單清理。
+- 工具頁資料若涉及 Firebase，必須搭配登入、房間識別與受限 Rules，不得保留公開讀寫示範。
+- GitHub Pages 的安全標頭要列為部署層工作，不能把 noindex 當成存取控制。
+
+### 回寫狀態
+
+- 已更新 `agent.md` 與本工作日誌。
+- 未更新全域 `AGENTS.md` 或 skill，因為本次規則限於 Kat Chang 網站。
+
+### 發布狀態
+
+- GitHub `main` 已推送至 `3e821f1`。
+- 本機工作樹與 `origin/main` 同步，待本次工作日誌寫入後再完成收尾提交。
