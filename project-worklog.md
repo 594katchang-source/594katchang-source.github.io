@@ -629,3 +629,15 @@
 
 - 已更新 `agent.md` 與本工作日誌。
 - 未更新全域 `AGENTS.md` 或 skill，本次規則限於 Kat Chang 網站。
+
+## 2026-07-28｜手機 CSS 快取版本更新
+
+### 修正
+
+- 發現共用與獨立工具 CSS 的網址版本仍沿用舊快取標記，使用者可能持續讀到前一版小字規則。
+- 所有主站、Blog、教具入口、Paper Radar、Stress Food、Nutrition Battle 與 NutriRank 的 CSS 連結已更新為 `20260728-mobile`。
+
+### 驗證
+
+- 已確認 HTML 不再引用 `20260728-nav` 的 CSS 版本。
+- 本次只變更 CSS 快取版本參數，沒有改動互動程式邏輯。
