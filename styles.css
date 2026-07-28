@@ -62,7 +62,7 @@ h1,h2,h3,p{margin-top:0}h1{max-width:none;margin-bottom:22px;font-size:clamp(2.3
 @media(max-width:520px){
   main p,main li,main dd,main dt{font-size:1.12rem;line-height:1.85}
   main h3{font-size:1.28rem;line-height:1.45}
-  main h4{font-size:1.18rem;line-height:1.5}
+  main h4{font-size:1.2rem;line-height:1.5}
   main small,main .post-meta{font-size:1.04rem;line-height:1.6}
   main .keywords span{font-size:1rem;line-height:1.45}
   .article-body{font-size:1.12rem;line-height:1.85}

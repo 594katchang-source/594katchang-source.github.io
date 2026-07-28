@@ -2098,8 +2098,8 @@ button {
   #app-root .content-viewport p,#app-root .content-viewport li,#app-root .content-viewport label,#app-root .content-viewport .filter-label{font-size:1.12rem;line-height:1.8}
   #app-root .content-viewport button,#app-root .content-viewport input,#app-root .content-viewport select{font-size:1.08rem}
   #app-root .hero-content p,#app-root .info-box p,#app-root .preset-desc,#app-root .preset-links li a,#app-root .rank-card p,#app-root .food-card p,#app-root .nutrient-desc-text,#app-root .dynamic-nutrient-cell{font-size:1.12rem;line-height:1.8}
-  #app-root .preset-card h3,#app-root .home-info-section h3,#app-root .info-box h4,#app-root .rank-group-header h3,#app-root .food-name,#app-root .compare-table-card h3,#app-root .matrix-control-group h3,#app-root .matrix-results-card h3{font-size:1.28rem;line-height:1.45}
-  #app-root .rank-item-name,#app-root .rank-item-val,#app-root .sidebar-btn,#app-root .matrix-cb-label,#app-root .nut-group-col h4,#app-root .matrix-table{font-size:1.08rem;line-height:1.65}
+  #app-root .preset-card h3,#app-root .home-info-section h3,#app-root .info-box h4,#app-root .rank-group-header h3,#app-root .food-name,#app-root .compare-table-card h3,#app-root .matrix-control-group h3,#app-root .matrix-results-card h3,#app-root .nut-group-col h4{font-size:1.28rem;line-height:1.45}
+  #app-root .rank-item-name,#app-root .rank-item-val,#app-root .sidebar-btn,#app-root .matrix-cb-label,#app-root .matrix-table{font-size:1.08rem;line-height:1.65}
   #app-root .unit-badge,#app-root .results-badge,#app-root .pag-info,#app-root .page-info,#app-root .card-common-name,#app-root .modal-food-id,#app-root .modal-food-subtitle,#app-root .footer-container p{font-size:1rem;line-height:1.6}
   #app-root .matrix-table th,#app-root .matrix-table td{font-size:1.05rem;line-height:1.6}
   #app-root .matrix-table-wrapper{overflow-x:auto}
