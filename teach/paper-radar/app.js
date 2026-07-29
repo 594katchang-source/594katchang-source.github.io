@@ -132,6 +132,43 @@
     return scope === "full_text" ? "全文評讀" : "摘要層級評讀，受全文限制";
   }
 
+  function articleKey(item) {
+    const doi = String(item.doi || "").trim().toLocaleLowerCase("en-US");
+    if (doi) return `doi:${doi}`;
+    const title = String(item.title || "").trim().replace(/\s+/g, " ").toLocaleLowerCase("en-US");
+    return `title:${title}`;
+  }
+
+  function groupItems(items) {
+    const groups = new Map();
+    for (const item of items) {
+      const key = articleKey(item);
+      const group = groups.get(key);
+      if (group) {
+        group.results.push(item);
+      } else {
+        groups.set(key, { ...item, results: [item] });
+      }
+    }
+    return [...groups.values()];
+  }
+
+  function resultItems(item) {
+    return Array.isArray(item.results) ? item.results : [item];
+  }
+
+  function groupScopeLabel(item) {
+    const results = resultItems(item);
+    const hasFullText = results.some((result) => result.evidenceScope === "full_text");
+    const hasAbstractLevel = results.some((result) => result.evidenceScope !== "full_text");
+    if (hasFullText && hasAbstractLevel) return "含全文與摘要評讀";
+    return hasFullText ? "全文評讀" : "摘要層級評讀，受全文限制";
+  }
+
+  function itemTags(item) {
+    return [...new Set(resultItems(item).flatMap((result) => Array.isArray(result.tags) ? result.tags : []))];
+  }
+
   function journalLabel(item) {
     return item.journal || "Journal not provided";
   }
@@ -169,6 +206,7 @@
   }
 
   function itemText(item) {
+    const results = resultItems(item);
     return [
       item.title,
       sourceTitle(item),
@@ -179,17 +217,21 @@
       item.doi,
       item.abstract,
       item.category,
-      Array.isArray(item.tags) ? item.tags.join(" ") : "",
-      item.noteTitle,
-      noteHeading(item),
-      stripFrontMatter(item.content),
+      itemTags(item).join(" "),
+      results.flatMap((result) => [
+        result.kind,
+        result.noteTitle,
+        noteHeading(result),
+        stripFrontMatter(result.content),
+        Array.isArray(result.cards) ? result.cards.flatMap((card) => [card.title, card.question, card.answer]) : [],
+      ]),
     ].join(" ").toLocaleLowerCase("zh-Hant");
   }
 
   function filteredItems() {
     const terms = expandSearchTerms(state.query);
     return state.items.filter((item) => {
-      if (state.kind !== "all" && item.kind !== state.kind) return false;
+      if (state.kind !== "all" && !resultItems(item).some((result) => result.kind === state.kind)) return false;
       const searchable = itemText(item);
       return !terms.length || terms.some((term) => searchable.includes(term));
     });
@@ -219,34 +261,45 @@
     return `<details class="paper-section"><summary>自我測驗（${cards.length} 張）</summary><div class="quiz-list">${cardsHtml}</div></details>`;
   }
 
+  function renderResult(result) {
+    const noteBody = stripFrontMatter(result.content);
+    return `
+        <details class="paper-section paper-note-section">
+          <summary><span class="paper-note-summary-title">${escapeHtml(readingSummaryLabel(result))}</span><span>${escapeHtml(formatDate(result.completedAt))}</span></summary>
+          <div class="paper-note">${escapeHtml(noteBody || "目前沒有可顯示的中文筆記內容。")}</div>
+          ${renderCards(result.cards)}
+        </details>`;
+  }
+
   function renderItem(item) {
+    const results = resultItems(item).slice().sort((left, right) => {
+      const order = { review: 0, digest: 1 };
+      return (order[left.kind] ?? 9) - (order[right.kind] ?? 9);
+    });
+    const kindBadges = [...new Set(results.map((result) => kindLabel(result.kind)))].map((label) => `<span>${escapeHtml(label)}</span>`).join("");
     const displayTitle = sourceTitle(item);
     const displayJournal = journalLabel(item);
-    const noteBody = stripFrontMatter(item.content);
-    const tags = renderTags(item.tags);
+    const tags = renderTags(itemTags(item));
     const fullTextLink = link("合法全文", item.legalFullTextUrl);
     const sourceLink = link("來源頁面", item.sourceUrl);
     const doiLink = item.doi ? `<a class="paper-link" href="https://doi.org/${encodeURIComponent(item.doi)}" target="_blank" rel="noopener noreferrer">DOI</a>` : "";
+    const resultSections = results.map(renderResult).join("");
     return `
       <article class="paper-card">
         <header class="paper-card-head">
           <div>
-            <div class="paper-kicker"><span>${escapeHtml(kindLabel(item.kind))}</span><span>${escapeHtml(item.category || "未分類")}</span></div>
+            <div class="paper-kicker">${kindBadges}<span>${escapeHtml(item.category || "未分類")}</span></div>
             <div class="paper-source-label">原文（English）</div>
             <h2>${escapeHtml(displayTitle)}</h2>
           </div>
-          <span class="paper-scope">${escapeHtml(scopeLabel(item.evidenceScope))}</span>
+          <span class="paper-scope">${escapeHtml(groupScopeLabel(item))}</span>
         </header>
         <p class="paper-authors">${escapeHtml(item.authors || "作者資料未提供")}</p>
         <div class="paper-meta"><span>${escapeHtml(displayJournal)}</span><span>${escapeHtml(item.year || "年份未提供")}</span><span>${escapeHtml(item.doi || "DOI 未提供")}</span></div>
-        ${item.abstract ? `<p class="paper-abstract"><span class="paper-language-label">Abstract</span>${escapeHtml(item.abstract)}</p>` : ""}
+        ${item.abstract ? `<details class="paper-section paper-abstract-section"><summary><span class="paper-note-summary-title">查看摘要</span><span>Abstract</span></summary><p class="paper-abstract"><span class="paper-language-label">Abstract</span>${escapeHtml(item.abstract)}</p></details>` : ""}
         ${tags}
         <div class="paper-links">${fullTextLink}${sourceLink}${doiLink}</div>
-        <details class="paper-section">
-          <summary><span class="paper-note-summary-title">${escapeHtml(readingSummaryLabel(item))}</span><span>${escapeHtml(formatDate(item.completedAt))}</span></summary>
-          <div class="paper-note">${escapeHtml(noteBody)}</div>
-        </details>
-        ${renderCards(item.cards)}
+        ${resultSections}
       </article>`;
   }
 
@@ -282,15 +335,15 @@
     const current = visible.slice(start, start + PAGE_SIZE);
     elements.list.innerHTML = current.length
       ? current.map(renderItem).join("")
-      : `<div class="paper-empty"><strong>目前沒有符合條件的公開成果</strong><span>可換一組搜尋詞，或切換成果類型。</span></div>`;
-    elements.status.textContent = visible.length ? `顯示第 ${start + 1} 至 ${Math.min(start + PAGE_SIZE, visible.length)} 筆，共 ${visible.length} 筆` : "目前沒有符合條件的公開成果";
+      : `<div class="paper-empty"><strong>目前沒有符合條件的公開論文</strong><span>可換一組搜尋詞，或切換成果類型。</span></div>`;
+    elements.status.textContent = visible.length ? `顯示第 ${start + 1} 至 ${Math.min(start + PAGE_SIZE, visible.length)} 筆，共 ${visible.length} 篇公開論文` : "目前沒有符合條件的公開論文";
     renderPagination(totalPages, state.page, visible.length);
   }
 
   function updateStats() {
     elements.totalCount.textContent = String(state.items.length);
-    elements.reviewCount.textContent = String(state.items.filter((item) => item.kind === "review").length);
-    elements.digestCount.textContent = String(state.items.filter((item) => item.kind === "digest").length);
+    elements.reviewCount.textContent = String(state.items.filter((item) => resultItems(item).some((result) => result.kind === "review")).length);
+    elements.digestCount.textContent = String(state.items.filter((item) => resultItems(item).some((result) => result.kind === "digest")).length);
   }
 
   async function load() {
@@ -299,7 +352,7 @@
       if (!response.ok) throw new Error("data unavailable");
       const data = await response.json();
       if (!data || data.schemaVersion !== 1 || !Array.isArray(data.papers)) throw new Error("invalid data");
-      state.items = data.papers.filter((item) => item && ["review", "digest"].includes(item.kind));
+      state.items = groupItems(data.papers.filter((item) => item && ["review", "digest"].includes(item.kind)));
       elements.updatedAt.textContent = data.generatedAt ? `更新於 ${formatDate(data.generatedAt)}` : "已載入公開資料";
       updateStats();
       render();
