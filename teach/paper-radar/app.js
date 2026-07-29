@@ -133,31 +133,45 @@
   }
 
   function journalLabel(item) {
-    return JOURNAL_LABELS[item.journal] || item.journal || "期刊未提供";
+    return item.journal || "Journal not provided";
   }
 
-  function translatedTitle(item) {
+  function sourceTitle(item) {
+    return item.title || "Untitled article";
+  }
+
+  function hasChinese(value) {
+    return [...String(value || "")].some((character) => {
+      const codePoint = character.codePointAt(0) || 0;
+      return codePoint >= 0x3400 && codePoint <= 0x9fff;
+    });
+  }
+
+  function stripFrontMatter(value) {
+    const text = String(value || "").trim();
+    return text.startsWith("---")
+      ? text.replace(/^---\s*\r?\n[\s\S]*?\r?\n---\s*\r?\n?/, "").trim()
+      : text;
+  }
+
+  function noteHeading(item) {
     const noteTitle = String(item.noteTitle || "").trim();
-    const withoutLabel = noteTitle.replace(/^(全文評讀|摘要層級評讀|品質評讀)\s*：\s*/u, "");
-    const withoutAuthor = withoutLabel.replace(/^[^：]+?\s+-\s+/u, "");
-    const candidate = /[一-龥]/u.test(withoutAuthor) ? withoutAuthor : /[一-龥]/u.test(withoutLabel) ? withoutLabel : "";
-    if (candidate) {
-      return candidate.replace(/\s*(全文評讀|摘要層級評讀|品質評讀|摘要評讀|評讀)$/u, "").replace(/\bdocking\b/gi, "分子對接").trim();
-    }
-    return TITLE_LABELS[item.title] || item.title || "未命名論文";
+    if (hasChinese(noteTitle)) return noteTitle;
+    const chineseHeading = stripFrontMatter(item.content)
+      .match(/^#\s+(.+)$/gm)
+      ?.map((heading) => heading.replace(/^#\s+/, "").trim())
+      .find(hasChinese);
+    return chineseHeading || `${kindLabel(item.kind)}筆記`;
   }
 
   function readingSummaryLabel(item) {
-    const noteTitle = String(item.noteTitle || "").trim();
-    const noteLabel = noteTitle.match(/^(全文評讀|摘要層級評讀|品質評讀)\s*：/u)?.[1];
-    const label = noteLabel || (item.kind === "digest" || item.evidenceScope === "full_text" ? "全文評讀" : "品質評讀");
-    return `${label}：${translatedTitle(item)}`;
+    return `繁體中文筆記：${noteHeading(item)}`;
   }
 
   function itemText(item) {
     return [
       item.title,
-      translatedTitle(item),
+      sourceTitle(item),
       item.authors,
       item.journal,
       journalLabel(item),
@@ -167,7 +181,8 @@
       item.category,
       Array.isArray(item.tags) ? item.tags.join(" ") : "",
       item.noteTitle,
-      item.content,
+      noteHeading(item),
+      stripFrontMatter(item.content),
     ].join(" ").toLocaleLowerCase("zh-Hant");
   }
 
@@ -205,8 +220,9 @@
   }
 
   function renderItem(item) {
-    const displayTitle = translatedTitle(item);
+    const displayTitle = sourceTitle(item);
     const displayJournal = journalLabel(item);
+    const noteBody = stripFrontMatter(item.content);
     const tags = renderTags(item.tags);
     const fullTextLink = link("合法全文", item.legalFullTextUrl);
     const sourceLink = link("來源頁面", item.sourceUrl);
@@ -216,18 +232,19 @@
         <header class="paper-card-head">
           <div>
             <div class="paper-kicker"><span>${escapeHtml(kindLabel(item.kind))}</span><span>${escapeHtml(item.category || "未分類")}</span></div>
+            <div class="paper-source-label">原文（English）</div>
             <h2>${escapeHtml(displayTitle)}</h2>
           </div>
           <span class="paper-scope">${escapeHtml(scopeLabel(item.evidenceScope))}</span>
         </header>
         <p class="paper-authors">${escapeHtml(item.authors || "作者資料未提供")}</p>
         <div class="paper-meta"><span>${escapeHtml(displayJournal)}</span><span>${escapeHtml(item.year || "年份未提供")}</span><span>${escapeHtml(item.doi || "DOI 未提供")}</span></div>
-        ${item.abstract ? `<details class="paper-section paper-abstract-section"><summary>查看摘要</summary><p class="paper-abstract">${escapeHtml(item.abstract)}</p></details>` : ""}
+        ${item.abstract ? `<p class="paper-abstract"><span class="paper-language-label">Abstract</span>${escapeHtml(item.abstract)}</p>` : ""}
         ${tags}
         <div class="paper-links">${fullTextLink}${sourceLink}${doiLink}</div>
         <details class="paper-section">
-          <summary>${escapeHtml(readingSummaryLabel(item))} <span>${escapeHtml(formatDate(item.completedAt))}</span></summary>
-          <div class="paper-note">${escapeHtml(item.content)}</div>
+          <summary><span class="paper-note-summary-title">${escapeHtml(readingSummaryLabel(item))}</span><span>${escapeHtml(formatDate(item.completedAt))}</span></summary>
+          <div class="paper-note">${escapeHtml(noteBody)}</div>
         </details>
         ${renderCards(item.cards)}
       </article>`;

@@ -11,3 +11,5 @@
   .paper-authors,.paper-abstract,.paper-note,.quiz-card p,.paper-empty span{font-size:1.1rem;line-height:1.8}
   .paper-section summary,.paper-search,.paper-filters button,.paper-link,.page-buttons button{font-size:1.08rem;line-height:1.6}
 }
+
+.paper-source-label{margin-bottom:8px;color:var(--green-dark);font-size:.78rem;font-weight:900;letter-spacing:.1em}.paper-language-label{display:block;margin-bottom:8px;color:var(--green-dark);font-size:.78rem;font-weight:900;letter-spacing:.1em}.paper-section summary .paper-note-summary-title{color:var(--green-dark);font-size:inherit;font-weight:900}
