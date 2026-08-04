@@ -260,7 +260,15 @@
   function noteHeading(item, sourceTitle) {
     const noteTitle = String(item.noteTitle || "").trim();
     const kindNoteLabel = item.kind === "digest" ? "內容整理" : "品質評讀";
-    const genericLabels = new Set(["品質評讀筆記", "內容整理筆記", "全文評讀筆記"]);
+    const genericLabels = new Set([
+      "品質評讀",
+      "內容整理",
+      "全文評讀",
+      "摘要層級評讀",
+      "品質評讀筆記",
+      "內容整理筆記",
+      "全文評讀筆記",
+    ]);
     if (noteTitle && !genericLabels.has(noteTitle)) {
       const directLabelMatch = noteTitle.match(/^(品質評讀|內容整理|全文評讀)\s*[:：]\s*(.+)$/);
       const directSuffix = directLabelMatch?.[2]?.trim() || "";
