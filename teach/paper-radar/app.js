@@ -188,6 +188,68 @@
     return String(value || "").trim().toLocaleLowerCase("en-US").replace(/\s+/g, " ");
   }
 
+  const topicTitleOverrides = [
+    ["Discrepancies between validated", "FFQ 驗證範圍與實際飲食暴露分析"],
+    ["The \"Hidden Hunger\" Paradox", "高能量飲食中的隱性飢餓與營養素攝取不足"],
+    ["Dietary pattern modifies associations", "飲食型態與飲食因子對表觀遺傳老化速度關聯的修飾"],
+    ["Predicting Oral Food Challenge Outcomes", "牛奶過敏兒童口服食物激發試驗結果的預測"],
+    ["Expert Consensus on Optimizing the Strategy", "中亞維生素 D 缺乏預防策略的專家共識"],
+    ["Effects of inspiratory muscle training", "COPD 吸氣肌訓練對呼吸肌力與運動耐受度的效果"],
+    ["Lipid metabolic reprogramming in osteoarthritis", "骨關節炎脂質代謝重編程與軟骨、全關節交互作用"],
+    ["Dietary Collagen Supplementation as a Strategy", "膠原蛋白補充對皮膚、頭髮、指甲與傷口癒合的臨床效果"],
+    ["Dietary Mineral Intake and Vascular Health", "Long COVID 患者膳食礦物質攝取與血管健康"],
+    ["Relationships Between High Dietary Inflammatory Index", "高膳食發炎指數與腸道、血腦屏障完整性的關係"],
+    ["Joint assessment of white blood cell-to-HDL", "WHH 與 WHR 聯合指標對心代謝共病風險的評估"],
+    ["Cellulite as a Possible Biomarker", "橘皮組織作為代謝功能障礙生物標記的假說"],
+    ["Late eating is associated", "非傳染性疾病患者晚餐進食時間與能量攝取、食物群適足性"],
+    ["Evaluating online nutrition information", "年輕成人對線上營養資訊可信度的判斷"],
+    ["Threshold effect of the METS-VF", "METS-VF 與高血壓成人高尿酸血症的閾值關係"],
+    ["Best Evidence Summary on Nutritional Risk", "成人重症患者營養風險篩檢與營養評估的最佳證據"],
+    ["Identifying Gastrostomy Care", "ALS 患者與家庭照顧者的胃造口照護與居家管灌教育內容"],
+    ["A multidisciplinary virtual", "大腸直腸癌手術的多專業虛擬復健照護模式"],
+    ["Integrative Management of Premenstrual", "經前不悅症的整合管理與傳統中醫角色"],
+    ["Clinical efficacy of Jianqiao ancient moxibustion", "肩橋古法艾灸治療慢性疲勞症候群的臨床試驗計畫"],
+    ["Shiyiwei Shenqi Pian-derived quercetin", "沈氏參芪片來源槲皮素對透明細胞腎癌凋亡的作用"],
+    ["Male fertility as an integral reflection", "男性生育力與代謝、內分泌及肌肉骨骼健康的關聯"],
+    ["Association between dietary inflammatory index", "日本第二型糖尿病成人膳食發炎指數、肥胖與飲食攝取"],
+    ["Integrating executive function training", "幼兒肥胖預防的執行功能訓練與健康行為介入整合"],
+    ["Effect of Carbohydrate-Restricted Dietary Patterns", "過重與肥胖成人碳水化合物限制飲食型態的系統性回顧"],
+    ["Anthocyanins and Aging Intervention", "花青素介入與老化的機轉及發展方向"],
+    ["Systems approach to integrative oncology", "乳癌整合腫瘤照護的系統設計、服務提供與患者經驗"],
+    ["Metabolic syndrome is associated", "代謝症候群與腦部加速老化的關聯"],
+    ["Metabolomic Profiles Associated With Sugary", "青少年含糖飲料攝取相關的代謝體特徵"],
+    ["Impact of Obesity on the Association", "肥胖對鹽分攝取與高血壓男性血壓關聯的影響"],
+    ["Defining a ketone threshold", "減重用酮體閾值與生酮飲食者 14 天 β-羥基丁酸監測"],
+    ["Food-Based Antioxidant Nutrition", "食物型抗氧化營養對運動恢復與訓練適應的策略"],
+    ["Dietary and nutritional supplementation strategies for table tennis", "桌球運動員飲食與營養補充策略"],
+    ["Clinical evidence for fat-binding-mediated", "RODLTM 植物複方促進限制飲食下糞便脂肪排出的臨床證據"],
+    ["German and Roman Chamomile", "德國洋甘菊與羅馬洋甘菊的植化素及機能性食品應用"],
+    ["A path to sustainable and healthy diets", "卵奶素食物型飲食指引與永續健康飲食模型"],
+    ["Age-related plasma N-glycosylation", "人類、大鼠與小鼠的年齡相關血漿 N-醣基化變化與老化生物標記"],
+    ["The Development and Validation of the Vegan", "素食運動員餐盤的建立與驗證"],
+    ["U-shaped association between non-protein", "過重與肥胖成人非蛋白熱量氮比與死亡風險的 U 型關聯"],
+    ["Metabolomic signature of ultra-processed", "超加工食品的代謝體特徵與心血管發病、死亡"],
+    ["The health benefits of alkaline water", "鹼性水的健康效益：事實或行銷迷思"],
+    ["Non-advanced age-related macular degeneration", "非進展型年齡相關黃斑部病變的現代理解與展望"],
+    ["Association between diabetes and elevated", "糖尿病與循環高濃度高級氧化蛋白產物的關聯"],
+    ["Sarcopenia and body composition abnormalities", "慢性胰臟炎的肌少症與身體組成異常"],
+  ];
+
+  function topicTitleForSource(sourceTitle) {
+    const normalized = normalizeTitle(sourceTitle);
+    return topicTitleOverrides.find(([pattern]) => normalized.includes(normalizeTitle(pattern)))?.[1] || "";
+  }
+
+  function topicTitleFromContent(value) {
+    const lines = stripFrontMatter(value).split(/\r?\n/).map((line) => line.trim());
+    for (const line of lines) {
+      if (!hasChinese(line) || /^(#|[-*>]|\|)/.test(line) || line.length < 8) continue;
+      const sentence = line.split(/[。！？]/)[0].trim();
+      if (sentence.length >= 8) return sentence.slice(0, 36);
+    }
+    return "";
+  }
+
   function stripFrontMatter(value) {
     const text = String(value || "").trim();
     return text.startsWith("---")
@@ -198,8 +260,17 @@
   function noteHeading(item, sourceTitle) {
     const noteTitle = String(item.noteTitle || "").trim();
     const kindNoteLabel = item.kind === "digest" ? "內容整理" : "品質評讀";
+    const genericLabels = new Set(["品質評讀筆記", "內容整理筆記", "全文評讀筆記"]);
+    if (noteTitle && !genericLabels.has(noteTitle)) {
+      const directLabelMatch = noteTitle.match(/^(品質評讀|內容整理|全文評讀)\s*[:：]\s*(.+)$/);
+      const directSuffix = directLabelMatch?.[2]?.trim() || "";
+      if (!directLabelMatch || (hasChinese(directSuffix) && normalizeTitle(sourceTitle) !== normalizeTitle(directSuffix))) {
+        if (hasChinese(noteTitle)) return noteTitle;
+      }
+    }
+    const mappedTopic = topicTitleForSource(sourceTitle);
+    if (mappedTopic) return `${mappedTopic}的${kindNoteLabel}`;
     const candidates = [
-      noteTitle,
       ...(stripFrontMatter(item.content).match(/^#\s+(.+)$/gm) || []).map((heading) => heading.replace(/^#\s+/, "").trim()),
     ];
     for (const candidate of candidates) {
@@ -207,11 +278,13 @@
       if (labelMatch) {
         const suffix = labelMatch[2].trim();
         if (!hasChinese(suffix) || normalizeTitle(sourceTitle) === normalizeTitle(suffix)) {
-          return `${labelMatch[1] === "全文評讀" ? "內容整理" : labelMatch[1]}筆記`;
+          continue;
         }
       }
       if (hasChinese(candidate)) return candidate;
     }
+    const contentTopic = topicTitleFromContent(item.content);
+    if (contentTopic) return `${contentTopic}的${kindNoteLabel}`;
     return `${kindNoteLabel}筆記`;
   }
 
