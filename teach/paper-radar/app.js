@@ -265,12 +265,16 @@
       "內容整理",
       "全文評讀",
       "摘要層級評讀",
+      "摘要評讀",
+      "全文品質評讀",
+      "全文內容整理",
+      "全文整理",
       "品質評讀筆記",
       "內容整理筆記",
       "全文評讀筆記",
     ]);
     if (noteTitle && !genericLabels.has(noteTitle)) {
-      const directLabelMatch = noteTitle.match(/^(品質評讀|內容整理|全文評讀|摘要層級評讀)\s*[:：]\s*(.+)$/);
+      const directLabelMatch = noteTitle.match(/^(品質評讀|內容整理|全文評讀|摘要層級評讀|摘要評讀|全文品質評讀|全文內容整理|全文整理)\s*[:：]\s*(.+)$/);
       const directSuffix = directLabelMatch?.[2]?.trim() || "";
       if (directLabelMatch) {
         if (hasChinese(directSuffix) && normalizeTitle(sourceTitle) !== normalizeTitle(directSuffix)) {
@@ -287,7 +291,7 @@
       ...(stripFrontMatter(item.content).match(/^#\s+(.+)$/gm) || []).map((heading) => heading.replace(/^#\s+/, "").trim()),
     ];
     for (const candidate of candidates) {
-      const labelMatch = candidate.match(/^(品質評讀|內容整理|全文評讀|摘要層級評讀)\s*[:：]\s*(.+)$/);
+      const labelMatch = candidate.match(/^(品質評讀|內容整理|全文評讀|摘要層級評讀|摘要評讀|全文品質評讀|全文內容整理|全文整理)\s*[:：]\s*(.+)$/);
       if (labelMatch) {
         const suffix = labelMatch[2].trim();
         if (!hasChinese(suffix) || normalizeTitle(sourceTitle) === normalizeTitle(suffix)) {
