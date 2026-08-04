@@ -272,8 +272,13 @@
     if (noteTitle && !genericLabels.has(noteTitle)) {
       const directLabelMatch = noteTitle.match(/^(品質評讀|內容整理|全文評讀)\s*[:：]\s*(.+)$/);
       const directSuffix = directLabelMatch?.[2]?.trim() || "";
-      if (!directLabelMatch || (hasChinese(directSuffix) && normalizeTitle(sourceTitle) !== normalizeTitle(directSuffix))) {
-        if (hasChinese(noteTitle)) return noteTitle;
+      if (directLabelMatch) {
+        if (hasChinese(directSuffix) && normalizeTitle(sourceTitle) !== normalizeTitle(directSuffix)) {
+          if (/(品質評讀|全文評讀|內容整理|全文內容整理)(筆記)?$/.test(directSuffix)) return directSuffix;
+          return `${directSuffix}的${kindNoteLabel}`;
+        }
+      } else if (hasChinese(noteTitle)) {
+        return noteTitle;
       }
     }
     const mappedTopic = topicTitleForSource(sourceTitle);
@@ -288,6 +293,8 @@
         if (!hasChinese(suffix) || normalizeTitle(sourceTitle) === normalizeTitle(suffix)) {
           continue;
         }
+        if (/(品質評讀|全文評讀|內容整理|全文內容整理)(筆記)?$/.test(suffix)) return suffix;
+        return `${suffix}的${kindNoteLabel}`;
       }
       if (hasChinese(candidate)) return candidate;
     }
