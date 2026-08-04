@@ -184,6 +184,10 @@
     });
   }
 
+  function normalizeTitle(value) {
+    return String(value || "").trim().toLocaleLowerCase("en-US").replace(/\s+/g, " ");
+  }
+
   function stripFrontMatter(value) {
     const text = String(value || "").trim();
     return text.startsWith("---")
@@ -191,18 +195,28 @@
       : text;
   }
 
-  function noteHeading(item) {
+  function noteHeading(item, sourceTitle) {
     const noteTitle = String(item.noteTitle || "").trim();
-    if (hasChinese(noteTitle)) return noteTitle;
-    const chineseHeading = stripFrontMatter(item.content)
-      .match(/^#\s+(.+)$/gm)
-      ?.map((heading) => heading.replace(/^#\s+/, "").trim())
-      .find(hasChinese);
-    return chineseHeading || `${kindLabel(item.kind)}筆記`;
+    const kindNoteLabel = item.kind === "digest" ? "內容整理" : "品質評讀";
+    const candidates = [
+      noteTitle,
+      ...(stripFrontMatter(item.content).match(/^#\s+(.+)$/gm) || []).map((heading) => heading.replace(/^#\s+/, "").trim()),
+    ];
+    for (const candidate of candidates) {
+      const labelMatch = candidate.match(/^(品質評讀|內容整理|全文評讀)\s*[:：]\s*(.+)$/);
+      if (labelMatch) {
+        const suffix = labelMatch[2].trim();
+        if (!hasChinese(suffix) || normalizeTitle(sourceTitle) === normalizeTitle(suffix)) {
+          return `${labelMatch[1] === "全文評讀" ? "內容整理" : labelMatch[1]}筆記`;
+        }
+      }
+      if (hasChinese(candidate)) return candidate;
+    }
+    return `${kindNoteLabel}筆記`;
   }
 
-  function readingSummaryLabel(item) {
-    return `繁體中文筆記：${noteHeading(item)}`;
+  function readingSummaryLabel(item, sourceTitle) {
+    return `繁體中文筆記：${noteHeading(item, sourceTitle)}`;
   }
 
   function itemText(item) {
@@ -221,7 +235,7 @@
       results.flatMap((result) => [
         result.kind,
         result.noteTitle,
-        noteHeading(result),
+        noteHeading(result, item.title),
         stripFrontMatter(result.content),
         Array.isArray(result.cards) ? result.cards.flatMap((card) => [card.title, card.question, card.answer]) : [],
       ]),
@@ -261,11 +275,11 @@
     return `<details class="paper-section"><summary>自我測驗（${cards.length} 張）</summary><div class="quiz-list">${cardsHtml}</div></details>`;
   }
 
-  function renderResult(result) {
+  function renderResult(result, sourceTitle) {
     const noteBody = stripFrontMatter(result.content);
     return `
         <details class="paper-section paper-note-section">
-          <summary><span class="paper-note-summary-title">${escapeHtml(readingSummaryLabel(result))}</span><span>${escapeHtml(formatDate(result.completedAt))}</span></summary>
+          <summary><span class="paper-note-summary-title">${escapeHtml(readingSummaryLabel(result, sourceTitle))}</span><span>${escapeHtml(formatDate(result.completedAt))}</span></summary>
           <div class="paper-note">${escapeHtml(noteBody || "目前沒有可顯示的中文筆記內容。")}</div>
           ${renderCards(result.cards)}
         </details>`;
@@ -283,7 +297,7 @@
     const fullTextLink = link("合法全文", item.legalFullTextUrl);
     const sourceLink = link("來源頁面", item.sourceUrl);
     const doiLink = item.doi ? `<a class="paper-link" href="https://doi.org/${encodeURIComponent(item.doi)}" target="_blank" rel="noopener noreferrer">DOI</a>` : "";
-    const resultSections = results.map(renderResult).join("");
+    const resultSections = results.map((result) => renderResult(result, displayTitle)).join("");
     return `
       <article class="paper-card">
         <header class="paper-card-head">
