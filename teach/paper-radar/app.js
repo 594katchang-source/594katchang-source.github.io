@@ -258,7 +258,9 @@
   }
 
   function noteHeading(item, sourceTitle) {
-    const noteTitle = String(item.noteTitle || "").trim();
+    const rawNoteTitle = String(item.noteTitle || "").trim();
+    const authorYearPrefix = rawNoteTitle.match(/^[^\u3400-\u9fff]*?\d{4}\s*[-–—:\uFF1A]\s*(.+)$/u);
+    const noteTitle = authorYearPrefix && hasChinese(authorYearPrefix[1]) ? authorYearPrefix[1].trim() : rawNoteTitle;
     const kindNoteLabel = item.kind === "digest" ? "內容整理" : "品質評讀";
     const genericLabels = new Set([
       "品質評讀",
