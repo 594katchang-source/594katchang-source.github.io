@@ -1,7 +1,300 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-07T03:43:31.905Z",
+  "generatedAt": "2026-08-07T13:46:03.224Z",
   "papers": [
+    {
+      "id": "doi:10.1017/jns.2026.10127:review",
+      "paperId": "doi:10.1017/jns.2026.10127",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Clinical and mechanistic evidence on metabolic effects of oat β-glucan, rice bran, and unripe banana flour: a systematic review with mechanism-informed synthesis.",
+      "authors": "Isyrofi A, Rahmawati W, Huang X, Xie Y, Srichamnong W, Handayani D",
+      "journal": "Herbs, phytochemicals and supplement safety (PubMed)",
+      "year": "2026",
+      "doi": "10.1017/jns.2026.10127",
+      "abstract": "Dietary fibre improves metabolic health, yet comparative evidence across different fibre sources remains unclear. This systematic review evaluates metabolic effects of oat β-glucan, rice bran, and unripe banana flour in adults, assessing glycaemic, lipid, and mechanistic effects, synthesising their physiological pathways across distinct fibre types (viscosity-driven, phytochemical-mediated, and resistant starch fermentation mechanisms). Following PRISMA 2020 guidelines, PubMed, Scopus, and Web of Science were searched up to June 2025. A total of 602 records were identified, and after removing 146 duplicates, 456 were screened. Forty-four full texts were assessed, and 15 studies were included. Risk of bias was evaluated using RoB 2.0 and Newcastle-Ottawa. Outcomes included glycaemic markers, insulin response, lipid profile, blood pressure, body composition, and mechanistic biomarkers. Studies (n = 15; sample sizes 10-154; durations 3 days-12 weeks) demonstrated heterogeneous dosing and formulations. Oat β-glucan consistently improved postprandial glucose, insulin AUC, and LDL-C, with modest effects on waist circumference and blood pressure. Rice bran improved blood lipids consistently, while glycaemic effects were mixed. UBF resistant starch was associated with reduction in fasting glucose, HOMA-IR, and body weight, although findings are based on small, short-duration trials. However, variability in study design and limited mechanistic assessments restricted cross-fibre synthesis. The available evidence suggests modest improvements in glycaemic and lipid outcomes. Differences in responsiveness likely reflect variations in fibre structure, viscosity, and fermentability, suggesting complementary physiological pathways. Standardised dosing, longer interventions, and mechanistic biomarkers - including SCFA profiles, incretin response, and bile acid signalling - are needed to clarify inter-individual variability and guide fibre-based interventions.",
+      "legalFullTextUrl": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/54FC850FA82C88D6FA52D7183E7A7839/S204867902610127Xa.pdf/div-class-title-clinical-and-mechanistic-evidence-on-metabolic-effects-of-oat-glucan-rice-bran-and-unripe-banana-flour-a-systematic-review-with-mechanism-informed-synthesis-div.pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42559073/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "design:systematic review",
+        "guideline and consensus",
+        "herbs phytochemicals supplements",
+        "obesity and metabolism",
+        "precision nutrition",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "燕麥 β-glucan、米糠與未熟香蕉粉代謝效應的品質評讀",
+      "content": "# 燕麥 β-glucan、米糠與未熟香蕉粉代謝效應的品質評讀\n\n> 本評讀依 paper-review skill 閱讀合法 OA PDF 全文後完成。全文為 11 頁，已核對 PRISMA 流程、PROSPERO、搜尋策略、納入研究、RoB 表格、結果表、機轉推論、限制、資金與利益衝突。\n\n## 品質快照\n\n- **設計**：系統性回顧，14 篇 RCT 加 1 篇非隨機介入研究，採敘述性整合。\n- **搜尋**：PubMed、Scopus、Web of Science，2014-01-01 至 2025-06-30，PROSPERO CRD420251061052。\n- **樣本**：15 篇研究，單篇樣本 10 至 154 人，介入期 3 天至 12 週。\n- **RoB**：中等至高疑慮。多數 RCT 低風險或有些疑慮，Leão 2019 為 high risk，米糠部分研究的報告不清楚，另有 1 篇非隨機研究。\n- **GRADE**：Very low，這是依 RCT-dominant starting high、五個 domain 降級後由 deterministic GRADE 計算所得，主要問題是異質性、間接性與精確度。\n- **一句話 verdict**：這篇回顧適合用來整理三類纖維的可能使用方向，燕麥 β-glucan 的餐後血糖與 LDL-C 訊號較一致，卻沒有共同 pooled effect 或長期臨床結果，不能把機轉敘述當成確定治療效果。\n\n## 白話導讀\n\n作者把燕麥 β-glucan、米糠與未熟香蕉粉放在一起比較。燕麥偏向黏度與餐後血糖，米糠偏向血脂與植物化學成分，未熟香蕉粉偏向 resistant starch、飽足與腸道發酵。納入試驗小、時間短、產品差異大，所以研究較像選擇營養介入的地圖，還不是三種纖維的直接排名試驗。\n\n## 研究問題與方法\n\n- **納入條件**：18 歲以上、有 MetS 或至少一項主要代謝異常的成人，接受燕麥 β-glucan/燕麥麩皮、米糠/去脂米糠/米糠油或未熟香蕉粉，對照為安慰劑、低纖維或標準飲食。\n- **研究設計**：優先 RCT，也納入比較性非隨機介入研究，排除 cohort、橫斷面、病例報告與其他回顧。\n- **結果**：血糖、餐後 glucose/AUC、HbA1c、insulin、HOMA-IR、血脂、血壓、體重、BMI、腰圍與部分機轉標記。\n- **選擇與擷取**：兩位審查者獨立篩選、全文判定與資料擷取，分歧由討論或第三位審查者處理。\n- **偏差工具**：RCT 用 Cochrane RoB 2，非隨機研究用 Newcastle-Ottawa Scale。作者規劃排除 high-risk studies 做敏感度檢查，但最後沒有共同 meta-analysis。\n- **統合策略**：原先規劃同質研究達 3 篇時做 random-effects meta-analysis，實際因劑量、產品、outcome 與變異資料差異大，改採敘述性整合。\n\n## 主要結果\n\n### 燕麥 β-glucan\n\n6 篇研究的餐後血糖訊號較一致。Steinert 2016 的急性小型試驗顯示，每增加 1 g β-glucan，glucose AUC 約下降 4.35%，peak glucose 約下降 6.57%。較長期研究有 LDL-C、總膽固醇、VLDL-C、腰圍、血壓與 BMI 改善，但部分試驗把燕麥和低熱量飲食一起介入，歸因要保守。Leão 2019 在低熱量飲食上加 40 g/day 燕麥麩皮，沒有增加 MetS remission，介入組 HDL-C 下降，且研究被評為 high risk。\n\n### 米糠\n\n5 篇研究的血脂方向較一致，米糠油研究看到總膽固醇與 LDL-C 改善，部分研究有 HDL-C、血壓與 oxidative stress 改善。血糖與 HbA1c 的方向較混合。米糠、去脂米糠、米糠油與米糠麵包的脂肪、纖維、植物化學物與食物基質不同，應視為不同介入，不宜合併成一個產品效果。\n\n### 未熟香蕉粉\n\n4 篇研究中有 3 篇 RCT 與 1 篇非隨機介入研究。研究報告飢餓下降、PYY 增加、ghrelin AUC 下降、insulin sensitivity 改善，以及部分試驗的 fasting glucose、體重與腰圍下降。RS2、SCFA、incretin 與腸道菌相是作者提出的可能路徑，直接機轉資料仍少，試驗樣本與介入期也有限。\n\n### 安全性\n\n整體耐受性良好，偶見輕微胃腸不適，主要在燕麥 β-glucan 或香蕉粉研究。只有 1 名受試者因腸胃症狀退出，沒有嚴重不良事件報告。\n\n## Critical Appraisal\n\n### AMSTAR-2 與 PRISMA 2020 檢查\n\n- **協定**：有 PROSPERO 登錄與事前方法設計，這是優點。\n- **搜尋**：3 個資料庫、列出代表性 PubMed search string，範圍清楚。英文限制與 2014 至 2025 的時間窗可能漏掉早期或非英文證據。\n- **研究選擇與資料擷取**：兩位審查者獨立執行，第三位處理分歧，流程交代清楚。\n- **RoB**：有使用 RoB 2 與 NOS，也在表格列出判定。多數納入研究小、開放標籤或報告不完整，這些限制有被部分呈現。\n- **Meta-analysis**：作者解釋未能合併的原因，沒有用一個不適合的 pooled estimate 掩蓋臨床異質性。\n- **Publication bias**：沒有 outcome-level meta-analysis，Egger test 與 funnel plot 實際上不可行。文章沒有把「未檢測」寫成「沒有偏差」，這點較誠實。\n- **PRISMA 缺口**：流程圖與全文排除原因類別有交代，卻沒有列出 29 篇排除報告的逐篇清單。沒有提供 GRADE 或其他 outcome-level certainty table，結論中的 strength of evidence 是作者敘述性分級。\n\n### 偏差與統計\n\n- 研究間的介入劑量、產品型態、食物基質、族群與追蹤時間差異很大，敘述性整合仍可能讓讀者把不同纖維的方向誤看成可直接比較。\n- 多數研究樣本小，很多結果只有 p 值或方向，沒有可合併的共同效果量。短期 surrogate outcomes 也不能取代長期糖尿病、心血管事件或生活品質。\n- 文章討論中用 β-glucan、米糠植物化學物與 RS2 發酵路徑解釋 clinical outcomes，這些屬機轉推論，不能當作每篇試驗都直接測得的中介證據。\n- 文章結論說三類纖維可作為互補飲食方式，語氣尚有保留，但臨床段落把 β-glucan、米糠與未熟香蕉粉分別對應到特定目標，仍應標示為方向性建議。\n\n### GRADE 計算\n\n| Domain | Rating | 理由 |\n|---|---|---|\n| Risk of bias | Serious | 開放標籤、部分報告不清楚、Leão 2019 high risk、1 篇非隨機研究。 |\n| Inconsistency | Very serious | 劑量、產品、族群、時間與 outcome 差異大，無法做共同 meta-analysis。 |\n| Indirectness | Serious | 健康、過重、MetS、前糖尿病與糖尿病族群混合，產品型態也不同。 |\n| Imprecision | Serious | 多數樣本小，介入期短，沒有共同 pooled effect 與 CI。 |\n| Publication bias | Not serious | 研究數少且未做可行的 outcome-level meta-analysis，無法正式檢驗。 |\n\nDeterministic grade_judge.py：starting high，總降級 -5，**FINAL CERTAINTY = very low**。沒有適用的升級條件。\n\n### Funding and COI\n\n研究獲 RIIM Program、e-ASIA Joint Research Program 與 Universitas Brawijaya Visiting Lecturer Program 支持。作者宣告無 conflict of interest。文中說明 Perplexity Pro 僅用於語言編修，科學內容、資料分析與解釋由作者完成。\n\n## 參考文獻核對\n\n依 paper-review skill 的 CrossRef existence gate 核對三篇代表性方法與結果文獻。RoB 2 與 resistant starch crossover trial 的 DOI 解析且題名相符。文中列為 Nutrients 2022;14:474 的 DOI 10.3390/nu14020474 在 CrossRef 回傳 404，官方 MDPI 頁面也回傳 HTTP 403，因此只能記為 unresolved，不能直接判定為假文獻。\n\n| 參考文獻 | DOI gate | 文中用途 | 判定 |\n|---|---|---|---|\n| Sterne et al., BMJ 2019 | 通過，題名為 RoB 2 方法論文章 | 支持 RCT risk-of-bias 工具 | 可支持方法選擇 |\n| Arias-Cordova et al., Nutrients 2021 | 通過，題名相符 | 支持 resistant starch 與糖尿病 glycemic control 的 crossover trial | 可支持背景與機轉方向，不能代替本回顧的整合結果 |\n| Yu et al., Nutrients 2022;14:474 | CrossRef unresolved，MDPI 自動頁面 HTTP 403 | 支持燕麥 β-glucan 與血脂的 meta-analysis 背景 | 引用可追溯性需人工開啟出版社頁面再核對 |\n\n## 臨床與營養照護適用性\n\n- 依 outcome 選食物來源時，燕麥 β-glucan 可放在餐後血糖與 LDL-C 的飲食設計中，米糠類可放在血脂與植物化學物的討論中，未熟香蕉粉可放在 resistant starch 與飽足的討論中。\n- 要確認實際劑量、產品型態、總纖維量、飲水、腸胃耐受、藥物與整體飲食，不能只照搬研究名稱。\n- 這篇回顧沒有證明三類纖維混搭、特定產品或單一劑量能預防糖尿病或心血管事件。\n- 實務解讀應以食物整體、可持續性與個案目標為主，機轉段落作為理解線索，不作治療保證。\n\n## 全文證據\n\n- 合法來源：Unpaywall 取得 Cambridge University Press OA PDF，文章標示 CC BY。\n- 本機 PDF：[local path removed]\n- PDF 驗證：422,966 bytes，SHA-256 07bdbac20e78be4f31cf0b9614dffbdfb3bfa2493a8e2c7603c460aba805873d。\n- 文字擷取：11 頁，62,506 字元，UTF-8 文字檔位於 [local path removed]\n- 結論：已執行 paper-review skill 的全文評讀、AMSTAR-2/PRISMA 檢查、GRADE 計算與三篇 CrossRef existence gate。",
+      "cards": [],
+      "completedAt": "2026-08-07T12:26:41.149Z"
+    },
+    {
+      "id": "doi:10.1017/jns.2026.10127:digest",
+      "paperId": "doi:10.1017/jns.2026.10127",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Clinical and mechanistic evidence on metabolic effects of oat β-glucan, rice bran, and unripe banana flour: a systematic review with mechanism-informed synthesis.",
+      "authors": "Isyrofi A, Rahmawati W, Huang X, Xie Y, Srichamnong W, Handayani D",
+      "journal": "Herbs, phytochemicals and supplement safety (PubMed)",
+      "year": "2026",
+      "doi": "10.1017/jns.2026.10127",
+      "abstract": "Dietary fibre improves metabolic health, yet comparative evidence across different fibre sources remains unclear. This systematic review evaluates metabolic effects of oat β-glucan, rice bran, and unripe banana flour in adults, assessing glycaemic, lipid, and mechanistic effects, synthesising their physiological pathways across distinct fibre types (viscosity-driven, phytochemical-mediated, and resistant starch fermentation mechanisms). Following PRISMA 2020 guidelines, PubMed, Scopus, and Web of Science were searched up to June 2025. A total of 602 records were identified, and after removing 146 duplicates, 456 were screened. Forty-four full texts were assessed, and 15 studies were included. Risk of bias was evaluated using RoB 2.0 and Newcastle-Ottawa. Outcomes included glycaemic markers, insulin response, lipid profile, blood pressure, body composition, and mechanistic biomarkers. Studies (n = 15; sample sizes 10-154; durations 3 days-12 weeks) demonstrated heterogeneous dosing and formulations. Oat β-glucan consistently improved postprandial glucose, insulin AUC, and LDL-C, with modest effects on waist circumference and blood pressure. Rice bran improved blood lipids consistently, while glycaemic effects were mixed. UBF resistant starch was associated with reduction in fasting glucose, HOMA-IR, and body weight, although findings are based on small, short-duration trials. However, variability in study design and limited mechanistic assessments restricted cross-fibre synthesis. The available evidence suggests modest improvements in glycaemic and lipid outcomes. Differences in responsiveness likely reflect variations in fibre structure, viscosity, and fermentability, suggesting complementary physiological pathways. Standardised dosing, longer interventions, and mechanistic biomarkers - including SCFA profiles, incretin response, and bile acid signalling - are needed to clarify inter-individual variability and guide fibre-based interventions.",
+      "legalFullTextUrl": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/54FC850FA82C88D6FA52D7183E7A7839/S204867902610127Xa.pdf/div-class-title-clinical-and-mechanistic-evidence-on-metabolic-effects-of-oat-glucan-rice-bran-and-unripe-banana-flour-a-systematic-review-with-mechanism-informed-synthesis-div.pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42559073/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "design:systematic review",
+        "guideline and consensus",
+        "herbs phytochemicals supplements",
+        "obesity and metabolism",
+        "precision nutrition",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "燕麥 β-glucan、米糠與未熟香蕉粉代謝效應的全文內容整理",
+      "content": "# 燕麥 β-glucan、米糠與未熟香蕉粉代謝效應的全文內容整理\n\n> 本筆記依 paper-digest skill 閱讀合法 OA PDF 全文後整理。全文為 11 頁，已核對摘要、PROSPERO、搜尋策略、納入研究、RoB 表格、三種纖維的結果表、機轉整理、耐受性、限制與結論。\n\n## 研究在問什麼\n\n這篇系統性回顧比較燕麥 β-glucan、米糠及未熟香蕉粉三類膳食纖維，在成人代謝健康上的臨床結果與可能機轉。作者想把纖維的物理化學特性，像黏度、可發酵性與植物化學物，和血糖、血脂、血壓、體重及腸道機轉放在同一張圖裡理解。\n\n## 三層筆記\n\n### 第一層：先記住\n\n- 搜尋 PubMed、Scopus、Web of Science，涵蓋 2014 年 1 月至 2025 年 6 月。PROSPERO 登錄 CRD420251061052。\n- 602 筆紀錄去除 146 筆重複後，456 筆進入篩選，44 篇進入全文評估，29 篇排除，最後納入 15 篇研究。\n- 15 篇中有 14 篇 RCT 與 1 篇非隨機介入研究。樣本數 10 至 154 人，介入期 3 天至 12 週。\n- 研究差異太大，作者沒有進行 meta-analysis，採按纖維種類與 outcome 的敘述性整合。\n- 燕麥 β-glucan 對餐後血糖、insulin AUC 與 LDL-C 的結果較一致。米糠對血脂的結果較一致，血糖結果混合。未熟香蕉粉的 fasting glucose、HOMA-IR 與體重結果有改善訊號，但研究小、時間短。\n\n### 第二層：理解關係\n\n#### 燕麥 β-glucan：黏度與餐後反應\n\n燕麥 β-glucan 形成較黏稠的腸道內容物，可能延緩胃排空與葡萄糖吸收，也可能增加膽酸排出。Steinert 研究顯示，每增加 1 g β-glucan，餐後 glucose AUC 約下降 4.35%，peak glucose 約下降 6.57%，但該研究只有 10 人，屬急性試驗。較長期研究的 LDL-C、總膽固醇、血壓、腰圍與 BMI 結果方向較多元，部分效果和低熱量飲食同時發生，不能只歸給燕麥。\n\nLeão 研究是重要的反例：40 g/day oat bran 加在低熱量飲食上，沒有比單純低熱量飲食帶來更多 MetS remission，介入組 HDL-C 反而下降。這提醒讀者，食物本身的效果與整體飲食背景要分開看。\n\n#### 米糠：血脂與植物化學物\n\n米糠、去脂米糠與 rice bran oil 的產品形式不同，不能當成同一種介入。回顧中米糠油的總膽固醇與 LDL-C 改善較明顯，部分研究也看到 HDL-C、血壓與 oxidative stress 指標變化。作者提出 γ-oryzanol、tocotrienols、phytosterols、抗氧化與膽酸路徑作為可能解釋，這些機轉多來自支持性研究與生物標記，並非每篇臨床試驗都直接測量。\n\n#### 未熟香蕉粉：resistant starch 與飽足\n\n未熟香蕉粉與 banana biomass 含有較多 RS2。研究觀察到飢餓下降、PYY 增加、ghrelin AUC 下降、insulin sensitivity 改善，以及部分研究的 fasting glucose、體重與腰圍下降。作者把短期餐後反應連到消化速度，較長期的 insulin sensitivity 則連到腸道發酵、SCFA 與 incretin。納入的 RCT 數量少，產品、劑量與族群差異大，這些機轉仍應當作合理解釋，不是直接證明。\n\n### 第三層：拿來判斷\n\n#### 如何把結果放進營養照護\n\n- 若目標是餐後血糖與 LDL-C，可優先思考含 β-glucan 的燕麥食物，並把劑量、分子量、食物基質與總飲食一起評估。\n- 若目標是血脂或米糠油的植物化學物，需確認產品型態與實際劑量，不能把米糠、去脂米糠和米糠油互換。\n- 若目標是飽足、腸道發酵或 insulin sensitivity，可把未熟香蕉粉視為 resistant starch 來源，留意胃腸耐受、飲品或食物配方和總碳水量。\n- 研究沒有提供三類纖維的共同比較效果量，也沒有證明混搭三類纖維一定優於單一來源。\n\n#### 安全性\n\n整體耐受性良好，偶見輕微胃腸不適，主要出現在燕麥 β-glucan 或香蕉粉研究。只有一名受試者因胃腸症狀退出燕麥麩皮試驗，沒有嚴重不良事件報告。臨床使用仍要按個案腸胃功能、飲水、藥物與飲食總量調整。\n\n#### 研究可信度與限制\n\n- 介入劑量、食物基質、時間、族群與 outcome 定義差異大，無法合併成單一 effect size。\n- 研究期間多為 3 天至 12 週，難以判斷長期體重、糖尿病併發症或心血管事件。\n- 部分研究開放標籤、樣本小、outcome 報告不完整，Leão 研究被評為 high risk of bias。\n- 只有 3 個資料庫，語言限制英文，可能漏掉非英文研究。\n- 搜尋刻意限於 2014 至 2025，能反映近期產品設計，卻也可能排除較早但仍有價值的基礎試驗。\n- 機轉資料很不完整，SCFA、incretin、bile acid、microbiota 與發炎標記未在各纖維間一致測量。\n\n## 白話導讀\n\n三類纖維像是用不同方式幫忙。燕麥 β-glucan 比較像在腸道形成黏度，對餐後血糖和 LDL-C 的訊號較穩定。米糠的重點比較靠近血脂和植物化學成分。未熟香蕉粉的重點是 resistant starch、飽足與腸道發酵。這篇研究適合幫助營養師依個案目標選擇食物來源，不能把三類纖維的效果當成同一種產品，也不能從小型短期試驗推論長期疾病預防。\n\n## 全文證據\n\n- 合法來源：Unpaywall 取得 Cambridge University Press OA PDF，文章標示 CC BY。\n- 本機 PDF：[local path removed]\n- PDF 驗證：423,089 bytes，SHA-256 00d606c355690f4f81aff770cf113ab2ef9a09251344a8b0379b29e672dd9ecd。\n- 文字擷取：11 頁，62,506 字元，UTF-8 文字檔位於 [local path removed]\n\n## 複習提醒\n\n這份整理用於學習與教學。纖維劑量、產品型態與研究族群差異很大，實際調整飲食要回看原文與個案的血糖、血脂、腸胃耐受及用藥狀況。",
+      "cards": [
+        {
+          "title": "研究設計",
+          "question": "這篇系統性回顧納入多少研究，為何沒有做 meta-analysis？",
+          "answer": "納入 15 篇研究，其中 14 篇 RCT、1 篇非隨機介入研究。因劑量、產品、時間、族群與 outcome 差異大，作者採敘述性整合。",
+          "tags": [
+            "系統性回顧",
+            "RCT",
+            "異質性"
+          ]
+        },
+        {
+          "title": "燕麥 β-glucan",
+          "question": "燕麥 β-glucan 的結果哪一類較一致？",
+          "answer": "餐後血糖反應與 LDL-C 的改善訊號較一致。急性小型研究中，每增加 1 g β-glucan，glucose AUC 約下降 4.35%，peak glucose 約下降 6.57%。",
+          "tags": [
+            "β-glucan",
+            "餐後血糖",
+            "LDL-C"
+          ]
+        },
+        {
+          "title": "米糠產品",
+          "question": "為何米糠、去脂米糠與米糠油不能直接當成同一介入？",
+          "answer": "三者的脂肪、植物化學物、纖維比例與食物基質不同，研究結果也分別來自不同劑量與產品，效果不能直接互換。",
+          "tags": [
+            "米糠",
+            "米糠油",
+            "產品型態"
+          ]
+        },
+        {
+          "title": "未熟香蕉粉",
+          "question": "未熟香蕉粉可能透過哪些路徑影響代謝？",
+          "answer": "RS2 可能降低消化速度，長期則經腸道發酵、SCFA 與 incretin 路徑影響飽足與 insulin sensitivity，但目前試驗數量少且時間短。",
+          "tags": [
+            "resistant starch",
+            "SCFA",
+            "飽足"
+          ]
+        },
+        {
+          "title": "臨床邊界",
+          "question": "這篇回顧能否證明混合三類纖維一定比單一纖維好？",
+          "answer": "不能。文章提出互補機轉與飲食應用方向，但沒有共同比較的 pooled effect，也沒有直接測試三類纖維混搭的長期臨床效果。",
+          "tags": [
+            "臨床解讀",
+            "證據邊界",
+            "營養照護"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-07T12:23:08.987Z"
+    },
+    {
+      "id": "doi:10.1038/s41366-026-02127-x:review",
+      "paperId": "doi:10.1038/s41366-026-02127-x",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Selected biomarkers of coagulation, inflammation, and vascular tone in young women with normal weight obesity.",
+      "authors": "Pluta W, Lubkowska A, Dudzińska W",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.1038/s41366-026-02127-x",
+      "abstract": "Individuals with the Normal Weight Obesity (NWO) phenotype are characterized by excessive body fat despite normal Body Mass Index (BMI), often leading to underestimated cardiovascular risk. The mechanisms linking this specific body composition to early vascular damage remain unclear. The aim of this study was to evaluate endothelial dysfunction biomarkers in young women with NWO, and to identify the main axes of vascular impairment. The study included 176 young women (median age 20) with normal BMI (18.5-24.9 kg/m²). Based on dual-energy X-ray absorptiometry (DXA), participants were classified into an NWO group (n = 88; percent body fat (PBF) ≥ 35.8%) and a healthy control group (NW; n = 88). Serum levels of tissue-type plasminogen activator (tPA), von Willebrand factor (vWF), Angiopoietin-1 (Ang-1), Nitric Oxide (NO), and high-sensitivity C-reactive protein (hs-CRP) were analyzed. Principal Component Analysis (PCA) was employed to identify latent patterns of endothelial function. Women with NWO exhibited significantly higher levels of tPA (1.86 vs. 1.48 ng/ml; p = 0.038), vWF (72.24 vs. 63.62 ng/ml; p = 0.038), and Ang-1 (515.3 vs. 491.63 pg/ml; p = 0.008) compared to controls. PCA identified three principal components explaining 71.68% of the total variance: Coagulation (tPA, vWF), Inflammation/Angiogenesis (hs-CRP, Ang-1), and Vasodilation (NO). Young women with NWO exhibit subclinical endothelial dysfunction, which is characterized primarily by a pro-thrombotic state and disturbed angio-inflammatory balance. These changes occur even before the onset of overt metabolic or cardiovascular disease.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42552376/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "clinical nutrition technology",
+        "human clinical population",
+        "obesity and metabolism",
+        "precision nutrition",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "正常體重肥胖年輕女性的血管內皮功能與心血管風險線索品質評讀",
+      "content": "# 正常體重肥胖年輕女性的血管內皮功能與心血管風險線索品質評讀\n\n> 本評讀依 paper-review skill 閱讀合法 OA PDF 全文後完成。全文為 7 頁，已核對方法、表格、PCA、ANCOVA、限制、資金、利益衝突與結論。\n\n## 品質快照\n\n- **設計**：單一地區、橫斷面、1:1 配對的觀察性 biomarker study。\n- **樣本**：176 名 18 至 24 歲、BMI 18.5 至 24.9 kg/m² 的波蘭年輕女性，NWO 88 人，正常體重對照 88 人。\n- **RoB**：中至高疑慮。主要問題是橫斷面設計、單一大學族群、前一階段研究衍生樣本、surrogate biomarkers，以及 PCA 穩定性有限。\n- **GRADE**：Very low，主要 outcome 為 NWO 與血管內皮生物標記差異。deterministic GRADE 計算為 starting low，三個降級 domain，最終 very low。\n- **Registration**：研究倫理審查編號 KB-0012/13/2021，全文未見臨床試驗註冊。這類觀察性研究沒有介入註冊要求。\n- **一句話 verdict**：這篇研究提供正常 BMI 但體脂偏高年輕女性的早期血管標記線索，適合產生假說，證據強度不足以建立心血管預測工具、篩檢切點或治療建議。\n\n## 一句話導讀\n\n研究者用 DXA 體脂率把 BMI 正常的年輕女性分成 NWO 與對照組，發現 NWO 組的 tPA、vWF、Ang-1 與 hs-CRP 較高，再用 PCA 整理成凝血與纖溶、發炎與血管新生、血管舒張三條軸線。結果指向次臨床血管差異，尚未證明日後心血管事件風險。\n\n## 研究問題與方法\n\n- **研究問題**：NWO 是否伴隨血管內皮功能標記變化，能否從多個標記整理出主要生理軸線。\n- **受試者**：18 至 24 歲、都市西波蘭大學女性，排除吸菸、慢性病、懷孕、哺乳、荷爾蒙治療、補充品、特定藥物、運動員與近期飲食監測者。\n- **分組**：前一階段研究用 ROC 與 Youden index 建立 PBF 35.8% 切點。NWO 組 PBF ≥35.8%，對照組 PBF <35.8%，兩組依年齡與 BMI 配對。\n- **檢測**：tPA、vWF、Ang-1 使用 ELISA，NO 使用 nitrate/nitrite colorimetric assay，hs-CRP 使用分光光度法。測定皆做 duplicate，Ang-1 超過標準曲線上限時稀釋重測。\n- **分析**：Mann–Whitney、Spearman correlation、PCA、Bartlett test、KMO，以及以 BMI 為連續共變項的 ANCOVA。樣本數 176，G*Power 估計實際 power 0.951。\n\n## 主要結果\n\n### 組間差異\n\n- tPA：NWO 1.86 對 NW 1.48 ng/mL，p = 0.038。\n- vWF：72.24 對 63.62 ng/mL，p = 0.038。\n- Ang-1：515.3 對 491.63 pg/mL，p = 0.008。\n- hs-CRP：0.63 對 0.60 mg/L，p = 0.014。兩組仍低於 1.0 mg/L 的低風險臨床範圍。\n- NO：6.44 對 7.72 µM，p = 0.479，差異未達統計顯著。\n\n### PCA\n\n- PC1 凝血與纖溶，解釋 30.64%，tPA loading -0.82，vWF loading -0.86。\n- PC2 發炎與血管新生，解釋 23.09%，hs-CRP loading +0.71，Ang-1 loading -0.74。\n- PC3 血管舒張，解釋 17.95%，NO loading +0.83。\n- 三個成分共解釋 71.68% 變異。Bartlett test p < 0.0001，KMO = 0.52，只支持探索性使用。\n\n### BMI 校正\n\nBMI 作為共變項後，vWF、tPA 與 Ang-1 的組間差異仍具統計顯著性。NO 的結果受 BMI 影響較大，BMI 是顯著共變項，但 NWO 組較差的整體趨勢仍存在。\n\n## Critical Appraisal\n\n### 研究設計與偏差領域\n\n本研究屬 cross-sectional etiologic biomarker study，採 ROBINS-I 思路檢查觀察性研究偏差，並以 Newcastle-Ottawa 常見的選樣、可比性與 outcome measurement 觀點交叉核對。\n\n| Domain | 判定 | 理由 |\n|---|---|---|\n| Confounding | 高疑慮 | 年齡與 BMI 有配對，但飲食、身體活動、月經週期、睡眠與未測量的代謝因素仍可能影響血管標記。 |\n| Participant selection | 中疑慮 | 來自單一大學與都市西波蘭，排除多種疾病、藥物、補充品與運動者，樣本健康程度高。 |\n| Exposure classification | 中疑慮 | DXA 是較好的體組成工具，但 PBF 35.8% 來自前一階段同族群 ROC，外部驗證有限。 |\n| Missing data | 中疑慮 | 全文未提供完整缺失資料流程，且部分身體活動與月經週期資訊未標準化。 |\n| Outcome measurement | 低至中疑慮 | ELISA、duplicate measurement 與認證實驗室提供測量品質，但 outcome 是 surrogate biomarker，並非臨床事件。 |\n| Selective reporting | 中疑慮 | 有補充表格與多個標記，但未見預先註冊分析計畫，無法完整判斷未報告分析。 |\n\n### 統計與推論檢查\n\n- p 值顯示數個標記有組間差異，研究沒有呈現主要差異的 95% CI，也沒有提供可對應的臨床 MCID。統計顯著不等於已知臨床重要性。\n- 多個 biomarker、PCA 軸線與相關分析一起檢驗，全文未說明多重比較校正，假陽性風險需保留。\n- PCA 的 KMO = 0.52 屬勉強可接受，三軸線應視為探索模型。argdown_lint 對作者的一般性結論回傳 clean，但它把未知的 prediction claim_type 依規則當作 general，不能取代臨床預測模型驗證。\n- 把 tPA 抗原升高解讀成促血栓訊號需要小心，tPA antigen 可能包含 tPA/PAI-1 complex，研究沒有直接測 PAI-1。\n- 摘要與結論提到 early cardiovascular risk stratification，但本研究沒有追蹤高血壓、糖尿病或心血管事件，也沒有 calibration、discrimination 或 prospective validation。\n\n### GRADE 計算\n\n| Domain | Rating | 理由 |\n|---|---|---|\n| Risk of bias | Serious | 橫斷面、單一地區、前一階段衍生樣本與殘餘混雜。 |\n| Inconsistency | Not serious | 單一資料集，未進行跨研究合併。 |\n| Indirectness | Serious | 研究族群窄，主要結果為 surrogate biomarkers，PBF 切點外部適用性有限。 |\n| Imprecision | Serious | n = 176，未報主要差異的 95% CI，PCA 穩定性有限。 |\n| Publication bias | Not serious | 單篇研究無法正式估計，全文未見明確選擇性報告證據。 |\n\nDeterministic grade_judge.py：starting low，總降級 -3，**FINAL CERTAINTY = very low**。沒有符合升級條件的 effect size、dose-response 或 opposing confounding 證據。\n\n### Funding and COI\n\n研究由波蘭科學部 Regional Excellence Initiative 與 Pomeranian Medical University Faculty of Health Sciences 補助。作者宣告無 competing interests。研究有倫理審查與受試者書面同意。\n\n## 參考文獻核對\n\n依 paper-review skill 的 CrossRef existence gate 核對三篇直接支撐背景與研究切點的文獻，三個 DOI 都能解析，題名與文中引用相符。這是 DOI 存在與題名層級核對，不能代替逐句核對原始研究結果。\n\n| 參考文獻 | DOI gate | 文中用途 | 判定 |\n|---|---|---|---|\n| Pluta et al., Scientific Reports 2025 | 通過，題名相符 | 提供年輕女性 NWO 的 PBF 35.8% 切點與前一階段背景 | 可支持研究分組來源 |\n| Pluta et al., IJERPH 2022 | 通過，題名相符 | 說明 normal-weight obesity 與 MONW 的診斷定義背景 | 可支持背景敘述，不能直接支持本研究結果 |\n| Mohammadian Khonsari et al., Frontiers in Immunology 2023 | 通過，題名相符 | 支持 NWO 與發炎標記關聯的既有研究脈絡 | 可支持背景與討論方向，不能證明本研究的因果路徑 |\n\n## 臨床與營養照護適用性\n\n- 可用於提醒 BMI 正常且體脂偏高者，必要時補充體組成、飲食、活動量與代謝風險評估。\n- 不能把 PBF 35.8%、tPA、vWF、Ang-1 或 PCA 分數直接當成常規篩檢 cut-off。\n- 不宜依這篇研究單獨開始抗血小板、抗凝血、補充品或特殊營養介入。\n- 若要把結果轉成風險分層工具，還需要不同族群的前瞻性驗證、臨床事件 outcome、模型 discrimination、calibration 與 decision-curve analysis。\n\n## 全文證據\n\n- 合法來源：Unpaywall 路線取得 Nature OA PDF。\n- 本機 PDF：[local path removed]\n- PDF 驗證：557,740 bytes，SHA-256 84a9ac2e3cefed581c9c3b1da08fd09f468812690806a31442d119ac3ad10954。\n- 文字擷取：7 頁，47,163 字元，UTF-8 文字檔位於 [local path removed]\n- 結論：已執行 paper-review skill 的全文評讀、GRADE 計算、argdown lint 與三篇 CrossRef existence gate。",
+      "cards": [],
+      "completedAt": "2026-08-07T12:16:14.118Z"
+    },
+    {
+      "id": "doi:10.1038/s41366-026-02127-x:digest",
+      "paperId": "doi:10.1038/s41366-026-02127-x",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Selected biomarkers of coagulation, inflammation, and vascular tone in young women with normal weight obesity.",
+      "authors": "Pluta W, Lubkowska A, Dudzińska W",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.1038/s41366-026-02127-x",
+      "abstract": "Individuals with the Normal Weight Obesity (NWO) phenotype are characterized by excessive body fat despite normal Body Mass Index (BMI), often leading to underestimated cardiovascular risk. The mechanisms linking this specific body composition to early vascular damage remain unclear. The aim of this study was to evaluate endothelial dysfunction biomarkers in young women with NWO, and to identify the main axes of vascular impairment. The study included 176 young women (median age 20) with normal BMI (18.5-24.9 kg/m²). Based on dual-energy X-ray absorptiometry (DXA), participants were classified into an NWO group (n = 88; percent body fat (PBF) ≥ 35.8%) and a healthy control group (NW; n = 88). Serum levels of tissue-type plasminogen activator (tPA), von Willebrand factor (vWF), Angiopoietin-1 (Ang-1), Nitric Oxide (NO), and high-sensitivity C-reactive protein (hs-CRP) were analyzed. Principal Component Analysis (PCA) was employed to identify latent patterns of endothelial function. Women with NWO exhibited significantly higher levels of tPA (1.86 vs. 1.48 ng/ml; p = 0.038), vWF (72.24 vs. 63.62 ng/ml; p = 0.038), and Ang-1 (515.3 vs. 491.63 pg/ml; p = 0.008) compared to controls. PCA identified three principal components explaining 71.68% of the total variance: Coagulation (tPA, vWF), Inflammation/Angiogenesis (hs-CRP, Ang-1), and Vasodilation (NO). Young women with NWO exhibit subclinical endothelial dysfunction, which is characterized primarily by a pro-thrombotic state and disturbed angio-inflammatory balance. These changes occur even before the onset of overt metabolic or cardiovascular disease.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42552376/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "clinical nutrition technology",
+        "human clinical population",
+        "obesity and metabolism",
+        "precision nutrition",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "正常體重肥胖年輕女性的血管內皮功能與心血管風險線索全文內容整理",
+      "content": "# 正常體重肥胖年輕女性的血管內皮功能與心血管風險線索全文內容整理\n\n> 本筆記依 paper-digest skill 閱讀合法 OA PDF 全文後整理。全文為 7 頁，已核對摘要、研究對象、檢驗方法、表格、PCA、ANCOVA、討論、限制、未來研究與結論。\n\n## 研究在問什麼\n\n研究者想知道「正常體重肥胖」（normal-weight obesity, NWO）是否已在沒有明顯代謝疾病的年輕女性出現血管內皮功能異常，並用主成分分析把多個血管生物標記整理成較容易理解的生理軸線。\n\n## 三層筆記\n\n### 第一層：先記住\n\n- 研究納入 176 名 18 至 24 歲、BMI 18.5 至 24.9 kg/m² 的波蘭年輕女性。\n- 依 DXA 體脂率分組，NWO 組 88 人，體脂率 ≥35.8%，正常體重對照組 88 人。兩組依年齡與 BMI 做 1:1 配對。\n- NWO 組的 tPA、vWF、Ang-1 與 hs-CRP 較高。主要數值為 tPA 1.86 對 1.48 ng/mL、vWF 72.24 對 63.62 ng/mL、Ang-1 515.3 對 491.63 pg/mL、hs-CRP 0.63 對 0.60 mg/L。\n- PCA 找出三個成分，共解釋 71.68% 的變異：凝血與纖溶 30.64%、發炎與血管新生 23.09%、血管舒張 17.95%。\n\n### 第二層：理解關係\n\n#### BMI 正常不代表脂肪分布與血管狀態相同\n\n兩組 BMI 都在正常範圍，NWO 組的體脂率仍較高，37.9% 對 32.1%。這提示單看 BMI 可能漏掉體脂偏高的族群。研究結果也顯示，NWO 組的血管標記出現細微差異，訊號集中在血栓傾向、發炎與血管修復平衡。\n\n#### 三條生理軸線\n\n- PC1 凝血與纖溶軸：tPA loading -0.82、vWF loading -0.86。NWO 組兩者都較高，作者把它解讀為早期促血栓相關訊號。tPA 抗原升高仍可能代表 tPA/PAI-1 複合體增加，不能直接當作纖溶能力變好。\n- PC2 發炎與血管新生軸：hs-CRP loading +0.71、Ang-1 loading -0.74。NWO 組兩者都較高，可能反映低度發炎和血管修復反應同時存在。\n- PC3 血管舒張軸：NO loading +0.83。NWO 組 NO 較低，6.44 對 7.72 µM，p = 0.479，差異未達統計顯著。\n\n#### BMI 校正後的結果\n\nANCOVA 把 BMI 當連續共變項後，NWO 與正常體重組在 vWF、tPA、Ang-1 的組間差異仍具統計顯著性。NO 受 BMI 影響較明顯，BMI 是顯著共變項，但 NWO 組較差的整體血管功能趨勢仍存在。\n\n### 第三層：拿來判斷\n\n#### 對營養與體位評估的提醒\n\n對 BMI 正常、體脂偏高的年輕女性，體組成評估可能補足 BMI 的資訊。研究採 DXA 與體脂率 35.8% 作為研究分組門檻，這個門檻來自前一階段研究用 ROC 與 Youden index 建立，敏感度 0.949、特異度 0.763。它是這個研究族群的研究切點，不能直接當成所有族群的臨床診斷標準。\n\n#### 對心血管風險的解讀\n\n這篇研究的標記差異屬於早期、次臨床訊號，研究沒有追蹤高血壓、糖尿病、心血管事件，也沒有測試營養或藥物介入能否改善結果。NWO 組的 hs-CRP 仍低於 1.0 mg/L，兩組都在低風險臨床範圍內，不能把小幅差異直接解讀成已發生心血管疾病。\n\n#### 研究可信度與限制\n\n- 橫斷面設計無法確認脂肪分布和血管標記的因果方向。\n- PAI-1 沒有直接測量，低纖溶狀態只是依 tPA 抗原推測。\n- PCA 的 KMO = 0.52，只達可接受的探索性程度，三條軸線的穩定性需用更大樣本重複驗證。\n- 生物標記只在單一時間點測量，未處理日夜變化與月經週期階段。\n- 研究排除運動員、吸菸者、慢性病、補充品使用者與多種藥物使用者，結果外推到一般女性、男性、不同年齡與不同族群時要保守。\n- 身體活動量沒有用 IPAQ 等標準化工具量測，生活型態混雜仍可能存在。\n\n## 白話導讀\n\n這篇研究提醒，體重正常的年輕女性，體脂偏高時仍可能出現很細微的血管內皮訊號變化。作者用五個生物標記整理出三條軸線，讓讀者看到凝血、發炎和血管舒張可能同時變動。這是一項小型、單一地區、橫斷面的探索研究，適合用來提出研究問題，尚不足以建立臨床篩檢門檻或治療建議。\n\n## 全文證據\n\n- 合法來源：Unpaywall 路線取得 Nature OA PDF。\n- 本機 PDF：[local path removed]\n- PDF 驗證：557,740 bytes，SHA-256 84a9ac2e3cefed581c9c3b1da08fd09f468812690806a31442d119ac3ad10954。\n- 文字擷取：7 頁，47,163 字元，UTF-8 文字檔位於 [local path removed]\n\n## 複習提醒\n\n這份整理用於學習與教學。體脂率、血管標記與 PCA 軸線仍應回看原文，個案照護要依年齡、體組成、飲食、活動量與既有疾病狀況判斷。",
+      "cards": [
+        {
+          "title": "NWO 分組",
+          "question": "這篇研究如何定義正常體重肥胖？",
+          "answer": "研究對象 BMI 皆為 18.5 至 24.9 kg/m²，再以 DXA 體脂率分組，體脂率 ≥35.8% 歸為 NWO 組。",
+          "tags": [
+            "正常體重肥胖",
+            "DXA",
+            "體脂率"
+          ]
+        },
+        {
+          "title": "血管標記",
+          "question": "NWO 組哪些血管與發炎標記較高？",
+          "answer": "tPA、vWF、Ang-1 與 hs-CRP 較高。NO 在 NWO 組較低，但組間差異未達統計顯著。",
+          "tags": [
+            "tPA",
+            "vWF",
+            "hs-CRP",
+            "Ang-1"
+          ]
+        },
+        {
+          "title": "三條軸線",
+          "question": "PCA 找出的三條血管功能軸線是什麼？",
+          "answer": "PC1 是凝血與纖溶，PC2 是發炎與血管新生，PC3 是血管舒張，合計解釋 71.68% 的變異。",
+          "tags": [
+            "PCA",
+            "凝血",
+            "血管舒張"
+          ]
+        },
+        {
+          "title": "統計解讀",
+          "question": "BMI 校正後，哪些差異仍維持統計顯著？",
+          "answer": "vWF、tPA 與 Ang-1 的 NWO 組與對照組差異仍具統計顯著性。NO 受 BMI 影響較明顯，BMI 是顯著共變項。",
+          "tags": [
+            "ANCOVA",
+            "BMI",
+            "血管內皮"
+          ]
+        },
+        {
+          "title": "證據邊界",
+          "question": "為何這篇研究不能直接建立 NWO 的臨床治療建議？",
+          "answer": "研究是單一地區的橫斷面探索研究，樣本只有 176 名年輕女性，PCA 的 KMO = 0.52，且沒有追蹤心血管事件或測試介入效果。",
+          "tags": [
+            "研究限制",
+            "外推性",
+            "臨床解讀"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-07T12:12:06.467Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1880656:digest",
+      "paperId": "doi:10.3389/fnut.2026.1880656",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Prevalence of sarcopenic obesity in adult patients with diabetes and associated factors: a systematic review and meta-analysis.",
+      "authors": "Gu Z, Mou C, Chen F, Zhou K, Li Q, Fu S, Shi Z, Li S, Peng R",
+      "journal": "Frontiers in Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fnut.2026.1880656",
+      "abstract": "This systematic review and meta-analysis aimed to estimate the prevalence of sarcopenic obesity (SO) among adults with diabetes and summarize associated factors. Following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines, seven databases, including MEDLINE via PubMed, Cochrane Library, Embase, SinoMed, China National Knowledge Infrastructure (CNKI), Wanfang Database, and VIP, were searched from inception to 25 June 2026, for peer-reviewed observational studies published in English or Chinese. Two reviewers independently performed study selection, data extraction, and quality appraisal. For overlapping populations, the most recent and comprehensive report was retained. The pooled prevalence of SO was estimated using a random-effects model in Stata 18.0. Subgroup, sensitivity, and publication bias analyses were performed, and associated factors were summarized descriptively. Thirty-four observational studies published between 2013 and 2026 were included. The pooled prevalence of SO among adults with diabetes was 24% (95% confidence interval: 19-29%), with substantial heterogeneity. Higher prevalence estimates were observed among community-dwelling patients (29%), female patients (28%), individuals in North America (29%), studies using bioelectrical impedance analysis for muscle mass measurement (25%), studies applying criteria based on muscle mass, muscle strength, and physical function (27%), and studies defining obesity by body mass index (25%) or waist circumference (23%). Reported factors associated with SO or SO-related body composition phenotypes included body mass index, fat mass index, limb fat mass, and A Body Shape Index ≥ 0.083; low serum irisin levels (<9.49 ng/mL) and poorer glycemic control or higher glycated hemoglobin levels; and older age, smaller calf circumference, lower handgrip strength, low physical activity, insulin use, and diabetes-related complications. Approximately one quarter of adults with diabetes are affected by SO, indicating a substantial clinical and public health burden. The prevalence of SO varied by patient source, sex, geographic region, assessment method, and diagnostic criteria, highlighting the need for standardized assessment. The reported associated factors suggest that SO is closely associated with adiposity, glycemic metabolism, physical function, and diabetes-related clinical characteristics. These findings support targeted screening, early identification, and integrated management to improve SO detection and reduce potential adverse outcomes. https://www.crd.york.ac.uk/PROSPERO/view/CRD420251274126, identifier PROSPERO (CRD420251274126).",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42564161/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "chronic disease nutrition",
+        "clinical nutrition technology",
+        "design:systematic review",
+        "guideline and consensus",
+        "human clinical population",
+        "obesity and metabolism",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "糖尿病成人肌少型肥胖盛行率與相關因素的全文內容整理",
+      "content": "# 糖尿病成人肌少型肥胖盛行率與相關因素的全文內容整理\n\n> 本筆記依 paper-digest skill 閱讀合法 OA PDF 全文後整理。全文為 16 頁，從本機 PDF 擷取 69,209 字元，已核對摘要、方法、研究流程、表格、統合分析、敏感度分析、發表偏差、GRADE、討論、限制與結論。\n\n## 研究在問什麼\n\n這篇系統性回顧與統合分析要估算糖尿病成人的肌少型肥胖（sarcopenic obesity, SO）盛行率，也整理和 SO 相關的身體組成、血糖代謝、功能與糖尿病臨床因素。\n\n## 三層筆記\n\n### 第一層：先記住\n\n- 納入 34 篇觀察性研究，合計 15,696 名糖尿病成人，研究年份為 2013 至 2026 年。\n- 七個資料庫搜尋至 2026 年 6 月 25 日，包含 PubMed、Cochrane Library、Embase、SinoMed、CNKI、Wanfang 與 VIP。研究登錄於 PROSPERO，編號 CRD420251274126。\n- SO 合併盛行率為 24%，95% CI 19% 至 29%。研究間異質性很高，I² = 98.82%，p < 0.001。\n- 研究者使用 AHRQ 11 題品質量表，4 篇高品質、22 篇中等品質、8 篇低品質。盛行率證據的 GRADE 確定性評為極低。\n\n### 第二層：理解關係\n\n#### 為何各研究的盛行率差很多\n\n研究族群、照護場域、性別組成、地區、肌肉量測量方法，以及 SO 的肌少症與肥胖定義都不同。研究中的 SO 從 3.0% 到 72.4% 不等，24% 只能當作異質研究的總結值，不能直接套用到每一個糖尿病門診族群。\n\n- 社區研究 29%，門診研究 24%，住院研究 19%。\n- 女性 28%，男性 19%。\n- 北美研究 29%，亞洲研究 21%。\n- 使用 BIA 25%，DXA 23%。\n- 肌少症只看單一成分的研究 26%，涵蓋肌肉量與肌力兩項的研究 10%，涵蓋肌肉量、肌力與身體功能三項的研究 27%。\n- 肥胖以 BFP 定義 22%，BMI 定義 25%，腰圍定義 23%。\n\n多數分組內仍有很高的 I²，表示分組只能說明部分差異，不能當成單一原因的證明。\n\n#### 研究整理出的相關因素\n\n- 身體組成與脂肪：BMI、fat mass index、四肢脂肪量，以及 A Body Shape Index ≥ 0.083。\n- 血糖代謝：血清 irisin < 9.49 ng/mL、血糖控制較差、HbA1c 較高。\n- 肌力與功能：年齡較高、小腿圍較小、握力較低、身體活動量較低。\n- 糖尿病臨床負荷：胰島素使用與糖尿病相關併發症。\n\n這些因素只做描述性整理，研究之間的變項定義、統計模型、校正項目與效應量不同，無法進行共同的量化統合，也不能把相關解讀成因果。\n\n### 第三層：拿來判斷\n\n#### 對臨床篩檢的含義\n\n糖尿病照護可把肌肉量、握力或身體功能，和肥胖型態放在同一個評估架構內。BMI 單獨使用會混合瘦體組織與脂肪，腰圍較接近中心型脂肪，BFP 反映全身脂肪比例，BIA 又會受水分、設備方程式與族群特性影響。實務上要先確認使用的 SO 定義，再解讀數值。\n\n#### 對營養照護的含義\n\n當個案同時有脂肪增加、肌力下降、活動量低或血糖控制不佳時，可把肌肉量、握力、步行或起立測試、飲食攝取、活動量與糖尿病併發症放在同一張評估表。文章支持及早辨識與整合管理的方向，沒有測試營養介入能降低 SO 的效果。\n\n#### 研究可信度與限制\n\n- 34 篇研究中多數是橫斷面研究，無法判斷 SO 與相關因素的時間順序。\n- 研究排除了會議摘要與灰色文獻，可能漏掉部分資料。\n- 個別受試者資料不可得，無法進行更細的年齡、性別、糖尿病病程、血糖控制與共病分析。\n- leave-one-out 敏感度分析顯示，逐篇移除後的合併值只小幅變動，Yin-2021 造成最大的下降，但未改變主要結論。\n- 漏斗圖大致對稱，Egger 檢定 p = 0.518，未見明顯小型研究效應。這項結果不能抵消高異質性與觀察性設計的限制。\n\n## 白話導讀\n\n把 SO 想成「脂肪變多」和「肌肉量或肌肉功能下降」同時出現的狀態。這篇研究估計糖尿病成人約每四人有一人符合研究中的 SO 定義，這個比例會因測量工具、場域、性別與診斷門檻改變。實務上，這個數字適合提醒照護團隊建立篩檢與確認流程，不能把 24% 當作每位病人的個人風險，也不能只用 BMI 取代肌肉量與功能評估。\n\n## 全文證據\n\n- 合法來源：Unpaywall 取得 Frontiers in Nutrition OA PDF。\n- 本機 PDF：[local path removed]\n- PDF 驗證：1,605,910 bytes，SHA-256 f44ba721cbafe8c5ece1e6c249fc4ed6d95523505c1afbe5c3734e7fe0e18dab。\n- 文字擷取：16 頁，69,209 字元，UTF-8 文字檔位於 [local path removed]\n\n## 複習提醒\n\n這份整理用於學習與教學。盛行率、診斷標準與 GRADE 判斷仍應回看原文，個案照護要依實際肌肉量、肌力、身體功能、飲食與疾病狀況判斷。",
+      "cards": [
+        {
+          "title": "合併盛行率",
+          "question": "這篇統合分析估計糖尿病成人的肌少型肥胖盛行率是多少？",
+          "answer": "34 篇觀察性研究的合併盛行率為 24%，95% CI 19% 至 29%，研究間異質性很高，I² = 98.82%。",
+          "tags": [
+            "肌少型肥胖",
+            "糖尿病",
+            "統合分析"
+          ]
+        },
+        {
+          "title": "診斷差異",
+          "question": "為何不同研究的肌少型肥胖盛行率不能直接互相比較？",
+          "answer": "研究族群、照護場域、性別、地區、肌肉量測量方法，以及肌少症與肥胖的診斷定義都不同，且多數分組內仍有很高異質性。",
+          "tags": [
+            "診斷標準",
+            "異質性",
+            "身體組成"
+          ]
+        },
+        {
+          "title": "相關因素",
+          "question": "文章整理出哪些和肌少型肥胖相關的因素？",
+          "answer": "包括較高 BMI、fat mass index、四肢脂肪量、較差血糖控制、較高 HbA1c、較低 irisin、年齡較高、小腿圍較小、握力較低、活動量較低、胰島素使用與糖尿病併發症。",
+          "tags": [
+            "血糖控制",
+            "肌力",
+            "活動量"
+          ]
+        },
+        {
+          "title": "證據確定性",
+          "question": "這篇研究對合併盛行率的 GRADE 確定性如何判定？",
+          "answer": "評為極低，主因是研究間異質性很高、族群與測量方式差異大，且多數研究為中等品質，另有 8 篇低品質研究。",
+          "tags": [
+            "GRADE",
+            "證據評讀",
+            "研究限制"
+          ]
+        },
+        {
+          "title": "臨床解讀",
+          "question": "臨床上能否把 24% 直接當成每位糖尿病病人的個人風險？",
+          "answer": "不能。24% 是高度異質研究的合併估計，應用時要依個案的肌肉量、握力、身體功能、脂肪分布、血糖控制與照護場域判斷。",
+          "tags": [
+            "臨床解讀",
+            "篩檢",
+            "營養照護"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-07T12:02:26.692Z"
+    },
     {
       "id": "doi:10.1007/s10654-026-01445-8:review",
       "paperId": "doi:10.1007/s10654-026-01445-8",
@@ -13108,7 +13401,7 @@
       "journal": "Other nutrition journals (PubMed)",
       "year": "2026",
       "doi": "10.1016/j.tjnut.2026.101719",
-      "abstract": "Artificial intelligence (AI) is revolutionizing health and nutrition, significantly advancing personalized dietary management and health optimization. Technologies like machine learning algorithms, data mining, and predictive models enable the creation of individualized diet plans based on genetic data, lifestyle habits, and biometric information, offering more effective and precise nutrition recommendations. AI-enabled systems provide personalized nutritional strategies for these diseases, offering real-time dietary suggestions tailored to individual needs. Additionally, AI optimizes nutritionists' and healthcare providers' recommendations by analyzing the effects of nutrition programs on health outcomes. In the food industry, AI promises advancements in food safety, quality control, product innovation, and sustainable food production. However, the widespread adoption of AI in nutrition faces challenges, including ethical concerns, data privacy issues, and algorithmic biases. Protecting personal health data and ensuring AI systems are trained with accurate, unbiased data are crucial in addressing these challenges. This review highlights AI's potential in nutrition science and health management, identifying opportunities for future research and innovation.",
+      "abstract": "Artificial intelligence (AI) is revolutionizing health and nutrition, significantly advancing personalized dietary management and health optimization. Technologies like machine learning algorithms, data mining, and predictive models enable the creation of individualized diet plans based on genetic data, lifestyle habits, and biometric information, offering more effective and precise nutrition recommendations. AI-enabled systems provide personalized nutritional strategies for non-communicable diseases, offering real-time dietary suggestions tailored to individual needs. Additionally, AI optimizes nutritionists' and healthcare providers' recommendations by analyzing the effects of nutrition programs on health outcomes. In the food industry, AI promises advancements in food safety, quality control, product innovation, and sustainable food production. However, the widespread adoption of AI in nutrition faces challenges, including ethical concerns, data privacy issues, and algorithmic biases. Protecting personal health data and ensuring AI systems are trained with accurate, unbiased data are crucial in addressing these challenges. This review highlights AI's potential in nutrition science and health management, identifying opportunities for future research and innovation.",
       "legalFullTextUrl": "",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42431403/",
       "category": "recommended",
