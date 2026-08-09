@@ -1,7 +1,754 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T04:57:12.378Z",
+  "generatedAt": "2026-08-09T12:46:44.320Z",
   "papers": [
+    {
+      "id": "doi:10.7762/cnr.2026.0027:digest",
+      "paperId": "doi:10.7762/cnr.2026.0027",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Personalized nutrition interventions using digital technologies for older adults: a scoping review.",
+      "authors": "Jung S, Kang H, Park Y",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.7762/cnr.2026.0027",
+      "abstract": "As global populations age, nutrition management is important for healthy aging. Digital technologies, including mobile applications, web-based platforms, messaging tools, and artificial intelligence (AI)-enabled systems, are used in personalized nutrition interventions. However, evidence on their characteristics, effectiveness, and user experiences remains limited. This scoping review examined technology-based personalized nutrition interventions for older adults. This review followed the Joanna Briggs Institute methodology and the Preferred Reporting Items for Systematic Reviews and Meta-Analyses Extension for Scoping Reviews guidelines. PubMed, Embase, and Web of Science were searched for studies published from January 1, 2010, to June 30, 2026. Among 2,727 records, 2,044 were screened after duplicate removal, 28 full-text articles were assessed, and 13 articles representing 12 studies were included. Technologies included mobile, messaging, web-based, information and communications technology, tablet-based, and AI-supported systems. Interventions involved dietary recording, personalized feedback, remote counseling, coaching, and self-monitoring. Outcomes included dietary intake and quality, nutritional status, physical function, frailty, cognition, cardiometabolic indicators, engagement, usability, and acceptability. Findings were more consistent for dietary behaviors and individualized nutrition management. Evidence for physical function, frailty, cognition, cardiometabolic health, and quality of life was limited and often based on small or multidomain studies. Familiar interfaces and professional support were accepted, whereas low digital literacy, complex navigation, and limited food databases were barriers. Digital personalized nutrition interventions may support dietary behavior change and individualized nutrition management in older adults. Larger studies and user-centered systems addressing digital literacy, usability, cultural context, and AI-feedback validation are needed.",
+      "legalFullTextUrl": "https://eymj.org/pdf/10.3349/ymj.2021.62.3.249",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42552918/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "design:systematic review",
+        "guideline and consensus",
+        "nutrition and dietary pattern",
+        "obesity and metabolism",
+        "precision nutrition"
+      ],
+      "noteTitle": "高齡者數位個人化營養介入的全文內容整理",
+      "content": "# 高齡者數位個人化營養介入的全文內容整理\n\n> [!summary] 30 秒重點\n> 這篇 scoping review 納入 12 項高齡者數位個人化營養研究。常見工具有 app、網頁、LINE、tablet、wearable 與 AI 食物辨識。較一致的正向訊號是飲食紀錄、飲食品質、遵從與個別化管理。功能、衰弱、認知、心代謝與生活品質的證據較少，且常混合運動或多領域介入。簡單熟悉的介面加上營養師支持，比只追求自動化更符合高齡照護。\n\n## 第一層：快速吸收\n\n### 這篇在盤點什麼\n\n**要點**：研究關心「數位工具如何執行個人化營養」，範圍比單一 app 的療效更廣。\n\n- 對象是 60 歲以上成人，包含社區、衰弱風險、營養不良風險、長照與復健族群。\n- 工具包含 mobile app、web platform、LINE、tablet e-coach、ICT、wearable 與 AI food recognition。\n- 個人化可依飲食、營養狀態、疾病、功能、frailty、偏好、行為階段、app 或 wearable data 調整。\n- 介入包括飲食紀錄、個人化回饋、遠距諮詢、目標設定、自我監測與行為教練。\n\n### 核心結果\n\n**要點**：飲食行為的訊號較穩，臨床健康終點仍屬初步。\n\n| 結果領域 | 本文整理 | 解讀 |\n|---|---|---|\n| 飲食與飲食品質 | 多項研究見遵從、飲食品質、蛋白質或自我監測改善 | 最有希望，但量尺與介入不同 |\n| 營養狀態 | 部分體重、MNA、上臂或小腿圍改變 | 結果不一致，族群差異大 |\n| 功能與衰弱 | 部分 SPPB、步速、TUG、肌力或 frailty 改善 | 常同時含運動與專業支持 |\n| 認知與生活品質 | 少數 multidomain studies 有正向訊號 | 無法歸因於營養或數位工具 |\n| 使用經驗 | 熟悉介面、圖片紀錄與專業支持較受接受 | 高齡友善設計是必要條件 |\n| AI | 可減少手寫紀錄負擔 | 混合菜、份量與資料庫仍需驗證 |\n\n### 實務答案\n\n**要點**：數位工具可以協助收集資料與延伸營養照護，關鍵決策仍需專業人員把關。\n\n- 先評估數位識能、視力、手部功能、認知、語言與設備可近性。\n- 優先使用病人熟悉的平台與最少操作步驟。\n- AI 食物辨識的營養估計需讓使用者修正，再由營養師檢查。\n- 不以使用次數取代體重、飲食品質、肌肉功能與營養風險等臨床結果。\n\n## 第二層：理解研究\n\n### 搜尋與納入流程\n\n**要點**：作者依 JBI 與 PRISMA-ScR 進行證據地圖，但沒有預先註冊 protocol。\n\n1. 搜尋 PubMed、Embase、Web of Science，涵蓋 2010-01-01 至 2026-06-30。\n2. 取得 2,727 筆，去重後 2,044 筆進入題名摘要篩選。\n3. 28 篇進入全文審查，排除 15 篇。\n4. 最終 13 篇文章代表 12 項獨立研究。\n5. 研究設計包含 RCT、pilot RCT、cluster RCT、quasi-experimental、feasibility、mixed methods 與 usability study。\n6. 以描述性分類與主題整理呈現，沒有 meta-analysis。\n\n### 研究長什麼樣\n\n**要點**：多數還在 pilot 或 feasibility 階段，樣本與時間都有限。\n\n- 樣本約 15 至 224 人。\n- 多數介入約 3 個月，少數到 12 個月。\n- 地區涵蓋歐洲、亞洲、美國與南美洲。\n- 部分納入較健康、已熟悉數位設備的成人，可能低估一般高齡者的障礙。\n- 很多介入同時含營養師、教練、照護員、運動、社交或認知訓練。\n\n### 個人化怎麼做\n\n**要點**：個人化從簡單回饋到 AI 建議都有，成熟度差異很大。\n\n- 依飲食紀錄回饋份量、食物類別或飲食品質。\n- 依營養需求、健康狀態、frailty、功能與慢性病調整目標。\n- 依偏好、行為改變階段與自我監測資料給訊息或任務。\n- 用 food image recognition 協助辨識餐食與降低紀錄負擔。\n- 由營養師或教練解讀 app 資料，再提供個別諮詢。\n\n### 哪些設計較容易被接受\n\n**要點**：高齡者需要熟悉、可讀、可修正、有人協助的工具。\n\n- 大字體、清楚指示、簡單導覽與少量輸入步驟。\n- LINE 等既有通訊工具，減少重新學習。\n- 圖片紀錄與自動辨識，降低手寫負擔。\n- 規律聯絡、目標設定、回饋與維持階段支持。\n- 家屬、照護員、營養師或研究人員在遇到操作與飲食問題時協助。\n\n## 第三層：AI、營養風險與落地\n\n### AI 能做什麼\n\n**要點**：目前較成熟的是協助紀錄與初步評估，距離自主臨床決策仍有落差。\n\n- 辨識食物照片與建立餐食紀錄。\n- 按飲食、健康與行為資料提供個人化提示。\n- 連接 wearable 或活動資料進行即時回饋。\n- 協助照護機構辨識偏好、攝取不足或營養不良風險。\n\n### AI 容易錯在哪裡\n\n**要點**：高齡營養常涉及混合菜、份量、隱藏成分與疾病限制，圖片辨識很難單獨處理。\n\n- 混合菜與醬汁中的油、糖、鈉不容易從照片判斷。\n- 份量、剩食與實際攝取量可能估錯。\n- 地方菜、藥膳、質地調整餐與補充品可能不在資料庫。\n- 腎臟病、吞嚥困難、肌少症與糖尿病需要納入實驗室、功能及藥物資料。\n- 錯誤建議可能造成能量或蛋白質不足、電解質風險或不當限制。\n\n### 台灣落地檢查單\n\n**要點**：應從一個明確照護任務開始，先證明可用、安全、有效，再擴大功能。\n\n1. 選定目標，如高齡蛋白質攝取、居家飲食紀錄、營養不良追蹤或糖尿病餐次回饋。\n2. 建立本地食物、混合菜、份量、營養補充品與質地調整資料。\n3. 支援繁體中文、語音、照片、較大字體與照護者模式。\n4. 讓使用者可以修正辨識結果，保留營養師審核紀錄。\n5. 設定紅旗，如快速體重下降、低攝取、低血糖、吞嚥問題與腎功能異常。\n6. 同時評估飲食結果、臨床結果、使用性、退出率、數位排除與成本。\n\n### 研究的證據邊界\n\n**要點**：這篇提供領域地圖，不能給出「平均改善多少」或證明 AI 自動建議有效。\n\n- 無 meta-analysis，結果沒有共同效果量。\n- 回顧沒有正式 RoB 評估，資料抽取由單一作者執行。\n- 多數研究小、短、混合多種介入成分。\n- 正向前後變化不一定優於對照。\n- Scoping review 適合找研究缺口，療效決策仍需回到個別高品質 RCT。\n\n## 概念與名詞整理\n\n**要點**：分清楚個人化、數位化、AI 與專業支持，才不會把它們當成同一件事。\n\n- **Digital nutrition intervention**：用數位工具傳遞、記錄、監測或回饋營養介入。\n- **Personalization**：依個人的飲食、狀態、偏好、風險或行為資料調整內容。\n- **AI-assisted**：AI 協助辨識或推薦，並不表示已達自主臨床決策。\n- **Digital literacy**：理解、操作與安全使用數位工具的能力。\n- **Blended intervention**：數位工具與營養師、教練、運動或其他支持並行。\n- **Scoping review**：盤點研究範圍、類型與缺口，通常不估算單一平均療效。\n\n## 自我測驗\n\n**要點**：五題檢查能否把數位工具放在安全的高齡營養照護位置。\n\n> [!question]- Q1：目前證據較一致支持哪一類結果？\n> 飲食紀錄、飲食品質、遵從、自我監測與個別化營養管理。功能、認知與心代謝證據較少。\n\n> [!question]- Q2：為什麼不能把正向結果全歸因於 app？\n> 多項介入同時有營養師、教練、運動、社交或認知訓練，無法分離 app 的獨立效果。\n\n> [!question]- Q3：高齡者較接受哪些數位設計？\n> 熟悉平台、簡單導航、大字體、清楚指示、圖片紀錄，以及遇到問題時有專業人員或照護者協助。\n\n> [!question]- Q4：AI 食物辨識的主要營養風險是什麼？\n> 它可能誤判混合菜、份量、隱藏成分與地方食物，導致能量、蛋白質、鈉鉀磷等估計錯誤。\n\n> [!question]- Q5：為什麼這篇不能提供平均療效？\n> 它是 scoping review，納入設計、介入與結果高度異質，採描述性整理且沒有 meta-analysis。\n\n## Reference\n\n**要點**：本次使用官方 PMC 完整 HTML，OpenAlex 取得的 BMC Geriatrics PDF 是本文引用文獻，未作為目標全文。\n\n- Jung S, Kang HJ, Park YK. Clinical Nutrition Research. 2026;15(3):228-241.\n- DOI：https://doi.org/10.7762/cnr.2026.0027\n- PubMed：https://pubmed.ncbi.nlm.nih.gov/42552918/\n- PubMed Central：https://pmc.ncbi.nlm.nih.gov/articles/PMC13447738/",
+      "cards": [
+        {
+          "title": "數位營養較穩的結果",
+          "question": "目前高齡者數位個人化營養較一致支持哪些結果？",
+          "answer": "飲食紀錄、飲食品質、飲食遵從、自我監測與個別化營養管理。功能、認知與心代謝結果仍較不確定。",
+          "tags": [
+            "digital nutrition",
+            "older adults",
+            "diet quality"
+          ]
+        },
+        {
+          "title": "不能把效果全歸因於 app",
+          "question": "為什麼數位介入的正向結果不能全歸因於 app？",
+          "answer": "許多方案同時含營養師、教練、運動、社交或認知訓練，數位工具的獨立效果無法分離。",
+          "tags": [
+            "multidomain intervention",
+            "causality",
+            "digital health"
+          ]
+        },
+        {
+          "title": "高齡友善數位設計",
+          "question": "哪些設計較容易被高齡者接受？",
+          "answer": "熟悉平台、簡單導航、大字體、清楚指示、圖片紀錄、可修正結果，以及營養師或照護者支援。",
+          "tags": [
+            "usability",
+            "digital literacy",
+            "age-friendly design"
+          ]
+        },
+        {
+          "title": "AI 食物辨識風險",
+          "question": "AI 食物辨識最常遇到哪些營養判讀問題？",
+          "answer": "混合菜、份量、隱藏油鹽糖、剩食、地方食物與資料庫不足，可能造成營養估計與疾病建議錯誤。",
+          "tags": [
+            "AI",
+            "food recognition",
+            "nutrition safety"
+          ]
+        },
+        {
+          "title": "Scoping review 的用途",
+          "question": "Scoping review 能回答什麼，不能回答什麼？",
+          "answer": "它能盤點研究類型、技術、結果與缺口，通常不能提供單一平均療效，也不能取代高品質 RCT 的效果判斷。",
+          "tags": [
+            "scoping review",
+            "evidence synthesis",
+            "GRADE"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-09T12:37:57.765Z"
+    },
+    {
+      "id": "doi:10.1016/j.clnu.2026.106707:review",
+      "paperId": "doi:10.1016/j.clnu.2026.106707",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Whole goat milk versus cow milk formula and atopic dermatitis in infants: A randomized clinical trial.",
+      "authors": "Grote V, Schlosser L, Campoy C, Crehuá-Gaudiza E, Demmelmair H, Ege M, Escribano J, Galera-Martínez R, García-Santos J, Gruszfeld D, Guerlich K, Guillén-Sebastián C, Handel U, Jamka M, Jarocka-Cyrta E, Książyk J, Mazur A, Parada-Ricart E, Robredo-García I, Rodríguez G, Romańczuk B, Saenz de Pipaon M, Tejón-Fernández M, Walkowiak J, Weichselbaum E, Witte A, Koletzko B",
+      "journal": "Clinical Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.clnu.2026.106707",
+      "abstract": "Atopic dermatitis (AD) poses a substantial burden on affected children and their families. The evidence of the role of feeding choices in infancy for AD development is limited. This study is a two-arm, parallel, randomized, double-blind, controlled trial to assess the effect of infant feeding with whole goat milk formula (WGF) versus cow milk formula (CF) on AD development during the first year of life. Healthy term infants up to 3 months of age were enrolled in 6 Spanish and 4 Polish study centres, without AD risk selection. The primary outcome measure was AD diagnosed by study personnel at three study visits using the United Kingdom Working Party diagnostic criteria (ADPrimary). Reported doctor-diagnosed AD (ADDoctor) was a secondary outcome. Cumulative incidence in the first year of life was calculated. Incidence rate ratios (IRR) were estimated by Poisson regression. Data from 2132 infants were analyzed. 192 infants were diagnosed with ADPrimary and 245 with ADDoctor. The cumulative incidence rate of ADPrimary for both groups was 11.6 per 100 person-years without difference between WGF and CF (IRR: 1.00; 95%CI: 0.75, 1.32; p = 0.991). In the per-protocol population, the incidence of ADDoctor was lower in WGF than CF (IRR: 0.66; 95%CI: 0.49, 0.9; p = 0.008). In infants with parental history of AD, the protective effect of WGF was stronger: ADDoctor IRR 0.36 (95%CI: 0.17, 0.76; p = 0.007). This trial demonstrates that WGF can reduce the incidence of AD in formula-fed infants in the first year of life, especially in presence of parental history of AD. ClinicalTrials.gov Identifier: NCT04599946. Submitted: 2020-10-05.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42275985/",
+      "category": "candidate",
+      "tags": [],
+      "noteTitle": "全脂羊奶配方與嬰兒異位性皮膚炎預防的全文品質評讀",
+      "content": "# 全脂羊奶配方與嬰兒異位性皮膚炎預防的全文品質評讀\n\n## 品質快照\n\n- **研究問題**：健康足月、已由家長決定採配方餵養的嬰兒，使用全脂羊奶配方，能否降低一歲前異位性皮膚炎發生率。\n- **設計**：西班牙 6 個中心、波蘭 4 個中心，兩組平行、隨機、雙盲對照試驗，NCT04599946。\n- **分析人數**：2,132 人，羊奶配方 1,065 人，牛奶配方 1,067 人。\n- **主要結果**：ITT 的 UK Working Party 標準診斷結果完全無差異，IRR 1.00，95% CI 0.75–1.32，p=0.991。\n- **較有利結果**：醫師診斷 AD 在 ITT 未達統計顯著，IRR 0.79，95% CI 0.62–1.02。PP 分析為 0.66，95% CI 0.49–0.90。父母有 AD 病史的次群，ADDoctor IRR 0.36，95% CI 0.17–0.76。\n- **GRADE**：非常低，⊕◯◯◯。降級原因為偏差風險、間接性與不精確性。\n- **核心判讀**：試驗沒有證明全脂羊奶配方可降低預先指定的主要 AD 結果。論文結論主要依賴 PP 次要結果與次群分析，語氣比主要證據更肯定。\n\n## 白話導讀\n\n這篇研究規模大、採隨機與盲法，也有預先登錄和公開 protocol。最需要先看的數字是主要結果。以研究人員在面對面訪視時套用 UKWP 診斷標準，兩組一歲前 AD 發生率相同，IRR 正好是 1.00。\n\n羊奶配方較有利的訊號出現在另一套結果。家長回報曾由醫師診斷 AD 的結果，在依從性較高的 PP 人群達統計顯著。父母本身有 AD 的小群體也看到較大的相對風險下降。這些結果可用來提出後續研究假說，還不能推翻主要終點無差異的結果。\n\n臨床溝通時，較合適的說法是「全脂羊奶配方與牛奶配方在本試驗的標準化主要 AD 終點沒有差異」。若嬰兒有牛奶蛋白過敏，羊奶蛋白常有交叉反應，本研究也排除了已知牛奶不耐或過敏者，不能把此結果當成過敏替代配方依據。\n\n## PICO 與研究架構\n\n| 項目 | 內容 |\n|---|---|\n| Population | 0 至 90 天、足月、健康、家長已決定部分或完全配方餵養的嬰兒 |\n| Intervention | 全脂羊奶嬰兒配方與後續配方，羊奶脂約占總脂肪 50%，whey:casein 20:80 |\n| Comparator | 牛奶配方與後續配方，乳脂約占 5%，whey:casein 60:40 |\n| Primary outcome | 12 個月前由研究人員依修改版 UKWP 標準診斷的累積 AD 發生率 |\n| Secondary outcomes | 家長回報的醫師診斷、其他 AD 定義、嚴重度、生長、安全性與次群結果 |\n| Follow-up | 本篇報告至 12 個月，登錄研究預計追蹤到 5 歲 |\n\n隨機分派比例為 1:1。ClinicalTrials.gov 記錄為 participant、care provider、investigator、outcomes assessor 四方遮蔽。論文稱雙盲，正文沒有交代隨機序列產生與分配隱藏細節，這部分需回查 protocol 或補充資料。\n\n## 結果逐項核對\n\n### 主要終點\n\n- ADPrimary 共 192 例，羊奶組 94 例、牛奶組 98 例。\n- 兩組發生率均為每 100 人年 11.6。\n- ITT IRR 1.00，95% CI 0.75–1.32，p=0.991。\n- 信賴區間同時容許約 25% 相對降低與 32% 相對增加，無法排除有臨床差異的兩個方向。\n\n### 次要與次群結果\n\n- ADDoctor 的 ITT IRR 0.79，95% CI 0.62–1.02，p=0.073，沒有達到預設 5% 顯著水準。\n- ADDoctor 的 PP IRR 0.66，95% CI 0.49–0.90，p=0.008。\n- 只有 1,473 人，約 69%，符合 PP 條件。PP 人群受依從性、失訪與家庭特徵選擇影響，隨機化保護較弱。\n- 父母有 AD 病史約占 9.5%。該次群的 ADPrimary IRR 0.48，95% CI 0.22–1.03，p=0.06。ADDoctor IRR 0.36，95% CI 0.17–0.76，p=0.007。\n- 次群結果有 interaction 分析支持，但樣本較小、終點較多，仍需新的高風險嬰兒試驗確認。\n\n### 安全性\n\n- 全部不良事件率接近，IRR 1.03，95% CI 0.95–1.12，p=0.48。\n- 羊奶組產品相關不良事件比例為 13%，牛奶組 9%。事件率 IRR 1.41，95% CI 1.09–1.85，p=0.009。\n- 嚴重不良事件為 165 對 118，IRR 1.40，95% CI 1.10–1.77，p=0.005。只有 7 件被判為至少可能與產品相關，兩組分布相近。\n- 羊奶組腸胃不良事件較多，常見為便祕。這些安全訊號需要在後續報告繼續追蹤。\n\n## 偏差風險\n\n| 領域 | 判定 | 依據 |\n|---|---|---|\n| 隨機化流程 | 有些疑慮 | 基線大致平衡且稱隨機，正文未詳述序列產生與分配隱藏 |\n| 偏離預定介入 | 有些疑慮 | 雙盲設計有利，羊奶組退出率較高，PP 有利結果易受依從性選擇影響 |\n| 遺失結果資料 | 高風險 | 12 個月退出率羊奶組 15%、牛奶組 10%，p<0.001，且有利訊號集中於 PP |\n| 結果測量 | 有些疑慮 | 主要 UKWP 標準特異性高，但嬰兒搔癢條件敏感度有限。ADDoctor 缺少統一診斷標準 |\n| 選擇性報告 | 有些疑慮 | 主要結果有依登錄報告，摘要結論卻突顯 PP 與次群的有利訊號 |\n| 其他偏差 | 有些疑慮 | 製造商提供配方與資金，參與設計、執行，並審閱統計計畫和文稿。作者之一為公司員工 |\n\n## GRADE 固定計算\n\n| 領域 | 評定 | 理由 |\n|---|---|---|\n| 起始等級 | 高 | 隨機對照試驗 |\n| 偏差風險 | 嚴重，-1 | 差異性退出、PP 有利結果、產業贊助與審閱角色 |\n| 不一致性 | 不降級 | 單一試驗無法評估研究間不一致，未加扣 |\n| 間接性 | 嚴重，-1 | 有利主張依賴定義較寬的 ADDoctor、PP 與父母 AD 次群，標準化主要終點無差異 |\n| 不精確性 | 嚴重，-1 | 主要終點 95% CI 0.75–1.32，跨越有意義的效益與傷害 |\n| 發表偏差 | 不降級 | 有前瞻登錄與公開 protocol，產業關係另列為偏差風險 |\n| 最終確定性 | **非常低，⊕◯◯◯** | deterministic GRADE 由 high 下調三級 |\n\n## 推論漏洞檢查\n\n論文主張「WGF 可降低 AD，父母有 AD 病史時尤其明顯」屬因果主張。支撐它的有利前提是 PP 次要結果與次群結果，預先指定的 ITT 主要結果沒有支持此主張。paper-review 的 argdown linter 判定為 **spin_secondary_or_subgroup**。\n\n合理結論可改成：在健康足月、已採配方餵養的嬰兒中，全脂羊奶與牛奶配方對一歲前 UKWP 標準 AD 發生率沒有可辨識差異。醫師診斷 AD 的 PP 與父母 AD 次群結果提供待驗證訊號。\n\n## 登錄、作者、期刊與資助核對\n\n- ClinicalTrials.gov NCT04599946 於 2020-10-05 首次提交，試驗開始前已有登錄。\n- 登錄的主要終點、2,132 人實際收案、兩組平行隨機設計與本文相符。\n- 2023 年 BMJ Open protocol 可追溯，DOI 10.1136/bmjopen-2022-070533。\n- 期刊為 Clinical Nutrition，PubMed PMID 42275985，出版資料與 DOI 相符。\n- 研究由 LMU Munich 學術團隊協調。Dairy Goat Co-operative 製造並提供產品、資助研究，參與設計與執行，也審閱統計分析計畫及文稿。\n- Elisabeth Weichselbaum 為 Dairy Goat Co-operative 員工，已在利益衝突欄揭露。\n\n## 關鍵引用核對\n\n| 用途 | 核對結果 |\n|---|---|\n| 試驗 protocol | Ferry et al., BMJ Open 2023，DOI 10.1136/bmjopen-2022-070533，設計與主要終點相符 |\n| 先前羊奶配方 RCT | Zhou et al., Br J Nutr 2014，DOI 10.1017/S0007114513004212，主要研究營養適足性，皮膚炎為次要結果 |\n| 水解配方 Cochrane review | Osborn et al., 2018，DOI 10.1002/14651858.CD003664.pub6，未支持長期水解配方預防過敏疾病 |\n| UKWP 診斷效能 | 公開驗證研究顯示特異性高、敏感度有限，支持本文對嬰兒搔癢條件的限制說明 |\n\n## 臨床與家長溝通\n\n- 母乳哺育的選擇不應受此試驗影響，研究只納入家長已決定使用配方的嬰兒。\n- 一般風險嬰兒目前沒有足夠證據因預防 AD 而優先選全脂羊奶配方。\n- 父母有 AD 病史的結果可作討論材料，證據確定性很低，仍需獨立試驗。\n- 羊奶配方不能用來處理已知牛奶蛋白過敏，兩者蛋白可能交叉反應。\n- 選配方時仍需看年齡適用性、法規營養標準、耐受性、成長與個別醫療需求。\n\n## 全文與來源\n\n- 合法全文：Helmholtz Munich 公開機構典藏 PDF，CC BY-NC-ND 4.0。\n- PDF 檔頭、題名、作者、期刊、DOI 均已核對，全文 10 頁，擷取文字約 6.7 萬字元。\n- DOI：https://doi.org/10.1016/j.clnu.2026.106707\n- PubMed：https://pubmed.ncbi.nlm.nih.gov/42275985/\n- 試驗登錄：https://clinicaltrials.gov/study/NCT04599946",
+      "cards": [],
+      "completedAt": "2026-08-09T12:33:52.547Z"
+    },
+    {
+      "id": "doi:10.1038/s41598-026-61284-1:digest",
+      "paperId": "doi:10.1038/s41598-026-61284-1",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Development of a consistent body mass index.",
+      "authors": "Beji S, Kizilkaya Beji N, Mutlu Ü",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.1038/s41598-026-61284-1",
+      "abstract": "A new body mass index, termed Consistent Body Mass Index CBMI=[Formula: see text], is developed from first principles. Customarily used Body Mass Index (BMI[Formula: see text]) or its variant Tri-ponderal Mass Index (TMI[Formula: see text]) or other measures serving to the purpose of classifying the anthropometric status of a person have repeatedly been demonstrated to be unsatisfactory in various aspects. A new index inclusive of all ages, body sizes, and sexes is therefore needed. A non-dimensional hence scalable index CBMI, which correlates well with waist-to-height ratio, [Formula: see text], is developed from fundamental relations. Correlation levels of CBMI and TMI against waist-to-height ratio [Formula: see text] are compared for measurements comprising participants ranging from 1-day-old to 75-year-old male and female infants, children, and adults. Waist-to-height ratio [Formula: see text], which correlates well, [Formula: see text], with CBMI is a reliable measure of the anthropometric status of a person. New criteria and relevant charts, based on [Formula: see text] and CBMI, are established for classifying anthropometric status levels. CBMI can also be used as an estimator for ideal body weight for a definite CBMI value and a given height [Formula: see text] from [Formula: see text].",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42448733/",
+      "category": "candidate",
+      "tags": [],
+      "noteTitle": "新一致性身體質量指數與肥胖分類的全文內容整理",
+      "content": "# 新一致性身體質量指數與肥胖分類的全文內容整理\n\n> [!summary] 30 秒重點\n> 文章提出 Consistent Body Mass Index，公式是 CBMI = √(m/h³)，希望改善 BMI 在不同身高、年齡與身體比例下的可比性。400 名 0 至 75 歲參與者中，CBMI 與腰圍身高比的模型擬合為 0.837，高於作者對 TMI 的部分比較。這是單一城市、同一批資料建立與評估的候選指標，尚未用 DXA、體脂、代謝結果或獨立樣本驗證，暫不宜用作者 cut-off 取代 BMI-for-age、腰圍或身體組成評估。\n\n## 第一層：快速吸收\n\n### 三個指標怎麼算\n\n**要點**：BMI、TMI、CBMI 都只使用體重與身高，但身高次方與尺度不同。\n\n- BMI = m/h²。\n- TMI = m/h³。\n- CBMI = √(m/h³)。\n- 文中的 m 是公斤、h 是公尺，CBMI 常以 10×CBMI 顯示。\n- 作者用 waist-to-height ratio，w/h，作為主要比較對象。\n\n### 主要數字\n\n**要點**：CBMI 在這批資料中與 w/h 有相對良好的模型對應，成人男性表現較低。\n\n| 分組 | n | CBMI 對 w/h 擬合 | TMI 對 w/h 擬合 |\n|---|---:|---:|---:|\n| 女性成人 | 100 | 0.840 | 0.695 |\n| 男性成人 | 100 | 0.744 | 0.704 |\n| 女性兒童 | 100 | 0.907 | N.A. |\n| 男性兒童 | 100 | 0.864 | N.A. |\n| 全體 | 400 | 0.837 | N.A. |\n\n### 可以怎麼用\n\n**要點**：目前可用來做研究比較與設計 validation study，不能直接當臨床診斷標準。\n\n- 可比較 CBMI、BMI、TMI、腰圍與 w/h 的統計特性。\n- 可規劃不同年齡、性別、族群與疾病狀態的外部驗證。\n- 暫不宜用 CBMI 單獨判定肥胖、肌少症或理想體重。\n- 兒童仍需使用年齡與性別標準化成長曲線。\n- 身體組成、腰圍、肌力、營養攝取與疾病風險仍需一起評估。\n\n## 第二層：理解研究\n\n### 為什麼作者想改 BMI\n\n**要點**：BMI 的 h² 尺度未必能消除身高影響，TMI 的 h³ 又可能在不同體型與年齡造成其他偏差。\n\n- 人體並非幾何相似物，年齡、性別、脂肪、肌肉與骨骼比例都會改變。\n- 同一 BMI 的人可能有很不同的腰圍與體脂。\n- 兒童生長過程中的身體比例快速變化，使單一成人 cut-off 不合適。\n- 作者從質量、體積與身高的關係推導 CBMI，希望取得更可尺度化的指標。\n\n### 理論推導\n\n**要點**：核心是假設人體可近似為圓柱體，腰圍身高比與 CBMI 呈線性關係。\n\n1. 以體重代表質量 m，以身高 h 代表長度尺度。\n2. 用圓柱體與密度假設連結質量、腰圍與身高。\n3. 得到 w/h = α×CBMI 的形式。\n4. 用最小平方法估計 form factor α。\n5. 以殘差和總變異比較 CBMI 或 TMI 對 w/h 的擬合。\n\n### 研究對象與測量\n\n**要點**：400 人分成成人男女與兒童男女四組，每組 100 人，來源是伊斯坦堡單一醫院周邊。\n\n- 年齡涵蓋新生兒到 75 歲。\n- 成人來自醫院人員、志願者與病人親屬，兒童包含陪同兒童與新生兒。\n- 納入者以健康、無慢性病或明顯疾病為主。\n- 測量體重、身高與腰圍，腰圍在正常呼氣末於標準位置量取。\n- 作者使用「naturally randomized」描述可取得且同意的參與者，這不等同真正隨機抽樣。\n\n### 作者提出的分類\n\n**要點**：cut-off 是暫定研究建議，來自本地資料與 w/h 界線，不是外部驗證標準。\n\n| 100×w/h | 10×CBMI | 作者標籤 |\n|---:|---:|---|\n| <42 | <33 | underweight |\n| 42 至 <50 | 33 至 <39 | normal |\n| 50 至 <58 | 39 至 <45 | overweight |\n| 58 至 <66 | 45 至 <51 | obese |\n| ≥66 | ≥51 | adipositas |\n\n## 第三層：統計、限制與臨床判讀\n\n### 擬合值不等於診斷準確度\n\n**要點**：文中的 r 是依模型殘差計算的擬合指標，不能直接當 Pearson correlation 或 AUC。\n\n- 擬合高表示 CBMI 能在這批資料中對應 w/h 的變化。\n- 它沒有提供疾病分類的 sensitivity、specificity、PPV、NPV 或 AUC。\n- w/h 本身是另一個人體測量指標，不是 DXA 體脂或臨床疾病 gold standard。\n- 同一批資料建立公式、估計 α、設定 cut-off 又評估表現，容易高估結果。\n\n### 最重要的限制\n\n**要點**：缺少獨立效標與外部驗證，使 CBMI 還停在候選指標階段。\n\n- 單一城市、便利取樣、每組 100 人。\n- 兒童、成人與新生兒混合，身體比例與測量誤差不同。\n- 沒有 DXA、BIA、皮脂厚度或其他直接身體組成參照。\n- 沒有血壓、血糖、血脂、疾病事件或長期追蹤。\n- 成人男性的表現較低，密度 ±3% 校正是事後探索。\n- 圓柱形人體與固定密度是假設，肌肉、水腫、懷孕與疾病可能造成誤差。\n\n### 下一步怎麼驗證\n\n**要點**：需要預先固定公式與 cut-off，在新的多中心樣本比較真正的臨床效度。\n\n1. 預先註冊分析計畫與主要效標。\n2. 納入多族群、各年齡、肥胖、肌少症、慢性病與不同身體比例。\n3. 分開 training、internal validation 與 external validation data。\n4. 對照 DXA 或可靠身體組成，並追蹤代謝與心血管結果。\n5. 報告校準、discrimination、decision curve、reclassification 與測量重現性。\n6. 和 BMI-for-age、w/h、waist circumference、BMI、TMI 做公平比較。\n\n### 營養照護怎麼解讀\n\n**要點**：CBMI 可作研究附加指標，照護決策仍以完整人體測量與臨床資料為主。\n\n- 成人體重管理同時看 BMI、腰圍、w/h、身體組成與代謝風險。\n- 高齡者要加看肌力、功能、體重變化、食慾與營養風險。\n- 兒童與青少年使用成長曲線及年齡性別標準，不能套成人 CBMI cut-off。\n- 肌肉量高、水腫、腹水、懷孕或特殊體型者，體重身高指標都可能失真。\n\n## 概念與名詞整理\n\n**要點**：掌握尺度、擬合、效標與驗證，才能判斷新指標是否成熟。\n\n- **CBMI**：√(m/h³)，本文提出的新人體測量指標。\n- **TMI**：m/h³，常用於青少年體位研究。\n- **w/h**：腰圍身高比，用來反映中央脂肪分布的簡易指標。\n- **Form factor α**：把幾何、密度與身體比例合併的模型係數。\n- **External validation**：在不同於建立模型的新樣本測試表現。\n- **Gold standard**：用來檢驗新指標是否真的測到目標概念的可靠參照。\n\n## 自我測驗\n\n**要點**：五題檢查能否分清數學對應與臨床效度。\n\n> [!question]- Q1：CBMI 的公式是什麼？\n> CBMI = √(m/h³)，m 用公斤、h 用公尺。\n\n> [!question]- Q2：全體 400 人的 CBMI 對 w/h 擬合值是多少？\n> 0.837。成人男性為 0.744，低於其他分組。\n\n> [!question]- Q3：為什麼高擬合值不能證明 CBMI 能診斷肥胖？\n> 因為比較對象只是 w/h，沒有 DXA 體脂或疾病結果，也沒有 sensitivity、specificity、AUC 與外部驗證。\n\n> [!question]- Q4：作者的 CBMI cut-off 現在能直接使用嗎？\n> 暫不宜。它由同一批本地資料與 w/h 界線推導，尚未跨族群、年齡與臨床結果驗證。\n\n> [!question]- Q5：驗證 CBMI 最需要補哪三件事？\n> 多中心獨立樣本、DXA 或臨床結果效標，以及預先註冊並固定公式和 cut-off 的分析計畫。\n\n## Reference\n\n**要點**：全文為合法 Unpaywall OA PDF，25 頁，題名、作者與 DOI 已核對。\n\n- Beji S, Kizilkaya Beji N, Mutlu Ü. Scientific Reports. 2026.\n- DOI：https://doi.org/10.1038/s41598-026-61284-1\n- PubMed：https://pubmed.ncbi.nlm.nih.gov/42448733/",
+      "cards": [
+        {
+          "title": "CBMI 公式",
+          "question": "CBMI 如何計算？",
+          "answer": "CBMI = √(m/h³)，體重 m 用公斤、身高 h 用公尺。",
+          "tags": [
+            "CBMI",
+            "anthropometry",
+            "formula"
+          ]
+        },
+        {
+          "title": "CBMI 主要擬合結果",
+          "question": "CBMI 與腰圍身高比在全體 400 人的擬合值是多少？",
+          "answer": "0.837。女性成人 0.840、男性成人 0.744、女性兒童 0.907、男性兒童 0.864。",
+          "tags": [
+            "waist-to-height ratio",
+            "model fit",
+            "CBMI"
+          ]
+        },
+        {
+          "title": "擬合不等於診斷",
+          "question": "為什麼 CBMI 高擬合值不能證明能診斷肥胖？",
+          "answer": "它只對照 w/h，沒有 DXA 體脂或疾病結果，也未報告 sensitivity、specificity、AUC 或外部驗證。",
+          "tags": [
+            "diagnostic accuracy",
+            "validation",
+            "body composition"
+          ]
+        },
+        {
+          "title": "CBMI cut-off 邊界",
+          "question": "作者提出的 CBMI cut-off 能直接作臨床標準嗎？",
+          "answer": "暫不宜。cut-off 由同一批伊斯坦堡資料與 w/h 界線推導，尚未跨族群、年齡與臨床結果驗證。",
+          "tags": [
+            "cut-off",
+            "external validation",
+            "obesity"
+          ]
+        },
+        {
+          "title": "CBMI 下一步驗證",
+          "question": "驗證 CBMI 最需要哪些設計？",
+          "answer": "預先註冊、多中心獨立樣本、training/validation 分離、DXA 或臨床效標，以及校準與診斷效度比較。",
+          "tags": [
+            "validation study",
+            "DXA",
+            "prediction model"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-09T12:27:00.204Z"
+    },
+    {
+      "id": "doi:10.1038/s41598-026-61284-1:review",
+      "paperId": "doi:10.1038/s41598-026-61284-1",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Development of a consistent body mass index.",
+      "authors": "Beji S, Kizilkaya Beji N, Mutlu Ü",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.1038/s41598-026-61284-1",
+      "abstract": "A new body mass index, termed Consistent Body Mass Index CBMI=[Formula: see text], is developed from first principles. Customarily used Body Mass Index (BMI[Formula: see text]) or its variant Tri-ponderal Mass Index (TMI[Formula: see text]) or other measures serving to the purpose of classifying the anthropometric status of a person have repeatedly been demonstrated to be unsatisfactory in various aspects. A new index inclusive of all ages, body sizes, and sexes is therefore needed. A non-dimensional hence scalable index CBMI, which correlates well with waist-to-height ratio, [Formula: see text], is developed from fundamental relations. Correlation levels of CBMI and TMI against waist-to-height ratio [Formula: see text] are compared for measurements comprising participants ranging from 1-day-old to 75-year-old male and female infants, children, and adults. Waist-to-height ratio [Formula: see text], which correlates well, [Formula: see text], with CBMI is a reliable measure of the anthropometric status of a person. New criteria and relevant charts, based on [Formula: see text] and CBMI, are established for classifying anthropometric status levels. CBMI can also be used as an estimator for ideal body weight for a definite CBMI value and a given height [Formula: see text] from [Formula: see text].",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42448733/",
+      "category": "candidate",
+      "tags": [],
+      "noteTitle": "新一致性身體質量指數與腰圍身高比的肥胖分類研究品質評讀",
+      "content": "# 新一致性身體質量指數與腰圍身高比的肥胖分類研究品質評讀\n\n> 已依 paper-review skill 讀完合法完整全文，以下內容以全文研究設計、公式、結果與限制為依據。\n\n## 品質快照\n\n- 設計：橫斷面人體測量與數學模型建立，n=400，年齡 0 至 75 歲，四組各 100 人。\n- 主要結果：CBMI 與腰圍身高比的模型擬合係數在全體資料為 0.837，男性成人最低為 0.744。\n- RoB：高，主要疑慮來自便利取樣、單一城市、健康志願者、同一批資料建立與評估模型，以及沒有獨立外部驗證。\n- GRADE：對臨床肥胖分類或人體脂肪測量的證據確定性為極低，本文也沒有直接測量脂肪量或病人重要健康結果。\n- 一句話 verdict：這篇提出可計算的新人體測量指標，數學構想有研究價值，現階段只能當成候選篩檢指標，不能把作者暫定 cut-off 當成已驗證的臨床標準。\n\n## 白話導讀\n\n這篇文章想處理 BMI 在不同身高、年齡與身體比例下的可比性問題。作者從質量、體積與身高的關係出發，提出 CBMI = √(m/h³)，再把它和腰圍身高比 w/h 比較。研究中 400 名來自伊斯坦堡的參與者，年齡從出生到 75 歲，CBMI 和 w/h 的模型擬合在全體資料達 0.837。這只能說兩個人體測量量在這批資料中有相當程度的對應，還不能說 CBMI 已經準確測出體脂或能預測糖尿病、心血管疾病。文章提出的分類，例如 10×CBMI 33 至 39 為正常，作者自己也寫明需要更大型資料與專業判斷重新定義。\n\n## 研究問題與設計\n\n- 研究問題：能否建立一個適用於不同年齡、身高與性別，且和腰圍身高比有直接關係的人體測量指標。\n- CBMI 定義：CBMI = √(m/h³)。TMI 則為 m/h³。這兩者在文中以相同質量與身高資料計算。\n- 理論關係：作者以圓柱形人體近似，推導 w/h = α×CBMI，並以最小平方法估計 α。\n- 研究場域：土耳其伊斯坦堡 Biruni University Hospital 周邊，納入醫院工作人員、健康志願者、病人親屬、陪同兒童與新生兒單位嬰兒。\n- 收案：作者稱參與者依可取得性與同意自然形成，並稱為 naturally randomized。這並非隨機分派，也不會消除取樣偏差。\n- 測量：質量、身高與腰圍。腰圍在正常呼氣末，量取肋骨下緣與髂嵴中點。\n- 統計：G*Power 以 Cohen d=0.17、雙尾 α=0.05、power=0.90 推估 n=400，實際四組各 100 人。\n\n## 主要結果\n\n| 分組 | n | 年齡範圍 | CBMI 與 w/h 擬合係數 r | TMI 與 w/h 擬合係數 r |\n|---|---:|---:|---:|---:|\n| 女性成人 | 100 | 10-70 歲 | 0.840 | 0.695 |\n| 男性成人 | 100 | 10-75 歲 | 0.744 | 0.704 |\n| 女性兒童 | 100 | 0-9 歲 | 0.907 | N.A. |\n| 男性兒童 | 100 | 0-9 歲 | 0.864 | N.A. |\n| 全體 | 400 | 0-75 歲 | 0.837 | N.A. |\n\n- 全體資料的 form factor α=0.129。CBMI 平均值為 3.85±0.45，腰圍身高比為 0.50±0.068。\n- TMI 在兒童與全體資料的模型殘差高於資料變異，作者因此標記為 N.A.。這是作者自訂的擬合評估規則，讀者需要把它和一般 Pearson 或 Spearman 相關係數分開理解。\n- 男性成人 CBMI 擬合係數為 0.744，作者以約 ±3% 的密度調整做事後試算，係數升到 0.800。這是探索性校正，沒有獨立樣本驗證。\n- 作者提出腰圍身高比分類：100×w/h 小於 42 為 underweight，42 至 50 為 normal，50 至 58 為 overweight，58 至 66 為 obese，大於 66 為 adipositas。\n- 對應的 CBMI 分類以 10×CBMI 表示：小於 33、33 至 39、39 至 45、45 至 51、大於 51。作者指出 1 歲以下嬰兒可能需要另一套尺度。\n- 範例個案為 10 歲女性，40 kg、147 cm、腰圍 67 cm。100×w/h=45.6，10×CBMI=35.5，兩者都被判為接近理想正常值。\n\n## Critical Appraisal\n\n### 研究設計與偏差\n\n- 研究問題和數學推導清楚，測量流程有交代，倫理審查與口頭同意有記錄。\n- 便利取樣來自單一城市與醫院周邊，且排除了慢性病或其他疾病者，和實際營養門診、肥胖、肌少症或多重共病族群差異很大。\n- 400 人分成四組後，每組內的年齡跨度仍很大，嬰兒、兒童、青少年與成人的身體比例和測量誤差來源不同，不能只用一個整體擬合值代表所有年齡。\n- CBMI 是由質量與身高計算出的指標，w/h 也是同一批人的測量值。模型建立與評估使用同一批資料，存在 overfitting 風險。\n- 沒有 DXA、BIA、皮脂厚度、血糖、血脂、血壓、疾病事件或長期追蹤作為獨立參照，因而沒有證明 CBMI 代表脂肪量或健康風險。\n- 圓柱形人體是假設，作者承認性別、族群、年齡、肌肉與脂肪比例會改變身體密度與形狀。這個假設也可能造成某些族群的系統性誤差。\n\n### 統計與推論\n\n- G*Power 的 effect size d=0.17 沒有清楚說明來源，也沒有呈現主要假設檢定、信賴區間、預先註冊或外部樣本的樣本數計畫。\n- 文中稱 r=1−Sr/St，圖表又呈現 r=√(1−Sr/St) 的形式。這個量是以殘差和總變異計算的模型擬合指標，不能直接和一般相關係數或 diagnostic accuracy 的 AUC 混為一談。\n- 對男性成人做密度 ±3% 的校正後再報告改善，屬於資料導向的事後分析，可能高估表現。需要在新的族群事先固定密度函數，再做外部驗證。\n- 作者以 w/h=0.5 為重要界線，並在本地 400 人資料的平均與標準差上設定其他 cut-off。這些數值沒有直接對應到臨床事件、DXA 體脂或國際年齡性別標準。\n- 結論把 CBMI 稱為適用所有年齡、性別與身體大小的指標，超過本研究設計能支持的範圍。可支持的說法應限於「在這批伊斯坦堡資料中，CBMI 與 w/h 有相對良好的模型對應」。\n\n### 參考文獻查核\n\n- Browning、Hsieh 與 Ashwell 的腰圍身高比系統性回顧，DOI 10.1017/S0954422410000144，可解析且題名與作者的引用方向一致。\n- Ashwell、Gunn 與 Gibson 的成人心代謝風險系統性回顧與統合分析，DOI 10.1111/j.1467-789X.2011.00952.x，可解析且題名與文中引用方向一致。\n- Sun 等人的兒童與青少年 TMI 系統性回顧，DOI 10.3389/fendo.2021.694681，可解析且題名與 TMI 比較脈絡一致。\n- 以上查核只能確認 DOI 與書目方向，無法替代逐篇全文的語意查核。文章對 w/h 的臨床意義有部分引用來自評論或新聞式來源，這些資料不宜承擔主要臨床 cut-off 的證據責任。\n\n### GRADE 與臨床應用\n\n這篇文章沒有治療介入或病人重要結果，若把問題改寫成「CBMI 能否準確辨識人體脂肪或預測健康風險」，目前確定性屬極低。主要降級理由是橫斷面便利樣本、同一資料集建立與測試、缺少獨立參照、測量與模型假設的不確定性，以及 cut-off 尚未外部驗證。\n\n- 可用：研究閱讀、人體測量方法比較、規劃後續 validation study。\n- 暫不宜用：直接判定肥胖、替代兒童 BMI-for-age、替代 DXA 或 BIA、推估個人理想體重、作為疾病風險或營養介入成效的單一依據。\n- 營養照護：可把 CBMI 視為候選附加指標，和腰圍、身高、體重、體位成長曲線、肌力、飲食攝取、疾病史與身體組成資料一起解讀。兒童、嬰兒、長者、肌少症或水腫個案需要個別看待。\n\n## 結論\n\nCBMI = √(m/h³) 在作者的 400 人資料中和腰圍身高比呈現比 TMI 更好的相對模型對應，這是可供後續研究測試的數學與測量假說。研究沒有證明 CBMI 已能測量體脂、預測疾病或提供跨族群可用的 cut-off。下一步需要預先註冊的多中心樣本、獨立驗證集、DXA 或其他身體組成參照、年齡與性別分層，以及臨床結果追蹤。\n\n## 全文證據\n\n- 合法來源：Unpaywall OA PDF。\n- 本機檔案：[local path removed]\n- 檔案大小：961243 bytes。SHA-256：adc881bc0af174ef5e48648f92e4c4d833c60fba54fd093181eb3083db75a849。\n- 頁數：25。已讀取摘要、Introduction、Methodology、Measurements、Statistical Analyses、Results、Tables、Figures、Discussion、References、Data Availability、Competing Interests、Ethics 與 Funding。\n- 身分核對：PDF 題名、DOI 10.1038/s41598-026-61284-1、作者與 Scientific Reports 頁首一致。\n- 視覺核對：已渲染並檢查首頁、摘要公式、統計公式與討論頁，未見截切或無法辨識的主要內容。\n\n## 使用提醒\n\n這份評讀支援營養與健康專業人員閱讀研究，不能取代原文、兒童成長標準、臨床指引或個別病人的醫療決策。",
+      "cards": [],
+      "completedAt": "2026-08-09T12:23:32.109Z"
+    },
+    {
+      "id": "doi:10.7762/cnr.2026.0027:review",
+      "paperId": "doi:10.7762/cnr.2026.0027",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Personalized nutrition interventions using digital technologies for older adults: a scoping review.",
+      "authors": "Jung S, Kang H, Park Y",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.7762/cnr.2026.0027",
+      "abstract": "As global populations age, nutrition management is important for healthy aging. Digital technologies, including mobile applications, web-based platforms, messaging tools, and artificial intelligence (AI)-enabled systems, are used in personalized nutrition interventions. However, evidence on their characteristics, effectiveness, and user experiences remains limited. This scoping review examined technology-based personalized nutrition interventions for older adults. This review followed the Joanna Briggs Institute methodology and the Preferred Reporting Items for Systematic Reviews and Meta-Analyses Extension for Scoping Reviews guidelines. PubMed, Embase, and Web of Science were searched for studies published from January 1, 2010, to June 30, 2026. Among 2,727 records, 2,044 were screened after duplicate removal, 28 full-text articles were assessed, and 13 articles representing 12 studies were included. Technologies included mobile, messaging, web-based, information and communications technology, tablet-based, and AI-supported systems. Interventions involved dietary recording, personalized feedback, remote counseling, coaching, and self-monitoring. Outcomes included dietary intake and quality, nutritional status, physical function, frailty, cognition, cardiometabolic indicators, engagement, usability, and acceptability. Findings were more consistent for dietary behaviors and individualized nutrition management. Evidence for physical function, frailty, cognition, cardiometabolic health, and quality of life was limited and often based on small or multidomain studies. Familiar interfaces and professional support were accepted, whereas low digital literacy, complex navigation, and limited food databases were barriers. Digital personalized nutrition interventions may support dietary behavior change and individualized nutrition management in older adults. Larger studies and user-centered systems addressing digital literacy, usability, cultural context, and AI-feedback validation are needed.",
+      "legalFullTextUrl": "https://eymj.org/pdf/10.3349/ymj.2021.62.3.249",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42552918/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "design:systematic review",
+        "guideline and consensus",
+        "nutrition and dietary pattern",
+        "obesity and metabolism",
+        "precision nutrition"
+      ],
+      "noteTitle": "高齡者數位個人化營養介入的全文品質評讀",
+      "content": "# 高齡者數位個人化營養介入的全文品質評讀\n\n> 全文已核對：官方 PubMed Central HTML，PMCID PMC13447738，共 66,997 個可讀字元。題名、DOI 10.7762/cnr.2026.0027、作者、期刊與 PMID 42552918 均吻合。資料庫原有 oaUrl 指向本文引用的 2021 年 Yonsei Medical Journal 論文，該錯誤 PDF 未納入評讀。\n\n## 品質快照\n\n- 研究設計：依 JBI methodology 與 PRISMA-ScR 報告的 scoping review，納入 13 篇文章、12 項研究。\n- 主題：行動應用程式、網頁、LINE、tablet、ICT、wearable 與 AI 支援工具如何提供高齡者個人化營養介入。\n- 主要判斷：飲食紀錄、飲食品質、遵從與個別化管理有初步正向訊號。身體功能、衰弱、認知、心代謝與生活品質證據較少，且常來自多領域介入。\n- GRADE：飲食行為與飲食品質為 Very low。研究設計、異質性、間接性與小樣本都限制確定性。\n- 一句話判讀：數位工具較適合作為營養師照護的延伸與追蹤介面，目前不能把 AI 辨識或自動建議當成已驗證的獨立臨床處方。\n\n## 方法學評讀\n\n| 項目 | 全文資訊 | 評讀 |\n|---|---|---|\n| 架構 | JBI scoping review、PCC、PRISMA-ScR | 與繪製新興領域證據地圖相符 |\n| 註冊 | 無預先註冊 protocol | 增加分析與選文事後調整疑慮 |\n| 資料庫 | PubMed、Embase、Web of Science，2010-01-01 至 2026-06-30 | 涵蓋主要醫學資料庫，未含 CINAHL、PsycINFO、IEEE 或 grey literature |\n| 語言 | 英文 peer-reviewed original studies | 有語言與出版偏差可能 |\n| 篩選 | 2,727 筆，去重後 2,044 筆，28 篇全文，最終 13 篇 | 有完整流向及全文排除理由 |\n| 獨立性 | 研究團隊處理不明確資格，未清楚交代每階段有幾位獨立審查者 | 重現性不足 |\n| 資料抽取 | SJ 單一作者抽取，三位作者共同解讀 | 單人抽取增加錯誤風險 |\n| Critical appraisal | 未報告正式 RoB 或品質評估 | Scoping review 可不評品質，但不能據此下強療效結論 |\n| 統合 | 描述性分類與主題整理，未做 meta-analysis | 適合證據地圖，不能提供平均效果量 |\n\n## 納入證據\n\n- 12 項研究來自歐洲、亞洲、美國與南美洲，樣本約 15 至 224 人。\n- 設計包含 RCT、pilot RCT、cluster RCT、quasi-experimental、feasibility、mixed methods 與 usability studies。\n- 多數介入約 3 個月，少數追蹤至 12 個月。\n- 介入涵蓋飲食紀錄、個人化回饋、遠距營養諮詢、行為教練、自我監測、食物影像辨識與多領域健康方案。\n- 許多方案同時有營養師、教練、研究人員、照護員、運動或認知訓練，難以分離數位技術的獨立效果。\n\n## 結果怎麼讀\n\n### 飲食行為與品質\n\n- 飲食品質、健康飲食遵從、蛋白質攝取與自我監測較常出現正向訊號。\n- 一項 AI app quasi-experimental study 報告飲食品質增加 9.5 分，95% CI 2.3 至 16.7。\n- 也有研究顯示組間營養攝取沒有差異，或兩組攝取都隨時間下降。\n- 因量尺、介入與比較組不同，本文沒有統合效應值。\n\n### 功能、衰弱、認知與心代謝\n\n- 部分研究報告 SPPB、步速、Timed Up and Go、肌力、frailty 指標或 cardiovascular health 改善。\n- 認知與生活品質結果不一致，常來自運動、社交、認知與營養並行的 multidomain intervention。\n- 不能把這些結果歸因於數位工具或個人化營養單一成分。\n\n### 使用經驗\n\n- 熟悉的平台、簡單介面、圖片紀錄、清楚指示、較大字體與專業人員支持較受接受。\n- 低數位識能、複雜導覽、設備困難與食物資料庫不足是主要障礙。\n- 參與研究者常較健康或已熟悉數位設備，可能高估一般高齡族群的可用性。\n\n### AI 的邊界\n\n- 納入 AI 多用於食物影像辨識、飲食評估或規則式推薦，成熟的臨床決策支援很少。\n- 混合菜、份量、隱藏油鹽糖、地方食物與資料庫覆蓋不足會影響營養估計。\n- 肌少症、營養不良、腎臟病或多重慢性病患者承受錯誤建議的風險較高。\n- 自動建議在日常照護前需做臨床效度、文化適配、安全與專業審核。\n\n## GRADE\n\n### 飲食行為與飲食品質：Very low\n\n- 起始層級：Low，證據混合 RCT 與多種非隨機、pilot、feasibility 設計。\n- Risk of bias：Serious。多數研究小型或無對照，回顧未做正式 RoB，且由單人抽取資料。\n- Inconsistency：Serious。技術、介入、支持方式與結果量尺差異大，結果並非一致正向。\n- Indirectness：Serious。多領域方案使數位個人化營養的獨立效果難分離。\n- Imprecision：Serious。樣本 15 至 224 人，追蹤偏短，效果估計多未附可比較的 CI。\n- Publication bias：未另行降級。僅納入英文期刊文章，仍保留語言與灰色文獻限制。\n\n## 統計與推論檢查\n\n- Argdown 固定規則檢查為 clean。結論使用「可能支持」，並保留研究設計與 AI 驗證限制。\n- 有些研究是 RCT，不能把整個領域一律視為隨機證據，因多數設計與介入成分不同。\n- 正向的前後變化不等於優於對照，也可能受熟悉度、專業支持、活動或社交成分影響。\n- Scoping review 的目的在盤點範圍，沒有 meta-analysis 不代表方法錯誤，只代表不能估算平均療效。\n- 可接受性資料常來自完成介入者，退出者與數位排除者的經驗可能被低估。\n\n## Reference Verification\n\n| # | 關鍵研究 | DOI | Crossref 核對 | 判定 |\n|---|---|---|---|---|\n| 1 | Kurotani et al., AI-assisted smartphone app | 10.3390/geriatrics10060160 | 題名與 quasi-experimental study 相符 | 支持 |\n| 2 | Su et al., 高齡衰弱者健康飲食 mobile intervention | 10.2196/50870 | 題名與 pilot RCT 相符 | 支持 |\n| 3 | van den Helder et al., 居家運動與蛋白質 blended intervention | 10.1002/jcsm.12634 | 題名與 cluster RCT 相符 | 支持 |\n\n## 經費與利益衝突\n\n- 作者聲明無利益衝突。\n- 作者聲明沒有研究經費。\n- 資料集未公開，可依合理要求向通訊作者取得。\n\n## 營養實務怎麼用\n\n- 選擇病人熟悉的平台，讓數位工具減少紀錄負擔，不增加操作壓力。\n- 對視力、手部功能、認知、語言與數位識能做基線評估，必要時加入照護者。\n- AI 或 app 回饋由營養師核對，特別是食慾差、體重下降、肌少症、吞嚥困難、腎臟病與多重用藥者。\n- 成效追蹤要包含飲食、體重、肌肉功能、營養風險、可用性、退出率與實際使用時間。\n- 台灣情境需測試本地混合菜、份量、LINE 使用、繁體中文介面及本地食物成分資料庫。\n\n## Source\n\n- DOI：https://doi.org/10.7762/cnr.2026.0027\n- PubMed：https://pubmed.ncbi.nlm.nih.gov/42552918/\n- PubMed Central：https://pmc.ncbi.nlm.nih.gov/articles/PMC13447738/",
+      "cards": [],
+      "completedAt": "2026-08-09T12:04:41.625Z"
+    },
+    {
+      "id": "doi:10.1080/00325481.2026.2686460:review",
+      "paperId": "doi:10.1080/00325481.2026.2686460",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Managing patients with cardiovascular-kidney-metabolic syndrome: a guideline-driven practical guide for primary care physicians.",
+      "authors": "Fordan S, Afridi I, Garza A, Collazo-Maldonado R",
+      "journal": "Nutrition guidelines and consensus (PubMed)",
+      "year": "2026",
+      "doi": "10.1080/00325481.2026.2686460",
+      "abstract": "Cardiovascular-kidney-metabolic (CKM) syndrome is a systemic disorder characterized by an overall reduction in cardiovascular health that occurs as a result of the development of ≥2 cardiovascular, kidney, or metabolic risk factors. Prevalence of CKM syndrome and its contributing conditions is rising, carrying an associated increase in excess morbidity, premature mortality, and direct and indirect health-related expenditures for patients, particularly for individuals with adverse social determinants of health. The growing body of evidence supporting CKM syndrome as a single, multifactorial disease underscores the importance of implementing an overarching, interdisciplinary therapeutic approach for the prevention and management of each facet of the disease. The recent development of several therapies with multiple benefits for cardiovascular, kidney, and metabolic health provides an important opportunity to facilitate the development of treatment plans that address the root cause of CKM syndrome for patients in early stages and to alleviate symptoms, delay progression, and improve quality of life in later stages of the syndrome. These developments provide a challenge for primary care physicians (PCPs) to ensure they are managing patients at their current disease stage, with the most appropriate combination of therapies available. This review aims to provide PCPs with a guideline-driven, practical guide to facilitate these decisions on the most appropriate management path for different scenarios for patients with CKM syndrome.",
+      "legalFullTextUrl": "https://doi.org/10.1080/00325481.2026.2686460",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42415318/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "design:guideline",
+        "guideline and consensus",
+        "human clinical population",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "心腎代謝症候群分期與整合照護的全文品質評讀",
+      "content": "# 心腎代謝症候群分期與整合照護的全文品質評讀\n\n> 全文已核對：Taylor & Francis 官方 open-access HTML，共 52,166 個可讀字元。題名、DOI 10.1080/00325481.2026.2686460、作者、期刊、頁碼與 PMID 42415318 均吻合。本文有摘要、四個主要章節、補充資料、揭露與完整參考文獻。\n\n## 品質快照\n\n- 文章類型：指南導向的敘述性實務回顧，搭配作者設計的虛構臨床案例。\n- 核心主張：依 CKM stage 0 至 4 同步處理生活型態、社會健康決定因子、心血管、腎臟與代謝風險，符合條件時儘早組合器官保護藥物。\n- SANRA：10/12。臨床理由、目標、引用、推理與數值呈現清楚，文獻搜尋及篩選流程未交代。\n- GRADE：對「整套分期組合照護降低多器官不良結果」評為 Very low。個別藥物在特定族群可能有高品質 RCT 支持，不能把各藥物證據直接加總成整套策略的已證實效果。\n- 一句話判讀：這篇很適合當基層照護地圖，開藥與營養處方仍需回到各疾病最新版指引、具體產品證據、腎功能與個別風險。\n\n## 研究設計與範圍\n\n| 項目 | 全文資訊 | 評讀 |\n|---|---|---|\n| 目標 | 提供 PCP 可操作的 CKM 分期、篩檢、治療與轉介指南 | 臨床焦點清楚 |\n| 證據來源 | AHA、KDIGO、ADA、ESC、心衰竭與肥胖指引，加上 RCT、回顧與藥品標示 | 來源廣，但未說明如何搜尋與挑選 |\n| 研究方法 | 無預先 protocol、資料庫、搜尋日期、納排標準或證據表 | 選文偏差難排除 |\n| 案例 | Figure 4 的成人案例由作者建立，代表不同 CKM 階段 | 是教學案例，不是實際 cohort 或 trial |\n| 新資料 | 作者聲明沒有建立或分析新資料 | 不能估算介入效果 |\n| 適用場域 | 以美國基層醫療、AHA 分期與美國藥品情境為主 | 台灣使用時需核對本地指引、核准適應症與給付 |\n\n## 主要內容的可信度\n\n### CKM 分期與跨專業照護\n\n- AHA scientific statement 支持把肥胖、糖尿病、CKD 與 CVD 放在同一疾病連續體。\n- Stage 0 至 4 提供共同語言，有助於提早辨識蛋白尿、血壓、血糖、血脂、脂肪分布與亞臨床 CVD。\n- 分期本身是臨床架構，不能當成已通過 RCT 驗證的固定治療演算法。\n\n### 四類藥物支柱\n\n- RAAS blockade、SGLT2i、finerenone 與 GLP-1RA 各有不同機轉與適應症。\n- 特定產品在符合條件的 T2D、CKD、心衰竭、肥胖或 ASCVD 族群有直接試驗證據。\n- 文章主張沒有固定藥物階層，應在可行時儘早使用所有有適應症的治療。這是實務建議，整套快速組合策略沒有單一直接比較試驗。\n- 同一藥物類別內的成分、劑量、eGFR 門檻、禁忌與終點證據不同，不能類推為 class effect。\n\n### 生活型態與營養\n\n- 各期都把健康飲食、活動、戒菸與社會健康決定因子列為基礎。\n- 本文沒有提供可重現的營養介入 protocol、劑量、比較組或營養 outcome 統合。\n- CKD、心衰竭、糖尿病、肥胖與衰弱可能出現互相衝突的飲食目標，需要營養師依 eGFR、UACR、鉀、體重與肌肉狀態個別調整。\n\n## SANRA\n\n| 領域 | 分數 | 理由 |\n|---|---:|---|\n| 回顧理由 | 2/2 | CKM 盛行、負擔與基層照護困難交代清楚 |\n| 目標陳述 | 2/2 | 明確要提供指南導向的實務路徑 |\n| 文獻搜尋描述 | 0/2 | 無資料庫、搜尋式、日期、納排標準或流程 |\n| 關鍵敘述引用 | 2/2 | 分期、藥物與臨床主張多附來源 |\n| 科學推理 | 2/2 | 有連結疾病機轉、適應症與臨床情境 |\n| 數據呈現 | 2/2 | 提供盛行率、成本、eGFR 門檻與關鍵試驗資訊 |\n\nCherry-picking 檢查：文章引用多項權威指南及關鍵 RCT，也提醒藥物不能任意類推。缺少可重現選文流程，加上藥廠資助與作者財務關係，仍可能偏重有利於特定藥物組合的證據。\n\n## GRADE\n\n### 分期整合生活型態與藥物降低多器官不良結果：Very low\n\n- 起始層級：Low，本文核心是敘述性整合，沒有單一直接策略試驗。\n- Risk of bias：Serious。選文方法未交代，資助與作者財務關係增加選擇性強調疑慮。\n- Inconsistency：未另行降級。主要指南方向相近，本文沒有 outcome-level 統合可正式比較。\n- Indirectness：Serious。不同疾病、藥物、族群與終點被整合成一個照護架構。\n- Imprecision：未另行降級。沒有單一效應值與 CI 可判定，保留為方法限制。\n- Publication bias：Serious。搜尋與篩選不可重現，無法排除未納入相反或中性證據。\n\n## 統計與推論檢查\n\n- Argdown 固定規則檢查為 clean。分期主張由 guideline 支持，藥物效益由特定 RCT 支持，並明列整套組合策略缺少直接試驗。\n- 美國成人約 90% 為 stage 1 以上是盛行率估計，不代表 90% 都需要相同藥物治療。\n- 特定藥物降低某一心腎終點，不能直接推論所有同類藥物、所有 CKM stage 或所有組合都有同等效果。\n- 文中 Medicare 成本模型與臨床事件估計屬模型結果，不是觀察到的實際節省。\n- 虛構案例只能展示思考路徑，不能拿來計算效應或安全性。\n\n## Reference Verification\n\n| # | 引用 | 用途 | Crossref 核對 | 判定 |\n|---|---|---|---|---|\n| 1 | AHA CKM scientific statement，10.1161/CIR.0000000000001186 | CKM 定義、分期與管理架構 | 題名與 scientific statement 相符 | 支持 |\n| 2 | FIDELIO-DKD，10.1056/NEJMoa2025845 | Finerenone 的 CKD outcome 證據 | 題名與 journal article 相符 | 支持 |\n| 3 | FIGARO-DKD，10.1056/NEJMoa2110956 | Finerenone 的 cardiovascular outcome 證據 | 題名與 journal article 相符 | 支持 |\n\n## 經費、作者與利益衝突\n\n- Bayer Corporation 資助醫學寫作與出版支援。\n- Steve Fordan 揭露 Bayer、Eli Lilly、Novo Nordisk 的推廣演講與研究支持。\n- Andrew Garza 揭露 Medtronic 推廣演講。\n- 文章表示資助者未參與設計、資料分析、投稿決定或稿件準備，但本文沒有新研究資料，主要風險集中在主題框架與證據選擇。\n- 這些關係不等於內容錯誤，會提高讀者核對 finerenone、GLP-1RA 與其他商業產品敘述的必要性。\n\n## 營養與臨床怎麼用\n\n- 用 CKM 分期當共同照護地圖，不能用它取代疾病別評估。\n- 篩檢至少包含 BMI 或腰圍、血壓、血脂、HbA1c、eGFR、UACR、CVD 與社會資源。\n- 飲食處方同時考量能量、蛋白質、鈉、鉀磷、纖維、脂肪品質、用藥與肌肉狀態。\n- GLP-1RA 或 SGLT2i 啟動後留意食慾、腸胃症狀、脫水、低血糖、體重過快下降與肌肉流失。\n- 在台灣應核對本地核准適應症、健保給付、藥價、可近性及最新專科指引。\n\n## Source\n\n- DOI：https://doi.org/10.1080/00325481.2026.2686460\n- PubMed：https://pubmed.ncbi.nlm.nih.gov/42415318/\n- Publisher：https://www.tandfonline.com/doi/full/10.1080/00325481.2026.2686460",
+      "cards": [],
+      "completedAt": "2026-08-09T11:51:44.018Z"
+    },
+    {
+      "id": "doi:10.1080/00325481.2026.2686460:digest",
+      "paperId": "doi:10.1080/00325481.2026.2686460",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Managing patients with cardiovascular-kidney-metabolic syndrome: a guideline-driven practical guide for primary care physicians.",
+      "authors": "Fordan S, Afridi I, Garza A, Collazo-Maldonado R",
+      "journal": "Nutrition guidelines and consensus (PubMed)",
+      "year": "2026",
+      "doi": "10.1080/00325481.2026.2686460",
+      "abstract": "Cardiovascular-kidney-metabolic (CKM) syndrome is a systemic disorder characterized by an overall reduction in cardiovascular health that occurs as a result of the development of ≥2 cardiovascular, kidney, or metabolic risk factors. Prevalence of CKM syndrome and its contributing conditions is rising, carrying an associated increase in excess morbidity, premature mortality, and direct and indirect health-related expenditures for patients, particularly for individuals with adverse social determinants of health. The growing body of evidence supporting CKM syndrome as a single, multifactorial disease underscores the importance of implementing an overarching, interdisciplinary therapeutic approach for the prevention and management of each facet of the disease. The recent development of several therapies with multiple benefits for cardiovascular, kidney, and metabolic health provides an important opportunity to facilitate the development of treatment plans that address the root cause of CKM syndrome for patients in early stages and to alleviate symptoms, delay progression, and improve quality of life in later stages of the syndrome. These developments provide a challenge for primary care physicians (PCPs) to ensure they are managing patients at their current disease stage, with the most appropriate combination of therapies available. This review aims to provide PCPs with a guideline-driven, practical guide to facilitate these decisions on the most appropriate management path for different scenarios for patients with CKM syndrome.",
+      "legalFullTextUrl": "https://doi.org/10.1080/00325481.2026.2686460",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42415318/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "design:guideline",
+        "guideline and consensus",
+        "human clinical population",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "心腎代謝症候群分期與整合照護的全文內容整理",
+      "content": "# 心腎代謝症候群分期與整合照護的全文內容整理\n\n> [!summary] 30 秒重點\n> CKM syndrome 把肥胖、糖尿病、慢性腎臟病與心血管疾病視為互相推動的疾病連續體。文章以 stage 0 至 4 組織篩檢、生活型態、藥物與轉介。各期都要處理飲食、活動、吸菸與社會健康決定因子，藥物則依適應症組合 RAAS blockade、SGLT2 inhibitor、finerenone 與 GLP-1 receptor agonist。這是一篇指南導向的敘述性實務回顧，不能取代各專科最新指引與個別處方判斷。\n\n## 第一層：快速吸收\n\n### CKM 是什麼\n\n**要點**：CKM syndrome 描述心血管、腎臟、肥胖與代謝異常彼此連動造成的多器官風險。\n\n- Stage 0：沒有 CKM 風險因子。\n- Stage 1：過多或功能異常脂肪，加上可能的糖耐量異常。\n- Stage 2：高三酸甘油脂、高血壓、第二型糖尿病，或中高風險 CKD。\n- Stage 3：已有亞臨床 CVD 或高風險等同狀況，並伴隨代謝或腎臟風險。\n- Stage 4：已有臨床 CVD，如冠心病、心衰竭、中風、周邊動脈疾病或心房顫動。\n\n### 一張照護地圖\n\n**要點**：分期用來決定監測強度、組合治療與何時轉介，病程不一定按順序前進。\n\n| 分期 | 照護重點 |\n|---|---|\n| 0 | 維持健康體重、飲食與活動，定期篩檢 |\n| 1 | 針對脂肪過多、前期糖尿病與生活型態介入，必要時評估減重藥物或手術 |\n| 2 | 同時控制血壓、血糖、血脂、體重與 CKD，避免只處理單一診斷 |\n| 3 | 加強亞臨床 CVD 風險評估，依發現轉介內分泌、腎臟或心臟專科 |\n| 4 | 在臨床 CVD 情境下整合心、腎、代謝治療與多專業照護 |\n\n### 四類常見藥物支柱\n\n**要點**：文章主張按每一項適應症儘早組合，而非只從清單挑一種藥。\n\n- ACE inhibitor、ARB 或 ARNI：RAAS blockade，依高血壓、心衰竭、CKD 與蛋白尿情境選擇。\n- SGLT2 inhibitor：可跨第二型糖尿病、CKD 與心衰竭提供保護，仍要看 eGFR、感染、酮酸中毒與容量狀態。\n- Finerenone：主要用於第二型糖尿病合併 CKD，需追蹤鉀與腎功能，不能和 steroidal MRA 任意併用。\n- GLP-1 receptor agonist：可處理糖尿病、過重或肥胖，部分藥物具心血管與腎臟效益，產品與適應症需分清楚。\n\n## 第二層：理解照護流程\n\n### 篩檢不能只看血糖\n\n**要點**：CKM 需要同步盤點脂肪分布、血壓、血脂、腎功能、尿蛋白、血糖與既有 CVD。\n\n- 體重、BMI、腰圍與脂肪相關風險。\n- 血壓、空腹血脂、血糖或 HbA1c。\n- Serum creatinine、eGFR 與 UACR。\n- 心衰竭、冠心病、中風、PAD、心房顫動與亞臨床 CVD 線索。\n- 藥物使用、吸菸、活動量、睡眠與飲食。\n- 食物、住房、交通、醫療可近性、藥價與健康識能等社會健康決定因子。\n\n### 生活型態是各期共同基礎\n\n**要點**：飲食與活動不是等藥物失敗才加入，從 stage 0 到 4 都要執行並依病況調整。\n\n- 飲食目標需同時處理能量、體重、血壓、血脂、血糖與腎臟負擔。\n- 高血壓常需留意鈉與整體飲食模式。\n- 糖尿病需看碳水品質、份量與用藥造成的低血糖風險。\n- CKD 需依 eGFR、蛋白尿、鉀、磷、營養狀態與腎替代治療階段調整。\n- 心衰竭與利尿劑使用者要評估液體、鈉、血壓、體重變化及營養不良。\n- 肥胖治療不能只看體重，也要追蹤肌肉量、功能、飲食品質與藥物耐受性。\n\n### 為什麼要組合治療\n\n**要點**：同一人常同時有多個病理路徑，單一藥物很難涵蓋全部風險。\n\n- RAAS blockade、SGLT2i、finerenone 與 GLP-1RA 的作用機轉不同。\n- 適合的組合可同時處理血壓、蛋白尿、心衰竭、腎功能惡化、血糖與體重。\n- 組合速度要配合血壓、eGFR、鉀、容量狀態、腸胃耐受與可負擔性。\n- 文章強調沒有固定單一路徑，應依臨床評估、檢驗與影像反覆修正。\n\n### 何時需要轉介\n\n**要點**：stage 3 至 4 或病況複雜時，基層醫師仍負責協調，並讓專科共同決策。\n\n- 腎功能快速下降、顯著蛋白尿、反覆高鉀或難治高血壓。\n- 心衰竭、臨床 ASCVD、亞臨床 CVD 高風險或症狀不穩。\n- 糖尿病控制困難、嚴重肥胖、多重用藥或高低血糖風險。\n- 複雜飲食限制造成低攝取、肌少症、體重下降或微量營養素疑慮。\n- 社會資源、藥價或就醫障礙使治療無法落實。\n\n## 第三層：營養與臨床應用\n\n### 營養師怎麼切入\n\n**要點**：同一份飲食計畫要在心血管、腎臟、代謝與營養狀態之間取得平衡。\n\n1. 建立目前分期、共病、用藥、eGFR、UACR、鉀、血壓、HbA1c 與血脂基準。\n2. 評估飲食模式、鈉、添加糖、飽和脂肪、纖維、蛋白質、鉀磷來源與酒精。\n3. 依體重目標、衰弱與肌肉狀態設定能量和蛋白質，避免多重限制導致低攝取。\n4. 用可取得、吃得起、符合文化的替換方案，處理食物不安全與備餐限制。\n5. 藥物啟動或加量後追蹤食慾、噁心、低血糖、脫水、體重與肌肉功能。\n6. 以腰圍、體重、血壓、實驗室數值、症狀、活動與飲食行為共同評估進展。\n\n### 容易混淆的地方\n\n**要點**：同一藥物類別不能視為所有產品都具有相同終點證據與適應症。\n\n- SGLT2i、GLP-1RA 與 MRA 需核對具體成分、疾病條件與核准適應症。\n- ACEi、ARB 與 ARNI 不能任意重疊，心衰竭表型與腎功能會改變選擇。\n- Finerenone 與 spironolactone 的證據、適應症與高鉀風險管理不同。\n- eGFR 門檻、藥品標示與臨床指引會更新，開藥前需查當地最新版。\n- 文章中的虛構案例是教學工具，不是可直接照抄的處方。\n\n### 文章的證據邊界\n\n**要點**：這是指南導向的敘述性回顧，沒有可重現的搜尋與選文流程，也沒有對所有建議重新做 GRADE。\n\n- 主要價值是把 AHA、KDIGO、ADA、心衰竭與肥胖照護放到同一張臨床地圖。\n- 文中藥物主張多依既有指引與大型試驗，仍需回到原始指引核對適用條件。\n- 虛構案例由作者經驗建構，不能當成效果研究。\n- 醫學寫作與出版支援由 Bayer Corporation 資助，讀者應特別核對與 finerenone 相關敘述及替代方案。\n- 發表於 2026 年，後續指引與藥品適應症可能更新。\n\n## 概念與名詞整理\n\n**要點**：分期、UACR 與藥物支柱是讀懂本文的三個核心。\n\n- **CKM syndrome**：心血管、腎臟與代謝疾病互相驅動的疾病連續體。\n- **UACR**：尿白蛋白與肌酸酐比，用於辨識及追蹤腎損傷。\n- **RAAS blockade**：ACEi、ARB 或 ARNI 等抑制腎素血管張力素醛固酮系統的治療。\n- **SGLT2i**：具降糖、心衰竭與腎臟保護效益的藥物類別，實際適應症依產品而異。\n- **nsMRA**：非類固醇型 mineralocorticoid receptor antagonist，文中主要指 finerenone。\n- **GLP-1RA**：可改善血糖與體重，部分產品另有心血管或腎臟終點證據。\n- **SDOH**：social determinants of health，包含食物、收入、住房、交通與醫療可近性。\n\n## 自我測驗\n\n**要點**：五題用來確認分期、監測與營養照護邏輯。\n\n> [!question]- Q1：CKM stage 2 與 stage 4 的主要差別是什麼？\n> Stage 2 已有代謝風險或中高風險 CKD，stage 4 已有臨床心血管疾病，照護需更密集的多專業協調。\n\n> [!question]- Q2：為什麼 UACR 不能省略？\n> UACR 可在 eGFR 尚可時辨識腎損傷，並影響 CKD 分層、RAAS blockade、SGLT2i 與 finerenone 等治療判斷。\n\n> [!question]- Q3：CKM 照護為什麼常需要多藥組合？\n> 心、腎、代謝風險由不同路徑驅動，各藥物機轉與終點效益不同，符合適應症時組合可涵蓋更多風險。\n\n> [!question]- Q4：營養照護最常見的平衡難題是什麼？\n> 需要同時控制體重、血糖、血壓與腎臟負擔，又要避免過度限制導致能量、蛋白質或微量營養素不足。\n\n> [!question]- Q5：為什麼本文建議不能直接當處方？\n> 它是敘述性實務回顧，案例是虛構示例，且藥品適應症與指引會更新，仍需依病人資料與當地最新版指引判斷。\n\n## Reference\n\n**要點**：本次使用出版社官方 open-access 完整 HTML，全文有 52,166 個可讀字元。\n\n- Fordan S, Afridi I, Garza A, Collazo-Maldonado RL. Postgraduate Medicine. 2026;138(6):643-653.\n- DOI：https://doi.org/10.1080/00325481.2026.2686460\n- PubMed：https://pubmed.ncbi.nlm.nih.gov/42415318/\n- Publisher：https://www.tandfonline.com/doi/full/10.1080/00325481.2026.2686460",
+      "cards": [
+        {
+          "title": "CKM 分期",
+          "question": "CKM stage 0 至 4 如何抓重點？",
+          "answer": "0 無風險，1 脂肪異常或前期糖尿病，2 代謝風險或 CKD，3 亞臨床 CVD，4 臨床 CVD。",
+          "tags": [
+            "CKM",
+            "staging",
+            "cardiovascular risk"
+          ]
+        },
+        {
+          "title": "CKM 四類藥物支柱",
+          "question": "文章整理的 CKM 四類常見藥物支柱是什麼？",
+          "answer": "RAAS blockade、SGLT2 inhibitor、finerenone 與 GLP-1 receptor agonist，需按具體適應症、腎功能與耐受性組合。",
+          "tags": [
+            "SGLT2i",
+            "GLP-1RA",
+            "finerenone"
+          ]
+        },
+        {
+          "title": "UACR 的角色",
+          "question": "CKM 篩檢為什麼要看 UACR？",
+          "answer": "UACR 能辨識白蛋白尿與早期腎損傷，影響 CKD 分層及多項心腎保護藥物的使用判斷。",
+          "tags": [
+            "UACR",
+            "CKD",
+            "screening"
+          ]
+        },
+        {
+          "title": "CKM 營養平衡",
+          "question": "CKM 營養照護最重要的平衡是什麼？",
+          "answer": "同時改善體重、血糖、血壓、血脂與腎臟負擔，並避免多重限制造成能量、蛋白質或微量營養素不足。",
+          "tags": [
+            "medical nutrition therapy",
+            "CKM",
+            "malnutrition"
+          ]
+        },
+        {
+          "title": "敘述性回顧的邊界",
+          "question": "為什麼本文不能直接取代臨床指引？",
+          "answer": "它沒有可重現的搜尋與 GRADE 流程，案例為作者設計，且有 Bayer 資助醫學寫作，藥品適應症也可能更新。",
+          "tags": [
+            "narrative review",
+            "conflict of interest",
+            "guideline"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-09T11:40:09.079Z"
+    },
+    {
+      "id": "doi:10.1002/fsn3.72171:digest",
+      "paperId": "doi:10.1002/fsn3.72171",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Protein or Amino Acid Intake at Breakfast for Muscle Mass Gain in Older Adults: A Systematic Review and Meta-Analysis.",
+      "authors": "Ikeda T, Tashiro N, Ohtsuka H, Yamaji N, Matoba M, Noma H, Ota E, Hasegawa T",
+      "journal": "Aging, frailty and sarcopenia (PubMed)",
+      "year": "2026",
+      "doi": "10.1002/fsn3.72171",
+      "abstract": "Preventing sarcopenia is a major goal for older adults. High protein breakfast, while maintaining overall daily intake, has been proposed as a promising approach to support muscle health. However, the optimal timing of protein consumption remains uncertain. Therefore, the specific effects of breakfast protein intake are therefore important for refining nutritional recommendations. The methodology of this review is as follows: which included randomized controlled trials (RCTs) comparing morning protein intake with no intake in healthy and frail adults aged ≥ 60 years. A trained librarian developed comprehensive search strategies for MEDLINE, CENTRAL, EMBASE, and ClinicalTrials.gov. Two reviewers independently screened the studies, extracted data, and assessed the risk of bias using Cochrane's RoB tool 1.0. Standardized mean differences (SMD) were calculated using Review Manager. Seven RCTs involving 305 participants were included. Five studies (n = 181) reported lean mass with an SMD of -0.11 (95% CI, -0.41 to 0.18). Six studies (n = 274) measured grip strength (SMD -0.01; 95% CI, -0.25 to 0.23). Three studies (n = 157) evaluated lower limb strength (SMD -0.11; 95% CI, -0.41 to 0.18), showing similar results. Morning protein intake had a marginal reduction in total daily energy intake (SMD -0.35; 95% CI, -0.70 to 0.00), and had a significant reduction in trials without exercise (SMD, -0.47; 95% CI, -0.82 to -0.11). As a conclusion, morning protein intake may not improve muscle mass, strength, or physical performance among older adults and may reduce little food intake without exercise. But the evidence is very uncertain. Further high-quality RCTs are needed for the effects of morning protein intake on muscle health in older adults.",
+      "legalFullTextUrl": "https://doi.org/10.1002/fsn3.72171",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42502805/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "design:randomized controlled",
+        "guideline and consensus",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "早餐蛋白質補充與高齡者肌肉健康的全文內容整理",
+      "content": "# 早餐蛋白質補充與高齡者肌肉健康的全文內容整理\n\n> [!summary] 30 秒重點\n> 這篇統合 7 個 RCT、305 名高齡者。早餐補充 11 至 21 g 蛋白質或胺基酸，沒有明確增加瘦體重、握力、下肢肌力、步行速度或坐站表現。沒有運動的試驗中，全天食物攝取可能下降。證據確定性很低，實務上應先確保全天熱量、總蛋白質與阻力運動，再調整早餐分配。\n\n## 第一層：快速吸收\n\n### 研究在問什麼\n\n**要點**：問題是「蛋白質放在早餐吃」能否改善高齡者肌肉健康，不是比較高蛋白飲食與低蛋白飲食。\n\n- 對象為 60 歲以上健康或衰弱成人。\n- 介入至少 1 個月，在早餐補充蛋白質或胺基酸，可搭配或不搭配運動。\n- 對照為無介入或安慰劑。\n- 主要結果是瘦體重、握力與下肢肌力，另看步行、坐站、食物攝取與腎功能。\n\n### 核心答案\n\n**要點**：主要肌肉與功能結果都接近零，沒有出現早餐蛋白質的明確優勢。\n\n| 結果 | 統合結果 | 白話解讀 |\n|---|---:|---|\n| 瘦體重 | SMD -0.11，95% CI -0.41 至 0.18 | 沒有明確增加 |\n| 握力 | SMD -0.01，95% CI -0.25 至 0.23 | 幾乎無差異 |\n| 下肢肌力 | SMD -0.11，95% CI -0.41 至 0.18 | 沒有明確增加 |\n| 步行速度 | MD -0.02，95% CI -0.16 至 0.16 | 沒有明確改善 |\n| 坐站表現 | SMD -0.18，95% CI -0.59 至 0.23 | 沒有明確改善 |\n| 全天食物攝取 | SMD -0.35，95% CI -0.70 至 0.00 | 可能略降，接近統計邊界 |\n\n### 實務結論\n\n**要點**：早餐補充可協助補足全天蛋白質，但不能宣稱「早上吃」本身會增加肌肉。\n\n- 先看每日總蛋白質、總熱量與每公斤體重攝取量。\n- 同時安排阻力運動，並追蹤體重、肌肉量、功能與食慾。\n- 食慾差或營養不良風險高的長者，需確認早餐補充後午晚餐有沒有減少。\n- 腎功能安全只由一項試驗報告，慢性腎臟病患者需個別評估。\n\n## 第二層：理解研究\n\n### 為什麼早餐受到關注\n\n**要點**：高齡者早餐常是一天蛋白質最低的一餐，研究者推測把蛋白質分配得更平均，可能延長肌肉蛋白質合成刺激。\n\n- 晚餐到隔天早餐的空腹時間通常最長。\n- 早餐蛋白質偏低可能讓一天中的肌肉蛋白質合成刺激集中在晚餐。\n- 單次餐後生理反應曾顯示乳清、leucine 或均勻分配可能提高 MPS。\n- 這篇關心的是數週至數月後真正的肌肉量與功能，臨床終點比短暫 MPS 訊號更重要。\n\n### 研究怎麼做\n\n**要點**：這是一篇預先註冊、依 PRISMA 報告的 systematic review 與 meta-analysis。\n\n1. 在 MEDLINE、CENTRAL、EMBASE 與 ClinicalTrials.gov 搜尋至 2024-02-22。\n2. 館員設計檢索式，兩位作者獨立篩選全文與評估 RoB。\n3. 納入 RCT 與 crossover RCT，共 7 項、305 人。\n4. 不同量尺以 SMD 統合，步行速度用 MD，模型採 random effects。\n5. 以 I2、τ2 與 Q 檢查異質性，並對高 RoB、衰弱與運動條件做敏感度分析。\n6. 主要結果使用 GRADE 評估確定性。\n\n### 介入其實不完全相同\n\n**要點**：早餐蛋白質是共同概念，實際內容混合多種成分與活動安排。\n\n- 補充量約 11 至 21 g，來源含乳清、乳品、蛋白質或胺基酸。\n- 有些產品加入 leucine 或維生素 D。\n- 有些試驗同時在早晚補充，不是只在早餐。\n- 部分試驗搭配阻力運動，部分沒有。\n- 研究期間約 6 週至數月，受試者包含健康、社區居住、衰弱與住宿機構長者。\n\n### 為何沒看到效益\n\n**要點**：可能是時機本身效應小，也可能是總蛋白質、運動、樣本與介入差異讓效果難以辨認。\n\n- 研究沒有確認每位參與者是否達到 1.0 至 1.2 g/kg/day 等每日目標。\n- 額外早餐蛋白質可能被其他餐次攝取下降抵銷。\n- 蛋白質補充若沒有足夠阻力運動，肌肉適應可能有限。\n- 納入樣本少，信賴區間仍容許小幅有益或有害效果。\n- 已確診肌少症或特定疾病者被排除，真正最需要介入的人可能沒有被充分研究。\n\n## 第三層：進階判讀與應用\n\n### 怎麼讀「沒有顯著差異」\n\n**要點**：結果表示目前資料沒有證明有效，不能解讀成所有早餐蛋白質策略都完全無效。\n\n- 握力 SMD -0.01 很接近零，支持平均效果有限。\n- 瘦體重與下肢肌力的 95% CI 約 -0.41 至 0.18，仍有不精確。\n- I2 接近 0% 代表觀察到的效果方向一致，不能消除偏差或樣本不足。\n- 研究者把主要證據評為 very low certainty，新的高品質試驗可能改變估計。\n\n### 食物攝取下降怎麼看\n\n**要點**：早餐高蛋白可能增加飽足感，這對體重控制與營養不良風險代表不同意義。\n\n- 排除一項高 RoB 試驗後，全天攝取 SMD -0.35，CI 上界剛好到 0。\n- 排除有運動的試驗後，SMD -0.47，95% CI -0.82 至 -0.11。\n- 這是敏感度分析，樣本更少，適合當安全監測訊號。\n- 過重且總熱量過高者可能受益，體重下降、食慾差、衰弱或低攝取者可能承受風險。\n\n### 營養照護操作順序\n\n**要點**：把早餐蛋白質放進完整照護，而非單獨當成增肌處方。\n\n1. 估算每日能量、蛋白質與目前三餐分布。\n2. 盤點早餐是否因牙口、吞嚥、食慾、備餐或藥物而吃得少。\n3. 用蛋、乳品、豆製品、魚肉或合適補充品補足缺口。\n4. 配合個別化阻力運動與活動量。\n5. 追蹤體重、肌肉量、握力、坐站、食慾及全天攝取。\n6. 腎臟病、癌症、急性病後或嚴重衰弱者由營養師與醫療團隊調整。\n\n### 這篇研究留下的問題\n\n**要點**：未來研究需把總量、時機、蛋白質品質、運動與族群拆開，才能回答誰真正受益。\n\n- 早餐每餐應達到多少蛋白質或 leucine 門檻。\n- 全天均勻分配是否優於只增加總量。\n- 高齡女性、亞洲族群、肌少症、住院後與長照住民的效果。\n- 蛋白質來源、維生素 D 與運動的交互作用。\n- 長期安全、腎功能、食慾、生活品質與依從性。\n\n## 概念與名詞整理\n\n**要點**：分清楚總量、分配、MPS 與 SMD，能避免把生理訊號誤讀成臨床結果。\n\n- **Protein distribution**：一天各餐蛋白質的分配方式。\n- **MPS**：muscle protein synthesis，餐後短期生理反應，不等同長期肌肉量增加。\n- **SMD**：standardized mean difference，用來合併不同量尺，數值不能直接換成公斤。\n- **Random-effects model**：允許各研究真實效果不同的統合模型。\n- **Sensitivity analysis**：改變納入條件後重算，測試結論是否穩定。\n- **GRADE**：依偏差、不一致、間接性、不精確與發表偏差判定證據確定性。\n\n## 自我測驗\n\n**要點**：用五題檢查是否能把研究結果轉成安全的營養建議。\n\n> [!question]- Q1：這篇最主要的結論是什麼？\n> 7 個 RCT 的統合未顯示早餐補充蛋白質能改善高齡者瘦體重、握力、下肢肌力或身體功能，證據確定性很低。\n\n> [!question]- Q2：為什麼不能說早餐蛋白質完全無效？\n> 樣本少、介入混合不同成分與運動、信賴區間仍容許小效果，且肌少症與特定疾病族群沒有被直接研究。\n\n> [!question]- Q3：食物攝取下降對哪些人特別需要留意？\n> 食慾差、體重下降、衰弱、營養不良風險高或疾病恢復期長者，因早餐補充後可能減少午晚餐攝取。\n\n> [!question]- Q4：早餐蛋白質在臨床上仍可怎麼用？\n> 可用來補足全天蛋白質缺口，並搭配足夠熱量、阻力運動及攝取監測，不能把時機當成獨立增肌保證。\n\n> [!question]- Q5：I2 接近 0% 代表什麼？\n> 代表納入研究觀察到的效果差異小，不代表研究沒有偏差，也不能補償樣本少與外推限制。\n\n## Reference\n\n**要點**：全文來源為官方 PMC，題名、DOI、作者與正文均已核對。\n\n- Ikeda T, Tashiro N, Ohtsuka H, et al. Food Science & Nutrition. 2026;14(7):e72171.\n- DOI：https://doi.org/10.1002/fsn3.72171\n- PubMed：https://pubmed.ncbi.nlm.nih.gov/42502805/\n- PubMed Central：https://pmc.ncbi.nlm.nih.gov/articles/PMC13400828/",
+      "cards": [
+        {
+          "title": "早餐蛋白質的主要結果",
+          "question": "早餐補充蛋白質對高齡者肌肉量與肌力有何效果？",
+          "answer": "7 個 RCT 的統合未顯示瘦體重、握力、下肢肌力、步行或坐站有明確改善，GRADE 為 very low。",
+          "tags": [
+            "older adults",
+            "breakfast protein",
+            "sarcopenia"
+          ]
+        },
+        {
+          "title": "未顯著不等於完全無效",
+          "question": "為什麼這篇不能證明早餐蛋白質完全無效？",
+          "answer": "樣本少、介入與運動條件不一，信賴區間仍涵蓋小幅效益或傷害，且肌少症與特定疾病族群未被直接研究。",
+          "tags": [
+            "imprecision",
+            "GRADE",
+            "interpretation"
+          ]
+        },
+        {
+          "title": "全天攝取監測",
+          "question": "早餐高蛋白後，哪些長者要特別追蹤全天食物攝取？",
+          "answer": "食慾差、體重下降、衰弱、營養不良風險高或疾病恢復期者，因補充後的飽足感可能降低午晚餐攝取。",
+          "tags": [
+            "appetite",
+            "malnutrition",
+            "energy intake"
+          ]
+        },
+        {
+          "title": "早餐蛋白質的正確定位",
+          "question": "早餐蛋白質在營養照護中應如何定位？",
+          "answer": "它是補足全天蛋白質的工具，需要配合足夠總熱量、阻力運動及功能追蹤，不能當成獨立增肌處方。",
+          "tags": [
+            "clinical nutrition",
+            "protein distribution",
+            "resistance exercise"
+          ]
+        },
+        {
+          "title": "低異質性的限制",
+          "question": "主要結果 I2 接近 0% 時，為什麼證據仍是 very low？",
+          "answer": "低 I2 只表示觀察到的效果差異小。偏差風險、介入間接性、樣本少與寬信賴區間仍各自造成降級。",
+          "tags": [
+            "heterogeneity",
+            "risk of bias",
+            "GRADE"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-09T11:31:54.951Z"
+    },
+    {
+      "id": "doi:10.1002/fsn3.72171:review",
+      "paperId": "doi:10.1002/fsn3.72171",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Protein or Amino Acid Intake at Breakfast for Muscle Mass Gain in Older Adults: A Systematic Review and Meta-Analysis.",
+      "authors": "Ikeda T, Tashiro N, Ohtsuka H, Yamaji N, Matoba M, Noma H, Ota E, Hasegawa T",
+      "journal": "Aging, frailty and sarcopenia (PubMed)",
+      "year": "2026",
+      "doi": "10.1002/fsn3.72171",
+      "abstract": "Preventing sarcopenia is a major goal for older adults. High protein breakfast, while maintaining overall daily intake, has been proposed as a promising approach to support muscle health. However, the optimal timing of protein consumption remains uncertain. Therefore, the specific effects of breakfast protein intake are therefore important for refining nutritional recommendations. The methodology of this review is as follows: which included randomized controlled trials (RCTs) comparing morning protein intake with no intake in healthy and frail adults aged ≥ 60 years. A trained librarian developed comprehensive search strategies for MEDLINE, CENTRAL, EMBASE, and ClinicalTrials.gov. Two reviewers independently screened the studies, extracted data, and assessed the risk of bias using Cochrane's RoB tool 1.0. Standardized mean differences (SMD) were calculated using Review Manager. Seven RCTs involving 305 participants were included. Five studies (n = 181) reported lean mass with an SMD of -0.11 (95% CI, -0.41 to 0.18). Six studies (n = 274) measured grip strength (SMD -0.01; 95% CI, -0.25 to 0.23). Three studies (n = 157) evaluated lower limb strength (SMD -0.11; 95% CI, -0.41 to 0.18), showing similar results. Morning protein intake had a marginal reduction in total daily energy intake (SMD -0.35; 95% CI, -0.70 to 0.00), and had a significant reduction in trials without exercise (SMD, -0.47; 95% CI, -0.82 to -0.11). As a conclusion, morning protein intake may not improve muscle mass, strength, or physical performance among older adults and may reduce little food intake without exercise. But the evidence is very uncertain. Further high-quality RCTs are needed for the effects of morning protein intake on muscle health in older adults.",
+      "legalFullTextUrl": "https://doi.org/10.1002/fsn3.72171",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42502805/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "design:randomized controlled",
+        "guideline and consensus",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "早餐蛋白質補充與高齡者肌肉健康的全文品質評讀",
+      "content": "# 早餐蛋白質補充與高齡者肌肉健康的全文品質評讀\n\n> 全文已核對：官方 PubMed Central HTML，PMCID PMC13400828，共 49,682 個可讀字元。題名、DOI 10.1002/fsn3.72171、作者、期刊及 PMID 42502805 均吻合。OpenAlex 下載的日本厚生勞動省膳食指引與本文無關，未納入評讀。\n\n## 品質快照\n\n- 研究設計：已註冊於 PROSPERO 的 systematic review 與 meta-analysis，納入 7 個 RCT，共 305 名 60 歲以上成人。\n- 臨床問題：把蛋白質或胺基酸安排在早餐，能否改善高齡者肌肉量、肌力與身體功能。\n- 主要結果：瘦體重 SMD -0.11（95% CI -0.41 至 0.18），握力 SMD -0.01（95% CI -0.25 至 0.23），下肢肌力 SMD -0.11（95% CI -0.41 至 0.18）。三項都沒有顯示明確效益。\n- GRADE：Very low。主要限制是偏差風險、介入與族群的間接性，以及樣本數少造成的不精確。\n- 一句話判讀：目前證據無法證明只把蛋白質移到早餐就能改善高齡者肌肉健康，營養照護仍應先確認每日總蛋白質、總熱量、阻力運動與個別疾病需求。\n\n## 白話導讀\n\n- 研究把「早餐吃蛋白質」和無介入或安慰劑相比，補充量多為 11 至 21 g，部分試驗也含晚間補充、維生素 D 或運動。\n- 肌肉量、握力、下肢肌力、步行速度與坐站表現都沒有穩定改善。\n- 沒有合併運動的試驗中，每日食物攝取可能下降。對食慾差、衰弱或營養不良風險高的長者，早餐補充後更要追蹤全天攝取量。\n- 研究未能回答「哪一種蛋白質、多少劑量、什麼時間、配合哪種運動」最合適，也無法直接套用到已診斷肌少症或特定疾病者。\n\n## 研究方法\n\n| 項目 | 全文資訊 | 評讀 |\n|---|---|---|\n| 註冊與報告 | PROSPERO CRD42022298204，依 PRISMA 報告，protocol 於 2024 年發表 | 可核對預先規劃，透明度佳 |\n| 資料來源 | MEDLINE、CENTRAL、EMBASE、ClinicalTrials.gov，搜尋至 2024-02-22 | 有專業館員設計策略，資料庫範圍合理 |\n| 納入條件 | 60 歲以上健康或衰弱成人，早餐蛋白質或胺基酸至少 1 個月，RCT 或 crossover RCT | 排除肌少症與特定疾病研究，限制臨床外推 |\n| 篩選與抽取 | 兩位作者獨立全文篩選，記錄排除理由，分歧由共識或第三人處理 | 程序合宜 |\n| 偏差風險 | Cochrane RoB 1.0，兩人獨立評估 | 工具版本較舊，仍涵蓋主要偏差領域 |\n| 統合 | DerSimonian-Laird random-effects，報告 SMD、95% CI、I2 與敏感度分析 | 小型統合下 τ2 估計可能不穩，未見 Hartung-Knapp 修正 |\n| 發表偏差 | 因少於 10 個試驗而未檢驗 | 合理，但不能排除小型研究偏差 |\n\n## 主要結果\n\n| 結果 | 試驗與人數 | 效果 | 異質性 | 解讀 |\n|---|---:|---:|---:|---|\n| 瘦體重 | 5 RCT，181 人 | SMD -0.11，95% CI -0.41 至 0.18 | I2=0% | 無明確差異 |\n| 握力 | 6 RCT，274 人 | SMD -0.01，95% CI -0.25 至 0.23 | I2=0% | 無明確差異 |\n| 下肢伸肌力 | 3 RCT，157 人 | SMD -0.11，95% CI -0.41 至 0.18 | I2=1% | 無明確差異 |\n| 步行速度 | 2 RCT，80 人 | MD -0.02，95% CI -0.16 至 0.16 | I2=0% | 無明確差異 |\n| 坐站測驗 | 4 RCT，150 人 | SMD -0.18，95% CI -0.59 至 0.23 | I2=32% | 無明確差異，正文 p 值與 CI 的敘述需謹慎核對 |\n| 每日食物攝取 | 5 RCT，181 人，排除一項高 RoB 試驗 | SMD -0.35，95% CI -0.70 至 0.00 | I2=25% | 邊界性下降 |\n| 無運動試驗的每日攝取 | 敏感度分析 | SMD -0.47，95% CI -0.82 至 -0.11 | I2=11% | 可能降低全天攝取，屬探索性結果 |\n\n## 偏差風險與適用性\n\n- 一項 RCT 因分配隱蔽不足及開放分組被評為高風險，兩項為中等風險，其餘四項為低風險。\n- 7 個試驗都未在國際試驗註冊平台登錄，多項研究採開放設計，選擇性報告風險難排除。\n- 6 個試驗在歐洲進行，對亞洲、非洲與不同飲食文化的外推有限。\n- 介入混合不同蛋白質、胺基酸、維生素 D、早晚補充與運動條件，不能把統合值解讀成單一早餐策略的固定效果。\n- 研究沒有確認所有人是否達到依體重計算的每日蛋白質需求，也沒有把已診斷肌少症者當成主要族群。\n- 腎功能只由一項研究報告，安全性證據不足。\n\n## GRADE\n\n### 早餐蛋白質補充對肌肉量與肌力：Very low\n\n- 起始層級：High，核心證據來自 RCT。\n- Risk of bias：Serious。試驗多未註冊，部分為開放設計，且有分配隱蔽高風險。\n- Inconsistency：Not serious。主要結果的 I2 為 0% 至 1%。\n- Indirectness：Serious。介入成分及運動條件混雜，且排除肌少症與特定疾病族群。\n- Imprecision：Serious。各主要結果僅 157 至 274 人，95% CI 同時涵蓋可能效益與可能傷害。\n- Publication bias：未另行降級。試驗不足 10 個而無法正式檢驗，小型研究偏差仍不能排除。\n\n## 統計與推論檢查\n\n- Argdown 固定規則檢查為 clean。主要前提來自 RCT 統合，結論維持「未顯示效益」，沒有把未達統計顯著誤寫成證明完全無效。\n- 低 I2 只代表觀察到的效果差異小，不能補償樣本少、介入異質或偏差風險。\n- 每日攝取下降來自敏感度分析，不能直接推論為臨床傷害，也不能忽略食慾差長者可能出現的能量缺口。\n- 瘦體重與肌力使用 SMD 統合不同量尺，數值不宜直接轉成公斤或握力公斤數。\n\n## Reference Verification\n\n| # | 關鍵 RCT | DOI | Crossref 核對 | 判定 |\n|---|---|---|---|---|\n| 1 | Chanet et al., 2017，早餐維生素 D 與 leucine-enriched whey | 10.3945/jn.117.252510 | 題名與 journal article 類型吻合 | 支持 |\n| 2 | de Azevedo Bach et al., 2022，低蛋白餐補充蛋白質加阻力訓練 | 10.1016/j.exger.2022.111760 | 題名與 randomized clinical trial 描述吻合 | 支持 |\n| 3 | Ottestad et al., 2017，蛋白質強化乳品 12 週試驗 | 10.1007/s12603-016-0856-1 | 題名與 randomized placebo-controlled trial 描述吻合 | 支持 |\n\n## 經費與利益衝突\n\n- 經費來自 Nagoya City University 研究補助與日本學術振興會 KAKENHI。\n- 作者聲明無利益衝突。\n- 本文為二次研究，未涉及作者新收納的人體或動物試驗。\n\n## 營養實務怎麼用\n\n- 先計算全天蛋白質與能量是否足夠，再談分配到早餐的比例。\n- 對早餐蛋白質偏低者，可把早餐補充當作達成每日目標的方法，不能宣稱單靠時機就能增加肌肉量。\n- 高齡者若補充後午晚餐吃得更少，應追蹤體重、總熱量、蛋白質、食慾與功能變化。\n- 肌少症、腎臟病、癌症、急性病後恢復或嚴重衰弱者，需要依疾病狀態、腎功能、運動能力與總攝取量個別調整。\n- 阻力運動仍是維持肌肉功能的重要共同條件，研究結果不支持用早餐補充取代運動處方。\n\n## Source\n\n- DOI：https://doi.org/10.1002/fsn3.72171\n- PubMed：https://pubmed.ncbi.nlm.nih.gov/42502805/\n- PubMed Central：https://pmc.ncbi.nlm.nih.gov/articles/PMC13400828/",
+      "cards": [],
+      "completedAt": "2026-08-09T11:29:51.809Z"
+    },
+    {
+      "id": "doi:10.2196/86281:digest",
+      "paperId": "doi:10.2196/86281",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Exploring the Feasibility, Acceptability, and Safety of a 4:3 Intermittent Fasting Weight Loss Program Among Stage I-III Breast Cancer Survivors With Overweight or Obesity: Protocol for a 6-Month Proof-of-Concept Feasibility Trial.",
+      "authors": "Oselinsky K, Hill E, Ostendorf D, Pan Z, Bing K, Wayland L, Simpson C, Clark K, Sandoval A, Thomas E, Marker R, Kabos P, MacLean P, Catenacci V",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.2196/86281",
+      "abstract": "Mounting evidence underscores the adverse effects of excess body weight during cancer survivorship, yet many breast cancer survivors struggle to maintain a healthy weight (approximately 70% have overweight or obesity [OW/OB]). Daily caloric restriction with increased physical activity is the standard behavioral weight loss approach; however, many fail to achieve clinically meaningful (>5%) weight loss, emphasizing the need for innovative interventions. A recent investigation found that a behavioral weight loss program focusing on 4:3 intermittent fasting (4:3 IMF) produced 60% greater weight loss among healthy adults with OW/OB with no history of cancer than a program focused on daily caloric restriction. Given these promising results and the need for innovative weight loss strategies among breast cancer survivors, studies testing 4:3 IMF among breast cancer survivors are warranted. This investigation aimed to evaluate the feasibility, acceptability, and safety of a 4:3 IMF behavioral weight loss program tailored to breast cancer survivors, and to examine exploratory clinical outcomes (eg, body weight, diet adherence, and physical activity) in relation to prespecified thresholds that will inform whether adjustments to the program are needed prior to progression to a larger trial. In this proof-of-concept feasibility study, individuals with stage I-III breast cancer who have OW/OB and are post-primary therapy will enroll in a 6-month behavioral weight-loss intervention using a 4:3 IMF dietary strategy. Participants will complete a modified fast of approximately 500 kcal per day on 3 non-consecutive days per week, with ad libitum intake the other 4 days per week. Participants will receive virtual, group-based education from a registered dietitian nutritionist that includes a focus on cancer-specific nutrition guidelines. They will also receive in-person, individualized exercise support from an established exercise oncology program to target cancer-specific exercise guidelines. Intervention feasibility will be assessed via participant recruitment, retention, and education class attendance. Acceptability of Intervention Measure, Intervention Appropriateness Measure, Net Promoter Scores, and focus group interviews will be used to assess program acceptability. Proof-of-concept will be evaluated based on whether prespecified thresholds for changes in exploratory clinical outcomes are met. This information will be used to inform progression to a larger trial. This study was funded in January 2022. Data collection began in May 2024 and is ongoing as of April 2026. Recruitment was completed in September 2025 with 31 participants. Study volunteers are currently participating in the 6-month intervention, with data collection anticipated to be completed by Summer 2026, data analysis to begin in Summer/Fall 2026, and initial study results expected by early 2027. This study aimed to examine feasibility, acceptability, and safety of a 4:3 IMF intervention among breast cancer survivors. Data from this study will be used to refine the 4:3 IMF intervention for delivery in a future randomized efficacy trial.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42492498/",
+      "category": "candidate",
+      "tags": [
+        "chronic disease nutrition",
+        "design:guideline",
+        "dietitian clinical nutrition",
+        "guideline and consensus",
+        "human clinical population",
+        "neg:protocol only",
+        "nutrition and dietary pattern",
+        "obesity and metabolism",
+        "safety and interaction"
+      ],
+      "noteTitle": "乳癌存活者 4:3 間歇性斷食可行性試驗 protocol 的全文內容整理",
+      "content": "# 乳癌存活者 4:3 間歇性斷食可行性試驗 protocol 的全文內容整理\n\n> [!summary] 30 秒重點\n> 這是一項乳癌存活者 4:3 間歇性斷食加運動的 6 個月單組可行性試驗計畫，重點是先確認能不能安全執行、參與者是否願意持續，再決定未來 RCT 怎麼設計。\n> - 女性每週 3 個不連續 fast days 各約 500 kcal，男性各約 600 kcal，其餘 4 天 ad libitum。\n> - 同時提供 RDN 團體行為課程、個別諮詢、烹飪實作與癌症運動支持。\n> - 三個 progression thresholds：平均體重下降至少 5%、每週至少 2 個 fast days、MVPA 每週增加至少 100 分鐘。\n> - 目標 36 人，已收 31 人，論文發表時仍無 outcome 結果，預計 2027 年報告。\n> - 品質判讀請見同 DOI 的「乳癌存活者 4:3 間歇性斷食可行性試驗 protocol 的全文品質評讀」。\n\n## 這個 protocol 要解決什麼問題\n\n**要點**：研究想先確認 4:3 IMF 能否被乳癌存活者安全接受與持續執行，尚未比較它是否優於 daily caloric restriction。\n\n- 約 70% 乳癌存活者有過重或肥胖，治療後體重增加、疲勞、功能下降與心代謝共病都會增加照護負擔。\n- 標準 daily caloric restriction 常遇到 1 至 4 個月後 adherence 下降與一年內體重回升。\n- 團隊先前在 165 名無癌症成人做 12 個月 RCT，4:3 IMF 減重 -7.7 kg，DCR -4.8 kg，p=.04。\n- 本研究採 ORBIT phase IIa/b，任務是測試流程、接受度、安全與 progression thresholds，不能產生乳癌族群的確定療效結論。\n\n## Step-by-step protocol\n\n**要點**：飲食、行為支持與運動三部分同步進行，前 3 個月密集、後 3 個月降低接觸頻率。\n\n1. **篩檢**：確認 stage I-III、完成主要治療、BMI 25 至 45、ECOG 0 至 1，並排除高風險心血管、腎臟、代謝、飲食疾患與精神疾病狀況。\n2. **Test fast**：篩檢階段安排 36 小時 test fast，用來觀察 fasting tolerance。\n3. **選 fast days**：每週自選 3 個不連續日，女性每日 500 kcal、男性 600 kcal，約為維持熱量的 75% 至 80% 缺口。\n4. **Fed days**：另外 4 天 ad libitum，不設定每日熱量上限，鼓勵健康食物與份量選擇。\n5. **飲食紀錄**：平時以 fast days 紀錄為主，baseline、3 個月、6 個月另做完整 7 日 food records。\n6. **RDN 課程**：0 至 3 個月每週一次，4 至 6 個月每兩週一次，每次 60 至 90 分鐘，加入乳癌存活營養、份量、標示、情緒、社交與維持策略。\n7. **個別支持**：2 至 3 次 RDN 個別遠距諮詢，加上 2 至 3 次實體烹飪與技能課程。\n8. **運動**：逐步增加到每週 150 至 300 分鐘中等強度有氧，另做每週至少 2 次、每次 45 至 55 分鐘的阻力與柔軟度訓練。\n9. **測量**：baseline、3 個月、6 個月完成體重、DXA、腰圍、血壓、抽血、飲食、activPAL、功能與問卷。\n10. **Mixed methods feedback**：用量表、Net Promoter Score 與焦點團體找出 barriers、facilitators 與課程修正方向。\n\n## 適用條件與安全排除\n\n**要點**：研究只納入功能較佳且醫療狀況相對穩定的成人，安全結果不能直接外推到高齡、frail 或共病複雜族群。\n\n### 納入\n\n- 18 至 65 歲。\n- Stage I-III breast cancer，診斷在 10 年內。\n- 已完成手術、化療、放療、免疫或標靶等主要治療，持續 endocrine therapy 可納入。\n- BMI 25 至 45 kg/m²，ECOG 0 至 1。\n\n### 主要排除\n\n- 近期急性冠心事件、stroke、肺栓塞、心衰住院或重大心律不整。\n- 未控制高血壓、靜息心率 >100 bpm、QTc >480 ms。\n- 大多數糖尿病用藥情境，僅穩定 metformin 或 DPP-4 inhibitor 且 HbA1c ≤8% 可例外評估。\n- eGFR <30、triglycerides >500 mg/dL、LDL >200 mg/dL。\n- 活動性其他癌症、嚴重器官疾病、影響體重藥物、systemic glucocorticoids、部分肥胖手術或裝置史。\n- 飲食疾患、近期 severe depression、重大精神疾病、酒精或物質濫用。\n- 懷孕、哺乳或計畫懷孕。\n\n## Progression thresholds 與量測\n\n**要點**：門檻用來決定方案需不需要修改，不是 efficacy 成功標準。\n\n| 項目 | 量測 | 門檻與用途 |\n|---|---|---|\n| Enrollment | 篩檢、符合與收案人數 | 若明顯低於 36 人，調整 recruitment 或 site |\n| Retention | 6 個月 dropout | >20% 需修改篩檢或支持方式 |\n| Attendance | RDN 與運動課程 | 平均 <60% 代表接受度需大幅改善 |\n| Outcome completion | 3、6 個月兩週視窗 | <90% 需降低負擔或加強追蹤 |\n| Safety | AE 嚴重度與介入歸因 | 任何 protocol-related unexpected、severe 或 serious AE 都要重評介入 |\n| Weight | 空腹早晨數位體重 | 平均下降 <5% 需修改，3 個月另看 <3% 與 <5% |\n| Fasting adherence | 7 日 food records | 每週 <2 fast days 需修改，<1 天代表需大幅修改 |\n| MVPA | activPAL 連續 7 日 | 增加 <100 min/week 需修改，<50 分鐘代表需大幅修改 |\n\n## 其他結果與資料分析\n\n**要點**：研究會收很多探索性資料，主要價值是估計變異與未來 RCT 樣本數，不適合用多個 p 值尋找療效。\n\n- Body composition：DXA fat mass、fat-free mass。\n- Metabolic：血壓、血脂、glucose、insulin、HbA1c、hs-CRP、HOMA-IR。\n- Diet quality：7 日攝取、macronutrients、Veggie Meter skin carotenoids。\n- Function：6-minute walk、30-second sit-to-stand。\n- Patient-reported outcomes：fatigue、quality of life、mood、stress、sleep、binge eating、eating behavior。\n- 分析：體重與 MVPA 用 unstructured covariance LMM，採 ITT。Focus groups 用 deductive 加 inductive content analysis，再與量表做 convergent mixed-methods joint display。\n- Post hoc subgroup 可能按癌症 subtype、stage、年齡、race 與 ethnicity 探索，小樣本下只能產生假說。\n\n## RE-AIM、PRISM 與 ORBIT 怎麼連起來\n\n**要點**：ORBIT 決定「現在是介入開發哪一階段」，RE-AIM 與 PRISM 決定「要收哪些落地資料」。\n\n- **ORBIT phase IIa/b**：先找是否有足夠的 behavioral signal 與可行性，再投入較昂貴的 efficacy trial。\n- **RE-AIM**：看 reach、effectiveness signal、adoption、implementation、maintenance。\n- **PRISM**：補上參與者、執行者、環境與永續條件，讓介入能因回饋逐步修正。\n- 這三個框架讓研究不只問「瘦了多少」，也問「誰願意來、誰留下來、課程能否執行、負擔在哪裡」。\n\n## 重要表格重述\n\n**要點**：三張表分別交代課程內容、結果與工具、訪視時程，是重現方案的核心。\n\n- Table 1：列出 0 至 25 週課程，從 fasting 入門、營養基礎、份量、文化飲食、癌症指南、補充品到維持策略。\n- Table 2：把 RE-AIM 各構面配對 enrollment、retention、attendance、AE、acceptability、體重、adherence、MVPA、DXA、抽血與問卷。\n- Table 3：列出 prescreen、screening、baseline、3 個月與 6 個月的訪視，單次主要 outcome visit 約 150 分鐘。\n\n## 臨床意義與怎麼用\n\n**要點**：目前最實用的是安全篩檢與介入流程，不能把這篇當成乳癌 fasting 療效指南。\n\n- 考慮 fasting 前要檢查低血糖風險、心腎功能、治療時程、食慾、肌肉量、骨骼健康、飲食疾患史與藥物。\n- Fast day 仍需設計高營養密度餐，優先蛋白質、蔬菜、適量全穀或豆類與足夠液體，避免 500 kcal 全由低營養零食構成。\n- 同時提供阻力訓練與監測 fat-free mass，對乳癌存活者比只看體重更重要。\n- 高齡、frail、低 BMI、肌少症、仍接受高負擔治療或多重共病者不在本研究主要適用範圍。\n- 真正影響臨床採用的資料會是 AE、retention、fat-free mass、疲勞、生活品質與長期 adherence。\n\n## 與既有認知的對照\n\n**要點**：本篇把「間歇性斷食」細分成 4:3 IMF、5:2 IMF、alternate-day fasting 與 TRE，避免把不同方案混在一起。\n\n- TRE 是每天限制進食時間，4:3 IMF 是每週三天大幅熱量限制，兩者介入負擔與機轉不相同。\n- 團隊先前無癌症 RCT 支持 4:3 IMF 的 adherence 與減重，但乳癌存活者的治療後症狀、肌肉、骨骼與安全情境不同。\n- 專案沒有設定獨立 vault 目錄。搜尋到的相關內容以本篇全文、引用的 WCRF 報告與同 DOI 品質評讀為主。\n\n## 概念與名詞整理\n\n**要點**：讀懂 modified fasting、progression threshold、feasibility 與 efficacy 的差別，才不會把 protocol 誤讀成成果。\n\n- **4:3 IMF**：一週 3 天 modified fasting、4 天自由進食，fast days 需不連續。\n- **DCR**：每天持續熱量限制，是常見標準行為減重策略。\n- **TRE**：每天把進食集中在較短時間窗，不一定要求大幅減少總熱量。\n- **Feasibility**：研究流程做不做得到，包含 recruitment、retention、attendance 與 outcome completion。\n- **Acceptability**：參與者覺得方案是否可接受、適合、願意推薦或延續。\n- **Progression threshold**：決定介入是否需要修改或能進下一階段的預設門檻，不等於臨床療效門檻。\n- **Proof of concept**：找有沒有值得進一步測試的訊號，尚未證明相對療效。\n\n## 自我測驗\n\n**要點**：用五題檢查是否分得清研究階段、介入細節與安全邊界。\n\n> [!question]- Q1：為什麼這篇不能證明 4:3 IMF 對乳癌存活者有效？\n> 它是單組 protocol，沒有 DCR 或 usual-care comparator，也尚未報告結果。31 至 36 人只足以測流程與初步訊號。\n\n> [!question]- Q2：三個 progression thresholds 是什麼？\n> 平均體重下降至少 5%、每週至少 2 個 modified fast days、MVPA 每週增加至少 100 分鐘。門檻用來決定方案需不需要修改。\n\n> [!question]- Q3：4:3 IMF 和 TRE 有什麼不同？\n> 4:3 IMF 每週三天大幅限制到約 500 至 600 kcal，TRE 每天縮短進食時間窗。兩者的頻率、熱量限制與執行負擔不同。\n\n> [!question]- Q4：為什麼 fat-free mass 與功能結果很重要？\n> 乳癌存活者可能有治療後疲勞、肌肉與骨骼風險。只看體重可能忽略肌肉流失，DXA、sit-to-stand、6-minute walk 可補足。\n\n> [!question]- Q5：哪些病人不能直接套用這份 protocol？\n> 高齡或 frail、ECOG 較差、活動性高負擔治療、嚴重心腎代謝疾病、飲食疾患、懷孕或高低血糖風險者，都需要另行評估。\n\n## Reference\n\n**要點**：全文來源為官方 PMC 的 CC BY 完整 HTML，文章本身是研究計畫，不含 intervention outcome。\n\n- Oselinsky KM, Hill EB, Ostendorf DM, et al. JMIR Research Protocols. 2026;15:e86281.\n- DOI：https://doi.org/10.2196/86281\n- PubMed：https://pubmed.ncbi.nlm.nih.gov/42492498/\n- PubMed Central：https://pmc.ncbi.nlm.nih.gov/articles/PMC13395427/\n- ClinicalTrials.gov：https://clinicaltrials.gov/study/NCT06399276",
+      "cards": [
+        {
+          "title": "4:3 IMF 介入處方",
+          "question": "這份 protocol 的 4:3 IMF 如何安排？",
+          "answer": "每週 3 個不連續 fast days，女性約 500 kcal、男性約 600 kcal，其餘 4 天 ad libitum，並搭配 RDN 行為課程與運動支持。",
+          "tags": [
+            "intermittent fasting",
+            "breast cancer survivorship",
+            "protocol"
+          ]
+        },
+        {
+          "title": "Progression thresholds",
+          "question": "研究用哪三個門檻決定方案是否需要修改？",
+          "answer": "平均體重下降至少 5%、每週至少 2 個 modified fast days、MVPA 每週增加至少 100 分鐘。這些是進階決策門檻，不是療效證明。",
+          "tags": [
+            "feasibility",
+            "progression criteria",
+            "MVPA"
+          ]
+        },
+        {
+          "title": "Protocol 與療效",
+          "question": "為什麼這篇不能證明 4:3 IMF 對乳癌存活者有效？",
+          "answer": "研究是單組 feasibility protocol，沒有對照組，樣本只有 31 至 36 人且尚未報告 outcome。它只能測流程與初步訊號。",
+          "tags": [
+            "study design",
+            "causality",
+            "feasibility trial"
+          ]
+        },
+        {
+          "title": "Fasting 安全邊界",
+          "question": "臨床考慮 fasting 前，哪些面向要先篩檢？",
+          "answer": "低血糖、心腎功能、治療階段、飲食疾患、食慾、肌肉與骨骼、藥物、懷孕及運動耐受性。高齡或 frail 者不宜直接外推。",
+          "tags": [
+            "safety",
+            "cancer nutrition",
+            "screening"
+          ]
+        },
+        {
+          "title": "為什麼看肌肉與功能",
+          "question": "乳癌存活者減重試驗為什麼不能只看體重？",
+          "answer": "治療後可能有肌肉、骨骼、疲勞與功能風險。DXA fat-free mass、sit-to-stand、6-minute walk 和生活品質能辨識減重是否伴隨不利代價。",
+          "tags": [
+            "body composition",
+            "function",
+            "survivorship"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-09T11:23:32.024Z"
+    },
+    {
+      "id": "doi:10.2196/86281:review",
+      "paperId": "doi:10.2196/86281",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Exploring the Feasibility, Acceptability, and Safety of a 4:3 Intermittent Fasting Weight Loss Program Among Stage I-III Breast Cancer Survivors With Overweight or Obesity: Protocol for a 6-Month Proof-of-Concept Feasibility Trial.",
+      "authors": "Oselinsky K, Hill E, Ostendorf D, Pan Z, Bing K, Wayland L, Simpson C, Clark K, Sandoval A, Thomas E, Marker R, Kabos P, MacLean P, Catenacci V",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.2196/86281",
+      "abstract": "Mounting evidence underscores the adverse effects of excess body weight during cancer survivorship, yet many breast cancer survivors struggle to maintain a healthy weight (approximately 70% have overweight or obesity [OW/OB]). Daily caloric restriction with increased physical activity is the standard behavioral weight loss approach; however, many fail to achieve clinically meaningful (>5%) weight loss, emphasizing the need for innovative interventions. A recent investigation found that a behavioral weight loss program focusing on 4:3 intermittent fasting (4:3 IMF) produced 60% greater weight loss among healthy adults with OW/OB with no history of cancer than a program focused on daily caloric restriction. Given these promising results and the need for innovative weight loss strategies among breast cancer survivors, studies testing 4:3 IMF among breast cancer survivors are warranted. This investigation aimed to evaluate the feasibility, acceptability, and safety of a 4:3 IMF behavioral weight loss program tailored to breast cancer survivors, and to examine exploratory clinical outcomes (eg, body weight, diet adherence, and physical activity) in relation to prespecified thresholds that will inform whether adjustments to the program are needed prior to progression to a larger trial. In this proof-of-concept feasibility study, individuals with stage I-III breast cancer who have OW/OB and are post-primary therapy will enroll in a 6-month behavioral weight-loss intervention using a 4:3 IMF dietary strategy. Participants will complete a modified fast of approximately 500 kcal per day on 3 non-consecutive days per week, with ad libitum intake the other 4 days per week. Participants will receive virtual, group-based education from a registered dietitian nutritionist that includes a focus on cancer-specific nutrition guidelines. They will also receive in-person, individualized exercise support from an established exercise oncology program to target cancer-specific exercise guidelines. Intervention feasibility will be assessed via participant recruitment, retention, and education class attendance. Acceptability of Intervention Measure, Intervention Appropriateness Measure, Net Promoter Scores, and focus group interviews will be used to assess program acceptability. Proof-of-concept will be evaluated based on whether prespecified thresholds for changes in exploratory clinical outcomes are met. This information will be used to inform progression to a larger trial. This study was funded in January 2022. Data collection began in May 2024 and is ongoing as of April 2026. Recruitment was completed in September 2025 with 31 participants. Study volunteers are currently participating in the 6-month intervention, with data collection anticipated to be completed by Summer 2026, data analysis to begin in Summer/Fall 2026, and initial study results expected by early 2027. This study aimed to examine feasibility, acceptability, and safety of a 4:3 IMF intervention among breast cancer survivors. Data from this study will be used to refine the 4:3 IMF intervention for delivery in a future randomized efficacy trial.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42492498/",
+      "category": "candidate",
+      "tags": [
+        "chronic disease nutrition",
+        "design:guideline",
+        "dietitian clinical nutrition",
+        "guideline and consensus",
+        "human clinical population",
+        "neg:protocol only",
+        "nutrition and dietary pattern",
+        "obesity and metabolism",
+        "safety and interaction"
+      ],
+      "noteTitle": "乳癌存活者 4:3 間歇性斷食可行性試驗 protocol 的全文品質評讀",
+      "content": "# 乳癌存活者 4:3 間歇性斷食可行性試驗 protocol 的全文品質評讀\n\n> 全文已核對：官方 PubMed Central HTML，PMCID PMC13395427，正文、附錄與參考文獻共 81,556 個可讀字元。題名、DOI 10.2196/86281、JMIR Research Protocols、PMID 42492498 與 NCT06399276 均吻合。OpenAlex 先前取得的 WCRF 乳癌存活者報告只是本文引用資料，未當作目標全文。\n\n## 品質快照\n\n- 研究類型：單中心、單組、6 個月 ORBIT phase IIa/b proof-of-concept feasibility protocol。\n- 對象：18 至 65 歲、stage I-III 乳癌、完成主要治療、BMI 25 至 45 kg/m²、ECOG 0 至 1。\n- 介入：每週 3 個不連續 modified fast days，女性約 500 kcal/day、男性約 600 kcal/day，其餘 4 天 ad libitum，搭配 RDN 行為課程與個別化運動腫瘤支持。\n- 進度：目標 36 人，2025 年 9 月停止收案，已收 31 人。論文記載 2026 年 4 月仍在介入期，結果預計 2027 年。\n- 主要判讀：設計適合回答可行性、接受度與流程修正，沒有對照組、樣本小且尚無結果，不能評估 4:3 IMF 對乳癌復發、長期減重或臨床療效。\n- GRADE：不適用。Protocol 尚未提供任何 outcome effect estimate。\n- 一句話判讀：這是一份方法交代良好的早期試驗計畫，可用來準備未來 RCT，現階段不能當成乳癌存活者採用 4:3 IMF 的療效證據。\n\n## 研究問題與方法\n\n- 背景：乳癌存活者約 70% 有過重或肥胖，治療後體重增加、心血管與糖尿病風險是重要照護議題。\n- 主要目的：評估 recruitment、retention、attendance、outcome completion、acceptability 與 safety。\n- Progression thresholds：平均體重下降至少 5%、每週達成至少 2 個 modified fast days、MVPA 每週增加至少 100 分鐘。\n- 飲食方案：女性 fast day 500 kcal、男性 600 kcal，三天需不連續。建議把多數 fast-day 熱量集中在一餐，另四天不規定熱量上限，但提供健康飲食與份量教育。\n- 行為支持：前 3 個月每週、後 3 個月每兩週 60 至 90 分鐘遠距團體課程，另有 2 至 3 次個別 RDN 諮詢與烹飪實作。\n- 運動處方：逐步達到每週 150 至 300 分鐘中等強度有氧，加上每週至少 2 次、每次 45 至 55 分鐘阻力與柔軟度訓練。\n- 測量時間：baseline、3 個月、6 個月，涵蓋體重、DXA、腰圍、血壓、血脂、血糖、胰島素、HbA1c、hs-CRP、HOMA-IR、飲食紀錄、activPAL、功能與病人回報結果。\n\n## Progression thresholds 與分析\n\n| 項目 | 預設門檻 | 分析方式 | 判讀限制 |\n|---|---:|---|---|\n| 體重 | 6 個月平均下降至少 5% | log weight 的 LMM，ITT 納入所有收案者 | 無對照組，變化不能歸因於 4:3 IMF |\n| Modified fast days | 每週至少 2 天 | 7 日飲食紀錄，女性 ≤500 kcal、男性 ≤600 kcal | 自陳飲食有低估與配合度偏差 |\n| MVPA | 每週增加至少 100 分鐘 | activPAL 連續 7 日 | 飲食與運動同時介入，無法拆分效果 |\n| Retention | dropout 不超過 20% | 描述統計 | 退出原因可能和可接受度直接相關 |\n| 課程 attendance | 平均至少 60% | RDN 與運動課程追蹤 | 遠距與單中心資源會影響可複製性 |\n| Outcome completion | active participants 至少 90% | 3、6 個月兩週視窗內完成 | 尚未交代 missing-at-random 假設與敏感度分析 |\n| Safety | 無 protocol-related unexpected、severe 或 serious AE | 嚴重度與歸因 adjudication | 樣本太小，無法排除少見風險 |\n\n## Protocol 品質與偏差風險\n\n| 領域 | 判定 | 理由 |\n|---|---|---|\n| 研究問題與階段定位 | 較低風險 | 明確定位為 feasibility 與 proof-of-concept，不以顯著性檢定證明療效 |\n| Eligibility 與安全篩檢 | 較低風險 | 心血管、糖尿病、腎病、飲食疾患、精神疾病與藥物條件交代詳細，另有 36 小時 test fast |\n| 介入可重現性 | 較低風險 | 熱量、頻率、課程、行為技巧、運動與諮詢時程均有具體說明 |\n| Outcome 定義 | 需注意 | Progression thresholds 具體，feasibility、clinical signal 與 future efficacy 的界線仍需在成果報告維持清楚 |\n| 登錄一致性 | 需注意 | 論文將 feasibility、acceptability、safety 放在主要目的，ClinicalTrials.gov 現行記錄把 3 個月體重、fasting adherence 與 MVPA 列為 primary outcomes |\n| 對照與因果 | 高限制 | 單組研究沒有 DCR 或 usual-care comparator，不能分辨介入效果、自然變化與研究參與效應 |\n| 統計精度 | 高限制 | 31 至 36 人只適合流程測試，不能提供穩定 efficacy 或 safety effect estimate |\n| 外推性 | 高限制 | Denver 單中心、18 至 65 歲、ECOG 0 至 1，且排除多種共病，較不適用高齡或醫療複雜存活者 |\n| 介入成分拆分 | 高限制 | 飲食、RDN 行為支持、癌症營養教育與密集運動同時提供，無法辨識各成分貢獻 |\n\n## ClinicalTrials.gov 核對\n\n- NCT06399276：4:3 Intermittent Fasting Intervention in Adults With Breast Cancer and Overweight or Obesity。\n- 狀態：Active, not recruiting。\n- 設計：Interventional、single group、no allocation、no masking，預計 enrollment 36。\n- 登錄 primary outcomes：3 個月 body weight、4:3 IMF food-record adherence、activPAL MVPA。\n- 登錄 secondary outcomes：rate of enrollment、3 個月 outcome completion。\n- 開始日期：2024-05-28。現行預估 completion：2027-06-01。\n- 論文與登錄對 intervention model、無隨機、主要量測方向大致一致。Outcome hierarchy 與 3 個月、6 個月的角色需在成果論文再次核對。\n\n## 統計、Spin 與推論\n\n- 本文的 Results 只報告進度與 31 人已收案，沒有體重、遵從、MVPA、AE 或接受度數值。\n- LMM 與 ITT 規劃合理，Protocol 明確說明不做 efficacy significance testing，也不建立因果推論。\n- Argdown 固定規則檢查為 clean。結論使用 future、may 與 inform future trial，沒有把 protocol 寫成已完成療效試驗。\n- Discussion 引用團隊先前 165 人非癌症族群 RCT：12 個月 4:3 IMF -7.7 kg，DCR -4.8 kg，p=.04。這只能支持轉譯理由，不能證明乳癌存活者會有同樣效果。\n- 「減重 5% 至 10% 可降低乳癌復發並改善存活」的文字需要審慎。體重管理對共病有清楚價值，乳癌復發與存活的介入因果仍需大型成果試驗。\n\n## Reference Verification\n\n| # | 本文引用 | 用途 | Crossref 核對 | 判定 |\n|---|---|---|---|---|\n| 1 | Ligibel et al., DOI 10.1093/jnci/djv179 | BMI 與乳癌結果背景 | 題名吻合 CALGB 9741 分析 | 支持背景關聯 |\n| 2 | Catenacci et al., DOI 10.7326/ANNALS-24-01631 | 4:3 IMF 對 DCR 的 12 個月 RCT | 題名與 trial 主題吻合 | 支持轉譯理由，不直接適用乳癌族群 |\n| 3 | Czajkowski et al., DOI 10.1037/hea0000161 | ORBIT 行為治療開發模型 | 題名與方法學來源吻合 | 支持研究階段設計 |\n\n## Funding、COI 與 AI 使用\n\n- 經費來自 National Cancer Institute 與其他 NIH grants。作者聲明資助者未參與設計、資料、分析、解讀或寫作。\n- 作者聲明沒有利益衝突。\n- 作者揭露使用 Microsoft Copilot、Perplexity AI 與 ChatGPT 尋找可能文獻、檢查重複及部分校稿，再由作者檢閱引用與內容。三筆關鍵參考文獻已另行核對。\n- Protocol 有 Colorado Multiple Institutional Review Board 核准，編號 23-1546，並要求書面知情同意。\n\n## 臨床實務判讀\n\n- 目前不能因這篇 protocol 就建議乳癌存活者普遍採用 4:3 IMF。\n- 若在研究或個別臨床評估中考慮 fasting，需先看治療階段、低血糖風險、心腎功能、飲食疾患史、食慾、肌肉量、骨骼健康、藥物與運動耐受性。\n- 研究對象排除多種高風險情況，也限 ECOG 0 至 1，因此不能外推至 frail、高齡、低體重、肌少症或仍接受高負擔治療者。\n- 未來成果最該看 retention、AE、fat-free mass、疲勞、生活品質、飲食 adherence 與 outcome hierarchy，不只看體重百分比。\n\n## GRADE\n\nGRADE 不適用。這是 protocol，沒有 intervention outcome data、effect size、confidence interval 或 harms frequency。等 2027 年成果報告發表後，才可依設計與 outcome 做確定性評級。\n\n## Source\n\n- DOI：https://doi.org/10.2196/86281\n- PubMed：https://pubmed.ncbi.nlm.nih.gov/42492498/\n- PubMed Central：https://pmc.ncbi.nlm.nih.gov/articles/PMC13395427/\n- ClinicalTrials.gov：https://clinicaltrials.gov/study/NCT06399276",
+      "cards": [],
+      "completedAt": "2026-08-09T11:20:56.272Z"
+    },
+    {
+      "id": "doi:10.17179/excli2026-9423:digest",
+      "paperId": "doi:10.17179/excli2026-9423",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Ultra-processed food exposure and health outcomes: Current evidence, controversies, and future perspectives.",
+      "authors": "Dinu M, Lotti S, Asoudeh F, Zhang D, Colombini B, Gauci S, Martini D, Marx W",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.17179/excli2026-9423",
+      "abstract": "Ultra-processed food (UPF) exposure has increased markedly worldwide and is now a major contributor to total energy intake in many countries. Evidence from large prospective cohort studies suggests that higher UPF exposure is associated with adverse health outcomes, including overweight and obesity, type 2 diabetes, cardiovascular disease, selected cancers, depression, and increased all-cause mortality. Short-term experimental studies further indicate that diets rich in UPFs can promote excess energy intake and weight gain, supporting biological plausibility. Several mechanisms have been proposed, including poor nutrient quality, high glycemic load, altered food structure and satiety signaling, exposure to additives and contaminants, gut microbiome perturbations, and displacement of minimally processed foods. Nevertheless, the field remains debated. Major controversies concern the Nova classification system, substantial heterogeneity within the UPF category, challenges in reproducible classification, and the extent to which observed associations reflect processing itself rather than nutrient profile, dietary patterns, or broader food environments. These issues hinder causal inference and sustain ongoing debate over whether UPFs act as independent etiological factors or function as markers of unhealthy diets. Policy responses vary internationally, ranging from explicit inclusion of UPFs in dietary guidelines to predominantly nutrient-based or hybrid frameworks. This narrative review summarizes current evidence linking UPF exposure to health outcomes, critically examines methodological and conceptual limitations, and discusses implications for future research and public health policy. See also the graphical abstract(Fig. 1).",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42517082/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "design:guideline",
+        "guideline and consensus",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "obesity and metabolism",
+        "precision nutrition"
+      ],
+      "noteTitle": "超加工食品的健康證據、機轉與政策爭議的全文內容整理",
+      "content": "# 超加工食品的健康證據、機轉與政策爭議的全文內容整理\n\n> [!summary] 30 秒重點\n> 高 UPF 暴露與多種慢性病及死亡有一致關聯，最直接的人體試驗證據集中在能量攝取與短期體重。NOVA 類別內部差異大，實務上要把加工方式、營養品質、食物基質與可近性一起看。\n> - 住院 crossover trial 中，UPF 飲食約多攝取 500 kcal/day，兩週增加約 0.9 kg。\n> - EPIC cohort 中，UPF 能量占比每增加 10%，第二型糖尿病風險增加 17%。\n> - 憂鬱 pooled RR 1.23，全因死亡最高暴露約增加 15%，仍以觀察研究為主。\n> - 能量密度、進食速度與營養品質的證據較穩，添加物、食物基質與菌相路徑仍在累積。\n> - 品質判讀請見同 DOI 的「超加工食品與健康結果證據爭議的全文品質評讀」。\n\n## 全文地圖\n\n**要點**：作者把 UPF 問題拆成分類、全球暴露、健康結果、機轉、方法爭議、社會文化、政策與研究方向八個區塊。\n\n1. NOVA 如何定義未加工、烹調原料、加工食品與 UPF。\n2. UPF 在高收入國家占比高，並快速進入亞洲、拉丁美洲與非洲。\n3. 健康結果涵蓋肥胖、糖尿病、心血管、癌症、心理、認知、腎臟、腸道、生殖與死亡。\n4. 可能路徑含過量攝取、營養組成、食物基質、添加物、包材化學物與腸道菌相。\n5. 爭議核心是 NOVA 異質性、誤分類、殘餘混雜與「加工本身」能否和營養品質分開。\n6. 政策需兼顧價格、便利性、營養強化、食物安全、文化與備餐負擔。\n\n## 各主題重點\n\n**要點**：觀察資料廣且方向多數一致，短期控制試驗補上部分因果線索，各疾病與 UPF 子類仍需分開判讀。\n\n### 全球暴露與 NOVA\n\n- 美國與英國平均超過一半飲食能量來自 UPF，部分年輕或社經弱勢群體可達 80%。\n- 義大利、葡萄牙約 10% 至 25%，英國與德國約 40% 或更高，呈現歐洲南北差異。\n- NOVA 的重點是加工的程度、目的與工業配方，不等同「所有加工都不好」。\n- 常見問題是飲食問卷沒有品牌、配方與加工細節，混合菜餚和同類產品容易分錯。\n\n### 體重、糖尿病與心血管\n\n| 證據 | 數值 | 讀法 |\n|---|---:|---|\n| Hall 住院 crossover RCT | 約 +500 kcal/day，兩週 +0.9 kg | 直接支持 UPF 飲食促進過量攝取與短期增重 |\n| UPDATE 8 週 crossover RCT | 最低加工飲食的體重、BMI、脂肪量及內臟脂肪下降較多 | 自由生活情境有體組成差異，生化指標並非一致改善 |\n| EPIC cohort | UPF 能量占比每 +10%，T2D 風險 +17% | 具劑量關聯，仍可能受混雜影響 |\n| T2D meta-analysis | 每 +10% UPF，風險 +13% | 多 cohort 同方向 |\n| CVD mortality | 最高 UPF 暴露可高約 50% | 證據統合訊號強，個別 UPF 子群差異大 |\n\n- 心血管關聯較常見於含糖或人工甜味飲料、加工肉品等子群。\n- 部分營養品質較佳的包裝全穀、乳品或植物性產品可能呈中性或較有利關聯，這是分類爭論的核心。\n\n### 癌症\n\n- 整體癌症結論不一致，需按癌別看。\n- 較常見訊號包括結腸癌、非賁門胃癌、部分頭頸癌與食道腺癌。\n- 肝癌、胰臟癌、直腸癌等並未穩定呈現關聯。\n- 癌症潛伏期長，UPF 測量誤差、肥胖中介、飲酒、吸菸與整體飲食都會干擾判讀。\n\n### 心理、認知與神經發展\n\n- 憂鬱 pooled RR 1.23，95% CI 1.08 至 1.39。\n- 焦慮 OR 1.48，常見精神疾患 OR 1.53，是 umbrella review 中較強的關聯。\n- SMILES trial 次分析顯示 UPF 占比每減少 10%，MADRS 多改善 2.5 分。這是次分析，仍需專門試驗確認。\n- 失智與認知下降有 cohort 訊號，反向因果很重要。早期認知變化也可能先改變飲食。\n\n### 死亡、腎臟、腸道與生殖\n\n- 18 個 cohort、超過 110 萬人之 meta-analysis 顯示，最高 UPF 暴露的全因死亡風險約增加 15%。\n- 一項分析估計 UPF 每增加 10%，死亡風險增加約 10%，另一項為 3%，反映方法差異。\n- Crohn disease、慢性腎臟病與腎功能下降有 dose-response 訊號。\n- 三週 2×2 crossover feeding trial 顯示 UPF 可能影響體重、血脂、內分泌與精子品質，屬早期生殖健康證據。\n\n## 機轉白話講解\n\n**要點**：最容易理解的主線是「吃得快、吃得多、原型食物被擠掉」，其他化學與菌相路徑可視為待驗證的加成因素。\n\n1. **進食速度與飽足延遲**：柔軟、低黏度、容易吞嚥的食物縮短口腔感覺時間，能量已進入體內，飽足訊號才逐漸跟上。\n2. **能量密度與適口性**：糖、脂肪、鹽與香氣組合會提高獎賞感，讓人較容易持續吃。蛋白質強化可降低部分攝取量，仍未完全消除過量攝取。\n3. **食物基質**：完整穀粒、豆類或堅果像有結構的包裝，消化需逐層拆解。重組配方較像先拆開再混合，營養釋放與吸收速度可能加快。\n4. **置換效應**：UPF 吃得越多，蔬果、全穀、豆類與其他高纖原型食物往往越少，保護性營養成分同步下降。\n5. **添加物與包材**：乳化劑、甜味劑、雙酚及鄰苯二甲酸酯有生物合理性，人體臨床終點的直接證據仍有限。\n6. **腸道菌相**：低發酵纖維與部分添加物可能影響短鏈脂肪酸、黏膜屏障與低度發炎。人體研究受飲食背景和個體菌相差異限制。\n\n## 臨床意義與怎麼用\n\n**要點**：將 UPF 當作快速篩檢線索，再回到產品營養、份量、進食情境與個人營養風險做決策。\n\n- 24 小時飲食回憶時，先找最常出現的含糖飲料、加工肉品、甜點、高鈉零食、即食麵與高度精製餐點。\n- 以「頻率 × 份量 × 取代了什麼」排序。每天喝兩杯含糖飲料，通常比偶爾吃一份包裝全穀麵包更值得優先處理。\n- 替換方向可用原型蛋白質、全穀、蔬果、豆類、堅果與較少加工的方便選項。\n- 高齡、腎病、癌症治療、吞嚥困難、食慾差或食物不安全者，要防止減少便利品後出現熱量、蛋白質與微量營養素缺口。\n- 營養強化穀片、醫療營養品或能提高食物可近性的加工品，需按用途與整體配方判讀。\n- 教學訊息可聚焦「多選原型、先換掉最差的幾項」，比要求一次排除所有包裝食品更可行。\n\n## 重要圖表重述\n\n**要點**：兩張表與兩張圖把分類、方法限制、機轉與未來研究串成一張知識地圖。\n\n- Table 1：用四組 NOVA 說明未加工食物、烹調原料、加工食品與 UPF 的差別。\n- Table 2：列出 UPF 研究的主要限制，包括類別異質、資料不足造成誤分類、觀察研究混雜、暴露工具不合適、選擇性發表與缺乏長期試驗。\n- Figure 1：將能量平衡、營養品質、進食行為、食物基質、添加物與菌相畫成互相連接的可能路徑，並提醒各路徑證據強度不同。\n- Figure 2：把目前支持、爭議與研究優先項目放在同一張摘要圖，重點是從描述性關聯走向控制飲食、真實世界替換與機轉研究。\n\n## 與既有認知的對照\n\n**要點**：本篇更新的重點是，UPF 風險不能只歸因於糖鹽脂肪，也不能脫離營養品質直接歸因於加工。\n\n- 舊的簡化訊息：UPF 等於不健康食品。\n- 本篇修正：UPF 是高度異質的食品與食物系統指標，風險來自營養組成、過量攝取、食物基質、置換與商業環境的組合。\n- 舊的簡化訊息：只要調整總熱量與營養素，加工層級就沒有差別。\n- 本篇修正：短期控制試驗顯示，在營養組成接近時，進食速度、型態與基質仍可能影響攝取量與體重。\n- 專案內沒有設定獨立 vault 目錄。搜尋到的相關資料多為來源全文與本次品質評讀，沒有可直接連結的既有知識筆記。\n\n## 概念與名詞整理\n\n**要點**：理解 NOVA、counterfactual、food matrix、residual confounding 與 displacement effect，才能正確讀 UPF 研究。\n\n- **NOVA**：按加工目的與程度分四類的食品分類框架，重點包含工業配方、添加物與原始食物結構。\n- **Counterfactual comparison**：理想比較要問，同類食物若改成較少加工版本會怎樣，例如水果風味優格飲與原味優格加水果。\n- **Food matrix**：營養素在食物內的物理結構，會影響咀嚼、胃排空、吸收與飽足。\n- **Residual confounding**：模型調整後仍可能留下未量測或量不準的混雜因素。\n- **Displacement effect**：一類食物增加時，另一類食物被擠掉。UPF 風險部分可能來自蔬果、全穀與豆類減少。\n- **Dose-response**：暴露越高，風險呈梯度增加。它能加強因果線索，仍不能單獨證明因果。\n\n## 自我測驗\n\n**要點**：用五題檢查是否能把證據層級、機轉與臨床應用連起來。\n\n> [!question]- Q1：為什麼 UPF 與疾病的穩定 cohort 關聯仍不能直接當成因果？\n> 因為高 UPF 攝取也和社經條件、活動、吸菸、整體飲食品質與照護資源相關。飲食問卷的 NOVA 誤分類及反向因果也可能改變估計。\n\n> [!question]- Q2：這篇最直接的人體試驗數值是什麼？\n> Hall crossover trial 中，UPF 飲食約多攝取 500 kcal/day，參與者在兩週增加約 0.9 kg。它直接支持短期過量攝取與增重，無法直接證明長期癌症或死亡因果。\n\n> [!question]- Q3：看到標示 UPF 的營養強化產品時，為什麼不能只靠分類下結論？\n> UPF 內部異質性大。要看蛋白質、纖維、鈉、添加糖、脂肪品質、用途、份量及它取代的食物。高營養風險者也可能需要便利或醫療營養產品。\n\n> [!question]- Q4：哪些機轉證據較穩，哪些仍偏早期？\n> 能量密度、進食速度、過量攝取與營養品質的證據較穩。添加物混合效應、包材化學物、食物基質與腸道菌相的人體臨床終點證據仍在累積。\n\n> [!question]- Q5：營養師要怎麼把 UPF 概念轉成可執行的飲食調整？\n> 先用頻率、份量與置換效應找出最值得改的品項，再以較少加工且可負擔的食物替換。高齡、疾病治療或食物不安全者需同步保護能量、蛋白質與微量營養素攝取。\n\n## Reference\n\n**要點**：全文來源為官方 PMC 的 CC BY 完整 HTML，內容整理只依本文正文與其表圖、參考文獻。\n\n- Dinu M, Lotti S, Asoudeh F, et al. EXCLI Journal. 2026;25:1037-1069.\n- DOI：https://doi.org/10.17179/excli2026-9423\n- PubMed：https://pubmed.ncbi.nlm.nih.gov/42517082/\n- PubMed Central：https://pmc.ncbi.nlm.nih.gov/articles/PMC13402793/",
+      "cards": [
+        {
+          "title": "UPF 關聯與因果",
+          "question": "為什麼多個 cohort 都看到 UPF 與慢性病關聯，仍不能直接證明因果？",
+          "answer": "高 UPF 攝取同時和社經條件、生活型態、整體飲食品質及測量誤差相關。殘餘混雜、暴露誤分類與反向因果都可能影響估計。",
+          "tags": [
+            "UPF",
+            "causality",
+            "nutrition epidemiology"
+          ]
+        },
+        {
+          "title": "短期試驗核心數字",
+          "question": "Hall 的 crossover feeding trial 提供哪個最關鍵的直接證據？",
+          "answer": "UPF 飲食約多攝取 500 kcal/day，參與者在兩週增加約 0.9 kg。這支持短期過量攝取與增重，不能直接外推長期疾病。",
+          "tags": [
+            "UPF",
+            "energy intake",
+            "RCT"
+          ]
+        },
+        {
+          "title": "UPF 異質性",
+          "question": "為什麼營養師不能把所有 UPF 視為同一種風險？",
+          "answer": "含糖飲料、加工肉品、高鈉零食與強化營養穀片、包裝全穀或醫療營養品的營養組成和用途不同，需同看產品配方、份量與置換效應。",
+          "tags": [
+            "NOVA",
+            "food quality",
+            "clinical nutrition"
+          ]
+        },
+        {
+          "title": "機轉證據分層",
+          "question": "UPF 的哪些可能機轉證據較穩，哪些仍在累積？",
+          "answer": "能量密度、進食速度、過量攝取與營養品質較有人體支持。添加物混合效應、包材化學物、食物基質與菌相的人體臨床終點證據較早期。",
+          "tags": [
+            "food matrix",
+            "microbiome",
+            "mechanism"
+          ]
+        },
+        {
+          "title": "UPF 臨床替換",
+          "question": "如何把 UPF 概念轉成不傷害高營養風險者的飲食調整？",
+          "answer": "依頻率、份量和置換效應找優先品項，改用可負擔的少加工選項，同步監測能量、蛋白質、纖維與微量營養素，保留必要的便利或醫療營養產品。",
+          "tags": [
+            "dietary counseling",
+            "older adults",
+            "malnutrition prevention"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-09T11:15:59.941Z"
+    },
+    {
+      "id": "doi:10.17179/excli2026-9423:review",
+      "paperId": "doi:10.17179/excli2026-9423",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Ultra-processed food exposure and health outcomes: Current evidence, controversies, and future perspectives.",
+      "authors": "Dinu M, Lotti S, Asoudeh F, Zhang D, Colombini B, Gauci S, Martini D, Marx W",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.17179/excli2026-9423",
+      "abstract": "Ultra-processed food (UPF) exposure has increased markedly worldwide and is now a major contributor to total energy intake in many countries. Evidence from large prospective cohort studies suggests that higher UPF exposure is associated with adverse health outcomes, including overweight and obesity, type 2 diabetes, cardiovascular disease, selected cancers, depression, and increased all-cause mortality. Short-term experimental studies further indicate that diets rich in UPFs can promote excess energy intake and weight gain, supporting biological plausibility. Several mechanisms have been proposed, including poor nutrient quality, high glycemic load, altered food structure and satiety signaling, exposure to additives and contaminants, gut microbiome perturbations, and displacement of minimally processed foods. Nevertheless, the field remains debated. Major controversies concern the Nova classification system, substantial heterogeneity within the UPF category, challenges in reproducible classification, and the extent to which observed associations reflect processing itself rather than nutrient profile, dietary patterns, or broader food environments. These issues hinder causal inference and sustain ongoing debate over whether UPFs act as independent etiological factors or function as markers of unhealthy diets. Policy responses vary internationally, ranging from explicit inclusion of UPFs in dietary guidelines to predominantly nutrient-based or hybrid frameworks. This narrative review summarizes current evidence linking UPF exposure to health outcomes, critically examines methodological and conceptual limitations, and discusses implications for future research and public health policy. See also the graphical abstract(Fig. 1).",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42517082/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "design:guideline",
+        "guideline and consensus",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "obesity and metabolism",
+        "precision nutrition"
+      ],
+      "noteTitle": "超加工食品與健康結果證據爭議的全文品質評讀",
+      "content": "# 超加工食品與健康結果證據爭議的全文品質評讀\n\n> 全文已核對：官方 PubMed Central HTML，PMCID PMC13402793，正文與參考文獻共 128,618 個可讀字元。題名、DOI 10.17179/excli2026-9423、作者、期刊與 PMID 42517082 均吻合。NCBI OA 紀錄標示 CC BY 且 retracted=no。OpenAlex 先前下載的印度膳食指引與本文無關，未納入評讀。\n\n## 品質快照\n\n- 文章類型：敘述性回顧，涵蓋流行病學、短期控制試驗、可能機轉、NOVA 分類爭議與各國政策。\n- 期刊：EXCLI Journal，全文由 PubMed Central 保存，DOI 可解析至期刊文章頁。\n- 主要判斷：高 UPF 暴露與多種不良健康結果有一致的觀察性關聯。較可靠的短期試驗訊號集中在能量攝取、體重與脂肪量，長期疾病因果仍有混雜、暴露誤分類及選文偏差。\n- SANRA：10/12。研究理由、目標、關鍵敘述引用、科學推理與數值呈現清楚，搜尋及納入流程未交代。\n- GRADE：長期慢性病與死亡風險為 Very low。短期能量攝取與體重變化為 Moderate。\n- 一句話判讀：臨床可優先減少營養品質差、易過量攝取的 UPF，仍需看產品類型、營養組成、可近性與整體飲食，不能把 NOVA 類別當成單一因果診斷。\n\n## 白話導讀\n\n- 這篇整理了 UPF 與肥胖、第二型糖尿病、心血管疾病、部分癌症、憂鬱、認知、腎臟病與死亡風險的研究。\n- 觀察研究常見同方向關聯，代表 UPF 暴露是一個實用的飲食風險訊號。這些人也可能同時有低社經資源、較差飲食品質、較少活動或其他生活型態差異，因果解讀要保守。\n- 控制飲食試驗較能支持「UPF 飲食會讓人吃得較快、攝取更多能量、短期增加體重」這條路徑。對長期心血管事件、癌症、失智或死亡的直接試驗證據仍缺。\n- UPF 是異質群組。含糖飲料、加工肉品與高鈉零食的健康意涵，和強化營養穀片、包裝全穀麵包或含添加物優格並不相同。\n- 實務上可先處理高能量密度、低纖維、高糖、高鈉、易快速進食及取代原型食物的品項，同時保留文化、價格、備餐時間與食物安全條件。\n\n## 證據與主要數值\n\n| 證據層 | 本文整理的代表數值 | 可支持的解讀 |\n|---|---:|---|\n| 住院 crossover RCT | UPF 階段約多攝取 500 kcal/day，兩週增加約 0.9 kg | 對短期能量攝取與體重有直接試驗支持 |\n| UPDATE crossover RCT | 兩種飲食各 8 週，最低加工飲食的體重、BMI、脂肪量與內臟脂肪下降較多 | 自由生活情境仍有體組成訊號，生化指標差異較混合 |\n| EPIC cohort | UPF 能量占比每增加 10%，第二型糖尿病風險增加 17% | 具劑量關聯，仍屬觀察性 |\n| 糖尿病 meta-analysis | UPF 每增加 10%，糖尿病風險增加 13% | 支持一致關聯，無法排除殘餘混雜 |\n| 憂鬱 meta-analysis | RR 1.23，95% CI 1.08 至 1.39 | 憂鬱是較一致的心理健康訊號 |\n| 焦慮與常見精神疾患 umbrella review | 焦慮 OR 1.48，常見精神疾患 OR 1.53 | 關聯較強，研究多為觀察性 |\n| 全因死亡 meta-analysis | 最高暴露約增加 15%，每增加 10% UPF 約增加 10% | 大樣本有劑量訊號，另一分析的每 10% 增幅僅 3% |\n| 癌症 | 結腸、非賁門胃癌、部分頭頸癌等有訊號，其他癌別不一致 | 不宜把各癌別合成單一結論 |\n\n## 可能機轉\n\n| 路徑 | 證據判讀 |\n|---|---|\n| 能量密度、進食速度、適口性與飽足訊號 | 人體控制試驗支持度最高，可解釋過量攝取與體重增加 |\n| 高糖、高鈉、不利脂肪、低纖維與原型食物置換 | 與既有營養風險模型一致，臨床可操作性高 |\n| 食物基質破壞與快速消化吸收 | 生理合理，人體直接因果證據仍在累積 |\n| 乳化劑、甜味劑、包材化學物與混合暴露 | 細胞、動物與部分 cohort 有訊號，尚缺臨床終點因果證據 |\n| 腸道菌相與屏障功能 | 動物證據較多，少量人體介入提供早期支持，個體差異與方法限制大 |\n\n## SANRA 與選文偏差檢查\n\n| 領域 | 分數 | 理由 |\n|---|---:|---|\n| 回顧理由 | 2/2 | UPF 暴露快速增加，健康與政策爭議清楚 |\n| 目標陳述 | 2/2 | 說明要整理健康結果、方法爭議與政策方向 |\n| 文獻搜尋描述 | 0/2 | 沒有資料庫、搜尋式、日期、篩選標準或流程圖 |\n| 關鍵敘述引用 | 2/2 | 主要數值與爭議多有對應來源，共 170 筆參考文獻 |\n| 科學推理 | 2/2 | 分開 association、短期試驗與機轉，主動指出因果限制 |\n| 相關數據呈現 | 2/2 | 提供代表性效應值、試驗條件與相反結果 |\n\nCherry-picking 檢查：作者有納入 NOVA 反方論點、暴露誤分類、E-value 混雜分析、癌別不一致、健康型 UPF、食物安全與營養強化等資料。缺少可重現的搜尋流程，仍無法排除遺漏研究或選擇性取材。\n\n## GRADE\n\n### 長期慢性病與死亡風險：Very low\n\n- 起始層級：Low，證據以 cohort 與觀察性證據統合為主。\n- Risk of bias：Serious。社經、生活型態與整體飲食品質殘餘混雜，常用飲食工具也非為 NOVA 設計。\n- Inconsistency：Serious。結果依疾病、癌別、UPF 子群、暴露單位與研究地區而異。\n- Indirectness：Not serious。研究直接觀察人類 UPF 暴露與長期健康結果。\n- Imprecision：Not serious。多項大型 cohort 與 meta-analysis 的估計精度尚可。\n- Publication bias：Serious。本文沒有預先搜尋流程，且作者承認有害結果較容易獲得注意。\n- Dose response 因已有降級，依 GRADE 規則不再升級。\n\n### 短期能量攝取與體重變化：Moderate\n\n- 起始層級：High，以隨機 crossover feeding trials 為核心。\n- Risk of bias、inconsistency、indirectness、publication bias：未見足以降級的明確訊號。\n- Imprecision：Serious。試驗數量少、樣本較小、追蹤多為數週。\n\n## 統計與推論檢查\n\n- 作者的結論使用「associated」並保留異質性與機轉不確定性，沒有把 cohort 關聯寫成已證實因果。\n- Argdown 固定規則檢查為 clean，三類前提分別標記為 association、direct RCT 與 mechanistic evidence，未出現 association-to-causation 跳躍。\n- 15% 全因死亡增加與每 10% 暴露增加 3% 至 10% 的差異，顯示暴露定義、模型與研究組成會影響效應值。\n- 短期體重與能量攝取不能直接外推成癌症、失智或死亡風險下降。\n- 本文不是預先註冊的 systematic review，不能把 170 筆引用數量當成搜尋完整度。\n\n## Reference Verification\n\n| # | 本文引用 | 用來支持的敘述 | Crossref 核對 | 判定 |\n|---|---|---|---|---|\n| 1 | Lane et al., 2024，DOI 10.1136/bmj-2023-077310 | 多種不良健康結果的 umbrella review | 題名與類型均吻合 | 支持 |\n| 2 | Hall et al., 2019，DOI 10.1016/j.cmet.2019.05.008 | UPF 飲食增加自由攝取能量與體重 | 題名與 RCT 類型吻合 | 支持 |\n| 3 | Dicken et al., 2025，DOI 10.1038/s41591-025-03842-0 | 最低加工與 UPF 健康飲食的 8 週 crossover trial | 題名與 trial 類型吻合 | 支持 |\n\n目標 DOI 在 Crossref 查無紀錄，但 doi.org 可正常解析至 EXCLI 文章頁，PMC 與 PubMed 的題名、作者、日期及 PMID 彼此吻合。\n\n## 期刊、作者與時間線\n\n- EXCLI Journal 文章日期為 2026-07-09，卷 25，頁 1037 至 1069。\n- PubMed Central 提供完整 HTML 與 CC BY 授權紀錄，這是本次全文評讀的權威來源。\n- 作者團隊來自 University of Florence、Deakin University Food & Mood Centre 與 University of Milan Human Nutrition。\n- 文章發表時間很近，現階段不使用不穩定的引用次數判定影響力。\n- NCBI OA API 標示 retracted=no。本次沒有看到更正或撤稿標示。\n\n## Funding、COI 與 AI 使用\n\n- 作者聲明本文沒有特定研究經費，部分作者另受 NHMRC Synergy Grant SOLVE CHD 支持。\n- 作者聲明沒有利益衝突。\n- 作者揭露使用 ChatGPT-5 協助文字編修，並聲明由作者檢查及承擔內容責任。這不取代方法透明度，本文仍因未交代搜尋流程而有選文偏差風險。\n\n## 營養實務怎麼用\n\n- 問診可把含糖飲料、加工肉品、高鈉零食、甜點、即食麵與高度精製餐點列為優先盤點項目。\n- 評估時同時看蛋白質、纖維、鈉、添加糖、脂肪品質、份量、進食速度、價格、備餐能力與原型食物置換。\n- 高齡者、腎臟病、癌症治療或食物不安全族群，需防止單純減少便利食品後造成能量、蛋白質或微量營養素不足。\n- 含營養強化、醫療用途或能改善可近性的加工品要按個別產品判讀，不能只看 NOVA 類別。\n- 對病人可用「多選原型或少加工食物，先換掉最常吃且營養品質差的品項」做漸進調整，避免把所有包裝食品視為同等風險。\n\n## Source\n\n- DOI：https://doi.org/10.17179/excli2026-9423\n- PubMed：https://pubmed.ncbi.nlm.nih.gov/42517082/\n- PubMed Central：https://pmc.ncbi.nlm.nih.gov/articles/PMC13402793/",
+      "cards": [],
+      "completedAt": "2026-08-09T11:12:45.089Z"
+    },
+    {
+      "id": "doi:10.1016/j.jpain.2026.106376:digest",
+      "paperId": "doi:10.1016/j.jpain.2026.106376",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "C-Reactive Protein and Incident Chronic Pain in Older Adults: Comorbidity-Driven Risk Profiles and Implications for Preventive Screening.",
+      "authors": "Rech L, Garnier J, Chin A, Mucci G, Póvoa-Corrêa M, Moll-Bernardes R, Yonekura V, Paula-Garcia W, Fregni F, Pacheco-Barrios K",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.jpain.2026.106376",
+      "abstract": "Systemic inflammatory biomarkers such as C-reactive protein (CRP) and interleukin-6 (IL-6) have been implicated in chronic pain, but their independent predictive role in older adults remains unclear. Using longitudinal data from the Health and Retirement Study (2016-2022), we analysed 1,850 older adults without chronic pain or arthritis at baseline. CRP, IL-6, IL-10, IGF-1, and the composite INFLA-score, a composite index of low-grade systemic inflammation, were assessed as exposures. Incident chronic pain was defined as the first report of pain during follow-up. Population-averaged Poisson regression models with robust standard errors were used, and sensitivity analyses were conducted in a broader cohort including participants with baseline arthritis. After multivariable adjustment, CRP remained independently associated with incident chronic pain (incidence rate ratio [IRR] 1.10, 95% CI 1.01-1.20), although the effect size was modest. Depression (IRR 1.52, 95% CI 1.23-1.88) and body mass index (IRR 1.02 per unit, 95% CI 1.01-1.04) were stronger predictors. IL-6 was not independently associated in the arthritis-free cohort but showed a small effect in the broader cohort, suggesting context-dependent associations. Incorporating CRP into a clinical prediction model yielded minimal improvement in discrimination (ΔAUC +0.009). IGF-1 showed an inverse association with chronic pain risk in participants without arthritis or obesity. Overall, systemic inflammatory biomarkers appear to contribute limited independent predictive value, while comorbidity burden and psychosocial factors dominate risk. PERSPECTIVE: This study shows that commonly used inflammatory biomarkers offer limited incremental value in predicting chronic pain among older adults. Instead, depression and metabolic factors are the dominant risk factors, supporting a shift towards clinically integrated risk stratification rather than biomarker-based screening alone.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42435876/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "design:longitudinal",
+        "human clinical population",
+        "obesity and metabolism",
+        "precision nutrition",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "高齡者 CRP 與新發慢性疼痛風險的全文內容整理",
+      "content": "# 高齡者 CRP 與新發慢性疼痛風險的全文內容整理\n\n> [!summary] 30 秒重點\n> CRP 和中高齡者後續疼痛有很小的獨立關聯，但 depression、BMI 與 arthritis 的訊號更強，CRP 對個人預測幾乎沒有增益。\n> - HRS 2016 至 2022 年縱向資料，主要 cohort 為 1,850 人。\n> - CRP 每增加 1 SD，調整後 incident pain IRR 1.10，95% CI 1.01 至 1.20。\n> - Depression IRR 1.52，arthritis IRR 1.92，均高於 CRP。\n> - 加入 CRP 後 AUC 只從 0.568 增至 0.577，差值 0.009，p = 0.32。\n> - 品質已另做全文評讀，GRADE 為 Very low，臨床上不宜把 CRP 當成單獨篩檢工具。\n\n## 研究問題與背景\n\n**要點**：研究要分辨高齡者的 CRP 訊號，究竟能獨立預測新發疼痛，或主要反映 arthritis、肥胖、depression 與多重共病。\n\n- 老化常伴隨低度慢性發炎，也就是 inflammaging。\n- CRP 與 IL-6 會受肥胖、arthritis、感染、代謝與情緒狀態影響，因此單次濃度缺乏疾病專一性。\n- 作者另加入 INFLA-score、IL-10 與 IGF-1，想比較單一 marker、複合發炎分數與調節性 marker 的表現。\n- 研究同時處理 association 與 prediction。前者問「有沒有關聯」，後者問「能不能分辨未來會發生疼痛的人」。\n\n## 方法\n\n**要點**：先排除基線疼痛，再用 2016 年 biomarker 預測 2018 至 2022 年每波疼痛回報，並用多組敏感度分析檢查 arthritis 與 obesity 的影響。\n\n- 資料來源：Health and Retirement Study，具全美代表性的 biennial cohort。\n- 主要 cohort：1,850 人，平均 64.6 ± 9.0 歲，女性 51.9%，White 73.4%。\n- 排除：基線疼痛、CRP 大於 20 mg/L、基線 arthritis、後續疼痛資料不完整。\n- 暴露：CRP 為主要 marker，IL-6 為次要 marker，另探索 IL-10、IGF-1、INFLA-score。\n- 結果：回答「是否常受疼痛困擾」。基線陰性後首次陽性視為 incident pain。\n- 主要模型：population-averaged Poisson with robust standard errors。\n- 其他模型：mixed-effects Poisson、cumulative modified Poisson、logistic prediction、AUC、calibration。\n- 主要 covariates：age、sex、race、BMI、depression、survey wave。\n\n## 主要發現\n\n**要點**：CRP 的效應小且接近無效值，depression、BMI、arthritis 與時間的關聯較強，加入 CRP 沒有改善實用的預測能力。\n\n| 分析 | 主要數值 | 怎麼讀 |\n|---|---:|---|\n| CRP 未調整 | IRR 1.15，95% CI 1.05 至 1.25 | CRP 較高者後續疼痛較多 |\n| CRP 完整調整 | IRR 1.10，95% CI 1.01 至 1.20 | 效應縮小，接近無效值 |\n| Cumulative incident pain | IRR 1.09，95% CI 1.01 至 1.18 | 方向和 repeated-wave 模型相近 |\n| 全 cohort 再調整 arthritis | IRR 1.03，95% CI 0.99 至 1.08 | CRP 關聯未達統計顯著 |\n| Depression | IRR 1.52，95% CI 1.23 至 1.88 | 強於所有 biomarker |\n| BMI 每增加 1 kg/m² | IRR 1.02，95% CI 1.01 至 1.04 | 小幅穩定關聯 |\n| Arthritis | IRR 1.92，95% CI 1.75 至 2.11 | 全 cohort 中最強訊號之一 |\n| IL-6 主要 cohort | IRR 1.01，95% CI 0.92 至 1.10 | 無獨立關聯 |\n| IGF-1 主要 cohort | IRR 0.94，95% CI 0.86 至 1.02 | 未達統計顯著 |\n| INFLA-score | IRR 1.12，95% CI 0.99 至 1.43 | 無穩定獨立關聯 |\n| AUC 基礎模型 | 0.568 | 鑑別力偏低 |\n| AUC 加 CRP | 0.577，差值 0.009，p = 0.32 | 預測增益很小 |\n\n## 重要圖表重述\n\n**要點**：Table 2 顯示共病調整後 CRP 效應縮小，Table 3 和 ROC 圖則顯示 CRP 無法把低辨識力模型變成可用工具。\n\n- Table 1：主要 cohort 的 median CRP 為 1.89 mg/L，IQR 1.01 至 3.70。Depression 比例 13.4%。\n- Table 2：CRP 從未調整 IRR 1.15 降至調整後 1.10。Depression IRR 1.52，survey wave IRR 1.31。\n- Table 3：AUC 從 0.568 到 0.577。差異檢定 p = 0.32，顯示加入 CRP 沒有可辨識的模型提升。\n- Figure 1：各風險十分位的 calibration 尚可。Calibration 尚可不代表 discrimination 足夠。\n- Figure 2：兩條 ROC curve 幾乎重疊，視覺上也支持 CRP 增益很小。\n- Table 4：IL-6 在主要 cohort 的調整後 IRR 1.01。\n- Table 5：IL-10、IGF-1 與 INFLA-score 在主要 cohort 均未達統計顯著。\n\n## 臨床意義與怎麼用\n\n**要點**：高 CRP 應放回高齡者的關節、代謝、情緒、功能與多重共病脈絡，不適合獨立決定疼痛預防策略。\n\n- 一次 CRP 升高不能指向特定疼痛機轉，也不能分辨誰會發生慢性疼痛。\n- 若高齡者同時有 depression、較高 BMI、arthritis 或功能下降，這些臨床資料的訊號比 CRP 更直接。\n- 可把 CRP 當成共病脈絡的一部分，不能用它取代疼痛史、情緒、活動、睡眠、功能與藥物評估。\n- 這篇只證明觀察性關聯，沒有測試治療 depression、降低 BMI 或調整 CRP 能否預防疼痛。\n- 若建立 risk score，還需要外部驗證、decision-curve analysis 與較完整的疼痛結果定義。\n\n## 與既有認知的對照\n\n**要點**：本篇把「inflammaging 可能參與疼痛」修正成「常用發炎 marker 的獨立臨床預測價值有限」。\n\n- 機轉層：發炎 pathway 仍可能參與 nociception 與 sensitisation。\n- 人群層：CRP 很容易混入 obesity、arthritis、depression 與 multimorbidity 的訊號。\n- 預測層：統計顯著無法保證臨床辨識力，AUC 差值 0.009 是本篇最實用的提醒。\n- 本地 vault 未設定可查詢目錄，沒有相關既有筆記可做逐條連結。品質判讀可搭配同 DOI 的全文品質評讀。\n\n## 概念與名詞整理\n\n**要點**：讀這篇要分清 association、prediction、confounding 與 biomarker increment。\n\n- IRR：每一單位暴露變化所對應的發生率比。IRR 1.10 代表相對增加約 10%，仍要看信賴區間與絕對風險。\n- AUC：隨機抽一位有結果與一位無結果個案時，模型把前者排在較高風險的機率。0.5 接近隨機，0.57 至 0.58 偏低。\n- Calibration：預測機率是否貼近觀察風險。Calibration 好仍可能無法有效區分高低風險。\n- Confounder：同時影響暴露與結果的因素。Arthritis、obesity 與 depression 都可能扭曲 CRP 和疼痛的關聯。\n- Mediator：位於暴露通往結果的路徑。Arthritis 也可能扮演 mediator，直接排除會改變研究問題。\n- Incremental value：新 marker 加進既有模型後，是否帶來足以改變決策的額外資訊。\n\n## 自我測驗\n\n> [!question]- Q1：為什麼 CRP 有統計關聯，仍不能當成單獨篩檢工具？\n> 因為調整後效應只有 IRR 1.10，加入 CRP 後 AUC 只增加 0.009，p = 0.32。Population association 存在，個人辨識力仍不足。\n\n> [!question]- Q2：研究為什麼把 arthritis-free cohort 設為主要分析？\n> Arthritis 同時和 systemic inflammation、CRP 與疼痛密切相關，會造成強混雜。排除後較能看 CRP 的獨立訊號，但臨床外推範圍也會縮小。\n\n> [!question]- Q3：這篇最強的臨床風險訊號是什麼？\n> Depression 的 IRR 為 1.52，arthritis 的 IRR 為 1.92，均高於 CRP 的 1.10。這提醒評估時要重視情緒與共病負擔。\n\n> [!question]- Q4：AUC 0.568 增至 0.577 代表什麼？\n> 模型鑑別力仍偏低，CRP 帶來的差值只有 0.009，且差異檢定 p = 0.32，尚不足以支持臨床導入。\n\n> [!question]- Q5：這篇可以證明處理 depression 或體重會預防慢性疼痛嗎？\n> 不能。資料來自觀察性 cohort，顯示關聯與風險分層線索，沒有直接測試介入效果。\n\n## Reference\n\n**要點**：全文依據為出版社 OA PDF，資料與解讀均以本文主文為限。\n\n- Rech L, Garnier J, Chin A, et al. Journal of Pain. 2026;47:106376.\n- DOI：https://doi.org/10.1016/j.jpain.2026.106376\n- 全文來源：Unpaywall 導向的出版社 PDF，CC BY 4.0，7 頁。",
+      "cards": [
+        {
+          "title": "CRP 的預測限制",
+          "question": "為什麼 CRP 有統計關聯，仍不能當成高齡者慢性疼痛的單獨篩檢工具？",
+          "answer": "調整後 IRR 只有 1.10，95% CI 1.01 至 1.20。加入 CRP 後 AUC 僅從 0.568 變成 0.577，差值 0.009，p = 0.32，個人辨識力不足。",
+          "tags": [
+            "CRP",
+            "chronic pain",
+            "prediction"
+          ]
+        },
+        {
+          "title": "Arthritis 與混雜",
+          "question": "研究把 arthritis-free cohort 設為主要分析，得到什麼好處與代價？",
+          "answer": "好處是減少 arthritis 對 CRP 和疼痛的強混雜。代價是臨床外推範圍縮小，也可能移除發炎通往疼痛路徑的一部分。",
+          "tags": [
+            "arthritis",
+            "confounding",
+            "cohort"
+          ]
+        },
+        {
+          "title": "主要風險訊號",
+          "question": "本研究中哪些臨床因子的關聯強於 CRP？",
+          "answer": "Depression IRR 1.52，arthritis IRR 1.92。BMI 每增加 1 kg/m² 的 IRR 為 1.02。CRP 每 1 SD 的 IRR 為 1.10。",
+          "tags": [
+            "depression",
+            "BMI",
+            "arthritis"
+          ]
+        },
+        {
+          "title": "AUC 判讀",
+          "question": "AUC 從 0.568 增至 0.577 時，臨床上應怎麼讀？",
+          "answer": "兩個模型鑑別力都偏低，增幅只有 0.009，p = 0.32。Calibration 尚可也不能補足 discrimination 不足。",
+          "tags": [
+            "AUC",
+            "discrimination",
+            "calibration"
+          ]
+        },
+        {
+          "title": "關聯與介入",
+          "question": "這篇能否證明治療 depression 或降低 BMI 可預防慢性疼痛？",
+          "answer": "不能。研究是觀察性縱向 cohort，只提供關聯與預測線索。預防效果需要前瞻介入研究。",
+          "tags": [
+            "causality",
+            "prevention",
+            "observational study"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-09T10:43:05.799Z"
+    },
+    {
+      "id": "doi:10.1016/j.jpain.2026.106376:review",
+      "paperId": "doi:10.1016/j.jpain.2026.106376",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "C-Reactive Protein and Incident Chronic Pain in Older Adults: Comorbidity-Driven Risk Profiles and Implications for Preventive Screening.",
+      "authors": "Rech L, Garnier J, Chin A, Mucci G, Póvoa-Corrêa M, Moll-Bernardes R, Yonekura V, Paula-Garcia W, Fregni F, Pacheco-Barrios K",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.jpain.2026.106376",
+      "abstract": "Systemic inflammatory biomarkers such as C-reactive protein (CRP) and interleukin-6 (IL-6) have been implicated in chronic pain, but their independent predictive role in older adults remains unclear. Using longitudinal data from the Health and Retirement Study (2016-2022), we analysed 1,850 older adults without chronic pain or arthritis at baseline. CRP, IL-6, IL-10, IGF-1, and the composite INFLA-score, a composite index of low-grade systemic inflammation, were assessed as exposures. Incident chronic pain was defined as the first report of pain during follow-up. Population-averaged Poisson regression models with robust standard errors were used, and sensitivity analyses were conducted in a broader cohort including participants with baseline arthritis. After multivariable adjustment, CRP remained independently associated with incident chronic pain (incidence rate ratio [IRR] 1.10, 95% CI 1.01-1.20), although the effect size was modest. Depression (IRR 1.52, 95% CI 1.23-1.88) and body mass index (IRR 1.02 per unit, 95% CI 1.01-1.04) were stronger predictors. IL-6 was not independently associated in the arthritis-free cohort but showed a small effect in the broader cohort, suggesting context-dependent associations. Incorporating CRP into a clinical prediction model yielded minimal improvement in discrimination (ΔAUC +0.009). IGF-1 showed an inverse association with chronic pain risk in participants without arthritis or obesity. Overall, systemic inflammatory biomarkers appear to contribute limited independent predictive value, while comorbidity burden and psychosocial factors dominate risk. PERSPECTIVE: This study shows that commonly used inflammatory biomarkers offer limited incremental value in predicting chronic pain among older adults. Instead, depression and metabolic factors are the dominant risk factors, supporting a shift towards clinically integrated risk stratification rather than biomarker-based screening alone.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42435876/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "design:longitudinal",
+        "human clinical population",
+        "obesity and metabolism",
+        "precision nutrition",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "高齡者 CRP 與新發慢性疼痛風險的全文品質評讀",
+      "content": "# 高齡者 CRP 與新發慢性疼痛風險的全文品質評讀\n\n> 全文已核對：Unpaywall 取得的 Journal of Pain 2026 年原始研究 PDF，共 7 頁、43,392 個可讀字元。首頁、題名、DOI、期刊、Methods、Results、Discussion 與 References 均相符。論文為 CC BY 開放取用。\n\n## 品質快照\n\n- 研究設計：Health and Retirement Study 2016 至 2022 年縱向世代次級分析\n- 主要分析樣本：1,850 名基線無疼痛且無 arthritis 的中高齡成人，平均年齡 64.6 ± 9.0 歲，女性 51.9%\n- 主要暴露：2016 年 CRP，另分析 IL-6、IL-10、IGF-1 與 INFLA-score\n- 主要結果：調整後 CRP 每增加 1 SD，後續疼痛 IRR 1.10，95% CI 1.01 至 1.20\n- 偏差風險：中高，主要來自殘餘混雜、complete-case selection、單題自陳疼痛與 arthritis 的複雜角色\n- GRADE：Very low，觀察性證據起始為 Low，再因偏差風險、間接性與不精確性各降一級\n- 一句話判讀：CRP 有很小的統計關聯，個人預測增益近乎沒有，臨床上不適合單獨當成慢性疼痛篩檢工具。\n\n## 白話導讀\n\n- 一句話：在未有疼痛的中高齡成人中，CRP 較高者日後回報疼痛的機率略高，但 depression、BMI 與 arthritis 的訊號更強。\n- 為什麼做：老化相關低度發炎可能參與疼痛形成，CRP 又容易受肥胖、關節炎、情緒與慢性病影響，研究想分辨 CRP 是否帶來獨立資訊。\n- 怎麼做：研究使用 HRS 四個調查波次，先排除基線疼痛、CRP 大於 20 mg/L 與基線 arthritis，採 population-averaged Poisson model，另做 mixed-effects、累積發生、完整 cohort、multiple imputation 與預測模型分析。\n- 找到什麼：CRP 的調整後 IRR 為 1.10。Depression 的 IRR 為 1.52，BMI 每增加 1 kg/m² 的 IRR 為 1.02。把 CRP 加入基礎模型，AUC 從 0.568 變成 0.577，差值 0.009，p = 0.32。\n- 怎麼用：看到高 CRP 時，要連同 arthritis、肥胖、depression 與多重共病解讀。這篇支持整合式風險評估，尚未證明篩檢或治療 depression、體重就能預防疼痛。\n\n## 研究方法\n\n- 資料來源：美國具代表性的 HRS，2016 年採血，追蹤至 2022 年。\n- 納入條件：基線沒有回報疼痛，後續有疼痛資料。主要 cohort 另排除 arthritis。\n- 結果定義：每波回答「是否常受疼痛困擾」，基線陰性後第一次陽性視為 incident pain。這個定義沒有確認 IASP 所需疼痛持續時間。\n- 主要調整：age、sex、race、BMI、depression、survey wave。\n- 統計：robust Poisson、mixed-effects Poisson、modified Poisson、logistic prediction、AUC 與 calibration。\n- 敏感度分析：納入 arthritis、排除 depression、CRP 不同門檻、BMI multiple imputation、無 obesity subgroup。\n\n## 主要發現\n\n| 結果 | 估計值 | 解讀 |\n|---|---:|---|\n| CRP 每 1 SD，未調整 | IRR 1.15，95% CI 1.05 至 1.25 | 關聯小 |\n| CRP 每 1 SD，完整調整 | IRR 1.10，95% CI 1.01 至 1.20 | 接近無效值，臨床幅度有限 |\n| 累積 incident pain | IRR 1.09，95% CI 1.01 至 1.18 | 與主要模型方向相近 |\n| 全 cohort 再調整 arthritis | IRR 1.03，95% CI 0.99 至 1.08 | 未達統計顯著 |\n| Depression | IRR 1.52，95% CI 1.23 至 1.88 | 關聯強於 CRP |\n| BMI 每增加 1 kg/m² | IRR 1.02，95% CI 1.01 至 1.04 | 幅度小但方向穩定 |\n| Arthritis | IRR 1.92，95% CI 1.75 至 2.11 | 全 cohort 的強關聯因子 |\n| IL-6，主要 cohort | IRR 1.01，95% CI 0.92 至 1.10 | 無獨立關聯 |\n| 基礎模型 AUC | 0.568 | 鑑別力偏低 |\n| 加入 CRP 後 AUC | 0.577，差值 0.009，p = 0.32 | 沒有實質預測增益 |\n\n## 偏差風險與因果判讀\n\n| 領域 | 判定 | 依據 |\n|---|---|---|\n| 時間順序 | 較低風險 | 2016 年先測 biomarker，並排除基線疼痛 |\n| 暴露測量 | 較低風險 | 靜脈血 biomarker，CRP 右偏後轉換並標準化 |\n| 結果測量 | 高風險 | 單一自陳問題，未量疼痛部位、強度、功能影響與持續時間 |\n| 混雜 | 中高風險 | 有調整基本人口學、BMI、depression，缺少生活型態、社經、用藥與其他多重共病 |\n| 選擇與缺失 | 中度風險 | 主要模型排除 arthritis 與 CRP 大於 20 mg/L，採 complete-case，樣本可能偏向較健康者 |\n| Arthritis 角色 | 需審慎 | Arthritis 可能是 confounder，也可能位於發炎到疼痛的路徑。直接排除會改變目標族群與估計意義 |\n| 報告偏差 | 資訊不足 | 主文沒有提供預先註冊分析計畫，探索性 biomarker 與 subgroup 較多 |\n| 外推性 | 受限 | 主要 cohort 刻意排除 arthritis，對臨床常見的多重共病高齡者外推有限 |\n\n## 統計與推論檢查\n\n- CRP 的 95% CI 下限為 1.01，效應很接近無效值。部分限制分析失去顯著性，結果對 cohort 定義與共病調整敏感。\n- AUC 0.568 到 0.577 的變化為 0.009，且 p = 0.32。即使 population-level 關聯存在，個人層級的辨識能力仍偏低。\n- 此處沒有可直接套用的 MCID。臨床價值應看 risk discrimination、calibration、decision curve 與外部驗證，本研究缺少外部驗證與 decision-curve analysis。\n- Argdown deterministic lint 判定有 association-to-causation gap。Depression 與 BMI 的觀察性關聯，無法直接證明介入這些因子會降低未來疼痛。\n- 作者將 CRP 定位為有限增量資訊，這個描述和 AUC 結果相符。文中提出用 clinical profile 做預防評估，仍屬待驗證的臨床假說。\n\n## GRADE 計算\n\n| 領域 | 評級 | 理由 |\n|---|---|---|\n| Risk of bias | Serious | 次級觀察分析、complete-case、未納入多項生活型態與用藥混雜 |\n| Inconsistency | Not serious | 同一 cohort 的多個模型方向相近，無獨立 cohort 可檢驗一致性 |\n| Indirectness | Serious | 結果是自陳「常受疼痛困擾」，未符合正式 chronic pain duration 判定 |\n| Imprecision | Serious | IRR 1.10，95% CI 1.01 至 1.20，接近無效值且部分分析不顯著 |\n| Publication bias | Not serious | 沒有看到特定訊號，單篇次級分析仍無法排除 |\n\ngrade_judge.py 的權威輸出為 Very low。\n\n## 關鍵引用核對\n\n| 引用 | Crossref 存在檢查 | 本文用途 | 核對結果 |\n|---|---|---|---|\n| Collyer et al., 2026, DOI 10.1016/j.jpain.2026.106297 | 存在，題名相符 | 支持 CRP 與慢性肌肉骨骼疼痛研究結果不一致 | 題名直接報告 CRP 與疼痛發展無關，引用方向合理 |\n| Tanguay-Sabourin et al., 2023, DOI 10.1038/s41591-023-02430-4 | 存在，題名相符 | 支持多因子預後風險分數 | 題名與本文所述風險分層用途相符 |\n| Dansie and Turk, 2013, DOI 10.1093/bja/aet124 | 存在，題名相符 | 支持更完整的疼痛評估 | 引用用途合理，本文單題結果仍較粗略 |\n\nCrossref 存在檢查只能確認 DOI 與題名，不能代替逐篇全文語意核對。這三筆的題名與本文所引用的方向一致。\n\n## 優點\n\n- 前瞻時間順序清楚，基線先排除疼痛。\n- 使用全國性大型 cohort，並比較 repeated-wave、mixed-effects 與 cumulative-incidence estimand。\n- 有檢查 arthritis、depression、obesity、CRP 門檻與 missing BMI。\n- 同時報告 association 與 prediction，避免只用 p 值主張臨床效用。\n- 無特定研究經費，作者申報無利益衝突。\n\n## 臨床應用\n\n- 不建議用單次 CRP 作高齡者未來慢性疼痛的單獨篩檢。\n- 高 CRP 應和 arthritis、肥胖、depression、功能狀態、藥物與多重共病一起判讀。\n- Depression 與 BMI 的關聯較強，可列入既有健康評估，但這篇無法證明處理它們會預防疼痛。\n- 若要建立臨床風險工具，需要外部 cohort 驗證、較完整疼痛定義、缺失資料策略、decision-curve analysis 與介入研究。\n\n## 出版與來源\n\n- Journal of Pain 47 (2026) 106376\n- 收件：2026-04-14，修訂：2026-06-12，接受：2026-07-09，上線：2026-07-11\n- DOI：https://doi.org/10.1016/j.jpain.2026.106376\n- 全文來源：Unpaywall 導向的出版社 OA PDF，CC BY 4.0\n- Funding：沒有特定研究經費\n- Conflict of Interest：作者申報無衝突",
+      "cards": [],
+      "completedAt": "2026-08-09T10:39:20.459Z"
+    },
     {
       "id": "doi:10.1016/j.ajcnut.2026.101304:digest",
       "paperId": "doi:10.1016/j.ajcnut.2026.101304",
