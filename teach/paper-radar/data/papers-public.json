@@ -1,7 +1,369 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T03:08:10.794Z",
+  "generatedAt": "2026-08-09T04:57:12.378Z",
   "papers": [
+    {
+      "id": "doi:10.1016/j.ajcnut.2026.101304:digest",
+      "paperId": "doi:10.1016/j.ajcnut.2026.101304",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Dietary intakes of anthocyanins and cardiometabolic health: a systematic review and meta-analysis of randomized trials and prospective cohort studies in healthy participants.",
+      "authors": "Avendano E, Ellingson H, Digga E, Velasco Nieves A, Chen L, Wu M, Setty S, Morley S, Curtis P, Nirmala N, Cassidy A",
+      "journal": "Other nutrition journals (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.ajcnut.2026.101304",
+      "abstract": "Meta-analyses support anthocyanins' cardiometabolic benefits in heterogeneous populations (including diseased), but efficacy in healthy participants remains unknown. Across prospective cohorts, and randomized controlled trials (RCTs; ≥50 mg/d anthocyanins), we assessed impacts on surrogate cardiometabolic biomarkers and clinical endpoints. Database searches (PubMed, Cochrane Central, Commonwealth Agricultural Bureau, and Web of Science) identified publications (1946-September 2024) that reported anthocyanin intake (or data, from which anthocyanin intake could be calculated), and cardiovascular disease (CVD) risk or cardiometabolic biomarkers. Random-effects meta-analysis and the Grades of Recommendation, Assessment, Development, and Evaluation (GRADE) assessment followed. Across 18 cohorts in 27 publications, highest compared with lowest habitual anthocyanin intake showed a risk reduction of 26% CVD incidence (4 studies), 18% myocardial infarction (MI, 5 studies), 11% type 2 diabetes mellitus (T2DM, 8 studies), 9% CVD mortality (10 studies), and 8% hypertension risk (6 studies). GRADE identified moderate evidence for CVD/MI. Stroke risk was unaffected. Across 65 RCTs, chronic anthocyanins (≥1 d) improved flow-mediated dilation (FMD) (net change: 1.41%; 95% confidence interval: 0.90%, 1.91%), acute anthocyanins (≤1 d) improved FMD (1.50%; 1.16%, 1.84%), and insulin concentrations (-2.24 pmol/L; -4.22, -0.27). GRADE identified strong evidence for acute FMD and moderate for chronic FMD. Lipids, blood pressure, glucose, and homeostatic model assessment for insulin resistance were unaffected. In the subanalysis, by anthocyanin type, cyanidin improved chronic FMD (1.62%; 1.21%, 2.04%), whereas delphinidin improved acute FMD (1.69%; 1.20%, 2.18%), chronic FMD (1.59%; 1.21%, 2.04%), chronic pulse wave velocity (-0.33; -0.62, -0.05), insulin (-2.32 pmol/L; -4.39, -0.26), and triglycerides (-0.10 mmol/L; -0.17, -0.03). Higher anthocyanin intake lowers CVD, MI, hypertension, and T2DM risk in cohorts, whereas RCTs show that dietarily achievable anthocyanin intakes (as low as 50 mg/d) improve atherosclerosis and metabolic syndrome biomarkers in healthy participants. These findings provide comprehensive unifying evidence that supports the inclusion of anthocyanins within evidence-based nutrition guidelines for CVD prevention. This review was registered at PROSPERO database as CRD420251015416.",
+      "legalFullTextUrl": "https://doi.org/10.1016/j.ajcnut.2026.101304",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42547104/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "design:randomized controlled",
+        "guideline and consensus",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "obesity and metabolism",
+        "precision nutrition",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "花青素攝取與心代謝健康的全文內容整理",
+      "content": "# 花青素攝取與心代謝健康的全文內容整理\n\n> [!summary] 30 秒掌握\n> 這篇研究把健康成人的長期飲食觀察與短期 RCT 分開整理。18 個前瞻性世代研究顯示，較高日常花青素攝取與較低 CVD、心肌梗塞、心血管死亡、高血壓與第 2 型糖尿病風險有關。65 項 RCT 則顯示，至少 50 mg/日花青素可改善 FMD，部分分析改善胰島素、PWV 與三酸甘油脂，但沒有穩定改善血壓、血糖、HbA1c、HOMA-IR 或多數血脂。RCT 介入多短於 12 週，因此研究沒有證明花青素能降低實際心肌梗塞、中風或死亡。\n\n## 研究想回答什麼\n\n作者想知道，健康成人從食物、飲品或補充品攝取花青素後，是否與長期心血管結果及短期心代謝指標有關。研究把花青素門檻訂為至少 50 mg/日，並排除含酒精的介入。花青素來源包括莓果、櫻桃、葡萄、紫色蔬菜、其他植物食物與萃取物。\n\n## 第一層筆記：結果先看懂\n\n### 前瞻性世代研究\n\n與較低攝取相比，較高花青素攝取的結果：\n\n| 結果 | 彙整結果 | 研究團隊分級 |\n|---|---|---|\n| CVD 發生 | RR 0.74，約低 26% | Moderate，I² 80.6% |\n| CAD 或心肌梗塞 | RR 0.82，約低 18% | Moderate |\n| CVD 死亡 | RR 0.91，約低 9% | Limited |\n| 第 2 型糖尿病 | RR 0.89，約低 11% | Limited |\n| 高血壓 | RR 0.92，約低 8% | Limited |\n| 中風 | 沒有明確差異 | 不支持保護效果 |\n\n### RCT\n\n- 急性 FMD：7 項研究，淨變化約加 1.40%，作者分級 Strong。\n- 慢性 FMD：6 項研究，4 至 12 週，淨變化約加 1.59%，作者分級 Moderate。\n- 胰島素：6 項研究，淨變化約下降 2.24 pmol/L，作者分級 Limited。\n- Delphinidin 次群組：PWV 約下降 0.33 m/s，三酸甘油脂約下降 0.10 mmol/L。\n- 血壓、血糖、HbA1c、HOMA-IR、BMI、體脂與多數血脂及發炎指標，整體沒有穩定差異。\n\n## 第二層筆記：研究怎麼做\n\n研究搜尋 PubMed、Cochrane Central、CAB 與 Web of Science，到 2024 年 9 月為止，共 3237 筆獨立紀錄進入篩選，721 篇取得全文，最後納入 18 個世代研究、27 篇出版品與 65 項 RCT。研究事先註冊 PROSPERO CRD420251015416，依 PRISMA 流程執行。\n\n世代研究追蹤約 4 至 24 年，花青素攝取多用 food-frequency questionnaire 估算。RCT 的花青素劑量約 50 至 3300 mg/日，中位數約 211 mg/日，研究中位數約 40 人，多數介入少於 12 週。16 項 RCT 為低偏差風險，28 項有一些疑慮，21 項為高偏差風險。\n\n研究團隊把世代研究與 RCT 分開做 random-effects meta-analysis，也做食物種類、花青素種類、劑量與追蹤時間的次群組分析。未直接提供花青素含量的食物介入，有 50 項依 USDA、Phenol Explorer、產品資料或廠商資訊估算攝取量。\n\n## 第三層筆記：怎麼拿來判斷營養問題\n\n### 這篇研究最能支持的說法\n\n花青素豐富的食物可以放進心血管預防型飲食。健康成人的短期 RCT 對 FMD 的結果較一致，長期 CVD、心肌梗塞、糖尿病與高血壓風險則主要來自前瞻性觀察資料。\n\n### 不能直接這樣解讀\n\n- 不能把世代研究的 RR 當成花青素介入後一定會下降的個人風險。\n- 不能把 FMD 改善直接換算成心肌梗塞、中風或死亡下降。\n- 不能把莓果與紫色蔬菜的效果等同於純化補充品。\n- 不能把 50 mg/日當成所有人適用的治療劑量。\n- 不能用這篇研究取代血壓、血脂、血糖、HbA1c、體重與生活型態風險管理。\n\n### 實務上怎麼用\n\n把莓果、櫻桃、黑醋栗、葡萄與紫色蔬菜放進整體飲食品質與食物替代的討論，比單獨追求某個補充品劑量更合理。若使用萃取物或補充品，要檢查糖分、劑量、腎功能、過敏、藥物交互作用與個案的整體飲食。健康成人的結果不能直接套用到糖尿病、心血管疾病、高齡衰弱或住院個案。\n\n## 讀者要記住的限制\n\n世代研究的飲食量依自陳問卷與資料庫估算，可能無法反映實際吸收、代謝物與長期飲食變化。高花青素攝取者也可能同時有較好的整體飲食、運動與社經條件。CVD 發生的 I² 為 80.6%，研究之間的攝取量、族群、追蹤期與結果測量差異很大。富含花青素的食物還含有纖維、鉀、其他多酚與食物基質，效果不能全歸因於花青素。研究部分由 US Highbush Blueberry Council 支持，通訊作者也有相關顧問與研究資助關係，解讀時要保留這項背景。\n\n## 自我測驗\n\n> [!question]- Q1：為什麼研究要同時納入世代研究與 RCT，卻又分開分析？\n> 世代研究比較能觀察多年後的 CVD、糖尿病與死亡結果，RCT 比較能測量花青素對 FMD、胰島素等短期指標的介入效果。兩者的問題、偏差與證據強度不同，不能直接混成同一個估計值。\n\n> [!question]- Q2：RCT 最穩定的結果是哪一個？\n> FMD 改善最穩定，急性介入淨變化約加 1.40%，4 至 12 週介入約加 1.59%。FMD 是替代指標，不能直接代表心肌梗塞或死亡風險下降。\n\n> [!question]- Q3：為什麼高花青素攝取與較低 CVD 風險不等於預防效果？\n> 前瞻性世代研究仍可能有整體飲食、運動、吸菸與社經條件差異造成的殘餘混雜，而且花青素攝取多靠飲食問卷估算。\n\n> [!question]- Q4：為什麼不能把水果結果直接套到補充品？\n> 食物與補充品的花青素種類、劑量、糖分、纖維、其他多酚、吸收與食物基質不同，研究也沒有證明它們具有相同效果。\n\n> [!question]- Q5：營養師在實務上可以怎麼做？\n> 鼓勵以莓果、櫻桃、葡萄與紫色蔬菜增加飲食多樣性，並把它放在整體心血管風險管理中。若個案使用補充品，需另外評估劑量、藥物、腎功能、過敏與飲食背景。\n\n## Reference\n\nAvendano EE, Ellingson H, Digga E, et al. Dietary intakes of anthocyanins and cardiometabolic health: a systematic review and meta-analysis of randomized trials and prospective cohort studies in healthy participants. The American Journal of Clinical Nutrition. 2026;124:101304. DOI: 10.1016/j.ajcnut.2026.101304.\n\n全文證據：合法 Unpaywall OA PDF，共 13 頁，約 79,346 個可擷取字元。已核對題名、DOI、摘要、Methods、Results、Discussion、GRADE、Limitations、Conflict of interest 與 References。",
+      "cards": [
+        {
+          "title": "世代與 RCT 分工",
+          "question": "為什麼這篇研究要把世代研究與 RCT 分開分析？",
+          "answer": "世代研究較能觀察多年後的 CVD、糖尿病與死亡結果，RCT 較能測量 FMD、胰島素等短期介入結果。兩類證據回答的問題不同，不能直接混成同一個效果。",
+          "tags": [
+            "systematic review",
+            "RCT",
+            "cohort"
+          ]
+        },
+        {
+          "title": "最穩定的 RCT 結果",
+          "question": "花青素介入在 RCT 中最一致改善的是什麼？",
+          "answer": "FMD。急性介入約增加 1.40%，4 至 12 週介入約增加 1.59%。FMD 是替代指標，不能直接等同於心肌梗塞或死亡下降。",
+          "tags": [
+            "FMD",
+            "endothelial function",
+            "RCT"
+          ]
+        },
+        {
+          "title": "觀察關聯的界線",
+          "question": "高花青素攝取與較低 CVD 風險，為什麼不能直接當成預防效果？",
+          "answer": "世代研究仍可能受到整體飲食、運動、吸菸與社經條件差異影響，花青素攝取也多靠問卷估算。關聯結果不能取代長期介入試驗。",
+          "tags": [
+            "confounding",
+            "cohort",
+            "causality"
+          ]
+        },
+        {
+          "title": "食物與補充品不同",
+          "question": "為什麼莓果的研究結果不能直接套用到花青素補充品？",
+          "answer": "食物與補充品的花青素種類、劑量、糖分、纖維、其他多酚與吸收方式不同，研究沒有證明兩者效果相同。",
+          "tags": [
+            "food matrix",
+            "supplement",
+            "anthocyanin"
+          ]
+        },
+        {
+          "title": "營養照護應用",
+          "question": "營養師可以怎麼把這篇研究放進健康諮詢？",
+          "answer": "以莓果、櫻桃、葡萄與紫色蔬菜增加飲食多樣性，並與血壓、血脂、血糖、體重、運動與整體飲食模式一起處理。補充品則要另外檢查劑量、藥物、腎功能與過敏。",
+          "tags": [
+            "nutrition counseling",
+            "cardiometabolic health",
+            "food pattern"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-09T04:51:54.701Z"
+    },
+    {
+      "id": "doi:10.1016/j.ajcnut.2026.101304:review",
+      "paperId": "doi:10.1016/j.ajcnut.2026.101304",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Dietary intakes of anthocyanins and cardiometabolic health: a systematic review and meta-analysis of randomized trials and prospective cohort studies in healthy participants.",
+      "authors": "Avendano E, Ellingson H, Digga E, Velasco Nieves A, Chen L, Wu M, Setty S, Morley S, Curtis P, Nirmala N, Cassidy A",
+      "journal": "Other nutrition journals (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.ajcnut.2026.101304",
+      "abstract": "Meta-analyses support anthocyanins' cardiometabolic benefits in heterogeneous populations (including diseased), but efficacy in healthy participants remains unknown. Across prospective cohorts, and randomized controlled trials (RCTs; ≥50 mg/d anthocyanins), we assessed impacts on surrogate cardiometabolic biomarkers and clinical endpoints. Database searches (PubMed, Cochrane Central, Commonwealth Agricultural Bureau, and Web of Science) identified publications (1946-September 2024) that reported anthocyanin intake (or data, from which anthocyanin intake could be calculated), and cardiovascular disease (CVD) risk or cardiometabolic biomarkers. Random-effects meta-analysis and the Grades of Recommendation, Assessment, Development, and Evaluation (GRADE) assessment followed. Across 18 cohorts in 27 publications, highest compared with lowest habitual anthocyanin intake showed a risk reduction of 26% CVD incidence (4 studies), 18% myocardial infarction (MI, 5 studies), 11% type 2 diabetes mellitus (T2DM, 8 studies), 9% CVD mortality (10 studies), and 8% hypertension risk (6 studies). GRADE identified moderate evidence for CVD/MI. Stroke risk was unaffected. Across 65 RCTs, chronic anthocyanins (≥1 d) improved flow-mediated dilation (FMD) (net change: 1.41%; 95% confidence interval: 0.90%, 1.91%), acute anthocyanins (≤1 d) improved FMD (1.50%; 1.16%, 1.84%), and insulin concentrations (-2.24 pmol/L; -4.22, -0.27). GRADE identified strong evidence for acute FMD and moderate for chronic FMD. Lipids, blood pressure, glucose, and homeostatic model assessment for insulin resistance were unaffected. In the subanalysis, by anthocyanin type, cyanidin improved chronic FMD (1.62%; 1.21%, 2.04%), whereas delphinidin improved acute FMD (1.69%; 1.20%, 2.18%), chronic FMD (1.59%; 1.21%, 2.04%), chronic pulse wave velocity (-0.33; -0.62, -0.05), insulin (-2.32 pmol/L; -4.39, -0.26), and triglycerides (-0.10 mmol/L; -0.17, -0.03). Higher anthocyanin intake lowers CVD, MI, hypertension, and T2DM risk in cohorts, whereas RCTs show that dietarily achievable anthocyanin intakes (as low as 50 mg/d) improve atherosclerosis and metabolic syndrome biomarkers in healthy participants. These findings provide comprehensive unifying evidence that supports the inclusion of anthocyanins within evidence-based nutrition guidelines for CVD prevention. This review was registered at PROSPERO database as CRD420251015416.",
+      "legalFullTextUrl": "https://doi.org/10.1016/j.ajcnut.2026.101304",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42547104/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "design:randomized controlled",
+        "guideline and consensus",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "obesity and metabolism",
+        "precision nutrition",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "花青素攝取與心代謝健康的全文品質評讀",
+      "content": "# 花青素攝取與心代謝健康的系統性回顧與統合分析全文品質評讀\n\n> [!summary] 30 秒掌握\n> 這篇系統性回顧把健康成人的前瞻性世代研究與 RCT 分開分析。18 個世代研究顯示，較高的日常花青素攝取與 CVD、心肌梗塞、心血管死亡、高血壓及第 2 型糖尿病風險較低有關。65 項 RCT 顯示，至少 50 mg/日的花青素可改善急性與長期 FMD，部分分析也改善胰島素、PWV 與三酸甘油脂，但血壓、血糖、HbA1c、HOMA-IR、血脂與發炎指標多數沒有差異。最重要的限制是 RCT 多數樣本小、介入時間短，無法測量真正的心血管事件，世代研究的飲食量多靠自陳問卷估算。因此可以支持把莓果、紫色與紅色植物食物放進健康飲食，還不能把花青素補充劑或單一劑量當成已證實的心血管治療。\n\n## 研究問題與證據架構\n\n作者想評估健康或無明顯疾病成人的花青素攝取，是否與長期心血管與代謝結果，以及短期心代謝生物標記有關。研究刻意排除酒類，納入富含花青素的食物、飲品與補充品，RCT 要求每天至少 50 mg 花青素。這個門檻是為了讓介入劑量接近日常攝取與先前觀察研究的範圍。\n\n作者把兩類證據分開：\n\n- **前瞻性世代研究**：適合觀察長期 CVD、心肌梗塞、死亡、高血壓與第 2 型糖尿病風險，但容易受飲食測量與生活型態混雜影響。\n- **RCT**：適合評估花青素對 FMD、PWV、胰島素等短期結果的介入效果，但研究時間通常不足以觀察心血管事件。\n\n## 研究方法品質\n\n- 搜尋 PubMed、Cochrane Central、CAB 與 Web of Science，從資料庫開始到 2024 年 9 月，沒有語言或起始年份限制。\n- 3237 筆獨立文獻進入篩選，721 篇取得全文，最後納入 18 個世代研究，共 27 篇出版品，以及 65 項 RCT。\n- 兩位研究者獨立篩選，資料由一位研究者擷取，再由至少一位研究者核對，爭議交由團隊討論。\n- 世代研究使用 Newcastle-Ottawa scoring system，RCT 使用 Cochrane risk-of-bias tool 與營養研究批判條件。\n- 統合分析使用 random-effects model，研究數至少 3 篇且結果與族群足夠相近時才合併，並以 Q test 與 I² 評估異質性。\n- 研究已註冊 PROSPERO CRD420251015416，依 PRISMA 撰寫。\n\n## 主要結果\n\n### 前瞻性世代研究\n\n與較低攝取相比，較高日常花青素攝取的關聯如下：\n\n| 結果 | 研究數與樣本 | 彙整結果 | 異質性或證據判斷 |\n|---|---:|---:|---|\n| CVD 發生 | 4 個世代，92,126 人 | RR 0.74，約低 26% | I² 80.6%，異質性高，證據 Moderate |\n| CAD 或心肌梗塞 | 5 個世代，526,865 人 | RR 0.82，約低 18% | I² 53.6%，證據 Moderate |\n| CVD 死亡 | 10 個世代，561,764 人 | RR 0.91，約低 9% | I² 14.7%，證據 Limited |\n| 第 2 型糖尿病 | 8 個世代，235,064 人 | RR 0.89，約低 11% | I² 46.9%，證據 Limited |\n| 高血壓 | 5 個世代，182,097 人 | RR 0.92，約低 8% | I² 33.1%，證據 Limited |\n| 中風 | 6 個世代 | 沒有明確差異 | 結果不支持保護效果 |\n\n世代研究的攝取量多由 food-frequency questionnaire 估算，少數用 24-hour recall、四日飲食紀錄或飲品問卷。追蹤期約 4 至 24 年。研究品質判定為高品質的出版品有 23 篇，中等品質 4 篇。\n\n### RCT\n\n65 項 RCT 的花青素劑量介於 50 至 3300 mg/日，中位數約 211 mg/日。多數研究樣本很小，中位數約 40 人，介入時間多小於 12 週。16 項 RCT 為低偏差風險，28 項有一些疑慮，21 項為高偏差風險。\n\n- **FMD**：急性介入 7 項研究，半小時至 3 小時測量，淨變化約加 1.40%；慢性介入 6 項研究，4 至 12 週，淨變化約加 1.59%。作者將急性 FMD 證據評為 Strong，慢性 FMD 評為 Moderate。\n- **胰島素**：6 項 RCT 的淨變化約下降 2.24 pmol/L，作者評為 Limited。血糖、HbA1c 與 HOMA-IR沒有顯著差異。\n- **PWV 與三酸甘油脂**：delphinidin 分析分別看到 PWV 約下降 0.33 m/s、三酸甘油脂約下降 0.10 mmol/L，屬花青素種類的次群組結果。\n- **血壓、血脂與發炎**：整體 RCT 多數沒有顯著差異。辦公室血壓沒有穩定改善，作者認為未來可比較 24 小時血壓或居家重複量測。\n- **劑量反應**：沒有觀察到明確的花青素劑量反應。\n- **真正臨床事件**：沒有一項 RCT 時間長到足以評估 CVD、心肌梗塞、中風或死亡。\n\n## 品質評讀\n\n### 研究問題與設計是否相符\n\n大致相符。作者把長期觀察結果與短期介入結果分開，避免直接把世代關聯當成 RCT 效果。納入健康成人、設定至少 50 mg/日門檻、估算食物中的花青素含量，也讓研究更貼近日常飲食情境。\n\n### 系統性回顧流程的可信度\n\n**中等至高。** 搜尋範圍廣，沒有語言限制，重複篩選與資料核對，並事先註冊。統合分析的研究數量、族群與結果相近性有明確說明，世代研究與 RCT 分開處理，這是重要優點。\n\n仍要留意，50 項 RCT 的花青素量是依食物份量與資料庫估算，部分資料來自產品資料或廠商補充，估算誤差可能影響劑量分組與次群組分析。作者也把不同食物、飲品、萃取物與補充品放進同一大類，雖有來源分析，實際可比較程度仍有限。\n\n### 偏差與不一致\n\n- **RCT 偏差**：21 項 RCT 評為高偏差風險，部分結果又以平均樣本數很小的研究為主。這會削弱胰島素與特定花青素種類結果的穩定性。\n- **世代研究的暴露測量**：花青素攝取通常依自陳飲食問卷與食物資料庫估算，難以反映烹調、吸收、代謝物與長期飲食變化。\n- **混雜因素**：較高花青素攝取常代表較高水果、蔬菜、全穀與整體飲食品質，也可能伴隨較多運動、較少吸菸與較佳社經條件。即使研究做多變項調整，殘餘混雜仍無法排除。\n- **異質性**：CVD 發生的 I² 為 80.6%，代表各研究的攝取量、追蹤期、族群與結果測量差異很大，26% 的相對風險下降不能直接當成所有族群的固定效果。\n- **基金與利益關係**：研究部分由 US Highbush Blueberry Council 支持，通訊作者是該委員會顧問，且曾接受其研究資助。作者表示基金方未參與選文、品質評估、分析或寫作，但讀者仍應把這項關係納入解讀。\n- **替代解釋**：富含花青素的食物同時含有纖維、鉀、維生素、其他多酚與食物基質，不能把觀察到的效果全歸因於花青素單一成分。\n\n### GRADE 與證據層級\n\n作者採 Nutrition Evidence Systematic Review Methodology Manual 的 Strong、Moderate、Limited 分級。世代研究的 CAD/MI 與 CVD 發生為 Moderate，CVD 死亡、第 2 型糖尿病與高血壓為 Limited。RCT 的急性 FMD 為 Strong，慢性 FMD 為 Moderate，胰島素為 Limited。\n\n這些分級是研究團隊的整體營養證據評估，不能直接等同於「花青素能預防心血管疾病」的治療推薦等級。最有力的 RCT 結果是 FMD 這類替代指標，長期事件仍主要來自觀察研究。FMD 改善與心血管風險的連結需要外部預後資料支持，不能把 1.41% 的 FMD 變化直接換算成個人事件風險下降。\n\n### 推論漏洞檢查\n\n1. **世代關聯不等於預防效果**：較高攝取與較低 CVD 或糖尿病風險同時出現，仍可能反映整體飲食與生活型態差異。\n2. **FMD 不等於臨床事件**：FMD 是血管內皮功能指標，不能代替心肌梗塞、中風、住院或死亡等病人重要結果。\n3. **食物效果不等於補充劑效果**：莓果、紫色蔬菜、飲品與純化萃取物的花青素劑量、吸收、糖分與其他成分不同。\n4. **次群組結果要保守看**：delphinidin、cyanidin 與 blueberry 的結果來自更少的研究，可能受多重比較與食物共同成分影響。\n5. **健康成人不能直接外推到疾病族群**：研究刻意排除多數已有心代謝疾病者，對糖尿病、心血管疾病或高齡衰弱者的實際效果仍要看其他證據。\n\n## 對營養照護的可用價值\n\n這篇研究支持把莓果、櫻桃、黑醋栗、葡萄、紫色蔬菜等花青素來源放進整體飲食品質的討論，較適合用食物模式與替代關係溝通，不能直接承諾固定劑量的保健效果。若個案使用補充品，要另外評估產品劑量、糖分、藥物交互作用、腎功能、過敏與實際飲食背景。\n\n在心血管預防或代謝健康諮詢中，可以把 FMD、PWV 與胰島素結果視為研究線索，不要把它們當成已證實的臨床終點。若要討論心血管風險，仍應以血壓、血脂、血糖、吸菸、體重、運動與整體飲食模式等已建立的風險因子為主。\n\n## 結論\n\n這篇回顧的強項是把前瞻性世代與 RCT 分開，並設定至少 50 mg/日、健康成人、食物與補充品都可納入的研究框架。結果最一致的是花青素與 FMD 的短期或數週改善，長期 CVD、心肌梗塞、糖尿病與高血壓風險則主要來自觀察性證據。研究仍受 RCT 時間短、樣本小、花青素估算誤差、食物共同成分、異質性與基金關係影響。實務上可鼓勵多樣化的花青素食物，卻不應宣稱單一補充品或固定劑量已經取代標準心血管預防照護。\n\n## Paper-review 品質快照\n\n| 面向 | 判斷 |\n|---|---|\n| 搜尋與篩選 | 良好，四個資料庫、無語言限制、雙人篩選 |\n| 證據整合 | 良好，世代研究與 RCT 分開，使用 random-effects |\n| RCT 可信度 | 中等，65 項中 21 項高偏差風險，樣本多偏小 |\n| 觀察研究可信度 | 中等，長期結果但飲食測量與殘餘混雜存在 |\n| 最穩定結果 | FMD 改善，急性 Strong、慢性 Moderate |\n| 臨床事件證據 | 主要來自世代關聯，不能視為介入效果 |\n| 實務定位 | 支持健康飲食中的花青素食物，不能單獨建立補充品處方 |\n\n## 全文與引用核對\n\n已核對合法 Unpaywall OA PDF，共 13 頁，約 79,346 個可擷取字元。全文包含摘要、搜尋與納入方法、世代研究結果、RCT 結果、風險偏差、GRADE、討論、利益關係與參考文獻。PDF 首頁題名與 DOI 均符合 DOI 10.1016/j.ajcnut.2026.101304。\n\n## Reference\n\nAvendano EE, Ellingson H, Digga E, et al. Dietary intakes of anthocyanins and cardiometabolic health: a systematic review and meta-analysis of randomized trials and prospective cohort studies in healthy participants. The American Journal of Clinical Nutrition. 2026;124:101304. DOI: 10.1016/j.ajcnut.2026.101304.",
+      "cards": [],
+      "completedAt": "2026-08-09T04:49:52.909Z"
+    },
+    {
+      "id": "doi:10.1016/j.clnu.2026.106729:digest",
+      "paperId": "doi:10.1016/j.clnu.2026.106729",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Associations of the bioimpedance-derived phase angle with early and advanced stages of dysglycemia: Cross-sectional findings from a large population-based study.",
+      "authors": "Ai F, Huemer M, Fischer B, Ptushkina V, Rathmann W, Schulze M, Völzke H, Hannemann A, Greiser K, Keil T, Krist L, Tanoey J, Zeeb H, Jaskulski S, Obi N, Weber K, Lieb W, Schipf S, Paulista Markus M, Leitzmann M, Drey M, Peters A, Thorand B",
+      "journal": "Clinical Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.clnu.2026.106729",
+      "abstract": "Bioelectrical impedance analysis (BIA) has been widely applied for assessing body composition. The phase angle (PhA), a raw parameter derived from BIA, reflects body cell mass, cellular hydration, and cell membrane integrity. Although the PhA has been proposed as a potential marker for various aspects of diseases, its role in dysglycemia remains uncertain. We therefore aimed to investigate its associations with early and advanced stages of dysglycemia in a large population-based sample. This cross-sectional study used data from participants (19-74 years) enrolled at the baseline assessment (2014-2019) from a large population-based cohort. The whole-body PhA at 50 kHz was obtained from multi-frequency BIA. Two samples were analyzed. In the main sample (N = 178,097), the types of known diabetes (type 1, type 2, and a history of gestational diabetes vs. no diabetes) were ascertained. Among individuals with known type 2 diabetes, data on disease duration, current treatment, glycemic control (hemoglobin A1c levels), and diabetes-related microvascular complications were further analyzed. Additionally, in a random subsample without known diabetes (N = 16,153), oral glucose tolerance tests (OGTT) were performed to ascertain early stages of glucose dysregulation (prediabetes and newly detected diabetes vs. normoglycemia). Logistic regression was applied to assess sex-specific associations of the PhA with glucose dysregulation at different stages. In the main sample (mean age: 49.5 years; 50.1% men), 309 individuals (0.2%) reported having known type 1 diabetes, 8234 (4.6%) type 2 diabetes, and 1044 (1.2% of women) a history of gestational diabetes. In the OGTT subsample, 2662 participants (16.5%) had prediabetes and 534 (3.3%) had newly detected diabetes. A higher PhA (per 1°) was associated with a lower odds of known type 1 diabetes (relative risk ratio [RRR] and 95% confidence intervals [CIs], men: 0.33 [0.27, 0.40]; women: 0.39 [0.29, 0.52]) and known type 2 diabetes (RRR [95% CIs], men: 0.72 [0.69, 0.76]; women: 0.88 [0.81, 0.96]) after adjustment for age, lifestyle factors, obesity, and disease markers. Stronger inverse associations of the PhA with known type 2 diabetes were observed for those with longer disease duration (i.e., > 10 years), advanced-stage treatment (i.e., insulin only), poorer glycemic control (i.e., hemoglobin A1c ≥ 64 mmol/mol), or microvascular complications. Men showed stronger inverse associations with advanced dysglycemia than women (psex-interaction < 0.001). In contrast to the inverse associations observed for known type 1 and type 2 diabetes, the PhA showed positive associations with early dysglycemia. Specifically, a higher PhA (per 1°) was associated with a higher odds of a history of gestational diabetes (RRR [95% CIs]: women: 1.69 [1.51, 1.88]), prevalent prediabetes (RRR [95% CIs]: men: 1.45 [1.32, 1.59]; women: 1.34 [1.13, 1.58]) and newly detected diabetes (RRR [95% CIs]: men: 1.33 [1.11, 1.60]; women: 1.37 [1.05, 1.79]). The bioimpedance-derived PhA showed positive cross-sectional associations with early dysglycemia and inverse cross-sectional associations with advanced dysglycemia. The observed associations may partly reflect reverse causation and disease-related changes in body composition accompanying advanced dysglycemia. Longitudinal studies are warranted to assess temporal relationships between the PhA and dysglycemia.",
+      "legalFullTextUrl": "https://www.clinicalnutritionjournal.com/article/S0261-5614(26)00156-1/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42537433/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "clinical nutrition technology",
+        "design:longitudinal",
+        "human clinical population",
+        "obesity and metabolism",
+        "safety and interaction",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "生物電阻抗 phase angle 與血糖失調分期的全文內容整理",
+      "content": "# 生物電阻抗 phase angle 與血糖失調分期的全文內容整理\n\n> [!summary] 30 秒掌握\n> 這篇大型德國人口型研究分析 BIA 得到的 phase angle（PhA）與不同血糖失調階段的關聯。主樣本有 178,097 人，另有 16,153 人接受 OGTT。PhA 越高，已知第 1 型與第 2 型糖尿病的相對風險比越低，且在病程較久、只使用胰島素、HbA1c 較高或有微血管併發症者，反向關聯更明顯。早期血糖失調卻呈現相反方向，較高 PhA 與前期糖尿病、新診斷糖尿病及妊娠糖尿病病史的相對風險比較高。這是橫斷面關聯，不能證明 PhA 能預測糖尿病發生，也不能取代 HbA1c、OGTT 或臨床診斷。\n\n## 研究問題與背景\n\nPhA 是多頻 BIA 由 resistance 與 reactance 計算出的原始參數，常被拿來反映細胞量、細胞膜完整性與細胞內外水分分布。過去研究多在小型臨床樣本比較糖尿病與非糖尿病者，對於早期血糖失調、不同糖尿病類型、病程嚴重度與性別差異的資料較少。\n\n作者想回答三個問題：\n\n1. PhA 是否與已知第 1 型、第 2 型糖尿病及妊娠糖尿病病史有關？\n2. 在第 2 型糖尿病者中，PhA 是否與病程、治療方式、血糖控制與微血管併發症有不同關聯？\n3. PhA 是否也與 OGTT 定義的前期糖尿病及新診斷糖尿病有關？\n\n## 第一層筆記：先記住研究結果\n\n| 血糖狀態 | 研究樣本 | PhA 每增加 1 度的主要結果 |\n|---|---:|---|\n| 已知第 1 型糖尿病 | 主樣本，男性 180 人、女性 129 人 | 男性 RRR 0.33，女性 RRR 0.39 |\n| 已知第 2 型糖尿病 | 主樣本，男性 5,074 人、女性 3,160 人 | 男性 RRR 0.72，女性 RRR 0.88 |\n| 妊娠糖尿病病史 | 女性 1,044 人 | RRR 1.69 |\n| 前期糖尿病 | OGTT 子樣本，2,662 人 | 男性 RRR 1.45，女性 RRR 1.34 |\n| 新診斷糖尿病 | OGTT 子樣本，534 人 | 男性 RRR 1.33，女性 RRR 1.37 |\n\n主樣本平均年齡 49.5 歲，男性占 50.1%。研究用多項式 logistic regression，依性別分層，並逐步調整研究中心、年齡、空腹狀態、腰圍、教育、吸菸、飲酒、身體活動、HDL-C、eGFR、尿酸、高血壓、降脂藥物與糖尿病家族史。\n\n已知第 2 型糖尿病的反向關聯在男性較明顯，且在病程超過 10 年、只使用胰島素、HbA1c 至少 64 mmol/mol，或有微血管併發症者更強。早期血糖失調的正向關聯在加入 BMI、骨骼肌指數與三酸甘油脂後，部分新診斷糖尿病結果失去統計顯著性，前期糖尿病的關聯則大致維持。\n\n## 第二層筆記：理解研究怎麼做\n\n### 研究資料與樣本\n\n研究使用 German National Cohort 基線資料，受試者 19 至 74 歲，2014 至 2019 年在德國 18 個研究中心收案。主樣本由 204,653 人開始，排除不適合 BIA、PhA 缺失、糖尿病分類不清、空腹狀態不清與連續共變項缺失後，留下 178,097 人。\n\n沒有已知糖尿病且符合條件的參與者中，25,238 人被安排做 75 g OGTT，排除 OGTT 無效、BIA 不合格、PhA 缺失與共變項缺失後，留下 16,153 人。\n\n### PhA 怎麼測量\n\n研究用 seca mBCA 515 多頻 BIA，採八點法，在標準化條件下量測。受試者先排空膀胱、避免運動、移除金屬物品，站立至少 10 分鐘後測量。研究主要使用 50 kHz 的 whole-body PhA，計算方式是 arctangent（reactance 除以 resistance）再換算成角度。\n\n### 血糖失調怎麼分類\n\n- 已知糖尿病依受試者自述臨床診斷、診斷年齡、胰島素與口服藥物使用等資料分類。\n- 第 2 型糖尿病再分為病程 0 至 5 年、6 至 10 年與超過 10 年。\n- 血糖控制分成 HbA1c 小於 48、48 至小於 64，以及至少 64 mmol/mol。\n- 微血管併發症依問卷資料分類。\n- OGTT 子樣本依 WHO 1999/2006 標準分成正常血糖、前期糖尿病與新診斷糖尿病。\n\n### 敏感度分析\n\n作者排除近期癌症治療者、使用 SGLT2 抑制劑或 GLP-1 receptor agonist 者，也用 BMI、體脂率、骨骼肌量、骨骼肌指數、三酸甘油脂與 LDL-C 做替代調整。這些分析用來檢查藥物、癌症治療、肥胖與肌肉量是否改變主要關聯。\n\n## 第三層筆記：拿來判斷實務問題\n\n### PhA 可能反映什麼\n\n已知糖尿病的低 PhA 可能與長期代謝失衡、細胞膜功能受損、細胞量下降與水分重新分布有關。研究也發現 Xc/H 的方向與 PhA 類似，支持 PhA 可能受到細胞量與細胞膜相關因素影響。這些屬於生物學解釋，研究本身沒有測試其中任一機制。\n\n早期血糖失調的高 PhA 方向相反，可能與較高骨骼肌量、早期代償性代謝變化或細胞內水分改變有關。作者明確表示目前機制仍不清楚，不能把高 PhA 直接解讀成健康或保護性訊號。\n\n### 營養與身體組成的使用提醒\n\nPhA 可作為 BIA 身體組成與細胞狀態資料的一部分，但不宜單獨用來判斷營養不良、糖尿病分期或疾病進展。量測結果會受設備、頻率、姿勢、水分狀態、量測時間、月經週期、體型與族群參考值影響。不同設備之間也不能直接套用同一個 cutoff。\n\n### 研究能支持什麼\n\n- 在大型德國人口資料中，PhA 與血糖失調階段呈現不同方向的橫斷面關聯。\n- 已知糖尿病越嚴重或病程越久，低 PhA 的關聯可能更明顯，男性與女性的關聯強度也不同。\n- PhA 可能值得在未來研究中做為輔助性身體組成或代謝狀態指標。\n\n### 研究不能支持什麼\n\n- 不能說低 PhA 會造成糖尿病。\n- 不能說高 PhA 可以預防前期糖尿病。\n- 不能用 PhA 取代 HbA1c、空腹血糖、OGTT 或糖尿病診斷。\n- 不能依這篇研究建立通用 PhA cutoff。\n- 不能只用 PhA 決定營養補充、運動處方或糖尿病治療。\n\n## 研究限制\n\n研究是橫斷面設計，無法確認 PhA 變化與血糖失調的時間順序。已知糖尿病依自述資料判定，可能有回憶錯誤與分類錯誤。部分潛伏性自體免疫糖尿病可能未被正確分類，較年長者的糖尿病也可能低估。量測時間與女性月經週期沒有納入，水分狀態可能影響 PhA。即使調整許多共變項，仍可能有未測量混雜。腰圍調整可能造成過度調整，體脂率與骨骼肌參數又和 PhA 來自相同 BIA 元件，可能產生共同測量偏差。研究樣本來自德國，推論到其他族群與設備仍需外部驗證。\n\n## 自我測驗\n\n> [!question]- Q1：這篇研究最重要的設計限制是什麼？\n> 它使用橫斷面資料，只能描述 PhA 與血糖失調同時存在的關聯，不能確認 PhA 先改變，或糖尿病及其治療先造成 PhA 改變。\n\n> [!question]- Q2：為什麼已知糖尿病與早期血糖失調的方向不同？\n> 已知第 1 型與第 2 型糖尿病的 PhA 關聯偏向反向，早期血糖失調則偏向正向。研究提出細胞量、水分分布、疾病病程與代謝代償等可能解釋，但這些機制尚未由本研究證實。\n\n> [!question]- Q3：PhA 每增加 1 度，男性已知第 2 型糖尿病的 RRR 0.72 應怎麼讀？\n> 在調整模型與研究條件下，每高 1 度 PhA 與已知第 2 型糖尿病的相對風險比 0.72 有關。這是關聯值，不是治療後風險下降 28%，也不是因果效果。\n\n> [!question]- Q4：為什麼研究要把男性與女性分開分析？\n> 既有文獻顯示 PhA 本身與糖尿病可能有性別差異。研究也觀察到男性已知第 2 型糖尿病的反向關聯更強，因此分層能避免把不同群體的結果平均掉。\n\n> [!question]- Q5：臨床上可以怎麼使用這篇研究？\n> 可以把 PhA 當作 BIA 身體組成資料中的輔助訊號，搭配 HbA1c、血糖、病程、藥物、體重、肌肉量、水分狀態與功能評估一起判讀。現階段不能單獨用 PhA 做糖尿病篩檢或治療決策。\n\n## Reference\n\nAi F, Huemer M-T, Fischer B, et al. Associations of the bioimpedance-derived phase angle with early and advanced stages of dysglycemia: Cross-sectional findings from a large population-based study. Clinical Nutrition. 2026;64:106729. DOI: 10.1016/j.clnu.2026.106729.\n\n全文證據：合法 Unpaywall OA PDF，共 12 頁，約 75,560 個可擷取字元。已核對題名、DOI、摘要、Methods、Results、Discussion、Limitations、Conclusion 與 References。",
+      "cards": [
+        {
+          "title": "PhA 與糖尿病方向",
+          "question": "PhA 與已知糖尿病及早期血糖失調的關聯方向有何不同？",
+          "answer": "已知第 1 型與第 2 型糖尿病偏向反向關聯，前期糖尿病、新診斷糖尿病與妊娠糖尿病病史偏向正向關聯。這是橫斷面結果，不能直接解釋為因果方向。",
+          "tags": [
+            "phase angle",
+            "dysglycemia",
+            "結果"
+          ]
+        },
+        {
+          "title": "研究樣本與量測",
+          "question": "這篇研究的兩個主要樣本如何建立？",
+          "answer": "主樣本有 178,097 人，用問卷與臨床資料判定已知糖尿病。沒有已知糖尿病且完成 75 g OGTT 的子樣本有 16,153 人，用來判定前期糖尿病與新診斷糖尿病。",
+          "tags": [
+            "NAKO",
+            "BIA",
+            "OGTT"
+          ]
+        },
+        {
+          "title": "嚴重度與性別差異",
+          "question": "哪些情況下男性的低 PhA 關聯較明顯？",
+          "answer": "男性已知第 2 型糖尿病的反向關聯通常比女性強，且在病程超過 10 年、只使用胰島素、HbA1c 至少 64 mmol/mol 或有微血管併發症時更明顯。",
+          "tags": [
+            "sex differences",
+            "diabetes duration",
+            "complications"
+          ]
+        },
+        {
+          "title": "橫斷面研究的界線",
+          "question": "為什麼不能說低 PhA 會造成糖尿病？",
+          "answer": "PhA 與糖尿病是在同一個基線時間點測量，無法確認誰先發生。糖尿病本身、治療、併發症與水分改變都可能影響 PhA，反向因果與殘餘混雜仍然存在。",
+          "tags": [
+            "cross-sectional",
+            "causality",
+            "bias"
+          ]
+        },
+        {
+          "title": "臨床使用方式",
+          "question": "營養師可以怎麼把 PhA 放進判讀流程？",
+          "answer": "把 PhA 當成 BIA 身體組成資訊的一部分，與 HbA1c、血糖、體重、肌肉量、水分狀態、病程、藥物與功能評估一起看。現階段不能用 PhA 單獨診斷糖尿病或決定治療。",
+          "tags": [
+            "nutrition assessment",
+            "clinical use",
+            "BIA"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-09T04:45:17.625Z"
+    },
+    {
+      "id": "doi:10.1016/j.clnu.2026.106667:review",
+      "paperId": "doi:10.1016/j.clnu.2026.106667",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "A multidisciplinary Delphi consensus on the formulation of an optimized oral diet for dysphagia and malnutrition (FOOD-DM).",
+      "authors": "Brux L, Lapa S, Hofacker J, Huber C, Lueg G, Jung A, Muhle P, Suntrup-Krueger S, Wirth R, Meuth S, Warnecke T, Dziewas R, Labeit B",
+      "journal": "Clinical Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.clnu.2026.106667",
+      "abstract": "Dysphagia and malnutrition frequently co-occur and are associated with aspiration pneumonia, sarcopenia, increased mortality, reduced quality of life and restricted social participation. Yet foods and drinks for individuals with dysphagia and malnutrition are inconsistently specified and lack objective standards. This study aimed to develop a consensus-based, expert-derived framework for evaluating foods and drinks perceived suitable for individuals with dysphagia and malnutrition (FOOD-DM). A two-round online modified Delphi study was conducted (October 2024-May 2025). International experts in medicine, speech-language pathology and nutrition were eligible with ≥5 years of clinical experience and a Hirsch-index ≥5. In round 1, participants rated nine prespecified items relating to texture, nutritional composition and labeling on a 9-point Likert scale. Consensus required ≥70% ratings at 7-9 (critically important) and <15% at 1-3 (not important). Round 2 provided aggregated results, item refinements and a comparison of the International Dysphagia Diet Standardisation Initiative (IDDSI) with quantitative texture measures expressed in the International System of Units (SI). Forty-eight experts participated in round 1. All nine items achieved consensus and were reaffirmed in round 2 (44/48; 92% retention). The final FOOD-DM framework comprises nine criteria across three domains: (1) Texture: availability of consistent textures, accuracy of texture descriptions (IDDSI and/or SI-based rheology), ability to customize texture, and ability to measure texture modifications (IDDSI and/or SI-based rheology); (2) Nutrition: availability of high-calorie options (e.g., 1.5-2.0 kcal/mL), flexibility to adjust calorie content, availability of high-protein options (≥20% energy from protein), and adaptable macronutrient composition; (3) Labeling: clear indications of suitability for dysphagia and malnutrition including detailed explanations of their specifics and composition. Overall, 91% of experts perceived the proposed measures as potentially helpful in improving access to appropriate nutrition; 61% favored a combined IDDSI-plus-SI model for texture description. Distinct from existing approaches focusing on texture or nutrition alone, FOOD-DM integrates standardized texture specification with nutritional optimization and labeling within a single framework. Implementation of the FOOD-DM framework may support standardized, customizable, and transparent nutrition and foster collaboration between clinical nutrition, dysphagia therapy, and the food industry.",
+      "legalFullTextUrl": "https://www.clinicalnutritionjournal.com/article/S0261-5614(26)00094-4/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42054965/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "design:consensus",
+        "guideline and consensus",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "吞嚥障礙與營養不良 FOOD-DM 共識的全文品質評讀",
+      "content": "# 吞嚥障礙與營養不良的 FOOD-DM 多專業 Delphi 共識全文品質評讀\n\n> [!summary] 30 秒掌握\n> 這是一項兩回合、多專業 modified Delphi 共識研究，邀請 48 名具臨床與研究經驗的專家，評估吞嚥障礙合併營養不良時，食物與飲品應具備哪些可描述、可測量的條件。九項條件全部達到預設共識，分成質地、營養、標示三個領域。研究能建立產品與菜單設計的檢核架構，卻沒有測試病人的吞嚥安全、營養攝取、生活品質或其他臨床結果，不能把共識直接當成治療成效證據。\n\n## 研究問題與臨床背景\n\n研究團隊想建立一個 FOOD-DM 架構，處理吞嚥障礙與營養不良同時存在時，常見的兩個缺口：質地調整缺乏一致描述，質地修改後又可能讓熱量與蛋白質密度下降。研究的核心問題是：多專業專家認為，哪些食物與飲品特徵值得放入可檢核的架構？\n\n研究對象聚焦於吞嚥障礙與營養不良的食物或飲品特徵，排除適口性、成本、文化與照顧環境等因素。這讓研究範圍清楚，也代表 FOOD-DM 只處理其中一個面向，不能單獨代表病人的完整飲食需求。\n\n## 研究設計與方法\n\n- **研究設計**：兩回合線上 modified Delphi。第一回合先評分九項預設條件，第二回合提供匿名彙整結果與意見後再評分。\n- **參與者**：第一回合 53 人回覆，48 人符合納入條件。平均 45.7 歲，63% 為女性，58% 為醫師，33% 為語言治療師，8% 為營養師，來自 19 個國家。德國參與者占 42%。\n- **納入條件**：至少 5 年吞嚥障礙或營養不良臨床經驗，且 h-index 至少 5 並有相關主題發表。\n- **評分方式**：九點 Likert scale。7 至 9 分代表非常重要，1 至 3 分代表不重要。\n- **共識門檻**：至少 70% 評為 7 至 9 分，且少於 15% 評為 1 至 3 分。研究另以 75% 與 80% 門檻做敏感度分析。\n- **第二回合**：44 人完成，保留率 92%。第二回合補充比較 IDDSI 與 SI 單位質地測量的題目。\n- **倫理與透明度**：研究獲 Heinrich Heine University Düsseldorf 倫理審查核准，參與者提供電子同意。匿名量化資料放在補充資料，質性留言因保密要求未公開。\n\n## 主要結果\n\n九項條件分為三個領域：\n\n### 1. 質地條件\n\n1. 有一致且適合吞嚥障礙者的食物與飲品質地。\n2. 質地描述要準確，可使用 IDDSI 或以 SI 單位表達的定量流變測量。\n3. 能依個別需要調整質地。\n4. 能客觀測量質地修改的結果。\n\n### 2. 營養條件\n\n5. 有高熱量選項，例如每毫升 1.5 至 2.0 kcal。\n6. 能依個別飲食需求調整熱量。\n7. 有高蛋白選項，例如蛋白質提供至少 20% 總熱量。\n8. 能依個別需求調整蛋白質等營養組成。\n\n### 3. 標示條件\n\n9. 清楚標示適用於吞嚥障礙與營養不良者，並說明質地、營養組成與使用對象。\n\n第一回合九項全部達到原先門檻。以至少 80% 高重要性評分的較嚴格門檻檢查時，八項仍達到共識，只有「客觀測量質地修改」為 79%。第二回合中，九項全部重新達到 80% 以上，該項也上升到 86%。91% 專家認為這些措施可能有助於改善適當營養的取得，61% 支持 IDDSI 與 SI 方式並用。\n\n## 品質評讀\n\n### 研究設計是否適合問題\n\n適合。研究要建立專家共識架構，Delphi 能以匿名、分回合回饋方式整理多專業意見。作者也清楚說明這項研究沒有設計來測量臨床效果，因此研究問題與方法大致一致。\n\n### 內部可信度\n\n**中等。** 有預先設定納入條件、九點評分、共識門檻與敏感度分析，第二回合也保留 92% 參與者，讓共識結果較穩定。第一回合自由文字由兩位作者獨立分類，再透過討論處理差異，這是方法上的加分。\n\n需要保留幾點疑問。初始題目由作者團隊建立，可能先決定了討論框架。參與者主要透過專業學會電子郵件與社群媒體招募，容易納入本來就關心吞嚥與營養議題的人。研究雖然用了 19 個國家的專家，德國參與者仍占 42%，外部觀點並不平均。h-index 至少 5 的條件也可能排除臨床經驗豐富、發表量較少的第一線工作者。\n\n### 偏差與限制\n\n- **選擇偏差**：研究者、專業學會與社群媒體招募，無法代表所有臨床人員。\n- **框架偏差**：題目先由作者團隊設定，可能讓其他重要面向在一開始就較難進入評分。\n- **病人觀點不足**：正式評分者沒有納入病人、家屬、照顧者或食品產業代表。相關意見雖在開放式留言出現，卻沒有成為正式共識項目。\n- **地域偏差**：第二回合的參與者組成仍可能受德國與歐洲照護制度影響，不能直接套用到台灣或其他飲食文化與供餐制度。\n- **範圍限制**：成本、文化、感官接受度、照顧者訓練、取得便利性與水分需求被排除，這些因素卻會直接影響實際使用。\n- **臨床結果缺口**：研究沒有比較任何菜單或產品，也沒有測量吸入、肺炎、攝取量、體重、營養狀態、脫水、生活品質或死亡率。\n\n### 證據層級與 GRADE 判斷\n\n本研究不是介入試驗，也沒有病人結果，因此不適合用 GRADE 對「FOOD-DM 能改善臨床結果」給出治療效果等級。若要評估這個臨床推論，現有證據應列為**極低確定性，且目前沒有直接效果證據**。能比較有把握的結論是：受邀專家對九項產品與菜單特徵形成共識。這個結論不能延伸成質地調整、每毫升熱量、蛋白質比例或標示方式已被證實能改善病人結果。\n\n### 推論漏洞檢查\n\n1. **共識被誤讀成療效**：91% 專家認為措施可能有幫助，這是 perceived helpfulness，不是實際臨床改善。\n2. **範例值被誤讀成通用標準**：1.5 至 2.0 kcal/mL 與蛋白質至少 20% 總熱量是架構中的例子，不能取代個別能量、蛋白質、疾病與吞嚥評估。\n3. **IDDSI 與 SI 並用不等於所有場域都可行**：SI 測量需要設備、溫度控制與訓練，研究也承認床邊與資源有限場域仍較適合 IDDSI。\n4. **架構完整不等於飲食安全**：是否適合個別病人仍需結合吞嚥評估、姿勢、進食速度、疲勞、認知、口腔狀況與實際攝取監測。\n\n## 對營養照護的可用價值\n\n這篇文章最適合拿來當**產品、菜單與照護流程的檢核表**，不適合拿來單獨開立飲食。實務上可以依序檢查：\n\n1. 先由吞嚥專業人員完成個別吞嚥安全與質地需求評估。\n2. 再由營養師估算能量、蛋白質、水分與疾病相關限制，確認調整質地後仍能達到實際攝取目標。\n3. 檢查食物是否有一致質地、可重現的製備方法與清楚標示。\n4. 評估是否能調整質地、熱量與蛋白質，並記錄每次修改後的實際攝取量與耐受度。\n5. 把適口性、文化飲食、過敏、費用、照顧者能力與水分補充補回決策流程，這些並未被 FOOD-DM 正式涵蓋。\n6. 以體重、餐量、蛋白質達標率、脫水風險、吞嚥症狀與生活品質追蹤結果，避免只確認食物有符合某個質地標籤。\n\n## 結論\n\nFOOD-DM 提供一個把質地、營養組成與標示放在同一張檢核表的共識架構，對吞嚥障礙合併營養不良的產品開發、機構供餐與跨專業溝通有參考價值。研究方法適合形成共識，結果也在兩回合與敏感度分析中維持一致。研究的核心限制是沒有病人結果與外部驗證，所以目前應把它定位為**專家共識架構與研究起點**，不能視為已證實有效的營養治療標準。\n\n## Paper-review 品質快照\n\n| 面向 | 判斷 |\n|---|---|\n| 研究問題與設計相符 | 是，Delphi 適合建立共識 |\n| 結果是否直接測量病人 | 否 |\n| 主要結果可信度 | 中等，受選樣與框架設定影響 |\n| 臨床療效證據 | 尚無直接證據 |\n| 可移植性 | 需依地區、供餐制度與文化調整 |\n| 實務定位 | 檢核表、產品開發與研究起點 |\n\n## 全文與引用核對\n\n已核對合法 Unpaywall OA PDF，共 12 頁，約 79,081 個可擷取字元。全文包含摘要、研究方法、兩回合結果、討論、限制、結論與 52 筆參考文獻。PDF 首頁的題名與 DOI 均符合 DOI 10.1016/j.clnu.2026.106667。本文的主要判斷以原文研究設計、結果與作者自列限制為依據。\n\n## Reference\n\nBrux L, Lapa S, Hofacker J, et al. A multidisciplinary Delphi consensus on the formulation of an optimized oral diet for dysphagia and malnutrition (FOOD-DM). Clinical Nutrition. 2026;61:106667. DOI: 10.1016/j.clnu.2026.106667.",
+      "cards": [],
+      "completedAt": "2026-08-09T04:40:59.890Z"
+    },
+    {
+      "id": "doi:10.1016/j.clnu.2026.106699:digest",
+      "paperId": "doi:10.1016/j.clnu.2026.106699",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Standardizing calf circumference measurements to improve muscle mass assessment.",
+      "authors": "Benet A, Orlandi S, Rocha L, Barbosa-Silva T, Bielemann R, Santos L, Prado C, Gonzalez M",
+      "journal": "Clinical Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.clnu.2026.106699",
+      "abstract": "Calf circumference (CC) is a simple anthropometric marker of muscle mass cited in several clinical guidelines. However, whether measurement position influences results has not been studied. We evaluated agreement among CC measurements across different positions. This cross-sectional study was conducted among hospitalized patients (≥18 years). CC was measured at the largest circumference of the right calf in orthostatic (CCort), sitting (CCsit), and supine (CCsup) positions. Repeated-measures analysis of variance (RM-ANOVA) and the Tukey honestly significant difference post hoc tests were applied. Agreement between measurements was evaluated using Lin's concordance correlation coefficient and Bland-Altman analysis. The technical error of measurement (TEM) and minimal detectable change (MDC) for the measurements were calculated. Among 193 patients (mean age: 57.7 ± 15.0 years, 52.8% females), CCsit was highest, significantly exceeding CCort and CCsup. TEM ranged from 0.47 to 0.60 cm across positions, corresponding to a relative error of approximately 1.5%. MDC ranged from 1.30 to 1.67 cm, which was higher than the mean differences among the positions. Cohen's kappa indicated good agreement among the CCsit, CCort, and CCsup classifications. A small proportional bias was identified between CCort and CCsit. The width of the limits of agreement was 1.60 cm between CCsit and CCort, and 2.29 cm between CCsit and CCsup. CC values differed slightly across body positions, within the expected measurement error, and showed acceptable agreement. However, the wide limits of agreement preclude interchangeability at the individual level, suggesting that consistent positions should be used in longitudinal studies.",
+      "legalFullTextUrl": "https://www.clinicalnutritionjournal.com/article/S0261-5614(26)00126-3/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42275986/",
+      "category": "candidate",
+      "tags": [
+        "design:guideline",
+        "guideline and consensus",
+        "human clinical population"
+      ],
+      "noteTitle": "小腿圍測量姿勢與肌肉量評估一致性的全文內容整理",
+      "content": "# 小腿圍測量姿勢與肌肉量評估一致性的全文內容整理\n\n> [!summary] 30 秒掌握\n> 這篇橫斷面研究比較站立、坐姿與仰臥三種 calf circumference 測量姿勢，結果顯示平均值有小幅差異，但差異落在預期測量誤差內。臨床追蹤時可以因患者能力採用不同姿勢，前後測量仍應固定同一姿勢。\n> - 193 名住院患者接受三種姿勢測量，平均年齡 57.7 歲，52.8% 為女性。\n> - 坐姿平均小腿圍 34.4 cm，高於站立 34.0 cm 與仰臥 34.1 cm。\n> - 單一姿勢 TEM 為 0.47–0.60 cm，MDC 為 1.30–1.67 cm，三種姿勢的平均差異小於相對應 MDC。\n> - 個人層級的 Bland–Altman limits of agreement 仍偏寬，因此三種姿勢不能在縱向追蹤中任意互換。\n\n## 研究問題與背景\n\n**要點：calf circumference 是低成本的肌肉量 proxy，但測量姿勢不同，可能讓同一個人的數值出現差異。**\n\n- 骨骼肌量與功能是營養不良、cachexia、sarcopenia 和 sarcopenic obesity 評估的重要部分，也和 morbidity、mortality 有關。\n- CT、MRI、BIA 和 DXA 可提供更進階的身體組成資訊，但成本、設備與操作複雜度限制了它們在基層或資源有限環境的使用。\n- Calf circumference 簡單、非侵入性、容易在床邊執行，已被 AWGS 2025、WHO 與 GLIM 相關文件納入肌肉量或低肌肉量評估的可用工具。\n- 現有指南常要求量測最大小腿圍，卻未統一說明應站立、坐姿或仰臥。住院與臥床患者也常無法站立，因此需要知道不同姿勢能否互相比較。\n- 本研究主要目標是比較三種姿勢的數值與 agreement，次要目標是估計 technical error of measurement（TEM）與 minimal detectable change（MDC）。\n\n## 研究方法\n\n**要點：研究在巴西單一醫院納入 193 名成人，由同一位受訓且標準化的觀察者，在三種姿勢量測右小腿最大圍度。**\n\n- 設計：橫斷面測量一致性研究。\n- 場所與期間：巴西 Pelotas 的 Hospital Escola da Universidade Federal de Pelotas，2024 年 11 月至 2025 年 1 月。\n- 納入條件：18 歲以上、住院於內科病房或處於選擇性手術前階段。\n- 排除條件：完全臥床、下肢截肢或有明顯水腫。研究者以視診與觸診判定水腫。\n- 樣本數：研究依 ICC、精確度與可重複性估計至少需要 192 人，實際納入 193 人。\n- 測量工具：非彈性 BodyMetrix tape，在右小腿最大圍度測量。每個姿勢當下測 3 次，取最高值，隔天由同一觀察者重測。\n- 三種姿勢：站立時雙腳與肩同寬、重量平均分布；坐姿時膝蓋約 90 度、雙腳平放、腿部放鬆；仰臥時膝蓋約 90 度、腳與小腿成 90 度，腳跟接觸床面但不施壓。\n- 姿勢順序：四種順序隨機分派，降低先測姿勢造成的影響。\n- 分析：repeated-measures ANOVA 與 Tukey HSD、Lin's concordance correlation coefficient、Bland–Altman、cross-classification、Cohen's kappa、TEM 與 MDC。\n\n## 三層筆記\n\n### 第一層：先記住數字\n\n| 測量姿勢 | 平均 calf circumference | TEM | TEM 相對誤差 | MDC |\n|---|---:|---:|---:|---:|\n| 站立 CCort | 34.0 cm | 0.47 cm | 1.5% | 1.30 cm |\n| 坐姿 CCsit | 34.4 cm | 0.52 cm | 1.5% | 1.45 cm |\n| 仰臥 CCsup | 34.1 cm | 0.60 cm | 1.5% | 1.67 cm |\n\n姿勢間的平均差異：\n\n- 坐姿比站立高 0.39 cm。\n- 仰臥比站立高 0.06 cm，差異較小。\n- 坐姿比仰臥高 0.33 cm。\n- 姿勢間 TEM 為 0.70–0.80 cm，MDC 為 1.38–1.57 cm。\n\nAgreement 與分類結果：\n\n- 站立與坐姿 Lin's CCC = 0.993，站立與仰臥 CCC = 0.992，屬 almost perfect agreement。\n- 站立與坐姿有小幅 proportional bias，β = -0.04，p < 0.001。站立與仰臥沒有顯著 proportional bias，β = -0.02，p = 0.079。\n- 依既有 cutoff 分類時，站立與坐姿有 94.8% 同類，κ = 0.896；站立與仰臥有 95.9% 同類，κ = 0.917。\n\n### 第二層：理解「平均差異小」和「個人不能互換」可以同時成立\n\n#### 1. 坐姿值較高，但未必代表肌肉真的變多\n\n坐姿的平均值比站立高 0.39 cm，比仰臥高 0.33 cm。研究者認為姿勢造成的肌肉活動、液體移動、靜水壓與肌肉和皮下脂肪的相對位置變化，可能影響圍度。這種平均差異小於 MDC，代表觀察到的差異可能只是測量變異，不能直接解釋成身體組成改變。\n\n#### 2. 統計顯著不等於臨床上已經有意義\n\n部分姿勢比較達統計顯著，但平均差異都小於相應 MDC。MDC 的用途是判斷一次追蹤差異是否超過測量誤差。站立與坐姿的個人 limits of agreement 約為 -1.19 至 0.41 cm，站立與仰臥約為 -1.20 至 1.09 cm，個人層級的差距比平均差異更寬。\n\n#### 3. 分類一致性高，仍要固定追蹤姿勢\n\n站立轉坐姿時 10 人，5.2%，從 low CC 被重新分類為 normal CC。站立轉仰臥時 8 人，4.1%，其中 4 人由 normal 變 low，4 人由 low 變 normal。整體分類 agreement 很好，但這些重分類仍可能影響個別患者是否跨過診斷或篩檢 cutoff。\n\n### 第三層：帶回臨床量測與研究設計\n\n- 患者能站立時，站立測量仍可作為固定方法。患者無法站立時，坐姿或仰臥可以是可行替代方案。\n- 同一位患者的 longitudinal follow-up 應固定姿勢、量測側別、最大圍度定位與操作人員訓練方式。\n- 若前一次站立、下一次改成坐姿，數值差異不能直接當成肌肉量增加或減少。\n- 單次差異至少要和 MDC 對照，才比較能判斷是否超過預期測量誤差。文中不同姿勢的 MDC 約 1.38–1.57 cm。\n- 本研究排除完全臥床與水腫患者，結果不能直接套用到最虛弱、嚴重水腫或重症病房族群。\n- 對營養評估的補充轉譯：calf circumference 可以作為床邊低成本指標，但不能單獨代表整體肌肉量或 sarcopenia 診斷。解讀時仍需搭配功能、疾病狀態、體液、體重變化與其他可取得的肌肉量資訊。\n\n## 重要表格與圖形重述\n\n- Table 1 顯示 193 人中女性 102 人，52.8%；平均年齡 57.7 ± 15.0 歲，年齡範圍 18–96 歲；52.3% 年齡超過 60 歲；11.9% 過去 30 天曾住院。\n- Table 2 顯示女性三種姿勢的 calf circumference 都高於男性。全體站立 34.0 ± 4.6 cm、坐姿 34.4 ± 4.8 cm、仰臥 34.1 ± 4.7 cm。\n- Table 3 整理姿勢平均差異，坐姿比站立高 0.39 cm，坐姿比仰臥高 0.33 cm，站立與仰臥差 0.06 cm。\n- Table 4 顯示三種姿勢的低 calf circumference 分類大致一致，但仍有 4.1% 至 5.2% 重新分類。\n- Table 5 整理各姿勢單次重測的 TEM 與 MDC，Table 6 整理姿勢互相比較的 TEM 與 MDC。\n- Figures 3–5 顯示性別與 BMI 分層、Bland–Altman agreement，以及站立與坐姿之間幅度很小的 proportional bias。\n\n## 與既有知識的對照\n\n本次 Worker 閱讀流程沒有連接個人 vault_search，未進行既有筆記的逐筆比對。本文補上過去姿勢研究較少報告的 TEM 與 MDC，讓讀者能把姿勢差異和測量誤差放在同一個尺度解讀。\n\n## 概念與名詞整理\n\n- **Calf circumference**：以小腿最大圍度作為肌肉量的間接指標，不是直接測量肌肉組成。\n- **TEM**：technical error of measurement，用來描述重複測量的精密度與測量誤差。\n- **MDC**：minimal detectable change，超過此變化量時，較有機會代表差異超過測量誤差。\n- **Lin's CCC**：評估兩種測量的 concordance，數值越接近 1，代表一致程度越高。\n- **Bland–Altman limits of agreement**：呈現個人層級兩種測量方法可能差多少，不能只看平均差異。\n- **Proportional bias**：測量差異會隨數值大小改變的偏差，本研究只在站立與坐姿間看到小幅訊號。\n- **Cross-classification**：把不同姿勢依既有 cutoff 分成 low 或 normal，再觀察患者是否被重新分類。\n\n## 自我測驗\n\n> [!question]- Q1：這篇研究最實用的姿勢選擇結論是什麼？\n> 患者能站立時可以用站立姿勢。患者無法站立時，坐姿或仰臥可作為替代，但同一位患者的後續測量應維持同一姿勢。\n\n> [!question]- Q2：為什麼坐姿平均小腿圍較高，不能直接解讀成肌肉增加？\n> 坐姿比站立高 0.39 cm，但這些差異小於相對應的 MDC，落在預期測量誤差內，可能來自姿勢、肌肉活動與液體分布改變。\n\n> [!question]- Q3：CCC 很高，為什麼研究仍不建議個人層級任意互換姿勢？\n> CCC 反映整體 concordance，站立與坐姿、站立與仰臥都接近 0.99，但 Bland–Altman 的個人 limits of agreement 較寬，單一患者的數值仍可能有足以影響判讀的差距。\n\n> [!question]- Q4：這篇研究的 MDC 對追蹤有什麼用途？\n> 單一姿勢的 MDC 為 1.30–1.67 cm，姿勢間 MDC 為 1.38–1.57 cm。追蹤時可把觀察到的改變和 MDC 對照，避免把小於測量誤差的變化當成真實肌肉量變化。\n\n> [!question]- Q5：這篇研究最需要留意的外部效度限制是什麼？\n> 研究在單一醫院進行，納入住院成人，但排除完全臥床與水腫者，因此結果未必適用於最虛弱、明顯水腫或其他照護場域的患者。\n\n## Reference\n\nBenet ACV, Orlandi SP, Rocha LS, et al. Standardizing calf circumference measurements to improve muscle mass assessment. Clinical Nutrition. 2026;63:106699. DOI: 10.1016/j.clnu.2026.106699.\n\n全文證據：合法 Unpaywall OA PDF，7 頁，約 41,892 個可擷取字元。已核對 PDF 首頁題名與 DOI，並讀取 Summary、Introduction、Materials and Methods、Results、Tables 1–6、Figures 1–5、Discussion、Conclusion 與 References。",
+      "cards": [
+        {
+          "title": "姿勢差異",
+          "question": "三種 calf circumference 測量姿勢的平均值有何差異？",
+          "answer": "坐姿平均 34.4 cm，高於站立 34.0 cm 與仰臥 34.1 cm。坐姿比站立高 0.39 cm，坐姿比仰臥高 0.33 cm，站立與仰臥相差 0.06 cm。",
+          "tags": [
+            "calf circumference",
+            "營養評估",
+            "測量姿勢"
+          ]
+        },
+        {
+          "title": "MDC 判讀",
+          "question": "為什麼姿勢間的平均差異不能直接當成肌肉量改變？",
+          "answer": "單一姿勢的 MDC 為 1.30–1.67 cm，姿勢間 MDC 為 1.38–1.57 cm。研究中的平均差異小於相應 MDC，落在預期測量誤差內。",
+          "tags": [
+            "MDC",
+            "測量誤差",
+            "縱向追蹤"
+          ]
+        },
+        {
+          "title": "Agreement 與個人互換",
+          "question": "CCC 接近 0.99，為什麼三種姿勢仍不能在個人追蹤中任意互換？",
+          "answer": "CCC 代表整體一致性很好，但 Bland–Altman limits of agreement 在個人層級較寬，單一患者可能出現足以影響判讀的差距，所以追蹤仍應固定姿勢。",
+          "tags": [
+            "Lin CCC",
+            "Bland-Altman",
+            "個人層級"
+          ]
+        },
+        {
+          "title": "臨床替代姿勢",
+          "question": "患者無法站立時，研究支持怎麼做？",
+          "answer": "坐姿或仰臥可作為實務替代姿勢，但每次追蹤要維持相同姿勢、量測位置與操作方法，避免姿勢差異混入肌肉量變化。",
+          "tags": [
+            "臥床患者",
+            "臨床實務",
+            "標準化"
+          ]
+        },
+        {
+          "title": "外部效度",
+          "question": "哪些患者不能直接套用這篇研究的結果？",
+          "answer": "研究排除完全臥床與有水腫的患者，且在單一醫院進行，因此對最虛弱、明顯水腫、重症或其他照護場域患者的適用性仍需另外確認。",
+          "tags": [
+            "外部效度",
+            "水腫",
+            "frailty"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-09T04:23:58.458Z"
+    },
+    {
+      "id": "doi:10.1016/j.jgo.2026.103056:digest",
+      "paperId": "doi:10.1016/j.jgo.2026.103056",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Consensus research priorities in geriatric oncology: A Delphi study.",
+      "authors": "Drury A, O'Brien A, Sheehan S, O'Connell L, Cosgrave S, Hannan M, Smyth C, Fessele K, Harkin M, Rogers L",
+      "journal": "Nutrition guidelines and consensus (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.jgo.2026.103056",
+      "abstract": "Research priority-setting activities that meaningfully involve older adults living with or after cancer remain limited, particularly outside North America. We aimed to establish consensus on key priorities for future research in geriatric oncology survivorship. We used the modified Delphi methodology with 60 experts by experience and profession, including older adults living with or after cancer, family members/caregivers, healthcare professionals, advocacy professionals, and academics/researchers. Fifty-five research priorities generated via qualitative interviews with older adults living with and after cancer were assessed across four Delphi rounds. Consensus was defined as ≥80% agreement using a 9-point Likert scale in early rounds and dichotomous voting in final rounds. In the pooled analysis of the final consensus rounds, 37 research priorities achieved consensus for inclusion. The highest-ranked priorities focused on the development of treatment options for older adults (98%), decision-making (96%), raising healthcare professionals' awareness of potential cancer symptoms in older adults that require investigation (96%), clinical programs addressing rehabilitation (96%), and management of multimorbidity in cancer (96%) and outcomes related to cancer (96%) and frailty (96%). This study provides a consensus-based framework of research priorities for geriatric oncology survivorship, grounded in the perspectives of older adults and key stakeholders. While treatment development remains a central priority, the findings also highlight the importance of research addressing decision-making, integrated care, and rehabilitation to better meet the needs of older adults living with and after cancer.",
+      "legalFullTextUrl": "https://www.geriatriconcology.net/article/S1879-4068(26)00210-9/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42431018/",
+      "category": "recommended",
+      "tags": [],
+      "noteTitle": "高齡癌症存活者研究優先順序的 Delphi 共識全文內容整理",
+      "content": "# 高齡癌症存活者研究優先順序的 Delphi 共識全文內容整理\n\n> [!summary] 30 秒掌握\n> 這篇研究把高齡癌症存活者、家屬與照顧者、醫療專業人員、倡議工作者及研究者的意見放在同一個 modified Delphi 流程，從 55 項研究主題中找出 37 項共識優先順序。\n> - 4 個回合共有 60 人參與，前 3 回合以 9 點 Likert scale 評分，後 2 回合以 yes/no 表決。\n> - 合併第 3、4 回合後，37/55 項達到至少 80% 同意，保留為未來研究優先順序。\n> - 排名最高的主題包括高齡者癌症治療選項、治療決策、症狀辨識、共病整合照護、復原與 rehabilitation、frailty，以及生活品質。\n> - 這是一篇研究議程設定研究，呈現大家認為該研究什麼，沒有測試某一種治療或照護方案是否有效。\n\n## 研究問題與背景\n\n**要點：高齡癌症照護的研究問題，不能只圍繞腫瘤控制，也要納入功能、共病、生活目標與照顧支持。**\n\n- 65 歲以上長者占癌症診斷的大多數，但在癌症研究中的需求與經驗仍常被低估。\n- 高齡常伴隨 multimorbidity、功能下降、社會支持改變與 frailty，讓治療選擇、症狀辨識、照護連續性和 survivorship care 更複雜。\n- 既有研究優先順序常由文獻或專業人員主導，較少讓高齡癌症患者充分表達自己重視的結果。\n- 作者承接先前以高齡癌症患者觀點建立的質性研究，目標是建立 geriatric oncology survivorship 的未來研究共識。\n\n## 研究方法\n\n**要點：研究團隊用 4 回合 modified Delphi，讓不同身分的參與者逐回合看到共識程度，再決定哪些主題保留。**\n\n- 研究設計：modified Delphi。前 3 回合是反覆評分，第四回合採一次性的 cross-sectional consultation，方便偏好單次參與的高齡者加入。\n- 參與者：共有 60 人在一個或多個回合參與。第 1 至 3 回合有 29 人參與，21 人完成全部 3 回合。第四回合有 31 人。\n- 參與身分：高齡癌症患者或康復者、家屬或照顧者、醫療專業人員、倡議專業人員、學術與研究人員。\n- 地理分布：前 3 回合主要來自 Ireland 與 United Kingdom，也有 Turkey 與 United States。第四回合 31 人全部居住於 Ireland。\n- 題目來源：先前質性工作形成 7 個主題與 50 項優先順序。第一回合開放式意見後，修訂 2 項並新增 5 項，後續共評估 55 項。\n- 評分規則：第 1、2 回合使用 9 點 Likert scale，7 至 9 分代表重要，超過 80% 評為重要才算共識。第 3、4 回合改用 yes/no，合併分析時至少 80% 同意才保留。\n- 倫理：研究通過 University Research Ethics Committees 與參與醫院倫理審查，編號為 LS-21–31-Drury 與 JREC-256 Drury。\n\n## 三層筆記\n\n### 第一層：先記住研究結果\n\n| 分析回合 | 研究優先順序數 | 達成共識數 | 比例 |\n|---|---:|---:|---:|\n| Round 1 | 50 | 20 | 40.0% |\n| Round 2 | 55 | 28 | 50.9% |\n| Round 3 | 55 | 29 | 52.7% |\n| Round 4 | 55 | 47 | 85.5% |\n| Rounds 3 + 4 合併 | 55 | 37 | 67.3% |\n\n合併分析排名最高的 7 項主題如下：\n\n1. 支持發展高齡癌症患者的新治療選項，98.2%。\n2. 促進醫療專業人員辨識需要進一步檢查的癌症症狀，96.5%。\n3. 了解高齡者癌症治療的效果與結果，96.4%。\n4. 了解年齡、社會情境與功能狀態如何影響可取得的治療選項，96.4%。\n5. 發展可在癌症治療與追蹤期間管理共病的正式整合照護服務，96.4%。\n6. 發展協助高齡者在治療後身體、心理與社會復原的方案，96.3%。\n7. 了解高齡癌症患者合併 frailty 時的照護與支持需求，96.3%。\n\n### 第二層：理解各主題如何連在一起\n\n#### 1. 治療選擇與共同決策\n\n癌症治療主題在各回合都維持高共識。參與者重視新治療選項，也重視治療副作用偏好、治療結果、advance care planning，以及年齡、社會情境和功能狀態對治療選擇的影響。作者將這些結果連到高齡者常把生活品質、功能與個人生活目標放在延長存活之前的照護需求。\n\n#### 2. 症狀辨識與轉介\n\n高齡者可能同時有多種慢性病、功能下降或 frailty，使癌症症狀容易被當成原有疾病或老化現象。高共識主題包含提高大眾對症狀的認識，以及讓 general practitioners、護理師、物理治療師等醫療人員更能辨識需要調查的症狀。\n\n#### 3. 共病、frailty 與照護整合\n\n研究優先順序包含維持生活品質、正式整合照護、comprehensive geriatric assessment、frailty 評估、medication review 與 medication reconciliation。這些題目共同指向一個問題：癌症治療、共病、功能和藥物風險需要放在同一個照護流程中處理。\n\n#### 4. Survivorship、復原與生活品質\n\n參與者把治療後的身體、心理和社會復原列為高順位，也重視癌症對日常生活、自我照顧、行走、工作、興趣、財務和症狀自我管理的影響。研究議程從單一疾病結果延伸到 independence、participation、quality of life 與照護可近性。\n\n#### 5. 家屬、照顧者與社會支持\n\n家屬與照顧者的主題在早期回合順位較低，第四回合加入較多家屬與照顧者後，部分題目達到共識。保留的題目包括照顧者心理影響、資訊需求、psychosocial support，以及癌症如何改變患者和家屬間的關係。\n\n#### 6. COVID-19 與 patient and public involvement\n\nCOVID-19 相關題目與 patient and public involvement 在早期回合較少達到共識。合併結果中，COVID-19 公共衛生措施、照顧者心理影響，以及部分 PPI 題目仍未達 80%。作者提醒，這不等於 PPI 沒有價值，也可能反映參與者當下更想處理治療、共病、復原和日常照護問題。\n\n### 第三層：拿來判斷研究與實務問題\n\n- 這篇文章能回答「高齡癌症存活者與相關利害關係人認為哪些研究值得優先做」，不能回答「哪一種營養、復健或癌症治療已經證實有效」。\n- 第四回合讓 75 至 84 歲的高齡者有較多代表性，增加生活經驗的納入，但第四回合全數來自 Ireland，外推到其他地區仍要保留疑問。\n- 參與者主要透過社群媒體與組織網絡招募，可能漏掉沒有使用這些管道的人。\n- Delphi 結果反映參與者的判斷。不同群組的排序並不完全相同，醫療專業人員與學術研究者和合併結果的差異特別值得在後續研究中保留。\n- 對營養照護的補充轉譯：這份議程可用來發展高齡癌症 survivorship 的營養研究問題，例如共病與 frailty 的營養評估、治療副作用下的飲食支持、功能與生活品質結果、照顧者參與，以及整合 oncology、geriatric、primary care 和 community care 的照護模式。這些是依本文優先順序延伸的研究方向，並非本文直接測試的效果。\n\n## 重要表格重述\n\n- Table 1 把研究議程分成 7 類：癌症症狀早期辨識、癌症治療、共病評估與管理、癌症存活者未滿足需求、COVID-19、家屬與照顧者、patient and public involvement。\n- Table 2 顯示各回合參與者的國家、身分、年齡、性別、職業與癌症照護經驗。前 3 回合的高齡患者多為 65 至 74 歲，第四回合出現較多 75 至 84 歲參與者。\n- Table 3 是每一項優先順序在 4 回合的比例。Round 3 與 Round 4 合併後，55 項中 37 項達到至少 80% 同意。\n- Table 4 把合併結果拆成高齡患者、照顧者、醫療專業人員、倡議工作者與學術研究者。群組間的差異提醒讀者，總體共識會掩蓋部分身分群組的不同需求。\n- Appendix 1 提供各主題達成共識的數量，Appendix 2 整理開放式意見與新增題目，Appendix 3 提供分組分析。\n\n## 與既有知識的對照\n\n本次 Worker 閱讀流程沒有連接個人 vault_search，未進行既有筆記的逐筆比對。本文明確承接 Drury 等人的前期質性研究，並把患者觀點轉換成多方利害關係人共同評分的研究議程。\n\n## 概念與名詞整理\n\n- **Geriatric oncology**：處理高齡者癌症照護，需同時考量癌症、老化、共病、功能與社會支持。\n- **Cancer survivorship**：涵蓋治療中與治療後的長期照護，不限於腫瘤是否控制。\n- **Modified Delphi**：透過多回合匿名或半匿名評分逐步形成共識，本研究加上讓高齡者單次參與的第四回合。\n- **Consensus threshold**：本研究以超過或至少 80% 的重要性評分或保留票數作為共識門檻。\n- **Comprehensive geriatric assessment**：把疾病、功能、心理、社會與支持需求放在同一個高齡評估框架中。\n- **Multimorbidity**：同一位患者同時有多個健康問題，會影響治療選擇、藥物、功能與照護協調。\n- **Frailty**：面對壓力事件時的脆弱狀態，本文把它視為高齡癌症照護與研究設計需要納入的核心條件。\n- **Patient and public involvement**：患者與大眾參與研究設計、執行或優先順序設定，不等同於研究者單方面諮詢。\n\n## 自我測驗\n\n> [!question]- Q1：這篇研究為什麼採用 modified Delphi，而非只做一次問卷？\n> 因為研究要讓參與者看到前一回合的共識程度，再逐步決定題目是否保留。第四回合另採 cross-sectional consultation，讓偏好單次參與的高齡者也能加入。\n\n> [!question]- Q2：55 項題目在合併第 3、4 回合後，為什麼只保留 37 項？\n> 研究預先設定至少 80% 同意才算共識。合併結果有 37/55 項達到門檻，其他題目未達到此標準，不能只因某一回合的支持度較高就列為共同優先順序。\n\n> [!question]- Q3：排名最高的研究方向只有開發新治療嗎？\n> 不是。新治療達 98.2%，但症狀辨識、治療結果、共同決策、共病整合照護、復原和 frailty 也都達 96% 左右，顯示參與者把照護流程與生活結果放在治療選項旁邊一起看。\n\n> [!question]- Q4：第四回合對研究代表性帶來什麼改變？\n> 第四回合增加 75 至 84 歲高齡者的參與，讓較高齡的生活經驗被納入。這一回合所有參與者都住在 Ireland，因此地區代表性仍有限。\n\n> [!question]- Q5：讀者使用這篇文章時，最需要避免哪個誤讀？\n> 不能把研究優先順序當成治療效果證據。這篇文章告訴我們應優先研究哪些問題，沒有比較任何介入，也沒有證明整合照護、復健或營養方案已經有效。\n\n## Reference\n\nDrury A, O'Brien A, Sheehan S, et al. Consensus research priorities in geriatric oncology: A Delphi study. Journal of Geriatric Oncology. 2026;17:103056. DOI: 10.1016/j.jgo.2026.103056.\n\n全文證據：合法 Unpaywall OA PDF，18 頁，約 79,739 個可擷取字元。已核對 PDF 首頁題名與 DOI，並讀取 Abstract、Introduction、Methods、Results、Tables 1–4、Discussion、Limitations、Conclusion 與 References。",
+      "cards": [
+        {
+          "title": "Delphi 研究設計",
+          "question": "這篇研究的 modified Delphi 和一般一次性問卷有什麼差異？",
+          "answer": "研究分成 4 回合，前面回合先評分，後面回合讓參與者看到共識程度再決定題目是否保留。第四回合採單次 cross-sectional consultation，讓偏好單次參與的高齡者也能加入。",
+          "tags": [
+            "geriatric oncology",
+            "Delphi",
+            "研究設計"
+          ]
+        },
+        {
+          "title": "37 項研究共識",
+          "question": "55 項研究優先順序在合併第 3、4 回合後如何判定是否保留？",
+          "answer": "研究以至少 80% 同意作為門檻，合併第 3、4 回合後 37/55 項達到共識，比例為 67.3%。",
+          "tags": [
+            "研究優先順序",
+            "consensus",
+            "統計結果"
+          ]
+        },
+        {
+          "title": "高齡癌症照護重點",
+          "question": "除了開發新治療，高齡癌症研究還有哪些高順位方向？",
+          "answer": "症狀辨識、治療結果、共同決策、年齡與功能對治療選擇的影響、共病整合照護、治療後身心社會復原，以及 frailty 相關照護需求都達到約 96% 的高同意度。",
+          "tags": [
+            "survivorship",
+            "共病",
+            "frailty",
+            "共同決策"
+          ]
+        },
+        {
+          "title": "第四回合的代表性",
+          "question": "第四回合如何改善參與者組成，又留下什麼限制？",
+          "answer": "第四回合增加 75 至 84 歲高齡者的參與，補足早期回合高齡患者多集中在 65 至 74 歲的情況。這一回合 31 人全部來自 Ireland，地區外推性仍有限。",
+          "tags": [
+            "高齡者",
+            "代表性",
+            "外部效度"
+          ]
+        },
+        {
+          "title": "共識不等於療效",
+          "question": "為什麼不能把這篇研究的優先順序當成治療有效性的證據？",
+          "answer": "研究是在設定未來研究議程，沒有比較介入、測量治療效果或提供臨床試驗結果。它能指出值得研究的問題，不能單獨支持營養、復健、整合照護或癌症治療的療效判斷。",
+          "tags": [
+            "證據層級",
+            "研究議程",
+            "臨床判讀"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-09T04:20:13.775Z"
+    },
     {
       "id": "doi:10.1038/s41569-026-01312-9:digest",
       "paperId": "doi:10.1038/s41569-026-01312-9",
