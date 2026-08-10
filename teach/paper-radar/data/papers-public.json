@@ -1,7 +1,190 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T12:46:44.320Z",
+  "generatedAt": "2026-08-10T05:01:19.104Z",
   "papers": [
+    {
+      "id": "doi:10.1016/j.clnu.2026.106628:digest",
+      "paperId": "doi:10.1016/j.clnu.2026.106628",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Associations between source-specific nitrate and nitrite intakes and metabolic dysfunction-associated steatotic liver disease in two prospective cohorts.",
+      "authors": "Bondonno N, Pokharel P, Parmenter B, Zhong L, Erichsen D, Schullehner J, Frederiksen K, Kyrø C, Hendriksen P, Hodgson J, Sigsgaard T, Dahm C, Tjønneland A, Thompson A, Kühn T, Cassidy A, Olsen A, Bondonno C",
+      "journal": "Clinical Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.clnu.2026.106628",
+      "abstract": "Dietary nitrate and nitrite may have source-dependent effects on liver health: plant-sourced nitrate may confer hepatoprotective benefits via its conversion to nitric oxide, whereas nitrate and nitrite from animal foods, processed meats, or contaminated drinking water may promote liver injury via their conversion to N-nitrosamines. We aimed to examine associations between source-specific nitrate and nitrite intakes and incident metabolic dysfunction-associated steatotic liver disease (MASLD) in two large cohorts. Secondary aims were to assess associations with liver MRI biomarkers and to evaluate whether nitric oxide-pathway gene variants modify associations with plant-sourced nitrate/nitrite. We analysed 53,854 participants from the Danish Diet, Cancer and Health (DCH) cohort and 197,198 from the UK Biobank. Source-specific nitrate and nitrite intakes were estimated using food frequency questionnaires (DCH) and 24-h dietary assessments (UK Biobank) in combination with food composition databases and national water quality data. Associations with incident cases of severe MASLD-identified from hospital records-were examined using multivariable-adjusted Cox models, with fixed-effects meta-analysis. In the UK Biobank, analyses were stratified by nitric oxide pathway variants, and associations with liver imaging biomarkers were assessed using generalised regression models. Over 25.1 years (DCH) and 13.5 years (UK Biobank), 166 and 1768 participants developed MASLD, respectively. Moderate plant-sourced nitrate intake was associated with lower MASLD rates [pooled HRQ3vsQ1 (95%CI): 0.84 (0.76-0.94)] with similar patterns for plant- and vegetable-sourced nitrite. No association was observed for animal-sourced nitrate, whereas higher intakes of animal-sourced nitrite [HRQ5vsQ1: 1.23 (1.09-1.39)] and additive permitted meat-sourced nitrate [HRT3vsT1: 1.21 (1.05-1.38)] were associated with higher rates. Plant nitrate intake was associated with more favourable liver imaging biomarkers, while animal- and additive-sourced exposures were linked to less favourable profiles. Protective associations of plant-sourced nitrate and nitrite were modified by nitric oxide pathway genetic variants. The health impact of nitrate and nitrite depends on source: moderate plant-sourced intakes (∼1 cup baby spinach/day) were linked to lower MASLD rates, while higher intakes from animal and additive sources were associated with higher rates.",
+      "legalFullTextUrl": "https://doi.org/10.1016/j.clnu.2026.106628",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41923663/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "clinical nutrition technology",
+        "design:meta-analysis",
+        "human clinical population",
+        "precision nutrition"
+      ],
+      "noteTitle": "硝酸鹽與亞硝酸鹽食物來源和 MASLD 風險研究的全文內容整理",
+      "content": "# 硝酸鹽與亞硝酸鹽食物來源和 MASLD 風險研究的全文內容整理\n\n## 第一層：一分鐘掌握\n\n這是一篇兩個大型前瞻性世代的觀察性研究。作者分析 53,845 名 DCH 參與者與 197,198 名 UK Biobank 參與者，追蹤飲食來源不同的 nitrate/nitrite 和後續 MASLD 診斷的關聯。中等量植物來源 nitrate、植物來源 nitrite 與較低 MASLD 率相關，動物來源 nitrite 與加工肉品添加 nitrate 則和較高 MASLD 率相關。研究也在 UK Biobank 的 13,482 人 MRI 子樣本看到相近方向的肝臟脂肪與 cT1 指標。\n\n最重要的閱讀限制是：研究沒有隨機分配飲食，食物攝取是 FFQ 或有限次數的 24 小時回憶，沒有 nitrate/nitrite 生物標記驗證，MASLD 主要靠醫院紀錄，因此結果是關聯線索，不能直接當成因果或個人劑量處方。\n\n## 第二層：結構化理解\n\n### 研究問題\n\n作者想知道 nitrate/nitrite 的食物來源是否改變和 MASLD 的關聯。暴露分為植物來源、動物來源、加工肉品添加來源，DCH 另分析飲水來源。次要問題包括肝臟 MRI 指標，以及 NOS3、GUCY1A3 等 nitric-oxide pathway 基因變異是否修飾植物來源攝取的關聯。\n\n### 研究對象與設計\n\n- DCH：50–65 歲、53,845 人，最長追蹤 25.1 年，166 例 MASLD。\n- UK Biobank：197,198 人，最長追蹤 13.5 年，1,768 例 MASLD。\n- 結果來源：醫院或死亡資料庫中的 ICD 診斷，較容易抓到嚴重或需要就醫的病例。\n- MRI 子研究：13,482 人，測量 PDFF 與 corrected T1，屬橫斷面影像分析。\n\n### 暴露怎麼估計\n\nDCH 使用 192 項食物半定量 FFQ，回顧過去 12 個月。UK Biobank 使用 Oxford WebQ 24 小時飲食回憶，將可用回憶平均。兩個研究都把食物攝取量和 nitrate/nitrite 食物成分資料相乘，並使用蔬菜煮熟後 50% 保留的假設。DCH 的飲水 nitrate 則結合住宅地址與國家飲水監測資料估計。\n\n### 主要數字\n\n| 比較 | 合併結果 | 記住什麼 |\n|---|---:|---|\n| 植物來源 nitrate，Q3 vs Q1 | HR 0.84，95% CI 0.76–0.94 | 中等攝取的關聯較低，最高分位數沒有繼續下降 |\n| 植物來源 nitrite，Q3 vs Q1 | HR 0.87，95% CI 0.79–0.96 | 方向和植物來源 nitrate 相近 |\n| 蔬菜來源 nitrate，Q3 vs Q1 | HR 0.83，95% CI 0.73–0.94 | 和較低 MASLD 率相關 |\n| 動物來源 nitrate，Q5 vs Q1 | HR 1.04，95% CI 0.92–1.17 | 沒有明確關聯 |\n| 動物來源 nitrite，Q5 vs Q1 | HR 1.23，95% CI 1.09–1.39 | 和較高 MASLD 率相關 |\n| 加工肉品添加 nitrate，T3 vs T1 | HR 1.21，95% CI 1.05–1.38 | 和較高 MASLD 率相關 |\n\n作者也報告植物來源 nitrate 最高分位數和較低 cT1、PDFF 相關。這些 MRI 差異小於作者引用的臨床治療監測門檻，且影像研究為橫斷面，不能視為治療效果。\n\n### 作者提出的機轉\n\n植物 nitrate 可經 nitrate–nitrite–nitric oxide pathway 形成 NO。植物食物也含 vitamin C、vitamin E、folate 與 polyphenols，可能影響 nitrosation。加工肉品與動物來源 nitrite 則可能增加 N-nitrosamine 形成。這些是生物學合理性，搭配觀察性資料可支持假說，仍不足以證明某個化合物單獨造成 MASLD。\n\n### 作者承認的限制\n\n1. 觀察性設計不能排除殘餘混雜。\n2. FFQ、24 小時回憶與食物成分資料都有暴露誤差，且沒有生物標記驗證。\n3. 飲食與共變項變化未充分追蹤。\n4. ICD code 會漏掉未就醫、未被編碼或較輕的 MASLD。\n5. MRI 參與者是較健康的 UK Biobank 子樣本，飲食和影像之間也相隔數年。\n6. 研究樣本多為 Caucasian，跨族群適用性有限。\n\n## 第三層：教學式深讀\n\n### 這篇研究真正能回答什麼\n\n它能回答「在兩個既有世代中，不同來源的 nitrate/nitrite 攝取和後續嚴重 MASLD 診斷是否呈現不同統計關聯」。兩個世代的方向大致一致，植物食物和加工肉品的來源對比也有 MRI 指標與基因交互作用作為補充線索，因此研究假說有一定連貫性。\n\n### 它不能回答什麼\n\n它不能回答「把 nitrate 補充品加到飲食中是否能預防 MASLD」、「吃到某個 mg/day 就會得到保護」、「只要減少 nitrate 就能改善肝病」，也不能排除植物來源結果其實反映整體飲食、活動量、教育、吸菸與社經條件。飲水 nitrate 的訊號又較像總飲水量，不能直接解讀成水中 nitrate 濃度的毒性。\n\n### 怎麼讀 HR 0.84\n\nHR 0.84 代表在這個模型、這兩個世代與這個分位數比較下，Q3 相對 Q1 的事件率估計約低 16%。95% CI 0.76–0.94 沒有跨過 1，代表統計不確定性下仍偏向較低關聯。它不是個人的風險保證，也不是「吃一杯菠菜就降低 16%」的意思。Q1、Q3 是各世代內的相對分組，不能直接把兩個世代的 mg/day 當成相同劑量。\n\n### 對營養衛教的轉譯\n\n可把結果放進蔬菜、豆類、全穀與少加工飲食的整體脈絡。對加工肉品的限制具有獨立的飲食健康理由。個案建議仍要整合體重、酒精、糖尿病、血脂、血壓、肝纖維化評估與整體飲食，不能把 nitrate/nitrite 單獨抽出來做劑量指示。要把研究訊息轉成 MASLD 預防建議，仍需要隨機飲食介入、重複測量、生物標記與完整臨床或影像結果。\n\n## 自我測驗卡\n\n### 卡 1\n\n**問題**：這篇研究的設計能否證明植物來源 nitrate 預防 MASLD？\n\n**答案**：不能。它是兩個前瞻性世代的觀察性分析，能提供時間順序與關聯線索，仍可能有殘餘混雜、暴露誤差與疾病漏案。\n\n### 卡 2\n\n**問題**：植物來源 nitrate 的主要合併結果是多少？\n\n**答案**：Q3 相對 Q1 的 pooled HR 是 0.84，95% CI 0.76–0.94。這代表模型中的相對事件率估計較低，不等於個人一定降低 16%。\n\n### 卡 3\n\n**問題**：為什麼研究不能把 Q3 的 mg/day 當作所有人適用的飲食劑量？\n\n**答案**：Q1 到 Q5 是各世代內分位數，兩個世代的飲食工具、攝取分布與族群不同，且食物成分估計有誤差。分位數結果不能直接轉成個人處方。\n\n### 卡 4\n\n**問題**：MRI 的 PDFF 與 cT1 結果扮演什麼角色？\n\n**答案**：它們是肝脂肪及複合肝臟發炎、纖維化的影像指標，可作為主要 MASLD 事件結果的補充。這部分是 UK Biobank 子樣本的橫斷面分析，不是隨機治療後的改善證據。\n\n### 卡 5\n\n**問題**：閱讀這篇研究時最安全的臨床轉譯是什麼？\n\n**答案**：把結果放進增加蔬菜與植物性食物、降低加工肉品、改善整體代謝飲食的脈絡，不能單獨依 nitrate/nitrite 數值替個案開立補充量或宣稱治療 MASLD。\n\n## 全文與流程證據\n\n- 已依安裝的 paper-digest skill 閱讀合法 CC BY publisher PDF 全文 15 頁，包含 Abstract、Methods、Results、Discussion、資金、利益衝突與 References。\n- PDF：C:[local path removed]\n- PDF 證據：15 頁，4590072 bytes，SHA-256 62e8845a6621e2d65138023bdafae6b8302eeab86dfebab5cda361f5251bc7bf\n- DOI 與題名通過 Worker identity check，全文取得路線為 OpenAIRE repository，未使用機構登入、代理、VPN、CAPTCHA bypass 或非合法來源。",
+      "cards": [
+        {
+          "title": "",
+          "question": "這篇研究的設計能否證明植物來源 nitrate 預防 MASLD？",
+          "answer": "不能，這是兩個前瞻性世代的觀察性分析。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "植物來源 nitrate 的主要合併結果是多少？",
+          "answer": "Q3 相對 Q1 的 pooled HR 是 0.84，95% CI 0.76–0.94。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "為什麼 Q3 的 mg/day 不能當作所有人適用的飲食劑量？",
+          "answer": "兩個世代的分位數、飲食工具、攝取分布與暴露估計不同。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "MRI 的 PDFF 與 cT1 結果扮演什麼角色？",
+          "answer": "它們是補充性的肝臟影像指標，且來自 UK Biobank 子樣本的橫斷面分析。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "最安全的臨床轉譯是什麼？",
+          "answer": "放進增加蔬菜、降低加工肉品與改善整體飲食的脈絡，不能單獨開 nitrate/nitrite 劑量。",
+          "tags": []
+        }
+      ],
+      "completedAt": "2026-08-10T04:49:26.137Z"
+    },
+    {
+      "id": "doi:10.1016/j.clnu.2026.106628:review",
+      "paperId": "doi:10.1016/j.clnu.2026.106628",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Associations between source-specific nitrate and nitrite intakes and metabolic dysfunction-associated steatotic liver disease in two prospective cohorts.",
+      "authors": "Bondonno N, Pokharel P, Parmenter B, Zhong L, Erichsen D, Schullehner J, Frederiksen K, Kyrø C, Hendriksen P, Hodgson J, Sigsgaard T, Dahm C, Tjønneland A, Thompson A, Kühn T, Cassidy A, Olsen A, Bondonno C",
+      "journal": "Clinical Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.clnu.2026.106628",
+      "abstract": "Dietary nitrate and nitrite may have source-dependent effects on liver health: plant-sourced nitrate may confer hepatoprotective benefits via its conversion to nitric oxide, whereas nitrate and nitrite from animal foods, processed meats, or contaminated drinking water may promote liver injury via their conversion to N-nitrosamines. We aimed to examine associations between source-specific nitrate and nitrite intakes and incident metabolic dysfunction-associated steatotic liver disease (MASLD) in two large cohorts. Secondary aims were to assess associations with liver MRI biomarkers and to evaluate whether nitric oxide-pathway gene variants modify associations with plant-sourced nitrate/nitrite. We analysed 53,854 participants from the Danish Diet, Cancer and Health (DCH) cohort and 197,198 from the UK Biobank. Source-specific nitrate and nitrite intakes were estimated using food frequency questionnaires (DCH) and 24-h dietary assessments (UK Biobank) in combination with food composition databases and national water quality data. Associations with incident cases of severe MASLD-identified from hospital records-were examined using multivariable-adjusted Cox models, with fixed-effects meta-analysis. In the UK Biobank, analyses were stratified by nitric oxide pathway variants, and associations with liver imaging biomarkers were assessed using generalised regression models. Over 25.1 years (DCH) and 13.5 years (UK Biobank), 166 and 1768 participants developed MASLD, respectively. Moderate plant-sourced nitrate intake was associated with lower MASLD rates [pooled HRQ3vsQ1 (95%CI): 0.84 (0.76-0.94)] with similar patterns for plant- and vegetable-sourced nitrite. No association was observed for animal-sourced nitrate, whereas higher intakes of animal-sourced nitrite [HRQ5vsQ1: 1.23 (1.09-1.39)] and additive permitted meat-sourced nitrate [HRT3vsT1: 1.21 (1.05-1.38)] were associated with higher rates. Plant nitrate intake was associated with more favourable liver imaging biomarkers, while animal- and additive-sourced exposures were linked to less favourable profiles. Protective associations of plant-sourced nitrate and nitrite were modified by nitric oxide pathway genetic variants. The health impact of nitrate and nitrite depends on source: moderate plant-sourced intakes (∼1 cup baby spinach/day) were linked to lower MASLD rates, while higher intakes from animal and additive sources were associated with higher rates.",
+      "legalFullTextUrl": "https://doi.org/10.1016/j.clnu.2026.106628",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41923663/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "clinical nutrition technology",
+        "design:meta-analysis",
+        "human clinical population",
+        "precision nutrition"
+      ],
+      "noteTitle": "硝酸鹽與亞硝酸鹽食物來源和 MASLD 風險研究的品質評讀",
+      "content": "# 抗性來源硝酸鹽與亞硝酸鹽攝取和 MASLD 風險研究的品質評讀\n\n## 品質快照\n\n- **研究問題**：在兩個前瞻性世代中，植物、動物、加工肉品添加來源與飲水來源的 nitrate/nitrite 攝取，和後續 metabolic dysfunction-associated steatotic liver disease（MASLD）發生率是否有不同關聯。\n- **研究設計**：兩個大型前瞻性世代研究的觀察性分析。Danish Diet, Cancer and Health（DCH）納入 53,845 人，UK Biobank 納入 197,198 人。DCH 追蹤最長 25.1 年，UK Biobank 追蹤最長 13.5 年。\n- **主要結果**：住院或死亡資料庫中的 MASLD 診斷。這個定義較接近需要醫療接觸的嚴重病例，不能代表社區中全部 MASLD。\n- **暴露測量**：DCH 使用 192 項食物半定量 FFQ，UK Biobank 使用 Oxford WebQ 24 小時飲食回憶，搭配食物成分資料與丹麥飲水資料。兩個世代的來源分組、飲食工具與攝取分布不同，因此主要比較各世代內的分位數。\n- **主要模型**：Cox proportional hazards model、restricted cubic splines、兩世代 common-effect meta-analysis。模型調整人口學、生活型態、社經條件與其他食物群組。\n- **全文狀態**：已取得並閱讀合法 CC BY publisher PDF 15 頁，DOI 與題名相符，全文含 Abstract、Methods、Results、Discussion、資金、利益衝突與 References。\n\n## 研究結果\n\n| 暴露來源 | 主要比較 | 合併 HR（95% CI） | 解讀 |\n|---|---:|---:|---|\n| 植物來源 nitrate | Q3 vs Q1 | 0.84（0.76–0.94） | 中等攝取和較低的住院診斷 MASLD 率相關，Q5 未呈現額外下降 |\n| 植物來源 nitrite | Q3 vs Q1 | 0.87（0.79–0.96） | 方向和植物來源 nitrate 類似 |\n| 蔬菜來源 nitrate | Q3 vs Q1 | 0.83（0.73–0.94） | 和較低 MASLD 率相關 |\n| 動物來源 nitrate | Q5 vs Q1 | 1.04（0.92–1.17） | 未見明確關聯 |\n| 動物來源 nitrite | Q5 vs Q1 | 1.23（1.09–1.39） | 和較高 MASLD 率相關 |\n| 加工肉品添加 nitrate | T3 vs T1 | 1.21（1.05–1.38） | 和較高 MASLD 率相關 |\n\n飲水 nitrate 在 DCH 中的關聯較高，但作者指出訊號較像總飲水量，而非水中 nitrate 濃度本身。UK Biobank 13,482 人的 MRI 子研究中，植物來源 nitrate 最高分位數和較低 cT1、較低 PDFF 相關。作者也報告 NO pathway 基因變異可能修飾植物來源暴露的關聯，這屬探索性機轉線索，不能當成治療效果證明。\n\n## 白話導讀\n\n這篇研究比較像長期飲食觀察地圖。結果顯示，吃進 nitrate 或 nitrite 的食物來源可能和結果一起變化，植物食物來源與較好的 MASLD 指標同時出現，加工肉品添加來源與動物來源 nitrite 則出現較差的方向。研究沒有把人隨機分配到某種飲食，也沒有用生物標記確認每個人的實際 nitrate/nitrite 暴露，所以不能直接說 nitrate 造成或預防 MASLD。臨床上可以把訊息落在增加蔬菜、降低加工肉品的飲食型態，不能把單一化合物或單一食物數值當成處方。\n\n## 方法與偏差檢查\n\n1. 兩個世代的前瞻設計、長期追蹤、低失訪與獨立重複資料是研究優點。\n2. FFQ 和有限次數的 24 小時回憶都有測量誤差。食物中的 nitrate/nitrite 會受到品種、栽培、儲存與烹調影響，文中也承認沒有生物標記驗證。\n3. 暴露只在基線或飲食回憶期間估計，沒有充分處理後續飲食、體重、糖尿病與生活型態變化。\n4. 植物來源攝取和較高教育、較多活動、較少吸菸及較健康整體飲食同時出現。多變項調整能減少混雜，仍不能排除健康生活型態造成的殘餘混雜。\n5. 以醫院紀錄 ICD code 找 MASLD 會漏掉未就醫或未被正確編碼的個案，且事件數在 DCH 只有 166 例。\n6. MRI 結果為 UK Biobank 子樣本的橫斷面分析，參與影像回診者通常比整體樣本健康，且影像與飲食評估相隔數年。\n7. 主要樣本多為 Caucasian，對亞洲、不同飲食文化、已確診 MASLD 患者與高暴露族群的適用性有限。\n\n## GRADE 與推論漏洞\n\n- **GRADE**：Low 起始，risk of bias serious、indirectness serious、imprecision serious，inconsistency 與 publication bias not serious，沒有升級條件。依安裝的 paper-review skill 所附 grade_judge.py 計算，總降級 -3，最後為 **Very low（⊕◯◯◯）**。\n- **推論檢查**：依 argdown_lint.py 執行，偵測到 2 個預期中的推論缺口：association-to-causation 與 surrogate-to-hard-endpoint。文章的觀察性關聯、影像替代結果與生物機轉都能支持研究假說，但不能跨越到「食物來源造成 MASLD 變化」或「依 nitrate/nitrite 劑量開立飲食處方」的因果結論。\n- **因果缺口**：殘餘混雜、暴露誤分類、嚴重病例選擇、MRI 子樣本選擇與反向因果仍會影響估計。飲水量和 MASLD 的訊號尤其需要避免直接解讀成水中 nitrate 的毒性。\n\n## 對營養實務的可用程度\n\n- 可用作飲食型態衛教的輔助證據：增加蔬菜與植物性食物，減少加工肉品，符合既有代謝健康方向。\n- 不能依本研究單獨設定 nitrate 或 nitrite 的個人補充量、停用某個天然食物，或宣稱可治療 MASLD。\n- 評估個案時仍應看體重變化、酒精、糖尿病、血脂、血壓、整體飲食、活動量與肝纖維化風險，不能只看單一來源的 nitrate/nitrite。\n- 需要隨機飲食介入、重複飲食與生物標記測量、完整 MASLD 影像或臨床診斷，以及不同族群的驗證研究。\n\n## 來源與可追溯性\n\n- 主要全文：https://pubmed.ncbi.nlm.nih.gov/41923663/\n- 合法全文來源：OpenAIRE repository 轉存的 CC BY publisher PDF，檔案 C:[local path removed]\n- 檔案證據：15 頁，4590072 bytes，SHA-256 62e8845a6621e2d65138023bdafae6b8302eeab86dfebab5cda361f5251bc7bf\n- 主要文獻核對：DOI 10.1038/ismej.2012.4、10.1371/journal.pone.0015046、10.1080/19490976.2024.2367301 等參考文獻已通過 Crossref DOI existence gate。\n- 讀取流程：已依安裝的 paper-review skill 完成全文閱讀、品質快照、RoB/GRADE、推論漏洞、來源核對與白話導讀；argdown_lint.py 的 2 個警示已納入本筆記；未使用機構登入、代理、VPN、CAPTCHA bypass 或非合法全文來源。",
+      "cards": [],
+      "completedAt": "2026-08-10T04:46:56.621Z"
+    },
+    {
+      "id": "doi:10.1128/spectrum.00763-26:digest",
+      "paperId": "doi:10.1128/spectrum.00763-26",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Resistant starch types 2 and 4 induce distinct and reversible changes in the human gut microbiome.",
+      "authors": "Piperni E, Blanco-Míguez A, Mengoni C, Piccinno G, Punčochář M, Ren J, Segata N, Asnicar F, Poole A",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.1128/spectrum.00763-26",
+      "abstract": "Resistant starch (RS) can confer benefits for the gut microbiome and host cardiometabolic health. However, different types of resistant starch can differentially affect gut microbiome composition and functional capacity, especially given interindividual variability in responses, thus limiting the application of resistant starch in dietary strategies. We used shotgun metagenomics to perform a secondary analysis of samples collected during a previously reported randomized clinical trial to determine the effects of dietary supplementation with two types of resistant starch (RS2 and RS4) and a digestible starch (control) on the gut microbiome. Both resistant starch types induced distinct but transient alterations in the gut microbial community. RS2 enriched the keystone degrader, Ruminococcus bromii, and Blautia glucerasea, whereas RS4 favored Parabacteroides distasonis and known but uncharacterized microbial species such as a Lachnospiraceae bacterium. Moreover, we detected strain-level differences in the response of Bifidobacterium adolescentis to resistant starch. Microbial functional profiling revealed an enhanced capacity for complex carbohydrate utilization following resistant starch intake, including increased abundance of specific α-amylases, glycoside hydrolases, starch utilization systems, and other currently uncharacterized genes. Identifying the bacterial strains and genes that respond to different RS types will help to more accurately predict who will benefit from a given RS type. Our findings demonstrate that RS2 and RS4 differentially shape microbial ecology and metabolic capacity and provide a foundation for microbiome-informed personalization of resistant starch-based dietary interventions.IMPORTANCEDietary intake influences human health by modulating metabolism, partly by shaping the microbiota inhabiting the gut. Resistant starch (RS), a dietary fiber, is associated with metabolic improvements. While previous research has explored how RS alters the gut microbiome, RS comprises five types with differing physical and chemical characteristics, and the distinct impacts of each type on the microbiome and host health have not been fully characterized, particularly using high-resolution approaches such as shotgun metagenomics. In this secondary analysis of samples from a longitudinal crossover intervention study, we link dietary supplementation with RS2 and RS4 with distinct and transient changes in the composition and functional potential of the human gut microbiome. Specifically, we identify species that increase in abundance with each RS type, accompanied by increases in genes and pathways involved in complex carbohydrate utilization. The findings support the development of precision nutrition strategies utilizing RS supplementation to improve metabolic health.This study is registered with ClinicalTrials.gov as NCT05743790.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42496113/",
+      "category": "recommended",
+      "tags": [
+        "design:longitudinal",
+        "herbs phytochemicals supplements",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "obesity and metabolism",
+        "precision nutrition"
+      ],
+      "noteTitle": "抗性澱粉 RS2 與 RS4 對腸道菌相的可逆影響研究的全文內容整理",
+      "content": "# 抗性澱粉 RS2 與 RS4 對腸道菌相的可逆影響研究的全文內容整理\n\n> [!summary] 30 秒層\n> 不同抗性澱粉類型會在短期內改變不同的腸道菌種與碳水利用功能，但停用 5 天後多數訊號回到介入前。這篇研究整理的是 microbiome composition 與 functional potential，尚未證明血糖、血脂、體重或疾病結果改善。\n> - 對象：68 名健康成人，RS2、控制澱粉、RS4 各 10 天，介入間隔 5 天 washout。\n> - RS2 候選菌：Ruminococcus bromii、Blautia glucerasea。\n> - RS4 候選菌：Parabacteroides distasonis、Lachnospiraceae bacterium 等。\n> - RS2、RS4 都改變 CAZyme 與複合碳水利用相關基因，RS4 的變化種類較多。\n> - 品質未評讀（內容整理）；需可信度判斷請看同 DOI 的品質評讀。\n\n## 全文地圖\n\n**要點**：作者先交代 RS 類型與個體菌相反應差異，再依序呈現菌相組成、物種層級、strain-level 變異、pathway、gene family、CAZyme，最後回到方法、限制與個人化營養的研究方向。\n\n- Introduction：RS1 至 RS5 的物理化學差異、腸道發酵與短鏈脂肪酸背景，以及 16S rRNA 解析度不足的研究缺口。\n- Results 1：68 名受試者的 crossover 介入與糞便樣本配置。\n- Results 2：RS2 與 RS4 造成不同 beta-diversity 與物種層級變化，washout 後回復。\n- Results 3：部分 Bifidobacterium adolescentis 的反應有個體差異，但 strain phylogeny 與反應沒有清楚連結。\n- Results 4：RS2、RS4 分別改變 pathway、UniRef50 genes 與 CAZyme。\n- Discussion：強調不同 RS 的底物特性、短期可逆性與 metagenomic data 只能代表功能潛勢。\n- Methods：研究族群、cracker 劑量、測序、MetaPhlAn、HUMAnN、Cayman、StrainPhlAn 與統計門檻。\n\n## 研究問題與方法\n\n**要點**：這是一項已註冊 parent randomized crossover intervention 的二次 shotgun metagenomics 分析，目標是比較 RS2、RS4 和 digestible starch control 對人類腸道菌相的不同影響。\n\n- 受試者是 18 至 59 歲健康男性與未懷孕或哺乳女性，排除腸胃疾病、糖尿病、pre-diabetes、近期抗生素使用與高量酒精攝取。\n- A 組順序為 RS2、控制品、RS4；B 組順序為 RS4、控制品、RS2。\n- 每種 cracker 介入 10 天，前 3 天為 25%、50%、75% 漸增，第 4 至 10 天為完整份量。RS2 與 RS4 目標為每日 30 g，放入 120 g crackers。\n- RS2 烘焙後實際量為每日 21.27 g，RS4 推定也有相近損失。控制 cracker 的總碳水、脂肪、蛋白質約相配，但熱量較高。\n- 5 天 washout 期間不吃研究 crackers。共分析 341 份 stool microbiome samples，RS2 配對樣本 47 人、control 44 人、RS4 44 人。\n- DNA 以 shotgun metagenomic sequencing 分析。物種使用 MetaPhlAn 4，gene family 與 pathway 使用 HUMAnN 3.9，CAZyme 使用 Cayman，strain-level 使用 StrainPhlAn 4。\n- SGB 使用 paired Wilcoxon signed-rank test，並用 Benjamini-Hochberg 修正。主要 SGB 門檻為 q<0.05 且 abs(LFC)>1，pathway 門檻為 q<0.2 且 abs(LFC)>0.1。\n\n## 主要發現\n\n**要點**：RS2 與 RS4 都造成短期菌相與功能改變，但兩種 RS 的候選菌與碳水利用路徑不同，digestible starch control 沒有產生同樣的顯著改變。\n\n| 發現 | 研究數字 | 怎麼讀 |\n|---|---|---|\n| beta-diversity | RS2 前後 PERMANOVA P=4.95e-2；RS4 P=3.96e-2 | 介入前後菌相組成有短期差異 |\n| alpha-diversity | 多數沒有顯著差異，RS2 B 組 Shannon entropy 下降 P=1.10e-2 | 菌種多樣性總量沒有一致上升 |\n| RS2 增加菌 | R. bromii LFC=1.9，q=3.1e-3；B. glucerasea LFC=2.3，q=2.4e-2 | RS2 可能選擇擅長處理原生抗性澱粉的菌 |\n| RS4 增加菌 | P. distasonis LFC=3.4，q=6.6e-5；Lachnospiraceae bacterium LFC=2.7，q=2.3e-3 | RS4 產生不同的菌種選擇 |\n| washout | 增加的 SGB 多在 5 天後回到 baseline | 目前看到的是可逆短期反應 |\n| gene family | RS2 增加 1,134、減少 112；RS4 增加 1,741、減少 43 | RS4 的 gene-level 改變數較多 |\n| CAZyme | RS2 增加 10、減少 9；RS4 增加 22、減少 7 個 subfamilies | 兩種 RS 都改變 starch-binding、glycoside hydrolase 等功能候選 |\n\n## 機轉白話講解\n\n**要點**：RS 沒有在小腸被完整消化，抵達大腸後成為特定菌群的底物。RS2 和 RS4 的結構不同，像是不同形狀的食材，能先被利用的菌也不同，後續 cross-feeding 的路徑可能跟著改變。\n\n- RS2 是 native granular starch，研究中和 R. bromii、GH13、CBM26、amylase、pullulanase 等 starch-degradation signals 連在一起。\n- RS4 是 chemically modified starch，研究中增加較多元的 GH、polysaccharide lyase、glycosyltransferase 與 carbohydrate esterase。\n- 研究看到 DNA 中的 genes 和 pathways 相對豐度改變，這表示「可能具備某種功能」，不代表該基因正在表現，也不代表一定產生更多 SCFA、改善胰島素敏感性或改變血脂。\n- B. adolescentis 的部分個體反應不同，作者檢查 CBM25、CBM26、CBM74 等 starch-binding modules，但在 metagenome-assembled genomes 中沒有得到穩定一致的反應關聯。\n\n## 臨床意義與怎麼用\n\n**要點**：這篇最適合用來理解「抗性澱粉不能只用一個總量標籤看待」，現階段仍需把菌相訊號和人體代謝、腸胃耐受及飲食可行性連起來。\n\n- 讀者可把 RS2、RS4 當成研究中的不同底物，不要直接把 cracker 劑量換成病人的食物處方。\n- 對高齡、糖尿病、腸胃疾病、近期抗生素使用或營養不良者，研究族群差異很大，不能直接外推。\n- 實務評估仍要看總纖維、蛋白質、血糖、血脂、排便、腹脹、腹瀉、疾病活動度與病人能否長期執行。\n- 研究沒有測量宿主代謝健康結果，因此目前只能說菌相與功能潛勢有變化，不能說已經改善代謝疾病。\n\n## 重要圖表重述\n\n**要點**：圖 1 說明 crossover 與採樣時間，圖 2 把 RS2、RS4 的 SGB 變化畫出來，圖 3 整理 pathway 與 CAZyme 的功能潛勢變化。\n\n- Figure 1：兩組不同介入順序，總共 68 人、341 份 stool samples，A 組 35 人、B 組 33 人。\n- Figure 2：RS2 的 R. bromii 與 RS4 的 P. distasonis 是代表性上升菌，部分變化在 washout 後回到介入前。\n- Figure 3：RS2、RS4 都影響多個 pathway 與 CAZyme，但 RS4 的 CAZyme 增加種類較多；control intervention 沒有相同的顯著圖形。\n- Supplementary Tables S1 至 S9：提供 PERMANOVA、SGB、strain-level、pathway、UniRef50 與 CAZyme 的完整篩選結果。\n\n## 與既有認知的對照\n\n**要點**：本文把既有的「RS 能影響腸道菌相」推進到 RS type、species、strain 與 gene-function 層次，但沒有把這些訊號直接轉成臨床效果。\n\n- 舊認知：抗性澱粉可被腸道菌發酵，可能和短鏈脂肪酸及代謝健康有關。\n- 本篇補充：RS2 與 RS4 的菌相反應不完全相同，且不少變化會在短期 washout 後消退。\n- 本篇保留的未知：哪些菌株會帶來可重現的人體代謝收益，仍需代謝物、宿主指標與較長期研究。\n\n## 概念與名詞整理\n\n- **RS2**：native granular starch，未經化學修飾的抗性澱粉型態。\n- **RS4**：chemically modified starch，透過化學修飾增加抗消化性。\n- **SGB**：species-level genome bin，研究用來進行物種層級的 metagenomic 分析單位。\n- **CAZyme**：carbohydrate-active enzyme，參與複合碳水分解、修飾或利用的酵素家族。\n- **LFC**：log2 fold change，正值代表介入後相對豐度上升，負值代表下降。\n- **q value**：多重比較修正後的顯著性指標。\n- **Functional potential**：從 DNA 序列推定的功能能力，和實際 gene expression 或 metabolite output 有差距。\n\n## 自我測驗\n\n> [!question]- Q1：RS2 和 RS4 的主要差異要怎麼用一句話說明？\n> 它們的物理化學結構與微生物可及性不同，因此可能選擇不同的 primary degraders 和後續功能路徑。本文中 RS2 較集中出現 R. bromii 與 starch-degradation signals，RS4 則出現 P. distasonis 與較多元的 CAZyme 變化。\n\n> [!question]- Q2：為什麼作者說這些菌相變化是 reversible？\n> 多數增加的 SGB 在 5 天 washout 後回到介入前水準，表示研究期間的變化較像短期底物刺激，而非已證明的長期菌相重建。\n\n> [!question]- Q3：看到 gene family 或 CAZyme 增加時，不能直接下什麼結論？\n> 不能直接說菌群一定產生更多相關酵素或代謝物，也不能直接推論病人的血糖、血脂或體重會改善，因為研究測到的是 metagenomic DNA 的功能潛勢。\n\n> [!question]- Q4：本研究的 control intervention 有什麼用途？\n> 可用來對照一般可消化澱粉 crackers 在同一研究流程下的變化。控制品沒有產生同樣的顯著菌相與 pathway 訊號，讓 RS-specific interpretation 比單純前後比較更有依據。\n\n> [!question]- Q5：營養師把這篇結果帶回臨床時，要補看哪些資料？\n> 要補看病人的疾病狀態、腸胃耐受、總纖維、血糖、血脂、體重、排便與實際飲食可行性。若要談個人化 RS，還需要有宿主代謝與代謝物結果的長期介入研究支持。\n\n## Reference\n\n- Piperni et al. 2026, Microbiology Spectrum. DOI: 10.1128/spectrum.00763-26。\n- Parent trial registration: NCT05743790。\n- 主要背景引用：Ze et al. 2012；Martínez et al. 2010；Devarakonda et al. 2024。\n\n## 全文證據與 skill 執行紀錄\n\n- 來源：ASM 官方 open-access PDF，https://journals.asm.org/doi/pdf/10.1128/spectrum.00763-26。\n- 本機路徑：[local path removed]\n- 檔案大小：2,028,733 bytes；SHA-256：8a1bbefcefcb01ccb7c903c3bf719642db126f22d6345948581596655712d784；17 頁；pypdf 擷取約 71,243 字元。\n- 身分檢查：DOI 與題名相符，全文含 Methods、Results、Discussion、References 與圖表說明。\n- 本次確實依安裝的 paper-digest skill 讀取完整全文，完成三層筆記、重要圖表重述、概念整理與 5 張理解型自我測驗卡。未使用機構登入、代理、VPN、CAPTCHA bypass 或非合法來源。",
+      "cards": [
+        {
+          "title": "RS2 與 RS4 的差異",
+          "question": "RS2 和 RS4 為什麼可能選擇不同的腸道菌？",
+          "answer": "兩者的物理化學結構與微生物可及性不同，能先利用它們的 primary degraders 也可能不同。本文中 RS2 較常和 Ruminococcus bromii 及 starch-degradation signals 一起出現，RS4 則和 Parabacteroides distasonis 與較多元的 CAZyme 變化一起出現。",
+          "tags": [
+            "抗性澱粉",
+            "腸道菌相"
+          ]
+        },
+        {
+          "title": "可逆菌相變化",
+          "question": "研究如何支持 RS 引起的菌相變化具有短期可逆性？",
+          "answer": "多數增加的 SGB 在 5 天 washout 後回到介入前水準，表示目前觀察到的反應較像短期底物刺激，長期菌相重建仍未證實。",
+          "tags": [
+            "washout",
+            "研究設計"
+          ]
+        },
+        {
+          "title": "功能潛勢限制",
+          "question": "為什麼 CAZyme 或 gene family 增加不能直接等同於代謝活性增加？",
+          "answer": "研究測到的是 DNA 相對豐度與推定功能潛勢，沒有同步測量 gene expression、酵素活性或代謝物，因此無法直接確認實際代謝輸出。",
+          "tags": [
+            "CAZyme",
+            "證據解讀"
+          ]
+        },
+        {
+          "title": "控制品用途",
+          "question": "digestible starch control 在這項研究中提供什麼判讀幫助？",
+          "answer": "它讓研究者能把 RS2、RS4 的前後變化和一般可消化澱粉 crackers 的變化分開。控制品沒有產生同樣的顯著菌相與 pathway 訊號，支持部分結果與 RS 類型有關。",
+          "tags": [
+            "控制組",
+            "crossover"
+          ]
+        },
+        {
+          "title": "臨床帶回方式",
+          "question": "營養師把這篇研究帶回臨床時，還需要補看哪些資料？",
+          "answer": "要補看疾病狀態、腸胃耐受、總纖維、血糖、血脂、體重、排便與飲食可行性。這篇沒有宿主代謝結果，不能直接用來選 RS2 或 RS4 治療疾病。",
+          "tags": [
+            "臨床營養",
+            "個人化營養"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-10T04:25:12.849Z"
+    },
+    {
+      "id": "doi:10.1128/spectrum.00763-26:review",
+      "paperId": "doi:10.1128/spectrum.00763-26",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Resistant starch types 2 and 4 induce distinct and reversible changes in the human gut microbiome.",
+      "authors": "Piperni E, Blanco-Míguez A, Mengoni C, Piccinno G, Punčochář M, Ren J, Segata N, Asnicar F, Poole A",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.1128/spectrum.00763-26",
+      "abstract": "Resistant starch (RS) can confer benefits for the gut microbiome and host cardiometabolic health. However, different types of resistant starch can differentially affect gut microbiome composition and functional capacity, especially given interindividual variability in responses, thus limiting the application of resistant starch in dietary strategies. We used shotgun metagenomics to perform a secondary analysis of samples collected during a previously reported randomized clinical trial to determine the effects of dietary supplementation with two types of resistant starch (RS2 and RS4) and a digestible starch (control) on the gut microbiome. Both resistant starch types induced distinct but transient alterations in the gut microbial community. RS2 enriched the keystone degrader, Ruminococcus bromii, and Blautia glucerasea, whereas RS4 favored Parabacteroides distasonis and known but uncharacterized microbial species such as a Lachnospiraceae bacterium. Moreover, we detected strain-level differences in the response of Bifidobacterium adolescentis to resistant starch. Microbial functional profiling revealed an enhanced capacity for complex carbohydrate utilization following resistant starch intake, including increased abundance of specific α-amylases, glycoside hydrolases, starch utilization systems, and other currently uncharacterized genes. Identifying the bacterial strains and genes that respond to different RS types will help to more accurately predict who will benefit from a given RS type. Our findings demonstrate that RS2 and RS4 differentially shape microbial ecology and metabolic capacity and provide a foundation for microbiome-informed personalization of resistant starch-based dietary interventions.IMPORTANCEDietary intake influences human health by modulating metabolism, partly by shaping the microbiota inhabiting the gut. Resistant starch (RS), a dietary fiber, is associated with metabolic improvements. While previous research has explored how RS alters the gut microbiome, RS comprises five types with differing physical and chemical characteristics, and the distinct impacts of each type on the microbiome and host health have not been fully characterized, particularly using high-resolution approaches such as shotgun metagenomics. In this secondary analysis of samples from a longitudinal crossover intervention study, we link dietary supplementation with RS2 and RS4 with distinct and transient changes in the composition and functional potential of the human gut microbiome. Specifically, we identify species that increase in abundance with each RS type, accompanied by increases in genes and pathways involved in complex carbohydrate utilization. The findings support the development of precision nutrition strategies utilizing RS supplementation to improve metabolic health.This study is registered with ClinicalTrials.gov as NCT05743790.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42496113/",
+      "category": "recommended",
+      "tags": [
+        "design:longitudinal",
+        "herbs phytochemicals supplements",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "obesity and metabolism",
+        "precision nutrition"
+      ],
+      "noteTitle": "抗性澱粉 RS2 與 RS4 對腸道菌相的可逆影響研究的品質評讀",
+      "content": "# 抗性澱粉 RS2 與 RS4 對腸道菌相的可逆影響研究的品質評讀\n\n> [!info] 品質快照\n> **設計**：已註冊的開放標籤、隨機序列、縱向 crossover 介入試驗的二次 shotgun metagenomics 分析｜**n**：68 名健康成人納入，RS2、控制澱粉、RS4 的配對分析各約 44 至 47 人｜**RoB**：中度疑慮，主要問題是短期、開放標籤、有效樣本較小與二次探索分析\n> **GRADE**：Very low（微生物體替代結果，依 grade_judge.py 計算）｜**Registration**：ClinicalTrials.gov NCT05743790，論文提供登錄編號，未在本次 Worker 中發現 outcome switching 證據\n> **一句話 verdict**：這篇研究很適合說明不同 RS 類型會選擇性改變腸道菌相與碳水化合物代謝潛勢，尚不能據此推論血糖、血脂、體重或疾病結果已改善。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：68 名健康成人依序吃 RS2、可消化澱粉控制品與 RS4，每種介入 10 天，中間休息 5 天。RS2 與 RS4 都改變菌相，但兩種 RS 促成的菌種與功能訊號不同，停用後多數變化回到原來狀態。\n> - **為什麼做**：同樣叫抗性澱粉，RS2 是原生顆粒澱粉，RS4 是化學修飾澱粉，腸道菌能利用的方式可能不同。研究者想知道反應能否細到 species、strain、gene 與 CAZyme 層次。\n> - **主體**：RS2 增加 Ruminococcus bromii、Blautia glucerasea，RS4 增加 Parabacteroides distasonis 與數個 Lachnospiraceae、Bacteroides 相關 SGB。RS2、RS4 都增加部分複合碳水利用相關基因與 CAZyme，RS2 的訊號較集中在 starch-binding、GH13、amylase 與 pullulanase，RS4 的變化較分散。這些是糞便 metagenomic 的相對豐度與功能潛勢，尚未等於實際基因表現或代謝物產生。\n> - **所以呢**：臨床營養上可把 RS 類型與個體菌相差異列為研究方向，不能用這篇文章替病人選定 RS4 或 RS2，也不能把菌相變化當成改善代謝疾病的證明。\n\n## 研究問題與設計\n\n- 研究類型：已註冊 randomized crossover dietary intervention 的二次分析，研究對象為 18 至 59 歲健康成人。\n- 介入：RS2、RS4、可消化澱粉控制品各 10 天。RS2 與 RS4 目標量為每日 30 g，裝在每日 120 g crackers 中，前 3 天漸增，第 4 至 10 天達完整份量，介入間隔 5 天 washout。\n- 介入順序：A 組為 RS2、控制品、RS4，B 組為 RS4、控制品、RS2。68 名受試者提供 341 份糞便 microbiome samples，58 人在 baseline 以外至少提供一份樣本。\n- 主要分析：MetaPhlAn 4 物種層級分析、HUMAnN 3.9 pathway 與 UniRef50 gene-family 分析、Cayman CAZyme 分析、StrainPhlAn strain-level 分析。\n- 配對樣本：RS2 n=47、控制品 n=44、RS4 n=44。主要比較為每個介入前後的 paired Wilcoxon signed-rank test，採 Benjamini-Hochberg 校正並報 q value。\n\n## 主要發現\n\n| 結果 | RS2 | RS4 | 解讀 |\n|---|---|---|---|\n| 菌相組成 | 與介入前不同，PERMANOVA P=4.95e-2 | 與介入前不同，P=3.96e-2 | 短期 beta-diversity 訊號，控制品沒有顯著變化 |\n| 物種層級增加 | 60 個 SGB 改變，其中 R. bromii LFC=1.9、q=3.1e-3 | 24 個 SGB 改變，其中 P. distasonis LFC=3.4、q=6.6e-5 | 不同 RS 類型有不同受益菌候選 |\n| 物種層級減少 | 21 個 SGB，含 R. torques LFC=-1.29、q=3.0e-3 | 4 個 SGB，含兩個 Clostridium SGB | 減少訊號的 RS-type specificity 較低 |\n| 功能基因 | 1,134 增加、112 減少的 UniRef50 達 q<0.01 且 abs(LFC)>1 | 1,741 增加、43 減少 | RS4 的變化數較多，約半數增加的 RS4 gene families 無功能註解 |\n| CAZyme | 10 個增加、9 個減少的 subfamilies | 22 個增加、7 個減少 | RS2 增加 CBM26、CBM38、CBM74 與多個 GH；RS4 增加較多樣的 GH、PL、GT、CE |\n| washout | 多數增加 SGB 回到 baseline | 多數增加 SGB 回到 baseline | 支持短期且可逆，長期穩定性未知 |\n\n## Critical Appraisal\n\n### 研究內部可信度\n\n- **隨機化與序列**：研究把受試者分配到兩種介入序列，控制品放在中間，有助降低 carryover。原文寫明 odd/even enrollment ID 分組，這比較像簡化的 allocation rule，沒有提供完整 concealment 細節，故不能把它當成低風險隨機化的充分證明。\n- **介入偏差**：open-label，受試者與研究團隊知道 cracker 類型。菌相結果由測序與分析流程產生，主觀測量影響較小，但飲食與生活行為仍可能改變。\n- **缺失資料**：68 人納入，只有 58 人在 baseline 外提供樣本，RS2、控制品、RS4 配對分析分別約 47、44、44 人。缺失原因與各介入的完成情形需要搭配 parent trial 報告判讀。\n- **結果測量**：shotgun metagenomics 的 species、gene、pathway 與 CAZyme 解析度高，卻測到的是 DNA 相對豐度與功能潛勢。研究沒有 metatranscriptomics、代謝物或宿主臨床結果，因此不能把 gene abundance 直接當成實際代謝活性。\n- **多重比較**：作者使用 q value，並在主要 SGB 以 q<0.05、abs(LFC)>1，在 pathway 以 q<0.2、abs(LFC)>0.1。後者較寬鬆，適合作為探索訊號，不能和單一預先指定 primary outcome 的確認性試驗同等解讀。\n- **統計單位**：部分結果以樣本前後配對分析呈現，部分 strain-level 模型與 SGB 篩選又有不同門檻。讀者應把這些結果看成多個探索層次，不應挑一個顯著菌種推回完整臨床效果。\n\n### GRADE 與論證結構\n\n- 依 grade_judge.py：starting level high，risk of bias serious、indirectness serious、imprecision serious，其餘未降級，總降級 -3，最後為 **Very low**。\n- 主要降級理由不是研究完全沒有價值，重點在結果屬短期 microbiome surrogate，樣本量小，探索指標很多，而且沒有測量 glucose、lipids、body weight、SCFA、bile acids 或 symptoms。\n- argdown_lint.py：clean。研究資料支持「RS2 與 RS4 造成不同、短期、可逆的菌相與功能潛勢變化」這個一般性描述。作者把結果延伸到個人化營養與代謝健康預防方向時，仍需要宿主代謝結果與較長期介入來支撐。\n\n### 臨床適用性\n\n- 對象是健康成人，年齡中位數約 24 至 26 歲，不能直接外推到高齡、糖尿病、腸道疾病、抗生素使用者或營養不良者。\n- Crackers 的實際 RS2 每日量為 21.27 g，RS4 推定有相近烘焙損失，和目標 30 g 有差距。臨床使用時不能只看標示的目標量。\n- 研究沒有提供症狀、排便、耐受性、腹脹或腹瀉的完整結果。營養師若討論抗性澱粉，仍應依病人的腸胃耐受、總纖維、疾病狀態與飲食型態調整。\n- 可採用的安全訊息是：不同 RS 類型可能提供不同底物，個體反應可能不同，現階段不能用糞便菌相結果替代血糖、血脂、體重、飲食攝取與功能評估。\n\n## 參考文獻核對\n\n| # | 關鍵引用 | CrossRef existence gate | 語意核對 |\n|---|---|---|---|\n| 7 | Ze et al., 2012, DOI 10.1038/ismej.2012.4 | 通過，題名為 Ruminococcus bromii is a keystone species for the degradation of resistant starch in the human colon | 文章用它支持 R. bromii 是 RS 降解關鍵菌，敘述方向相符 |\n| 16 | Martínez et al., 2010, DOI 10.1371/journal.pone.0015046 | 通過，題名明確比較 RS type 2 與 type 4 對人類糞便菌相的差異 | 文章用它支持 RS2、RS4 可能造成不同菌相反應，引用合理 |\n| 21 | Devarakonda et al., 2024, DOI 10.1080/19490976.2024.2367301 | 通過，題名為 Gut microbial features and dietary fiber intake predict gut microbiota response to resistant starch supplementation | 文章把本研究定位為 parent intervention 的 metagenomic secondary analysis，與引用主題一致 |\n\n## Journal、作者與時間線\n\n- Microbiology Spectrum 是 ASM 的 fully open-access 期刊，官方說明其以 technical soundness 為主要評審基準，並列出 MEDLINE、Scopus 與 Web of Science Core Collection 等索引。這和本研究的技術型、資料再分析定位相符。影響因子數值未在本次 Worker 中另行核對，因此不填入未驗證的數字。\n- 作者來自 University of Trento、IEO European Institute of Oncology IRCCS 與 Cornell University Division of Nutritional Sciences。本文提供 ORCID、作者貢獻、funding 與 data availability。第一作者與通訊作者的 h-index 與 top-paper profile 未有可追蹤的本機 Semantic Scholar/MCP 查詢結果，保留為未查核項目。\n- Received 4 March 2026，accepted 19 June 2026，published 24 July 2026。研究資料來自 2020 年完成的 parent intervention，這篇是後續二次分析，需把 publication date 和 original trial date 分開理解。\n- Funding 來自 Cornell University、義大利 Ministry of University and Research、European Union ERC microTOUCH 與 NextGenerationEU。作者宣告無 conflict of interest。\n\n## 研究限制\n\n- 單一地理來源、健康成人、短期介入，外部效度有限。\n- 第二次 RS intervention 後沒有完整 post-washout sample，長期可逆性無法完整判斷。\n- 沒有同步收集 host metabolic outcomes、SCFA、bile acids 或 metatranscriptomic activity。\n- 多層次探索分析產生大量候選訊號，部分功能分類仍有 34.7% 的 RS2 增加 UniRef50 與 50.4% 的 RS4 增加 UniRef50 未被功能註解。\n- 沒有提供可以直接支持特定食品、劑量或疾病治療的臨床決策 cut-off。\n\n## 全文證據與 skill 執行紀錄\n\n- 來源：ASM 官方 open-access PDF，https://journals.asm.org/doi/pdf/10.1128/spectrum.00763-26。\n- 本機路徑：[local path removed]\n- 檔案大小：2,028,753 bytes；SHA-256：767c0f09e235cfeded9236f24dd0f45e3ef3cbcd89b65840730d6aa6d6d3fe2d；17 頁；pypdf 擷取約 71,626 字元。\n- 身分檢查：PDF identity valid，DOI match=true，title match=true，title similarity=1。全文含 Abstract、Introduction、Results、Discussion、Materials and Methods、Funding、Data availability、Ethics approval、References 與圖表說明。\n- 本次確實依安裝的 paper-review skill 讀取完整 17 頁，執行共享全文規則、grade_judge.py（Very low）、argdown_lint.py（clean）與 3 筆 CrossRef existence gate。未使用機構登入、代理、VPN、CAPTCHA bypass 或非合法來源。\n\n## Source\n\n- DOI: https://doi.org/10.1128/spectrum.00763-26\n- PubMed: https://pubmed.ncbi.nlm.nih.gov/42496113/\n- Trial registration: https://clinicaltrials.gov/study/NCT05743790",
+      "cards": [],
+      "completedAt": "2026-08-10T04:22:11.128Z"
+    },
     {
       "id": "doi:10.7762/cnr.2026.0027:digest",
       "paperId": "doi:10.7762/cnr.2026.0027",
