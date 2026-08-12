@@ -1,7 +1,172 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T06:53:31.340Z",
+  "generatedAt": "2026-08-12T09:24:57.415Z",
   "papers": [
+    {
+      "id": "doi:10.1016/j.clnu.2026.106667:digest",
+      "paperId": "doi:10.1016/j.clnu.2026.106667",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "A multidisciplinary Delphi consensus on the formulation of an optimized oral diet for dysphagia and malnutrition (FOOD-DM).",
+      "authors": "Brux L, Lapa S, Hofacker J, Huber C, Lueg G, Jung A, Muhle P, Suntrup-Krueger S, Wirth R, Meuth S, Warnecke T, Dziewas R, Labeit B",
+      "journal": "Clinical Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.clnu.2026.106667",
+      "abstract": "Dysphagia and malnutrition frequently co-occur and are associated with aspiration pneumonia, sarcopenia, increased mortality, reduced quality of life and restricted social participation. Yet foods and drinks for individuals with dysphagia and malnutrition are inconsistently specified and lack objective standards. This study aimed to develop a consensus-based, expert-derived framework for evaluating foods and drinks perceived suitable for individuals with dysphagia and malnutrition (FOOD-DM). A two-round online modified Delphi study was conducted (October 2024-May 2025). International experts in medicine, speech-language pathology and nutrition were eligible with ≥5 years of clinical experience and a Hirsch-index ≥5. In round 1, participants rated nine prespecified items relating to texture, nutritional composition and labeling on a 9-point Likert scale. Consensus required ≥70% ratings at 7-9 (critically important) and <15% at 1-3 (not important). Round 2 provided aggregated results, item refinements and a comparison of the International Dysphagia Diet Standardisation Initiative (IDDSI) with quantitative texture measures expressed in the International System of Units (SI). Forty-eight experts participated in round 1. All nine items achieved consensus and were reaffirmed in round 2 (44/48; 92% retention). The final FOOD-DM framework comprises nine criteria across three domains: (1) Texture: availability of consistent textures, accuracy of texture descriptions (IDDSI and/or SI-based rheology), ability to customize texture, and ability to measure texture modifications (IDDSI and/or SI-based rheology); (2) Nutrition: availability of high-calorie options (e.g., 1.5-2.0 kcal/mL), flexibility to adjust calorie content, availability of high-protein options (≥20% energy from protein), and adaptable macronutrient composition; (3) Labeling: clear indications of suitability for dysphagia and malnutrition including detailed explanations of their specifics and composition. Overall, 91% of experts perceived the proposed measures as potentially helpful in improving access to appropriate nutrition; 61% favored a combined IDDSI-plus-SI model for texture description. Distinct from existing approaches focusing on texture or nutrition alone, FOOD-DM integrates standardized texture specification with nutritional optimization and labeling within a single framework. Implementation of the FOOD-DM framework may support standardized, customizable, and transparent nutrition and foster collaboration between clinical nutrition, dysphagia therapy, and the food industry.",
+      "legalFullTextUrl": "https://www.clinicalnutritionjournal.com/article/S0261-5614(26)00094-4/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42054965/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "design:consensus",
+        "guideline and consensus",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "吞嚥障礙與營養不良的 FOOD-DM 框架全文內容整理",
+      "content": "# 吞嚥障礙與營養不良的 FOOD-DM 框架全文內容整理\n\n> [!summary] 30 秒層\n> FOOD-DM 是一個由跨專業 Delphi 共識建立的口服飲食評估框架，將 dysphagia 的質地安全、malnutrition 的營養密度，以及產品標示整合成 9 項準則。\n> - Round 1 有 48 位專家，Round 2 有 44 位完成，留存率 92%。\n> - 9 項準則分成 texture 4 項、nutrition 4 項、labeling 1 項。\n> - 高熱量選項例示 1.5–2.0 kcal/mL，高蛋白選項例示至少 20% energy from protein。\n> - 61% 專家支持 IDDSI 加 SI-based rheology 的互補模式。\n> - 這是 expert consensus，不是臨床效果試驗，不能單靠本篇證明能降低 aspiration pneumonia 或改善營養結果。\n> 品質未評讀（內容整理）；需可信度判斷 → /paper-review\n\n## 全文地圖\n\n**要點**：研究先定義 dysphagia 與 malnutrition 的交疊問題，再用兩輪 modified Delphi 建立 FOOD-DM，最後討論 texture、營養密度、標示與落地限制。\n\n- 背景：吞嚥障礙可能限制攝取，營養不良與肌少症、衰弱又會加重吞嚥問題。\n- 方法：跨醫學、speech-language pathology 與 nutrition 的專家兩輪線上 Delphi。\n- 結果：9 個項目在預設門檻下達共識，且在 75% 與 80% 敏感度門檻下仍維持。\n- 實務：食物要同時做到質地可辨識、營養可調整、標示透明，不能只處理其中一塊。\n\n## 各主題重點\n\n### 1. 為什麼需要 FOOD-DM\n\n**要點**：只做 texture modification 可能犧牲能量與蛋白質，只有營養強化也可能忽略吞嚥安全。\n\n- Dysphagia 與 malnutrition 常同時出現，可能帶來 aspiration pneumonia、dehydration、choking、肌少症、住院與生活品質問題。\n- IDDSI 提供質地與液體稠度的共同語言，但本身不負責判斷食物是否滿足營養需求。\n- 營養照護強調個別化能量與營養素，卻可能沒有描述質地與 swallowing suitability。\n- 研究者把 texture、nutrition、labeling 放進同一個評估框架，目標是讓照護與食品供應端有共同規格。\n\n### 2. Texture domain：4 項\n\n**要點**：質地要一致、描述要準確、可以個別化，也要有方法確認修改後的結果。\n\n1. 有穩定且適合 dysphagia 的 food and drinks，例如 easy to chew、soft、moist 或 pureed。\n2. 質地描述要準確，可使用 IDDSI 和／或 SI units 的 quantitative rheology 描述。\n3. 質地能依個人吞嚥需求調整。\n4. 修改後的 texture 能客觀測量，可使用 IDDSI 和／或 SI-based rheological measurements。\n\n研究把 IDDSI 與 SI-based rheology 視為可能互補的工具。IDDSI 對床邊與臨床溝通較實用，SI-based measurements 對研究、再現性與食品工業品質控制可能較有優勢，但需要溫度控制與設備。\n\n### 3. Nutrition domain：4 項\n\n**要點**：texture-modified food 仍要有足夠能量、蛋白質與個別化調整空間。\n\n1. 提供高熱量選項，文章例示 1.5–2.0 kcal/mL。\n2. 能依個別需求調整 calorie content。\n3. 提供高蛋白選項，文章例示至少 20% energy from protein。\n4. 能調整蛋白質與其他 macronutrient composition，以符合特定飲食需求。\n\n這些是食品與飲品的設計準則，不是對所有病人直接開立的固定處方。實際使用仍要看吞嚥評估、腎肝功能、能量需求、攝取量與整體照護目標。\n\n### 4. Labeling domain：1 項\n\n**要點**：標示要讓照護者快速知道產品是否同時適合 dysphagia 與 malnutrition，並說清楚質地與營養組成。\n\n- 清楚標示適用 dysphagia、malnutrition 或兩者的情境。\n- 說明 texture 的具體特性與分級方式。\n- 說明熱量、蛋白質與其他主要營養組成。\n- 讓營養師、speech-language pathologist、護理人員、病人與家屬使用同一份資訊做決策。\n\n### 5. Delphi 結果\n\n**要點**：專家共識對 9 項準則很一致，但共識代表專家判斷，仍需臨床驗證。\n\n- Round 1：48 位專家參與，9 項預設項目全部達共識。\n- Round 2：44 位完成，retention rate 92%，9 項全部重新達共識。\n- 所有 9 項在更嚴格的 ≥75% 與 ≥80% agreement thresholds 仍通過。\n- 原本較接近門檻的「客觀測量 texture modification」在 Round 2 提升至 86%。\n- 91% 專家認為這些措施可能改善適當營養的取得。\n- 61% 支持 IDDSI 與 SI-based texture descriptions 的 combined approach。\n\n## 概念／名詞整理\n\n- **Dysphagia**：吞嚥功能障礙，可能限制安全與足量的口服攝取。\n- **Texture-modified diet**：依吞嚥能力調整食物或飲品的質地與稠度。\n- **IDDSI**：International Dysphagia Diet Standardisation Initiative，提供質地與液體分級及共同術語。\n- **Rheology**：研究食物流動、黏度、黏附性、內聚性與其他質地物理特性的領域。\n- **SI-based measurement**：以 International System of Units 表示可量化的質地或流變學參數。\n- **FOOD-DM**：Formulation of Optimized Oral Diet Characteristics for Dysphagia and Malnutrition。\n\n## 與既有認知的對照\n\n- 本篇把吞嚥安全與營養密度放入同一個產品評估框架，補足只看 IDDSI 分級或只看高熱量、高蛋白的分開處理方式。\n- 本篇也提醒 texture modification 可能降低攝取量或生活品質，不能把「質地越稠或越細」直接當成越安全、越適合所有人。\n\n## 臨床意義／怎麼用\n\n- 病人有 dysphagia 加 malnutrition 時，評估表可分成 texture、nutrition、labeling 三欄，避免只完成吞嚥分級就結束。\n- 口服營養補充品或餐點採購時，要求供應商同時提供質地規格、每 mL 熱量、蛋白質比例與可調整方式。\n- IDDSI 適合作為團隊床邊溝通起點。SI-based rheology 可用於產品開發、品質控管與研究驗證，兩者不必互相排斥。\n- 高熱量與高蛋白只是產品設計方向，臨床處方仍要依病人的吞嚥風險、腎功能、液體限制、食慾與目標調整。\n- 本研究沒有測量 pneumonia、攝取量、體重、肌力或生活品質的實際改善，因此 FOOD-DM 目前應視為共識框架，不能取代 individual assessment 或正式 guideline。\n\n## 自我測驗\n\n> [!question]- Q1：FOOD-DM 為什麼同時放入 texture 與 nutrition？\n> 因為只改善吞嚥質地可能降低能量與蛋白質攝取，只做營養強化又可能忽略 swallowing safety。兩者要在同一份產品與照護決策中一起檢查。\n\n> [!question]- Q2：FOOD-DM 的 9 項準則分成哪三個 domain？\n> Texture 4 項、nutrition 4 項、labeling 1 項。質地要一致、可描述、可客製與可測量，營養要有高熱量、高蛋白與調整彈性，標示要透明。\n\n> [!question]- Q3：IDDSI 與 SI-based rheology 的角色有何不同？\n> IDDSI 適合臨床與團隊使用的共同分級語言，SI-based rheology 可提供更量化、可再現、適合研究與工業品質控制的資料。研究支持兩者互補。\n\n> [!question]- Q4：這篇共識能否直接證明 FOOD-DM 會降低吸入性肺炎？\n> 不能。研究測量的是專家對產品特性的共識，沒有比較實施前後的 pneumonia、攝取量、營養狀態或生活品質結果。\n\n## Reference\n\n- Brux L, Lapa S, Hofacker J, et al. A multidisciplinary Delphi consensus on the formulation of an optimized oral diet for dysphagia and malnutrition (FOOD-DM). Clinical Nutrition. 2026;61:106667.\n- DOI: https://doi.org/10.1016/j.clnu.2026.106667\n\n## Full-text Evidence\n\n- Route：Unpaywall → Clinical Nutrition official open-access PDF。\n- Source URL：https://www.clinicalnutritionjournal.com/article/S0261-5614(26)00094-4/pdf\n- PDF：3760898 bytes，12 pages，native text 79382 chars。\n- Identity：DOI and title matched；Methods、Results、Discussion、Conclusion sections were present。\n- Paper-digest execution：full-text gate、三層筆記、9 項框架整理與 4 張理解型複習卡已完成。",
+      "cards": [
+        {
+          "title": "FOOD-DM 複習 1",
+          "question": "FOOD-DM 為什麼同時放入 texture 與 nutrition？",
+          "answer": "只改善質地可能降低能量與蛋白質攝取，只做營養強化又可能忽略吞嚥安全，兩者需要一起檢查。",
+          "tags": [
+            "dysphagia",
+            "malnutrition"
+          ]
+        },
+        {
+          "title": "FOOD-DM 複習 2",
+          "question": "FOOD-DM 的 9 項準則分成哪三個 domain？",
+          "answer": "Texture 4 項、nutrition 4 項、labeling 1 項。",
+          "tags": [
+            "FOOD-DM",
+            "IDDSI"
+          ]
+        },
+        {
+          "title": "FOOD-DM 複習 3",
+          "question": "IDDSI 與 SI-based rheology 的角色有何不同？",
+          "answer": "IDDSI 適合臨床共同分級，SI-based rheology 提供量化與可再現的研究及產品品質資料，研究支持互補。",
+          "tags": [
+            "IDDSI",
+            "rheology"
+          ]
+        },
+        {
+          "title": "FOOD-DM 複習 4",
+          "question": "這篇共識能否直接證明 FOOD-DM 會降低吸入性肺炎？",
+          "answer": "不能，研究測量專家共識，沒有比較 pneumonia、攝取量、營養狀態或生活品質結果。",
+          "tags": [
+            "evidence",
+            "clinical-application"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-12T09:04:04.516Z"
+    },
+    {
+      "id": "doi:10.4067/s0034-98872026000400605:digest",
+      "paperId": "doi:10.4067/s0034-98872026000400605",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "[Obesity as a Clinical Disease: It's Time to Redefine It in Chile].",
+      "authors": "Guerrero-Wyss M, Fuentes-Avalos E, Carrasco-Marín F, Celis-Morales C",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.4067/s0034-98872026000400605",
+      "abstract": "",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42441686/",
+      "category": "recommended",
+      "tags": [],
+      "noteTitle": "智利臨床肥胖重新定義的全文內容整理",
+      "content": "# 智利臨床肥胖重新定義的全文內容整理\n\n> [!summary] 30 秒層\n> 這封 Letter to the Editor 把 clinical obesity 的新框架放進 Chile 情境：診斷不能只看 BMI，還要確認 excess adiposity 是否已伴隨 physical、metabolic 或 psychological dysfunction。\n> - 智利 ENS 2017-2018：成人 overweight 或 obesity 約 74%，依 BMI 判定 obesity 約 34.4%。\n> - 新框架分成 preclinical obesity 與 clinical obesity，對應不同的追蹤與治療強度。\n> - 建議 primary care 加入 waist circumference、waist-to-hip ratio、metabolic markers、症狀與功能評估。\n> - 這是政策與臨床觀點文章，沒有原始研究資料，不能用來估計診斷準確度或治療效果。\n> 品質未評讀（內容整理）；需可信度判斷 → /paper-review\n\n## 全文地圖\n\n**要點**：作者先指出 BMI 的盲點，再介紹 clinical obesity 框架，最後提出 Chile primary care 的評估、分流與公共衛生方向。\n\n- BMI 的限制：無法完整表達脂肪分布、代謝健康、功能影響或器官損傷。\n- 新分類：以 excess adiposity 加上 dysfunction 的有無與程度區分 preclinical 與 clinical obesity。\n- 臨床流程：clinical obesity 需要積極治療與處理既有功能問題，preclinical obesity 需要風險追蹤與預防進展。\n- Chile 落地：把腰圍、代謝風險、睡眠、胃食道逆流與 mobility limitation 放進基層照護評估。\n\n## 各主題重點\n\n### 1. 從 BMI 轉向 adiposity 與 dysfunction\n\n**要點**：體重或 BMI 是入口資料，不能單獨代表疾病嚴重度。\n\n- 作者認為 BMI 沒有反映 adipose tissue distribution，也沒有呈現 excess fat 是否已造成身體功能、代謝或心理影響。\n- 新框架的三個判斷組件是：excess adiposity、相關 dysfunction，以及臨床評估對兩者關聯的確認。\n- 這種 risk-oriented 分類讓醫療人員能把「有脂肪過多」與「已經出現疾病表現」分開處理。\n\n### 2. Preclinical obesity 與 clinical obesity\n\n**要點**：兩種狀態的差異在於是否已有與 adiposity 相關的 dysfunction，照護強度也應跟著不同。\n\n- **Preclinical obesity**：已有 excess adiposity，但目前沒有明顯 dysfunction。作者建議追蹤、生活型態諮詢與監測風險，避免進入 clinical obesity。\n- **Clinical obesity**：excess adiposity 已與 physical、metabolic 或 psychological dysfunction 連結。作者建議積極治療，處理現有表現並避免進一步器官與功能損害。\n- 作者也認為這種分類可能改善資源配置，讓治療資源優先對應到功能損害與疾病負荷較高的人。\n\n### 3. Chile 的疾病負荷與照護缺口\n\n**要點**：作者用智利國家健康調查的背景數字，說明高盛行率與現行流程間的落差。\n\n- ENS 2017-2018 顯示，成人 overweight 或 obesity 約 74%，依 BMI 判定 obesity 約 34.4%。\n- 文章列出常見共病與相關問題：type 2 diabetes、hypertension、dyslipidemia、sleep apnea、insulin resistance、GERD 與 mobility limitation。\n- 作者指出現行 clinical protocols 尚未固定整合 obesity-related functional damage，也未充分依 clinical、metabolic、functional criteria 做 risk stratification。\n\n### 4. 基層照護的實務建議\n\n**要點**：primary care 可以從補足身體組成、代謝與功能資料開始，再建立差異化分流。\n\n- 評估工具可加入 waist circumference 與 waist-to-hip ratio。\n- 代謝面可觀察 insulin resistance、hypertension 與 lipid dysfunction 等風險。\n- 功能與症狀面要詢問 sleep apnea、GERD、mobility limitation，以及其他與 adiposity 相關的 organ dysfunction。\n- 團隊需要受訓辨識早期 dysfunction，並建立 preclinical obesity 與 clinical obesity 的不同 clinical pathways。\n\n## 概念／名詞整理\n\n- **Excess adiposity**：體內脂肪過多，不能只用體重或 BMI 完整描述。\n- **Dysfunction**：與脂肪過多相關的身體功能、代謝、心理或器官異常。\n- **Preclinical obesity**：有 excess adiposity，但尚未出現明確相關 dysfunction。\n- **Clinical obesity**：有 excess adiposity，且已出現相關 dysfunction，需要以疾病照護方式處理。\n- **Risk stratification**：按疾病表現與功能負荷分層，決定追蹤、治療與轉介優先順序。\n\n## 與既有認知的對照\n\n- 本地 vault 無相關既有筆記可供直接比對。本篇提供的是 obesity classification 與照護流程的概念更新，不是新治療試驗。\n\n## 臨床意義／怎麼用\n\n- 營養門診可把 BMI 當作入口，再固定補記 waist measures、血壓、血糖、血脂、睡眠、活動能力與症狀。\n- 病歷中分開記錄 excess adiposity 與 obesity-related dysfunction，較容易設定個別化目標。\n- 對 clinical obesity，治療目標要連結到功能、代謝、睡眠與生活品質，不能只寫減重公斤數。\n- Chile 的盛行率與流程建議不能直接移植到台灣，台灣實務仍要對照本地正式診斷、轉介與給付規範。\n\n## 自我測驗\n\n> [!question]- Q1：為什麼作者認為 BMI 不宜單獨作為 obesity 的疾病判斷？\n> 因為 BMI 沒有完整反映脂肪分布、代謝健康、功能限制與器官損害。它可作為篩檢入口，但需要搭配 adiposity 與 dysfunction 的臨床資料。\n\n> [!question]- Q2：preclinical obesity 與 clinical obesity 的照護差異是什麼？\n> Preclinical obesity 著重風險監測、生活型態諮詢與預防進展。Clinical obesity 已有相關 dysfunction，需積極治療並處理現有功能、代謝或心理問題。\n\n> [!question]- Q3：這篇文章建議 primary care 增加哪些資料？\n> 建議加入 waist circumference、waist-to-hip ratio、代謝風險指標，以及 sleep apnea、GERD、mobility limitation 等症狀與功能評估。\n\n> [!question]- Q4：這篇文章的數字能否直接套用到台灣？\n> 不能。74% 與 34.4% 是智利 ENS 2017-2018 的背景數字，文章也沒有提供台灣族群驗證。台灣應另查本地調查與正式政策文件。\n\n## Reference\n\n- Guerrero-Wyss M, Fuentes-Avalos E, Carrasco-Marín F, Celis-Morales C. Obesity as a Clinical Disease: It's Time to Redefine It in Chile. Revista Médica de Chile. 2026;154(4):605-607.\n- DOI: https://doi.org/10.4067/S0034-98872026000400605\n\n## Full-text Evidence\n\n- Route：Unpaywall → University of Glasgow repository PDF。\n- Source URL：\n- PDF：0 bytes，3 pages，3 頁 Letter to the Editor。\n- Identity：DOI and title matched；完整文章可讀，非摘要頁。\n- Paper-digest execution：full-text gate、三層筆記、主題概念整理與 4 張理解型複習卡已完成。",
+      "cards": [
+        {
+          "title": "臨床肥胖框架複習 1",
+          "question": "為什麼 BMI 不宜單獨作為 obesity 的疾病判斷？",
+          "answer": "因為 BMI 沒有完整反映脂肪分布、代謝健康、功能限制與器官損害。",
+          "tags": [
+            "obesity",
+            "clinical-nutrition"
+          ]
+        },
+        {
+          "title": "臨床肥胖框架複習 2",
+          "question": "preclinical obesity 與 clinical obesity 的照護差異是什麼？",
+          "answer": "前者著重風險監測與預防進展，後者需積極治療並處理 dysfunction。",
+          "tags": [
+            "obesity",
+            "risk-stratification"
+          ]
+        },
+        {
+          "title": "臨床肥胖框架複習 3",
+          "question": "primary care 應補充哪些資料？",
+          "answer": "腰圍、腰臀比、代謝風險，以及 sleep apnea、GERD、mobility limitation 等功能資料。",
+          "tags": [
+            "primary-care",
+            "assessment"
+          ]
+        },
+        {
+          "title": "臨床肥胖框架複習 4",
+          "question": "智利的盛行率數字能否直接套用到台灣？",
+          "answer": "不能。那些數字來自 Chile ENS 2017-2018，台灣需另查本地調查與政策。",
+          "tags": [
+            "public-health",
+            "external-validity"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-12T08:47:30.149Z"
+    },
+    {
+      "id": "doi:10.4067/s0034-98872026000400605:review",
+      "paperId": "doi:10.4067/s0034-98872026000400605",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "[Obesity as a Clinical Disease: It's Time to Redefine It in Chile].",
+      "authors": "Guerrero-Wyss M, Fuentes-Avalos E, Carrasco-Marín F, Celis-Morales C",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.4067/s0034-98872026000400605",
+      "abstract": "",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42441686/",
+      "category": "recommended",
+      "tags": [],
+      "noteTitle": "智利臨床肥胖重新定義的政策與實務評讀",
+      "content": "# 智利臨床肥胖重新定義的政策與實務評讀\n\n> [!info] 品質快照\n> **文章類型**：Letter to the Editor／政策與臨床觀點｜**樣本數**：n.a.｜**RoB**：不適用於實證效果估計\n> **GRADE**：不適用｜**Registration**：不適用\n> **一句話 verdict**：文章把 Lancet Diabetes & Endocrinology 的臨床肥胖框架放到智利情境，適合當作政策與照護流程討論起點，不能當成診斷準確度或治療成效證據。\n\n## Summary\n\n> ✅ Full text reviewed\n\n- 作者支持把 obesity 分為 preclinical obesity 與 clinical obesity：前者有 excess adiposity 但尚無明顯 dysfunction，後者已有 physical、metabolic 或 psychological dysfunction。\n- 文章主張單看 BMI 無法反映 adiposity distribution、metabolic health、功能影響或 organ damage。\n- 以智利 ENS 2017-2018 的資料說明疾病負荷：成人 overweight 或 obesity 約 74%，依 BMI 判定 obesity 約 34.4%。\n- 建議在 primary care 逐步加入腰圍、waist-to-hip ratio、metabolic markers、功能限制評估與分流路徑。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：作者認為「有多少體重」與「這些脂肪是否已造成身體功能問題」應分開判斷。\n> - **為什麼做**：智利成人過重與肥胖比例高，但目前照護流程仍容易把 BMI 當成主要診斷依據，沒有固定評估 adiposity-related dysfunction。\n> - **主體**：這是一封回應 Lancet Commission 新框架的意見文章，依序說明 preclinical 與 clinical obesity 的差別、對醫療資源與污名的可能影響，以及智利 primary care 可採取的評估與分流方向。\n> - **所以呢**：營養照護可把 BMI 當作入口資料，另加 waist measures、代謝風險、睡眠呼吸中止、胃食道逆流與 mobility 等功能和器官影響，仍需依正式指南與當地政策落地。\n\n## Paper Content\n\n- **核心主張**：clinical obesity 應由 excess adiposity 加上相關 dysfunction 來界定，而非只用 BMI 分級。\n- **建議的三個組件**：確認 excess adiposity、確認相關 dysfunction、由臨床評估把兩者連起來。\n- **照護分流**：clinical obesity 應接受積極治療並處理已出現的 dysfunction，preclinical obesity 則需要風險追蹤、生活型態諮詢與避免進展。\n- **智利落地建議**：基層照護加入腰圍與 waist-to-hip ratio，評估 insulin resistance、hypertension、lipid dysfunction、sleep apnea、GERD 與 mobility limitation，並建立 preclinical 與 clinical obesity 的差異化路徑。\n\n## Critical Appraisal\n\n| Domain | 判定 | 理由 |\n|---|---|---|\n| 文章定位 | 🟢 | 文章清楚呈現為 Letter to the Editor，主要任務是政策與臨床框架討論。 |\n| 證據設計 | 🔴 | 沒有原始研究設計、抽樣、對照組或效果估計，不能估計新分類的 diagnostic accuracy 或 patient outcome。 |\n| 引用使用 | 🟡 | 主要引用 Lancet Commission、智利 ENS 與 clinical obesity infographic，足以支持背景與倡議，但全文未提供新框架在智利族群的驗證資料。 |\n| 外部效度 | 🟡 | 文章聚焦 Chile，對台灣可作制度設計參考，不能直接移植盛行率或照護門檻。 |\n| 推論強度 | 🟡 | 把新分類連結到資源配置、污名與臨床改善屬合理政策推論，仍需實施研究驗證。 |\n\n### GRADE 與推論漏洞\n\n- GRADE 不適用於這封沒有原始比較資料的意見文章。\n- 文章可支持「BMI 單獨使用有侷限」與「clinical dysfunction 應納入評估」的概念討論，不能支持「新框架已改善治療結果」或「分流後能降低醫療成本」。\n- 74% 與 34.4% 是智利 ENS 2017-2018 的背景數字，不能直接當成台灣目前盛行率。\n\n### Funding and COI\n\n- 這份 Letter 未呈現介入試驗或利益衝突對效果估計的影響。實務採用前仍應查看正式文章與當地政策文件的完整 COI 與方法說明。\n\n## Clinical Application\n\n- 在營養評估中，BMI 可作為篩檢入口，但要加上 waist circumference、代謝檢驗、身體功能、睡眠與症狀資料。\n- 把「有 excess adiposity」與「已出現 obesity-related dysfunction」分開記錄，有助於設定追蹤頻率與轉介優先順序。\n- 對 clinical obesity 的照護，不宜只給體重目標，應連結到功能、血壓、血糖、血脂、睡眠與生活品質等臨床結果。\n- 這篇文章是政策討論材料，不能取代台灣正式診斷、給付或轉介規範。\n\n## Reference Verification\n\n- 文章主要引用 Rubino et al. 的 clinical obesity Commission report、智利 ENS 與 Lancet clinical obesity infographic。此次快速評讀核對了內文引用方向與文章主旨，未逐筆做所有參考資料的語意查核。\n\n## Full-text Evidence\n\n- Route：Unpaywall → University of Glasgow repository PDF。\n- Source URL：https://eprints.gla.ac.uk/391880/1/391880.pdf\n- PDF：870034 bytes，3 pages，全文可讀內容約 3 頁。\n- Identity：DOI and title matched；文章類型為完整 Letter to the Editor，非摘要頁。\n- Paper-review execution：full-text gate、article-type routing、claim-strength appraisal與臨床適用性檢查已完成。\n\n## Source\n\n- DOI: https://doi.org/10.4067/S0034-98872026000400605\n- Journal: Revista Médica de Chile 154(4) (2026): 605-607",
+      "cards": [],
+      "completedAt": "2026-08-12T08:44:31.706Z"
+    },
+    {
+      "id": "doi:10.1016/j.clnu.2026.106699:review",
+      "paperId": "doi:10.1016/j.clnu.2026.106699",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Standardizing calf circumference measurements to improve muscle mass assessment.",
+      "authors": "Benet A, Orlandi S, Rocha L, Barbosa-Silva T, Bielemann R, Santos L, Prado C, Gonzalez M",
+      "journal": "Clinical Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.clnu.2026.106699",
+      "abstract": "Calf circumference (CC) is a simple anthropometric marker of muscle mass cited in several clinical guidelines. However, whether measurement position influences results has not been studied. We evaluated agreement among CC measurements across different positions. This cross-sectional study was conducted among hospitalized patients (≥18 years). CC was measured at the largest circumference of the right calf in orthostatic (CCort), sitting (CCsit), and supine (CCsup) positions. Repeated-measures analysis of variance (RM-ANOVA) and the Tukey honestly significant difference post hoc tests were applied. Agreement between measurements was evaluated using Lin's concordance correlation coefficient and Bland-Altman analysis. The technical error of measurement (TEM) and minimal detectable change (MDC) for the measurements were calculated. Among 193 patients (mean age: 57.7 ± 15.0 years, 52.8% females), CCsit was highest, significantly exceeding CCort and CCsup. TEM ranged from 0.47 to 0.60 cm across positions, corresponding to a relative error of approximately 1.5%. MDC ranged from 1.30 to 1.67 cm, which was higher than the mean differences among the positions. Cohen's kappa indicated good agreement among the CCsit, CCort, and CCsup classifications. A small proportional bias was identified between CCort and CCsit. The width of the limits of agreement was 1.60 cm between CCsit and CCort, and 2.29 cm between CCsit and CCsup. CC values differed slightly across body positions, within the expected measurement error, and showed acceptable agreement. However, the wide limits of agreement preclude interchangeability at the individual level, suggesting that consistent positions should be used in longitudinal studies.",
+      "legalFullTextUrl": "https://www.clinicalnutritionjournal.com/article/S0261-5614(26)00126-3/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42275986/",
+      "category": "candidate",
+      "tags": [
+        "design:guideline",
+        "guideline and consensus",
+        "human clinical population"
+      ],
+      "noteTitle": "小腿圍測量姿勢與肌肉量評估的品質評讀",
+      "content": "# 小腿圍測量姿勢與肌肉量評估的品質評讀\n\n> [!info] 品質快照\n> **設計**：單中心橫斷面測量一致性研究｜**n**：193｜**RoB**（measurement agreement appraisal）：中度疑慮\n> **GRADE**：Very low ⊕◯◯◯（測量一致性結果的參考確定性）｜**Registration**：n.a.\n> **一句話 verdict**：三種姿勢的平均差異小於測量誤差，適合因病人狀況調整姿勢，但個人層級的一致界限偏寬，追蹤時仍應固定姿勢。\n\n## Summary\n\n> ✅ Full text reviewed\n\n- 研究比較住院成人右小腿在站立、坐姿、仰臥三種姿勢的 calf circumference（CC）。\n- 193 人，平均年齡 57.7 ± 15.0 歲，52.8% 為女性。\n- 坐姿平均值比站立高 0.39 cm，比仰臥高 0.33 cm，差異小於研究設定的 measurement error 與 minimal detectable change。\n- Lin's concordance correlation coefficient：站立對坐姿 0.993，站立對仰臥 0.992。\n- 個人層級 limits of agreement 約為站立對坐姿 −1.19 至 0.41 cm，站立對仰臥 −1.20 至 1.09 cm，不能把三種姿勢當成同一把尺直接互換。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：量小腿圍時，站著、坐著、躺著得到的平均數字很接近，坐姿略大，但個人差異可能接近 1 至 2 公分。\n> - **為什麼做**：小腿圍是低成本的肌肉量篩檢工具，可用在資源有限或病人無法接受 DXA、CT、MRI 的情境，但過去沒有把三種常見姿勢放在同一批人中比較。\n> - **主體**：研究者讓住院成人在三種姿勢各量三次，隔天由同一位受訓測量者重複測量，再用 RM-ANOVA、Lin's CCC、Bland-Altman、technical error of measurement（TEM）與 MDC 比較。\n> - **所以呢**：病人無法站立時，坐姿或仰臥可作為實務替代，但同一位病人的連續追蹤要固定姿勢、同一側與相近量測程序。\n\n## Methods\n\n- **族群**：巴西南部單一醫院臨床科與 elective surgery 前住院成人，納入年滿 18 歲者。排除完全臥床、下肢截肢與明顯水腫者。\n- **測量**：右小腿最大周徑，使用非彈性 BodyMetrix tape。站立時雙腳與肩同寬且平均承重，坐姿膝蓋約 90 度且雙腳著地，仰臥時膝與足部各約 90 度且腳跟接觸床面但不加壓。\n- **品質控制**：三種姿勢順序隨機化，每個姿勢當次量三次取最大值，隔日由同一位標準化觀察者重測。\n- **統計**：RM-ANOVA 加 Tukey HSD 比較平均值，Lin's CCC 評估一致性，Bland-Altman 評估平均差與 limits of agreement，另計算 TEM、CV% 與 MDC。\n\n## Key Findings\n\n| 比較 | 平均差 | 一致性或分類結果 |\n|---|---:|---|\n| 站立 vs 坐姿 | 坐姿高 0.39 cm | CCC 0.993，10 人（5.2%）重新分類，κ 0.896 |\n| 站立 vs 仰臥 | 仰臥高 0.06 cm | CCC 0.992，8 人（4.1%）重新分類，κ 0.917 |\n| 單一姿勢 TEM | 0.47 至 0.60 cm | 相對誤差約 1.5% |\n| 單一姿勢 MDC | 1.30 至 1.67 cm | 追蹤變化需超過此幅度才較可能超過測量誤差 |\n\n研究沒有發現 BMI 分層會改變主要姿勢差異。站立與坐姿存在小幅 proportional bias（β = −0.04，p < 0.001），站立與仰臥的 proportional bias 未達顯著（β = −0.02，p = 0.079）。\n\n## Critical Appraisal\n\n| Domain | 判定 | 理由 |\n|---|---|---|\n| 受試者選取 | 🟡 | 單一醫院住院樣本，排除完全臥床與水腫者，與高齡營養實務中的衰弱病人有差距。 |\n| 測量程序 | 🟢 | 姿勢順序隨機化，同一位受訓觀察者依明確姿勢與量測程序執行。 |\n| 重複性 | 🟡 | 隔日重測可估計誤差，但生理狀態在 24 小時內仍可能改變。 |\n| 統計分析 | 🟢 | 同一受試者比較、CCC、Bland-Altman、TEM 與 MDC 互相補足，沒有只依賴 p 值。 |\n| 外部效度 | 🔴 | 單中心、巴西住院成人，且排除水腫與完全臥床者，不能直接推廣到 ICU、長照或嚴重營養不良族群。 |\n\n### GRADE 與推論漏洞\n\n- 以觀察性證據的保守起始層級計算，內建 grade_judge.py 結果為 **Very low**，主因是 risk of bias 與 indirectness 各降一級。\n- 這不是藥物或營養介入效果試驗，GRADE 對測量一致性的適用性有限，應把結果視為操作標準化與解讀誤差的參考。\n- 作者的結論有保留地指出姿勢可依病人狀況調整，同時承認個人層級不可互換，沒有把高 CCC 誇大成三種姿勢完全相同。\n- 研究支持「姿勢差異的平均值很小」，不能支持「任何病人任意換姿勢仍可直接比較」。\n\n### Funding and COI\n\n- 研究未獲特定公共、商業或非營利研究經費。部分作者有研究支持或研究講座、顧問與差旅費揭露，涉及 Abbott Nutrition、Nutricia、Nestle Health Science 與 Novo Nordisk。\n- 這些利益關係未直接改變量測工具，但在營養相關結論的解讀上仍應保留透明度。\n\n## Clinical Application\n\n- 病人能站立時，固定使用站立姿勢並記錄量測側、最大周徑定位與量測者。\n- 無法站立時，可使用坐姿或仰臥，但後續追蹤應沿用相同姿勢，避免把姿勢差異誤判成肌肉量變化。\n- 單次變化若小於約 1.3 至 1.7 cm，不宜只靠小腿圍判定真正的 longitudinal change，需合併體重、飲食攝取、肌力、功能與其他身體組成指標。\n- 本研究排除水腫與完全臥床者，因此不能直接把這套誤差範圍套用到 fluid overload、臥床重症或明顯下肢水腫病人。\n\n## Reference Verification\n\n- 本次快速評讀核對了研究內文引用的 GLIM muscle-mass guidance、AWGS consensus 與測量標準化來源的 DOI 與題名一致性。未對所有 41 筆參考文獻逐一做語意查核，這部分保留給專門的 reference verification 工作。\n\n## Full-text Evidence\n\n- Route：Unpaywall → Clinical Nutrition official open-access PDF。\n- Source URL：https://www.clinicalnutritionjournal.com/article/S0261-5614(26)00126-3/pdf\n- PDF：1565718 bytes，7 pages，native text 42065 chars。\n- Identity：DOI and title matched；Methods、Results、Discussion、Conclusion sections were present。\n- Paper-review execution：full-text gate、methods extraction、measurement-agreement appraisal、GRADE deterministic calculation與 inference-gap check 已完成。\n\n## Source\n\n- DOI: https://doi.org/10.1016/j.clnu.2026.106699\n- Journal: Clinical Nutrition 63 (2026) 106699",
+      "cards": [],
+      "completedAt": "2026-08-12T08:24:16.006Z"
+    },
     {
       "id": "doi:10.1016/j.clnesp.2026.103462:digest",
       "paperId": "doi:10.1016/j.clnesp.2026.103462",
