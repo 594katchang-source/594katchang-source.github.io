@@ -1,7 +1,108 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T12:03:47.150Z",
+  "generatedAt": "2026-08-12T06:53:31.340Z",
   "papers": [
+    {
+      "id": "doi:10.1016/j.clnesp.2026.103462:digest",
+      "paperId": "doi:10.1016/j.clnesp.2026.103462",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Dietary adherence and disability evolution in multiple sclerosis: An exploratory 12-month prospective cohort study.",
+      "authors": "García Gañán D, Sanz Andreu L, El Berdei Montero Y, Velasco Criado A",
+      "journal": "Other nutrition journals (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.clnesp.2026.103462",
+      "abstract": "Lifestyle factors may influence disability trajectories in multiple sclerosis (MS), yet prospective data linking sustained dietary adherence to objective clinical outcomes remain limited. Homocysteine, a metabolite involved in one-carbon metabolism, represents a biologically plausible mediator between nutrition and neurodegeneration, although its longitudinal clinical relevance in MS is uncertain. This study aimed to investigate whether adherence to a structured dietary intervention is associated with longitudinal changes in plasma homocysteine levels and disability progression in patients with MS over 12 months. In this prospective cohort study, 41 patients with MS were followed for 12 months. Dietary adherence was quantified using a structured follow-up scale (range 2-6). Plasma homocysteine levels and Expanded Disability Status Scale (EDSS) scores were assessed at baseline, 6 months, and 12 months. Associations between adherence, metabolic changes, and EDSS evolution were evaluated using correlation analyses and multivariate linear regression adjusting for age, sex, BMI, baseline EDSS, and treatment line. Baseline mean homocysteine was 10.91 ± 6.94 μmol/L and decreased to 8.24 ± 3.33 μmol/L at 6 months, remaining stable at 8.27 ± 2.42 μmol/L at 12 months. Between-group differences in homocysteine showed a trend toward significance at 12 months (ANOVA p = 0.059). Mean EDSS increased slightly from 1.14 to 1.23 in the overall cohort (p > 0.05). However, EDSS evolution differed according to dietary adherence (ANOVA p = 0.009): low-adherence patients showed a mean EDSS increase (+0.53 ± 0.72), whereas high-adherence patients showed a mean EDSS decrease (-0.56 ± 1.08). Given the low baseline EDSS, short follow-up, and small high-adherence subgroup, these changes should be interpreted as exploratory differences in short-term EDSS trajectory rather than confirmed clinical improvement and do not establish causality. Adherence score was inversely correlated with EDSS change (r = -0.57, p = 0.0006) and remained independently associated in multivariate analysis (β = -0.45, 95% CI -0.68 to -0.22, p = 0.0005). Higher adherence to the dietary counselling programme was associated with a more favourable short-term disability trajectory over 12 months. However, causality cannot be inferred, and the clinical significance of these modest changes remains uncertain. Because the adherence score was not formally validated and may partly reflect broader health-related behaviours or engagement with care, and because the dietary intervention was individualized, the study cannot identify specific dietary components or dietary patterns associated with disability trajectories. These exploratory findings require confirmation in larger controlled studies using validated dietary assessment instruments.",
+      "legalFullTextUrl": "https://doi.org/10.1016/j.clnesp.2026.103462",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42413731/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "design:prospective cohort",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "多發性硬化症飲食遵從與失能軌跡的全文內容整理",
+      "content": "# 多發性硬化症飲食遵從與失能軌跡的全文內容整理\n\n> [!summary] 30 秒層\n> 一句話：這篇 12 個月前瞻性 cohort 發現，較高的飲食諮詢遵從度與較有利的短期 EDSS 變化相關，homocysteine 雖下降，卻沒有呈現清楚的遵從度依賴性。\n> - 41 位 MS 患者完成追蹤，飲食遵從度以 2 到 6 分的研究內部 ordinal score 評估。\n> - EDSS 整體由 1.14 變成 1.23，整體差異未達顯著。\n> - low、moderate、high adherence 的 EDSS 變化為 +0.53、0.00、-0.56，ANOVA p=0.009。\n> - 遵從度與 EDSS 變化的相關係數為 r=-0.57，調整後 β=-0.45。\n> - 這是 association，不能解讀成飲食造成神經功能改善。品質判斷請見 paper-review。\n\n## 研究問題與背景\n\n**要點**：作者想知道，持續接受個別化飲食諮詢，是否與 MS 患者的 homocysteine 與 EDSS 軌跡相關。\n\n- MS 的失能累積涉及免疫、神經退化、代謝與生活因素。\n- homocysteine 連結 folate、vitamin B12、氧化壓力、血管功能與 methylation，因此被當作探索性代謝指標。\n- 研究假說是較高的飲食遵從度會伴隨 homocysteine 下降與較有利的 EDSS 軌跡。\n\n## 方法\n\n**要點**：這是單一中心、41 人、12 個月的觀察性 cohort，介入內容個別化，暴露量用未驗證的遵從度分數表示。\n\n- 研究對象是西班牙 Salamanca tertiary neurology center 的成人 MS 患者，41 位完成基線、6 個月與 12 個月追蹤。\n- 平均年齡 40 歲，女性 31 位，基線平均 EDSS 1.14。DMT treatment line 被放進回歸模型。\n- 飲食諮詢共同原則包括蔬菜、豆類、魚、蛋、lean protein、乳品與水果，減少高度加工食品、糖、加工肉品、含糖飲料、酒精、飽和脂肪、反式脂肪與精製 carbohydrate。\n- 飲食依個人習慣、食物偏好、體重目標、代謝狀態、活動量與生活安排調整，沒有單一固定菜單。\n- 每學期評估一次 adherence，poor、irregular、good 分別記 1、2、3 分，兩次加總為 2 到 6 分。2 到 3 分為 low，4 分為 moderate，5 到 6 分為 high。\n- EDSS 由對 adherence category blinded 的 neurologists 評估。homocysteine 以 fasting blood sample 測量。\n- 統計包含 paired t-test、one-way ANOVA、Pearson correlation 與 multivariate linear regression。主要調整 age、sex、BMI、baseline EDSS 與 treatment line。\n\n## 主要發現\n\n**要點**：EDSS 的分層結果與連續模型都支持同一方向，但整體 EDSS 沒有顯著改善，且 subgroup 很小。\n\n| Outcome | 結果 | 讀法 |\n|---|---:|---|\n| Homocysteine baseline → 6 個月 | 10.91 ± 6.94 → 8.24 ± 3.33 µmol/L，p=0.012 | 整體下降 |\n| Homocysteine baseline → 12 個月 | 10.91 ± 6.94 → 8.27 ± 2.42 µmol/L，p=0.015 | 下降維持 |\n| 12 個月 homocysteine change | high -3.10、moderate -0.03、low -2.99 µmol/L，p=0.059 | 組間只有趨勢 |\n| EDSS overall | 1.14 → 1.23，p>0.05 | 整體小幅上升 |\n| EDSS change by adherence | low +0.53 ± 0.72，moderate 0.00 ± 0.47，high -0.56 ± 1.08 | ANOVA p=0.009，high n=8 |\n| Adherence 與 EDSS change | r=-0.57，p=0.0006 | 分數越高，EDSS change 越低 |\n| Adjusted EDSS model | β=-0.45，95% CI -0.68 至 -0.22，p=0.0005 | 列入 covariates 後方向相同 |\n| Adherence trajectory | stable/improved 21/33，worsened 12/33 | EDSS difference p=0.752 |\n\n## 怎麼理解 EDSS 結果\n\n**要點**：研究的主要訊號是 adherence score 與 EDSS change 的關聯，尚未達到可用來宣稱臨床改善的證據強度。\n\n- high adherence 組平均 EDSS 下降，low adherence 組平均上升，形成清楚的分層方向。\n- high adherence 組只有 8 人，基線 EDSS 偏低，單一年內小幅差異可能受 measurement variability、regression to the mean 或功能波動影響。\n- 作者沒有指定 EDSS minimal clinically important difference，因此 p=0.009 不能直接轉成患者感受到的功能改善。\n- adherence trajectory 的補充分析未達顯著，表示「後半年變好或維持」的方向未能重現主要 summed score 的差異。\n\n## Homocysteine 與可能機制\n\n**要點**：homocysteine 在整體 cohort 下降，但沒有呈現穩定 dose-response，也沒有在調整模型中證實是 adherence 的獨立結果。\n\n- high 與 low adherence 組都出現 homocysteine 下降，moderate 組變化接近零。\n- 遵從度與 homocysteine change 的調整模型 β=-0.47，95% CI -1.09 至 0.16，p=0.138。\n- folate 與 vitamin B12 的資料只有部分患者具備，無法充分檢查 one-carbon metabolism 的中介路徑。\n- 發炎、氧化壓力、mitochondrial function、methylation、gut microbiota 都是作者提出的可能機制，研究本身沒有直接測量這些路徑。\n\n## 臨床意義與使用方式\n\n**要點**：可把這篇研究當成營養諮詢與研究設計的線索，不能從中挑出一項食物或營養素當成 MS 失能改善處方。\n\n- 實務上可用 individualized counselling 支持蔬菜、魚、lean protein、豆類與較少高度加工食品的飲食方向，仍要依吞嚥、疲勞、體重、共病、用藥與生活條件調整。\n- 追蹤時應同步記錄 relapse、corticosteroid、DMT、活動量、抽菸、補充品、health literacy 與回診投入，這些因素可能同時影響 adherence 與 EDSS。\n- homocysteine 可以作為代謝背景資料，解讀時需放入 folate、B12、腎功能、補充品與整體飲食脈絡。\n- 對患者可說：規律營養諮詢與較有利的短期功能軌跡有關，研究還不能證明因果，也沒有找出單一關鍵食物。\n\n## 重要圖表重述\n\n**要點**：圖表把 adherence score 的分布、homocysteine 的時間變化、EDSS 分層與調整模型放在一起，讀圖時要記得 subgroup 人數很少。\n\n- Fig. 1：呈現 2 到 6 分 adherence score 的分布，high adherence 約占 24.2%，moderate 30.3%，low 45.5%。\n- Fig. 2：呈現 overall homocysteine 在 baseline、6 個月、12 個月下降。\n- Fig. 3：以 box plot 比較各 adherence group 的 homocysteine change，組間 p=0.059。\n- Fig. 4：呈現 overall EDSS，平均由 1.14 到 1.23。\n- Fig. 5：呈現各 adherence group 的 EDSS change，high group 的分布最容易受小樣本影響。\n- Fig. 6：呈現 multivariate regression，adherence score 的 β 為負值，95% CI 未跨過 0。\n\n## 與既有認知的對照\n\n**要點**：研究與既有觀察性文獻的方向相近，仍未補上 randomized dietary intervention 的因果證據。\n\n- 既有研究常把 diet quality、smoking、活動量與 MS disability 或生活品質放在同一個 lifestyle cluster 解讀。\n- 本研究把 adherence、homocysteine、EDSS 放在同一追蹤框架，提供了小型 prospective signal。\n- 研究缺口仍在於 validated dietary assessment、可重現的飲食 protocol、較大樣本、較長追蹤與客觀 adherence biomarker。\n\n## 概念與名詞整理\n\n- **EDSS**：MS 常用的 disability scale，本研究用它表示 12 個月神經失能軌跡。\n- **Homocysteine**：與 folate、B12、methylation、氧化壓力及血管功能相關的血中代謝物。\n- **Adherence score**：本研究自訂的 2 到 6 分 ordinal measure，表示遵守飲食諮詢方案的程度，非營養素攝取量。\n- **Residual confounding**：模型已調整部分變項，仍有未測量因素同時影響 adherence 與 EDSS。\n- **Association**：兩項變項一起變化，沒有排除反向因果與混雜，不能當作治療效果。\n\n## 自我測驗\n\n> [!question]- Q1：為什麼 high adherence 組的 EDSS 下降，仍不能說飲食造成改善？\n> 因為研究沒有隨機分派，adherence score 未驗證，high group 只有 8 人，且活動量、健康識能、用藥配合與回診投入等混雜因素未完整測量。\n\n> [!question]- Q2：homocysteine 的結果為什麼只算探索性？\n> 整體 homocysteine 雖由 10.91 降到 8.27 µmol/L，但 high 與 low adherence 都下降，組間 p=0.059，調整後 adherence β=-0.47、p=0.138，缺乏穩定的 adherence-dependent pattern。\n\n> [!question]- Q3：這篇研究的 adherence score 測量了什麼？\n> 它測量患者在兩個學期中遵守個別化飲食諮詢的程度，每學期 1 到 3 分，加總成 2 到 6 分。它沒有直接測量精確的熱量、營養素或食物攝取量。\n\n> [!question]- Q4：研究中哪一個 EDSS 結果最容易被過度解讀？\n> low、moderate、high 組的 ANOVA p=0.009 很醒目，但 high group 只有 8 人，且 overall EDSS 1.14 到 1.23 未達顯著，研究也沒有提出 EDSS 的臨床重要差異門檻。\n\n> [!question]- Q5：若要做下一個研究，哪些設計要補強？\n> 需要較大樣本、預先計算 sample size、validated diet assessment、可重現的飲食 protocol、客觀 adherence biomarker、完整記錄 relapse 與 steroid exposure、較長追蹤及預先定義的 disability outcome。\n\n## Reference\n\nGaÃ±Ã¡n DG, Sanz Andreu L, El Berdei Montero Y, Velasco Criado A. Dietary adherence and disability evolution in multiple sclerosis: an exploratory 12-month prospective cohort study. *Clinical Nutrition ESPEN*. 2026. doi: `10.1016/j.clnesp.2026.103462`.\n\n全文來源：GREDOS University of Salamanca repository 的 CC BY PDF，53 pages，native text 70,119 characters。此 digest 只整理該全文內容，品質判斷請看對應的品質評讀。",
+      "cards": [
+        {
+          "title": "飲食遵從與 EDSS 變化",
+          "question": "為什麼 high adherence 組的 EDSS 下降，仍不能說飲食造成改善？",
+          "answer": "研究沒有隨機分派，adherence score 未驗證，high group 只有 8 人，且活動量、健康識能、用藥配合與回診投入等混雜因素未完整測量。",
+          "tags": [
+            "multiple sclerosis",
+            "dietary adherence",
+            "EDSS"
+          ]
+        },
+        {
+          "title": "Homocysteine 的探索性結果",
+          "question": "homocysteine 的結果為什麼只算探索性？",
+          "answer": "整體 homocysteine 雖下降，但 high 與 low adherence 都下降，組間 p=0.059，調整後 adherence β=-0.47、p=0.138，缺乏穩定的 adherence-dependent pattern。",
+          "tags": [
+            "homocysteine",
+            "multiple sclerosis",
+            "nutrition"
+          ]
+        },
+        {
+          "title": "Adherence score 的意義",
+          "question": "這篇研究的 adherence score 測量了什麼？",
+          "answer": "它測量兩個學期中遵守個別化飲食諮詢的程度，每學期 1 到 3 分，加總為 2 到 6 分，沒有直接測量精確營養素攝取量。",
+          "tags": [
+            "adherence",
+            "diet assessment",
+            "methods"
+          ]
+        },
+        {
+          "title": "EDSS 結果的解讀",
+          "question": "研究中哪一個 EDSS 結果最容易被過度解讀？",
+          "answer": "分層 ANOVA p=0.009 很醒目，但 high group 只有 8 人，overall EDSS 1.14 到 1.23 未達顯著，且未提出臨床重要差異門檻。",
+          "tags": [
+            "EDSS",
+            "clinical significance",
+            "bias"
+          ]
+        },
+        {
+          "title": "下一個研究如何補強",
+          "question": "若要做下一個研究，哪些設計要補強？",
+          "answer": "需要較大樣本、validated diet assessment、可重現的 protocol、客觀 adherence biomarker、完整記錄 relapse 與 steroid exposure、較長追蹤及預先定義的 disability outcome。",
+          "tags": [
+            "study design",
+            "multiple sclerosis",
+            "nutrition research"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-12T06:07:13.384Z"
+    },
+    {
+      "id": "doi:10.1016/j.clnesp.2026.103462:review",
+      "paperId": "doi:10.1016/j.clnesp.2026.103462",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Dietary adherence and disability evolution in multiple sclerosis: An exploratory 12-month prospective cohort study.",
+      "authors": "García Gañán D, Sanz Andreu L, El Berdei Montero Y, Velasco Criado A",
+      "journal": "Other nutrition journals (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.clnesp.2026.103462",
+      "abstract": "Lifestyle factors may influence disability trajectories in multiple sclerosis (MS), yet prospective data linking sustained dietary adherence to objective clinical outcomes remain limited. Homocysteine, a metabolite involved in one-carbon metabolism, represents a biologically plausible mediator between nutrition and neurodegeneration, although its longitudinal clinical relevance in MS is uncertain. This study aimed to investigate whether adherence to a structured dietary intervention is associated with longitudinal changes in plasma homocysteine levels and disability progression in patients with MS over 12 months. In this prospective cohort study, 41 patients with MS were followed for 12 months. Dietary adherence was quantified using a structured follow-up scale (range 2-6). Plasma homocysteine levels and Expanded Disability Status Scale (EDSS) scores were assessed at baseline, 6 months, and 12 months. Associations between adherence, metabolic changes, and EDSS evolution were evaluated using correlation analyses and multivariate linear regression adjusting for age, sex, BMI, baseline EDSS, and treatment line. Baseline mean homocysteine was 10.91 ± 6.94 μmol/L and decreased to 8.24 ± 3.33 μmol/L at 6 months, remaining stable at 8.27 ± 2.42 μmol/L at 12 months. Between-group differences in homocysteine showed a trend toward significance at 12 months (ANOVA p = 0.059). Mean EDSS increased slightly from 1.14 to 1.23 in the overall cohort (p > 0.05). However, EDSS evolution differed according to dietary adherence (ANOVA p = 0.009): low-adherence patients showed a mean EDSS increase (+0.53 ± 0.72), whereas high-adherence patients showed a mean EDSS decrease (-0.56 ± 1.08). Given the low baseline EDSS, short follow-up, and small high-adherence subgroup, these changes should be interpreted as exploratory differences in short-term EDSS trajectory rather than confirmed clinical improvement and do not establish causality. Adherence score was inversely correlated with EDSS change (r = -0.57, p = 0.0006) and remained independently associated in multivariate analysis (β = -0.45, 95% CI -0.68 to -0.22, p = 0.0005). Higher adherence to the dietary counselling programme was associated with a more favourable short-term disability trajectory over 12 months. However, causality cannot be inferred, and the clinical significance of these modest changes remains uncertain. Because the adherence score was not formally validated and may partly reflect broader health-related behaviours or engagement with care, and because the dietary intervention was individualized, the study cannot identify specific dietary components or dietary patterns associated with disability trajectories. These exploratory findings require confirmation in larger controlled studies using validated dietary assessment instruments.",
+      "legalFullTextUrl": "https://doi.org/10.1016/j.clnesp.2026.103462",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42413731/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "design:prospective cohort",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "多發性硬化症飲食遵從與失能變化的品質評讀",
+      "content": "# 多發性硬化症飲食遵從與失能變化的品質評讀\n\n## Source and full-text evidence\n\n- DOI: `10.1016/j.clnesp.2026.103462`\n- Study: prospective observational cohort, 12-month follow-up\n- Lawful source: GREDOS University of Salamanca repository PDF, CC BY\n- Source file: `source.pdf`\n- Readable text: 70,119 characters across 53 PDF pages\n- Identity: DOI and title matched. Methods, Results, Discussion, and Conclusion sections were present. Native extraction passed without OCR or replacement characters.\n- Version: Journal pre-proof, received 22 April 2026, accepted 29 June 2026. It is not the final version of record.\n\n## 品質快照\n\n> **設計**：前瞻性觀察性 cohort｜**n**：41 位完成 12 個月追蹤的 MS 患者｜**RoB**：嚴重，主因是未隨機、遵從分數未驗證、樣本小與殘餘混雜\n>\n> **GRADE**：Very low，主要 outcome 為 12 個月 EDSS 變化，deterministic judge 結果為 Low 起始，降級 -4\n>\n> **Registration**：n.a.，文中未報告臨床試驗註冊\n>\n> **一句話 verdict**：研究指出較高的飲食諮詢遵從度與較有利的短期 EDSS 變化相關，資料仍不足以支持飲食造成神經功能改善，也無法分辨哪一種食物、營養素或飲食型態發揮作用。\n\n## 白話導讀\n\n這篇研究追蹤 41 位多發性硬化症患者一年，觀察他們遵守個別化飲食諮詢的程度，並比較 EDSS 與 homocysteine 的變化。高遵從組的 EDSS 平均下降，低遵從組平均上升，統計模型也呈現相同方向。研究設計仍屬觀察性資料，遵從度可能同時代表動機、健康識能、活動量、用藥配合與回診投入程度。高遵從組只有 8 人，基線 EDSS 也偏低，短期小幅變化的臨床價值難以確定。這篇文章適合當作假說生成資料，不能直接轉成特定飲食處方。\n\n## 研究問題與背景\n\n- MS 的失能累積受到發炎、神經退化、代謝與生活因素共同影響，飲食可能與發炎狀態及 one-carbon metabolism 有關。\n- 研究把 homocysteine 視為可能的代謝指標，並以 EDSS 作為主要臨床結果。\n- 研究問題是：12 個月內，較持續的飲食諮詢遵從度是否與 homocysteine 下降及 EDSS 軌跡相關。\n\n## 研究方法\n\n- 研究地點為西班牙 Salamanca 的 tertiary neurology center，患者連續招募，納入條件包含成人、確診 MS、具基線與追蹤檢驗。\n- 41 位患者完成基線、6 個月與 12 個月評估。平均年齡 40 歲，女性 31 位，平均基線 EDSS 1.14。第一線 DMT 24 人，第二線 DMT 16 人，未治療 1 人。\n- 飲食諮詢採個別化處方，核心原則包括增加蔬菜、規律安排 carbohydrate-rich foods、攝取 lean protein、魚、蛋、乳品與水果，減少高度加工食品、糖、加工肉品、含糖飲料、酒精、飽和脂肪、反式脂肪與精製 carbohydrate。\n- 遵從度以研究團隊自訂的 ordinal score 評估，每學期一次，每次 1 到 3 分，兩次加總為 2 到 6 分。2 到 3 分列為 low，4 分列為 moderate，5 到 6 分列為 high。這個分數未經外部驗證，也非 nutrient intake 的定量工具。\n- EDSS 由對飲食分類 blinded 的 neurologists 評估。主要臨床 outcome 為基線到 12 個月的 EDSS 變化，主要代謝 outcome 為 homocysteine 變化。\n- 分析使用 paired t-test、one-way ANOVA、Pearson correlation 與 multivariate linear regression。主要調整 age、sex、BMI、baseline EDSS 與 treatment line。MS phenotype、relapse、corticosteroid、smoking、physical activity、supplement、socioeconomic status 與 validated diet quality 未能完整納入。\n\n## 主要結果\n\n| 結果 | 數值 | 解讀 |\n|---|---:|---|\n| Homocysteine，baseline 到 6 個月 | 10.91 ± 6.94 → 8.24 ± 3.33 µmol/L，p=0.012 | 整體下降 |\n| Homocysteine，baseline 到 12 個月 | 10.91 ± 6.94 → 8.27 ± 2.42 µmol/L，p=0.015 | 下降維持 |\n| 12 個月 homocysteine 變化，high / moderate / low | -3.10 ± 2.04 / -0.03 ± 3.21 / -2.99 ± 3.46 µmol/L，ANOVA p=0.059 | 組間只呈趨勢，未達顯著 |\n| 遵從度與 homocysteine 變化的調整模型 | β=-0.47，95% CI -1.09 至 0.16，p=0.138 | 未證實獨立關聯 |\n| 整體 EDSS | 1.14 → 1.23，p>0.05 | 整體小幅上升，未達顯著 |\n| 12 個月 EDSS 變化，low / moderate / high | +0.53 ± 0.72，n=15 / 0.00 ± 0.47，n=10 / -0.56 ± 1.08，n=8，ANOVA p=0.009 | 分層差異需視為探索性 |\n| 連續遵從度與 EDSS 變化 | r=-0.57，p=0.0006 | 較高遵從度與較低 EDSS 變化相關 |\n| 多變項 EDSS 模型 | β=-0.45，95% CI -0.68 至 -0.22，p=0.0005 | 調整已列 covariates 後仍有關聯，仍不能推論因果 |\n| 遵從度軌跡 | stable/improved 21/33，worsened 12/33 | EDSS 變化差異 p=0.752，未達顯著 |\n\n## Critical appraisal\n\n### Risk of bias by domain\n\n| Domain | 判定 | 理由 |\n|---|---|---|\n| Confounding | 高風險 | 高遵從者可能同時有較高健康識能、活動量、用藥配合、回診投入與戒菸行為，這些因素未被完整測量。 |\n| Selection | 中至高風險 | 單一 tertiary center、只有完成 12 個月者進入 longitudinal analysis，可能有 completion bias。 |\n| Exposure classification | 高風險 | adherence score 是研究內部工具，未做外部驗證，也缺少 inter-rater reproducibility。 |\n| Outcome measurement | 中風險 | EDSS 由 blinded neurologists 評估，降低評估偏差，但低基線 EDSS 與一年內小變化仍有 measurement variability。 |\n| Missing data | 中至高風險 | folate、B12、脂質與其他 laboratory data 的樣本數隨時間不同，部分重要混雜因子也未完整取得。 |\n| Selective reporting | 需要留意 | 報告包含主要、次要與探索性分析，未見明確 outcome switching 證據，研究仍缺乏預先註冊資訊。 |\n\n### Statistical and inference checks\n\n- 主要 EDSS 結果的 overall change 未達顯著，顯著差異來自 adherence strata 與 continuous score。high-adherence subgroup 只有 8 人，分層估計容易受單一個案影響。\n- 文章沒有提出 EDSS 的 minimal clinically important difference。統計顯著不能直接等同患者感受到的功能改善。\n- 研究同時檢查多個 biomarker、分層、trajectory 與 regression 結果，文中未清楚說明 multiplicity adjustment，p 值需保守解讀。\n- Homocysteine 在 high 與 low adherence 組都下降，moderate 組幾乎不變，缺乏 dose-response pattern。調整模型也未達顯著，不能把 homocysteine 當成已證實的中介。\n- 作者把結論限定為 association、exploratory 與 hypothesis-generating，沒有把觀察性結果寫成治療效果。`argdown_lint.py` 對 association claim 的結果為 clean，未發現從 association 跳到 causal claim 的結構性錯誤。\n\n### GRADE\n\n`grade_judge.py` 的 deterministic 結果：\n\n- Starting level：Low，觀察性 cohort\n- Risk of bias：serious，-1\n- Inconsistency：not serious，0，單一 cohort 無法估計 study-to-study inconsistency\n- Indirectness：serious，-1，個別化介入與未驗證遵從度分數無法對應可重現的飲食型態，追蹤期也短\n- Imprecision：very serious，-2，n=41，high-adherence n=8，未做正式 sample-size calculation\n- Publication bias：not serious，0，單篇研究無法正式估計\n- Final certainty：**Very low**\n\n## Clinical application\n\n- 可以把這篇文章當作營養諮詢可行性與後續研究設計的線索，不能以此文指定 MS 患者採用某一種飲食法。\n- 臨床追蹤可保留飲食遵從、體重、活動量、吸菸、補充品、DMT、relapse 與 steroid exposure 等資料，避免把整體健康行為誤當成單一飲食因素。\n- EDSS 需搭配 relapse history、walking function、fatigue、quality of life 與患者目標解讀，短期小幅變動不宜直接當成神經功能改善。\n- Homocysteine 可作為代謝背景資料，補充 folate、B12、腎功能與 supplement history 後再解釋。這篇研究沒有證明降低 homocysteine 會改善 EDSS。\n- 對患者的說法可保持在：「規律的營養諮詢與較好的短期功能軌跡有關，但研究還不能證明飲食造成改善，也無法指出哪一項食物或營養素是關鍵。」\n\n## Reference verification\n\n本文 reference list 的主要相關文獻多未提供 DOI。依 CrossRef existence gate，沒有 DOI 的項目標為「no DOI, existence unverified」，未把 title-level plausibility 當成通過。待後續可取得 DOI 或 PubMed record 後，再做 semantic comparison。這一限制不影響本篇主要結果的直接閱讀，但降低了背景敘事的可核查程度。\n\n## 結論\n\n這是一篇有清楚前瞻性追蹤與臨床 outcome 的小型探索性 cohort。主要訊號是飲食諮詢遵從度與短期 EDSS 變化的統計關聯，homocysteine 的下降則缺少遵從度依賴性與調整後支持。未驗證的 exposure score、8 人 high-adherence subgroup、未測量的生活型態混雜與一年追蹤期，使證據確定性落在 Very low。可用於形成研究假說，暫不宜當成特定飲食處方或改善 MS 失能的臨床證據。",
+      "cards": [],
+      "completedAt": "2026-08-12T06:01:46.861Z"
+    },
     {
       "id": "h:5f108c4927a9:review",
       "paperId": "h:5f108c4927a9",
