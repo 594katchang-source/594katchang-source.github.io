@@ -1,7 +1,297 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T20:16:08.351Z",
+  "generatedAt": "2026-08-13T02:11:44.160Z",
   "papers": [
+    {
+      "id": "doi:10.3390/molecules31132292:digest",
+      "paperId": "doi:10.3390/molecules31132292",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Therapeutic Potential of Kuwanon G: From Bioactivities to Network-Level Mechanisms.",
+      "authors": "Aydemir E, Şimşek B, Acar A, Kilit A, Köse E",
+      "journal": "Obesity and metabolism (PubMed)",
+      "year": "2026",
+      "doi": "10.3390/molecules31132292",
+      "abstract": "Natural products like the isoprenylated flavonoid Kuwanon G (KWG), isolated primarily from Morus alba, offer promising pleiotropic effects against multifactorial diseases, overcoming the limitations of conventional single-target synthetic drugs. This study aims to systematically review the pharmacological activities of KWG and evaluate its underlying molecular mechanisms. A comprehensive literature review was integrated with network pharmacology, protein-protein interaction (PPI) profiling, and KEGG/GO pathway enrichment analyses to identify shared targets across different pathologies. Experimental data demonstrate that KWG exhibits antimicrobial, anti-inflammatory, antidiabetic, neuroprotective, anti-obesity, and anticancer properties. Bioinformatics analyses revealed that KWG exerts these effects by modulating core targets (e.g., TNF, IL-6, SRC, RELA) and key signaling pathways, including NF-κB, PI3K/AKT/mTOR, and Toll-like receptors, which govern inflammation, oxidative stress, and metabolic regulation. In conclusion, KWG is a potent, multi-target compound with significant therapeutic potential for managing chronic and infectious diseases. However, future structure-activity relationship studies and clinical trials are required to address its pharmacokinetic limitations, such as low bioavailability, to facilitate its clinical translation.",
+      "legalFullTextUrl": "https://doi.org/10.3390/molecules31132292",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42451659/",
+      "category": "recommended",
+      "tags": [],
+      "noteTitle": "桑科異戊烯基黃酮 Kuwanon G 多靶點生物活性與網絡機制的全文內容整理",
+      "content": "# 桑科異戊烯基黃酮 Kuwanon G 多靶點生物活性與網絡機制的全文內容整理\n\n> [!summary] 30 秒層\n> 一句話：本文是 narrative review，整合 Kuwanon G（KWG）的來源、化學特徵、細胞與動物研究、酵素試驗及 network pharmacology，提出它可能透過 TNF、IL-6、SRC、RELA 與 NF-kB、PI3K/AKT/mTOR、TLR 等網絡調節發炎、氧化壓力、代謝、神經與腫瘤相關路徑。\n> - KWG 是主要見於桑屬植物，尤其 Morus alba 的多酚型 prenylated flavonoid。\n> - 證據以體外酵素與細胞模型為主，部分抗發炎、代謝與傷口模型延伸到動物。\n> - 網絡分析把 TNF、IL-6、RELA、SRC、AKT1、ESR1 等列為共同或核心 targets，但這些是預測與文獻整合結果。\n> - 低生體可用率、吸收分布、代謝、慢性毒性與人體試驗資料仍不足。\n> 品質未評讀（內容整理），需可信度判斷請另做 paper-review。\n\n## 全文地圖\n**要點**：作者先說明天然產物與多靶點藥理背景，再依來源結構、心血管、糖尿病、發炎免疫、神經保護、肥胖、抗菌、抗氧化、抗癌與酵素活性整理證據，最後說明搜尋與 network pharmacology 方法及轉譯限制。\n- 第 1 節介紹 KWG 與天然產物研究背景。\n- 第 2 節整理 KWG 來自哪些 Morus 物種、化學結構、立體化學與合成概念。\n- 第 3 節依疾病或活性主題彙整實驗研究，並以 Figure 4 至 Figure 11 對應多個疾病網絡。\n- 第 4 節說明文獻搜尋、KWG target gene、疾病 gene、Venn、PPI、GO、KEGG 與 Litmaps 參考文獻分析。\n- 第 5 節把 KWG 定位為值得進一步驗證的先導結構，沒有把機制潛力等同人體治療效果。\n\n## 各主題重點\n**要點**：KWG 的研究訊號跨越多種生物活性，但每一類證據的模型、劑量、終點與成熟度差異很大。\n\n### 來源與化學特性\n- KWG 是 prenylated flavonoid，文中以多種 kuwanon 類化合物的結構比較說明其多酚、異戊烯基取代與立體化學特徵。\n- 來源以桑屬 Morus 為主，包含 M. alba、M. bombycis、M. australis 與 M. nigra，Table 1 列出含 KWG 的物種與文獻來源。\n- 根皮、樹皮、葉與其他植物部位的萃取物組成不固定，不能把含 KWG 的植物萃取物直接視為純 KWG。\n- 化學結構中的多個酚羥基與 prenyl 片段可能影響抗氧化、酵素結合、膜相互作用與細胞訊號，但結構與活性的因果關係仍需 structure-activity relationship 研究。\n\n### 心血管與代謝\n- 心血管部分整合發炎、脂質代謝、血管功能與 renin-angiotensin system。文獻中的細胞模型觀察到 KWG 可降低泡沫細胞形成或發炎訊號，ApoE-/- 小鼠研究則報告血清膽固醇與循環發炎細胞激素下降。\n- 部分酵素試驗顯示 KWG 抑制 ACE，另有研究觀察到 renin 與 angiotensinogen 下降。這些結果仍屬前臨床層級。\n- 糖尿病主題中，KWG 在酵素試驗抑制 alpha-glucosidase 的 IC50 約 2.35 ± 0.03 µM，另有研究報告 alpha-amylase、PTP1B、AGEs 與 ONOO- 相關活性。不同研究的溶劑、純度與測定條件不同，數值不可直接跨研究排序。\n- Caco-2 與 HepG2 等細胞模型提示 glucose uptake、腸道屏障、 tight junction 與 LPS 誘發細胞激素可能受調節。這些結果尚未證明口服 KWG 能改善糖尿病患者血糖。\n- Figure 4 與 Figure 5 的網絡把 TNF、IL-6、IL-1B、RELA、NFKBIA、SRC、ESR1 等連到發炎、脂質、胰島素阻抗與血管路徑。\n\n### 抗發炎、過敏與氣喘\n- 在細胞模型中，KWG 可降低 LPS 或 TNF-alpha 誘發的 IL-6、IL-1B、TNF-alpha、NO 或 iNOS 訊號。某些 TNF-alpha 刺激模型報告 IL-6 抑制率 98.6%，但這是特定細胞與實驗條件的結果。\n- OVA 誘發氣喘小鼠研究觀察到氣道發炎、BAL fluid 細胞與 Th2 cytokines IL-4、IL-5、IL-13 下降，仍不能直接轉為人體氣喘治療建議。\n- HaCaT keratinocyte 與 MC/9 mast cell 模型指向 STAT1 與 NF-kB p65，也涉及 MDC/CCL22、組織胺與黏液相關反應。\n- Figure 6 的 network pharmacology 將 TNF、IL-6、IL-1B、RELA、NFKBIA、TYK2 與 TNF、TLR、IL-17、JAK-STAT、NF-kB 路徑置於核心。這支持「可能調節」的假說，並非直接 target engagement 證明。\n\n### 神經、肥胖與抗氧化\n- 神經主題包含 AChE、BChE、BACE1、MAO-A、MAO-B、dopaminergic receptors、氧化壓力與神經發炎。部分酵素試驗中 BACE1 IC50 約 1.01 µM，BChE IC50 約 15.33 µM，AChE 活性較弱或不一致。\n- BV2、HT22、PC12 等細胞研究涉及 ROS、NF-kB、p38 MAPK、GSK3、PI3K/Akt 與細胞存活。部分結果顯示 p-Akt 增加或 neuroinflammation 下降，但沒有足夠動物與人體資料證明神經保護效果。\n- 有研究以 liver microsome、分子模擬與 network pharmacology 探索可能跨血腦屏障的代謝物，AKT1、TNF、SRC、EGFR、ESR1 被列為重要預測 targets。\n- Figure 7 與 Figure 8 分別連結神經退化、代謝腦病與肥胖。肥胖網絡涉及 IL-6、TNF、IL-1B、NFKBIA、APOE、ESR1、CB1 與 NF-kB，仍需體內暴露量與功能終點驗證。\n- 抗氧化結果多來自化學或細胞試驗，不能只靠自由基清除測定推論人體抗氧化效益。\n\n### 抗菌與抗腫瘤\n- 抗菌部分涵蓋口腔病原體、MRSA、其他細菌、病毒、寄生蟲與真菌。MRSA 研究使用多株臨床分離株，報告 MIC、MIC50、MIC90 及與 gentamicin 的組合效果。不同菌株與培養條件會改變結果。\n- 有些研究在 HepG2、Vero 等哺乳動物細胞評估細胞毒性，並延伸到小鼠傷口模型。抗菌訊號仍需藥物暴露、安全性、感染模型與臨床比較試驗支持。\n- KWG 也被研究於 PTP1B、細菌 carbapenemase 等酵素，某些 assay 顯示低微莫耳級 IC50，但酵素抑制不等於人體感染或代謝疾病療效。\n- 抗癌部分涵蓋乳癌、胃癌與肝癌等 network。Figure 11 以共同 targets、PPI 與 pathway enrichment 連結 KWG 與腫瘤相關機制，文章主張仍以細胞、計算與零散前臨床證據為主，沒有人體抗癌效果結論。\n\n## 機轉白話講解\n**要點**：作者提出的是一張「可能的訊號交通圖」，核心節點反覆出現，卻仍需直接實驗確認 KWG 是否在有效暴露濃度下改變這些節點。\n- 可把 TNF、IL-6、IL-1B 想成發炎警報，RELA 是 NF-kB 複合體中很重要的轉錄調節元件，NFKBIA 則參與 NF-kB 的抑制與釋放。KWG 在部分細胞模型降低 cytokine 或 p65 活化，與這張網絡圖方向一致。\n- TLR 受到微生物或 LPS 刺激後，會把訊號往 NF-kB、MAPK 與發炎基因推進。KWG 若降低這些路徑，理論上可減少發炎輸出，但網絡分析本身只代表 targets 與 pathway 的關聯。\n- PI3K/AKT/mTOR 可連接細胞存活、葡萄糖利用、蛋白質合成、代謝與神經細胞反應。神經細胞研究觀察到 p-Akt、GSK3、p38 或 NF-kB 變化，提示多路徑交叉調節。\n- SRC、AKT1、EGFR、ESR1 等節點可能把生長因子、代謝、發炎與腫瘤訊號接在一起。這種多靶點模式是 prenylated flavonoid 的研究亮點，也增加了藥理、毒理與交互作用評估的難度。\n- ⚠️ 補充：教學時可把 network pharmacology 當成候選機制地圖，把細胞磷酸化、基因剔除、target binding、藥物暴露與動物終點當成驗證關卡。這一段是研究方法上的教學補充，不能當成本文已完成的驗證。\n\n## 研究模型與證據分層\n**要點**：本篇把不同證據並列整合，閱讀時要先辨認研究層級。\n- 計算證據：資料庫 target prediction、疾病 gene、Venn、PPI、GO、KEGG、network centrality、molecular docking 或模擬。它能產生假說，不能單獨證明體內作用。\n- 酵素證據：alpha-glucosidase、alpha-amylase、PTP1B、ACE、AChE、BChE、BACE1、MAO 與抗菌酵素試驗。IC50 會受純度、底物、時間與 assay system 影響。\n- 細胞證據：HUVEC、HepG2、Caco-2、macrophage、HaCaT、mast cell、BV2、HT22、PC12 等。可觀察 cytokines、ROS、tight junction、細胞存活與訊號蛋白，但不能直接代表器官或病人。\n- 動物證據：ApoE-/- 動脈粥樣硬化、OVA 氣喘、小鼠高鹽飲食、傷口與感染相關模型。這比純細胞更接近生理，但仍缺少人體劑量、長期暴露與臨床結局。\n- 人體證據：本文沒有提供可支持 KWG 臨床療效的隨機試驗或臨床治療結果。\n\n## 研究方法與 network pharmacology 限制\n**要點**：方法段建立了可重現的計算流程，但資料庫、靶點預測與文獻選擇會把不確定性帶進網絡。\n- 作者進行 literature searching，設定納入與排除條件，再取得 KWG 相關 targets 與疾病相關 genes。\n- 以交集建立 common targets，用 Venn diagram、PPI、GO 與 KEGG enrichment 找出核心節點與 pathway。\n- Litmaps 用來顯示參考文獻間的關係，Figure 12 提供引用網絡地圖。\n- 主要限制包括資料庫註解不完整、target prediction 的假陽性、docking 分數不等於真實結合、不同研究的萃取物與純化程度不一致，以及多數研究缺少暴露量與藥動學。\n- network 的 hub gene 可能因研究數量或資料庫偏差而突出，不能直接視為最有效或最安全的藥物 target。\n\n## 生體可用率與臨床轉譯缺口\n**要點**：KWG 的主要瓶頸是「體外有效濃度能否在人體安全地達到」。\n- 需要補足口服吸收、血中濃度、組織分布、代謝物、血腦屏障、清除與蛋白結合資料。\n- 需要比較純 KWG 與桑樹萃取物的藥動學，並釐清 prenylated 結構對溶解度、膜通透與代謝的影響。\n- 需要急性、亞慢性與慢性毒性、藥物交互作用、生殖與肝腎安全性資料。\n- 臨床研究應先從可量測的 pharmacokinetic、biomarker 與耐受性開始，再進入發炎、代謝、感染或神經疾病的適應症試驗。\n- 對營養與健康教學，KWG 可作為天然產物多靶點研究案例，不能把桑樹、桑樹萃取物或 KWG 宣稱為治療糖尿病、氣喘、失智、感染或癌症的替代方案。\n\n## 重要圖表重述\n**要點**：圖表的功能是把來源、活性、網絡與文獻關係視覺化，不能取代原始研究的實驗細節。\n- Figure 1：kuwanon 類化合物結構比較，突顯 KWG 的多酚與 prenyl 特徵。\n- Figure 2：KWG 的植物來源與生物活性總覽。\n- Table 1：列出含 KWG 的 Morus 物種。\n- Figure 3：KWG 的合成與立體化學概念。\n- Figure 4 至 Figure 11：依序整理心血管、糖尿病、呼吸道發炎與免疫、神經退化與代謝腦病、肥胖、感染、抗氧化及乳癌／胃癌／肝癌相關 targets 與 pathways。\n- Figure 12：相關參考文獻的互連地圖。\n- 讀圖時要分開 common target、network hub、pathway enrichment 與已被細胞或動物實驗驗證的終點。\n\n## 與既有認知的對照\n**要點**：本次專案 vault 未提供可直接比對的既有 KWG、prenylated flavonoid 或同一篇文獻筆記。\n- vault 無相關既有筆記。\n- 本篇新增的知識差異在於把 KWG 的多種體外活性與 TNF、IL-6、SRC、RELA、NF-kB、PI3K/AKT/mTOR、TLR 網絡放在同一張概念圖中，同時明確保留計算與臨床證據的距離。\n\n## 概念與名詞整理\n**要點**：掌握「化合物來源、模型層級、核心 target、pathway、轉譯限制」五個軸線，就能快速讀懂全文。\n- KWG：Kuwanon G，桑屬植物中的 prenylated flavonoid。\n- IC50：在特定 assay 條件下造成 50% 抑制所需的濃度，不代表人體有效劑量。\n- Network pharmacology：把化合物 targets、疾病 genes、PPI 與 pathway enrichment 串起來的計算框架。\n- Hub target：在網絡中連結度較高的節點，仍需實驗驗證。\n- NF-kB：發炎基因轉錄調節網絡的重要訊號軸。\n- PI3K/AKT/mTOR：連接細胞存活、代謝與生長的訊號軸。\n- TLR：辨認病原相關訊號並啟動先天免疫反應的受體家族。\n- 機制潛力：代表可作為研究假說，不能寫成臨床療效。\n\n## 自我測驗\n**要點**：用問題檢查是否能分辨 KWG 的證據層級與機制推論。\n> [!question]- Q1：為什麼本文反覆提到 TNF、IL-6、RELA 與 SRC，卻不能直接說 KWG 已經治療發炎疾病？\n> 答案：這些節點來自 network pharmacology 的共同 target、PPI 或 pathway enrichment，也有部分細胞與動物結果相互呼應。可是計算關聯與前臨床訊號不等於人體 target engagement、有效暴露量或臨床結局。\n\n> [!question]- Q2：如何解讀 KWG 在 alpha-glucosidase assay 的低微莫耳級 IC50？\n> 答案：它表示在該酵素試驗條件下有抑制活性，可能支持代謝研究假說。仍要考慮純度、底物與 assay 條件，並確認口服吸收、血中濃度、腸道與全身暴露，不能直接推論能降低病人血糖。\n\n> [!question]- Q3：本文中的 NF-kB 與 PI3K/AKT/mTOR 可以如何連在同一個機制框架？\n> 答案：NF-kB較常被用來解釋發炎基因與 cytokine 輸出，PI3K/AKT/mTOR則連接細胞存活、代謝與神經反應。不同模型看到 p65、p-Akt、GSK3 或 p38 變化，提示路徑交叉，但每個模型的因果鏈仍需個別驗證。\n\n> [!question]- Q4：哪些資料最能阻止研究者把 KWG 的體外結果過度外推？\n> 答案：缺少人體試驗、吸收與生體可用率資料、組織分布與代謝物資料、慢性毒性資料，以及不同研究中萃取物與純化合物條件不一致。這些缺口會限制劑量、適應症與安全性的判斷。\n\n> [!question]- Q5：讀 Figure 4 至 Figure 11 時，應如何分辨預測機制與已驗證機制？\n> 答案：先看圖中的 common targets、hub genes 與 enrichment，再回到正文找是否有直接酵素、細胞、動物或人體結果。只有後者能支持特定生物反應，network 圖本身只提供候選路徑。\n\n## Reference\n`Aydemir E, Simsek B, Acar A, Kilit AC, Odabas Kose EO. Therapeutic Potential of Kuwanon G: From Bioactivities to Network-Level Mechanisms. Molecules. 2026;31:2292. doi:10.3390/molecules31132292.`\n\n全文依據：使用指定合法 PDF，58 頁，逐頁文字層均可讀，涵蓋第 1 至第 5 節、Figure 1 至 Figure 12、Table 1 與參考文獻。",
+      "cards": [
+        {
+          "title": "",
+          "question": "為什麼本文反覆提到 TNF、IL-6、RELA 與 SRC，卻不能直接說 KWG 已經治療發炎疾病？",
+          "answer": "它們是計算網絡與部分前臨床研究共同指向的候選節點，仍缺少人體 target engagement、有效暴露量與臨床結局。",
+          "tags": [
+            "Kuwanon G",
+            "發炎",
+            "network pharmacology"
+          ]
+        },
+        {
+          "title": "",
+          "question": "如何解讀 KWG 在 alpha-glucosidase assay 的低微莫耳級 IC50？",
+          "answer": "它代表特定酵素試驗條件下的抑制活性，不能直接換算成人體有效劑量，仍需藥動學、生體可用率與臨床試驗。",
+          "tags": [
+            "Kuwanon G",
+            "代謝",
+            "IC50"
+          ]
+        },
+        {
+          "title": "",
+          "question": "如何分辨 Figure 4 至 Figure 11 中的預測機制與已驗證機制？",
+          "answer": "先辨認 common targets、hub genes 與 pathway enrichment，再核對正文是否有直接酵素、細胞或動物結果，network 圖本身只提供候選路徑。",
+          "tags": [
+            "network pharmacology",
+            "證據分層"
+          ]
+        },
+        {
+          "title": "",
+          "question": "哪些資料缺口限制 KWG 的臨床轉譯？",
+          "answer": "人體試驗、吸收與生體可用率、組織分布、代謝物、慢性毒性、藥物交互作用與可達安全濃度資料都不足。",
+          "tags": [
+            "Kuwanon G",
+            "臨床轉譯",
+            "藥動學"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-13T02:09:31.853Z"
+    },
+    {
+      "id": "doi:10.1038/s41598-026-61821-y:digest",
+      "paperId": "doi:10.1038/s41598-026-61821-y",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Prognostic value of epicardial adipose tissue distribution as a complementary risk marker for major adverse cardiovascular events in diabetes.",
+      "authors": "Qiao S, Liu C, Ma Y, Wang Y, Li K, Yao J, Liu P, Gao D",
+      "journal": "Scientific Reports (PubMed)",
+      "year": "2026",
+      "doi": "10.1038/s41598-026-61821-y",
+      "abstract": "This study aimed to compare the predictive capabilities of BMI, WHR, Epicardial Adipose Tissue (EAT), and Visceral Adiposity Index (VAI) for MACE in individuals with diabetes mellitus. It further sought to explore whether increased EAT or visceral fat is a more significant factor for MACE than general obesity in this population. A prospective study was conducted involving 1071 individuals with diabetes mellitus (64% male, median age 58 years). EAT volume and spatial distribution were obtained by manually delineating cardiac magnetic resonance (CMR) images using CV142 software. MACE were defined as ischemic heart disease, hypertensive heart disease, heart failure, stroke, and cardiovascular disease (CVD)-related death. Baseline data, CMR parameters, and different obesity indices were compared among groups. The Kaplan-Meier (KM) curve was used to explore the relationship between different obesity indices and MACE in individuals with diabetes mellitus. The predictive performance of each index for MACE occurrence was compared using multi-model Cox multivariate regression analysis, and sensitivity analysis was performed. Over a median follow-up of 1508 days, 118 MACE occurred. The MACE and non-MACE groups differed in EAT volume, EAT distribution, and WHR. Among comorbidity subgroups, differences were observed in EAT volume, EAT distribution, BMI, WHR, and VAI. Kaplan-Meier analysis indicated that EAT distribution and WHR predicted MACE. In multivariable Cox regression, EAT location (EAT.LOC) predicted MACE in all three models and remained significant in the fully adjusted model (Model 3: HR: 1.76 → 1.85). In contrast, EAT volume, VAI, BMI, and WHR showed no predictive ability in any model. In within-model comparisons, EAT.LOC demonstrated superior predictive value (Model 3: ΔC-index = 0.016, NRI = 0.163, IDI = 0.112). Compared to traditional cardiovascular risk factor models, the model incorporating EAT.LOC also demonstrated favorable predictive value (ΔC-index = 0.013, NRI = 0.163, IDI = 0.07). Sensitivity analysis confirmed the robustness of these findings. EAT distribution, but not BMI, WHR, VAI, or EAT volume, independently predicts MACE risk in patients with diabetes mellitus. These findings indicate that EAT.LOC independently predicts MACE in diabetic patients and could be used for secondary risk stratification in this population. Nevertheless, the causal link between EAT.LOC and MACE remains to be established in future studies.",
+      "legalFullTextUrl": "https://doi.org/10.1038/s41598-026-61821-y",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42443355/",
+      "category": "candidate",
+      "tags": [
+        "chronic disease nutrition",
+        "human clinical population",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "糖尿病心外膜脂肪分布與重大心血管事件風險的全文內容整理",
+      "content": "> [!summary] 30 秒層\n這項前瞻性世代研究指出，糖尿病患者的心外膜脂肪分布位置（EAT.LOC）可在傳統風險因子之外，提供少量但穩定的 MACE 預測增益。\n- 1071 位糖尿病患者，64% 為男性，中位年齡 58 歲。\n- 中位追蹤 1508 天，發生 118 件 MACE。\n- CMR 手動描繪 EAT volume 與位置，EAT.LOC 在完整調整模型仍有關聯，HR 1.85，95% CI 1.10–3.11，P=0.01。\n- BMI、WHR、VAI 與 EAT volume 在多變項模型中未呈現獨立預測力。\n- 預測增益幅度小，研究屬觀察性資料，因果關係仍待確認。\n\n品質未評讀（內容整理），需可信度判斷 → /paper-review\n\n## 研究問題 / 背景\n**要點**：研究者想知道，脂肪量、身體型態指標與心外膜脂肪空間分布，哪一項能補充糖尿病患者的心血管事件風險判斷。\n\n- 糖尿病提高缺血性心臟病、心衰竭、腦中風與心血管死亡的風險。\n- BMI、腰臀比與 VAI 反映全身或腹部脂肪，卻難以呈現脂肪和心肌、心包膜之間的空間關係。\n- EAT 位於心肌表面與心包膜之間，沒有筋膜與心肌完全隔開。文中提出，這種鄰近關係可能讓脂肪分泌的 IL-6、TNF-α、leptin、resistin 等訊號直接影響心肌與冠狀動脈周邊環境。\n- 研究焦點由「脂肪有多少」延伸到「脂肪主要分布在哪裡」，並檢驗 EAT.LOC 能否改善既有風險模型。\n\n## 方法\n**要點**：研究以 1071 位糖尿病患者建立前瞻性觀察世代，使用 CMR 量測 EAT，再以存活分析與 Cox 模型比較各項指標。\n\n- 研究對象：中位年齡 58 歲，64% 男性，94% 為 White；依共病情況分為單純糖尿病、糖尿病合併心血管疾病、糖尿病合併其他共病等群組。\n- 主要結果：MACE 包含 ischemic heart disease、hypertensive heart disease、heart failure、stroke 與 CVD-related death。\n- 影像量測：使用 cardiac magnetic resonance，由兩位觀察者以 CV142 軟體手動描繪 EAT volume 與空間位置，並區分 ventricular EAT 與 interventricular septal EAT 的分布概念。\n- 比較指標：EAT volume（EAT.V）、EAT location（EAT.LOC）、BMI、WHR 與 VAI。\n- 模型：Model 1 調整年齡與性別。Model 2 再加入吸菸、LDL-C、SHBG。Model 3 再加入 HbA1c 與共病群組。Model 4 為傳統心血管風險因子模型，Model 5 在 Model 4 加入單一評估指標。\n- 統計：Kaplan–Meier 曲線、log-rank test、Cox proportional hazards regression、C-index、ΔC-index、NRI 與 IDI。另做 50 次 bootstrap internal validation。\n- 敏感度分析：排除第 1–99 百分位外值、排除超過 3 個標準差的值、改變追蹤期間、依共病分層檢查交互作用，以及使用 traditional MACE 終點。\n\n## 主要發現\n**要點**：EAT.LOC 是唯一在完整模型仍維持預測力的脂肪相關指標，但帶來的模型改善幅度有限。\n\n| 分析重點 | 研究結果 | 教學解讀 |\n|---|---|---|\n| 事件與追蹤 | 1071 人，118 件 MACE，中位追蹤 1508 天 | 事件數足以進行預後分析，但仍屬單一研究世代的觀察資料 |\n| Kaplan–Meier：EAT.LOC | 2500 天存活率：V-EAT 0.79（95% CI 0.73–0.84），IS-EAT 0.88（95% CI 0.80–0.93），P=0.03 | 分布位置不同的群組，其事件累積與存活表現有差異 |\n| Kaplan–Meier：WHR | WHR ≥0.93 與 WHR <0.93 在 2500 天的存活率為 0.86（0.80–0.90）與 0.77（0.69–0.83），P=0.04 | WHR 在未充分調整的時間分析中有訊號，進入多變項模型後未保留獨立預測力 |\n| 完整 Cox Model 3：EAT.LOC | HR 1.85，95% CI 1.10–3.11，P=0.01；C-index 0.65 | EAT.LOC 與 MACE 風險獨立相關 |\n| EAT.LOC 與 EAT.V 同時納入 | EAT.LOC HR 1.86，95% CI 1.05–3.30，P=0.03；EAT.V 仍未顯著 | 分布位置帶來的訊息可能超過單純總量 |\n| Model 3 增益 | ΔC-index 0.016，NRI 0.163，IDI 0.112 | 分類與辨識略有改善，實務幅度仍需謹慎解讀 |\n| 傳統風險模型加 EAT.LOC | ΔC-index 0.013，NRI 0.163，IDI 0.07，P=0.03 | 相較傳統因子，加入 EAT.LOC 有統計上的增益 |\n| 其他指標 | EAT.V、VAI、BMI、WHR 在多變項模型中未見獨立預測力 | 身體大小或脂肪總量無法取代空間分布資訊 |\n\n- EAT.V、WHR、BMI 與左心室質量及心室壁厚度呈中度相關，相關係數約 r=0.32–0.50，P<0.001。VAI 與 EAT.LOC 未與 CMR 結構參數呈顯著相關。\n- EAT.LOC 與基線生化資料缺乏顯著相關，提示它可能補捉到傳統代謝指標未涵蓋的心臟周邊脂肪特徵。\n- 排除極端值、改變追蹤期間、共病交互作用分析與 traditional MACE 分析後，EAT.LOC 的方向與預後訊號大致維持。\n\n## 臨床意義 / 怎麼用\n**要點**：EAT.LOC 可視為影像型的第二層風險分層候選指標，現階段適合協助理解風險，不宜單獨決定治療。\n\n- 對已接受 CMR 的糖尿病患者，EAT 的位置分布可能補充 BMI、腰臀比與 VAI 沒有提供的資訊。\n- 營養評估仍應放在體重變化、腰圍、飲食品質、血糖、血脂、血壓、腎功能、身體功能與治療目標的整合脈絡。單一影像指標不能替代飲食與代謝照護。\n- 研究呈現的是預後關聯，尚不能推論改變 EAT.LOC 就能降低 MACE。也無法據此設定飲食、減重或藥物介入的專屬門檻。\n- EAT.LOC 的預測增益為 ΔC-index 0.013–0.016，屬小幅改善。臨床採用前需確認外部驗證、成本效益、量測一致性與不同族群的適用性。\n- CMR 手動量測需要影像設備、人工描繪與訓練時間。若每位患者都追加此檢查，可能增加費用、流程負擔與觀察者差異。\n\n## 重要圖表重述\n**要點**：圖表共同呈現三件事，EAT.LOC 的存活曲線有差異，完整 Cox 模型仍保留關聯，加入傳統風險因子後有小幅增益。\n\n- Table 1：列出 MACE 與 non-MACE 組的基線、CMR 與代謝資料，年齡、酒精使用、Cys.C、TP 與部分影像或共病資料出現組間差異。\n- Table 2：比較 EAT.LOC、EAT.V、VAI、BMI 與 WHR 在三個 Cox 模型的 HR、95% CI 與 P 值。\n- Figure 3：Kaplan–Meier 分析顯示 EAT.LOC 與 WHR 的事件或存活差異，EAT.V、VAI、BMI 分組未見同樣的顯著差異。\n- Figure 4：以 C-index、ΔC-index、NRI、IDI 比較各指標，EAT.LOC 的增益最穩定。\n- Supplementary Figure 3：極端值排除、不同追蹤時間、共病分層與 traditional MACE 的結果，支持主要方向仍可重現。\n\n## 與既有認知的對照\n**要點**：本次工作區未提供可供 vault_search 比對的既有 Medicine 或 Papers 筆記，因此先保留本篇的知識增量。\n\n- vault 無相關既有筆記。\n- 本篇新增的重點是：EAT volume、BMI、WHR、VAI 與 EAT spatial distribution 代表不同層次的脂肪資訊，預後訊號可能更靠近「位置」而非「總量」。\n\n## 概念 / 名詞整理\n**要點**：讀懂本篇需要把脂肪測量、事件預後與模型增益分開理解。\n\n- EAT：心外膜脂肪，位於心肌表面與心包膜之間。\n- EAT.V：CMR 量得的 EAT 總體積，回答「有多少」。\n- EAT.LOC：EAT 的空間分布或位置，回答「主要在哪裡」。\n- MACE：研究預先定義的重大不良心血管事件。\n- HR：在 Cox 模型中描述相對事件速率的指標，HR 1.85 表示在該模型條件下，EAT.LOC 較高或較不利的分布狀態與較高事件速率相關，不能直接當成個人絕對風險。\n- C-index：模型區分較早發生事件者與較晚發生事件者的能力。\n- NRI：觀察加入新指標後，個體風險分類是否更貼近事件結果。\n- IDI：觀察加入新指標後，事件組與非事件組的預測分離程度是否改善。\n\n## 研究限制與閱讀提醒\n**要點**：結果可作為假說與風險分層線索，尚未達到改變臨床流程的證據強度。\n\n- 觀察性世代研究無法確立 EAT.LOC 與 MACE 的因果鏈。\n- EAT 以人工 CMR 描繪，缺少預先固定的高解析區域分割協定，量測成本與觀察者一致性需進一步處理。\n- 研究族群以 White 受試者為主，外推至台灣或其他族群需外部驗證。\n- 事件種類整合在 MACE 終點內，各事件的病理機轉與影像關係可能不同。\n- 增益數值雖達統計顯著，C-index 的實際提升幅度小，臨床價值仍需結合決策曲線、成本、可取得性與治療選項評估。\n- 研究沒有證明減重、飲食調整、血糖控制或其他治療能改變 EAT.LOC，也沒有提供以 EAT.LOC 為導向的營養介入試驗。\n\n## 自我測驗\n> [!question]- Q1：為何研究者認為 EAT.LOC 可能比 EAT volume 更有預後資訊？\n> 答案：EAT volume 只呈現脂肪總量，EAT.LOC 描述脂肪和心肌、心室周邊的空間關係。研究中 EAT.LOC 在完整 Model 3 的 HR 為 1.85，EAT.V 未呈現獨立預測力，表示位置可能補捉到總量以外的局部心臟周邊特徵。\n\n> [!question]- Q2：如何解讀加入 EAT.LOC 後 ΔC-index 只有 0.013–0.016？\n> 答案：模型的區分能力有小幅改善，並伴隨 NRI 0.163 與 IDI 0.07–0.112。這支持統計上的額外資訊，卻不代表每位患者都會得到足以改變治療的臨床收益，仍需外部驗證與成本效益分析。\n\n> [!question]- Q3：為何 WHR 在 Kaplan–Meier 分析有差異，進入多變項 Cox 後卻未保留獨立預測力？\n> 答案：未調整分析可見 WHR 分組的事件差異，但 WHR 與年齡、代謝、身體組成或共病等因素可能共享資訊。多變項模型加入這些變項後，WHR 的額外訊息減少，因此不能只依未調整曲線判斷獨立預後效果。\n\n> [!question]- Q4：本篇結果能否支持以飲食或減重介入直接降低 EAT.LOC 相關 MACE？\n> 答案：不能。研究只建立 EAT.LOC 與 MACE 的觀察性關聯，沒有測試飲食、減重或藥物介入，也未確立因果機轉。臨床上可把它當作研究與風險分層線索，仍須依整體代謝與心血管評估規劃照護。\n\n## Reference\nPrognostic value of epicardial adipose tissue distribution as a complementary risk marker for major adverse cardiovascular events in diabetes. Scientific Reports, 2026. doi:10.1038/s41598-026-61821-y",
+      "cards": [
+        {
+          "title": "",
+          "question": "為何研究者認為 EAT.LOC 可能比 EAT volume 更有預後資訊？",
+          "answer": "EAT volume 呈現總量，EAT.LOC 呈現和心肌、心室周邊的空間關係。完整模型中 EAT.LOC HR 1.85 且 EAT.V 未具獨立預測力，支持位置可能提供總量以外的資訊。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "如何解讀加入 EAT.LOC 後 ΔC-index 只有 0.013–0.016？",
+          "answer": "模型區分能力只有小幅改善，雖有 NRI 與 IDI 的統計增益，仍不能直接等同足以改變治療的臨床收益。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "為何 WHR 在 Kaplan–Meier 分析有差異，進入多變項 Cox 後卻未保留獨立預測力？",
+          "answer": "WHR 可能與年齡、代謝、身體組成與共病共享資訊，調整後可供 WHR 額外解釋的部分減少。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "本篇結果能否支持以飲食或減重介入直接降低 EAT.LOC 相關 MACE？",
+          "answer": "不能。研究只呈現觀察性關聯，沒有測試介入，也未確立因果鏈。",
+          "tags": []
+        }
+      ],
+      "completedAt": "2026-08-13T02:01:06.705Z"
+    },
+    {
+      "id": "doi:10.1038/s41416-026-03524-9:digest",
+      "paperId": "doi:10.1038/s41416-026-03524-9",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Anthropometric traits, metabolic biomarkers, and pancreatic cancer risk: a causal mediation analysis in UK Biobank.",
+      "authors": "Amadou A, Freisling H, Mercoeur B, Bohmann P, Stein M, Noh H, Gebremariam A, Sedlmeier A, Peruchet-Noray L, Gan Q, Leitzmann M, Baurecht H, Fervers B",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.1038/s41416-026-03524-9",
+      "abstract": "Obesity is a risk factor for pancreatic cancer, but mechanisms remain unclear. We investigated how anthropometric traits, individually and combined, relate to pancreatic cancer risk and whether associations are mediated by metabolic biomarkers. We analysed 462,300 adults (40-69 years) in the UK Biobank. Principal component analysis derived three body shape phenotypes combining body mass index (BMI), height, weight, waist and hip circumference, and waist-to-hip ratio (WHR). Mediation was assessed using four-way decomposition. Over a median follow-up of 10.9 years, 1115 pancreatic cancer cases occurred. Each one-standard-deviation (SD) increase in BMI or WHR was associated with a higher incidence of pancreatic cancer, with hazard ratios (HRs) of 1.20 (confidence interval, CI: 1.12-1.28) and 1.24 (CI: 1.14-1.36), respectively. Body shape characterizing overall obesity showed a similar association (HR = 1.20; CI: 1.12-1.28 per 1-SD), with glucose and HbA1c accounting for mediated proportions (mediated interaction + pure indirect effect) of 12.2% (CI: 3.4-21.0%) and 15.0% (CI: 5.7-24.2%), respectively. For BMI, glucose accounted for 15.9% (CI: 2.8-28.9%) and HbA1c for 20.0% (CI: 6.3-33.7%) of the association. Glucose and HbA1c mediate a large proportion of the obesity-pancreatic cancer association, highlighting the important role of glycemic control in obesity-related pancreatic carcinogenesis and targeted interventions in at-risk populations.",
+      "legalFullTextUrl": "https://doi.org/10.1038/s41416-026-03524-9",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42436322/",
+      "category": "recommended",
+      "tags": [
+        "obesity and metabolism",
+        "precision nutrition",
+        "safety and interaction"
+      ],
+      "noteTitle": "肥胖體型與血糖代謝對胰臟癌風險的可能中介路徑全文內容整理",
+      "content": "> [!summary] 30 秒層：一句話與重點\n> 本研究用 UK Biobank 前瞻性資料指出，較高 BMI、腰臀比、腰圍，以及代表一般肥胖的 body-shape PC1，都和胰臟癌發生風險較高有關，血糖與 HbA1c 可能解釋其中一部分關聯。\n> - 462,300 名 40 至 69 歲成人，追蹤中位數 10.9 年，發生 1,115 例胰臟癌。\n> - 每增加 1 個 BMI 標準差，HR 1.20（95% CI 1.12–1.28）。每增加 1 個 WHR 標準差，HR 1.24（95% CI 1.14–1.36）。\n> - 一般肥胖 body shape PC1 與胰臟癌 HR 1.20（95% CI 1.12–1.28）。\n> - 四向分解中，HbA1c 對 BMI 關聯的整體 mediated proportion 為 20.0%，對 PC1 為 15.0%。\n> - 這是觀察性 mediation analysis，仍依賴未測混雜、時間順序、模型與 mediator-outcome 因果假設，不能當成減重或降糖介入已證實能預防胰臟癌。\n> 品質未評讀（內容整理）；需可信度判斷 → /paper-review\n\n## 研究問題 / 背景\n**要點**：作者想釐清肥胖與胰臟癌的關聯，並量化血糖代謝等 biomarker 是否位在這條關聯的中間路徑。\n\n- 胰臟癌發生率上升、預後差，建立可修正的初級預防線索有實務價值。\n- 過去研究支持一般肥胖與腹部肥胖和胰臟癌有關，但單一 BMI、腰圍或 WHR 可能無法完整呈現體型與脂肪分布。\n- 作者用六項 anthropometric traits 建立 body-shape phenotypes，再把 glucose、HbA1c、IGF-1、CRP、脂質、肝臟與蛋白代謝指標放進候選路徑。\n- 生物學背景包含 insulin resistance、hyperinsulinemia、慢性低度發炎、脂肪組織 cytokines、glucose dysregulation 與細胞壓力。這些是研究背景提出的可能機制，不等於本研究已逐一證明。\n\n## 方法\n**要點**：研究以 UK Biobank 的大型前瞻性 cohort 為基礎，用 Cox regression 估計風險，再以 four-way decomposition 拆解 mediation 與 interaction。\n\n- 原始族群 502,384 人，排除缺性別、既有癌症與 anthropometric 資料缺失或異常者後，得到 462,300 人。\n- 主要完整案例分析因 covariate 缺失剩 367,615 人。表 2 的風險估計列出 366,724 人與 891 例，mediation 表格依 biomarker 可用資料不同，樣本約 294,268 至 310,147 人、713 至 754 例。\n- 基線測量包含身高、體重、腰圍、臀圍，計算 BMI 與 WHR。血液樣本並非空腹採集。\n- PCA 使用身高、體重、BMI、腰圍、臀圍、WHR 的標準化 residuals，校正年齡、性別與研究中心。PC1、PC2、PC3 合計解釋 98% anthropometric variation。\n  - PC1：一般肥胖到較瘦體型，解釋 66.20%。\n  - PC2：較高且低 WHR 到較矮且高 WHR，解釋 19.34%。\n  - PC3：較高且高 WHR 到較矮且低 WHR，解釋 12.41%。\n- Cox model 以年齡作 underlying time scale，納入研究中心、diet score、飲酒、抽菸、身體活動、教育、Townsend deprivation index、久坐與性別等調整項。\n- 主要 exposure 以每 1 SD 增加分析，也做 quartile、PC score 分類、性別分層、排除前 5 年追蹤、額外調整 diabetes 與 multiple imputation。\n- 先找出同時與 anthropometry 和胰臟癌相關的 biomarker，再做 four-way decomposition。四個成分是 controlled direct effect、reference interaction、mediated interaction 與 pure indirect effect。Exposure 的反差設定為第 25 百分位到第 75 百分位，mediator 固定在中位數以估計 controlled direct effect。\n- Mediator model 彼此 mutual adjustment，排除高度相關配對。作者也做未互相調整 biomarker 的敏感度分析。\n\n## 主要發現\n**要點**：BMI、WHR、腰圍、臀圍與一般肥胖 PC1 都呈正向關聯，血糖與 HbA1c 是最穩定的候選中介。\n\n| 指標 | 每 1 SD 的 HR（95% CI） | 解讀 |\n|---|---:|---|\n| BMI，4.69 kg/m² | 1.20（1.12–1.28） | BMI 較高者胰臟癌發生風險較高 |\n| WHR，0.09 | 1.24（1.14–1.36） | 腹部脂肪分布指標的關聯較強 |\n| 腰圍，約 13.36 cm | 1.25（1.16–1.35） | 腰圍關聯與 WHR 相近 |\n| 臀圍，8.99 cm | 1.16（1.08–1.24） | 仍有正向關聯，但幅度較小 |\n| PC1，一般肥胖體型 | 1.21（1.14–1.29） | 複合體型結果與 BMI 類似 |\n| 身高 | 1.08（0.98–1.19） | 全體未達顯著 |\n| PC2、PC3 | 1.04（0.93–1.17）、1.06（0.89–1.25） | 全體未達顯著 |\n\n以最低 quartile 為參照，最高 quartile 的 HR 為 BMI 1.54（1.25–1.88）、WHR 1.68（1.30–2.17）、臀圍 1.45（1.19–1.77）、腰圍 1.59（1.26–1.99）。PC1 分類比較中，+1 對參照組 HR 1.57（1.32–1.87），−1 則 HR 0.89（0.72–1.11）。作者未發現線性模型與 cubic spline 有明顯非線性差異，所有 P 值大於 0.5。\n\n### 四向分解的核心數值\n\n| exposure | mediator | overall proportion mediated | pure indirect effect | paper 的重點 |\n|---|---|---:|---:|---|\n| BMI | glucose | 15.9%（2.8–28.9%） | 15.3%（1.4–29.3%） | 顯著，主要由 PIE 帶動 |\n| BMI | HbA1c | 20.0%（6.3–33.7%） | 20.7%（5.5–36.0%） | 顯著，介導比例最高之一 |\n| WHR | glucose | 12.0%，P=0.007 | 10.2%，P=0.040 | 顯著 |\n| WHR | HbA1c | 19.1%，P=0.001 | 20.0%，P=0.008 | 顯著 |\n| WC | glucose | 13.3%，P=0.004 | 文中未列主要摘要數值 | 顯著 |\n| WC | HbA1c | 19.1%，P<0.001 | 文中未列主要摘要數值 | 顯著 |\n| PC1 | glucose | 12.2%（3.4–21.0%） | 10.8%（1.8–19.8%） | 顯著 |\n| PC1 | HbA1c | 15.0%（5.7–24.2%） | 14.7%（4.8–24.7%） | 顯著 |\n\n未互相調整 biomarker 時，HbA1c 的 overall proportion mediated 為 BMI 28.3%、PC1 24.7%，glucose 則為 BMI 15.6%、PC1 13.6%。urate 與 gamma-glutamyltransferase 在單一 mediator model 出現可能的 mediation，但在 mutual adjustment 後未維持顯著，顯示它們可能與其他代謝路徑重疊。\n\n## 四向分解怎麼讀\n**要點**：這個方法把 exposure 對 outcome 的總效果拆成直接效果、interaction 與兩種 mediation 成分，讓讀者看到 biomarker 可能位在路徑中，也可能改變 exposure effect 的大小。\n\n- controlled direct effect：把 mediator 固定在指定值後，exposure 對胰臟癌的效果。\n- pure indirect effect：在沒有 exposure-mediator interaction 的概念下，經由 mediator 傳遞的部分。\n- mediated interaction：mediation 與 exposure-mediator interaction 同時存在的成分。\n- reference interaction：interaction 本身造成的成分。\n- 各比例理論上合計 100%，但估計誤差與分解複雜度可能讓個別比例超過 100% 或出現負值。這些數值不能直接解讀成「把某個 biomarker 降低就能消除同等百分比的癌症風險」。\n\n## 討論與可能機制\n**要點**：作者把 glucose 與 HbA1c 視為肥胖相關代謝失衡與胰臟癌之間的可能橋接指標，並提出肝臟代謝與 urate 是後續可研究的路徑。\n\n- 肥胖可能伴隨 insulin resistance，使 glucose、insulin 與 HbA1c 上升。作者引用的背景研究提出 hyperglycaemia 可能透過腫瘤微環境與 endothelial cell senescence 等路徑參與 carcinogenesis。\n- IGF-1 在本研究未呈現明顯胰臟癌關聯，整體 HR 1.01（0.94–1.09），因此沒有被納入主要 mediator。\n- urate 可能連結 oxidative stress、發炎與肥胖，gamma-glutamyltransferase 可能反映肝臟功能與代謝異常。這兩者只在未互相調整模型中呈現部分訊號，解讀要保守。\n- PC3 未呈現顯著關聯，與部分先前 body-shape 研究不一致。作者認為 PC3 可能同時受身高與其他 anthropometric traits 影響，未必純粹代表 central adiposity。\n\n## 臨床意義 / 怎麼用\n**要點**：這篇文章可支持把體位、腰圍與血糖控制放在胰臟癌風險教育的同一張圖裡，但不能把風險關聯直接改寫成已證明的治療效果。\n\n- 對營養評估，可同時記錄 BMI、腰圍、WHR、體重變化、HbA1c 與 glucose，避免只用 BMI 代表所有 adiposity。\n- 對高風險族群衛教，可說明腹部肥胖與血糖失衡可能共同出現在較高胰臟癌風險的路徑上。這是風險溝通與代謝管理的理由，不是癌症篩檢資格的單獨判定工具。\n- 精準營養應用上，可把 glucose、HbA1c、飲食、活動量、久坐、吸菸與酒精放在同一個個人化風險討論框架，並依既有糖尿病與營養治療指引處理血糖。\n- 不能從本研究推出「降 HbA1c 20% 就能降低胰臟癌 20%」，也不能推出特定飲食、減重藥物或運動介入已能阻斷這條路徑。\n- 臨床決策仍需考慮年齡、家族史、遺傳風險、慢性胰臟炎、糖尿病時間與症狀，並依正式醫療指引決定追蹤或轉介。\n\n## 重要圖表重述\n**要點**：圖表共同呈現 biomarker 的相關結構、體型與胰臟癌的風險估計，以及各 mediator 的四向分解比例。\n\n- Fig. 1：glucose 與 HbA1c 的 Pearson r 約 0.6，膽固醇、LDL 與 apolipoprotein B 的相關較高，ALT 與 AST 約 0.8。作者以 VIF < 5 判定整體共線性仍在可接受範圍。\n- Table 1：肥胖組久坐時間、腰圍、臀圍與 WHR 較高，飲食、活動、教育與吸菸分布也不同，顯示 adjustment 的必要性。\n- Table 2：BMI、WHR、HC、WC 與 PC1 的 HR 和信賴區間，PC2、PC3 在全體未呈現顯著關聯。\n- Tables 3–5：BMI、WHR、PC1 的 mediator 分解中，glucose 與 HbA1c 的 OP_M 最一致。表中 CDE 加上其他成分可能因估計誤差而略超過 100%。\n\n## 研究限制與解讀邊界\n**要點**：大型前瞻性 cohort 提供穩定的關聯估計，但 observation design 與 mediation 的條件仍使因果介入解讀受限。\n\n- 觀察性研究無法排除 residual confounding。飲食、活動、社經因素與疾病前期狀態仍可能有未測或測量不完整的部分。\n- blood sample 非空腹，glucose 與 triglycerides 可能有測量誤差，結果可能向無效方向偏移，也會影響 mediator 的排序。\n- mediation 的 outcome 與 mediator 關係帶有 cross-sectional 性質，時間順序與 mediator-outcome confounding 未必充分建立。\n- 完整案例分析排除了大量 covariate 缺失者，雖然 multiple imputation 結果大致相近，仍需考慮 selection 與 generalizability。\n- UK Biobank 參與者與一般人口的組成可能不同，結果不能直接外推到所有族群。\n- 胰臟癌病例數相對總 cohort 不高，individual mediator 的比例估計仍有寬信賴區間。這也是為什麼要把 point estimate、CI、模型條件一起讀。\n\n## 與既有認知的對照\n**要點**：本次在此專案 vault 中未找到可直接比對的既有筆記，因此以本文與其引用背景作為知識差異記錄。\n\n- 一般認知：肥胖與胰臟癌有流行病學關聯。→ 本篇：BMI、WHR、WC 與 PC1 的估計方向一致，並量化 glucose 與 HbA1c 的可能 mediation。\n- 一般認知：腹部肥胖可能比總體肥胖更貼近代謝風險。→ 本篇：WHR、WC 的 HR 略高於 BMI，但 PC3 未顯著，body-shape 定義仍會改變結果。\n- 一般認知：血糖失衡可能與胰臟癌有關。→ 本篇：在 four-way decomposition 中，glucose 與 HbA1c 在多種 obesity exposure 下維持主要 mediator 訊號。\n\n## 概念 / 名詞整理\n**要點**：讀這篇要把體型指標、事件風險、代謝 biomarker 與因果分解放在同一條推理鏈。\n\n- BMI：體重除以身高平方，反映整體體重相對身高，不直接分辨脂肪與肌肉。\n- WHR：腰圍除以臀圍，較偏向脂肪分布與 central adiposity。\n- PCA body shape：把多項 anthropometric traits 壓縮成彼此獨立的綜合軸，PC1 主要代表一般肥胖。\n- HR：在 Cox model 中表示某 exposure 水準下的相對發生率。HR 1.20 不代表每個人多 20% 絕對機率。\n- glucose 與 HbA1c：glucose 反映抽血當下的血糖狀態，HbA1c 反映較長時間的血糖暴露，本文樣本採血並非空腹。\n- mediation：探問 exposure 與 outcome 的統計關聯，有多少可透過指定 mediator 的模型路徑描述。它需要很強的因果與無未測混雜假設。\n- four-way decomposition：同時拆解 direct effect、pure indirect effect、mediated interaction 與 reference interaction，避免把 interaction 忽略。\n\n## 自我測驗\n**要點**：用情境題檢查是否能把研究結果和因果限制一起說清楚。\n\n> [!question]- Q1：為什麼本文同時使用 BMI、WHR、腰圍與 PC1，而非只選 BMI？\n> BMI 主要反映整體體重，WHR 與腰圍補充腹部脂肪分布，PC1 則把多項體型測量整合成一般肥胖軸。多種指標方向一致時，能檢查結果是否依賴單一測量方式，但不同指標仍可能捕捉不同生理面向。\n\n> [!question]- Q2：BMI 與胰臟癌關聯中，HbA1c 的 20.0% mediated proportion 應怎麼讀？\n> 在作者設定的第 25 到第 75 百分位 exposure 對比、指定 covariate 與 mediator model 下，HbA1c 相關的 mediated interaction 加 pure indirect effect 約占總效果 20.0%。這不等於把 HbA1c 降低就能預防 20.0% 胰臟癌，也不等於介入效果已被試驗證明。\n\n> [!question]- Q3：為什麼 glucose 與 HbA1c 是主要 mediator，urate 與 gamma-glutamyltransferase 的解讀要保守？\n> glucose 與 HbA1c 在 BMI、WHR、WC 與 PC1 的 mutual-adjustment 分析中仍有一致訊號。urate 與 gamma-glutamyltransferase 主要在未互相調整的單一 mediator model 出現，加入其他代謝指標後未維持顯著，可能代表路徑重疊或共變異造成的訊號。\n\n> [!question]- Q4：這篇研究能否直接支持「控制血糖可以預防胰臟癌」？\n> 不能直接支持。研究是觀察性 cohort，mediation 依賴 exposure、mediator、outcome 的時間順序與未測混雜假設，且血液樣本非空腹。結果可支持血糖代謝值得納入風險機制與預防研究，仍需要介入研究確認控制血糖是否改變胰臟癌發生率。\n\n> [!question]- Q5：如何向營養個案說明這篇文章的實務價值，又避免過度承諾？\n> 可說明較高體脂與血糖失衡在本研究中同時和較高胰臟癌風險相關，因此體重、腰圍、飲食品質、活動量與 HbA1c 值得一起管理。也要說明這是風險關聯研究，不能用單一 BMI、HbA1c 或本文比例預測個人會不會得癌症，治療需依糖尿病與腫瘤相關指引。\n\n## Reference\nAmadou A, Freisling H, Mercoeur B, et al. 2026. British Journal of Cancer. “Anthropometric traits, metabolic biomarkers, and pancreatic cancer risk: a causal mediation analysis in UK Biobank.” DOI: 10.1038/s41416-026-03524-9.",
+      "cards": [
+        {
+          "title": "",
+          "question": "為什麼本文同時使用 BMI、WHR、腰圍與 PC1，而非只選 BMI？",
+          "answer": "BMI 反映整體體重，WHR 與腰圍補充腹部脂肪分布，PC1 整合多項體型測量。多種指標方向一致時，可檢查結果是否依賴單一測量方式。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "BMI 與胰臟癌關聯中，HbA1c 的 20.0% mediated proportion 應怎麼讀？",
+          "answer": "在作者設定的 exposure 對比與模型條件下，HbA1c 路徑約占總效果 20.0%。這不等於降低 HbA1c 就能預防 20.0% 胰臟癌。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "為什麼 glucose 與 HbA1c 是主要 mediator，urate 與 gamma-glutamyltransferase 要保守解讀？",
+          "answer": "前兩者在多種 exposure 的 mutual-adjustment 分析中仍有一致訊號，後兩者主要在單一 mediator model 出現，加入其他代謝指標後未維持顯著。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "這篇研究能否直接支持控制血糖可以預防胰臟癌？",
+          "answer": "不能。研究為觀察性 cohort，mediation 依賴未測混雜與模型假設，且血液樣本非空腹。需要介入研究確認。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "如何向營養個案說明實務價值，又避免過度承諾？",
+          "answer": "可說明體脂與血糖失衡值得一起管理，但本文不能預測個人癌症，也不能把 mediated proportion 當成治療效果。",
+          "tags": []
+        }
+      ],
+      "completedAt": "2026-08-13T01:56:49.675Z"
+    },
+    {
+      "id": "doi:10.1016/j.clnu.2026.106693:digest",
+      "paperId": "doi:10.1016/j.clnu.2026.106693",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Trace element dynamics following low-calorie formula diet and their association with glycaemic traits.",
+      "authors": "Jahn S, Demircan K, Chillon T, Schuppelius B, Lalama E, Zhang J, Hackler J, Rüther K, Csanalosi M, Christ A, Latz E, Pivovarova-Ramich O, Kabisch S, Mai K, Pfeiffer A, Schomburg L",
+      "journal": "Clinical Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.clnu.2026.106693",
+      "abstract": "Formula diets (FD) lead to weight loss and may result in remission of type 2 diabetes mellitus (T2D). Macronutrient compositions for FD are well studied, however it is not established whether common FD lead to alterations in trace element status, and whether these changes are associated with HbA1c or other glycaemic traits. The FAsting-induced Immune-metabolic Remission of type 2 diabetes (FAIR) study is a monocentric, stratified, randomized, non-blinded clinical nutritional intervention study that enrols participants with T2D. Participants were assigned to one of two different FD (HEPAFAST® or OPTIFAST®; the former particularly rich in protein and fibre) for 12 weeks. The present study on trace elements is a subset (n = 44) of FAIR. Weight, BMI and HbA1c were assessed before and after the intervention. As trace element biomarkers, total serum copper, zinc, and selenium were quantified using total reflection X-ray fluorescence, ceruloplasmin and selenoprotein P concentrations were measured with a sandwich chemiluminescent immunoassay (CLIA) and glutathione peroxidase 3 activity was assessed using an enzymatic test. Body weight and HbA1c decreased in both groups after FD. At baseline, there was a positive correlation of copper and ceruloplasmin, and between all three selenium biomarkers (p < 0.001). In the HEPAFAST® group, selenoprotein P (p = 0.049) and ceruloplasmin (p = 0.020) increased after FD compared to baseline. In the OPTIFAST® group, copper (p = 0.046), selenium (p = 0.002), selenoprotein P (p = 0.002) and ceruloplasmin (p = 0.001) increased during the intervention. The proportion of subjects displaying trace elements within the reference range increased during the study. Changes in trace elements were mostly unrelated to the FD-induced decline in HbA1c, except for selenoprotein P, which was positively associated with HbA1c in the OPTIFAST® group (β = 0.21, p = 0.025). This study demonstrates that weight loss and remission of T2D can be achieved through a balanced FD without significant risk of trace element deficiency or excess. The trial was registered at ClinicalTrials.gov (No. NCT05295160).",
+      "legalFullTextUrl": "https://doi.org/10.1016/j.clnu.2026.106693",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42269399/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "precision nutrition",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "低熱量配方飲食下微量元素與血糖特徵的變化：全文內容整理",
+      "content": "# 低熱量配方飲食下微量元素與血糖特徵的變化：全文內容整理\n\n> [!summary] 30 秒層\n> 這項 FAIR 研究的 44 位第二型糖尿病受試者接受 12 週全日低熱量配方飲食後，體重與 HbA1c 都下降，銅、硒及相關蛋白質的血清變化多半小幅增加，未見明顯微量元素失衡。這是小型、短期的子研究，不能把結果當成所有低熱量飲食或所有糖尿病患者的普遍安全保證。\n> - HEPАFAST 每日約提供女性銅 2.20 mg、鋅 7.7 mg、硒 52.5 μg，男性銅 2.23 mg、鋅 9.2 mg、硒 64.5 μg。\n> - OPTIFAST 每日約提供女性銅 2.3–2.6 mg、鋅 12.9–15 mg、硒 90–96 μg，男性銅 3.1–3.5 mg、鋅 17.2–20 mg、硒 120–128 μg。\n> - 41 人完成介入。整體銅、selenoprotein P 與 ceruloplasmin 上升，GPx3 與鋅沒有顯著改變。\n> - OPTIFAST 組的硒、銅、selenoprotein P 與 ceruloplasmin 上升，HEPAFAST 組主要是 selenoprotein P 與 ceruloplasmin 上升。\n> - 大部分微量元素變化與 HbA1c 下降無關，OPTIFAST 組只有 selenoprotein P 變化與 HbA1c 呈正相關。\n> 品質未評讀（內容整理）；需可信度判斷 → /paper-review\n\n## 研究問題 / 背景\n\n**要點**：研究者想知道固定配方的 12 週低熱量飲食，在減重與改善血糖時，是否會造成銅、鋅、硒不足或過量，以及這些變化是否跟血糖改善同步。\n\n- 低熱量配方飲食可用於減重與第二型糖尿病緩解，但過去研究較常聚焦蛋白質、碳水化合物與脂肪，微量營養素狀態的資料較少。\n- 銅、鋅與硒參與抗氧化、酵素作用與代謝調節。研究中同時測量元素本身及其相關蛋白質，避免只依賴單一血清指標。\n- 銅搭配 ceruloplasmin，硒搭配 selenium、selenoprotein P 與 GPx3。研究假設兩種配方的微量元素含量不同，可能造成不同的血清變化。\n\n## 方法\n\n**要點**：這是 FAIR 臨床營養介入研究中的 44 人子研究，分層隨機分派到兩種全日配方，使用介入前與 12 週後的血液及人體測量資料。\n\n- 研究設計：單中心、分層隨機、未盲化營養介入研究，註冊號 NCT05295160。\n- 對象：成人第二型糖尿病、BMI 大於 27 kg/m²，部分納入診斷不久或病程較久者。排除胰島素依賴、懷孕、嚴重腎心肝疾病等情形。\n- 分組：最初 44 人納入，HEPAFAST 21 人、OPTIFAST 23 人。兩人與一人分別中止介入，最後 41 人完成分析，HEPAFAST 19 人、OPTIFAST 22 人。\n- 介入：每日約 600–900 kcal，以配方飲品取代餐食，另允許每日 240 g 非澱粉蔬菜，持續 12 週。\n- HEPAFAST 蛋白質與纖維較高。OPTIFAST 的配方數值顯示銅、鋅、硒供應通常較高，實際攝取依性別與口味而異。兩組硒皆為 sodium selenite。\n- 測量：體重、BMI、HbA1c、空腹血糖、混合餐耐受試驗後 120 分鐘血糖、CRP，以及血清銅、鋅、硒、ceruloplasmin、selenoprotein P 與 GPx3 活性。\n- 統計：以 Wilcoxon 檢定比較前後與組間差異，以 Spearman 相關及線性迴歸探討微量元素與血糖特徵的關係，部分模型調整體重變化。\n\n## 主要發現\n\n**要點**：兩組都減重且血糖指標改善，微量元素整體維持或小幅增加，組間真正達顯著差異的前後變化主要是硒。\n\n| 指標 | 整體前後變化 | HEPAFAST | OPTIFAST | 組間前後變化 p 值 |\n|---|---|---|---|---|\n| 銅 | 中位數 1040→1177 μg/L，p=0.036 | p=0.396 | 1057→1153 μg/L，p=0.046 | 0.441 |\n| 鋅 | 863→881 μg/L，p=0.836 | p=0.353 | 816→890 μg/L，p=0.210 | 0.126 |\n| 硒 | 83→87 μg/L，p=0.076 | p=0.568 | 81→95 μg/L，p=0.002 | 0.009 |\n| Selenoprotein P | 5.02→5.68 mg/L，p<0.001 | 增加 0.64 mg/L，p=0.049 | 增加 0.84 mg/L，p=0.002 | 0.205 |\n| GPx3 | 230→225 U/L，p=0.572 | p=0.932 | p=0.443 | 0.523 |\n| Ceruloplasmin | 279→330 mg/L，p<0.001 | 增加 64 mg/L，p=0.020 | 增加 40 mg/L，p=0.001 | 0.784 |\n\n- 兩組體重、HbA1c、空腹血糖及混合餐耐受試驗 120 分鐘血糖均下降，CRP 沒有顯著改變。本文提供的表格顯示基線 41 人的體重中位數 106 kg、BMI 35.5 kg/m²、HbA1c 6.70%。\n- 以 2069 位健康歐洲成人的參考區間比較，介入後每一項測量元素落在區間外的人數都減少。這表示群體分布較接近參考範圍，不能直接等同於個別患者已達到最佳狀態。\n- 基線時銅與 ceruloplasmin 呈正相關，三項硒狀態指標彼此也呈正相關。介入後硒與 selenoprotein P 的相關係數升至 R=0.7，硒與 GPx3、selenoprotein P 與 GPx3 的相關則減弱。\n- OPTIFAST 組 selenoprotein P 的變化與 HbA1c 變化呈正相關，β=0.21，p=0.025。調整體重變化後仍存在，β=0.20，p=0.045。這是關聯，不能解讀成補硒或增加 selenoprotein P 會造成血糖變差。\n- 女性的變化較明顯。OPTIFAST 女性的硒與 ceruloplasmin 上升，兩組女性的 selenoprotein P 也上升。男性則未見顯著微量元素變化。\n\n## 討論、限制與結論\n\n**要點**：在這個短期、受控且小型的第二型糖尿病子研究中，兩種配方支持減重期間維持微量元素狀態，但研究不能回答長期安全性、其他族群適用性或補充劑效果。\n\n- 研究者認為，固定配方與少量蔬菜使每日微量元素攝取較容易估算，且元素與蛋白質標記物的方向一致，增加測量內部一致性。實驗室人員對臨床資料盲化，測量方法的變異係數也在可接受範圍。\n- 兩種配方的結果不能只用配方含量解釋。性別、基線濃度、吸收與代謝可能影響反應，女性的變化較明顯便是研究中提出的訊號。\n- 研究樣本數中等偏小，最後只有 41 人完成分析，還做了多重比較，第一類錯誤風險增加。參與者與醫師未盲化，介入期只有 12 週，長期追蹤結果不在本篇分析範圍。\n- 研究排除許多合併症與胰島素依賴者，所以不能直接外推到腎功能不佳、肝病、使用胰島素、營養不良或一般社區族群。\n- 研究中所謂沒有顯著缺乏或過量，是這組配方、這段時間與這批受試者的觀察，不代表任何低熱量配方都足夠，也不代表可省略個別營養評估。\n\n## 臨床意義 / 怎麼用\n\n**要點**：營養師可把配方的微量營養素含量、病人的基線風險與介入長度放在一起評估，不能只因研究結果穩定就直接套用。\n\n- 為第二型糖尿病患者規劃全日配方飲食時，先核對產品標示、每日實際份數、性別差異、允許的蔬菜量與同時使用的保健品。\n- 介入前評估腎肝功能、飲食史、近期體重變化、藥物與補充品。高風險者應依臨床情況考慮銅、鋅、硒或相關蛋白質檢測，不能只看 HbA1c。\n- 12 週內追蹤體重、血糖、用藥調整、耐受度與飲食遵從性。若患者自行加用含硒、鋅或銅產品，需把總攝取量重新加總。\n- 解讀硒與 selenoprotein P 時，要把它當成研究中的生物標記與關聯訊號，不能當作改善血糖的治療靶點。\n- 研究沒有證明兩種產品孰優，也沒有證明配方可在所有患者中促成糖尿病緩解。營養師應把它視為受控介入下的短期資料，搭配個別化監測。\n\n## 重要圖表重述\n\n**要點**：圖表共同呈現受試者流程、兩組基線相近、微量元素前後變化，以及 selenoprotein P 與 HbA1c 的探索性關聯。\n\n- Figure 1：82 人接受資格評估，44 人進入介入，3 人中止，41 人完成並納入樣本分析。\n- Table 1：列出兩種配方每 100 g、每份及男女每日推算的銅、鋅、硒含量。\n- Table 2：兩組基線特徵沒有顯著差異，整體 BMI 中位數 35.5 kg/m²。\n- Table 3：硒的組間前後變化達顯著差異，其他組間變化未達顯著。\n- Figure 2：介入後各元素落在健康歐洲成人參考區間外的人數減少。\n- Figure 3：銅與 ceruloplasmin、硒與三項硒標記物呈現相關結構。\n- Figure 4：OPTIFAST 組 selenoprotein P 變化與 HbA1c 變化呈正向迴歸關聯。\n\n## 與既有認知的對照\n\n**要點**：本工作區沒有可供比對的既有 vault 筆記，以下只保留本文提出的知識增量。\n\n- vault 無相關既有筆記。\n- 本文補充：在固定份量、約 600–900 kcal、持續 12 週的全日配方介入中，血清微量元素沒有出現大幅整體下降。\n- 本文修正解讀：血清標記的改變與 HbA1c 下降大多沒有同步關係，不能把微量元素變化當成減重或血糖改善的主要原因。\n\n## 概念 / 名詞整理\n\n**要點**：元素濃度與功能性蛋白質是不同層次的資訊，合併解讀比只看單一數值更接近本文的測量策略。\n\n- Copper：銅，本文以血清總銅呈現。\n- Zinc：鋅，人體需要的微量元素，本研究前後沒有顯著整體改變。\n- Selenium：硒，本文以血清硒、selenoprotein P 與 GPx3 三項指標呈現。\n- Ceruloplasmin：銅藍蛋白，與銅運輸及銅狀態相關的血清蛋白。\n- Selenoprotein P：硒蛋白 P，血清硒運輸與硒狀態評估的重要標記之一。\n- GPx3：血清麩胱甘肽過氧化酶 3，反映含硒抗氧化酵素活性。\n- HbA1c：糖化血色素，反映一段時間的平均血糖狀況。\n- Formula diet：配方飲食，以營養組成已知的產品取代部分或全部餐食。本文使用的是全日配方加非澱粉蔬菜。\n\n## 自我測驗\n\n1. 為什麼本文不能把 OPTIFAST 組 selenoprotein P 與 HbA1c 的正相關解讀成硒造成血糖變差？\n   - 因為這是探索性關聯，樣本小且多重比較，研究沒有證明因果；調整體重後仍有關聯，也只代表統計關聯沒有被體重變化完全解釋。\n2. 兩組配方在微量元素結果上最清楚的差異是什麼？\n   - OPTIFAST 組硒由中位數 81 增至 95 μg/L，p=0.002，且兩組前後硒變化的組間 p=0.009。HEPAFAST 組沒有顯著硒上升。\n3. 為什麼研究同時測量硒、selenoprotein P 與 GPx3？\n   - 三者位於硒狀態的不同層次。三項指標基線彼此正相關，可提供比單一血清硒更完整的狀態資訊，也能觀察功能性蛋白質是否同步改變。\n4. 營養師要把這項研究套用到患者身上，至少先確認哪些事項？\n   - 先確認產品與每日份數、飲食總熱量、額外補充品、腎肝功能、基線營養風險、藥物與血糖監測需求，再決定是否需要個別化檢驗與追蹤。\n\n## Reference\n\nJahn SL, Demircan K, Chillon TS, et al. 2026. *Trace element dynamics following low-calorie formula diet and their association with glycaemic traits*. Clinical Nutrition 63:106693. DOI: 10.1016/j.clnu.2026.106693.",
+      "cards": [
+        {
+          "title": "",
+          "question": "為什麼不能把 OPTIFAST 組 selenoprotein P 與 HbA1c 的正相關解讀成硒造成血糖變差？",
+          "answer": "這是小型探索性子研究中的關聯，沒有證明因果，且有多重比較風險。調整體重後仍存在，只表示關聯未被體重變化完全解釋。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "兩種配方在硒變化上呈現什麼差異？",
+          "answer": "OPTIFAST 組硒中位數由 81 增至 95 μg/L，前後 p=0.002，兩組前後變化的組間 p=0.009。HEPAFAST 組則未見顯著上升。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "為什麼要同時測量硒、selenoprotein P 與 GPx3？",
+          "answer": "三者反映硒狀態的不同面向。三項指標基線彼此正相關，合併觀察可避免只依賴單一血清硒數值。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "營養師套用這項研究前，應先評估什麼？",
+          "answer": "要核對配方與每日份數、額外補充品、腎肝功能、基線營養風險、藥物及血糖監測需求，再決定是否需要個別化微量元素檢驗。",
+          "tags": []
+        }
+      ],
+      "completedAt": "2026-08-13T01:49:36.743Z"
+    },
+    {
+      "id": "doi:10.1016/j.clnu.2026.106675:digest",
+      "paperId": "doi:10.1016/j.clnu.2026.106675",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Current application and future directions for the sarcopenic obesity Global Leadership Initiative (SOGLI) diagnostic algorithm.",
+      "authors": "Minnetti M, Pierantozzi G, Aubertin-Leheudre M, Ballesteros-Pomar M, Batsis J, Boirie Y, Busetto L, Cederholm T, Cruz-Jentoft A, Genton L, Gonzalez M, Heymsfield S, Prado C, Siervo M, Weijs P, Poggiogalle E, Barazzoni R, Donini L, Bennett J, Breton I, Brunani A, Capodaglio P, Caprio M, Cardinali L, Cereda E, Coletti D, Defeudis G, Schueren M, Di Stefano A, Di Vincenzo O, Dulloo A, Eftekhariranjbar S, Eglseer D, Frigerio F, Giustina A, Guan Z, Guillet C, Ho-Seong H, Laviano A, Migliaccio S, Moro T, Muscaritoli M, Muzzioli L, Naitoh T, Noirez P, Oppert J, Paoli A, Perna S, Petroni M, Piciocchi C, Pintavalle M, Pistilli G, Pinto A, Rondanelli M, Salas-Salvadó J, Schoufour J, Seelander M, Semeraro G, Serlie M, Shi H, Swendsen M, Thorand B, Topinkova E, Verlaan S, Vettor R, Visser M, Volkert D, Voortman T, Yumuk V",
+      "journal": "Clinical Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.clnu.2026.106675",
+      "abstract": "Sarcopenic obesity (SO) is characterized by excess adiposity and reduced muscle mass and function. In 2022, the Sarcopenic Obesity Global Leadership Initiative (SOGLI) proposed a diagnostic algorithm to standardize SO identification by integrating screening, diagnostic assessment, and staging. This review evaluates the application of the SOGLI algorithm, identifying strengths, limitations, and potential areas for refinement. A narrative review with systematic citation tracking was conducted (April 2022-August 2025). Literature searches in PubMed, Scopus, and Web of Science identified original studies in adults (≥18 years) explicitly using the SOGLI algorithm. Data on screening, diagnostic tools, staging, prevalence, and comorbidities were synthesized. Seventy-two studies applied the SOGLI algorithm, showing heterogeneous approaches across clinical settings. For obesity screening, about half used both body mass index and waist circumference, while sarcopenia screening tools were less frequently reported. For SO diagnosis, bioelectrical impedance analysis was the most common method for body composition assessment, while muscle function was predominantly assessed via hand-grip strength. SO staging was reported in 19% of studies, most often as Stage II. Application of the algorithm consistently confirmed associations between SO and chronic disease burden, functional decline, and increased mortality. The SOGLI algorithm represents a major advance, with 72 studies adopting it in two years. Some inconsistencies in screening and staging suggest opportunities for refinement. These findings support its validity, while further standardization and integration of novel biomarkers could enhance its clinical effectiveness.",
+      "legalFullTextUrl": "https://doi.org/10.1016/j.clnu.2026.106675",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42184647/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "clinical nutrition technology",
+        "obesity and metabolism",
+        "precision nutrition"
+      ],
+      "noteTitle": "肌少性肥胖 SOGLI 診斷演算法的應用與未來方向全文內容整理",
+      "content": "> [!summary] 30 秒層：SOGLI 把肌少性肥胖拆成篩檢、診斷、分期三段，72 篇研究支持它能連結功能衰退、共病與死亡風險，但各研究的工具與切點仍很不一致。\n> - 2022 至 2025 年 8 月追蹤到 72 篇原始研究，約 75,000 名成人。\n> - 肥胖篩檢有 32 篇只用 BMI，35 篇合用 BMI 與腰圍，肌少症篩檢有 52 篇未交代工具。\n> - 診斷最常用 BIA 加握力，分期只有 14 篇報告，且其中 8 篇把所有 SO 個案列為 Stage II。\n> - 完整呈現三段流程的 6 篇研究，SO 盛行率為 4% 至 7.3%，高風險族群可達更高比例。\n> 品質未評讀（內容整理），需可信度判斷請另做 paper-review。\n\n## 全文地圖\n**要點**：本文是 narrative review，沿著 SOGLI 的篩檢、診斷、分期順序，整理 72 篇應用研究，再比較盛行率、共病、功能與死亡結果。\n- 背景：SO 是過多脂肪和肌肉量、肌力或功能下降同時存在的表型，脂肪與肌肉的內分泌、發炎與代謝交互作用會形成惡性循環。\n- 方法：搜尋 PubMed、Scopus、Web of Science，納入 2022 年共識發表後至 2025 年 8 月、明確在 Methods 使用 SOGLI 的成人原始研究。作者追蹤引用並抽取族群、場域、工具、盛行率、結果與限制。\n- 結果與討論：比較三段流程的實際落地情形，並提出切點、工具、分期歸因和新型指標的修正方向。\n\n## 各主題重點\n### SOGLI 篩檢\n**要點**：先找過多脂肪，再找肌肉功能下降的臨床線索，目的是把資源集中在高風險者。\n- 肥胖線索可用肥胖範圍 BMI，或依族群切點判定的腰圍。肌少症線索包括高齡、慢性病或器官衰竭、近期住院、活動受限、反覆跌倒、虛弱疲倦，以及 SARC-F ≥4。\n- 72 篇中，BMI 單用 32 篇（44.4%），BMI 加腰圍 35 篇（48.6%），只用腰圍 0 篇，5 篇未說明。\n- SARC-F 只出現在 8 篇（11.1%），臨床症狀 11 篇（15.3%），52 篇（72.2%）未交代肌少症篩檢替代指標。\n- 一項日本復健研究顯示，走完篩檢後 SO 約 4%，直接用 BIA 與握力評估則為 20% 至 30%，說明篩檢門檻會改變病例數。\n\n### SOGLI 診斷\n**要點**：篩檢陽性後，需同時確認肌肉功能受損與身體組成異常，兩者缺一不能完成 SO 診斷。\n- 肌肉功能常用握力（HGS）或坐站測試（STS）。42 篇（58.3%）只用握力，18 篇（25%）同時用握力與 STS，只有 2 篇單用 STS，8 篇未說明。\n- 身體組成多用 BIA，42 篇（58.3%）只用 BIA，24 篇（33.3%）只用 DXA，4 篇同時使用。DXA較接近參考方法，BIA較易取得，但肥胖時可能高估去脂質量、低估脂肪量，且公式不同會造成差異。\n- 同一族群中，工具組合會改變盛行率。某研究以高脂肪量搭配 STS 加 ALST/體重為 23.3%，握力加 ALST/體重為 25.5%，STS 加 SMM/體重為 31.1%，握力加 SMM/體重為 40.0%。\n- 肌力切點、性別、年齡、族群與是否按體重、BMI或身高校正，均會影響結果。上肢握力和下肢坐站測試可能捕捉不同功能面向。\n\n### SOGLI 分期與盛行率\n**要點**：Stage I代表尚無身體組成或功能相關併發症，Stage II代表已有功能失能或代謝、心血管、呼吸疾病等併發症。\n- 只有 14 篇（19.4%）報告分期，其中 8 篇（57.1%）把所有個案列為 Stage II，常見原因是中風、癌症或代謝症候群。\n- 72 篇的 SO 盛行率從 1.1% 到 100%。完整報告三段流程的 6 篇為 4% 至 7.3%。社區高齡族群常約 5% 至 10%，COVID-19患者約 34.5% 至 56.7%，護理之家約 43.5% 至 45.3%，減重手術候選者約 89.3% 至 100%。\n- Stage II比例高，可能反映收案族群本來就有複雜疾病，也可能代表研究者未清楚交代併發症是否由 SO 直接造成。癌症或腎病不能只因共存就直接歸為 SO 併發症。\n\n### 72 篇研究呈現的臨床關聯\n**要點**：SOGLI定義的 SO 多半和較高死亡、共病、代謝風險、失能、跌倒、營養不良及生活品質下降同向。\n- 台灣 1,779 名社區高齡者的研究發現，SO 與 11 年死亡風險增加有關。德國、荷蘭資料也連到多重共病與多重用藥。\n- SO 常和動脈僵硬、胰島素阻抗、TyG、LAP、較差血脂、發炎特徵及糖尿病微血管併發症相關，部分研究結果未完全一致。\n- 癌症研究中，639 名晚期非小細胞肺癌患者的 SO 盛行率為 31.9%，且和較高死亡有關。乳癌接受芳香環酶抑制劑後，7.7%發展 SO，治療前已有 SO 者較容易持續。\n- SO 也和 COPD 病程較重、COVID-19後營養不良與衰弱、認知受損、跌倒、骨密度與功能依賴相關。特發性肺纖維化研究中，SO 個案依 GLIM 均符合營養不良。\n\n## 機轉白話講解\n**要點**：SO可理解成「負荷變重、承載力變弱」的狀態，脂肪增加帶來代謝與發炎負荷，肌肉量和肌力下降則讓身體處理這些負荷的能力下降。\n- BMI或腰圍較像在找外在負荷，握力與 STS 是看承載力，BIA或DXA則是看身體組成。三者各自只看到一部分，才需要串成流程。\n- 只看 BMI 可能漏掉脂肪分布異常，單看肌肉量也可能漏掉真正的功能障礙。肥胖者的小腿圍還會被皮下脂肪干擾，不能直接當成肌肉量。\n- Phase angle、腰圍與小腿圍比值、脂肪量對去脂質量的 load-capacity model，是作者提出的候選方向，尚需更多研究確認診斷與預後價值。\n\n## 臨床意義 / 怎麼用\n**要點**：臨床上可把 SOGLI當成分流工具，先以BMI、腰圍和高風險病史找人，再用握力或STS加身體組成確認，確診後搜尋可歸因併發症並調整照護強度。\n- 高齡、近期住院、中風、癌症、慢性呼吸病、活動下降或反覆跌倒者，即使篩檢步驟在研究中未寫出，也應視為高風險族群。\n- 營養評估要和功能評估並行，不能因體重或BMI偏高就排除營養不良。需併看飲食量、蛋白質攝取、體重變化、肌力、活動能力與 GLIM 相關指標。\n- 高齡照護可用分期協助安排復健、蛋白質與能量策略、跌倒預防、慢性病管理和追蹤頻率。本文沒有測試特定介入療效，治療方案仍需依個案與其他臨床指引決定。\n- 研究報告應交代篩檢條件、儀器、BIA公式、DXA指標、HGS與STS切點、族群校正方式、分期依據和缺失資料，才能比較不同研究。\n\n## 重要圖表重述\n**要點**：Figure 1把SOGLI畫成篩檢→肌力功能與身體組成診斷→Stage I或II的路徑，Table 1量化72篇研究各階段工具的使用頻率，Table 2依場域列出人數與國家。\n- 72篇分布為社區46篇、急性照護15篇、復健11篇，總人數約75,000；社區資料量最大，急性照護與復健較能反映高風險照護情境。\n- Figure 2顯示2022年共識後，採用SOGLI的研究逐年增加，支持它已成為研究上常用的共同語言。\n\n## 與既有認知的對照\n**要點**：本工作區未找到可直接比對 SOGLI 的既有筆記，因此保留本文的流程與數字作為後續知識庫基準。\n- 目前沒有可引用的 vault 既有認知；後續可與肌少症、GLIM營養不良、身體組成及高齡跌倒筆記交叉補充。\n\n## 概念 / 名詞整理\n**要點**：SO是同時有過多脂肪與肌肉功能或量不足的狀態，SOGLI則是將辨識、確認、嚴重度分層固定下來的演算法。\n- HGS：握力，快速反映上肢肌力。\n- STS：坐站測試，反映下肢力量、耐力與平衡。\n- ALST/體重：DXA測得的四肢瘦軟組織按體重校正。\n- SMM/體重：BIA推估的全身骨骼肌量按體重校正。\n- Stage I與Stage II：差別在於是否已有和身體組成、肌肉功能相關的併發症與失能。\n\n## 自我測驗\n> [!question]- Q1：為什麼SOGLI不能只用BMI或只用肌肉量判定SO？\n> 答案：BMI只反映體重與身高的比例，可能漏掉脂肪分布，也無法表示肌力。肌肉量也不能取代功能測試。SOGLI要求先辨識脂肪過多，再確認肌肉功能與身體組成，才能避免單一指標誤分類。\n\n> [!question]- Q2：同一族群的SO盛行率為什麼會因工具組合而改變？\n> 答案：握力與STS分別偏向上肢和下肢功能，BIA與DXA對脂肪和瘦組織的估計也不同，切點及校正方式還會再改變分類。文中一項研究的盛行率由23.3%到40.0%不等。\n\n> [!question]- Q3：Stage II代表什麼，為什麼不能看到癌症就直接歸為Stage II？\n> 答案：Stage II表示已有可歸因於SO的功能失能或代謝、心血管、呼吸併發症。癌症雖常和SO同時出現，本文指出SO對癌症的直接致病路徑尚未確立，需交代歸因依據。\n\n> [!question]- Q4：高齡住院者在實務上如何使用SOGLI？\n> 答案：高齡、近期住院、慢性病和活動下降本身就是高風險線索，可進入診斷評估。接著用握力或STS搭配BIA或DXA，並同步看營養不良、跌倒、失能和共病，確診後再分期與安排照護。\n\n## Reference\nMinnetti M et al. 2026. Clinical Nutrition 62:106675. DOI: 10.1016/j.clnu.2026.106675\n全文來源：使用者提供且已驗證的 12 頁 PDF；PDF 題名、DOI、Methods、Results、Discussion、Conclusion 均已核對。",
+      "cards": [
+        {
+          "title": "",
+          "question": "為什麼SOGLI不能只用BMI或只用肌肉量判定SO？",
+          "answer": "BMI無法完整反映脂肪分布與肌力，肌肉量也不能取代功能測試。流程需同時確認脂肪過多、肌肉功能受損與身體組成異常。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "同一族群的SO盛行率為什麼會因工具組合而改變？",
+          "answer": "握力與STS捕捉不同功能面向，BIA與DXA估計身體組成也不同，加上切點與校正方式差異，文中一項研究盛行率由23.3%到40.0%。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "Stage II代表什麼，為什麼不能看到癌症就直接歸為Stage II？",
+          "answer": "Stage II需有可歸因於SO的功能失能或代謝、心血管、呼吸併發症。癌症與SO可共存，但直接致病路徑未被本文確立，需交代歸因。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "高齡住院者如何使用SOGLI？",
+          "answer": "以高齡、近期住院、慢性病與活動下降辨識高風險者，再用握力或STS搭配BIA或DXA確認，並同步評估營養不良、跌倒、失能與共病。",
+          "tags": []
+        }
+      ],
+      "completedAt": "2026-08-13T01:45:16.157Z"
+    },
+    {
+      "id": "doi:10.1016/j.ajcnut.2026.101430:review",
+      "paperId": "doi:10.1016/j.ajcnut.2026.101430",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "The relationship between food intake and outdoor temperature in a longitudinal study: a public health perspective in the context of global warming.",
+      "authors": "Kesse-Guyot E, Berlivet J, Meyer E, Julia C, Fezeu L, Touvier M, Hercberg S, Meirhaeghe A, Baudry J",
+      "journal": "Other nutrition journals (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.ajcnut.2026.101430",
+      "abstract": "Climate change affects human health and nutrition. Rising temperatures may significantly impact diets, but research on their influence on dietary habits in large populations remains limited. We aimed to study the link between outdoor temperature and energy-adjusted food consumption across profiles in a longitudinal study. This study included 100,851 participants from the NutriNet-Santé study (2009-2023) with 1,716,046 24-h dietary records linked to daily maximum outdoor temperature at the residence, from the nearest Météo-France station. Associations were analyzed using linear mixed models with interactions tested for sex and 6 socioeconomic profiles (employees, privileged, intermediate, young, disadvantaged, and retirees) derived from clustering. Across all subgroups, higher outdoor temperature was associated with higher consumption of fruits, vegetables, processed meats, sweet products, water, alcoholic beverages, and sugar-sweetened beverages, whereas consumption of red meat, pulses, and dairy products decreased. From 25°C to 35°C, the increase in alcohol consumption with temperature was more pronounced in males {150 g/d [95% confidence interval (CI): 147 g/d, 153 g/d] to 166 g/d [95% CI: 162 g/d, 171 g/d], +11%} than in females [101 g/d (95% CI: 98 g/d, 103 g/d) to 107 g/d (95% CI: 104 g/d, 109 g/d), +6%]. Across socioeconomic profiles, changes shared similar directions, but some trends were more marked, notably for alcoholic beverages among employees (95% CI: 114 g/d, 130 g/d; +14%) and sugar-sweetened beverages in young (95% CI: 56 g/d, 72 g/d; +29%). Consumption of fruits increased more modestly in the young (95% CI: 227 g/d, 248 g/d; +9%) than in employees (95% CI: 194 g/d, 227 g/d; +17%). These changes, although variable in magnitude, were not accompanied by substantial modifications in energy intake or overall diet quality scores. These results emphasize the importance of targeted prevention messages when temperatures exceed 25°C, especially concerning alcoholic and sugar-sweetened beverages, and offer insight into potential long-term food consumption patterns (beyond seasonal changes) in the context of global warming.",
+      "legalFullTextUrl": "https://www.sciencedirect.com/science/article/pii/S000291652600239X/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42431597/",
+      "category": "recommended",
+      "tags": [
+        "design:longitudinal",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "safety and interaction"
+      ],
+      "noteTitle": "高溫與飲食攝取及公共衛生風險的關聯品質評讀",
+      "content": "## 品質快照\n\n> **設計**：前瞻性觀察性 cohort，使用 longitudinal repeated dietary records 與 mixed models。**n**：100,851 名參與者，1,716,046 筆 24-hour dietary records。**RoB**：🟡 中等偏高，適用觀察性研究的 confounding、selection、exposure classification、missing data、outcome measurement 與 selective reporting 評讀。**GRADE**：Very low（由 `grade_judge.py` 依 Low 起始、risk of bias 與 indirectness 各降一級計算）。**Registration**：ClinicalTrials.gov NCT03335644，文內有登錄資訊，未在本 quick tier 完成註冊結果對照。**一句話 verdict**：資料量很大，溫度與多類食物攝取的關聯方向一致，適合提出公共衛生假說與訊息設計，但自我填報、選樣、殘餘混雜與法國情境限制，使因果與長期健康影響的可信度很低。\n\n## Summary\n\n> ✅ Full text reviewed：指定 `source.pdf` 及 `source.pdf.txt`，全文 23 頁，PDF 文字長度 66,322 bytes，DOI 與題名相符，Methods、Results、Discussion、Conclusion 均可讀。\n\n這篇研究分析法國 NutriNet-Santé cohort 在 2009 至 2023 年的飲食紀錄，將每筆紀錄連結到居住地附近氣象站的每日最高溫。結果顯示，溫度升高與水果、蔬菜、水、酒精、含糖飲料及甜食攝取增加相關，紅肉、豆類與乳製品攝取下降。25°C 到 35°C 之間，男性酒精攝取由 150 g/d 增至 166 g/d，女性由 101 g/d 增至 107 g/d。水攝取男性增加 25%，女性增加 24%。年輕族群含糖飲料增加 29%，員工族群增加 24%。總能量與不含酒精的飲食品質分數沒有明顯改變。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：天氣越熱，法國這群參與者吃喝的內容會改變，水、水果、蔬菜變多，酒精與含糖飲料也變多，但平均熱量沒有明顯上升。\n> - **為什麼做**：氣候變暖的研究常談農作物與食物供應，較少直接看人們在熱天怎麼吃。作者想知道高溫是否和飲食行為有關，也想比較性別與社會經濟族群。\n> - **主體**：研究把 100,851 人的 1,716,046 筆飲食紀錄，和每日最高溫接在一起，再用含個人 random effect 的 linear mixed models 調整年齡、性別、季節、每日能量、社會 profile 與地區。25°C 到 35°C，水攝取上升最清楚，含糖飲料在年輕族群由 56 g/d 到 72 g/d，約增加 29%。酒精在男性由 150 g/d 到 166 g/d，約增加 11%。\n> - **所以呢**：營養師可把熱天補水、少糖飲料與酒精提醒放進分眾衛教，但這篇只能說溫度和飲食一起變動，不能證明高溫直接造成飲食改變，也不能直接推論多年後一定造成疾病。\n\n## Clinical Application\n\n- **適用情境**：高溫日、熱浪期間的社區營養宣導，尤其是青少年與年輕成人、低收入或工作族群，以及有 diabetes、肥胖、心血管或腎臟風險者。\n- **實務重點**：以白開水或無糖飲品作為優先補水選擇，提醒酒精與 sugar-sweetened beverages 可能在炎熱社交情境中增加。水果與蔬菜可作為清爽食物選項，但仍需補足蛋白質、鈣與 fiber，不能因天氣熱就長期減少豆類、乳品或其他蛋白質來源。\n- **外部適用性**：研究對象來自法國、需要法文與穩定網路，且排除了 under-reporters。臺灣氣候、飲食文化、外送與便利商店環境不同，數值不可直接套用。可借用的是衛教方向與分眾思考，不是 25°C 或 35°C 的固定劃線。\n\n## Paper Details\n\n### Methods\n\n研究為前瞻性觀察性 cohort。納入條件包含 2015 年 5 月前加入、前兩年最少三筆 24-hour records、非 under-reporter、社會人口資料可用，最後分析 100,851 人。飲食資料每六個月收集一次，每次兩個平日與一個週末日。氣象資料來自 Météo-France 3,074 個氣象站。主要模型調整年齡 spline、性別、季節、每日能量、社會 profile 與地區，並測試性別及社會 profile interaction 與 quadratic temperature term。另做排除七八月、排除搬遷者、加入 urbanicity 的 sensitivity analyses，方向與幅度大致不變。\n\n### Critical Appraisal\n\n| Domain | 判定 | 理由 |\n|---|---|---|\n| Confounding | 🔴 高風險 | 季節、地區、年齡與社會 profile有調整，但熱浪、假日、工作型態、戶外活動、食物可近性、居家冷氣與健康狀態仍可能混雜。 |\n| Selection | 🟡 中等 | 網路 cohort、志願參與、排除 under-reporters 與資料不足者，可能留下健康意識較高的樣本。 |\n| Exposure classification | 🟡 中等 | 使用居住地附近最高溫，未等同個人實際暴露，搬遷日期也不完整。 |\n| Outcome measurement | 🔴 高風險 | 24-hour dietary records 為自我填報，酒精、飲料與份量可能有低報或記錄反應。 |\n| Missing data | 🟡 中等 | 收入拒答視為一類，溫度缺失另處理，但排除條件可能影響代表性。 |\n| Selective reporting | 🟡 中等 | 研究檢驗很多食物群組、族群與溫度模型，雖有 Dunnett correction，仍需完整 protocol 與 analysis plan 才能判斷。 |\n\n**統計與推論漏洞**：大型樣本讓信賴區間很窄，統計差異未必等於個人層級的營養差異或臨床重要差異。文章將平均飲食品質描述為穩定，作者自己也承認 GBDDI 與 PANDiet 不含酒精，水果蔬菜增加可能抵銷酒精與含糖飲料增加，平均值會掩蓋族群差異。模型加入 daily energy intake 也可能改變對食物總量的解讀，因為能量本身可能位於溫度影響路徑。`argdown_lint.py` 已標記 association_to_causation：研究結果支持「相關」，不支持「高溫造成長期飲食型態」的因果句型。作者提出口渴、感官、社交與食物環境是可能機轉，這些屬 inference，未由本研究直接測量。\n\n**GRADE**：觀察性研究 Low 起始。`grade_judge.py` 輸入五個 domain 後，risk of bias serious、indirectness serious、inconsistency not serious、imprecision not serious、publication bias not serious，總變化 -2，權威輸出為 **Very low**。此等級是對溫度與飲食關聯證據的確定性判斷，並非否定研究的描述價值。\n\n**Funding/COI**：文內聲明作者無 competing interests。NutriNet-Santé 由法國 Ministry of Solidarity and Health 支持。作者列出研究設計、資料庫、統計與寫作分工。未在五分鐘 quick tier 內做外部資助者角色、期刊、作者、引用、撤稿或 PubPeer 查核，不能宣稱這些查核已完成。\n\n## Key Findings\n\n- 全體方向：高溫與水果、蔬菜、水、酒精、含糖飲料、甜食增加相關，紅肉、豆類、乳品下降相關。\n- 性別差異：25°C 到 35°C，男性酒精約 +11%，女性約 +6%；水攝取男性約 +25%，女性約 +24%。\n- 社會 profile 差異：年輕族群含糖飲料約 +29%，員工族群約 +24%；水果增加約 9% 至 17%。\n- 平均結果：總能量與不含酒精的 diet-quality scores 沒有明顯變化，不能解讀成所有人的飲食風險都沒有改變。\n- 臨床讀法：可支持高溫期間的補水與少糖、少酒精訊息，無法單獨支持因果政策效果或長期疾病風險估計。\n\n## Review Scope and Verification\n\n- 執行 tier：quick。\n- 完整全文：已使用使用者指定的本機 verified PDF text，未以摘要代替。\n- 已實際執行：`[local path removed]` 與 `argdown_lint.py`。\n- 外部期刊與作者查核：五分鐘內略過，未宣稱完成。",
+      "cards": [],
+      "completedAt": "2026-08-13T01:40:20.701Z"
+    },
     {
       "id": "doi:10.1590/1678-4685-gmb-2025-0113:digest",
       "paperId": "doi:10.1590/1678-4685-gmb-2025-0113",
