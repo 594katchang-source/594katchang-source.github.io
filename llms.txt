@@ -17,6 +17,10 @@ Kat Chang 張雁雲營養師是食品營養博士（高齡健康組）、美國�
 - 論文讀書小站公開版：https://594katchang-source.github.io/teach/paper-radar/
 - 文字雲互動工具：https://teaching-3809d.web.app/
 
+## 最新文章
+
+- 《Nutrition: Concepts & Controversies》第17版值得讀嗎？營養師導讀健康行為轉向與15個爭議：https://594katchang-source.github.io/blog/post.html?id=2026-08-13-nutrition-concepts-controversies-17e-guide
+
 ## 專業主題
 
 - 中高齡營養與健康促進
