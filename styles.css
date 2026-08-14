@@ -1,3 +1,5 @@
+Wall time: 0.8 seconds
+Output:
 :root{
   --bg:#f4f7f2;
   --surface:#fff;
@@ -73,7 +75,7 @@ h1,h2,h3,p{margin-top:0}h1{max-width:none;margin-bottom:22px;font-size:clamp(2.3
   .blog-directory main .keywords span{font-size:1rem}
 }
 
-/* 主站手機版閱讀基準，獨立教具保留各自版型。 */
+/* ä¸»ç«™æ‰‹æ©Ÿç‰ˆé–±è®€åŸºæº–ï¼Œç¨ç«‹æ•™å…·ä¿ç•™å„è‡ªç‰ˆåž‹ã€‚ */
 @media(max-width:520px){
   body:is(.site-main,.blog-directory,.teach-directory) main p,
   body:is(.site-main,.blog-directory,.teach-directory) main li,
@@ -120,3 +122,54 @@ h1,h2,h3,p{margin-top:0}h1{max-width:none;margin-bottom:22px;font-size:clamp(2.3
     line-height:1.45;
   }
 }
+
+/* Blog tables: preserve structure and keep narrow-screen reading usable. */
+.blog-directory .article-body{overflow-x:auto}
+.blog-directory .article-body table{
+  width:100%;
+  min-width:680px;
+  margin:28px 0 34px;
+  border:1px solid #cfe0d7;
+  border-radius:18px;
+  border-collapse:separate;
+  border-spacing:0;
+  overflow:hidden;
+  background:#fff;
+  box-shadow:0 12px 28px rgba(24,33,43,.08);
+  color:var(--ink);
+  font-size:1rem;
+  line-height:1.65;
+}
+.blog-directory .article-body th,
+.blog-directory .article-body td{
+  padding:15px 16px;
+  text-align:left;
+  vertical-align:top;
+  border-right:1px solid #e0ebe5;
+  border-bottom:1px solid #e0ebe5;
+}
+.blog-directory .article-body th:last-child,
+.blog-directory .article-body td:last-child{border-right:0}
+.blog-directory .article-body thead th{
+  background:#173d33;
+  color:#fff;
+  font-weight:900;
+  letter-spacing:.02em;
+  white-space:nowrap;
+}
+.blog-directory .article-body tbody tr:nth-child(even){background:#f4f8f5}
+.blog-directory .article-body tbody tr:hover{background:#eaf4ee}
+.blog-directory .article-body tbody tr:last-child td{border-bottom:0}
+.blog-directory .article-body tbody td:first-child{color:var(--green-dark);font-weight:900}
+@media(max-width:520px){
+  .blog-directory .article-body table{
+    min-width:760px;
+    margin:24px 0 30px;
+    border-radius:15px;
+    font-size:1.05rem;
+    line-height:1.6;
+  }
+  .blog-directory .article-body th,
+  .blog-directory .article-body td{padding:14px 15px}
+}
+
