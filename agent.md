@@ -1,4 +1,4 @@
-﻿# Kat Chang site 工作藍圖
+# Kat Chang site 工作藍圖
 
 這份文件給後續協作代理使用，用來快速理解專案方向、內容標準、檔案分工與驗證步驟。開始改動前，先讀這份文件，再依實際任務查看相關頁面與資料檔。
 
@@ -80,7 +80,8 @@ Kat Chang 網站是張雁雲營養師的專業展示、課程合作、衛教文�
 - `teach/nutritionranking/`：食品營養排行與查詢工具。
 - `https://teaching-3809d.web.app/`：文字雲互動工具，從 `teach/` 入口頁外連。
 - 文字雲是獨立的 Firebase Hosting 工具，必須保留 Firebase 設定注入與 Firestore 即時回饋。維護 GitHub Pages 一般頁面時，不得移除或改寫文字雲專案的 Firebase 設定。
-- 文章管理頁已從 GitHub Pages 移除，文章管理改由私人或本機流程執行。
+- `/admin/` 是本專案必須長期保留的 Blog 管理頁。頁面可新增、修改、刪除文章、上傳封面圖、設定首頁精選與預覽，使用者目前對這組功能與頁面表示滿意。除非使用者明確要求修改管理功能，任何網站維護都不得刪除 `admin/`、移除 Blog 的管理入口、改掉現有欄位或破壞既有發布流程。使用者需在當次頁面輸入有 `Contents: Read and write` 權限的 GitHub token。token 只存於瀏覽器記憶體，不寫入網站或 localStorage。
+- 2026-07-27 曾誤刪管理頁、管理程式與 Blog 入口，造成文章只能閱讀。此事件已於 2026-08-13 依歷史版本恢復，列為維護禁忌。日後修改公開網站前，需先確認 `admin/index.html`、`admin/admin.js` 與 Blog 管理入口仍存在，並在收工時驗證管理頁可開啟。
 - `assets/`：個人照、課程頁素材與共用圖片。
 
 ## 頁面維護重點
@@ -202,6 +203,13 @@ Kat Chang 網站是張雁雲營養師的專業展示、課程合作、衛教文�
 - 若 workflow 已是新版且仍失敗，從 GitHub 後台檢查 Settings > Pages 的 Source 是否為 GitHub Actions，也檢查 `github-pages` environment 是否有卡住的 deployment 或保護規則。
 - 本機 `gh` 若尚未登入，可用已連線的 GitHub Actions 工具讀取 job log 與重跑 failed jobs。若需要改 Pages 設定，仍需使用者在 GitHub 網頁後台確認。
 
+## 本機 GitHub CLI 與 Git HTTPS 認證
+
+- 多專案 Git 推送前，先確認 `gh auth status --hostname github.com` 顯示有效登入，再執行 `gh auth setup-git --hostname github.com --force`，讓 HTTPS Git 使用同一組 CLI 認證。
+- `git ls-remote` 只能證明讀取能力，推送能力要用 `git push --dry-run` 實測，dry-run 不能當成實際發布。
+- Fine-grained token 若只選一個 repository，不能代表多專案推送能力。多專案工作優先使用 GitHub CLI 的瀏覽器授權，並讓 Git HTTPS 走 GitHub CLI 認證橋接。
+- 測試與收尾時保留現有 `agent.md`、`project-worklog.md` 修改，不能因驗證自動 commit 或 push。
+
 ## 專案收尾 SOP
 
 - 任務完成前，先確認本次輸出是否真的可交付。至少檢查頁面能開、重要連結正常、資料檔未壞、這次改到的區塊沒有明顯版面錯誤。
@@ -209,6 +217,7 @@ Kat Chang 網站是張雁雲營養師的專業展示、課程合作、衛教文�
 - 若這次學到的是 Kat Chang 網站專案限定規則，像是品牌說法、頁面欄位、JSON 結構、SEO 欄位、教具資料格式、醫療風險提醒或驗證步驟，要更新本檔 `agent.md`。
 - 若這次學到的是跨專案也通用的長期規則，像是 Codex 與 Antigravity 一起遵守的收尾流程、全域技能同步方式、全域寫作限制或全域驗證標準，要更新全域 `AGENTS.md`。
 - 每次專案完成後，都要補一筆根目錄 `project-worklog.md`。工作日誌至少記：日期、任務、主要輸出、做過的驗證、錯誤或風險、這次新增的規則、是否已更新 skill、是否已更新 `agent.md` 或全域 `AGENTS.md`。
+- 工作日誌要把「已完成」「已修正錯誤」「尚未完成」「仍有風險」分開記錄。dry-run、讀取成功、權限檢查成功都不能寫成實際發布已完成。尚未處理的檔案、待使用者確認事項與曾經失敗的步驟要保留在醒目段落。
 - 若本次沒有新規則可沉澱，也要在工作日誌寫清楚「本次無新增可沉澱規則」。
 - 若使用者明講不要寫日誌、不要改 skill、或不要改 agent 規則，才可略過該項。沒有明講時，收尾視為預設必做。
 
@@ -263,8 +272,20 @@ Kat Chang 網站是張雁雲營養師的專業展示、課程合作、衛教文�
 - 公開網站的人像 logo 固定使用 repo 內的 `assets/profile/kat-avatar.jpg`，不得使用 Firebase Storage download token URL。
 - 上述頭像規則只適用 GitHub Pages 一般頁面，不能套用到 `teach` 外連的 Firebase 文字雲。
 - 公開頁卡片的論文標題與期刊分類固定優先顯示繁體中文，原始英文欄位仍保留在搜尋資料中，避免中文檢索失效。
-- 公開 repo 不得放置需要訪客貼上 GitHub token 的管理頁。`noindex` 只能降低搜尋引擎收錄，不能當成存取控制。管理功能需放在私人或本機環境。
+- `/admin/` 是使用者指定保留的公開 `noindex` 管理頁，仍屬公開網址，沒有帳號登入或存取控制能力。管理時只在可信任裝置使用，token 只存在當次頁面記憶體，不要把 token 貼到公共電腦、截圖、工作日誌或對話中。除非使用者明確要求搬遷或刪除，不能以一般安全建議刪除這個管理頁。若日後改成正式帳號登入，需移到具伺服器端驗證的私人環境。
 
 ## 收束
 
 這個專案的核心，是把可信的營養與健康知識，轉成讀者願意讀、學員能互動、合作單位能採用的網站內容。每次改動都要同時照顧三件事：專業正確、使用順手、品牌溫度。
+## SEO 書籍連載
+
+- 每日 SEO 草稿從 `D:\@Codex\書籍\2026-07-29-Nutrition-Concepts-Controversies-17e\output` 依序取用一章，文章來源可回查原文 PDF：`D:\@Codex\書籍\2026-07-29-Nutrition-Concepts-Controversies-17e\source\Nutrition Concepts & Controversies 營養學概念與爭論(2027).pdf`。
+- 第一篇固定先介紹全書特色、強項、適合讀者與閱讀價值，預定 2026-08-13 執行。第二篇從 2026-08-14 開始寫 Chapter 1，之後每天依序推進一章至 Chapter 15。
+- 書籍介紹篇要以原文與整理成果核對書籍資訊，不提前代寫章節內容。章節文章要保留原章節主題，再轉成一般讀者能理解與執行的 SEO 衛教文章。
+- 每日章節進度記錄放在專案私有工作區 `.codex\seo\book-series-progress.md`。只有實際完成待審草稿後才更新進度。
+- 書籍連載仍遵守 SEO 文章標準：正文至少 2,000 字、具吸引力的開場、清楚搜尋意圖、表格與可執行步驟、作者專業判讀、可查驗來源、FAQ 與 AI 容易擷取的段落結構。
+- 排程可以更新連載進度檔，但不得自行修改網站、發布文章、投稿、寄信或推送 GitHub。使用者確認品質後，才進入 blog 編排與發布流程。
+- 每篇章節整理發文的開頭要明確標示書名、版本、Chapter 編號、英文章名與中文章名，並寫明本文是該章節的整理發文。
+- 使用者確認標題與開場後，發布流程固定包含已確認用語修正、文章內相關連結、首頁曝光設定、BlogPosting、FAQPage、canonical、sitemap、llms.txt，以及桌機、行動版、公開頁面與 GitHub Pages 部署核對。
+- 發布後要把當日狀態與下一章寫回 `.codex\seo\book-series-progress.md`，並在 `project-worklog.md` 分開記錄已完成、已修正錯誤、尚未完成與仍有風險。Search Console 數據需在可連線時另行查核，不能以推測代替。
+- 後續 SEO 排程、開工、收工與網站命令固定以 `D:\@Codex\594katchang-source.github.io-main` 為專案根目錄。可延續的 SEO 工作摘要放在 `.codex\seo\context.md`，該資料夾由 `.gitignore` 排除，不得發布到 GitHub Pages。
