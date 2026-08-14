@@ -289,3 +289,10 @@ Kat Chang 網站是張雁雲營養師的專業展示、課程合作、衛教文�
 - 使用者確認標題與開場後，發布流程固定包含已確認用語修正、文章內相關連結、首頁曝光設定、BlogPosting、FAQPage、canonical、sitemap、llms.txt，以及桌機、行動版、公開頁面與 GitHub Pages 部署核對。
 - 發布後要把當日狀態與下一章寫回 `.codex\seo\book-series-progress.md`，並在 `project-worklog.md` 分開記錄已完成、已修正錯誤、尚未完成與仍有風險。Search Console 數據需在可連線時另行查核，不能以推測代替。
 - 後續 SEO 排程、開工、收工與網站命令固定以 `D:\@Codex\594katchang-source.github.io-main` 為專案根目錄。可延續的 SEO 工作摘要放在 `.codex\seo\context.md`，該資料夾由 `.gitignore` 排除，不得發布到 GitHub Pages。
+
+
+## 文章資料並行寫入保護
+
+- `blog/posts.json` 是共享文章資料。任何新增文章或 SEO 發布都要先讀取遠端 `main` 的最新版本與檔案 SHA，再只合併本次明確授權的目標文章。
+- 不得用舊本地快照整份覆蓋遠端，也不得用 force push 掩蓋差異。寫入前要確認非目標文章的 ID、標題、內文、圖片、摘要、關鍵字與欄位值都未改變，出現未授權變動就停止。
+- `showOnHome` 只由使用者在 Blog Admin 明確勾選或取消。SEO 新文預設為 `false`，不得因新增或更新文章自行增加首頁曝光。發布前要核對首頁精選 ID 與數量，最多四則。
