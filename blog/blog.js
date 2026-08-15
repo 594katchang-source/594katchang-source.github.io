@@ -10,8 +10,36 @@ function stripHtml(s=''){return String(s).replace(/<script[\s\S]*?<\/script>/gi,
 function summary(post){const given=stripHtml(post.excerpt||'');if(given.length>=24)return truncate(given,96);const text=stripHtml(post.body||'');const sentence=(text.match(/[^。！？!?]{24,130}[。！？!?]/)||[text.slice(0,118)])[0];return truncate(sentence,96)}
 function keywords(post){if(Array.isArray(post.keywords)&&post.keywords.length)return post.keywords.slice(0,5);const text=[post.title,post.excerpt,stripHtml(post.body)].join(' ');const found=[];for(const term of DOMAIN_TERMS){if(text.toLowerCase().includes(term.toLowerCase()))found.push(term)}const headings=[...(post.body||'').matchAll(/<h[2-3][^>]*>(.*?)<\/h[2-3]>/gi)].map(m=>stripHtml(m[1])).filter(Boolean);const titleParts=String(post.title||'').replace(/[？?！!]/g,'').split(/[：:、，,\s-]+/).filter(w=>w.length>=2&&w.length<=8);const words=(stripHtml(text).match(/[\u4e00-\u9fa5]{2,6}|[A-Za-z][A-Za-z-]{2,}/g)||[]).filter(w=>!STOPWORDS.has(w)&&!/來源|\d/.test(w));const score=new Map();[...found,...headings,...titleParts,...words].forEach((w,i)=>{const key=w.trim();if(!key||STOPWORDS.has(key))return;score.set(key,(score.get(key)||0)+(i<found.length?6:1))});return [...score.entries()].sort((a,b)=>b[1]-a[1]||a[0].length-b[0].length).slice(0,5).map(([w])=>w)}
 function truncate(text,max){return text.length>max?`${text.slice(0,max-1)}…`:text}
+function postDate(post){const value=Date.parse(`${String(post.date||'').slice(0,10)}T00:00:00`);return Number.isNaN(value)?0:value}
+function sortPosts(posts){return posts.map((post,index)=>({post,index})).sort((a,b)=>postDate(b.post)-postDate(a.post)||a.index-b.index).map(item=>item.post)}
+function categoryName(post){const value=String(post.category||'').trim();return value||'未分類'}
+function postMeta(post){return [post.date,post.category?categoryName(post):''].filter(Boolean).join('｜')}
+function searchValue(post){return [post.title,post.excerpt,post.body,post.category,...(Array.isArray(post.keywords)?post.keywords:[])].map(value=>stripHtml(value||'')).join(' ').toLocaleLowerCase()}
 function imageSrc(post){const raw=String(post.image||'').trim();if(!raw)return'images/default.svg';if(/^https?:\/\//i.test(raw)||raw.startsWith('/'))return safeUrl(raw,'src')||'images/default.svg';if(raw.startsWith('blog/images/'))return raw.replace(/^blog\//,'');if(raw.startsWith('images/'))return raw;return `images/${encodeURIComponent(raw).replace(/%2F/g,'/')}`}
-function card(post){return `<a class="post-card" href="post.html?id=${encodeURIComponent(post.id)}"><img class="post-thumb" src="${escapeHtml(imageSrc(post))}" alt=""><div><div class="post-meta">${escapeHtml(post.date||'')}</div><h3>${escapeHtml(post.title||'')}</h3><p>${escapeHtml(summary(post))}</p><div class="keywords">${keywords(post).map(k=>`<span>${escapeHtml(k)}</span>`).join('')}</div></div></a>`}
+function card(post){return `<a class="post-card" href="post.html?id=${encodeURIComponent(post.id)}"><img class="post-thumb" src="${escapeHtml(imageSrc(post))}" alt=""><div><div class="post-meta">${escapeHtml(postMeta(post))}</div><h3>${escapeHtml(post.title||'')}</h3><p>${escapeHtml(summary(post))}</p><div class="keywords">${keywords(post).map(k=>`<span>${escapeHtml(k)}</span>`).join('')}</div></div></a>`}
+function renderDirectory(posts){
+  const list=document.querySelector('#posts');
+  const search=document.querySelector('#post-search');
+  const category=document.querySelector('#post-category');
+  const result=document.querySelector('#post-results');
+  const clear=document.querySelector('#clear-post-filters');
+  if(!list||!search||!category||!result||!clear)return;
+  const ordered=sortPosts(posts);
+  [...new Set(ordered.map(categoryName))].sort((a,b)=>a.localeCompare(b,'zh-Hant')).forEach(name=>{const option=document.createElement('option');option.value=name;option.textContent=name;category.append(option)});
+  const update=()=>{
+    const query=search.value.trim().toLocaleLowerCase();
+    const selectedCategory=category.value;
+    const filtered=ordered.filter(post=>(!selectedCategory||categoryName(post)===selectedCategory)&&(!query||searchValue(post).includes(query)));
+    list.innerHTML=filtered.map(card).join('')||'<p class="post-empty">找不到符合條件的文章，請換一個關鍵字或清除篩選。</p>';
+    result.textContent=query||selectedCategory?`符合條件的文章：${filtered.length} 篇，共 ${posts.length} 篇`:`共 ${posts.length} 篇文章，依日期由新到舊排列`;
+    clear.hidden=!query&&!selectedCategory;
+  };
+  search.addEventListener('input',update);
+  search.addEventListener('keydown',event=>{if(event.key==='Escape'){search.value='';category.value='';update();search.focus()}});
+  category.addEventListener('change',update);
+  clear.addEventListener('click',()=>{search.value='';category.value='';update();search.focus()});
+  update();
+}
 function setMeta(selector,attrs){let el=document.head.querySelector(selector);if(!el){el=document.createElement('meta');document.head.appendChild(el)}Object.entries(attrs).forEach(([key,value])=>el.setAttribute(key,value))}
 function setArticleSeo(post){
   const url=`${location.origin}${location.pathname}?id=${encodeURIComponent(post.id)}`;
@@ -38,5 +66,5 @@ function setArticleSeo(post){
     faqLd.textContent=JSON.stringify({'@context':'https://schema.org','@type':'FAQPage',mainEntity:post.faq.map(item=>({'@type':'Question',name:item.question,acceptedAnswer:{'@type':'Answer',text:item.answer}}))});
   }else if(faqLd)faqLd.remove();
 }
-async function main(){const res=await fetch('posts.json?v=20260815-seo',{cache:'no-store'});const posts=(await res.json()).posts||[];const list=document.querySelector('#posts');if(list){list.innerHTML=posts.map(card).join('')||'<p>尚無文章。</p>';return}const article=document.querySelector('#article');if(article){const id=new URLSearchParams(location.search).get('id');const post=posts.find(p=>p.id===id)||posts[0];if(!post){article.innerHTML='<p>找不到文章。</p>';return}setArticleSeo(post);article.innerHTML=`<a class="back-link" href="./">← 返回文章列表</a><div class="post-meta">${escapeHtml(post.date||'')}｜作者：<a href="../about.html">張雁雲營養師</a></div><h1>${escapeHtml(post.title||'')}</h1><div class="keywords">${keywords(post).map(k=>`<span>${escapeHtml(k)}</span>`).join('')}</div>${post.image?`<img class="article-cover" src="${escapeHtml(imageSrc(post))}" alt="${escapeHtml(post.title||'')}">`:''}<div class="article-body">${sanitizeHtml(post.body||'')}</div>`}}main().catch(()=>{const el=document.querySelector('#posts,#article');if(el)el.innerHTML='<p>內容載入失敗。</p>'});
+async function main(){const res=await fetch('posts.json?v=20260815-blog-directory',{cache:'no-store'});const posts=(await res.json()).posts||[];const list=document.querySelector('#posts');if(list){renderDirectory(posts);return}const article=document.querySelector('#article');if(article){const id=new URLSearchParams(location.search).get('id');const post=posts.find(p=>p.id===id)||posts[0];if(!post){article.innerHTML='<p>找不到文章。</p>';return}setArticleSeo(post);article.innerHTML=`<a class="back-link" href="./">← 返回文章列表</a><div class="post-meta">${escapeHtml(post.date||'')}｜作者：<a href="../about.html">張雁雲營養師</a></div><h1>${escapeHtml(post.title||'')}</h1><div class="keywords">${keywords(post).map(k=>`<span>${escapeHtml(k)}</span>`).join('')}</div>${post.image?`<img class="article-cover" src="${escapeHtml(imageSrc(post))}" alt="${escapeHtml(post.title||'')}">`:''}<div class="article-body">${sanitizeHtml(post.body||'')}</div>`}}main().catch(()=>{const el=document.querySelector('#posts,#article');if(el)el.innerHTML='<p>內容載入失敗。</p>'});
 
