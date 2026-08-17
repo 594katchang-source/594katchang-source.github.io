@@ -1,7 +1,112 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T15:49:07.316Z",
+  "generatedAt": "2026-08-17T15:59:09.388Z",
   "papers": [
+    {
+      "id": "doi:10.3389/fpubh.2026.1902901:digest",
+      "paperId": "doi:10.3389/fpubh.2026.1902901",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Nutrition literacy and dietary self-management in breast and gynecologic cancer survivorship.",
+      "authors": "Teng S, Teng F, Zhuang Y, Zhao C, Zhao S, Yao Y",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.3389/fpubh.2026.1902901",
+      "abstract": "Women living with and beyond breast cancer or a gynecologic malignancy frequently face a combined burden of endocrine disruption, treatment-related symptoms, psychological distress, fatigue, fear of recurrence, and conflicting dietary information. These factors may impair nutrition literacy, weaken confidence in dietary self-management, and reduce adherence to evidence-informed nutrition recommendations. This Mini Review examines the behavioral pathway linking psychological and educational barriers to dietary behaviors in women with breast and gynecologic malignancies. We focus on four interconnected domains: hormone-related emotional vulnerability and treatment-related symptom burden; anxiety, depression, fatigue, and fear of recurrence as drivers of avoidant or inconsistent eating behaviors; nutrition misconceptions and restrictive dietary beliefs that may increase malnutrition risk; and structured nutrition education as a self-management strategy. Existing guidelines support nutrition screening, individualized counseling, healthy dietary patterns, weight management, and physical activity as survivorship priorities, but implementation is often limited by low health literacy, fragmented communication, and insufficient psychosocial support. We propose that survivorship nutrition programs should integrate psychological screening, myth correction, plain-language nutrition literacy education, symptom-responsive meal planning, family involvement, and digital follow-up. Such behaviorally informed education should be evaluated using measurable outcomes, including dietary adherence, nutritional status, body weight and body composition, symptom control, quality of life, and sustained self-management across survivorship.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1902901/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42582321/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "clinical nutrition technology",
+        "design:guideline",
+        "guideline and consensus",
+        "health promotion and lifestyle",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "癌症存活期的營養識能與飲食自我管理：全文整理",
+      "content": "# 癌症存活期的營養識能與飲食自我管理：全文整理\n\n## 來源與全文確認\n\n- 論文：Nutrition literacy and dietary self-management in breast and gynecologic cancer survivorship\n- DOI：10.3389/fpubh.2026.1902901\n- 期刊：Frontiers in Public Health，2026，14，1902901\n- 文章類型：Mini Review，提出心理、教育與營養自我管理框架。\n- 合法全文：Frontiers 官方 CC BY PDF，6 頁，已逐頁閱讀。\n- 閱讀提醒：文章是框架整理，不是測試完整教育方案的長期臨床試驗。\n\n## 30 秒摘要\n\n乳癌和婦科癌症存活者常同時面對治療症狀、內分泌變化、焦慮、憂鬱、疲勞、復發恐懼和網路飲食迷思。這些因素會影響採買、備餐、蛋白質攝取、體重管理和資訊判讀。作者建議營養照護從單次衛教改成評估、白話模組、症狀回應、迷思修正、家屬支持和必要轉介的持續自我管理支持。\n\n## 第一層筆記：先記住五件事\n\n### 1. 知道正確資訊不等於做得到\n\n營養識能包含取得、理解、評估和應用資訊。疲勞、情緒、治療副作用、家庭信念和食物取得困難，都會影響知識能否變成日常行動。\n\n### 2. 復發恐懼可能讓飲食變得過度嚴格\n\n有些人會完全戒糖、戒乳製品或黃豆，採用斷食、生酮或所謂抗癌食物。若缺乏個別評估，這些限制可能造成營養不足、社交壓力和對食物的罪惡感。\n\n### 3. 疲勞需要低負擔的飲食方案\n\n預煮餐、預洗蔬果、優格、牛奶或營養強化豆奶、蛋、堅果醬和家屬協助，可能比抽象的健康飲食原則更容易執行，仍要依症狀和食安調整。\n\n### 4. 體重不能是唯一目標\n\n癌症存活者可能同時有肌肉流失、體脂增加、淋巴水腫和身體意象困擾。飲食規劃要一起看蛋白質、功能、肌肉、代謝健康、治療耐受度和生活品質。\n\n### 5. 教育需要持續、分層和轉介\n\n評估營養風險、攝取、症狀、心理困擾、疲勞、復發恐懼、識能、家屬支持和補充品，再安排白話模組。高風險者需要營養師、心理師或腫瘤團隊協作。\n\n## 第二層筆記：文章的三條路徑\n\n### 路徑一：心理和症狀影響飲食行為\n\n焦慮、憂鬱和復發恐懼會改變資訊搜尋、風險感受、備餐動機和對食物的信任。噁心、味覺改變、疼痛、腹瀉、便秘、睡眠問題和疲勞則會提高方便食品依賴或造成蛋白質與能量不足。\n\n### 路徑二：迷思造成營養脆弱\n\n「糖會餵養癌症」「某種食物一定會復發」「超級食物可取代治療」等說法可能讓人過度限制。作者建議用可靠來源、問答腳本和 teach-back，協助個案分辨風險降低和虛假確定感。\n\n### 路徑三：整合式自我管理支持\n\n教育模組可涵蓋存活期飲食型態、蛋白質和能量、症狀回應、食安、補充品警語、迷思辨識和轉介。護士、營養師、腫瘤科醫師、心理師、社工和社區工作者可依資源採分級照護，數位追蹤和家屬參與可延伸支持，但家屬本身的飲食迷思也要一起處理。\n\n## 第三層筆記：營養師實務提醒\n\n- 不把限制性飲食直接解讀成缺乏動機，先問它和復發恐懼、家庭信念或治療症狀的關係。\n- 先處理營養不足、肌肉流失、功能下降、症狀與食安，再談體重。\n- 用短句、圖示、實際餐例和 teach-back，重複提供可以做得到的步驟。\n- 對斷食、生酮、完全戒糖、黃豆或乳製品禁忌，回到治療、營養狀態、藥物交互作用和個人耐受度評估。\n- 用飲食遵從、營養狀態、體組成、症狀、生活品質和自我管理維持度追蹤教育效果。\n\n## 自我測驗卡\n\n### 題目 1：營養識能和知道健康食物一樣嗎？\n\n答案：不一樣。還要能取得、理解、評估和把資訊應用在治療症狀、文化、預算和家庭情境中。\n\n### 題目 2：復發恐懼可能造成什麼飲食問題？\n\n答案：可能造成完全戒糖、戒乳製品或其他不必要限制，增加營養不足、社交壓力和罪惡感。\n\n### 題目 3：疲勞時的飲食教育應該怎麼調整？\n\n答案：降低採買和備餐負擔，使用安全的現成高蛋白食物、預煮餐和家屬協助，並依症狀調整。\n\n### 題目 4：癌症存活期為什麼不能只談減重？\n\n答案：個案可能有肌肉流失、體脂增加、功能下降和治療耐受問題，需要一起看蛋白質、肌肉、代謝健康和生活品質。\n\n### 題目 5：教育方案要怎麼驗證？\n\n答案：追蹤飲食遵從、營養狀態、體組成、症狀控制、生活品質和長期自我管理，而非只問是否聽過衛教內容。\n\n## 一句話帶走\n\n癌症存活期的營養衛教要處理真實生活中的心理、症狀、家庭與資訊問題，重點是讓個案能安全地做出下一餐決定。",
+      "cards": [
+        {
+          "title": "營養識能只是知道健康食物嗎？",
+          "question": "癌症存活期的營養識能還包含什麼？",
+          "answer": "還包含取得、理解、評估和把資訊應用在症狀、文化、預算和家庭情境中。",
+          "tags": [
+            "營養識能",
+            "癌症存活",
+            "健康教育"
+          ]
+        },
+        {
+          "title": "復發恐懼會怎麼影響飲食？",
+          "question": "為什麼復發恐懼可能造成營養風險？",
+          "answer": "它可能讓人完全戒糖、戒乳製品或採取其他不必要限制，增加營養不足與社交壓力。",
+          "tags": [
+            "復發恐懼",
+            "限制性飲食",
+            "營養風險"
+          ]
+        },
+        {
+          "title": "疲勞時的飲食教育怎麼做？",
+          "question": "有哪些低負擔的飲食安排？",
+          "answer": "可用安全的現成高蛋白食物、預煮餐、預洗蔬果和家屬協助，依症狀調整。",
+          "tags": [
+            "癌因性疲勞",
+            "蛋白質",
+            "症狀管理"
+          ]
+        },
+        {
+          "title": "癌症存活期為何不能只談減重？",
+          "question": "體重之外還要追蹤什麼？",
+          "answer": "要一起看肌肉、功能、蛋白質、代謝健康、治療耐受度和生活品質。",
+          "tags": [
+            "體組成",
+            "肌肉保留",
+            "存活期照護"
+          ]
+        },
+        {
+          "title": "營養教育要怎麼驗證？",
+          "question": "哪些結果比單純測驗知識更重要？",
+          "answer": "追蹤飲食遵從、營養狀態、體組成、症狀、生活品質和長期自我管理。",
+          "tags": [
+            "教育成效",
+            "生活品質",
+            "自我管理"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-17T15:58:29.653Z"
+    },
+    {
+      "id": "doi:10.3389/fpubh.2026.1902901:review",
+      "paperId": "doi:10.3389/fpubh.2026.1902901",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Nutrition literacy and dietary self-management in breast and gynecologic cancer survivorship.",
+      "authors": "Teng S, Teng F, Zhuang Y, Zhao C, Zhao S, Yao Y",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.3389/fpubh.2026.1902901",
+      "abstract": "Women living with and beyond breast cancer or a gynecologic malignancy frequently face a combined burden of endocrine disruption, treatment-related symptoms, psychological distress, fatigue, fear of recurrence, and conflicting dietary information. These factors may impair nutrition literacy, weaken confidence in dietary self-management, and reduce adherence to evidence-informed nutrition recommendations. This Mini Review examines the behavioral pathway linking psychological and educational barriers to dietary behaviors in women with breast and gynecologic malignancies. We focus on four interconnected domains: hormone-related emotional vulnerability and treatment-related symptom burden; anxiety, depression, fatigue, and fear of recurrence as drivers of avoidant or inconsistent eating behaviors; nutrition misconceptions and restrictive dietary beliefs that may increase malnutrition risk; and structured nutrition education as a self-management strategy. Existing guidelines support nutrition screening, individualized counseling, healthy dietary patterns, weight management, and physical activity as survivorship priorities, but implementation is often limited by low health literacy, fragmented communication, and insufficient psychosocial support. We propose that survivorship nutrition programs should integrate psychological screening, myth correction, plain-language nutrition literacy education, symptom-responsive meal planning, family involvement, and digital follow-up. Such behaviorally informed education should be evaluated using measurable outcomes, including dietary adherence, nutritional status, body weight and body composition, symptom control, quality of life, and sustained self-management across survivorship.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1902901/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42582321/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "clinical nutrition technology",
+        "design:guideline",
+        "guideline and consensus",
+        "health promotion and lifestyle",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "癌症存活期營養識能與飲食自我管理：研究品質評讀",
+      "content": "# 癌症存活期營養識能與飲食自我管理：研究品質評讀\n\n## 品質快照\n\n- 論文：Nutrition literacy and dietary self-management in breast and gynecologic cancer survivorship\n- DOI：10.3389/fpubh.2026.1902901\n- 期刊：Frontiers in Public Health，2026，14，1902901\n- 文章類型：Mini Review 與行為框架提案，沒有新收案、介入分派或原始資料分析。\n- 合法全文：Frontiers 官方 CC BY PDF，6 頁，已逐頁核對，含摘要、六個正文段落、結論、表格、作者貢獻、利益揭露與 42 筆參考文獻。\n- 判定：本文把心理困擾、治療症狀、疲勞、復發恐懼與飲食迷思納入營養自我管理，照護方向實用，但尚不足以證明框架改善長期腫瘤或患者重要結局。\n- GRADE：針對整合式營養識能與自我管理框架的效果，確定性為極低。\n\n## 研究問題與方法\n\n本文聚焦乳癌和婦科癌症存活者，整理內分泌改變、焦慮、憂鬱、疲勞、復發恐懼和飲食迷思如何影響備餐、攝取、資訊判讀、體重管理與自我效能。文章引用 American Cancer Society、ESPEN、WCRF、WHO 等指南，以及系統性回顧、關聯研究和小型介入，提出模組化、白話、多專業、家屬與數位支持的教育模式。這是 Mini Review，沒有完整系統性搜尋流程、統合分析或直接測試自己提出的架構。\n\n## 主要證據判讀\n\n### 心理和治療負擔\n\n乳癌的卵巢功能不足、卵巢抑制、tamoxifen 或 aromatase inhibitors，以及婦科癌症的卵巢切除、骨盆放療和化療，都可能和睡眠、食慾、身體意象、疲勞及情緒互相影響。乳癌資料較多，不能直接推廣到每一種婦科癌症。\n\n### 復發恐懼和飲食迷思\n\n復發恐懼可能讓人用飲食控制找回掌控感，也可能讓人相信完全戒糖、戒乳製品或黃豆、斷食、生酮飲食和超級食物能保證防復發。這些未經個別評估的限制可能造成營養不足、社交壓力、罪惡感和家庭衝突。\n\n### 疲勞、肌肉與體重\n\n疲勞會降低採買、備餐、活動和規律進食能力。作者建議使用預煮餐、預洗蔬果、優格、牛奶或營養強化豆奶、蛋、堅果醬和家屬協助。體重不能是唯一目標，還要看蛋白質、肌肉、功能、代謝健康、治療耐受度和生活品質，避免只用「少吃」或「完全不吃碳水化合物」處理問題。\n\n### 教育與轉介\n\n評估應包含營養風險、體重軌跡、攝取、症狀、心理困擾、疲勞、復發恐懼、健康識能、食物取得、家屬支持、補充品和限制性飲食。模組可涵蓋存活期飲食型態、蛋白質和能量、症狀回應、食安、補充品警語、迷思辨識與轉介條件。高風險者需要營養師、心理專業或腫瘤團隊協作。\n\n## 偏差風險與推論缺口\n\n- Mini Review 沒有完整檢索流向和正式偏差評估。\n- 乳癌和不同婦科癌症的治療、症狀與營養風險不同，不能視為單一族群。\n- 從心理困擾到飲食行為，再到營養狀態、生活品質或腫瘤結果的路徑，多為理論整合或關聯證據，本文沒有直接因果試驗。\n- 小型多專業介入提示可能改善飲食管理和生活品質，樣本與追蹤有限，不能代表長期存活或復發結果。\n- 文章揭露使用 ChatGPT 協助語言組織和圖示準備，讀者仍應回看引用的原始研究。\n\n## GRADE 式判定\n\n| 判定項目 | 結果 | 理由 |\n|---|---|---|\n| 起始等級 | Low | Mini Review 與框架提案，沒有直接新介入資料 |\n| 偏差風險 | Serious | 沒有完整搜尋、篩選或正式偏差評估 |\n| 不一致性 | Serious | 癌症類型、治療、存活期與結果不同 |\n| 間接性 | Serious | 框架因果路徑與長期患者重要結局尚未直接測試 |\n| 不精確性 | Serious | 多數介入證據小型且追蹤有限 |\n| 出版偏差 | Serious | 本文未做出版偏差評估 |\n| 計算結果 | Very low | grade_judge.py 以 Low 起始並扣除五個 serious 領域 |\n\n## 臨床營養轉譯\n\n實務上可把心理困擾、疲勞、復發恐懼和錯誤資訊納入營養評估，不把限制性飲食直接歸類為缺乏動機。先確認體重變化、肌肉與功能、攝取量、症狀、吞嚥或腸胃問題、補充品、治療交互作用、食物取得和家屬支持，再設定小而可完成的目標。涉及斷食、生酮、完全戒糖、黃豆或乳製品禁忌時，回到腫瘤治療、營養狀態、藥物交互作用和個人耐受度判斷。\n\n## 結論\n\n本文把癌症存活期營養照護從傳遞食物知識，延伸到心理、症狀、資訊辨識、家屬和轉介支持。這個框架可用來設計營養師與心理專業的合作流程，證據目前仍不足以證明它能改善復發、死亡或長期存活。後續研究需要跨癌症類型、長期追蹤、標準化營養識能量測，並同時記錄飲食、營養狀態、體組成、症狀、生活品質和自我管理維持度。",
+      "cards": [],
+      "completedAt": "2026-08-17T15:56:27.374Z"
+    },
     {
       "id": "doi:10.3390/nu18152542:digest",
       "paperId": "doi:10.3390/nu18152542",
