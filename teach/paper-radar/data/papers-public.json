@@ -1,7 +1,1003 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T06:50:11.526Z",
+  "generatedAt": "2026-08-19T10:37:49.842Z",
   "papers": [
+    {
+      "id": "doi:10.3389/fragi.2026.1854710:digest",
+      "paperId": "doi:10.3389/fragi.2026.1854710",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Traditional Chinese medicine for frailty and sarcopenia in aging populations: a bibliometric and visualized analysis of research trajectories and emerging frontiers.",
+      "authors": "He X, Sun L, Chen H, Chen Q",
+      "journal": "Nutrition guidelines and consensus (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fragi.2026.1854710",
+      "abstract": "By 2050, the proportion of people aged 65 and older is projected to reach 16% globally, up from roughly 10% in 2022. Frailty and sarcopenia are among the most clinically consequential age-related conditions, independently associated with falls, hospitalization, and death. Traditional Chinese medicine (TCM)-encompassing herbal formulas, acupuncture, tai chi, and qigong-has shown therapeutic potential for both conditions, yet no systematic bibliometric overview of this research area exists. Publications on TCM interventions for frailty and sarcopenia were retrieved from the Web of Science Core Collection on 14 March 2026. After a four-phase screening (identification, document-type screening, title/abstract relevance screening, and inclusion), 405 publications were retained. Bibliometric and visualization analyses were performed using CiteSpace (6.2.R6), VOSviewer (1.6.20), and the R package bibliometrix (4.3.0). To avoid tautological bias, all Boolean search terms were removed from the keyword field before every keyword-based analysis (co-occurrence, growth, burst detection, thematic mapping, and thematic evolution). A total of 405 publications from 2011 to 2026 were included. Annual output grew sharply after 2019 and peaked at 77 publications in 2025. China was the overwhelmingly dominant contributor (910 author appearances), followed by the USA (152) and Japan (131). With search terms excluded, keyword co-occurrence resolved into interpretable clusters: exercise/physical activity/aging; randomized controlled trials of muscle strength and physical function; falls, balance and rehabilitation; evidence synthesis (systematic review/meta-analysis); and cachexia/nutrition/skeletal-muscle inflammation. Burst detection showed early activity in falls, balance, elderly, and exercise (2011-2018) shifting toward network pharmacology, molecular docking, ninjin'yoeito, and nutrition (2020-2026). Co-citation analysis identified the seminal frailty-phenotype study as the foundational reference, with a strong tai-chi fall-prevention trial base and the EWGSOP/AWGS sarcopenia consensus definitions as intellectual pillars. TCM research on frailty and sarcopenia has grown substantially, particularly since 2019, with China as the primary driver and Japan and the USA as secondary contributors. Network pharmacology, nutrition-based intervention science, and oxidative-stress/inflammation mechanisms represent the most promising emerging frontiers. These findings provide a structured evidence map for prioritizing future research and translational efforts in TCM-based geriatric care.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/aging/articles/10.3389/fragi.2026.1854710/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42602223/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "design:randomized controlled",
+        "guideline and consensus",
+        "herbs phytochemicals supplements",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "傳統中醫介入衰弱與肌少症研究版圖的全文內容整理",
+      "content": "# 傳統中醫介入衰弱與肌少症研究版圖的全文內容整理\n\n> [!summary] 30 秒掌握\n> 這篇 bibliometric analysis 不是 TCM 治療效果試驗，而是用 2011–2026 年出版資料整理衰弱與肌少症研究地圖。405 篇出版品在 2019 年後快速增加，研究主題由跌倒、平衡與運動，逐步轉向網絡藥理學、氧化壓力、營養與肌肉機轉。\n> - 中國研究量最高，910 次作者出現，國際共同作者比例 17.78%。\n> - 關鍵字分析排除搜尋詞後，形成運動與老化、肌力與功能、跌倒與復健、證據綜合、cachexia／營養／肌肉發炎五個主要群組。\n> - 2023–2026 年的近期訊號包括 network pharmacology、molecular docking、oxidative stress、nutrition 和 ferroptosis。\n> - 研究版圖的增加只代表研究活動增加，無法替任何草藥、太極、針灸或八段錦的臨床效果背書。\n> **品質 → 見配對的品質評讀：GRADE Very low。**\n\n## 全文地圖\n\n**要點**：作者先交代衰弱和肌少症的臨床背景，再用資料庫搜尋、四階段篩選、書目分析、關鍵字分析、共被引分析和跨資料庫驗證畫出研究版圖。\n\n| 部分 | 讀到的重點 |\n|---|---|\n| 研究背景 | 衰弱、肌少症與跌倒、住院、失能和死亡相關，現有照護以阻力運動、蛋白質、維生素 D 和多組成介入為主。 |\n| TCM 範圍 | 草藥方、針灸、艾灸、太極、氣功／八段錦、推拿、穴位和飲食介入。 |\n| 資料與篩選 | WoS 初始 485 筆，文件類型後 468 筆，題名／摘要排除 63 筆，納入 405 篇。 |\n| 分析工具 | CiteSpace、VOSviewer、bibliometrix，處理國家、作者、期刊、引用、關鍵字和時間演化。 |\n| 核心結果 | 中國主導，研究量 2019 年後上升，近期向機轉、營養與計算研究移動。 |\n| 驗證與限制 | Scopus 和 WoS 的主要國家、期刊及主題大致一致，中文資料庫仍未納入。 |\n\n## 研究怎麼做\n\n**要點**：這是一個針對研究出版品的回溯性資料分析，結果描述的是「誰在研究什麼」，不是「哪種治療有效」。\n\n- 搜尋日：2026 年 3 月 14 日。\n- 資料庫：Web of Science Core Collection，並以 Scopus 做等效搜尋和合併比較。\n- 搜尋內容：TCM 介入詞、frailty 詞和 sarcopenia／肌肉流失詞。\n- 初始資料：485 筆。\n- 文件類型篩選：排除 11 篇會議摘要、3 篇社論材料、2 篇撤稿文章和 1 篇撤稿通知，留下 468 筆。\n- 題名／摘要篩選：兩位作者獨立篩選，排除 63 篇沒有實質肌肉、衰弱或功能關係的文章。\n- 最終資料：405 篇原始研究和綜述，跨 188 個期刊來源、2,301 位作者。\n- 關鍵字處理：把所有搜尋詞及拼寫變體移除後，再做共現、成長、爆發、主題地圖和主題演化，減少搜尋式污染。\n\n## 出版與合作版圖\n\n**要點**：研究量在 2019 年後明顯增加，但國際合作仍少，中國研究在資料集中占主導位置。\n\n- 2011–2016 年每年少於 15 篇，2017–2019 年逐步上升，2022 年 55 篇，2025 年 77 篇。\n- 2026 年篇數較低，主要因搜尋在 3 月就停止，當年度索引尚未完整。\n- 37 個國家／地區有貢獻，中國有 910 次作者出現，美國 152 次，日本 131 次。\n- 以通訊作者國家計算，中國 234 篇，日本 39 篇，美國 33 篇。\n- 國際共同作者比例 17.78%，表示跨國合作仍有限，研究結果能否外推到東亞以外族群需要更多資料。\n- 188 個期刊來源跨越老年醫學、藥理、營養、公衛與補充醫學，呈現跨領域特性。\n\n## 關鍵字主題\n\n**要點**：移除搜尋詞後，關鍵字仍可整理出五條研究路線，從功能照護延伸到營養與生物機轉。\n\n### 運動、身體活動與老化\n\nexercise、physical activity、aging、aged、sarcopenic obesity 和 ninjin’yoeito 形成一組，呈現運動、老化與部分 Kampo 方劑研究的交會。\n\n### 臨床試驗、肌力與功能\n\nolder adults、randomized controlled trial、physical performance、muscle strength、physical function、quality of life 和 resistance training 形成另一組。這是最接近臨床功能結果的研究群，但本篇沒有把這些試驗的效果重新計算。\n\n### 跌倒、平衡與復健\n\nfalls、balance、rehabilitation、osteoporosis 和 fall prevention 形成研究早期的重要群組。共被引分析也找到太極跌倒預防研究作為一條主要知識支柱。\n\n### 證據綜合\n\nsystematic review、meta-analysis 和 protocol 形成證據整理群。這代表研究量增加到足以產生更多綜合研究，但綜合研究的品質仍取決於原始試驗。\n\n### Cachexia、營養與骨骼肌發炎\n\ncachexia、nutrition、skeletal muscle 和 inflammation 形成較新的機轉與營養群組。它把癌症惡病質、營養和高齡肌肉流失連在一起，是營養師值得追蹤的閱讀入口。\n\n## 時間演化與新興前沿\n\n**要點**：研究從跌倒和功能表現，逐步移向計算藥理、氧化壓力、發炎、營養與多靶點機轉。\n\n- 2011–2018：falls、elderly、balance、exercise、rehabilitation 為早期重點。\n- 2019–2022：cancer cachexia、aging、systematic review、inflammation、ninjin’yoeito 和 network pharmacology 分化出來。\n- 2023–2026：meta-analysis、physical performance、skeletal muscle、inflammation、oxidative stress、nutrition、network pharmacology 和 ferroptosis 更常出現。\n- 最新爆發訊號包括 network pharmacology 和 molecular docking，時間約落在 2023–2024，nutrition 的爆發約落在 2025–2026。\n- 主題地圖把 falls／elderly／balance 放在高中心性、高密度的 Motor Theme，cachexia／nutrition 則位在 Emerging／Declining 區域，表示它仍年輕但正在形成。\n\n要留意，關鍵字爆發只能表示研究注意力增加。它無法告訴我們某個方劑的實際療效，也無法取代安全性監測。\n\n## 共被引與知識基礎\n\n**要點**：研究版圖的根基由衰弱表型、肌少症共識、太極跌倒預防和癌症惡病質研究共同組成。\n\n- Fried 等人的衰弱表型研究是最大共被引節點，70 次共被引，成為研究群的基礎。\n- Clegg 等人的衰弱綜述與 Hoogendijk 等人的工作，連接了衰弱定義與臨床後果。\n- EWGSOP、EWGSOP2 和 AWGS 2019 共識提供肌少症診斷架構，影響後續介入研究如何定義患者與結局。\n- Wolf 與 Li 等人的太極跌倒預防研究構成運動與功能研究支柱。\n- Fearon 與 Baracos 的癌症惡病質研究，把腫瘤肌肉流失和高齡肌少症研究接在一起。\n\n## Scopus 交叉驗證\n\n**要點**：兩個資料庫的主要研究版圖大致相近，卻仍無法消除中文資料漏收問題。\n\nScopus 等效搜尋找到 1,180 篇文章與綜述。WoS 文件類型後的 468 筆中，有 357 筆也在 Scopus 出現，交集為 76.3%。合併去重後有 1,291 筆資料。兩個資料庫的前十大國家相同，前五名排序也相同，中國仍居首，主要關鍵字主題也大致一致。\n\n這個驗證增加了主要版圖的可信度，卻不能代表資料完整。作者明確指出，CNKI、Wanfang 和 VIP 的中文期刊沒有被納入，TCM 研究的真正國內產出可能被低估。\n\n## 機轉白話講解\n\n**要點**：這篇把 TCM 研究的機轉方向畫出來，但機轉圖仍只是從分子到人體功能的中間假說。\n\n- **發炎與肌肉流失**：inflammaging 可能透過 NF-kB、ubiquitin–proteasome system 和 FoxO 相關萎縮路徑增加肌肉蛋白分解。\n- **氧化壓力**：粒線體功能失常和活性氧累積可能影響衛星細胞與肌肉再生，部分草藥皂苷和多酚被研究為粒線體保護方向。\n- **腸道–肌肉軸**：菌相失衡可能改變胺基酸代謝、全身發炎和營養吸收。TCM 方劑可能影響菌相，卻仍需要人體暴露和功能結局驗證。\n- **多靶點假說**：network pharmacology 和 molecular docking 可找出候選成分與訊號節點，但不能單憑預測結合或路徑富集證明臨床有效。\n- **癌症惡病質交會**：myostatin、autophagy 和衛星細胞耗竭等路徑可能同時出現在癌症惡病質與高齡肌肉流失，研究者因此把兩個領域連在一起。\n\n## 重要圖表重述\n\n**要點**：圖表主要是在展示研究版圖的形狀，讀者要把它和治療效果資料分開。\n\n- **圖 1**：485 筆找到、468 筆通過文件類型、405 篇納入的流程。\n- **圖 2**：2011–2026 年年度出版量，2025 年 77 篇，2026 年因搜尋時間較早而偏低。\n- **圖 3–6**：國家、跨國合作、三欄作者／關鍵字／期刊和期刊累積產出。\n- **圖 7–10**：移除搜尋詞後的關鍵字共現、成長、爆發和主題地圖。\n- **圖 11–12**：共被引網絡與 2011–2018、2019–2022、2023–2026 三階段的主題演化。\n- **圖 13**：WoS 和 Scopus 的資料交集與主要國家、期刊、主題一致性。\n\n## 與既有認知的對照\n\n本次 Worker 工作區沒有可供 vault_search 的既有個人筆記索引，因此先保留「無相關既有筆記可比對」。本篇新增的讀法是：把 TCM 高齡營養研究拆成三層，研究版圖層看誰在研究什麼，介入試驗層看特定療法是否有效，安全性層看高齡多重用藥下是否可接受。三層不能用同一個指標互相代替。\n\n## 概念與名詞整理\n\n| 名詞 | 本篇中的意思 |\n|---|---|\n| Bibliometric analysis | 用出版、作者、引用和關鍵字 metadata 描繪研究領域，不直接計算治療效果。 |\n| Co-citation | 兩篇文獻被同一批文章一起引用的關係，用來找知識基礎。 |\n| Keyword burst | 某個關鍵字在一段時間突然增加的訊號，代表研究注意力上升。 |\n| Motor Theme | 中心性和密度都高，代表成熟且能連接其他研究的主題。 |\n| Network pharmacology | 用系統與網絡方式推測多成分、多靶點和訊號路徑，屬於假說產生方法。 |\n| EWGSOP2／AWGS 2019 | 肌少症診斷和分級的共識框架，未來介入試驗需要一致使用。 |\n| Cachexia | 常見於癌症等慢性疾病的消耗性肌肉流失，和高齡肌少症有部分機轉交會。 |\n\n## 臨床意義與怎麼用\n\n**要點**：這篇適合用來選讀下一批單篇介入研究，不能用來直接選定草藥、太極或針灸治療方案。\n\n- 追蹤太極、八段錦、ninjin’yoeito、特定中藥方、針灸和營養整合介入的隨機試驗。\n- 讀單篇研究時，查 EWGSOP2 或 AWGS 2019 是否用來定義肌少症，並看肌力、步行、起立、身體功能、生活品質和跌倒是否為預先指定結局。\n- 草藥研究需讀清楚來源、批次、成分、劑量、療程、併用藥物、肝腎功能和不良事件。\n- 衰弱與肌少症營養照護要同時看蛋白質、能量、維生素 D、身體活動、吞嚥、食慾、多重用藥和功能，不能只用肌肉量做判斷。\n- 看到「network pharmacology」「molecular docking」「oxidative stress」時，先把它們標記為機轉假說，等待人體試驗的劑量和功能結局。\n- 看到統合分析時，要回到納入試驗，確認介入、族群、結局和追蹤時間是否足夠接近。\n\n## 自我測驗\n\n> [!question]- Q1：這篇文章主要分析的是治療效果，還是研究版圖？\n> 主要是研究版圖。它分析出版量、國家、作者、期刊、引用和關鍵字，沒有提供某個 TCM 介入對衰弱或肌少症的合併效果量。\n\n> [!question]- Q2：405 篇出版品可以直接代表 TCM 治療證據很強嗎？\n> 不可以。405 篇代表研究活動量和主題分布，文章類型、樣本數、盲法、結局和偏差風險仍需逐篇檢查。\n\n> [!question]- Q3：研究主題從跌倒與平衡移向 network pharmacology 和 nutrition，應該怎麼解讀？\n> 這表示研究注意力和方法正在改變，可能反映領域成熟或新工具加入。它不能直接證明草藥有效，也不能代替人體臨床結局。\n\n> [!question]- Q4：為什麼 Scopus 的 76.3% 交集有幫助，卻仍不夠？\n> 因為主要國家、期刊和主題在兩個資料庫相近，支持版圖不是單一資料庫偶然產物。可是中文期刊資料庫未納入，TCM 研究仍可能有語言與涵蓋偏差。\n\n> [!question]- Q5：營養師下一步應從這張研究地圖找什麼？\n> 找使用 EWGSOP2 或 AWGS 2019、樣本數足夠、多中心、追蹤時間合理，且同時報告肌力、身體功能、生活品質、營養攝取和安全性的介入試驗。\n\n## 來源與執行證據\n\n- 已依安裝的 paper-digest skill 實際執行全文內容整理，使用同一份通過身份核對的 Frontiers in Aging 開放 PDF。\n- PDF 13 頁，原生文字約 49,271 字元，13 頁均有資訊性文字，replacement character 為 false。\n- 來源 PDF SHA-256：550a360edf2637b41d9953090b9bb153caf6c5ea3d6e033545460ebb751a2d8e。\n- 本機全文文字 SHA-256：238b322eca5b042be061faf409abc601716ffa803bcdd61865454d2949846695。\n- DOI、題名、作者與正文身份核對通過，Methods、Results、Discussion、Conclusion 均可定位。\n\n## Reference\n\nHe X, Sun L, Chen H, Chen Q. Traditional Chinese medicine for frailty and sarcopenia in aging populations: a bibliometric and visualized analysis of research trajectories and emerging frontiers. Frontiers in Aging. 2026. DOI: 10.3389/fragi.2026.1854710.",
+      "cards": [
+        {
+          "title": "",
+          "question": "這篇文章主要分析的是治療效果，還是研究版圖？",
+          "answer": "主要是研究版圖。它分析出版量、國家、作者、期刊、引用和關鍵字，沒有提供某個 TCM 介入對衰弱或肌少症的合併效果量。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "405 篇出版品可以直接代表 TCM 治療證據很強嗎？",
+          "answer": "不可以。405 篇代表研究活動量和主題分布，文章類型、樣本數、盲法、結局和偏差風險仍需逐篇檢查。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "研究主題從跌倒與平衡移向 network pharmacology 和 nutrition，應該怎麼解讀？",
+          "answer": "這表示研究注意力和方法正在改變，可能反映領域成熟或新工具加入。它不能直接證明草藥有效，也不能代替人體臨床結局。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "為什麼 Scopus 的 76.3% 交集有幫助，卻仍不夠？",
+          "answer": "主要國家、期刊和主題在兩個資料庫相近，支持版圖不是單一資料庫偶然產物。但中文期刊資料庫未納入，TCM 研究仍可能有語言與涵蓋偏差。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "營養師下一步應從這張研究地圖找什麼？",
+          "answer": "找使用 EWGSOP2 或 AWGS 2019、樣本數足夠、多中心、追蹤時間合理，且同時報告肌力、身體功能、生活品質、營養攝取和安全性的介入試驗。",
+          "tags": []
+        }
+      ],
+      "completedAt": "2026-08-19T10:34:44.818Z"
+    },
+    {
+      "id": "doi:10.3389/fragi.2026.1854710:review",
+      "paperId": "doi:10.3389/fragi.2026.1854710",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Traditional Chinese medicine for frailty and sarcopenia in aging populations: a bibliometric and visualized analysis of research trajectories and emerging frontiers.",
+      "authors": "He X, Sun L, Chen H, Chen Q",
+      "journal": "Nutrition guidelines and consensus (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fragi.2026.1854710",
+      "abstract": "By 2050, the proportion of people aged 65 and older is projected to reach 16% globally, up from roughly 10% in 2022. Frailty and sarcopenia are among the most clinically consequential age-related conditions, independently associated with falls, hospitalization, and death. Traditional Chinese medicine (TCM)-encompassing herbal formulas, acupuncture, tai chi, and qigong-has shown therapeutic potential for both conditions, yet no systematic bibliometric overview of this research area exists. Publications on TCM interventions for frailty and sarcopenia were retrieved from the Web of Science Core Collection on 14 March 2026. After a four-phase screening (identification, document-type screening, title/abstract relevance screening, and inclusion), 405 publications were retained. Bibliometric and visualization analyses were performed using CiteSpace (6.2.R6), VOSviewer (1.6.20), and the R package bibliometrix (4.3.0). To avoid tautological bias, all Boolean search terms were removed from the keyword field before every keyword-based analysis (co-occurrence, growth, burst detection, thematic mapping, and thematic evolution). A total of 405 publications from 2011 to 2026 were included. Annual output grew sharply after 2019 and peaked at 77 publications in 2025. China was the overwhelmingly dominant contributor (910 author appearances), followed by the USA (152) and Japan (131). With search terms excluded, keyword co-occurrence resolved into interpretable clusters: exercise/physical activity/aging; randomized controlled trials of muscle strength and physical function; falls, balance and rehabilitation; evidence synthesis (systematic review/meta-analysis); and cachexia/nutrition/skeletal-muscle inflammation. Burst detection showed early activity in falls, balance, elderly, and exercise (2011-2018) shifting toward network pharmacology, molecular docking, ninjin'yoeito, and nutrition (2020-2026). Co-citation analysis identified the seminal frailty-phenotype study as the foundational reference, with a strong tai-chi fall-prevention trial base and the EWGSOP/AWGS sarcopenia consensus definitions as intellectual pillars. TCM research on frailty and sarcopenia has grown substantially, particularly since 2019, with China as the primary driver and Japan and the USA as secondary contributors. Network pharmacology, nutrition-based intervention science, and oxidative-stress/inflammation mechanisms represent the most promising emerging frontiers. These findings provide a structured evidence map for prioritizing future research and translational efforts in TCM-based geriatric care.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/aging/articles/10.3389/fragi.2026.1854710/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42602223/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "design:randomized controlled",
+        "guideline and consensus",
+        "herbs phytochemicals supplements",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "傳統中醫介入衰弱與肌少症研究版圖的品質評讀",
+      "content": "# 傳統中醫介入衰弱與肌少症研究版圖的品質評讀\n\n> [!info] 品質快照\n> **文章類型**：書目計量與研究版圖分析｜**期刊**：Frontiers in Aging，2026｜**DOI**：10.3389/fragi.2026.1854710\n> **研究問題**：2011–2026 年間，傳統中醫相關介入在衰弱與肌少症研究中有哪些出版趨勢、國家、主題與新興方向？\n> **資料**：Web of Science Core Collection 初始 485 筆，經文件類型和題名／摘要篩選後納入 405 篇，另以 Scopus 做跨資料庫驗證。\n> **本篇能回答的問題**：研究領域往哪裡集中、哪些主題正在增加、現有證據地圖有哪些缺口。\n> **本篇不能回答的問題**：太極、草藥、針灸、八段錦或營養介入各自是否有效、安全、最佳劑量或適合哪類患者。\n> **GRADE**：Very low ⊕◯◯◯。這是針對本篇欲支持的直接臨床療效問題所做的保守判定，因為本研究沒有治療效果量。\n> **一句話判斷**：這篇文章把 TCM、衰弱、肌少症和營養研究的版圖整理得很有方向感，也有跨 Scopus 的驗證，但研究量增加與主題變熱，不能當成治療已證實有效。\n\n## 白話導讀\n\n這篇文章像一張研究地圖，不是治療效果的比較試驗。作者從 2011 到 2026 年的文獻中，找出哪些國家、作者、期刊、關鍵字和引用文獻最常出現，再觀察研究興趣如何從跌倒與平衡，逐步移向網絡藥理學、氧化壓力、營養和肌肉機轉。\n\n- 納入 405 篇出版品，涵蓋 188 個期刊來源、2,301 位作者。\n- 中國研究量最高，910 次作者出現，對應作者國家為 234 篇，國際共同作者比例 17.78%。\n- 研究主題分成運動與老化、肌力與功能、跌倒與復健、系統性回顧與統合分析、cachexia／營養／骨骼肌發炎等群組。\n- 早期主題集中在跌倒、平衡、老人和運動。2023–2026 年的新興訊號轉向 network pharmacology、molecular docking、oxidative stress、inflammation、ferroptosis 和 nutrition。\n- 文章指出未來仍需要使用 EWGSOP2 或 AWGS 2019 定義的多中心隨機試驗，才能判斷各種 TCM 介入的真實效果。\n\n## 研究問題與方法\n\n文章使用 Web of Science Core Collection 的 Topic 欄位，將 TCM 介入、衰弱和肌少症分成三個搜尋區塊，以 Block 1 AND (Block 2 OR Block 3) 組合。搜尋日為 2026 年 3 月 14 日，沒有語言和年份限制。\n\n搜尋找到 485 筆資料。文件類型篩選排除會議摘要、社論、撤稿文章和撤稿通知後剩 468 筆。兩位作者獨立進行題名／摘要篩選，排除 63 筆沒有真正肌肉、衰弱或功能結果的資料，最後納入 405 篇。\n\n作者使用 CiteSpace、VOSviewer 與 bibliometrix，分析國家、作者、期刊、共同作者、共同被引、關鍵字共現、關鍵字爆發、主題地圖和主題演化。為了避免搜尋詞自己製造聚集結果，作者在關鍵字分析前移除所有搜尋詞及其拼寫變體。另以 Scopus 執行等效搜尋，做跨資料庫合併與比較。\n\n## 研究版圖的主要結果\n\n| 面向 | 文章結果 | 讀法 |\n|---|---:|---|\n| 納入出版品 | 405 篇 | 反映研究活動量，不等於 405 個高品質臨床試驗。 |\n| 年份範圍 | 2011–2026 | 2026 年資料因 3 月就停止搜尋，篇數尚未完整。 |\n| 期刊來源 | 188 個 | 涵蓋老年醫學、藥理、營養、公衛與補充醫學。 |\n| 作者人數 | 2,301 位 | 平均每篇 6.98 位共同作者。 |\n| 文獻平均引用 | 每篇 23.39 次 | 會受發表年份、期刊與自我引用影響，不能單獨代表品質。 |\n| 2025 年產出 | 77 篇 | 研究量在 2019 年後明顯增加，2025 年達高點。 |\n| 國際共同作者 | 17.78% | 跨國合作仍少，外部適用性需要更多不同地區研究。 |\n| Scopus 交集 | 357／468，76.3% | 主要國家、期刊與主題排序在兩個資料庫大致一致。 |\n\n## 研究主題怎麼變化\n\n### 早期：跌倒、平衡與運動\n\n研究初期的高頻和爆發關鍵字集中在 falls、elderly、balance、exercise 和 rehabilitation。共被引網絡也找到太極跌倒預防試驗作為臨床運動研究的一條重要支柱。這代表早期研究較常以功能表現、平衡和跌倒預防作為可量測的高齡照護結果。\n\n### 中期：癌症惡病質、系統性回顧與中藥方\n\n2019–2022 年間，cancer cachexia、aging、systematic review、inflammation、ninjin’yoeito 和 network pharmacology 變成分開的研究主題。研究開始從單一功能訓練，轉向疾病相關肌肉流失、證據整理與中藥方的可能作用途徑。\n\n### 近期：機轉、營養與計算方法\n\n2023–2026 年間，meta-analysis、physical performance、skeletal muscle、inflammation、oxidative stress、nutrition、network pharmacology 和 ferroptosis 的訊號增加。作者把這個變化解讀為研究逐步靠近機轉、營養和多靶點藥理。\n\n這項趨勢適合拿來安排讀書順序，卻不能直接推導任何草藥或複方的療效。network pharmacology 和 molecular docking 是假說產生工具，還需要人體試驗驗證暴露、劑量、臨床結局與安全性。\n\n## 內在效度評估\n\n| 面向 | 判定 | 理由 |\n|---|---|---|\n| 搜尋與篩選透明度 | 中高 | 搜尋區塊、日期、四階段篩選、排除數量與跨資料庫驗證都有交代。 |\n| 資料庫代表性 | 中 | WoS 與 Scopus 結果相近，但中文期刊資料庫 CNKI、Wanfang、VIP 沒有納入。 |\n| 關鍵字分析 | 中高 | 研究者移除搜尋詞，降低以搜尋邏輯製造主題聚集的風險。 |\n| 指標的臨床意義 | 低 | 出版量、引用量、爆發關鍵字不能直接代表療效或研究品質。 |\n| 介入效果判斷 | 不適用 | 本篇沒有治療效果量、對照組、信賴區間或安全事件比較。 |\n| 外部適用性 | 中低 | 中國研究占很大比例，國際共同作者比例 17.78%，跨文化和跨醫療系統資料仍少。 |\n\n## GRADE 判定\n\n本次依 paper-review skill 的 grade_judge.py 實際計算，起始層級採 Low。研究設計對「TCM 研究版圖」的描述有價值，但若問題改成「TCM 已有效且安全改善衰弱與肌少症」，就會遇到研究設計偏差、介入和結局異質、直接性很低、不精確，以及資料庫涵蓋偏差。五個面向合計 downgrade sum 為 -7，結果為 **Very low ⊕◯◯◯**。\n\n這個分數不等於文章的書目計量方法沒有用，意思是它不能替直接療效證據背書。讀者應把「研究熱點」和「治療效果」放在兩張不同的表裡。\n\n## 推論漏洞檢查\n\n本次以 paper-review skill 的 argdown_lint.py 檢查「傳統中醫介入已能有效且安全改善高齡者衰弱與肌少症」這個硬結局主張，工具回報 clean，4 個前提均有標記。這表示前提類型沒有觸發規則型跳躍，不表示本篇已證實效果。文章本身也指出，未來需要更大規模、多中心、依 EWGSOP2 或 AWGS 2019 定義的隨機試驗。\n\n## 臨床與營養工作的使用方式\n\n- 用這篇文章找後續閱讀入口：優先追太極／八段錦、肌力和功能、跌倒、營養、cachexia、ninjin’yoeito 及安全性研究。\n- 找到單篇介入試驗後，另行檢查隨機化、盲法、樣本數、EWGSOP2／AWGS 2019 定義、肌力、身體功能、生活品質、營養攝取和失訪。\n- 草藥或複方研究要追來源、批次、化學指紋、劑量、療程、併用藥物和肝腎不良事件，不能只引用機轉網絡圖。\n- 高齡衰弱個案若同時有多重用藥，草藥與處方藥交互作用、食慾、蛋白質和能量攝取、吞嚥及身體功能要一起評估。\n- 營養趨勢是近期新興方向，後續要確認它是單獨營養介入、和 TCM 複方併用，或只是關鍵字層級的研究題目。\n- 閱讀統合分析時，先確認納入的介入、族群和結局是否足夠相近，再看效果量和信賴區間，不能因為文章數量增加就提高信心。\n\n## 主要限制\n\n- 主要資料來自單一英文資料庫，雖以 Scopus 驗證，中文期刊資料仍可能漏掉，對 TCM 研究尤其重要。\n- 搜尋是自由文字策略，雖有題名／摘要篩選，仍可能有語意不一致或漏收。\n- 引用量受發表年代、期刊影響因子與自我引用影響，不能視為研究品質。\n- 關鍵字由作者提供，清理後仍可能有同義詞、拼寫和語意差異。\n- 搜尋截止 2026 年 3 月 14 日，後續索引文章未納入。\n- Bibliometric analysis 無法取代系統性回顧或介入試驗，無法回答特定療法的效果。\n\n## 未來研究方向\n\n作者建議建立多中心隨機試驗，使用 EWGSOP2 或 AWGS 2019 診斷標準，追蹤夠長時間以捕捉肌力、身體功能和生活品質的臨床改變。適合追蹤的介入包括太極、八段錦、ninjin’yoeito 和部分安全性資料較多的中藥方。機轉研究可聚焦腸道–肌肉軸、inflammaging、氧化壓力、ferroptosis 和多體學。營養與復健也可整合進出院前後的照護流程。\n\n## 來源與執行證據\n\n- 已依安裝的 paper-review skill 實際執行本篇全文品質評讀，未以摘要或 metadata 代替。\n- 合法來源：Frontiers in Aging 開放 PDF，13 頁，原生文字可讀，DOI、題名、作者與正文身份核對通過。\n- 來源 PDF SHA-256：550a360edf2637b41d9953090b9bb153caf6c5ea3d6e033545460ebb751a2d8e。\n- 本機全文文字 SHA-256：238b322eca5b042be061faf409abc601716ffa803bcdd61865454d2949846695。\n- Methods、Results、Discussion、Conclusion 均可定位，全文約 49,271 字元，沒有 replacement character。\n- grade_judge.py 實際輸出：Very low ⊕◯◯◯，downgrade_sum -7。\n- argdown_lint.py 實際輸出：clean，4 個前提。\n\n## 參考文獻\n\nHe X, Sun L, Chen H, Chen Q. Traditional Chinese medicine for frailty and sarcopenia in aging populations: a bibliometric and visualized analysis of research trajectories and emerging frontiers. Frontiers in Aging. 2026. DOI: 10.3389/fragi.2026.1854710.",
+      "cards": [],
+      "completedAt": "2026-08-19T10:34:11.957Z"
+    },
+    {
+      "id": "doi:10.1038/s41390-026-05370-0:digest",
+      "paperId": "doi:10.1038/s41390-026-05370-0",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Nutritional management at 22-23 weeks gestational age: evidence and knowledge gaps.",
+      "authors": "Romero-Lopez M, Naik M, Thoene M, Anderson-Berry A",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.1038/s41390-026-05370-0",
+      "abstract": "With advancing medical capabilities, survival of infants born at 22-23 weeks' gestation is increasing. However, specific recommendations for nutrition support for these infants are lacking. This review examines the unique characteristics of infants born at 22-23 weeks' gestation that impact parenteral and enteral nutrition support, highlighting the lack of evidence and knowledge gaps for optimal practices. Current recommendations developed for extremely or very low birth weight infants may be unsuitable for infants born at 22-23 weeks' gestation due to important differences in anatomy, physiology, body composition, and metabolic capabilities. Key challenges include severely limited intraluminal digestion, profound immune and microbiome immaturity, and reduced metabolic tolerance to parenteral nutrition provision based on current recommendations, none of which are addressed by recommendations developed for larger, more mature preterm populations. Until more specific studies for infants 22-23 weeks gestation are conducted, clinicians must carefully tailor nutritional support for this vulnerable population given their functional and maturational limitations. IMPACT: Survival of infants born at 22-23 weeks gestation is increasing, but currently available nutrition support recommendations may be inadequate due to the unique physiological, metabolic, and gastrointestinal characteristics that are not accounted for in current parenteral and enteral nutrition support recommendations. This review synthesizes available evidence and identifies critical knowledge gaps in nutrition support management specific to infants born at 22-23 weeks' gestation. We provide a framework to guide individualized clinical decision-making and establish research priorities and collaborative efforts in infants born at 22-23 weeks' gestation.",
+      "legalFullTextUrl": "https://doi.org/10.1038/s41390-026-05370-0",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42608540/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "dietitian clinical nutrition",
+        "guideline and consensus",
+        "nutrition and dietary pattern",
+        "precision nutrition"
+      ],
+      "noteTitle": "22–23 週胎齡極早產兒營養支持與研究缺口的全文內容整理",
+      "content": "# 22–23 週胎齡極早產兒營養支持與研究缺口的全文內容整理\n\n> [!summary] 30 秒掌握\n> 這篇 narrative review 說明，22–23 週胎齡嬰兒的腸道、免疫、菌相與代謝成熟度，和較成熟早產兒有明顯差異，因此葡萄糖、胺基酸、脂肪、礦物質與餵食建議需要依個體反應調整。\n> - 這群嬰兒體水分約占體重 90%，脂肪可能低於 2%，肌肉約占 5%，可儲存的能量與礦物質有限。\n> - 腸道蠕動、消化酵素、黏膜屏障、免疫與菌相尚未成熟，NEC、敗血症與餵食不耐受風險彼此牽動。\n> - 母親自己的母乳可同時提供營養、免疫、消化酵素與菌相支持，但捐贈母乳和母乳強化策略仍有研究缺口。\n> - 文章提出葡萄糖、胺基酸、脂肪與餵食的個別化方向，這些數值多由較成熟早產兒資料外推，不能當成 22–23 週族群已驗證的固定方案。\n> **品質 → 見配對的品質評讀：GRADE Very low。**\n\n## 全文地圖\n\n**要點**：文章先建立這群嬰兒的生理地圖，再依序說明靜脈營養、腸道營養、母乳、特殊情境與研究優先順序。\n\n| 文章區塊 | 內容主軸 |\n|---|---|\n| 胎盤支持與胎兒生理 | 葡萄糖、胺基酸、脂肪、體水分、脂肪與肌肉儲備。 |\n| 胃腸道發育 | 腸道長度、絨毛、蠕動、消化酵素、屏障與免疫成熟。 |\n| 微生物相 | 低多樣性、Proteobacteria 優勢、Bifidobacterium 缺少與 NICU 暴露。 |\n| 出生後代謝轉換 | 低血糖、高血糖、胰島素反應與葡萄糖輸注。 |\n| 靜脈營養 | 葡萄糖、胺基酸、脂肪、能量、維生素、鈣磷鎂。 |\n| 腸道營養 | 母乳、捐贈母乳、開始時機、推進速度、益生菌與母乳強化。 |\n| 整合與特殊情境 | 靜脈到腸道的過渡、資源有限環境與袋鼠式照護。 |\n| 研究優先順序 | 直接研究、跨中心資料、營養暴露標準化與長期神經發展。 |\n\n## 胎兒身體組成與胃腸道成熟\n\n**要點**：出生時的身體儲備很少，腸道的結構、蠕動和消化能力也還沒準備好承受較成熟早產兒的營養負荷。\n\n- 22–23 週胎齡時，身體水分約占體重 90%，脂肪比例可能低於 2%，肌肉約占體重 5%。肝醣、脂肪、蛋白質與礦物質儲備都有限。\n- 腸道總長度約 100–130 cm，和足月約 250–300 cm 有差距。絨毛較短、微絨毛較少，Paneth cells 密度低，黏膜屏障較脆弱。\n- 組織結構可能已存在，功能成熟仍不足。22–23 週時，腸道有組織化蠕動前，胃排空與腸道通過時間也較慢。\n- 蛋白質消化受到胃蛋白酶、enterokinase、trypsin 與 chymotrypsin 發育不足影響。脂肪消化受到胰脂肪酶與膽酸生成不足影響。\n- 文章指出，這會讓部分營養素以未完整水解的形式進入腸道，吸收效率可能不如較成熟早產兒。\n\n## 免疫、菌相與母乳的連結\n\n**要點**：腸道屏障、免疫調節與菌相失衡會一起增加 NEC 和晚發型敗血症風險，母親自己的母乳被作者視為同時作用於多個環節的營養來源。\n\n- 22–23 週時，胎盤 IgG 轉移量仍很少，腸道自行產生的 secretory IgA 也不足。TLR4 與 TLR2 訊號失衡，可能使未成熟腸道對細菌刺激產生過強發炎反應。\n- 菌相多樣性很低，Proteobacteria，尤其 Enterobacteriaceae，可能占優勢。Bifidobacterium 在出生後仍很少，抗生素、延後餵食、剖腹產和 NICU 環境會加強這個不穩定狀態。\n- 作者整理的保護機制包括：母乳寡糖促進有益菌、sIgA 和乳鐵蛋白提供免疫支持、活菌幫助菌相建立，表皮生長因子和 TGF-beta 支援屏障修復，乳脂肪酶與其他酵素補足消化不足。\n- 新鮮母親自己的母乳和巴氏消毒捐贈母乳不應被當作完全相同的介入。捐贈母乳仍有營養、寡糖和部分免疫成分，但活菌、細胞與部分酵素會因處理而減少。\n- 作者引用多國網絡資料指出，22–23 週族群的 NEC 發生率約 6%–27%。這是外部資料的範圍，不是本篇新試驗結果。\n\n## 出生後代謝轉換\n\n**要點**：這群嬰兒可能在低血糖與高血糖之間擺動，葡萄糖給予需要依血糖、疾病階段與代謝反應調整。\n\n- 肝醣儲備少、糖質新生路徑尚未成熟，出生後很快需要外源葡萄糖。\n- 胰島素不足、胰島素阻抗、腎上腺成熟不足和脂解能力低，可能讓低血糖和高血糖都出現。\n- 作者提出，若嬰兒沒有低血糖，初始葡萄糖輸注速度可考慮約 3–4 mg/kg/min，再依血糖反應逐步調整。這是依生理差異提出的方向，尚缺少 22–23 週直接試驗。\n- 持續高血糖可能影響胺基酸利用和生長，因此營養支持不能只看單一血糖數字，也要配合蛋白質、能量和臨床病程。\n\n## 靜脈營養的三個核心\n\n**要點**：靜脈營養的關鍵不是把數字推到越高越好，而是同步看能量配比、代謝耐受和礦物質風險。\n\n### 葡萄糖與能量\n\nESPGHAN 對較廣泛早產兒的葡萄糖建議，出生第一天約 4–8 mg/kg/min，再依血糖和病程調整。作者認為 22–23 週嬰兒可能需要較低起始量，並密切監測。能量部分則要配合急性病期、恢復期、體重成長和代謝耐受，不能把較成熟早產兒的目標直接照搬。\n\n### 胺基酸與非蛋白質能量\n\n文章提出出生後可及早給予約 2–2.5 g/kg/day 胺基酸，臨床穩定後再向 3–3.5 g/kg/day 調整，同時維持每克蛋白質有足夠的非蛋白質能量。作者引用的 ProVIDE 試驗顯示，在更廣泛的極低出生體重兒中，額外增加早期胺基酸未帶來預期好處，甚至和兩歲神經發展不良增加有關。文章提醒，胺基酸增加卻沒有同步補足非蛋白質能量，可能讓蛋白質被氧化供能。\n\n### 脂肪與礦物質\n\n- 脂肪是腦部、視網膜、細胞膜和荷爾蒙合成的原料，卻也可能因代謝不成熟造成高三酸甘油脂。\n- 作者提出脂肪乳劑可從約 0.5–1 g/kg/day 起始，再依三酸甘油脂和臨床耐受向上調整。這仍需直接研究確認。\n- 蛋白質增加時，磷不足可能造成早期低磷和類似再餵食症候群的風險。鈣、磷、鎂、鹼性磷酸酶與骨礦化應一起追蹤。\n- 脂溶性維生素與抗氧化營養素的目標量，尚未在 22–23 週族群中充分驗證。\n\n## 腸道營養與餵食推進\n\n**要點**：母親自己的母乳是文章最明確支持的腸道營養方向，餵食開始時間、增加速度、益生菌和強化方式則需要個別化與更多直接資料。\n\n- 母親自己的母乳含有免疫成分、寡糖、活菌與部分消化酵素，能同時支援營養、腸道屏障、免疫和菌相。\n- 捐贈母乳通常是母乳不足時的替代選項。作者整理 AAP 與 ESPGHAN 建議，較小或較早產的嬰兒在母乳不足時可優先考慮捐贈母乳，但長期成長和神經發展比較結果仍有不一致。\n- 延後腸道餵食超過 3–4 天，未穩定降低 NEC 或死亡。對 22–23 週嬰兒，文章提出約 10 mL/kg/day 作為可參考的起始量，並依臨床狀況推進，這不是固定標準。\n- 穩定的極早產兒可參考 18–30 mL/kg/day 的增加範圍，但原始研究很少納入 22–23 週或出生體重低於 500 g 的嬰兒，外推要保守。\n- 益生菌在較廣泛早產兒資料中可能降低 NEC 或敗血症，但 22–23 週族群的感染安全性與效果還沒有足夠答案。作者特別提到，這群嬰兒的免疫不成熟可能放大菌血症或黴菌血症風險。\n- 母乳強化需要同時看蛋白質、能量、鈣、磷、鈉、維生素、腸胃耐受和生長。作者指出，何時開始強化、使用哪一種強化劑，以及人乳來源強化劑是否有額外好處，都需要更好的研究。\n\n## 靜脈到腸道的過渡\n\n**要點**：從靜脈營養轉到全腸道營養常是一段很長的過程，兩者合計的蛋白質、能量和微量營養素需要每天重算。\n\n文章把過渡分為三個階段：少量腸道營養期、腸道餵食增加並逐步減少靜脈營養期，以及全腸道營養期。每個階段都有不同的缺口風險。靜脈營養拖得久，可能增加膽汁鬱積和導管感染，餵食不耐受又可能讓生長速度不足。對營養團隊來說，不能只看腸道餵食量，要把靜脈與腸道合計後的蛋白質、能量、液體和礦物質一起看。\n\n## 重要圖表重述\n\n**要點**：兩張圖把複雜生理差異轉成可用的臨床框架，表格則把研究缺口拆成可執行的研究題目。\n\n- **圖 1**：依胎齡呈現腸道結構、免疫成熟、菌相建立和消化酵素的變化。22–23 週端點的特徵是低肌肉、低脂肪、低消化能力、低免疫保護和高腸道脆弱性。\n- **圖 2**：把腸道不成熟、免疫不足與菌相失衡畫成風險組合，再對照母親自己的母乳提供的屏障、消化、免疫和菌相支持。\n- **表 1**：研究優先順序涵蓋胃腸蠕動、巨量營養素吸收、葡萄糖輸注、脂肪耐受、低磷、微量營養素、母乳、跨中心資料、營養暴露定義與長期神經發展。\n\n## 機轉白話講解\n\n**要點**：可以把 22–23 週嬰兒想成「入口、加工廠與防護網都還在施工」的系統，餵食輸入量需要配合消化、吸收和防禦能力。\n\n- **入口**：腸道絨毛短、屏障薄、蠕動尚未組織化，食物和細菌比較容易在腸道停留或穿過屏障。\n- **加工廠**：胃蛋白酶、腸激酶、胰蛋白酶、胰脂肪酶與膽酸能力尚未成熟，進入腸道的蛋白質和脂肪不一定能被完整拆開。\n- **防護網**：sIgA、Paneth cells、母體 IgG 和菌相保護仍不足，TLR4 等發炎訊號又可能反應過強。\n- **母乳的多重角色**：母親自己的母乳提供營養，也可能提供消化酵素、免疫成分、寡糖與活菌，因此作者把它放在消化、免疫、屏障和菌相的交會處。\n- **臨床轉譯**：這個模型可以幫助團隊理解，餵食量增加、蛋白質提高或強化母乳時，要同時檢查血糖、磷、三酸甘油脂、腹部表現、排便、感染與成長，避免只追求單一目標。\n\n## 與既有認知的對照\n\n本次 Worker 工作區沒有可供 vault_search 的既有個人筆記索引，因此先保留「無相關既有筆記可比對」。本篇帶來的知識增量是：較成熟早產兒指南的數值，即使出自正式學會，也未必能直接套用到 22–23 週胎齡嬰兒，必須把胎齡、身體組成、腸道成熟和代謝反應放入同一個判讀框架。\n\n## 概念與名詞整理\n\n| 名詞 | 本篇中的意思 |\n|---|---|\n| 22–23 週胎齡嬰兒 | 出生時處於極早期生理成熟階段，不能只用出生體重代表其營養需求。 |\n| NEC | 壞死性腸炎，和腸道屏障、免疫反應、菌相與餵食耐受有關的嚴重併發症。 |\n| TLR4 | 腸道先天免疫訊號受體，未成熟腸道的過度表現可能加重發炎與 NEC 易感性。 |\n| BSSL | 母乳中的膽鹽刺激脂肪酶，可幫助脂肪消化，巴氏消毒後的捐贈母乳可能缺少這項活性。 |\n| GIR | 葡萄糖輸注速度，需和血糖反應、胰島素敏感性、疾病階段與能量利用一起判斷。 |\n| 非蛋白質能量／蛋白質比 | 用來判斷胺基酸是否有足夠能量進行合成，避免增加蛋白質後主要被氧化。 |\n| 個別化強化 | 依母乳成分、餵食量、成長、血液檢查與耐受度調整營養，不把單一標準值套用到每個嬰兒。 |\n\n## 臨床意義與怎麼用\n\n**要點**：本篇最適合作為 NICU 營養查房與研究閱讀的框架，臨床給予仍要服從醫療團隊的即時監測與院內指引。\n\n- 讀個案時，把胎齡、出生體重、疾病階段、呼吸支持、血糖、三酸甘油脂、磷、鈣、鎂、膽汁鬱積、餵食量和糞便表現放在同一張追蹤表。\n- 胺基酸增加時，查非蛋白質能量與磷是否同步，避免只看 g/kg/day。\n- 讀母乳資料時，清楚區分母親自己的母乳、捐贈母乳、配方奶、冷藏或冷凍、巴氏消毒與強化方式。\n- 讀餵食研究時，先看研究納入的胎齡和出生體重，再判斷能否外推到 22–23 週。\n- 益生菌要一起看菌株、產品品質、感染控制、直接納入的胎齡和不良事件，不能只引用較成熟早產兒的平均效果。\n- 後續研究優先找 22–23 週預先分層的多中心研究、個別病人資料統合、營養暴露標準化及長期神經發展結果。\n\n## 自我測驗\n\n> [!question]- Q1：為什麼較成熟早產兒的營養指南不能直接套用到 22–23 週胎齡嬰兒？\n> 因為這群嬰兒的體水分、脂肪、肌肉、肝醣與礦物質儲備不同，腸道蠕動、消化酵素、屏障、免疫和葡萄糖代謝也還未成熟。相同劑量可能造成代謝不耐受，也可能無法補足實際吸收與成長需求。\n\n> [!question]- Q2：母親自己的母乳在本文中扮演哪些角色？\n> 它同時提供營養、免疫球蛋白、乳鐵蛋白、溶菌酶、寡糖、活菌和部分消化酵素，可能支援腸道屏障、消化、免疫和菌相建立。捐贈母乳仍有價值，但處理後不會保留所有活性成分。\n\n> [!question]- Q3：胺基酸給得越多，為什麼未必越好？\n> 若非蛋白質能量不足，增加的胺基酸可能被氧化供能，無法充分用於蛋白質合成。文章也引用較廣泛極低出生體重兒試驗，提醒高早期胺基酸量可能伴隨神經發展風險，因此要看能量配比與直接族群證據。\n\n> [!question]- Q4：讀這篇文章時，哪些數值應被視為方向而非固定處方？\n> 例如葡萄糖約 3–4 mg/kg/min 的起始方向、胺基酸約 2–2.5 g/kg/day 再上調、脂肪約 0.5–1 g/kg/day 起步，以及約 10 mL/kg/day 的腸道餵食起始量。這些內容主要是外推與生理推論，必須依血糖、三酸甘油脂、磷、腹部表現、感染與成長反應調整。\n\n> [!question]- Q5：這篇文章真正希望後續研究回答什麼？\n> 研究需要直接測量 22–23 週嬰兒的營養吸收、葡萄糖與脂肪耐受、蛋白質與磷的配比、鈣磷鎂與脂溶性維生素需求、母乳和菌相的關係，並以跨中心標準化資料追蹤到學齡前神經發展，而非持續只從較成熟早產兒外推。\n\n## 來源與執行證據\n\n- 已依安裝的 paper-digest skill 實際執行全文內容整理，使用同一份已通過身份核對的合法開放 PDF。\n- PDF 11 頁，原生文字約 82,308 字元，11 頁均有資訊性文字，replacement character 為 false。\n- 來源 PDF SHA-256：bc12bac0117edae449c651f3531cddf0a52759fd4ee544413be500cd7faaf1fd。\n- 本機全文文字 SHA-256：1edc450a636bae27422aabbbe918d15b2a8a593faff9aa13fae7dac3e103c178。\n- DOI、題名、作者與正文身份核對通過。文章通過 narrative review 全文閘門，含 Introduction、Conclusion 和 20 個主題段落標題。\n\n## Reference\n\nRomero-Lopez M, Naik M, Thoene M, Anderson-Berry A. Nutritional management at 22–23 weeks gestational age: evidence and knowledge gaps. Pediatric Research. 2026. DOI: 10.1038/s41390-026-05370-0.",
+      "cards": [
+        {
+          "title": "",
+          "question": "為什麼較成熟早產兒的營養指南不能直接套用到 22–23 週胎齡嬰兒？",
+          "answer": "因為這群嬰兒的體水分、脂肪、肌肉、肝醣與礦物質儲備不同，腸道蠕動、消化酵素、屏障、免疫和葡萄糖代謝也還未成熟。相同劑量可能造成代謝不耐受，也可能無法補足實際吸收與成長需求。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "母親自己的母乳在本文中扮演哪些角色？",
+          "answer": "它同時提供營養、免疫球蛋白、乳鐵蛋白、溶菌酶、寡糖、活菌和部分消化酵素，可能支援腸道屏障、消化、免疫和菌相建立。捐贈母乳仍有價值，但處理後不會保留所有活性成分。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "胺基酸給得越多，為什麼未必越好？",
+          "answer": "若非蛋白質能量不足，增加的胺基酸可能被氧化供能，無法充分用於蛋白質合成。文章也引用較廣泛極低出生體重兒試驗，提醒高早期胺基酸量可能伴隨神經發展風險，因此要看能量配比與直接族群證據。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "讀這篇文章時，哪些數值應被視為方向而非固定處方？",
+          "answer": "例如葡萄糖約 3–4 mg/kg/min 的起始方向、胺基酸約 2–2.5 g/kg/day 再上調、脂肪約 0.5–1 g/kg/day 起步，以及約 10 mL/kg/day 的腸道餵食起始量。這些內容主要是外推與生理推論，必須依個別反應調整。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "這篇文章真正希望後續研究回答什麼？",
+          "answer": "研究需要直接測量 22–23 週嬰兒的營養吸收、葡萄糖與脂肪耐受、蛋白質與磷的配比、鈣磷鎂與脂溶性維生素需求、母乳和菌相的關係，並以跨中心標準化資料追蹤到學齡前神經發展。",
+          "tags": []
+        }
+      ],
+      "completedAt": "2026-08-19T10:29:09.626Z"
+    },
+    {
+      "id": "doi:10.1038/s41390-026-05370-0:review",
+      "paperId": "doi:10.1038/s41390-026-05370-0",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Nutritional management at 22-23 weeks gestational age: evidence and knowledge gaps.",
+      "authors": "Romero-Lopez M, Naik M, Thoene M, Anderson-Berry A",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.1038/s41390-026-05370-0",
+      "abstract": "With advancing medical capabilities, survival of infants born at 22-23 weeks' gestation is increasing. However, specific recommendations for nutrition support for these infants are lacking. This review examines the unique characteristics of infants born at 22-23 weeks' gestation that impact parenteral and enteral nutrition support, highlighting the lack of evidence and knowledge gaps for optimal practices. Current recommendations developed for extremely or very low birth weight infants may be unsuitable for infants born at 22-23 weeks' gestation due to important differences in anatomy, physiology, body composition, and metabolic capabilities. Key challenges include severely limited intraluminal digestion, profound immune and microbiome immaturity, and reduced metabolic tolerance to parenteral nutrition provision based on current recommendations, none of which are addressed by recommendations developed for larger, more mature preterm populations. Until more specific studies for infants 22-23 weeks gestation are conducted, clinicians must carefully tailor nutritional support for this vulnerable population given their functional and maturational limitations. IMPACT: Survival of infants born at 22-23 weeks gestation is increasing, but currently available nutrition support recommendations may be inadequate due to the unique physiological, metabolic, and gastrointestinal characteristics that are not accounted for in current parenteral and enteral nutrition support recommendations. This review synthesizes available evidence and identifies critical knowledge gaps in nutrition support management specific to infants born at 22-23 weeks' gestation. We provide a framework to guide individualized clinical decision-making and establish research priorities and collaborative efforts in infants born at 22-23 weeks' gestation.",
+      "legalFullTextUrl": "https://doi.org/10.1038/s41390-026-05370-0",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42608540/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "dietitian clinical nutrition",
+        "guideline and consensus",
+        "nutrition and dietary pattern",
+        "precision nutrition"
+      ],
+      "noteTitle": "22–23 週胎齡極早產兒營養支持與研究缺口的品質評讀",
+      "content": "# 22–23 週胎齡極早產兒營養支持與研究缺口的品質評讀\n\n> [!info] 品質快照\n> **文章類型**：敘述性綜述｜**期刊**：Pediatric Research，2026｜**DOI**：10.1038/s41390-026-05370-0\n> **核心問題**：22–23 週胎齡嬰兒的腸道、免疫、微生物與代謝成熟度，是否足以支持直接套用較成熟早產兒的營養建議？\n> **文章能提供的內容**：生理差異、現有營養做法的外推限制、臨床調整方向與研究優先順序。\n> **文章無法提供的內容**：22–23 週族群中，某個葡萄糖、胺基酸、脂肪、餵食或益生菌方案對死亡、NEC、敗血症、成長或神經發展的直接比較效果。\n> **GRADE**：Very low ⊕◯◯◯。這是針對本篇整理出的臨床營養結論，不代表每一項生理觀察都同樣不確定。\n> **一句話判斷**：文章把「為何不能照搬較成熟早產兒建議」說得很清楚，也提出可操作的監測方向，但多數劑量與餵食建議仍是外推、機轉推論或專家判斷，不能當成 22–23 週族群的定案指南。\n\n## 白話導讀\n\n這篇文章處理的是 NICU 裡很難的一群嬰兒：出生時只有 22–23 週胎齡。作者的主軸是，這些嬰兒的身體組成、腸道消化、免疫防禦、腸道菌相和葡萄糖代謝都還在很早的階段。較成熟早產兒的標準數字，放到這群嬰兒身上可能會過量，也可能不夠。\n\n- 22–23 週時，胎兒體水分約占體重 90%，脂肪比例可能低於 2%，肌肉約占體重 5%。可儲存的肝醣、脂肪、蛋白質與礦物質都有限。\n- 腸道蠕動、腸黏膜屏障與消化酵素尚未成熟。文章指出，22–23 週前後的腸道蛋白質與脂肪腔內消化能力可能非常有限，吸收效率不能直接以足月或較成熟早產兒推估。\n- 母乳中的免疫球蛋白、乳鐵蛋白、溶菌酶、活菌、寡糖與部分消化酵素，可能同時支援屏障、免疫、菌相與營養吸收。作者把新鮮母乳視為具生物活性的營養支持，並提醒巴氏消毒捐贈母乳不會保留所有成分。\n- 文章反覆提醒：現有數值多來自較大的早產兒，22–23 週族群需要個別化給予與即時監測。\n\n## 文章範圍與證據來源\n\n這是一篇 narrative review，依序整理胎盤與胎兒代謝、腸道發育、免疫與微生物相、出生後代謝轉換、靜脈營養、腸道營養、母乳與研究優先順序。文章沒有呈現可重現的資料庫搜尋式、納入排除流程、正式研究品質表或統合分析，因此它適合當作臨床問題地圖與研究缺口整理，不適合取代正式指南或直接當成某個劑量的療效試驗。\n\n作者引用了美國與日本極早產兒存活資料、ESPGHAN、ASPEN、AAP 建議、Cochrane review、隨機試驗與生理研究。文章也清楚標示，22–23 週族群的直接研究很少，許多判斷是由胎齡較大的早產兒資料延伸而來。\n\n## 主要營養判讀\n\n### 1. 腸道、免疫與菌相是同一個臨床問題\n\n作者把腸道不成熟、免疫不足和菌相失衡視為互相牽動的風險組合。腸道長度、絨毛、Paneth cells、腸道神經、腸黏膜屏障與腸道蠕動尚未成熟，會讓餵食耐受、細菌移位與 NEC 風險受到影響。22–23 週的菌相多樣性很低，Proteobacteria 可能占優勢，Bifidobacterium 仍很少，抗生素、延後餵食與 NICU 環境也會一起改變菌相。\n\n這個架構有助於營養師理解，餵食量、母乳來源、餵食推進、抗生素暴露、腸胃症狀和感染風險不能拆開看。文章引用的 NEC 事件率來自多國網絡資料，範圍約 6%–27%，不是本篇試驗估計，也不能直接套用到每個 NICU。\n\n### 2. 靜脈營養需要以反應調整\n\n- **葡萄糖**：文章指出這群嬰兒可能同時有低血糖與高血糖，肌肉與脂肪量較少，胰島素反應也未成熟。作者提出，若沒有低血糖，初始葡萄糖輸注速度可考慮低於一般早產兒範圍，例如約 3–4 mg/kg/min，再依血糖反應調整。這是生理合理性與外推建議，尚非 22–23 週直接試驗結果。\n- **胺基酸**：文章整理的方向是出生後及早給予約 2–2.5 g/kg/day，穩定後再往 3–3.5 g/kg/day 調整，同時維持足夠非蛋白質能量，避免胺基酸被拿去供能。ProVIDE 試驗在更廣泛的極低出生體重兒中，較高早期胺基酸和兩歲神經發展不良增加有關，但該試驗對 22–23 週嬰兒的資料很少，不能單獨推導出本族群的固定劑量。\n- **脂肪**：作者提醒脂肪儲備少、脂肪酸代謝能力有限，提出早期可從約 0.5–1 g/kg/day 起步並依三酸甘油脂耐受調整。這個建議需要和必需脂肪酸缺乏、視網膜發育與肝膽風險一起監測。\n- **礦物質**：蛋白質增加若沒有同步補充磷，可能加重低磷與骨礦化問題。作者建議密切追蹤鈣、磷、鎂與鹼性磷酸酶，但相關目標值仍主要來自較廣泛的早產兒建議。\n\n### 3. 腸道營養的重點是母乳、時機與耐受\n\n作者支持在可行時使用母親自己的母乳，並將初乳口腔免疫治療列為有生理與臨床研究基礎的方向。對捐贈母乳、配方奶、餵食開始時間、餵食增加速度、益生菌及母乳強化，文章都提醒直接適用於 22–23 週的證據不足。\n\n延後餵食超過數天未顯示能穩定降低 NEC 或死亡，較晚開始也可能伴隨其他早產併發症。對這群嬰兒，文章提出約 10 mL/kg/day 作為可參考的起始量，再個別化推進，但這不是已驗證的單一標準。益生菌在較廣泛早產兒資料中可能有好處，22–23 週族群的安全性與效果仍未釐清，尤其要留意菌血症或黴菌血症的理論風險。\n\n## 內在效度評估\n\n| 面向 | 判定 | 理由 |\n|---|---|---|\n| 臨床問題 | 清楚 | 鎖定 22–23 週胎齡嬰兒，並依腸道、免疫、代謝與餵食分段說明。 |\n| 證據搜尋透明度 | 低 | 未提供可重現的資料庫搜尋、篩選流程或正式納入研究表。 |\n| 直接性 | 很低 | 文章明確承認直接針對 22–23 週的研究稀少，主要從較成熟早產兒外推。 |\n| 機轉整合 | 中高 | 腸道發育、免疫、菌相、母乳成分與營養處置之間的連結清楚。 |\n| 劑量建議 | 低至很低 | 葡萄糖、胺基酸、脂肪、能量及餵食量多為外推或生理推論，缺乏直接比較結果。 |\n| 臨床可用性 | 中高 | 提供監測項目與研究優先順序，可協助團隊建立個案化觀察框架。 |\n\n## GRADE 判定\n\n本次依 paper-review skill 的 grade_judge.py 實際計算，起始層級採 observational／narrative evidence 的 Low。風險偏差、結果不一致與出版偏差各降一級，間接性與不精確性各降兩級，合計 downgrade sum 為 -7，結果落在 **Very low ⊕◯◯◯**。\n\n這個分數主要反映「本篇能支持多少直接臨床結論」。文章的生理整合與研究問題整理有教學價值，但它沒有替 22–23 週嬰兒提供足夠的直接劑量試驗、效果估計或長期結局。未來有前瞻性多中心資料後，應重新依各個結果拆開評估，不宜把本篇視為一個涵蓋所有營養問題的單一證據分數。\n\n## 推論漏洞檢查\n\n本次以 paper-review skill 的 argdown_lint.py 檢查「直接套用較成熟早產兒指南，能安全改善 22–23 週嬰兒的營養耐受與長期發展」這個硬結局主張，工具回報 clean，4 個前提均有標記。這代表目前的前提類型沒有觸發規則型跳躍，不代表這個結論已被本篇直接證實。實務上仍要把「生理上合理」「作者建議」「已有直接臨床效果」分開記錄。\n\n## 給營養師的使用方式\n\n- 把本篇當成 NICU 個案討論的問題地圖，逐項追蹤血糖、三酸甘油脂、磷、鈣、鎂、鹼性磷酸酶、體重、身長、頭圍、餵食量與腸胃症狀。\n- 討論胺基酸時，同時檢查非蛋白質能量與磷供應，避免只增加蛋白質數字。\n- 討論母乳時，分開記錄母親自己的母乳、捐贈母乳、配方奶、巴氏消毒、儲存與強化方式，不要把它們視為同一種介入。\n- 對餵食開始與增加速度採個別化紀錄，結合血流動力、腹部表現、排便、胃腸耐受、感染與呼吸狀況判讀。\n- 益生菌若要討論，先確認院內感染控制、菌株、產品品質、適用胎齡與團隊共識，不能只用較大早產兒的合併結果推論到 22–23 週。\n- 後續閱讀新研究時，優先找 22–23 週預先分層的多中心研究、個別病人資料統合、長期神經發展追蹤和營養暴露定義一致的資料。\n\n## 主要限制與利益衝突\n\n- 文章是敘述性綜述，沒有系統性搜尋與正式偏差風險評估，選取文獻的完整性無法由本文獨立確認。\n- 直接研究不足，許多建議來自 24–28 週、極低出生體重或更廣泛早產兒族群。\n- 生理數值、母乳成分、餵食時機和營養劑量之間的關係，不能直接等同於死亡、NEC、敗血症、成長或神經發展改善。\n- 本文在文末揭露作者使用 ChatGPT 協助部分段落的可讀性與語言修訂，作者表示內容、解讀與結論由作者獨立發展並負責。這是寫作流程揭露，不能替代方法品質評估。\n\n## 研究優先順序\n\n作者提出的研究方向很具體：22–23 週嬰兒的胃腸結構與蠕動、消化酵素與巨量營養素吸收、葡萄糖輸注與胰島素、脂肪耐受、再餵食樣低磷、鈣磷鎂與脂溶性維生素、母親自己的母乳、菌相、標準化營養暴露、跨中心資料和學齡前神經發展追蹤。這些題目比單純再做一個較大早產兒的平均劑量比較，更貼近本篇指出的證據缺口。\n\n## 來源與執行證據\n\n- 已依安裝的 paper-review skill 實際執行本篇全文品質評讀，未用摘要、metadata 或期刊頁面預覽代替。\n- 合法來源：Unpaywall 指向的 Nature／Springer 開放 PDF，11 頁。PDF 的 DOI、題名、作者與正文身份核對通過。\n- 來源 PDF SHA-256：bc12bac0117edae449c651f3531cddf0a52759fd4ee544413be500cd7faaf1fd。\n- 本機全文文字 SHA-256：1edc450a636bae27422aabbbe918d15b2a8a593faff9aa13fae7dac3e103c178。\n- 原文抽取通過 narrative review 正文閘門：Introduction、Conclusion、20 個主題段落標題，全文約 82,308 字元，沒有 replacement character。\n- grade_judge.py 實際輸出：Very low ⊕◯◯◯，downgrade_sum -7。\n- argdown_lint.py 實際輸出：clean，4 個前提。\n\n## 參考文獻\n\nRomero-Lopez M, Naik M, Thoene M, Anderson-Berry A. Nutritional management at 22–23 weeks gestational age: evidence and knowledge gaps. Pediatric Research. 2026. DOI: 10.1038/s41390-026-05370-0.",
+      "cards": [],
+      "completedAt": "2026-08-19T10:26:21.817Z"
+    },
+    {
+      "id": "doi:10.2147/ijwh.s625184:digest",
+      "paperId": "doi:10.2147/ijwh.s625184",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Associations of Moderate-to-Vigorous Physical Activity with Obesity and Low Muscle Mass Among Postmenopausal Chinese Women: A Cross-Sectional Study.",
+      "authors": "Liu Y, Tan Y, Koga A, Lin J, Liu J, Li Z",
+      "journal": "Nutrition guidelines and consensus (PubMed)",
+      "year": "2026",
+      "doi": "10.2147/IJWH.S625184",
+      "abstract": "To examine the associations of guideline-based moderate-to-vigorous physical activity (MVPA) levels with obesity and low muscle mass in postmenopausal Chinese women. Cross-sectional data from 1578 postmenopausal women aged ≥45 years in Jiangsu, China were analyzed. Obesity was defined as body fat percentage ≥30% according to Chinese criteria, and low muscle mass as appendicular skeletal muscle index <5.7 kg/m2 according to the Asian Working Group for Sarcopenia 2019 criteria. Both were assessed using bioelectrical impedance. Physical activity was assessed using the International Physical Activity Questionnaire-Short Form. MVPA was calculated and categorized according to World Health Organization (WHO) physical activity recommendations (<150, 150-299, and ≥300 min/week). Multivariable logistic regression models were used to examine associations between MVPA levels and study outcomes. 27.7% (n=437) of women had obesity and 7.5% (n=118) had low muscle mass. Compared with women reporting <150 min/week of MVPA, those reporting 150-299 min/week and ≥300 min/week had lower odds of obesity. In fully adjusted models, the odds ratios were 0.55 (95% CI: 0.35-0.86) and 0.42 (95% CI: 0.29-0.61), respectively. The corresponding odds ratios for low muscle mass were 0.21 (95% CI: 0.07-0.68) and 0.30 (95% CI: 0.14-0.66). Higher MVPA was associated with lower odds of obesity. Inverse associations were also observed for low muscle mass, although this finding warrants cautious interpretation.",
+      "legalFullTextUrl": "https://www.dovepress.com/article/download/118236",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42610065/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "clinical nutrition technology",
+        "design:guideline",
+        "guideline and consensus",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "停經後中國女性中高強度活動、肥胖與低肌肉量的全文內容整理",
+      "content": "# 停經後中國女性中高強度活動、肥胖與低肌肉量的全文內容整理\n\n> [!summary] 30 秒掌握\n> 這篇研究分析江蘇 1,578 名停經後女性，把每週中高強度活動分成 <150、150–299、≥300 分鐘，再比較肥胖與低肌肉量。達到 150 分鐘以上者肥胖 odds 較低，低肌肉量也有較低 odds，但低肌肉量病例少、曲線不規則。研究支持活動目標的健康促進方向，不能證明活動直接預防肥胖或肌少症，且 MVPA 分類沒有分辨阻力訓練。\n\n## 一、全文地圖\n\n| 部分 | 讀到的重點 |\n|---|---|\n| 對象 | 1,578 名自然停經、年滿 45 歲、住在江蘇的漢族女性。 |\n| 活動測量 | IPAQ-SF 回憶前 7 天活動，MVPA = 中度分鐘 + 2 × 劇烈分鐘。 |\n| 身體組成 | BIA 測體脂率與四肢骨骼肌，肥胖為體脂率 ≥30%，低肌肉量為 ASMI <5.7 kg/m²。 |\n| 活動分組 | <150、150–299、≥300 分鐘／週。 |\n| 肥胖結果 | 完整調整後 OR 0.55 和 0.42。 |\n| 低肌肉量結果 | 完整調整後 OR 0.21 和 0.30，但事件數少、曲線非單調。 |\n| 臨床缺口 | 沒有縱向變化、活動類型、肌力、功能或運動介入結果。 |\n\n## 二、參與者與測量\n\n研究從社區調查資料篩選自然停經女性，排除未停經、子宮切除、年齡不足 45 歲、BIA 異常、問卷資料缺失與目前荷爾蒙治療者，最後留下 1,578 人。\n\n身體組成由受訓人員使用多頻 BIA 測量，儀器每天校正兩次。飲食以 FFQ 評估蛋、魚海鮮、畜肉、家禽、乳品和豆製品，合成蛋白質食物攝取量，放進完整調整模型。\n\n活動量用中國版 IPAQ-SF 由訪員面訪，回想前 7 天的走路、中度和劇烈活動。MVPA 計算為中度分鐘加兩倍劇烈分鐘，再依 WHO 每週 150 分鐘門檻分組。\n\n## 三、主要數字\n\n### 三組活動量\n\n- <150 分鐘：1,166 人。\n- 150–299 分鐘：148 人。\n- ≥300 分鐘：264 人。\n\n活動量較高者平均年齡與停經年數較低，教育、蛋白質食物、酒精和慢性病也不同，所以三組本來就有生活背景差異。\n\n### 肥胖\n\n三組肥胖比例分別是 32.1%、18.2% 和 13.6%。完整調整後，150–299 分鐘相對 <150 分鐘的 OR 是 0.55，≥300 分鐘的 OR 是 0.42。肥胖結果在分類分析和 spline 分析較一致。\n\n### 低肌肉量\n\n低肌肉量比例分別是 9.3%、2.0% 和 2.7%，總共 118 人。完整調整後的 OR 是 0.21 和 0.30，但高活動組病例只有 3 和 7 人，估計容易不穩定。研究也沒有告訴我們這些活動是不是阻力訓練。\n\n## 四、三層筆記\n\n### 第一層：三句話帶走\n\n1. 每週至少 150 分鐘 MVPA 和較低肥胖 odds 相關。\n2. 低肌肉量的方向看似有利，但病例少、曲線非單調，證據比肥胖結果弱。\n3. 要保肌肉與功能，活動分鐘數之外還要安排阻力訓練、蛋白質、總能量和功能評估。\n\n### 第二層：研究邏輯\n\n- **暴露**：前 7 天自陳 MVPA。\n- **結果**：BIA 體脂率與 ASMI。\n- **比較**：以 <150 分鐘為參照，觀察達到或超過 WHO 門檻的差異。\n- **調整**：年齡、停經年數、教育、吸菸、酒精、慢性病與蛋白質食物攝取。\n- **解讀**：活動量和身體組成同時存在關聯，還不是運動介入的效果。\n\n### 第三層：臨床轉譯\n\n- 先從個案目前能做的活動開始，分段累積到每週 150 分鐘。\n- 若低肌肉量或功能下降，補上坐站、彈力帶、啞鈴或其他安全阻力活動。\n- 蛋白質要分散到餐次，並依腎功能、總能量、咀嚼吞嚥和經濟條件安排。\n- 用握力、步速、起立行走和日常功能追蹤，不要只依 BIA 或體重。\n\n## 五、營養與活動安排\n\n- 肥胖和低肌肉量可能同時存在，減重時要留意蛋白質、能量、阻力訓練和功能。\n- 高活動量不代表活動品質相同，快走、爬樓梯、家務和阻力訓練對肌力的刺激不同。\n- 蛋白質食物攝取在活動組別間不同，飲食品質可能是活動和身體組成關聯的一部分。\n- 骨質疏鬆、疼痛、跌倒風險、心肺疾病或長期未運動者，先做安全評估，再調整強度。\n- 逐步增加活動，配合睡眠、恢復、液體和餐前後安排，較容易維持。\n\n## 六、研究限制\n\n- 橫斷面資料無法確定活動先於身體組成改變，反向因果可能存在。\n- IPAQ-SF 只有 7 天回憶，可能高估活動，也看不到季節變化。\n- 沒有分辨阻力、耐力、家務或其他活動類型。\n- 低肌肉量高活動組事件少，OR 不能直接當成肌少症預防效果。\n- 沒有納入過去荷爾蒙治療和停經症狀。\n- 全部為江蘇漢族女性，對其他地區、農村或其他亞洲族群的適用性有限。\n\n## 自我測驗卡\n\n### 卡 1｜研究把 MVPA 分成哪三組？\n\n**答案**：每週 <150、150–299、≥300 分鐘。\n\n### 卡 2｜活動量和肥胖的主要結果是什麼？\n\n**答案**：相對 <150 分鐘，150–299 分鐘的完整調整 OR 為 0.55，≥300 分鐘為 0.42。\n\n### 卡 3｜為什麼低肌肉量結果要保守？\n\n**答案**：低肌肉量只有 118 人，高活動組只有少數病例，曲線非單調，估計精確度較低。\n\n### 卡 4｜MVPA 分鐘數可以代表阻力訓練嗎？\n\n**答案**：不能。IPAQ-SF 沒有分辨活動類型，研究無法把低肌肉量關聯直接歸因於阻力訓練。\n\n### 卡 5｜保肌肉的營養照護還要看什麼？\n\n**答案**：每餐蛋白質、總能量、腎功能、阻力訓練、握力、步速、起立功能、跌倒風險和日常活動能力。\n\n## 來源與執行證據\n\n- 已依安裝的 paper-digest skill 實際執行全文內容整理，使用 International Journal of Women’s Health OA PDF。\n- PDF 9 頁，原生文字 38,342 字元，9 頁均有資訊性文字，replacement character 為 false。\n- 來源 PDF SHA-256：2a76bd0c8b3b0965f339e77705040d1f2b465dfccbac907fc517aca87be5e3c5。\n- 本機全文文字 SHA-256：2730395d78ed57f486f3f79f1f4baab337848c91ccdd750bf9ec15f83b0a46734。\n- DOI、題名、作者與正文身份核對通過，Methods、Results、Discussion、Conclusion 均可定位。\n\n## 參考文獻\n\nLiu Y, Tan Y, Koga A, et al. Associations of Moderate-to-Vigorous Physical Activity with Obesity and Low Muscle Mass Among Postmenopausal Chinese Women: A Cross-Sectional Study. International Journal of Women’s Health. 2026;18. DOI: 10.2147/IJWH.S625184.",
+      "cards": [
+        {
+          "title": "",
+          "question": "研究把 MVPA 分成哪三組？",
+          "answer": "每週 <150、150–299、≥300 分鐘。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "活動量和肥胖的主要結果是什麼？",
+          "answer": "相對 <150 分鐘，150–299 分鐘的完整調整 OR 為 0.55，≥300 分鐘為 0.42。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "為什麼低肌肉量結果要保守？",
+          "answer": "低肌肉量只有 118 人，高活動組只有少數病例，曲線非單調，估計精確度較低。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "MVPA 分鐘數可以代表阻力訓練嗎？",
+          "answer": "不能。IPAQ-SF 沒有分辨活動類型，研究無法把低肌肉量關聯直接歸因於阻力訓練。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "保肌肉的營養照護還要看什麼？",
+          "answer": "每餐蛋白質、總能量、腎功能、阻力訓練、握力、步速、起立功能、跌倒風險和日常活動能力。",
+          "tags": []
+        }
+      ],
+      "completedAt": "2026-08-19T10:14:13.651Z"
+    },
+    {
+      "id": "doi:10.2147/ijwh.s625184:review",
+      "paperId": "doi:10.2147/ijwh.s625184",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Associations of Moderate-to-Vigorous Physical Activity with Obesity and Low Muscle Mass Among Postmenopausal Chinese Women: A Cross-Sectional Study.",
+      "authors": "Liu Y, Tan Y, Koga A, Lin J, Liu J, Li Z",
+      "journal": "Nutrition guidelines and consensus (PubMed)",
+      "year": "2026",
+      "doi": "10.2147/IJWH.S625184",
+      "abstract": "To examine the associations of guideline-based moderate-to-vigorous physical activity (MVPA) levels with obesity and low muscle mass in postmenopausal Chinese women. Cross-sectional data from 1578 postmenopausal women aged ≥45 years in Jiangsu, China were analyzed. Obesity was defined as body fat percentage ≥30% according to Chinese criteria, and low muscle mass as appendicular skeletal muscle index <5.7 kg/m2 according to the Asian Working Group for Sarcopenia 2019 criteria. Both were assessed using bioelectrical impedance. Physical activity was assessed using the International Physical Activity Questionnaire-Short Form. MVPA was calculated and categorized according to World Health Organization (WHO) physical activity recommendations (<150, 150-299, and ≥300 min/week). Multivariable logistic regression models were used to examine associations between MVPA levels and study outcomes. 27.7% (n=437) of women had obesity and 7.5% (n=118) had low muscle mass. Compared with women reporting <150 min/week of MVPA, those reporting 150-299 min/week and ≥300 min/week had lower odds of obesity. In fully adjusted models, the odds ratios were 0.55 (95% CI: 0.35-0.86) and 0.42 (95% CI: 0.29-0.61), respectively. The corresponding odds ratios for low muscle mass were 0.21 (95% CI: 0.07-0.68) and 0.30 (95% CI: 0.14-0.66). Higher MVPA was associated with lower odds of obesity. Inverse associations were also observed for low muscle mass, although this finding warrants cautious interpretation.",
+      "legalFullTextUrl": "https://www.dovepress.com/article/download/118236",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42610065/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "clinical nutrition technology",
+        "design:guideline",
+        "guideline and consensus",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "停經後中國女性中高強度活動、肥胖與低肌肉量的品質評讀",
+      "content": "# 停經後中國女性中高強度活動、肥胖與低肌肉量的品質評讀\n\n> [!info] 品質快照\n> **研究設計**：中國江蘇社區資料的橫斷面次級分析\n> **樣本**：1,578 名自然停經且年滿 45 歲女性；肥胖 437 人，低肌肉量 118 人。\n> **暴露**：IPAQ-SF 回憶的中高強度身體活動（MVPA），分成每週 <150、150–299、≥300 分鐘。\n> **結果定義**：體脂率 ≥30% 為肥胖；ASMI <5.7 kg/m² 為低肌肉量，身體組成以 BIA 測量。\n> **主要結果**：相較 <150 分鐘，150–299 分鐘和 ≥300 分鐘的肥胖 odds 分別為 0.55 和 0.42。低肌肉量 odds 也較低，但高活動組病例少，曲線非單調，解讀要保守。\n> **GRADE**：Very low ⊕◯◯◯。樣本量不小，結果定義和調整變項清楚，橫斷面、7 天自陳活動與低肌肉量事件稀少限制因果與精確度。\n> **一句話判斷**：文章支持把每週至少 150 分鐘 MVPA 當作停經後女性的健康促進目標，不能用這個橫斷面關聯證明活動直接預防肥胖或肌少症，肌力訓練仍要另行規劃。\n\n## 白話導讀\n\n作者把停經後女性的活動量分成三組，再看體脂率和四肢骨骼肌指數。活動量達到每週 150 分鐘以上的人，肥胖比例和 odds 都較低。低肌肉量也看到較低 odds，但病例數少，150–299 和 ≥300 分鐘沒有呈現清楚的階梯關係。\n\n研究最大的限制是所有資料在同一次訪視取得，活動量靠過去 7 天回憶，無法知道是活動量影響身體組成，或是身體狀況較好的人更能活動。文章也沒有把活動分成阻力訓練、快走、家務或其他類型，所以不能把結果直接歸因於肌力訓練。\n\n## 研究方法\n\n- 原始 Jurong Chronic Non-communicable Disease Survey 在江蘇進行，現有資料於 2024 年建入研究資料庫，本篇做次級分析。\n- 從 11,151 名社區居民中篩選自然停經女性，排除未停經、子宮切除、年齡不足 45 歲、BIA 異常或缺失、問卷缺失與目前荷爾蒙治療者。\n- 最終 1,578 人納入，全部為漢族女性。\n- 身體組成用多頻 BIA 測量，受過訓練人員依標準流程操作，儀器每日校正兩次。\n- 飲食用訪員管理的 FFQ 評估，將蛋、魚海鮮、畜肉、家禽、乳品和黃豆製品合成蛋白質食物攝取量，納入完整模型。\n- MVPA 用 IPAQ-SF 取得，計算方式為中度活動分鐘加上兩倍劇烈活動分鐘。\n- 分析模型依序調整年齡、停經年數、教育，再加入吸菸、酒精、慢性病與蛋白質食物攝取。\n- 以 logistic regression 估算 OR 和 95% CI，另以 B-spline 探索連續活動量與結果的曲線。\n\n## 研究結果\n\n### 活動量分布\n\n- <150 分鐘：1,166 人。\n- 150–299 分鐘：148 人。\n- ≥300 分鐘：264 人。\n\n高活動組平均年齡和停經年數較低，教育程度、蛋白質食物攝取、酒精使用和慢性病比例也不同。這代表活動量分組不是隨機形成，仍可能有健康狀態、資源、教育和生活習慣差異。\n\n### 肥胖\n\n肥胖盛行率在 <150、150–299、≥300 分鐘組分別為 32.1%、18.2% 和 13.6%。完整調整後，相較 <150 分鐘：\n\n- 150–299 分鐘 OR 0.55（95% CI 0.35–0.86）。\n- ≥300 分鐘 OR 0.42（95% CI 0.29–0.61）。\n\n肥胖結果在分類分析和 spline 分析較一致，這是本文相對穩定的發現。\n\n### 低肌肉量\n\n低肌肉量盛行率在三組分別為 9.3%、2.0% 和 2.7%，總數 118 人。完整調整後：\n\n- 150–299 分鐘 OR 0.21（95% CI 0.07–0.68）。\n- ≥300 分鐘 OR 0.30（95% CI 0.14–0.66）。\n\n低肌肉量的 spline 曲線非單調，較高活動組事件少，信賴區間較不穩定。文章也提醒 IPAQ-SF 沒有分辨阻力訓練，因此不能說每週活動分鐘數本身等同於肌力訓練。\n\n## 方法品質評估\n\n| 面向 | 判定 | 理由 |\n|---|---|---|\n| 樣本規模 | 中高 | 1,578 人適合估計肥胖關聯，低肌肉量事件仍少。 |\n| 身體組成測量 | 中等 | BIA 有標準流程、受訓人員與每日校正，仍非 DXA 或直接影像測量。 |\n| 活動測量 | 中等 | IPAQ-SF 已在此族群驗證，7 天回憶可能高估或漏掉季節性，沒有活動類型。 |\n| 混雜控制 | 中等 | 調整年齡、停經年數、教育、吸菸、酒精、慢性病與蛋白質食物，仍有荷爾蒙史、症狀和社會因素缺口。 |\n| 結果一致性 | 肥胖中高，肌肉量低 | 肥胖關聯較穩定，低肌肉量曲線非單調且病例少。 |\n| 因果解讀 | 低 | 同一時間點測量，可能有反向因果，不能取代運動介入試驗。 |\n\n## GRADE 判定\n\n本次依 paper-review skill 的 grade_judge.py 實際計算。以 MVPA 與肥胖、低肌肉量的關聯為結果，觀察性研究以 Low 起始，risk of bias 因橫斷面和自陳活動降一級，imprecision 因低肌肉量事件少降一級，最後為 **Very low ⊕◯◯◯**。\n\n肥胖關聯的精確度和一致性高於低肌肉量結果，但本篇是單一橫斷面研究，不能把低 OR 當成運動介入的效果大小。\n\n## 推論漏洞檢查\n\n本次以 paper-review skill 的 argdown_lint.py 檢查「每週至少 150 分鐘 MVPA 可以預防肥胖和低肌肉量」這個主張，工具回報 clean。規則工具沒有標出前提類型跳躍，仍要保留設計限制：研究看到的是同時存在的活動量和身體組成關聯，不能直接寫成預防效果。\n\n特別要注意三點：\n\n- 身體較健康、沒有肥胖或肌肉問題的人，可能更容易達到較高活動量，形成反向因果。\n- MVPA 沒有分辨阻力訓練，低肌肉量結果不能直接轉成肌力訓練建議的效果。\n- 蛋白質食物攝取在不同活動組不同，完整模型雖有調整，測量誤差和其他飲食品質仍可能影響結果。\n\n## 給營養師與運動照護的用法\n\n- 對停經後女性可把每週至少 150 分鐘中高強度活動當作健康促進目標，再依能力分段累積。\n- 若目標是肌肉量與功能，需另加阻力訓練、蛋白質分配、能量充足與恢復安排，不能只看 MVPA 分鐘數。\n- 使用 BIA 結果時要固定測量條件，搭配握力、起立行走、步速或其他功能指標，避免只用 ASMI 判斷肌少症。\n- 蛋白質食物攝取要配合腎功能、總能量、牙口、吞嚥、經濟條件和家庭飲食，避免只給克數目標。\n- 對活動量低且有肥胖者，可以從可持續的快走、家務活動、坐站訓練和簡單阻力運動開始，再逐步增加。\n- 有慢性病、骨質疏鬆、疼痛、跌倒風險或長期未運動者，需先做安全分流與醫療／運動專業評估。\n\n## 研究透明度\n\n- 資助：中國國家人口健康資料中心 NCMI202307GEN。\n- 利益衝突：作者宣告無利益衝突。\n- 倫理：清華大學科技倫理委員會核准 THU01-20240130，原始調查取得書面同意。\n- 研究族群全部為江蘇漢族女性，對其他中國地區、農村女性或其他亞洲族群的適用性有限。\n\n## 代表性文獻核對\n\n| DOI | Crossref／公開來源核對題名 | 本文用途 | 判定 |\n|---|---|---|---|\n| 10.3389/fendo.2023.1183765 | The Effects of Exercise Training on Body Composition in Postmenopausal Women: A Systematic Review and Meta-Analysis | 停經後運動與身體組成背景 | DOI 與題名相符 |\n| 10.1002/jcsm.12922 | Systematic review and meta-analysis of protein intake to support muscle mass and function in healthy adults | 蛋白質與肌肉維持背景 | DOI 與題名相符 |\n\n外部研究只用於背景，不能把本篇橫斷面 OR 當成運動試驗的效果量。\n\n## 來源與執行證據\n\n- 已依安裝的 paper-review skill 實際執行本篇全文品質評讀，未用摘要或 metadata 代替。\n- 合法來源：International Journal of Women’s Health OA PDF，9 頁，原生文字可讀，題名、DOI、作者與正文身份核對通過。\n- 來源 PDF SHA-256：2a76bd0c8b3b0965f339e77705040d1f2b465dfccbac907fc517aca87be5e3c5。\n- 本機全文文字 SHA-256：2730395d78ed57f486f3f79f1f4baab337848c91ccdd750bf9ec15f83b0a46734。\n- Methods、Results、Discussion、Conclusion 與限制段落均可定位。\n- grade_judge.py 實際輸出：Very low ⊕◯◯◯，downgrade_sum -2。\n- argdown_lint.py 實際輸出：clean，n_premises 4。\n\n## 參考文獻\n\nLiu Y, Tan Y, Koga A, et al. Associations of Moderate-to-Vigorous Physical Activity with Obesity and Low Muscle Mass Among Postmenopausal Chinese Women: A Cross-Sectional Study. International Journal of Women’s Health. 2026;18. DOI: 10.2147/IJWH.S625184.",
+      "cards": [],
+      "completedAt": "2026-08-19T10:12:45.636Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1845418:digest",
+      "paperId": "doi:10.3389/fnut.2026.1845418",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "From nutritional optimization to consumer acceptance: sensory and nutritional evaluation of culturally adapted recipes for type 2 diabetes in Benin.",
+      "authors": "Alaofè H, Bankolé B, Ehiri J, Amoussa Hounkpatin W",
+      "journal": "Frontiers in Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fnut.2026.1845418",
+      "abstract": "Medical nutrition therapy (MNT) is central to type 2 diabetes (T2D) management; however, adherence remains challenging in sub-Saharan Africa due to economic constraints, food insecurity, and limited cultural adaptation of dietary recommendations. Few studies have integrated dietary optimization, cultural adaptation, sensory evaluation, and laboratory nutrient analysis within a single translational framework. This study aimed to develop and evaluate culturally adapted, nutritionally optimized Beninese recipes for adults with T2D by assessing sensory acceptability and nutritional composition. A mixed-method exploratory study was conducted using 14 culturally adapted recipes developed through linear goal programming (LGP), expert validation, and cultural adaptation procedures. Consumer sensory evaluation was conducted among 30 adults with and without T2D using a 5-point hedonic scale assessing taste, aroma, texture, color, and overall liking. Friedman and Mann-Whitney U tests were used for statistical analyses. Laboratory nutrient analyses were performed using standard AOAC methods, and nutrient composition was reported per 100 g as consumed and per individual serving. Overall sensory acceptability was high across recipes, with overall liking scores ranging from 4.0 ± 0.6 to 4.8 ± 0.5. Friedman tests showed no significant differences in sensory ratings across recipes (all p > 0.05). Sensory ratings were generally similar between participants with and without T2D, with only a small difference observed for aroma ratings (p = 0.034, r = 0.107). Per-serving energy values ranged from 204.3 ± 24.7 kcal to 552.4 ± 15.3 kcal. All recipes met the predefined acceptability threshold (overall liking ≥ 4.0), and participant feedback identified only minor refinements related to seasoning or texture. Traditional Beninese recipes can be reformulated to align with T2D dietary recommendations without compromising sensory acceptability. By integrating dietary optimization, cultural adaptation, sensory evaluation, and laboratory nutrient analysis, this study provides a practical framework for culturally acceptable food-based diabetes interventions in sub-Saharan Africa.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1845418/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42459799/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "dietitian clinical nutrition",
+        "guideline and consensus",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "班寧第 2 型糖尿病文化適配食譜與感官接受度的全文內容整理",
+      "content": "# 班寧第 2 型糖尿病文化適配食譜與感官接受度的全文內容整理\n\n> [!summary] 30 秒掌握\n> 研究團隊用線性目標規劃設計 14 道班寧傳統食譜，再做專家驗證、實驗室營養分析和 30 人感官試吃。14 道菜的整體喜好都達 4.0／5 以上，每份熱量約 204–552 kcal，並提供碳水化合物、蛋白質、脂肪與纖維。這篇證明食譜具文化適配和短期接受度，還沒有證明長期遵從、餐後血糖或 HbA1c 改善。\n\n## 一、全文地圖\n\n| 部分 | 讀到的重點 |\n|---|---|\n| 研究目的 | 把班寧傳統菜色改成符合 T2D 營養條件、價格與文化習慣的食譜。 |\n| 食譜設計 | 線性目標規劃、專家評估、文化適配、標準化製備。 |\n| 感官測試 | 30 名成人，14 名有 T2D、16 名無 T2D，5 點喜好量表。 |\n| 營養分析 | 料理三次，依 AOAC 方法分析營養組成，每 100 g 和每份呈現。 |\n| 主要發現 | 14 道菜整體喜好 4.0–4.8，均達預設保留門檻。 |\n| 臨床缺口 | 沒有 GI、GL、餐後血糖、HbA1c、體重或長期遵從結果。 |\n\n## 二、食譜如何被設計\n\n研究用線性目標規劃同時處理幾個條件：能量、碳水化合物、蛋白質、脂肪、纖維、部分微量營養素、價格、份量和文化可接受性。接著以熟悉的班寧食材和烹調方式改良菜色，保留傳統口感與香氣。\n\n調整方向包含增加蔬菜、豆類、魚、蛋或瘦肉，降低部分精製澱粉、油脂或鹽，並維持家庭可以使用的備料與烹調方法。三位有營養、烹飪科學與糖尿病專長的專家，各自將每道菜製作三次，再檢查流程、份量、營養和感官表現。\n\n## 三、30 人感官試吃\n\n- 14 名參與者有 T2D，16 名沒有 T2D。\n- 56.7% 為女性，年齡分布約一半低於 40 歲、一半 40 歲以上。\n- 每人評估多道隨機呈現的食譜。\n- 評分項目包含味道、香氣、口感、色澤和整體喜好。\n- 5 點量表的整體喜好 4.0–4.8，所有食譜達到至少 4 分的保留門檻。\n- Friedman test 沒有發現各道菜在主要感官屬性之間有顯著差異。\n- T2D 與非 T2D 的感官評分大致相近，只有香氣有小幅統計差異，效果量很小。\n- 開放式回饋主要是調味、口感和稠度的微調，沒有菜色需要淘汰。\n\n這個結果的意思是「試吃當下大多數人喜歡」，並非「每個家庭會長期照著吃」。\n\n## 四、營養組成\n\n研究將每道菜做三份，以實際食用狀態進行營養分析，再用每 100 g 和每份重量呈現結果。每份熱量約 204.3–552.4 kcal，食譜之間差異明顯，使用時要配合餐次與全天能量安排。\n\n食譜整體有中等碳水分布、豆類或動物性蛋白質、蔬菜和部分纖維來源。作者指出纖維量仍偏低，若放進糖尿病餐單，需要用葉菜、豆類、全穀或其他當地可得食物補足，也要依腎功能、腸胃耐受和血糖反應調整。\n\n## 五、三層筆記\n\n### 第一層：三句話帶走\n\n1. 熟悉的傳統菜色可以經過營養調整，仍保留良好的短期感官接受度。\n2. 14 道菜都達到整體喜好 4 分以上，代表食譜有機會放入社區型 T2D 飲食教育。\n3. 研究沒有測量長期遵從和血糖結果，不能把試吃分數寫成 HbA1c 改善。\n\n### 第二層：理解研究邏輯\n\n- **原始問題**：營養上合理的 T2D 食譜，是否也符合班寧人的口味和生活方式？\n- **設計**：先做 LGP 營養優化，再做文化適配、專家驗證、感官試吃與實驗室分析。\n- **測量**：感官喜好、參與者文字意見、每份營養組成。\n- **保留條件**：整體喜好至少 4 分、營養適切、文化相關、備料可行。\n- **證據終點**：食譜可行性和接受度，還沒有臨床效果。\n\n### 第三層：臨床轉譯\n\n- 食譜冊可用「固定營養框架加在地替換表」，讓家庭依價格、季節和取得性換食材。\n- 每道菜標清楚份量、碳水化合物、蛋白質、脂肪、纖維和熱量，才能接到餐次與碳水計算。\n- 個案實際使用後，追蹤餐後血糖、HbA1c、飽足感、體重、食物成本和執行障礙。\n- 高接受度菜色仍要看總餐次和全天飲食，不能單獨判定整套飲食適合個案。\n\n## 六、給營養師的使用方式\n\n- 先問個案常吃的主食、醬料、蔬菜、豆類和蛋白質來源，再從熟悉食物做調整。\n- 低收入或食物取得受限的家庭，要把價格、保存設備、烹調時間和家庭共餐列入食譜條件。\n- 纖維不足的餐點，可加入豆類、葉菜、全穀或其他當地食材，再配合腎功能和腸胃狀況調整。\n- 每份 204–552 kcal 的範圍很寬，放進餐單前要先決定餐次、每日能量和碳水分配。\n- 研究沒有直接測 GI 或 GL，不能把食譜標成低 GI，除非另有實測或充分的食材與份量依據。\n- 把試吃喜好視為開發起點，臨床成效仍要靠實際飲食、血糖和代謝指標追蹤。\n\n## 七、研究限制\n\n- 感官樣本只有 30 人，來自單一地點，無法代表所有班寧成人或其他西非飲食文化。\n- 5 點量表適合混合識字程度的參與者，但分辨細微差異的能力可能比 7 或 9 點量表低。\n- 感官試吃是短期接受度，沒有長期飲食遵從或社區執行資料。\n- 沒有直接測 GI、GL、餐後血糖、HbA1c、體重管理或其他臨床結果。\n- 食譜的營養分析有實驗室證據，但每個家庭的食材品牌、份量、油量和烹調方式可能不同。\n\n## 自我測驗卡\n\n### 卡 1｜這篇研究真正證明了什麼？\n\n**答案**：14 道班寧文化適配食譜在 30 人感官試吃中達到高接受度，且完成營養組成分析。它沒有證明長期遵從或血糖改善。\n\n### 卡 2｜食譜設計用了哪些步驟？\n\n**答案**：線性目標規劃、文化適配、專家驗證、消費者感官試吃、實驗室營養分析與食譜標準化。\n\n### 卡 3｜14 道食譜的整體喜好分數是多少？\n\n**答案**：4.0–4.8／5，全部達到研究預設的整體喜好至少 4 分門檻。\n\n### 卡 4｜為什麼高喜好分數還不能當成 HbA1c 會改善？\n\n**答案**：喜好量表只測試吃當下的接受度，研究沒有測餐後血糖、GI、GL、HbA1c、體重或長期遵從。\n\n### 卡 5｜把食譜放進個案餐單前要再確認什麼？\n\n**答案**：每份重量、熱量、碳水化合物、蛋白質、纖維、全天能量、餐次分配、腎功能、腸胃耐受、成本和家庭實際取得性。\n\n## 來源與執行證據\n\n- 已依安裝的 paper-digest skill 實際執行全文內容整理，使用 Frontiers in Nutrition OA PDF。\n- PDF 14 頁，原生文字 63,799 字元，14 頁均有資訊性文字，replacement character 為 false。\n- 來源 PDF SHA-256：50f47af0ddbb58dad268d725d93794cd6b9d424804e3109a3ec5d1f531958728。\n- 本機全文文字 SHA-256：214383af8d384d1b8123183638da8ea49b189067b3167e14bad316abd5753362。\n- DOI、題名、作者與正文身份核對通過，Methods、Results、Discussion、Conclusion 均可定位。\n\n## 參考文獻\n\nAlaofè H, Bankolé B, Ehiri J, Amoussa Hounkpatin W. From nutritional optimization to consumer acceptance: sensory and nutritional evaluation of culturally adapted recipes for type 2 diabetes in Benin. Frontiers in Nutrition. 2026. DOI: 10.3389/fnut.2026.1845418.",
+      "cards": [
+        {
+          "title": "",
+          "question": "這篇研究真正證明了什麼？",
+          "answer": "14 道班寧文化適配食譜在 30 人感官試吃中達到高接受度，且完成營養組成分析。它沒有證明長期遵從或血糖改善。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "食譜設計用了哪些步驟？",
+          "answer": "線性目標規劃、文化適配、專家驗證、消費者感官試吃、實驗室營養分析與食譜標準化。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "14 道食譜的整體喜好分數是多少？",
+          "answer": "4.0–4.8／5，全部達到研究預設的整體喜好至少 4 分門檻。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "為什麼高喜好分數還不能當成 HbA1c 會改善？",
+          "answer": "喜好量表只測試吃當下的接受度，研究沒有測餐後血糖、GI、GL、HbA1c、體重或長期遵從。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "把食譜放進個案餐單前要再確認什麼？",
+          "answer": "每份重量、熱量、碳水化合物、蛋白質、纖維、全天能量、餐次分配、腎功能、腸胃耐受、成本和家庭實際取得性。",
+          "tags": []
+        }
+      ],
+      "completedAt": "2026-08-19T10:09:57.679Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1845418:review",
+      "paperId": "doi:10.3389/fnut.2026.1845418",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "From nutritional optimization to consumer acceptance: sensory and nutritional evaluation of culturally adapted recipes for type 2 diabetes in Benin.",
+      "authors": "Alaofè H, Bankolé B, Ehiri J, Amoussa Hounkpatin W",
+      "journal": "Frontiers in Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fnut.2026.1845418",
+      "abstract": "Medical nutrition therapy (MNT) is central to type 2 diabetes (T2D) management; however, adherence remains challenging in sub-Saharan Africa due to economic constraints, food insecurity, and limited cultural adaptation of dietary recommendations. Few studies have integrated dietary optimization, cultural adaptation, sensory evaluation, and laboratory nutrient analysis within a single translational framework. This study aimed to develop and evaluate culturally adapted, nutritionally optimized Beninese recipes for adults with T2D by assessing sensory acceptability and nutritional composition. A mixed-method exploratory study was conducted using 14 culturally adapted recipes developed through linear goal programming (LGP), expert validation, and cultural adaptation procedures. Consumer sensory evaluation was conducted among 30 adults with and without T2D using a 5-point hedonic scale assessing taste, aroma, texture, color, and overall liking. Friedman and Mann-Whitney U tests were used for statistical analyses. Laboratory nutrient analyses were performed using standard AOAC methods, and nutrient composition was reported per 100 g as consumed and per individual serving. Overall sensory acceptability was high across recipes, with overall liking scores ranging from 4.0 ± 0.6 to 4.8 ± 0.5. Friedman tests showed no significant differences in sensory ratings across recipes (all p > 0.05). Sensory ratings were generally similar between participants with and without T2D, with only a small difference observed for aroma ratings (p = 0.034, r = 0.107). Per-serving energy values ranged from 204.3 ± 24.7 kcal to 552.4 ± 15.3 kcal. All recipes met the predefined acceptability threshold (overall liking ≥ 4.0), and participant feedback identified only minor refinements related to seasoning or texture. Traditional Beninese recipes can be reformulated to align with T2D dietary recommendations without compromising sensory acceptability. By integrating dietary optimization, cultural adaptation, sensory evaluation, and laboratory nutrient analysis, this study provides a practical framework for culturally acceptable food-based diabetes interventions in sub-Saharan Africa.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1845418/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42459799/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "dietitian clinical nutrition",
+        "guideline and consensus",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "班寧第 2 型糖尿病文化適配食譜與感官接受度的品質評讀",
+      "content": "# 班寧第 2 型糖尿病文化適配食譜與感官接受度的品質評讀\n\n> [!info] 品質快照\n> **研究設計**：混合方法探索性研究，結合線性目標規劃、專家驗證、實驗室營養分析與消費者感官評估\n> **介入材料**：14 道依班寧傳統飲食改良的第 2 型糖尿病食譜\n> **感官樣本**：30 名成人，14 名有 T2D、16 名無 T2D；5 點喜好量表，評估味道、香氣、口感、色澤與整體喜好。\n> **主要結果**：14 道食譜整體喜好 4.0–4.8 分，均達預設門檻；每份熱量 204.3–552.4 kcal，並提供碳水化合物、蛋白質、脂肪和纖維分析。\n> **GRADE**：Very low ⊕◯◯◯。接受度結果有實務價值，單一地點、樣本小、短期感官測量，且沒有血糖反應、GI、GL、長期遵從或臨床結果。\n> **一句話判斷**：這篇證明傳統班寧菜色可以被改良成營養與感官都能接受的食譜，尚未證明這些食譜會改善 HbA1c、體重或長期飲食遵從。\n\n## 白話導讀\n\n這篇研究處理的是營養建議常遇到的落差：營養上合理的餐點，病人願不願意吃、家裡做不做得到、味道是否符合文化習慣？作者先用線性目標規劃設定營養、價格、份量與文化條件，再把 14 道班寧傳統菜色改成適合 T2D 飲食教育的版本。\n\n30 位成人試吃後，14 道食譜都達到整體喜好至少 4 分。這是很好的可行性訊號，但試吃一次和長期每天照著吃是兩件事。研究沒有測量實際遵從、血糖、HbA1c、GI 或 GL，所以成果層級停在食譜開發與感官接受度。\n\n## 研究方法\n\n- 研究在班寧南部 Cotonou 進行。\n- 14 道食譜由線性目標規劃設計，設定能量、碳水化合物、蛋白質、脂肪、纖維、部分微量營養素、價格、份量與文化可接受性條件。\n- 料理保留熟悉食材、調理方式、口感和香味，再降低部分精製澱粉、脂肪或鈉，增加蔬菜、豆類、魚、蛋或瘦肉等食材。\n- 三位具營養、烹飪科學與糖尿病專長的專家各自把每道菜做三次，檢查份量、流程、營養平衡、感官和可操作性。\n- 30 位消費者每人評估多道食譜，使用 5 點喜好量表，並提供文字回饋。\n- 實驗室將料理做三份，依 AOAC 標準分析水分、灰分、蛋白質、脂肪、纖維、碳水化合物與能量，並以每 100 g 和每份呈現。\n- 感官資料以 Friedman test、Mann–Whitney U test 和 Kendall’s W 分析，重複評分有依受試者內比較處理。\n- 預設保留條件包含整體喜好至少 4 分、營養適切、文化相關、備料可行和參與者意見。\n\n## 食譜與結果\n\n14 道食譜包括玉米 pâte、yam、豆類、蔬菜醬、番茄、魚、雞肉、蛋與其他班寧常見組合。研究保留傳統飲食的熟悉感，再調整份量、蛋白質來源、蔬菜比例、油脂、鹽或纖維。\n\n- 整體喜好分數為 4.0–4.8／5，14 道全部達到門檻。\n- Friedman test 沒有發現各食譜在味道、香氣、口感、色澤和整體喜好有顯著差異。\n- T2D 與非 T2D 參與者的感官評分大致相近，香氣有小幅差異，p=0.034，效果量 r=0.107，實務差異很小。\n- 每份熱量約 204.3–552.4 kcal，食譜間份量差異大，不能用單一道菜推論一整天的總熱量。\n- 研究報告食譜有中等碳水分布、蛋白質食材與纖維來源，仍有部分食譜纖維量低於 WHO 建議。\n- 參與者回饋主要是調整調味、口感或稠度，沒有食譜需要淘汰或大幅重做。\n\n## 方法品質評估\n\n| 面向 | 判定 | 理由 |\n|---|---|---|\n| 食譜設計 | 中高 | LGP、專家驗證、營養分析和文化適配串成完整開發流程。 |\n| 感官測量 | 中等 | 重複試吃、隨機呈現與 5 點量表適合探索，樣本仍小，量表分辨率有限。 |\n| 營養測量 | 中高 | 實驗室分析、三次製備、每 100 g 與每份呈現提升可用性。 |\n| 臨床效果 | 低 | 沒有血糖反應、GI、GL、HbA1c、體重、血壓或長期遵從資料。 |\n| 外部效度 | 低至中 | 單一地點 30 人，其他班寧地區、其他西非飲食文化與不同社經族群仍需測試。 |\n| 實務轉譯 | 中等 | 食譜可納入 OSanDiaBé 食譜冊，仍需實際社區試辦、成本與執行追蹤。 |\n\n## GRADE 判定\n\n本次依 paper-review skill 的 grade_judge.py 實際計算。以「文化適配食譜能提升營養適切、感官接受和長期 T2D 管理」為結果，觀察性／探索性研究以 Low 起始，risk of bias、indirectness 與 imprecision 各降一級，最後為 **Very low ⊕◯◯◯**。\n\n這個分數對感官接受度本身偏保守。14 道菜都達到 4 分以上，確實支持食譜有機會被接受。若要說會改善血糖或長期遵從，還要有較大樣本、重複暴露、實際飲食紀錄與臨床結果。\n\n## 推論漏洞檢查\n\n本次以 paper-review skill 的 argdown_lint.py 檢查「這些文化適配食譜會改善長期遵從和血糖管理」這個主張，工具回報 clean。工具沒有偵測到規則設定的前提類型跳躍，臨床判讀仍要分清楚：食譜好吃、營養成分達標，和病人長期照做、HbA1c 改善並非同一個結果。\n\n需要保留的界線：\n\n- 喜好量表是短期接受度，不是長期遵從度。\n- 食譜有營養分析，不等於每個人吃完的血糖反應相同。\n- 研究沒有直接測 GI 或 GL，不能把「低 GI」當作已被證實的結果。\n- 每份熱量與營養組成不同，食譜冊仍需要搭配餐次、總熱量、碳水分配和個別治療計畫。\n\n## 給營養師的臨床應用\n\n- 先從病人熟悉的主食、醬料、蔬菜和蛋白質組合開始，再調整份量、油脂、鹽和纖維，比直接換成陌生菜單更有機會維持。\n- 食譜交付時同時標每份重量、能量、碳水化合物、蛋白質、脂肪和纖維，方便放進碳水計算和餐次規劃。\n- 低收入或食物取得受限的個案，需把價格、季節性、保存設備和烹調時間列入設計條件。\n- 食譜接受度高仍要用實際飲食紀錄、餐後血糖、HbA1c、體重和飽足感追蹤，不能以試吃分數取代治療結果。\n- 纖維量偏低的餐點可搭配豆類、葉菜、全穀或其他當地可得來源，再依腸胃耐受、腎功能和用藥調整。\n- 需要建立食譜冊時，可採「固定營養框架加在地替換表」，讓家庭用同一套原則替換食材。\n\n## 研究透明度\n\n- 資助：National Institutes of Health Fogarty International Center，K01TW012422。\n- 利益衝突：作者宣告沒有商業利益衝突。\n- 資料：主要結果與補充資料已放在文章中，進一步問題可聯絡作者。\n- 倫理：University of Arizona IRB 與班寧 National Ethics Committee for Health Research 核准，參與者提供書面同意。\n- 生成式 AI：作者宣告未使用生成式 AI 撰寫本文。\n\n## 代表性文獻核對\n\n| DOI | Crossref／公開來源核對題名 | 本文用途 | 判定 |\n|---|---|---|---|\n| 10.2337/dci19-0014 | Nutrition Therapy for Adults With Diabetes or Prediabetes: A Consensus Report | T2D 營養治療背景 | DOI 與題名相符，本文未將外部背景當成食譜療效 |\n\n本篇主要證據來自食譜開發、感官試吃與實驗室營養分析，外部背景文獻不能替代食譜的臨床試驗。\n\n## 來源與執行證據\n\n- 已依安裝的 paper-review skill 實際執行本篇全文品質評讀，未用摘要或 metadata 代替。\n- 合法來源：Frontiers in Nutrition OA PDF，14 頁，原生文字可讀，題名、DOI、作者與正文身份核對通過。\n- 來源 PDF SHA-256：50f47af0ddbb58dad268d725d93794cd6b9d424804e3109a3ec5d1f531958728。\n- 本機全文文字 SHA-256：214383af8d384d1b8123183638da8ea49b189067b3167e14bad316abd5753362。\n- Methods、Results、Discussion、Conclusion 與限制段落均可定位。\n- grade_judge.py 實際輸出：Very low ⊕◯◯◯，downgrade_sum -3。\n- argdown_lint.py 實際輸出：clean，n_premises 4。\n\n## 參考文獻\n\nAlaofè H, Bankolé B, Ehiri J, Amoussa Hounkpatin W. From nutritional optimization to consumer acceptance: sensory and nutritional evaluation of culturally adapted recipes for type 2 diabetes in Benin. Frontiers in Nutrition. 2026. DOI: 10.3389/fnut.2026.1845418.",
+      "cards": [],
+      "completedAt": "2026-08-19T10:08:18.254Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1880074:digest",
+      "paperId": "doi:10.3389/fnut.2026.1880074",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Urinary bisphenol exposure and risk of type 1 diabetes and glycemic traits in Chinese children: a case-control study.",
+      "authors": "Yang M, Zhao X, Wang Y, Tang S, Xin Y, Song J, Zhou Y, Liu Z, Zhai L, Jia L",
+      "journal": "Frontiers in Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fnut.2026.1880074",
+      "abstract": "Bisphenol A (BPA) and its structural analogs, bisphenol F (BPF) and bisphenol S (BPS), are widely used in consumer products and increasingly detected in children. Although BPA has been linked to diabetes and impaired glucose metabolism in adults, evidence for BPF and BPS, particularly in the pediatric population, remains limited and inconsistent. This study examined the associations of individual and combined bisphenol exposures with type 1 diabetes mellitus (T1DM) risk and glucose homeostasis in children. We conducted a case-control study including 122 children with T1DM and 287 controls from Shenyang, China. For biomarker analysis, a subset of 110 participants (55 cases and 55 controls) was selected. Urinary bisphenol concentrations were measured using high-performance liquid chromatography-tandem mass spectrometry. Associations with T1DM risk and glycemic outcomes were evaluated using multivariable logistic and linear regression models. Bayesian kernel machine regression (BKMR) and Restricted cubic spline (RCS) analyses were further used to explore potential nonlinear relationships and interaction effects. BPA was detected in all samples, with widespread exposure to BPF and BPS. Higher urinary BPA and BPF levels were significantly associated with increased odds of T1DM. BPS was not associated with T1DM status but was consistently linked to elevated fasting glucose (β = 0.987, 95% CI: 0.104-1.871) and HbA1c (β = 0.327, 95% CI: 0.012-0.642). BKMR characterized the joint associations of bisphenol mixtures with the study outcomes, whereas RCS analyses suggested near-linear exposure-response relationships between BPS and glycemic traits. Exploratory interaction analyses suggested heterogeneity in selected associations by sex and case-control status. Higher urinary concentrations of BPA and BPF were associated with increased odds of T1DM in children, while BPS was linked to markers of impaired glucose regulation. These findings suggest that BPA substitutes may not be biologically inert and could be relevant to metabolic health during childhood. Further prospective and mechanistic studies are needed to better understand the biological pathways underlying these associations.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1880074/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42591340/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "human clinical population",
+        "obesity and metabolism",
+        "precision nutrition",
+        "safety and interaction"
+      ],
+      "noteTitle": "兒童尿液雙酚暴露與第 1 型糖尿病及血糖特徵的全文內容整理",
+      "content": "# 兒童尿液雙酚暴露與第 1 型糖尿病及血糖特徵的全文內容整理\n\n> [!summary] 30 秒掌握\n> 這篇中國瀋陽研究比較 122 名新診斷第 1 型糖尿病兒童和 287 名健康對照，並在其中 110 人測量尿液 BPA、BPF、BPS。BPA 和 BPF 濃度較高與 T1DM odds 較高相關，BPS 和較高空腹血糖及 HbA1c 相關。研究屬單中心病例對照，採尿時間接近診斷且只有一次，適合當作環境暴露警訊，不能證明雙酚造成 T1DM。\n\n## 一、全文地圖\n\n| 部分 | 讀到的重點 |\n|---|---|\n| 研究背景 | BPA 及替代物 BPF、BPS 廣泛存在於消費品、塑膠和食品包裝。 |\n| 研究對象 | 122 名 T1DM 病例、287 名健康對照，生物標記子樣本 110 人。 |\n| 暴露測量 | 尿液 BPA、BPF、BPS，以 UHPLC–MS/MS 測定和尿肌酸酐校正。 |\n| 主要結果 | BPA、BPF、總雙酚和 T1DM odds 相關，BPS 和血糖特徵相關。 |\n| 混合分析 | BKMR 探索多種雙酚共同暴露，PIP 最高的是 BPF。 |\n| 非線性分析 | RCS 探索暴露和 FBG、HbA1c、胰島素及 HOMA-β 的曲線。 |\n| 主要限制 | 單次尿液、短半衰期、病例對照設計、單中心與樣本小。 |\n\n## 二、研究怎麼做\n\n### 參與者\n\n- 研究在中國瀋陽一所醫院和兩所學校、一所幼兒園進行。\n- 病例是 1–14 歲新診斷 T1DM 兒童，依 2023 ADA criteria 確認。\n- 對照是沒有糖尿病或糖耐量異常的健康兒童，依年齡、性別和 BMI 頻率配對。\n- 122 名病例和 287 名對照完成問卷。\n- 因尿液和完整代謝資料可得性，只有 110 人進入雙酚分析，55 名病例和 55 名對照，年齡 6–14 歲。\n\n### 問卷與生物標記\n\n問卷包含父母教育、家庭收入、父母肥胖、吸菸、母親生育年齡、家庭糖尿病史、蔬菜水果、牛奶、速食、零食、螢幕時間、睡眠、身體活動與過敏史。\n\n病例在住院當天採集 spot urine，對照在研究登錄時採集。BPA、BPF 和 BPS 以 UHPLC–MS/MS 測定，尿肌酸酐校正為 μg/g Cr。空腹血液測量血糖、HbA1c、胰島素、C-peptide 和 HOMA-β。\n\n### 統計方法\n\n- logistic regression 分析 T1DM odds。\n- linear regression 分析 FBG、HbA1c、胰島素和 HOMA-β。\n- BKMR 看三種雙酚的混合暴露。\n- RCS 看可能的非線性。\n- 以 sex 和 case–control status 做探索性交互作用。\n- Benjamini–Hochberg FDR 控制同一暴露家族的多重檢定。\n\n## 三、研究發現\n\n### 兒童普遍接觸雙酚\n\n110 份尿液中，BPA 偵測率 100%，BPF 90.91%，BPS 99.09%。全體幾何平均濃度約為 BPA 3.95、BPF 1.16、BPS 1.51、總雙酚 9.48 μg/g creatinine。\n\nBPA、BPF 和總雙酚的 creatinine-adjusted 濃度在病例中較高。BPS 在病例中的濃度較低，這提醒讀者三種化合物不能用同一個方向解讀。\n\n### T1DM 關聯\n\n調整年齡、性別、居住地、父母教育、母親生育年齡和蔬菜攝取後：\n\n- BPA adjusted OR 2.452（95% CI 1.567–3.837）。\n- BPF adjusted OR 2.183（95% CI 1.543–3.087）。\n- 總雙酚 adjusted OR 2.939（95% CI 1.653–5.225）。\n- BPS adjusted OR 0.679（95% CI 0.469–0.982），方向與 BPA、BPF 不同。\n\n這些數字是病例對照的 odds ratio，不能轉成個人發病機率，也不能直接判定哪一種雙酚造成疾病。\n\n### 血糖特徵\n\n在合併病例與對照並調整 case–control status 後，BPS 和 FBG β 0.987、HbA1c β 0.327 相關。BPA、BPF 和總雙酚對 FBG、HbA1c、空腹胰島素或 HOMA-β 沒有穩定的調整後顯著結果。\n\nHOMA-β 的總雙酚分析出現可能的 J-shaped pattern，RCS 也看到非線性訊號，但樣本小、估計不精確，這部分只能當作後續研究方向。\n\n## 四、三層筆記\n\n### 第一層：三句話帶走\n\n1. BPA、BPF、BPS 在這群兒童尿液中很常見，但三種化合物和 T1DM、血糖的關聯方向不完全相同。\n2. BPA 和 BPF 與較高 T1DM odds 相關，BPS 與較高 FBG 和 HbA1c 相關。\n3. 單次尿液和病例對照設計無法證明暴露造成疾病，後續需要重複暴露測量和前瞻性研究。\n\n### 第二層：理解研究邏輯\n\n- **研究問題**：兒童雙酚暴露是否和 T1DM 或血糖特徵相關？\n- **病例對照**：比較新診斷病例和健康對照的尿液暴露。\n- **個別暴露**：看 BPA、BPF、BPS 各自的關聯。\n- **混合暴露**：用 BKMR 看三種化合物一起出現時的模式。\n- **代謝結果**：用 FBG、HbA1c、胰島素和 HOMA-β 補充看血糖調節。\n- **證據界線**：結果支持環境暴露值得監測，還不足以支持因果或個人風險預測。\n\n### 第三層：臨床轉譯\n\n- 家長想降低暴露時，從容器加熱、熱食盛裝、飲料包裝、反覆使用容器和高度包裝食品檢視。\n- 不要把 BPA-free 當成所有雙酚暴露都不存在，BPF 和 BPS 也是本文關注的替代物。\n- 以可負擔、可持續的家庭做法取代大幅刪除食物，避免造成兒童飲食不足或焦慮。\n- T1DM 飲食照護仍以胰島素、碳水化合物、血糖監測、成長和家庭日常為核心，不能用這篇病例對照結果取代標準治療。\n\n## 五、給家長的實務提醒\n\n- 塑膠容器要依產品標示使用，避免把不適合加熱的容器放入微波爐或長時間裝高溫油脂食物。\n- 飲水與飲料容器保持清潔，依材質標示更換，減少反覆磨損或變形容器的使用。\n- 包裝食品可以減量，但要用新鮮或簡單烹調食材替代，維持兒童的能量、蛋白質、鈣、鐵和蔬果攝取。\n- 有 T1DM 的孩子若出現血糖波動，先依醫療團隊的胰島素、餐次與碳水化合物計畫處理，無需自行做嚴格的化學物質排除飲食。\n\n## 六、研究限制\n\n- 病例在新診斷或住院當天採尿，疾病、住院、飲食變化或治療可能影響尿液濃度。\n- 雙酚半衰期短，單次 urine spot sample 無法代表長期或孕期、早期生命暴露。\n- 單中心病例和學校、幼兒園對照的來源不同，居住地和父母教育分布也有差異。\n- 生物標記樣本只有 110 人，性別和病例狀態分層更小，交互作用只能探索。\n- 缺少完整 T1DM 家族史與其他自身免疫疾病資訊，殘餘混雜仍可能存在。\n\n## 自我測驗卡\n\n### 卡 1｜研究測量了哪三種雙酚？\n\n**答案**：BPA、BPF 和 BPS，使用尿液 UHPLC–MS/MS 測量，再以尿肌酸酐校正。\n\n### 卡 2｜哪兩種雙酚和較高 T1DM odds 相關？\n\n**答案**：BPA 和 BPF，總雙酚混合指標也和較高 odds 相關。這是關聯結果，還不能寫成造成 T1DM。\n\n### 卡 3｜BPS 和哪些血糖結果相關？\n\n**答案**：BPS 和較高空腹血糖及 HbA1c 相關，BPA、BPF 在調整後沒有呈現相同的穩定結果。\n\n### 卡 4｜為什麼不能用一次尿液代表長期暴露？\n\n**答案**：雙酚在人體內的半衰期短，尿液濃度會受近期接觸、飲食、代謝和尿液稀釋影響，一次 spot urine 只反映短期狀態。\n\n### 卡 5｜家長可以採取什麼低負擔做法？\n\n**答案**：依容器標示加熱與保存，避免不適合加熱的塑膠容器接觸高溫食物，減少高度包裝食品，仍要維持兒童的能量與營養充足。\n\n## 來源與執行證據\n\n- 已依安裝的 paper-digest skill 實際執行全文內容整理，使用 Frontiers in Nutrition OA PDF。\n- PDF 12 頁，原生文字 56,465 字元，12 頁均有資訊性文字，replacement character 為 false。\n- 來源 PDF SHA-256：e9bb615bb3e1b404c0bbbd52132e9da68e80ca8ed6c17aee186b50dfa64df7c9。\n- 本機全文文字 SHA-256：9853b130b9f6e97e094ff6bb4efaf427f95f6520cccfad2d8e713434d6de9b1d。\n- DOI、題名、作者與正文身份核對通過，Methods、Results、Discussion、Conclusion 均可定位。\n\n## 參考文獻\n\nYang M, Zhao X, Wang Y, et al. Urinary bisphenol exposure and risk of type 1 diabetes and glycemic traits in Chinese children: a case–control study. Frontiers in Nutrition. 2026. DOI: 10.3389/fnut.2026.1880074.",
+      "cards": [
+        {
+          "title": "",
+          "question": "研究測量了哪三種雙酚？",
+          "answer": "BPA、BPF 和 BPS，使用尿液 UHPLC–MS/MS 測量，再以尿肌酸酐校正。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "哪兩種雙酚和較高 T1DM odds 相關？",
+          "answer": "BPA 和 BPF，總雙酚混合指標也和較高 odds 相關。這是關聯結果，還不能寫成造成 T1DM。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "BPS 和哪些血糖結果相關？",
+          "answer": "BPS 和較高空腹血糖及 HbA1c 相關，BPA、BPF 在調整後沒有呈現相同的穩定結果。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "為什麼不能用一次尿液代表長期暴露？",
+          "answer": "雙酚半衰期短，尿液濃度會受近期接觸、飲食、代謝和尿液稀釋影響，一次 spot urine 只反映短期狀態。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "家長可以採取什麼低負擔做法？",
+          "answer": "依容器標示加熱與保存，避免不適合加熱的塑膠容器接觸高溫食物，減少高度包裝食品，仍要維持兒童的能量與營養充足。",
+          "tags": []
+        }
+      ],
+      "completedAt": "2026-08-19T10:05:22.356Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1880074:review",
+      "paperId": "doi:10.3389/fnut.2026.1880074",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Urinary bisphenol exposure and risk of type 1 diabetes and glycemic traits in Chinese children: a case-control study.",
+      "authors": "Yang M, Zhao X, Wang Y, Tang S, Xin Y, Song J, Zhou Y, Liu Z, Zhai L, Jia L",
+      "journal": "Frontiers in Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fnut.2026.1880074",
+      "abstract": "Bisphenol A (BPA) and its structural analogs, bisphenol F (BPF) and bisphenol S (BPS), are widely used in consumer products and increasingly detected in children. Although BPA has been linked to diabetes and impaired glucose metabolism in adults, evidence for BPF and BPS, particularly in the pediatric population, remains limited and inconsistent. This study examined the associations of individual and combined bisphenol exposures with type 1 diabetes mellitus (T1DM) risk and glucose homeostasis in children. We conducted a case-control study including 122 children with T1DM and 287 controls from Shenyang, China. For biomarker analysis, a subset of 110 participants (55 cases and 55 controls) was selected. Urinary bisphenol concentrations were measured using high-performance liquid chromatography-tandem mass spectrometry. Associations with T1DM risk and glycemic outcomes were evaluated using multivariable logistic and linear regression models. Bayesian kernel machine regression (BKMR) and Restricted cubic spline (RCS) analyses were further used to explore potential nonlinear relationships and interaction effects. BPA was detected in all samples, with widespread exposure to BPF and BPS. Higher urinary BPA and BPF levels were significantly associated with increased odds of T1DM. BPS was not associated with T1DM status but was consistently linked to elevated fasting glucose (β = 0.987, 95% CI: 0.104-1.871) and HbA1c (β = 0.327, 95% CI: 0.012-0.642). BKMR characterized the joint associations of bisphenol mixtures with the study outcomes, whereas RCS analyses suggested near-linear exposure-response relationships between BPS and glycemic traits. Exploratory interaction analyses suggested heterogeneity in selected associations by sex and case-control status. Higher urinary concentrations of BPA and BPF were associated with increased odds of T1DM in children, while BPS was linked to markers of impaired glucose regulation. These findings suggest that BPA substitutes may not be biologically inert and could be relevant to metabolic health during childhood. Further prospective and mechanistic studies are needed to better understand the biological pathways underlying these associations.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1880074/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42591340/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "human clinical population",
+        "obesity and metabolism",
+        "precision nutrition",
+        "safety and interaction"
+      ],
+      "noteTitle": "兒童尿液雙酚暴露與第 1 型糖尿病及血糖特徵的品質評讀",
+      "content": "# 兒童尿液雙酚暴露與第 1 型糖尿病及血糖特徵的品質評讀\n\n> [!info] 品質快照\n> **研究設計**：中國瀋陽單中心 case–control study，2023 年 1–12 月收案\n> **對象**：122 名新診斷第 1 型糖尿病兒童與 287 名健康對照；尿液生物標記分析只有 110 人，55 對 55。\n> **暴露**：尿液 BPA、BPF、BPS，使用 UHPLC–MS/MS 測量並以 creatinine 校正。\n> **主要結果**：較高 BPA、BPF 與總雙酚暴露和較高 T1DM odds 相關；BPS 未和 T1DM 狀態呈同方向關聯，但和空腹血糖、HbA1c 較高相關。\n> **GRADE**：Very low ⊕◯◯◯。研究問題新、實驗測量精細，單次尿液、暴露與新診斷時間順序、樣本數和選擇偏差使確定性很低。\n> **一句話判斷**：這篇適合當作兒童環境暴露與代謝風險的警訊，不能據此證明 BPA 替代物造成第 1 型糖尿病，也不能用它制定個人暴露閾值。\n\n## 白話導讀\n\n作者想知道兒童常見的雙酚暴露，是否和第 1 型糖尿病或血糖狀態有關。研究把 BPA、BPF、BPS 從尿液中測出來，再和新診斷 T1DM 兒童及健康對照比較。\n\n研究結果有兩條線：BPA 和 BPF 的尿液濃度較高，和 T1DM odds 較高相關。BPS 沒有和 T1DM 狀態呈現相同結果，卻和空腹血糖、HbA1c 較高相關。這些結果值得追蹤，但病例是在新診斷或住院時採尿，尿液只代表近期暴露，無法確定暴露先於疾病發生。\n\n## 研究問題與方法\n\n- **地點與時間**：中國瀋陽，2023 年 1 月至 12 月。\n- **病例**：1–14 歲新診斷 T1DM 兒童 122 人，依 2023 ADA criteria 由兒科內分泌醫師確認。\n- **對照**：兩所學校與一所幼兒園招募 287 名健康兒童，依年齡、性別與 BMI 頻率配對，並做病史與實驗室篩檢。\n- **生物標記子樣本**：有尿液與完整代謝資料的 110 人，55 名病例與 55 名對照，年齡 6–14 歲，依年齡、性別與 BMI 配對。\n- **暴露測量**：尿液 BPA、BPF、BPS 以 UHPLC–MS/MS 測量，尿肌酸酐校正為 μg/g Cr，低於偵測極限者以 LOD／√2 處理。\n- **代謝結果**：空腹血糖、HbA1c、胰島素、C-peptide 與 HOMA-β。\n- **共變項**：年齡、性別、居住地、父母教育、母親生育年齡、蔬菜攝取，合併分析血糖特徵時另調整 case–control status。BMI 與一般糖尿病家族史放在敏感度分析。\n- **統計方法**：logistic regression、linear regression、BKMR mixture analysis、restricted cubic spline、交互作用分析與 Benjamini–Hochberg FDR。\n\n## 主要結果\n\n### 暴露普遍存在\n\n在 110 份尿液中，BPA 偵測率 100%，BPF 90.91%，BPS 99.09%。全體幾何平均濃度約為 BPA 3.95、BPF 1.16、BPS 1.51、總雙酚 9.48 μg/g creatinine。BPA、BPF 和總雙酚在病例中的 creatinine-adjusted 濃度較高，BPS 則相反。\n\n### T1DM odds\n\n調整年齡、性別、居住地、父母教育、母親生育年齡與蔬菜攝取後，較高 BPA、BPF 與總雙酚和 T1DM odds 較高相關。表格中的 adjusted OR 包含 BPA 2.452、BPF 2.183、總雙酚 2.939，均有統計顯著性。BPS 的 adjusted OR 為 0.679，方向與 BPA、BPF 不同。\n\n這些 OR 是病例對照研究的關聯估計，不能直接換算成兒童未來得到 T1DM 的機率，也不能說把尿液濃度降低某個幅度就能預防疾病。\n\n### 血糖特徵\n\n在調整 case–control status 等共變項後，BPS 和空腹血糖較高相關，β 0.987（95% CI 0.104–1.871），也和 HbA1c 較高相關，β 0.327（95% CI 0.012–0.642）。BPA、BPF 和總雙酚在調整後沒有和空腹血糖、HbA1c、空腹胰島素或 HOMA-β 呈現穩定顯著關聯。\n\nHOMA-β 的總雙酚結果出現整體關聯與非線性訊號，但信賴區間較寬，應視為探索結果。性別和病例狀態的交互作用也因子樣本小而屬 exploratory。\n\n## 方法品質評估\n\n| 面向 | 判定 | 理由 |\n|---|---|---|\n| 暴露測量 | 中高 | 使用 UHPLC–MS/MS、尿肌酸酐校正，並說明 QA/QC、LOD 與 LOQ。 |\n| 研究設計 | 低至中 | 病例對照適合探索罕見或新興暴露，無法確定暴露與疾病的時間順序。 |\n| 對照選擇 | 中等 | 學校與幼兒園對照有實務可行性，病例來自單一醫院，居住地與父母教育分布差異明顯。 |\n| 混雜控制 | 中等 | 以 DAG 設定主要調整集，另做 BMI 與家族史敏感度分析，仍缺少完整 T1DM 家族史與其他自身免疫資訊。 |\n| 樣本精確度 | 低 | 生物標記只有 110 人，分層與交互作用估計更不穩定。 |\n| 結果解讀 | 低 | 單次尿液反映短期暴露，不能推回長期暴露或疾病發生前的濃度。 |\n\n## GRADE 判定\n\n本次依 paper-review skill 的 grade_judge.py 實際計算。以尿液 BPA、BPF、BPS 和 T1DM／血糖特徵的關聯為結果，觀察性研究以 Low 起始。risk of bias、indirectness 與 imprecision 各降一級，最後為 **Very low ⊕◯◯◯**。\n\n降級的原因不是實驗室測量不精細，而是病例對照設計和採尿時間無法確定因果方向，110 人的生物標記樣本也不足以支持穩定的分層結論。\n\n## 推論漏洞檢查\n\n本次以 paper-review skill 的 argdown_lint.py 檢查「較高 BPA 替代物暴露會造成兒童 T1DM 和血糖失衡」這個主張，工具回報 clean。這代表規則工具沒有偵測到特定前提類型跳躍，不能取代因果判讀。文章本身也承認 case–control design、單次尿液和短半衰期無法建立時間順序。\n\n需要保留的推論界線：\n\n- BPA、BPF 和總雙酚與 T1DM odds 的關聯，不能直接寫成造成 T1DM。\n- BPS 和空腹血糖、HbA1c 的關聯，不能直接寫成已造成血糖失衡。\n- BKMR 的混合暴露曲線與 PIP 可協助探索多種暴露一起出現的型態，不能當作毒性排序或交互作用定論。\n- 兒童的尿液濃度可能受到近期飲食、容器、包裝、代謝與尿液稀釋影響，單次測量不等於日常平均暴露。\n\n## 對營養師的實務用法\n\n- 這篇可以放進兒童代謝健康與環境暴露的衛教背景，重點是降低不必要的接觸來源，不能把個案家長變成需要自行追蹤尿液數值的人。\n- 可檢視熱食與飲料是否長時間接觸塑膠容器、是否反覆使用不適合加熱的容器，以及是否常吃高度包裝食品。\n- 提供替代方案時，優先使用安全、可負擔、符合家庭習慣的玻璃、不鏽鋼或食品用途容器，並遵守產品標示的加熱與保存方式。\n- 不要把「BPA-free」直接等同於沒有環境暴露，本文研究的 BPF、BPS 也顯示替代物需要持續監測。\n- T1DM 個案的飲食建議仍以胰島素、碳水化合物、血糖監測、成長與家庭日常為主，不能因這篇觀察性研究自行大幅刪除食物種類。\n- 若家長想降低暴露，建議從容器加熱、包裝食品比例、飲水與家庭烹調習慣等可行項目開始，避免造成不必要的焦慮或營養限制。\n\n## 研究透明度\n\n- 資助：中國國家自然科學基金 82073575。\n- 利益衝突：作者宣告沒有可構成商業關係的利益衝突。\n- 資料：原始資料因倫理與個資限制未公開，合理申請可聯絡通訊作者。\n- 倫理：盛京醫院倫理審查通過，兒童監護人提供書面同意。\n- 生成式 AI：作者宣告未使用生成式 AI 撰寫本文。\n\n## 代表性參考文獻核對\n\n| DOI | Crossref／公開來源核對題名 | 本文用途 | 判定 |\n|---|---|---|---|\n| 10.2337/dc23-S014 | Children and Adolescents: Standards of Care in Diabetes—2023 | 兒童糖尿病照護與診斷背景 | DOI 與題名相符 |\n\n本篇外部文獻核對以現有正文與 DOI 身份為限，不能替代後續長期暴露研究。\n\n## 來源與執行證據\n\n- 已依安裝的 paper-review skill 實際執行本篇全文品質評讀，未使用摘要或 metadata 代替。\n- 合法來源：Frontiers in Nutrition OA PDF，12 頁，原生文字可讀，題名、DOI、作者與正文身份核對通過。\n- 來源 PDF SHA-256：e9bb615bb3e1b404c0bbbd52132e9da68e80ca8ed6c17aee186b50dfa64df7c9。\n- 本機全文文字 SHA-256：9853b130b9f6e97e094ff6bb4efaf427f95f6520cccfad2d8e713434d6de9b1d。\n- Methods、Results、Discussion、Conclusion 與限制段落均可定位。\n- grade_judge.py 實際輸出：Very low ⊕◯◯◯，downgrade_sum -3。\n- argdown_lint.py 實際輸出：clean，n_premises 4。\n\n## 參考文獻\n\nYang M, Zhao X, Wang Y, et al. Urinary bisphenol exposure and risk of type 1 diabetes and glycemic traits in Chinese children: a case–control study. Frontiers in Nutrition. 2026. DOI: 10.3389/fnut.2026.1880074.",
+      "cards": [],
+      "completedAt": "2026-08-19T10:03:43.608Z"
+    },
+    {
+      "id": "doi:10.1136/bmjph-2025-004599:digest",
+      "paperId": "doi:10.1136/bmjph-2025-004599",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Social environments and lifestyles linked to mortality and future health risks in metabolic syndrome: evidence from UK and US nationwide cohort studies.",
+      "authors": "Dong Q, Yin X, Jing Z, Dayimu A, Gao T, Gai Y, Li Y, Chen S, Jiang F, Wang L",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.1136/bmjph-2025-004599",
+      "abstract": "Metabolic syndrome (MetS) poses a major public health challenge. This study examined how social environments and their interactions with lifestyle behaviours influence mortality, life expectancy and disease risks in adults with MetS from the UK and USA. Adults with MetS were identified from the UK Biobank (2006-2010, n=60 423; mean follow-up 12.8 years) and US National Health and Nutrition Examination Survey (NHANES) (1999-2018, n=11 170; mean follow-up 8.0 years). Weighted scores for social environment (socioeconomic status, social capital, healthcare access, built environment) and healthy lifestyle (smoking, alcohol, physical activity, diet) were categorised into tertiles. Primary outcomes were all-cause and cause-specific mortality (cardiovascular disease (CVD), cerebrovascular disease (CBVD), chronic kidney disease (CKD)) in both cohorts and incident diseases in UK Biobank. Cox regression assessed associations and interactions. Unfavourable (vs favourable) social environments were associated with higher all-cause mortality in UK Biobank (HR 1.72, 95% CI 1.62 to 1.83) and NHANES (HR 2.30, 95% CI 1.95 to 2.71), with consistent patterns for CVD, CBVD and CKD outcomes. Life expectancy at age 45 was reduced by 3.49 (95% CI 3.40 to 3.57) years (UK Biobank) and 7.81 (95% CI 7.56 to 8.07) years (NHANES). Social environments contributed substantially to mortality burden (population attributable fraction: 17.0% and 24.1%, respectively), largely driven by socioeconomic status and social capital. Significant interactions showed that healthy lifestyles conferred stronger protection in unfavourable environments. Joint exposure to unfavourable environment and unhealthy lifestyle markedly increased mortality risk (HRs 2.5-3.5). Unfavourable social environments consistently predict adverse outcomes in MetS across contexts. Their synergy with lifestyle behaviours underscores the need for integrated interventions addressing both environmental and behavioural factors, especially in disadvantaged populations.",
+      "legalFullTextUrl": "https://doi.org/10.1136/bmjph-2025-004599",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42602562/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "health promotion and lifestyle",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "safety and interaction"
+      ],
+      "noteTitle": "代謝症候群的社會環境、生活型態與長期健康風險的全文內容整理",
+      "content": "# 代謝症候群的社會環境、生活型態與長期健康風險的全文內容整理\n\n> [!summary] 30 秒掌握\n> 這篇研究用 UK Biobank 和 US NHANES 兩個大型世代資料庫，追蹤有代謝症候群成人的社會環境、生活型態與長期健康結果。社會環境包含社經地位、社會資本、醫療可近性和建成環境，生活型態包含吸菸、酒精、活動與飲食。結果顯示，不利社會環境和較高死亡及疾病風險相關，健康生活型態在不利環境中仍有保護關聯。研究能提醒我們把營養照護放進生活條件裡看，不能把觀察性關聯當成介入造成的效果。\n\n## 一、全文地圖\n\n| 部分 | 讀到的重點 |\n|---|---|\n| 研究問題 | 社會環境和生活型態是否一起影響代謝症候群成人的死亡、壽命與未來疾病？ |\n| 資料來源 | UK Biobank 60,423 人，NHANES 11,170 人。 |\n| 暴露分數 | 社會環境四大領域，加上吸菸、酒精、活動與飲食的健康生活型態分數。 |\n| 主要結果 | 全因死亡、心血管死亡、腦血管死亡、腎臟病死亡，以及 UK Biobank 的新發疾病。 |\n| 主要發現 | 不利社會環境風險較高，健康生活型態仍有保護關聯，兩者有交互作用。 |\n| 臨床提醒 | 飲食執行度受到食物取得、時間、收入、醫療與社會支持影響。 |\n| 研究限制 | 單次自陳、觀察性設計、殘餘混雜、跨資料庫變項差異與樣本選擇問題。 |\n\n## 二、研究怎麼做\n\n### 兩個資料庫\n\n- UK Biobank 收案約在 2006–2010 年，納入 60,423 名代謝症候群成人，平均追蹤 12.77 年。\n- NHANES 使用 1999–2018 年資料，納入 11,170 名成人，平均追蹤 8.03 年。\n- 兩個資料庫都追蹤死亡，UK Biobank 另分析新發心血管疾病、腦血管疾病與慢性腎臟病。\n- 研究用 Cox regression、競爭風險分析、生命表與參數存活模型，並檢查乘法和加法交互作用。\n\n### 社會環境分數\n\n作者把社會環境拆成四類：社經地位、社會資本、醫療可近性、居住地建成環境。兩個資料庫的資料欄位不同，所以研究團隊建立相近但不完全相同的指標，再分成有利、中間與不利三組。\n\n### 健康生活型態分數\n\n生活型態分數把吸菸、酒精、身體活動和飲食放在一起。作者依相關證據和結果關聯設定權重，再和社會環境分成九個聯合組別，最有利的社會環境加健康生活型態作為參照。\n\n## 三、研究結果\n\n### 死亡與壽命\n\n- 不利社會環境相對有利環境的全因死亡 HR，在 UK Biobank 為 1.72（95% CI 1.62–1.83），NHANES 為 2.30（95% CI 1.95–2.71）。\n- 45 歲時，不利社會環境的估計壽命在 UK Biobank 少 3.49 年，在 NHANES 少 7.81 年。\n- 不利社會環境對全因死亡的 population attributable fraction 在 UK Biobank 為 17.0%，NHANES 為 24.1%。這是統計模型估計，不能直接解讀成單一政策可以消除的死亡比例。\n- 心血管、腦血管和腎臟病死亡大致呈現相同方向，NHANES 的腎臟病死亡事件較少，估計較不穩定。\n\n### 新發心血管、腦血管與腎臟病\n\nUK Biobank 中，不利社會環境和新發心血管疾病 HR 1.28、腦血管疾病 HR 1.46、慢性腎臟病 HR 1.32 相關。這些結果經過年齡、性別、BMI、代謝症候群組成數和多項共病調整，但仍屬觀察性關聯。\n\n### 生活型態的保護關聯\n\n健康生活型態和較低風險相關，而且在不利社會環境中的保護關聯較強。UK Biobank 中，健康生活型態相對不健康生活型態的全因死亡 HR，在有利環境為 0.72，在不利環境為 0.62。\n\n研究也發現不利環境加不健康生活型態的聯合暴露，和最高的死亡風險相關，摘要報告全因死亡 HR 約 2.5–3.5。這支持整合環境和個人行為的照護架構，仍不能證明只要改變某一項行為就會帶來同樣幅度的效果。\n\n## 四、三層筆記\n\n### 第一層：三句話帶走\n\n1. 代謝症候群的長期風險和個人生活型態、社會環境一起相關。\n2. 健康生活型態在資源較差的環境中仍有保護關聯，介入不能只要求個人更努力。\n3. 營養評估要問食物取得、預算、時間、醫療可近性、家庭支持和安全活動空間。\n\n### 第二層：研究邏輯\n\n- **問題**：社會環境和生活型態是否共同影響代謝症候群結果？\n- **資料**：兩個大型前瞻性世代資料庫。\n- **暴露**：社會環境分數與健康生活型態分數。\n- **結果**：死亡、壽命與新發心血管、腦血管、腎臟病。\n- **分析**：多變項存活分析、交互作用和敏感度分析。\n- **結論層級**：結果可用於風險辨識與政策假說，因果效果仍需介入研究。\n\n### 第三層：臨床轉譯\n\n- 個案說「做不到飲食計畫」時，要查找環境障礙，不能直接歸因於意志力。\n- 飲食建議應考慮價格、保存、烹調設備、工作型態、家庭共餐和交通。\n- 以低成本、容易取得、符合文化的蛋白質、蔬菜、全穀與豆類安排，通常比抽象的健康清單容易執行。\n- 追蹤時把飲食、活動、吸菸、酒精、腰圍、血壓、血糖和血脂放在同一張照護紀錄中。\n- 生活型態是社會環境影響健康的可能中介，把它放入統計模型後，部分總效果可能被調整掉，解讀要留意。\n\n## 五、營養師評估可以怎麼問\n\n### 食物與經濟\n\n- 一週食物預算大約多少？\n- 最近一次採買需要花多少時間和交通成本？\n- 家中有冰箱、爐具和能準備食物的時間嗎？\n- 是否需要照顧家人，導致用餐時間不固定？\n\n### 醫療與支持\n\n- 是否能穩定取得藥物、檢驗和營養諮詢？\n- 是否有語言、識字、交通或數位工具障礙？\n- 家庭成員是否能配合餐點與活動安排？\n\n### 實際介入\n\n- 先選一項最容易改變的行為，設定一週內可觀察的目標。\n- 提供替代食材和預算版本，降低執行成本。\n- 把活動安排放到安全、可達的環境，例如室內步行、家中肌力訓練或社區資源。\n- 用腰圍、血壓、血糖、血脂、飲食紀錄和生活品質追蹤，不把體重當成唯一成果。\n\n## 六、研究限制要記得\n\n- 社會環境和生活型態多在單一時間點自陳，可能有測量誤差，無法呈現後續變化。\n- UK Biobank 有健康志願者偏差，NHANES 排除住在醫療機構的人，樣本不一定代表所有代謝症候群成人。\n- 兩個資料庫的社會環境欄位不完全相同，跨國比較要保留差異。\n- 加權分數使用和死亡結果的回歸係數，可能有過度配適問題，作者以未加權分數做敏感度分析。\n- 生活型態和代謝症候群特徵可能是中介，模型調整後的結果不能直接當成社會環境的總效果。\n- 未測量的健康識能、食物可得性、治療依從和心理壓力仍可能影響結果。\n\n## 自我測驗卡\n\n### 卡 1｜這篇研究是隨機介入試驗嗎？\n\n**答案**：不是。它使用 UK Biobank 與 NHANES 的觀察性世代資料，能分析長期關聯，不能直接證明介入因果。\n\n### 卡 2｜社會環境分數包含哪些範圍？\n\n**答案**：社經地位、社會資本、醫療可近性與建成環境。兩個資料庫使用的實際欄位不完全相同。\n\n### 卡 3｜研究觀察到不利社會環境的全因死亡 HR 大約是多少？\n\n**答案**：UK Biobank 為 1.72，NHANES 為 2.30，都是和有利社會環境比較。這是關聯估計，不能直接當成個人命運或介入效果。\n\n### 卡 4｜為什麼生活型態建議要考慮社會環境？\n\n**答案**：食物價格、取得距離、醫療可近性、工作時間、家庭支持與活動空間會影響執行。研究顯示健康生活型態在不利環境中仍有保護關聯，提示介入要搭配資源調整。\n\n### 卡 5｜這篇研究最重要的因果限制是什麼？\n\n**答案**：社會環境和生活型態主要在單一時間點測量，研究仍可能有選擇偏差、殘餘混雜、分數過度配適與未測量的健康識能或食物可得性因素。\n\n## 來源與執行證據\n\n- 已依安裝的 paper-digest skill 實際執行全文內容整理，使用 BMJ Public Health OA PDF。\n- PDF 16 頁，原生文字 83,173 字元，16 頁均有資訊性文字，replacement character 為 false。\n- 來源 PDF SHA-256：ef60b3bb0c26514d7b30fabf7438a72a88618ab9409d398b7e54c757d820e042。\n- 本機全文文字 SHA-256：7fa974225518304b8c58cb3353673cb0a2311c6964781eb05de22a194eadbb6f。\n- DOI、題名、作者與正文身份核對通過，Methods、Results、Discussion、Conclusions 均可定位。\n\n## 參考文獻\n\nDong Q, Yin X, Jing Z, et al. Social environments and lifestyles linked to mortality and future health risks in metabolic syndrome: evidence from UK and US nationwide cohort studies. BMJ Public Health. 2026;4:e004599. DOI: 10.1136/bmjph-2025-004599.",
+      "cards": [
+        {
+          "title": "",
+          "question": "這篇研究是隨機介入試驗嗎？",
+          "answer": "不是。它使用 UK Biobank 與 NHANES 的觀察性世代資料，能分析長期關聯，不能直接證明介入因果。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "社會環境分數包含哪些範圍？",
+          "answer": "社經地位、社會資本、醫療可近性與建成環境，兩個資料庫使用的實際欄位不完全相同。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "研究觀察到不利社會環境的全因死亡 HR 大約是多少？",
+          "answer": "UK Biobank 為 1.72，NHANES 為 2.30，都是和有利社會環境比較。這是關聯估計，不能直接當成個人命運或介入效果。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "為什麼生活型態建議要考慮社會環境？",
+          "answer": "食物價格、取得距離、醫療可近性、工作時間、家庭支持與活動空間會影響執行。研究顯示健康生活型態在不利環境中仍有保護關聯，提示介入要搭配資源調整。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "這篇研究最重要的因果限制是什麼？",
+          "answer": "社會環境和生活型態主要在單一時間點測量，研究仍可能有選擇偏差、殘餘混雜、分數過度配適與未測量的健康識能或食物可得性因素。",
+          "tags": []
+        }
+      ],
+      "completedAt": "2026-08-19T10:00:09.988Z"
+    },
+    {
+      "id": "doi:10.1136/bmjph-2025-004599:review",
+      "paperId": "doi:10.1136/bmjph-2025-004599",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Social environments and lifestyles linked to mortality and future health risks in metabolic syndrome: evidence from UK and US nationwide cohort studies.",
+      "authors": "Dong Q, Yin X, Jing Z, Dayimu A, Gao T, Gai Y, Li Y, Chen S, Jiang F, Wang L",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.1136/bmjph-2025-004599",
+      "abstract": "Metabolic syndrome (MetS) poses a major public health challenge. This study examined how social environments and their interactions with lifestyle behaviours influence mortality, life expectancy and disease risks in adults with MetS from the UK and USA. Adults with MetS were identified from the UK Biobank (2006-2010, n=60 423; mean follow-up 12.8 years) and US National Health and Nutrition Examination Survey (NHANES) (1999-2018, n=11 170; mean follow-up 8.0 years). Weighted scores for social environment (socioeconomic status, social capital, healthcare access, built environment) and healthy lifestyle (smoking, alcohol, physical activity, diet) were categorised into tertiles. Primary outcomes were all-cause and cause-specific mortality (cardiovascular disease (CVD), cerebrovascular disease (CBVD), chronic kidney disease (CKD)) in both cohorts and incident diseases in UK Biobank. Cox regression assessed associations and interactions. Unfavourable (vs favourable) social environments were associated with higher all-cause mortality in UK Biobank (HR 1.72, 95% CI 1.62 to 1.83) and NHANES (HR 2.30, 95% CI 1.95 to 2.71), with consistent patterns for CVD, CBVD and CKD outcomes. Life expectancy at age 45 was reduced by 3.49 (95% CI 3.40 to 3.57) years (UK Biobank) and 7.81 (95% CI 7.56 to 8.07) years (NHANES). Social environments contributed substantially to mortality burden (population attributable fraction: 17.0% and 24.1%, respectively), largely driven by socioeconomic status and social capital. Significant interactions showed that healthy lifestyles conferred stronger protection in unfavourable environments. Joint exposure to unfavourable environment and unhealthy lifestyle markedly increased mortality risk (HRs 2.5-3.5). Unfavourable social environments consistently predict adverse outcomes in MetS across contexts. Their synergy with lifestyle behaviours underscores the need for integrated interventions addressing both environmental and behavioural factors, especially in disadvantaged populations.",
+      "legalFullTextUrl": "https://doi.org/10.1136/bmjph-2025-004599",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42602562/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "health promotion and lifestyle",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "safety and interaction"
+      ],
+      "noteTitle": "代謝症候群的社會環境、生活型態與長期健康風險的品質評讀",
+      "content": "# 代謝症候群的社會環境、生活型態與長期健康風險的品質評讀\n\n> [!info] 品質快照\n> **研究設計**：UK Biobank 與 US NHANES 兩個前瞻性世代資料庫的觀察性分析\n> **樣本**：UK Biobank 60,423 人，平均追蹤 12.8 年；NHANES 11,170 人，平均追蹤 8.0 年，對象都是代謝症候群成人。\n> **暴露**：社會環境綜合分數，包含社經地位、社會資本、醫療可近性與建成環境；健康生活型態分數包含吸菸、酒精、身體活動與飲食。\n> **主要結果**：不利社會環境和全因死亡、心血管死亡、腦血管死亡、腎臟病死亡及 UK Biobank 的新發疾病風險相關，健康生活型態在不利環境中的保護關聯較強。\n> **GRADE**：Very low ⊕◯◯◯。大型前瞻性世代資料與跨國一致性是優點，單次自陳暴露、選擇偏差、殘餘混雜與結果導向加權分數使因果確定性受限。\n> **一句話判斷**：這篇很適合支持「營養與生活型態介入要放進社會脈絡」的照護觀點，不能單靠關聯結果證明改善社會環境或改變生活型態一定會降低死亡。\n\n## 白話導讀\n\n這篇研究問的不是「哪一種飲食最好」，它在問一個更接近真實照護的問題：有代謝症候群的人，住在什麼樣的社會環境，平常的生活型態，會不會一起影響長期死亡與疾病風險？\n\n作者把社會環境和健康生活型態各做成分數，再放進兩個大型資料庫追蹤。結果顯示，不利社會環境和較高死亡風險有穩定關聯。生活型態較健康的人，在不利環境中仍看得到保護關聯，這支持營養師把食物取得、醫療可近性、社會支持、居住安全與生活壓力一起問進評估。\n\n文章仍是觀察性研究。社會環境與生活型態主要在單一時間點測量，分數也可能受到未測量因素影響，因此結果可以支持風險辨識和政策假說，不能直接當成介入試驗的效果。\n\n## 研究問題與資料來源\n\n- UK Biobank 收案約在 2006–2010 年，分析 60,423 名代謝症候群成人，平均追蹤 12.77 年。\n- NHANES 使用 1999–2018 年資料，分析 11,170 名成人，平均追蹤 8.03 年。\n- 兩個資料庫都分析全因死亡與部分死因死亡。UK Biobank 另分析新發心血管疾病、腦血管疾病與慢性腎臟病。\n- 研究使用 Cox regression、競爭風險模型、生命表與參數存活模型，並分析乘法交互作用與加法交互作用 RERI。\n- 作者做了排除前兩年事件、排除主要共病、多重插補、改用未加權分數、調整 NHANES 年齡範圍等敏感度分析。\n\n## 暴露如何定義\n\n### 社會環境\n\n社會環境分數整合社經地位、社會資本、醫療可近性與居住地建成環境。兩個資料庫可用變項不同，作者盡量建立相近指標，再依加權分數分成有利、中間與不利三組。\n\n### 健康生活型態\n\n生活型態分數包含吸菸、酒精、身體活動與飲食。作者依過去證據與各因素和健康結果的關聯建立加權分數，再和社會環境三分位交叉成九組，參照組是有利社會環境加健康生活型態。\n\n這種做法能描述複合暴露，也會讓解讀變得更複雜。分數把不同程度的吸菸、飲食與活動合在一起，無法直接回答「增加多少蔬菜」或「每週多做多少活動」會改變多少風險。\n\n## 主要結果\n\n### 死亡與壽命\n\n- 和有利社會環境相比，不利環境的全因死亡 HR 在 UK Biobank 為 1.72（95% CI 1.62–1.83），在 NHANES 為 2.30（95% CI 1.95–2.71）。\n- 45 歲時，不利環境的估計壽命在 UK Biobank 少 3.49 年，在 NHANES 少 7.81 年。\n- 不利社會環境對全因死亡的 population attributable fraction 在 UK Biobank 為 17.0%，NHANES 為 24.1%。這是模型和族群分布下的估計，不能直接當成可由單一政策消除的死亡比例。\n- 心血管、腦血管與腎臟病死亡大致呈現不利環境較高的關聯，NHANES 腎臟病死亡事件少，信賴區間較寬，解讀要保守。\n\n### 新發疾病\n\n在 UK Biobank 中，不利社會環境和新發心血管疾病 HR 1.28（95% CI 1.23–1.34）、腦血管疾病 HR 1.46（95% CI 1.35–1.59）、慢性腎臟病 HR 1.32（95% CI 1.24–1.42）相關。模型已調整年齡、性別、BMI、代謝症候群組成數與多項共病，但這些調整不會消除所有混雜。\n\n### 社會環境與生活型態交互作用\n\n- 健康生活型態和較低死亡風險相關，而且在不利社會環境中的保護關聯較強。\n- UK Biobank 中，健康生活型態相對不健康生活型態的全因死亡 HR，在有利環境為 0.72（95% CI 0.64–0.82），在不利環境為 0.62（95% CI 0.55–0.69）。\n- 不利環境加不健康生活型態的聯合暴露，和最高的死亡風險相關，摘要報告全因死亡 HR 約 2.5–3.5。\n- 四個生活型態因素中，未吸菸對 population attributable fraction 的貢獻最大。這不等於飲食沒有作用，代表此研究的分數與死亡關聯中，吸菸訊號最強。\n\n## 方法品質評估\n\n| 面向 | 判定 | 理由 |\n|---|---|---|\n| 研究規模 | 良好 | 兩個大型資料庫，死亡與新發疾病事件數充足。 |\n| 時序性 | 中高 | 生活型態與社會環境先於多數追蹤結果，優於橫斷面研究。 |\n| 暴露測量 | 中等 | 多領域綜合分數有概念價值，兩資料庫變項不完全相同，且主要是單次自陳。 |\n| 結果測量 | 中高 | 死亡與部分疾病結果有長期追蹤，疾病定義與可用結果依資料庫不同。 |\n| 混雜控制 | 中等 | 有多層模型、敏感度分析與多重插補，仍可能有健康識能、食物可得性、治療依從等未測量混雜。 |\n| 外部效度 | 中等 | UK Biobank 有健康志願者偏差，NHANES 排除住在醫療機構者，兩者都未涵蓋所有族群。 |\n| 因果解讀 | 低 | 觀察性資料、單次暴露測量與加權分數不能取代生活型態或社會政策的隨機介入證據。 |\n\n## GRADE 判定\n\n本次以 paper-review skill 的 grade_judge.py 實際計算。研究結果的 RCT 起始層級不適用，因此以觀察性研究 Low 起始。risk of bias 因單次自陳、健康志願者偏差、殘餘混雜與結果導向加權分數降一級，其餘主要領域未再降級，最後為 **Very low ⊕◯◯◯**。\n\n這個分數不是否定研究價值。它表示「若要把關聯轉成改善社會環境或生活型態一定能降低死亡」的因果推論，確定性很低。對照護分流、社會風險辨識和研究假說，文章仍有實用性。\n\n## 推論漏洞檢查\n\n本次以 paper-review skill 的 argdown_lint.py 檢查「改善社會環境和健康生活型態會降低代謝症候群成人的死亡與未來疾病」這個主張，工具回報 clean。工具沒有發現規則設定的前提類型跳躍，仍要保留研究設計限制：本文看到的是預測與關聯，不能直接宣稱介入造成事件下降。\n\n主要推論風險有三個：\n\n- 社會環境分數和生活型態分數可能反映整體資源、健康識能與醫療利用，單一分數很難拆出個別可改變因素。\n- 生活型態可能同時是社會環境影響健康的中介，將它放進模型後，部分總效果可能被調整掉。\n- 受試者在追蹤期間的社會環境、飲食、活動和吸菸可能改變，單次測量無法完整呈現累積暴露。\n\n## 給營養師的臨床應用\n\n- 評估代謝症候群時，把食物預算、採買距離、廚房設備、工作時間、照顧責任、醫療可近性與社會支持一起問。\n- 先找出最實際的阻礙，例如沒有冷藏設備、輪班、無法負擔高品質蛋白質、缺少安全活動空間，再設定可完成的小目標。\n- 飲食建議可放在低成本、容易保存、符合文化與家庭共餐的食物架構，避免把「健康飲食」變成需要額外資源才能執行的清單。\n- 追蹤飲食、活動、吸菸、酒精、體重、腰圍、血壓、血糖與血脂時，記錄環境變化，因為依從度不只由個人意志決定。\n- 健康生活型態在不利環境中仍有保護關聯，這支持提供資源調整後的生活型態介入，不能因社會條件差就放棄介入。\n- 這篇文章不能替代個別病人的藥物、飲食、運動或社會福利評估，也不能用 HR 直接預測個人壽命。\n\n## 研究透明度\n\n- 資助：中國國家自然科學基金 72204143，以及山東省自然科學基金 ZR2022QG081。\n- 利益衝突：作者宣告無利益衝突。\n- 資料：NHANES 可由 CDC 公開取得，UK Biobank 需依申請程序取得。\n- 倫理：兩個資料庫原始研究均有倫理審查和書面同意，本次分析使用去識別化公開資料，另說明分析層級的審查安排。\n- 病人或公眾未參與研究設計、執行、報告或傳播規劃。\n\n## 代表性文獻核對\n\n| DOI | Crossref／公開來源核對題名 | 本文用途 | 判定 |\n|---|---|---|---|\n| 10.2337/dci20-0053 | Social Determinants of Health and Diabetes: A Scientific Review | 社會決定因素與代謝照護背景 | DOI 與題名相符 |\n| 10.1186/1741-7015-10-138 | Effects of lifestyle modification on metabolic syndrome: a systematic review and meta-analysis | 生活型態介入背景 | DOI 與題名相符 |\n\n公開文獻核對只用於背景身份確認，不能替代本篇兩個世代資料庫的偏差評估。\n\n## 來源與執行證據\n\n- 已依安裝的 paper-review skill 實際執行本篇全文品質評讀，未用摘要或 metadata 代替。\n- 合法來源：BMJ Public Health OA PDF，16 頁，原生文字可讀，題名、DOI、作者與正文身份核對通過。\n- 來源 PDF SHA-256：ef60b3bb0c26514d7b30fabf7438a72a88618ab9409d398b7e54c757d820e042。\n- 本機全文文字 SHA-256：7fa974225518304b8c58cb3353673cb0a2311c6964781eb05de22a194eadbb6f。\n- Methods、Results、Discussion、Conclusions 與 limitations 段落均可定位。\n- grade_judge.py 實際輸出：Very low ⊕◯◯◯，downgrade_sum -1。\n- argdown_lint.py 實際輸出：clean，n_premises 4。\n\n## 參考文獻\n\nDong Q, Yin X, Jing Z, et al. Social environments and lifestyles linked to mortality and future health risks in metabolic syndrome: evidence from UK and US nationwide cohort studies. BMJ Public Health. 2026;4:e004599. DOI: 10.1136/bmjph-2025-004599.",
+      "cards": [],
+      "completedAt": "2026-08-19T09:58:23.736Z"
+    },
+    {
+      "id": "doi:10.1007/s13300-026-01908-x:digest",
+      "paperId": "doi:10.1007/s13300-026-01908-x",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Survodutide for Obesity in Chinese Adults: Phase 3 Randomized Trial Design and Baseline Characteristics (SYNCHRONIZE™-CN).",
+      "authors": "Ji L, Chen L, Cheng Z, Lu Y, Yang Y, Fu F, Zhu Y, Jin L, Kloer I",
+      "journal": "Obesity and metabolism (PubMed)",
+      "year": "2026",
+      "doi": "10.1007/s13300-026-01908-x",
+      "abstract": "We aimed to describe the rationale, design, and overall baseline characteristics of the trial evaluating the efficacy, safety, and tolerability of survodutide in Chinese adults with overweight or obesity (SYNCHRONIZE™-CN, NCT06214741). In this 76-week, multicenter, randomized, double-blind, placebo-controlled, phase 3 trial, Chinese participants were randomized 1:1:1 to once-weekly subcutaneous survodutide (3.6 mg or 4.8 mg) or placebo plus lifestyle intervention. Participants with either body mass index (BMI) ≥ 28 kg/m2 or BMI ≥ 24 kg/m2 and at least one obesity-related complication were eligible. The primary endpoints were the percentage change in body weight and achievement of body weight reduction ≥ 5% from baseline to week 52. At baseline, participants (N = 306) had a mean age of 36.9 years, body weight 93.9 kg, waist circumference 105.6 cm, BMI 33.2 kg/m2, triglycerides 2.2 mmol/L. 49% were women. 72.9% had at least one obesity-related complication, with metabolic dysfunction‑associated steatotic liver disease (48.4%), dyslipidemia (42.2%), hypertension (27.8%), and type 2 diabetes mellitus (16.7%) being the most prevalent, followed by obstructive sleep apnea (4.6%) and cardiovascular diseases (4.2%). In total, 19.6% had prediabetes. This trial was designed to provide a robust evaluation of efficacy and safety of survodutide for the treatment of obesity or overweight in Chinese adults. Clinical Trials.gov identifier, NCT06214741.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42599381/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "health promotion and lifestyle",
+        "human clinical population",
+        "obesity and metabolism",
+        "safety and interaction"
+      ],
+      "noteTitle": "中國成人 survodutide 減重試驗設計與基線風險的全文內容整理",
+      "content": "# 中國成人 survodutide 減重試驗設計與基線風險的全文內容整理\n\n> [!summary] 30 秒掌握\n> 這篇不是 survodutide 的減重結果論文，內容是 SYNCHRONIZE-CN 第 3 期試驗的設計與 306 名受試者基線資料。試驗採 1:1:1 隨機、雙盲、安慰劑對照，追蹤 76 週，所有組別都搭配約 500 kcal／日熱量赤字與每週至少 150 分鐘活動建議。主要療效要看第 52 週體重百分比變化與體重下降至少 5% 的比例，本文尚未提供結果。\n\n## 一、全文地圖\n\n| 部分 | 讀到的重點 |\n|---|---|\n| 研究背景 | 肥胖治療需要兼顧減重、共病與長期安全性，survodutide 是 GLP-1／glucagon 雙受體作用藥物。 |\n| 研究目的 | 說明中國成人第 3 期試驗的設計、納入條件、終點、分析方式與基線狀況。 |\n| 研究方法 | 30 個中心、三組、雙盲、安慰劑對照、76 週，預計納入約 300 人。 |\n| 基線結果 | 306 人平均 BMI 33.2，常見共病為 MASLD、血脂異常、高血壓與第 2 型糖尿病。 |\n| 主要終點 | 第 52 週體重百分比變化與體重下降至少 5% 的比例。 |\n| 安全監測 | 腸胃道事件、胰臟炎、膽囊疾病、脫水、腎功能、心率與肝功能等。 |\n| 本篇缺口 | 沒有藥物與安慰劑的實際體重差、反應率、信賴區間或不良事件比較。 |\n\n## 二、研究怎麼做\n\n### 研究架構\n\n- 受試者以 1:1:1 分到 survodutide 3.6 mg、survodutide 4.8 mg 或安慰劑。\n- 每週皮下注射，計畫追蹤 76 週。\n- 研究在中國 30 個中心進行，採隨機、雙盲與安慰劑對照。\n- 所有組別都接受約每日少 500 kcal 的飲食建議，以及每週至少 150 分鐘中等強度活動建議。\n- 研究登錄號為 NCT06214741，受試者簽署書面同意，研究通過倫理審查。\n\n### 誰可以參加\n\n研究納入中國成人，BMI ≥28，或 BMI ≥24 且有至少一項肥胖相關併發症。參加者過去至少做過一次飲食減重嘗試且未達預期。研究排除部分胰臟、膽囊、肝腎與其他高風險情境，因此正式結果不能直接套用到每一位臨床肥胖患者。\n\n## 三、306 名受試者的起始狀況\n\n- 平均年齡 36.9 歲。\n- 平均體重 93.9 kg。\n- 平均腰圍 105.6 cm。\n- 平均 BMI 33.2。\n- 女性約 49%。\n- 72.9% 至少有一項肥胖相關併發症。\n- MASLD 48.4%，其中 MASH 5.6%。\n- 血脂異常 42.2%。\n- 高血壓 27.8%。\n- 第 2 型糖尿病 16.7%。\n- 阻塞性睡眠呼吸中止症 4.6%。\n- 心血管疾病 4.2%。\n- 糖尿病前期 19.6%。\n- 第 2 型糖尿病亞組 51 人。\n\n這是一群以肥胖和代謝共病為主的成人，研究不只觀察體重，也規劃腰圍、血壓、血糖、HbA1c、血脂與肝功能等結果。\n\n## 四、未來要看哪些結果\n\n### 主要終點\n\n1. 基線到第 52 週的體重百分比變化。\n2. 第 52 週體重下降至少 5% 的比例。\n\n### 關鍵次要終點\n\n- 體重下降至少 10%、15% 與 20% 的比例。\n- 腰圍、BMI 與血壓。\n- HbA1c、血糖、血脂、ALT 與 AST。\n- 研究規劃 treatment-policy 與 hypothetical estimand，並以 ANCOVA、MMRM 與 logistic regression 分析不同型態結果。\n- 文章交代缺失資料假設與多重比較控制，正式結果要核對實際執行是否和計畫一致。\n\n看到結果時，要把平均體重變化、達標比例、信賴區間、停藥、救援治療與不良事件放在同一張表裡。單看平均減重或宣傳式達標比例，會漏掉不確定性和耐受度。\n\n## 五、生活型態介入會影響怎麼解讀\n\n每個研究組別都收到約 500 kcal／日熱量赤字與每週至少 150 分鐘活動建議。這個背景有助於讓試驗更接近營養照護場景，也代表藥物效果不能直接拆成「完全沒有飲食與運動介入時的效果」。\n\n對營養師來說，後續結果值得追問：\n\n- 受試者實際做到多少熱量調整與活動量？\n- 蛋白質、纖維、液體和微量營養素攝取是否足夠？\n- 體重下降中脂肪量和瘦體組織各變化多少？\n- 腸胃道症狀是否讓攝取量下降？\n- 停藥或減量後體重與飲食行為如何變化？\n\n## 六、安全性閱讀框架\n\n文章特別提到劑量上調期間可能出現噁心、腹瀉、嘔吐、便祕與腹脹，並規劃用較慢或彈性的上調方式處理耐受度。也要留意胰臟炎、膽囊疾病、脫水、腎功能受影響、心率變化與肝損傷。\n\n營養追蹤可以放入以下項目：\n\n- 每日液體、尿量、口乾、頭暈與脫水跡象。\n- 餐次、每餐蛋白質、能量密度與攝取量下降幅度。\n- 噁心、嘔吐、腹瀉、便祕、腹脹的時間和嚴重度。\n- 體重、腰圍、肌肉量、握力與日常功能。\n- 肝功能、血糖、血脂與醫療團隊安排的相關檢驗。\n\n持續劇烈腹痛、反覆嘔吐、脫水、黃疸或疑似膽胰問題，應回到醫療團隊評估，不能只用飲食調整處理。\n\n## 七、三層筆記\n\n### 第一層：帶走三句話\n\n1. 這篇提供的是第 3 期試驗設計和基線，不是 survodutide 已證實的減重結果。\n2. 研究將藥物和熱量赤字、活動建議放在同一個照護背景，後續解讀要保留這個條件。\n3. 研究族群有相當比例的代謝共病，營養照護要追蹤攝取量、腸胃道耐受、肝糖脂代謝和瘦體組織。\n\n### 第二層：理解研究邏輯\n\n- **問題**：survodutide 在中國成人過重或肥胖者的減重效果與安全性如何？\n- **設計**：三組隨機、雙盲、安慰劑對照，76 週。\n- **介入**：兩種 survodutide 劑量，所有組別都有飲食和活動建議。\n- **測量**：第 52 週體重百分比變化、至少 5% 減重比例，再加上更高減重門檻、腰圍、代謝指標和安全性。\n- **目前證據**：已知道研究怎麼測，但尚未知道測到什麼。\n\n### 第三層：臨床轉譯\n\n- 研究結果若顯示體重下降，需同時看飲食依從、肌肉量和停藥率。\n- 有明顯腸胃道症狀的個案，營養策略先保住液體、蛋白質和能量，再討論減重速度。\n- 族群排除條件較多，臨床上遇到糖尿病、肝膽疾病、腎功能問題或曾有胰臟炎者，不能直接套用試驗結論。\n- 減重藥物的研究結果要和生活型態、共病、藥物交互作用與長期維持放在同一個決策脈絡。\n\n## 八、作者、資助與閱讀提醒\n\nBoehringer Ingelheim 資助本試驗，並參與設計、資料收集、分析與論文撰寫。三位作者為公司員工，另有醫學編輯協助且由資助方支付。這些資訊需要在正式結果出現時一起查看，尤其是停藥、缺失資料、次群組分析、主要終點選擇與負面結果呈現。\n\n## 自我測驗卡\n\n### 卡 1｜這篇文章已經證明 survodutide 減重多少嗎？\n\n**答案**：沒有。這篇是第 3 期試驗的設計與基線報告，沒有第 52 週體重比較、反應率、信賴區間或實際不良事件結果。\n\n### 卡 2｜試驗的主要療效終點是哪兩個？\n\n**答案**：基線到第 52 週的體重百分比變化，以及第 52 週體重下降至少 5% 的比例。\n\n### 卡 3｜為什麼解讀時要把飲食與活動建議一起放進來？\n\n**答案**：所有研究組別都接受約 500 kcal／日熱量赤字與每週至少 150 分鐘活動建議，所以結果代表藥物加共同生活型態背景的效果，不能直接當成藥物單獨效果。\n\n### 卡 4｜營養師要注意哪些常見耐受問題？\n\n**答案**：噁心、腹瀉、嘔吐、便祕與腹脹，尤其在劑量上調期間。要同步追蹤液體、能量、蛋白質、電解質、體重和功能，必要時回轉醫療團隊調整。\n\n### 卡 5｜這群受試者有哪些重要基線特徵？\n\n**答案**：平均 BMI 33.2，約 72.9% 至少有一項肥胖相關併發症，MASLD、血脂異常、高血壓和第 2 型糖尿病都相當常見。這表示後續結果需要同時看代謝共病和營養安全，不宜只看體重。\n\n## 來源與執行證據\n\n- 已依安裝的 paper-digest skill 實際執行全文內容整理，本文使用可讀的 Springer OA PDF。\n- PDF 17 頁，原生文字 60,415 字元，17 頁均有資訊性文字，replacement character 為 false。\n- 來源 PDF SHA-256：0cd13b41b0a9efbbbfd67a83699189a2f6bb4c614baae988b45359a008d30d32。\n- 本機全文文字 SHA-256：c566aea01421b15f9e07c7bae49367756a969705d0f555c20a2a5855ed0b0d51。\n- DOI、題名、作者與正文身份核對通過，Methods、Results、Discussion、Conclusion 均可定位。\n\n## 參考文獻\n\nJi L, Chen L, Cheng Z, et al. Survodutide for Obesity in Chinese Adults: Phase 3 Randomized Trial Design and Baseline Characteristics (SYNCHRONIZE™-CN). Diabetes Therapy. 2026. DOI: 10.1007/s13300-026-01908-x.",
+      "cards": [
+        {
+          "title": "",
+          "question": "這篇文章已經證明 survodutide 減重多少嗎？",
+          "answer": "沒有。這篇是第 3 期試驗的設計與基線報告，沒有第 52 週體重比較、反應率、信賴區間或實際不良事件結果。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "試驗的主要療效終點是哪兩個？",
+          "answer": "基線到第 52 週的體重百分比變化，以及第 52 週體重下降至少 5% 的比例。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "為什麼解讀時要把飲食與活動建議一起放進來？",
+          "answer": "所有研究組別都接受約 500 kcal／日熱量赤字與每週至少 150 分鐘活動建議，所以結果代表藥物加共同生活型態背景的效果，不能直接當成藥物單獨效果。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "營養師要注意哪些常見耐受問題？",
+          "answer": "噁心、腹瀉、嘔吐、便祕與腹脹，尤其在劑量上調期間。要同步追蹤液體、能量、蛋白質、電解質、體重和功能，必要時回轉醫療團隊調整。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "這群受試者有哪些重要基線特徵？",
+          "answer": "平均 BMI 33.2，約 72.9% 至少有一項肥胖相關併發症，MASLD、血脂異常、高血壓和第 2 型糖尿病都相當常見。後續結果需要同時看代謝共病和營養安全，不宜只看體重。",
+          "tags": []
+        }
+      ],
+      "completedAt": "2026-08-19T09:50:31.612Z"
+    },
+    {
+      "id": "doi:10.1007/s13300-026-01908-x:review",
+      "paperId": "doi:10.1007/s13300-026-01908-x",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Survodutide for Obesity in Chinese Adults: Phase 3 Randomized Trial Design and Baseline Characteristics (SYNCHRONIZE™-CN).",
+      "authors": "Ji L, Chen L, Cheng Z, Lu Y, Yang Y, Fu F, Zhu Y, Jin L, Kloer I",
+      "journal": "Obesity and metabolism (PubMed)",
+      "year": "2026",
+      "doi": "10.1007/s13300-026-01908-x",
+      "abstract": "We aimed to describe the rationale, design, and overall baseline characteristics of the trial evaluating the efficacy, safety, and tolerability of survodutide in Chinese adults with overweight or obesity (SYNCHRONIZE™-CN, NCT06214741). In this 76-week, multicenter, randomized, double-blind, placebo-controlled, phase 3 trial, Chinese participants were randomized 1:1:1 to once-weekly subcutaneous survodutide (3.6 mg or 4.8 mg) or placebo plus lifestyle intervention. Participants with either body mass index (BMI) ≥ 28 kg/m2 or BMI ≥ 24 kg/m2 and at least one obesity-related complication were eligible. The primary endpoints were the percentage change in body weight and achievement of body weight reduction ≥ 5% from baseline to week 52. At baseline, participants (N = 306) had a mean age of 36.9 years, body weight 93.9 kg, waist circumference 105.6 cm, BMI 33.2 kg/m2, triglycerides 2.2 mmol/L. 49% were women. 72.9% had at least one obesity-related complication, with metabolic dysfunction‑associated steatotic liver disease (48.4%), dyslipidemia (42.2%), hypertension (27.8%), and type 2 diabetes mellitus (16.7%) being the most prevalent, followed by obstructive sleep apnea (4.6%) and cardiovascular diseases (4.2%). In total, 19.6% had prediabetes. This trial was designed to provide a robust evaluation of efficacy and safety of survodutide for the treatment of obesity or overweight in Chinese adults. Clinical Trials.gov identifier, NCT06214741.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42599381/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "health promotion and lifestyle",
+        "human clinical population",
+        "obesity and metabolism",
+        "safety and interaction"
+      ],
+      "noteTitle": "中國成人 survodutide 減重試驗設計與基線風險的品質評讀",
+      "content": "# 中國成人 survodutide 減重試驗設計與基線風險的品質評讀\n\n> [!info] 品質快照\n> **研究類型**：SYNCHRONIZE-CN 第 3 期隨機試驗的設計與基線特徵報告｜**期刊**：Diabetes Therapy，2026\n> **研究設計**：30 個中國研究中心、76 週、三組、隨機、雙盲、安慰劑對照，預計比較 survodutide 3.6 mg、4.8 mg 與安慰劑。\n> **本篇能回答的問題**：試驗怎麼設計、收進哪些人、基線風險如何、未來會用什麼結果判定療效與安全性。\n> **本篇不能回答的問題**：survodutide 實際減重多少、是否優於安慰劑、長期不良事件發生率。本文沒有第 52 週比較結果，療效分析仍在進行。\n> **GRADE**：Low ⊕⊕◯◯。這是針對本篇所能支持的療效與安全性證據體的保守判定，不能當成藥物最終療效報告的分數。\n> **一句話判斷**：試驗架構對回答減重問題有良好內在效度規劃，本文仍屬 protocol／baseline paper，現階段只能證明研究正在以合適架構測量效果，不能把設計與基線資料當成已證實的減重療效。\n\n## 白話導讀\n\n這篇文章像是大型臨床試驗的開場報告。研究團隊先交代試驗如何分組、誰被納入、每組接受什麼治療、要追蹤哪些結果，再提供 306 名受試者的起始狀況。真正的體重變化與不良事件比較，要等後續結果論文。\n\n- 受試者每週皮下注射 survodutide 或安慰劑，同時接受約每日少 500 kcal 的飲食建議，以及每週至少 150 分鐘中等強度活動建議。\n- 納入條件採中國成人肥胖／過重與共病情境，BMI ≥28，或 BMI ≥24 且有至少一項相關併發症，並要求過去至少一次飲食減重嘗試未達預期。\n- 306 人平均年齡 36.9 歲、體重 93.9 kg、腰圍 105.6 cm、BMI 33.2，女性約 49%。\n- 72.9% 至少有一項肥胖相關併發症，常見為 MASLD、血脂異常、高血壓、第 2 型糖尿病與睡眠呼吸中止症。\n- 主要終點是第 52 週體重百分比變化，以及體重下降至少 5% 的比例。這些資料尚未在本篇呈現。\n\n## 研究問題與方法\n\n- **研究名稱**：SYNCHRONIZE-CN，ClinicalTrials.gov 登錄號 NCT06214741。\n- **分組**：1:1:1 隨機分到 survodutide 3.6 mg、survodutide 4.8 mg 或安慰劑，每週皮下注射。\n- **盲法與對照**：多中心、雙盲、安慰劑對照第 3 期試驗，計畫追蹤 76 週。\n- **共同生活型態介入**：所有組別接受約 500 kcal／日熱量赤字與每週至少 150 分鐘中等強度活動的建議。這代表未來看到的效果是藥物和共同生活型態背景下的結果，不能直接解讀成藥物單獨效果。\n- **主要終點**：基線到第 52 週的體重百分比變化，以及體重下降至少 5% 的比例。\n- **關鍵次要終點**：體重下降至少 10%、15% 與 20%，腰圍、BMI、血壓、HbA1c、血糖、血脂、ALT 與 AST 等。\n- **估計策略**：文章規劃 treatment-policy 與 hypothetical estimand，並以 ANCOVA、MMRM、logistic regression 等方法處理連續與二元結果，也交代缺失資料假設與多重比較控制。\n- **樣本數**：每組 66 人可在雙側 alpha .025 下對主要體重終點達 90% power，總數規劃約 300 人。作者說明樣本數也以安全性評估為重要目的。\n- **基線分析**：本文以描述統計呈現起始資料，沒有對組間基線差異做假設檢定。\n\n## 基線族群與營養照護情境\n\n306 名受試者的平均 BMI 為 33.2，顯示研究主要集中在肥胖族群。約 72.9% 有至少一項肥胖相關併發症，其中 MASLD 48.4%、血脂異常 42.2%、高血壓 27.8%、第 2 型糖尿病 16.7%、阻塞性睡眠呼吸中止症 4.6%、心血管疾病 4.2%。另有 19.6% 為糖尿病前期，第 2 型糖尿病亞組共 51 人。\n\n這組基線資料對營養師有兩個提醒。第一，這不是單純看體重數字的族群，肝臟、血糖、血脂、血壓與睡眠問題會影響飲食目標和追蹤方式。第二，研究中每個人都搭配熱量與活動建議，後續解讀要把飲食執行度、蛋白質與體組成一起放進來，不能只看藥物造成的體重差。\n\n## 內在效度評估\n\n| 面向 | 判定 | 理由 |\n|---|---|---|\n| 隨機與對照 | 規劃良好 | 1:1:1 隨機、雙盲、安慰劑對照，適合回答藥物相對療效。 |\n| 終點預先指定 | 規劃良好 | 主要與關鍵次要終點、時間點、統計模型及多重比較已有說明。 |\n| 分析計畫 | 中高 | treatment-policy 與 hypothetical estimand、MMRM、ANCOVA、缺失資料假設都有交代。 |\n| 結果可用性 | 尚未具備 | 本篇只有設計與基線，沒有第 52 週體重、反應率、信賴區間或不良事件比較。 |\n| 盲法可信度 | 待結果確認 | 設計寫明雙盲，仍要等結果文確認停藥、救援治療、劑量調整與盲法維持。 |\n| 安全性判讀 | 待結果確認 | 目前只有監測計畫，沒有實際事件率、嚴重度或停藥原因。 |\n\n## GRADE 判定\n\n本次依 paper-review skill 的 grade_judge.py 實際計算。以「中國成人過重或肥胖使用 survodutide 的療效與安全性」為結果，RCT 設計可用 high 起始，但本文缺少療效估計與信賴區間，因此 indirectness 降一級，imprecision 降一級，最後為 **Low ⊕⊕◯◯**。\n\n這個分數反映「本文目前能提供的證據」，並非預告後續結果會是低確定性。若正式結果論文提供完整的隨機分組、估計值、信賴區間、失訪、救援治療與不良事件資料，GRADE 需要重新計算。\n\n## 安全性與利益衝突\n\n文章預期需要關注噁心、腹瀉、嘔吐、便祕與腹脹等腸胃道事件，並規劃依劑量上調期的耐受度採較慢或彈性調整。其他監測風險包含胰臟炎、膽囊疾病、脫水、腎功能受影響、心率變化與肝損傷。排除條件與監測安排有交代，實際風險仍要等結果。\n\n試驗由 Boehringer Ingelheim 資助，且公司參與設計、資料收集、分析與論文撰寫。三位作者為公司員工，其他作者也揭露與多家生技或藥廠的關係，另有由資助方支付的醫學編輯協助。這不等於研究結果一定有偏差，但讀者要把贊助方參與程度列入結果解讀與後續獨立研究需求。\n\n## 外部效度與限制\n\n- 族群以 BMI ≥28 的中國成人肥胖者為主，對 BMI 24–27.9 的過重成人、較輕度肥胖、其他族群與不同醫療系統的適用性有限。\n- 第 2 型糖尿病亞組只有 51 人，糖尿病相關結論的精確度會受限。\n- 排除胰臟炎、部分膽囊或肝腎問題等高風險族群，結果不能直接套用到臨床上所有共病患者。\n- 研究提供飲食與運動背景，卻未在本文呈現實際飲食依從性、蛋白質攝取、肌肉量、脂肪量與功能變化。若只用體重終點，可能漏掉減重期間的瘦體組織變化。\n- 追蹤 76 週仍不足以回答更長期的慢性安全性、停藥後體重變化與長期飲食維持問題。\n\n## 推論漏洞檢查\n\n本次以 paper-review skill 的 argdown_lint.py 檢查「survodutide 會帶來有臨床意義且安全的減重」這個主張，工具回報 clean。這個結果代表目前標記的前提類型沒有觸發規則型跳躍，不代表主張已被本篇證實。因為本文沒有實際療效資料，任何「有效」「安全」「優於安慰劑」的句子都只能列為待驗證假說。\n\n## 給營養師的使用方式\n\n- 把本篇當成試驗設計與族群地圖，用來掌握主要終點、共同生活型態介入與安全監測項目。\n- 閱讀後續結果時，同時查看體重百分比、至少 5／10／15／20% 反應率、腰圍、血糖、血脂、肝功能、停藥率與嚴重不良事件。\n- 追蹤飲食時記錄熱量、蛋白質、蔬菜水果、纖維、液體、腸胃道症狀與活動量，避免把藥物造成的食慾變化誤當成營養攝取已經足夠。\n- 有噁心、嘔吐、腹瀉或便祕時，優先處理液體、電解質、蛋白質與能量密度，再依病人耐受調整餐次和食物質地。\n- 快速減重或攝取量大幅下降時，加入肌肉量、握力、功能與蛋白質分布的監測，避免只用體重判定治療品質。\n- 出現持續劇烈腹痛、反覆嘔吐、脫水、黃疸或疑似膽胰問題時，需轉回醫療團隊評估。\n\n## 代表性參考文獻核對\n\n| DOI | Crossref 核對題名 | 本文用途 | 判定 |\n|---|---|---|---|\n| 10.1056/NEJMoa2600751 | Survodutide Once Weekly for the Treatment of Adults with Obesity | 後續正式療效結果的相關研究 | DOI 與題名相符 |\n| 10.3390/jcm12010145 | Clinical Recommendations to Manage Gastrointestinal Adverse Events in Patients Treated with GLP-1 Receptor Agonists | 腸胃道不良反應與照護背景 | DOI 與題名相符 |\n| 10.1016/S2213-8587(23)00356-X | Once-weekly survodutide in adults with overweight or obesity | 早期劑量與療效背景 | DOI 與題名相符 |\n\nCrossref 核對確認 DOI 與書目身份，不能替代本篇結果資料或獨立風險評估。\n\n## 來源與執行證據\n\n- 已依安裝的 paper-review skill 實際執行本篇全文品質評讀，未以摘要、metadata 或期刊頁面預覽代替。\n- 合法來源：Springer OA PDF，17 頁，原生文字可讀，題名、DOI、作者與正文身份核對通過。\n- 來源 PDF SHA-256：0cd13b41b0a9efbbbfd67a83699189a2f6bb4c614baae988b45359a008d30d32。\n- 本機全文文字 SHA-256：c566aea01421b15f9e07c7bae49367756a969705d0f555c20a2a5855ed0b0d51。\n- Methods、Results、Discussion、Conclusion 與限制段落均可定位。本文的 Results 是基線描述，並非治療結果。\n- grade_judge.py 實際輸出：Low ⊕⊕◯◯，downgrade_sum -2。\n- argdown_lint.py 實際輸出：clean，n_premises 4。\n\n## 參考文獻\n\nJi L, Chen L, Cheng Z, et al. Survodutide for Obesity in Chinese Adults: Phase 3 Randomized Trial Design and Baseline Characteristics (SYNCHRONIZE™-CN). Diabetes Therapy. 2026. DOI: 10.1007/s13300-026-01908-x.",
+      "cards": [],
+      "completedAt": "2026-08-19T09:48:40.615Z"
+    },
+    {
+      "id": "doi:10.1177/17562848261479366:digest",
+      "paperId": "doi:10.1177/17562848261479366",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Multiple paths to health: A scoping review of dietary interventions for adults with Crohn's disease and ulcerative colitis.",
+      "authors": "Ingridsdotter J, Vejzovic V, Elmerstig E, Sjöberg K",
+      "journal": "Nutrition guidelines and consensus (PubMed)",
+      "year": "2026",
+      "doi": "10.1177/17562848261479366",
+      "abstract": "Patient and clinical interest in dietary management of inflammatory bowel disease (IBD) is growing, yet a comprehensive overview mapping how dietary interventions are defined, composed, and evaluated across Crohn's disease (CD) and ulcerative colitis (UC) remains scarce. This scoping review aims to map current evidence on dietary interventions that may have an impact on the disease course in adults with CD or UC, thereby providing guidance for the design of forthcoming dietary interventions. Included are English articles published between 2000-2025 investigating dietary treatments for adults (+18) reporting on symptoms, remission, or disease activity. Excluded are paediatric studies, single food/supplement-only interventions, and studies combining new medications with diet. Systematic searches of PubMed, CINAHL, Scopus, and Web of Science, originally conducted in January 2025 and updated in May 2026, identified 49 eligible studies. Data were charted using Covidence with a form guided by the TIDieR checklist. Dietary composition across interventions was visualised using heatmap analysis. A range of dietary approaches were identified. Most improved patient-reported outcomes and disease activity indices, though a disconnect often persisted between symptomatic relief and inflammatory biomarker normalization. Despite variability even among nominally identical diets, heatmap analysis of diet composition revealed strong consensus around elimination of processed foods and added sugars, alongside emphasis on whole foods, fruits, vegetables, and unsaturated fats. Evidence points toward several possible diets for IBD, and clearly toward the Mediterranean diet and shared whole-food principles as a well-supported, safe, and guideline-endorsed foundation. Next step is designing rigorous research with standardised outcomes, disease-specific populations, mechanistic sub-studies, and the implementation support that adherence requires.",
+      "legalFullTextUrl": "https://doi.org/10.1177/17562848261479366",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42602224/",
+      "category": "recommended",
+      "tags": [
+        "design:guideline",
+        "guideline and consensus",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "precision nutrition",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "成人 IBD 飲食介入、地中海型飲食與全食物原則的全文內容整理",
+      "content": "# 成人 IBD 飲食介入、地中海型飲食與全食物原則的全文內容整理\n\n> [!summary] 30 秒層\n> 這篇 scoping review 收集 49 篇成人 Crohn’s disease（CD）與 ulcerative colitis（UC）飲食研究，先把各種飲食的真正食物內容拆開，再看症狀、疾病活動、生活品質與發炎指標。作者沒有做統合分析，也沒有替納入研究做正式品質評估，這篇最適合作為飲食介入地圖與研究設計參考。\n> - 共同方向是減少加工食品、添加糖與含糖飲料，增加全食物、蔬果、纖維與不飽和脂肪。\n> - 成人 CD 的 SCD 與 MD 隨機試驗第 6 週緩解率約 46.5% 與 43.5%，組間差異未顯著，CRP 與 FCP 也沒有顯著差異。\n> - 症狀、生活品質變好，不一定代表 CRP、FCP、內視鏡或黏膜發炎已改善，追蹤時要把主觀與客觀結果分開。\n> - MD／全食物原則可作為較容易長期執行的起點。CDED、SCD、AIP、低 FODMAP 等限制性飲食，要有營養師設定時間、替代食物與再引入。\n\n## 全文地圖\n\n1. **問題背景**：IBD 病人常自行改變飲食，過度排除也可能增加營養不良與飲食焦慮。\n2. **研究方法**：PRISMA-ScR、四個資料庫、灰色文獻、引用追蹤、Covidence 與 TIDieR charting。\n3. **研究群組**：MD、SCD、CDED、PEN／EEN、plant-based、anti-inflammatory、low-fat high-fiber、FODMAP、AIP、reduced sulfur 與 whole-food。\n4. **共同組成**：少加工食品、添加糖與含糖飲料，多全食物、蔬果與不飽和脂肪。\n5. **讀法**：分開看症狀、疾病活動、CRP／FCP、內視鏡、QoL、營養安全與依從性，不能只看一個漂亮結果。\n\n## 第一層：白話理解\n\n### 這篇研究在處理哪個困惑\n\nIBD 飲食研究常出現很多名稱，但同一個名稱在不同研究裡可能有不同食物、不同排除規則、不同再引入方式與不同藥物背景。作者把 49 篇研究的飲食組成放到熱圖中，想找出各種飲食真正共通的部分。\n\n最清楚的共同方向是：少加工食品、少添加糖和含糖飲料，多吃全食物、蔬菜、水果、纖維與不飽和脂肪。這可以作為飲食品質方向，不能直接變成所有 CD、UC、活動期或緩解期病人的同一張菜單。\n\n### 營養師要記住的三句話\n\n- 症狀變好是重要結果，卻不能代替 CRP、FCP、內視鏡與醫療評估。\n- MD／全食物原則較容易保持飲食多樣性，限制性方案需要設定時間和再引入。\n- 飲食是 IBD 照護的一部分，不能自行停藥，也不能用單一飲食名稱取代病人個別評估。\n\n## 第二層：全文內容整理\n\n### 1. 研究範圍\n\n- 搜尋 2000 至 2025 年英文成人 IBD 飲食治療研究，2025 年 1 月初次搜尋，2026 年 5 月更新。\n- 納入 PubMed、CINAHL、Scopus、Web of Science，補查 Google、Crohn’s and Colitis Foundation 與 reference lists。\n- 納入成人 18 歲以上、CD 或 UC、報告症狀緩解、臨床緩解或疾病活動的研究。\n- 排除兒科、動物、單一食物或單一補充品、信件、社論，以及和新藥同時開始、無法把飲食效果分開的研究。\n- 49 篇中有 36 篇主要介入研究、8 篇回顧、5 篇病例，研究來自北美、歐洲及亞洲、澳洲、中東等地。\n\n### 2. 研究怎麼把飲食拆開\n\n作者用 Covidence charting，參考 TIDieR checklist，記錄：\n\n- 飲食名稱與食物組成。\n- 是否有階段性排除與再引入。\n- 執行時間、比較組、併用藥物與研究設計。\n- 依從性、研究結果與疾病狀態。\n- 食物群組在熱圖中分為未提及、明確納入、有條件納入、明確排除。\n\n這個方法讓讀者看到「飲食名稱」和「實際食物」的差距，也提醒同名飲食不一定是同一個介入。\n\n### 3. 地中海型飲食和 SCD\n\n成人 CD 的隨機試驗比較 SCD 和 MD，介入約 12 週。第 6 週臨床緩解率約為 SCD 46.5%、MD 43.5%，組間差異未顯著，CRP 與 FCP 也沒有顯著組間差異。\n\n這個結果的正確讀法是：兩種飲食都可能讓部分病人改善症狀或疾病活動，沒有證據支持 SCD 優於 MD。也不能把成人 CD 的結果推到所有 UC、活動期、緩解期或不同藥物背景。\n\nMD 的實務優勢是食物多樣、限制較少、容易融入家庭飲食與長期生活型態。遇到狹窄、手術前後、腹瀉、乳糖不耐、低渣需求或明顯營養不良，仍要調整內容。\n\n### 4. CDED、PEN 與限制性方案\n\n- CDED 有單獨使用與搭配 PEN 的研究，部分報告 FCP、CRP、HBI 或臨床緩解變化。\n- 不同 CDED 研究的食物規則、藥物背景、時間、族群與結果不一，不能把所有結果加在一起當成一個固定效果。\n- SCD、AIP、4-SURE 與其他排除方案可能讓部分病人受益，執行時要處理能量、蛋白質、鈣、鐵、B 群、纖維與飲食多樣性。\n- 病人自行長期排除食物，可能造成營養不良、害怕進食、社交限制與對食物的過度歸因。限制方案要有專業監測與再引入規畫。\n\n### 5. 全食物、植物性與抗發炎方向\n\nplant-based、low-fat high-fiber、anti-inflammatory、semi-vegetarian 與 whole-food 研究，常看到生活品質、腸道功能、症狀或部分發炎指標改善。研究之間的結果並不一致，有些看到 CRP 或 FCP，另一些只有症狀或 QoL。\n\n全食物方向可以轉成實際飲食：蔬菜、水果、全穀、豆類、堅果、魚類、橄欖油等，再依個人耐受調整。它的價值在於提供一個可持續的食物架構，不是證明某一食物能單獨治療 IBD。\n\n### 6. 低 FODMAP 和症狀處理\n\n低 FODMAP 比較常用來處理腹脹、腹痛、排便與 IBS-like symptoms。它可能改善病人感受，不能直接等同於控制 IBD 內症或黏膜發炎。\n\n實務上採短期、分階段、專業再引入，避免長期限制造成纖維、鈣、B 群、腸道菌相與飲食多樣性問題。若症狀持續，應重新確認發炎、狹窄、感染、膽酸腹瀉、乳糖耐受與藥物狀態。\n\n### 7. 為什麼症狀和發炎指標可能不同步\n\n腹痛、腹瀉、疲勞與生活品質會受到腸躁症、壓力、睡眠、飲食、菌相、藥物與腸道發炎共同影響。CRP、FCP、內視鏡和組織學回答的是發炎活動問題。病人覺得好一些，可能代表生活功能改善，也可能還有持續的客觀發炎。\n\n因此追蹤表要分成兩欄：\n\n| 主觀結果 | 客觀與安全結果 |\n|---|---|\n| 腹痛、腹瀉、腹脹、疲勞、生活品質、飲食信心 | CRP、FCP、內視鏡、體重、體組成、血球、鐵、B12、葉酸、維生素 D、住院、藥物升級 |\n\n## 第三層：臨床應用與記憶線索\n\n### MD／全食物方向的初步工作法\n\n1. **確認病期**：活動期、緩解期、術前、術後、狹窄或有併發症的病人，飲食目標不同。\n2. **先看營養風險**：體重變化、攝取量、肌肉量、蛋白質、鐵、B12、葉酸、維生素 D、鈣與脫水。\n3. **建立食物基礎**：在可耐受範圍增加全食物、蔬果、適量纖維、豆類、堅果、魚類與不飽和脂肪。\n4. **處理症狀**：低 FODMAP、低渣、質地改變或暫時排除，要有明確目標、期限與再引入。\n5. **同步看發炎**：症狀、CRP、FCP、內視鏡、藥物與營養狀態分開追蹤。\n6. **設定停損**：體重下降、攝取不足、微量營養素缺乏、社交負擔或飲食恐懼增加時，減少限制並重新評估。\n\n### 和既有知識連結\n\n本次 Worker 沒有連接個人 vault 搜尋工具，未把既有筆記當成已核對來源。可在私人站搜尋「IBD 飲食」、「Crohn’s disease exclusion diet」、「地中海型飲食 發炎性腸道疾病」、「低 FODMAP IBD」、「糞便鈣衛蛋白」和「腸道狹窄 飲食」，把本篇研究地圖接到既有指南與個案筆記。\n\n## 重要數字與研究線索\n\n- **49 篇**：36 篇主要介入研究、8 篇回顧、5 篇病例。\n- **研究地理**：北美 19 篇、歐洲 16 篇，另含亞洲、澳洲與中東等地。\n- **SCD 對 MD**：成人 CD 第 6 週緩解率約 46.5% 對 43.5%，組間差異未顯著。\n- **共同食物方向**：減少加工食品、添加糖與含糖飲料，增加全食物、蔬果、纖維與不飽和脂肪。\n- **方法限制**：沒有納入研究的正式品質評估，也沒有 meta-analysis。\n- **追蹤原則**：症狀、CRP、FCP、內視鏡、營養狀態與藥物需求要分開記錄。\n\n## 自我測驗\n\n> [!question]- Q1：這篇 scoping review 能不能直接告訴我們哪一種飲食最好？\n> 不能。它整理 49 篇研究的飲食內容與結果，但沒有對納入研究做正式品質評估，也沒有 meta-analysis，適合當研究地圖，不能做飲食療效排名。\n\n> [!question]- Q2：成人 CD 的 SCD 和 MD 隨機試驗應該怎麼讀？\n> 第 6 週緩解率約 46.5% 和 43.5%，組間差異未顯著，CRP 和 FCP 也沒有顯著差異。可說兩者都可能對部分病人有幫助，不能說 SCD 優於 MD。\n\n> [!question]- Q3：為什麼症狀改善不能直接代表腸道發炎已控制？\n> 症狀會受腸躁症、壓力、睡眠、飲食與發炎共同影響，CRP、FCP、內視鏡和組織學才是客觀發炎評估的一部分。兩類結果可能不同步。\n\n> [!question]- Q4：CDED、SCD 或低 FODMAP 為什麼要有營養師監測？\n> 排除範圍可能很大，若沒有替代食物、時間限制與再引入，可能造成能量、蛋白質、纖維、鈣、鐵、B 群或維生素 D 不足，也可能增加飲食恐懼。\n\n> [!question]- Q5：把 MD／全食物原則用在 IBD 病人身上，第一步要問什麼？\n> 先確認活動期或緩解期、狹窄與手術狀態、體重和攝取變化、主要症狀、營養缺乏與目前藥物，再決定纖維、質地、食物種類與是否需要短期限制。\n\n## Reference\n\n- Ingridsdotter J, Vejzovic V, Elmerstig E, Sjöberg K. Multiple paths to health: A scoping review of dietary interventions for adults with Crohn's disease and ulcerative colitis. Therapeutic Advances in Gastroenterology. 2026. DOI: 10.1177/17562848261479366.\n- 全文來源：Crossref full-text link OA PDF，Therapeutic Advances in Gastroenterology，29 頁，來源 PDF SHA-256：fd4a5bc35f4ee3c4549b51a347c2934f535df35ad0f853fac63f7e82563e9751。\n- 本機全文文字 SHA-256：8717d7829df9e948de610b09d0ebf27b362c63a2f0e3858d0e13a78499e52f96。\n- 本次以同一份已核對 DOI、題名與正文區段的合法全文實際執行 paper-digest，未以摘要代替全文。",
+      "cards": [
+        {
+          "title": "回顧文章能回答什麼",
+          "question": "這篇 scoping review 能不能直接告訴我們哪一種飲食最好？",
+          "answer": "不能。它整理 49 篇研究，但沒有正式品質評估或 meta-analysis，適合建立研究地圖，不能做飲食療效排名。",
+          "tags": [
+            "scoping review",
+            "IBD",
+            "證據判讀"
+          ]
+        },
+        {
+          "title": "SCD 與 MD",
+          "question": "成人 CD 的 SCD 和 MD 隨機試驗應該怎麼讀？",
+          "answer": "第 6 週緩解率約 46.5% 和 43.5%，組間差異未顯著，CRP 和 FCP 也沒有顯著差異，不能說 SCD 優於 MD。",
+          "tags": [
+            "SCD",
+            "地中海型飲食",
+            "Crohn disease"
+          ]
+        },
+        {
+          "title": "症狀與發炎",
+          "question": "為什麼症狀改善不能直接代表腸道發炎已控制？",
+          "answer": "症狀受到腸躁症、壓力、睡眠、飲食與發炎共同影響，CRP、FCP、內視鏡和組織學回答的是客觀發炎問題，兩類結果可能不同步。",
+          "tags": [
+            "症狀",
+            "CRP",
+            "糞便鈣衛蛋白"
+          ]
+        },
+        {
+          "title": "限制性飲食安全",
+          "question": "CDED、SCD 或低 FODMAP 為什麼要有營養師監測？",
+          "answer": "排除範圍可能很大，沒有替代食物、時間限制與再引入時，可能造成營養不足、飲食恐懼與生活負擔。",
+          "tags": [
+            "CDED",
+            "低FODMAP",
+            "營養安全"
+          ]
+        },
+        {
+          "title": "MD 的使用起點",
+          "question": "把 MD／全食物原則用在 IBD 病人身上，第一步要問什麼？",
+          "answer": "先確認病期、狹窄與手術狀態、體重和攝取變化、主要症狀、營養缺乏與目前藥物，再決定纖維、質地、食物種類與是否需要短期限制。",
+          "tags": [
+            "IBD營養",
+            "地中海型飲食",
+            "個別化"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-19T09:34:29.855Z"
+    },
+    {
+      "id": "doi:10.1177/17562848261479366:review",
+      "paperId": "doi:10.1177/17562848261479366",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Multiple paths to health: A scoping review of dietary interventions for adults with Crohn's disease and ulcerative colitis.",
+      "authors": "Ingridsdotter J, Vejzovic V, Elmerstig E, Sjöberg K",
+      "journal": "Nutrition guidelines and consensus (PubMed)",
+      "year": "2026",
+      "doi": "10.1177/17562848261479366",
+      "abstract": "Patient and clinical interest in dietary management of inflammatory bowel disease (IBD) is growing, yet a comprehensive overview mapping how dietary interventions are defined, composed, and evaluated across Crohn's disease (CD) and ulcerative colitis (UC) remains scarce. This scoping review aims to map current evidence on dietary interventions that may have an impact on the disease course in adults with CD or UC, thereby providing guidance for the design of forthcoming dietary interventions. Included are English articles published between 2000-2025 investigating dietary treatments for adults (+18) reporting on symptoms, remission, or disease activity. Excluded are paediatric studies, single food/supplement-only interventions, and studies combining new medications with diet. Systematic searches of PubMed, CINAHL, Scopus, and Web of Science, originally conducted in January 2025 and updated in May 2026, identified 49 eligible studies. Data were charted using Covidence with a form guided by the TIDieR checklist. Dietary composition across interventions was visualised using heatmap analysis. A range of dietary approaches were identified. Most improved patient-reported outcomes and disease activity indices, though a disconnect often persisted between symptomatic relief and inflammatory biomarker normalization. Despite variability even among nominally identical diets, heatmap analysis of diet composition revealed strong consensus around elimination of processed foods and added sugars, alongside emphasis on whole foods, fruits, vegetables, and unsaturated fats. Evidence points toward several possible diets for IBD, and clearly toward the Mediterranean diet and shared whole-food principles as a well-supported, safe, and guideline-endorsed foundation. Next step is designing rigorous research with standardised outcomes, disease-specific populations, mechanistic sub-studies, and the implementation support that adherence requires.",
+      "legalFullTextUrl": "https://doi.org/10.1177/17562848261479366",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42602224/",
+      "category": "recommended",
+      "tags": [
+        "design:guideline",
+        "guideline and consensus",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "precision nutrition",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "成人發炎性腸道疾病飲食介入地圖與地中海型飲食基礎的品質評讀",
+      "content": "# 成人發炎性腸道疾病飲食介入地圖與地中海型飲食基礎的品質評讀\n\n> [!info] 品質快照\n> **研究設計**：依 PRISMA-ScR 的 scoping review｜**範圍**：2000–2025 英文成人 CD／UC 飲食治療研究，2026 年 5 月更新搜尋\n> **納入證據**：49 篇，含 36 篇主要介入研究、8 篇回顧、5 篇病例研究；資料庫為 PubMed、CINAHL、Scopus、Web of Science，另查灰色文獻與引用。\n> **方法判定**：搜尋與資料 charting 架構清楚，未對納入研究做正式品質評估，也未做 meta-analysis，因此適合當飲食介入地圖，不適合直接當成某一飲食的療效排名。\n> **GRADE**：針對症狀、疾病活動與發炎指標的混合臨床推論保守評為 Very low ⊕◯◯◯。\n> **一句話判斷**：文章支持把地中海型與全食物原則當作成人 IBD 飲食照護的安全起點，不能把這個共同原則解讀成已證明的單一誘導緩解處方，限制性飲食要由營養專業人員監測。\n\n## 摘要\n\n> [!summary] 全文已讀\n> 這篇 scoping review 把成人 Crohn’s disease（CD）與 ulcerative colitis（UC）的飲食治療研究攤開來看，重點放在飲食到底包含什麼、排除什麼、怎麼執行，以及研究用什麼結果判斷效果。作者搜尋 2000 至 2025 年英文研究，2026 年 5 月更新，納入 49 篇文獻。\n\n- 研究涵蓋 Specific Carbohydrate Diet（SCD）、Crohn’s Disease Exclusion Diet（CDED）、Mediterranean diet（MD）、plant-based、anti-inflammatory、low-fat high-fiber、reduced sulfur、FODMAP、AIP、whole-food 等多種路徑。\n- 多數研究報告病人自述症狀、生活品質或疾病活動指標改善，但症狀改善與 CRP、糞便鈣衛蛋白（FCP）、ESR 或內視鏡發炎正常化常不同步。\n- 熱圖顯示不同名稱的飲食有共同組成：減少加工食品、添加糖與含糖飲料，增加全食物、蔬果、纖維與不飽和脂肪。\n- SCD 與 MD 的成人 CD 隨機試驗在第 6 週臨床緩解率約 46.5% 與 43.5%，組間差異與 CRP、FCP 差異未顯著，說明兩種飲食都可能有幫助，但不能宣稱 SCD 優於 MD。\n- CDED、MD 與其他飲食研究有些同時看到症狀、疾病活動或生物標記變化，研究規模、族群、藥物、介入時間與結果定義差異很大。\n- 文章的實務訊息是先使用多樣全食物、蔬果、適量纖維與不飽和脂肪的飲食架構，避免病人自行做過度限制，並由營養師監測能量、蛋白質、微量營養素、體重與疾病活動。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **這篇在整理什麼**：IBD 病人常自己摸索飲食，網路上卻有很多名稱相同、內容不同的飲食。作者把研究中的食物組成拆開，比對各種飲食真正做了哪些限制。\n> - **最穩的共同點**：少加工食品、少添加糖與含糖飲料，多用全食物、蔬菜水果、堅果、橄欖油等不飽和脂肪來源。這是共同方向，不是一張對所有 CD 或 UC 病人都適用的處方。\n> - **最需要小心的地方**：病人覺得腹痛、腹瀉或生活品質變好，並不一定代表腸道發炎已經控制。症狀、CRP、FCP、內視鏡與藥物需求要分開追蹤。\n> - **給營養師的用法**：用 MD／全食物原則當架構，再依疾病活動、狹窄、手術、症狀、營養狀態、食物耐受與病人文化調整，限制性飲食要設定退出或再引入條件。\n\n## 研究問題與方法\n\n- 研究問題是：成人 IBD、CD 或 UC 用過哪些飲食介入來誘導或維持緩解？\n- 作者選 scoping review，因為研究類型、飲食名稱、介入組成與結果差異很大，需要先描繪研究地圖。\n- 依 PRISMA-ScR 架構整理，五個階段包含形成問題、系統搜尋、選取研究、抽取資料、彙整與報告。作者說 protocol 已提交。\n- 搜尋於 2025 年 1 月執行，2026 年 5 月用相同搜尋式更新。資料庫包括 PubMed、CINAHL、Scopus、Web of Science，並用 Google、Crohn’s and Colitis Foundation 與 reference lists 補查灰色文獻與引用。\n- 納入英文、成人 18 歲以上、2000 至 2025 年、以飲食治療 IBD 並報告症狀、緩解或疾病活動結果的研究。排除兒科、動物、單一食物／補充品、信件、社論，以及新增藥物和飲食無法分開判讀的研究。\n- 兩位作者獨立進行摘要與全文篩選，衝突由未參與該篇初判的作者加入共識會議處理。總計納入 49 篇，36 篇主要介入研究、8 篇回顧、5 篇病例。\n- 以 Covidence charting form 記錄研究設計、國家、目的、飲食型態、執行方式、時間、比較組、併用藥物、飲食組成與結果。表單參考 TIDieR checklist。\n- 熱圖把食物群組編碼為 0 未提及、1 明確建議或納入、2 有條件納入、3 明確排除。不同命名飲食若內容相近仍可能被分在不同群組，研究重疊是方法本身的限制。\n\n## 主要結果\n\n### 研究分布與共通組成\n\n- 納入研究來自北美 19 篇、歐洲 16 篇，以及澳洲、以色列、伊朗、紐西蘭、日本、中國、泰國與土耳其等地。\n- 研究涵蓋活動期 IBD 的誘導緩解，也涵蓋緩解期的維持。許多病人維持原本藥物，飲食是 adjunct therapy，部分研究因飲食而降低藥物劑量。\n- 介入時間從約 4 週到 12 個月以上，結果包含症狀量表、HBI、CDAI、SCCAI、Mayo score、IBDQ、SIBDQ、CRP、ESR、FCP、內視鏡與體組成。\n- 名稱不同的飲食在熱圖中常有相同方向：減少 ultra-processed food、添加糖、含糖飲料、乳化劑或特定脂肪，增加全食物、蔬菜、水果、堅果、橄欖油與其他不飽和脂肪。\n- 有些研究讓飲食內容依病人症狀個別化，有些使用固定菜單或階段性排除與再引入，故「同名飲食」不代表相同介入劑量。\n\n### 地中海型飲食與 SCD\n\n- 成人 CD 的 SCD 與 MD 隨機試驗，12 週介入，在第 6 週比較臨床緩解率，SCD 46.5%、MD 43.5%，組間差異未顯著，CRP 與 FCP 也未見顯著組間差異。\n- 這個結果比較適合解讀成兩種飲食可能都能被部分成人 CD 病人執行並改善症狀或疾病活動指標，不能宣稱 SCD 更有效，也不能把 MD 的結果外推到所有 UC 或活動期 CD。\n- 地中海型飲食的優勢在於食物多樣、限制強度較低、可和營養充足性及長期生活型態接軌，也有較多指南與實務支持。它仍需要依狹窄、手術、腹瀉、乳糖耐受與個別症狀調整。\n\n### CDED 與其他排除飲食\n\n- CDED 研究有 CDED 單獨或搭配 partial enteral nutrition（PEN）的不同設計，部分研究看到 FCP、CRP、HBI 或臨床緩解變化。\n- 有研究在 6 週或 12 週報告較高臨床緩解、CDAI 或 IBDQ 改善，另有研究和傳統 MD 或控制組比較。不同試驗的族群、藥物、時間與 outcome 不同，無法用一個總體效果概括。\n- CDED 的限制在於食物排除規則較複雜，若缺少專業指導，可能造成能量、蛋白質、纖維或微量營養素不足，也可能讓病人形成不必要的食物恐懼。\n- SCD、AIP、4-SURE 或其他限制性飲食可能對部分病人有價值，文章提醒不宜在缺少營養師監測下做廣泛推薦。\n\n### 全食物、植物性與抗發炎飲食\n\n- plant-based、low-fat high-fiber、anti-inflammatory、semi-vegetarian 與 whole-food 研究常觀察到生活品質、腸道功能、症狀或部分發炎指標改善。\n- 某些研究看到 CRP、FCP 或疾病活動下降，另一些研究只有症狀或 QoL 改善，顯示「病人感覺比較好」和「腸道發炎下降」要分開驗證。\n- 全食物原則的好處是容易轉成實際食材與家庭飲食，仍要處理疾病活動、狹窄、低渣需求、手術前後、腹瀉、乳糖與個別食物耐受。\n\n### FODMAP 與症狀導向飲食\n\n- 低 FODMAP 介入較常被用來處理腹脹、腹痛、排便與 IBS-like symptoms。它可能改善症狀，但不能直接視為控制 IBD 內症或黏膜發炎的治療。\n- 若採低 FODMAP，應以短期、分階段、專業再引入為原則，避免長期過度限制與腸道菌相、纖維攝取及飲食多樣性受損。\n\n## Critical Appraisal\n\n### 方法品質\n\n| 面向 | 判定 | 理由 |\n|---|---|---|\n| 問題與範圍 | 中高 | PICOS 清楚，聚焦成人 CD／UC 的飲食治療，允許不同研究設計以建立全貌。 |\n| 搜尋完整度 | 中高 | 四個主要資料庫、灰色文獻、引用追蹤與 2026 年更新搜尋都有交代，完整搜尋式放在補充資料。 |\n| 篩選可信度 | 中高 | 兩位作者獨立篩選，衝突由其他作者參與共識處理。初步 Zotero 去除明顯不相關文獻由第一作者執行，仍可能帶來早期選擇偏差。 |\n| 資料 charting | 中等 | Covidence 與 TIDieR 架構有助重現，後續多數 charting 由一位作者完成，再和另一位作者定期共識。 |\n| 飲食組成比較 | 中等 | 熱圖把共同食物原則視覺化，食物命名、階段性限制與同名異物仍會影響分類。 |\n| 研究品質判讀 | 低 | Scoping review 未對納入研究做正式 risk-of-bias 評估，不能依研究結果強弱排列飲食療效。 |\n| 效果整合 | 低 | 沒有 meta-analysis，沒有統一效應量、最小臨床重要差異或確切總體療效。 |\n\n### GRADE 重算\n\n本次以「成人 IBD 飲食介入對症狀、疾病活動與發炎指標的臨床推論」作為證據體，依混合觀察性與介入研究採 Low 起始。依 paper-review skill 的 grade_judge.py 執行結果：risk of bias、inconsistency、indirectness、imprecision 與 publication bias 各降一級，總變化 -5，最後為 **Very low ⊕◯◯◯**。\n\n這是對整張研究地圖的保守判讀，不是對每一個 RCT 的個別 GRADE。文中個別 RCT 或特定飲食研究仍要回到原始研究，分開看族群、藥物、依從性、盲法、內視鏡、FCP、CRP 與追蹤時間。\n\n### 論證與推論漏洞\n\n- argdown_lint.py 旗標 surrogate_to_hard_endpoint：熱圖共同組成、症狀、QoL 與疾病活動指標被用來支持「安全且具支持度的飲食基礎」，但缺少一致的病人重要結局與長期安全性資料。\n- 症狀緩解不等於內症或黏膜發炎控制。文章自己指出 symptom-biomarker disconnect，臨床摘要也要保留這個差異。\n- MD 的共同全食物原則與特定飲食名稱容易被讀者混為一談。MD 是飲食型態，CDED、SCD、AIP 或低 FODMAP 是有特定限制規則的介入，營養風險與執行負擔不同。\n- 熱圖的「共同排除」可能反映研究者對飲食的描述習慣，不等於每一項食物已經通過單獨介入試驗，也不能從組成共識推導因果效果。\n- 穩定藥物和飲食常同時存在，研究結果不能簡單分割成純飲食效果。\n\n### 文章優點\n\n- 把不同名稱的飲食拆成食物組成，讓讀者看到跨研究的共同方向與真正差異。\n- 分開 CD、UC、活動期、緩解期與不同飲食目的，避免把所有 IBD 病人當成同一群。\n- 用 TIDieR 設計 charting，記錄介入內容、時間、比較組與併用藥物，對未來研究複製有幫助。\n- 明確指出症狀和發炎生物標記不一定同步，也指出限制性飲食的營養缺乏風險。\n- 把 MD 和全食物原則放在「可安全當作基礎」的位置，沒有把它包裝成取代藥物或適用所有病人的單一療法。\n\n### 仍要補強的地方\n\n- 需要對納入 RCT、非隨機研究與病例分開做正式 risk-of-bias 評估，再決定哪些飲食可進入臨床建議。\n- 後續研究應預先定義疾病專一族群、活動期或維持期、併用藥物、內視鏡或 FCP／CRP 的主要結局、依從性與營養安全指標。\n- 飲食研究需要更一致的介入報告，包含實際菜單、食物份量、能量與蛋白質、再引入規則、專業支持、掉隊原因與成本。\n- 研究應避免用單一症狀量表代表整個 IBD 病程，至少把症狀、客觀發炎、內視鏡、體重／體組成、住院與藥物升級分開報告。\n\n## 對營養師的臨床應用\n\n- **共同起點**：以全食物、蔬果、適量纖維、堅果、橄欖油與其他不飽和脂肪作為飲食品質方向，減少加工食品、添加糖與含糖飲料。\n- **活動期**：先確認狹窄、腹瀉、疼痛、嘔吐、手術狀態、攝取量、脫水與營養不良，再決定纖維、食物質地、能量與蛋白質安排。\n- **緩解期**：目標從「一直排除」轉向飲食多樣性、營養充足、個別耐受與長期可持續性。\n- **症狀與發炎分開追蹤**：腹脹、腹痛、排便變化可和低 FODMAP 或食物質地有關，CRP、FCP、內視鏡與醫療評估則回答另一個問題。\n- **限制性飲食安全**：SCD、CDED、AIP、低 FODMAP 或其他排除方案，需有營養師設定時間、替代食物、再引入與停損條件，避免蛋白質、能量、鈣、鐵、B 群、纖維與飲食多樣性不足。\n- **不要自行停藥**：文章支持飲食作為照護的一部分，不能取代 IBD 藥物、內視鏡追蹤或醫療團隊判斷。\n\n## 期刊、作者與研究透明度\n\n- 期刊：Therapeutic Advances in Gastroenterology，2026，OA PDF 29 頁，正文區段完整。\n- 作者來自瑞典研究團隊，文章說明由研究團隊與研究館員共同形成搜尋策略。\n- protocol 已提交，但文中沒有提供已註冊 protocol identifier。這會降低外部讀者對研究問題事前固定程度的判斷。\n- 資助：Malmö University。\n- 利益衝突：作者聲明沒有研究、作者或出版相關的潛在利益衝突。\n- 資料可得性：作者表示本研究沒有產生或分析新的原始資料，補充資料可在線取得。\n\n## Reference Verification\n\n| DOI | Crossref 核對題名 | 本文用途 | 判定 |\n|---|---|---|---|\n| 10.1053/j.gastro.2021.05.047 | A Randomized Trial Comparing the Specific Carbohydrate Diet to a Mediterranean Diet in Adults With Crohn’s Disease | SCD 與 MD 成人 CD 隨機試驗 | DOI 與題名相符 |\n| 10.1093/ecco-jcc/jjad073 | A Mediterranean Diet Pattern Improves Intestinal Inflammation Concomitant with Reshaping of the Bacteriome in Ulcerative Colitis | MD 與 UC 發炎及菌相隨機試驗 | DOI 與題名相符 |\n| 10.1016/S2468-1253(21)00299-5 | The Crohn's disease exclusion diet for induction and maintenance of remission in adults with mild-to-moderate Crohn’s disease | CDED-AD 成人 CD 隨機 pilot | DOI 與題名相符 |\n| 10.1136/bmj.g1687 | Better reporting of interventions: TIDieR checklist and guide | 飲食介入 charting 架構 | DOI 與題名相符 |\n\nCrossref 核對確認的是 DOI 與書目身份，不能替代各原始研究的偏差評估，也不能把回顧文章的敘述直接當作統合效果。\n\n## 來源與執行證據\n\n- 已依安裝的 paper-review skill 實際執行本篇全文品質評讀，未用摘要、metadata 或期刊頁面預覽代替。\n- 合法來源：Crossref full-text link 取得的 OA PDF，Therapeutic Advances in Gastroenterology，29 頁。來源 PDF SHA-256：fd4a5bc35f4ee3c4549b51a347c2934f535df35ad0f853fac63f7e82563e9751。\n- 本機全文文字 SHA-256：8717d7829df9e948de610b09d0ebf27b362c63a2f0e3858d0e13a78499e52f96，原生文字約 95,254 字，28 頁有資訊性文字，replacement character 為 false。\n- DOI、題名、作者與正文身份核對通過，Methods、Results、Discussion、Conclusion 與限制段落均可定位。\n- Crossref 公開資料核對 4 筆代表性飲食研究與 TIDieR 方法 DOI。GRADE 與 argdown_lint 均以本次工作資料夾的輸入檔實際執行。\n- 期刊分區、作者 h-index、scite 引用分類與 PubPeer 社群掃描：本次 Worker 未連接對應資料工具，未將未查到內容寫成沒有批評。\n\n## 參考文獻\n\n- Ingridsdotter J, Vejzovic V, Elmerstig E, Sjöberg K. Multiple paths to health: A scoping review of dietary interventions for adults with Crohn's disease and ulcerative colitis. Therapeutic Advances in Gastroenterology. 2026. DOI: 10.1177/17562848261479366.\n- DOI：https://doi.org/10.1177/17562848261479366",
+      "cards": [],
+      "completedAt": "2026-08-19T09:32:12.668Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1817590:digest",
+      "paperId": "doi:10.3389/fnut.2026.1817590",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Low referral uptake, not patient adherence, limits implementation of early nutritional screening in head and neck and upper gastrointestinal cancers.",
+      "authors": "Azzali I, Guerra D, Suzzi M, Passardi A, Calpona S, Rapposelli I, Muratore M, De Rosa F, Parisi E, Volpi R, Serra P",
+      "journal": "Frontiers in Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fnut.2026.1817590",
+      "abstract": "Malnutrition is highly prevalent in patients with head and neck and upper gastrointestinal cancers and is associated with poorer clinical outcomes. Despite guideline recommendations, early nutritional screening remains inconsistently implemented in routine oncology care. This single-center prospective feasibility study evaluated the implementation of an early nutritional screening and intervention pathway in newly diagnosed oncology patients with head and neck and upper gatrointestinal cancers. Eligible patients were enrolled within 7 days of their first oncology consultation and entered a structured nutritional pathway including baseline (T0), one-month (T1), and two-month (T2) assessments. Nutritional evaluation included MUST screening, anthropometric measures, bioelectrical impedance analysis, handgrip strength, biochemical parameters, and patient-reported outcomes (ESAS and FACT-G). Feasibility endpoints included referral, enrolment, and adherence rates. Among 550 eligible patients, 77 were enrolled (14%). Once enrolled, adherence to the pathway was high (91%). At baseline, 47% of patients were classified as at high nutritional risk. Serum biochemical markers, available in a subset of patients, were consistent with mild nutritional alterations. During follow-up, body weight, handgrip strenght, biochemical and bioelectrical impedance parameters, and overall quality of life remained stable. Significant improvements were observed in selected symptoms, including fatigue, nausea, and well-being/malaise. Early nutritional screening is feasible and highly acceptable once implemented. However, implementation at the population level is limited by low and non-systematic referral rates, highlighting a critical gap in routine oncology care.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1817590/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42609223/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "design:guideline",
+        "guideline and consensus",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "頭頸與上消化道癌症早期營養篩檢與轉介流程的全文內容整理",
+      "content": "# 頭頸與上消化道癌症早期營養篩檢與轉介流程的全文內容整理\n\n> [!summary] 30 秒層\n> 這篇義大利單中心前瞻性 feasibility pilot 研究問的是：新診斷頭頸癌與上消化道癌病人，能不能在第一次腫瘤科會診後 7 天內進入早期營養篩檢與追蹤路徑。答案分成兩段：550 名合格者只有 77 人進入，人口層級轉介不足；一旦進入，70/77 人完成兩個月內三次訪視，遵從率 91%。\n> - 路徑包含 MUST、人體測量、BIA、握力、生化資料、ESAS、FACT-G，以及飲食諮詢、ONS 或人工營養評估。\n> - 進入者中 47% MUST ≥2，屬高營養風險，20% 為中度風險。BMI 正常不代表營養風險低。\n> - 體重、握力、BIA、生化與 FACT-G 在兩個月內大致穩定，疲勞、噁心與 well-being／malaise 有時間效果。\n> - 沒有對照組、樣本小、癌症類型混合、MUST 未涵蓋完整癌症症狀，不能把穩定或症狀變化當成介入造成的長期療效。\n\n## 全文地圖\n\n1. **為什麼需要流程**：頭頸癌與上消化道癌容易因吞嚥、口乾、黏膜炎、早飽、吸收不良與治療毒性出現營養問題。\n2. **流程怎麼做**：腫瘤科轉介後，7 天內完成 T0，1 個月做 T1，2 個月做 T2。\n3. **結果看什麼**：轉介／進入率、訪視完成率、MUST、體重、握力、BIA、生化、ESAS 與 FACT-G。\n4. **作者怎麼解釋**：主要瓶頸在腫瘤流程中的轉介，而非已進入服務病人的接受度。\n5. **判讀界線**：研究能說明服務導入與接受度，不能證明營養介入改善存活、住院、抗癌治療完成率或長期生活品質。\n\n## 第一層：白話理解\n\n### 這篇研究真正發現了什麼\n\n很多癌症病人需要營養照護，但門診常等到體重明顯下降、吃不下或外觀變差，才轉介營養師。這篇研究把入口流程固定下來，再觀察哪些人真的進入與完成。\n\n550 名符合條件的人只有 77 人進入，比例 14%。已進入的 77 人中有 70 人完成三次訪視，比例 91%。這代表病人願意接受營養照護的訊號很清楚，服務覆蓋率不足才是這個場域的主要問題。\n\n### 以營養師的角度記住三件事\n\n- 篩檢要放在固定腫瘤流程，不能只靠單一醫師當下的直覺。\n- MUST 適合當快速入口，頭頸與上消化道癌仍要補問吞嚥、口乾、早飽、疼痛、噁心、攝取量與吸收問題。\n- 體重穩定不等於營養狀態改善，也不等於介入有效。要把功能、握力、症狀、治療毒性與病人目標一起看。\n\n## 第二層：全文內容整理\n\n### 1. 研究對象與流程\n\n- 研究期間為 2022 年 2 月至 2024 年 2 月。\n- 納入成人、組織學確認頭頸癌或上消化道癌、第一次腫瘤科會診在 7 天內、預期存活至少 3 個月者。\n- 腫瘤科醫師原本依主觀判斷轉介營養門診，疑似營養不良者進入篩檢與介入路徑。\n- T0 在基線完成，T1 為一個月，T2 為兩個月。\n- 營養處置依需要安排飲食諮詢、口服營養補充或人工營養轉介，研究沒有把每位病人的介入內容固定成同一套處方。\n\n### 2. 進入率與遵從率\n\n| 節點 | 數字 | 讀法 |\n|---|---:|---|\n| 合格病人 | 550 | 研究期間被辨識的母群體 |\n| 進入基線篩檢 | 77，14% | 人口層級轉介／導入不足 |\n| 頭頸癌進入 | 22/44，50% | 比上消化道癌高 |\n| 上消化道癌進入 | 55/506，11% | 漏轉介較明顯 |\n| 完成 T0、T1、T2 | 70/77，91% | 已接觸服務者多數完成 |\n\n473 位未轉介病人的 ECOG 0–1 佔多數，上消化道腫瘤佔 92%。這使作者推論：依主觀判斷的轉介方式，可能把「看起來還可以」誤當成營養風險低。\n\n### 3. 基線營養風險和症狀\n\n- MUST ≥2 的高風險者為 47%，MUST=1 的中度風險者為 20%。上消化道癌高風險約 54%，頭頸癌約 27%。\n- BMI 分布：低體重 9%、正常 45%、過重 33%、肥胖 13%。研究提醒，正常 BMI 仍可能有癌症相關營養風險。\n- 右手握力中位數 32.4 kg，左手 31.9 kg。握力的實際意義要放在性別、年齡、肌少症、功能和治療狀態中看。\n- ESAS 完成者 68 人，疲勞 54%、malaise 49%、嗜睡與焦慮 40%、食慾下降 38% 達中重度範圍。\n- FACT-G 平均總分 74±17，功能與情緒面向低於部分其他面向，顯示營養風險和症狀負擔在治療初期已經同時存在。\n\n### 4. MUST 的優點和盲點\n\nMUST 的優點是簡單、快速、較容易嵌入門診。作者選它，是因為研究重點放在導入可行性，而不是要做最完整的腫瘤營養評估。\n\nMUST 的盲點是對 dysphagia、early satiety、xerostomia、黏膜炎、疼痛與治療相關症狀涵蓋不足。頭頸與上消化道癌的營養問題常在體重明顯下降前就出現，故實務上要採兩階段：MUST 做入口，後續補上癌症營養影響症狀與功能評估。\n\n### 5. 兩個月追蹤結果\n\n- FACT-G：T0 74±17、T1 75±17、T2 73±14，p=0.33，沒有顯著差異。\n- 疲勞 p=0.02、噁心 p=0.009、well-being／malaise p=0.02 有時間效果。\n- 右手握力 p=0.09、左手 p=0.20，沒有顯著變化。\n- BIA 與生化指標從 T0 到 T2 沒有顯著變化。\n- 研究作者指出體重、握力與生活品質維持穩定，可能與早期營養介入有關，也可能反映自然病程或治療初期狀態。沒有對照組，不能分辨原因。\n\n### 6. 為什麼不能把這篇當療效試驗\n\n這篇研究沒有 usual care 對照組，病人同時接受腫瘤治療、個別化營養處置與一般支持照護。研究也只有 77 名進入者，且生化、BIA、ESAS 與 FACT-G 的可用人數不同。\n\n因此，體重沒有下降、握力沒有明顯改變或 FACT-G 大致穩定，只能表示在這段短時間裡沒有觀察到惡化。疲勞、噁心與 malaise 的變化可作為後續研究假說，不能直接寫成營養師介入造成症狀改善。\n\n### 7. 對服務設計的啟示\n\n- 把營養篩檢做成新診斷腫瘤的固定步驟，而非等待醫師主動想起來。\n- 電子病歷可設定 MUST、體重變化、吞嚥、口乾、早飽、攝取量與症狀的提示。\n- 轉介規則要能區分：需要立即營養師、需要一週內評估、需要衛教後追蹤與目前低風險。\n- 追蹤表保留 T0、T1、T2 的同一套欄位，包含體重、握力、症狀、攝取量、BIA、治療毒性與介入內容。\n- 服務品質要分開追蹤轉介率、基線完成率、三次訪視完成率、失聯率與退出原因。只看已進入者的遵從率，會看不到前端漏轉介。\n\n## 第三層：臨床應用與記憶線索\n\n### 可直接使用的初診流程\n\n1. **入口**：新診斷頭頸癌或上消化道癌，在第一次腫瘤科會診後完成快速篩檢。\n2. **症狀補問**：吞嚥、咀嚼、口乾、口腔疼痛、噁心、早飽、腹瀉、便秘、食慾、味覺與攝取量。\n3. **功能與身體組成**：體重趨勢、握力、活動能力、肌少症風險與可用的 BIA 或其他客觀資料。\n4. **分流**：MUST 高風險或有明顯營養影響症狀者進入營養師評估，必要時轉醫師、語言治療、護理或人工營養團隊。\n5. **追蹤**：設定一個月與兩個月回看，記錄介入、症狀、攝取量、治療毒性與病人能否完成目標。\n\n### 和既有知識連結\n\n本次 Worker 沒有連接個人 vault 搜尋工具，未把既有筆記當成已核對來源。可在私人站搜尋「腫瘤營養」、「MUST」、「PG-SGA」、「頭頸癌 吞嚥」、「上消化道癌 早飽」、「口服營養補充」和「營養篩檢導入」，將本篇流程研究和既有指南、工具筆記接在一起。\n\n## 重要數字與圖表\n\n- **Figure 1**：ESAS 疲勞、malaise、噁心的 T0 至 T2 變化。\n- **Figure 2**：體重在追蹤期間的變化。\n- **Figure 3**：握力在追蹤期間的變化。\n- **Figure 4**：BIA 與生化參數的變化。\n- **流程數字**：550 名合格者、77 人進入、14% 覆蓋率、70/77 完成、91% adherence。\n- **基線風險**：MUST 高風險 47%、中度風險 20%，ESAS 疲勞 54%、食慾下降 38%。\n- **FACT-G**：T0 74±17、T1 75±17、T2 73±14，p=0.33。\n\n## 自我測驗\n\n> [!question]- Q1：這篇研究最主要的瓶頸在病人拒絕營養照護，還是在轉介入口？\n> 在轉介入口。550 名合格者只有 77 人進入，比例 14%，但進入後有 70/77 完成三次訪視，遵從率 91%。\n\n> [!question]- Q2：MUST 高風險比例 47%，可以代表所有頭頸與上消化道癌病人的實際營養風險嗎？\n> 不能。這個比例只來自被轉介並完成基線評估的 77 人，且 MUST 未完整涵蓋吞嚥、早飽、口乾與其他癌症營養影響症狀，實際風險可能被低估。\n\n> [!question]- Q3：FACT-G 大致穩定，能不能說早期營養介入維持了生活品質？\n> 不能直接這樣說。研究沒有對照組，追蹤只有兩個月，穩定可能來自自然病程、抗癌治療時程或其他照護，無法單獨歸因於營養介入。\n\n> [!question]- Q4：為什麼頭頸癌和上消化道癌要分開想營養問題？\n> 頭頸癌常受吞嚥困難、黏膜炎、口乾與咀嚼影響，上消化道癌較常見早飽、吸收不良、代謝異常與腫瘤相關症狀。兩者的評估與轉介內容不能只用同一個體重指標代替。\n\n> [!question]- Q5：要把這篇研究轉成門診品質改善，最先該改哪一個流程？\n> 先把新診斷病人的營養篩檢和轉介設成固定步驟，並記錄每個節點的分母：合格、被篩檢、被轉介、完成基線、完成追蹤與退出，才能找到真正掉人的位置。\n\n## Reference\n\n- Azzali I, Guerra D, Suzzi M, et al. Low referral uptake, not patient adherence, limits implementation of early nutritional screening in head and neck and upper gastrointestinal cancers. Frontiers in Nutrition. 2026. DOI: 10.3389/fnut.2026.1817590.\n- 全文來源：Unpaywall OA PDF，Frontiers in Nutrition，14 頁，來源 PDF SHA-256：4da3741575156fffb5a21108f3555a7706bc09f2fad03d7e6f825aa044188849。\n- 本機全文文字 SHA-256：a04a8f5781dbfdaf6e1bf93a7c9ae34959df9d1fb7c51f08ff16e2628120badd。\n- 本次以同一份已核對 DOI、題名與正文區段的合法全文實際執行 paper-digest，未以摘要代替全文。",
+      "cards": [
+        {
+          "title": "流程瓶頸",
+          "question": "這篇研究最主要的瓶頸在病人拒絕營養照護，還是在轉介入口？",
+          "answer": "在轉介入口。550 名合格者只有 77 人進入，比例 14%，但進入後 70/77 完成三次訪視，遵從率 91%。",
+          "tags": [
+            "轉介",
+            "導入",
+            "腫瘤營養"
+          ]
+        },
+        {
+          "title": "MUST 適用性",
+          "question": "MUST 高風險比例 47%，可以代表所有頭頸與上消化道癌病人的實際營養風險嗎？",
+          "answer": "不能。資料只來自被轉介的 77 人，且 MUST 未完整涵蓋吞嚥、早飽、口乾與其他癌症營養影響症狀，實際風險可能被低估。",
+          "tags": [
+            "MUST",
+            "症狀",
+            "篩檢"
+          ]
+        },
+        {
+          "title": "生活品質判讀",
+          "question": "FACT-G 大致穩定，能不能說早期營養介入維持了生活品質？",
+          "answer": "不能直接歸因。研究沒有對照組，追蹤只有兩個月，穩定可能來自自然病程、治療時程或其他照護。",
+          "tags": [
+            "FACT-G",
+            "因果推論",
+            "生活品質"
+          ]
+        },
+        {
+          "title": "癌症別分流",
+          "question": "為什麼頭頸癌和上消化道癌要分開想營養問題？",
+          "answer": "頭頸癌常受吞嚥、黏膜炎、口乾與咀嚼影響，上消化道癌較常見早飽、吸收不良與代謝異常，評估和轉介內容不同。",
+          "tags": [
+            "頭頸癌",
+            "上消化道癌",
+            "分流"
+          ]
+        },
+        {
+          "title": "品質改善起點",
+          "question": "要把這篇研究轉成門診品質改善，最先該改哪個流程？",
+          "answer": "把新診斷病人的營養篩檢與轉介設成固定步驟，並分別記錄合格、篩檢、轉介、基線、追蹤與退出分母。",
+          "tags": [
+            "品質改善",
+            "流程",
+            "營養篩檢"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-19T09:26:39.977Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1817590:review",
+      "paperId": "doi:10.3389/fnut.2026.1817590",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Low referral uptake, not patient adherence, limits implementation of early nutritional screening in head and neck and upper gastrointestinal cancers.",
+      "authors": "Azzali I, Guerra D, Suzzi M, Passardi A, Calpona S, Rapposelli I, Muratore M, De Rosa F, Parisi E, Volpi R, Serra P",
+      "journal": "Frontiers in Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fnut.2026.1817590",
+      "abstract": "Malnutrition is highly prevalent in patients with head and neck and upper gastrointestinal cancers and is associated with poorer clinical outcomes. Despite guideline recommendations, early nutritional screening remains inconsistently implemented in routine oncology care. This single-center prospective feasibility study evaluated the implementation of an early nutritional screening and intervention pathway in newly diagnosed oncology patients with head and neck and upper gatrointestinal cancers. Eligible patients were enrolled within 7 days of their first oncology consultation and entered a structured nutritional pathway including baseline (T0), one-month (T1), and two-month (T2) assessments. Nutritional evaluation included MUST screening, anthropometric measures, bioelectrical impedance analysis, handgrip strength, biochemical parameters, and patient-reported outcomes (ESAS and FACT-G). Feasibility endpoints included referral, enrolment, and adherence rates. Among 550 eligible patients, 77 were enrolled (14%). Once enrolled, adherence to the pathway was high (91%). At baseline, 47% of patients were classified as at high nutritional risk. Serum biochemical markers, available in a subset of patients, were consistent with mild nutritional alterations. During follow-up, body weight, handgrip strenght, biochemical and bioelectrical impedance parameters, and overall quality of life remained stable. Significant improvements were observed in selected symptoms, including fatigue, nausea, and well-being/malaise. Early nutritional screening is feasible and highly acceptable once implemented. However, implementation at the population level is limited by low and non-systematic referral rates, highlighting a critical gap in routine oncology care.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1817590/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42609223/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "design:guideline",
+        "guideline and consensus",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "頭頸與上消化道癌症早期營養篩檢路徑的品質評讀",
+      "content": "# 頭頸與上消化道癌症早期營養篩檢路徑的品質評讀\n\n> [!info] 品質快照\n> **研究設計**：單中心前瞻性 feasibility pilot，2022 年 2 月至 2024 年 2 月｜**樣本**：550 名合格者，77 人進入營養路徑\n> **主要結果**：整體轉介／進入率 14%，低於預設 70% 門檻；進入後 70/77 完成 T0、T1、T2，遵從率 91%，高於預設 80% 門檻。\n> **GRADE**：對短期流程與初步臨床結果保守評為 Very low ⊕◯◯◯。本文沒有對照組，不能把兩個月內的穩定或症狀變化當成營養介入造成的病人結局改善。\n> **一句話判斷**：這篇文章最有價值的訊息是「病人被轉介並真正接觸到營養服務後，接受度很高」，主要瓶頸發生在腫瘤流程的辨識與轉介，研究仍不足以證明介入本身改善治療完成率、住院、存活或長期營養狀態。\n\n## 摘要\n\n> [!summary] 全文已讀\n> 作者在義大利單一癌症中心建立頭頸癌與上消化道癌症的早期營養篩檢與追蹤路徑。合格病人要在第一次腫瘤科會診後 7 天內進入流程，接受 MUST、人體測量、BIA、握力、生化資料、ESAS 與 FACT-G，並在 T0、1 個月 T1、2 個月 T2 重複評估。營養管理依個別需要使用飲食諮詢、口服營養補充或人工營養轉介。\n\n- 550 名合格病人中，只有 77 人進入路徑，整體比例 14%，其中頭頸癌 22/44 為 50%，上消化道癌 55/506 為 11%。\n- 進入路徑後，70/77 人完成三次訪視，遵從率 91%。這是流程接受度訊號，不能外推成未被轉介者也會有相同結果。\n- 77 人中 47% MUST ≥2，屬高營養風險，20% 為中度風險。ESAS 基線常見疲勞、malaise、嗜睡、焦慮與食慾下降。\n- 兩個月內體重、握力、BIA、生化指標與 FACT-G 大致穩定。疲勞、噁心與 well-being／malaise 出現時間效果，疼痛、憂鬱、焦慮、食慾下降、呼吸困難與嗜睡沒有顯著變化。\n- 研究提供的是可行性與流程落差證據，不能證明早期營養介入造成長期病人重要結果改善。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **真正的問題**：指南都說癌症病人要早期做營養篩檢，日常門診卻常由醫師憑外觀、症狀或病情嚴重程度決定要不要轉介。這種做法容易漏掉仍能活動、體重尚未明顯下降，但已經有吞嚥、食慾或肌力問題的人。\n> - **研究結果**：一旦病人真的被送進營養路徑，多數人願意完成兩個月的三次評估。流程內的遵從率高，問題卡在大多數合格病人根本沒有被轉介。\n> - **臨床提醒**：頭頸癌和上消化道癌的營養風險來源不同，MUST 可作簡易入口，但不能取代對吞嚥、口乾、早飽、疼痛、噁心、吸收不良和治療毒性的專門詢問。\n> - **營養師可以帶走的做法**：把篩檢放進固定腫瘤流程，設定誰要做、何時做、轉介門檻、回覆時限與追蹤欄位，讓服務不必等到病人外觀明顯惡化才啟動。\n\n## 研究問題與方法\n\n- 研究目標是評估新診斷頭頸癌與上消化道癌病人，能否在一般腫瘤照護中執行早期營養篩檢與介入路徑。\n- 納入條件為成人、組織學確認的頭頸癌或上消化道癌、第一次腫瘤科會診在前 7 天內，預期存活至少 3 個月。病人提供書面同意。\n- 研究經 Romagna Regional Ethics Committee（CEROM）核准，遵循 Helsinki Declaration 與 ICH-GCP。\n- 轉介原本由腫瘤科醫師依主觀營養風險判斷，疑似營養不良者轉至 Nutrition Outpatient Clinic。這個設計正好測到「依賴臨床主觀判斷」造成的流程落差，卻也使轉介率帶有選擇偏差。\n- T0、T1、T2 均安排 MUST、體重、身高、BMI、身體圍度、BIA、握力、可取得的生化資料，以及 ESAS 和 FACT-G。營養介入包含個別飲食諮詢、ONS 或人工營養評估。\n- 主要可行性指標為 referral／enrolment 與 adherence。預設轉介／進入門檻為 70%，遵從門檻為 80%。研究沒有正式樣本數計算。\n- 連續結果使用 non-parametric repeated-measures ANOVA，透過 R 的 nparLD package 分析 T0 至 T2。ESAS ≥4 定義為中度至重度症狀，FACT-G 缺失題目在至少完成一半題目時使用 domain mean imputation。\n\n## 主要結果\n\n### 流程可行性\n\n| 指標 | 研究結果 | 對應門檻 | 判讀 |\n|---|---:|---:|---|\n| 合格病人 | 550 | 無 | 研究期間被辨認的合格者 |\n| 進入營養路徑 | 77／550，14% | ≥70% | 未達標，顯示人口層級導入不足 |\n| 頭頸癌進入率 | 22／44，50% | ≥70% | 高於上消化道癌，但仍未達預設標準 |\n| 上消化道癌進入率 | 55／506，11% | ≥70% | 轉介落差最明顯 |\n| 完成 T0、T1、T2 | 70／77，91% | ≥80% | 已進入者的接受度高 |\n\n未被轉介的 473 人中，年齡中位數 70 歲，60% 為男性，ECOG 0–1 佔多數，上消化道腫瘤佔 92%。這群人的資料支持作者的流程推論：若只依外觀或明顯病情惡化才轉介，可能漏掉早期或尚能活動的營養風險。\n\n### 基線營養風險\n\n- 77 人中 47% MUST ≥2，20% MUST=1。頭頸癌高風險約 27%，上消化道癌約 54%。\n- BMI 分布為低體重 9%、正常 45%、過重 33%、肥胖 13%。這提醒體重或 BMI 正常不等於沒有營養風險。\n- 右手握力中位數 32.4 kg，左手 31.9 kg。部分生化資料有缺漏，prealbumin 低值約 40%，葉酸低值約 43%，維生素 D 低值約 15%，解讀時需把可測人數放在分母中。\n- T0 ESAS 完成者 68 人。中重度疲勞約 54%、malaise 約 49%、嗜睡與焦慮約 40%、食慾下降約 38%。FACT-G 平均總分 74±17。\n\n### 兩個月內變化\n\n- FACT-G 平均總分 T0 74±17、T1 75±17、T2 73±14，p=0.33，沒有顯著差異。\n- 疲勞 p=0.02、噁心 p=0.009、well-being／malaise p=0.02 有時間效果。這些結果可能和治療毒性、自然病程、症狀波動或介入共同相關，沒有對照組時不能決定原因。\n- 握力沒有顯著變化，右手 p=0.09、左手 p=0.20。BIA 與生化指標從 T0 到 T2 也沒有顯著變化。\n- 完成營養計畫者中，抗癌治療遵從度 70 人裡 32 人完成預定療程，24 人在資料截點仍在治療。這不是完整的治療完成率比較，也沒有非介入對照組，不能用來估計營養路徑對腫瘤治療的效果。\n\n## Critical Appraisal\n\n### 研究設計與內部效度\n\n| 面向 | 判定 | 理由 |\n|---|---|---|\n| 研究問題 | 中等 | 以真實門診導入的 referral、enrolment、adherence 為核心，問題貼近腫瘤營養服務設計。 |\n| 介入描述 | 中等 | 說明 MUST、BIA、握力、ESAS、FACT-G 與飲食／ONS／人工營養選項，個別營養處方的強度與內容仍不完全固定。 |\n| 選擇偏差 | 高風險 | 轉介依醫師主觀判斷，550 人只有 77 人進入，且頭頸癌與上消化道癌進入比例差異很大。 |\n| 混雜與因果 | 高風險 | 沒有對照組，病人同時接受抗癌治療與個別化營養處置，短期穩定不能歸因於介入。 |\n| 結果完整性 | 中低 | ESAS、FACT-G、BIA、生化資料與重量追蹤有缺漏，完整資料多為 68 人或更少。 |\n| 外部適用性 | 中低 | 單一義大利中心、癌症類型混合、追蹤兩個月，轉介模式與台灣腫瘤流程可能不同。 |\n\n### MUST 的工具適配性\n\n作者有主動討論選 MUST 而非 PG-SGA 的取捨。MUST 容易在一般門診導入，但沒有完整涵蓋頭頸癌與上消化道癌常見的 dysphagia、early satiety、xerostomia、疼痛與治療症狀。因此研究中的 47% 高風險，可能低估實際營養風險的廣度與嚴重度。\n\n實務上可把 MUST 當成入口，再補上癌症營養影響症狀、攝取量、吞嚥、口腔狀態、吸收問題、肌力、功能與治療毒性。工具選擇應配合導入目的，簡短工具增加覆蓋率，完整工具增加個別化判讀，兩者可以分段使用。\n\n### GRADE 重算\n\n本次以「頭頸與上消化道癌症早期營養篩檢與介入路徑的可行性及初步臨床結果」作為證據體，觀察性 feasibility study 起始 Low。依 paper-review skill 的 grade_judge.py 執行結果：risk of bias 降一級、indirectness 降一級、imprecision 降一級、publication bias 降一級，inconsistency 暫不降級，總變化 -4，最後為 **Very low ⊕◯◯◯**。\n\n這個結果適合用來提醒證據界線。91% adherence 可以支持「已被納入服務的人多數願意完成流程」，14% referral／enrolment 可以支持「人口層級導入遇到轉介瓶頸」。兩個結果都不能直接支持營養介入改善存活、住院、治療完成率或長期生活品質。\n\n### 論證與推論漏洞\n\n- argdown_lint.py 旗標 surrogate_to_hard_endpoint：流程遵從、體重穩定、握力穩定、FACT-G 與症狀變化被放在改善營養照護結果的論證中，但缺少對照組與病人重要硬結局。\n- 作者用「病人被轉介後接受度高」推論主要障礙在轉介，而非病人 adherence。這個解釋有 14% 與 91% 的數據支持，但仍可能受到被轉介者本來就較願意接受照護的選擇效應影響。\n- 疲勞、噁心與 malaise 的 p 值是探索性時間分析，沒有多重比較修正，也無法分辨營養介入、抗癌治療、自然病程或症狀測量波動。\n- 以 550 名合格者作為分母計算 14% 很適合呈現導入覆蓋率，卻和「被邀請後拒絕」的 consent rate 混在一起。研究需要把未轉介、被轉介未同意、同意後退出分開報告，才能定位每個流程節點。\n- 頭頸癌與上消化道癌混在同一隊列，疾病位置、治療、吞嚥、吸收與代謝風險不同，77 人不足以做可靠的分層效果比較。\n\n### 文章優點\n\n- 把營養照護的問題從「病人有沒有遵從」轉回「系統有沒有把病人送進服務」，這個流程觀點對門診品質改善很實用。\n- 同時呈現 550 名合格者與 77 名實際進入者，讓 referral gap 和 pathway adherence 可以分開閱讀。\n- 以 T0、T1、T2 追蹤 MUST、體重、握力、BIA、生化、ESAS 與 FACT-G，具備日後做服務改善的資料骨架。\n- 作者主動說明 MUST 的限制、沒有對照組、追蹤短、腫瘤異質性與資料缺漏，沒有把 feasibility pilot 寫成療效試驗。\n- 資料與實務目標貼近營養師的工作，包括飲食諮詢、ONS、人工營養評估與癌症症狀追蹤。\n\n### 仍要補強的地方\n\n- 後續研究需要把營養篩檢嵌入電子病歷或腫瘤 pathway，並以標準化規則取代醫師主觀轉介。\n- 需要多中心、較大樣本、癌症別分層、至少 6 至 12 個月追蹤，並設置 usual care 或 stepped-wedge 對照。\n- 主要結局可加入營養風險變化、治療中斷、住院、感染、治療完成率、體組成、功能與存活，而非只看短期症狀。\n- MUST 後應補上 dysphagia、early satiety、xerostomia、疼痛、攝取量與 PG-SGA 或其他腫瘤營養工具，減少漏判。\n- 轉介流程應分開報告：合格、被辨識、被轉介、接受、完成基線、完成追蹤與退出的每一個分母。\n\n## 期刊、作者與研究透明度\n\n- 期刊：Frontiers in Nutrition，2026，本文為 OA PDF，全文 14 頁，主要正文區段完整。\n- 研究倫理：CEROM 核准，受試者提供書面同意。\n- 資料可得性：作者表示可向對應作者提出資料申請。\n- 資助：文章與發表費由 Italian Ministry of Health 的 Ricerca Corrente funding 支持。\n- 利益衝突：作者聲明沒有可構成商業利益衝突的財務關係，一名作者是 Frontiers editorial board member，文中說明不影響 peer review。\n- 作者對資料缺漏、沒有對照組、短期追蹤與轉介不標準化都有交代，透明度屬中等。沒有外部監測或工作流程觀察資料，無法完整說明醫師為何沒有轉介。\n\n## Reference Verification\n\n| DOI | Crossref 核對題名 | 本文用途 | 判定 |\n|---|---|---|---|\n| 10.1016/j.clnu.2021.02.005 | ESPEN practical guideline: Clinical Nutrition in cancer | 癌症營養支持與篩檢背景 | DOI 與題名相符 |\n| 10.1002/jpen.2688 | Malnutrition risk screening in adult oncology outpatients: an ASPEN systematic review and clinical recommendations | 腫瘤門診營養風險篩檢 | DOI 與題名相符 |\n| 10.1186/s12913-024-11288-2 | Barriers and facilitators of improved nutritional support for patients newly diagnosed with cancer: a pre-implementation study | 導入障礙與流程背景 | DOI 與題名相符 |\n| 10.1079/bjn20041258 | Malnutrition in hospital outpatients and inpatients: prevalence, concurrent validity and ease of use of the MUST for adults | MUST 工具來源 | DOI 與題名相符 |\n\nCrossref 核對是 DOI 與書目身份確認，不能代替逐篇全文品質評估，也不能替本研究的因果證據補上對照組。\n\n## 來源與執行證據\n\n- 已依安裝的 paper-review skill 實際執行本篇全文品質評讀，未用摘要、metadata 或期刊頁面預覽代替。\n- 合法來源：Unpaywall OA PDF，Frontiers in Nutrition，14 頁。來源 PDF SHA-256：4da3741575156fffb5a21108f3555a7706bc09f2fad03d7e6f825aa044188849。\n- 本機全文文字 SHA-256：a04a8f5781dbfdaf6e1bf93a7c9ae34959df9d1fb7c51f08ff16e2628120badd，原生文字約 48,366 字，14 頁均有資訊性文字，replacement character 為 false。\n- DOI、題名、作者與正文身份核對通過，Methods、Results、Discussion、Limitations 與 Conclusion 均可定位。\n- Crossref 公開資料核對 4 筆指南、工具與 implementation 相關 DOI。GRADE 與 argdown_lint 均以本次工作資料夾的輸入檔實際執行。\n- 期刊分區、作者 h-index、scite 引用分類與 PubPeer 社群掃描：本次 Worker 未連接對應資料工具，未將未查到內容寫成沒有批評。\n\n## 參考文獻\n\n- Azzali I, Guerra D, Suzzi M, et al. Low referral uptake, not patient adherence, limits implementation of early nutritional screening in head and neck and upper gastrointestinal cancers. Frontiers in Nutrition. 2026. DOI: 10.3389/fnut.2026.1817590.\n- DOI：https://doi.org/10.3389/fnut.2026.1817590",
+      "cards": [],
+      "completedAt": "2026-08-19T09:24:25.742Z"
+    },
+    {
+      "id": "doi:10.3389/fonc.2026.1891251:digest",
+      "paperId": "doi:10.3389/fonc.2026.1891251",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Artificial intelligence standardizes CT-based body composition analysis in breast cacer to address methodological heterogeneity.",
+      "authors": "Duan W, Wang R",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fonc.2026.1891251",
+      "abstract": "Computed tomography (CT)-derived body composition parameters-including skeletal muscle area, muscle density, and visceral and intermuscular adipose tissue-are robust prognostic and predictive biomarkers in breast cancer. However, their clinical translation is hampered by substantial methodological heterogeneity across studies. Key sources of variability include image acquisition parameters (contrast phase, tube voltage, slice thickness), inconsistent vertebral level selection (L3 versus thoracic levels), the absence of standardized normalization methods, and fragmented diagnostic thresholds for sarcopenia, myosteatosis, and visceral obesity. This narrative review dissects these sources of variability and demonstrates how artificial intelligence (AI), particularly deep learning, provides a transformative solution. AI offers a transformative pathway towards standardization of the analytical workflow-from intelligent slice localization and multi-label tissue segmentation (including challenging compartments such as intermuscular adipose tissue) to the generation of population-specific reference curves and multimodal risk prediction. Open-source platforms such as AutoMATiCA and DAFS Express achieve human-expert accuracy with sub-second processing times, directly addressing reproducibility concerns. By shifting from fixed, population-derived cutoffs to dynamic, individualized reference systems, AI offers a clear pathway toward integrating standardized body composition analysis into routine clinical practice, ultimately advancing precision oncology for breast cancer patients.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2026.1891251/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42609826/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "clinical nutrition technology",
+        "human clinical population",
+        "obesity and metabolism",
+        "precision nutrition"
+      ],
+      "noteTitle": "乳癌 CT 身體組成、肌少症與 AI 標準化的全文內容整理",
+      "content": "# 乳癌 CT 身體組成、肌少症與 AI 標準化的全文內容整理\n\n> [!summary] 30 秒層\n> 這篇敘述性回顧的核心問題是：乳癌 CT 身體組成研究常因掃描條件、取樣椎體、正常化方法和診斷切點不同而難以互相比較。AI 可以協助定位切片、分割肌肉與脂肪、建立人口特定參考值，速度與一致性也可能提高，但模型性能尚未等同於病人重要結局改善。\n> - 臨床上關注的指標包括 skeletal muscle area、skeletal muscle index、muscle density、visceral adipose tissue、subcutaneous adipose tissue、intermuscular adipose tissue 與其變化。\n> - 造影期相可讓肌肉密度差約 18 至 20 HU，內臟脂肪面積差約 7 至 8%。L3、T4、T11、T12、L1 不能當作互換的固定位置。\n> - AutoMATiCA 與 DAFS Express 等工具的分割指標可達高水準，仍要補上外部驗證、校準、失敗偵測、人工覆核與臨床工作流程。\n> - 對營養師而言，CT 身體組成是營養與功能評估的影像補充，不能只用一個 AI 切點決定蛋白質量、補充品或抗腫瘤治療。\n\n## 全文地圖\n\n文章可分成四條閱讀路徑：\n\n1. **臨床意義**：肌少症、肌肉品質、脂肪分布與肌肉變化和乳癌預後、毒性、病理反應、手術結果及生活品質的關係。\n2. **標準化缺口**：造影期相、管電壓、切片厚度、椎體層級、組織分割與身體大小正常化造成的差異。\n3. **AI 解法**：自動切片定位、多組織分割、肌間脂肪分割、z-score 參考曲線與影像加臨床資料的預測模型。\n4. **部署條件**：外部驗證、domain shift、校準、失敗偵測、解釋性、FDA 路徑、PACS／RIS 與人工覆核。\n\n## 第一層：白話理解\n\n### 這篇文章想解決的實務困擾\n\n乳癌病人的 CT 影像常已經存在，研究者可以從中估計肌肉量與脂肪分布。問題在於，每個研究可能選不同的影像期相、椎體位置、切片厚度與分類切點。即使兩篇文章都寫「肌少症」，實際量測的東西也可能不同。\n\nAI 有機會把找切片、畫組織邊界與計算數值的步驟固定下來。它也能把固定切點改成依年齡、性別與族群建立的參考值。這能讓資料更容易比較，卻仍無法消除資料來源、設備、族群和研究設計差異。\n\n### 營養師最需要記住的三句話\n\n- 體重與 BMI 看不到的肌肉品質、肌間脂肪與內臟脂肪，可以從 CT 提供補充資訊。\n- 單次 CT 分類要先確認影像條件和模型是否可靠，連續追蹤要確認前後檢查真的可比較。\n- AI 算得很快不等於治療有效。營養計畫要回到攝取量、功能、症狀、腎功能、治療計畫與病人目標。\n\n## 第二層：全文內容整理\n\n### 1. 乳癌身體組成和臨床結果\n\n- 文章整理 skeletal muscle area、skeletal muscle index、muscle density、visceral adipose tissue、subcutaneous adipose tissue 與 intermuscular adipose tissue。\n- 一篇肌少症統合分析約納入 6,130 人，肌少症與較差 OS 相關，HR 1.33，PFS 或 DFS HR 1.29。\n- 一個中國隊列約 2,948 人，肌少症與較差 OS 相關，HR 2.13，visceral obesity 與 DFS 相關，HR 1.46。\n- 新輔助治療期間 SMI 下降至少 3% 的研究，報告較差 DFS，HR 3.68。這個結果提醒臨床團隊追蹤治療期間的身體組成變化，不能直接當成營養介入的因果證據。\n- 肌間脂肪與 visceral-to-subcutaneous fat ratio 在部分研究和侵襲性亞型相關，文中列出的 OR 約 2.49 至 9.09。這些結果需要和年齡、體重、疾病期別、治療、活動量與影像參數一起解讀。\n\n### 2. 為什麼 L3、T4、T11、T12、L1 不能直接互換\n\nL3 常被用於身體組成分析，但乳癌胸部 CT 不一定包含 L3。文章整理 T4、T11、T12、L1 的替代研究，發現它們對肌肉量、肌肉品質、內臟脂肪與皮下脂肪的代表程度不同。\n\n- T4 可能對脂肪量與肌肉品質有實用性，對 VAT 和 SMI 的一致性較弱。\n- T12 可在胸部影像中提供替代資訊，文中引用中國 triple-negative breast cancer 研究的 SMI 切點約 28.01 cm²/m²。這是研究場域數值，不能直接變成所有族群的通用切點。\n- T11、L1 也有研究支持特定情境使用，但仍要記錄正常化方法、影像條件和族群來源。\n\n因此，追蹤表至少要保存椎體層級、造影期相、管電壓、切片厚度、重建方式、組織分割方法、AI 版本與正常化方式。只保存一個 SMI 數字，日後很難判斷變化是生理改變還是量測流程差異。\n\n### 3. 影像條件如何改變結果\n\n| 變因 | 文章整理 | 對閱讀者的提醒 |\n|---|---|---|\n| 造影期相 | 肌肉密度差約 18 至 20 HU，VAT 面積差約 7 至 8% | 比較前後檢查時先核對造影條件 |\n| 管電壓 | 會影響 HU 和組織分類 | 不同設備結果要做外部校準 |\n| 切片厚度 | 影響邊界、體積與細小脂肪區域 | AI 模型需要知道訓練資料的切片條件 |\n| 重建方式 | 影響雜訊、邊界與肌肉密度 | 不同重建 kernel 不能假設等效 |\n| 身體大小正常化 | 身高、BMI 與 z-score 會得到不同分類 | 報告 SMI 要附計算方式 |\n\n文中指出研究報告常缺少影像參數，整理資料約 94% 未報告造影使用情況，約 63% 未報告切片厚度。這是 AI 跨醫院驗證常見的資料品質問題。\n\n### 4. AI 做了哪些工作\n\nAI 工作流程可拆成五步：\n\n1. **定位**：在整套 CT 中找出目標椎體或可分析的切片。\n2. **分割**：辨認 skeletal muscle、VAT、SAT 與 IMAT，從二元分割逐步走向 multi-label segmentation。\n3. **計算**：輸出面積、密度、體積、比例與正常化後數值。\n4. **標準化**：用年齡、性別與族群參考曲線建立 z-score，減少固定切點的偏差。\n5. **預測**：把影像數值和臨床資料合併，用於預後、病理反應、骨轉移或治療毒性預測。\n\n### 5. 模型性能怎麼讀\n\n- AutoMATiCA 的 skeletal muscle、VAT、SAT Dice 約 .983、.979、.986，IMAT 約 .900，約 350 ms／scan。\n- DAFS Express 的 skeletal muscle、VAT、SAT Dice 高於 .96，IMAT 約 .77，每例約 .33 分鐘，文中也提到超過 5,000 名癌症病人的臨床驗證。\n- Swin UNETR 的肌肉與脂肪指標約 .868 與 .924。\n- 一個 multi-label network 的研究中，radiologists 在 93.03% 案例偏好模型輸出。\n\n這些數字可以支持「模型能完成某種影像分割工作」，不能單獨支持「模型讓營養照護更有效」。要閱讀臨床可用性，還要問：\n\n- 有沒有外部驗證，是否跨醫院、設備、族群與影像期相？\n- 有沒有 calibration、sensitivity、specificity、failure detection 與 uncertainty？\n- 模型失敗時，誰會看到、誰會覆核、結果如何回寫？\n- AI 輸出是否真的改變營養、腫瘤或手術決策？改變後的病人結果如何？\n\n### 6. 人口特定參考曲線與多模態預測\n\n文章整理約 12,128 人建立的年齡、性別與族群參考曲線，報告 z-score 可降低固定切點造成的年齡與族群偏差，SMA z-score 和兩年存活有關，P=.04。這表示參考曲線可能比單一切點更有彈性，但仍需要新的族群、不同設備與前瞻性資料驗證。\n\n文章也整理影像加臨床資料的多模態模型，部分遠端轉移、骨轉移與病理完全反應模型 AUC 高於 .80 或 .90。AUC 高不代表臨床決策一定有用，還要看校準、決策曲線、實際門檻與不同醫療資源下的可行性。\n\n### 7. 為什麼模型可能在現場失效\n\n- 不同掃描器、管電壓、重建 kernel、切片厚度、造影期相與 photon-counting CT 造成 domain shift。\n- 嚴重肥胖、artifacts、術後變化、轉移病灶與不典型解剖可能讓模型找錯組織邊界。\n- 開發者資料若只來自單一中心，模型可能學到設備或族群特徵，而非可移植的身體組成訊號。\n- SHAP、Grad-CAM 或 saliency map 只能提供解釋線索，不能自動證明模型使用的特徵具有因果意義。\n- 臨床部署還要處理 FDA 監管、PACS／RIS、DICOM SR、版本變更、資料漂移與人工責任界線。\n\n## 第三層：臨床應用與記憶線索\n\n### 建議的營養評估流程\n\n1. **確認影像可用性**：檢查影像身份、掃描日期、椎體層級、造影期相、切片厚度與模型版本。\n2. **確認模型輸出**：看組織邊界、異常值、信心或失敗警示，必要時由人工重新覆核。\n3. **放回病人脈絡**：搭配體重變化、攝取量、症狀、肌力、步行能力、營養篩檢、腎功能、治療週期與病人目標。\n4. **判讀趨勢**：前後檢查條件可比時，再討論肌肉量或密度的變化。條件不同時，先標示不可直接比較。\n5. **形成行動**：依營養風險、功能、治療副作用與病人偏好安排蛋白質、能量、症狀處理、活動或轉介，不能只按 AI 切點下處方。\n\n### 可以放進工作表的欄位\n\n| 類別 | 建議欄位 |\n|---|---|\n| 病人脈絡 | 癌症亞型、期別、治療週期、手術狀態、症狀與病人目標 |\n| 營養與功能 | 體重變化、攝取量、PG-SGA 或其他篩檢、肌力、步行、跌倒 |\n| 影像條件 | 檢查日期、椎體層級、造影期相、管電壓、切片厚度、重建方式 |\n| AI 輸出 | 模型版本、肌肉量、肌肉密度、VAT、SAT、IMAT、z-score、信心與覆核結果 |\n| 行動與追蹤 | 飲食目標、症狀處理、活動安排、轉介、下次追蹤日期與可比性 |\n\n### 和既有知識連結\n\n本次 Worker 沒有連接個人 vault 搜尋工具，未把既有筆記當成已核對來源。可在私人站用「乳癌 肌少症」、「CT 身體組成」、「肌間脂肪」、「精準營養」、「治療期間肌肉流失」搜尋，將本篇和既有內容接在一起。\n\n## 重要圖表與數字\n\n- **臨床結果**：肌少症統合分析約 6,130 人，OS HR 1.33，PFS／DFS HR 1.29；中國隊列約 2,948 人，肌少症 OS HR 2.13，visceral obesity DFS HR 1.46。\n- **治療期間變化**：SMI 下降至少 3% 的研究，DFS HR 3.68。\n- **影像差異**：造影期相可讓肌肉密度差約 18 至 20 HU，VAT 面積差約 7 至 8%。\n- **AI 分割**：AutoMATiCA 的 SM、VAT、SAT Dice 約 .983、.979、.986；DAFS Express 的前三項 Dice 高於 .96。\n- **人口參考**：約 12,128 人建立年齡、性別與族群參考曲線，SMA z-score 與兩年存活的關聯 P=.04。\n- **監管脈絡**：文章整理 2024 年前 168 個 Class II ML device，94.6% 走 510(k)，74.4% 屬 radiology。\n\n## 自我測驗\n\n> [!question]- Q1：為什麼乳癌 CT 身體組成追蹤不能只記錄一個 SMI 數字？\n> 因為椎體層級、造影期相、切片厚度、重建方式、組織分割方法與正常化方式都會影響結果。沒有這些資訊，前後變化可能只是量測差異。\n\n> [!question]- Q2：L3 不在胸部 CT 時，T4 或 T12 可以直接套用 L3 的肌少症切點嗎？\n> 不可以。替代層級對肌肉量、肌肉品質與脂肪分布的代表程度不同，應使用有研究支持的族群與方法，並把切點視為情境限定的候選值。\n\n> [!question]- Q3：Dice .98 代表 AI 已證明能改善乳癌病人的存活嗎？\n> 不代表。Dice 是模型和人工標註的空間重疊指標。要支持病人重要結局，還要有外部驗證、校準、臨床效用與前瞻性結果。\n\n> [!question]- Q4：人口特定 z-score 可能改善什麼問題？\n> 它可減少單一固定切點對年齡、性別與族群差異的忽略，讓身體組成分類更接近參考族群。仍需要跨設備與跨族群驗證，不能直接視為通用標準。\n\n> [!question]- Q5：營養師收到 AI 身體組成結果後，下一步要做什麼？\n> 先確認影像和模型輸出是否可靠，再把結果和體重、攝取量、功能、症狀、腎功能、治療週期與病人目標合併判讀，之後才安排營養、活動或轉介。\n\n## Reference\n\n- Duan W, Wang R. Artificial intelligence standardizes CT-based body composition analysis in breast cancer to address methodological heterogeneity. Precision nutrition and biomarkers. 2026. DOI: 10.3389/fonc.2026.1891251.\n- 全文來源：Unpaywall OA PDF，Frontiers in Oncology，21 頁，來源 PDF SHA-256：659312f00518147d76b5c28de179c67edda368e87b9706e8ef5d99c6fbf2b4d6。\n- 本機全文文字 SHA-256：ca8b8958c31b59229b6b7a18879bf41be4d6ea4acc4018cc2054a8c03a805c88f。\n- 本次以同一份已核對 DOI、題名與正文區段的合法全文實際執行 paper-digest，未以摘要代替全文。",
+      "cards": [
+        {
+          "title": "影像可比性",
+          "question": "為什麼乳癌 CT 身體組成追蹤不能只記錄一個 SMI 數字？",
+          "answer": "椎體層級、造影期相、切片厚度、重建方式、分割方法與正常化方式都會影響結果，缺少這些欄位就難以判斷變化是否真實。",
+          "tags": [
+            "CT",
+            "身體組成",
+            "追蹤"
+          ]
+        },
+        {
+          "title": "椎體替代",
+          "question": "L3 不在胸部 CT 時，T4 或 T12 可以直接套用 L3 的肌少症切點嗎？",
+          "answer": "不可以。不同椎體對肌肉、肌肉品質與脂肪的代表程度不同，切點只能在有相同族群、方法與影像條件的研究情境中使用。",
+          "tags": [
+            "L3",
+            "T4",
+            "T12"
+          ]
+        },
+        {
+          "title": "AI 指標界線",
+          "question": "Dice .98 代表 AI 已證明能改善乳癌病人的存活嗎？",
+          "answer": "不代表。Dice 只說明模型和人工標註的空間重疊，還需要外部驗證、校準、臨床效用與病人重要結局。",
+          "tags": [
+            "AI",
+            "Dice",
+            "臨床轉譯"
+          ]
+        },
+        {
+          "title": "個人化參考值",
+          "question": "人口特定 z-score 可能改善什麼問題？",
+          "answer": "它可降低固定切點忽略年齡、性別與族群差異的問題，但仍需跨設備與跨族群驗證，不能直接當作通用標準。",
+          "tags": [
+            "z-score",
+            "參考曲線",
+            "族群差異"
+          ]
+        },
+        {
+          "title": "營養師下一步",
+          "question": "收到 AI 身體組成結果後，營養師要怎麼接續判讀？",
+          "answer": "先確認影像和模型輸出，再合併體重、攝取量、功能、症狀、腎功能、治療週期與病人目標，之後才安排營養、活動或轉介。",
+          "tags": [
+            "腫瘤營養",
+            "人工覆核",
+            "臨床流程"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-19T09:08:14.066Z"
+    },
+    {
+      "id": "doi:10.3389/fonc.2026.1891251:review",
+      "paperId": "doi:10.3389/fonc.2026.1891251",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Artificial intelligence standardizes CT-based body composition analysis in breast cacer to address methodological heterogeneity.",
+      "authors": "Duan W, Wang R",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fonc.2026.1891251",
+      "abstract": "Computed tomography (CT)-derived body composition parameters-including skeletal muscle area, muscle density, and visceral and intermuscular adipose tissue-are robust prognostic and predictive biomarkers in breast cancer. However, their clinical translation is hampered by substantial methodological heterogeneity across studies. Key sources of variability include image acquisition parameters (contrast phase, tube voltage, slice thickness), inconsistent vertebral level selection (L3 versus thoracic levels), the absence of standardized normalization methods, and fragmented diagnostic thresholds for sarcopenia, myosteatosis, and visceral obesity. This narrative review dissects these sources of variability and demonstrates how artificial intelligence (AI), particularly deep learning, provides a transformative solution. AI offers a transformative pathway towards standardization of the analytical workflow-from intelligent slice localization and multi-label tissue segmentation (including challenging compartments such as intermuscular adipose tissue) to the generation of population-specific reference curves and multimodal risk prediction. Open-source platforms such as AutoMATiCA and DAFS Express achieve human-expert accuracy with sub-second processing times, directly addressing reproducibility concerns. By shifting from fixed, population-derived cutoffs to dynamic, individualized reference systems, AI offers a clear pathway toward integrating standardized body composition analysis into routine clinical practice, ultimately advancing precision oncology for breast cancer patients.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2026.1891251/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42609826/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "clinical nutrition technology",
+        "human clinical population",
+        "obesity and metabolism",
+        "precision nutrition"
+      ],
+      "noteTitle": "乳癌 CT 身體組成分析與 AI 標準化方法的品質評讀",
+      "content": "# 乳癌 CT 身體組成分析與 AI 標準化方法的品質評讀\n\n> [!info] 品質快照\n> **研究型態**：敘述性回顧｜**主題**：乳癌 CT 身體組成、方法異質性與 AI 工作流程\n> **全文判定**：合法 OA PDF，21 頁，原生文字可讀，Methods、Results、Discussion 與多個限制／未來研究段落可定位。本文沒有獨立的 Conclusion 標題，這不影響其正文完整性。\n> **GRADE**：針對文中主要臨床推論保守重算為 Very low ⊕◯◯◯，不代表每一個 AI 分割性能研究都具有相同確定性。\n> **一句話判斷**：文章很適合建立乳癌營養與腫瘤照護中的 CT 身體組成判讀框架，AI 的量測一致性仍須和外部驗證、校準、失敗偵測、工作流程整合及病人重要結局分開評估。\n\n## 摘要\n\n> [!summary] 全文已讀\n> 作者以乳癌為主題，整理 CT 身體組成研究常見的量測差異，包含造影期相、管電壓、切片厚度、椎體層級、正常化方式，以及肌少症、肌少症外觀以外的肌肉品質、內臟脂肪與肌間脂肪閾值。文章再把 AI 放進同一條流程，從切片定位、肌肉與脂肪分割、人口特定參考曲線，到多模態風險預測，說明它可能如何提高可重現性。\n\n- 乳癌身體組成研究常見的結果包括整體肌肉面積、骨骼肌指數、肌肉放射密度、內臟脂肪、皮下脂肪、肌間脂肪、肌少症與肌少症外觀。文中引用的研究把這些指標連結到存活、疾病進展、治療毒性、病理反應、手術併發症與生活品質。\n- 量測流程本身會改變結果。文中整理的資料顯示，造影前後可讓肌肉密度差約 18 至 20 HU，內臟脂肪面積差約 7 至 8%。切片厚度、重建方式與影像品質也會影響分割與閾值判讀。\n- L3 常被當作身體組成分析位置，胸部 CT 資料卻常沒有 L3。T4、T11、T12 與 L1 可作替代位置，但不同位置對肌肉量、肌肉品質與脂肪量的代表程度不一，不能用單一替代層面套用所有結果。\n- AutoMATiCA、DAFS Express、Swin UNETR 與其他模型的分割性能數字很亮眼，但 Dice 或相似指標只代表模型與標註的空間重疊，不能直接代表營養介入、治療決策或存活改善。\n- 文章主張固定族群切點可逐步改用人口特定 z-score、年齡與性別參考曲線，再搭配失敗偵測、人工覆核、外部驗證與臨床系統整合。這條路徑合理，現階段仍屬需要驗證的臨床轉譯方向。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **文章在處理什麼問題**：同一位乳癌病人，若換一個 CT 椎體層級、造影期相、切片厚度或肌少症切點，可能得到不同的身體組成分類。這會讓研究結果難比較，也會讓營養與腫瘤團隊難以建立穩定的追蹤方式。\n> - **AI 能處理的部分**：自動找出合適切片、辨認肌肉和脂肪、計算面積與密度、建立個人化參考值，並把資料送進預後或治療反應模型。\n> - **AI 尚未替人做決定的部分**：掃描品質不佳、嚴重肥胖、術後變化、轉移病灶、特殊重建方式與不同醫院設備，都可能造成模型失敗。臨床端仍要能看出異常結果並進行覆核。\n> - **對營養師的用處**：CT 身體組成可補足體重與 BMI 看不到的肌肉量、肌肉品質與脂肪分布，但它應該放在營養風險、功能、攝取量、疾病治療與病人目標的脈絡裡，不宜單靠一個切點決定蛋白質量或補充品。\n\n## 文獻回顧方法\n\n- 作者聲明以 PubMed、Web of Science 與 Embase 搜尋到 2026 年 7 月 2 日，限英文文獻。主題分為臨床與方法異質性、AI 身體組成分析、臨床部署與監管。\n- 文中也做 backward citation tracking，並查閱 FDA 與開發者文件補充監管與技術資訊。\n- 這是 narrative review，沒有提供完整的系統性回顧 protocol、逐篇排除表、研究品質評估表、統合分析或正式的證據分級流程。因此，它的價值在於整理問題與方法地圖，不能當成一份可重現的系統性證據總結。\n- 文中沒有明確的 Conclusion 標題，但後段包含 Discussion、Limitations、Future research toward prospective multicenter validation，以及作者對臨床整合與研究限制的明確說明。全文可讀性與主要正文區段通過 Worker 的全文閘門。\n\n## 主要臨床證據\n\n### 預後與治療結果\n\n- 文中引用一篇乳癌肌少症統合分析，納入約 6,130 人，肌少症和較差的 overall survival 相關，HR 1.33，progression-free 或 disease-free survival HR 1.29。這些數字屬於被回顧文章轉述的二手脈絡，使用時仍要回到原始統合分析確認族群與定義。\n- 一個中國隊列約 2,948 人的結果指出，肌少症和較差 OS 相關，HR 2.13，visceral obesity 和 DFS 相關，HR 1.46。研究設計與混雜控制需和隨機介入證據分開處理。\n- 新輔助治療期間 skeletal muscle index 下降至少 3% 的研究報告較差 DFS，HR 3.68。這類 longitudinal change 很適合提醒營養師注意治療期間的肌肉流失，仍不能直接推論補充蛋白質就會逆轉腫瘤結局。\n- 肌間脂肪與 visceral-to-subcutaneous fat ratio 在部分研究和侵襲性亞型相關，文中列出的 OR 約 2.49 至 9.09。這些關聯很可能同時受到年齡、體重、治療、活動量、疾病期別與影像流程影響。\n- 文章也整理治療毒性、病理完全反應、手術併發症與遠端轉移預測。不同研究的方向與影像指標不完全一致，不能把所有 CT 指標合併成一個乳癌營養風險分數。\n\n### 量測位置與影像流程\n\n| 方法差異 | 文中整理的影響 | 實務判讀 |\n|---|---|---|\n| 造影期相 | 肌肉密度約可差 18 至 20 HU，內臟脂肪面積約可差 7 至 8% | 追蹤時要記錄期相，前後檢查盡量保持可比 |\n| 椎體層級 | T4、T11、T12、L1 可在沒有 L3 時提供替代資訊，肌肉與脂肪的 concordance 依研究而異 | 不可把 L3 的切點直接搬到胸椎 |\n| 切片厚度與重建 | 會影響邊界、體積、密度與小區域脂肪判讀 | AI 和人工標註都需要記錄影像參數 |\n| 肌少症切點 | 文中整理的 SMI 切點約 38.5 至 41.0 cm²/m²，肌少症外觀盛行率約 11 至 85% | 切點要連同性別、族群、椎體層級與方法一起報告 |\n| 身體大小正常化 | BMI、身高與 population-specific z-score 會產生不同分類 | 不能只報一個未說明正常化方式的 SMI |\n\n文中引用的 T4 研究指出，T4 對脂肪量和肌肉品質可能有實用性，但對 visceral adipose tissue 與 SMI 的一致性較弱。T12 研究也提出中國 triple-negative breast cancer 族群的切點約 28.01 cm²/m²，這種數值應先視為研究場域的候選切點，不能直接當成所有族群的臨床界線。\n\n## AI 方法與性能\n\n- **自動流程**：AI 可先定位目標椎體，再做肌肉、皮下脂肪、內臟脂肪與肌間脂肪的 multi-label segmentation，降低人工找切片與描繪的時間。\n- **模型例子**：AutoMATiCA 的 skeletal muscle、visceral adipose tissue、subcutaneous adipose tissue Dice 約為 .983、.979、.986，intermuscular adipose tissue 約 .900，約 350 ms／scan。DAFS Express 的肌肉、內臟脂肪與皮下脂肪 Dice 高於 .96，肌間脂肪約 .77，每例約 .33 分鐘。Swin UNETR 的肌肉與脂肪指標約 .868 與 .924。\n- **人工可用性**：一個 multi-label network 的研究報告 radiologists 在 93.03% 案例偏好模型輸出。這代表工作介面可能變好，不代表模型已經證明能改善病人結局。\n- **個人化參考值**：約 12,128 人的研究建立年齡、性別與族群參考曲線，作者報告可減少固定切點造成的年齡與族群偏差，並觀察到 SMA z-score 和兩年存活的關聯，P=.04。這是預測與校準研究，不是介入試驗。\n- **多模態預測**：文章整理的模型涉及遠端轉移、病理完全反應與骨轉移等結果，部分 AUC 高於 .90。高 AUC 可能來自單一中心、選定族群、影像與臨床資料的組合，外部 validation、calibration 與 decision-curve evidence 仍是必要條件。\n\n## AI 轉譯到臨床的關鍵限制\n\n1. **Domain shift**：掃描器、管電壓、造影期相、重建 kernel、切片厚度與 photon-counting CT 都會形成新資料域。\n2. **失敗案例**：嚴重肥胖、影像 artifacts、術後變化與轉移病灶可能讓模型找錯邊界或切片。\n3. **報告不完整**：作者整理的研究中，約 94% 未報告造影使用情況，約 63% 未報告切片厚度，這會削弱外部重現性。\n4. **驗證不足**：外部驗證很少，校準報告也少。只有內部測試集的性能不能當作跨醫院臨床性能。\n5. **解釋限制**：SHAP、Grad-CAM 與 saliency map 能提供視覺線索，不能自動證明模型抓到的是因果訊號。uncertainty、counterfactual 與 human-in-the-loop 仍要納入設計。\n6. **監管與工作流程**：作者整理 FDA 2024 年前 168 個 Class II ML device，其中 94.6% 走 510(k)，74.4% 屬 radiology，PCCP 使用率約 16.7%，只有 29.2% 同時報告 sensitivity 與 specificity。模型若要進入營養或腫瘤照護，需要 PACS／RIS、DICOM SR、MONAI Deploy 或等效流程，並有版本、變更與責任管理。\n\n## 對營養師與腫瘤照護的應用\n\n- 把 CT 身體組成當成「營養評估的影像補充」，與體重變化、PG-SGA 或其他營養篩檢、攝取量、肌力、步行能力、治療毒性、腎功能與病人目標一起看。\n- 同一次追蹤優先固定椎體層級、造影期相、切片厚度、正常化方式與 AI 版本，並留下影像參數。若條件改變，結果應標成不可直接比較。\n- 看到肌肉量下降或肌肉密度降低時，先確認是否為模型失敗、掃描差異、液體狀態、治療期相或真正的營養與功能變化，再安排飲食與活動評估。\n- 蛋白質、能量與補充品建議要依疾病、腎功能、症狀、治療計畫與攝取實況調整。本文不能支持用一個 AI 切點直接決定所有病人的蛋白質量、補充品或抗腫瘤治療。\n- 建立人工覆核流程，包含影像品質、切片位置、組織邊界、明顯異常、模型信心與是否需要重新標註。營養師可協助把數值轉成病人能理解的營養與功能目標，醫療決策仍需由合適團隊共同負責。\n\n## Critical Appraisal\n\n### 敘述性回顧品質\n\n| 評估面向 | 判定 | 理由 |\n|---|---|---|\n| 主題與臨床問題 | 中等 | 文章把乳癌身體組成、影像參數、AI 分割、參考曲線、臨床模型與監管放在一條可理解的問題線上，對營養與腫瘤照護具有實用性。 |\n| 搜尋透明度 | 中低 | 有資料庫、語言與搜尋截止日，也說明 backward citation tracking，未呈現完整搜尋式、命中數、排除流程與逐篇清單。 |\n| 證據引用 | 中等 | 引用涵蓋統合分析、隊列、AI 方法與監管資料，關鍵性能與臨床結局仍需逐篇回到原始研究核對。 |\n| 證據平衡 | 中低 | 有寫到外部驗證不足、domain shift、失敗案例、校準和監管限制，但未做正式研究品質與小型研究偏誤評估。 |\n| 科學推理 | 中等 | 對方法異質性的診斷清楚，從分割性能推到臨床照護一致性的段落仍有替代結局到病人重要結果的跨越。 |\n\n### GRADE 重算\n\n本次以「乳癌 CT 身體組成指標對預後、治療毒性與治療反應的臨床推論」作為證據體，採觀察性研究起始 Low。依 paper-review skill 的 grade_judge.py 執行結果：risk of bias 降一級、inconsistency 降一級、indirectness 降一級、imprecision 不降級、publication bias 降一級，總變化 -4，最後為 **Very low ⊕◯◯◯**。\n\n這個結果是對文章混合證據的保守判讀。AutoMATiCA 或 DAFS Express 等單一模型的 Dice、速度或偏好比例，不能直接沿用這個 GRADE 數字，也不能解讀成 AI 已經改善存活、營養狀態或治療安全性。\n\n### 論證與推論漏洞\n\n- argdown_lint.py 旗標 surrogate_to_hard_endpoint：分割性能與 z-score 等 surrogate outcome 被用來支撐「改善臨床照護一致性」與精準腫瘤照護的硬結局語氣，目前缺少直接病人重要結局證據。\n- 多篇回溯性研究的 HR、OR 或 AUC 只能說明關聯或預測能力，不能直接證明肌少症、肌間脂肪或 AI 分析造成存活差異。\n- 固定切點、T4／T12／L1 替代位置與 population-specific z-score 的適用條件不同。文章支持標準化方向，尚未提供一套跨族群、跨設備、跨造影期相的通用切點。\n- AI 的速度和 Dice 很容易被讀成「可直接臨床使用」。真正部署還需要外部 validation、calibration、clinical utility、failure detection、資料漂移監測與人工覆核結果。\n\n### 文章優點\n\n- 把營養師常關心的肌肉量、肌肉品質、脂肪分布、治療期間變化與腫瘤結果放在同一個臨床問題中。\n- 清楚指出 L3 並非所有乳癌 CT 都可取得，提醒讀者辨識胸椎替代位置的限制。\n- 同時整理影像取得、組織分割、正常化、預測模型、監管與 PACS／RIS 整合，容易轉為跨專業討論清單。\n- 有呈現 AI 研究的限制，包括 domain shift、資料偏差、失敗案例、外部驗證不足、解釋性與監管要求。\n\n### 研究限制、資助與利益衝突\n\n- 本文自身是 narrative review，搜尋限英文，沒有正式 meta-analysis，且 AI 技術更新速度快，結果可能很快需要重查。\n- 從乳癌延伸到其他癌症或其他族群需要新的外部驗證，不能直接套用。\n- 資助：Dalian Science and Technology Talent Innovation Support Program，grant 2024RQ098。作者表示資助方未參與研究設計、資料分析、撰稿或投稿決定。\n- 利益衝突：作者聲明無利益衝突，且一名作者是 Frontiers 期刊 editorial board member，文中說明該身分未影響 peer review。\n- 生成式 AI：作者聲明使用 DeepSeek V3 做語言潤飾，作者已審閱並承擔內容責任。這項聲明屬作者自述，不能替代內容核對。\n\n## Reference Verification\n\n| DOI | Crossref 核對題名 | 本文用途 | 判定 |\n|---|---|---|---|\n| 10.3390/cancers16030596 | Sarcopenia in Breast Cancer Patients: A Systematic Review and Meta-Analysis | 肌少症與乳癌預後的統合分析脈絡 | DOI 與題名相符，仍需回原文核對族群與效應量 |\n| 10.1016/j.clnu.2020.01.008 | Automated body composition analysis of clinically acquired computed tomography scans using neural networks | 自動身體組成分析方法 | DOI 與題名相符，可支持方法引用身分 |\n| 10.1148/radiol.2020201640 | Population-Scale CT-based Body Composition Analysis of a Large Outpatient Population Using Deep Learning to Derive Age-, Sex-, and Race-specific Reference Curves | 人口特定參考曲線 | DOI 與題名相符，本文仍屬二手敘述 |\n| 10.3389/fnut.2024.1366768 | Assessment of body composition in breast cancer patients: concordance between transverse computed tomography analysis at the fourth thoracic and third lumbar vertebrae | T4 與 L3 一致性 | DOI 與題名相符，適合支撐椎體層級問題 |\n\n## 來源與執行證據\n\n- 已依安裝的 paper-review skill 實際執行本篇全文品質評讀，未用摘要、metadata 或期刊頁面預覽代替。\n- 合法來源：Unpaywall OA PDF，Frontiers in Oncology，21 頁。來源 PDF SHA-256：659312f00518147d76b5c28de179c67edda368e87b9706e8ef5d99c6fbf2b4d6。\n- 本機全文文字 SHA-256：ca8b8958c31b59229b6b7a18879bf41be4d6ea4acc4018cc2054a8c03a805c88f，原生文字約 121,501 字，21 頁均有資訊性文字，replacement character 為 false。\n- DOI 與題名身份核對通過，PDF 正文包含方法、臨床證據、AI 工作流程、限制與未來多中心驗證方向。\n- Crossref 公開資料核對 4 筆關鍵 DOI。GRADE 與 argdown_lint 均以本次工作資料夾的輸入檔實際執行，結果已寫入本地證據資料夾。\n- 期刊分區、作者 h-index、scite 引用分類與 PubPeer 社群掃描：本次 Worker 未連接對應資料工具，未將未查到內容寫成沒有批評。\n\n## 參考文獻\n\n- Duan W, Wang R. Artificial intelligence standardizes CT-based body composition analysis in breast cancer to address methodological heterogeneity. Precision nutrition and biomarkers. 2026. DOI: 10.3389/fonc.2026.1891251.\n- DOI：https://doi.org/10.3389/fonc.2026.1891251",
+      "cards": [],
+      "completedAt": "2026-08-19T09:05:42.241Z"
+    },
+    {
+      "id": "doi:10.1111/os.70386:digest",
+      "paperId": "doi:10.1111/os.70386",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Chinese Guideline on Risk Management of Osteoporosis in the General Public.",
+      "authors": "Zhang S, Yuan J, Luo Z, Su J, Xia W, Yang K, Wei F",
+      "journal": "Nutrition guidelines and consensus (PubMed)",
+      "year": "2026",
+      "doi": "10.1111/os.70386",
+      "abstract": "Osteoporosis is a common chronic skeletal disorder characterized by decreased bone mass and microarchitectural deterioration, resulting in increased fragility and fracture risk. With rapid population aging in China, the prevalence of osteoporosis is rising, while public awareness and engagement in prevention remain insufficient. Existing national guidelines mainly target healthcare professionals and lack accessible, evidence-based recommendations for the general public. This guideline aims to provide practical guidance for osteoporosis risk assessment and prevention at the population level. The guideline was developed by the Chinese Health Risk Management Collaboration-Osteoporosis Group in accordance with the WHO Handbook for Guideline Development, the Principles for Developing or Revising Clinical Practice Guidelines in China (2022), and AGREE II and RIGHT frameworks. Evidence from both English and Chinese databases was synthesized and graded using the GRADE approach. Fourteen key questions were formulated through a modified Delphi consensus process. A total of 15 recommendations were developed, covering osteoporosis risk screening (OSTA, IOF One-Minute Test, FRAX), dietary and nutritional strategies (protein, dairy, calcium, vitamin D, fruits and vegetables), lifestyle interventions (exercise, bodyweight control, sunlight exposure, smoking cessation, alcohol reduction, tea drinking), and fracture prevention in patients with osteoporosis. This guideline provides practical, evidence-based strategies to improve public awareness and promote risk management of osteoporosis among the general population, potentially reducing fracture incidence and public health burden.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42578688/",
+      "category": "recommended",
+      "tags": [
+        "design:guideline",
+        "guideline and consensus",
+        "health promotion and lifestyle",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "一般民眾骨質疏鬆風險管理與營養生活型態的全文內容整理",
+      "content": "# 一般民眾骨質疏鬆風險管理與營養生活型態的全文內容整理\n\n> [!summary] 30 秒層\n> 這份 2026 年中國指南把骨質疏鬆預防拆成「先篩檢、再分層、調整飲食與活動、降低跌倒風險、必要時接受藥物治療」五條路徑。最適合營養師拿來建構高齡骨骼健康衛教流程。\n> - 14 個核心問題形成 15 項建議，涵蓋 IOF One-Minute Test、OSTA、FRAX、蛋白質、乳品、蔬果、運動、體重、鈣與維生素 D、日照、茶、咖啡、吸菸、酒精與跌倒預防。\n> - 文中引用的蛋白質結果為髖部骨折 HR 0.87，95% CI 0.81–0.92。乳品與總體骨密度的 RCT 統合結果為 SMD 0.58，95% CI 0.37–0.77。\n> - 鈣加維生素 D 的位置是「有攝取不足或缺乏風險才考慮」，足量者不作例行預防補充。\n> - 品質 → 見同篇「一般民眾骨質疏鬆風險管理與營養生活型態建議的品質評讀」。\n\n## 全文地圖\n\n**要點**：文章依風險辨識、飲食與生活型態、患者管理三段展開，最後回到限制與實務外推。\n\n- **風險辨識**：IOF One-Minute Test、OSTA 用來做初篩，高風險者再接受 BMD 與專業評估。FRAX 用來估計骨折風險。\n- **營養策略**：蛋白質、乳品、維生素 K 與 C 的蔬果、鈣與維生素 D 被放進日常飲食建議。\n- **生活型態**：運動、健康體重、戒菸、減酒、茶飲、咖啡限制與日照。\n- **骨折預防**：骨鬆患者需接受生活調整、抗骨鬆藥物評估與居家跌倒預防。\n- **發展流程**：WHO Handbook、GRADE、AGREE II、RIGHT、系統性搜尋、專家 Delphi、外部審查與民眾代表審閱。\n\n## 建議條文表\n\n| # | 建議主題 | 實際內容 | 強度／證據 |\n|---|---|---|---|\n| 1 | 初步篩檢 | IOF One-Minute Test 或 OSTA，結果高風險再做 BMD 與專業篩檢 | Weak／Low |\n| 2 | 骨折風險 | 骨鬆或高風險者用 FRAX，接專業諮詢與管理 | Strong／Low |\n| 3 | 蛋白質 | 一般人，尤其 65 歲以上者，維持足量蛋白質 | Weak／Low |\n| 4 | 蔬果 | 增加富含維生素 K、C 的蔬果 | Weak／Low |\n| 5 | 乳品 | 每日攝取足量乳品 | Strong／Moderate |\n| 6 | 運動 | 規律運動以改善骨密度並降低骨鬆風險 | Strong／Low |\n| 7 | 吸菸 | 完全戒菸 | Strong／Low |\n| 8 | 酒精 | 減少或避免酒精 | Strong／Moderate |\n| 9 | 茶 | 可考慮適量茶飲 | Weak／Moderate |\n| 10 | 咖啡 | 不把咖啡當成預防骨鬆策略 | Weak／Very low |\n| 11 | 體重 | 維持健康體重 | Weak／Low |\n| 12 | 鈣與維生素 D | 對攝取不足、缺乏或日照少者考慮合併補充 | Weak／Low |\n| 13 | 日照 | 增加日照以支持維生素 D | Strong／Very low |\n| 14a | 骨鬆治療 | 生活調整與抗骨鬆藥物及早由專業人員評估 | Weak／Low |\n| 14b | 跌倒預防 | 居家環境、衛教、照護與生活調整並行 | Strong／Low |\n\n## 各主題重點\n\n### 1. 先做風險辨識\n\n- IOF One-Minute Test 有 19 個病史與生活型態問題。文章引述亞洲族群 AUC 0.63，95% CI 0.56–0.70，定位是初步篩檢，不是骨鬆診斷。\n- IOF 測驗總分 ≥6 在文中對應約 70% 骨鬆機率。停經後女性使用時，分數 ≥5 代表風險上升。\n- OSTA 公式為「體重 − 年齡」× 0.2。>−1 為低風險，−1 到 −4 為中度風險，<−4 為高風險。這個工具主要在停經後女性驗證。\n- FRAX 可納入或不納入 BMD。文章提醒，因中國大型流行病學資料有限，FRAX 可能低估中國族群的骨折風險。\n\n### 2. 蛋白質、乳品與蔬果\n\n- 蛋白質：文章引用 14 項研究、239,039 人的證據。和 0.8 g/kg/day 比較，較高蛋白質攝取與較低髖部骨折風險相關，HR 0.87，95% CI 0.81–0.92，也和髖部與股骨頸 BMD 改善相關。作者引用中國飲食指南的成人 1.0–1.5 g/kg/day 範圍，慢性腎臟病要個別化。\n- 乳品：6 個 RCT、618 名停經後女性的系統性回顧中，總體 BMD SMD 0.58，95% CI 0.37–0.77。文章提出每日至少 300 mL，乳糖不耐可使用優格、硬起司、無乳糖乳或適合的植物飲品。\n- 蔬果：維生素 K2 統合分析的骨折 RR 0.38，95% CI 0.20–0.76。富含維生素 C 食物的系統性回顧結果為 RR 0.66，95% CI 0.48–0.92。這些數值來自不同證據體，不能直接當成單一飲食介入效果。\n\n### 3. 運動、體重與日常暴露\n\n- 運動：停經後女性的更新回顧報告 BMD SMD 0.29，95% CI 0.16–0.42。65 歲以上族群另一回顧報告 SMD 0.15，95% CI 0.05–0.25。文章建議每週 2–3 次、每次至少 60 分鐘，再依骨折風險選阻力、快走、太極或較低衝擊活動。\n- 體重：低體重和骨鬆、骨折的關係較明確。肥胖可能提高部分承重部位骨折風險，腹圍每增加 10 cm，文中引用的椎體骨折風險增加約 3%。\n- 酒精：每日約 3 杯與髖部骨折 RR 1.33，95% CI 1.04–1.69。每日 4 杯以上 RR 1.59，95% CI 1.23–2.05。\n- 茶：40 項觀察性研究、947,865 人的回顧中，茶飲和較高 BMD、較低骨鬆及骨折風險相關。文章提出 200–1000 mL/day，但證據以觀察性研究為主。\n- 咖啡：文章不建議把咖啡當成預防骨鬆工具。2–4 杯的非線性關聯不能轉成治療建議。\n- 日照：3 個 cohort、58,754 人的回顧中，較長日照與較低骨鬆風險相關，OR 0.92，95% CI 0.89–0.95。文章提到維生素 D 不足者的骨折風險降低 48%，同時需平衡曬傷、皮膚疾病與防曬安全。\n\n### 4. 鈣與維生素 D\n\n- 文章引用 15 個 RCT、78,206 名停經後女性。每日 400 IU 維生素 D 的合併補充和髖部 BMD、骨折風險改善相關，超過建議量沒有呈現額外好處。\n- 適用情境包含血中維生素 D 低、飲食攝取少、吸收不良、日照少。食物來源可含乳品、鮭魚、沙丁魚與菇類。\n- 文章明確寫出，鈣與維生素 D 已足量者，不建議為了預防骨鬆而例行合併補充。\n\n### 5. 骨鬆患者與跌倒預防\n\n- 藥物包含 bisphosphonates、teriparatide、abaloparatide、denosumab、raloxifene、bazedoxifene、romosozumab 等，選擇要依年齡、性別、共病與骨折風險交由專業人員判斷。\n- 跌倒預防包含扶手、照明、移除雜物、防滑浴室、穩定鞋具、視力修正、肌力與平衡運動、蛋白質與反覆頭暈評估。\n- 文章引用 21 項研究、5293 人的系統性回顧，居家跌倒預防讓整體跌倒率約下降 26%，高風險者約下降 38%。\n\n## 實務落地\n\n1. **初談**：詢問過去骨折、家族史、跌倒、體重變化、停經、類固醇、吸菸、酒精、乳品、日照與運動。\n2. **營養判讀**：估算蛋白質、鈣、維生素 D、蔬果、總熱量與酒精，搭配腎功能、吞嚥、食慾、肌少症與藥物。\n3. **飲食安排**：優先用食物補足乳品、魚類、蛋、豆類、堅果與蔬果。補充品放在明確不足或缺乏風險的情境。\n4. **活動安排**：低風險者可做阻力訓練、快走或跑步。高風險者先從平衡、肌力、太極與低衝擊活動開始。\n5. **轉介**：IOF、OSTA 或 FRAX 結果偏高、已有脆弱性骨折、長期類固醇、反覆跌倒或疑似次發性骨鬆時，安排醫療評估。\n\n## 重要圖表重述\n\n- **Figure 1**：指南從 CHRIMAC-OP 團隊組成、問題形成、證據搜尋、GRADE、Delphi、外部審查到發表與更新。\n- **Table 1**：把 15 項建議和 Strong／Weak、High／Moderate／Low／Very low 對照，最強的是乳品、運動、戒菸、減酒、日照與跌倒預防，但確定性不都高。\n- **Table 2**：IOF One-Minute Test 的 19 個病史與生活型態問題。\n- **Table 3**：抗骨鬆藥物的骨折風險結果與證據品質，提醒藥物效益與副作用要由專業人員評估。\n\n## 與既有認知的對照\n\n- 本次 Worker 沒有連接個人 vault 搜尋工具，無法核對既有筆記。可在私人站以「蛋白質 骨鬆」、「鈣 維生素 D」、「FRAX」、「跌倒預防」搜尋後補接。\n\n## 概念與名詞整理\n\n- **BMD**：bone mineral density，骨密度，常用 DXA 評估。\n- **FRAX**：估計 10 年骨折風險的工具，結果要搭配臨床判斷。\n- **OSTA**：以年齡和體重計算亞洲停經後女性骨鬆初篩風險。\n- **GRADE**：把證據確定性與建議強度分開判斷。Strong 不代表證據一定 High。\n- **替代結局**：BMD 是重要指標，但改善 BMD 不必然等於骨折下降。\n\n## 自我測驗\n\n> [!question]- Q1：為什麼 IOF、OSTA 的高風險結果不能直接當成骨鬆診斷？\n> 因為它們是初步風險篩檢工具，目的是找出需要 BMD 或專業評估的人。它們不能取代 DXA 或醫師診斷。\n\n> [!question]- Q2：這份指南對鈣加維生素 D 的核心使用邏輯是什麼？\n> 先確認攝取不足、血中維生素 D 低、吸收不良或日照少。若鈣與維生素 D 已足量，文章不支持為了預防骨鬆而例行補充。\n\n> [!question]- Q3：為什麼蛋白質 HR 0.87 不能直接解讀成「增加蛋白質就能降低髖部骨折」？\n> 這個數值來自觀察性證據，表示較高蛋白質攝取和較低髖部骨折風險相關，仍可能受到體重、健康行為、疾病與整體飲食品質等混雜因素影響。\n\n> [!question]- Q4：同一份指南中，為什麼 Strong recommendation 不等於 High certainty？\n> 建議強度還考量效益與傷害平衡、價值偏好、資源與共識。這篇指南的乳品、運動、戒菸、減酒、日照與跌倒預防雖有 Strong 建議，證據確定性仍可能是 Moderate、Low 或 Very low。\n\n> [!question]- Q5：營養師設計高齡骨鬆衛教時，除了蛋白質還要一起問哪些項目？\n> 要一起問鈣、維生素 D、乳品或替代品、蔬果、體重變化、腎功能、吞嚥、食慾、肌少症、日照、酒精、吸菸、運動、跌倒與用藥，才能把飲食建議放進真正的骨折風險情境。\n\n## Reference\n\n- Zhang S, et al. Chinese Guideline on Risk Management of Osteoporosis in the General Public. Orthopaedic Surgery. 2026. DOI: 10.1111/os.70386.\n- 全文來源：Unpaywall OA PDF，Wiley Online Library，17 頁，PDF SHA-256：d6ea45838ceb3302c0df281a070f29847a1a961d6e53014e3e8f3f89fde0f5e4。\n- 本次以同一份已核對 DOI、題名與正文區段的合法全文執行 paper-digest，沒有使用摘要代替全文。",
+      "cards": [
+        {
+          "title": "初篩與診斷",
+          "question": "為什麼 IOF 或 OSTA 高風險不能直接當作骨鬆診斷？",
+          "answer": "它們是初步風險工具，目的是決定是否需要 BMD 與專業評估，不能取代 DXA 或臨床診斷。",
+          "tags": [
+            "骨質疏鬆",
+            "初篩"
+          ]
+        },
+        {
+          "title": "鈣與維生素D",
+          "question": "這份指南何時才考慮鈣加維生素 D？",
+          "answer": "有攝取不足、維生素 D 低、吸收不良或日照少時考慮，鈣與維生素 D 已足量者不作例行預防補充。",
+          "tags": [
+            "鈣",
+            "維生素D"
+          ]
+        },
+        {
+          "title": "蛋白質證據界線",
+          "question": "為什麼 HR 0.87 不能直接代表增加蛋白質會造成髖部骨折下降？",
+          "answer": "這是觀察性關聯，仍可能有體重、疾病、整體飲食與健康行為等混雜因素，不能直接推成因果效果。",
+          "tags": [
+            "蛋白質",
+            "因果推論"
+          ]
+        },
+        {
+          "title": "建議強度與證據",
+          "question": "Strong recommendation 為什麼仍可能只有 Low 或 Very low certainty？",
+          "answer": "建議強度還整合效益傷害、價值偏好、資源與共識，和證據確定性是兩個不同判斷。",
+          "tags": [
+            "GRADE",
+            "指南評讀"
+          ]
+        },
+        {
+          "title": "高齡營養評估",
+          "question": "高齡骨鬆衛教除了蛋白質，還要一起問哪些實務項目？",
+          "answer": "鈣、維生素 D、乳品、蔬果、腎功能、吞嚥、食慾、肌少症、體重、日照、酒精、吸菸、運動、跌倒與用藥。",
+          "tags": [
+            "高齡營養",
+            "跌倒預防"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-19T08:52:24.270Z"
+    },
+    {
+      "id": "doi:10.1111/os.70386:review",
+      "paperId": "doi:10.1111/os.70386",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Chinese Guideline on Risk Management of Osteoporosis in the General Public.",
+      "authors": "Zhang S, Yuan J, Luo Z, Su J, Xia W, Yang K, Wei F",
+      "journal": "Nutrition guidelines and consensus (PubMed)",
+      "year": "2026",
+      "doi": "10.1111/os.70386",
+      "abstract": "Osteoporosis is a common chronic skeletal disorder characterized by decreased bone mass and microarchitectural deterioration, resulting in increased fragility and fracture risk. With rapid population aging in China, the prevalence of osteoporosis is rising, while public awareness and engagement in prevention remain insufficient. Existing national guidelines mainly target healthcare professionals and lack accessible, evidence-based recommendations for the general public. This guideline aims to provide practical guidance for osteoporosis risk assessment and prevention at the population level. The guideline was developed by the Chinese Health Risk Management Collaboration-Osteoporosis Group in accordance with the WHO Handbook for Guideline Development, the Principles for Developing or Revising Clinical Practice Guidelines in China (2022), and AGREE II and RIGHT frameworks. Evidence from both English and Chinese databases was synthesized and graded using the GRADE approach. Fourteen key questions were formulated through a modified Delphi consensus process. A total of 15 recommendations were developed, covering osteoporosis risk screening (OSTA, IOF One-Minute Test, FRAX), dietary and nutritional strategies (protein, dairy, calcium, vitamin D, fruits and vegetables), lifestyle interventions (exercise, bodyweight control, sunlight exposure, smoking cessation, alcohol reduction, tea drinking), and fracture prevention in patients with osteoporosis. This guideline provides practical, evidence-based strategies to improve public awareness and promote risk management of osteoporosis among the general population, potentially reducing fracture incidence and public health burden.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42578688/",
+      "category": "recommended",
+      "tags": [
+        "design:guideline",
+        "guideline and consensus",
+        "health promotion and lifestyle",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "一般民眾骨質疏鬆風險管理與營養生活型態建議的品質評讀",
+      "content": "# 一般民眾骨質疏鬆風險管理與營養生活型態建議的品質評讀\n\n> [!info] 品質快照\n> **設計**：臨床實務指南／證據整合與 Delphi 共識｜**樣本**：14 個核心問題、15 項建議，非單一受試者研究\n> **AGREE II 路徑**：發展嚴謹度 🟡 中等；編輯獨立性 🟡 需補資料｜**GRADE**：主要營養與生活型態證據 Very low ⊕◯◯◯\n> **一句話判斷**：發展架構完整、主題貼近營養衛教，建議仍受觀察性證據、替代結局與部分數值外推限制，適合當作衛教與選題地圖，不宜直接當成個別病人的治療處方。\n\n## 摘要\n\n> [!summary] 全文已讀\n> 這份中國一般民眾骨質疏鬆風險管理指南，整理風險篩檢、骨折風險、蛋白質、乳品、蔬果、運動、體重、鈣與維生素 D、日照、茶、咖啡、戒菸、減酒及跌倒預防。文章依 WHO 指南手冊、GRADE、AGREE II、RIGHT 與三輪 Delphi 共識建立，共提出 15 項建議。\n\n- 蛋白質建議偏向高齡者，文章引用的統合結果顯示較高攝取和髖部骨折風險較低相關，HR 0.87，95% CI 0.81–0.92。\n- 乳品每日攝取的建議強度為 Strong、證據 Moderate，引用 6 個 RCT、618 人，總體骨密度 SMD 0.58，95% CI 0.37–0.77。\n- 運動建議為 Strong、證據 Low，停經後女性的骨密度 SMD 0.29，95% CI 0.16–0.42。\n- 鈣加維生素 D 只針對攝取不足或缺乏風險者，文章不支持已有足夠攝取者為預防骨鬆而例行補充。\n- 主要限制是許多建議依賴觀察性研究或骨密度替代結局，論證檢查發現部分內容從替代結局延伸到骨折效益。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：作者把一般人可以做的骨鬆風險管理整理成篩檢、飲食、活動、日常風險控制與骨折預防五大區塊。\n> - **為什麼做**：中國人口老化後骨鬆盛行率上升，既有指南多寫給醫療人員，民眾需要更容易操作的風險評估與生活建議。\n> - **主體**：篩檢區介紹 IOF One-Minute Test、OSTA 與 FRAX。營養區涵蓋蛋白質、乳品、維生素 C、維生素 K、鈣與維生素 D。生活型態區涵蓋運動、體重、茶、咖啡、日照、吸菸與酒精。患者區加入跌倒預防與藥物治療應由專業人員監測。\n> - **所以呢**：很適合營養師拿來設計衛教架構與個案初篩。遇到慢性腎臟病、藥物相關骨鬆、嚴重骨折或高風險用藥時，仍要回到個別化醫療評估。\n\n## 指南發展方法\n\n- 發展團隊分為 steering committee 5 人、expert consensus group 32 人、evidence review group 25 人、external review group 6 人。\n- 以 PubMed、Embase、Cochrane Library、CBM、Wanfang、CNKI、指南資料庫與 Google Scholar 搜尋，搜尋到 2023 年 10 月。\n- 優先採用近 3 年系統性回顧。必要時新做系統性回顧或統合分析，研究類型可含 RCT、cohort 與 case-control。\n- 14 個核心問題經三輪 Delphi 調查形成 15 項建議。達到至少 70% 專家同意才標為 Strong，使用 suggest 的建議列為 Weak。\n- 有 PREPARE-2023CN470 登錄。作者說明所有成員填寫利益衝突表，也安排外部專家與 5 位民眾代表審閱。\n\n## 主要建議與證據\n\n| 主題 | 建議 | 強度 | 證據 | 讀者要留意 |\n|---|---|---|---|---|\n| 初步風險 | IOF One-Minute Test 或 OSTA，篩出高風險後做 BMD 與專業評估 | Weak | Low | 初篩工具不能當診斷 |\n| 骨折風險 | 骨鬆或高風險者使用 FRAX，並接受專業管理 | Strong | Low | 作者提醒 FRAX 可能低估中國族群風險 |\n| 蛋白質 | 一般人，尤其 65 歲以上者，增加足量蛋白質 | Weak | Low | 慢性腎臟病需個別化蛋白質量 |\n| 蔬果 | 增加富含維生素 K、C 的蔬果 | Weak | Low | 主要是食物攝取建議 |\n| 乳品 | 每日攝取足量乳品 | Strong | Moderate | 文章提出至少 300 mL，乳糖不耐可用替代品 |\n| 運動 | 規律運動改善 BMD、降低骨鬆風險 | Strong | Low | 建議每週 2–3 次，每次至少 60 分鐘，需依風險調整 |\n| 吸菸 | 完全戒菸 | Strong | Low | 含傳統菸、電子菸與其他含菸草產品 |\n| 酒精 | 減少或避免酒精 | Strong | Moderate | 文中引用每日 3 杯髖部骨折 RR 1.33，4 杯以上 RR 1.59 |\n| 茶 | 可考慮適量茶飲 | Weak | Moderate | 文章提出 200–1000 mL／日，主要依觀察性研究 |\n| 咖啡 | 不把咖啡當作預防骨鬆策略 | Weak | Very low | 若平常飲用，控制總量 |\n| 體重 | 維持健康體重 | Weak | Low | 低體重與骨鬆風險較直接，肥胖與骨折關係較複雜 |\n| 鈣加維生素 D | 對攝取不足、缺乏或日照少者考慮合併補充 | Weak | Low | 足量者不建議為預防骨鬆例行補充 |\n| 日照 | 增加日照以支持維生素 D | Strong | Very low | 需同時處理曬傷與皮膚風險 |\n| 骨鬆患者 | 生活調整並及早接受抗骨鬆藥物評估 | Weak | Low | 藥物選擇與監測交由合格醫療人員 |\n| 跌倒預防 | 居家環境、衛教、營養、視力、鞋具與平衡訓練 | Strong | Low | 居家介入文中報告整體跌倒率約下降 26% |\n\n## 臨床與衛教應用\n\n- **衛教流程**：先用 IOF 或 OSTA 做風險認識，再判斷是否需要 BMD、FRAX 或醫療轉介。工具結果只作初篩。\n- **營養評估**：把蛋白質總量、來源、乳品或替代品、鈣、維生素 D、蔬果、體重、日照、酒精與吸菸放在同一張評估表。\n- **高齡族群**：蛋白質建議要和腎功能、吞嚥、食慾、肌少症、體重變化與跌倒史一起判斷。\n- **補充品溝通**：文章支持「有不足或缺乏風險才考慮鈣加維生素 D」，可避免把補充品當成所有人的預防方案。\n- **實務界線**：BMI 20–24 kg/m²、每日 300 mL 乳品、蛋白質 1.0–1.5 g/kg/day 等數值是文章引用的建議，實際使用仍要核對個人疾病、藥物、飲食型態與本地指引。\n\n## Critical Appraisal\n\n### AGREE II 路徑\n\n| Domain | 判定 | 理由 |\n|---|---|---|\n| 發展嚴謹度 | 🟡 | 有預先登錄、資料庫搜尋、雙人篩選、GRADE、Delphi、外部審查與更新規劃，但正文未呈現各問題完整 evidence profile、搜尋策略細節與每項建議的證據鏈。 |\n| 利益衝突與編輯獨立性 | 🟡 | 說明成員填寫 COI 表，未在本文完整展示每位成員的利益、管理方式、資助方角色與編輯決策隔離。 |\n| 適用性 | 🟡 | 對一般民眾、社區、衛教與營養工作很實用，部分建議與數值需轉譯到台灣族群與現行指引。 |\n\n### GRADE 重算\n\n本次以營養與生活型態建議的骨密度與骨折結果作為主要證據體，觀察性研究為主，起始 Low。風險偏差降一級，間接性降一級，inconsistency、imprecision 與 publication bias 暫不降級。依 paper-review 附帶的 grade_judge.py 計算，結果為 **Very low ⊕◯◯◯**。這是對本文整體營養證據體的保守重算，並非取代原指南各項建議表中的單項 GRADE。\n\n### 論證與推論漏洞\n\n- argdown_lint.py 旗標：部分骨密度 surrogate outcome 被用來支撐骨折或骨鬆硬結局，缺少直接硬結局證據。\n- 蛋白質部分的 HR 0.87 來自關聯資料，應表達為較高蛋白質攝取與髖部骨折風險較低相關，不能直接說蛋白質增加造成骨折下降。\n- 日照建議標為 Strong、Very low，推薦強度與證據確定性之間存在張力，衛教時需要把不確定性講清楚。\n- 文章把茶、維生素 K2、乳品、運動與骨密度或骨折資料放在同一套民眾建議中，實際上介入研究、觀察性研究與替代結局的證據層級不同。\n\n### 優點\n\n- 研究問題明確，涵蓋營養、活動、體重、生活型態與跌倒預防，對營養師衛教規劃很有用。\n- 團隊納入骨科、內分泌、公共衛生、老年醫學、健康管理、營養與指南方法專家。\n- 對工具用途有做限制說明，例如 IOF、OSTA 是初篩，FRAX 仍需接專業評估。\n- 對慢性腎臟病、乳糖不耐、肥胖、代謝症候群、心血管疾病與高跌倒風險者提供實務提醒。\n\n### 風險與未報告資訊\n\n- 正文未提供 15 項建議各自完整的 evidence-to-decision 表，讀者難以逐項重現 GRADE。\n- 多數證據為觀察性研究，因果方向、殘餘混雜與健康生活型態的整體聚集效應仍會影響結果。\n- 未完整說明每個主要統合分析的 I²、搜尋式、納入排除表與 publication bias 檢查。\n- 對日照的建議需平衡維生素 D、皮膚癌、光老化、膚色、季節、緯度與防曬，文章的「不使用防曬」表述需要在衛教時改成個別化安全建議。\n\n## Reference Verification\n\n| # | 關鍵引用 | Crossref | 本文用途 | 判定 |\n|---|---|---|---|---|\n| 1 | 10.3389/fpubh.2023.1225053 | 存在，題名相符 | 指南 protocol | 🟢 可支持發展流程來源 |\n| 2 | 10.3389/fpubh.2022.979649 | 存在，題名相符 | Vitamin K2 系統性回顧與統合分析 | 🟢 可支持引用身分，本文仍需自行核對其結果外推 |\n| 3 | 10.1007/s11657-020-0694-y | 存在，題名相符 | 乳品與停經後女性 BMD 的 RCT 統合分析 | 🟢 可支持引用身分，不能單靠引用身分證明本文建議強度 |\n\n## 來源與執行證據\n\n- 已依安裝的 paper-review skill 讀取合法完整全文，未以摘要或 metadata 代替。\n- 來源：Unpaywall OA PDF，Wiley Online Library，17 頁，PDF SHA-256：d6ea45838ceb3302c0df281a070f29847a1a961d6e53014e3e8f3f89fde0f5e4。\n- DOI、題名、文章類型與正文區段已通過核對。可讀文字約 94,025 字，Methods、Results、Discussion、Conclusion 均存在，無 replacement character。\n- Journal、作者 h-index、scite 引用分類與 PubPeer 社群掃描：本次 Worker 未連接對應資料工具，未把未查到寫成沒有批評。\n\n## 參考文獻\n\n- Zhang S, et al. Chinese Guideline on Risk Management of Osteoporosis in the General Public. Orthopaedic Surgery. 2026. DOI: 10.1111/os.70386.\n- DOI：https://doi.org/10.1111/os.70386",
+      "cards": [],
+      "completedAt": "2026-08-19T08:50:02.176Z"
+    },
     {
       "id": "doi:10.3389/fpubh.2026.1902901:digest",
       "paperId": "doi:10.3389/fpubh.2026.1902901",
