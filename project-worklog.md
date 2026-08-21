@@ -1,4 +1,4 @@
-﻿# Kat Chang site 工作日誌
+# Kat Chang site 工作日誌
 
 ## 2026-06-19
 
@@ -744,13 +744,65 @@
 - 本機 Windows TLS 讀取公開頁面時發生憑證通道錯誤，已改以遠端檔案 SHA 與功能內容核對。日後需在可用的公開頁面連線環境補做 DOM 實讀。
 
 
-## 2026-08-21 14:10｜全站 SEO 與 AI 索引基礎建設升級、授課影音整合與 GitHub 發布
+## 2026-08-21 14:15｜全站 SEO 與 AI 索引基礎建設升級、授課影音整合與 GitHub 發布（收工）
 
 ### 任務
 
+- 制定 Kat Chang 凱特營養師網站（https://594katchang-source.github.io/）1 個月 Google 第一頁與主流 AI 搜尋引擎（ChatGPT Search, Perplexity, Gemini, Copilot, Claude）權威引用成長白皮書。
 - 升級全站 SEO 與 AI 索引基礎建設：首頁 index.html、簡介頁 about.html、授課頁 class.html 之 Schema.org JSON-LD 深度結構化資料與 Meta Keywords。
-- 納入「凱特營養師」、「Kat營養師」、「張雁雲營養師」、「Kat Chang」四大常用別名。
-- 修正顧問服務定位，聚焦於「保健食品配方評估、營養標示法規審查與衛教教材開發」，徹底排除非專長之菜單與團膳字眼。
-- 整合 5 支精選授課現場與教具短影音至 class.html，並在 <head> 注入 Google VideoObject 結構化資料。
+- 完整覆蓋「凱特營養師」、「Kat營養師」、「張雁雲營養師」、「Kat Chang」四大常用別名。
+- 修正顧問服務定位，聚焦於「保健食品配方評估、營養標示法規審查與衛教教材開發」，徹底排除非專長之菜單與團膳字詞。
+- 整合 5 支精選授課現場與教具短影音至 class.html，並在 `<head>` 注入 Google VideoObject 結構化資料。
 - 更新 llms.txt 結構化三支柱服務與代表影音清單。
+- 整理 Chapter 6 蛋白質篇審閱套件並歸檔至 `work/2026-08-15-seo-review-docs/`。
 - 提交並發布至 GitHub Pages 遠端 repository。
+
+### 主要輸出
+
+- 網站部署上線檔案：`index.html`、`about.html`、`class.html`、`llms.txt`、`sitemap.xml`、`.gitignore`。
+- 策略成果（存於 `work/2026-08-21-seo-growth-strategy/output/`）：
+  - `01_seo_1month_growth_blueprint.md`：1 個月攻頂白皮書。
+  - `02_schema_jsonld_enhancements.json`：全站結構化資料備份與規格庫。
+  - `03_outreach_pr_backlinks_templates.md`：四大公關機構反向連結合作信件庫。
+- 蛋白質篇審閱歸檔（存於 `work/2026-08-15-seo-review-docs/`）：
+  - `output/chapter-06-proteins-amino-acids-seo-review.docx`
+  - `source/chapter-06-review.json`
+  - `source/chapter-06-review.html`
+  - `artifact-chapter-06-reference.md`
+  - `build_chapter6_artifacts.py`
+
+### 已完成與驗證
+
+- 全站 HTML、JSON-LD 與 Schema 語法通過檢查，未改動任何 `<body>` 視覺排版與元件樣式。
+- 授課頁 `class.html` 成功嵌入 5 支 YouTube 授課/教具短片，並注入 5 筆 VideoObject JSON-LD。
+- 全站無任何非專長之菜單或團膳字眼，符合使用者之保健食品與標示法規專業背景。
+- `robots.txt` 已確認開放 14+ 種主流 AI 爬蟲。
+- `git push origin main` 成功推送到遠端 GitHub 儲存庫，commit SHA 為 `4ca827d`。
+
+### 已修正錯誤
+
+- 修正早期草稿中包含菜單/團膳之誤植，已全面調整為保健食品配方評估與營養標示法規審查。
+- 修正 Git rebase 衝突，保留遠端最新 Blog 歷史與本機全部升級。
+- 依 Windows 檔案安全清理規範，透過 PowerShell Shell API 將 9 個過程暫存檔安全移至資源回收桶。
+
+### 尚未完成與仍有風險
+
+- Chapter 5（脂質篇）與 Chapter 6（蛋白質篇）Word 審閱稿已歸檔，待使用者完成人工閱讀與指示後，再行發布上線。
+- Search Console 尚待使用者完成後台權限指派，方可讀取曝光與點擊關鍵字數據。
+
+### 使用者偏好與本次規則
+
+- 使用者要求略過每日連載發布，專注全站基礎建設部署與影音整合。
+- 常用名字標籤固定為「凱特營養師」、「Kat營養師」、「張雁雲營養師」、「Kat Chang」。
+- 顧問業務嚴格定位在保健食品、機能性食品、標示法規與教材教具，嚴禁提及菜單或團膳。
+
+### 回寫狀態
+
+- `project-worklog.md`：已完整回寫本次所有任務、驗證與收工狀態。
+- `.codex/seo/book-series-progress.md`：已同步更新 Chapter 6 歸檔與基礎建設升級狀態。
+- 本次無新增跨專案規則，全域 `AGENTS.md` 未修改。
+
+### Git 收工狀態
+
+- 遠端 GitHub `main` 分支已完成同步與發布（Commit: `4ca827d`）。
+- 本機工作樹維持乾淨（Working tree clean），無遺留未提交變更。
