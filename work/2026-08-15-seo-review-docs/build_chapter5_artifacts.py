@@ -1,0 +1,181 @@
+import html
+import json
+import re
+import sys
+from pathlib import Path
+
+
+BASE = Path(__file__).resolve().parent
+SOURCE_DIR = BASE / "source"
+OUTPUT_DIR = BASE / "output"
+sys.path.insert(0, str(BASE))
+from build_review_docs import build_doc  # noqa: E402
+
+
+def visible_text(markup):
+    text = re.sub(r"<script[\s\S]*?</script>", " ", markup, flags=re.I)
+    text = re.sub(r"<style[\s\S]*?</style>", " ", text, flags=re.I)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = html.unescape(text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def body_html():
+    return r'''<p><strong>本篇整理書籍：</strong>《Nutrition Concepts &amp; Controversies》第 17 版<br><strong>本篇章節：</strong>第五章, The Lipids: Fats, Oils, Phospholipids, and Sterols（脂質：脂肪、油脂、磷脂與固醇）<br><strong>文章性質：</strong>章節整理發文，將原章節概念轉成台灣讀者可使用的脂質判讀方法。<br><strong>省時版本：</strong>脂質是身體需要的營養素，重點放在脂肪種類、總量、烹調方式與替代關係。日常可先減少反式脂肪與高頻率的高飽和脂肪來源，再用魚類、豆類、堅果、種子與含不飽和脂肪的植物油替代。Omega-3 不能直接等同魚油膠囊，膽固醇檢驗也不能只靠一個數字解讀。血脂異常、心血管疾病、糖尿病、腎臟病、懷孕或正在使用藥物者，調整脂質前要做個別評估。</p>
+
+<h2>脂質怎麼吃才健康？先回答四個餐桌問題</h2>
+<p>讀到「脂肪」時，很多人會在少油、低脂、橄欖油、魚油與膽固醇之間來回切換。第五章提供的判讀路線比較實用：先把脂質的種類與功能分開，再看脂肪酸的型態、食物來源、烹調方式、實際份量與替代了什麼。這樣才不會只把某一瓶油或某一種保健品當成答案。</p>
+<table><thead><tr><th>餐桌問題</th><th>判斷方向</th><th>生活做法</th></tr></thead><tbody><tr><td>這份脂質從哪裡來？</td><td>分辨魚類、堅果、植物油、乳品、加工肉與油炸食品</td><td>先找出一週最常出現的高脂來源</td></tr><tr><td>它是哪一類脂肪酸？</td><td>看飽和、單元不飽和、多元不飽和與反式脂肪</td><td>把替代關係放進判斷，還要比較脂肪種類</td></tr><tr><td>實際用了多少？</td><td>油、醬料、堅果與油炸外皮都可能累積份量</td><td>用量匙、分裝與烹調習慣估算</td></tr><tr><td>它取代了什麼？</td><td>用不飽和脂肪取代飽和脂肪，和用精製澱粉取代，意義不同</td><td>先做一個能長期維持的替換</td></tr></tbody></table>
+<p>脂質提供能量，也參與細胞膜、荷爾蒙相關物質、脂溶性維生素吸收與身體保護。脂質含量高的食物每公克提供的能量比蛋白質與碳水化合物高，份量容易在不知不覺間增加。這不表示脂肪應從餐盤消失，實際判斷仍要回到種類、來源、烹調與總飲食型態。</p>
+
+<h2>脂質的四個名詞怎麼分？三酸甘油酯、磷脂、固醇與必需脂肪酸</h2>
+<p>脂質是大分類，裡面包含多種結構與功能。三酸甘油酯是食物與血液中常見的脂質形式，磷脂是細胞膜的重要成分，固醇包含膽固醇，脂肪酸則是許多脂質的組成單位。把這些名詞混在一起，容易把血液檢驗、食物脂肪與保健品說成同一件事。</p>
+<table><thead><tr><th>名稱</th><th>可以怎麼理解</th><th>常見位置或來源</th><th>判讀提醒</th></tr></thead><tbody><tr><td>三酸甘油酯</td><td>三個脂肪酸和甘油組成的脂質形式</td><td>食物脂肪、血液檢驗中的 triglycerides</td><td>血中數值會受飲食、酒精、血糖、體重與代謝狀態影響</td></tr><tr><td>磷脂</td><td>含磷的脂質，具有親水與親油兩端</td><td>細胞膜、蛋黃、大豆與其他食物</td><td>功能和三酸甘油酯不同，不能只用總脂肪量推測</td></tr><tr><td>固醇</td><td>具有環狀結構的一類脂質</td><td>膽固醇、細胞膜、膽汁酸與維生素 D 相關路徑</td><td>食物膽固醇、血液 LDL 與 HDL 是不同層次的資訊</td></tr><tr><td>必需脂肪酸</td><td>人體需要卻無法自行合成足量的脂肪酸</td><td>亞麻油酸與 α-亞麻酸來自飲食</td><td>重點是整體脂肪來源與替代關係，不靠單一食品解決</td></tr></tbody></table>
+<p>生活中最容易被忽略的是「脂質藏在哪裡」。炒菜用油、肉類可見脂肪、雞皮、奶油、酥皮、沙拉醬、花生醬、堅果、芝麻與油炸麵衣，都可能貢獻脂質。看不到油，不代表餐點沒有油，這也是外食者常覺得「吃得很清淡」卻仍有總量偏高的原因之一。</p>
+
+<h2>飽和脂肪、單元不飽和脂肪、多元不飽和脂肪差在哪裡？</h2>
+<p>脂肪酸的碳鏈結構會影響物理性質與食物來源。飽和脂肪常見於肥肉、奶油、全脂乳品、椰子油與棕櫚油，單元不飽和脂肪常見於橄欖油、芥花油、花生、芝麻與部分堅果，多元不飽和脂肪則包含 Omega-6 與 Omega-3。反式脂肪的來源與製程不同，對健康的處理原則也更嚴格。</p>
+<table><thead><tr><th>脂肪類型</th><th>常見來源</th><th>餐桌判斷</th><th>替代方向</th></tr></thead><tbody><tr><td>飽和脂肪</td><td>肥肉、培根、香腸、奶油、酥皮、部分乳品與熱帶植物油</td><td>留意頻率與份量，也看加工肉、鈉與總熱量</td><td>以魚、豆類、去皮家禽、堅果與植物油取代部分來源</td></tr><tr><td>單元不飽和脂肪</td><td>橄欖油、芥花油、花生、芝麻、酪梨與部分堅果</td><td>脂肪型態較合適，總量仍要估算</td><td>用於取代奶油、豬油或部分高飽和脂肪</td></tr><tr><td>多元不飽和脂肪</td><td>大豆油、葵花油、玉米油、魚類、亞麻籽與核桃</td><td>包含 Omega-6 與 Omega-3，來源和烹調方式都要看</td><td>用不同植物性來源與魚類分散選擇</td></tr><tr><td>反式脂肪</td><td>部分氫化油、特定加工食品與高溫加工產品</td><td>能避開就避開，讀成分表與營養標示</td><td>用未部分氫化、較少加工的脂肪來源替換</td></tr></tbody></table>
+<p>世界衛生組織對飽和脂肪與反式脂肪的建議，核心放在降低攝取與選擇較合適的替代脂肪。這裡的「替代」很重要，若把奶油換成大量精製澱粉、甜點或含糖飲料，未必能得到預期的飲食改善。脂肪品質要連同整份食物與飲食型態一起看。</p>
+
+<h2>LDL、HDL、三酸甘油酯與膽固醇，該怎麼看？</h2>
+<p>血脂檢驗常見總膽固醇、LDL-C、HDL-C 與三酸甘油酯。LDL 常被稱為低密度脂蛋白，負責把膽固醇運送到身體各處，血中濃度較高時可能和動脈粥樣硬化風險相關。HDL 參與膽固醇逆向運送，但不能把 HDL 單獨視為「越高越好」的保護按鈕。三酸甘油酯則和剩餘脂蛋白、能量代謝、酒精、血糖與體重狀態有關。</p>
+<table><thead><tr><th>檢驗或名詞</th><th>生活語言</th><th>判讀限制</th></tr></thead><tbody><tr><td>LDL-C</td><td>常用來評估低密度脂蛋白攜帶的膽固醇</td><td>目標值依心血管風險、疾病史與治療狀態而異</td></tr><tr><td>HDL-C</td><td>高密度脂蛋白相關膽固醇數值</td><td>單一升高不能抵銷其他風險，也不能取代生活與藥物評估</td></tr><tr><td>三酸甘油酯</td><td>血液中常見的脂質檢驗項目</td><td>酒精、血糖控制、空腹狀態、體重與藥物都可能影響結果</td></tr><tr><td>總膽固醇</td><td>多種膽固醇相關數值的總和資訊</td><td>需要和 LDL、HDL、三酸甘油酯及整體風險一起看</td></tr></tbody></table>
+<p>美國心臟協會 2026 年血脂指引將 LDL 降低與整體心血管風險管理放在重要位置。讀者看到檢驗報告時，較有用的提問是「我的目標範圍是多少」、「這個數值和過去相比如何」、「家族史與既有疾病如何影響目標」、「飲食、運動與藥物各自扮演什麼角色」。單靠一項數字自行停藥或增加保健品，風險較高。</p>
+
+<h2>Omega-3 要怎麼吃？先分清楚 ALA、EPA 與 DHA</h2>
+<p>Omega-3 屬於一群多元不飽和脂肪酸，包含不同成分。ALA 主要來自植物性食物，EPA 與 DHA 常見於魚類、海鮮與部分藻類來源。人體可以把 ALA 轉成 EPA 與 DHA，但轉換量有限，不能直接把吃亞麻籽、吃魚與吃魚油膠囊當成同一件事。</p>
+<table><thead><tr><th>成分</th><th>常見食物來源</th><th>實用判讀</th></tr></thead><tbody><tr><td>ALA α-亞麻酸</td><td>亞麻籽、奇亞籽、核桃、芥花油與大豆油</td><td>屬於必需脂肪酸，適合放進植物性飲食來源</td></tr><tr><td>EPA 二十碳五烯酸</td><td>鯖魚、秋刀魚、鮭魚、沙丁魚與其他油脂較豐富的魚</td><td>與魚類攝取及部分醫療用途相關，補充劑要看劑量與藥物</td></tr><tr><td>DHA 二十二碳六烯酸</td><td>魚類、海鮮、藻油與部分營養補充品</td><td>和神經與視覺組織相關，孕期與特殊族群要個別評估</td></tr></tbody></table>
+<p>美國心臟協會建議一般成人每週吃兩份魚，每份約 3 盎司熟魚，選擇時可在鮭魚、鯖魚、沙丁魚、秋刀魚等魚類間輪替。台灣飲食裡的魚類選擇會受價格、季節、家庭習慣與汞暴露影響，孕婦、哺乳者、兒童與常吃魚的人要同時留意食藥署的魚類與汞資訊，少吃大型掠食魚，來源也要分散。</p>
+<table><thead><tr><th>情境</th><th>較合適的做法</th><th>需要先問專業人員的原因</th></tr></thead><tbody><tr><td>想增加 Omega-3</td><td>先用每週魚類與植物性來源建立飲食習慣</td><td>過敏、素食、腎臟病或飲食限制會影響選擇</td></tr><tr><td>正在吃抗凝血或抗血小板藥</td><td>購買魚油或高劑量 Omega-3 前先詢問醫師或藥師</td><td>補充品可能與藥物、出血風險或手術安排有關</td></tr><tr><td>懷孕或準備懷孕</td><td>依官方魚類選擇與份量建議安排</td><td>要兼顧 DHA、蛋白質與汞暴露</td></tr><tr><td>三酸甘油酯很高</td><td>帶著完整血脂與用藥資料做醫療評估</td><td>治療劑量魚油和一般保健品用途不同</td></tr></tbody></table>
+
+<h2>食用油怎麼選？沒有一瓶油適合所有料理</h2>
+<p>食用油選擇可以分成三個問題：脂肪酸型態、料理溫度與使用量。橄欖油、芥花油、花生油、苦茶油、大豆油、葵花油與玉米油各有風味與脂肪酸組成，沒有必要把其中一種油塑造成萬用答案。油品沒有反式脂肪，也不代表可以無限量使用。</p>
+<table><thead><tr><th>料理情境</th><th>選油思路</th><th>份量控制</th></tr></thead><tbody><tr><td>涼拌、低溫拌菜</td><td>選擇風味能接受的橄欖油、苦茶油或其他植物油</td><td>用量匙或小碟分裝，避免直接倒入</td></tr><tr><td>日常炒菜</td><td>選芥花油、橄欖油、花生油、大豆油等可配合口味的油</td><td>先固定鍋具與用油量，再依家庭人數調整</td></tr><tr><td>煎魚、煎蛋</td><td>控制火力與油量，避免長時間高溫冒煙</td><td>用不沾鍋、烤箱或氣炸方式降低額外用油</td></tr><tr><td>油炸</td><td>降低頻率，留意食物吸油、外皮與回鍋油</td><td>把油炸當成偶爾選擇，不用換成另一瓶油就當作日常</td></tr></tbody></table>
+<p>國健署每日飲食指南把油脂與堅果種子列在飲食份量的規劃裡，常見生活換算可以協助讀者估量，但每個人的年齡、活動、疾病與總熱量需求不同。對多數家庭來說，先從「炒菜油固定用量、醬料另放、堅果先分裝、油炸降低頻率」開始，通常比追逐昂貴油品更有執行價值。</p>
+
+<h2>外食與超商怎麼換？把脂質判讀放進三餐</h2>
+<p>外食調整的難點常在於看不到實際用油量。便當的滷汁、排骨外皮、香腸、肉燥、奶油醬、沙拉醬、酥皮與油炸麵衣都可能同時帶來脂質、鈉與總熱量。較實用的做法，是替換最常出現的品項，再觀察一週是否能維持。</p>
+<table><thead><tr><th>常見情境</th><th>容易累積的脂質</th><th>可執行的替換</th></tr></thead><tbody><tr><td>早餐蛋餅加培根</td><td>煎油、加工肉、醬料與餅皮同時出現</td><td>改蛋餅加蔬菜或無加工蛋白質，醬料減量</td></tr><tr><td>便當選炸排骨</td><td>外皮吸油、肉類脂肪與滷汁</td><td>改烤魚、滷雞腿去皮或豆腐，青菜加一份</td></tr><tr><td>沙拉加滿滿沙拉醬</td><td>醬料可能帶來較多油與糖</td><td>醬料分開放，先用一半並補足蛋白質</td></tr><tr><td>超商麵包配奶茶</td><td>酥皮、奶油、糖與液體熱量</td><td>選飯糰或地瓜搭配茶葉蛋、無糖乳品與水果</td></tr><tr><td>晚餐吃火鍋</td><td>加工火鍋料、五花肉、沙茶醬與湯底</td><td>增加蔬菜、豆腐與魚，肉片選較瘦部位，醬料分開</td></tr></tbody></table>
+<p>這些做法沒有要求每餐都完美。若一週有幾餐油脂較高，下一餐可以回到清楚看得到食材的組合，補上蔬菜、豆類或魚類，避免用長時間禁食或極端節食補償。飲食調整的重點，是建立可重複的選擇順序。</p>
+
+<h2>七日脂質練習表：把「少油」改成可觀察的行動</h2>
+<p>這份練習適合拿來找出脂質最常出現的地方。每天只處理一個項目，週末回看哪些調整符合預算、口味、家庭習慣與健康目標。血脂異常或使用藥物者，可把飲食紀錄帶給醫療團隊，不要用練習取代治療。</p>
+<table><thead><tr><th>日次</th><th>練習任務</th><th>完成判準</th></tr></thead><tbody><tr><td>第 1 日</td><td>記錄三餐用油、醬料、油炸與加工肉</td><td>記下實際品項，不急著判定好壞</td></tr><tr><td>第 2 日</td><td>找一個飽和脂肪常出現的來源</td><td>寫下它的頻率與可替代選項</td></tr><tr><td>第 3 日</td><td>安排一餐魚類或豆類</td><td>記下烹調方式與是否搭配蔬菜</td></tr><tr><td>第 4 日</td><td>把堅果分成一餐份量</td><td>選無調味品項，避免整包邊看電視邊吃</td></tr><tr><td>第 5 日</td><td>把一份醬料改成分開放</td><td>先用一半，觀察味道與飽足感</td></tr><tr><td>第 6 日</td><td>看一次血脂報告或詢問檢驗數值</td><td>確認 LDL、HDL、三酸甘油酯和醫療目標</td></tr><tr><td>第 7 日</td><td>選一項下週保留的脂質替換</td><td>做法能配合家庭、預算與外食安排</td></tr></tbody></table>
+
+<h2>脂質飲食常見錯誤</h2>
+<table><thead><tr><th>常見錯誤</th><th>問題在哪裡</th><th>可採用的修正</th></tr></thead><tbody><tr><td>把所有脂肪都當成壞脂肪</td><td>忽略必需脂肪酸、脂溶性維生素與脂肪酸型態</td><td>先分種類，再看來源與份量</td></tr><tr><td>橄欖油可以無限量使用</td><td>油品型態較合適，仍然是高能量食物</td><td>用量匙、噴油瓶或小碟控制</td></tr><tr><td>看到魚油就直接購買</td><td>補充品用途、濃度、藥物交互作用各有差異</td><td>先確認目標、劑量與用藥，再問醫療團隊</td></tr><tr><td>只看食品標示的膽固醇</td><td>忽略飽和脂肪、反式脂肪、總熱量與整份飲食</td><td>連同脂肪種類、加工程度與食用頻率判讀</td></tr><tr><td>為了降血脂完全不吃蛋或魚</td><td>把單一食物歸因，可能減少蛋白質與重要營養來源</td><td>依個人血脂、疾病、份量與整體飲食調整</td></tr><tr><td>低脂食品可以放心多吃</td><td>低脂不等於低糖、低鈉或低熱量</td><td>讀完整營養標示與實際份量</td></tr><tr><td>魚越大越營養就越適合常吃</td><td>大型掠食魚可能累積較多汞</td><td>依官方建議選魚並分散來源</td></tr></tbody></table>
+
+<h2>Kat Chang 營養師的判讀</h2>
+<p>我會把第五章的核心整理成一句話：脂質判斷要看「種類、份量、替代與情境」。讀者不需要把脂肪從飲食裡清空，也不用靠一瓶神奇的油或一顆膠囊換取健康。比較有用的做法，是先找出最常出現的高飽和脂肪、反式脂肪、油炸與醬料來源，再用魚、豆類、堅果、種子與植物油做有理由的替換。</p>
+<p>血脂報告則要交給完整的風險評估。LDL、HDL、三酸甘油酯、血壓、血糖、抽菸、家族史、既有心血管疾病與用藥會一起影響治療目標。營養師能協助把檢驗結果轉成採買、外食與烹調行動，醫師負責診斷、藥物與必要檢查，兩者的工作不能互相取代。</p>
+
+<h2>何時需要營養師或醫師協助？</h2>
+<p>文章適合健康成人建立脂質判讀框架。已有高 LDL、高三酸甘油酯、心肌梗塞或中風病史、糖尿病、慢性腎臟病、肝膽疾病、甲狀腺疾病、家族性高膽固醇血症、懷孕、哺乳、兒童成長、食物過敏，或正在使用降血脂、抗凝血、抗血小板藥物者，調整飲食與補充品前先做個別評估。</p>
+<p>若三酸甘油酯極高、反覆出現胸痛、呼吸困難、單側無力、說話不清、突然視力改變、昏厥或嚴重腹痛，請立即依當地急救流程求助。文章只能幫助準備提問，不能取代診斷、抽血追蹤、藥物調整或急症處置。</p>
+
+<p>延伸閱讀：<a href="https://594katchang-source.github.io/blog/post.html?id=2026-08-13-nutrition-concepts-controversies-17e-guide">全書導讀</a>、<a href="https://594katchang-source.github.io/blog/post.html?id=2026-08-14-food-choices-human-health-guide">第一章食物選擇</a>、<a href="https://594katchang-source.github.io/blog/post.html?id=2026-08-15-nutrition-tools-standards-guidelines">第二章營養工具與標準</a>、<a href="https://594katchang-source.github.io/blog/post.html?id=2026-08-17-carbohydrates-food-guide">第四章醣類與纖維</a>、<a href="https://594katchang-source.github.io/blog/">Blog 文章列表</a>、<a href="https://594katchang-source.github.io/about.html">作者簡介</a>。</p>
+
+<h2>FAQ：脂質、Omega-3 與膽固醇常見問題</h2>
+<h3>脂肪需要越少越好嗎？</h3>
+<p>脂肪是身體需要的營養素，重點在脂肪酸型態、食物來源、總量與替代關係。先降低反式脂肪與高頻率的高飽和脂肪，再用魚類、豆類、堅果與植物油安排脂質來源。</p>
+<h3>橄欖油可以無限量使用嗎？</h3>
+<p>不行。橄欖油的脂肪酸組成適合放進許多飲食型態，仍然是高能量食用油。固定用油工具、控制倒油量、醬料分開放，會比只更換品牌更有幫助。</p>
+<h3>Omega-3 魚油每個人都需要吃嗎？</h3>
+<p>不需要把魚油當成所有人的固定保健品。先看魚類攝取、飲食目標、血脂數值、藥物、手術安排與過敏狀況。高劑量或治療用途的產品，應由醫療人員判斷。</p>
+<h3>LDL 高，蛋要完全避開嗎？</h3>
+<p>單一食物通常不能直接決定整體血脂。要連同飽和脂肪、加工肉、總熱量、烹調方式、蛋白質來源、家族史與用藥一起評估。已有高風險疾病者，請依醫療團隊給的目標調整。</p>
+<h3>孕婦可以吃魚嗎？</h3>
+<p>魚類可提供蛋白質與 Omega-3，孕期重點在選擇低汞魚類、控制來源與份量，避開大型掠食魚，並依台灣官方食品安全建議安排。對魚類過敏或有特殊飲食限制時，請尋求營養師協助。</p>'''
+
+
+def main():
+    body = body_html()
+    text = visible_text(body)
+    data = {
+        "reviewTitle": "第五章待審 SEO 草稿",
+        "seoTitle": "脂質怎麼吃才健康？搞懂飽和脂肪、Omega-3、膽固醇與食用油選擇",
+        "targetTerms": ["脂質怎麼吃", "脂肪怎麼吃", "飽和脂肪", "Omega-3", "膽固醇", "食用油選擇"],
+        "relatedTerms": ["反式脂肪", "LDL", "HDL", "三酸甘油酯", "魚油", "堅果份量", "血脂飲食", "外食少油"],
+        "searchIntent": "讀者想理解脂質與脂肪酸差異，並在血脂、Omega-3、食用油、外食與日常烹調中做出可執行且不誇大的選擇。",
+        "summary": "脂質需要吃對，重點在種類與份量。從飽和脂肪、反式脂肪、Omega-3、LDL、HDL 到食用油與堅果份量，帶你用台灣飲食情境做出更實用的脂質選擇。",
+        "opening": "脂質是身體需要的營養素，真正需要調整的是脂肪種類、總量、烹調方式與替代關係。本文依《Nutrition Concepts & Controversies》第 17 版第五章，整理脂質名詞、Omega-3、血脂檢驗、食用油、外食替換與就醫限制。",
+        "articleTitle": "脂質怎麼吃才健康？從脂肪種類、Omega-3 到血脂報告的生活判讀",
+        "bodyHtml": body,
+        "seoDescription": "脂質怎麼吃才健康？凱特營養師依《Nutrition Concepts & Controversies》第 17 版第五章，整理飽和脂肪、反式脂肪、Omega-3、膽固醇、血脂、食用油與外食選擇。",
+        "category": "營養學概念與爭論",
+        "tags": ["脂質", "飽和脂肪", "Omega-3", "膽固醇", "食用油", "堅果", "心血管健康"],
+        "slug": "2026-08-20-lipids-fatty-acids-guide",
+        "canonical": "https://594katchang-source.github.io/blog/post.html?id=2026-08-20-lipids-fatty-acids-guide",
+        "internalLinks": [
+            ["全書導讀", "https://594katchang-source.github.io/blog/post.html?id=2026-08-13-nutrition-concepts-controversies-17e-guide"],
+            ["第一章食物選擇", "https://594katchang-source.github.io/blog/post.html?id=2026-08-14-food-choices-human-health-guide"],
+            ["第二章營養工具與標準", "https://594katchang-source.github.io/blog/post.html?id=2026-08-15-nutrition-tools-standards-guidelines"],
+            ["第四章醣類與纖維", "https://594katchang-source.github.io/blog/post.html?id=2026-08-17-carbohydrates-food-guide"],
+            ["Blog 文章列表", "https://594katchang-source.github.io/blog/"],
+            ["作者簡介", "https://594katchang-source.github.io/about.html"]
+        ],
+        "faq": [
+            "脂肪需要越少越好嗎？",
+            "橄欖油可以無限量使用嗎？",
+            "Omega-3 魚油每個人都需要吃嗎？",
+            "LDL 高，蛋要完全避開嗎？",
+            "孕婦可以吃魚嗎？"
+        ],
+        "faqEntities": [
+            {"question": "脂肪需要越少越好嗎？", "answer": "脂肪是身體需要的營養素，重點在脂肪酸型態、食物來源、總量與替代關係。先降低反式脂肪與高頻率的高飽和脂肪，再用魚類、豆類、堅果與植物油安排脂質來源。"},
+            {"question": "橄欖油可以無限量使用嗎？", "answer": "不行。橄欖油的脂肪酸組成適合放進許多飲食型態，仍然是高能量食用油。固定用油工具、控制倒油量、醬料分開放，會比只更換品牌更有幫助。"},
+            {"question": "Omega-3 魚油每個人都需要吃嗎？", "answer": "不需要把魚油當成所有人的固定保健品。先看魚類攝取、飲食目標、血脂數值、藥物、手術安排與過敏狀況。高劑量或治療用途的產品，應由醫療人員判斷。"},
+            {"question": "LDL 高，蛋要完全避開嗎？", "answer": "單一食物通常不能直接決定整體血脂。要連同飽和脂肪、加工肉、總熱量、烹調方式、蛋白質來源、家族史與用藥一起評估。已有高風險疾病者，請依醫療團隊給的目標調整。"},
+            {"question": "孕婦可以吃魚嗎？", "answer": "魚類可提供蛋白質與 Omega-3，孕期重點在選擇低汞魚類、控制來源與份量，避開大型掠食魚，並依台灣官方食品安全建議安排。對魚類過敏或有特殊飲食限制時，請尋求營養師協助。"}
+        ],
+        "faqSchema": "建議公開正文完整呈現問題與答案後，使用 FAQPage 結構化資料，並和 BlogPosting 的 mainEntity 或 about 關係保持一致。FAQPage 只標記頁面上讀者看得到的問答。",
+        "articleSchema": ["BlogPosting", "headline", "description", "author", "datePublished: 2026-08-20", "dateModified: 2026-08-20", "mainEntityOfPage", "image", "articleSection", "keywords", "about"],
+        "author": "張雁雲營養師，Kat Chang 凱特營養師，專長為高齡營養、疾病營養、精準營養與健康促進。",
+        "sources": [
+            ["第五章整理 DOCX", "D:/@Codex/書籍/2026-07-29-Nutrition-Concepts-Controversies-17e/output/chapter-05-lipids.docx", "第五章脂質、脂肪酸、膽固醇、Omega-3、食用油與血脂判讀核心概念"],
+            ["第五章全文擷取檔", "D:/@Codex/書籍/2026-07-29-Nutrition-Concepts-Controversies-17e/process/chapter-05-source.txt", "PDF 第 172 至 211 頁、印刷頁第 148 至 187 頁的逐頁內容"],
+            ["Cengage 第 17 版書籍頁", "https://www.cengage.com/c/nutrition-concepts-controversies-17e-sizer-whitney-wissmann/9798214450049/", "書籍版本、作者與章節背景核對"],
+            ["WHO 飽和脂肪與反式脂肪指引", "https://www.who.int/publications/i/item/9789240073630", "飽和脂肪與反式脂肪降低方向及替代脂肪原則"],
+            ["WHO Healthy diet", "https://www.who.int/news-room/fact-sheets/detail/healthy-diet", "健康飲食的多樣、節制、脂肪品質與整體飲食型態"],
+            ["國健署每日飲食指南", "https://www.hpa.gov.tw/pages/ebook.aspx?nodeid=1208", "台灣油脂與堅果種子份量、飲食轉譯與日常選擇"],
+            ["NIH ODS Omega-3", "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/", "ALA、EPA、DHA 來源、轉換限制與補充品證據"],
+            ["American Heart Association fish guidance", "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/fish-and-omega-3-fatty-acids", "魚類攝取頻率、Omega-3 食物來源與料理方向"],
+            ["國健署 Omega-3 魚類資料", "https://www.hpa.gov.tw/Pages/Detail.aspx?nodeid=127&pid=8808", "台灣魚類與 Omega-3 的生活化衛教資料"],
+            ["台灣食藥署魚類與汞", "https://www.fda.gov.tw/tc/sitecontent.aspx?sid=3820", "孕婦、兒童與一般族群的魚類汞暴露提醒"],
+            ["AHA 2026 飲食指引", "https://professional.heart.org/en/science-news/2026-dietary-guidance-to-improve-cardiovascular-health/top-things-to-know", "心血管飲食型態、以不飽和脂肪替代飽和脂肪的方向"],
+            ["AHA 2026 血脂指引", "https://professional.heart.org/en/science-news/2026-guideline-on-the-management-of-dyslipidemia/top-things-to-know", "LDL 降低、心血管風險與血脂管理的醫療背景"]
+        ],
+        "originalClaims": [
+            "把第五章的脂質分類轉成台灣家庭與外食可使用的四問判讀法。",
+            "用種類、份量、替代與情境串起食用油、堅果、魚類、加工肉、醬料與油炸食物的選擇。",
+            "把 Omega-3 從單一魚油產品拉回 ALA、EPA、DHA、魚類、藥物與汞暴露的判讀。",
+            "把 LDL、HDL 與三酸甘油酯放進完整心血管風險與醫療溝通，不用單一數字替代診斷。",
+            "保留脂質調整的限制條件，清楚標示高血脂、用藥、孕期、腎臟病與急症的求助邊界。"
+        ],
+        "pending": [
+            "本稿供使用者人工審閱，尚未寫入 blog/posts.json，也未發布。",
+            "正式發布前要以遠端 main 最新 SHA 做目標文章合併，並保留既有文章、圖片與 showOnHome 設定。",
+            "發布後才可核對第五章公開 DOM、FAQPage、canonical、sitemap、站內連結、封面圖與 375px 版面。",
+            "Search Console 尚未在本輪重新登入，本稿沒有曝光、點擊、點擊率、平均排名、熱門查詢或熱門頁面數據。",
+            "本文提供一般營養教育，不能取代診斷、檢驗、藥物調整或個人化治療。"
+        ],
+        "wordCount": {"characters": len(text), "words": len(text.split())},
+        "sourcePageAudit": ["pdfPages", "printedPages", "pageMarkers", "replacementCharacters"],
+        "reviewDate": "2026-08-20",
+        "authorBackground": "Kat Chang 凱特營養師，張雁雲營養師。專長為高齡營養、疾病營養、精準營養與健康促進。",
+        "preset": "compact_reference_guide"
+    }
+    SOURCE_DIR.mkdir(parents=True, exist_ok=True)
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    json_path = SOURCE_DIR / "chapter-05-review.json"
+    html_path = SOURCE_DIR / "chapter-05-review.html"
+    docx_path = OUTPUT_DIR / "chapter-05-lipids-seo-review.docx"
+    json_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    html_path.write_text("<!doctype html><html lang=\"zh-Hant\"><head><meta charset=\"utf-8\"><title>第五章待審 SEO 草稿</title><link rel=\"canonical\" href=\"" + data["canonical"] + "\"></head><body>" + body + "</body></html>", encoding="utf-8")
+    build_doc(data, docx_path)
+    print(json.dumps({"json": str(json_path), "html": str(html_path), "docx": str(docx_path), "wordCount": data["wordCount"]}, ensure_ascii=False, indent=2))
+
+
+if __name__ == "__main__":
+    main()

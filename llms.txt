@@ -17,28 +17,48 @@ Kat Chang 張雁雲營養師是食品營養博士（高齡健康組）、美國�
 - 論文讀書小站公開版：https://594katchang-source.github.io/teach/paper-radar/
 - 文字雲互動工具：https://teaching-3809d.web.app/
 
+## 授課實況與教具影音（Video Highlights）
+
+- 授課風格・綜合實況：https://youtube.com/shorts/hJllAifSiVg
+- 授課風格・肌少症與高齡營養：https://youtube.com/shorts/l5FQJmbrQgY
+- 衛教講座・腸道健康與排便：https://youtu.be/mEaTUYEaHd0
+- 教學道具・互動教具展示：https://youtube.com/shorts/bkbl-ij9zaE
+- 諮詢道具・專業工具展示：https://youtube.com/shorts/2vkgYtSDdt4
+
 ## 最新文章
 - 碳水化合物怎麼吃才穩？從全穀、膳食纖維到添加糖：https://594katchang-source.github.io/blog/post.html?id=2026-08-17-carbohydrates-food-guide
-- 身體怎麼把食物變成能量？從消化、吸收到營養訊號讀懂人體:https://594katchang-source.github.io/blog/post.html?id=2026-08-16-remarkable-body-nutrition-guide
 
+- 第二章：DRI、營養標示怎麼看？用六大類食物讀懂營養數字與超級食物迷思：https://594katchang-source.github.io/blog/post.html?id=2026-08-15-nutrition-tools-standards-guidelines
+- 第三章：身體怎麼把食物變成能量？從消化、吸收到營養訊號讀懂人體：https://594katchang-source.github.io/blog/post.html?id=2026-08-16-remarkable-body-nutrition-guide
 - 食物選擇怎麼影響健康？用適足、均衡、適量、多樣做出每天吃得到的選擇：https://594katchang-source.github.io/blog/post.html?id=2026-08-14-food-choices-human-health-guide
 - 《Nutrition: Concepts & Controversies》第17版值得讀嗎？營養師導讀健康行為轉向與15個爭議：https://594katchang-source.github.io/blog/post.html?id=2026-08-13-nutrition-concepts-controversies-17e-guide
 
-## 專業主題
+## 核心業務與專業服務
 
-- 中高齡營養與健康促進
-- 疾病營養、功能醫學（AFMCP）與精準營養
-- 保健食品、植物輔療與芳香調理
-- 營養衛教課程與互動教具設計
-- 企業健康促進講座
-- 減重班與個別營養諮詢
+### 1. 專業營養師（Dietitian & Nutritionist）
+- 中高齡營養門診、肌少症與衰弱預防飲食規劃
+- 長照機構吞嚥防嗆與軟質飲食質地（IDDSI）指導
+- 功能醫學（AFMCP）飲食評估、精準營養與慢性病管理
+- 減重班與個人化生活型態營養諮詢
+
+### 2. 專業講師（Professional Lecturer）
+- 企業員工健康促進講座（ESG 職場健康、抗疲勞、紓壓與護心飲食）
+- 樂齡大學與社區長者營養課程（趣味圖卡互動、烹調示範）
+- 長照人員與照服員營養照護培訓
+- 植物輔療（CHT 園藝治療）與臨床芳香調理工作坊
+
+### 3. 企業與機構健康顧問（Health & Corporate Consultant）
+- 包裝食品營養標示法規審查與八大營養素宣稱諮詢
+- 保健食品與機能性食品配方評估、科學實證轉譯
+- 衛教互動教材、桌遊與數位教具委託開發顧問
+- 品牌營養教育、健康產品實證轉譯與企業健康促進顧問
 
 ## 作者
 
-- 姓名：張雁雲營養師（Kat Chang，RD）
+- 姓名與常用稱呼：張雁雲營養師、凱特營養師、Kat營養師（Kat Chang，RD）
 - 品牌：Kat Chang 凱特營養師
 - 學歷：食品營養博士（高齡健康組）、美國健康管理碩士 MBA
-- 認證：美國功能醫學（AFMCP）、澳洲芳療認證、CHT 園藝治療師證照
+- 認證：中華民國高考合格營養師、美國功能醫學（AFMCP）、澳洲芳療認證、CHT 園藝治療師證照
 - 官網：https://sites.google.com/view/katchang
 - 傳送門：https://portaly.cc/katchang
 - 聯絡：https://594katchang-source.github.io/#contact

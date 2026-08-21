@@ -1,0 +1,179 @@
+{
+  "homepage_index_html": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": [
+          "Person",
+          "Dietitian",
+          "Consultant"
+        ],
+        "@id": "https://594katchang-source.github.io/#person",
+        "name": "張雁雲",
+        "alternateName": [
+          "Kat Chang",
+          "凱特營養師",
+          "Kat營養師",
+          "張雁雲營養師",
+          "張雁雲博士",
+          "Kat Chang RD"
+        ],
+        "url": "https://594katchang-source.github.io/",
+        "image": "https://594katchang-source.github.io/assets/profile/kat-avatar.jpg",
+        "description": "Kat Chang 張雁雲營養師是台灣食品營養博士（高齡健康組）、美國健康管理碩士 MBA。專注中高齡營養、疾病營養、企業健康促進講座、衛教簡報與互動教具設計。凱特指路，讓你年輕吃美食、年長吃好食！",
+        "jobTitle": [
+          "中高齡營養專家",
+          "企業健康促進專業講師",
+          "保健食品與營養法規顧問"
+        ],
+        "gender": "Female",
+        "nationality": "Taiwan",
+        "alumniOf": [
+          {
+            "@type": "EducationalOrganization",
+            "name": "食品營養研究所 (博士，專攻高齡健康組)"
+          },
+          {
+            "@type": "EducationalOrganization",
+            "name": "美國健康管理研究所 (MBA 碩士)"
+          }
+        ],
+        "hasCredential": [
+          {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Professional License",
+            "name": "中華民國高考合格營養師 (Registered Dietitian, Taiwan)"
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Certification",
+            "name": "美國功能醫學認證課程修習 (AFMCP)"
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Certification",
+            "name": "台灣園藝治療師認證 (CHT)"
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Certification",
+            "name": "澳洲芳療國際認證 (Clinical Aromatherapy)"
+          }
+        ],
+        "knowsAbout": [
+          "中高齡營養與高齡健康促進",
+          "肌少症與衰弱症飲食介入",
+          "長照機構吞嚥防嗆與軟質飲食 (IDDSI)",
+          "企業員工健康促進與紓壓飲食講座",
+          "功能醫學飲食評估與精準營養",
+          "慢性病飲食管理 (糖尿病、高血壓、高血脂)",
+          "保健食品配方評估與營養標示法規審查",
+          "互動式衛教教具與教學桌遊開發",
+          "植物輔助療癒與臨床芳香調理"
+        ],
+        "sameAs": [
+          "https://sites.google.com/view/katchang",
+          "https://portaly.cc/katchang",
+          "https://www.facebook.com/cthpa2019/",
+          "https://www.instagram.com/rd.katchang",
+          "https://www.youtube.com/@kat-7185",
+          "https://lin.ee/uGHIQcH"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "Business Inquiries",
+          "email": "594katchang@gmail.com",
+          "url": "https://zcal.co/katchang",
+          "availableLanguage": [
+            "zh-TW",
+            "en"
+          ]
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "凱特營養師專業服務項目",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "企業健康促進講座與工作坊",
+                "description": "客製化職場紓壓、減重防疲勞、三高預防與健康飲食講座，結合互動教具與即時回饋。"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "樂齡大學與長照人員營養培訓",
+                "description": "銀髮族吞嚥安全、肌少症預防、植物輔療桌遊工作坊與長照人員專業衛教訓練。"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "保健食品與食品法規顧問諮詢",
+                "description": "包裝食品營養標示法規審查、保健食品配方與實證評估、健康教材與教具委託設計。"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "個別營養諮詢與飲食評估",
+                "description": "中高齡養生、體重管理、功能醫學生活型態評估與個別化飲食規劃。"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://594katchang-source.github.io/#website",
+        "url": "https://594katchang-source.github.io/",
+        "name": "Kat Chang 凱特營養師 官方網站",
+        "description": "提供中高齡營養、企業健康講座、長照培訓、衛教教具與實證營養文章。",
+        "publisher": {
+          "@id": "https://594katchang-source.github.io/#person"
+        },
+        "inLanguage": "zh-TW"
+      }
+    ]
+  },
+  "class_html_services_schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Course",
+        "name": "企業職場健康促進與減壓飲食講座",
+        "description": "專為企業員工設計的活力飲食與抗疲勞工作坊，涵蓋超商外食選擇、護心降脂與提神技巧。",
+        "provider": {
+          "@type": "Person",
+          "name": "張雁雲 (Kat Chang 凱特營養師)",
+          "url": "https://594katchang-source.github.io/"
+        }
+      },
+      {
+        "@type": "Course",
+        "name": "長照機構吞嚥防嗆與高齡肌少症營養實務",
+        "description": "結合 IDDSI 質地分級標準、高齡蛋白質補足策略與零明火料理示範，提升長照照護品質。",
+        "provider": {
+          "@type": "Person",
+          "name": "張雁雲 (Kat Chang 凱特營養師)",
+          "url": "https://594katchang-source.github.io/"
+        }
+      },
+      {
+        "@type": "Course",
+        "name": "樂齡植物輔療與情緒覺察營養工作坊",
+        "description": "結合 CHT 園藝治療、情緒覺察卡牌與香草飲食體驗，促進長者身心靈健康與認知活化。",
+        "provider": {
+          "@type": "Person",
+          "name": "張雁雲 (Kat Chang 凱特營養師)",
+          "url": "https://594katchang-source.github.io/"
+        }
+      }
+    ]
+  }
+}

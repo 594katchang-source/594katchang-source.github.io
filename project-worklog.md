@@ -742,3 +742,15 @@
 
 - 遠端文章資料共 6 篇，首頁精選 4 篇，目標文章的 `showOnHome` 仍為 `false`。
 - 本機 Windows TLS 讀取公開頁面時發生憑證通道錯誤，已改以遠端檔案 SHA 與功能內容核對。日後需在可用的公開頁面連線環境補做 DOM 實讀。
+
+
+## 2026-08-21 14:10｜全站 SEO 與 AI 索引基礎建設升級、授課影音整合與 GitHub 發布
+
+### 任務
+
+- 升級全站 SEO 與 AI 索引基礎建設：首頁 index.html、簡介頁 about.html、授課頁 class.html 之 Schema.org JSON-LD 深度結構化資料與 Meta Keywords。
+- 納入「凱特營養師」、「Kat營養師」、「張雁雲營養師」、「Kat Chang」四大常用別名。
+- 修正顧問服務定位，聚焦於「保健食品配方評估、營養標示法規審查與衛教教材開發」，徹底排除非專長之菜單與團膳字眼。
+- 整合 5 支精選授課現場與教具短影音至 class.html，並在 <head> 注入 Google VideoObject 結構化資料。
+- 更新 llms.txt 結構化三支柱服務與代表影音清單。
+- 提交並發布至 GitHub Pages 遠端 repository。
