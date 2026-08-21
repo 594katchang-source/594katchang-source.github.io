@@ -806,3 +806,44 @@
 
 - 遠端 GitHub `main` 分支已完成同步與發布（Commit: `4ca827d`）。
 - 本機工作樹維持乾淨（Working tree clean），無遺留未提交變更。
+
+## 2026-08-21 14:45｜4 週 SEO 執行行事曆排定、GSC 索引自動化與 EAP 企業方案合作轉移（收工）
+
+### 任務
+
+- 將 4 週 SEO 攻頂計畫細化為具體可執行的每日工作與 8 大關鍵檢核時間點（每週二、五固定檢核）。
+- 建立 Google Search Console (GSC) API 服務帳號自動化登錄指南與即時索引推播工具。
+- 排查並解答 GSC 後台 Sitemap 顯示「無法擷取」之機制（排程中 Pending 狀態）與驗證方式。
+- 依使用者策略指示，將第 3 週之合作提案對象由學術/長照機構全面轉移為「EAP 方案顧問公司與企業健康促進合作」。
+- 排除既有合作夥伴「宇聯心理健康產業 / 宇聯 EAP」，將其合作經驗轉化為向其他潛在 EAP 機構提案的實務實績背書。
+
+### 主要輸出
+
+- `work/2026-08-21-seo-growth-strategy/output/04_seo_execution_schedule_calendar.md`：4 週攻頂執行行事曆與 8 個確認時間點清單。
+- `work/2026-08-21-seo-growth-strategy/output/05_gsc_indexing_automation_guide.md`：Google Search Console 服務帳號 API 授權與自動化串接指南。
+- `work/2026-08-21-seo-growth-strategy/gsc_indexer.py`：自動化 Sitemap 廣播與 GSC 索引檢查工具腳本。
+- `work/2026-08-21-seo-growth-strategy/output/03_eap_corporate_wellness_outreach_templates.md`：三大 EAP 顧問與企業健康講座/諮詢提案信件庫（鎖定鉅微、寬欣、旭立、華人心理等）。
+- 更新 `work/2026-08-21-seo-growth-strategy/output/01_seo_1month_growth_blueprint.md`。
+
+### 已完成與驗證
+
+- GSC Sitemap 實時線上連線驗證：`https://594katchang-source.github.io/sitemap.xml` 讀取成功（HTTP 200，XML 結構與 20 餘筆網址正確）。
+- 執行 `python work/2026-08-21-seo-growth-strategy/gsc_indexer.py` 測試通過（Windows UTF-8 編碼與路徑安全無誤）。
+- 舊版公關模板透過 PowerShell Shell API 安全移至「資源回收桶（Recycle Bin）」。
+- `agent.md` 已同步回寫 EAP 合作定位與宇聯夥伴註記。
+
+### 尚未完成與仍有風險
+
+- GSC Sitemap 目前處於 Google 系統後台排程佇列（Pending），預計 12～48 小時內 Googlebot 實際爬取後自動轉為綠色「成功」。
+- GSC API 服務帳號金鑰 `service_account.json` 待使用者下載放置後即可啟用全自動 API 提交。
+
+### 使用者偏好與新增規則
+
+- 宇聯心理健康產業 / 宇聯 EAP 為既有合作夥伴，不列入冷開發名單，轉化為提案時之成熟合作背書。
+- 企業端商業拓展以 EAP 方案公司（鉅微、寬欣、旭立、華人心理等）與科技廠福委會/職護為核心方向。
+
+### 回寫狀態
+
+- `agent.md`：已更新 EAP 合作定位。
+- `project-worklog.md`：已完整補齊本次工作紀錄。
+
