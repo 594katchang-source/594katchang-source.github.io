@@ -847,3 +847,40 @@
 - `agent.md`：已更新 EAP 合作定位。
 - `project-worklog.md`：已完整補齊本次工作紀錄。
 
+## 2026-08-21 16:15｜Google Search Console 實時驗證排查、VideoObject 結構化時區修復與全站收工
+
+### 任務
+
+- 協助使用者即時進行 Google Search Console (GSC) 後台全面健康診斷與 6 大關鍵設定檢查。
+- 排查使用者提供的 GSC 截圖：解析 `class.html` 網址審查之「網頁已編入索引」、「HTTPS 正常」、「5 個有效影片項目」及「選擇性 uploadDate 警告」。
+- 修復 `class.html` 中 5 支影片之 `VideoObject` Schema.org `uploadDate` 缺少時區問題。
+- 嚴格驗證 `sitemap.xml` 之 XML 語法合法性與對外 HTTP 回應狀態。
+
+### 主要輸出與程式碼修復
+
+- 修正 `class.html`：將 5 支授課與教具精選影片之 `uploadDate` 由 `2024-01-01` 統一升級為符合 ISO 8601 標準之帶時區格式 `2024-01-01T08:00:00+08:00`。
+- 提交並推送到 GitHub 遠端 repository（Commit: `689ee62`）。
+
+### 已完成與驗證
+
+- GSC 實時審查結果確認：
+  - `class.html`「網頁已編入索引」🟢
+  - 「HTTPS 正常」🟢
+  - 「偵測到 5 個有效的影片項目」🟢（結構化資料已全數辨識）
+- `sitemap.xml` 經 Python `xml.etree.ElementTree` 嚴格解析驗證，語法 100% 合法，包含 18 個標準 URL。
+- 線上 HTTP 請求 `https://594katchang-source.github.io/sitemap.xml` 回傳 200 OK。
+
+### 尚未完成與仍有風險
+
+- GSC Sitemap「無法擷取」為新站剛提交時 Google 伺服器排程中（Pending）的正常現象（上次讀取時間為空白），待 12～48 小時 Googlebot 實際輪巡後將自動轉綠。
+
+### 新增規則與知識沉澱
+
+- Schema.org `VideoObject` 之 `uploadDate` 屬性在 Google GSC 嚴格檢驗下，必須帶有明確時間與時區（`YYYY-MM-DDTHH:MM:SS+08:00`），方能達成 100% 零警告之最佳健康度。
+
+### Git 收工狀態
+
+- 遠端 GitHub `main` 分支已同步發布最新修復（Commit: `689ee62`）。
+- 本機工作樹乾淨（Working tree clean），無殘留修改。
+
+
