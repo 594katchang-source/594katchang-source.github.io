@@ -883,4 +883,29 @@
 - 遠端 GitHub `main` 分支已同步發布最新修復（Commit: `689ee62`）。
 - 本機工作樹乾淨（Working tree clean），無殘留修改。
 
+## 2026-08-22 14:35｜全站 SEO 索引加速引擎部署：HTML 網站地圖、靜態爬蟲 Fallback、Footer 內鏈網與 Sitemap XML 2.0
+
+### 任務
+
+- 建立全新 `sitemap.html`（HTML 網站地圖）獨立頁面，收錄全站 19 個核心頁面、互動教具與所有衛教專欄文章。
+- 全面更新 `sitemap.xml`，所有 URL 之 `<lastmod>` 統一升級至 `2026-08-22`。
+- 在 `robots.txt` 宣告 `sitemap.html` 與 `sitemap.xml` 雙地圖。
+- 在全站 6 大核心頁面之 Footer 注入「網站地圖」內部連結，打造完整蜘蛛網。
+- 在 `blog/index.html` 注入 `<noscript>` 靜態文章索引連結，供不執行 JS 的輕量爬蟲 0 延遲抓取 9 篇衛教文章。
+- 部署並同步至 GitHub Pages 遠端。
+
+### 主要輸出與程式碼修改
+
+- `sitemap.html`：新建美觀、語意化 HTML5、兼顧 UX 與 SEO 的網站地圖頁面。
+- `sitemap.xml`：更新 19 筆網址與權重配置。
+- `robots.txt`：加入雙 Sitemap 宣告。
+- `index.html`、`about.html`、`class.html`、`blog/index.html`、`blog/post.html`、`teach/index.html`：更新 Footer 內部錨點。
+- `blog/index.html`：加入 `<noscript class="seo-fallback-articles">` 9 篇衛教靜態文章連結。
+
+### 驗證
+
+- 遠端 `origin/main` 已成功 Push 最新 Commit。
+- HTML Sitemap 與 XML Sitemap 本地與線上路徑皆可正常存取。
+
+
 
