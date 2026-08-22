@@ -932,6 +932,12 @@
 - 本地與遠端測試所有檔案語法與渲染正確。
 - GitHub Pages 自動部署。
 
+### 新增規則與工具沉澱
+
+- 建立 `tools/sync_seo_and_geo.py` 全自動一鍵同步工具，涵蓋 XML/HTML Sitemap、LLMS 知識庫、Robots、Noscript Fallback 與 Footer 內鏈。
+- 專案規則 `agent.md` 已正式寫入「【硬性規範】全站 SEO & GEO (AI 搜尋引擎) 自動化同步 SOP」，強制規定日後每次新增/修改文章、網頁或教具時，必須即時執行該腳本並驗證 6 大 SEO/GEO 指標。
+
+
 
 
 

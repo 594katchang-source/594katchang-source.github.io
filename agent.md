@@ -310,4 +310,26 @@ Kat Chang 網站是張雁雲營養師的專業展示、課程合作、衛教文�
 - 宇聯心理健康產業 / 宇聯 EAP 為既有合作夥伴，不列入冷開發名單，可作為向其他 EAP 方案公司（如鉅微、寬欣、旭立、華人心理）與科技廠福委會提案時的成熟合作實績背書。
 - 企業健康促進與 EAP 提案聚焦於三大模組：① 科技業抗疲勞與高專注力飲食、② 健檢紅字脂肪肝/代謝症候群實證逆轉、③ 結合園藝治療（CHT）與芳療之身心減壓工作坊，以及員工 1-on-1 個別化諮詢。
 
+## 【硬性規範】全站 SEO & GEO (AI 搜尋引擎) 自動化同步 SOP
+
+未來任何協作代理或維護任務，凡涉及**新增文章、更新頁面、新增/調整教具或修改站內結構**時，必須**立即執行並落實以下 6 大 SEO & GEO 同步機制**，確保搜尋引擎（Google/Bing）與 AI 生成式搜尋（ChatGPT/Perplexity/Claude/Gemini）100% 同步檢索：
+
+1. **一鍵同步工具呼叫**：
+   - 每次內容更新後，必須執行 `python tools/sync_seo_and_geo.py`，全自動更新全站地圖與 AI 知識庫。
+2. **Sitemap 雙軌維護**：
+   - `sitemap.xml`：確保包含所有核心頁面、教具與文章，所有 `<lastmod>` 更新為當日日期，優先級（priority）與更新頻率（changefreq）設定正確。
+   - `sitemap.html`：保持美觀之 HTML 網站導覽頁，並包含 `BreadcrumbList` 與 `CollectionPage` Schema.org 結構化資料。
+3. **AI 搜尋引擎 (GEO) 知識庫深度同步**：
+   - `llms.txt`：作為全站核心導覽與快速摘要。
+   - `llms-full.txt`：作為深度知識庫，必須完整收錄全站每篇文章的深度臨床摘要、核心論點、關鍵字、E-E-A-T 作者背書與原始文章 URL。
+4. **爬蟲權限 (robots.txt) 嚴格放行**：
+   - 確保 `robots.txt` 宣告雙 Sitemap，並放行所有主流 AI Agent（`GPTBot`、`ChatGPT-User`、`OAI-SearchBot`、`ClaudeBot`、`Claude-Web`、`PerplexityBot`、`Google-Extended`、`Applebot-Extended`、`Amazonbot`、`cohere-ai`、`meta-externalagent`）。
+5. **靜態爬蟲 Fallback (SEO Pre-rendered Links)**：
+   - 確保 `blog/index.html` 內具備 `<noscript>` 靜態文章列表區塊，確保不執行 JavaScript 的輕量爬蟲能在 0 延遲下抓取全站文章。
+6. **站內互鏈網絡 (Internal Cross-Linking Network)**：
+   - 單篇文章底部必須具備「💡 延伸閱讀・精選衛教文章」推薦卡片（由 `blog.js` 的 `renderRelatedPosts` 動態關聯同類文章）。
+   - 教具目錄頁（`teach/index.html`）必須保持反向導流至衛教專欄的推薦卡片。
+   - 全站 6 大核心頁面 Footer 必須保留「網站地圖 (Sitemap)」文字錨點。
+
+
 
