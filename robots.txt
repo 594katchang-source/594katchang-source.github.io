@@ -61,3 +61,4 @@ Allow: /
 
 # Sitemap Location
 Sitemap: https://594katchang-source.github.io/sitemap.xml
+Sitemap: https://594katchang-source.github.io/sitemap.html
