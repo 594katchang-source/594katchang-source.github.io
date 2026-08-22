@@ -937,6 +937,26 @@
 - 建立 `tools/sync_seo_and_geo.py` 全自動一鍵同步工具，涵蓋 XML/HTML Sitemap、LLMS 知識庫、Robots、Noscript Fallback 與 Footer 內鏈。
 - 專案規則 `agent.md` 已正式寫入「【硬性規範】全站 SEO & GEO (AI 搜尋引擎) 自動化同步 SOP」，強制規定日後每次新增/修改文章、網頁或教具時，必須即時執行該腳本並驗證 6 大 SEO/GEO 指標。
 
+### 已完成與驗證
+
+- 全站 19 個 URL 之 XML Sitemap 與 HTML Sitemap 雙軌上線，最後更新日期均標示為 `2026-08-22`。
+- `llms.txt` 與 `llms-full.txt` 深度知識庫產出完成，收錄 9 篇衛教文章臨床結論與 5 大教具。
+- `robots.txt` 宣告完整 AI 爬蟲名單與雙 Sitemap。
+- `blog/blog.js` 延伸閱讀推薦模組運作正常，教具目錄頁與部落格形成雙向導流。
+- 專案一鍵自動同步腳本 `tools/sync_seo_and_geo.py` 測試 100% 成功。
+- `agent.md` 已完整更新並推送到遠端倉庫。
+
+### 尚未完成與仍有風險
+
+- 無。所有功能與檔案皆已部署並通過本地及線上語法驗證。
+- GSC 抓取與索引排程為 Google 伺服器端正常非同步佇列，預計 24～48 小時內陸續收錄。
+
+### Git 收工狀態
+
+- 遠端 GitHub `main` 分支已完全同步（Commit: `cbf9c49` 及最新收工 Commit）。
+- 本機工作樹乾淨（Working tree clean），所有改動皆已妥善保存與推送。
+
+
 
 
 
