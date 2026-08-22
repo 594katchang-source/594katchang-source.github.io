@@ -78,9 +78,9 @@ function renderRelatedPosts(currentPost, allPosts) {
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;">
         ${candidates.map(p => `
           <a class="service-card" href="post.html?id=${encodeURIComponent(p.id)}" style="display:block;text-decoration:none;padding:18px;border-radius:18px;">
-            <div style="font-size:0.85rem;color:var(--muted);margin-bottom:6px;">${escapeHtml(p.date || '')}</div>
-            <h3 style="font-size:1.05rem;line-height:1.4;margin-bottom:8px;color:var(--ink);">${escapeHtml(p.title || '')}</h3>
-            <p style="font-size:0.9rem;color:var(--muted);margin:0;">${escapeHtml(summary(p))}</p>
+            <div style="font-size:1rem;color:var(--muted);margin-bottom:6px;">${escapeHtml(p.date || '')}</div>
+            <h3 style="font-size:1.15rem;line-height:1.4;margin-bottom:8px;color:var(--ink);">${escapeHtml(p.title || '')}</h3>
+            <p style="font-size:1rem;color:var(--muted);margin:0;line-height:1.6;">${escapeHtml(summary(p))}</p>
           </a>
         `).join('')}
       </div>
