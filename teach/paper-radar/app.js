@@ -3,6 +3,14 @@
 
   const PAGE_SIZE = 50;
   const state = { items: [], query: "", kind: "all", page: 1 };
+  const EXACT_ENGLISH_SEARCH_TERMS = new Set([
+    "cat", "cats", "feline", "felines", "ragdoll", "dog", "dogs", "canine",
+    "pet", "pets", "companion animal", "veterinary", "veterinarian", "livestock",
+    "bovine", "equine", "poultry", "cattle", "beef cattle", "porcine", "swine",
+    "ovine", "caprine", "murine", "mouse", "mice", "rat", "rats", "rodent",
+    "rabbit", "rabbits", "zebrafish", "animal model", "animal study", "cell line",
+    "cell culture", "organoid", "fibroblast",
+  ]);
   const elements = {
     query: document.querySelector("#query"),
     status: document.querySelector("#status"),
@@ -344,7 +352,11 @@
     return state.items.filter((item) => {
       if (state.kind !== "all" && !resultItems(item).some((result) => result.kind === state.kind)) return false;
       const searchable = itemText(item);
-      return !terms.length || terms.some((term) => searchable.includes(term));
+      return !terms.length || terms.some((term) => {
+        if (!EXACT_ENGLISH_SEARCH_TERMS.has(term)) return searchable.includes(term);
+        const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+        return new RegExp(`(?:^|[^a-z])${escaped}(?:$|[^a-z])`, "i").test(searchable);
+      });
     });
   }
 
