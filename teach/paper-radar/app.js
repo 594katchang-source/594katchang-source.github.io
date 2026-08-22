@@ -347,15 +347,31 @@
     ].join(" ").toLocaleLowerCase("zh-Hant");
   }
 
+  function itemSourceText(item) {
+    return [
+      item.title,
+      item.authors,
+      item.journal,
+      item.year,
+      item.doi,
+      item.abstract,
+      item.category,
+      Array.isArray(item.tags) ? item.tags.join(" ") : "",
+      item.noteTitle,
+    ].join(" ").toLocaleLowerCase("zh-Hant");
+  }
+
   function filteredItems() {
     const terms = expandSearchTerms(state.query);
     return state.items.filter((item) => {
       if (state.kind !== "all" && !resultItems(item).some((result) => result.kind === state.kind)) return false;
       const searchable = itemText(item);
+      const sourceSearchable = itemSourceText(item);
       return !terms.length || terms.some((term) => {
         if (!EXACT_ENGLISH_SEARCH_TERMS.has(term)) return searchable.includes(term);
         const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-        return new RegExp(`(?:^|[^a-z])${escaped}(?:$|[^a-z])`, "i").test(searchable);
+        const text = sourceSearchable.replace(/\bcat(?:'s)?\s+claw\b/giu, "");
+        return new RegExp(`(?:^|[^a-z])${escaped}(?:$|[^a-z])`, "i").test(text);
       });
     });
   }
