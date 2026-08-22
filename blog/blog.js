@@ -66,5 +66,27 @@ function setArticleSeo(post){
     faqLd.textContent=JSON.stringify({'@context':'https://schema.org','@type':'FAQPage',mainEntity:post.faq.map(item=>({'@type':'Question',name:item.question,acceptedAnswer:{'@type':'Answer',text:item.answer}}))});
   }else if(faqLd)faqLd.remove();
 }
-async function main(){const res=await fetch('posts.json?v=20260815-blog-directory',{cache:'no-store'});const posts=(await res.json()).posts||[];const list=document.querySelector('#posts');if(list){renderDirectory(posts);return}const article=document.querySelector('#article');if(article){const id=new URLSearchParams(location.search).get('id');const post=posts.find(p=>p.id===id)||posts[0];if(!post){article.innerHTML='<p>找不到文章。</p>';return}setArticleSeo(post);article.innerHTML=`<a class="back-link" href="./">← 返回文章列表</a><div class="post-meta">${escapeHtml(post.date||'')}｜作者：<a href="../about.html">張雁雲營養師</a></div><h1>${escapeHtml(post.title||'')}</h1><div class="keywords">${keywords(post).map(k=>`<span>${escapeHtml(k)}</span>`).join('')}</div>${post.image?`<img class="article-cover" src="${escapeHtml(imageSrc(post))}" alt="${escapeHtml(post.title||'')}">`:''}<div class="article-body">${sanitizeHtml(post.body||'')}</div>`}}main().catch(()=>{const el=document.querySelector('#posts,#article');if(el)el.innerHTML='<p>內容載入失敗。</p>'});
+
+function renderRelatedPosts(currentPost, allPosts) {
+  const otherPosts = allPosts.filter(p => p.id !== currentPost.id);
+  if (!otherPosts.length) return '';
+  const matched = otherPosts.filter(p => p.category === currentPost.category);
+  const candidates = (matched.length >= 2 ? matched : otherPosts).slice(0, 3);
+  return `
+    <section class="related-posts-section" style="margin-top:48px;padding-top:32px;border-top:1px solid var(--line);">
+      <h2 style="font-size:1.4rem;color:var(--green-dark);margin-bottom:20px;">💡 延伸閱讀・精選衛教文章</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;">
+        ${candidates.map(p => `
+          <a class="service-card" href="post.html?id=${encodeURIComponent(p.id)}" style="display:block;text-decoration:none;padding:18px;border-radius:18px;">
+            <div style="font-size:0.85rem;color:var(--muted);margin-bottom:6px;">${escapeHtml(p.date || '')}</div>
+            <h3 style="font-size:1.05rem;line-height:1.4;margin-bottom:8px;color:var(--ink);">${escapeHtml(p.title || '')}</h3>
+            <p style="font-size:0.9rem;color:var(--muted);margin:0;">${escapeHtml(summary(p))}</p>
+          </a>
+        `).join('')}
+      </div>
+    </section>
+  `;
+}
+
+async function main(){const res=await fetch('posts.json?v=20260815-blog-directory',{cache:'no-store'});const posts=(await res.json()).posts||[];const list=document.querySelector('#posts');if(list){renderDirectory(posts);return}const article=document.querySelector('#article');if(article){const id=new URLSearchParams(location.search).get('id');const post=posts.find(p=>p.id===id)||posts[0];if(!post){article.innerHTML='<p>找不到文章。</p>';return}setArticleSeo(post);article.innerHTML=`<a class="back-link" href="./">← 返回文章列表</a><div class="post-meta">${escapeHtml(post.date||'')}｜作者：<a href="../about.html">張雁雲營養師</a></div><h1>${escapeHtml(post.title||'')}</h1><div class="keywords">${keywords(post).map(k=>`<span>${escapeHtml(k)}</span>`).join('')}</div>${post.image?`<img class="article-cover" src="${escapeHtml(imageSrc(post))}" alt="${escapeHtml(post.title||'')}">`:''}<div class="article-body">${sanitizeHtml(post.body||'')}</div>${renderRelatedPosts(post, posts)}`}}main().catch(()=>{const el=document.querySelector('#posts,#article');if(el)el.innerHTML='<p>內容載入失敗。</p>'});
 

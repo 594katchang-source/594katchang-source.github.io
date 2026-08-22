@@ -907,5 +907,31 @@
 - 遠端 `origin/main` 已成功 Push 最新 Commit。
 - HTML Sitemap 與 XML Sitemap 本地與線上路徑皆可正常存取。
 
+## 2026-08-22 14:48｜全站 GEO（AI 搜尋優化）、文章延伸閱讀互鏈與機器人權限全面升級
+
+### 任務
+
+- 深度加強 AI 搜尋引擎（SearchGPT, Perplexity, Claude, Google Gemini, Copilot）的語義檢索與權威引用（GEO / Generative Engine Optimization）。
+- 建立全站 `llms-full.txt` 完整深度機器可讀知識庫。
+- 更新 `llms.txt` 與 `robots.txt`，對最新 AI 爬蟲全面開放白名單。
+- 在 `blog/blog.js` 加入每篇衛教文章底部的「延伸閱讀・精選相關文章」動態推薦網絡。
+- 在 `teach/index.html` 注入衛教文章反向推薦模組，打通教具與部落格之間的內鏈循環。
+- 升級 `sitemap.html` 之 Schema.org 結構化資料（`BreadcrumbList` 與 `CollectionPage`）。
+
+### 主要輸出
+
+- `llms-full.txt`：新建專門提供給大型語言模型與 AI 搜尋引擎的完整衛教與資歷知識庫。
+- `llms.txt`：更新導覽並指向完整知識庫。
+- `robots.txt`：擴充 `OAI-SearchBot`、`ClaudeBot`、`PerplexityBot` 等最新 AI Agent 宣告。
+- `blog/blog.js`：新增 `renderRelatedPosts` 函式，每篇文章自動關聯同類推薦文章。
+- `teach/index.html`：新增「搭配衛教專欄文章」內鏈區塊。
+- `sitemap.html`：補齊 Schema.org Breadcrumb 與 CollectionPage JSON-LD。
+
+### 驗證
+
+- 本地與遠端測試所有檔案語法與渲染正確。
+- GitHub Pages 自動部署。
+
+
 
 

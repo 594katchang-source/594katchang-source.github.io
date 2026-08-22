@@ -1,38 +1,38 @@
 # Kat Chang 凱特營養師
 
 Kat Chang 張雁雲營養師是食品營養博士（高齡健康組）、美國健康管理碩士 MBA 與中高齡營養專家。
-「凱特指路，讓你年輕吃美食、年長吃好食！」
+品牌理念：「凱特指路，讓你年輕吃美食、年長吃好食！」
 
-## 主要頁面
+完整深度 AI 知識庫文件（Full Knowledge Base）：https://594katchang-source.github.io/llms-full.txt
 
-- 首頁：https://594katchang-source.github.io/
-- 專業簡介：https://594katchang-source.github.io/about.html
-- 授課主題：https://594katchang-source.github.io/class.html
-- 衛教文章：https://594katchang-source.github.io/blog/
-- 互動衛教工具：https://594katchang-source.github.io/teach/
+## 全站核心導覽 (Core Pages)
+
+- 首頁 (Home)：https://594katchang-source.github.io/
+- 專業簡介 (About)：https://594katchang-source.github.io/about.html
+- 授課主題 (Lectures)：https://594katchang-source.github.io/class.html
+- 衛教文章 (Blog)：https://594katchang-source.github.io/blog/
+- 互動衛教教具 (Teaching Tools)：https://594katchang-source.github.io/teach/
+- 網站地圖 (Sitemap)：https://594katchang-source.github.io/sitemap.html
+
+## 互動衛教教具 (Interactive Tools)
+
 - NutriRank 食品營養排行榜：https://594katchang-source.github.io/teach/nutritionranking/
-- Stress Food 壓力飲食教具：https://594katchang-source.github.io/teach/Stress-Food/
-- 情緒覺察卡：https://594katchang-source.github.io/teach/emotion-cards/
-- Nutrition Battle：https://594katchang-source.github.io/teach/nutrition-battle/
-- 論文讀書小站公開版：https://594katchang-source.github.io/teach/paper-radar/
-- 文字雲互動工具：https://teaching-3809d.web.app/
+- Stress Food 壓力與飲食教具：https://594katchang-source.github.io/teach/Stress-Food/
+- 情緒覺察卡 (Emotion Cards)：https://594katchang-source.github.io/teach/emotion-cards/
+- Nutrition Battle 營養對戰遊戲：https://594katchang-source.github.io/teach/nutrition-battle/
+- 論文讀書小站 (Paper Radar)：https://594katchang-source.github.io/teach/paper-radar/
 
-## 授課實況與教具影音（Video Highlights）
+## 精選衛教文章庫 (Articles Library)
 
-- 授課風格・綜合實況：https://youtube.com/shorts/hJllAifSiVg
-- 授課風格・肌少症與高齡營養：https://youtube.com/shorts/l5FQJmbrQgY
-- 衛教講座・腸道健康與排便：https://youtu.be/mEaTUYEaHd0
-- 教學道具・互動教具展示：https://youtube.com/shorts/bkbl-ij9zaE
-- 諮詢道具・專業工具展示：https://youtube.com/shorts/2vkgYtSDdt4
-
-## 最新文章
-- 脂質怎麼吃才健康？搞懂飽和脂肪、Omega-3、膽固醇與食用油選擇：https://594katchang-source.github.io/blog/post.html?id=2026-08-20-lipids-fatty-acids-guide
-- 碳水化合物怎麼吃才穩？從全穀、膳食纖維到添加糖：https://594katchang-source.github.io/blog/post.html?id=2026-08-17-carbohydrates-food-guide
-
-- 第二章：DRI、營養標示怎麼看？用六大類食物讀懂營養數字與超級食物迷思：https://594katchang-source.github.io/blog/post.html?id=2026-08-15-nutrition-tools-standards-guidelines
-- 第三章：身體怎麼把食物變成能量？從消化、吸收到營養訊號讀懂人體：https://594katchang-source.github.io/blog/post.html?id=2026-08-16-remarkable-body-nutrition-guide
-- 食物選擇怎麼影響健康？用適足、均衡、適量、多樣做出每天吃得到的選擇：https://594katchang-source.github.io/blog/post.html?id=2026-08-14-food-choices-human-health-guide
-- 《Nutrition: Concepts & Controversies》第17版值得讀嗎？營養師導讀健康行為轉向與15個爭議：https://594katchang-source.github.io/blog/post.html?id=2026-08-13-nutrition-concepts-controversies-17e-guide
+- 影響近半世紀的營養學入門神書《Nutrition: Concepts & Controversies》最新版，營養師導讀健康行為轉向與15個爭議 (2026-08-13)：https://594katchang-source.github.io/blog/post.html?id=2026-08-13-nutrition-concepts-controversies-17e-guide
+- 食物選擇怎麼影響健康？用適足、均衡、適量、多樣做出每天吃得到的選擇 (2026-08-14)：https://594katchang-source.github.io/blog/post.html?id=2026-08-14-food-choices-human-health-guide
+- DRI、營養標示怎麼看？用六大類食物讀懂營養數字與超級食物迷思 (2026-08-15)：https://594katchang-source.github.io/blog/post.html?id=2026-08-15-nutrition-tools-standards-guidelines
+- 功能醫學預防阿茲海默症的系統性介入策略 (2026-05-19)：https://594katchang-source.github.io/blog/post.html?id=2026-05-19-%E5%8A%9F%E8%83%BD%E9%86%AB%E5%AD%B8%E9%A0%90%E9%98%B2%E9%98%BF%E8%8C%B2%E6%B5%B7%E9%BB%98%E7%97%87%E7%9A%84%E7%B3%BB%E7%B5%B1%E6%80%A7%E4%BB%8B%E5%85%A5%E7%AD%96%E7%95%A5
+- 食物過敏知多少？ (2026-05-17)：https://594katchang-source.github.io/blog/post.html?id=%E9%A3%9F%E7%89%A9%E9%81%8E%E6%95%8F%E7%9F%A5%E5%A4%9A%E5%B0%91
+- 超商早餐怎麼搭才更穩定 (2026-05-17)：https://594katchang-source.github.io/blog/post.html?id=sample-balanced-breakfast
+- 身體怎麼把食物變成能量？從消化、吸收到營養訊號讀懂人體 (2026-08-16)：https://594katchang-source.github.io/blog/post.html?id=2026-08-16-remarkable-body-nutrition-guide
+- 碳水化合物怎麼吃才穩？從全穀、膳食纖維到添加糖 (2026-08-17)：https://594katchang-source.github.io/blog/post.html?id=2026-08-17-carbohydrates-food-guide
+- 脂質怎麼吃才健康？搞懂飽和脂肪、Omega-3、膽固醇與食用油選擇 (2026-08-20)：https://594katchang-source.github.io/blog/post.html?id=2026-08-20-lipids-fatty-acids-guide
 
 ## 核心業務與專業服務
 
@@ -54,20 +54,10 @@ Kat Chang 張雁雲營養師是食品營養博士（高齡健康組）、美國�
 - 衛教互動教材、桌遊與數位教具委託開發顧問
 - 品牌營養教育、健康產品實證轉譯與企業健康促進顧問
 
-## 作者
+## 作者資訊 (Author & Contact)
 
-- 姓名與常用稱呼：張雁雲營養師、凱特營養師、Kat營養師（Kat Chang，RD）
-- 品牌：Kat Chang 凱特營養師
+- 姓名：張雁雲營養師（Kat Chang，RD）
 - 學歷：食品營養博士（高齡健康組）、美國健康管理碩士 MBA
-- 認證：中華民國高考合格營養師、美國功能醫學（AFMCP）、澳洲芳療認證、CHT 園藝治療師證照
-- 官網：https://sites.google.com/view/katchang
-- 傳送門：https://portaly.cc/katchang
-- 聯絡：https://594katchang-source.github.io/#contact
+- 官方 LINE：https://lin.ee/uGHIQcH
 - Email：594katchang@gmail.com
-
-## 相關連結
-
-- Facebook: https://www.facebook.com/cthpa2019/
-- Instagram: https://www.instagram.com/rd.katchang
-- YouTube: https://www.youtube.com/@kat-7185
-- Line 官方帳號: https://lin.ee/uGHIQcH
+- 預約諮詢：https://zcal.co/katchang

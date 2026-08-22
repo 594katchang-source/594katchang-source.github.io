@@ -1,0 +1,63 @@
+# Kat Chang 凱特營養師
+
+Kat Chang 張雁雲營養師是食品營養博士（高齡健康組）、美國健康管理碩士 MBA 與中高齡營養專家。
+品牌理念：「凱特指路，讓你年輕吃美食、年長吃好食！」
+
+完整深度 AI 知識庫文件（Full Knowledge Base）：https://594katchang-source.github.io/llms-full.txt
+
+## 全站核心導覽 (Core Pages)
+
+- 首頁 (Home)：https://594katchang-source.github.io/
+- 專業簡介 (About)：https://594katchang-source.github.io/about.html
+- 授課主題 (Lectures)：https://594katchang-source.github.io/class.html
+- 衛教文章 (Blog)：https://594katchang-source.github.io/blog/
+- 互動衛教教具 (Teaching Tools)：https://594katchang-source.github.io/teach/
+- 網站地圖 (Sitemap)：https://594katchang-source.github.io/sitemap.html
+
+## 互動衛教教具 (Interactive Tools)
+
+- NutriRank 食品營養排行榜：https://594katchang-source.github.io/teach/nutritionranking/
+- Stress Food 壓力與飲食教具：https://594katchang-source.github.io/teach/Stress-Food/
+- 情緒覺察卡 (Emotion Cards)：https://594katchang-source.github.io/teach/emotion-cards/
+- Nutrition Battle 營養對戰遊戲：https://594katchang-source.github.io/teach/nutrition-battle/
+- 論文讀書小站 (Paper Radar)：https://594katchang-source.github.io/teach/paper-radar/
+
+## 精選衛教文章庫 (Articles Library)
+
+- 影響近半世紀的營養學入門神書《Nutrition: Concepts & Controversies》最新版，營養師導讀健康行為轉向與15個爭議 (2026-08-13)：https://594katchang-source.github.io/blog/post.html?id=2026-08-13-nutrition-concepts-controversies-17e-guide
+- 食物選擇怎麼影響健康？用適足、均衡、適量、多樣做出每天吃得到的選擇 (2026-08-14)：https://594katchang-source.github.io/blog/post.html?id=2026-08-14-food-choices-human-health-guide
+- DRI、營養標示怎麼看？用六大類食物讀懂營養數字與超級食物迷思 (2026-08-15)：https://594katchang-source.github.io/blog/post.html?id=2026-08-15-nutrition-tools-standards-guidelines
+- 功能醫學預防阿茲海默症的系統性介入策略 (2026-05-19)：https://594katchang-source.github.io/blog/post.html?id=2026-05-19-%E5%8A%9F%E8%83%BD%E9%86%AB%E5%AD%B8%E9%A0%90%E9%98%B2%E9%98%BF%E8%8C%B2%E6%B5%B7%E9%BB%98%E7%97%87%E7%9A%84%E7%B3%BB%E7%B5%B1%E6%80%A7%E4%BB%8B%E5%85%A5%E7%AD%96%E7%95%A5
+- 食物過敏知多少？ (2026-05-17)：https://594katchang-source.github.io/blog/post.html?id=%E9%A3%9F%E7%89%A9%E9%81%8E%E6%95%8F%E7%9F%A5%E5%A4%9A%E5%B0%91
+- 超商早餐怎麼搭才更穩定 (2026-05-17)：https://594katchang-source.github.io/blog/post.html?id=sample-balanced-breakfast
+- 身體怎麼把食物變成能量？從消化、吸收到營養訊號讀懂人體 (2026-08-16)：https://594katchang-source.github.io/blog/post.html?id=2026-08-16-remarkable-body-nutrition-guide
+- 碳水化合物怎麼吃才穩？從全穀、膳食纖維到添加糖 (2026-08-17)：https://594katchang-source.github.io/blog/post.html?id=2026-08-17-carbohydrates-food-guide
+- 脂質怎麼吃才健康？搞懂飽和脂肪、Omega-3、膽固醇與食用油選擇 (2026-08-20)：https://594katchang-source.github.io/blog/post.html?id=2026-08-20-lipids-fatty-acids-guide
+
+## 核心業務與專業服務
+
+### 1. 專業營養師（Dietitian & Nutritionist）
+- 中高齡營養門診、肌少症與衰弱預防飲食規劃
+- 長照機構吞嚥防嗆與軟質飲食質地（IDDSI）指導
+- 功能醫學（AFMCP）飲食評估、精準營養與慢性病管理
+- 減重班與個人化生活型態營養諮詢
+
+### 2. 專業講師（Professional Lecturer）
+- 企業員工健康促進講座（ESG 職場健康、抗疲勞、紓壓與護心飲食）
+- 樂齡大學與社區長者營養課程（趣味圖卡互動、烹調示範）
+- 長照人員與照服員營養照護培訓
+- 植物輔療（CHT 園藝治療）與臨床芳香調理工作坊
+
+### 3. 企業與機構健康顧問（Health & Corporate Consultant）
+- 包裝食品營養標示法規審查與八大營養素宣稱諮詢
+- 保健食品與機能性食品配方評估、科學實證轉譯
+- 衛教互動教材、桌遊與數位教具委託開發顧問
+- 品牌營養教育、健康產品實證轉譯與企業健康促進顧問
+
+## 作者資訊 (Author & Contact)
+
+- 姓名：張雁雲營養師（Kat Chang，RD）
+- 學歷：食品營養博士（高齡健康組）、美國健康管理碩士 MBA
+- 官方 LINE：https://lin.ee/uGHIQcH
+- Email：594katchang@gmail.com
+- 預約諮詢：https://zcal.co/katchang
