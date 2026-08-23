@@ -1,7 +1,98 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T10:34:34.750Z",
+  "generatedAt": "2026-08-23T11:03:44.497Z",
   "papers": [
+    {
+      "id": "doi:10.1080/16549716.2026.2712185:digest",
+      "paperId": "doi:10.1080/16549716.2026.2712185",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Clustering patterns of behavioral and metabolic risk factors for noncommunicable diseases in Iran: findings from a national STEPS survey.",
+      "authors": "Kharaghani M, Masoumi S, Bagherian Ghotbi A, Azizpour Y, Mirzad M, Khosravi S, Moghimi Kheirabady M, Shaabanian M, Rezaei N, Ebrahimpur M, Golestani A",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.1080/16549716.2026.2712185",
+      "abstract": "Noncommunicable diseases (NCDs) are the leading cause of mortality in Iran, driven by behavioral and metabolic risk factors that frequently co-occur. To identify patterns of co-occurring behavioral and metabolic NCD risk factors among Iranian adults and characterize their demographic and socioeconomic correlates. This cross-sectional study analyzed data from 16,618 adults aged ≥25 years who participated in Iran's 2021 nationally representative STEPS survey. Thirteen behavioral and metabolic variables, including physical activity, nutrition score, smoking frequency, alcohol intake, salt intake, body mass index, blood pressure, fasting plasma glucose, and lipid markers, were entered into a K-means clustering analysis. Clusters were characterized by their risk profiles and demographic/socioeconomic attributes. Multinomial logistic regression examined associations between cluster membership and sociodemographic factors. Five distinct behavioral-metabolic clusters emerged. The smokers-drinkers (SD) cluster (3.1%) comprised mostly older, less-educated men with high smoking and alcohol use. The healthy-low-risk (HLR) cluster (40.3%) showed favorable profiles and included younger, more educated individuals. The physically active (PA) cluster (6.6%) was characterized mainly by younger men with markedly high physical activity levels. The dyslipidemic (DLP) cluster (26.0%) exhibited high dyslipidemia and overweight prevalence, while the hypertensive-diabetic (HTD) cluster (24.0%) had the highest obesity, hypertension, and diabetes rates, common among older urban adults. Behavioral and metabolic NCD risk factors in Iran formed five distinct co-occurrence patterns. Nearly half of adults belonged to metabolically high-risk clusters, highlighting the need for targeted prevention strategies that combine lifestyle interventions with screening and management of obesity, hypertension, diabetes, and dyslipidemia.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42572896/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "health promotion and lifestyle",
+        "nutrition and dietary pattern",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "伊朗成人非傳染性疾病風險群聚與營養評估分層研究的全文內容整理",
+      "content": "---\ntags:\n  - research/digest\n  - med/nutrition\n  - med/health-promotion\ndoi: \"10.1080/16549716.2026.2712185\"\njournal: \"Global Health Action\"\nyear: 2026\nstudy_type: \"cross-sectional cluster analysis\"\n---\n\n> [!summary] 30 秒層\n> 伊朗 STEPS 2021 調查把成人的飲食、活動、物質使用與代謝指標合併分群，得到五種風險組合。DLP 與 HTD 兩群合計約半數，最適合用來提醒營養師把多項篩檢放在同一次評估裡。\n> - 16,618 名成人、13 個行為與代謝變項、五個 K-means profiles。\n> - HTD 群占 24.0%，肥胖 42.4%、糖尿病 26.7%、高血壓 62.8%。\n> - DLP 群占 26.0%，dyslipidemia 95.2%、過重 42.3%。\n> - PA 群活動量平均 13,689.2 MET-min/week，活動量高仍需檢查飲食品質與工作型活動。\n> - **品質 → 見上方品質快照**\n\n## 5 分鐘層\n\n**要點**：依序讀取研究問題、方法、五個 profile、人口學差異、重要圖表、實務用法與自我測驗，就能掌握全文內容與可用範圍。\n\n## 研究問題 / 背景\n\n**要點**：單一風險因子容易漏掉同一個人身上同時出現的飲食、活動與代謝問題，作者想找出可用於健康促進分層的共現 profiles。\n\n- NCD 風險常同時包含低飲食品質、鹽分過高、活動不足、吸菸、酒精、肥胖、高血壓、血糖與血脂異常。\n- 研究使用 Iran STEPS 2021，補足中東地區少有全國性 risk-factor clustering 的缺口。\n- 研究問題是描述「哪些風險會一起出現、哪些人口學群體較常落在各群」，屬於 profile discovery，不是介入試驗。\n\n## 方法\n\n**要點**：研究從全國 STEPS 調查選出 16,618 名有完整資料的成人，先建立 nutrition score，再把 13 個連續變項標準化後做 K-means。\n\n- **樣本流程**：28,821 人估計樣本，27,874 人完成問卷，27,745 人完成身體量測，18,119 人有完整實驗室資料，最後 16,618 人進入分析。\n- **營養評估**：餐次、點心、早餐、蔬果、乳品、紅肉、魚、加工肉、全穀、含糖飲料、堅果種子等 13 項依飲食建議計分。PCA 第一主成分解釋 33% 飲食變異，再分成三分位。\n- **其他變項**：physical activity、smoking frequency、alcohol intake、spot urine 推估 salt intake、BMI、SBP、DBP、FPG、TC、HDL-C、LDL-C、TG。\n- **分群程序**：所有連續變項先做 0 至 1 min-max scaling，使用 k-means++、100 次迭代，透過 jump method 與 scree plot 決定五群，平均 silhouette score 為 0.43。\n- **人口學分析**：以 HLR 為參照，使用 weighted prevalence、95% CI 和 multinomial logistic regression，調整性別、年齡、居住地、教育、財富、婚姻、職業和保險。\n\n## 主要發現\n\n**要點**：五群呈現不同的行為與代謝組合，DLP 與 HTD 是最需要代謝篩檢與營養照護資源的兩群。\n\n| Profile | n / 佔比 | 主要數值 | 讀法 |\n|---|---:|---|---|\n| Smokers-drinkers（SD） | 509 / 3.1% | 吸菸 61.1%、飲酒 10.1%、高血壓 41.8%、糖尿病 16.7% | 物質使用與代謝風險同時出現 |\n| Healthy-low-risk（HLR） | 6,700 / 40.3% | 肥胖 19.1%、高血壓 21.3%、糖尿病 9.7% | 相對低風險，但仍有鹽分過高 |\n| Physically active（PA） | 1,101 / 6.6% | 13,689.2 MET-min/week、糖尿病 8.1% | 可能受到勞力工作與農村環境影響 |\n| Dyslipidemic（DLP） | 4,326 / 26.0% | dyslipidemia 95.2%、過重 42.3%、TC 200.2 mg/dL、LDL-C 123.8 mg/dL | 以血脂和體重管理為核心 |\n| Hypertensive-diabetics（HTD） | 3,982 / 24.0% | 肥胖 42.4%、糖尿病 26.7%、高血壓 62.8%、BMI 29.52 | 需要整合代謝照護 |\n\n### 人口學 profile\n\n**要點**：年齡、性別、教育與居住地和 profile membership 有關，但這些關聯沒有時間順序，不能當成因果效果。\n\n- 60 歲以上者進入 SD 的 aOR 3.33（95% CI 2.26–4.92）、DLP 的 aOR 2.33（1.98–2.74）、HTD 的 aOR 2.63（2.23–3.11），相對參照為 25–40 歲 HLR。\n- 男性進入 SD 的 aOR 2.42（1.50–3.90），進入 PA 的 aOR 2.04（1.49–2.78）。\n- 教育年數 ≥12 年者進入 SD 的 aOR 0.32（0.22–0.49）、PA 的 aOR 0.57（0.42–0.76）、HTD 的 aOR 0.58（0.49–0.69），相對參照為無正式教育。\n- 城市居民進入 HTD 的 aOR 1.17（1.05–1.31），進入 PA 的 aOR 0.62（0.52–0.72）。\n\n## 重要圖表重述\n\n**要點**：Table 2 與 Table 3 把五群的平均值和條件盛行率放在一起，能直接看出群組差異來自哪一類風險。\n\n- Table 1 顯示樣本中女性 56.2%、41–60 歲 43.9%、城市居民 67.9%。\n- Table 2 顯示 HTD 的 BMI、FPG、SBP、DBP 與 TG 最高，DLP 的 TC 與 LDL-C 最高，PA 的 physical activity 遠高於其他四群。\n- Table 3 顯示鹽分過量在五群都接近 97.5% 至 98.4%，這是跨群共同問題，不能只把注意力放在 HTD。\n- Figure 1 呈現從原始 STEPS 樣本到 16,618 名 complete-case 分析樣本的排除流程。\n\n## 臨床意義 / 怎麼用\n\n**要點**：這篇文章最適合用來設計初篩問題與健康促進分層，實際營養處置仍要依個人資料與疾病診斷決定。\n\n- **DLP**：一起查看 lipid profile、體重變化、腰圍、飽和脂肪、纖維、全穀、含糖飲料與藥物依從性。\n- **HTD**：將 blood pressure、血糖、體位、飲食、用藥與功能狀態整合進 medical nutrition therapy，避免只處理單一數值。\n- **PA**：先分辨 occupational activity 和 recreational activity，再問總熱量、蛋白質、補水、睡眠、疼痛與工作傷害。活動量高不等於飲食充足。\n- **SD**：把營養教育、戒菸、酒精風險轉介和代謝檢查放在同一照護計畫。\n- **HLR**：把重點放在維持飲食品質、鹽分管理、活動與定期追蹤，防止風險逐步累積。\n- **高齡者**：60 歲以上較常落入 SD、DLP、HTD，篩檢時加上肌力、食慾、牙口、吞嚥、藥物與社會支持。\n- **台灣使用**：可借用這套「飲食加代謝」評估架構，不能直接沿用伊朗的五群比例、aOR 或切點。應先用台灣資料做校準，再測試分層衛教對飲食行為、血壓、血糖與 lipid outcomes 的效果。\n\n## 與既有認知的對照\n\n**要點**：本篇把單項風險評估推進到多項風險 profile，但沒有證明 profile 會隨時間轉換或對介入反應不同。\n\n- 既有常見做法：逐項看 BMI、血壓、血糖或血脂。\n- 本篇補充：DLP 與 HTD 兩群合計約半數，顯示多項代謝風險可集中在同一個人群。\n- 本篇也提醒：PA profile 的高活動量可能是勞力工作，活動量高與整體營養或醫療可近性良好不能畫上等號。\n- vault 無相關既有筆記可供直接比對。\n\n## 概念 / 名詞整理\n\n**要點**：先分清楚 profile、risk factor、association 和 intervention，讀者才不會把分群結果誤當成治療建議。\n\n- **K-means clustering**：依變項距離把相似個體分組，群組名稱是研究者依平均特徵給的描述。\n- **Nutrition score**：把多項飲食行為壓縮成一個 PCA 分數，本篇第一主成分解釋 33% 變異，屬於研究用指標。\n- **Silhouette score**：同時看群內相似度與群間分離度，0.43 表示分離程度中等。\n- **DLP**：dyslipidemic profile，血脂異常與過重集中。\n- **HTD**：hypertensive-diabetics profile，肥胖、糖尿病與高血壓集中。\n- **Association**：同一時間點的群組關聯，不能直接換成 cause 或 prevention effect。\n\n## 自我測驗\n\n**要點**：用情境題回想五個 profile 的差異，並練習判斷這篇資料能支撐到哪裡。\n\n> [!question]- Q1：為什麼 PA 群的活動量高，仍要做飲食品質與工作型活動評估？\n> 因為 PA 群平均 13,689.2 MET-min/week，可能反映農業、建築或其他勞力工作。高活動量未必代表休閒活動、飲食品質、睡眠、醫療可近性或營養攝取充足。\n\n> [!question]- Q2：DLP 和 HTD 兩群各自應把哪一類問題放在營養評估前段？\n> DLP 先看 lipid profile、體重、腰圍與脂肪品質。HTD 要把血壓、血糖、肥胖、飲食、藥物與功能一起看，因為此群肥胖 42.4%、糖尿病 26.7%、高血壓 62.8%。\n\n> [!question]- Q3：為什麼不能說教育程度較高直接造成 HTD 風險下降？\n> 研究是橫斷面，教育與 HTD membership 只是關聯，仍可能受到健康識能、收入、醫療可近性、飲食、工作與其他未測量因素影響。aOR 0.58 不能改寫成因果效果。\n\n> [!question]- Q4：這篇研究最適合支援哪一種實務決策？\n> 它適合支援初篩問題設計與健康促進分層，例如把飲食、活動、血壓、血糖和血脂放在同一張評估表。它沒有測試介入，所以不能單獨支援某種飲食處方有效的結論。\n\n## Reference\n\n- `Kharaghani 2026, Global Health Action`, DOI `10.1080/16549716.2026.2712185`\n- 文章引用的 Bangladesh、Kenya STEPS clustering 研究用來建立比較背景，跨國比例不宜直接互換。\n- Verified full text: 16-page identity-matched OA PDF, native text 82,250 characters, Methods/Results/Discussion/Conclusion readable, no OCR required.",
+      "cards": [
+        {
+          "title": "五種風險 profile",
+          "question": "這篇研究找出哪五個 behavioral-metabolic profiles？",
+          "answer": "Smokers-drinkers、healthy-low-risk、physically active、dyslipidemic、hypertensive-diabetics。DLP 與 HTD 合計約半數樣本。",
+          "tags": [
+            "營養評估",
+            "健康促進",
+            "風險分層"
+          ]
+        },
+        {
+          "title": "HTD 的照護重點",
+          "question": "HTD 群為什麼需要整合式營養照護，而非只看一個數值？",
+          "answer": "HTD 群同時有肥胖 42.4%、糖尿病 26.7% 和高血壓 62.8%，因此血壓、血糖、體位、飲食、用藥與功能要一起評估。",
+          "tags": [
+            "高齡營養",
+            "糖尿病營養",
+            "高血壓營養"
+          ]
+        },
+        {
+          "title": "PA 不等於整體健康",
+          "question": "PA 群活動量很高，為什麼仍要追問飲食與工作型活動？",
+          "answer": "PA 群的 13,689.2 MET-min/week 可能主要來自勞力工作。這個數字無法回答飲食品質、熱量與蛋白質是否足夠，也無法代表醫療可近性與其他健康面向。",
+          "tags": [
+            "身體活動",
+            "營養評估",
+            "健康促進"
+          ]
+        },
+        {
+          "title": "關聯不等於因果",
+          "question": "為什麼教育程度與 HTD membership 的 aOR 0.58 不能直接寫成保護效果？",
+          "answer": "研究是橫斷面設計，沒有時間順序，也可能有健康識能、收入、醫療可近性等未測量混雜。aOR 描述群組關聯，不能證明教育造成風險下降。",
+          "tags": [
+            "研究判讀",
+            "因果推論",
+            "營養流行病學"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-23T11:01:06.216Z"
+    },
+    {
+      "id": "doi:10.1080/16549716.2026.2712185:review",
+      "paperId": "doi:10.1080/16549716.2026.2712185",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Clustering patterns of behavioral and metabolic risk factors for noncommunicable diseases in Iran: findings from a national STEPS survey.",
+      "authors": "Kharaghani M, Masoumi S, Bagherian Ghotbi A, Azizpour Y, Mirzad M, Khosravi S, Moghimi Kheirabady M, Shaabanian M, Rezaei N, Ebrahimpur M, Golestani A",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.1080/16549716.2026.2712185",
+      "abstract": "Noncommunicable diseases (NCDs) are the leading cause of mortality in Iran, driven by behavioral and metabolic risk factors that frequently co-occur. To identify patterns of co-occurring behavioral and metabolic NCD risk factors among Iranian adults and characterize their demographic and socioeconomic correlates. This cross-sectional study analyzed data from 16,618 adults aged ≥25 years who participated in Iran's 2021 nationally representative STEPS survey. Thirteen behavioral and metabolic variables, including physical activity, nutrition score, smoking frequency, alcohol intake, salt intake, body mass index, blood pressure, fasting plasma glucose, and lipid markers, were entered into a K-means clustering analysis. Clusters were characterized by their risk profiles and demographic/socioeconomic attributes. Multinomial logistic regression examined associations between cluster membership and sociodemographic factors. Five distinct behavioral-metabolic clusters emerged. The smokers-drinkers (SD) cluster (3.1%) comprised mostly older, less-educated men with high smoking and alcohol use. The healthy-low-risk (HLR) cluster (40.3%) showed favorable profiles and included younger, more educated individuals. The physically active (PA) cluster (6.6%) was characterized mainly by younger men with markedly high physical activity levels. The dyslipidemic (DLP) cluster (26.0%) exhibited high dyslipidemia and overweight prevalence, while the hypertensive-diabetic (HTD) cluster (24.0%) had the highest obesity, hypertension, and diabetes rates, common among older urban adults. Behavioral and metabolic NCD risk factors in Iran formed five distinct co-occurrence patterns. Nearly half of adults belonged to metabolically high-risk clusters, highlighting the need for targeted prevention strategies that combine lifestyle interventions with screening and management of obesity, hypertension, diabetes, and dyslipidemia.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42572896/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "health promotion and lifestyle",
+        "nutrition and dietary pattern",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "伊朗成人非傳染性疾病風險群聚與營養介入分層研究的品質評讀",
+      "content": "---\ntags:\n  - source/journal\n  - med/nutrition\n  - med/health-promotion\ndoi: \"10.1080/16549716.2026.2712185\"\njournal: \"Global Health Action\"\nyear: 2026\nauthors: \"Kharaghani M, Masoumi S, Bagherian Ghotbi A, Azizpour Y, Mirzad M, Khosravi S, Moghimi Kheirabady M, Shaabanian M, Rezaei N, Ebrahimpur M, Golestani A\"\nstudy_type: \"cross-sectional cluster analysis\"\nreview_depth: \"quick\"\n---\n\n> [!info] 品質快照\n> **設計**：全國代表性橫斷面 STEPS 調查、K-means cluster analysis｜**n**：16,618 名伊朗成人（年齡 ≥25 歲）｜**RoB**：觀察性研究疑慮偏高\n> **GRADE**：Very low（主要結果為風險群聚描述）｜**Registration**：n.a.\n> **一句話 verdict**：這篇適合拿來規劃營養篩檢與健康促進分層，不能用來證明某項飲食或營養介入能改善疾病結果。樣本大、量測完整，但橫斷面設計、complete-case 排除與 K-means 穩定性限制了因果解讀。\n\n# Key Points\n\n## Summary\n\n> [x] Full text reviewed\n\n- 研究使用 Iran STEPS 2021 的 16,618 名成人資料，將 13 個行為與代謝變項放入 K-means clustering。\n- 五個群組為 smokers-drinkers（SD，3.1%）、healthy-low-risk（HLR，40.3%）、physically active（PA，6.6%）、dyslipidemic（DLP，26.0%）與 hypertensive-diabetics（HTD，24.0%）。\n- DLP 與 HTD 合計約 50%，前者以 dyslipidemia、overweight 為主，後者以 obesity、diabetes、hypertension 同時偏高為主。\n- Nutrition score 由 13 個飲食行為組成，第一主成分只解釋 33% 飲食變異，代表它可作為粗略分層訊號，不能當成完整飲食評估。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽（繁體中文白話）\n> - **一句話**：研究者把伊朗成人的飲食、活動、抽菸、酒精、鹽分、體位、血壓、血糖和血脂放在一起看，找出五種常見的風險組合。\n> - **為什麼做**：只看 BMI 或血壓其中一項，容易漏掉同一個人身上同時存在的多種風險。研究者想知道哪些風險會一起出現，以及哪些年齡、性別、教育與生活環境較常落在高風險群。\n> - **主體**：HLR 約占 40.3%，代謝指標相對較好。DLP 約占 26.0%，總膽固醇平均 200.2 mg/dL、LDL-C 123.8 mg/dL、過重 42.3%。HTD 約占 24.0%，肥胖 42.4%、糖尿病 26.7%、高血壓 62.8%。PA 群的活動量很高，但可能反映農業、建築或其他勞力工作，不能直接等同於整體健康。SD 群約占 3.1%，目前吸菸 61.1%，目前飲酒 10.1%。\n> - **所以呢**：這份資料可提醒營養師把飲食、體位、血壓、血糖、血脂、活動和物質使用一起篩檢。它只呈現同一時間點的風險組合，無法證明婚姻、教育或某項飲食行為造成了群組差異。\n\n## Clinical Application\n\n- **適用場景**：社區健康促進、慢性病初篩、代謝症候群風險分層、營養門診第一次評估。它較適合幫助決定要問哪些問題，不能取代個別營養診斷。\n- **評估 protocol**：至少一起查看飲食品質、早餐與點心、蔬果與含糖飲料、鹽分、身體活動、BMI、腰圍、血壓、空腹血糖或 HbA1c、lipid profile、吸菸與酒精。研究中的 nutrition score 只有 13 個項目，臨床仍需補足份量、食物型態、藥物、腎功能與文化飲食。\n- **分層推論**：DLP 群可優先做 lipid screening、體重管理與飲食諮詢。HTD 群可把血壓、糖尿病與肥胖的 medical nutrition therapy 整合處理。PA 群要分辨 occupational activity 和 recreational activity，並補問飲食不足、睡眠、疼痛與工作傷害。SD 群需把營養教育和戒菸、酒精風險轉介放在同一照護計畫。以上屬依研究群組所做的實務推論，研究本身沒有測試介入效果。\n- **高齡營養提醒**：60 歲以上者較常出現在 SD、DLP 與 HTD 群。實務上要加做肌力、功能、食慾、牙口、吞嚥、藥物與社會支持評估，不能只依 BMI 判斷營養狀態。\n- **台灣外部效度**：Iran 的飲食、酒精規範、醫療可近性、社會結構與台灣不同。可移植的是評估架構，不能直接移植五群比例或 aOR。\n\n## Paper Details\n\n### Methods\n\n- **資料與樣本**：Iran STEPS 2021 涵蓋 31 個省、城鄉成人。最初 28,821 人估計樣本中，完成問卷者 27,874 人，完成身體量測者 27,745 人，完成實驗室資料者 18,119 人，排除缺失共變項或結果資料後留下 16,618 人。\n- **營養變項**：餐次、點心、早餐、蔬果、乳品、紅肉、魚、加工肉、全穀、含糖飲料、堅果種子等 13 項先依飲食建議計分，再用 PCA 產生 nutrition score，第一主成分解釋 33% 飲食變異，分成三分位。\n- **代謝與行為變項**：physical activity、smoking frequency、alcohol intake、salt intake、BMI、SBP、DBP、FPG、TC、HDL-C、LDL-C、TG，加上 nutrition score 共 13 項。連續變項先做 0 至 1 min-max scaling。\n- **分析**：以 k-means++、100 次迭代與 jump method 選群數，再以 scree plot 和 silhouette score 檢查。最終五群的平均 silhouette score 為 0.43。作者另用加權 prevalence、95% CI 和以 HLR 為參照的 multinomial logistic regression 描述人口學差異。\n\n## Key Findings\n\n| 群組 | 佔比 | 主要特徵 | 可用的營養實務訊號 |\n|---|---:|---|---|\n| SD | 3.1% | 吸菸 61.1%、飲酒 10.1%、高血壓 41.8%、糖尿病 16.7% | 需整合物質使用、飲食與代謝篩檢 |\n| HLR | 40.3% | 肥胖 19.1%、高血壓 21.3%、糖尿病 9.7% | 維持健康行為，防止風險累積 |\n| PA | 6.6% | 活動量 13,689.2 MET-min/week，糖尿病 8.1% | 高活動量仍需評估飲食品質與工作型活動 |\n| DLP | 26.0% | dyslipidemia 95.2%、過重 42.3%、TC 200.2 mg/dL | 優先 lipid screening、體重與飲食管理 |\n| HTD | 24.0% | 肥胖 42.4%、糖尿病 26.7%、高血壓 62.8% | 適合整合血壓、血糖、體位和 MNT |\n\n- 多變項分析以 HLR 為參照。60 歲以上者進入 SD 的 aOR 為 3.33（95% CI 2.26–4.92）、DLP 為 2.33（1.98–2.74）、HTD 為 2.63（2.23–3.11）。教育年數 ≥12 年者進入 HTD 的 aOR 為 0.58（0.49–0.69）。這些是群組關聯，不能解讀成教育直接造成保護效果。\n\n## Critical Appraisal\n\n### 研究設計與偏差\n\n| Domain | 判定 | 理由 |\n|---|---|---|\n| Confounding | 中度疑慮 | regression 納入性別、年齡、居住地、教育、財富、婚姻、職業與保險，但沒有明確 causal estimand 或 DAG，且分析目標是群組預測，不是因果效果。 |\n| Selection | 高度疑慮 | 從 18,119 名有完整實驗室資料者再排除 1,501 名缺失資料，complete-case 可能改變群組組成。這符合 selection bias doctrine，不宜只寫成一般 missing data。 |\n| Exposure classification | 中度疑慮 | 吸菸、飲酒、活動量與部分飲食資料自陳，酒精與吸菸在當地可能有 reporting bias。 |\n| Outcome or cluster measurement | 中度疑慮 | 血壓、血脂、血糖有客觀量測，但 K-means 假定距離與群形狀，且多個高度相關的代謝指標可能讓代謝域在距離計算中權重偏大。 |\n| Selective reporting | 中度疑慮 | 研究報告了主要群組與回歸結果，但沒有外部 cluster stability validation，也未充分說明不同 k 或不同 scaling 下的敏感度。 |\n\n### 統計、spin 與因果推論\n\n- silhouette score 0.43 只表示中度分離，不能證明五群是自然且穩定的臨床分類。應把群組看成分析工具產生的 risk profiles，不是五種固定疾病表型。\n- complete-case 會帶來 selection bias。研究者有提供納入與排除人數，卻沒有在主文展示 inverse-probability 或 multiple-imputation sensitivity analysis。\n- 橫斷面資料沒有時間順序。婚姻與較低高風險群比例的解釋，同時可能是社會支持效果，也可能是較健康者較容易維持婚姻的 selection，不能在兩者間下結論。\n- 作者將 DLP 與 HTD 的群組比例轉成 targeted interventions 建議，作為政策假說合理，但介入效果、群組轉換與疾病發生率都未在本研究測量。這是 prediction 與 prevention 的區分。\n- 代謝指標彼此相關，將 BMI、血壓、血糖、TC、LDL-C、TG 同時放入距離計算，可能重複放大代謝域。K-means 對 outlier、初始 centroid 和 scaling 敏感，應補報穩定性分析。\n\n### GRADE\n\n主要結果是「五個風險群組的描述與營養預防規劃價值」，不是治療效果。依 deterministic `grade_judge.py`，starting level 為 low，risk of bias 降一級，indirectness 降一級，其他三域未降級，最終為 **Very low**。這個等級代表可作為假說生成與篩檢架構，不能單獨支撐營養介入成效或台灣族群比例的決策。\n\n### Reference Verification\n\n| # | Reference | CrossRef existence | 文章中的使用 | 判定 |\n|---:|---|---|---|---|\n| 1 | Azadnajafabad 2021，DOI 10.1007/s40200-020-00709-8 | 通過，題名相符 | 支持伊朗 NCD risk factors 的現況與行動計畫背景 | 方向一致，本文只作背景引用，未將其當成介入證據 |\n| 2 | Nosratinia 2026，DOI 10.1002/fsn3.71399 | 通過，題名相符 | 支持 Iran STEPS 2021 salt intake 與 5 g/day WHO threshold 的說明 | 方向一致，本文的 spot urine 估算仍需留意 Tanaka equation 誤差 |\n| 3 | Zaman 2015，DOI 10.1186/s12889-015-1938-4 | 通過，題名相符 | 支持 Bangladesh 成人多重 NCD risk factor clustering 的比較 | 方向一致，跨國資料不可直接比較比例 |\n| 4 | Haregu 2018，DOI 10.1186/s12889-018-6056-7 | 通過，題名相符 | 支持 Kenya 五種 risk profiles 與人口學預測因子 | 方向一致，K-median 與本研究 K-means 方法不同 |\n| 5 | Gk 2025，DOI 10.1016/j.cegh.2025.101951 | 通過，題名相符 | 支持印度學校教師 NCD risk factor clustering 的延伸背景 | 題名層級支持研究脈絡，未把它當成直接成效證據 |\n\n## Clinical Relevance\n\n這篇文章最適合放在營養師的「初篩問題設計」與社區健康促進課程，不適合當作飲食處方或疾病治療成效的直接依據。對高齡者，HTD 與 DLP 群提示要把營養評估和血壓、血糖、血脂、功能、牙口、吞嚥、用藥與社會支持放在同一次評估裡。對 PA 群，活動量高不代表飲食充足或慢性病風險低，應追問活動型態與工作負荷。對台灣實務，應先用本地資料重新校準群組比例與切點，再測試分層衛教是否改善 screening completion、飲食行為、血壓、血糖與 lipid outcomes。\n\n## Source\n\n- Verified source: 16-page identity-matched OA PDF, DOI and title matched, readable native text 82,250 characters, Introduction/Methods/Results/Discussion/Conclusion present, no OCR required.\n- Source SHA-256: `f79f809de12530c7019138e773703b226180901f8cff5a3e66521881e8f25206`\n- Text SHA-256: `a0e55c117c55c9ae924c4989cb68daab5c5bdc111f44044b03a3a97fb24c7079`\n- [DOI](https://doi.org/10.1080/16549716.2026.2712185)",
+      "cards": [],
+      "completedAt": "2026-08-23T10:57:31.696Z"
+    },
     {
       "id": "doi:10.1111/dom.71200:digest",
       "paperId": "doi:10.1111/dom.71200",
