@@ -1,7 +1,180 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T11:03:44.497Z",
+  "generatedAt": "2026-08-23T12:46:32.170Z",
   "papers": [
+    {
+      "id": "doi:10.1016/j.clnesp.2026.105022:digest",
+      "paperId": "doi:10.1016/j.clnesp.2026.105022",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Phase angle during paediatric cancer treatment: Associations with complications and micronutrients in a multicentre international prospective cohort study.",
+      "authors": "Oliveira N, Ross A, Wilson D, Brougham M, Wells J, Paciarotti I, McKenzie J, Fewtrell M, O'Connor G, van den Heuvel E, Wood A, Lovell A, Iniesta R",
+      "journal": "Other nutrition journals (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.clnesp.2026.105022",
+      "abstract": "Phase angle (PhA), derived from bioelectrical impedance analysis, is consistently associated with fat-free mass and cellular integrity and has been widely studied as a prognostic marker in several diseases; however, evidence in paediatric oncology remains limited. This study aimed to describe longitudinal changes in PhA during cancer treatment in children and young people (CYP) and to examine associations with treatment-related complications, nutritional status, and micronutrient biomarkers. Data were drawn from two prospective cohort studies conducted in Scotland and New Zealand. CYP ( 3-≤7, and >7). Nutritional status categories (eutrophic, overweight and obese) were defined through body mass index and mid-upper arm circumference. Circulating plasma biomarkers included albumin; vitamins A, E, and B12; magnesium; selenium; and zinc. Mixed-effects models were used to assess longitudinal changes and associations. A total of 115 participants were included, with baseline PhA-Z data available for 68. PhA-Z declined from baseline to 3 months (B = -0.82, 95% CI -1.32, -0.32) and to 6 months (B = -0.63, 95% CI -1.17, -0.08). Post hoc analyses indicated recovery at 12 months compared with 3 (p = 0.001, effect size [ES] = 0.63, 95% CI: 0.32 to 0.96) and 6 months (p = 0.019, ES = 0.54, 95% CI: 0.22 to 0.86). Compared with the >7 complications group, participants with ≤3 and >3-≤7 complications showed higher estimated PhA-Z at 6 (B = 2.04; 2.30), 9 (B = 2.79; 2.07), and 12 months (B = 2.20; 1.82) (p < 0.05). Anthropometric nutritional status classifications were not associated with PhA-Z, while albumin, zinc, and selenium were positively associated. PhA-Z declined early and recovered later during therapy. Associations with complication burden and selected micronutrients suggest that PhA may be a promising marker of treatment-related alterations in body composition and physiological status, warranting confirmation in larger prospective studies.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42575202/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "design:prospective cohort",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "precision nutrition",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "兒童癌症治療期間相位角與營養生物標記的全文內容整理",
+      "content": "# 兒童癌症治療期間相位角與營養生物標記的全文內容整理\n\n## 30 秒掌握\n\n這篇研究追蹤 115 名接受癌症治療的兒童與青少年，觀察 12 個月內的相位角 PhA-Z、治療併發症與營養生物標記。PhA-Z 在治療前 3 個月下降，後期部分回升。累積併發症超過 7 次者的 PhA-Z 軌跡較差。BMI 與 MUAC 沒有顯示明確關聯，白蛋白、鋅、硒與 PhA-Z 呈正向關聯。研究適合用來提出監測假說，還不能用來建立臨床切點、判定補充劑量或取代營養評估。\n\n## 5 分鐘理解\n\n### 研究問題\n\n兒童癌症治療可能造成肌肉量下降、脂肪量改變、發炎、進食量波動與多種併發症。體重、BMI 與 MUAC 能提供營養線索，卻無法直接分辨脂肪、去脂體重、水分和細胞狀態。研究團隊想知道 PhA-Z 是否能反映治療期間的身體狀態變化，以及它與併發症、BMI、MUAC、白蛋白、維生素 A、E、B12、鎂、硒、鋅是否有時間關係。\n\n### 怎麼做\n\n- 研究是兩個前瞻性世代的次級分析，資料來自蘇格蘭與紐西蘭兒童腫瘤中心。\n- 研究對象為未滿 18 歲、接受根治意圖癌症治療者。總樣本 115 人，PhA-Z 的基線資料 68 人。\n- BIA 使用仰臥、四電極、50 kHz 測量。兩個中心使用不同儀器，研究依各中心標準流程操作。\n- 評估時間為基線、3、6、9、12 個月。研究以線性混合效應模型處理個人內重複測量。\n- 併發症依 12 個月累積次數分為 3 次以下、3 至 7 次、超過 7 次。血液標記中鋅、硒、鎂與維生素 A 依 CRP 做 BRINDA 發炎修正。\n\n### 主要結果\n\n1. PhA-Z 從基線到 3 個月下降 0.82 個單位，95% CI −1.32 至 −0.32，p = 0.001。到 6 個月仍低於基線 0.63 個單位，95% CI −1.17 至 −0.08，p = 0.025。\n2. 3 至 12 個月的回升效果量 0.63，6 至 12 個月的回升效果量 0.54。這是群體平均的變化，研究沒有證實個人層級的功能恢復。\n3. 與超過 7 次併發症者相比，3 次以下者在 6、9、12 個月的 PhA-Z 估計值較高，B 分別為 2.04、2.79、2.20。CRP 與研究中心調整後方向相近。\n4. BMI 分類與 MUAC 分類沒有與 PhA-Z 顯示明確關聯。研究中的營養不良組因資料量不足，無法在多個時間點比較。\n5. 白蛋白在基線及後續時間點與 PhA-Z 呈正向關聯。鋅在基線及 6 個月有關聯，硒在基線、6 個月與 9 個月有關聯。鎂、維生素 A、E、B12 未達統計顯著。\n\n### 怎麼解讀\n\nPhA 是由電阻與電抗計算出的生物電阻抗指標。它可能反映細胞膜、體液分布與去脂體重的部分訊息。這篇研究的價值在於顯示治療早期可能出現 BMI 看不出的狀態變化，並提供 PhA 與併發症負荷同步變化的線索。\n\n研究設計仍屬觀察性研究，且為次級分析。PhA-Z 可用人數從基線 68 人降至 12 個月 34 人，鋅資料從 56 人降至 19 人。死亡、轉院、進入緩和治療、未回診與病情太差可能導致非隨機缺失。研究也沒有用 DXA、肌力、身體功能、生活品質、住院、治療完成率或死亡驗證 PhA-Z 的臨床意義。\n\n## 深入整理\n\n### 重要概念\n\n- **PhA-Z**：以年齡與性別參考資料標準化的相位角，數值偏低可代表細胞與身體組成狀態較差的可能性，但單一數值缺少兒童癌症治療期間的確定臨床切點。\n- **BMI 與 MUAC**：適合提供基本篩檢與追蹤資訊，但無法單獨分辨脂肪、去脂體重與體液狀態。這篇研究中兩者和 PhA-Z 未出現明確關聯。\n- **白蛋白**：與 PhA-Z 正向關聯，但也會受到發炎、疾病嚴重度、輸液與肝臟狀態影響，不能單獨當成營養攝取量的替代值。\n- **鋅與硒**：和 PhA-Z 的關聯具生理合理性，可能與免疫、抗氧化與細胞完整性相關。研究未測量補充介入，也未證明補充能改善 PhA-Z。\n- **併發症負荷**：以 12 個月累積次數計算，能反映事件數量，卻沒有完整呈現嚴重度、持續時間或治療強度。\n\n### 營養照護可用的訊息\n\n當兒童在治療早期出現進食量下降、黏膜炎、嘔吐、感染、類固醇暴露或活動量降低時，單看體重可能低估風險。若單位具備 BIA 與受訓人員，可用固定儀器、固定姿勢、固定時間點做趨勢追蹤，並同時記錄水腫、輸液、排尿、禁食與治療時序。PhA 的變化應和飲食攝取、症狀、MUAC、體重與身高、肌力或身體功能、血液檢驗與治療事件一起判讀。\n\n### 不能從本文推出的結論\n\n- PhA-Z 下降不等於已確診營養不良。\n- 高併發症組 PhA-Z 較低，不代表 PhA 下降造成併發症。\n- 鋅或硒與 PhA-Z 有關，不代表補充鋅或硒能改善病程。\n- PhA-Z 尚不能取代兒科營養篩檢、完整營養評估、功能評估或影像身體組成測量。\n- 研究沒有提供台灣兒童的參考值與治療期間臨床切點。\n\n### 閱讀後的一句判斷\n\n這篇是「值得追蹤的監測工具研究」，現階段仍屬假說生成。下一步應用較大樣本、統一儀器、多中心資料，同時驗證 DXA、去脂體重、肌力、身體功能與病人重要結果。\n\n## 自我測驗\n\n1. **問：PhA-Z 在治療期間最明確的時間變化是什麼？**\n   **答：** 基線至 3 個月下降，之後到 12 個月出現部分回升。\n\n2. **問：為什麼不能用 BMI 沒有關聯來否定 PhA 的資訊？**\n   **答：** BMI 無法分辨脂肪、去脂體重與水分，研究也可能因樣本少與營養不良組資料不足而缺乏檢定力。\n\n3. **問：高併發症負荷和較差 PhA-Z 軌跡之間能否解讀為因果？**\n   **答：** 不能。這是觀察性關聯，可能受到治療強度、疾病類型、發炎、營養攝取與存活者偏差影響。\n\n4. **問：若臨床要追蹤 PhA，應搭配哪些資料？**\n   **答：** 固定測量條件下的 PhA 趨勢、飲食攝取、症狀、體重與身高、MUAC、水腫與輸液狀態、血液檢驗、肌力或身體功能，以及治療與併發症紀錄。\n\n## Source\n\n- DOI：[10.1016/j.clnesp.2026.105022](https://doi.org/10.1016/j.clnesp.2026.105022)\n- PubMed：[42575202](https://pubmed.ncbi.nlm.nih.gov/42575202/)\n- 全文來源：OpenAlex OA location，Queen Margaret University repository，40 頁 PDF，標題與 DOI 身分比對通過。",
+      "cards": [
+        {
+          "title": "",
+          "question": "PhA-Z 在兒童癌症治療期間的主要時間變化是什麼？",
+          "answer": "基線到 3 個月下降，6 個月仍低於基線，之後到 12 個月出現部分回升。這是群體平均軌跡，未證明每位病人的功能都恢復。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "為什麼 BMI 與 MUAC 未和 PhA-Z 顯示關聯，仍不能停止身體組成監測？",
+          "answer": "BMI 與 MUAC 不能直接分辨脂肪、去脂體重與水分。研究也缺少足夠的營養不良組資料，無顯著結果可能與檢定力不足有關。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "高併發症負荷和較差 PhA-Z 軌跡能否解讀為因果？",
+          "answer": "不能。研究是觀察性次級分析，治療強度、疾病類型、發炎、攝取量、類固醇與存活者偏差都可能影響兩者。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "臨床追蹤 PhA 時，營養師至少要一起記錄什麼？",
+          "answer": "固定測量條件下的 PhA 趨勢、飲食攝取、症狀、體重與身高、MUAC、水腫與輸液、血液檢驗、功能表現、治療事件與併發症。",
+          "tags": []
+        }
+      ],
+      "completedAt": "2026-08-23T12:34:31.718Z"
+    },
+    {
+      "id": "doi:10.1016/j.clnesp.2026.105022:review",
+      "paperId": "doi:10.1016/j.clnesp.2026.105022",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Phase angle during paediatric cancer treatment: Associations with complications and micronutrients in a multicentre international prospective cohort study.",
+      "authors": "Oliveira N, Ross A, Wilson D, Brougham M, Wells J, Paciarotti I, McKenzie J, Fewtrell M, O'Connor G, van den Heuvel E, Wood A, Lovell A, Iniesta R",
+      "journal": "Other nutrition journals (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.clnesp.2026.105022",
+      "abstract": "Phase angle (PhA), derived from bioelectrical impedance analysis, is consistently associated with fat-free mass and cellular integrity and has been widely studied as a prognostic marker in several diseases; however, evidence in paediatric oncology remains limited. This study aimed to describe longitudinal changes in PhA during cancer treatment in children and young people (CYP) and to examine associations with treatment-related complications, nutritional status, and micronutrient biomarkers. Data were drawn from two prospective cohort studies conducted in Scotland and New Zealand. CYP ( 3-≤7, and >7). Nutritional status categories (eutrophic, overweight and obese) were defined through body mass index and mid-upper arm circumference. Circulating plasma biomarkers included albumin; vitamins A, E, and B12; magnesium; selenium; and zinc. Mixed-effects models were used to assess longitudinal changes and associations. A total of 115 participants were included, with baseline PhA-Z data available for 68. PhA-Z declined from baseline to 3 months (B = -0.82, 95% CI -1.32, -0.32) and to 6 months (B = -0.63, 95% CI -1.17, -0.08). Post hoc analyses indicated recovery at 12 months compared with 3 (p = 0.001, effect size [ES] = 0.63, 95% CI: 0.32 to 0.96) and 6 months (p = 0.019, ES = 0.54, 95% CI: 0.22 to 0.86). Compared with the >7 complications group, participants with ≤3 and >3-≤7 complications showed higher estimated PhA-Z at 6 (B = 2.04; 2.30), 9 (B = 2.79; 2.07), and 12 months (B = 2.20; 1.82) (p < 0.05). Anthropometric nutritional status classifications were not associated with PhA-Z, while albumin, zinc, and selenium were positively associated. PhA-Z declined early and recovered later during therapy. Associations with complication burden and selected micronutrients suggest that PhA may be a promising marker of treatment-related alterations in body composition and physiological status, warranting confirmation in larger prospective studies.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42575202/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "design:prospective cohort",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "precision nutrition",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "兒童癌症治療期間相位角與營養生物標記的品質評讀",
+      "content": "# 兒童癌症治療期間相位角變化與營養生物標記的品質評讀\n\n## 品質快照\n\n**設計**：兩個前瞻性世代的次級分析｜**n**：115 名兒童與青少年，PhA-Z 基線資料 68 名｜**RoB**（Newcastle-Ottawa 取向）：中等風險｜**GRADE**：Very low（主要結果：治療期間 PhA-Z 軌跡與併發症負荷的關聯）｜**Registration**：n.a.，本文未報告研究註冊\n\n**一句話 verdict**：研究指出治療早期 PhA-Z 下降，後期出現回升，且高併發症負荷者的軌跡較差。結果具營養評估啟示，可信度受樣本數小、追蹤流失、未納入功能結果與殘餘混雜限制，不能據此把 PhA 當成治療反應或預後的獨立診斷工具。\n\n## Key Points\n\n### Summary\n\n已讀取可核對身分的完整 PDF。研究場域為蘇格蘭與紐西蘭兒童腫瘤照護，追蹤基線、3、6、9、12 個月的 50 kHz 單頻生物電阻抗相位角，並與併發症、BMI、MUAC、白蛋白與微量營養素作縱向分析。\n\n- PhA-Z 由基線至 3 個月下降：B = −0.82，95% CI −1.32 至 −0.32，p = 0.001。至 6 個月仍低於基線：B = −0.63，95% CI −1.17 至 −0.08，p = 0.025。\n- 3 至 12 個月與 6 至 12 個月的回升效果量分別為 0.63 與 0.54，屬中等範圍。這是群體平均軌跡，尚未證明個別病人的身體組成或功能已恢復。\n- 與累積併發症超過 7 次者相比，併發症 3 次以下者在 6、9、12 個月的估計 PhA-Z 較高，差值 B 分別為 2.04、2.79、2.20。3 至 7 次者也呈現較高估計值。\n- BMI 與 MUAC 分類未與 PhA-Z 顯示明確關聯。白蛋白、鋅、硒與 PhA-Z 呈正向關聯，鎂、維生素 A、E、B12 未達統計顯著。\n\n## 白話導讀\n\n### 一句話\n\n兒童接受癌症治療時，代表細胞與體液狀態的相位角可能在早期變差，後期部分回升。高併發症負荷者的變化較差，但這項研究只能說兩者一起出現，無法證明相位角下降造成併發症。\n\n### 為什麼做\n\n兒童癌症治療期間可能出現肌肉量下降、脂肪量改變、發炎與營養攝取波動。體重與 BMI 無法分辨脂肪、去脂體重與水分變化。研究團隊因此評估 PhA 是否能補足傳統人體測量的資訊，並觀察它和併發症、營養生物標記的時間關係。\n\n### 研究主體\n\n- 研究納入 115 名未滿 18 歲、接受根治意圖癌症治療的兒童與青少年。PhA-Z 只適用於 3.5 歲以上且有參考值的對象，基線可用資料為 68 名。\n- BIA 使用四電極、仰臥、50 kHz 測量。兩個研究中心使用不同儀器，均依製造商流程操作，研究以 UK 兒童參考資料計算 PhA-Z。\n- 併發症包括發燒性嗜中性白血球低下、黏膜炎、感染、便秘、噁心、嘔吐、腹瀉與內分泌併發症，依 12 個月累積次數分成 3 次以下、3 至 7 次、超過 7 次。\n- 缺失資料隨時間增加。PhA-Z 可用人數從基線 68 名降至 12 個月 34 名，血清鋅從 56 名降至 19 名。作者未做正式插補。\n\n### 所以呢\n\nPhA 可作為營養師與兒科腫瘤團隊的補充監測項目，特別是在治療早期已有體重穩定、BMI 看似正常，卻懷疑去脂體重或細胞狀態變差時。現階段仍須和飲食攝取、症狀、肌力或身體功能、MUAC、體重趨勢、疾病治療資料一起判讀，不能用單次 PhA 或鋅、硒數值直接決定補充劑量。\n\n## 臨床應用\n\n- **適用情境**：兒童癌症治療期間的營養風險追蹤與身體組成監測，尤其是治療初期、併發症增加、進食下降或體重變化與臨床狀況不一致時。\n- **建議流程**：固定同一儀器與測量姿勢，記錄禁食、排尿、輸液、水腫與治療時間點。以趨勢取代單點判讀，搭配飲食攝取、症狀、MUAC、體重與身高、功能表現、感染與類固醇暴露資料。\n- **微量營養素**：鋅與硒的正向關聯可作為進一步評估線索，不能直接推論缺乏或補充有效。血清濃度會受發炎、疾病、輸液與治療影響，應依兒科腫瘤團隊與檢驗資料判斷。\n- **注意事項**：兩中心儀器不同，PhA-Z 參考資料主要來自英國兒童。研究未建立臨床切點，也未證明 PhA 改變能預測死亡、住院、治療完成率、肌力或生活品質。\n- **在地適用性**：可作為台灣兒科腫瘤營養照護的研究與監測參考。導入前要確認儀器、參考值、測量人力、兒童配合度與臨床流程，並建立本地縱向資料。\n\n## Paper Details\n\n### Methods\n\n這是兩個前瞻性世代研究的次級分析。蘇格蘭資料收集於 2010 至 2014 年，紐西蘭資料收集於 2022 至 2023 年。研究以線性混合效應模型分析 PhA-Z 隨時間的變化，個人設定隨機截距，並以時間、併發症分組、時間與併發症交互作用作固定效果。營養生物標記各自建立混合模型，部分鋅、硒、鎂與維生素 A 依 CRP 使用 BRINDA 方法修正。\n\n研究未做正式樣本數計算，樣本來自研究期間符合條件且完成招募者。BMI 與 MUAC 因樣本數限制重新分成正常與過重或肥胖，營養不良組無法在多個時間點進入分析。\n\n### Critical Appraisal\n\n#### Newcastle-Ottawa 取向的風險判定\n\n| Domain | 判定 | 理由 |\n|---|---|---|\n| 混雜 | 中 | 癌症類型與 CRP 有部分處理，但類固醇、身體活動、補充品、治療強度與攝取量未完整調整。 |\n| 研究對象選擇 | 中至高 | 304 名住院病人中有相當數量未獲准接觸或不符合條件，且兩中心時期與收案流程不同，可能造成選擇偏差。 |\n| 暴露或分組分類 | 中 | 併發症以累積次數分組，能反映負荷，卻未處理每個併發症的嚴重度、持續時間與治療差異。 |\n| 缺失資料 | 高 | PhA-Z 從 68 名降至 34 名，微量營養素資料更少。死亡、轉院、病情惡化與未回診可能形成非隨機缺失。 |\n| 結果測量 | 中 | BIA 流程有標準化描述，兩中心使用不同儀器，儀器間直接可比性未在本研究驗證。PhA 也未和 DXA、肌力或功能結果同步驗證。 |\n| 選擇性報告 | 中 | 研究為次級分析，未見研究註冊或分析計畫的完整比對，多個時間點與生物標記模型增加偶然顯著的可能。 |\n\n**整體判定**：中等至偏高風險。研究設計適合描述軌跡與提出假說，證據強度不足以支援臨床切點或介入建議。\n\n#### 統計與推論檢查\n\n- 時間主效應與部分交互作用有信賴區間與效果量，報告方式優於只列 p 值。樣本在後期大幅減少，12 個月估計值的精確度仍需保留疑問。\n- BMI 與 MUAC 分析未顯著，可能反映真正沒有關聯，也可能是樣本數與營養不良組不足造成的檢定力不足，不能把無顯著結果當成等同無效應。\n- PhA 是身體組成與細胞狀態的替代指標。研究未測量肌力、身體功能、生活品質、住院、治療劑量或死亡，因此不能把 PhA-Z 軌跡直接解釋為病人重要結果的改善。\n- 對高併發症組的差異可支持「併發症負荷與 PhA-Z 軌跡同時變化」的描述。這項觀察仍可能受治療強度、癌症類型、營養攝取、發炎與存活者偏差影響。\n- 缺失資料沒有插補，作者以有無 12 個月資料的基線比較作補充。這無法排除與病情相關的非隨機缺失。\n\n#### GRADE\n\n主要結果以觀察性研究起始為 Low。風險偏差降一級，間接性降一級，精確性降一級，不一致性與發表偏差未降級。確定性計算結果為 **Very low**。因此，PhA-Z 可視為待驗證的監測候選指標，現有證據不足以支援用它取代營養篩檢、身體功能評估或影像身體組成測量。\n\n#### 優點與風險\n\n- **優點**：前瞻性重複測量、兩個國家的臨床資料、記錄治療併發症、測量多項營養生物標記、以混合效應模型處理個人內相關性，並做 CRP 與研究中心的敏感度分析。\n- **風險限制**：樣本小、資料缺失增加、未做正式樣本數計算、兩台 BIA 儀器不同、PhA-Z 參考值跨族群外推、未納入去脂體重與功能的直接驗證、混雜控制有限。\n\n## Key Findings\n\n1. **治療早期的訊號**：基線至 3 個月 PhA-Z 平均下降，幅度達 0.82 個 Z 分數，代表傳統 BMI 或體重追蹤可能漏掉部分身體組成與細胞狀態變化。\n2. **高併發症負荷**：超過 7 次併發症者的 PhA-Z 軌跡較差。這是風險分層的研究線索，不是以 PhA 預測併發症的驗證結果。\n3. **營養標記**：白蛋白、鋅、硒與 PhA-Z 的正向關聯具有生物學合理性，但白蛋白受發炎影響，鋅與硒資料量小，不能直接視為飲食攝取或補充效果。\n4. **BMI 與 MUAC 的限制**：兩者未顯示與 PhA-Z 的明確關聯，支持臨床上把體重、BMI、MUAC 與身體組成、飲食和功能資料放在同一個評估框架中。\n5. **研究下一步**：需要更大規模、多中心縱向研究，統一 BIA 儀器與參考值，並同步測量 DXA、去脂體重、肌力、身體功能、活動量、類固醇與補充品。介入研究要測試蛋白質、微量營養素與運動整合方案能否改善病人重要結果，不能只看 PhA。\n\n## Inference Boundary\n\n本文能支持的敘述是「兒童癌症治療期間 PhA-Z 會隨時間變化，且變化軌跡與併發症負荷及部分營養標記有關聯」。本文不能支持「PhA 下降造成併發症」、「補充鋅或硒會改善 PhA」、「PhA 能取代營養評估」或「PhA 能改善預後」。\n\n## Source\n\n- DOI：[10.1016/j.clnesp.2026.105022](https://doi.org/10.1016/j.clnesp.2026.105022)\n- PubMed：[42575202](https://pubmed.ncbi.nlm.nih.gov/42575202/)\n- 合法全文：OpenAlex OA location，Queen Margaret University repository，身分比對通過，source SHA-256 已保存在 Worker cache 與 reading trace。",
+      "cards": [],
+      "completedAt": "2026-08-23T12:31:57.709Z"
+    },
+    {
+      "id": "doi:10.3389/fendo.2026.1813608:digest",
+      "paperId": "doi:10.3389/fendo.2026.1813608",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Sedentary behavior and type 2 diabetes in community-dwelling middle-aged and older adults: indirect cross-sectional correlation of sarcopenic obesity.",
+      "authors": "Zhao W, Meng M, Geng Y, Qi R, Zhang J, Zhang M, Song M, Wang R",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.3389/fendo.2026.1813608",
+      "abstract": "Type 2 diabetes mellitus (T2DM) represents a major public health challenge among middle-aged and older populations worldwide. The underlying mechanisms linking sedentary behavior to T2DM remain incompletely understood. Sarcopenic obesity (SO), a phenotype defined by concurrent low muscle mass and excess adiposity, may represent a key intermediate correlate linking sedentary behavior with T2DM in cross-sectional observations. This study aimed to explore the indirect cross-sectional correlation of SO in the correlation between sedentary behavior and T2DM and to clarify age- and sex-specific characteristics of this association. A cross-sectional study design was employed, consecutively enrolling 2, 480 community-dwelling middle-aged and older individuals (≥35 years) undergoing physical examinations. Daily sedentary time was assessed using the Sedentary Behavior Questionnaire (SBQ). Body composition was measured with the InBody 770 bioelectrical impedance analyzer. Logistic regression combined with bias-corrected, non-parametric Bootstrap methods validated the statistical mediation, with sensitivity analyses stratified by sex, age, and the age-sex interaction. In the overall cohort, the statistical mediation of SO was significant (without covariates: mean ACME = 0.105, 95% CI: 0.078-0.130, proportion of the statistical indirect correlation = 22.43%; with covariates: mean ACME = 0.029, 95% CI: 0.013-0.043, proportion of the statistical indirect correlation = 14.97%;both P < 0.01). Stratified analyses revealed significant heterogeneity in the statistical mediation: the share of the statistical indirect correlation was higher in women (22.68%) than in men (9.08%), and significantly higher in those aged ≥65 years (19.14%) than in those aged <65 years (8.93%). In the age-sex interaction analysis, the statistical mediation was strongest in the ≥65-year female subgroup (mean ACME = 0.121, proportion of the statistical indirect correlation = 47.79%, P < 0.01), while the statistical mediation were not significant in the <65-year male (P = 0.20) and <65-year female (P = 0.11) subgroups. Sedentary behavior is significantly associated with type 2 diabetes among community-dwelling middle-aged and older adults, and SO shows a significant statistical mediation in the cross-sectional correlation between sedentary behavior and T2DM. This statistical mediation shows distinct population differences and is most prominent among women aged 65 years or older.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2026.1813608/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42630470/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "clinical nutrition technology",
+        "human clinical population",
+        "obesity and metabolism",
+        "safety and interaction"
+      ],
+      "noteTitle": "高齡久坐、肌少型肥胖與第二型糖尿病的全文內容整理",
+      "content": "# 高齡久坐、肌少型肥胖與第二型糖尿病的全文內容整理\n\n> [!summary] 30 秒層\n> 這篇單一社區橫斷面研究顯示，久坐、肌少型肥胖（SO）與第二型糖尿病在同一批 2,480 名成人中有重疊關聯，65 歲以上女性的統計間接關聯比例最高。\n> - 高久坐與糖尿病：OR 10.84（95% CI 7.24–16.21）\n> - 久坐與 SO：OR 6.47（95% CI 4.09–10.23）\n> - 調整共變項後，SO 的整體統計間接關聯比例：14.97%\n> - 65 歲以上女性的統計間接關聯比例：47.79%\n> - 這是同一時間點的關聯，不能當成因果中介或介入效果\n> 品質未評讀（內容整理）；需可信度判斷 → /paper-review\n\n## 5 分鐘層：研究問題與背景\n\n**要點**：作者把久坐、體組成與糖尿病放進同一個橫斷面模型，想找出 SO 是否與這組關聯重疊。\n\n- 研究背景：高齡化、久坐和第二型糖尿病常一起出現在社區健康問題中。\n- SO 指同時有肌肉量偏低和體脂偏高的狀態，可能讓血糖、活動與體組成風險互相交疊。\n- 研究問題：久坐行為和糖尿病的統計關聯，有多少比例與 SO 同時出現，這種模式是否因年齡和性別不同而改變。\n- 解讀範圍：作者使用 statistical mediation 和 indirect correlation decomposition，文中多次提醒這些結果不能確認時間順序或因果路徑。\n\n## 5 分鐘層：方法\n\n**要點**：研究使用 2025 年 4 月至 6 月一處中國社區服務中心的健檢資料，以問卷、BIA 和實驗室資料做同時點比較。\n\n- 對象：2,480 名年滿 35 歲、完成久坐問卷、InBody 770 體組成測量與血液檢查的人員。\n- 久坐：Sedentary Behavior Questionnaire，自填每日久坐時間，至少 8 小時定義為高久坐。\n- SO：男性 ASMI <7.0 kg/m² 且體脂率至少 25%，女性 ASMI <5.7 kg/m² 且體脂率至少 30%。研究沒有納入握力、步速或其他肌肉功能指標。\n- 糖尿病：依 FBG、2 小時餐後血糖、HbA1c、既往診斷或降糖治療判定。\n- 模型：Model 1 看久坐與糖尿病總體關聯，Model 2 看久坐與 SO，Model 3 同時放入久坐與 SO。bootstrap 使用 5,000 次重抽樣。\n- 共變項：家族史、吸菸、飲酒、高鹽與高油飲食、血壓及血脂等。\n\n## 5 分鐘層：主要發現\n\n**要點**：久坐、SO 與糖尿病的關聯在整體樣本成立，調整後仍留有統計重疊，但二分化與橫斷面設計限制了實務解讀。\n\n| 結果 | 數值 | 怎麼讀 |\n|---|---:|---|\n| SO 盛行率 | 7.38% | 183 人符合研究定義 |\n| 糖尿病比例 | 14.44% | 358 人有 T2DM |\n| Model 1：久坐與 T2DM | OR 10.84，95% CI 7.24–16.21 | 未放入 SO 的總體關聯 |\n| Model 2：久坐與 SO | OR 6.47，95% CI 4.09–10.23 | 暴露與中介指標的關聯 |\n| Model 3：久坐與 T2DM | OR 8.51，95% CI 5.62–12.90 | 同時放入 SO 後的久坐關聯 |\n| Model 3：SO 與 T2DM | OR 5.69，95% CI 3.14–10.32 | 同時放入久坐後的 SO 關聯 |\n| 整體，未調整 | 22.43% | SO 的統計間接關聯比例 |\n| 整體，調整後 | 14.97% | 共變項後的統計間接關聯比例 |\n| 65 歲以上 | 19.14% | 高於 65 歲以下的 8.93% |\n| 65 歲以上女性 | 47.79% | 309 人，分層結果最高 |\n\n- 女性的統計間接關聯比例為 22.68%，男性為 9.08%。\n- 65 歲以下男性和女性的間接關聯沒有達到統計顯著。\n- 作者把久坐時間改用連續變項做敏感度分析，方向大致一致，但間接關聯比例約降到 6%，提醒 8 小時二分門檻可能放大表面效果。\n- OR 10.84 很大，作者認為可能受到二分化、反向關聯、殘餘混雜和單一社區樣本影響。\n\n## 5 分鐘層：臨床意義與怎麼用\n\n**要點**：把久坐、體組成、血糖、肌力和飲食放到同一張評估圖，適合作為篩檢與追蹤問題，還不能當成處置 protocol。\n\n- 高齡營養評估可增加久坐時數、是否能中斷坐姿、近期活動量、體重變化、攝食量和功能問題。\n- SO 不能只看 BIA 的肌肉量與體脂率，應搭配握力、步速、起身測試或日常活動能力。\n- 糖尿病照護要把血糖、HbA1c、飲食、藥物、體重、肌肉量和活動量一起判讀。\n- 65 歲以上女性可列為需要更仔細檢視久坐、功能和飲食風險的族群，但這個分層結果需要縱向與介入研究確認。\n- 實務追蹤可固定重測久坐、功能、體重、腰圍或體組成，並記錄活動中斷和飲食行為是否真的做到。\n- 研究沒有證明減少久坐、增加蛋白質或改善 SO 能降低 T2DM，因此不能從這篇文章單獨推導營養處方。\n\n## 重要圖表重述\n\n**要點**：表 1 說明糖尿病組的久坐、SO 和代謝指標較高，表 2 和表 3 則把整體與分層關聯拆開。\n\n- Table 1：糖尿病組的久坐時間、久坐分類、SO、血壓、血糖、HbA1c、TC、TG 和 LDL-C 多數較高，BMI 差異未達顯著。\n- Table 2：三個 logistic model 顯示，放入 SO 後，久坐與 T2DM 的 OR 從 10.84 降到 8.51，SO 仍與 T2DM 有關聯。\n- Table 3：bootstrap 分層結果顯示 65 歲以上女性的間接關聯比例最高，但 95% CI 很寬，應視為需要驗證的分層訊號。\n- Figure 1：呈現二分久坐時間下的統計間接關聯。\n- Figure 2：把久坐時間當連續變項後，間接關聯比例變小，協助讀者理解二分化的影響。\n\n## 與既有認知的對照\n\nvault 無相關既有筆記。本篇增加的學習點，是把 SO 的體組成評估與久坐、糖尿病風險放在同一個社區篩檢情境中，但沒有改變「橫斷面關聯不能證明介入效果」這個基本判讀原則。\n\n## 概念／名詞整理\n\n- Sedentary behavior：清醒時長時間坐著或躺著，本文以每日 8 小時作二分分類。\n- Sarcopenic obesity（SO）：低肌肉量和高體脂同時存在。本文用 ASMI 和體脂率，未加入功能指標。\n- ASMI：四肢骨骼肌量除以身高平方，單位 kg/m²。\n- Statistical mediation：把暴露與結果的統計關聯拆成直接與間接部分，若資料是橫斷面，不能自動變成時間性中介。\n- ACME：平均因果中介效果的模型名稱。本文雖使用 ACME 計算，研究設計仍無法提供真正因果效果。\n- Bootstrap：從原始資料重複抽樣，估計統計量和信賴區間的穩定性。\n\n## 自我測驗\n\n> [!question]- Q1：為什麼這篇文章不能用來宣稱「SO 是久坐造成糖尿病的因果中介」？\n> 因為資料是同一時間點的橫斷面資料，無法確認久坐、SO 和糖尿病的先後順序，也可能有糖尿病或功能下降反過來增加久坐的情況。統計 mediation 在這裡應讀成關聯分解，不是介入效果。\n\n> [!question]- Q2：65 歲以上女性的 47.79% 應該怎麼用在營養實務？\n> 可把 65 歲以上女性列為更仔細檢查久坐、體組成、肌力、攝食和血糖風險的族群。這個數字是單一社區的分層關聯，不是代表 47.79% 的人可由營養介入改善，也不能取代個別評估。\n\n> [!question]- Q3：為什麼作者把久坐時間改成連續變項後，結果變小很重要？\n> 原本把久坐切成至少 8 小時和低於 8 小時，可能讓差異集中在門檻兩側。連續分析的間接關聯比例約降到 6%，表示二分分類可能放大表面的關聯比例，實務上不宜只用一個門檻決定風險。\n\n> [!question]- Q4：評估疑似 SO 的高齡糖尿病個案時，除了 BIA 還要補什麼？\n> 應補握力、步速或起身測試等功能資料，並一起看近期體重變化、攝食量、活動量、血糖、藥物和水分狀態。本文只用 ASMI 與體脂率，不能代表完整的肌少症或 SO 功能狀態。\n\n## Reference\n\nZhao W, Meng M, Geng Y, et al. 2026. Sedentary behavior and type 2 diabetes in community-dwelling middle-aged and older adults: indirect cross-sectional correlation of sarcopenic obesity. Frontiers in Endocrinology. doi:10.3389/fendo.2026.1813608\n\n全文來源：已驗證的 Frontiers OA PDF cache。PDF 12 頁，Worker 原生文字 56,052 字，DOI 與題名一致，Methods、Results、Discussion、Conclusion 段落齊全。",
+      "cards": [
+        {
+          "title": "橫斷面 mediation 能不能當因果",
+          "question": "為什麼這篇文章不能用來宣稱 SO 是久坐造成糖尿病的因果中介？",
+          "answer": "因為資料是同一時間點的橫斷面資料，無法確認時間順序，也可能有反向關聯。這裡的 statistical mediation 是關聯分解，不是介入效果。",
+          "tags": [
+            "高齡營養",
+            "肌少型肥胖",
+            "糖尿病",
+            "研究判讀"
+          ]
+        },
+        {
+          "title": "47.79% 的實務用法",
+          "question": "65 歲以上女性的 47.79% 應該怎麼用在營養實務？",
+          "answer": "把這個族群列為更仔細檢查久坐、體組成、肌力、攝食和血糖的對象。它是單一社區的分層關聯，不能當成介入後可改善的比例。",
+          "tags": [
+            "高齡營養",
+            "肌少型肥胖",
+            "營養評估"
+          ]
+        },
+        {
+          "title": "二分門檻會放大什麼",
+          "question": "為什麼把久坐時間改成連續變項後，間接關聯變小很重要？",
+          "answer": "8 小時門檻可能把差異集中在兩組之間。連續分析的間接關聯比例約降到 6%，提醒我們不能只靠一個門檻判定風險。",
+          "tags": [
+            "久坐",
+            "統計判讀",
+            "糖尿病"
+          ]
+        },
+        {
+          "title": "SO 評估要補哪些資料",
+          "question": "評估疑似 SO 的高齡糖尿病個案時，除了 BIA 還要補什麼？",
+          "answer": "補握力、步速或起身測試等功能資料，再合併近期體重變化、攝食量、活動量、血糖、藥物和水分狀態。本文只用 ASMI 與體脂率。",
+          "tags": [
+            "肌少型肥胖",
+            "身體功能",
+            "營養篩檢"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-23T11:31:48.189Z"
+    },
+    {
+      "id": "doi:10.3389/fendo.2026.1813608:review",
+      "paperId": "doi:10.3389/fendo.2026.1813608",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Sedentary behavior and type 2 diabetes in community-dwelling middle-aged and older adults: indirect cross-sectional correlation of sarcopenic obesity.",
+      "authors": "Zhao W, Meng M, Geng Y, Qi R, Zhang J, Zhang M, Song M, Wang R",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.3389/fendo.2026.1813608",
+      "abstract": "Type 2 diabetes mellitus (T2DM) represents a major public health challenge among middle-aged and older populations worldwide. The underlying mechanisms linking sedentary behavior to T2DM remain incompletely understood. Sarcopenic obesity (SO), a phenotype defined by concurrent low muscle mass and excess adiposity, may represent a key intermediate correlate linking sedentary behavior with T2DM in cross-sectional observations. This study aimed to explore the indirect cross-sectional correlation of SO in the correlation between sedentary behavior and T2DM and to clarify age- and sex-specific characteristics of this association. A cross-sectional study design was employed, consecutively enrolling 2, 480 community-dwelling middle-aged and older individuals (≥35 years) undergoing physical examinations. Daily sedentary time was assessed using the Sedentary Behavior Questionnaire (SBQ). Body composition was measured with the InBody 770 bioelectrical impedance analyzer. Logistic regression combined with bias-corrected, non-parametric Bootstrap methods validated the statistical mediation, with sensitivity analyses stratified by sex, age, and the age-sex interaction. In the overall cohort, the statistical mediation of SO was significant (without covariates: mean ACME = 0.105, 95% CI: 0.078-0.130, proportion of the statistical indirect correlation = 22.43%; with covariates: mean ACME = 0.029, 95% CI: 0.013-0.043, proportion of the statistical indirect correlation = 14.97%;both P < 0.01). Stratified analyses revealed significant heterogeneity in the statistical mediation: the share of the statistical indirect correlation was higher in women (22.68%) than in men (9.08%), and significantly higher in those aged ≥65 years (19.14%) than in those aged <65 years (8.93%). In the age-sex interaction analysis, the statistical mediation was strongest in the ≥65-year female subgroup (mean ACME = 0.121, proportion of the statistical indirect correlation = 47.79%, P < 0.01), while the statistical mediation were not significant in the <65-year male (P = 0.20) and <65-year female (P = 0.11) subgroups. Sedentary behavior is significantly associated with type 2 diabetes among community-dwelling middle-aged and older adults, and SO shows a significant statistical mediation in the cross-sectional correlation between sedentary behavior and T2DM. This statistical mediation shows distinct population differences and is most prominent among women aged 65 years or older.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2026.1813608/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42630470/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "clinical nutrition technology",
+        "human clinical population",
+        "obesity and metabolism",
+        "safety and interaction"
+      ],
+      "noteTitle": "高齡久坐、肌少型肥胖與第二型糖尿病的橫斷面關聯品質評讀",
+      "content": "# 高齡久坐、肌少型肥胖與第二型糖尿病的橫斷面關聯品質評讀\n\nreview_depth: quick\nstudy_type: single-community cross-sectional study\nfull_text_reviewed: true\ndoi: 10.3389/fendo.2026.1813608\n\n## 品質快照\n\n設計：單一社區橫斷面研究｜n：2,480 名 35 歲以上社區成人｜主要暴露：自填每日久坐時間｜中介指標：以 InBody 770 測得的肌少型肥胖（SO）｜RoB：高風險，主因是橫斷面設計、單一社區、久坐時間自陳、BIA 測量與未納入肌力或步速｜GRADE：Very low（主要證據是久坐、SO 與第二型糖尿病的橫斷面關聯分解）｜Registration：全文未報告研究註冊｜一句話 verdict：這篇研究可提醒營養與健康促進工作把久坐、體組成、血糖和功能狀態放在同一張評估圖上，不能把統計上的 mediation 當成已證實的因果路徑，也不能據此宣稱針對 SO 的介入能降低糖尿病風險。\n\n## 摘要與研究問題\n\n研究想知道，久坐行為與第二型糖尿病同時出現時，肌少型肥胖是否能解釋一部分的橫斷面關聯，並觀察年齡與性別差異。研究納入 2025 年 4 月至 6 月在中國河北石家莊一處社區服務中心接受健康檢查、年滿 35 歲且完成問卷、體組成與實驗室檢查的人員。排除嚴重疾病、明顯行動障礙、近期重大手術、孕哺期及無法可靠完成測量者。\n\n久坐行為用 Sedentary Behavior Questionnaire 評估，研究以每日至少 8 小時定義為高久坐。SO 以四肢骨骼肌質量指數 ASMI 和體脂率判定，男性 ASMI <7.0 kg/m² 且體脂率至少 25%，女性 ASMI <5.7 kg/m² 且體脂率至少 30% 才符合。第二型糖尿病依血糖、HbA1c、既往診斷或降糖治療判定。作者用三個 logistic regression model，加上 5,000 次 bootstrap，分解久坐、SO 與糖尿病的統計關聯。\n\n## 白話導讀\n\n> 一句話：在這一批社區健檢成人裡，久坐較多的人也較常同時出現 SO 與第二型糖尿病，這個重疊關聯在 65 歲以上女性最明顯。\n>\n> 研究看到的主要數字：整體 SO 盛行率為 7.38%，糖尿病人數為 358 人，占 14.44%。高久坐與糖尿病的總體關聯 OR 為 10.84（95% CI 7.24–16.21），久坐與 SO 的關聯 OR 為 6.47（95% CI 4.09–10.23）。加入 SO 後，久坐與糖尿病的關聯 OR 為 8.51，SO 本身的關聯 OR 為 5.69。\n>\n> 統計分解結果：調整共變項後，整體 SO 的間接關聯比例為 14.97%（95% CI 7.38–21.97）。65 歲以上者為 19.14%，女性為 22.68%，65 歲以上女性為 47.79%。65 歲以下男性和女性的間接關聯沒有達到統計顯著。\n>\n> 要留意的地方：這些數字來自同一時間點的資料。糖尿病、身體功能下降或體重狀態也可能讓人更久坐，研究無法確認誰先發生。作者自己也說，二分化的久坐門檻可能放大 OR 和間接關聯比例。\n\n## 臨床與營養實務應用\n\n- 評估久坐：在高齡或糖尿病營養評估時，可記錄每天坐著的時間、長時間坐著的時段、是否有中斷坐姿，以及是否因疼痛、疲勞、環境或工作型態而難以活動。\n- 併看體組成與功能：SO 不能只用體脂率與肌肉量判斷。實務上仍要補充握力、步速、起身測試、活動能力、近期體重變化和攝食量，避免把 BIA 數字當成完整的肌少症診斷。\n- 糖尿病營養照護：血糖、HbA1c、飲食型態、用藥、體重、肌肉量與活動量要一起判讀。這篇研究支持建立共同評估視角，沒有證明單一減少久坐或增加蛋白質的處方可改變糖尿病結局。\n- 高齡女性分層：65 歲以上女性可列為需要更仔細檢視久坐、肌力、體組成和飲食風險的族群。這是風險溝通和篩檢優先順序，不能當成已驗證的介入適應症。\n- 追蹤方式：若要在門診或社區使用，可在固定時間重測久坐時間、功能、體重、腰圍或體組成，並記錄實際可執行的活動中斷與飲食行為。這屬於把研究結果轉成可觀察指標的實務建議，仍需介入研究確認成效。\n\n## Critical Appraisal\n\n### 研究設計與選樣\n\n這是單一社區健康檢查資料的橫斷面研究，無法建立久坐、SO 與第二型糖尿病的時間順序。研究納入能完成問卷、BIA 和實驗室測試者，排除嚴重疾病、行動障礙和部分可能影響肌肉代謝的用藥者，因此結果較像能完成社區健檢且可測量族群的關聯，不一定代表失能、住院或疾病較重的人。\n\n### 暴露與結果測量\n\n久坐時間來自自填問卷，可能有回憶與分類誤差。SO 以 BIA 的 ASMI 和體脂率判定，研究沒有納入握力、步速或身體功能。BIA 受到水分、姿勢和測量條件影響，單靠這一項無法完整表達肌肉品質。糖尿病判定同時使用實驗室資料、既往診斷和用藥，實務上較有可用性，但仍是同一時點的狀態判定。\n\n### 統計與結果解讀\n\n- Model 1 的久坐與糖尿病 OR 為 10.84，數值偏大，研究作者將二分化、反向關聯、殘餘混雜和單一社區樣本列為可能原因。此 OR 不能直接當成介入後可降低的相對風險。\n- Model 2 的久坐與 SO OR 為 6.47，Model 3 中 SO 與糖尿病 OR 為 5.69。這些估計支持同時出現的關聯，不能證明 SO 是真正的時間性中介。\n- 調整共變項後，整體間接關聯比例從 22.43% 降到 14.97%，顯示共變項和研究設計會改變估計。\n- 65 歲以上女性的 47.79% 來自 309 人的分層樣本，研究可作為假說和分層評估提示，仍需要多中心、縱向和介入資料。\n- 作者做了把久坐時間當連續變項的敏感度分析，方向大致一致，但連續分析的間接關聯比例約降到 6%，再次提醒二分化可能放大表面效果。\n\n### 偏差風險判定\n\n| Domain | 判定 | 理由 |\n|---|---|---|\n| 代表性與選樣 | 高風險 | 單一社區、健康檢查情境，且排除無法完成多項測量者。 |\n| 久坐測量 | 中至高風險 | 使用自填問卷和 8 小時二分門檻，可能有回憶誤差與資訊損失。 |\n| SO 測量 | 高風險 | BIA 只提供體組成，沒有握力、步速或身體功能資料。 |\n| 混雜控制 | 高風險 | 調整家族史、生活型態、血壓和血脂，仍可能有疾病嚴重度、活動能力、藥物與反向關聯。 |\n| 結果測量 | 中等風險 | 糖尿病判定有實驗室和既往資料支持，但資料仍是同一時間點。 |\n| 外部效度 | 高風險 | 單一中國社區，無多中心或外部驗證。 |\n\n### GRADE\n\n主要 outcome 是橫斷面的統計關聯分解，證據起始為 observational low。risk of bias 降一級，因為單一社區、暴露自陳、BIA 測量限制、未納入功能與殘餘混雜。indirectness 降一級，因為研究沒有建立時間順序，也沒有測試營養、活動或 SO 介入是否改善糖尿病結果。inconsistency、imprecision 和 publication bias 沒有再降級。依 paper-review skill 的 deterministic grade_judge.py，總變化為 -2，最終 certainty 為 Very low。\n\n### Inference-gap lint\n\nargdown_lint.py 對「SO mediates the relationship」與「應用於針對性介入」的因果式主張標示 association-to-causation gap。評讀保留這個缺口，將研究結論改寫為「同時出現的橫斷面關聯」與「可供風險評估的假說」，沒有把統計 mediation 寫成已證實的生理或介入路徑。\n\n## 研究限制\n\n橫斷面資料不能處理時間順序和反向關聯。單一社區限制外部效度。久坐使用自陳問卷，SO 只使用體組成沒有功能指標，二分化久坐可能放大 OR。研究也沒有使用加速度計、DXA 或肌力作為主要測量，沒有外部驗證，沒有營養介入、活動介入或糖尿病控制的追蹤結果。\n\n## Key Findings\n\n1. 在此社區樣本中，久坐、SO 與第二型糖尿病有同時出現的關聯。\n2. 65 歲以上女性的統計間接關聯比例最高，但這是分層結果，不能當成介入效果。\n3. SO 評估若要進入營養與健康促進工作，應把體組成與肌力、步速、攝食、體重和活動量一起看。\n4. 這篇研究適合用來建立評估問題和後續研究假說，不足以改寫現有糖尿病或肌少症照護指引。\n\n## Reference and lookup scope\n\n本次依 Worker batch 的 focused-quick 模式完成全文閱讀、研究設計評讀、主要數值核對、偏差風險判定、deterministic GRADE、推論缺口檢查、白話導讀與營養實務應用。作者背景、期刊指標、引用影響與廣泛逐筆參考文獻查核屬 quick 模式延後項目，未把未執行的查核寫成已完成。\n\n## Full-text evidence\n\n- Source: verified lawful Frontiers OA PDF cache\n- Identity: DOI and title matched\n- Readable text: native extraction, 12 pages, 56,052 characters in Worker evidence\n- Source SHA-256: a41307d99857073df4288c48144892b3392cde21c17583814c335872574c8213\n- Text SHA-256: d097f099ee361a628d2d409088ac63b015887f64d0f3f12cd7f3ee17bb560051",
+      "cards": [],
+      "completedAt": "2026-08-23T11:26:52.688Z"
+    },
     {
       "id": "doi:10.1080/16549716.2026.2712185:digest",
       "paperId": "doi:10.1080/16549716.2026.2712185",
@@ -2862,7 +3035,7 @@
       "evidenceScope": "full_text",
       "title": "Integrating exercise and nutrition to combat frailty: a systematic review of multidomain interventions in aging populations.",
       "authors": "Ren G, Zhang Z, Nan B",
-      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "journal": "Frontiers in Nutrition (PubMed)",
       "year": "2026",
       "doi": "10.3389/fnut.2026.1883888",
       "abstract": "Frailty is a common geriatric syndrome associated with increased disability, hospitalization, and mortality. Exercise, nutritional supplementation (including herbal supplements such as ginseng), and multidomain interventions have been investigated as strategies to improve frailty-related outcomes in older adults. To summarize randomized controlled trial evidence on the effects of exercise, nutritional, and multidomain interventions on frailty, muscle strength, and physical performance in older adults. A narrative systematic review of randomized controlled trials (RCTs) involving frail or pre-frail older adults was conducted. Interventions included exercise training, nutritional supplementation (e.g., protein, amino acids, vitamin D, and ginseng-containing nutritional strategies), and combined multidomain strategies. Outcomes included frailty status, gait speed, muscle strength, body composition, cognition, and quality of life. Exercise-based interventions consistently improved muscle strength, gait speed, and frailty status. Nutritional supplementation alone showed modest and inconsistent benefits, mainly in undernourished or sarcopenic populations. Combined exercise and nutrition interventions generally produced greater improvements in muscle mass and strength than single interventions alone. Multidomain interventions incorporating exercise, nutrition, and cognitive training demonstrated additional benefits in physical and cognitive outcomes, although results varied across studies. Evidence for pharmacologic or anabolic adjuncts remained limited and inconsistent. Exercise-based interventions, particularly multicomponent resistance and functional training, provide the most consistent benefits for frailty-related outcomes in older adults. Nutritional support may enhance exercise-induced improvements but is insufficient alone to reverse frailty. Multidomain interventions appear promising, though further large-scale standardized trials are needed to determine optimal intervention strategies and long-term effects.",
@@ -2915,7 +3088,7 @@
       "evidenceScope": "full_text",
       "title": "Integrating exercise and nutrition to combat frailty: a systematic review of multidomain interventions in aging populations.",
       "authors": "Ren G, Zhang Z, Nan B",
-      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "journal": "Frontiers in Nutrition (PubMed)",
       "year": "2026",
       "doi": "10.3389/fnut.2026.1883888",
       "abstract": "Frailty is a common geriatric syndrome associated with increased disability, hospitalization, and mortality. Exercise, nutritional supplementation (including herbal supplements such as ginseng), and multidomain interventions have been investigated as strategies to improve frailty-related outcomes in older adults. To summarize randomized controlled trial evidence on the effects of exercise, nutritional, and multidomain interventions on frailty, muscle strength, and physical performance in older adults. A narrative systematic review of randomized controlled trials (RCTs) involving frail or pre-frail older adults was conducted. Interventions included exercise training, nutritional supplementation (e.g., protein, amino acids, vitamin D, and ginseng-containing nutritional strategies), and combined multidomain strategies. Outcomes included frailty status, gait speed, muscle strength, body composition, cognition, and quality of life. Exercise-based interventions consistently improved muscle strength, gait speed, and frailty status. Nutritional supplementation alone showed modest and inconsistent benefits, mainly in undernourished or sarcopenic populations. Combined exercise and nutrition interventions generally produced greater improvements in muscle mass and strength than single interventions alone. Multidomain interventions incorporating exercise, nutrition, and cognitive training demonstrated additional benefits in physical and cognitive outcomes, although results varied across studies. Evidence for pharmacologic or anabolic adjuncts remained limited and inconsistent. Exercise-based interventions, particularly multicomponent resistance and functional training, provide the most consistent benefits for frailty-related outcomes in older adults. Nutritional support may enhance exercise-induced improvements but is insufficient alone to reverse frailty. Multidomain interventions appear promising, though further large-scale standardized trials are needed to determine optimal intervention strategies and long-term effects.",
