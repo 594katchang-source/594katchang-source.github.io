@@ -1,7 +1,84 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T12:46:32.170Z",
+  "generatedAt": "2026-08-23T13:42:50.326Z",
   "papers": [
+    {
+      "id": "doi:10.1186/s12979-026-00588-2:digest",
+      "paperId": "doi:10.1186/s12979-026-00588-2",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "CD8+ effector memory and regulatory T cell dynamics predict subclinical atherosclerotic plaque formation in healthy aging.",
+      "authors": "Weyh C, Größer V, Minuzzi L, Frech T, Gebhardt K, Nolte S, Dombrowski T, Böttrich T, Hoffmann M, Sommer N, Ringseis R, Eder K, Sossalla S, Bauer P, Krüger K",
+      "journal": "Aging, frailty and sarcopenia (PubMed)",
+      "year": "2026",
+      "doi": "10.1186/s12979-026-00588-2",
+      "abstract": "Subclinical atherosclerotic plaque (SAP) develops silently in older adults. Biological changes that predict plaque formation are not well defined. We examined whether circulating immunological, metabolic, and functional measures identify vascular vulnerability before clinical disease. In a three-year longitudinal study, 49 healthy older adults (63.8 ± 3.8 years) underwent carotid ultrasound, T cell phenotyping, serum protein profiling, body composition assessment, and fitness testing at baseline and follow-up. At follow-up, participants were classified as no SAP, new SAP or persistent SAP. We analyzed baseline determinants and within-person changes to predict incident plaque formation. New SAP occurred in 30.3% of those initially plaque-free. At baseline, lower frequencies of CD8+ effector memory (EM) T cells and higher frequencies of CD8+ effector memory re-expressing CD45RA (EMRA) T cells and regulatory T cells (Tregs) were associated with higher odds of new SAP. Over time, expansion of CD8+ EM T cells was the most consistently associated independent variable of new SAP, accompanied by declines in Tregs and in the Treg/Teff ratio. Vascular cell adhesion molecule-1 (VCAM-1) at baseline was an additional independent predictor. Increases in visceral fat and declines in VO2peak were linked to new SAP, but immune markers were more robust than metabolic variables or serum cytokines. Adaptive immune remodeling follows a phase-dependent pattern in which CD8+ EM reductions and later CD8+ EM expansion with Treg decline signal emerging vascular vulnerability. These immune signatures, together with VCAM-1, may help characterize vascular vulnerability during the subclinical phase of plaque development.",
+      "legalFullTextUrl": "https://doi.org/10.1186/s12979-026-00588-2",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42632902/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "clinical nutrition technology",
+        "design:longitudinal",
+        "human clinical population",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "健康老化免疫變化與亞臨床動脈粥樣硬化：全文內容整理",
+      "content": "# 健康老化免疫變化與亞臨床動脈粥樣硬化：全文內容整理\n\n## 論文資料\n\n- 原文題名：CD8+ effector memory and regulatory T cell dynamics predict subclinical atherosclerotic plaque formation in healthy aging\n- 期刊：Immunity & Ageing，2026，23:29\n- DOI：10.1186/s12979-026-00588-2\n- 研究設計：三年縱向觀察研究\n- 全文：Springer 開放取用 PDF，17 頁，已核對題名、DOI、期刊與可讀文章內容。\n\n## 30 秒重點\n\n研究追蹤 49 位健康、未服藥的中高齡者三年，觀察頸動脈超音波發現的新亞臨床斑塊，並測量 T 細胞、血管相關蛋白、體脂與心肺適能。基線沒有斑塊的 33 人中，有 10 人在三年後出現新斑塊。新斑塊組的 CD8+ effector memory T cells 增加，Treg 及 Treg/Teff 比值下降，VCAM-1 也呈現關聯。體脂與內臟脂肪增加、VO2peak 下降也有關聯。研究可支持健康老化的免疫與功能監測假說，尚不能用來建立個人篩檢標準，也沒有測試任何飲食介入。\n\n## 5 分鐘理解\n\n### 研究想解決什麼問題\n\n動脈粥樣硬化在症狀出現前可能已經開始。作者想知道，健康老年人的免疫細胞變化、體組成及心肺功能，能否提示三年後會不會形成頸動脈亞臨床斑塊。\n\n### 怎麼做\n\n研究在德國 Giessen Immune Aging Study 中進行。79 人接受基線檢查，三年後因退出、開始用藥、出現癌症或其他疾病等原因，最後 49 人完成縱向資料。基線無斑塊的 33 人被拿來做新斑塊預測。研究測量頸動脈超音波、BIA 體脂與內臟脂肪、血糖、胰島素、血脂、HOMA-IR、VO2peak、握力、身體活動量、PBMC flow cytometry、15 種血清蛋白與 CMV。\n\n研究把追蹤結果分成無斑塊、新斑塊與持續有斑塊。斑塊以預先設定的內膜中層厚度至少 1.5 mm 判定。分析先做單變項 logistic regression，再挑選 p 值排名前十的變項進行 stepwise 多變項模型。\n\n### 找到什麼\n\n- 基線無斑塊者中，10/33 人在三年後形成新斑塊，約 30.3%。\n- 基線 CD8+ EM 較低、CD8+ EMRA 較高、Treg 較高，和新斑塊機率增加有關。完整調整後，CD8+ EM 的關聯仍在，OR 0.92，95% CI 0.84 至 0.99。\n- 三年中 CD8+ EM 增加與新斑塊有關，完整模型 OR 1.20，95% CI 1.00 至 1.46。Treg/Teff 比值下降也呈現關聯，完整模型 OR 0.28，95% CI 0.08 至 0.99。\n- VCAM-1 在完整模型中仍有關聯，但 OR 173.02，95% CI 1.91 至 15,644.46，區間太寬，估計不穩定，不能當成臨床切點。\n- 新斑塊組的體脂與內臟脂肪增加，VO2peak 下降。這些功能與體組成結果在完整模型中較不穩定。\n- 多數血清細胞激素、血糖、血脂與血壓沒有呈現一致的新斑塊訊號。\n\n### 怎麼解讀\n\n作者提出一個階段性模型：某些人一開始可能有較低的循環 CD8+ EM，後續在代謝或血管壓力下出現 CD8+ EM 擴張，同時 Treg 調節能力下降。這個解釋和結果方向相符，但研究沒有測量 T 細胞是否進入血管壁或斑塊，也沒有測量斑塊內的抗原特異性免疫，所以只能當作機轉假說。\n\n研究的價值在於把免疫、體組成與功能放在同一個縱向架構內。研究的弱點在於只有 10 個新斑塊事件，卻檢查很多變項，並使用 p 值篩選與 stepwise 選模。79 人最後剩 49 人，也可能有選樣偏差。只有基線及三年兩個時間點，無法判斷斑塊在何時形成。\n\n## 15 分鐘教學筆記\n\n### 觀念一：基線低與後續增加可以同時存在\n\nCD8+ EM 在基線較低與新斑塊有關，三年內增加也與新斑塊有關。這不一定矛盾，可能代表不同時間階段的免疫狀態不同，也可能是統計不穩定或循環細胞與組織細胞分布差異造成。沒有更多時間點與組織資料，不能把它解讀成已證實的雙階段機轉。\n\n### 觀念二：體組成與功能是營養實務比較能使用的部分\n\n研究中，新斑塊組的體脂與內臟脂肪增加，VO2peak 下降。這些指標可以提醒營養師與健康促進人員追蹤體組成、活動量、心肺功能與心血管危險因子的變化。研究沒有測試飲食品質、蛋白質、纖維、脂肪酸或補充品，也沒有證明改變飲食可以改變 T 細胞或斑塊。\n\n### 觀念三：統計關聯不等於臨床預測工具\n\n研究標題使用 predict，但全文沒有 AUC、校準、敏感度、特異度、決策曲線或外部驗證。OR 只能描述研究樣本內的關聯，不能直接轉成個人三年風險，也不能形成一般民眾可用的抽血篩檢方案。\n\n### 觀念四：健康 cohort 的結果不能直接外推\n\n研究對象健康、未服藥、平均 BMI 約 25 kg/m²，和住院高齡者、衰弱者、糖尿病或慢性腎病患者差異很大。臨床工作仍應以已驗證的心血管風險評估、飲食評估、體組成、功能表現、血壓、血糖與血脂為主。\n\n## 營養師判讀\n\n這篇研究可以放在高齡健康促進或營養評估課程，示範「體重沒有明顯變化，也可能同時出現內臟脂肪增加與功能下降」這個追蹤概念。實務上可建立體組成、腰圍、身體活動、握力或其他功能指標的時間序列，再和飲食攝取及心血管危險因子一起討論。T 細胞亞群與 VCAM-1 在本文仍是研究指標，沒有日常轉介閾值。本文也沒有證據支持特定補充品、草藥或免疫調節產品。\n\n## 自我測驗\n\n1. **問題：** 基線無斑塊者中，三年後有多少人出現新斑塊？\n   **答案：** 10/33 人，約 30.3%。\n   **理解點：** 事件數只有 10 人，是解讀模型穩定性的重要背景。\n\n2. **問題：** 研究中哪一個免疫變項在完整調整後仍是較穩定的關聯？\n   **答案：** CD8+ EM。基線模型 OR 0.92，三年變化模型的 CD8+ EM 增加 OR 1.20，兩者都要連同時間階段與模型限制一起看。\n   **理解點：** 基線較低與後續增加方向不同，不能直接合併成單一路徑。\n\n3. **問題：** 為什麼 VCAM-1 的結果不能直接用作臨床切點？\n   **答案：** OR 173.02 的 95% CI 為 1.91 至 15,644.46，區間極寬，且沒有外部驗證、AUC 或校準資料。\n   **理解點：** 大 OR 不代表臨床工具已經可用。\n\n4. **問題：** 這篇研究能否證明某種飲食可以降低斑塊風險？\n   **答案：** 不能。研究沒有呈現飲食攝取或飲食介入，也沒有比較不同飲食組別的斑塊結果。\n   **理解點：** 研究中的體脂、內臟脂肪與功能結果，可支持評估方向，不能被改寫成飲食療效。\n\n## 一句話帶走\n\n健康老化的血管風險研究可以同時看免疫、體組成與功能，但這篇小型觀察研究仍屬假說生成，營養實務可借用其追蹤架構，不能把免疫指標當成已驗證的篩檢或飲食治療依據。\n\n## 全文依據與執行紀錄\n\n- PDF SHA-256：`af8213436fdba07f7f24b2d08d622e8f8c800efe0e4dbf3459699c643ba1b791`\n- 可讀全文 SHA-256：`e0a64d304bf6a1bd7b35fc673ec64c6f4030f96d0e9ff16119a12ac7fb8b4ab2`\n- 閱讀模式：Paper Radar Worker batch，`focused-quick`\n- skill：`paper-digest`\n- 內容依據完整 17 頁文章，包含方法、結果、表格、限制與結論。",
+      "cards": [
+        {
+          "title": "",
+          "question": "基線無斑塊者中，三年後有多少人出現新斑塊？",
+          "answer": "10/33 人，約 30.3%。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "哪一個免疫變項在完整調整後仍是較穩定的關聯？",
+          "answer": "CD8+ EM。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "為什麼 VCAM-1 不能直接當成臨床切點？",
+          "answer": "OR 173.02 的 95% CI 為 1.91 至 15,644.46，區間極寬，也沒有外部驗證或校準資料。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "這篇研究能否證明某種飲食可以降低斑塊風險？",
+          "answer": "不能，研究沒有飲食攝取資料或飲食介入。",
+          "tags": []
+        }
+      ],
+      "completedAt": "2026-08-23T13:39:08.148Z"
+    },
+    {
+      "id": "doi:10.1186/s12979-026-00588-2:review",
+      "paperId": "doi:10.1186/s12979-026-00588-2",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "CD8+ effector memory and regulatory T cell dynamics predict subclinical atherosclerotic plaque formation in healthy aging.",
+      "authors": "Weyh C, Größer V, Minuzzi L, Frech T, Gebhardt K, Nolte S, Dombrowski T, Böttrich T, Hoffmann M, Sommer N, Ringseis R, Eder K, Sossalla S, Bauer P, Krüger K",
+      "journal": "Aging, frailty and sarcopenia (PubMed)",
+      "year": "2026",
+      "doi": "10.1186/s12979-026-00588-2",
+      "abstract": "Subclinical atherosclerotic plaque (SAP) develops silently in older adults. Biological changes that predict plaque formation are not well defined. We examined whether circulating immunological, metabolic, and functional measures identify vascular vulnerability before clinical disease. In a three-year longitudinal study, 49 healthy older adults (63.8 ± 3.8 years) underwent carotid ultrasound, T cell phenotyping, serum protein profiling, body composition assessment, and fitness testing at baseline and follow-up. At follow-up, participants were classified as no SAP, new SAP or persistent SAP. We analyzed baseline determinants and within-person changes to predict incident plaque formation. New SAP occurred in 30.3% of those initially plaque-free. At baseline, lower frequencies of CD8+ effector memory (EM) T cells and higher frequencies of CD8+ effector memory re-expressing CD45RA (EMRA) T cells and regulatory T cells (Tregs) were associated with higher odds of new SAP. Over time, expansion of CD8+ EM T cells was the most consistently associated independent variable of new SAP, accompanied by declines in Tregs and in the Treg/Teff ratio. Vascular cell adhesion molecule-1 (VCAM-1) at baseline was an additional independent predictor. Increases in visceral fat and declines in VO2peak were linked to new SAP, but immune markers were more robust than metabolic variables or serum cytokines. Adaptive immune remodeling follows a phase-dependent pattern in which CD8+ EM reductions and later CD8+ EM expansion with Treg decline signal emerging vascular vulnerability. These immune signatures, together with VCAM-1, may help characterize vascular vulnerability during the subclinical phase of plaque development.",
+      "legalFullTextUrl": "https://doi.org/10.1186/s12979-026-00588-2",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42632902/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "clinical nutrition technology",
+        "design:longitudinal",
+        "human clinical population",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "健康老化的免疫重塑與亞臨床動脈粥樣硬化：品質評讀",
+      "content": "# 健康老化族群的免疫重塑與亞臨床動脈粥樣硬化\n\n## 論文識別\n\n- 原文題名：CD8+ effector memory and regulatory T cell dynamics predict subclinical atherosclerotic plaque formation in healthy aging\n- 作者：Christopher Weyh、Vincent Größer、Luciele Guerra Minuzzi 等\n- 期刊：Immunity & Ageing，2026，23:29\n- DOI：10.1186/s12979-026-00588-2\n- 研究型態：三年縱向觀察研究，含預測性 logistic regression 分析\n- 全文依據：已核對 Springer 開放取用 PDF，17 頁，含 Introduction、Methods、Results、Discussion、Conclusion。全文身分與 DOI、題名、期刊相符。\n\n## 30 秒白話導讀\n\n這篇研究追蹤 49 位健康、未服藥的中高齡者三年，觀察頸動脈超音波發現的亞臨床斑塊，並同時測量 T 細胞、血管發炎相關蛋白、體脂與心肺適能。原本沒有斑塊的人中，約三成在三年後出現新斑塊。新斑塊組的 CD8+ effector memory T cells 後續增加，Treg 及 Treg/Teff 比值下降，VCAM-1 也和新斑塊有關。體脂與內臟脂肪增加、VO2peak 下降也有關聯，但在完整調整後，免疫指標的穩定性較好。這些結果可用來提出研究假說，尚不能拿來當作日常篩檢工具，也不能推論某種飲食能改變 T 細胞或斑塊風險。\n\n## 研究問題與設計\n\n研究團隊想回答兩件事：一是基線免疫、代謝及功能資料能否辨識三年後出現新亞臨床斑塊的人，二是三年內的免疫、體組成與功能變化，是否和新斑塊形成同時出現。\n\n79 人完成基線評估，排除追蹤期間開始使用降壓藥或 statin、出現惡性疾病或其他重大疾病、退出研究等情況後，49 人有完整縱向資料。49 人平均年齡 63.8 ± 3.8 歲，男性 30 人，女性 19 人，BMI 25.0 ± 3.1 kg/m²。預測新斑塊時，只納入基線沒有斑塊者，共 33 人，其中 23 人維持無斑塊，10 人形成新斑塊。\n\n主要測量包括頸動脈 B-mode 超音波、頸動脈內膜中層厚度、BIA 體脂與內臟脂肪、空腹血糖、胰島素、血脂、HOMA-IR、VO2peak、握力、IPAQ 身體活動量、PBMC flow cytometry、15 種血清蛋白及 CMV 血清狀態。斑塊以預先設定的內膜中層厚度至少 1.5 mm 判定，影像由單一盲化讀者離線分析。\n\n## 主要結果\n\n- 基線沒有斑塊者中，三年後有 10/33 人出現新斑塊，比例為 30.3%。完整 49 人在追蹤時的斑塊盛行率為 53%。\n- 基線 CD8+ EM 較低與新斑塊較高機率相關，OR 0.92，95% CI 0.85 至 0.99，p=0.022。這個方向代表該變項每增加一單位時，事件勝算較低，不能直接解讀成個人風險降低 8%，因為研究沒有提供可直接套用的臨床閾值。\n- 基線 CD8+ EMRA 較高與新斑塊相關，OR 1.06，95% CI 1.01 至 1.11，p=0.033。基線 Treg 較高也呈現關聯，OR 1.67，95% CI 1.01 至 2.76，p=0.045，但這些訊號在加入更多代謝及心血管共變項後，部分失去統計顯著性。\n- 三年內 CD8+ EM 增加與新斑塊相關，完整調整模型中的 OR 1.20，95% CI 1.00 至 1.46，p=0.048。Treg/Teff 比值維持較好在較早模型中與較低機率相關，完整調整後 OR 0.28，95% CI 0.08 至 0.99。這些估計值的信賴區間很寬，精確度有限。\n- 基線 VCAM-1 在完整模型中仍有關聯，OR 173.02，95% CI 1.91 至 15,644.46。數值很大且區間極寬，顯示模型估計不穩定，不能直接當作臨床切點。\n- 新斑塊組的體脂及內臟脂肪增加，VO2peak 有下降趨勢。單變項分析中，體脂增加 OR 1.47，95% CI 1.06 至 2.04，內臟脂肪增加 OR 1.51，95% CI 1.07 至 2.13，VO2peak 改善 OR 0.73，95% CI 0.54 至 0.98。這些體組成及功能結果在完整模型的穩定性低於 CD8+ EM。\n- 血糖、血脂、血壓及多數血清細胞激素沒有呈現一致的新斑塊預測訊號。作者據此提出細胞免疫重塑可能早於可量測的全身細胞激素變化，這是合理假說，尚未被本研究證實為生物學先後順序。\n\n## 品質快照\n\n### 研究設計\n\n縱向觀察設計能提供時間順序資訊，也比單次橫斷面研究更接近疾病發展過程。研究同時量測免疫、體組成及功能資料，並以基線無斑塊者做事件預測，研究問題與結果定義大致一致。\n\n### 風險偏差評讀\n\n- **選樣偏差：高風險。** 79 人只剩 49 人完成縱向分析，排除原因包含用藥、癌症、其他疾病及退出。研究沒有提供排除者與完成者的完整比較，也沒有說明遺失資料的處理方式。\n- **混雜偏差：中至高風險。** 研究調整年齡、BMI、HOMA-IR、LDL/HDL、METs、收縮壓等變項，也測試性別與 CMV，但樣本太小，仍可能有飲食型態、社經狀況、睡眠、感染史、醫療利用與生活改變等未測混雜。\n- **測量偏差：中等風險。** 超音波由單一盲化讀者分析是優點，但沒有報告讀者內或讀者間一致性。斑塊以二元結果表示，沒有納入斑塊數量、面積、組成或體積。\n- **分析偏差：高風險。** 基線與變化量先做大量單變項 logistic regression，再保留 p 值排名前十的變項進入 stepwise 多變項模型，且未做多重比較校正。預測分析只有 10 個新斑塊事件，卻檢查大量免疫、代謝、功能及臨床變項，容易過度配適、估計不穩定與產生偶然顯著結果。\n- **因果推論：高限制。** 只有基線及三年追蹤兩個時間點，無法知道斑塊實際形成時間，也無法確定免疫改變先於斑塊、由斑塊造成，或由共同因素造成。作者在討論中也承認沒有直接測量免疫細胞進入血管壁或斑塊組織。\n\n### GRADE 判定\n\n本研究問題屬觀察性預後關聯，證據確定度判為 **低**。降級原因包括研究設計本身無法支持因果、樣本與事件數小、信賴區間很寬、失訪與選樣疑慮、未校正多重比較，以及結果來自單一高健康度 cohort。研究結果適合用於產生後續驗證假說，不能據此建立免疫檢驗、飲食處方或心血管風險切點。\n\n## Critical Appraisal\n\n研究最可信的訊息是：在一群健康、未服藥且功能狀態較好的中高齡者中，三年內新斑塊形成與 CD8+ EM、Treg/Teff 比值、VCAM-1、內臟脂肪及 VO2peak 的變化同時出現。CD8+ EM 在完整調整模型仍保留關聯，方向在基線與追蹤變化中具有相互呼應之處，這讓結果有一定內部一致性。\n\n研究最需要保留的地方是事件數只有 10 人。VCAM-1 的 OR 及信賴區間特別寬，顯示模型可能受到稀疏資料或變項尺度影響。作者用 p 值排名與 stepwise 選模，會放大單一樣本的影響，也使同一結果在另一個 cohort 中可能無法重現。沒有外部驗證、沒有預先公開的分析計畫，也沒有為多項免疫指標做校正。因而不能把「最穩定的關聯」等同於「已驗證的預測工具」。\n\n研究標題使用 predict，但這裡的 predict 是統計關聯，不代表個人層級的臨床預測效能。全文沒有報告 AUC、校準、決策曲線、敏感度、特異度或可用的風險分類閾值。對營養照護而言，BIA 內臟脂肪、BMI、體脂與 VO2peak 的結果可作為健康老化評估背景，T 細胞與 VCAM-1 則仍停留在研究用途。\n\n## 推論漏洞與可用界線\n\n1. **從關聯跳到機轉：** 研究沒有測量細胞進入斑塊、抗原特異性 T 細胞或組織免疫，因此不能證明 CD8+ EM 直接造成斑塊。\n2. **從生物標記跳到臨床篩檢：** 沒有外部驗證與臨床效能指標，不能建議例行抽血檢查 T 細胞亞群或 VCAM-1 來篩檢無症狀者。\n3. **從體組成跳到飲食效果：** 研究沒有呈現具體飲食攝取量、飲食品質、蛋白質、纖維、脂肪酸或營養介入資料，不能推論任何飲食型態會改變本研究的免疫結果。\n4. **從健康 cohort 外推到臨床族群：** 研究對象沒有急慢性病且未服藥，平均 BMI 接近正常範圍，結果不能直接套用到衰弱、高齡住院、糖尿病、慢性腎病或已接受心血管治療者。\n5. **從單次三年變化推論進程：** 只有兩個測量時間點，無法判斷免疫變化與斑塊形成的先後細節，也不能說明介入後是否可逆。\n\n## 臨床應用與營養實務\n\n- 可把這篇文章放在「高齡健康評估不只看體重」的教學背景，提醒評估體組成、內臟脂肪、心肺適能、肌力與心血管危險因子之間的連動。\n- 實務評估仍應使用已驗證且可取得的工具，例如飲食攝取、腰圍或體組成趨勢、身體活動、血壓、血脂、血糖、功能表現與整體心血管風險。本文沒有提供 T 細胞或 VCAM-1 的日常轉介閾值。\n- 進行飲食諮詢時，可把體脂增加、活動量下降與心血管風險管理放在同一份追蹤表，但要清楚標示這是依一般預防營養與功能監測原則所做的臨床整合，並非本研究測試過的飲食介入。\n- 若未來研究證實免疫、體組成與功能變化具有可重現的預測效能，營養照護可能參與多專業的體組成與功能監測。現階段尚不能用本文支持特定補充品、草藥或免疫調節產品。\n\n## 結論\n\n這是一篇有研究價值的早期假說研究，優點在於三年縱向追蹤，且將免疫、體組成與功能放在同一個健康老化框架內。結果指出 CD8+ EM 動態、Treg/Teff 比值下降、VCAM-1、內臟脂肪增加與 VO2peak 下降，可能和亞臨床斑塊形成有關。證據受到小樣本、10 個事件、失訪、stepwise 選模、未校正多重比較、缺少外部驗證與沒有飲食資料限制。對營養師而言，最適合的用法是把它當成體組成與功能監測的研究背景，不能當成飲食治療、免疫檢驗或個人心血管風險判定依據。\n\n## 全文依據與執行紀錄\n\n- 全文來源：Springer Open Access PDF，DOI 10.1186/s12979-026-00588-2\n- PDF SHA-256：`af8213436fdba07f7f24b2d08d622e8f8c800efe0e4dbf3459699c643ba1b791`\n- 可讀全文 SHA-256：`e0a64d304bf6a1bd7b35fc673ec64c6f4030f96d0e9ff16119a12ac7fb8b4ab2`\n- 閱讀模式：Paper Radar Worker batch，`focused-quick`\n- skill：`paper-review`\n- 完整文章段落、表格與限制均已讀取，未使用摘要代替全文評讀。",
+      "cards": [],
+      "completedAt": "2026-08-23T13:36:45.509Z"
+    },
     {
       "id": "doi:10.1016/j.clnesp.2026.105022:digest",
       "paperId": "doi:10.1016/j.clnesp.2026.105022",
