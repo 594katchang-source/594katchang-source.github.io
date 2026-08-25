@@ -2,7 +2,7 @@
   "posts": [
     {
       "id": "2026-08-25-vitamins-book-notes",
-      "title": "維生素怎麼吃才安心？從脂溶性、水溶性到補充品風險",
+      "title": "維生素怎麼吃？從脂溶性、水溶性到補充品風險",
       "date": "2026-08-25",
       "category": "書籍連載與營養知識",
       "excerpt": "依《Nutrition Concepts & Controversies》第 17 版第七章 The Vitamins 的概念順序，整理維生素的定義、前驅物、脂溶性與水溶性、維生素 A、D、E、K、維生素 C、B 群、食物來源與補充品判讀。文章加入台灣讀者熟悉的日曬、外食、加工食品、孕前葉酸、長者食慾與慢性病用藥情境。",
@@ -38,7 +38,8 @@
           "question": "抗凝血藥使用者可以吃深綠色蔬菜嗎？",
           "answer": "多數情況的重點是維持穩定攝取，並依醫囑監測，並非自行把蔬菜完全刪除。維生素 K、藥物劑量與抽血結果要放在一起判讀，任何補充品變更都要先告知醫療團隊。"
         }
-      ]
+      ],
+      "image": "images/2026-08-23-vitamins-book-notes.png"
     },
     {
       "id": "2026-08-22-proteins-amino-acids-book-notes",

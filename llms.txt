@@ -24,7 +24,7 @@ Kat Chang 張雁雲營養師是食品營養博士（高齡健康組）、美國�
 
 ## 精選衛教文章庫 (Articles Library)
 
-- 維生素怎麼吃才安心？從脂溶性、水溶性到補充品風險 (2026-08-25)：https://594katchang-source.github.io/blog/post.html?id=2026-08-25-vitamins-book-notes
+- 維生素怎麼吃？從脂溶性、水溶性到補充品風險 (2026-08-25)：https://594katchang-source.github.io/blog/post.html?id=2026-08-25-vitamins-book-notes
 - 蛋白質與胺基酸 從身體功能、食物品質到植物性飲食 (2026-08-22)：https://594katchang-source.github.io/blog/post.html?id=2026-08-22-proteins-amino-acids-book-notes
 - 脂質怎麼吃才健康？搞懂飽和脂肪、Omega-3、膽固醇與食用油選擇 (2026-08-20)：https://594katchang-source.github.io/blog/post.html?id=2026-08-20-lipids-fatty-acids-guide
 - 碳水化合物怎麼吃才穩？從全穀、膳食纖維到添加糖 (2026-08-17)：https://594katchang-source.github.io/blog/post.html?id=2026-08-17-carbohydrates-food-guide
