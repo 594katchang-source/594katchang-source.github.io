@@ -1,0 +1,23 @@
+{
+  "repo": "594katchang-source/594katchang-source.github.io",
+  "ref": "main",
+  "remote_posts_sha": "2539a3d20ceeb261f23340f27f13f8f8b1040f00",
+  "remote_sitemap_sha": "8481e1d6ec15a19dd9899639f8b20c7ffbad8161",
+  "remote_sitemap_html_sha": "3936805193e0a774ffcb9a49fb65ebb420f33172",
+  "target_id": "2026-08-23-vitamins-book-notes",
+  "old_post_count": 10,
+  "new_post_count": 11,
+  "target_show_on_home": false,
+  "old_home_count": 4,
+  "new_home_count": 4,
+  "non_target_ids_preserved": true,
+  "non_target_objects_preserved": true,
+  "target_in_posts": 1,
+  "target_in_sitemap_xml": 1,
+  "target_in_sitemap_html": 1,
+  "generated_files": [
+    "D:\\@Codex\\594katchang-source.github.io-main\\work\\2026-08-15-seo-review-docs\\source\\remote-posts-candidate.json",
+    "D:\\@Codex\\594katchang-source.github.io-main\\work\\2026-08-15-seo-review-docs\\source\\remote-sitemap-candidate.xml",
+    "D:\\@Codex\\594katchang-source.github.io-main\\work\\2026-08-15-seo-review-docs\\source\\remote-sitemap-html-candidate.html"
+  ]
+}

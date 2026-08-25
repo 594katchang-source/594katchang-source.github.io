@@ -176,3 +176,15 @@ h1,h2,h3,p{margin-top:0}h1{max-width:none;margin-bottom:22px;font-size:clamp(2.3
 @media(max-width:960px){.post-tools{grid-template-columns:1fr 1fr}.post-tools .btn{grid-column:1 / -1;justify-self:start}}
 @media(max-width:520px){.post-tools{grid-template-columns:1fr;margin-inline:0;padding:16px;border-radius:20px}.post-tools .btn{width:100%}.post-results{font-size:1.05rem;line-height:1.6}.post-empty{font-size:1.1rem;line-height:1.7}}
 
+.category-tag {
+  display: inline-block;
+  padding: 2px 10px;
+  background: #eef6f2;
+  color: var(--green-dark);
+  border-radius: 6px;
+  font-weight: 800;
+  font-size: 0.95rem;
+  border: 1px solid rgba(46,125,90,0.15);
+}
+
+
