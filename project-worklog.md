@@ -1632,3 +1632,27 @@
 - **封面圖檔名與發布日同步**：將維生素篇封面圖片由 `2026-08-23-vitamins-book-notes.png` 重新命名為 `2026-08-25-vitamins-book-notes.png`，與文章發布日期完全一致。
 - **寫入專案硬性規則**：在 `agent.md` 明確訂定「新文章發布一律以正式推上 GitHub 當日為發布日期（`post.date`），且封面圖檔名前綴必須與發布日相同（`YYYY-MM-DD-slug.png`）」。
 - **分類與搜尋機制優化**：全站 11 篇衛教文章分類與關鍵字全面升級，文章內頁修復分類顯示（`.category-tag`），並完成全站 `sitemap.xml`、`llms.txt` 同步更新。
+
+## 2026-08-25｜第八章批註修正收工
+
+### 已完成
+
+- 完成第八章 Word 批註修正，將「省時版本：」與判斷表放到正文四個生活問題之前。
+- Word 與同源 Markdown 均已存在於既有 `work\2026-08-15-seo-review-docs\output`。
+
+### 已驗證
+
+- Word QA 通過：170 個段落、9 張表格、43 個標題、21 個外部連結、正文 8,110 字元，去除空白後 7,538 字元，表格寬度 9360 DXA，DOCX ZIP 有效，禁用詞命中 0 次。
+- 可讀性檢查 high、medium、low 均為 0，順序檢查已加入 `source\qa_chapter8_word.py`。
+- `git diff --check` 通過。收工前 `git status --porcelain=v2` 無輸出，分支 `main` 與 `origin/main` 均在 `54072af`。
+
+### 尚未完成與仍有風險
+
+- LibreOffice `soffice.exe` 缺少，PDF、PNG 與逐頁畫面檢查尚未完成。
+- 第八章仍待人工審閱確認，尚未進入網站編排、發布或第九章產出。
+- 本次收工未執行 commit 或 push，網站與共享文章資料未修改。
+
+### 本次使用者偏好與規則回寫
+
+- 依使用者批註，Word 為人工審閱主檔，正文入口順序需固定保留「省時版本：」在四個生活問題之前。
+- 已將該順序寫入 `agent.md` 與章節 QA。未修改通用 skill。
