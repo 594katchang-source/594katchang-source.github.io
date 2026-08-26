@@ -1,7 +1,58 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T08:46:42.815Z",
+  "generatedAt": "2026-08-26T09:01:19.122Z",
   "papers": [
+    {
+      "id": "doi:10.12701/jyms.2026.43.51:digest",
+      "paperId": "doi:10.12701/jyms.2026.43.51",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Vitamin B deficiency and sarcopenia: an integrated narrative review of metabolic, inflammatory, endoplasmic reticulum stress, and myokine signaling pathways.",
+      "authors": "Kwon K, Lee S, Kwon J, Kim S",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.12701/jyms.2026.43.51",
+      "abstract": "Sarcopenia is an age-related skeletal muscle disorder characterized by progressive decline in muscle mass, strength, and physical performance, leading to frailty, disability, falls, and increased mortality. Although its pathogenesis is multifactorial, growing evidence indicates that vitamin B complex deficiency contributes to muscle deterioration through interconnected metabolic and signaling pathways. This narrative review summarizes current evidence regarding the roles of B vitamins in skeletal muscle biology and their potential contribution to sarcopenia. Vitamin B deficiency impairs mitochondrial energy metabolism by reducing cofactor availability and adenosine triphosphate production, thereby increasing oxidative stress and chronic inflammation. These disturbances may trigger endoplasmic reticulum stress and the integrated stress response, leading to activating transcription factor 4 (ATF4)-dependent induction of growth differentiation factor 15 (GDF15) and fibroblast growth factor 21 (FGF21) expression. Collectively, these changes disrupt protein homeostasis, suppress anabolic signaling, impair neuromuscular function, and alter myokine secretion by reducing anabolic mediators while increasing catabolic and inflammatory myokines, thereby accelerating muscle loss and functional decline. Current evidence is the strongest for vitamins B6, B9, and B12, whereas mechanistic and clinical data for B2, B3, B5, and B7 remain limited. Overall, vitamin B deficiency can be viewed as a modifiable biological contributor to sarcopenia. Well-designed prospective studies and randomized clinical trials are required to clarify causality, validate biomarkers, and determine whether targeted vitamin B supplementation can enhance exercise- and nutrition-based strategies for preserving muscle health in older adults.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42544408/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "precision nutrition",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "維生素 B 缺乏與肌少症機轉及營養照護的全文內容整理",
+      "content": "---\ntags: [research/digest, aging-nutrition, sarcopenia, vitamin-b, precision-nutrition]\ncitekey: Kwon2026VitaminBSarcopenia\ndoi: 10.12701/jyms.2026.43.51\naliases: [Vitamin B deficiency and sarcopenia: an integrated narrative review of metabolic, inflammatory, endoplasmic reticulum stress, and myokine signaling pathways]\n---\n\n> [!summary] 30 秒層：一句話與重點\n> 這篇敘述性回顧提出，維生素 B 缺乏可能透過能量代謝、氧化壓力、發炎、內質網壓力與神經肌肉功能，參與肌少症的形成，但人體因果證據仍弱於細胞與動物機轉證據。\n> - 人體與臨床訊號目前以 B6、B9、B12 較值得追蹤，B2、B3、B5、B7 的直接臨床資料較少。\n> - B12 不足與後續肌少症發生的關聯曾在社區高齡者縱向研究中出現，但補充 B12 能否預防或改善肌少症，仍需試驗確認。\n> - 同半胱胺酸可作為 B6、B9、B12 功能狀態的輔助線索，受到腎功能與心血管共病影響，不能單獨診斷營養缺乏。\n> - 實務重點仍是阻力運動、足量蛋白質、肌力與功能監測，以及針對檢驗確認的缺乏進行補充，不能把單一維生素補充當作肌少症治療。\n> 研究設計為敘述性回顧，未做正式品質評估或統合分析。品質未評讀（內容整理）。\n\n## 5 分鐘層：研究內容整理\n\n**要點**：作者把各種維生素 B 放進同一個肌肉生物學架構，提出可供臨床假說使用的路徑，但沒有把機轉假說當成已證實的治療效果。\n\n## 全文地圖\n\n**要點**：文章從肌少症的診斷與照護背景開始，再逐一說明 B1 至 B12 的代謝角色，最後整合肌肉細胞壓力反應、肌肉激素與精準營養方向。\n\n- 研究類型：narrative review。\n- 文獻來源：PubMed/MEDLINE，搜尋詞涵蓋 sarcopenia、vitamin B complex、各 B 群名稱、myokine 與 skeletal muscle，主要納入 2015–2025 年文獻，也回查早期關鍵研究。\n- 作者沒有提供正式納入排除流程、偏倚評估、效應量統合或證據分級。選文依相關性與機轉重要性判斷。\n- 肌少症核心評估依 EWGSOP2 與 AWGS 2019 的三個領域：肌力、肌肉量、身體功能。低肌力是 probable sarcopenia 的主要起點。\n- 治療背景以阻力運動、營養補充、蛋白質攝取與功能維持為主，目前尚無 FDA 或 EMA 核准的肌少症藥物。\n\n## 各維生素 B 重點\n\n**要點**：B 群的共同主軸是支援 ATP、胺基酸或一碳代謝、抗氧化防禦、DNA 合成與神經肌肉功能，但不同維生素的人體證據強度差距很大。\n\n| 維生素 | 主要角色 | 與肌少症的證據解讀 |\n|---|---|---|\n| B1 硫胺素 | 丙酮酸去氫酶與 α-酮戊二酸去氫酶的輔酶，支援 ATP 與神經功能 | 生物學合理，直接人體肌少症資料有限 |\n| B2 核黃素 | FAD、FMN、電子傳遞鏈、穀胱甘肽還原與蛋白質折疊 | 以細胞與動物機轉為主，缺少直接人體資料 |\n| B3 菸鹼素 | NAD、SIRT1、Akt/mTOR、PGC-1α 與氧化還原反應 | 機轉線索多，臨床連結仍稀少 |\n| B5 泛酸 | CoA 合成與能量代謝 | 對肌少症的推論性較高，證據少 |\n| B6 吡哆醇 | PLP 輔酶、胺基酸代謝、同半胱胺酸、犬尿胺酸與發炎訊號 | 有觀察性與新興臨床線索，因果仍待試驗 |\n| B7 生物素 | 羧化酶反應與脂肪、胺基酸、葡萄糖代謝 | 目前直接證據不足 |\n| B9 葉酸 | 一碳代謝、DNA 修復、甲基化、同半胱胺酸代謝 | 有觀察性及實驗支持，介入試驗有限 |\n| B12 鈷胺素 | 甲硫胺酸合成酶、甲基丙二醯輔酶 A 變位酶、神經髓鞘與 DNA/蛋白質穩定 | 人體關聯訊號較清楚，補充效果仍未確定 |\n\n## 機轉白話講解\n\n**要點**：作者提出的整合模型是「輔酶不足 → 粒線體能量下降與氧化壓力上升 → 發炎及內質網壓力 → 蛋白質平衡、神經肌肉和肌肉激素訊號受干擾」。這是一個待驗證模型。\n\n1. B 群供應不足時，粒線體製造 ATP 的反應可能受限，肌肉細胞的能量餘裕降低。\n2. 能量與氧化還原失衡可能增加 ROS，並促進慢性發炎與蛋白質分解訊號。\n3. 內質網壓力可啟動 integrated stress response，ATF4 可能促進 GDF15 與 FGF21 表現。\n4. 這些壓力訊號可能影響肌肉蛋白質合成、分解、修復能力與肌肉再生。\n5. 肌肉也可視為內分泌器官。irisin、IGF-1、IL-15 等偏向合成與適應，myostatin 與慢性 IL-6 等訊號則偏向分解或發炎。作者推測 B 群狀態可能改變這些訊號，現有直接證據仍少。\n\n## 研究中可直接支援實務的內容\n\n**要點**：文章最適合用來建立評估問題與研究假說，適合拿來支持「檢查缺乏、修正飲食、搭配運動與追蹤功能」的照護方向，不能單獨用來宣稱補充 B 群可治療肌少症。\n\n- 健康高齡者蛋白質攝取可參考 1.0–1.2 g/kg/day，實際量仍要依腎功能、疾病狀態、活動量與營養目標調整。\n- 肌少症評估可同時追蹤握力、步行速度或其他身體功能、四肢骨骼肌量，以及體重變化、飲食量、吞嚥、吸收、慢性病與藥物使用。\n- 高齡者若有攝取不足、吞嚥困難、吸收不良、慢性病或多重用藥，B12、B6、葉酸狀態較值得依病史與檢驗考慮。\n- 同半胱胺酸可協助辨識 B6、B9、B12 的功能性異常，但腎功能、心血管疾病與其他因素也會影響數值，必須搭配相關維生素檢驗與臨床情境。\n- myokine 尚無一致的臨床切點，不能把 irisin、GDF15 或 FGF21 當成現成的肌少症營養篩檢工具。\n- GLP-1 receptor agonist 使用者的食量下降與肌肉量維持值得納入營養監測，本文只提出監測必要性，沒有測試特定藥物或補充方案。\n\n## 重要限制與證據邊界\n\n**要點**：本文的核心限制是人體數據量少、研究設計多為觀察性或實驗性，且缺少針對已確認缺乏者的隨機補充試驗。\n\n- 肌少症與維生素 B 缺乏可能同時受到食量不足、吸收不良、腎病、慢性發炎、疾病嚴重度與多重用藥影響，觀察到的關聯未必代表單一營養因果。\n- B2、B3、B5、B7 的許多推論來自細胞或動物研究，不能直接轉成高齡者補充建議。\n- B6、B9、B12 雖有較多人體線索，仍缺少足以確認劑量、療程、適用族群與功能成效的試驗。\n- 文章沒有提供補充後握力、步速、肌肉量或跌倒結果的統合效應。\n- 作者建議未來研究先確認生化缺乏，再使用 AWGS 或 EWGSOP2 的肌少症標準，並追蹤握力、步行速度與四肢骨骼肌量。\n\n## 與既有認知的對照\n\n**要點**：這篇文章把 B 群狀態放進肌少症評估架構，補充了營養缺乏可能影響粒線體、神經肌肉與肌肉激素的路徑。它沒有推翻現有肌少症照護主軸，阻力運動、蛋白質與功能追蹤仍是臨床核心。\n\n- 新增的看法：把 ER stress、ISR、ATF4、GDF15、FGF21 與 myokine 放進同一個假說架構。\n- 仍然成立的照護基礎：評估飲食與蛋白質、修正可逆缺乏、安排運動、監測肌力與功能。\n- 需要保留的距離：機轉路徑不能取代人體成效研究，生物標記也不能取代營養診斷與功能評估。\n\n## 概念與名詞整理\n\n- **EWGSOP2 / AWGS 2019**：肌少症診斷與分期常用的專家共識框架，涵蓋肌力、肌肉量與身體功能。\n- **PLP**：維生素 B6 的活性形式，參與多種胺基酸與神經傳導相關反應。\n- **同半胱胺酸**：可反映 B6、B9、B12 相關代謝狀態的輔助指標，特異性有限。\n- **ER stress**：內質網壓力，代表蛋白質折疊與細胞穩定受到負荷。\n- **ISR**：整合性壓力反應，細胞在能量或蛋白質壓力下重新分配合成與存活資源的反應。\n- **ATF4**：壓力反應轉錄因子，可能連結胺基酸不足、粒線體壓力與 GDF15 表現。\n- **Myokine**：肌肉活動或壓力狀態下釋放的訊號分子，可能影響代謝、發炎與其他組織。\n- **精準營養**：依個人的營養狀態、疾病、功能、檢驗與可能的多體學資訊調整介入，本文仍把它放在研究方向階段。\n\n## 自我測驗\n\n> [!question]- Q1：這篇回顧對 B 群與肌少症的主要結論是什麼？\n> B 群缺乏在生物學上可能參與肌少症，但人體因果證據尚未成熟。B6、B9、B12 的臨床線索較多，不能把機轉研究直接當成補充有效的證明。\n\n> [!question]- Q2：為什麼 B12 不足與肌少症的關聯不能直接等於補充 B12 有效？\n> 關聯研究可能受到飲食、吸收、腎功能、慢性病、發炎與整體健康狀態影響。要確認補充效果，仍需要針對缺乏者設計的隨機試驗，並追蹤握力、功能與肌肉量。\n\n> [!question]- Q3：同半胱胺酸在營養評估中可以怎麼用？\n> 它可作為 B6、B9、B12 功能狀態的輔助線索，需搭配維生素檢驗、腎功能、疾病史、飲食與藥物資料。它不能單獨診斷缺乏，也不能單獨診斷肌少症。\n\n> [!question]- Q4：對營養照護最穩妥的做法是什麼？\n> 先確認攝取不足或生化缺乏，再依個案狀態補足飲食與營養，搭配阻力運動與足量蛋白質，追蹤握力、步速、肌肉量、體重和功能。不能把單一 B 群補充當成取代運動或蛋白質照護的方案。\n\n## Reference\n\nKwon K, Lee S, Kwon J, Kim SW. Vitamin B deficiency and sarcopenia: an integrated narrative review of metabolic, inflammatory, endoplasmic reticulum stress, and myokine signaling pathways. Journal of Yeungnam Medical Science. 2026;43:51. DOI: `10.12701/jyms.2026.43.51`.\n\n全文來源：[Yeungnam Journal of Medical Science 開放 PDF](https://www.e-jyms.org/upload/pdf/jyms-2026-43-51.pdf)。已核對題名與 DOI，28 頁，正文約 66,693 字元，包含 Introduction、主要機轉段落、臨床意涵、限制與 Conclusion。",
+      "cards": [
+        {
+          "title": "",
+          "question": "這篇回顧對維生素 B 與肌少症的主要結論是什麼？",
+          "answer": "維生素 B 缺乏在生物學上可能參與肌少症，但人體因果證據仍有限。B6、B9、B12 的臨床線索較多，B2、B3、B5、B7 仍以機轉或實驗資料為主。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "為什麼 B12 不足與肌少症的關聯不能直接等於補充 B12 有效？",
+          "answer": "關聯可能受到飲食、吸收、腎功能、慢性病、發炎與多重用藥影響。需要針對生化缺乏者進行隨機試驗，並追蹤握力、功能與肌肉量，才能判斷補充效果。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "同半胱胺酸在營養評估中可以怎麼用？",
+          "answer": "可作為 B6、B9、B12 功能狀態的輔助線索，但受到腎功能與心血管共病等因素影響，必須搭配維生素檢驗、病史、飲食與藥物資料。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "對營養照護最穩妥的做法是什麼？",
+          "answer": "確認攝取不足或生化缺乏後再補足，搭配阻力運動與足量蛋白質，追蹤握力、步速、肌肉量、體重與功能。ER stress、ISR、ATF4、GDF15、FGF21 與 myokine 目前較適合作為研究假說，不能取代臨床評估。",
+          "tags": []
+        }
+      ],
+      "completedAt": "2026-08-26T08:59:05.026Z"
+    },
     {
       "id": "doi:10.21037/jtd-2026-0864:digest",
       "paperId": "doi:10.21037/jtd-2026-0864",
