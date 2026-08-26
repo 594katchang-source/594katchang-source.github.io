@@ -1,7 +1,73 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T08:00:18.623Z",
+  "generatedAt": "2026-08-26T08:46:42.815Z",
   "papers": [
+    {
+      "id": "doi:10.21037/jtd-2026-0864:digest",
+      "paperId": "doi:10.21037/jtd-2026-0864",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Low central venous oxygen saturation on critical care unit admission is associated with higher in-hospital mortality in critically ill patients with acute myocardial infarction.",
+      "authors": "Yang L, Liao Y, Li X, Li L, Luo D, Zhang C",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.21037/jtd-2026-0864",
+      "abstract": "Acute myocardial infarction (AMI) remains a major contributor to global morbidity and mortality, necessitating early risk stratification in critically ill ventilated patients. Central venous oxygen saturation (ScvO2) reflects systemic oxygen balance and guides hemodynamic therapy. However, current AMI risk models do not incorporate ScvO2 or similar parameters, and the association of critical care unit (CCU) admission ScvO2 with in-hospital mortality remains poorly characterized specifically in critically ill AMI patients requiring mechanical ventilation. This knowledge gap limits ScvO2's evidence-based use. Therefore, this study aims to evaluate the independent association between ScvO2 at CCU admission and in-hospital mortality in this population. We conducted a post hoc analysis of a prospective cohort of critically ill AMI patients admitted to the CCU between August 2021 and January 2022. Inclusion criteria were age ≥18 years, confirmed AMI, and mechanical ventilation requirement. Baseline variables were collected at CCU admission. ScvO2 was measured via central venous catheterization using calibrated blood gas analyzers. The primary endpoint was in-hospital mortality. Covariates related to ScvO2 and in-hospital mortality were identified using a directed acyclic graph, and highly collinear variables were removed using the variance inflation factor. Multivariable logistic regression and restricted cubic spline analysis were used to examine the independent association between ScvO2 and mortality. Subgroup analyses were performed to further explore the relationship. A total of 179 patients were enrolled, with a median age of 60 years, 70.95% being male, and an in-hospital mortality rate of 26.26%. After full adjustment for time to reperfusion, left ventricular ejection fraction, tricuspid annular plane systolic excursion, arterial oxygen saturation, C-reactive protein, albumin, anterior wall myocardial infarction, frailty score at admission, Sequential Organ Failure Assessment (SOFA) score at admission, intra-aortic balloon pump and use of vasopressors or inotropes, each 1% increase in ScvO2 was associated with a 5% lower mortality risk [odds ratio (OR) =0.95, 95% confidence interval (CI): 0.91-0.98, P=0.004]. When analyzed by tertiles, patients in the highest ScvO2 tertile (tertile 3) demonstrated an 82% lower mortality risk compared to the lowest tertile (tertile 1) (OR =0.18, 95% CI: 0.06-0.55, P=0.003), while tertile 2 patients showed no statistically significant difference versus tertile 1 (OR =1.02, 95% CI: 0.41-2.25, P=0.97), with a significant P for trend of 0.004. Subgroup analyses confirmed the consistent association across different patient characteristics. In critically ill ventilated AMI patients undergoing ScvO2 monitoring, lower ScvO2 at CCU admission is associated with higher in-hospital mortality. As an early and easily obtained parameter, ScvO2 may facilitate risk stratification and identify high-risk patients needing closer monitoring and timely intervention.",
+      "legalFullTextUrl": "https://doi.org/10.21037/jtd-2026-0864",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42583294/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "design:RCT",
+        "human clinical population",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "重症急性心肌梗塞病人的 ScvO₂ 與院內死亡關聯的全文內容整理",
+      "content": "---\ntags: [research/digest, critical-care, acute-myocardial-infarction, ScvO2, mortality]\ncitekey: Yang2026ScvO2AMI\ndoi: 10.21037/jtd-2026-0864\naliases: [Low central venous oxygen saturation on critical care unit admission is associated with higher in-hospital mortality in critically ill patients with acute myocardial infarction]\n---\n\n> [!summary] 30 秒層：一句話與重點\n> 這篇回溯性次級分析顯示，在需要侵入性機械通氣且接受 ScvO₂ 監測的急性心肌梗塞重症病人中，CCU 入院時 ScvO₂ 越低，院內死亡風險越高。\n> - 179 名成人納入分析，47 人院內死亡，死亡率 26.26%。\n> - ScvO₂ 每增加 1 個百分點，完整調整模型的院內死亡勝算比為 0.95，95% CI 0.91–0.98，P=0.004。\n> - 最高三分位與最低三分位比較，院內死亡勝算比為 0.18，95% CI 0.06–0.55，P=0.003。\n> - 結果只適用於已接受 ScvO₂ 監測的機械通氣 AMI 重症族群，尚不能直接當成介入門檻。\n> 品質未評讀（內容整理）。需可信度判斷 → /paper-review\n\n## 5 分鐘層：研究內容整理\n\n**要點**：研究問題、方法、數字結果、限制與營養照護用法如下，先讀各節的要點句即可掌握全文主軸。\n\n## 研究在問什麼\n\n**要點**：研究者想知道 CCU 入院時的中心靜脈血氧飽和度，能否補充現有風險評估，辨識機械通氣 AMI 病人的院內死亡風險。\n\n- ScvO₂ 以中心靜脈導管取得，反映全身氧輸送與氧消耗的平衡。\n- AMI 合併呼吸衰竭、機械通氣與重症循環問題時，心輸出量與組織氧合可能快速惡化。\n- 既有 GRACE、TIMI 等風險分數及乳酸、BNP 等指標，各自反映疾病嚴重度或特定生理面向，未直接整合全身氧供需平衡。\n- 作者指出，過去常見的 ScvO₂ 目標值來自敗血症或心胸手術族群，能否套用到機械通氣 AMI 病人仍有疑問。\n\n## 方法\n\n**要點**：本文使用巴基斯坦單一心血管中心既有前瞻性觀察性 cohort 的公開資料，做回溯性次級分析。\n\n- 研究期間：2021 年 8 月至 2022 年 1 月。\n- 對象：成人 AMI 病人，症狀發生後 24 小時內因呼吸衰竭接受侵入性機械通氣，且有 CCU 入院時 ScvO₂ 紀錄。\n- 排除條件：住院期間未接受血管再通、初評有嚴重缺氧性腦病變、缺少入院 ScvO₂。\n- 原始資料庫 312 人，因缺少 ScvO₂ 排除 133 人，最後納入 179 人。\n- 主要暴露：CCU 入院 ScvO₂，作為連續變項，也分成三分位。\n- 三分位範圍：第一分位 25–54%，58 人。第二分位 55–64%，59 人。第三分位 65–86%，62 人。\n- 主要結果：院內死亡。\n- 共變項處理：變項缺失超過 20% 時不納入多變項模型。其餘缺失資料使用 missForest Random Forest 多重插補。\n- 完整調整模型納入到院再灌流時間、左心室射出分率、三尖瓣環平面收縮期位移、動脈血氧飽和度、C 反應蛋白、白蛋白、前壁 AMI、入院衰弱分數、SOFA 分數、主動脈內氣球幫浦、升壓劑或正性肌力劑使用。\n- 分析方法：單變項與多變項 logistic regression、限制立方樣條、次群組分析、完整個案與插補資料敏感度分析。\n\n## 主要發現\n\n**要點**：較高 ScvO₂ 與較低院內死亡勝算呈近似線性反向關聯，結果在多項心臟、氧合、衰弱與器官衰竭指標調整後仍存在。\n\n| 結果 | 數值 | 讀法 |\n|---|---:|---|\n| 全體院內死亡 | 47/179，26.26% | 研究族群本身屬高風險重症病人 |\n| 第一分位死亡 | 20/58，34.48% | ScvO₂ 25–54% |\n| 第二分位死亡 | 18/59，30.51% | ScvO₂ 55–64% |\n| 第三分位死亡 | 9/62，14.52% | ScvO₂ 65–86% |\n| 完整模型，ScvO₂ 每增加 1% | OR 0.95，95% CI 0.91–0.98，P=0.004 | 與較低院內死亡勝算相關 |\n| 完整模型，第二分位對第一分位 | OR 1.02，95% CI 0.41–2.25，P=0.97 | 沒有統計差異 |\n| 完整模型，第三分位對第一分位 | OR 0.18，95% CI 0.06–0.55，P=0.003 | 勝算約低 82% |\n| 三分位線性趨勢 | P for trend=0.004 | 三分位越高，死亡勝算呈下降趨勢 |\n| RCS 非線性檢定 | P for non-linearity=0.052 | 主要呈線性反向關聯，未顯示明確非線性 |\n\n基線資料中，第三分位的糖尿病比例較低，SOFA 分數與三尖瓣環平面收縮期位移在三組間有差異。第一分位的中位 ScvO₂ 約 48.5%，第二分位約 60.0%，第三分位約 70.0%。\n\n單變項分析顯示，較低 ScvO₂、較高 C 反應蛋白、較高衰弱分數、較高 SOFA、較低左心室射出分率、糖尿病、TIMI flow < III 與主動脈內氣球幫浦使用，和院內死亡相關。\n\n次群組分析大致支持主結果。右冠狀動脈為 culprit vessel 時出現交互作用，該次群組內 ScvO₂ 與死亡的關聯未達統計顯著，沒有右冠狀動脈 culprit vessel 的病人則呈較明顯的反向關聯。這項結果需視為探索性訊號。\n\n## 機轉白話講解\n\n**要點**：ScvO₂ 可把心臟輸出、氧輸送、組織氧消耗與氧萃取的結果放在同一個生理指標裡，但它仍是整體監測的一部分。\n\n可以把動脈端送出的氧想成送進城市的貨物，組織消耗後，靜脈端留下的氧就是剩餘量。當心輸出下降或組織需要更多氧，身體會提高氧萃取，回到中心靜脈的血氧可能下降。對機械通氣 AMI 病人來說，低 ScvO₂ 可能同時反映心肌受損、心輸出不足、循環灌流差與全身代謝壓力。\n\nScvO₂ 與 SvO₂ 相關，但兩者量測位置與血液混合情形不同。作者整理的資料指出，重症病人的 ScvO₂ 通常比 SvO₂ 高約 3–11%，所以兩者不能直接互換。正常生理狀態的 ScvO₂ 約 70–75%，心臟手術與敗血症研究常把 60–65% 或 70% 附近當作風險參考，但 AMI 機械通氣族群的適用值仍需另行驗證。\n\n高 ScvO₂ 也未必代表安全。敗血症的微循環障礙可能讓組織無法有效利用氧，造成靜脈端血氧偏高。這說明 ScvO₂ 要放回疾病情境、乳酸、血壓、尿量、心臟超音波、器官功能與治療反應中解讀。\n\n## 臨床意義與怎麼用\n\n**要點**：ScvO₂ 可作為重症 AMI 入院時的風險分層訊號，不能單獨決定治療，也不能直接用本研究三分位範圍取代個別化判斷。\n\n- 重症照護團隊可把低 ScvO₂ 視為需要加密監測的訊號，並同步查看心輸出、灌流、乳酸、血氧、心臟功能、衰弱與器官衰竭。\n- 營養照護上，白蛋白、衰弱分數與 SOFA 都出現在作者的調整架構中，提示營養風險和整體重症程度需放在同一張評估圖裡。白蛋白不能單獨當成營養狀態診斷，也不能用來解釋 ScvO₂ 的全部變化。\n- 低 ScvO₂ 代表風險分層需要更仔細，並不代表營養補充可以直接改善死亡率。營養支持仍要依血流動力穩定度、灌流、腸胃道功能、蛋白質與能量需求、再灌流治療及器官功能安排。\n- ScvO₂ 是單一時間點的入院測量，研究沒有證明持續追蹤或把 ScvO₂ 拉高會改善結果。\n- 本文未提供營養介入、蛋白質攝取、腸道營養時機或營養支持策略的比較結果，不能直接轉成醫療營養治療處方。\n\n## 重要圖表重述\n\n**要點**：圖表把族群分層、死亡差異、調整後 OR、次群組關聯與線性趨勢串起來。\n\n- Figure 1：呈現原始資料由 312 人經缺失 ScvO₂ 排除後，納入 179 人的流程。\n- Table 1：三組年齡中位數相近，第三分位糖尿病比例較低，死亡率由第一分位的 34.48% 降至第三分位的 14.52%。\n- Table 2：單變項分析列出 ScvO₂、衰弱、SOFA、左心室射出分率、C 反應蛋白、TIMI flow 與主動脈內氣球幫浦等訊號。\n- Table 3：完整調整後，連續 ScvO₂ 與三分位分析都保留反向關聯，第三分位相對第一分位 OR 0.18。\n- Table 4：多數次群組方向一致，右冠狀動脈 culprit vessel 顯示交互作用。\n- Figure 2：限制立方樣條呈現 ScvO₂ 與院內死亡的近似線性反向關聯，非線性檢定 P=0.052。\n\n## 與既有認知的對照\n\nvault 無相關既有筆記。本文把 ScvO₂ 從一般敗血症或心胸手術的參考指標，放到機械通氣 AMI 重症族群中重新觀察。它補充了族群情境，沒有建立可直接套用的治療門檻。\n\n## 概念與名詞整理\n\n- **ScvO₂**：中心靜脈血氧飽和度，常由上腔靜脈或右心房附近取血，作為全身氧供需平衡的整合指標。\n- **SvO₂**：混合靜脈血氧飽和度，通常從肺動脈血液取得。ScvO₂ 可作為臨床替代指標，但兩者不等同。\n- **AMI**：急性心肌梗塞，本文研究的是需要侵入性機械通氣的重症成人。\n- **CCU**：心臟加護單位。本文的 ScvO₂ 是入院時測量。\n- **SOFA**：評估器官衰竭程度的分數，較高通常代表重症程度較高。\n- **Frailty score**：衰弱分數，本文將入院衰弱納入直接效果模型的調整變項。\n- **OR**：勝算比。本文是觀察性 logistic regression，OR 反映關聯，不能單獨解讀成治療效果。\n- **Tertile**：三分位分組。本文第一分位 25–54%，第二分位 55–64%，第三分位 65–86%。\n\n## 自我測驗\n\n> [!question]- Q1：這篇研究最主要的結果是什麼？\n> 在需要機械通氣且接受 ScvO₂ 監測的 AMI 重症成人中，CCU 入院時 ScvO₂ 越低，院內死亡勝算越高。完整模型中 ScvO₂ 每增加 1%，死亡 OR 為 0.95。\n\n> [!question]- Q2：為什麼不能直接把 60% 或 70% 當成所有 AMI 病人的治療目標？\n> 既有門檻多來自敗血症或心胸手術族群。本文是單中心、回溯性次級分析，研究的是已接受機械通氣與 ScvO₂ 監測的 AMI 病人，沒有測試把 ScvO₂ 拉高是否改善結果，也未驗證一個通用治療切點。\n\n> [!question]- Q3：ScvO₂ 低時，臨床上還要一起看哪些資料？\n> 要和心輸出、血壓、乳酸、動脈血氧、心臟超音波、灌流、尿量、SOFA、衰弱與治療反應一起解讀。ScvO₂ 是整合訊號，不能單獨代表心輸出或組織氧利用。\n\n> [!question]- Q4：這篇研究對營養師最實用的提醒是什麼？\n> 低 ScvO₂ 可提醒團隊把病人視為高風險重症個案，營養評估要連同血流動力、衰弱、器官功能與腸胃道耐受度安排。研究沒有比較營養支持方案，所以不能從本文直接訂出蛋白質、熱量或餵養時機處方。\n\n## Reference\n\nYang L, Liao Y, Li X, Li L, Luo D, Zhang C. Low central venous oxygen saturation on critical care unit admission is associated with higher in-hospital mortality in critically ill patients with acute myocardial infarction. Journal of Thoracic Disease. 2026;18(7):724. DOI: `10.21037/jtd-2026-0864`.\n\n全文來源：AME 官方完整 HTML，https://jtd.amegroups.org/article/view/120548/html。已核對題名與 DOI，正文約 60,532 字元，含 Introduction、Methods、Results、Discussion、Conclusions、表格與圖說。",
+      "cards": [
+        {
+          "title": "ScvO₂ 與 AMI 重症死亡風險",
+          "question": "這篇研究中，ScvO₂ 每增加 1% 對院內死亡的完整調整 OR 是多少？",
+          "answer": "OR 0.95，95% CI 0.91–0.98，P=0.004。這是觀察性關聯，不能直接當成提高 ScvO₂ 就能降低死亡的證據。",
+          "tags": [
+            "acute-myocardial-infarction",
+            "critical-care",
+            "ScvO2"
+          ]
+        },
+        {
+          "title": "ScvO₂ 三分位怎麼讀",
+          "question": "最高 ScvO₂ 三分位和最低三分位的院內死亡結果有何差異？",
+          "answer": "最高三分位 65–86% 的院內死亡率為 14.52%，最低三分位 25–54% 為 34.48%。完整模型 OR 0.18，95% CI 0.06–0.55。",
+          "tags": [
+            "acute-myocardial-infarction",
+            "mortality",
+            "risk-stratification"
+          ]
+        },
+        {
+          "title": "ScvO₂ 不能單獨下結論",
+          "question": "低 ScvO₂ 出現時，為什麼不能只靠這個數值決定處置？",
+          "answer": "ScvO₂ 會受心輸出、氧消耗、灌流、微循環與量測位置影響。應同步看乳酸、血壓、尿量、心臟超音波、動脈血氧、SOFA、衰弱與治療反應。",
+          "tags": [
+            "critical-care",
+            "hemodynamics",
+            "clinical-interpretation"
+          ]
+        },
+        {
+          "title": "研究結果能否直接變成營養處方",
+          "question": "這篇文章能否直接訂出 AMI 重症病人的熱量、蛋白質或餵養時機？",
+          "answer": "不能。本文沒有比較營養支持方案，ScvO₂ 只提供風險分層訊號。營養安排仍要配合血流動力穩定度、腸胃道功能、器官功能與整體重症評估。",
+          "tags": [
+            "nutrition-care",
+            "critical-care",
+            "medical-nutrition-therapy"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-26T08:46:00.538Z"
+    },
     {
       "id": "doi:10.2147/ijwh.s619242:digest",
       "paperId": "doi:10.2147/ijwh.s619242",
