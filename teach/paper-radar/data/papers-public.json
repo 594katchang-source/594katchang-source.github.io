@@ -1,7 +1,59 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T09:09:25.961Z",
+  "generatedAt": "2026-08-26T09:14:26.732Z",
   "papers": [
+    {
+      "id": "doi:10.1016/j.pcd.2026.06.004:digest",
+      "paperId": "doi:10.1016/j.pcd.2026.06.004",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Dietary approaches for glycemic management in type 1 diabetes: A systematic review of Mediterranean and low-carbohydrate diets.",
+      "authors": "Feeley J, Abraham A, Gonzalez N, Parab R, Chadalawada L, Pasquel F",
+      "journal": "Nutrition guidelines and consensus (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.pcd.2026.06.004",
+      "abstract": "Specific dietary approaches for better management of type 1 diabetes (T1D) have not been thoroughly investigated. We conducted a systematic review to evaluate the Mediterranean and low-carbohydrate diets for glycemic management in people with T1D. We examined longitudinal studies (cohort studies and clinical trials) including individuals with T1D who followed low-carbohydrate diets (<26% calories from carbohydrates and/or <130 g of carbohydrates per day) and/or a Mediterranean diet, while hemoglobin A1c (HbA1c) and/or time in range (TIR) were measured. Additional eligibility criteria included publication in English and availability of a full-text primary research article. Non-longitudinal studies, abstracts, and studies published in languages other than English were excluded. Results were synthesized narratively, and the GRADEpro Guideline Development Tool was used to assess article quality. A total of 565 studies were identified from PubMed, the Web of Science, and citation chasing. After removal of duplicates and further evaluation, 22 studies (6 cohort studies and 16 clinical trials; total n = 3284) were included in this review. The search was initially completed in May 2024, and updated February 2026. Low-carbohydrate diets were associated with better glycemic management when compared to usual diets or baseline glycemic parameters. Studies using CGM were overall underpowered. The impact of Mediterranean diets was less clear, but generally appeared to be less effective at improving glycemic management than low-carbohydrate diets. Although structured dietary interventions for T1D hold promise for improving glycemic outcomes, further research is needed to determine exactly which dietary intervention is most beneficial for this population. The evidence provided by included studies is limited by small sample sizes and short durations; better powered, longer-term studies are required to inform clinical recommendations.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42414108/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "clinical nutrition technology",
+        "design:systematic review",
+        "guideline and consensus",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "第一型糖尿病低碳與地中海型飲食的血糖管理證據整理",
+      "content": "---\ntags: [research/digest, diabetes-nutrition, type-1-diabetes, low-carbohydrate-diet, mediterranean-diet]\ncitekey: Feeley2026T1DDietaryApproaches\ndoi: 10.1016/j.pcd.2026.06.004\naliases: [Dietary approaches for glycemic management in type 1 diabetes: A systematic review of Mediterranean and low-carbohydrate diets]\n---\n\n> [!summary] 30 秒層：一句話與重點\n> 這篇系統性回顧整理 22 篇第一型糖尿病縱向研究後指出，低碳飲食在多數研究中與較佳 HbA1c 或 TIR 方向一致，地中海型飲食的結果較不穩定，直接比較仍沒有足夠證據支持單一飲食型態。\n> - 納入 6 篇 cohort 與 16 篇臨床試驗，共 3,284 名參與者，沒有做統合分析。\n> - 低碳飲食定義為每天碳水化合物低於 130 g，或占總熱量低於 26%。\n> - 低碳研究中，3/3 cohort 顯示血糖管理改善，臨床試驗為 7/10；地中海型飲食 cohort 為 1/3、臨床試驗為 2/3。\n> - 低碳飲食常伴隨胰島素用量下降、HbA1c 下降或 TIR 上升，但研究小、介入時間短，營養缺乏、酮體升高、胰島素調整與低血糖安全性都要個別監測。\n> 研究品質受樣本小、研究期間短、飲食遵從性不一致與研究設計差異限制。品質未評讀（內容整理）。\n\n## 5 分鐘層：研究內容整理\n\n**要點**：這篇文章可協助營養師整理第一型糖尿病飲食討論的證據方向，不能把低碳飲食直接當成所有人的標準處方，也不能脫離胰島素與血糖監測單獨執行。\n\n## 全文地圖\n\n**要點**：作者從 PubMed、Web of Science 與引用追查找出研究，依飲食型態與研究設計分組敘述，使用 GRADEpro 進行文章品質判斷，因異質性太高而不做 meta-analysis。\n\n- 研究問題：低碳飲食與地中海型飲食是否改善第一型糖尿病的 HbA1c 或 time in range。\n- 初次搜尋：2024 年 5 月，2026 年 2 月更新。\n- 初步找到 565 篇，去除重複與篩選後納入 22 篇。\n- 研究組成：6 篇 cohort、16 篇臨床試驗，總樣本 3,284 人。\n- 族群：14 篇成人、1 篇兒童、7 篇成人與兒童混合。\n- 介入類型：13 篇低碳、6 篇地中海型、3 篇同時比較或涵蓋兩種型態。\n- 低碳定義：碳水化合物低於每日 130 g，或低於總熱量 26%。\n- 主要結局：HbA1c 與 CGM 的 TIR，TIR 通常定義為 70–180 mg/dL 之間的時間比例。\n- 研究未註冊 protocol，也未做正式統合分析。資料由兩位人員 charting，品質評估由一人完成。\n\n## 低碳飲食的研究結果\n\n**要點**：低碳飲食在 cohort 與多數臨床試驗呈現改善方向，常見結果包括 HbA1c 下降、TIR 上升、餐時或總胰島素用量下降，但研究之間的飲食定義、族群與測量時間不同。\n\n### Cohort 研究\n\n- 低碳 cohort 共 3 篇，3/3 顯示血糖管理改善。\n- 一項長期追蹤研究的 HbA1c 由 7.5% 降至 6.4%，維持至 12 個月。\n- 另一項研究中，低碳組 TIR 77.4%，中碳組 75.2%，高碳組 70.4%。\n- 一項教育與低碳飲食追蹤顯示，遵從度高者 HbA1c 下降約 1.8%，部分遵從者約下降 0.7%，未遵從者約下降 0.1%。\n- 低碳 cohort 多未把減重或熱量限制當成主要目標，因此結果不能直接歸因於減重。\n\n### 臨床試驗\n\n- 低碳臨床試驗共 10 篇，7/10 顯示 HbA1c 或 TIR 改善。\n- 多篇研究觀察到 HbA1c 下降約 0.6–1.1%，或 TIR 上升約 11–16 個百分點。\n- 一項研究的 TIR 低碳組 83.0%，高碳組 72.0%。\n- 一項兒童與青少年 crossover 試驗顯示，低碳組 TIR 77.1%，建議碳水組 73.8%。\n- 也有研究未發現 HbA1c 或 TIR 的顯著差異，顯示低碳效果並非每個試驗都一致。\n- 有研究觀察到低碳組營養素不足，包括鐵、鈣、維生素 B1 與葉酸，並有參與者因難以維持飲食退出。\n\n## 地中海型飲食的研究結果\n\n**要點**：地中海型飲食有些研究出現 HbA1c 或 TIR 改善，但在 cohort 與試驗中的方向較不一致，直接比較沒有清楚顯示優於其他飲食。\n\n- 地中海型 cohort 共 3 篇，1/3 顯示較佳血糖結果。\n- 一項研究中，高遵從組 HbA1c 7.5%，低遵從組 8.2%，但這是遵從度分組的觀察性比較。\n- 一項地中海型飲食教育研究整體 HbA1c 沒有顯著差異，部分男性與青春期男性有小幅改善。\n- 三篇地中海型臨床研究中，2/3 顯示血糖管理改善。\n- 一項青少年研究 TIR 由 52% 上升至 63%，HbA1c 沒有顯著改變。\n- 一項成人 RCT 比較地中海型與低脂飲食，HbA1c 與低血糖頻率沒有顯著組間差異。\n\n## 直接比較與安全性\n\n**要點**：低碳與地中海型飲食的直接比較仍缺乏明確優勝者，胰島素調整、CGM、低血糖、酮體與微量營養素監測是實務核心。\n\n- 三項試驗同時比較低碳與地中海型飲食，兩者都可能改善血糖，但多數時間點沒有顯著組間差異。\n- 有研究在短期觀察到低碳組 TIR 高於地中海型與參考飲食，但不能外推到長期 HbA1c 或併發症。\n- 低碳飲食常伴隨餐時或總胰島素用量下降，需由糖尿病照護團隊依血糖與 CGM 變化調整，不能自行大幅減藥。\n- 多數研究沒有嚴重低血糖或 DKA，但報告方式不一致，不能把「未報告」等同於「沒有發生」。\n- 一項低碳試驗有短暫酮體升高，一名參與者酮體約 3.0 mmol/L，但沒有症狀且血糖在範圍內。\n- 低碳飲食可能造成鐵、鈣、維生素 B1 與葉酸攝取不足，飲食設計需要保留食物品質與營養密度。\n- 第一型糖尿病的飲食變更不能脫離胰島素、碳水估算、CGM、酮體教育、運動與 sick-day management。\n\n## 白話導讀\n\n**要點**：低碳飲食看起來可能讓部分第一型糖尿病患者的血糖波動變小、TIR 變高或胰島素用量下降，地中海型飲食也可能帶來好處，但研究還不足以替每個人選定同一種飲食。\n\n這篇回顧把研究結果分成兩個層次。第一層是「多數低碳研究的數字方向偏好」，第二層是「試驗能不能證明低碳比其他飲食更好」。第一層較有訊號，第二層仍不夠清楚。原因包括樣本數小、研究期間短、飲食遵從度不同、CGM 使用時間不一、TIR 定義有差異，以及有些研究同時改變熱量或提供營養教育。\n\n營養師在討論低碳飲食時，不能只看 HbA1c。還要看 TIR、低血糖時間、酮體、胰島素劑量、膳食纖維、鐵、鈣、維生素 B1、葉酸、飲食能否長期維持，以及個案的生活安排。對某些人而言，地中海型飲食可能較容易維持，也能保留蔬菜、全穀、豆類、堅果、魚與橄欖油等食物品質；本篇沒有把這種長期可行性完整量化。\n\n## 臨床與營養照護怎麼用\n\n**要點**：可把研究結果用於共同決策與安全監測，不能把低碳百分比直接套用到個案，也不能用飲食變更取代胰島素治療。\n\n- 先確認個案的血糖目標、CGM 使用情況、低血糖史、DKA 史、胰島素模式、運動、腎功能與飲食偏好。\n- 若討論低碳方向，明確記錄碳水目標、蛋白質、脂肪、纖維、蔬菜、微量營養素、胰島素調整與追蹤時間。\n- 監測 HbA1c、TIR、time below range、time above range、血糖變異、體重、酮體與低血糖症狀。\n- 低碳飲食需檢查鐵、鈣、維生素 B1、葉酸與膳食纖維的來源，避免只減少主食卻沒有補足營養密度。\n- 地中海型飲食可作為保留食物品質的參考模式，仍要依個案的碳水分配、胰島素計算與血糖反應調整。\n- 研究中的 TIR 多用 70–180 mg/dL，但部分研究用 63–180 或 80–130 mg/dL，解讀研究間差異時不能混用。\n- 飲食變更與胰島素調整要由個案與糖尿病團隊共同決定，營養師需把風險教育與回診追蹤一起安排。\n\n## 研究限制與證據邊界\n\n**要點**：這篇回顧的結論受到研究數量少、樣本小、時間短與定義不一致影響，適合作為臨床討論的證據地圖，不能當成單一飲食處方的成效證明。\n\n- 低碳飲食的定義不一致，本文使用低於 26% 熱量或低於 130 g/day，結果不能直接外推到較高碳水的飲食。\n- 一種飲食未必適合所有第一型糖尿病患者，未來需要個人化或精準營養研究。\n- 各研究的飲食遵從性測量不同，實際攝取可能與目標有落差。\n- 地中海型飲食在日常文化中較常見的地區，遵從度可能較高，族群外推要謹慎。\n- 研究年份跨度大，胰島素、CGM 與自動胰島素輸送技術已改變，早期研究與近年研究不能直接並列。\n- 研究沒有 meta-analysis，數字是各研究的敘述整理，不能把 7/10 改善研究當成 pooled treatment effect。\n- 文章品質評估由一人完成，且本文未註冊 protocol，方法學可信度仍需留有餘地。\n- 多數研究沒有足夠長期追蹤，無法判斷併發症、生活品質、營養狀態與長期安全性。\n\n## 與既有認知的對照\n\n**要點**：回顧支持「飲食模式要和胰島素及血糖監測一起設計」這項既有臨床原則，補充了低碳飲食在部分研究中的血糖訊號，也提醒低碳營養不足與安全風險。\n\n- 支持的部分：碳水品質與分配、胰島素計算、CGM 與營養教育會共同影響血糖管理。\n- 新增的部分：低碳研究的 HbA1c、TIR 與胰島素用量改善方向，在 cohort 中較一致，在試驗中仍有差異。\n- 需要修正的部分：地中海型飲食的健康形象不能直接等於第一型糖尿病血糖成效，也不能只用飲食名稱判斷個案結果。\n- 不能過度延伸：研究沒有證明低碳飲食能降低微血管併發症，也沒有證明它適合所有年齡、孕期、腎病或有 DKA 風險者。\n\n## 概念與名詞整理\n\n- **T1D**：第一型糖尿病，因胰島 β 細胞功能不足，終身需要胰島素治療。\n- **HbA1c**：反映一段時間平均血糖的指標，研究用來評估長期血糖管理。\n- **TIR**：血糖落在指定範圍內的時間比例，本文多用 70–180 mg/dL。\n- **低碳飲食**：本文定義為每日碳水化合物低於 130 g，或低於總熱量的 26%。\n- **地中海型飲食**：以蔬果、全穀、豆類、健康脂肪與魚類為常見核心的飲食模式，研究中的實際內容與遵從度並不完全相同。\n- **CGM**：連續血糖監測，可提供 TIR、低於範圍與高於範圍等資料。\n- **DKA**：糖尿病酮酸中毒，飲食改變或胰島素不足時需要特別留意的急性風險。\n- **SWiM**：Synthesis Without Meta-analysis，當研究異質性高時，用有規則的敘述方法整理結果。\n\n## 自我測驗\n\n> [!question]- Q1：這篇系統性回顧納入多少研究？\n> 共 22 篇，包括 6 篇 cohort 與 16 篇臨床試驗，總樣本 3,284 人。因研究設計與結局報告差異大，作者沒有做 meta-analysis。\n\n> [!question]- Q2：低碳與地中海型飲食哪一種比較有效？\n> 低碳飲食在多數研究中改善方向較一致，地中海型飲食的結果較不穩定，但直接比較試驗尚未證明單一飲食型態穩定優於另一種。\n\n> [!question]- Q3：低碳飲食的安全監測要看什麼？\n> 除 HbA1c 外，還要看 TIR、低血糖時間、酮體、胰島素用量、飲食遵從度、膳食纖維、鐵、鈣、維生素 B1 與葉酸。胰島素不能因飲食改變自行大幅調整。\n\n> [!question]- Q4：為什麼研究中 HbA1c 或 TIR 改善，還不能直接形成標準處方？\n> 研究多半樣本小、時間短，低碳定義與 TIR 範圍不一致，飲食遵從度和胰島素、CGM 技術也有差異。結果適合支持共同決策與安全追蹤，還不足以指定所有人的固定飲食方案。\n\n## Reference\n\nFeeley J, Abraham A, Gonzalez N, Parab R, Chadalawada L, Pasquel FJ. Dietary approaches for glycemic management in type 1 diabetes: A systematic review of Mediterranean and low-carbohydrate diets. Primary Care Diabetes. 2026. DOI: `10.1016/j.pcd.2026.06.004`.\n\n全文來源：[PubMed Central 開放 HTML](https://pmc.ncbi.nlm.nih.gov/articles/PMC13482783/)。已核對題名與 DOI，正文約 71,786 字元，含 Methods、Results、Discussion、限制、Tables 3A–4B 與 Conclusions。",
+      "cards": [
+        {
+          "title": "",
+          "question": "這篇系統性回顧納入多少研究？",
+          "answer": "共 22 篇，包括 6 篇 cohort 與 16 篇臨床試驗，總樣本 3,284 人。因研究設計與結局報告差異大，作者沒有做 meta-analysis。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "低碳與地中海型飲食哪一種比較有效？",
+          "answer": "低碳飲食在多數研究中改善方向較一致，地中海型飲食結果較不穩定，但直接比較試驗尚未證明單一飲食型態穩定優於另一種。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "低碳飲食的安全監測要看什麼？",
+          "answer": "除 HbA1c 外，還要看 TIR、低血糖時間、酮體、胰島素用量、飲食遵從度、膳食纖維、鐵、鈣、維生素 B1 與葉酸。胰島素不能因飲食改變自行大幅調整。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "為什麼研究中 HbA1c 或 TIR 改善，還不能直接形成標準處方？",
+          "answer": "研究多半樣本小、時間短，低碳定義與 TIR 範圍不一致，飲食遵從度和胰島素、CGM 技術也有差異。結果適合支持共同決策與安全追蹤，還不足以指定所有人的固定飲食方案。",
+          "tags": []
+        }
+      ],
+      "completedAt": "2026-08-26T09:13:53.969Z"
+    },
     {
       "id": "doi:10.1016/j.jnha.2026.100946:digest",
       "paperId": "doi:10.1016/j.jnha.2026.100946",
