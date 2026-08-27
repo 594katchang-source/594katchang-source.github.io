@@ -1,7 +1,163 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T09:14:26.732Z",
+  "generatedAt": "2026-08-27T04:54:55.369Z",
   "papers": [
+    {
+      "id": "doi:10.1186/s12987-026-00843-0:digest",
+      "paperId": "doi:10.1186/s12987-026-00843-0",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Blood-brain barrier water permeability is elevated in type 2 diabetes and obesity: associations with cognitive function and metabolic markers.",
+      "authors": "Saha A, Shi W, Elsharydah M, Schaffert J, Kaufman J, Leary J, Jin A, Almandoz J, Lu H, Thomas B",
+      "journal": "Obesity and metabolism (PubMed)",
+      "year": "2026",
+      "doi": "10.1186/s12987-026-00843-0",
+      "abstract": "Type 2 diabetes (T2D) and obesity are established risk factors for Alzheimer's disease and related dementias, yet the cerebrovascular mechanisms linking metabolic dysfunction to cognitive decline remain poorly understood. This study aims to assess BBB water permeability-surface area product in older adults with T2D and obesity using non-contrast WEPCAST MRI, and to evaluate associations between BBB integrity, metabolic markers, and cognitive function. Twenty-eight older adults - 12 with T2D and obesity (BMI ≥ 30 kg/m²) and 16 age- and sex- matched controls - underwent WEPCAST MRI to quantify the BBB water permeability measures: permeability-surface area product (PS), water extraction fraction (E) and global cerebral blood flow (CBF), along with T1-Weighted structural MRI acquisition. Cognitive function and fasting blood biomarkers were assessed in all participants. Associations between PS versus metabolic and cognitive function were examined using linear regression adjusted for age and sex. An additional adjustment for statin use was made for hemoglobin A1c (HbA1c) and lipid markers. T2D participants exhibited significantly elevated BBB water permeability-surface area product (PS: P = 0.001, Hedges' g = 1.10). Specifically, higher PS was associated with HbA1c (f² = 0.28, P = 0.016) and lower circulating cholesterol (total cholesterol: f² = 0.49, P = 0.003; LDL: f² = 0.45, P = 0.004; HDL: f² = 0.18, P = 0.053). The T2D group demonstrated lower scores across multiple domains including memory, attention, learning, executive function, and processing speed (g = 0.80-1.42). Higher PS was associated with poorer measures of executive function (P-values < 0.05). Older adults with T2D and obesity exhibit elevated PS, detectable by non-contrast WEPCAST MRI. Higher PS was associated with higher glycemic burden and lower executive function, providing preliminary evidence that PS may serve as a novel imaging biomarker linking metabolic dysregulation to early cognitive vulnerability in T2D that follows a traditional \"frontal-subcortical\" pattern.",
+      "legalFullTextUrl": "https://doi.org/10.1186/s12987-026-00843-0",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42642765/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "human clinical population",
+        "obesity and metabolism",
+        "precision nutrition"
+      ],
+      "noteTitle": "血腦障壁水通透性與糖尿病認知關聯全文內容整理",
+      "content": "---\ncitekey: Saha2026-BBB-WEPCAST\ntitle: 第二型糖尿病與肥胖的血腦障壁水通透性及認知關聯\ndoi: 10.1186/s12987-026-00843-0\njournal: Fluids and Barriers of the CNS\nyear: 2026\nstudy_type: cross-sectional human imaging study\ntags: [第二型糖尿病, 肥胖, 血腦障壁, 認知功能, 營養評估]\n---\n\n# 第二型糖尿病與肥胖的血腦障壁水通透性及認知關聯\n\n## 30 秒層：先抓重點\n\n這是一篇小型、單中心、橫斷面人類影像研究。研究比較 12 位第二型糖尿病合併肥胖者與 16 位對照者，發現糖尿病組的血腦障壁水通透性表面積乘積 PS 較高，且 PS 和 HbA1c、LDL、部分執行功能及語詞流暢度呈關聯。研究結果可支持代謝異常、腦部微血管水交換與認知表現之間有值得追蹤的訊號，尚未證明 PS 會造成認知下降，也沒有測試任何營養介入。\n\n## 5 分鐘層：全文導航\n\n| 位置 | 讀者要找的內容 | 本篇重點 |\n|---|---|---|\n| 摘要與研究目的 | 研究為何進行 | 以非對比劑 WEPCAST MRI 研究糖尿病與肥胖相關的血腦障壁水交換 |\n| Methods | 受試者與測量 | 32 人招募，28 人完成影像分析，27 人完成認知分析 |\n| Results Table 1 | 代謝與分組差異 | 糖尿病組 HbA1c、空腹血糖、HOMA-IR 與 BMI 較高 |\n| Results Table 2 | 主要影像結果 | PS 158.8 對 124.8 mL/100 g/min，p=.001，Hedges g=1.10 |\n| Results Table 3 | PS 的關聯 | PS 與 HbA1c、總膽固醇、LDL、TMT-B 與 FAS 有關 |\n| Results Table 4 | 認知組間差異 | RBANS 學習、編碼、注意力與 D-KEFS switching 有差異 |\n| Discussion | 作者如何解釋 | PS 可能是代謝失衡與早期認知脆弱性的影像生物標記候選 |\n| Limitations | 讀者要保留的界線 | 橫斷面、小樣本、未校正多重比較、未量化白質高訊號 |\n\n## 研究問題\n\n第二型糖尿病與肥胖和失智風險相關，研究團隊希望知道血腦障壁水交換是否出現可量化差異，並觀察這些差異是否和代謝指標及認知表現同時變化。\n\n## 研究設計與樣本\n\n- 研究類型：單中心、年齡與性別配對的橫斷面比較研究。\n- 糖尿病組：14 人，BMI 30-45 kg/m²，HbA1c 6-10%。\n- 對照組：18 人，BMI 22.5-27.5 kg/m²，HbA1c <5.7%。\n- 影像分析：糖尿病組 12 人，對照組 16 人。雙組各有 2 人因動作偽影未納入影像分析。\n- 認知分析：27 人，一位對照者因語言因素未完成認知測驗。\n\n## 測量方法\n\n研究使用 3T MRI 與 WEPCAST 非對比劑方法，推估血腦障壁水通透性表面積乘積 PS、水萃取分率 E 與全腦血流量 CBF。WEPCAST 是由水交換訊號與血流資訊推算的綜合影像指標，PS 的變化不能單獨等同於某一種內皮病變。\n\n認知測量包含 RBANS、D-KEFS、TMT、FAS 與 BNT。抽血項目包括 HbA1c、空腹血糖、HOMA-IR、總膽固醇、HDL、LDL，並記錄 statin 使用。影像操作者對分組不知情，評分者間相關係數為 .897。\n\n## 結果整理\n\n### 代謝指標\n\n糖尿病組 HbA1c 為 6.6 ± .3%，對照組為 5.6 ± .3%。空腹血糖為 124.5 對 93.4 mg/dL，HOMA-IR 為 5.8 對 2.4，BMI 為 32.8 對 24.3 kg/m²。糖尿病組 HDL 較低，LDL 與總膽固醇也有組間差異。statin 使用比例為 75% 對 44%，差異未達統計顯著，劑量與使用時間未納入模型。\n\n### 影像結果\n\n糖尿病組 PS 158.8 ± 38.0，對照組 124.8 ± 22.5 mL/100 g/min。調整年齡與性別後 p=.001，Hedges g=1.10。E 為 94.1 對 89.2%，p=.002，Hedges g=.96。全腦 CBF 為 51.0 對 54.0 mL/100 g/min，p=.426。\n\n### PS 與代謝及認知的關聯\n\n- HbA1c：β=26.53，95% CI 5.30-47.75，p=.011。\n- 總膽固醇：β=-.46，p=.003。\n- LDL：β=-.59，p=.004。\n- TMT-B：β=-.40，95% CI -0.74 至 -0.05，p=.025。\n- FAS：β=-.39，95% CI -0.74 至 -0.04，p=.029。\n\nRBANS list learning、coding、immediate memory、attention 與 global index，還有 D-KEFS switching 與 interference，在糖尿病組呈較差表現，效應量約 g=.80-1.42。多項結果屬探索性分析，作者未進行多重比較校正。\n\n## 作者的解釋\n\n作者把較高 PS 視為可能連結代謝失衡與早期認知脆弱性的影像生物標記候選。討論也提到糖尿病、肥胖、內皮功能、腦部血流與認知功能之間可能有共同路徑。這個解釋仍要用較大樣本、縱向資料與介入研究驗證。\n\n## 研究限制\n\n1. 橫斷面資料無法確認 PS、代謝異常與認知差異的時間先後。\n2. 影像分析只有 28 人，認知分析只有 27 人，估計值容易受個別受試者影響。\n3. 研究未校正多重比較，陽性結果可能含有型一錯誤風險。\n4. WEPCAST 的 PS 是綜合性水交換與血流推估，無法分離內皮通透性、毛細血管表面與其他機轉。\n5. 未量化白質高訊號，未充分處理教育、血壓、睡眠、血管共病與用藥因素。\n6. 單中心且教育程度較高，結果未必適用於其他族群。\n\n## 對營養照護的連結\n\n這篇研究可作為評估思路的補充。面對第二型糖尿病合併肥胖，若個案同時出現記憶、注意力或執行功能困難，營養評估可一起記錄血糖、血脂、體重變化、飲食型態、睡眠、用藥與日常功能。認知困難可能讓飲食自我管理變得更辛苦，照護設計可加入簡化餐單、用餐提示、家屬參與與追蹤安排。\n\n本研究沒有比較飲食模式、營養素、補充品或營養治療，也沒有提供改變飲食後能改善 PS 的證據。PS 研究結果不能用來診斷個別病人的血腦障壁病變，亦不能取代糖尿病、肥胖、認知與心血管風險評估。\n\n## 理解型自我測驗卡\n\n### Card 1\n\n**Q：研究中的 PS 代表什麼？**\n\n**A：** PS 是 WEPCAST MRI 推估的血腦障壁水通透性表面積乘積，單一數值不能直接等同於特定內皮病變。\n\n### Card 2\n\n**Q：糖尿病合併肥胖組的主要影像差異是什麼？**\n\n**A：** 全腦 PS 較高，平均 158.8 對 124.8 mL/100 g/min，p=.001，Hedges g=1.10。全腦 CBF 差異未達統計顯著。\n\n### Card 3\n\n**Q：為什麼這篇研究不能證明 PS 造成認知下降？**\n\n**A：** 研究是單次橫斷面觀察，只有相關分析，沒有縱向時間順序或介入操弄，也有小樣本與混雜因素問題。\n\n### Card 4\n\n**Q：營養師可從這篇研究帶走哪個評估提醒？**\n\n**A：** 糖尿病合併肥胖且有認知或執行功能困難者，可把 HbA1c、血脂、飲食、體重、睡眠、用藥與功能狀態一起納入照護評估。這是評估與照護安排的提醒，非特定營養治療效果證據。\n\n## 術語小表\n\n| 術語 | 白話說明 |\n|---|---|\n| BBB | blood-brain barrier，血腦障壁 |\n| PS | permeability-surface area product，通透性表面積乘積 |\n| E | water extraction fraction，水萃取分率 |\n| CBF | cerebral blood flow，腦血流量 |\n| WEPCAST | 以水交換與血流訊號推估腦部水通透性的 MRI 方法 |\n| RBANS | Repeatable Battery for the Assessment of Neuropsychological Status |\n| D-KEFS | Delis-Kaplan Executive Function System |\n\n## 來源證據\n\n- DOI：[10.1186/s12987-026-00843-0](https://doi.org/10.1186/s12987-026-00843-0)\n- 期刊：*Fluids and Barriers of the CNS*，2026。\n- 合法全文路徑：Springer 官方 PDF，Worker route=`springer`。\n- 全文文字長度：69,111 字元，涵蓋摘要、方法、結果、討論、限制與參考文獻。\n- PDF SHA-256：`a17b9159f0b932b93954bed33a37bb16ac65bedf229bf04b90142f0f6dbfd065`\n- 文字 SHA-256：`61f43b6b4842e338a1b2518e0260aa3c198af1c72fb707f8cd10097e30dd656c`\n- 本機全文：`[local path removed]`",
+      "cards": [
+        {
+          "title": "PS 指標的意義",
+          "question": "研究中的 PS 代表什麼？",
+          "answer": "PS 是 WEPCAST MRI 推估的血腦障壁水通透性表面積乘積，單一數值不能直接等同於特定內皮病變。",
+          "tags": [
+            "BBB",
+            "WEPCAST",
+            "影像指標"
+          ]
+        },
+        {
+          "title": "主要影像差異",
+          "question": "糖尿病合併肥胖組的主要影像差異是什麼？",
+          "answer": "全腦 PS 較高，平均 158.8 對 124.8 mL/100 g/min，p=.001，Hedges g=1.10。全腦 CBF 差異未達統計顯著。",
+          "tags": [
+            "第二型糖尿病",
+            "肥胖",
+            "PS"
+          ]
+        },
+        {
+          "title": "因果解讀界線",
+          "question": "為什麼這篇研究不能證明 PS 造成認知下降？",
+          "answer": "研究是單次橫斷面觀察，只有相關分析，沒有縱向時間順序或介入操弄，也有小樣本與混雜因素問題。",
+          "tags": [
+            "研究設計",
+            "因果推論",
+            "偏差"
+          ]
+        },
+        {
+          "title": "營養照護評估提醒",
+          "question": "營養師可從這篇研究帶走哪個評估提醒？",
+          "answer": "糖尿病合併肥胖且有認知或執行功能困難者，可把 HbA1c、血脂、飲食、體重、睡眠、用藥與功能狀態一起納入照護評估。",
+          "tags": [
+            "營養評估",
+            "功能狀態",
+            "糖尿病照護"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-27T04:52:05.460Z"
+    },
+    {
+      "id": "doi:10.1186/s12987-026-00843-0:review",
+      "paperId": "doi:10.1186/s12987-026-00843-0",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Blood-brain barrier water permeability is elevated in type 2 diabetes and obesity: associations with cognitive function and metabolic markers.",
+      "authors": "Saha A, Shi W, Elsharydah M, Schaffert J, Kaufman J, Leary J, Jin A, Almandoz J, Lu H, Thomas B",
+      "journal": "Obesity and metabolism (PubMed)",
+      "year": "2026",
+      "doi": "10.1186/s12987-026-00843-0",
+      "abstract": "Type 2 diabetes (T2D) and obesity are established risk factors for Alzheimer's disease and related dementias, yet the cerebrovascular mechanisms linking metabolic dysfunction to cognitive decline remain poorly understood. This study aims to assess BBB water permeability-surface area product in older adults with T2D and obesity using non-contrast WEPCAST MRI, and to evaluate associations between BBB integrity, metabolic markers, and cognitive function. Twenty-eight older adults - 12 with T2D and obesity (BMI ≥ 30 kg/m²) and 16 age- and sex- matched controls - underwent WEPCAST MRI to quantify the BBB water permeability measures: permeability-surface area product (PS), water extraction fraction (E) and global cerebral blood flow (CBF), along with T1-Weighted structural MRI acquisition. Cognitive function and fasting blood biomarkers were assessed in all participants. Associations between PS versus metabolic and cognitive function were examined using linear regression adjusted for age and sex. An additional adjustment for statin use was made for hemoglobin A1c (HbA1c) and lipid markers. T2D participants exhibited significantly elevated BBB water permeability-surface area product (PS: P = 0.001, Hedges' g = 1.10). Specifically, higher PS was associated with HbA1c (f² = 0.28, P = 0.016) and lower circulating cholesterol (total cholesterol: f² = 0.49, P = 0.003; LDL: f² = 0.45, P = 0.004; HDL: f² = 0.18, P = 0.053). The T2D group demonstrated lower scores across multiple domains including memory, attention, learning, executive function, and processing speed (g = 0.80-1.42). Higher PS was associated with poorer measures of executive function (P-values < 0.05). Older adults with T2D and obesity exhibit elevated PS, detectable by non-contrast WEPCAST MRI. Higher PS was associated with higher glycemic burden and lower executive function, providing preliminary evidence that PS may serve as a novel imaging biomarker linking metabolic dysregulation to early cognitive vulnerability in T2D that follows a traditional \"frontal-subcortical\" pattern.",
+      "legalFullTextUrl": "https://doi.org/10.1186/s12987-026-00843-0",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42642765/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "human clinical population",
+        "obesity and metabolism",
+        "precision nutrition"
+      ],
+      "noteTitle": "第二型糖尿病與肥胖的血腦障壁水通透性及認知關聯品質評讀",
+      "content": "---\ncitekey: Saha2026-BBB-WEPCAST\ntitle: Blood-brain barrier water permeability is elevated in type 2 diabetes and obesity: associations with cognitive function and metabolic markers\ndoi: 10.1186/s12987-026-00843-0\njournal: Fluids and Barriers of the CNS\nyear: 2026\nauthors: Saha et al.\nstudy_type: cross-sectional human imaging study\ntags: [type 2 diabetes, obesity, blood-brain barrier, cognition, nutrition practice]\n---\n\n> [!info] 品質快照\n> **研究問題**：第二型糖尿病合併肥胖者的血腦障壁水通透性，是否與認知表現及代謝指標有關？\n> **設計**：單中心、年齡與性別配對的橫斷面人類影像研究。\n> **樣本**：招募 32 人，影像分析 28 人，認知分析 27 人。\n> **主要暴露與測量**：WEPCAST 非侵入性 MRI 推估水交換通透性 PS，並以 RBANS、D-KEFS、TMT、FAS 與 BNT 評估認知。\n> **偏差判斷**：較高。樣本小、橫斷面設計、未校正多重比較，且代謝藥物與血管危險因子仍可能造成混雜。\n> **GRADE**：Very low ⊕◯◯◯。觀察性證據起始為 low，因偏差、間接性與精確度各降一級。\n> **一句話判讀**：結果支持一個值得研究的腦血管與代謝關聯訊號，尚不足以推定血腦障壁變化會造成認知下降，也不能直接轉成營養治療效果。\n\n# 30 秒重點\n\n研究比較 12 位第二型糖尿病合併肥胖者與 16 位對照者。糖尿病組的全腦 PS 較高，平均 158.8 對 124.8 mL/100 g/min，調整年齡與性別後 p=.001，Hedges g=1.10。PS 也和 HbA1c、總膽固醇、LDL，以及 TMT-B 與 FAS 表現呈關聯。這些資料來自小型橫斷面研究，無法建立時間先後或因果方向。\n\n## 白話導讀\n\n1. **這篇研究在問什麼**：研究團隊想知道第二型糖尿病合併肥胖者的血腦障壁水交換特徵，是否和認知及代謝狀態同時出現變化。\n2. **怎麼做**：受試者接受 3T MRI、WEPCAST 分析與一組認知測驗，並抽血測量 HbA1c、空腹血糖、HOMA-IR、血脂與用藥資料。\n3. **主要發現**：糖尿病組 PS 較高，全球腦血流量差異未達統計顯著。部分執行功能、注意力與記憶指標在糖尿病組較差。\n4. **怎麼解讀**：PS 與 HbA1c、LDL 及部分執行功能分數的關聯，表示代謝控制與腦部微血管水交換可能有共同訊號。WEPCAST 是綜合性的水交換與血流推估，無法單獨分辨內皮通透性、毛細血管表面或其他血流機轉。\n5. **對實務的意義**：這篇研究可提醒營養照護團隊把血糖、血脂、體重、認知與功能狀態放在同一張評估圖上。它沒有測試飲食或營養介入，也沒有提供改變飲食後能改善血腦障壁的證據。\n\n## Methods\n\n### 研究設計與受試者\n\n研究為單中心橫斷面比較。第二型糖尿病組共 14 人，納入條件包含 BMI 30-45 kg/m² 與 HbA1c 6-10%。對照組共 18 人，HbA1c <5.7%，BMI 22.5-27.5 kg/m²。影像資料因動作偽影排除後，糖尿病組 12 人、對照組 16 人。認知分析再排除一位因語言因素無法完成測驗的對照者。\n\n### 影像與認知測量\n\n研究使用 3T MRI 與 WEPCAST 非對比劑方法，從水交換訊號與全腦血流量推算 PS。全腦血流量以 phase-contrast MRI 測量。影像操作者單一且盲於分組，評分者間相關係數為 .897。認知工具包含 RBANS、D-KEFS、TMT、FAS 與 BNT。\n\n### 統計策略\n\n組間比較依變項分布使用 t test 或 Mann-Whitney U test。PS 與代謝或認知指標的關聯使用線性模型，並納入年齡與性別調整。作者將研究定位為探索性分析，未進行多重比較校正。結果提供 p 值、信賴區間與效應量，適合當作假說生成資料。\n\n## Key Findings\n\n| 結果 | 糖尿病合併肥胖組 | 對照組或關聯 | 判讀 |\n|---|---:|---:|---|\n| 全腦 PS | 158.8 ± 38.0 | 124.8 ± 22.5 mL/100 g/min，p=.001，g=1.10 | 組間差異大，仍受小樣本與選樣影響 |\n| 全腦血流量 | 51.0 | 54.0 mL/100 g/min，p=.426 | 未見明確組間差異 |\n| HbA1c 與 PS | - | β=26.53，95% CI 5.30-47.75，p=.011 | 關聯不代表代謝控制造成 PS 改變 |\n| TMT-B 與 PS | - | β=-.40，95% CI -0.74 至 -0.05，p=.025 | PS 較高與執行功能較差同時出現 |\n| FAS 與 PS | - | β=-.39，95% CI -0.74 至 -0.04，p=.029 | 語詞流暢度關聯需獨立樣本驗證 |\n| RBANS list learning | 糖尿病組較低 | p=.003，g=1.20 | 記憶學習差異，可能受教育、血管與代謝因素共同影響 |\n| D-KEFS switching | 糖尿病組較低 | p=.006，g=1.42 | 執行功能差異，仍屬探索性結果 |\n\n### 代謝資料\n\n糖尿病組 HbA1c 6.6 ± .3% 對照組 5.6 ± .3%，空腹血糖 124.5 對 93.4 mg/dL，HOMA-IR 5.8 對 2.4。糖尿病組 BMI 較高，HDL 與 LDL 也有組間差異。使用 statin 的比例為 75% 對 44%，組間 p=.136，劑量與使用時間未納入模型。\n\n## Critical Appraisal\n\n### 內部效度\n\n| 領域 | 判斷 | 依據 |\n|---|---|---|\n| 受試者選取 | 有疑慮 | 單中心、小樣本，且研究族群教育程度較高，代表性有限 |\n| 分組可比性 | 有疑慮 | 年齡與性別配對，BMI、血糖、血脂與 statin 使用仍有差異 |\n| 暴露測量 | 有疑慮 | WEPCAST 提供綜合性 PS 指標，無法單獨定位血腦障壁內皮通透性 |\n| 結果測量 | 中等 | 使用標準化認知工具，影像操作者盲於分組，認知測驗有一例因語言因素缺失 |\n| 混雜控制 | 較弱 | 主要模型只調整年齡與性別，未充分處理教育、血壓、用藥、睡眠與血管共病 |\n| 統計穩定性 | 較弱 | 樣本數小，探索性多項比較未做多重校正，估計值可能不穩定 |\n| 時間性與因果 | 較弱 | 橫斷面資料無法確認 PS、代謝異常與認知差異的先後順序 |\n\n### GRADE 判定\n\n本次依確定規則輸入 `grade_judge.py`。觀察性研究從 low certainty 起算，偏差風險降一級，間接性降一級，精確度降一級，出版偏差未降級，沒有升級條件。輸出為 `Very low ⊕◯◯◯`。GRADE 對應的臨床問題為「PS 與認知及代謝指標的關聯」，不延伸成飲食治療有效性。\n\n### 推論漏洞\n\n作者提出血腦障壁水交換變化可能參與第二型糖尿病相關認知問題。這個方向有生理合理性，但本研究的資料類型仍是單次觀察與相關分析。缺少縱向追蹤、區域性 PS、白質高訊號量化與介入資料，因此從「PS 與 HbA1c 及執行功能相關」走到「PS 造成認知下降」有一段尚未填補的推論距離。\n\n## 臨床應用\n\n- **營養評估**：對第二型糖尿病合併肥胖且有記憶、注意力或執行功能困難者，可同步記錄 HbA1c、血脂、體重變化、飲食型態、睡眠、用藥與功能狀態。\n- **衛教與照護設計**：認知或執行功能下降可能影響飲食自我管理。可把用餐提示、家屬或照顧者參與、簡化餐單與回診追蹤納入照護安排。\n- **血糖與血脂管理**：這篇研究支持持續追蹤代謝指標與功能表現的合理性，未提供特定飲食比例、補充品或營養素劑量的效果證據。\n- **安全界線**：PS 研究結果不能用來診斷個別病人的血腦障壁病變，也不能取代糖尿病、肥胖、認知與心血管風險的既有評估。\n\n## 研究限制與後續問題\n\n研究缺少多重比較校正，且樣本來自單一醫學中心。WEPCAST 的 PS 是綜合性指標，無法分離內皮通透性與其他水交換或血流成分。研究也未量化白質高訊號，未分析 statin 劑量與使用時間，未提供腦部區域性結果。後續研究需要較大樣本、縱向追蹤、預先指定主要結果、校正多重比較，並加入飲食品質、營養狀態與腦影像區域分析。\n\n## Argument map and inference gap\n\n**Claim**：第二型糖尿病合併肥胖可能透過血腦障壁水交換異常造成認知功能下降。\n\n**Supporting premises**\n\n- P1, `association`：糖尿病組 PS 較高，PS 與 HbA1c、LDL、TMT-B 及 FAS 有關。\n- P2, `single_study`：一個單中心小型橫斷面研究觀察到組間認知差異。\n- P3, `mechanistic`：血管、代謝與腦部水交換存在可供後續驗證的生理假說。\n- P4, `single_study`：研究未校正多重比較，且無縱向或介入資料。\n\n`argdown_lint.py` 結果：`association_to_causation`。P1 的相關證據不足以支撐 causal claim。此缺口已在本篇判讀與實務段落保留，未把研究結果寫成治療建議。\n\n## Source and evidence\n\n- 全文來源：Springer 官方 PDF，取得路徑標記為 `springer`，本機驗證全文存在。\n- PDF：`[local path removed]`\n- 擷取文字：`[local path removed]`\n- PDF SHA-256：`a17b9159f0b932b93954bed33a37bb16ac65bedf229bf04b90142f0f6dbfd065`\n- 文字 SHA-256：`61f43b6b4842e338a1b2518e0260aa3c198af1c72fb707f8cd10097e30dd656c`\n- 本次讀取文字長度：69,111 字元，涵蓋摘要、方法、結果、討論、限制與參考文獻。\n- 研究識別：DOI `10.1186/s12987-026-00843-0`，期刊 `Fluids and Barriers of the CNS`，2026。\n\n## References\n\n1. Saha et al. Blood-brain barrier water permeability is elevated in type 2 diabetes and obesity: associations with cognitive function and metabolic markers. *Fluids and Barriers of the CNS*. 2026. DOI: [10.1186/s12987-026-00843-0](https://doi.org/10.1186/s12987-026-00843-0)",
+      "cards": [],
+      "completedAt": "2026-08-27T04:49:16.058Z"
+    },
+    {
+      "id": "doi:10.1016/j.jnha.2026.100939:digest",
+      "paperId": "doi:10.1016/j.jnha.2026.100939",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Effects of a prebiotic fibre-enriched bread in older adults: a randomised, placebo-controlled, parallel-groups feasibility study (BiomeBakery).",
+      "authors": "Lee Y, Colombage R, Hall C, Lamport D, Williams C, Hepsomali P",
+      "journal": "Aging, frailty and sarcopenia (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.jnha.2026.100939",
+      "abstract": "To examine the feasibility and effects of consuming an additional 10 g/day of prebiotic fibre blend in a bread roll on cognitive, mood, gastrointestinal outcomes, and peripheral biomarkers in older adults without dementia and with low habitual dietary fibre intake. A single-centre, randomised, double-blind, placebo-controlled parallel groups design (Registration at clinicaltrials.gov; NCT06796712). Fifty-three community-dwelling adults aged 60-80 years without dementia and with low habitual dietary fibre intake. Participants were assigned to either a treatment (fibre-enriched white bread roll) group (n = 28) or a placebo (matched white bread roll) group (n = 25) and consumed their assigned products for 12 weeks. Cognitive, mood, gastrointestinal outcomes, as well as C-reactive protein, lipids, and glucose levels were assessed at the baseline and after 12-weeks. Placebo consumption for 12 weeks was associated with improvements in memory compared with treatment. However, the treatment group showed a decrease in hostility after 12 weeks, whereas the placebo group showed an increase. The placebo group also demonstrated an increase in HDL cholesterol, while the treatment group showed a decrease. No significant differences were observed for the other outcomes. Fibre-enriched bread may have selective effects on aspects of mood (e.g., hostility) in ageing populations, although most mood, cognitive, and biological outcomes were unchanged. The observed improvement on mood occurred independently of inflammatory or cardiovascular changes, suggesting potential involvement of the gut-brain axis and the need for additional mechanistic endpoints to clarify the underlying mechanistic pathways. Cognitive and inflammatory changes may require longer interventions, different dosing or populations, highlighting the need for further investigation in larger and more diverse samples.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42594505/",
+      "category": "recommended",
+      "tags": [
+        "human clinical population",
+        "precision nutrition",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "益生元高纖麵包對高齡者認知與情緒的全文內容整理",
+      "content": "---\ntags:\n  - research/digest\n  - nutrition\n  - aging\n  - prebiotics\ncitekey: \"Lee2026-BiomeBakery\"\ndoi: \"10.1016/j.jnha.2026.100939\"\njournal: \"The Journal of Nutrition, Health & Aging\"\nyear: 2026\nauthors: \"Lee Y, Colombage RL, Hall CV, Lamport DJ, Williams CM, Hepsomali P\"\nstudy_type: \"randomised double-blind placebo-controlled feasibility RCT\"\npmid: \"42594505\"\npmcid: \"PMC13495385\"\nreview_depth: \"digest-worker-batch\"\n---\n\n> [!summary] 30 秒層\n> **一句話**：在平時纖維攝取偏低、沒有失智的 60 至 80 歲社區長者中，每日以麵包增加約 10 g 益生元纖維、連續 12 週，沒有改善整體認知、發炎或多數心代謝指標，只有 hostility 出現小幅下降的訊號。\n> - 53 人完成隨機分派，49 人納入主要統計分析，介入組 26 人，對照組 23 人。\n> - 介入是每日 1 個 68 g 高纖白麵包，含 10.9 g 混合纖維，對照麵包在外觀、口味、熱量與三大營養素相配。\n> - MoCA 總分組間差異未達顯著，MoCA memory 反而是對照組改善較多，校正後 p < .001，敏感度分析後降為趨勢訊號。\n> - PANAS-X hostility：介入組變化 −0.85，對照組 +0.30，校正後 p = .05。HDL cholesterol：介入組 −0.09 mmol/L，對照組 +0.06 mmol/L，校正後 p = .02。\n> - 平均依從率約 98%，約 35% 回報至少一項不良事件，兩組比例相近。\n>\n> 品質未評讀，這份成果是內容整理。可信度判斷請使用 /paper-review。\n\n## 5 分鐘層：全文導航\n\n**要點**：本篇依序交代高齡與纖維缺口的研究背景、麵包介入與測量方法、認知與情緒結果、腸胃與安全性，以及食品基質與後續研究限制。\n\n## 研究問題 / 背景\n\n**要點**：研究者想測試一個能融入日常飲食的高纖麵包，是否能在纖維攝取偏低的長者中影響認知、情緒、腸胃症狀與周邊生物標記。\n\n- 研究背景聚焦高齡、認知老化、飲食纖維不足，以及 microbiota-gut-brain axis 的可能角色。\n- 研究者引用的生理路徑包括腸道菌發酵產生 short-chain fatty acids（SCFAs）、腸道屏障與免疫調節、tryptophan metabolism、HPA axis，以及可能的 neurotransmitter 變化。\n- 英國成人每日纖維攝取常低於建議量。研究設計把額外纖維放入白麵包，讓介入比較接近日常飲食場景。\n- 主要 outcome 是 MoCA total score。其他 cognitive、mood、gastrointestinal 與 peripheral biomarker 指標列為次要或探索性 outcome。\n\n## 方法\n\n**要點**：這是一項單中心、12 週、randomised、double-blind、placebo-controlled、parallel-groups feasibility RCT，研究對象是沒有失智且平時纖維攝取偏低的社區長者。\n\n- **研究時間與地點**：2025 年 5 月至 2026 年 2 月，University of Reading。\n- **招募與族群**：225 人接受電話篩選，53 人隨機分派。納入年齡 60 至 80 歲、BMI 18.5 至 29.9 kg/m²、沒有嚴重認知障礙，且 Fiber Screen 顯示平時纖維攝取偏低者。\n- **主要排除條件**：食物過敏、麩質或小麥不耐、乳糜瀉、嚴重腸胃疾病、未控制的心代謝疾病、貧血、近期使用 fibre、prebiotic 或 probiotic supplements，以及可能干擾結果的藥物或疾病。\n- **分派與盲法**：使用 randomizer.org，沒有分層因子，比例 1:1。介入與對照產品由同一製造商製作並以相同條件包裝和寄送。分派信封由製造商保管，研究執行人員無法取得隨機序列。\n- **介入**：每日 1 個 68 g fibre-enriched white bread roll。每份含 10.9 g fibre blend，成分包括 wheat fibre、oat fibre、fructo-oligosaccharides、galacto-oligosaccharides、inulin、resistant maltodextrin、resistant dextrin、partially hydrolysed guar gum 與 guar fibre。研究摘要以約 10 g/day 額外 prebiotic fibre 描述。\n- **對照**：68 g taste、appearance、energy 與 macronutrient matched white bread roll，沒有額外添加介入纖維。\n- **使用方式**：連續 12 週，每天在自己選擇的時間食用，可搭配湯、烘烤或三明治。參與者每日記錄食用時間與情境，研究期間要求維持原本飲食。\n- **測量**：MoCA、RAVLT、Working Memory Questionnaire、GDS、GAI、PANAS-X、GSRS、hs-CRP、total cholesterol、LDL、HDL、non-HDL、triglycerides、HbA1c、BMI、腰臀圍、血壓、心率、背景飲食與高強度運動。\n- **安全性**：持續紀錄 adverse events，並依研究單位既定流程處理血液檢查與臨床升級。\n- **統計**：以 intention-to-treat 為原則，使用兩組變化量比較與 ANCOVA，校正 age、gender、BMI。顯著水準 p < .05，並採 Bonferroni correction。主要 endpoint 是 MoCA total score。\n- **註冊**：ClinicalTrials.gov NCT06796712。研究依 CONSORT 2025 報告。\n\n## 主要發現\n\n**要點**：主要認知 endpoint 沒有證據支持高纖麵包改善整體認知，顯著結果集中在對照組 memory 變化、介入組 hostility 下降，以及 HDL 的組間差異。\n\n| Outcome | 高纖麵包組 | 對照麵包組 | 組間統計 | 解讀 |\n|---|---:|---:|---|---|\n| MoCA total change | +0.92 ± 2.06，n=26 | +2.00 ± 1.78，n=23 | p=.11，校正後 | 主要 endpoint 未達顯著 |\n| MoCA memory change | +1.04 ± 2.46 | +4.09 ± 3.10 | F(1,44)=12.66，校正後 p<.001，ηp²=.22 | 對照組改善較多，結果出乎預期 |\n| RAVLT immediate recall | −0.27 ± 1.78 | +0.27 ± 1.88 | 校正後 p=.42 | 無明確組間差異 |\n| RAVLT delayed recall | +0.25 ± 2.21，n=24 | +1.52 ± 2.78 | 校正後 p=.11 | 無明確組間差異 |\n| PANAS-X hostility | −0.85 ± 2.41 | +0.30 ± 1.69 | F(1,44)=4.23，校正後 p=.05，ηp²=.09 | 介入組 hostility 下降，效果需重複驗證 |\n| GSRS total | +0.06 ± 0.30 | 0.00 ± 0.24 | 校正後 p=.35 | 整體腸胃症狀無差異 |\n| HDL cholesterol, mmol/L | −0.09 ± 0.19 | +0.06 ± 0.22 | F(1,42)=5.80，校正後 p=.02，ηp²=.12 | 介入組下降，不能單獨當成心血管風險結論 |\n| hs-CRP, mg/L | −0.37 ± 3.48，n=23 | +0.17 ± 1.36，n=19 | 校正後 p=.75 | 沒有發炎改善訊號 |\n| HbA1c, mmol/L | −0.35 ± 1.99，n=23 | −0.42 ± 2.99，n=19 | 校正後 p=.93 | 沒有組間差異 |\n\n### 依從性與不良事件\n\n- 平均依從率約 98%，顯示把纖維放進麵包在執行面可行。\n- 約 35% 參與者回報至少一項 adverse event，兩組比例沒有顯著差異。\n- 回報內容包括 wind 7 人、bloating 9 人、輕微 constipation 3 人、腹痛 1 人、loose stool 或 mild diarrhoea 2 人、排便次數增加 1 人與未特指的胃部不適 1 人。\n- 一名參與者因誤食發霉麵包出現 48 小時 severe diarrhoea，研究者沒有把它直接歸因於 prebiotic intervention。\n\n## 臨床意義 / 怎麼用\n\n**要點**：這篇研究較適合用來討論高纖食品介入的可行性與研究設計，尚不足以支持用高纖麵包改善長者記憶或 HDL。\n\n- **可用情境**：對平時纖維攝取偏低、能安全咀嚼與吞嚥、沒有研究排除條件的長者，可把「把纖維放進熟悉食物」當成飲食介入設計方向。\n- **實務做法**：若要嘗試增加纖維，需依個人原本攝取量、腸胃耐受度、飲水量、排便狀況與共病逐步調整。研究中的產品是特定配方與特定劑量，不能直接等同一般市售麵包。\n- **腸胃監測**：bloating、wind、腹痛、便秘與腹瀉都值得在初期追蹤。長者若有腸道疾病、吞嚥問題、食物過敏或攝取不足，先處理安全與營養完整性。\n- **認知解讀**：MoCA total 沒有改善，memory 由對照組改善較多，且敏感度分析後效應減弱。這個結果不能用來推論高纖麵包會損害記憶，也不能用來主張對照麵包具有認知治療效果。\n- **HDL 解讀**：HDL 濃度單一變化無法代表 HDL functionality、particle size、cholesterol efflux capacity 或整體心血管風險。需搭配完整 lipid profile、病人風險與長期結果判斷。\n- **外部效度**：研究對象是英國社區長者，BMI 限定在 18.5 至 29.9 kg/m²，且排除了多項疾病、藥物與腸胃問題。結果外推到台灣高齡者、衰弱者、肌少症者、糖尿病患者或住院病人時要保守。\n\n## 重要圖表重述\n\n- **Fig. 1**：呈現 practice visit、baseline visit 與 12 週 follow-up 的流程，包括篩檢、人體測量、認知與情緒測量、空腹微量採血，以及介入後重複評估。\n- **Fig. 2**：CONSORT 流程顯示 225 人接受電話篩檢，53 人隨機分組，兩組各有 1 人中止介入，2 人因主要 outcome 資料品質問題未納入統計分析，49 人進入主要分析。\n- **Table 1**：兩組基線年齡、BMI、教育年數、能量與纖維攝取、酒精、茶咖啡、運動、TICS 與 adverse event 比例大致相近。高強度運動時間的組間 p 值為 .05，提醒兩組生活型態仍可能有細微差異。\n- **Table 2**：認知指標中，差異主要集中在 MoCA memory。MoCA total、RAVLT 與 WMQ 沒有校正後顯著差異。\n- **Table 3**：情緒與腸胃指標中，PANAS-X hostility 是唯一達到校正後顯著門檻的情緒項目。GSRS total 與各分項沒有明確差異。\n- **Table 4**：周邊與人體測量指標中，HDL 是唯一達到校正後顯著門檻的項目。hs-CRP、HbA1c、BMI、腰臀圍、血壓與心率沒有組間差異。\n\n## 與既有認知的對照\n\n- vault 無相關既有筆記可供比對。\n- 本篇提供的知識增量是：介入劑型可能改變纖維的實際作用，冷凍、解凍、加熱與麵包基質的差異都可能影響纖維結構、黏度、溶解度與發酵性。\n\n## 概念 / 名詞整理\n\n- **Prebiotic**：可被宿主微生物選擇性利用，並帶來健康效益的基質。本研究把多種 fibre blend 放入麵包。\n- **SCFAs**：腸道菌發酵纖維後產生的短鏈脂肪酸。作者把它視為可能連接腸道、免疫與腦部功能的路徑，這項研究沒有直接測量 SCFAs。\n- **Microbiota-gut-brain axis**：腸道微生物、腸道、免疫、內分泌、迷走神經與腦部之間的訊息網路。本篇只提供推測機轉，沒有用 microbiome 或 metabolome 資料證實。\n- **MoCA**：30 分制的認知篩檢工具，包含記憶、語言、注意力、執行功能、視覺空間與定向力。\n- **RAVLT**：測量聽覺語詞學習與立即、延遲回憶的工具。\n- **WMQ**：評估日常生活中短期儲存、注意力與執行控制的工作記憶困難。\n- **PANAS-X hostility**：PANAS-X 的情緒分項，用來反映 hostility 狀態。這是自陳情緒指標，不能直接等同臨床攻擊行為或精神疾病診斷。\n- **hs-CRP**：低濃度 C-reactive protein，用於觀察全身發炎訊號。本研究沒有看到介入組的明確改善。\n\n## 自我測驗\n\n> [!question]- Q1：這項研究能否支持「每日高纖麵包可以改善高齡者整體認知」？\n> 不能。主要 endpoint 是 MoCA total，介入組變化 +0.92，對照組 +2.00，校正後 p=.11。MoCA memory 由對照組改善較多，敏感度分析後又降為趨勢訊號，因此研究沒有提供穩定的整體認知改善證據。\n\n> [!question]- Q2：研究中最值得保留的情緒結果是什麼？解讀時要加上哪個限制？\n> PANAS-X hostility 在高纖麵包組下降 −0.85，對照組上升 +0.30，校正後 p=.05，ηp²=.09。這是單一情緒分項的邊界結果，研究沒有測量足以說明原因的 microbiome、SCFAs、tryptophan 或 HPA axis 指標，因此應視為待驗證訊號。\n\n> [!question]- Q3：為什麼不能只看到 HDL 組間差異，就說高纖麵包改變了心血管風險？\n> HDL 濃度在介入組下降 −0.09 mmol/L，對照組上升 +0.06 mmol/L，校正後 p=.02，但 HDL 濃度不等於 HDL functionality，也沒有同步看到 total cholesterol、LDL、triglycerides、血壓或其他心代謝指標的組間差異。單一短期濃度變化不足以推定臨床風險方向。\n\n> [!question]- Q4：設計下一個相似試驗時，研究者應補哪些資料？\n> 應擴大樣本並預先固定主要 outcome，直接測量 gut microbiome、SCFAs、tryptophan metabolism 或 HPA axis 相關指標，記錄產品冷凍解凍與加熱後的纖維物理化學性質，也要更嚴格控制食用時間與介入外的飲食。這些資料可協助分辨情緒訊號來自纖維本身、食品基質、生活型態或隨機變異。\n\n## Reference\n\n- Lee Y, Colombage RL, Hall CV, Lamport DJ, Williams CM, Hepsomali P. Effects of a prebiotic fibre-enriched bread in older adults: a randomised, placebo-controlled, parallel-groups feasibility study (BiomeBakery). *The Journal of Nutrition, Health & Aging*. 2026;30(10):100939. doi: [10.1016/j.jnha.2026.100939](https://doi.org/10.1016/j.jnha.2026.100939). PMCID: [PMC13495385](https://pmc.ncbi.nlm.nih.gov/articles/PMC13495385/).\n\n## 全文來源與閱讀證據\n\n- 來源：PMC 完整 HTML，路徑為 `[local path removed]`。\n- 來源路徑：`openalex-oa-location`，實際來源頁為 [PMC13495385](https://pmc.ncbi.nlm.nih.gov/articles/PMC13495385/)。\n- 身分核對：題名、DOI、PMID 42594505、PMCID PMC13495385 相符。正文含 Abstract、Introduction、Methods、Results、Discussion、Conclusion 與 References。\n- source SHA-256：`a060d1dd09428a91a42966aed9b7908d71deb028739ad1ad99fbe3605966e80d`。\n- 本地 UTF-8 文字擷取檔：`work/2026-08-27-worker-batch/evidence/jnha-100939-fulltext.txt`，SHA-256：`78e924930fb3e7f3243f3286011c9343072887893f346f8398edf7e565fdf08c`，字元數 68,768。",
+      "cards": [
+        {
+          "title": "高纖麵包與整體認知",
+          "question": "這項研究能否支持每日高纖麵包可以改善高齡者整體認知？",
+          "answer": "不能。主要 endpoint 是 MoCA total，介入組變化 +0.92，對照組 +2.00，校正後 p=.11。MoCA memory 由對照組改善較多，敏感度分析後又降為趨勢訊號，沒有穩定的整體認知改善證據。",
+          "tags": [
+            "aging",
+            "prebiotics",
+            "cognition"
+          ]
+        },
+        {
+          "title": "Hostility 結果怎麼讀",
+          "question": "研究中最值得保留的情緒結果是什麼？解讀時要加上哪個限制？",
+          "answer": "PANAS-X hostility 在高纖麵包組下降 −0.85，對照組上升 +0.30，校正後 p=.05，ηp²=.09。這是單一情緒分項的邊界結果，沒有 microbiome、SCFAs、tryptophan 或 HPA axis 資料說明原因，應視為待驗證訊號。",
+          "tags": [
+            "aging",
+            "prebiotics",
+            "mood"
+          ]
+        },
+        {
+          "title": "HDL 組間差異的限制",
+          "question": "為什麼不能只看到 HDL 組間差異，就說高纖麵包改變了心血管風險？",
+          "answer": "HDL 濃度在介入組下降 −0.09 mmol/L，對照組上升 +0.06 mmol/L，校正後 p=.02，但 HDL 濃度不等於 HDL functionality，也沒有同步看到其他心代謝指標的組間差異。單一短期濃度變化不足以推定臨床風險方向。",
+          "tags": [
+            "aging",
+            "prebiotics",
+            "lipids"
+          ]
+        },
+        {
+          "title": "下一個試驗要補什麼",
+          "question": "設計下一個相似試驗時，研究者應補哪些資料？",
+          "answer": "擴大樣本並預先固定主要 outcome，直接測量 gut microbiome、SCFAs、tryptophan metabolism 或 HPA axis 指標，記錄冷凍解凍與加熱後的纖維性質，也要更嚴格控制食用時間與介入外飲食。",
+          "tags": [
+            "aging",
+            "prebiotics",
+            "research-design"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-27T04:31:10.146Z"
+    },
     {
       "id": "doi:10.1016/j.pcd.2026.06.004:digest",
       "paperId": "doi:10.1016/j.pcd.2026.06.004",
@@ -227,7 +383,7 @@
       "evidenceScope": "full_text",
       "title": "Family Harmony Mediates the Association Between Subjective Well-Being and Health-Promoting Behaviors Among Middle-Aged Women in Northern China.",
       "authors": "Liu H, Wang J, Zhang H, Huang Y",
-      "journal": "Aging, frailty and sarcopenia (PubMed)",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
       "year": "2026",
       "doi": "10.2147/IJWH.S619242",
       "abstract": "Health-promoting behaviors (HPB) are essential for disease prevention and healthy aging but remain suboptimal among middle-aged women (aged 45-59 years), who may face perimenopausal changes and work-family demands. Subjective well-being (SWB) is associated with HPB, but the role of family relational factors in this association remains unclear. Family harmony may represent a key relational pathway linking SWB to HPB; however, evidence from Northern China remains limited, and this pathway may differ by ethnicity because women's family roles and responsibilities vary across sociocultural contexts. This study examined whether family harmony mediates the SWB-HPB association among middle-aged women in Northern China and explored variation across HPB domains and by ethnicity. A cross-sectional survey was conducted from June to October 2022 in eight communities in Yantai and Yanji, Northern China. A total of 529 middle-aged women, comprising 415 Han majority women (78.45%) and 114 Chinese Korean minority women (21.55%), completed validated measures of SWB, family harmony, and HPB. Descriptive, correlation, and mediation analyses using the Hayes PROCESS macro (Model 4) were performed, together with domain-specific and ethnicity-stratified analyses. Family harmony partially mediated the SWB-HPB association (indirect effect = 0.047, 95% confidence interval [0.014, 0.081]). The indirect effect was significant for health responsibility, physical activity, nutrition, stress management, and spiritual growth, but not interpersonal relationships. Among Han participants, the association was primarily direct; among Chinese Korean participants, an indirect-only mediation pattern through family harmony was observed. These findings highlight the importance of considering family relational contexts, alongside individual psychological resources, in efforts to support healthy lifestyles among middle-aged women. Community health programs may benefit from combining individual-level support with family-engaged components and tailoring the emphasis of these strategies to the sociocultural contexts of different population groups.",
@@ -293,7 +449,7 @@
       "evidenceScope": "full_text",
       "title": "Family Harmony Mediates the Association Between Subjective Well-Being and Health-Promoting Behaviors Among Middle-Aged Women in Northern China.",
       "authors": "Liu H, Wang J, Zhang H, Huang Y",
-      "journal": "Aging, frailty and sarcopenia (PubMed)",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
       "year": "2026",
       "doi": "10.2147/IJWH.S619242",
       "abstract": "Health-promoting behaviors (HPB) are essential for disease prevention and healthy aging but remain suboptimal among middle-aged women (aged 45-59 years), who may face perimenopausal changes and work-family demands. Subjective well-being (SWB) is associated with HPB, but the role of family relational factors in this association remains unclear. Family harmony may represent a key relational pathway linking SWB to HPB; however, evidence from Northern China remains limited, and this pathway may differ by ethnicity because women's family roles and responsibilities vary across sociocultural contexts. This study examined whether family harmony mediates the SWB-HPB association among middle-aged women in Northern China and explored variation across HPB domains and by ethnicity. A cross-sectional survey was conducted from June to October 2022 in eight communities in Yantai and Yanji, Northern China. A total of 529 middle-aged women, comprising 415 Han majority women (78.45%) and 114 Chinese Korean minority women (21.55%), completed validated measures of SWB, family harmony, and HPB. Descriptive, correlation, and mediation analyses using the Hayes PROCESS macro (Model 4) were performed, together with domain-specific and ethnicity-stratified analyses. Family harmony partially mediated the SWB-HPB association (indirect effect = 0.047, 95% confidence interval [0.014, 0.081]). The indirect effect was significant for health responsibility, physical activity, nutrition, stress management, and spiritual growth, but not interpersonal relationships. Among Han participants, the association was primarily direct; among Chinese Korean participants, an indirect-only mediation pattern through family harmony was observed. These findings highlight the importance of considering family relational contexts, alongside individual psychological resources, in efforts to support healthy lifestyles among middle-aged women. Community health programs may benefit from combining individual-level support with family-engaged components and tailoring the emphasis of these strategies to the sociocultural contexts of different population groups.",
@@ -4076,7 +4232,7 @@
       "evidenceScope": "full_text",
       "title": "Dietary patterns in western patients with hidradenitis suppurativa: a cross-sectional study using the rapid prime diet quality screener.",
       "authors": "Regensberger F, André F, Maier S, Posch C, Al-Naesan I, Schmuth M",
-      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "journal": "Scientific Reports (PubMed)",
       "year": "2026",
       "doi": "10.1038/s41598-026-53399-2",
       "abstract": "Hidradenitis suppurativa (HS) is a chronic inflammatory skin disease with multifactorial pathogenesis, in which dietary factors may play a role. This cross-sectional study evaluated dietary patterns in 71 HS patients in a Western population using the validated Rapid Prime Diet Quality Screener (rPDQS) and compared the results with those of a healthy historical US validation cohort representative of the Western diet. The HS cohort had significantly lower mean rPDQS scores than reference group (11 ± 4 vs. 12 ± 4, p = 0.005) and higher rates of overweight/obesity (81% vs. 59%). Processed meat consumption was significantly higher (p < 0.001), nut and nut products intake significantly lower (p < 0.001) in the HS group. Beyond objective dietary assessment, patient-reported outcomes highlighted diet as a perceived factor influencing disease: 27% reported diet-related factors as negatively affecting HS, whereas 28% cited diet-particularly healthy eating-as beneficial. Our findings suggest that HS patients may follow less healthy dietary patterns than the reference group and that patient perceptions of diet may represent an additional relevant dimension. The results highlight potential dietary targets for intervention and suggest that both dietary patterns and patient perceptions of diet may play a role in HS.",
@@ -4126,7 +4282,7 @@
       "evidenceScope": "full_text",
       "title": "Dietary patterns in western patients with hidradenitis suppurativa: a cross-sectional study using the rapid prime diet quality screener.",
       "authors": "Regensberger F, André F, Maier S, Posch C, Al-Naesan I, Schmuth M",
-      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "journal": "Scientific Reports (PubMed)",
       "year": "2026",
       "doi": "10.1038/s41598-026-53399-2",
       "abstract": "Hidradenitis suppurativa (HS) is a chronic inflammatory skin disease with multifactorial pathogenesis, in which dietary factors may play a role. This cross-sectional study evaluated dietary patterns in 71 HS patients in a Western population using the validated Rapid Prime Diet Quality Screener (rPDQS) and compared the results with those of a healthy historical US validation cohort representative of the Western diet. The HS cohort had significantly lower mean rPDQS scores than reference group (11 ± 4 vs. 12 ± 4, p = 0.005) and higher rates of overweight/obesity (81% vs. 59%). Processed meat consumption was significantly higher (p < 0.001), nut and nut products intake significantly lower (p < 0.001) in the HS group. Beyond objective dietary assessment, patient-reported outcomes highlighted diet as a perceived factor influencing disease: 27% reported diet-related factors as negatively affecting HS, whereas 28% cited diet-particularly healthy eating-as beneficial. Our findings suggest that HS patients may follow less healthy dietary patterns than the reference group and that patient perceptions of diet may represent an additional relevant dimension. The results highlight potential dietary targets for intervention and suggest that both dietary patterns and patient perceptions of diet may play a role in HS.",
