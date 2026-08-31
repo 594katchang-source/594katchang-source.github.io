@@ -1,7 +1,650 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T03:30:24.227Z",
+  "generatedAt": "2026-08-31T05:23:51.848Z",
   "papers": [
+    {
+      "id": "doi:10.3389/fpubh.2026.1911482:digest",
+      "paperId": "doi:10.3389/fpubh.2026.1911482",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Risk factors for post-COVID-19 condition among previously hospitalized COVID-19 patients: a systematic review and meta-analysis.",
+      "authors": "Kassymbek S, Abduldayeva A, Safonov N, Doszhanova G",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.3389/fpubh.2026.1911482",
+      "abstract": "Post-COVID-19 condition is a major source of long-term morbidity after SARS-CoV-2 infection. Patients hospitalized for COVID-19 may be at particularly high risk because hospitalization often reflects greater acute disease severity and comorbidity burden. However, evidence on risk factors in previously hospitalized populations remains inconsistent due to differences in outcome definitions, follow-up periods, and analytical approaches. This systematic review and meta-analysis aimed to identify risk factors associated with post-COVID outcomes among patients previously hospitalized for COVID-19. A systematic review and meta-analysis was conducted following PRISMA 2020 principles. PubMed/MEDLINE, Scopus, Web of Science Core Collection, and the WHO COVID-19 Global Literature Database were searched for studies published between 1 January 2020 and 24 February 2026. Eligible studies included hospitalized patients with confirmed or probable COVID-19, assessed post-acute outcomes at least 4 weeks after acute infection, hospitalization, recovery, or discharge, and evaluated at least one candidate risk factor. Adjusted effect estimates were prioritized, and random-effects meta-analyses were performed when at least two comparable estimates were available. Eleven studies were included in the qualitative synthesis, and seven contributed to quantitative meta-analysis. Five risk-factor groups were pooled: female sex, acute disease severity or respiratory support, intensive care unit (ICU) admission, vaccination status, and hypertension. Female sex was associated with higher odds of post-COVID outcomes (OR 1.94, 95% CI 1.60-2.35; I 2 = 6.9%). The strongest association was observed for greater acute disease severity or advanced respiratory support (OR 2.55, 95% CI 1.77-3.68; I 2 = 13.0%). ICU admission (OR 1.88, 95% CI 1.24-2.83), no or incomplete vaccination (OR 1.90, 95% CI 1.33-2.72), and hypertension (OR 1.60, 95% CI 1.16-2.20) were also associated with increased odds. Additional predictors, including obesity, age, smoking, dysgeusia, symptom burden, and neurological or psychiatric comorbidity, were summarized narratively. Among previously hospitalized COVID-19 patients, the most consistent risk factors for post-COVID outcomes were female sex, greater acute disease severity or respiratory support, ICU admission, no or incomplete vaccination, and hypertension. These findings support risk-based post-discharge follow-up, although the evidence remains limited by heterogeneous outcome definitions and the small number of studies available for several risk factors.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1911482/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42666214/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "design:systematic review",
+        "human clinical population",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "住院 COVID-19 後 post-COVID 風險因子的全文內容整理",
+      "content": "---\ntitle: \"住院 COVID-19 後 post-COVID 風險因子的全文內容整理\"\npaper_title: \"Risk factors for post-COVID-19 condition among previously hospitalized COVID-19 patients: a systematic review and meta-analysis\"\ndoi: \"10.3389/fpubh.2026.1911482\"\njournal: \"Frontiers in Public Health\"\nyear: 2026\nsource: \"verified local PDF full text\"\n---\n\n# 住院 COVID-19 後 post-COVID 風險因子的全文內容整理\n\n## 30 秒理解\n\n這篇回顧研究曾因 COVID-19 住院者出院後發生 post-COVID 結果的風險訊號。11 篇研究進入質性整理，7 篇進入量化合併；女性、急性病情嚴重／需要高階呼吸支持、ICU 入住、未完整接種疫苗與高血壓，和較高的 post-COVID 勝算相關。最強合併訊號是急性嚴重度／呼吸支持 OR 2.55（95% CI 1.77–3.68）。但研究數少，post-COVID 定義從 WHO-PCC 到任何持續症狀或自覺未恢復不一，不能把 OR 當作個人確定性預測，也沒有直接測試營養治療。\n\n## 5 分鐘掌握\n\n### 研究設計\n\n- **資料庫**：PubMed/MEDLINE、Scopus、Web of Science Core Collection、WHO COVID-19 Global Literature Database；搜尋 2020-01-01 至 2026-02-24。\n- **納入**：曾因確定或可能 COVID-19 住院，至少急性期後 4 週追蹤，評估至少一個風險因子並提供可解釋的效應估計；納入 cohort、橫斷面追蹤、registry、case-control 或雙向 cohort。\n- **篩選**：573 筆資料庫紀錄加 18 筆引用追蹤，去除 183 筆重複後 408 筆標題／摘要篩選；58 篇取全文，7 篇無法取得；51 篇全文評估後排除 40 篇，11 篇進質性整理，7 篇提供量化估計。\n- **研究地區與規模**：英國、俄羅斯、巴西、義大利、泰國、法國、南非與中國；主要樣本 295–2,320 人，追蹤約 54 天至 2 年。\n- **偏差評估**：改良 Newcastle–Ottawa Scale；3 篇低—中度、5 篇中度、3 篇中—高度風險。\n\n### 五組合併結果\n\n| 風險因子 | 研究數 | 合併 OR（95% CI） | I² |\n|---|---:|---:|---:|\n| 女性 | 4 | 1.94（1.60–2.35） | 6.9% |\n| 急性嚴重度／呼吸支持 | 3 | 2.55（1.77–3.68） | 13.0% |\n| ICU 入住 | 2 | 1.88（1.24–2.83） | 0% |\n| 未或未完整接種疫苗 | 2 | 1.90（1.33–2.72） | 0% |\n| 高血壓 | 2 | 1.60（1.16–2.20） | 25.4% |\n\n作者把效應方向統一成 OR>1 代表較高不良 post-COVID 結果勝算；若原研究報告完整接種具有保護性，則反轉成未或未完整接種對完整接種。兩篇研究的 ICU、疫苗與高血壓合併，不能因 I²=0% 就當作確定證據，因為研究數太少。\n\n## 深入整理\n\n### 結果定義不能混為一談\n\n納入研究使用 WHO post-COVID-19 condition、至少一項持續症狀、結構化訪談的 Long COVID、新發／持續症狀或病人自覺未恢復。WHO-PCC 通常要求症狀在起病約 3 個月後出現或持續至少 2 個月，且不能由其他診斷解釋；其他研究的「四週後仍有一項症狀」更寬。不同定義可能捕捉不同病人，因此合併 OR 應理解為「研究各自定義的 post-COVID 結果」，不是單一診斷的精準風險。\n\n### 為什麼重症是風險標記而非單一原因\n\n重症、呼吸支持與 ICU 暴露可能同時代表缺氧、發炎、器官損傷、長期臥床、肌力下降、心理壓力與 post-intensive-care syndrome。它們可幫助安排出院後較完整的症狀、功能、呼吸、心血管、認知和心理追蹤，但不能說 ICU 或呼吸器本身造成 Long COVID。\n\n### 未完整接種與高血壓的限制\n\n未完整接種和較高 post-COVID 勝算的關係，可能混入疫情波次、變異株、既往免疫、年齡、共病、急性治療與住院門檻差異。高血壓可能是年齡、肥胖、糖尿病、心血管疾病與疾病負荷的代理指標，殘餘混雜不能排除。肥胖／BMI、年齡、吸菸、味覺異常與急性症狀量因估計不完整或不可比，只保留敘述性整理。\n\n### 敏感度與發表偏差\n\n女性 leave-one-out 合併 OR 約 1.85–2.10；急性嚴重度／呼吸支持約 2.19–2.98，方向沒有因單一研究移除而反轉。但 ICU、疫苗與高血壓移除任一研究後只剩一篇，這只能算描述性穩定性檢查。每個風險群少於 10 篇，所以未正式做 Egger 檢定；沒有檢定不等於沒有發表偏差。\n\n### 營養照護的正確連結\n\n本文沒有測量營養攝取、營養篩檢、體組成、肌力、營養補充或飲食介入效果。營養師可以把重症、ICU、吞嚥困難、體重下降、食慾差、疲勞影響進食和失用列為出院後營養評估的優先線索，但這是把風險導向恢復照護與營養工作流程整合，不是本文證實的營養治療效果。\n\n## 給營養師的工作提示\n\n- 對重症或 ICU 出院者，與團隊一起追蹤體重、攝取、吞嚥、肌力、功能、疲勞、呼吸和心理狀態。\n- 疲勞、食慾差或呼吸困難不能自動歸因於 post-COVID；要同步查貧血、藥物、心肺疾病、憂鬱、睡眠、失用與營養不足。\n- 用女性、重症、ICU、未完整接種或高血壓安排追蹤警覺，不要用它們建立沒有外部驗證的硬性預測分數。\n- 評估蛋白質或補充品需求時，回到個案能量需求、腎功能、吞嚥、疾病負荷、活動量與實際攝取；本文沒有補充品劑量依據。\n\n## 自我測驗\n\n### 題目 1\n\n急性嚴重度／呼吸支持的 OR=2.55 可以怎麼用？\n\n**答案**：可作為出院後較完整症狀與功能追蹤的風險訊號；不能當作個人一定會發生 post-COVID 的機率，也不能視為呼吸支持造成結果。\n\n### 題目 2\n\n為什麼不同研究的 Long COVID 結果不能只看名稱就合併？\n\n**答案**：研究可能使用 WHO-PCC、四週持續症狀、結構化訪談或自覺未恢復，時間門檻、症狀列表、功能受損要求與替代診斷排除都不同。\n\n### 題目 3\n\nICU 與疫苗分析的 I²=0% 是否代表證據很穩固？\n\n**答案**：不是。兩組都只有兩篇研究，異質性估計不穩定；移除任一研究後只剩單一研究，不能把低 I² 當成高確定性。\n\n### 題目 4\n\n這篇是否證明 post-COVID 患者應常規接受某種營養補充？\n\n**答案**：沒有。研究未測量營養介入、飲食攝取、體組成或營養結局；只能支持高風險出院者接受較結構化的多專業評估，再依個案資料決定營養照護。\n\n## 最後記憶點\n\n本篇的主訊息是「重症住院後需要風險導向的恢復追蹤」，不是「OR 就是個人預測」或「某營養治療已被證實」。先確認 post-COVID 的操作型定義，再把症狀、功能、營養與替代原因分開評估，才能安全轉譯到臨床工作。\n\n## 原文依據\n\n- Kassymbek S, Abduldayeva A, Safonov N, Doszhanova G. “Risk factors for post-COVID-19 condition among previously hospitalized COVID-19 patients: a systematic review and meta-analysis.” *Frontiers in Public Health*. 2026. DOI: 10.3389/fpubh.2026.1911482.\n- 本次使用本機驗證完整 PDF 及 UTF-8 文字擷取，逐段涵蓋 Abstract、Introduction、Methods、Results、Discussion、Limitations、Future research、Conclusion、表格與參考文獻，共 15 頁。",
+      "cards": [
+        {
+          "title": "OR 不是個人機率",
+          "question": "急性重症／呼吸支持 OR=2.55 可以怎麼解讀？",
+          "answer": "它是納入研究中的合併關聯訊號，可幫助安排較完整的出院後追蹤；不是個人一定發生 post-COVID 的機率，也不是呼吸支持造成結果的證明。",
+          "tags": [
+            "post-COVID",
+            "OR",
+            "風險分層"
+          ]
+        },
+        {
+          "title": "名稱相同不代表定義相同",
+          "question": "為什麼不同研究的 Long COVID 結果不能只看名稱合併？",
+          "answer": "有些用 WHO-PCC，有些用四週持續症狀、結構化訪談或自覺未恢復；時間門檻、症狀、功能受損與替代診斷排除都不同。",
+          "tags": [
+            "結果定義",
+            "Long COVID",
+            "可比性"
+          ]
+        },
+        {
+          "title": "I²=0 不等於穩固",
+          "question": "ICU 或疫苗的 I²=0% 是否代表證據很強？",
+          "answer": "不是。每組只有兩篇研究，移除任一篇就只剩單一估計；低 I² 在研究很少時不能代表高確定性。",
+          "tags": [
+            "異質性",
+            "統合分析",
+            "證據確定性"
+          ]
+        },
+        {
+          "title": "營養介入尚未被測試",
+          "question": "這篇是否證明 post-COVID 患者應常規接受某種營養補充？",
+          "answer": "沒有。研究沒有測量飲食、營養介入、體組成或營養結局；營養師可加入高風險出院者的評估，但處方仍須依個案資料。",
+          "tags": [
+            "營養照護",
+            "出院追蹤",
+            "研究邊界"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-31T05:22:31.753Z"
+    },
+    {
+      "id": "doi:10.3389/fpubh.2026.1911482:review",
+      "paperId": "doi:10.3389/fpubh.2026.1911482",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Risk factors for post-COVID-19 condition among previously hospitalized COVID-19 patients: a systematic review and meta-analysis.",
+      "authors": "Kassymbek S, Abduldayeva A, Safonov N, Doszhanova G",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.3389/fpubh.2026.1911482",
+      "abstract": "Post-COVID-19 condition is a major source of long-term morbidity after SARS-CoV-2 infection. Patients hospitalized for COVID-19 may be at particularly high risk because hospitalization often reflects greater acute disease severity and comorbidity burden. However, evidence on risk factors in previously hospitalized populations remains inconsistent due to differences in outcome definitions, follow-up periods, and analytical approaches. This systematic review and meta-analysis aimed to identify risk factors associated with post-COVID outcomes among patients previously hospitalized for COVID-19. A systematic review and meta-analysis was conducted following PRISMA 2020 principles. PubMed/MEDLINE, Scopus, Web of Science Core Collection, and the WHO COVID-19 Global Literature Database were searched for studies published between 1 January 2020 and 24 February 2026. Eligible studies included hospitalized patients with confirmed or probable COVID-19, assessed post-acute outcomes at least 4 weeks after acute infection, hospitalization, recovery, or discharge, and evaluated at least one candidate risk factor. Adjusted effect estimates were prioritized, and random-effects meta-analyses were performed when at least two comparable estimates were available. Eleven studies were included in the qualitative synthesis, and seven contributed to quantitative meta-analysis. Five risk-factor groups were pooled: female sex, acute disease severity or respiratory support, intensive care unit (ICU) admission, vaccination status, and hypertension. Female sex was associated with higher odds of post-COVID outcomes (OR 1.94, 95% CI 1.60-2.35; I 2 = 6.9%). The strongest association was observed for greater acute disease severity or advanced respiratory support (OR 2.55, 95% CI 1.77-3.68; I 2 = 13.0%). ICU admission (OR 1.88, 95% CI 1.24-2.83), no or incomplete vaccination (OR 1.90, 95% CI 1.33-2.72), and hypertension (OR 1.60, 95% CI 1.16-2.20) were also associated with increased odds. Additional predictors, including obesity, age, smoking, dysgeusia, symptom burden, and neurological or psychiatric comorbidity, were summarized narratively. Among previously hospitalized COVID-19 patients, the most consistent risk factors for post-COVID outcomes were female sex, greater acute disease severity or respiratory support, ICU admission, no or incomplete vaccination, and hypertension. These findings support risk-based post-discharge follow-up, although the evidence remains limited by heterogeneous outcome definitions and the small number of studies available for several risk factors.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1911482/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42666214/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "design:systematic review",
+        "human clinical population",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "住院 COVID-19 後 post-COVID 風險因子的品質評讀",
+      "content": "---\ntitle: \"住院 COVID-19 後 post-COVID 風險因子的品質評讀\"\npaper_title: \"Risk factors for post-COVID-19 condition among previously hospitalized COVID-19 patients: a systematic review and meta-analysis\"\ndoi: \"10.3389/fpubh.2026.1911482\"\njournal: \"Frontiers in Public Health\"\nyear: 2026\nreview_mode: \"focused-quick\"\nsource: \"verified local PDF full text\"\n---\n\n# 住院 COVID-19 後 post-COVID 風險因子的品質評讀\n\n## 一句話結論\n\n這篇系統性回顧與統合分析指出，曾因 COVID-19 住院者中，女性、急性期病情較重／需要較高階呼吸支持、曾入住 ICU、未完整接種疫苗與高血壓，和後續 post-COVID 結果有較高勝算；但五個合併結果各只有 2–4 個研究，且 post-COVID 定義、追蹤時間、症狀測量與混雜控制差異很大。它比較適合用來規劃出院後風險導向的症狀、功能與營養狀態追蹤，不足以作為個人確定性預測工具，也沒有直接測試營養介入。\n\n## 品質快照\n\n- **研究問題**：在曾因 COVID-19 住院的人中，哪些人口、共病、急性嚴重度、呼吸支持、ICU、疫苗或其他因素與 post-COVID-19 condition／Long COVID／持續症狀／未完全恢復相關？\n- **研究設計**：系統性回顧與隨機效應統合分析，依 PRISMA 2020 與 PRISMA-S 撰寫；搜尋 PubMed/MEDLINE、Scopus、Web of Science Core Collection 與 WHO COVID-19 Global Literature Database，期間為 2020-01-01 至 2026-02-24。\n- **篩選流程**：電子資料庫 573 筆，加參考文獻與引用追蹤 18 筆；去除 183 筆重複後篩選 408 筆，排除 350 筆；58 篇進入取全文，7 篇無法取得，51 篇全文評估，排除 40 篇，最後 11 篇進入質性整理、7 篇提供可合併估計。\n- **納入研究**：英國、俄羅斯、巴西、義大利、泰國、法國、南非與中國的住院後研究；主要樣本數 295–2,320，追蹤約 54 天至 2 年。\n- **結果差異**：有些研究使用 WHO post-COVID-19 condition，有些用至少一項持續症狀、結構化訪談 Long COVID、新發／持續症狀或自覺未恢復；作者有把術語和操作型定義分開擷取。\n- **偏差風險**：以改良 Newcastle–Ottawa Scale 評估；3 篇低—中度、5 篇中度、3 篇中—高度風險，主要疑慮為失訪、自陳或電話症狀評估、寬鬆的結果定義與殘餘混雜。\n- **營養實務相關性**：文章支持出院後症狀、功能、復健與多專業追蹤的風險分層；沒有直接測量營養攝取、營養篩檢、體組成或營養治療效果，因此營養應用屬合理的照護整合推論，不是本文直接驗證的效果。\n\n## 白話導讀\n\n### 研究在問什麼\n\n作者聚焦在「已住院」這個高風險族群，而不是把輕症社區感染和重症住院者混在一起。住院本身可能代表較重的急性病、更多共病、缺氧、長時間臥床或 ICU 暴露；出院後的疲勞、呼吸困難、認知與心理症狀，也可能和 post-intensive-care syndrome、失用與原有疾病惡化重疊。因此作者不只看研究標題叫什麼，而是逐篇檢查實際追蹤時間、症狀持續多久、是否要求功能受損與如何排除其他診斷。\n\n### 五組可合併的風險因子\n\n| 風險因子 | 研究數 K | 合併 OR（95% CI） | I² | 保守解讀 |\n|---|---:|---:|---:|---|\n| 女性 | 4 | 1.94（1.60–2.35） | 6.9% | 在納入研究中較常出現較高 post-COVID 勝算，但可能混有症狀回報與醫療尋求差異 |\n| 急性病情嚴重／呼吸支持 | 3 | 2.55（1.77–3.68） | 13.0% | 最強且臨床上合理的風險訊號，但可能代表整體重症與失用，而不只是 COVID 特異機轉 |\n| ICU 入住 | 2 | 1.88（1.24–2.83） | 0% | 可作高風險追蹤標記；兩篇研究太少，不能視為 ICU 本身造成症狀 |\n| 未或未完整接種疫苗 | 2 | 1.90（1.33–2.72） | 0% | 與較高 post-COVID 勝算相關，但與疫情波次、變異株、既往免疫、治療和住院門檻高度相連 |\n| 高血壓 | 2 | 1.60（1.16–2.20） | 25.4% | 可能是脆弱度標記；年齡、肥胖、糖尿病、心血管疾病與急性嚴重度的殘餘混雜很重要 |\n\n### 沒有合併的因素\n\n肥胖／BMI、年齡、吸菸、味覺異常、急性期症狀數、神經或精神共病，以及部分器官異常，因估計值不完整、效應量不一致或結果定義不可比，只作敘述性整理。治療、類固醇、抗病毒藥、抗凝血、氧氣治療、ICU 措施與住院天數也沒有被當成治療效果合併，因為適應症混雜與重症程度混雜太強。\n\n### 結果定義是核心問題\n\nWHO 的 post-COVID-19 condition 通常要求症狀在起病約 3 個月後出現或持續至少 2 個月，且不能由其他診斷解釋；但納入研究也使用「任何一項持續症狀」「四週後症狀」「結構化訪談 Long COVID」或「自覺未恢復」。這些結果有重疊，卻不是同一個診斷。合併 OR 應理解成「研究各自定義的 post-COVID 結果」，不是一個完全一致的疾病實體。\n\n## 研究方法與可重現性\n\n作者預先以 Population–Exposure–Outcome 框架設定研究，納入原始觀察性 cohort、橫斷面追蹤、registry、case-control 或雙向 cohort，至少追蹤 4 週並提供效應估計或可解釋資料。兩位評讀者獨立篩選與擷取，歧異以共識或第三人解決；調整後 OR 優先，不把未調整估計和調整後估計混在主要合併中。對重複 cohort、不同時間點與多個結果，每一風險因子群每研究保留一個可比估計，避免重複計數。\n\n統計上將 OR 轉為 log scale，以 95% CI 推估標準誤，使用 DerSimonian–Laird 隨機效應模型，報告 Q、I² 與 tau²，並做 leave-one-out 敏感度分析。五組中只有女性與急性嚴重度／呼吸支持的合併含有三至四篇研究；ICU、疫苗與高血壓各只有兩篇。每組研究少於 10 篇，所以未正式做 funnel plot／Egger 發表偏差檢定，也未把 subgroup meta-analysis 或 meta-regression 當主要分析。\n\n方法優點是把作者的名稱和操作型結果分開，也只在風險因子、效應量與不確定性相對可比時合併。方法限制是 protocol 未做前瞻註冊，語言限定英文或俄文可能有語言偏差；改良 Newcastle–Ottawa 評分也不能完全消除觀察性研究的混雜與結果測量差異。\n\n## Critical Appraisal\n\n### 偏差與不精確性\n\n11 篇研究中沒有一篇被列為完全低疑慮的無缺點證據；三篇中—高風險研究有較寬的結果定義、門診／橫斷面追蹤或可比性不足。女性與急性嚴重度結果的 leave-one-out 方向仍大致不變（女性 OR 1.85–2.10；嚴重度／呼吸支持 OR 2.19–2.98），但 ICU、疫苗與高血壓移除任一研究後只剩單篇研究，這只能當描述性的穩定性檢查。\n\n沒有 formal publication-bias test 不代表沒有發表偏差；它只表示每個合併的研究數太少，檢定沒有可靠能力。研究間的住院門檻、疫情波次、變異株、疫苗覆蓋、急性治療與出院追蹤系統也不同，會同時影響住院、暴露與 post-COVID 結果。\n\n### 混雜與因果邊界\n\n急性期嚴重度、呼吸支持與 ICU 可能是較高 post-COVID 風險的標記，但不能解讀為「呼吸器或 ICU 造成 Long COVID」。它們同時代表缺氧、發炎、長期臥床、肌力下降、心理壓力與 post-ICU 恢復路徑。未完整接種疫苗與結果的關係也可能部分反映疫情時間、變異株、既往免疫與治療差異。高血壓則可能只是年齡、肥胖、糖尿病與整體疾病負荷的代理變項。\n\n### GRADE 確定性\n\n這是以觀察性研究為主的風險因子回顧，不是隨機治療效果試驗。依 deterministic `grade_judge.py`，對「風險因子可作為出院後追蹤訊號」的證據信心如下；它不是對個人發生機率的校準分數。\n\n| 問題 | 起始 | 主要降級 | 最終確定性 | 解讀 |\n|---|---|---|---|---|\n| 急性嚴重度／呼吸支持與 post-COVID 結果的關聯 | 低 | 觀察性混雜、結果定義差異、每組僅 3 篇且非病人重要治療效果 | 極低 | 可幫助設定較密集追蹤優先序，不能作確定性預測或因果解釋 |\n| 女性、ICU、疫苗與高血壓等風險訊號 | 低 | 每組 2–4 篇、殘餘混雜、操作型定義不一與部分自陳結果 | 極低 | 是風險分層線索，不是個人診斷或治療決策規則 |\n| 風險因子能否決定營養介入效果 | 低 | 本文未測量營養治療、飲食攝取、體組成或病人營養結局，間接性嚴重 | 極低 | 不能由本文宣稱營養補充或飲食介入能預防 post-COVID |\n\n## Clinical Application\n\n### 可以做什麼\n\n1. **把重症出院者列入較完整的多專業追蹤。** 以症狀、功能、呼吸、心血管、認知與心理狀態作結構化追蹤，而不是只問「有沒有 Long COVID」。\n2. **營養師加入恢復路徑，但標明這是照護整合。** 對 ICU、長期呼吸支持、明顯失用、吞嚥困難、體重下降、食慾差或疲勞影響進食者，做營養風險、攝取、體重趨勢、肌力／功能與食物取得評估。本文支持的是「高風險者需要較有結構的出院後照護」，並沒有直接證明哪種營養治療有效。\n3. **把症狀與替代原因一起查。** 疲勞、呼吸困難、認知下降和食慾差可能來自貧血、藥物、心肺疾病、憂鬱、睡眠障礙、失用、腎病或營養不足，不應自動歸因於 post-COVID。\n4. **使用風險因子安排服務，不建立硬性分數。** 女性、ICU、重症、未完整接種或高血壓可以提升追蹤警覺，但病人是否需要介入仍需看現在症狀、功能與醫療資料。\n\n### 不應做什麼\n\n- 不把 OR 1.94、2.55 或 1.60 當成個人發生機率。\n- 不把 ICU 或呼吸支持解讀成 post-COVID 的單一原因。\n- 不把未完整接種的關聯解讀成只由疫苗狀態造成，忽略疫情波次與既往免疫。\n- 不用本文替代長 COVID 的臨床定義、鑑別診斷或個別化營養評估。\n- 不因本文而對所有出院者常規開立補充品；營養介入效果並未在此研究中測試。\n\n## 推論漏洞與待驗證問題\n\n- **從風險標記到預測工具**：合併 OR 不是經外部驗證、校準過的預測模型。\n- **從不同結果到同一疾病**：四週症狀、自覺未恢復與 WHO-PCC 不能完全互換。\n- **從重症到營養治療**：重症與失用可能提示營養風險，但本文沒有飲食、肌肉量或補充介入資料。\n- **從低異質性到高確定性**：I²=0% 的兩篇研究合併不代表證據穩固，研究數少時異質性估計本身不穩定。\n- **從性別差異到性別處方**：女性較高 OR 可能涉及免疫、生理、症狀回報與就醫行為，不能直接變成性別化營養處方。\n\n後續研究需要統一 post-COVID 操作型定義與追蹤時間，完整記錄住院與 ICU 暴露、疫苗與疫情波次、藥物、基線症狀與營養狀態，並建立外部驗證的風險模型；若要支持營養照護，還要前瞻性測量體重、攝取、肌力、功能與病人重要結果。\n\n## 結論與給營養師的提醒\n\n這篇回顧最實用的訊息是「重症與 ICU 出院者需要有結構的後續追蹤」，而不是一組可直接套用的個人預測公式。營養師可把體重、攝取、吞嚥、肌力、功能和食物取得納入多專業恢復流程，但要清楚區分：這是根據 post-hospitalization 照護邏輯的合理整合，並非本文已證實的營養治療效果。\n\n## 原文依據\n\n- Kassymbek S, Abduldayeva A, Safonov N, Doszhanova G. “Risk factors for post-COVID-19 condition among previously hospitalized COVID-19 patients: a systematic review and meta-analysis.” *Frontiers in Public Health*. 2026. DOI: 10.3389/fpubh.2026.1911482.\n- 本次使用本機驗證完整 PDF 及 UTF-8 文字擷取，逐段涵蓋 Abstract、Introduction、Methods、Results、Discussion、Limitations、Future research、Conclusion、表格與參考文獻，共 15 頁；重要數字依 Table 1–5 與 Results 段落核對。",
+      "cards": [],
+      "completedAt": "2026-08-31T05:19:05.183Z"
+    },
+    {
+      "id": "doi:10.1038/s43016-026-01414-0:digest",
+      "paperId": "doi:10.1038/s43016-026-01414-0",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Systematic review of nutrient profile models for front-of-pack nutrition labelling.",
+      "authors": "Bica M, Renzella J, Kaur A, Rayner M",
+      "journal": "Nutrition guidelines and consensus (PubMed)",
+      "year": "2026",
+      "doi": "10.1038/s43016-026-01414-0",
+      "abstract": "Front-of-pack nutrition labelling (FOPNL) systems, based on underlying nutrient profile models (NPMs) that classify foods according to their nutritional composition, are key policies for tackling diet-related non-communicable diseases. Yet, the growing number of NPMs poses a challenge for policymakers to select appropriate models for FOPNL policies. This systematic review identifies and characterizes the NPMs developed and/or used for FOPNL systems, from both peer-reviewed and grey literature. We identified 42 NPMs, of which 15 were developed for warning labels, 11 for nutrient-specific systems (including traffic-light labelling), 11 for health endorsements, 4 for summary scores and 1 for other systems. All NPMs limited the content of sugar, and most limited sodium and saturated fat. Convergent and criterion validity were demonstrated for nine and three NPMs, respectively. Considerable heterogeneity across NPMs suggests limited consensus on what constitutes the most appropriate NPM for FOPNL, reinforcing the need for greater regional guidance and alignment.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42665731/",
+      "category": "recommended",
+      "tags": [
+        "design:systematic review",
+        "guideline and consensus",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "前置食品營養標示營養素評分模型系統性回顧補充資料的全文內容整理",
+      "content": "---\ntitle: \"前置食品營養標示營養素評分模型系統性回顧補充資料的全文內容整理\"\npaper_title: \"Systematic review of nutrient profile models for front-of-pack nutrition labelling\"\ndoi: \"10.1038/s43016-026-01414-0\"\njournal: \"Nature Food\"\nyear: 2026\nsource: \"verified local supplementary-information PDF\"\n---\n\n# 前置食品營養標示營養素評分模型系統性回顧補充資料的全文內容整理\n\n## 30 秒理解\n\n本次取得的是與 DOI／題名相符的 94 頁 Supplementary Information。它不是主文的健康效果結果，而是一份可稽核的篩選與模型索引：Table 1 說明哪些營養素評分模型（NPM）與出版品符合條件，Table 2 列出全文排除理由，Table 3 開始列出納入出版品提到的模型。文件能幫助讀者追蹤模型與研究範圍，但不能由模型清單推導哪個標籤改善購買、飲食或疾病結果。\n\n## 5 分鐘掌握\n\n### NPM 是什麼\n\nNPM 是把食品依多項營養素或食品成分分類、排名或計分的規則。當它被轉成消費者在包裝正面的顏色、星級、警示或其他簡化資訊，就可能成為前置食品營養標示（FOPNL）。不同模型的目的可能不同：限制兒童行銷、提供消費者選擇提示、規範健康聲稱、促進食品 reformulation，不能只看名稱就假設用途一致。\n\n### Table 1 的模型納入條件\n\n模型必須符合以下邏輯：\n\n1. 能對**個別食品**分類、排名或計分，而不是只描述整體飲食或環境。\n2. 使用多個營養素／食品成分，或整合多個成分成單一分數／分類，而非只看單一成分。\n3. 由政府或政府間組織制定或認可；只由製造商或零售商開發的模型被排除。\n4. 演算法在同儕審查或灰色文獻中公開，能被追溯與檢查。\n5. 有足夠可解讀的 FOPNL 系統，而不是只用於行銷、嬰幼兒食品或其他不同目的。\n\n出版品還須為 2016 年以後、公開可取得、以英文／西班牙文／葡萄牙文提供資料，並提到至少一個符合條件且適合 FOPNL 的模型。\n\n### Table 2 的排除邏輯\n\n全文審查後的排除理由包括：沒有提到具體 NPM、模型並非政府／政府間組織制定或認可、資料無法公開取得、出版年份早於 2016、語言不在設定範圍，或模型只服務嬰幼兒食品等不同政策用途。這些理由是在界定回顧範圍，不是宣稱被排除的研究一定錯誤。\n\n### Table 3 與後續清單的模型版圖\n\n清單中反覆出現的模型與標示包括：Nutri-Score、Health Star Rating、UK Traffic Light、UK Ofcom、PAHO、Chilean warning label、WHO Europe／Western Pacific／South-East Asia 區域模型、Choices、Keyhole、Finnish Heart Symbol、SENS、NPSC、NutrInform Battery，以及多國的警示或正向標誌。一本出版品可能同時提到多個模型，因此列出數量不是模型效果排名。\n\n## 深入整理\n\n### 這份補充資料能回答什麼\n\n- 哪些條件被用來定義可納入的 NPM。\n- 某篇出版品為何在全文階段被排除。\n- 某篇納入出版品提到了哪些模型或 FOPNL 系統。\n- 同一模型如何出現在食品分類、標籤理解、購買選擇、食品 reformulation 或政策文件等不同脈絡。\n\n### 這份補充資料不能回答什麼\n\n- 哪一個模型最能改善整體飲食品質。\n- 標籤是否改變個案的血糖、血壓、體重或心血管事件。\n- 不同模型的效果量、信賴區間、偏差風險或長期安全性。\n- 被列入的模型是否比被排除的模型更有效。\n\n原因很直接：本檔案是補充資料，主要內容是 inclusion／exclusion criteria、excluded publications 和 included publications—model list；它沒有主文的完整結果統合、偏差評估與病人重要結局。\n\n### 為什麼模型間不一定可比\n\n即使兩篇研究都列出 Nutri-Score 或 Health Star Rating，使用的國家版本、食品類別、營養資料、份量、門檻、食品指南與政策執行環境可能不同。若一個模型被用來限制兒童行銷，另一個研究用來測試消費者購買，研究問題和結果不能直接合併。模型名稱相同，也不等於演算法版本、輸入資料與目的相同。\n\n### 從食品標籤到個案處方的三個斷點\n\n1. **食品分數不等於全天飲食**：一項包裝食品的分類不能代表個人的總能量、蛋白質、鈉、纖維或微量營養素是否適合。\n2. **理解與購買不等於健康結局**：消費者看懂標示、改買某項食品，仍不代表長期飲食或疾病指標改善。\n3. **政策工具不等於治療工具**：FOPNL 要放回食品價格、可得性、文化、教育、供應端 reformulation 與政策執行脈絡，不能替代個別化營養照護。\n\n## 給營養師的工作提示\n\n- 教學時先確認標示背後的模型、適用食品類別、演算法版本與政策目的。\n- 把標示當成對話起點，再回到個案的份量、頻率、總飲食、疾病限制、預算、食物取得與替代選項。\n- 糖尿病、高血壓、腎臟病、過敏或吞嚥問題患者，不能只依一個顏色、星級或警示作飲食決定。\n- 若研究食品標示政策，要分開記錄理解度、購買行為、食品配方改變、飲食品質與病人重要健康結果。\n- 追蹤 NPM 的國家與年份，因為模型可能修訂，同名標示也可能有地區變體。\n\n## 自我測驗\n\n### 題目 1\n\nTable 3 中某模型出現很多次，是否代表它的健康效果最好？\n\n**答案**：不是。出現頻率可能反映使用時間、政策涵蓋範圍或研究興趣；清單沒有提供可比較的效果量、偏差評估或長期病人結果。\n\n### 題目 2\n\n為什麼「政府認可」和「公開演算法」仍不能證明 NPM 有效？\n\n**答案**：它們只說明來源與可稽核性，沒有證明標示能改變購買、整體飲食、疾病控制或長期健康結果。\n\n### 題目 3\n\n同樣是 Nutri-Score 的兩篇研究可以直接合併嗎？\n\n**答案**：不能直接合併。要先核對國家版本、食品類別、營養資料、門檻、研究目的、結果定義與政策環境，確認研究具有可比性。\n\n### 題目 4\n\n個案看到一個食品是「健康」星級，能否因此判定這是適合他糖尿病與腎臟病的食品？\n\n**答案**：不能。NPM 是食品層級的政策或溝通工具；仍需核對碳水化合物、鈉、鉀、磷、份量、藥物與個案的腎功能及整體飲食。\n\n## 最後記憶點\n\n這 94 頁補充資料的主要價值是透明化範圍與提供模型索引，不是替模型排出健康效果名次。閱讀 FOPNL 文獻時，先把「模型規則」「標示理解」「購買／食品供應改變」和「病人健康結果」分層，才不會把食品評分誤當成個人營養治療。\n\n## 原文依據\n\n- “Systematic review of nutrient profile models for front-of-pack nutrition labelling.” *Nature Food*. 2026. DOI: 10.1038/s43016-026-01414-0.\n- 本次使用與 DOI／題名匹配、標示為 Supplementary Information 的本機驗證 PDF 及 UTF-8 文字擷取，逐頁涵蓋 94 頁，核對 Table 1、Table 2、Table 3 與後續模型清單。",
+      "cards": [
+        {
+          "title": "清單不是效果排名",
+          "question": "某 NPM 在 Table 3 出現很多次，是否代表它改善健康的效果最好？",
+          "answer": "不是。出現頻率可能反映政策範圍、使用時間或研究興趣；這份補充資料沒有提供可比較的健康效果量或病人重要結果。",
+          "tags": [
+            "NPM",
+            "FOPNL",
+            "證據判讀"
+          ]
+        },
+        {
+          "title": "政府認可不等於有效",
+          "question": "為什麼政府或政府間組織認可、且演算法公開，仍不能證明 NPM 改善健康？",
+          "answer": "這只支持來源可追溯與規則可稽核；是否改變理解、購買、飲食品質或長期健康，仍需原始研究與完整效果評估。",
+          "tags": [
+            "政策工具",
+            "演算法",
+            "健康結果"
+          ]
+        },
+        {
+          "title": "同名模型也要核對版本",
+          "question": "兩篇都使用 Nutri-Score 的研究可以直接合併嗎？",
+          "answer": "不能直接合併。要核對國家版本、食品類別、營養資料、門檻、研究目的、結果定義與政策執行環境。",
+          "tags": [
+            "Nutri-Score",
+            "可比性",
+            "研究方法"
+          ]
+        },
+        {
+          "title": "食品標籤不是個人處方",
+          "question": "腎臟病個案看到食品是健康星級，能否因此判定適合自己？",
+          "answer": "不能。還要核對份量、碳水化合物、鈉、鉀、磷、藥物、腎功能與整體飲食；NPM 是食品層級的政策／溝通工具。",
+          "tags": [
+            "營養照護",
+            "腎臟病",
+            "個人化判讀"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-31T05:05:58.969Z"
+    },
+    {
+      "id": "doi:10.1038/s43016-026-01414-0:review",
+      "paperId": "doi:10.1038/s43016-026-01414-0",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Systematic review of nutrient profile models for front-of-pack nutrition labelling.",
+      "authors": "Bica M, Renzella J, Kaur A, Rayner M",
+      "journal": "Nutrition guidelines and consensus (PubMed)",
+      "year": "2026",
+      "doi": "10.1038/s43016-026-01414-0",
+      "abstract": "Front-of-pack nutrition labelling (FOPNL) systems, based on underlying nutrient profile models (NPMs) that classify foods according to their nutritional composition, are key policies for tackling diet-related non-communicable diseases. Yet, the growing number of NPMs poses a challenge for policymakers to select appropriate models for FOPNL policies. This systematic review identifies and characterizes the NPMs developed and/or used for FOPNL systems, from both peer-reviewed and grey literature. We identified 42 NPMs, of which 15 were developed for warning labels, 11 for nutrient-specific systems (including traffic-light labelling), 11 for health endorsements, 4 for summary scores and 1 for other systems. All NPMs limited the content of sugar, and most limited sodium and saturated fat. Convergent and criterion validity were demonstrated for nine and three NPMs, respectively. Considerable heterogeneity across NPMs suggests limited consensus on what constitutes the most appropriate NPM for FOPNL, reinforcing the need for greater regional guidance and alignment.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42665731/",
+      "category": "recommended",
+      "tags": [
+        "design:systematic review",
+        "guideline and consensus",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "前置食品營養標示營養素評分模型系統性回顧補充資料的品質評讀",
+      "content": "---\ntitle: \"前置食品營養標示營養素評分模型系統性回顧補充資料的品質評讀\"\npaper_title: \"Systematic review of nutrient profile models for front-of-pack nutrition labelling\"\ndoi: \"10.1038/s43016-026-01414-0\"\njournal: \"Nature Food\"\nyear: 2026\nreview_mode: \"focused-quick\"\nsource: \"verified local supplementary-information PDF\"\n---\n\n# 前置食品營養標示營養素評分模型系統性回顧補充資料的品質評讀\n\n## 一句話結論\n\n本次取得並逐頁閱讀的是與 DOI／題名相符的 94 頁 Supplementary Information，而不是主文敘述、統合結果或完整方法論文；它清楚提供納入／排除標準、全文篩選排除理由，以及納入出版品中提到的前置食品營養標示（FOPNL）營養素評分模型（NPM）清單。這份補充資料適合用來追溯模型名稱與研究選擇邏輯，不足以單獨判定任何標示模型改善飲食、疾病或健康結果，也不能直接轉成個人營養處方。\n\n## 品質快照\n\n- **研究主題**：用於前置食品營養標示的 nutrient profile models，亦即把單一食品依多項營養素或食品成分分類、排名或計分的模型。\n- **本次可讀來源**：DOI／題名匹配的本機驗證 PDF，標示為「Supplementary information」，共 94 個 PDF 頁面；內容是作者格式、未編輯的補充資料。\n- **可核對的結構**：Table 1 為 NPM 與出版品的納入／排除條件；Table 2 為全文審查後排除的出版品與理由；Table 3 為全文審查後納入的出版品及其中提及的 NPM／FOPNL 系統。後續頁面持續列出出版品與模型名稱。\n- **納入條件核心**：模型須能分類／排名／計分個別食品；整合多個營養素或食品成分；由政府或政府間組織制定或認可；演算法在同儕審查或灰色文獻中公開；資料以英文、西班牙文或葡萄牙文可取得；且模型要適合有足夠解釋性的 FOPNL。\n- **出版品條件核心**：2016 年以後、公開可取得、提到符合上述條件的 NPM，且至少有一個適合 FOPNL 的解釋系統。\n- **清單呈現**：反覆出現 Nutri-Score、Health Star Rating、UK Ofcom／UK TFL、PAHO／各國警示標籤、WHO 區域 NPM、Choices、Keyhole、SENS 與其他模型；一篇出版品可能列出多個模型。\n- **不能從本檔案得到的內容**：未看到主文的完整檢索數量流程、研究品質／偏差評估結果、各模型的效果統合、消費者健康結果或政策效果比較。因此不能假定「被列入」等同於有效、優於其他模型或已被政策驗證。\n\n## 白話導讀\n\n### 這份資料在做什麼\n\n作者把 NPM 想成一個把食品營養品質轉成可解讀標籤的規則。Supplementary Information 先說明什麼模型與出版品可以進入回顧，再把全文審查排除的項目和納入項目逐列列出。它比較像一份可稽核的篩選與模型索引，而不是一篇報告「哪一種標籤讓人吃得更健康」的結果論文。\n\n### Table 1 的關鍵篩選邏輯\n\n模型必須能作用於個別食品，而不是只給整個飲食或食品環境一個抽象分數；須同時考慮多種營養素或食品成分，而不是只針對單一成分；須由政府或政府間機構制定或認可，而非只由製造商或零售商開發；演算法要公開到能被研究者追溯；最後要能產生消費者可解讀的 FOPNL 系統。出版品則還要在 2016 年後、公開取得，並具體提到符合條件的模型。\n\n### Table 2 的排除理由\n\n全文審查後常見的排除原因包括：沒有提到具體 NPM、模型不是政府／政府間機構制定或認可、出版品無法公開取得、早於 2016 年、只討論嬰幼兒食品用途、語言不在英文／西班牙文／葡萄牙文範圍，或提到的是不夠可解讀的其他標示用途。這些理由有助於理解「有營養標示」不等於「符合此回顧的 FOPNL NPM」。\n\n### Table 3 的模型版圖\n\n納入清單涵蓋多種政策與標示脈絡：Nutri-Score、Health Star Rating、UK Traffic Light、UK Ofcom、PAHO 與 Chilean warning label、WHO Europe／Western Pacific／South-East Asia 等區域模型、Choices、Keyhole、Finnish Heart Symbol、SENS、NPSC、NutrInform Battery 與其他國家模型。清單也顯示同一篇政策或消費者研究可能同時評估數個模型；模型名稱出現頻率不能直接解讀為模型效果較好。\n\n## 研究方法與可重現性\n\n這份補充資料的強項是把選擇規則寫得相對具體，並提供逐篇排除理由與納入出版品—模型對照。研究者可以依 Table 1 重做基本篩選，也可以從 Table 2 追查某篇文獻為何被排除，再從 Table 3 追蹤哪些出版品提到哪些模型。對政策研究而言，這種清單式證據鏈比只列出最終模型名稱更容易稽核。\n\n但本次檔案是補充資料，不是主文全文。它沒有在可讀內容中提供足以評估的完整搜尋式、資料庫逐一結果、雙人篩選一致性、偏差風險工具、模型間效果量或主要健康結果。清單還可能把同一出版品重複列於不同模型脈絡中；因此不能用列數當作研究數量、模型排名或證據權重。\n\n## Critical Appraisal\n\n### 來源完整性\n\n**可驗證性：中等。** DOI、題名與來源身份相符，PDF 內頁面標示為 Supplementary Information，且全文實際包含篩選標準、排除表與納入表；不是只拿到摘要。然而，主文的研究問題、完整方法、結果與討論未在本檔案中呈現，故這是「補充資料已取得」而非「主文全部內容已取得」的界線。\n\n### 分類規則的合理性\n\n把政府／政府間認可、公開演算法與可解讀的 FOPNL 分開定義，有助於排除商業自有模型和只服務行銷的評分。把嬰幼兒食品等不同政策目的另行排除，也能減少把不同族群與標示目的混在一起。另一方面，政府認可不等同於模型能改善飲食品質；公開演算法也不等同於輸入資料完整或分類結果有效。\n\n### 模型可比性\n\n清單中的模型可能服務不同目標：限制兒童食品行銷、引導消費者選擇、規範營養與健康聲稱、食品 reformulation 或一般 FOPNL。即使兩篇研究都提到同一模型，產品類別、營養資料、食品份量、門檻、國家飲食指南與政策執行環境仍可能不同；不能只依模型名稱把所有結果視為可交換。\n\n### 從模型分數到健康結果的推論漏洞\n\n- **模型分數不是臨床結果**：食品的顏色、星級或警示不等於體重、血糖、血壓、心血管事件或死亡的改善。\n- **食品層級不是個人飲食層級**：一項食品的 NPM 分類不能代表一個人全天飲食、能量需求或疾病飲食適配性。\n- **政策工具不是治療工具**：FOPNL 需要配合食品環境、價格、可得性、教育與政策執行；不能替代個別化營養照護。\n- **清單頻率不是效果排名**：某模型在更多出版品出現，可能只是使用較久、政策範圍較廣或被更多研究採用，不能據此說它比較有效。\n- **排除不是品質否定**：因語言、年份、公開性或政策目的被排除，不等於該研究結果必然錯誤；它只是不符合這次回顧的預設範圍。\n\n### GRADE 確定性\n\n對這份 Supplementary Information，GRADE 不適合拿來替一長串模型索引打分；它沒有呈現可直接統合的健康結局效果。因此以下是針對「僅依本補充資料判定 FOPNL 模型能改善個人健康結果」的證據信心，而不是對某一模型的正式政策評價。\n\n| 問題 | 起始 | 主要降級 | 最終確定性 | 解讀 |\n|---|---|---|---|---|\n| 補充資料能否可靠辨識回顧納入的模型與篩選邏輯 | 觀察性資料低 | 主文方法與完整流程未隨檔案提供，部分模型用途跨政策情境 | 極低 | 可作索引與稽核入口，仍需主文及原始模型文件 |\n| 被列出的 NPM 是否改善個人飲食或健康結果 | 觀察性資料低 | 缺少效果結果、因果比較、病人重要結局與執行脈絡 | 極低 | 本檔案不能支持健康效果或個人處方結論 |\n\n## Clinical Application\n\n### 對營養師有用的地方\n\n1. 把 FOPNL 當成食品環境與衛教工具來看：閱讀標示時先確認標籤背後的模型、適用食品類別、營養素門檻與政策目的。\n2. 用模型的分類作為對話起點，再回到個案總飲食、份量、能量、蛋白質、鈉、糖尿病或腎臟病限制；不能只看一個星級或顏色。\n3. 若要做教學或政策評估，記錄使用的是哪個國家／版本／日期的演算法。模型可能修訂，且同名模型在不同政策中可能有變體。\n4. 比較加工食品時，不只問「標籤看起來健康嗎」，還要問食品類別、成分、份量、頻率、替代食品與實際可得性。\n\n### 不應採取的做法\n\n- 不把 Nutri-Score、Health Star Rating 或警示標籤當成個人疾病飲食的自動處方。\n- 不用 Table 3 的出現次數替代系統性偏差風險或政策效果評估。\n- 不把一份包裝食品的 NPM 分類等同於整體飲食品質或營養充足。\n- 不在未核對主文、原始演算法與政策版本前，宣稱某模型優於其他模型。\n\n## 給政策與研究閱讀者的重點\n\n這份補充資料最適合回答「回顧納入了哪些類型的模型、用什麼規則排除出版品、某篇出版品提到哪些 NPM」。若要回答「標示是否改變購買、飲食或健康」，必須回到主文結果、原始研究的設計與效果量，並分開評估理解度、購買行為、食品 reformulation、飲食品質和長期健康結果。這些問題不能由模型清單本身推出。\n\n## 結論\n\n本次全文閱讀證實的是一份可追溯的 FOPNL NPM 篩選與模型索引補充資料：它的分類規則和逐列排除理由有助於重現範圍，但來源本身沒有提供足以判斷健康效果的主文結果。對營養實務，最安全的轉譯是教個案理解標示的政策目的與限制，再將標示資訊放回個人飲食與疾病情境；不要把食品標籤模型變成個人化治療決策。\n\n## 原文依據\n\n- “Systematic review of nutrient profile models for front-of-pack nutrition labelling.” *Nature Food*. 2026. DOI: 10.1038/s43016-026-01414-0.\n- 本次使用與 DOI／題名匹配的本機驗證 Supplementary Information PDF 及 UTF-8 文字擷取，逐頁涵蓋 94 頁；核對 Table 1、Table 2、Table 3 及後續模型清單。由於檔案本身標示為補充資料，未將它冒充成主文的完整效果報告。",
+      "cards": [],
+      "completedAt": "2026-08-31T05:02:07.980Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1877635:digest",
+      "paperId": "doi:10.3389/fnut.2026.1877635",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Sex-specific associations between dietary nutrient intake and cardiometabolic biomarkers in older adults with diet-related chronic diseases.",
+      "authors": "Plyassovskaya S, Zhamantayev O, Zhanalina G, Kosherova B, Yerdessov N",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.3389/fnut.2026.1877635",
+      "abstract": "Older adults presenting with concurrent type 2 diabetes mellitus (T2DM), arterial hypertension (AH), and obesity face a considerable cardiometabolic challenge. There were no recent studies examining the association between their habitual nutrient consumption and circulating biomarkers in Central Asian populations. We aimed to examine sex-stratified associations between daily nutrient consumption and cardiometabolic biomarkers in community-dwelling older adults aged 60-90 years with concurrent T2DM, AH, and obesity in Central Kazakhstan. We enrolled 351 community-dwelling adults aged 60-90 years (80 men, 271 women) from four primary care facilities. Fasting glucose, total cholesterol, creatinine, urea, and triglycerides were assessed. Nutrient adequacy was expressed as percentage of Kazakhstani reference value. Spearman rank correlation, multiple linear regression, and binary logistic regression assessed dietary-biomarker relationships, stratified by sex. We identified the widespread micronutrient inadequacies in both sexes. Median potassium intake reached 34.3% of the reference value in men and 32.9% in women; calcium 33.6 and 38.1%; vitamin C 22.3 and 30.5%; vitamin E 43.7 and 38.9%; thiamine 48.1 and 49.5%. Sodium intake exceeded the reference value in both sexes, more than twofold in men and close to twofold in women. In men, total fat and saturated fat intake correlated with creatinine (rs = 0.242 and 0.250, respectively; p < 0.05), and total fat also correlated with triglycerides (rs = 0.243, p = 0.030). BMI was the leading independent triglyceride predictor (β = 0.572, p < 0.01, R 2 = 0.333). In women, most dietary-biomarker associations were absent, and calcium and riboflavin showed inverse correlations with triglycerides (rs = -0.237, p < 0.001 and rs = -0.164, p = 0.007). Older Kazakhstani adults with T2DM, AH, and obesity showed near-universal shortfalls in potassium, calcium, vitamins C and E, and thiamine alongside sodium excess. Dietary-biomarker associations were sex-specific, driven primarily by adiposity in men. Correcting these micronutrient gaps and reducing sodium intake are priorities for chronic disease management in this population.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1877635/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42666241/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "obesity and metabolism",
+        "precision nutrition",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "飲食營養素與老年多重慢病心代謝指標的全文內容整理",
+      "content": "---\ntitle: \"飲食營養素與老年多重慢病心代謝指標的全文內容整理\"\npaper_title: \"Sex-specific associations between dietary nutrient intake and cardiometabolic biomarkers in older adults with diet-related chronic diseases\"\ndoi: \"10.3389/fnut.2026.1877635\"\njournal: \"Frontiers in Nutrition\"\nyear: 2026\nsource: \"verified local PDF full text\"\n---\n\n# 飲食營養素與老年多重慢病心代謝指標的全文內容整理\n\n## 30 秒理解\n\n這篇 2026 年 Frontiers in Nutrition 研究納入哈薩克中部四所基層院所的 351 位 60–90 歲成人；所有人都有第二型糖尿病、高血壓與 BMI≥25，且未使用胰島素。一次 24 小時飲食回憶顯示鉀、鈣、維生素 C、維生素 E、硫胺素與蛋白質攝取普遍不足，鈉則偏高。部分營養素與三酸甘油脂有男女不同的統計關聯，但研究是橫斷面、沒有多重比較校正，不能說某營養素造成或改善了任何生化結果。\n\n## 5 分鐘掌握\n\n### 研究設計\n\n- **設計與場域**：觀察性、橫斷面研究；收案 2026-03-02 至 2026-03-23；哈薩克中部四所基層醫療院所。\n- **樣本**：351 位社區成人，男性 80、女性 271，年齡 60–90 歲；均有未使用胰島素的第二型糖尿病、第一或第二級高血壓及 BMI≥25。\n- **飲食測量**：一次 24 小時飲食回憶，以哈薩克食物成分資料庫估算營養素，並轉成相對年齡／性別參考值的適足率；沒有重複回憶。\n- **生化測量**：病歷或例行檢驗中的血糖、血脂、肌酸酐、尿素等，同次或 14 天內取得；沒有心血管事件、功能、肌力、肌肉量或生活品質結果。\n- **統計**：描述統計、Spearman 相關、BMI 部分相關、脂肪三分位比較、線性迴歸及高三酸甘油脂 logistic 迴歸，男女分層分析。\n\n### 飲食攝取的核心數字\n\n| 營養素 | 男性中位適足率 | 女性中位適足率 | 低於 80% 的男性／女性比例 |\n|---|---:|---:|---:|\n| 鉀 | 34.3% | 32.9% | 98.8%／100% |\n| 鈣 | 33.6% | 38.1% | 97.5%／97.4% |\n| 維生素 C | 22.3% | 30.5% | 97.5%／86.7% |\n| 維生素 E | 43.7% | 38.9% | 91.2%／91.1% |\n| 硫胺素 | 48.1% | 49.5% | 85.0%／89.7% |\n| 蛋白質 | 74.4% | 74.6% | 57.5%／59.0% |\n\n鈉的中位適足率為男性 212.3%、女性 183.7%，估計攝取量約 2680.8 與 2264.4 mg/day。作者的適足率分母是生理參考值，不能直接當成 WHO 每日 2000 mg 上限的超標比例。\n\n### 性別分層的統計結果\n\n**男性：**總脂肪與三酸甘油脂呈正相關（r_s=.243，p=.030），飽和脂肪與肌酸酐呈正相關（r_s=.250，p=.025），澱粉與總膽固醇呈負相關（r_s=-.269，p=.016）。BMI 加入部分相關後，脂肪—三酸甘油脂降為 r_s=.207、p=.069。高三酸甘油脂 logistic 模型 AUROC=.717；BMI OR=2.167（95% CI 1.18–3.99，p=.013）。\n\n**女性：**鈣與三酸甘油脂呈負相關（r_s=-.237，p<.001），核黃素 r_s=-.164（p=.007），磷 r_s=-.126（p=.038）。高三酸甘油脂模型中蛋白質 OR=.645（95% CI .45–.92，p=.015），BMI OR=1.306（1.01–1.70，p=.045）；加入其他營養素後脂肪 OR=1.485（1.02–2.16，p=.039），模型 AUROC=.661。\n\n這些數字是單一時間點的統計關聯。研究同時測試很多營養素、指標與模型，沒有多重比較校正；因此接近 .05 的結果應視為探索性線索，而非已驗證的性別專屬處方。\n\n## 深入整理\n\n### 作者的研究邏輯\n\n作者先以疾病與 BMI 條件界定高風險基層族群，再比較男性與女性的營養素適足率與生化狀態。接著用相關分析尋找營養素與指標的線性或單調關係，以 BMI 部分相關檢查體位是否解釋一部分結果，最後以高三酸甘油脂作為二元結果建立模型。這是一個「描述缺口並產生假說」的流程，不是用飲食介入驗證效果。\n\n### 為何蛋白質不足不能直接等同肌少症\n\n研究發現蛋白質適足率中位數約為參考值的四分之三，超過半數低於 80%；但它沒有測量肌力、步行速度、起立功能、肌肉量、體重變化或總能量平衡。因此這項結果只能提示需要進一步做營養與功能評估，不能單獨診斷肌少症，也不能由此計算某個人應該補充多少蛋白質。\n\n### 為何鈉結果要看清楚分母\n\n文章以生理參考值計算適足率，鈉因此呈現 183.7% 或 212.3%。公共衛生建議的鈉上限是另一個概念；若要與 WHO 2000 mg/day 比較，必須使用原始攝取量並清楚說明換算、誤差與測量日。不能把兩套基準混成一個「缺乏／過量」診斷。\n\n### 研究限制造成的解讀邊界\n\n1. **單次回憶**：一天的飲食可能不是平常飲食，且回憶與份量估計會造成測量誤差。\n2. **橫斷面**：不知道飲食先改變還是生化指標先異常；高三酸甘油脂者可能已經被醫囑改變飲食，存在反向因果。\n3. **未完整控制混雜**：藥物使用沒有系統性記錄，身體活動未測量，腎功能、疾病控制與社經因素也可能同時影響飲食和檢驗。\n4. **統計探索很多**：沒有多重比較校正；男性樣本只有 80 人，性別分層的穩定性有限。\n5. **外部效度有限**：四所院所、哈薩克中部、特定疾病組合和未使用胰島素者，不等同一般老年人或住院患者。\n6. **病人重要結果缺席**：沒有長期心血管事件、腎臟事件、死亡、生活品質、肌力或身體功能。\n\n## 給營養師的工作提示\n\n- 可以把鉀、鈣、維生素 C/E、硫胺素、蛋白質與鈉列為飲食評估的提醒項目，但要用至少數日的飲食資料、體重趨勢、食物取得能力與疾病情境交叉確認。\n- 增加鉀或蛋白質前要確認腎功能、血鉀、ACEi/ARB、保鉀利尿劑、透析與吞嚥狀況；本研究不支持無差別補充。\n- 高三酸甘油脂持續時，應一併核對酒精、體重、血糖、藥物、飲食與活動，不能只用本文某一個 OR 決定處方。\n- 若關心低蛋白質與肌少症風險，要加做肌力、功能與身體組成評估；本文沒有提供這些證據。\n- 對個案解釋時，使用「這篇研究觀察到相關」而不是「這種營養素會造成／改善指標」。\n\n## 自我測驗\n\n### 題目 1\n\n為什麼本文的營養素適足率不能直接用來診斷個人缺乏？\n\n**答案**：因為適足率來自一次 24 小時回憶與群體參考值，會受到單日變異、回憶誤差、份量估計與個人疾病／腎功能情境影響；個人診斷需要重複飲食與臨床資料整合。\n\n### 題目 2\n\n男性脂肪與三酸甘油脂的原始相關在加入 BMI 後變弱，這說明什麼？\n\n**答案**：BMI 可能解釋部分關係，或代表體位是共同混雜因素；它不能證明脂肪攝取沒有作用，也不能證明 BMI 造成全部差異。\n\n### 題目 3\n\n女性蛋白質 OR=.645 是否表示增加蛋白質可以降低高三酸甘油脂？\n\n**答案**：不是。這是橫斷面、觀察性模型中的關聯估計，仍可能受混雜、反向因果、飲食測量誤差與多重比較影響，不能當成介入效果。\n\n### 題目 4\n\n若個案有糖尿病、高血壓與慢性腎病，能否依本文建議直接增加鉀？\n\n**答案**：不能。必須先確認腎功能、血鉀、藥物與個案整體飲食；腎病或特定藥物可能使增加鉀具有風險。\n\n## 最後記憶點\n\n這篇全文最值得帶走的是「高風險老年患者的營養缺口需要被系統性問出來」，而不是任何一個單獨的相關係數。它支持更好的飲食評估與後續研究設計，尚不足以支持營養素補充、限制或性別化治療的因果決策。\n\n## 原文依據\n\nPlyassovskaya S, Zhamantayev O, Zhanalina G, Kosherova B, Yerdessov N. “Sex-specific associations between dietary nutrient intake and cardiometabolic biomarkers in older adults with diet-related chronic diseases.” *Frontiers in Nutrition*. 2026. DOI: 10.3389/fnut.2026.1877635. 本次使用本機驗證快取完整 PDF（12 頁）及其全文文字，涵蓋研究方法、結果、表格、限制、討論與結論。",
+      "cards": [
+        {
+          "title": "一次回憶不是長期飲食",
+          "question": "為什麼一次 24 小時飲食回憶不能單獨診斷個人營養不足？",
+          "answer": "它只反映一天，會受到日間變異、回憶與份量估計誤差影響；需要重複飲食資料、體重趨勢與臨床情境共同判讀。",
+          "tags": [
+            "24小時回憶",
+            "營養評估",
+            "測量誤差"
+          ]
+        },
+        {
+          "title": "適足率分母要看清楚",
+          "question": "為什麼鈉適足率 183.7% 不能直接等同超過 WHO 上限？",
+          "answer": "本文使用的是作者採用的生理參考值；WHO 2000 mg/day 是另一個公共衛生上限。必須回到原始攝取量與明確換算，不能混用兩套基準。",
+          "tags": [
+            "鈉",
+            "參考值",
+            "營養判讀"
+          ]
+        },
+        {
+          "title": "相關不是因果",
+          "question": "女性蛋白質 OR=.645 是否證明增加蛋白質能降低高三酸甘油脂？",
+          "answer": "不證明。這是橫斷面觀察性模型，仍可能有混雜、反向因果、飲食測量誤差與多重比較造成的假陽性。",
+          "tags": [
+            "橫斷面研究",
+            "三酸甘油脂",
+            "因果推論"
+          ]
+        },
+        {
+          "title": "增加鉀前先查安全性",
+          "question": "糖尿病、高血壓又有腎病的個案可以依本文直接增加鉀嗎？",
+          "answer": "不可以直接增加。應先確認腎功能、血鉀、ACEi/ARB、保鉀利尿劑、透析與整體飲食；本文只能提示評估方向，不是補充處方。",
+          "tags": [
+            "鉀",
+            "腎功能",
+            "安全性"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-31T04:56:47.730Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1877635:review",
+      "paperId": "doi:10.3389/fnut.2026.1877635",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Sex-specific associations between dietary nutrient intake and cardiometabolic biomarkers in older adults with diet-related chronic diseases.",
+      "authors": "Plyassovskaya S, Zhamantayev O, Zhanalina G, Kosherova B, Yerdessov N",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.3389/fnut.2026.1877635",
+      "abstract": "Older adults presenting with concurrent type 2 diabetes mellitus (T2DM), arterial hypertension (AH), and obesity face a considerable cardiometabolic challenge. There were no recent studies examining the association between their habitual nutrient consumption and circulating biomarkers in Central Asian populations. We aimed to examine sex-stratified associations between daily nutrient consumption and cardiometabolic biomarkers in community-dwelling older adults aged 60-90 years with concurrent T2DM, AH, and obesity in Central Kazakhstan. We enrolled 351 community-dwelling adults aged 60-90 years (80 men, 271 women) from four primary care facilities. Fasting glucose, total cholesterol, creatinine, urea, and triglycerides were assessed. Nutrient adequacy was expressed as percentage of Kazakhstani reference value. Spearman rank correlation, multiple linear regression, and binary logistic regression assessed dietary-biomarker relationships, stratified by sex. We identified the widespread micronutrient inadequacies in both sexes. Median potassium intake reached 34.3% of the reference value in men and 32.9% in women; calcium 33.6 and 38.1%; vitamin C 22.3 and 30.5%; vitamin E 43.7 and 38.9%; thiamine 48.1 and 49.5%. Sodium intake exceeded the reference value in both sexes, more than twofold in men and close to twofold in women. In men, total fat and saturated fat intake correlated with creatinine (rs = 0.242 and 0.250, respectively; p < 0.05), and total fat also correlated with triglycerides (rs = 0.243, p = 0.030). BMI was the leading independent triglyceride predictor (β = 0.572, p < 0.01, R 2 = 0.333). In women, most dietary-biomarker associations were absent, and calcium and riboflavin showed inverse correlations with triglycerides (rs = -0.237, p < 0.001 and rs = -0.164, p = 0.007). Older Kazakhstani adults with T2DM, AH, and obesity showed near-universal shortfalls in potassium, calcium, vitamins C and E, and thiamine alongside sodium excess. Dietary-biomarker associations were sex-specific, driven primarily by adiposity in men. Correcting these micronutrient gaps and reducing sodium intake are priorities for chronic disease management in this population.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1877635/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42666241/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "obesity and metabolism",
+        "precision nutrition",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "飲食營養素與老年多重慢病心代謝指標的品質評讀",
+      "content": "---\ntitle: \"飲食營養素與老年多重慢病心代謝指標的品質評讀\"\npaper_title: \"Sex-specific associations between dietary nutrient intake and cardiometabolic biomarkers in older adults with diet-related chronic diseases\"\ndoi: \"10.3389/fnut.2026.1877635\"\njournal: \"Frontiers in Nutrition\"\nyear: 2026\nreview_mode: \"focused-quick\"\nsource: \"verified local PDF full text\"\n---\n\n# 飲食營養素與老年多重慢病心代謝指標的品質評讀\n\n## 一句話結論\n\n這是一篇在哈薩克中部四所基層醫療院所進行的橫斷面研究；351 位 60–90 歲、未使用胰島素的第二型糖尿病合併第一或第二級高血壓且 BMI≥25 的成人，顯示飲食中的鉀、鈣、維生素 C、維生素 E、硫胺素與蛋白質攝取普遍不足，而某些營養素與三酸甘油脂或其他生化指標有性別分層的相關，但單次 24 小時回憶、未校正多重比較、未完整記錄藥物與未量測身體活動，使這些結果只能作為營養篩檢與假說生成線索，不能解讀為因果或介入效果。\n\n## 品質快照\n\n- **研究問題**：在有飲食相關慢性病的老年成人中，膳食營養素攝取量與心代謝生物標記是否有性別差異及相關？\n- **研究設計**：單一時間點的觀察性、橫斷面研究；研究期間為 2026-03-02 至 2026-03-23；四所基層醫療院所，共 351 人（男性 80、女性 271）。\n- **研究族群**：60–90 歲、第二型糖尿病、高血壓、BMI≥25、未接受胰島素治療的社區成人。這不是一般老年族群，也不是已證實具有肌少症或心血管事件的族群。\n- **暴露測量**：一次 24 小時飲食回憶，以哈薩克食物成分資料庫估算營養素，並以年齡／性別參考值計算適足率；沒有重複回憶或長期飲食測量。\n- **結果測量**：病歷或例行檢驗中的血糖、血脂、肌酸酐、尿素與 BMI；檢驗同次或 14 天內取得。沒有硬心血管事件、死亡、生活品質、肌力或身體組成結果。\n- **主要方法**：性別分層描述、Spearman 相關、BMI 部分相關、營養素／脂肪三分位比較、線性迴歸與高三酸甘油脂 logistic 迴歸。\n- **主要限制**：未做多重比較校正；橫斷面資料不能確定時間順序；藥物使用未系統性記錄；未測量身體活動；單一回憶日容易受測量誤差與日間變異影響；男性樣本僅 80 人，四院所樣本的外部效度有限。\n- **作者利益與資金**：文章說明 APC 由 Karaganda Medical University 支付，並聲明無商業利益衝突；這減少已揭露的商業衝突疑慮，但不會消除觀察性研究的設計限制。\n\n## 白話導讀\n\n### 研究在問什麼\n\n作者關心的是基層照護中常見的一組高風險情境：年長、過重、第二型糖尿病與高血壓同時存在時，飲食是否出現廣泛營養不足，而這些不足是否和血脂、血糖或腎功能相關。研究不是測試某一種飲食或補充品，也沒有把受試者分派到介入組；它比較的是同一批人在某個時間點的飲食回憶與既有生化資料。\n\n### 飲食適足率的主要結果\n\n以文中年齡／性別生理參考值為分母，鉀的中位數適足率男性 34.3%、女性 32.9%，低於 80% 的比例分別為 98.8% 與 100%；鈣為 33.6% 與 38.1%，低於 80% 分別為 97.5% 與 97.4%；維生素 C 為 22.3% 與 30.5%，低於 80% 分別為 97.5% 與 86.7%。維生素 E、硫胺素也多數低於 80%，男性／女性分別為 91.2%／91.1% 與 85.0%／89.7%。蛋白質適足率中位數約 74.4%／74.6%，低於 80% 分別為 57.5% 與 59%。\n\n鈉的適足率中位數為男性 212.3%、女性 183.7%，中位數攝取量約 2680.8 與 2264.4 mg/day。這裡的分母是作者採用的生理參考值，不是 WHO 每日低於 2000 mg 的公共衛生上限；因此不能只看「183.7%」就直接換算成超過 WHO 上限的比例。\n\n### 心代謝相關結果\n\n女性 BMI 中位數高於男性（30.0 對 27.7 kg/m²），女性總膽固醇也較高（5.5 對 5.0 mmol/L）；高三酸甘油脂比例男性 45.0%、女性 46.1%，血糖高於 7 mmol/L 比例男性 42.5%、女性 38.7%。這些是族群描述，不代表飲食造成差異。\n\n男性中，總脂肪與三酸甘油脂呈正相關（Spearman r_s=0.243，p=.030），飽和脂肪與肌酸酐呈正相關（r_s=0.250，p=.025），澱粉與總膽固醇呈負相關（r_s=-0.269，p=.016）。BMI 加入部分相關後，脂肪與三酸甘油脂的相關降為 r_s=0.207、p=.069，顯示 BMI 可能解釋部分關係。男性高三酸甘油脂 logistic 模型的 AUROC 為 .717；BMI 的 OR 為 2.167（95% CI 1.18–3.99，p=.013），但維生素 E 的結果僅接近顯著且屬探索性分析。\n\n女性中，鈣與三酸甘油脂呈負相關（r_s=-0.237，p<.001），核黃素與三酸甘油脂為 r_s=-0.164、p=.007，磷為 r_s=-0.126、p=.038。女性高三酸甘油脂模型中蛋白質 OR=.645（95% CI .45–.92，p=.015），BMI OR=1.306（1.01–1.70，p=.045）；加入脂肪與鈣、核黃素後，脂肪 OR=1.485（1.02–2.16，p=.039），但模型表現仍有限（AUROC .661）。這些是相關與模型內估計，不是「增加蛋白質」或「降低脂肪」已被此研究證明能改善三酸甘油脂。\n\n### 臨床上應讀成什麼\n\n最可靠、最可直接轉成工作流程的訊息，是這群高風險基層患者可能同時存在總體飲食品質與多項微量營養素不足，且鈉攝取值得被具體評估。至於性別分層的營養素—生化指標關係，應用來提出下一步問題，例如是否需要重複飲食評估、核對藥物與腎功能、確認實際食物來源，而不是直接把單一營養素視為治療靶點。\n\n## 研究方法與可重現性\n\n研究清楚定義納入條件，並把男性與女性分開分析；研究場域、樣本數、營養素估算方式、檢驗時間窗與統計模型均有交代。作者也以 BMI 做部分相關，並在討論中承認單次 24 小時回憶、未測身體活動、未系統記錄藥物與反向因果等問題；對男性脂肪與三酸甘油脂的結果另以 log 轉換做敏感度分析，方向大致維持。\n\n然而，主要結果數量很多，包含多種營養素、不同生化指標、兩性別、相關、迴歸與 logistic 模型，文章沒有進行多重比較校正。當 p 值接近 .05 時，假陽性可能性尤其重要。男性樣本 80 人且有一筆 BMI 缺失，女性 271 人；兩性別的估計精確度和可檢驗的共變項數不同。研究也沒有完整量化降壓藥、降糖藥、降脂藥、腎功能分期或飲食治療遵從性，這些因素都可能同時影響飲食與生化指標。\n\n## Critical Appraisal\n\n### 內在效度與偏差風險\n\n**選擇偏差：中度疑慮。** 受試者來自四所基層院所，且必須同時符合多項疾病與 BMI 條件；研究結果不能直接代表居家照護、住院、未就醫或未使用胰島素的所有老年人。\n\n**測量偏差：嚴重疑慮。** 一次 24 小時回憶只捕捉一天，可能受到回憶、份量估計、當日飲食與疾病飲食改變影響。營養素與生化資料也不是同步的標準化研究測量，而部分來自例行病歷。\n\n**混雜：嚴重疑慮。** 年齡、BMI、性別、藥物、腎功能、疾病控制、身體活動、社經條件與飲食遵從性可能互相交織。模型雖然部分處理 BMI，卻不能補足未測量或未完整記錄的混雜因子。\n\n**結果選擇與統計：中度至嚴重疑慮。** 研究同時測試許多營養素與指標，沒有多重比較校正；部分 p 值接近 .05 的發現應視為探索性。研究以高三酸甘油脂作 logistic 結果，但沒有把這些模型當成預測工具的外部驗證。\n\n### 關聯不能變成因果\n\n本研究的時間順序不明：例如三酸甘油脂較高者可能已因醫囑改變飲食，形成反向因果；也可能是疾病嚴重度、藥物或收入同時造成飲食與檢驗差異。因而「鈣較高與女性三酸甘油脂較低」不能改寫成「提高鈣會降低三酸甘油脂」，「蛋白質 OR=.645」也不能改寫成「補充蛋白質可預防高三酸甘油脂」。\n\n### 替代指標與臨床重要性\n\n血脂、血糖、肌酸酐與尿素是重要的臨床監測資料，但研究沒有觀察心血管事件、腎臟事件、功能、肌力、肌肉量或生活品質。蛋白質適足率不足也不能單獨診斷肌少症，必須配合體重變化、飲食攝取、肌力、身體功能與肌肉量的完整評估。\n\n### GRADE 確定性\n\n這不是介入試驗或系統性回顧，因此下列確定性是針對「本研究觀察到的營養素—生化指標關聯可作為臨床因果依據」的證據信心，而非把相關係數當成治療效果。\n\n| 臨床問題 | 起始 | 主要降級 | 最終確定性 | 解讀 |\n|---|---|---|---|---|\n| 多項營養素不足在此高風險基層族群中相當普遍 | 觀察性研究低 | 代表性與單次回憶造成間接性／測量疑慮；精確度受男性樣本小影響 | 極低 | 可作為篩檢假說，需在其他族群與重複飲食測量中確認 |\n| 膳食營養素與高三酸甘油脂有性別分層關聯 | 觀察性研究低 | 嚴重混雜、單次測量、未校正多重比較、結果為替代指標 | 極低 | 不能支持補充或限制單一營養素的因果建議 |\n| 以一次飲食回憶推估個人長期營養適足 | 觀察性研究低 | 日間變異與回憶誤差嚴重；缺少重複測量 | 極低 | 不應用單日資料單獨決定補充品或嚴格飲食限制 |\n\n## Clinical Application\n\n### 可以採取的做法\n\n1. **先做結構化營養評估。** 可用 MNA-SF 或機構既有流程篩檢營養風險，再追問近 3–7 日攝取、體重趨勢、食慾、咀嚼吞嚥、食物取得能力、飲食限制與實際份量；一次 24 小時回憶只能當起點。\n2. **把鈉與低攝取營養素放進同一個食物層級的討論。** 先辨識加工食品、醃製品、湯品與調味來源，再依糖尿病、高血壓、腎功能與用藥共同決定替代食物，不要只追求單一數字。\n3. **若考慮增加鉀、蛋白質或微量營養素，先核對安全邊界。** 腎功能、血鉀、ACEi/ARB、保鉀利尿劑、透析狀態、吞嚥能力與補充品交互作用會改變建議；本研究不支持無差別補充。\n4. **把血脂和飲食追蹤連起來。** 若高三酸甘油脂持續，應重複確認飲食、酒精、體重、藥物與血糖控制，並按臨床指南處理，而非以本研究的性別模型作個人風險分層。\n5. **若要判斷蛋白質與功能，補上肌少症評估。** 需要結合肌力、步行或起立功能、體組成／肌肉量、疾病負荷與總能量攝取；文中沒有這些結果。\n\n### 不應採取的做法\n\n- 不把橫斷面相關當作營養介入有效性的證據。\n- 不用單次回憶把個人標成「缺乏」並直接開立高劑量補充品。\n- 不把女性鈣、核黃素、蛋白質或男性脂肪、維生素 E 的近顯著結果當作已驗證的性別專屬處方。\n- 不把作者的生理參考值適足率直接等同於 WHO 鈉上限或其他營養素的缺乏診斷。\n\n## 推論漏洞與待驗證問題\n\n- **從關聯到因果**：模型中的 OR 和相關係數沒有處理完整混雜或反向因果。\n- **從一天到長期飲食**：單次回憶不能代表平常攝取或季節差異。\n- **從生化到病人重要結果**：沒有證明心血管事件、腎臟結局、功能或生活品質改善。\n- **從族群平均到個人處方**：四院所、哈薩克中部、特定疾病組合及性別不平衡，使個別化外推受限。\n- **從多次探索到穩定訊號**：未校正多重比較，接近 .05 的結果需在預先指定、較大樣本、重複飲食測量的研究中複製。\n\n後續研究應使用至少兩到三次非連續 24 小時回憶或飲食紀錄，標準化藥物、腎功能與身體活動資料，預先指定主要結果並做多重比較控制；若要支持臨床建議，應進行前瞻性或隨機飲食介入，並納入血脂以外的功能與病人重要結果。\n\n## 結論與給營養師的提醒\n\n這篇研究的價值在於提醒基層營養照護者：老年糖尿病合併高血壓與過重患者可能同時有多項營養素不足，且鈉與飲食結構值得被具體問出來。它的價值不在於提供一套已驗證的性別化補充方案。實務上可把結果用於產生評估問題、安排重複飲食與生化追蹤、核對腎功能和藥物，並將任何補充或限制放回個別風險與指南脈絡中。\n\n## 原文依據\n\n- Plyassovskaya S, et al. “Sex-specific associations between dietary nutrient intake and cardiometabolic biomarkers in older adults with diet-related chronic diseases.” *Frontiers in Nutrition*. 2026. DOI: 10.3389/fnut.2026.1877635.\n- 本次閱讀使用本機驗證快取中的完整 PDF（12 頁）及其 UTF-8 文字擷取；涵蓋 Abstract、Introduction、Methods、Results、Discussion、Limitations、Conclusion、表格與參考文獻。重要數字依原文表格與結果段落逐項核對。",
+      "cards": [],
+      "completedAt": "2026-08-31T04:53:02.858Z"
+    },
+    {
+      "id": "doi:10.4103/ijpvm.ijpvm_254_24:digest",
+      "paperId": "doi:10.4103/ijpvm.ijpvm_254_24",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Benefit of Psyllium with Weight Loss Diet in Preventing Liver Dysfunction in Overweight or Obese Adults with Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD).",
+      "authors": "Akbarzadeh Z, Nourian M, Askari G, Maracy M, Amani R",
+      "journal": "Obesity and metabolism (PubMed)",
+      "year": "2026",
+      "doi": "10.4103/ijpvm.ijpvm_254_24",
+      "abstract": "MASLD is the revised nomenclature of nonalcoholic fatty liver disease (NAFLD) which is the most common chronic liver disease worldwide and it significantly impacts the burden of the disease. Individuals who are overweight or obese have three times higher risk of developing MASLD. Losing body weight is, therefore, recommended to manage MASLD. This study was performed to assess the effect of psyllium on liver function in overweight or obese adults with (MASLD). We assessed 80 overweight or obese MASLD patients diagnosed by elastography. They were divided into intervention and placebo groups through randomized block design. Intervention group was given 10 grams of psyllium and the control group was given 10 grams of ground wheat as supplement. Weight loss diet and physical activity (PA) recommendations were followed by both groups for 10 weeks. Serum liver enzymes, liver function (measured by fibroscan), PA, and dietary intake were assessed pre- and post-intervention. Totally, 78 participants finished the RCT. After controlling confounding variables, intake of calorie (P = 0.02), carbohydrate (P = 0.01), alanine aminotransferase (P = 0.006), waist circumference (P = 0.006), BMI (P = 0.006), and liver fibrosis score (0.001) were lowered in the intervention group compared with the controls. However, serum aspartate aminotransferase reduction was not significant (P = 0.98). Psyllium can be introduced as a dietary supplement that exerts beneficial role in gut health, weight loss, and preventing MASLD.",
+      "legalFullTextUrl": "https://doi.org/10.4103/ijpvm.ijpvm_254_24",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42621560/",
+      "category": "recommended",
+      "tags": [
+        "design:RCT",
+        "guideline and consensus",
+        "herbs phytochemicals supplements",
+        "human clinical population"
+      ],
+      "noteTitle": "洋車前子搭配減重飲食改善 MASLD 的全文內容整理",
+      "content": "---\ntitle: \"洋車前子搭配減重飲食改善 MASLD 的全文內容整理\"\npaper_title: \"Benefit of Psyllium with Weight Loss Diet in Preventing Liver Dysfunction in Overweight or Obese Adults with Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD)\"\ndoi: \"10.4103/ijpvm.ijpvm_254_24\"\njournal: \"International Journal of Preventive Medicine\"\nyear: 2026\nsource: \"PMC13489564\"\ndigest_mode: \"worker-batch\"\n---\n\n> [!summary] 30 秒層：一句話 + 重點\n> 這個小型成人 RCT 在共同減重飲食與活動建議下，測試每日 10 g 洋車前子相較 10 g 碎小麥；10 週後 ALT 與 FibroScan 分數較有利，但 AST 沒有額外差異，且資料報告有明顯矛盾。\n> - 80 人進入，75 人完成；洋車前子 38 人、對照 37 人。\n> - 調整後 ALT 組間 p=0.006，FibroScan 纖維化分數 p=0.001；AST p=0.98。\n> - 兩組都接受 300–500 kcal/day 能量減少、脂肪限制與運動建議，所以不能把所有效果歸因於 psyllium。\n> - 研究期間、研究設計、Table 3 分組標籤及完整組間效果量均有待澄清。\n> 品質 → 見配對的品質評讀；本筆是全文內容整理，不取代可信度判斷。\n\n**5 分鐘層**：依序掃讀每個 `##` 區段的 **要點**，可以重建研究背景、試驗設計、營養與肝臟結果、研究限制及臨床使用邊界。\n\n## 研究問題／背景\n\n**要點**：作者想知道可溶性黏稠纖維洋車前子，能否在減重生活型態介入之外，進一步改善過重／肥胖成人 MASLD 的肝酵素與肝硬度。\n\n- MASLD 與脂肪堆積、肥胖、胰島素阻抗、血脂異常與腸道菌相有關；作者以「減重與纖維」作為可修改的營養因素。\n- 洋車前子（Plantago ovata）是水溶性、會形成黏稠膠體的纖維，文中描述可溶：不可溶纖維約 7:3。\n- 作者提出可能機制包括延緩胃排空與碳水吸收、增加飽足感、結合膽酸、影響血脂、腸道菌相及短鏈脂肪酸；其中部分依據來自其他研究或動物資料。\n- 因此本試驗實際問的是「10 週 psyllium 加減重照護」與「碎小麥加減重照護」的差異，不是 psyllium 單獨對無介入者的效果。\n\n## 方法\n\n**要點**：研究以區塊隨機、單盲、平行對照方式分組，兩組每天服用 10 g 試驗粉末並遵守相同的減重飲食和活動建議，追蹤 10 週。\n\n- **族群**：BMI ≥25 kg/m² 的成人 MASLD，平均年齡約 44.9 歲；以 ALT >40 IU/L 和／或 FibroScan >4 kPa 等身體／檢驗條件納入，排除慢性肝病、癌症、孕哺及部分藥物使用者。\n- **分組**：洋車前子組每日早餐與晚餐前各 5 g，共 10 g；對照組每日 10 g 碎小麥。包裝由另一人標成 A、B，研究期間每週電話、每月訪視追蹤。\n- **共同照護**：兩組都接受每日減少估計需求 300–500 kcal、總脂肪 <30%、飽和脂肪 <10%、碳水約 40–54% 與每週至少 3 次、每次至少 30 分鐘運動的建議；建議體重下降 0.5–1.5 kg/week。\n- **測量**：基線與第 10 週測 ALT、AST、FibroScan 肝硬度；以 3-day food record、MET 問卷、人體測量與標準實驗室方法追蹤飲食、活動與代謝資料。\n- **統計**：以 t 檢定、非參數檢定及 ANCOVA 比較變化，調整性別、年齡、教育、能量攝取、吸菸與 BMI；顯著門檻 p<0.05。\n- **完成與退出**：80 人計畫納入，75 人完成；2 名洋車前子受試者不能耐受，對照組 5 人因移民或不合作退出。\n\n## 主要發現\n\n**要點**：洋車前子組的 ALT 與肝硬度數值改善，但 AST 沒有組間差異；兩組體重與飲食都改變，結果只能解讀為共同減重計畫中加入 psyllium 的初步增量訊號。\n\n| 結果 | 洋車前子組（n=38） | 碎小麥對照（n=37） | 文中組間結果 |\n|---|---:|---:|---|\n| ALT（IU/L） | 46.7±29.1 → 28.1±18.4 | 68.1±76.8 → 45.3±34.8 | 調整後 p=0.006 |\n| AST（IU/L） | 35.7±19.9 → 24.6±11.3 | 46.2±51.2 → 38.1±56.1 | 調整後 p=0.98 |\n| FibroScan（kPa） | 6.6±2.33 → 5.5±1.8 | 6.7±2.01 → 6.8±2.2 | 調整後 p=0.001 |\n\n- **人體測量**：作者報告兩組腰圍、腰臀比、BMI 與體重下降，但 Table 3 顯示的組別標籤疑似與 Table 1／方法相反，必須先核對原始資料才能使用體重差異。\n- **飲食**：兩組能量攝取都下降，且碳水、脂肪與其他營養素變化並不完全相同；作者將部分飲食項目納入 ANCOVA，因此這是共介入下的調整結果。\n- **耐受性**：2 位洋車前子受試者因不能耐受退出；文章沒有完整列出所有胃腸不良反應或用藥交互作用。\n\n## 臨床意義／怎麼用\n\n**要點**：本研究支持「在可接受且有飲水的前提下，增加可溶性纖維值得研究」的方向，不足以把 10 g psyllium 當作所有 MASLD 患者的護肝處方。\n\n- 兩組都接受能量限制、低脂飲食、蔬菜／全穀／低脂乳品與規律活動；減重生活型態仍是這個研究的主要背景。\n- FibroScan 下降代表非侵入性肝硬度變化，不等於活檢證實的纖維化逆轉；ALT 下降也不等於長期肝臟事件改善。\n- 若考慮 psyllium，先評估飲水、吞嚥、腸胃道阻塞風險、腹脹／便秘、耐受性與藥物服用時序；逐步增加纖維並配合足夠液體。\n- 記錄實際品牌、劑量、用法與開始時間；本試驗的 10 g/day 與碎小麥對照不能直接套用到所有纖維產品。\n- 追蹤體重、腰圍、飲食、活動、ALT／AST 及醫療團隊指定的纖維化評估；不要以短期 ALT 變化取代病因、酒精、藥物和代謝共病評估。\n\n## 重要圖表重述\n\n**要點**：表格把基線、飲食、人體測量與肝臟檢驗分開，但解讀前要先確認兩組的標籤和分析族群。\n\n- **Table 1**：完成者的性別、年齡、BMI、腰圍、吸菸、活動及 ALT／AST／FibroScan 基線資料；性別與吸菸比例存在組間差異。\n- **Table 2**：3-day food record 的能量與營養素前後變化；兩組都有能量下降，部分營養素變化不同。\n- **Table 3**：腰圍、腰臀比、BMI 與體重；文中標籤疑似與 Table 1／方法對調，不能直接把數值當成可靠分組結果。\n- **Table 4**：總膽固醇、LDL、HDL、三酸甘油脂、血壓、AST、ALT 與 FibroScan；ALT／FibroScan 的調整 p 值顯著，AST 不顯著。\n\n## 與既有認知的對照\n\n**要點**：本篇把「纖維與減重可能改善 MASLD」從觀察性／機轉概念放進小型試驗，但沒有把共同生活型態介入與 psyllium 的效果完全分開。\n\n- 不能把文中提到的動物、觀察性與其他系統性回顧證據，當成本試驗直接證據。\n- 研究已經有 MASLD 的成年人，所以「預防 MASLD」是作者較寬的用語；本試驗實際呈現的是短期肝酵素與 FibroScan 變化。\n- 個人 vault 無可直接對照的既有筆記；本篇可作為「共介入、替代指標與資料表一致性」的營養試驗閱讀範例。\n\n## 概念／名詞整理\n\n**要點**：把纖維作用、生活型態介入與肝臟結果分層，才能知道哪一部分是直接測量、哪一部分是機轉推論。\n\n- **Psyllium**：洋車前子，形成黏稠膠體的水溶性纖維；本試驗為每日 10 g。\n- **MASLD**：代謝功能障礙相關脂肪肝；本文部分背景與參考資料仍使用 NAFLD 舊稱。\n- **ALT／AST**：血清肝酵素；可反映肝細胞相關活動，但不是單獨的纖維化或長期預後測量。\n- **FibroScan**：以瞬時彈性波估計肝硬度的非侵入性工具；短期下降不能直接等同組織學改善。\n- **ANCOVA**：比較組間結果並調整共變項的方法；若共變項是介入後變化，調整可能改變對總效果的解讀。\n- **短鏈脂肪酸（SCFAs）**：腸道微生物發酵纖維產物；本文以既有機轉研究解釋可能作用，並非本試驗直接測量的主要結果。\n\n## 自我測驗\n\n**要點**：回想這篇時先辨識介入背景與結果層級，再判斷數字能不能支持臨床建議。\n\n> [!question]- Q1：這篇能不能說 psyllium 單獨讓 MASLD 的 ALT 下降？\n> **答案**：不能直接這樣說。兩組都接受 300–500 kcal/day 能量減少、低脂飲食與活動建議；試驗比較的是「共同減重照護加 psyllium」與「共同減重照護加碎小麥」。\n\n> [!question]- Q2：為什麼 ALT 顯著而 AST 不顯著，不能宣稱所有肝功能都改善？\n> **答案**：ALT 的調整後組間 p=0.006，但 AST 的調整後 p=0.98；不同肝酵素可能反映不同生理訊息，單一顯著結果不能外推到整體肝功能或纖維化逆轉。\n\n> [!question]- Q3：FibroScan 從 6.6 降到 5.5 kPa 代表什麼？\n> **答案**：它代表試驗期間非侵入性肝硬度測量下降；但不是活檢纖維化逆轉，也不是肝硬化失代償或死亡下降的證明。因研究小、短期且表格有矛盾，需保守解讀。\n\n> [!question]- Q4：個案想增加 psyllium 時，營養評估要先問什麼？\n> **答案**：問飲水量、吞嚥與腸胃道病史、腹脹便秘、藥物與補充品時序、實際產品與劑量，以及過去耐受性。研究中有 2 人因不能耐受退出，10 g/day 也不能直接套用為所有人的處方。\n\n## Reference\n\n- Akbarzadeh Z, Nourian M, Askari G, et al. 2026. *International Journal of Preventive Medicine*. doi: `10.4103/ijpvm.ijpvm_254_24`；全文：PMC13489564。",
+      "cards": [
+        {
+          "title": "Psyllium 不是單獨效果",
+          "question": "這篇能不能說 psyllium 單獨讓 MASLD 的 ALT 下降？",
+          "answer": "不能直接這樣說。兩組都接受 300–500 kcal/day 能量減少、低脂飲食與活動建議；試驗比較的是共同減重照護加 psyllium 與共同減重照護加碎小麥。",
+          "tags": [
+            "MASLD",
+            "膳食纖維",
+            "共介入"
+          ]
+        },
+        {
+          "title": "ALT 不等於肝功能全改善",
+          "question": "為什麼 ALT 顯著而 AST 不顯著，不能宣稱所有肝功能都改善？",
+          "answer": "ALT 的調整後組間 p=0.006，但 AST 的調整後 p=0.98；單一顯著肝酵素結果不能外推到整體肝功能或纖維化逆轉。",
+          "tags": [
+            "肝酵素",
+            "替代指標",
+            "臨床解讀"
+          ]
+        },
+        {
+          "title": "FibroScan 的邊界",
+          "question": "FibroScan 從 6.6 降到 5.5 kPa 代表什麼？",
+          "answer": "代表試驗期間非侵入性肝硬度測量下降；不是活檢纖維化逆轉，也不是肝硬化失代償或死亡下降的證明。研究小、短期且表格有矛盾，需保守解讀。",
+          "tags": [
+            "FibroScan",
+            "MASLD",
+            "纖維化"
+          ]
+        },
+        {
+          "title": "增加纖維前先評估",
+          "question": "個案想增加 psyllium 時，營養評估要先問什麼？",
+          "answer": "問飲水量、吞嚥與腸胃道病史、腹脹便秘、藥物與補充品時序、實際產品與劑量，以及過去耐受性；研究中有 2 人因不能耐受退出。",
+          "tags": [
+            "營養評估",
+            "膳食纖維",
+            "安全性"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-31T04:39:52.721Z"
+    },
+    {
+      "id": "doi:10.4103/ijpvm.ijpvm_254_24:review",
+      "paperId": "doi:10.4103/ijpvm.ijpvm_254_24",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Benefit of Psyllium with Weight Loss Diet in Preventing Liver Dysfunction in Overweight or Obese Adults with Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD).",
+      "authors": "Akbarzadeh Z, Nourian M, Askari G, Maracy M, Amani R",
+      "journal": "Obesity and metabolism (PubMed)",
+      "year": "2026",
+      "doi": "10.4103/ijpvm.ijpvm_254_24",
+      "abstract": "MASLD is the revised nomenclature of nonalcoholic fatty liver disease (NAFLD) which is the most common chronic liver disease worldwide and it significantly impacts the burden of the disease. Individuals who are overweight or obese have three times higher risk of developing MASLD. Losing body weight is, therefore, recommended to manage MASLD. This study was performed to assess the effect of psyllium on liver function in overweight or obese adults with (MASLD). We assessed 80 overweight or obese MASLD patients diagnosed by elastography. They were divided into intervention and placebo groups through randomized block design. Intervention group was given 10 grams of psyllium and the control group was given 10 grams of ground wheat as supplement. Weight loss diet and physical activity (PA) recommendations were followed by both groups for 10 weeks. Serum liver enzymes, liver function (measured by fibroscan), PA, and dietary intake were assessed pre- and post-intervention. Totally, 78 participants finished the RCT. After controlling confounding variables, intake of calorie (P = 0.02), carbohydrate (P = 0.01), alanine aminotransferase (P = 0.006), waist circumference (P = 0.006), BMI (P = 0.006), and liver fibrosis score (0.001) were lowered in the intervention group compared with the controls. However, serum aspartate aminotransferase reduction was not significant (P = 0.98). Psyllium can be introduced as a dietary supplement that exerts beneficial role in gut health, weight loss, and preventing MASLD.",
+      "legalFullTextUrl": "https://doi.org/10.4103/ijpvm.ijpvm_254_24",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42621560/",
+      "category": "recommended",
+      "tags": [
+        "design:RCT",
+        "guideline and consensus",
+        "herbs phytochemicals supplements",
+        "human clinical population"
+      ],
+      "noteTitle": "洋車前子與減重飲食改善 MASLD 肝功能的品質評讀",
+      "content": "---\ntitle: \"洋車前子搭配減重飲食改善 MASLD 肝功能的品質評讀\"\npaper_title: \"Benefit of Psyllium with Weight Loss Diet in Preventing Liver Dysfunction in Overweight or Obese Adults with Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD)\"\ndoi: \"10.4103/ijpvm.ijpvm_254_24\"\njournal: \"International Journal of Preventive Medicine\"\nyear: 2026\nsource: \"PMC13489564\"\nreview_mode: \"focused-quick\"\n---\n\n# 洋車前子搭配減重飲食改善 MASLD 肝功能的品質評讀\n\n## 一句話結論\n\n這是一個小型、10 週、單盲 RCT，報告 10 g/day 洋車前子加減重飲食相較 10 g/day 碎小麥可降低 ALT 與 FibroScan 肝硬度；但兩組同時接受飲食、活動與減重建議，樣本只有 75 人完成，表格組別標籤與研究日期有明顯矛盾，且沒有提供完整的組間效果量與信賴區間，因此最多只能視為需要更嚴謹試驗確認的營養介入訊號，不能稱為已證實的 MASLD 預防或纖維化逆轉。\n\n## 品質快照\n\n- **研究設計**：作者描述為安慰劑對照、單盲、平行、區塊隨機 RCT；80 名過重／肥胖且以 FibroScan 診斷 MASLD 的成人，38 名洋車前子、37 名對照完成，另 5 人退出。\n- **介入**：洋車前子 5 g、每日早餐與晚餐前各一次，總量 10 g/day；對照為 10 g 碎小麥。兩組都接受每日減少估計需求 300–500 kcal、脂肪 <30%、飽和脂肪 <10%、碳水 40–54% 與每週至少 3 次、每次至少 30 分鐘活動的建議。\n- **結果**：調整性別、年齡、教育、能量攝取、吸菸與 BMI 後，ALT 組間 p=0.006、FibroScan fibrosis score 組間 p=0.001；AST 組間 p=0.98。\n- **主要限制**：小樣本、只有 10 週、無介入後追蹤；洋車前子組與碎小麥組都改變飲食與活動，對照物也不是生理上完全惰性的 placebo。\n- **資料完整性警訊**：方法把研究期間寫為 2015 年 12 月至 2015 年 3 月；限制段落稱設計為 cross-sectional，與前文 RCT 不一致；Table 3 的腰圍、BMI、體重組別標籤似乎與 Table 1／方法的分組對調。\n- **偏差與確定性**：隨機與盲法描述不足以排除分配、飲食依從與選擇性報告偏差；以本篇主要 ALT／FibroScan 結果作 deterministic GRADE，從 RCT 高起始下調風險、不精確性與間接性後為低確定性。\n\n## 白話導讀\n\n### 研究在問什麼\n\n作者想知道，在已經有 MASLD、又過重或肥胖的成人中，如果大家都接受減重飲食與活動建議，再加上每日 10 g 洋車前子，肝臟檢驗是否比吃 10 g 碎小麥更好。因為研究對象已經有 MASLD，問題其實比較接近「改善肝功能與肝硬度」，不是預防疾病發生。\n\n### 主要結果\n\n- 80 人進入研究，75 人完成；洋車前子組 38 人、對照組 37 人。洋車前子組有 2 人不能耐受而退出，對照組 5 人退出（3 人移民、2 人不合作）。\n- ALT：洋車前子組從 46.7±29.1 降至 28.1±18.4 IU/L；對照組從 68.1±76.8 降至 45.3±34.8 IU/L。調整共變項後，作者報告組間 p=0.006，但沒有完整報告調整後 MD 與 95% CI。\n- AST：洋車前子組 35.7±19.9 降至 24.6±11.3 IU/L；對照組 46.2±51.2 降至 38.1±56.1 IU/L。調整後組間 p=0.98，沒有證據顯示洋車前子有額外 AST 效果。\n- FibroScan 肝硬度／纖維化分數：洋車前子組 6.6±2.33 降至 5.5±1.8 kPa；對照組 6.7±2.01 升至 6.8±2.2 kPa；調整後 p=0.001。這是非侵入性替代指標，不是活檢證實的纖維化逆轉。\n- 體重與 BMI 兩組都下降；研究表格顯示對照組部分體重與 BMI 變化反而較大，代表總減重與洋車前子本身的增量效果需要分開分析。\n\n## 研究方法與結果證據\n\n### PICO\n\n- **P**：BMI ≥25 kg/m²、平均年齡約 44.9 歲、43 男 37 女的成人 MASLD；以 ALT >40 IU/L 和／或 FibroScan >4 kPa 等條件納入。\n- **I**：Plantago ovata 洋車前子 10 g/day，分成早餐與晚餐前各 5 g，連續 10 週。\n- **C**：10 g 碎小麥，外觀與指示相同；兩組均接受減重飲食、蔬菜／全穀／低脂乳品建議與規律活動。\n- **O**：ALT、AST、FibroScan 肝硬度／纖維化分數、體重、BMI、腰圍、腰臀比、飲食攝取與身體活動。\n\n### 隨機、盲法與共介入\n\n研究稱以區塊設計隨機，另一位人員把包裝標成 A、B，參與者收到同色包裝；但沒有充分說明隨機區塊大小、分配隱蔽或研究人員如何避免預測分組。每兩週／每月追蹤消費與活動，並在研究期間給兩組相同的減重策略。對照物碎小麥含有自己的營養與纖維，不一定是惰性 placebo；而且兩組能量、碳水及脂肪攝取的改變不完全一致。\n\n### 退出與分析\n\n作者表示以 80% power、雙側 alpha 0.05 設計每組 35 人，再加上 10% 預估流失；實際完成 75 人。排除不能耐受、移民與不合作者，主要表格以完成者資料呈現，沒有清楚呈現完整 ITT 結果、缺失資料處理或退出者的基線與結果。這會讓介入效果可能被耐受性與依從性選擇影響。\n\n## Critical Appraisal\n\n### 內部效度\n\n小型隨機試驗、同色包裝、每週／每月追蹤是優點；但單盲的盲化對象不清楚，飲食與活動依從由問卷及追蹤紀錄取得，容易受報告偏差影響。性別與吸菸在基線不平衡（女性 65.8% vs 40.5%，吸菸 15.8% vs 40.5%，表列 p 分別 0.028、0.017），雖然作者做 ANCOVA 調整，仍不能完全補回隨機平衡不足。\n\n### 表格與時間軸矛盾\n\n方法段落寫研究從 2015 年 12 月到 2015 年 3 月，時間順序不可能；限制段落又把研究稱為 cross-sectional，與前文的隨機平行試驗不符。Table 1 顯示洋車前子組 BMI 29.4、腰圍 102.1，對照組 BMI 31.1、腰圍 105.5；但 Table 3 的「Psyllium groups」基線 BMI 31.1、腰圍 105，疑似把兩組標籤對調。這些錯誤使體重與人體測量結果不能直接當成可靠的組間證據，應向作者索取原始分組資料與修正版表格。\n\n### 統計與可解釋性\n\n作者用 ANCOVA 調整性別、年齡、教育、能量攝取、吸菸與 BMI，報告 p 值，但沒有呈現主要組間 MD、95% CI、預先指定的最小重要差異或完整模型。能量攝取是介入後可能受影響的變項，將它當共變項調整可能改變洋車前子對體重與肝臟結果的總效果。文章同時測量多個營養、人體測量與血液結果，沒有清楚說明多重比較策略。\n\n### 結果層級\n\nALT 是生化指標，FibroScan 肝硬度是非侵入性中間結果；二者改善都不能直接代表肝炎症狀、活檢纖維化、肝硬化失代償、心血管事件或死亡改善。AST 沒有增量效果，也說明效果並不對所有肝酵素一致。研究只做 10 週、沒有介入後追蹤，不能回答效果是否持續。\n\n### 對照組與外部效度\n\n碎小麥可能也提供纖維與能量，若它不是惰性對照，觀察到的差異是洋車前子與碎小麥的比較，而非洋車前子與無纖維 placebo 的比較。研究來自伊朗單一醫院，排除孕哺、癌症、慢性肝病與多種藥物使用者，不能直接外推到一般 MASLD 門診、肝硬化、糖尿病共病或不同飲食文化的患者。\n\n## GRADE 判讀\n\n以本篇的主要 ALT 與 FibroScan 結果作 GRADE：RCT 是高起始等級，但因分配、盲法、退出與表格矛盾造成**風險疑慮**，因樣本小、未提供完整效果量與 CI 造成**不精確性**，因結果是短期生化／非侵入性替代指標且兩組有共同減重飲食造成**間接性**，整體下調至**低確定性**。AST 的組間 p=0.98，不能宣稱全面改善。此判定是對單一小型試驗的確定性描述，不是洋車前子在所有 MASLD 患者中的總體證據結論。\n\n## Clinical Application：營養照護可以帶走什麼\n\n1. **把它放在減重飲食脈絡中**：研究兩組都接受 300–500 kcal/day 的能量減少、脂肪與活動建議，不能把結果單獨歸因於洋車前子；先處理整體飲食品質、能量、活動與體重趨勢。\n2. **纖維評估要個別化**：若臨床考慮洋車前子，先確認飲水量、吞嚥能力、腸胃道狹窄或阻塞風險、排便狀況、用藥時序與過去耐受性；本研究有 2 人因不能耐受退出。\n3. **不要用本篇開立固定「護肝劑量」**：10 g/day 是特定試驗劑量，對照組、飲食與研究族群不同，不能直接轉成所有病人的通用處方。纖維增加應配合足夠液體與逐步調整。\n4. **追蹤真正的臨床問題**：肝酵素與 FibroScan 變化可作監測的一部分，但仍要依醫療團隊評估代謝共病、酒精、藥物與補充品、體重、血糖／血脂及纖維化風險，不能以短期 ALT 下降宣稱 MASLD 已逆轉。\n5. **向個案說清楚證據邊界**：這篇結果值得支持「增加可耐受的可溶性纖維可能有幫助」的研究假說，但資料品質不足以支持「洋車前子能預防肝損傷」或取代標準生活型態與醫療照護。\n\n## 最後判斷\n\n本文的營養問題實用、介入成本低且有成人 MASLD RCT 形式，但可重現性與報告完整性不足。最可信的訊息是：在減重飲食背景下，洋車前子可能與短期 ALT 和 FibroScan 改善相關；最需要保留的訊息是：組別標籤、研究日期、分析族群與共介入未釐清，且沒有完整組間效果估計。下一步應是多中心、預先註冊、明確惰性對照、足夠 ITT、完整 CI、較長追蹤並以患者重要與影像／組織學結果確認。\n\n## 來源與處理紀錄\n\n- **全文來源**：PMC13489564，International Journal of Preventive Medicine HTML；DOI 與題名核對通過，授權標示 CC BY-NC-ND。\n- **全文處理**：已將來源 HTML 轉為 UTF-8 純文字並分段覆蓋全文；來源 SHA-256 與文字 SHA-256 另存於 Worker execution evidence。\n- **原文定位**：Abstract、Introduction、Methods and Materials、Tables 1–4、Results、Discussion、Strengths、Limitations、Conclusions、Ethics、Conflict of interest。\n- **限制**：本筆為 focused-quick Worker review，未另做外部註冊或原始資料查核；表格組別與日期矛盾已保留為需要作者澄清的品質警訊。",
+      "cards": [],
+      "completedAt": "2026-08-31T04:36:17.943Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1856180:digest",
+      "paperId": "doi:10.3389/fnut.2026.1856180",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Precision synbiotic intervention with 2'-fucosyllactose and infant-derived Bifidobacterium modulates gut-immune axis and reduces disease risk in toddlers: a randomized controlled trial.",
+      "authors": "Chen K, Zhang X, Jin S, Zhong J, Chen H, Yue G, Cheng Y, Peng R, Fang Z, Liu F, Lu Z, Zhao L, Hu R, Tao X, He Q, Liu C",
+      "journal": "Frontiers in Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fnut.2026.1856180",
+      "abstract": "Early childhood represents a critical window for nutritional programming of immune function and microbiome establishment. While human milk oligosaccharides (HMOs) and probiotics individually demonstrate health benefits, their synergistic integration as synbiotics remains underexplored in toddler populations. This study aimed to evaluate whether a precision synbiotic combining 2'-fucosyllactose (2'-FL) with infant-adapted Bifidobacterium strains provides superior protection against common pediatric conditions compared with probiotics alone or placebo, and to elucidate underlying gut-immune mechanisms. To determine the efficacy of a 2'-FL-containing synbiotic on infectious and atopic disease incidence, gut microbiota composition, and intestinal immune markers in children aged 1-3 years. In this multicenter, double-blind, placebo-controlled, three-arm trial, 390 healthy toddlers were randomized (1:1:1) to receive: (1) synbiotic (2'-FL 1.0 g/day + B. infantis R0033 1.5 × 1010 CFU + B. bifidum R0071 1.5 × 1010 CFU); (2) probiotic (identical strains/doses); or (3) placebo (maltodextrin 1.5 g/day) for 12 weeks, with 12-week follow-up. Primary outcome was upper respiratory tract infections (URTIs) incidence over 24 weeks. Secondary outcomes included pneumonia, diarrhea, eczema, antibiotic use, gut microbiota (16S rRNA V3-V4 sequencing), and fecal immune biomarkers (calprotectin, sIgA, HBD-2, LL-37). Dietary intake was monitored to control nutritional confounders. Synbiotic vs. placebo: URTI incidence reduced from 85.4 to 55.4% (adjusted risk ratio (aRR) 0.64, 95% CI 0.43-0.95; ARR 30.0%, NNT = 3.3; p = 0.028); pneumonia from 17.7 to 7.7% (RR 0.40, 0.17-0.94; p = 0.034); diarrhea from 17.7 to 10.0% (aRR 0.54, 0.30-0.95; p = 0.032); and eczema from 13.1 to 1.5% (aRR 0.12, 0.04-0.35; ARR 11.6%, NNT = 2.9; p < 0.001). Probiotic alone reduced only eczema (aRR 0.10, 0.03-0.40; p = 0.001). The synbiotic significantly altered gut beta-diversity (Bray-Curtis, p = 0.042) and enriched Bifidobacterium catenulatum and B. kashiwanohense species with conserved HMO utilization pathways. At 24 weeks, synbiotic reduced fecal calprotectin (62.7 ± 23.9 vs. 77.9 ± 24.6 μg/g; p = 0.004) and increased sIgA (1.37 ± 0.38 vs. 1.15 ± 0.49 mg/g; p = 0.014), indicating enhanced intestinal immune homeostasis. A 12-week precision synbiotic intervention combining 2'-FL with infant-derived Bifidobacterium strains significantly reduced the burden of respiratory infections, diarrhea, and atopic dermatitis in toddlers, with effects exceeding probiotics alone. These benefits were mediated by targeted gut microbiota modulation and enhanced mucosal immune function. This study provides evidence for integrative nutritional strategies in early childhood disease prevention and supports the development of next-generation synbiotic formulations. This study was registered in the Chinese Clinical Trial Registry (ChiCTR2400088943) prior to enrollment (https://www.chictr.org.cn/showprojEN.html?proj=235745).",
+      "legalFullTextUrl": "https://doi.org/10.3389/fnut.2026.1856180",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42598364/",
+      "category": "recommended",
+      "tags": [
+        "design:randomized controlled",
+        "health promotion and lifestyle",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "precision nutrition"
+      ],
+      "noteTitle": "2′-FL 與嬰兒源雙歧桿菌預防幼兒疾病的全文內容整理",
+      "content": "---\ntitle: \"2′-FL 與嬰兒源雙歧桿菌預防幼兒疾病的全文內容整理\"\npaper_title: \"Precision synbiotic intervention with 2′-fucosyllactose and infant-derived Bifidobacterium modulates gut-immune axis and reduces disease risk in toddlers: a randomized controlled trial\"\ndoi: \"10.3389/fnut.2026.1856180\"\njournal: \"Frontiers in Nutrition\"\nyear: 2026\nsource: \"PMC13472563\"\ndigest_mode: \"worker-batch\"\n---\n\n> [!summary] 30 秒層：一句話 + 重點\n> 這個三臂幼兒 RCT 測試了特定 2′-FL 加雙菌株 Bifidobacterium synbiotic，結果顯示相較麥芽糊精，HPG 組在 24 週內的 URTI、肺炎、腹瀉與濕疹較少，但與相同 probiotic 組的額外差異多數不顯著。\n> - 390 名 1–3 歲幼兒各分 130 人至 HPG、PG 或 placebo，介入 12 週、追蹤 12 週。\n> - HPG 對 placebo 的 URTI 調整 RR 0.637、肺炎 0.404、腹瀉 0.537、濕疹 0.118。\n> - HPG 與 PG 的直接比較沒有一致顯著差異，因此不能把 placebo 差異全部歸因於 2′-FL。\n> - 3 個月時部分 Bifidobacterium 增加，6 個月時 beta-diversity 組間差異消失；糞便 calprotectin 降低、sIgA 增加，但只分析 170 個樣本。\n> 品質 → 見配對的品質評讀；本筆是全文內容整理，不取代可信度判斷。\n\n**5 分鐘層**：依序掃讀每個 `##` 區段的 **要點**，可以重建研究背景、PICO、感染結果、菌相與免疫標記、臨床邊界與自我測驗。\n\n## 研究問題／背景\n\n**要點**：作者把 2′-FL 這個 HMO 與嬰兒源雙歧桿菌放在一起，測試特定益生元是否能讓同一組 probiotic 在幼兒期產生較廣的感染與免疫效益。\n\n- 生命早期是生長、免疫發展與腸道菌相建立的關鍵期；幼兒常見呼吸道感染、腸胃疾病與過敏性疾病。\n- HMO 不易被幼兒直接消化，但可被特定 Bifidobacterium 利用；2′-FL 可能支持雙歧桿菌生長、影響腸道屏障與宿主－微生物互動。\n- Probiotic 的效應具有菌株特異性，也可能受到腸道中是否有可發酵底物影響；因此作者提出「2′-FL + 特定菌株」可能比單用菌株更有協同效應。\n- 本研究關心的不是所有 HMO 或所有益生菌，而是 2′-FL 1.0 g/day 加 B. infantis R0033 與 B. bifidum R0071 的特定組合。\n\n## 方法\n\n**要點**：研究以 390 名健康幼兒進行多中心、雙盲、三臂平行 RCT，臨床感染追蹤 6 個月，並在基線、3 個月與 6 個月採集糞便。\n\n- **族群**：1–3 歲、足月、出生體重 2,500–4,000 g；沒有已診斷過敏疾病；自出生配方奶或已完全離乳至少 3 個月；來自中國四川兩個社區醫療場域。\n- **分組**：HPG 每日 1.0 g 2′-FL + B. infantis R0033 1.5×10¹⁰ CFU + B. bifidum R0071 1.5×10¹⁰ CFU；PG 只用相同兩菌株與劑量；CG 使用 1.5 g 麥芽糊精。三組 sachet 外觀、味道、氣味與標籤相同。\n- **時間**：連續補充 3 個月，再追蹤 3 個月；若 30 分鐘內嘔吐可補一次，並記錄於 CRF。抗生素可因臨床需要使用，與介入間隔至少 3 小時。\n- **主要結果**：6 個月內 URTI 發生率；次要結果為肺炎、腹瀉、濕疹、其他症狀天數、抗生素使用、腸道菌相及 calprotectin、sIgA、HBD-2、LL-37。\n- **統計**：臨床結果以 ITT 與 PP 分析；用 negative binomial regression 估 RR，並以 binary multivariate logistic regression 調整性別、戶籍、族群、分娩方式、父母教育、家庭收入與家庭人數。\n- **菌相分析**：糞便 16S rRNA V3–V4，97% 相似度 OTU、QIIME／Silva 分類；比較 alpha diversity、Bray–Curtis beta-diversity、菌屬／菌種相對豐度。\n- **樣本與紀錄**：390 人皆完成臨床 CRF；28 人因非醫療原因更換產品而排除 PP。Table 4 的糞便生物標記樣本為 CG 60、PG 50、HPG 60，與臨床完整追蹤人數不同。\n\n## 主要發現\n\n**要點**：HPG 對 placebo 的疾病發生率與部分症狀負擔較低，但 HPG 對 PG 的直接比較沒有顯著差異，支持的是「特定 synbiotic 的初步訊號」，不是已證實的 2′-FL 額外效果。\n\n| 結果 | CG | PG | HPG | HPG 對 CG |\n|---|---:|---:|---:|---|\n| URTI 發生率 | 85.4%（111/130） | 70.8%（92/130） | 55.4%（72/130） | aRR 0.637（95% CI 0.426–0.952），p=0.028；粗略 ARR 30.0 個百分點，NNT 3.3 |\n| 肺炎 | 17.7%（23/130） | 9.2%（12/130） | 7.7%（10/130） | aRR 0.404（0.174–0.935），p=0.034 |\n| 腹瀉 | 17.7%（23/130） | 13.1%（17/130） | 10.0%（13/130） | aRR 0.537（0.304–0.948），p=0.032 |\n| 濕疹 | 13.1%（17/130） | 2.3%（3/130） | 1.5%（2/130） | aRR 0.118（0.039–0.352），p<0.001；ARR 11.6 個百分點，NNT 2.9 |\n\n- **HPG 與 PG 的增益比較**：URTI aRR 0.759（0.510–1.131，p=0.176）；肺炎 0.729（0.294–1.807，p=0.495）；腹瀉 0.760（0.418–1.384，p=0.370）；濕疹 1.790（0.399–8.032，p=0.447）。作者說 HPG 的效果量多數較大，但研究沒有為兩個活性組差異做足夠 power。\n- **症狀天數**：相較 CG，HPG 的咳嗽 525 天、流鼻水 654 天、發燒 104 天、肺炎 71 天、腹瀉 73 天及抗生素使用 493 天均較少；PG 與 CG 的症狀持續時間沒有差異。這些是總天數，不等同每位幼兒的個別風險。\n- **抗生素結果需分開看**：Table 2 的使用天數組間有差異，但 Table 3 的 HPG 對 CG 調整 RR 0.870（0.589–1.287，p=0.486）不顯著。\n\n### 菌相結果\n\n- 三組基線菌相沒有顯著差異；3 個月時 HPG 與 PG 都和 CG 在 Bray–Curtis beta-diversity 上分離，6 個月時三組差異消失。\n- 3 個月時 HPG／PG 的 Bifidobacterium 相對豐度增加；HPG 顯著增加 B. catenulatum DSM 16992 與 B. kashiwanohense PV20-2，部分差異在 6 個月仍存在。\n- 與 CG 比較，HPG 3 個月時也增加 B. pseudocatenulatum DSM 20438、B. longum、B. kashiwanohense JCM 15439 等；PG 增加 B. adolescentis 與 B. scardovii。HPG 與 PG 之間沒有符合篩選條件的顯著菌種差異。\n- 研究使用 16S 相對豐度，不是直接的絕對菌量或完整代謝功能測序；作者把已知菌種能力用來解釋 HMO 利用與 cross-feeding，屬機轉推論。\n\n### 糞便免疫標記\n\n- 基線與 3 個月時 calprotectin、sIgA、HBD-2、LL-37 組間都沒有顯著差異。\n- 6 個月時 HPG calprotectin 62.65±23.94 μg/g、PG 74.70±30.20、CG 77.94±24.59（p=0.004）；HPG sIgA 1.37±0.38、PG 1.24±0.38、CG 1.15±0.49（p=0.014）。\n- HBD-2 與 LL-37 在 6 個月沒有顯著差異；糞便標記分析只有 170 人，需和 390 人的臨床結果分開理解。\n\n## 臨床意義／怎麼用\n\n**要點**：這項研究可用來說明「特定菌株加特定 HMO」的研究概念，但不能把試驗結果直接當成所有幼兒或所有 probiotic/HMO 產品的常規補充建議。\n\n- 試驗產品是特定菌株、CFU、2′-FL 劑量與批號；「含 Bifidobacterium」或「含 HMO」不代表與本研究相同。\n- 對家長解釋時要分清 HPG 對 placebo 的差異，以及 HPG 對 PG 的直接比較；後者未證明 2′-FL 具獨立額外效益。\n- 幼兒營養評估仍先看成長曲線、餵養史、總熱量、蛋白質、鐵與維生素 D、過敏／腸胃症狀、感染與用藥；補充品不能替代兒科診斷、疫苗與感染治療。\n- 研究只追蹤 3 個月介入與 3 個月停用後觀察，不能回答長期菌相穩定性、生長、過敏預防、抗生素抗藥性或罕見不良事件。\n- 研究場域是四川地方社區，對早產、營養不良、免疫缺陷、已有過敏疾病或不同哺餵史幼兒的適用性需要另外研究。\n\n## 重要圖表重述\n\n**要點**：圖表依序把受試者流程、臨床症狀、疾病風險、菌相與糞便標記拆開；讀者要同時確認分析族群和比較組。\n\n- **Figure 1**：幼兒招募、三組分配、介入、追蹤與分析流程；臨床 ITT 390 人，PP 362 人。\n- **Table 1**：三組基線人口與家庭資料，主要變項 p>0.05。\n- **Table 2／Figure 2**：常見症狀總發生日與每 100 介入日的發生率；HPG 對多項症狀低於 CG。\n- **Table 3／Figure 3**：URTI、肺炎、腹瀉、濕疹等 RR／調整 RR；同一張表也顯示 HPG 與 PG 的直接比較未達顯著。\n- **Figure 4**：三種距離方法的 PCoA；3 個月時介入組和 CG 分離，6 個月時差異消失。\n- **Figure 5–8**：菌屬與菌種相對豐度及兩兩組別比較，呈現部分 Bifidobacterium 的短期增加與追蹤期保留。\n- **Table 4／Figure 9**：糞便 calprotectin、sIgA、HBD-2、LL-37；6 個月時 HPG 的 calprotectin 較低、sIgA 較高，HBD-2／LL-37無顯著差異。\n\n## 與既有認知的對照\n\n**要點**：本篇把「益生菌效應具菌株特異性」與「HMO 可能提供底物」連在一起，但臨床結果尚不足以證明所有 synbiotic 都有協同效果。\n\n- 本篇與「益生菌種類相同就有相同效果」的直覺不同，介入名稱必須精確到菌株與劑量。\n- 本篇支持把餵養史與感染／過敏背景納入幼兒營養評估，但無法取代個別兒童的醫療評估。\n- 個人 vault 無可直接對照的既有筆記；本篇可作為「特定 HMO × 特定菌株」的研究閱讀範例。\n\n## 概念／名詞整理\n\n**要點**：先把 synbiotic 的組成、菌相結果與臨床結果分層，才能避免把機轉標記當成疾病預防證明。\n\n- **2′-FL**：2′-fucosyllactose，人類乳寡糖之一；在本試驗是每日 1.0 g 的特定益生元／底物。\n- **Probiotic**：足量給予、可帶來健康效益的活微生物；本研究是 B. infantis R0033 + B. bifidum R0071。\n- **Synbiotic**：益生菌與可被利用的底物組合；本研究的 HPG 是 2′-FL 加上述雙菌株。\n- **URTI**：上呼吸道感染；本研究的主要臨床結果是 24 週內是否發生，而不是只有症狀天數。\n- **Calprotectin**：糞便腸道發炎相關標記；下降可代表發炎負擔較低，但不是所有腸道疾病的診斷或長期結局。\n- **sIgA**：分泌型免疫球蛋白 A，與黏膜免疫及免疫排除有關；增加不等於已證明感染一定減少。\n- **Beta-diversity**：樣本間菌相組成差異；3 個月分離、6 個月消失表示菌相效果可能是時間依賴的。\n\n## 自我測驗\n\n**要點**：練習先問「比較的是哪兩組」，再問「結果是臨床疾病、症狀、菌相還是糞便標記」。\n\n> [!question]- Q1：這篇能不能說 2′-FL 已證實比 probiotic 單用更能預防 URTI？\n> **答案**：不能。HPG 對 placebo 的 URTI aRR 為 0.637，但 HPG 對同菌株／同劑量 PG 的 aRR 為 0.759，95% CI 0.510–1.131、p=0.176；增益效果仍是探索性。\n\n> [!question]- Q2：為什麼 30 個百分點的 ARR 不能直接變成所有幼兒的 NNT？\n> **答案**：ARR 來自特定四川社區、健康、1–3 歲且主要配方奶／已離乳的試驗族群，且只觀察 24 週。基線風險、感染暴露、餵養史與產品菌株改變後，NNT 可能不同；試驗的 NNT 3.3 不能泛化。\n\n> [!question]- Q3：如何解讀 3 個月菌相分離、6 個月又沒有 beta-diversity 差異？\n> **答案**：表示介入期間菌相組成有短期變化，但停用後或追蹤到 6 個月時，整體 beta-diversity 組間差異不再顯著。部分菌種相對豐度仍可保留，但不能宣稱永久定植或已證明透過菌相介導疾病下降。\n\n> [!question]- Q4：家長說孩子吃了同類產品，營養評估最先要核對什麼？\n> **答案**：核對產品品牌、菌株編號、每日 CFU、2′-FL 或其他 HMO 的實際劑量、批次與使用時間，並記錄餵養史、症狀、感染、用藥與成長。研究產品的特定組合不能用「益生菌」或「HMO」泛稱代替。\n\n## Reference\n\n- Chen K, Zhang X, Jin S, et al. 2026. *Frontiers in Nutrition*. doi: `10.3389/fnut.2026.1856180`；全文：PMC13472563。",
+      "cards": [
+        {
+          "title": "2′-FL 額外效益",
+          "question": "這篇能不能說 2′-FL 已證實比 probiotic 單用更能預防 URTI？",
+          "answer": "不能。HPG 對 placebo 的 URTI aRR 為 0.637，但 HPG 對同菌株／同劑量 PG 的 aRR 為 0.759，95% CI 0.510–1.131、p=0.176；增益效果仍是探索性。",
+          "tags": [
+            "幼兒營養",
+            "synbiotic",
+            "臨床解讀"
+          ]
+        },
+        {
+          "title": "NNT 不能泛化",
+          "question": "為什麼 30 個百分點的 ARR 不能直接變成所有幼兒的 NNT？",
+          "answer": "ARR 來自特定四川社區、健康、1–3 歲且主要配方奶／已離乳的試驗族群，且只觀察 24 週。基線風險、感染暴露、餵養史與產品菌株改變後，NNT 可能不同。",
+          "tags": [
+            "幼兒感染",
+            "NNT",
+            "外部效度"
+          ]
+        },
+        {
+          "title": "菌相變化的時間性",
+          "question": "如何解讀 3 個月菌相分離、6 個月又沒有 beta-diversity 差異？",
+          "answer": "介入期間菌相組成有短期變化，但停用後或追蹤到 6 個月時，整體 beta-diversity 組間差異不再顯著。不能宣稱永久定植或已證明透過菌相介導疾病下降。",
+          "tags": [
+            "腸道菌相",
+            "beta-diversity",
+            "機轉"
+          ]
+        },
+        {
+          "title": "補充品成分核對",
+          "question": "家長說孩子吃了同類產品，營養評估最先要核對什麼？",
+          "answer": "核對品牌、菌株編號、每日 CFU、2′-FL 或其他 HMO 劑量、批次與使用時間，並記錄餵養史、症狀、感染、用藥與成長。研究產品不能用泛稱取代。",
+          "tags": [
+            "幼兒營養評估",
+            "益生菌",
+            "產品安全"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-31T04:31:30.285Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1856180:review",
+      "paperId": "doi:10.3389/fnut.2026.1856180",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Precision synbiotic intervention with 2'-fucosyllactose and infant-derived Bifidobacterium modulates gut-immune axis and reduces disease risk in toddlers: a randomized controlled trial.",
+      "authors": "Chen K, Zhang X, Jin S, Zhong J, Chen H, Yue G, Cheng Y, Peng R, Fang Z, Liu F, Lu Z, Zhao L, Hu R, Tao X, He Q, Liu C",
+      "journal": "Frontiers in Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fnut.2026.1856180",
+      "abstract": "Early childhood represents a critical window for nutritional programming of immune function and microbiome establishment. While human milk oligosaccharides (HMOs) and probiotics individually demonstrate health benefits, their synergistic integration as synbiotics remains underexplored in toddler populations. This study aimed to evaluate whether a precision synbiotic combining 2'-fucosyllactose (2'-FL) with infant-adapted Bifidobacterium strains provides superior protection against common pediatric conditions compared with probiotics alone or placebo, and to elucidate underlying gut-immune mechanisms. To determine the efficacy of a 2'-FL-containing synbiotic on infectious and atopic disease incidence, gut microbiota composition, and intestinal immune markers in children aged 1-3 years. In this multicenter, double-blind, placebo-controlled, three-arm trial, 390 healthy toddlers were randomized (1:1:1) to receive: (1) synbiotic (2'-FL 1.0 g/day + B. infantis R0033 1.5 × 1010 CFU + B. bifidum R0071 1.5 × 1010 CFU); (2) probiotic (identical strains/doses); or (3) placebo (maltodextrin 1.5 g/day) for 12 weeks, with 12-week follow-up. Primary outcome was upper respiratory tract infections (URTIs) incidence over 24 weeks. Secondary outcomes included pneumonia, diarrhea, eczema, antibiotic use, gut microbiota (16S rRNA V3-V4 sequencing), and fecal immune biomarkers (calprotectin, sIgA, HBD-2, LL-37). Dietary intake was monitored to control nutritional confounders. Synbiotic vs. placebo: URTI incidence reduced from 85.4 to 55.4% (adjusted risk ratio (aRR) 0.64, 95% CI 0.43-0.95; ARR 30.0%, NNT = 3.3; p = 0.028); pneumonia from 17.7 to 7.7% (RR 0.40, 0.17-0.94; p = 0.034); diarrhea from 17.7 to 10.0% (aRR 0.54, 0.30-0.95; p = 0.032); and eczema from 13.1 to 1.5% (aRR 0.12, 0.04-0.35; ARR 11.6%, NNT = 2.9; p < 0.001). Probiotic alone reduced only eczema (aRR 0.10, 0.03-0.40; p = 0.001). The synbiotic significantly altered gut beta-diversity (Bray-Curtis, p = 0.042) and enriched Bifidobacterium catenulatum and B. kashiwanohense species with conserved HMO utilization pathways. At 24 weeks, synbiotic reduced fecal calprotectin (62.7 ± 23.9 vs. 77.9 ± 24.6 μg/g; p = 0.004) and increased sIgA (1.37 ± 0.38 vs. 1.15 ± 0.49 mg/g; p = 0.014), indicating enhanced intestinal immune homeostasis. A 12-week precision synbiotic intervention combining 2'-FL with infant-derived Bifidobacterium strains significantly reduced the burden of respiratory infections, diarrhea, and atopic dermatitis in toddlers, with effects exceeding probiotics alone. These benefits were mediated by targeted gut microbiota modulation and enhanced mucosal immune function. This study provides evidence for integrative nutritional strategies in early childhood disease prevention and supports the development of next-generation synbiotic formulations. This study was registered in the Chinese Clinical Trial Registry (ChiCTR2400088943) prior to enrollment (https://www.chictr.org.cn/showprojEN.html?proj=235745).",
+      "legalFullTextUrl": "https://doi.org/10.3389/fnut.2026.1856180",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42598364/",
+      "category": "recommended",
+      "tags": [
+        "design:randomized controlled",
+        "health promotion and lifestyle",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "precision nutrition"
+      ],
+      "noteTitle": "2′-FL 與嬰兒源雙歧桿菌預防幼兒感染的品質評讀",
+      "content": "---\ntitle: \"2′-FL 與嬰兒源雙歧桿菌預防幼兒常見疾病的品質評讀\"\npaper_title: \"Precision synbiotic intervention with 2′-fucosyllactose and infant-derived Bifidobacterium modulates gut-immune axis and reduces disease risk in toddlers: a randomized controlled trial\"\ndoi: \"10.3389/fnut.2026.1856180\"\njournal: \"Frontiers in Nutrition\"\nyear: 2026\nsource: \"PMC13472563\"\nreview_mode: \"focused-quick\"\n---\n\n# 2′-FL 與嬰兒源雙歧桿菌預防幼兒常見疾病的品質評讀\n\n## 一句話結論\n\n這篇三臂、雙盲 RCT 顯示，12 週的 2′-FL 加雙菌株益生菌在健康、以配方奶為主的 1–3 歲幼兒中，對 24 週內的上呼吸道感染、肺炎、腹瀉與濕疹相較麥芽糊精有較低發生率；但「加上 2′-FL 比同菌株益生菌更好」的直接比較沒有一致顯著差異，且研究場域單一、部分結果依賴照顧者回報、糞便生物標記只分析 170 人，不能直接外推成所有幼兒都應補充的建議。\n\n## 品質快照\n\n- **研究設計**：多中心、三臂、平行、隨機、雙盲、安慰劑對照 RCT；390 名健康幼兒，各組 130 人，介入 12 週、再追蹤 12 週。\n- **族群**：1–3 歲、足月、出生體重 2,500–4,000 g，主要為中國四川省兩個社區醫療場域；皆為自出生配方奶或已完全離乳至少 3 個月者。\n- **介入**：每日 1.0 g 2′-FL 加 B. infantis R0033 1.5×10¹⁰ CFU 與 B. bifidum R0071 1.5×10¹⁰ CFU；對照組為同菌株／同劑量益生菌，或 1.5 g 麥芽糊精。\n- **主要結果**：24 週內上呼吸道感染（URTI）發生率；次要結果包括肺炎、腹瀉、濕疹、抗生素使用、微生物相與糞便免疫指標。\n- **結果概況**：HPG 對 placebo 的調整 RR 為 URTI 0.637（95% CI 0.426–0.952）、肺炎 0.404（0.174–0.935）、腹瀉 0.537（0.304–0.948）、濕疹 0.118（0.039–0.352）。HPG 對 PG 的直接比較均未達顯著。\n- **偏差警訊**：研究說明隨機與盲法，但未清楚交代分配隱蔽；樣本數以先前試驗及預估流失率推估，沒有呈現針對此研究主要結果的正式 power calculation。多重臨床、症狀、菌相與免疫比較提高偶然顯著的可能。\n- **利益與可疑一致性**：文中宣稱無資助、無商業衝突，但部分作者來自 H&H Group，產品由 Biostime（Guangzhou）Health Products Co., Ltd. 提供；供應者與作者所屬的關係未充分說明。此外，方法寫研究期至 2026 年 9 月，但文章 2026 年 7 月已接受／刊出，時間軸需作者澄清。\n\n## 白話導讀\n\n### 研究在問什麼\n\n作者想知道，對同樣的嬰兒源雙歧桿菌，加入人類乳寡糖 2′-FL 是否能讓益生菌更能在幼兒腸道中發揮作用，降低常見呼吸道、腸胃與過敏疾病。這是一個「同一 probiotic，增加一個特定 prebiotic／HMO 是否有額外效益」的增益問題，而不是單純比較吃益生菌與不吃益生菌。\n\n### 主要結果怎麼看\n\n- placebo 組 URTI 發生率 85.4%（111/130），PG 70.8%（92/130），HPG 55.4%（72/130）。HPG 對 placebo 的粗略絕對差約 30.0 個百分點，作者換算 NNT 3.3；但 HPG 對 PG 的調整 RR 0.759（95% CI 0.510–1.131，p=0.176），所以不能把全部差異歸因於 2′-FL。\n- 肺炎發生率為 CG 17.7%、PG 9.2%、HPG 7.7%；腹瀉為 17.7%、13.1%、10.0%；濕疹為 13.1%、2.3%、1.5%。相較 CG，HPG 的調整 RR 分別為 0.404、0.537、0.118；PG 只有濕疹相較 CG 顯著（aRR 0.102，95% CI 0.026–0.399）。\n- HPG 與 CG 相比有較少咳嗽、流鼻水、發燒、肺炎、腹瀉與抗生素使用日；然而 Table 3 的抗生素使用調整 RR 為 0.870（0.589–1.287，p=0.486），未達顯著。症狀天數與疾病發生率是不同結果，不能混寫成「減少抗生素使用」。\n- HPG 與 PG 的直接比較在 URTI、肺炎、腹瀉及濕疹均不顯著；作者也承認研究沒有針對兩個活性組的差異進行足夠 power 設計。因此 HPG 可能有額外效益仍屬探索性，不是已證實的增益效果。\n\n## 研究方法與結果證據\n\n### PICO\n\n- **P**：390 名健康、1–3 歲幼兒；沒有既有過敏疾病，且主要來自中國四川兩個社區場域。\n- **I**：2′-FL 1.0 g/day 加 B. infantis R0033 及 B. bifidum R0071，各 1.5×10¹⁰ CFU/day，連續 3 個月。\n- **C**：相同雙菌株／劑量的 probiotic，或 1.5 g/day 麥芽糊精 placebo。\n- **O**：6 個月內 URTI、肺炎、腹瀉、濕疹、抗生素使用、症狀天數、16S rRNA 菌相，以及 calprotectin、sIgA、HBD-2、LL-37。\n\n### 隨機、盲法與追蹤\n\n研究以 Excel RAND 產生隨機數，由未直接參與試驗的統計人員掌握配置序列；三種 sachet 外觀、味道與標籤相同，家長、臨床人員、實驗室、資料管理與統計人員在分析完成前盲化。390 人皆完成臨床 CRF，沒有臨床追蹤遺失；但 28 人因更換產品被排除在 PP 分析，合規率約 91.5–93.8%。\n\n### 菌相與糞便免疫\n\n16S rRNA V3–V4、97% OTU 分群及 QIIME／Silva 分類顯示，介入 3 個月時 HPG 與 PG 都與 placebo 在 beta-diversity 有分離；6 個月時三組沒有顯著 beta-diversity 差異。HPG／PG 增加部分 Bifidobacterium，包括 B. catenulatum DSM 16992、B. kashiwanohense PV20-2 等，但 HPG 與 PG 之間沒有顯著差異，且「功能路徑」是由菌種已知能力推論，不是本試驗直接做的 shotgun 功能測序。\n\n糞便生物標記在 6 個月時 HPG 的 calprotectin 為 62.65±23.94 μg/g、PG 74.70±30.20、CG 77.94±24.59（p=0.004）；sIgA 為 1.37±0.38、1.24±0.38、1.15±0.49（表列單位 mg/g，摘要則寫 mg/g；數值呈現需依原始資料核對，p=0.014）。但 Table 4 的樣本數為 CG 60、PG 50、HPG 60，和「所有人完成」不一致；這個 170 人子樣本的抽樣與缺失資料處理沒有充分交代。\n\n## Critical Appraisal\n\n### 內部效度\n\n隨機、三臂 placebo、同菌株活性對照與盲法是本研究的強項，且以 ITT 與 PP 兩種資料集報告主要感染結果。可是，分配隱蔽的具體程序不清楚；臨床診斷雖聲稱依指南並由醫師處理，咳嗽、流鼻水、排便與部分症狀天數依家長／照顧者紀錄，可能受盲法破盲或期待影響。研究比較大量疾病、症狀、菌種與免疫指標，未清楚說明多重比較控制。\n\n### 統計與結果一致性\n\n主要 URTI 的 CG、PG、HPG 比例與調整 RR 方向一致，但 PG 對 CG 的 URTI 不顯著，HPG 對 PG 也不顯著。故最穩妥的句子是「HPG 相較 placebo 的結果有關聯，且數值上比 PG 低」，不是「2′-FL 已證實帶來額外保護」。表 2 顯示 HPG 較少抗生素使用日，但表 3 調整後不顯著，這是不同分析層級的差異，不能把前者擴大解讀成減少抗生素療程。\n\n### 生物標記與機轉推論\n\nHPG 與 PG 都造成部分菌相改變，且 6 個月時 beta-diversity 的組間差異消失；因此「2′-FL 透過特定菌種改變而介導疾病下降」尚未由 mediation analysis 證明。calprotectin 下降與 sIgA 上升支持腸道免疫狀態可能改變，但這些是糞便替代指標，不能直接證明呼吸道感染由 gut–lung axis 改善所致。\n\n### 外部效度\n\n研究對象是健康、無既有過敏疾病、足月、以配方奶或已離乳幼兒為主，且來自四川地方社區；不能直接外推至早產兒、營養不良、母乳哺餵兒、已有濕疹或慢性病兒童。介入產品為特定菌株與特定批號 2′-FL，不能用「益生菌」或「HMO」泛指所有市售產品。\n\n### 研究紀錄與商業透明度警訊\n\n註冊號 ChiCTR2400088943 與倫理批准號有報告，但文章同時寫研究執行期間為 2024 年 9 月至 2026 年 9 月，而接受日期是 2026 年 7 月 13 日、收錄日期 2026 年 7 月 30 日；若非文字錯誤，結果不可能已包含完整 6 個月追蹤。文章列出 H&H Group 作者及 Biostime 供應產品，卻宣稱無商業關係；這不等同已證明有不當影響，但應要求澄清產品所有權、研究者角色、資料存取與分析獨立性。\n\n## GRADE／偏差整體判斷\n\n本篇是 RCT，主要感染結果的起始確定性可從高開始，但應因以下因素下調：\n\n- **偏差風險**：分配隱蔽、症狀回報、PP 排除與生物標記子樣本處理報告不足。\n- **不一致性**：主要疾病結果方向大致一致，但 HPG 對 PG 的直接比較不顯著，症狀天數、抗生素使用與疾病發生率並非完全一致。\n- **間接性**：族群是高度篩選的健康幼兒，介入是特定菌株／批號；結果集中於 6 個月內的疾病與替代免疫標記。\n- **不精確性**：肺炎、腹瀉與濕疹事件數少，CI 寬；HPG 對 PG 的比較尤其無力。糞便標記只涵蓋 170 人。\n- **發表／利益偏差**：文中沒有顯示明確的負結果選擇證據，但產品供應與產業作者關係不夠透明，且發表時間軸須澄清。\n\n因此，**HPG 對 placebo 的 URTI、肺炎、腹瀉與濕疹結果可視為中低確定性的初步訊號；2′-FL 相對於相同 probiotic 的額外效果則應視為低確定性、探索性結果。** 本研究不能支撐對一般幼兒常規補充的強推薦。\n\n## Clinical Application：營養照護可以帶走什麼\n\n1. **先確認適用族群**：不要把本研究的健康、足月、配方奶／已離乳四川幼兒直接套用到早產、營養不良、免疫缺陷或已有疾病的孩子。\n2. **特定菌株才是介入單位**：若家庭詢問 HMO 或益生菌，需記錄完整菌株編號、CFU、2′-FL 劑量、品牌與批次；「含雙歧桿菌」不等於本試驗產品。\n3. **把期待值說清楚**：研究只支持短期疾病發生率的關聯訊號；HPG 對 placebo 的優勢不能證明是 2′-FL 的額外效益，因為 HPG 與 PG 直接比較沒有顯著差異。\n4. **監測與安全**：本研究沒有報告介入相關不良事件，但樣本與追蹤期有限，不能等於長期安全已證實。若孩子有過敏、持續腹瀉、反覆感染或生長問題，應先作兒科評估，不以補充品取代診斷與治療。\n5. **營養評估優先**：確認總熱量、蛋白質、鐵與維生素 D 等基本營養、餵養史、成長曲線、疫苗與感染暴露；補充品決策需與兒科醫療團隊共同討論。\n\n## 最後判斷\n\n這是一個問題設計有價值的特定 synbiotic RCT：最好的證據在於 HPG 對 placebo 的短期疾病結果；最不能過度推論的地方是把這個差異歸因於 2′-FL 的獨立增益、把菌相與糞便免疫變化說成已證實的介導機轉，以及把特定產品外推為所有幼兒益生菌／HMO。後續需要獨立、多地區、足夠 power 的 HPG 對 PG 試驗，完整報告產品利益關係、樣本缺失與長期成長／安全性結果。\n\n## 來源與處理紀錄\n\n- **全文來源**：PMC13472563，Frontiers in Nutrition HTML；DOI 與題名核對通過，授權標示 CC BY。\n- **全文處理**：已將來源 HTML 轉為 UTF-8 純文字並分段覆蓋全文；來源 SHA-256 與文字 SHA-256 另存於 Worker execution evidence。\n- **原文定位**：Abstract、Introduction、Methods 2.1–2.10、Results 3.1–3.6、Discussion、Study limitations、Conclusion、Data availability、Conflict of interest。\n- **限制**：本筆為 focused-quick Worker review，未另做完整引用脈絡或外部試驗註冊核查；對研究日期矛盾、產業關係與 170 人生物標記子樣本的解讀，均標示為需要作者／原始資料澄清的品質警訊。",
+      "cards": [],
+      "completedAt": "2026-08-31T04:27:45.891Z"
+    },
+    {
+      "id": "doi:10.1016/j.gastha.2026.101045:digest",
+      "paperId": "doi:10.1016/j.gastha.2026.101045",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Comparative Efficacy of Herbal Products for Improving Liver Enzymes and Inflammation in Metabolic Dysfunction-Associated Steatotic Liver Disease: A Systematic Review and Network Meta-Analysis.",
+      "authors": "Chen Liang A, Cruz Castillo Y, Fermin Madera M, Sairaj R, Medina J, Moreno Díaz T, Chintamaneni S, Flores Monar G, Sanchez Cruz C, Advani R, Guha S, Calderón-Martinez E",
+      "journal": "Herbs, phytochemicals and supplement safety (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.gastha.2026.101045",
+      "abstract": "Metabolic dysfunction-associated steatotic liver disease (MASLD) and metabolic dysfunction-associated steatohepatitis (MASH) affect adults worldwide and are causes of morbidity. While lifestyle modification remains in first-line therapy, interest has emerged in herbal agents with potential hepatometabolic effects. Evidence synthesis has been limited by heterogeneity in formulations and study quality. We conducted a systematic review and network meta-analysis (NMA) to compare the efficacy of herbal therapies in MASLD/MASH. Following Preferred Reporting Items for Systematic reviews and Meta-Analyses guidelines and International Prospective Register of Systematic Reviews registration (CRD420251157401), PubMed, Web of Science, EMBASE, and Cochrane were searched through September 2025 for randomized controlled trials evaluating herbal therapies or derivatives in adults with MASLD/MASH. The primary outcomes included alanine aminotransferase, aspartate aminotransferase, gamma-glutamyl transpeptidase, and liver stiffness. Random-effects NMAs estimated mean differences (MDs) with 95% confidence intervals, with treatment ranking using surface under the cumulative ranking curve (SUCRA). Risk of bias was assessed using RoB 2.0, and certainty of evidence using Confidence in NMA. Across 131 randomized trials (n = 9191), several herbal interventions significantly improved liver enzymes. In the NMA for alanine aminotransferase, the greatest reductions were seen with artichoke leaf (MD -28.32; P < .01), cinnamon (MD -25.10; P = .01), and piperine (MD -25.39; P = .01), with artichoke leaf achieving the highest SUCRA (0.93). For aspartate aminotransferase, significant reductions were observed for cinnamon (MD -23.50; P < .01), berberine (MD -19.63; P < .01), and bergamot + CyC (MD -17.83; P < .01), with cinnamon being the most effective (SUCRA 0.96). For gamma-glutamyl transpeptidase, significant reductions were observed with cinnamon (MD -12.44; P = .01), garlic + silymarin (MD -10.92; P = .01), and berberine (MD -9.74; P = .01). For liver stiffness, only curcumin (MD -0.76; P = .03) and pomegranate (MD -0.86; P = .04) were statistically significant, despite higher SUCRA rankings favoring silymarin (0.81) and hesperidin + flaxseed (0.79). The secondary outcomes showed variable effects on steatosis and fibrosis indices without consistent metabolic significance. This analysis found that several herbal preparations may improve biochemical markers in MASLD and MASH, though results varied and require cautious interpretation given formulation and regulatory inconsistencies. Future work should focus on the most consistently performing agents: cinnamon, curcumin, silymarin, berberine, artichoke leaf, and Nigella sativa. This should involve standardized production, dose-finding studies, purity verification, and mainly long-term safety evaluation before any clinical integration.",
+      "legalFullTextUrl": "https://doi.org/10.1016/j.gastha.2026.101045",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42597704/",
+      "category": "recommended",
+      "tags": [
+        "design:randomized controlled",
+        "guideline and consensus",
+        "herbs phytochemicals supplements",
+        "human clinical population",
+        "safety and interaction"
+      ],
+      "noteTitle": "MASLD／MASH 草本介入與肝臟指標的全文內容整理",
+      "content": "---\ntitle: \"MASLD／MASH 草本介入與肝臟指標的全文內容整理\"\npaper_title: \"Comparative Efficacy of Herbal Products for Improving Liver Enzymes and Inflammation in Metabolic Dysfunction-Associated Steatotic Liver Disease: A Systematic Review and Network Meta-Analysis\"\ndoi: \"10.1016/j.gastha.2026.101045\"\njournal: \"Gastro Hep Advances\"\nyear: 2026\nsource: \"PMC13470191\"\ndigest_mode: \"worker-batch\"\n---\n\n> [!summary] 30 秒層：一句話 + 重點\n> 這篇 131 個成人 RCT 的網絡統合分析顯示，部分草本產品可能改善 MASLD/MASH 的肝酵素或非侵入性指標，但沒有一種介入在所有終點一致有效。\n> - 肉桂、朝鮮薊葉、小檗鹼、薑黃素、水飛薊與黑種草在不同結果中出現較強訊號。\n> - ALT、AST、GGT 網絡異質性高（I²=85.3%、83.0%、77.2%）。\n> - 肝硬度只有薑黃素與石榴相較安慰劑達統計顯著，效果幅度小。\n> - CINeMA 對大多數比較的信心低或極低；安全性資料不足，不能直接轉成常規補充品建議。\n> 品質 → 見配對的品質評讀；本筆是全文內容整理，不取代可信度判斷。\n\n**5 分鐘層**：依序掃讀每個 `##` 區段的 **要點**，可以重建本文的研究問題、方法、四個主要終點、次要結果、圖表意義與臨床使用邊界。\n\n## 研究問題／背景\n\n**要點**：作者想把多種草本治療放在同一個比較網絡，了解成人 MASLD/MASH 的肝酵素、脂肪變性與肝硬度是否改善，同時面對產品配方與研究品質不一致的問題。\n\n- MASLD 與肥胖、第二型糖尿病及代謝症候群密切相關；作者引用的全球盛行率約為 30.05%，MASH 約為 5.27%。\n- 生活型態調整、體重管理、飲食與身體活動仍是第一線背景治療；草本產品的興趣來自可能影響脂質代謝、膽汁酸訊號、發炎與氧化壓力。\n- 但草本產品可能有有效成分濃度、吸收率、污染、摻入未標示成分與藥物性肝損傷差異，因此「同一個名稱」不一定代表同一個介入。\n\n## 方法\n\n**要點**：這是遵循 PRISMA 2020／PRISMA-NMA 且註冊 PROSPERO 的成人 RCT 系統性回顧與隨機效應 NMA；作者從四個資料庫檢索至 2025 年 9 月，納入 131 個試驗與 9,191 人。\n\n- **納入對象**：成人 MASLD、MASH 或舊稱 NAFLD，依影像、活檢或臨床特徵判定；排除動物、明顯酒精性疾病、其他慢性肝病、急性肝衰竭及非原始研究。\n- **介入與比較**：草本單方、衍生物或部分組合產品，對照安慰劑、無治療、生活型態或標準照護；作者排除含超過四種主要成分的產品。\n- **主要結果**：ALT、AST、GGT 及肝硬度；次要結果為 TNF-α、IL-6、脂肪變性、FLI、FIB-4 與 HSI。\n- **流程**：14,014 篇初始紀錄，去除 3,664 篇後進行題名／摘要篩選；52 篇未取得，132 篇進入資格評估，排除 1 篇錯誤設計後留下 131 篇。\n- **統計**：以變化量 MD 與 95% CI 做 DerSimonian–Laird 隨機效應 NMA；用 I²、設計－治療交互作用、node-splitting、Egger 檢定與 SUCRA 描述異質性、一致性與排序。\n- **偏差與信心**：使用 Cochrane RoB 2.0；104 篇低風險、23 篇有疑慮、4 篇高風險。以 CINeMA 評估研究內偏差、跨研究偏差、間接性、不精確性、異質性與不一致性。\n\n## 主要發現\n\n**要點**：肝酵素結果的「有訊號」比結論的「能治療」更可靠；越往患者重要或結構性結果走，研究數、精確度與證據信心越有限。\n\n| 結果 | 網絡規模 | 主要相較安慰劑的結果 | 異質性／補充 |\n|---|---:|---|---|\n| ALT | 96 研究、60 介入 | 朝鮮薊葉 MD −28.32（95% CI −41.37 至 −15.28）；胡椒鹼 −25.39（−43.89 至 −6.89）；肉桂 −25.10（−41.75 至 −8.45） | I²=85.3%；SUCRA 朝鮮薊葉 0.94、肉桂 0.91、胡椒鹼 0.88 |\n| AST | 96 研究、60 介入 | 肉桂 −23.50（−37.59 至 −9.41）；小檗鹼 −19.63（−30.21 至 −9.04）；佛手柑加 CyC −17.83（−28.13 至 −7.53） | I²=83.0%；玫瑰與 AST 上升相關，MD 33.98（18.05 至 49.91） |\n| GGT | 45 研究、37 介入 | 正文 Results 報告肉桂 −25.80（−39.20 至 −12.40）；大蒜加水飛薊 −22.89（−38.32 至 −7.46）；小檗鹼 −20.97（−38.20 至 −3.75） | I²=77.2%；摘要列出不同 MD，精確數值需回查補充表 |\n| 肝硬度 | 18 研究、17 介入 | 薑黃素 −0.76（−1.44 至 −0.08）；石榴 −0.86（−1.70 至 −0.02） | I²=52.1%；只有這兩項相較安慰劑顯著 |\n\n### 次要結果\n\n- **脂肪變性**：薑黃素 MD −19.21（95% CI −31.92 至 −6.50）、葫蘆巴籽 −23.60（−45.67 至 −1.53）、黑種草 −14.52（−27.05 至 −1.99）相較安慰劑下降；沒有閉合迴路，因此不能做完整直接／間接一致性判定。\n- **FLI**：亞麻籽 −22.83（−41.49 至 −4.17）與橙皮苷 −20.12（−38.37 至 −1.87）達顯著；I²=68.6%。\n- **FIB-4**：小檗鹼 −0.41（−0.61 至 −0.21）與薑黃素 −0.40（−0.55 至 −0.25）達顯著；I²=27.6%，但網絡只有 7 個 RCT、6 個介入，且無閉合迴路。\n- **IL-6**：只有薑黃素顯著，MD −5.14（−10.07 至 −0.21）；I²=73.1%。\n- **HSI**：薑黃素 MD −1.85（−3.60 至 −0.10）；只有 3 個研究，I²=0%。\n- **敏感度分析**：限制在低偏差且介入至少 3 個月後，ALT、AST、GGT 的部分訊號仍在，但 FLI 與 FIB-4 不再顯著；肝硬度的薑黃素、Liv.52DS 與 Phyllanthus niruri 仍有顯著結果。\n\n## 臨床意義／怎麼用\n\n**要點**：把這篇當成研究方向與問診提醒，不要當成草本產品選擇表；現階段標準生活型態照護、產品安全核對與醫療監測比 SUCRA 排名更重要。\n\n- MASLD 營養照護仍先聚焦飲食品質、能量平衡、體重管理、身體活動，以及糖尿病、血脂與其他代謝共病。\n- 若個案使用肉桂、薑黃素、小檗鹼、水飛薊、綠茶萃取物或其他草本，記錄品牌、成分、劑量、開始時間與併用藥物，不要只寫「吃保健品」。\n- 本文沒有提供各產品可互換的安全劑量；不同研究的製劑、劑量與吸收率不同，不能用 NMA 排名反推市售產品劑量。\n- 肝酵素下降不等於纖維化逆轉或長期事件下降；若已有肝酵素異常，仍需依醫療團隊安排病因評估與追蹤。\n- 出現黃疸、深色尿、明顯噁心、疲倦或右上腹不適時，應停止自行加用並儘快就醫；草本產品也可能造成肝損傷或藥物交互作用。\n\n## 重要圖表重述\n\n**要點**：圖表把「網絡幾何」「相對效果」「排序」分開呈現；排名高不代表臨床重要性或證據確定性高。\n\n- **Figure 1**：PRISMA 流程圖，呈現 14,014 篇紀錄如何縮減到 131 個 RCT。\n- **Figure 2A–D**：ALT、AST、GGT、肝硬度的 NMA forest plots；可看 MD、95% CI 與安慰劑比較。\n- **Figure 3A–D**：各主要結果的網絡幾何；節點大小代表隨機人數，連線粗細代表直接比較的研究量。\n- **Figure 4A–D**：SUCRA 累積排序曲線；應與 forest plot、CI、CINeMA 信心一起看，不能單獨看排名。\n- **Table 1**：131 個試驗的國家、設計、偏差風險、追蹤時間、樣本數與介入劑量，呈現產品與研究情境的高度多樣性。\n- **Table 2**：各代謝結果的 SUCRA；同一產品在不同結果的排名可不同，說明沒有一致的全方位優勝者。\n\n## 與既有認知的對照\n\n**要點**：本篇支持「生活型態是基礎、草本可能是研究中的輔助候選」這個方向，但把短期替代指標與長期疾病改善清楚分開。\n\n- 本篇與「草本產品可改善所有肝臟結果」的直覺不一致：沒有一種介入在所有終點一致有效。\n- 本篇把不同產品放入同一 NMA，但同時提醒配方、劑量與地域差異限制可轉移性；所以「排名」不等於「產品等效」。\n- 個人 vault 無可直接對照的既有筆記；本篇可作為 MASLD 草本補充品問診與證據解讀的起點。\n\n## 概念／名詞整理\n\n**要點**：先分清疾病名稱、結果層級與統計排序，才能避免把替代指標誤當成患者重要結果。\n\n- **MASLD／MASH**：代謝功能障礙相關脂肪肝／脂肪肝炎；本文也納入部分使用 NAFLD 舊稱的成人研究。\n- **ALT、AST、GGT**：血液肝酵素；可反映肝細胞或膽汁鬱積相關活動，但不單獨等於纖維化程度或臨床事件。\n- **肝硬度**：非侵入性結構／纖維化相關指標；短期變化不能直接等同組織學逆轉。\n- **FLI、FIB-4、HSI**：以臨床或生化資料估算脂肪肝／纖維化風險的指數；是風險分層工具，不是治癒證明。\n- **NMA**：網絡統合分析，可同時比較沒有全部直接對照的多個介入，但需要跨研究的族群、介入與結果具有可比性。\n- **SUCRA**：介入在網絡內排名靠前的機率摘要；不是效果大小，也不是推薦強度。\n- **CINeMA**：專門評估 NMA 證據信心的框架，本文多數結果為低或極低信心。\n\n## 自我測驗\n\n**要點**：用臨床情境回想「結果是什麼、證據有多穩、下一步怎麼問」，不要只背排名。\n\n> [!question]- Q1：為什麼不能只看 SUCRA 就選一個草本產品？\n> **答案**：SUCRA 只描述網絡內的相對排序；本篇的 ALT、AST、GGT 網絡異質性高，活性治療間多數 CI 重疊，且配方、劑量與族群差異大。必須同時看 MD、CI、研究偏差與 CINeMA 信心，不能把排名當處方順序。\n\n> [!question]- Q2：這篇對肝酵素下降與肝硬度改善各提供了什麼層級的訊息？\n> **答案**：肝酵素的多個草本比較達統計顯著，但 ALT、AST、GGT 的 I² 分別為 85.3%、83.0%、77.2%，整體信心低或極低。肝硬度只有薑黃素與石榴相較安慰劑顯著，不能因此宣稱纖維化或長期肝病事件已改善。\n\n> [!question]- Q3：個案說正在吃薑黃素或綠茶萃取物時，營養評估要補問什麼？\n> **答案**：補問品牌與完整成分、劑量、開始時間、產品來源、是否與處方藥或其他補充品併用，以及黃疸、深色尿、噁心、疲倦或右上腹不適等症狀。這篇的不良事件資料不足，不能因研究未見一致訊號就保證安全。\n\n> [!question]- Q4：為什麼本篇不能直接給出一個「有效草本劑量」？\n> **答案**：131 個 RCT 的製劑、劑量、追蹤時間、背景生活型態與研究地區差異很大；NMA 的相對比較也不代表市售產品等效。需要標準化成分、純度與劑量研究，並有長期安全性及患者重要結果後，才可能轉成臨床建議。\n\n## Reference\n\n- Chen Liang A, Cruz Castillo Y, Fermin Madera M, et al. 2026. *Gastro Hep Advances*. doi: `10.1016/j.gastha.2026.101045`；全文：PMC13470191。",
+      "cards": [
+        {
+          "title": "不要只看 SUCRA",
+          "question": "為什麼不能只看 SUCRA 就選一個草本產品？",
+          "answer": "SUCRA 只描述網絡內的相對排序；本篇的 ALT、AST、GGT 網絡異質性高，活性治療間多數 CI 重疊，且配方、劑量與族群差異大。必須同時看 MD、CI、研究偏差與 CINeMA 信心。",
+          "tags": [
+            "MASLD",
+            "草本安全",
+            "網絡統合分析"
+          ]
+        },
+        {
+          "title": "肝酵素不等於纖維化",
+          "question": "這篇對肝酵素下降與肝硬度改善各提供了什麼層級的訊息？",
+          "answer": "肝酵素有多個統計顯著比較，但 ALT、AST、GGT 的 I² 很高，整體信心低或極低。肝硬度只有薑黃素與石榴相較安慰劑顯著，不能宣稱纖維化或長期肝病事件已改善。",
+          "tags": [
+            "MASLD",
+            "替代指標",
+            "臨床解讀"
+          ]
+        },
+        {
+          "title": "補充品問診",
+          "question": "個案說正在吃薑黃素或綠茶萃取物時，營養評估要補問什麼？",
+          "answer": "補問品牌與完整成分、劑量、開始時間、來源、併用藥物與其他補充品，以及黃疸、深色尿、噁心、疲倦或右上腹不適。研究不良事件資料不足，不能因未見一致訊號就保證安全。",
+          "tags": [
+            "補充品安全",
+            "肝損傷",
+            "營養評估"
+          ]
+        },
+        {
+          "title": "不能反推有效劑量",
+          "question": "為什麼本篇不能直接給出一個有效草本劑量？",
+          "answer": "試驗的製劑、劑量、追蹤時間、背景生活型態與研究地區差異很大；NMA 相對比較不代表市售產品等效。需要標準化、純度與劑量研究，加上長期安全性及患者重要結果。",
+          "tags": [
+            "草本產品",
+            "劑量",
+            "證據轉譯"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-31T04:22:00.815Z"
+    },
+    {
+      "id": "doi:10.1016/j.gastha.2026.101045:review",
+      "paperId": "doi:10.1016/j.gastha.2026.101045",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Comparative Efficacy of Herbal Products for Improving Liver Enzymes and Inflammation in Metabolic Dysfunction-Associated Steatotic Liver Disease: A Systematic Review and Network Meta-Analysis.",
+      "authors": "Chen Liang A, Cruz Castillo Y, Fermin Madera M, Sairaj R, Medina J, Moreno Díaz T, Chintamaneni S, Flores Monar G, Sanchez Cruz C, Advani R, Guha S, Calderón-Martinez E",
+      "journal": "Herbs, phytochemicals and supplement safety (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.gastha.2026.101045",
+      "abstract": "Metabolic dysfunction-associated steatotic liver disease (MASLD) and metabolic dysfunction-associated steatohepatitis (MASH) affect adults worldwide and are causes of morbidity. While lifestyle modification remains in first-line therapy, interest has emerged in herbal agents with potential hepatometabolic effects. Evidence synthesis has been limited by heterogeneity in formulations and study quality. We conducted a systematic review and network meta-analysis (NMA) to compare the efficacy of herbal therapies in MASLD/MASH. Following Preferred Reporting Items for Systematic reviews and Meta-Analyses guidelines and International Prospective Register of Systematic Reviews registration (CRD420251157401), PubMed, Web of Science, EMBASE, and Cochrane were searched through September 2025 for randomized controlled trials evaluating herbal therapies or derivatives in adults with MASLD/MASH. The primary outcomes included alanine aminotransferase, aspartate aminotransferase, gamma-glutamyl transpeptidase, and liver stiffness. Random-effects NMAs estimated mean differences (MDs) with 95% confidence intervals, with treatment ranking using surface under the cumulative ranking curve (SUCRA). Risk of bias was assessed using RoB 2.0, and certainty of evidence using Confidence in NMA. Across 131 randomized trials (n = 9191), several herbal interventions significantly improved liver enzymes. In the NMA for alanine aminotransferase, the greatest reductions were seen with artichoke leaf (MD -28.32; P < .01), cinnamon (MD -25.10; P = .01), and piperine (MD -25.39; P = .01), with artichoke leaf achieving the highest SUCRA (0.93). For aspartate aminotransferase, significant reductions were observed for cinnamon (MD -23.50; P < .01), berberine (MD -19.63; P < .01), and bergamot + CyC (MD -17.83; P < .01), with cinnamon being the most effective (SUCRA 0.96). For gamma-glutamyl transpeptidase, significant reductions were observed with cinnamon (MD -12.44; P = .01), garlic + silymarin (MD -10.92; P = .01), and berberine (MD -9.74; P = .01). For liver stiffness, only curcumin (MD -0.76; P = .03) and pomegranate (MD -0.86; P = .04) were statistically significant, despite higher SUCRA rankings favoring silymarin (0.81) and hesperidin + flaxseed (0.79). The secondary outcomes showed variable effects on steatosis and fibrosis indices without consistent metabolic significance. This analysis found that several herbal preparations may improve biochemical markers in MASLD and MASH, though results varied and require cautious interpretation given formulation and regulatory inconsistencies. Future work should focus on the most consistently performing agents: cinnamon, curcumin, silymarin, berberine, artichoke leaf, and Nigella sativa. This should involve standardized production, dose-finding studies, purity verification, and mainly long-term safety evaluation before any clinical integration.",
+      "legalFullTextUrl": "https://doi.org/10.1016/j.gastha.2026.101045",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42597704/",
+      "category": "recommended",
+      "tags": [
+        "design:randomized controlled",
+        "guideline and consensus",
+        "herbs phytochemicals supplements",
+        "human clinical population",
+        "safety and interaction"
+      ],
+      "noteTitle": "MASLD／MASH 草本介入與肝酵素的品質評讀",
+      "content": "---\ntitle: \"草本產品與 MASLD/MASH 的生化指標：系統性回顧與網絡統合分析品質評讀\"\npaper_title: \"Comparative Efficacy of Herbal Products for Improving Liver Enzymes and Inflammation in Metabolic Dysfunction-Associated Steatotic Liver Disease: A Systematic Review and Network Meta-Analysis\"\ndoi: \"10.1016/j.gastha.2026.101045\"\njournal: \"Gastro Hep Advances\"\nyear: 2026\nsource: \"PMC13470191\"\nreview_mode: \"focused-quick\"\n---\n\n# 黃草本產品與 MASLD/MASH 的生化指標：系統性回顧與網絡統合分析品質評讀\n\n## 一句話結論\n\n這篇以成人隨機試驗為基礎的系統性回顧與網絡統合分析，顯示部分草本介入可能改善 ALT、AST、GGT、脂肪變性或肝硬度等替代指標；但配方、劑量、研究地區與結果異質性很大，CINeMA 對大多數比較的信心為低或極低，因此目前不能把排名靠前的肉桂、薑黃素、小檗鹼、朝鮮薊葉或水飛薊轉成常規治療建議。\n\n## 品質快照\n\n- **研究問題**：在成人 MASLD/MASH 中，不同草本產品相較安慰劑、無治療、生活型態介入或標準照護，對肝酵素、肝硬度、脂肪變性與發炎指標的效果如何？\n- **研究設計**：系統性回顧與網絡統合分析；131 個 RCT、9,191 名受試者。註冊於 PROSPERO：CRD420251157401，遵循 PRISMA 2020 與 PRISMA-NMA。\n- **檢索與篩選**：PubMed、Web of Science、EMBASE、Cochrane，檢索至 2025 年 9 月；初始 14,014 篇，去除 3,664 篇後進入題名/摘要篩選，52 篇未取得全文，最終納入 131 篇。\n- **偏差風險**：以 Cochrane RoB 2.0 評估；104 篇低風險、23 篇有疑慮、4 篇高風險。研究多集中於伊朗（66.4%），跨地區可轉移性有限。\n- **統計方法**：DerSimonian–Laird 隨機效應 NMA，以變化量 MD 與 95% CI 呈現，使用 I²、設計－治療交互作用、node-splitting、Egger 檢定與 SUCRA；以 CINeMA 評估網絡證據信心。\n- **確定性**：大多數 ALT、AST、GGT、發炎、脂肪變性與肝硬度比較為低或極低信心；只有少數 ALT、FIB-4 比較達較高信心，HSI 的部分比較為中等信心。\n- **安全性**：不良事件報告稀少且不一致，沒有足夠資料完成安全性 NMA；不能由「未見一致肝毒性訊號」推論產品安全。\n\n## 白話導讀\n\n### 研究在問什麼\n\n作者把成人 MASLD/MASH 患者的多種草本產品放進同一個網絡，試圖回答「哪些產品在短期試驗中最可能改善肝臟檢驗值」。主要結果是 ALT、AST、GGT 與肝硬度；次要結果包括 TNF-α、IL-6、脂肪變性、FLI、FIB-4 與 HSI。這些多數是疾病活動或風險的替代指標，不是死亡、肝硬化失代償、移植、生活品質或長期肝臟事件。\n\n### 主要結果\n\n1. **ALT**：96 個研究、60 個介入。相較安慰劑，朝鮮薊葉 MD −28.32（95% CI −41.37 至 −15.28）、胡椒鹼 −25.39（−43.89 至 −6.89）、肉桂 −25.10（−41.75 至 −8.45）達統計顯著；網絡異質性很高（I²=85.3%）。SUCRA 前段為朝鮮薊葉 0.94、肉桂 0.91、胡椒鹼 0.88，但不同活性治療間多數 CI 重疊。\n2. **AST**：96 個研究、60 個介入。肉桂 MD −23.50（−37.59 至 −9.41）、小檗鹼 −19.63（−30.21 至 −9.04）、佛手柑加 CyC −17.83（−28.13 至 −7.53）較安慰劑低；I²=83.0%。玫瑰（Rosa damascena）反而與 AST 上升相關，MD 33.98（18.05 至 49.91），提醒草本不能以「天然」概括為同質類別。\n3. **GGT**：45 個研究、37 個介入。正文 Results 報告肉桂 MD −25.80（−39.20 至 −12.40）、大蒜加水飛薊 −22.89（−38.32 至 −7.46）、小檗鹼 −20.97（−38.20 至 −3.75）；I²=77.2%。但摘要列出的相應數值為肉桂 −12.44、大蒜加水飛薊 −10.92、小檗鹼 −9.74，與正文不一致；在未核對補充表前，不應把這些數字作為精確處方或效果大小使用。\n4. **肝硬度**：18 個研究、17 個介入。只有薑黃素 MD −0.76（−1.44 至 −0.08）與石榴 −0.86（−1.70 至 −0.02）相較安慰劑達顯著；I²=52.1%。SUCRA 對水飛薊 0.81、橙皮苷加亞麻籽 0.79 的排名，並不等於它們已證明優於安慰劑。\n5. **次要結果**：薑黃素、葫蘆巴籽、黑種草與脂肪變性下降相關；亞麻籽與橙皮苷降低 FLI；小檗鹼與薑黃素降低 FIB-4；薑黃素降低 IL-6 與 HSI。但部分網絡只有少量試驗、沒有閉合迴路，不能檢驗直接與間接證據的一致性，且低偏差／介入至少 3 個月的敏感度分析中，FLI 與 FIB-4 的顯著效果消失。\n\n## 研究方法與可重現性\n\nPICO 為成人 MASLD/MASH、草本單方或衍生產品、與安慰劑/無治療/生活型態或標準照護相比，追蹤肝酵素、非侵入性肝硬度與代謝／發炎指標。兩位評讀者獨立篩選與擷取資料，第三位處理歧異；使用 Rayyan、WebPlotDigitizer、Cochrane Calculator 與 StatsToDo。作者也做低偏差研究及介入至少 3 個月的敏感度分析，並在可行處進行 node-splitting。\n\n方法學優點是把所有介入放入同一網絡，並明確報告異質性、網絡一致性與 CINeMA。然而，NMA 的可比性依賴 transitivity：不同草本的有效成分、製劑、生體可用率、劑量、背景飲食、生活型態建議、MASLD 診斷方式與追蹤時間未必可交換。大多數研究來自單一國家，且很多介入只有單一或小型試驗，這會放大 SUCRA 排名的不穩定性。\n\n## Critical Appraisal\n\n### 效果可以怎麼解讀\n\nMD 的單位跟原始肝酵素或量表一致，但文中各試驗的基線、量測方式與配方不一。統計顯著只代表 CI 未跨過零，不能回答效果是否超過病人重要差異，也不能證明肝纖維化、肝硬化或長期臨床事件因此減少。SUCRA 是網絡內相對排序；當大多數活性治療的 CI 重疊且證據信心低時，排名不應被解讀為治療階梯。\n\n### 異質性與網絡一致性\n\nALT、AST、GGT 的 I² 分別為 85.3%、83.0%、77.2%，代表研究結果差異大。作者的 node-splitting 多數未見重大衝突，但部分比較存在局部不一致，次要結果還有沒有閉合迴路的網絡。即使統計上沒有明顯不一致，也不能消除配方與臨床情境的不可比性。\n\n### 偏差、精確度與外部效度\n\n131 篇中仍有 27 篇不是低風險；許多結果來自小型或單一研究。研究集中於伊朗，對其他族群、飲食型態、產品監管環境與營養照護系統的外推需保守。發表偏差檢定僅在足夠研究數的結果執行，不能證明未測結果不存在選擇性報告。\n\n### 結果報告的警訊\n\n摘要與正文對 GGT 的主要 MD 不一致，表示在引用精確數值前必須回到補充資料或作者資料集核對。文中也同時呈現多種單方、組合與傳統配方；產品標準化、純度、劑量與生體可用率差異，使「肉桂有效」或「薑黃素有效」不能直接轉換為任何市售產品的等效性。\n\n### 安全性不能被療效結果取代\n\n作者指出不良事件報告異質且不足，無法完成安全性 NMA；討論也提醒綠茶萃取物與薑黃相關產品可能有藥物性肝損傷疑慮。這篇研究沒有提供足以支持長期安全、藥物交互作用或特定品牌品質的證據。對已經有肝酵素異常的個案，改善某一酵素更不能取代病因評估。\n\n## GRADE／CINeMA 判讀\n\n本文直接使用 CINeMA，結論是整體以低至極低信心為主；原因包括異質性、精確度不足、網絡不一致及單一研究節點。對本篇最主要的肝酵素結果，證據可概括為：\n\n- **ALT、AST、GGT**：雖有多個比較達統計顯著，但網絡 I² 高、介入與設計多樣，整體不能視為高確定性效果。\n- **肝硬度**：顯著比較少且效果幅度小，研究數較少，對結構性肝病改善的信心低。\n- **FIB-4、HSI**：部分比較的 CINeMA 信心較高或中等，但網絡小、部分缺乏閉合迴路，仍須避免把指數變化當成臨床事件改善。\n\n因此，本次品質判定為：**研究問題與統計框架清楚；結果方向有訊號，但對可直接改變照護的確定性不足，整體證據不支持常規草本治療。**\n\n## Clinical Application：營養照護可以帶走什麼\n\n1. **先做標準 MASLD 照護**：飲食品質、總熱量、體重管理、身體活動與糖尿病／血脂等共病控制仍是背景治療；草本產品不能取代生活型態介入或肝膽科評估。\n2. **把補充品使用納入營養評估**：詢問產品名稱、品牌、成分表、劑量、開始時間、服用目的，以及與處方藥、抗凝血藥、降糖藥或其他補充品的併用；不要只記錄「吃中藥」或「吃保健品」。\n3. **若個案已自行使用，採共同決策與監測**：先確認產品品質與必要性，說明這篇研究主要是短期替代指標，不能保證纖維化或長期預後改善；依醫療團隊安排追蹤 ALT、AST、GGT、症狀與其他必要檢驗，出現黃疸、深色尿、明顯噁心或右上腹不適應立即就醫。\n4. **不要從 NMA 反推劑量**：試驗劑量與製劑差異大，本文沒有建立可供臨床套用的統一劑量或產品等效表。若要研究或使用，應要求批次標準化、純度、污染物檢測與完整不良事件監測。\n5. **研究優先順序**：未來需要跨地區、標準化產品、足夠追蹤、影像或活檢確認的終點、患者重要結果，以及完整肝毒性與藥物交互作用資料。\n\n## 最後判斷\n\n這是一篇與營養實務高度相關、方法透明且資料量大的成人 RCT NMA，但它最可靠的用途是產生「哪些草本值得進一步標準化研究」的假說，而不是選出一個可以常規開立的草本。對臨床個案，最重要的訊息是：改善 ALT/AST/GGT 的短期訊號，不能抵銷配方不一致、低／極低證據信心與補充品肝毒性及交互作用風險。\n\n## 來源與處理紀錄\n\n- **全文來源**：PMC13470191，HTML；DOI 與題名核對通過，授權標示 CC BY-NC-ND。\n- **全文處理**：已將來源 HTML 轉為 UTF-8 純文字並分段覆蓋全文，供本次逐段評讀；來源 SHA-256 與文字 SHA-256 另存於 Worker execution evidence。\n- **原文定位**：Abstract、Methods、Included Studies、Risk of Bias、Meta-Analysis、Subgroup Analysis、CINeMA Assessment、Discussion、Strengths and Limitations、Conclusion。\n- **限制**：本筆為 focused-quick Worker review，未另做完整引用脈絡或作者／期刊背景查核；數值引用以正文 Results 為主，GGT 摘要與正文的矛盾已明確保留。",
+      "cards": [],
+      "completedAt": "2026-08-31T04:17:23.546Z"
+    },
+    {
+      "id": "doi:10.1016/j.ibneur.2026.07.015:digest",
+      "paperId": "doi:10.1016/j.ibneur.2026.07.015",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Mechanistic convergence of Astragalus-derived phytochemicals in Alzheimer's disease: A systematic review.",
+      "authors": "Bhatt Y",
+      "journal": "Herbs, phytochemicals and supplement safety (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.ibneur.2026.07.015",
+      "abstract": "Alzheimer's disease (AD) is a progressive neurodegenerative disorder characterized by cognitive decline, amyloid-β aggregation, tau pathology, oxidative stress, and neuroinflammation. Despite extensive research, effective disease-modifying therapies remain limited, underscoring the need for multi-target therapeutic strategies. Species of the genus Astragalus, widely used in traditional medicine, have gained attention for their neuroprotective potential due to diverse bioactive constituents, including saponins, flavonoids, and polysaccharides. This systematic review synthesizes current preclinical and emerging clinical evidence on the neuroprotective mechanisms of Astragalus species in AD. Literature was systematically analyzed in accordance with PRISMA guidelines. The findings indicate that Astragalus-derived compounds exert multi-target effects through modulation of key signaling pathways, including PI3K/Akt, Nrf2/ARE, MAPK, and NF-κB. These interactions collectively reduce oxidative stress, attenuate neuroinflammation, inhibit neuronal apoptosis, and improve synaptic function. Several studies further suggest roles in mitigating amyloid-β toxicity and tau hyperphosphorylation. Collectively, the evidence supports a systems-level pharmacological model in which Astragalus species mediate convergent neuroprotective effects across interconnected molecular pathways. However, translation to clinical application remains limited by insufficient human studies, variability in species-specific phytochemical profiles, and lack of standardized formulations. Future research should prioritize well-designed clinical trials, comparative species-level analyses, and mechanistic validation to establish the therapeutic potential of Astragalus in AD.",
+      "legalFullTextUrl": "https://doi.org/10.1016/j.ibneur.2026.07.015",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42598552/",
+      "category": "recommended",
+      "tags": [
+        "design:systematic review",
+        "guideline and consensus",
+        "herbs phytochemicals supplements",
+        "human clinical population",
+        "safety and interaction",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "黃耆來源植化素與阿茲海默症機轉的全文內容整理",
+      "content": "---\ntags:\n  - research/digest\n  - herbs\n  - Alzheimer-disease\ncitekey: \"Bhatt2026AstragalusAD\"\ndoi: \"10.1016/j.ibneur.2026.07.015\"\naliases:\n  - \"Mechanistic convergence of Astragalus-derived phytochemicals in Alzheimer's disease\"\n---\n\n> [!summary] 30 秒層\n> 這篇把黃耆來源植化素的阿茲海默症研究整理成「多條路徑匯流到神經保護」的概念圖，證據主體仍是細胞與動物模型。\n> - 共納入 ==30 篇研究==，年代為 2011 至 2024 年。\n> - 常見路徑是 PI3K/Akt、Nrf2/HO-1、MAPK、NF-κB、CREB/BDNF 與 mitochondrial protection。\n> - Astragaloside IV、formononetin、polysaccharides、whole extracts 與多草藥配方是主要分組。\n> - 轉譯瓶頸是 BBB 暴露、製劑標準化、劑量、複方歸因與人體臨床資料不足。\n> - 品質 → 見同篇品質評讀。現有資料不能支持病人自行使用黃耆治療失智症。\n\n**5 分鐘層**：依成分、複方、共同機轉、圖表與臨床邊界掃讀各節的 **要點**，即可重建本文的主要論證。\n\n## 全文地圖\n\n**要點**：作者依研究方法、化合物類型、共同路徑與臨床轉譯障礙組織全文。\n\n- **方法**：PubMed、ScienceDirect 與 ResearchRabbit 引用網絡，建立 30 篇質性資料集。\n- **成分**：Astragaloside IV、formononetin、minor phytochemicals、whole extracts、polysaccharides。\n- **複方**：Danggui Buxue Tang、LongShengZhi Capsule、Jia-Wei-Kai-Xin-San 等。\n- **共同機轉**：抗氧化、抗發炎、抗凋亡、神經滋養、Aβ/tau、膽鹼酯酶與鐵恆定。\n- **研究限制**：成分與劑量異質、BBB 與 pharmacokinetics 不明、人體證據少、複方難歸因。\n\n## 各主題重點\n\n**要點**：不同成分各有偏重路徑，作者認為它們在氧化壓力、發炎與粒線體上出現收斂。\n\n### Astragaloside IV\n\n- 這一類研究最常涉及 PI3K/Akt、Nrf2/HO-1、p38 MAPK、mitochondrial permeability transition pore、microglial activation 與 apoptosis。\n- 動物研究報告記憶、Aβ neurotoxicity、氧化壓力、發炎或鐵負荷相關指標改善。\n- 這些結果是模型層級訊號，沒有提供人類認知或日常功能的共同效果值。\n\n### Formononetin\n\n- 兩項核心研究分別涵蓋 APP/PS1 mice 與 LPS-stimulated BV2 microglia。\n- 作者整理的路徑包含 RAGE、LRP1、ERβ 與 NF-κB，連到 Aβ transport、BBB、microglial inflammation 與細胞保護。\n- 人體劑量、腦內暴露與長期安全資料在本文中不足。\n\n### Minor phytochemicals\n\n- Caffeic acid phenethyl ester 連到 Nrf2/HO-1 與 GSK-3β。\n- Coumestrol 以 antioxidant 與 acetylcholinesterase／butyrylcholinesterase inhibition 為主。\n- Kaempferol 連到 NF-κB、TLR4、MAPK 與 Aβ production。\n- 這些成分的來源未必只限黃耆，從化學存在到臨床產品效果仍有很長距離。\n\n### Whole extracts 與 polysaccharides\n\n- 共同涉及 antioxidant defense、mitochondrial protection、insulin resistance、gliosis、neuroinflammation、synaptic integrity 與 apoptosis。\n- 粗萃取物與多醣分餾常缺 marker-compound 定量，物種、產地、採收、炮製與批次都會改變成分。\n- 未知成分可能帶來協同作用，也使重現與歸因變困難。\n\n### 多草藥配方\n\n- Danggui Buxue Tang 連到 BDNF、NGF、GDNF 與 MAPK/ERK-CREB。\n- LongShengZhi Capsule 連到 amyloid processing、p-tau、NF-κB 與 antioxidant enzymes。\n- Jia-Wei-Kai-Xin-San 連到 TLR4/NF-κB、NLRP3 inflammasome 與 apoptosis。\n- 配方結果只能代表整體產品，無法拆成黃耆本身的效果。\n\n## 機轉白話講解\n\n**要點**：作者的「mechanistic convergence」可理解成多條上游道路，匯入幾個共同的細胞壓力節點。\n\n阿茲海默症模型裡，Aβ、氧化壓力、microglial inflammation、粒線體失衡與 apoptosis 會互相推動。黃耆來源成分在不同實驗中碰到的 target 不同，作者把它們整理成三個主要匯流點。\n\n1. **防禦壓力**：Nrf2/HO-1 與 antioxidant enzymes 協助細胞處理 ROS。\n2. **降低發炎**：NF-κB、TLR4、NLRP3 與 microglial polarization 改變 cytokine 訊號。\n3. **保留細胞與突觸**：PI3K/Akt、CREB/BDNF、mitochondrial stability 與 apoptosis proteins 影響神經元存活。\n\n這張圖說明「研究為何覺得有潛力」，未回答「病人服用後能否改善記憶或生活功能」。細胞與動物的路徑改變屬 mechanism 或 surrogate evidence，人體療效還需要標準化製劑與臨床試驗。\n\n## 重要圖表重述\n\n**要點**：圖表把分散研究整理成成分、路徑、偏差與生理結果四種視圖。\n\n- **Fig. 1**：135 筆初始紀錄，主要資料庫篩選後留下 10 篇，再由引用網絡補 20 篇，最終 30 篇。\n- **Fig. 2 至 Fig. 6**：展示年代、研究類型、成分與地區分布。2017 年後研究增加，近年複方與非特定萃取物比例上升。\n- **Fig. 7 至 Fig. 10**：分別呈現 Astragaloside IV、formononetin、minor phytochemicals、whole extracts 的路徑網絡。\n- **Table 2 與 Fig. 11**：敘述性偏差摘要與動物研究 SYRCLE 圖，指出 randomization、blinding、allocation concealment 常不清楚。\n- **Table 3 與 Fig. 12**：把 therapeutic outcomes 對到 molecular mechanisms，重點是共同節點，未提供臨床效果量。\n\n## 臨床意義 / 怎麼用\n\n**要點**：臨床使用價值在於辨識研究缺口與衛教證據邊界，現階段沒有黃耆失智症處方可由本文推出。\n\n- 病人詢問黃耆時，可說明目前多數資料來自細胞與動物，人體療效與長期安全仍未建立。\n- 產品比較要問物種、萃取、marker compounds、批次、劑量、複方、品質檢測與併用藥物。\n- 研究者應加入 pharmacokinetics、BBB penetration、dose-response、standardized extracts 與病人重要結果。\n- 失智症照護仍以正式診斷、藥物與非藥物治療、營養風險評估、吞嚥、體重、肌肉量、功能與照顧者支持為核心。\n\n## 與既有認知的對照\n\n**要點**：本次 Worker batch 未連接 vault search，沒有把本篇內容回寫其他既有筆記。\n\n- 可與既有草藥安全、失智症營養照護、植物化學與藥草交互作用筆記交叉比對。\n- 本篇更新點是把「單一成分路徑」改看成「多成分共同匯流點」，同時把成分標準化與 BBB 暴露列為主要缺口。\n\n## 概念 / 名詞整理\n\n**要點**：讀懂本文需要分清楚路徑、替代結局、複方與臨床結局。\n\n- **Mechanistic convergence**：不同成分或模型最後影響相似的生物路徑。\n- **Nrf2/HO-1**：細胞抗氧化與壓力反應路徑。\n- **NF-κB**：發炎基因轉錄的重要調節節點。\n- **PI3K/Akt**：細胞存活、代謝與凋亡調節路徑。\n- **BBB penetration**：成分進入中樞神經系統所需的暴露條件。\n- **Surrogate outcome**：Aβ、cytokine、ROS 或動物行為等替代指標，不能自動等同人類日常功能改善。\n- **Attribution problem**：複方有效時，無法判斷效果來自黃耆、其他草藥或成分交互作用。\n\n## 自我測驗\n\n> [!question]- Q1：為什麼多條共同分子路徑仍不足以證明黃耆能治療人類阿茲海默症？\n> 共同路徑多來自細胞與動物模型，屬 mechanism 或 surrogate evidence。人體劑量、腦內暴露、產品標準化、病人重要結局與長期安全仍缺直接資料。\n\n> [!question]- Q2：複方研究對黃耆單方推論有什麼限制？\n> 配方含多種草藥與成分，觀察到的效果可能來自任何成分、協同作用或吸收改變。結果只能歸於整體產品，不能單獨歸因黃耆。\n\n> [!question]- Q3：這篇回顧最重要的製劑標準化項目有哪些？\n> 物種、植物部位、產地、採收與炮製、萃取方法、marker compounds、純度、批次、劑量，以及 LC-MS/MS 或 HPLC 定量。\n\n> [!question]- Q4：臨床人員可怎麼使用這篇文章？\n> 用於解釋前臨床機轉、辨識研究缺口與建立衛教證據邊界。它不能用來開立黃耆失智症處方或建議病人自行補充。\n\n## Reference\n\n- `Bhatt 2026, IBRO Neuroscience Reports`\n- DOI：https://doi.org/10.1016/j.ibneur.2026.07.015\n- 合法全文：https://pmc.ncbi.nlm.nih.gov/articles/PMC13471358/",
+      "cards": [
+        {
+          "title": "黃耆與阿茲海默症前臨床機轉",
+          "question": "為什麼共同分子路徑仍不足以證明黃耆能治療人類阿茲海默症？",
+          "answer": "共同路徑多來自細胞與動物模型，屬 mechanism 或 surrogate evidence。人體劑量、腦內暴露、產品標準化、病人重要結局與長期安全仍缺直接資料。",
+          "tags": [
+            "黃耆",
+            "Alzheimer",
+            "evidence-boundary"
+          ]
+        },
+        {
+          "title": "複方歸因限制",
+          "question": "複方研究對黃耆單方推論有什麼限制？",
+          "answer": "配方含多種草藥與成分，效果可能來自其他成分、協同作用或吸收改變。結果只能歸於整體產品。",
+          "tags": [
+            "黃耆",
+            "複方",
+            "attribution"
+          ]
+        },
+        {
+          "title": "草藥製劑標準化",
+          "question": "評估黃耆研究時，製劑標準化至少要看哪些資料？",
+          "answer": "物種、植物部位、產地、炮製、萃取方法、marker compounds、純度、批次、劑量及分析定量。",
+          "tags": [
+            "黃耆",
+            "標準化",
+            "品質"
+          ]
+        },
+        {
+          "title": "臨床使用邊界",
+          "question": "臨床人員可怎麼使用這篇回顧？",
+          "answer": "用於解釋前臨床機轉、辨識研究缺口與衛教證據邊界，不能拿來開立黃耆失智症處方。",
+          "tags": [
+            "黃耆",
+            "臨床應用",
+            "失智症"
+          ]
+        }
+      ],
+      "completedAt": "2026-08-31T04:07:20.393Z"
+    },
+    {
+      "id": "doi:10.1016/j.ibneur.2026.07.015:review",
+      "paperId": "doi:10.1016/j.ibneur.2026.07.015",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Mechanistic convergence of Astragalus-derived phytochemicals in Alzheimer's disease: A systematic review.",
+      "authors": "Bhatt Y",
+      "journal": "Herbs, phytochemicals and supplement safety (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.ibneur.2026.07.015",
+      "abstract": "Alzheimer's disease (AD) is a progressive neurodegenerative disorder characterized by cognitive decline, amyloid-β aggregation, tau pathology, oxidative stress, and neuroinflammation. Despite extensive research, effective disease-modifying therapies remain limited, underscoring the need for multi-target therapeutic strategies. Species of the genus Astragalus, widely used in traditional medicine, have gained attention for their neuroprotective potential due to diverse bioactive constituents, including saponins, flavonoids, and polysaccharides. This systematic review synthesizes current preclinical and emerging clinical evidence on the neuroprotective mechanisms of Astragalus species in AD. Literature was systematically analyzed in accordance with PRISMA guidelines. The findings indicate that Astragalus-derived compounds exert multi-target effects through modulation of key signaling pathways, including PI3K/Akt, Nrf2/ARE, MAPK, and NF-κB. These interactions collectively reduce oxidative stress, attenuate neuroinflammation, inhibit neuronal apoptosis, and improve synaptic function. Several studies further suggest roles in mitigating amyloid-β toxicity and tau hyperphosphorylation. Collectively, the evidence supports a systems-level pharmacological model in which Astragalus species mediate convergent neuroprotective effects across interconnected molecular pathways. However, translation to clinical application remains limited by insufficient human studies, variability in species-specific phytochemical profiles, and lack of standardized formulations. Future research should prioritize well-designed clinical trials, comparative species-level analyses, and mechanistic validation to establish the therapeutic potential of Astragalus in AD.",
+      "legalFullTextUrl": "https://doi.org/10.1016/j.ibneur.2026.07.015",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42598552/",
+      "category": "recommended",
+      "tags": [
+        "design:systematic review",
+        "guideline and consensus",
+        "herbs phytochemicals supplements",
+        "human clinical population",
+        "safety and interaction",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "黃耆來源植化素與阿茲海默症前臨床機轉的品質評讀",
+      "content": "---\ntags:\n  - source/journal\n  - med/neurology\ncitekey: \"Bhatt2026AstragalusAD\"\ndoi: \"10.1016/j.ibneur.2026.07.015\"\njournal: \"IBRO Neuroscience Reports\"\nyear: 2026\nauthors: \"Yashvi Bhatt\"\nstudy_type: \"systematic review of predominantly preclinical evidence\"\npmid: \"42598552\"\nreview_depth: \"quick\"\n---\n\n> [!info] 品質快照\n> **設計**：系統性回顧，30 篇研究，以細胞、動物、network pharmacology 與少量人體資料為主。\n> **RoB（AMSTAR-2 重點領域）**：高疑慮。搜尋資料庫窄、限英文與可取得全文、未見雙人獨立篩選或擷取、未對每篇研究做一致的正式偏差評估。\n> **GRADE**：Very low，針對「黃耆來源植化素改善阿茲海默症病人重要結果」的臨床命題。\n> **Registration**：未預註冊。作者說明非臨床機轉型回顧不符合 PROSPERO 收錄條件。\n> **一句話 verdict**：這篇可用來整理前臨床機轉與研究缺口，現有資料無法支持黃耆單方、複方或特定成分治療人類阿茲海默症。\n\n# Key Points\n\n## Summary\n\n- 回顧納入 ==30 篇、2011 至 2024 年==的研究，最常見訊號落在 oxidative stress、neuroinflammation、apoptosis、amyloid processing 與 mitochondrial protection。\n- Astragaloside IV、formononetin、polysaccharides 與多種複方反覆涉及 PI3K/Akt、Nrf2/HO-1、MAPK、NF-κB、CREB/BDNF 等路徑。\n- 臨床轉譯受三個核心問題限制：證據大多來自細胞與動物、製劑與劑量缺少標準化、複方資料無法分離黃耆本身的效果。\n- 一篇被納入的 cycloastragenol 相關文獻在 PMC 參考文獻列表標成 retracted，回顧正文沒有把這項完整性問題納入敏感度判讀。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：作者把黃耆相關成分在阿茲海默症模型中的機轉整理成一張網，顯示多個成分會碰到相似的抗氧化、抗發炎與細胞存活路徑。\n> - **為什麼做**：既有研究散落在不同成分、細胞模型、動物模型與複方，臨床人員很難判斷共同機轉與研究缺口。\n> - **主體**：30 篇研究涵蓋 Astragaloside IV、formononetin、minor phytochemicals、whole extracts 與多草藥配方。作者依成分與路徑分類，未做 pooled effect。搜尋只用 PubMed、ScienceDirect，再以 ResearchRabbit 做引用網絡補充。\n> - **所以呢**：目前最合理的定位是前臨床候選機轉。從細胞或動物替代指標跨到病人的認知、日常功能、住院、生活品質或安全結果，仍缺直接證據。\n\n## Clinical Application\n\n- **臨床定位**：不能用於推薦失智症患者自行服用黃耆、astragaloside IV、formononetin 或含黃耆複方，也不能取代標準失智症診療。\n- **營養與草藥諮詢**：病人若已使用黃耆產品，需記錄產品名稱、物種、萃取方式、劑量、批次、複方成分、用藥與不良反應。製劑差異大，不能把單一細胞濃度換算成日常飲用量。\n- **安全監測**：本文並未提供足以建立藥草交互作用、肝腎安全、出血、血糖或血壓風險的臨床資料。多重用藥、高齡、肝腎功能異常者需更審慎。\n- **研究應用**：後續人體試驗應固定物種與 marker compounds，提供 LC-MS/MS 或 HPLC 定量、藥物動力學、BBB 暴露、劑量反應與病人重要結局。\n- **台灣適用性**：這份機轉整合可作為衛教中的證據邊界範例，不能直接轉成台灣失智症照護處方。\n\n# Paper Details\n\n## Methods\n\n- 搜尋日期為 2025-10-17，資料庫為 PubMed 與 ScienceDirect，查詢式只含 Astragalus 與 Alzheimer's 的題名或摘要詞。\n- 初始 135 筆，英文且 free full text 或 OA 篩選後剩 42 筆，經摘要與全文篩選留下 10 篇。ResearchRabbit 的 similar work、citations 與 references 補入 20 篇，形成 30 篇質性合成。\n- 納入細胞、動物、少量臨床、pharmacokinetic 與 network pharmacology 研究，排除其他回顧與統合分析。\n- 作者未做 meta-analysis，理由是模型、成分、劑量與結局異質性高。動物研究另提供 SYRCLE 圖，其他設計採敘述偏差摘要。\n\n## Critical Appraisal\n\n### AMSTAR-2 重點領域\n\n| Domain | 判定 | 理由 |\n|---|---|---|\n| 預先計畫 | 高疑慮 | 無 PROSPERO 或其他可核對的預先計畫，全文完成後才說明不符合 PROSPERO。 |\n| 搜尋充分性 | 高疑慮 | 只查兩個資料庫，查詢式非常窄，限英文與可取得全文，ResearchRabbit 補充採 thematic saturation。 |\n| 研究選取與資料擷取 | 高疑慮 | 全文未清楚報告雙人獨立流程、歧見處理與擷取一致性。 |\n| 排除研究清單 | 高疑慮 | 有流程數字，未提供逐篇全文排除理由清單。 |\n| 納入研究偏差 | 高疑慮 | 動物研究有 SYRCLE 圖，其他設計沒有一致、逐研究、可追溯的正式工具。 |\n| 證據合成 | 中度疑慮 | 不做統合分析是合理選擇，機轉收斂仍可能受重複引用、研究品質與選擇性報告影響。 |\n| 發表偏差 | 高疑慮 | 沒有正式檢查，且全文可取得條件本身會造成 selection bias。 |\n\n### PRISMA 2020 報告缺口\n\n- 有標題、摘要、研究理由、納排標準、資料來源、流程圖、研究特徵、限制、經費與利益衝突。\n- 未清楚提供每個資料庫可重現的完整搜尋策略，也未充分描述自動工具、雙人篩選、雙人擷取、資料項目定義、遺漏資料處理與 certainty assessment。\n- 引用網絡的「主題飽和」停止規則缺少可重現門檻。全文排除研究與理由未逐篇列示。\n- 作者提到 supplementary checklist，主文仍缺少能讓第三方重建整個篩選與擷取流程的細節。\n\n### 統計、spin 與推論\n\n- 沒有 pooled effect、95% CI 或人體主要結局的共同估計，因此 MCID、精確度與臨床效果量無法評估。\n- 摘要把證據描述成支持 systems-level pharmacological model，同時承認人體研究不足。這個描述適用於機轉假說，不能升格為人體療效。\n- `argdown_lint.py` 觸發 `surrogate_to_hard_endpoint`。動物認知、Aβ、發炎與細胞路徑屬替代或機轉前提，不能直接支撐人類治療因果主張。\n- 單一作者完成全部工作，並聲明使用 ChatGPT 5.2 做語言修整。作者承擔內容責任，單人流程仍增加篩選、擷取與判讀未經獨立覆核的風險。\n- 研究無特定經費，作者聲明無利益衝突。\n\n### GRADE\n\n- deterministic `grade_judge.py` 結果為 **Very low**。\n- 降級理由為 risk of bias serious、inconsistency serious、indirectness very serious、imprecision serious、publication bias serious。\n- 這個等級針對人類臨床療效命題。它不否定各路徑在特定實驗模型中的生物學訊號。\n\n## Key Findings\n\n- Astragaloside IV 相關研究最多，常見路徑為 PI3K/Akt、Nrf2/HO-1、MAPK、NF-κB、microglial polarization、mitochondrial permeability 與 apoptosis。\n- Formononetin 的兩項研究涉及 RAGE、LRP1、ERβ 與 NF-κB，涵蓋 amyloid transport 與 microglial inflammation。\n- Whole extracts、polysaccharides 與 TCM formulations 呈現廣泛路徑訊號，卻伴隨成分歸因與批次標準化問題。\n- 文章自己指出 bioavailability、BBB penetration、劑量、製劑組成、物種與人類 AD 異質性是轉譯障礙。\n\n## 研究限制\n\n- 搜尋窄、語言與 OA 限制、引用網絡納入方式難以重現。\n- 細胞、動物、in silico、複方與少量人體研究混合，不能用共同的臨床效果語言解讀。\n- 多篇研究缺少隨機、盲法、樣本數與標準化成分資訊。\n- 複方可能有協同作用，也會讓黃耆的獨立貢獻無法識別。\n- 參考文獻中至少一篇標示 retracted，回顧未報告排除後的敏感度變化。\n\n# Resource\n\n## Source\n\n- DOI：https://doi.org/10.1016/j.ibneur.2026.07.015\n- PubMed：https://pubmed.ncbi.nlm.nih.gov/42598552/\n- 合法全文：https://pmc.ncbi.nlm.nih.gov/articles/PMC13471358/\n- 本機全文來源：PMC CC BY 完整 HTML，65,688 個可讀字元，DOI 與題名均通過 identity gate。",
+      "cards": [],
+      "completedAt": "2026-08-31T04:04:10.990Z"
+    },
     {
       "id": "doi:10.3389/fmed.2026.1910826:digest",
       "paperId": "doi:10.3389/fmed.2026.1910826",
