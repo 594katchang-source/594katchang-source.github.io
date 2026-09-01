@@ -4,7 +4,7 @@ const BRANCH='main';
 const POSTS_PATH='blog/posts.json';
 const API=`https://api.github.com/repos/${OWNER}/${REPO}/contents/`;
 
-const form=document.querySelector('#editor'),statusBox=document.querySelector('#status'),previewBox=document.querySelector('#preview'),dateInput=document.querySelector('#date'),titleInput=document.querySelector('#title'),slugInput=document.querySelector('#slug'),tokenInput=document.querySelector('#token'),postSelect=document.querySelector('#postSelect'),modeLabel=document.querySelector('#modeLabel'),currentImage=document.querySelector('#currentImage'),keywordsInput=document.querySelector('#keywords'),showOnHomeInput=document.querySelector('#showOnHome'),deletePostBtn=document.querySelector('#deletePostBtn');
+const form=document.querySelector('#editor'),statusBox=document.querySelector('#status'),previewBox=document.querySelector('#preview'),dateInput=document.querySelector('#date'),titleInput=document.querySelector('#title'),slugInput=document.querySelector('#slug'),categoryInput=document.querySelector('#category'),tokenInput=document.querySelector('#token'),postSelect=document.querySelector('#postSelect'),modeLabel=document.querySelector('#modeLabel'),currentImage=document.querySelector('#currentImage'),keywordsInput=document.querySelector('#keywords'),showOnHomeInput=document.querySelector('#showOnHome'),deletePostBtn=document.querySelector('#deletePostBtn');
 let loadedPosts=[],postsSha='',editingId='';
 dateInput.valueAsDate=new Date();
 
@@ -40,7 +40,7 @@ form.addEventListener('submit',async event=>{
       await githubPut(imagePath,data.token,{message:`Upload blog image ${data.slug}`,content:imageBase64,sha:oldImage?.sha,branch:BRANCH});
       image=imagePath.replace(/^blog\//,'');
     }
-    const post={id:data.slug,title:data.title,date:data.date,image,excerpt:data.excerpt,keywords:data.keywords,showOnHome:data.showOnHome,body:normalizeBody(data.body)};
+    const post={id:data.slug,title:data.title,date:data.date,category:data.category,image,excerpt:data.excerpt,keywords:data.keywords,showOnHome:data.showOnHome,body:normalizeBody(data.body)};
     if(editingId&&existingIndex>=0){posts[existingIndex]=post}else{posts.unshift(post)}
     setStatus('更新文章列表...');
     const result=await githubPut(POSTS_PATH,data.token,{message:editingId?`Update blog post ${data.slug}`:`Add blog post ${data.slug}`,content:encodeBase64Utf8(JSON.stringify({posts},null,2)+'\n'),sha:postsSha,branch:BRANCH});
@@ -86,6 +86,7 @@ function fillPost(id){
   deletePostBtn.disabled=false;
   titleInput.value=post.title||'';
   dateInput.value=post.date||'';
+  categoryInput.value=post.category||'';
   slugInput.value=post.id||'';
   slugInput.dataset.touched='1';
   document.querySelector('#excerpt').value=post.excerpt||'';
@@ -143,13 +144,13 @@ async function deleteCurrentPost(){
 
 function readForm(){
   const existing=editingId?loadedPosts.find(post=>post.id===editingId):null;
-  return{token:tokenInput.value.trim(),title:titleInput.value.trim(),date:dateInput.value,slug:slugify(slugInput.value),excerpt:document.querySelector('#excerpt').value.trim(),keywords:keywordsInput.value.split(/[,，]/).map(s=>s.trim()).filter(Boolean).slice(0,5),showOnHome:showOnHomeInput.checked,body:document.querySelector('#body').value.trim(),imageFile:document.querySelector('#image').files[0],existingImage:existing?.image||''};
+  return{token:tokenInput.value.trim(),title:titleInput.value.trim(),date:dateInput.value,category:categoryInput.value.trim(),slug:slugify(slugInput.value),excerpt:document.querySelector('#excerpt').value.trim(),keywords:keywordsInput.value.split(/[,，]/).map(s=>s.trim()).filter(Boolean).slice(0,5),showOnHome:showOnHomeInput.checked,body:document.querySelector('#body').value.trim(),imageFile:document.querySelector('#image').files[0],existingImage:existing?.image||''};
 }
 
 function renderPreview(){
   const data=readForm();
   const html=normalizeBody(data.body);
-  previewBox.innerHTML=`<article class="post-card"><div><div class="post-meta">${escapeHtml(data.date)}${data.showOnHome?'｜首頁精選':''}</div><h3>${escapeHtml(data.title||'未命名文章')}</h3><p>${escapeHtml(data.excerpt||'摘要將由內文自動擷取')}</p><div class="keywords">${data.keywords.map(k=>`<span>${escapeHtml(k)}</span>`).join('')}</div><div class="article-body">${html}</div></div></article>`;
+  previewBox.innerHTML=`<article class="post-card"><div><div class="post-meta">${escapeHtml(data.date)}${data.category?`｜${escapeHtml(data.category)}`:''}${data.showOnHome?'｜首頁精選':''}</div><h3>${escapeHtml(data.title||'未命名文章')}</h3><p>${escapeHtml(data.excerpt||'摘要將由內文自動擷取')}</p><div class="keywords">${data.keywords.map(k=>`<span>${escapeHtml(k)}</span>`).join('')}</div><div class="article-body">${html}</div></div></article>`;
 }
 
 function normalizeBody(body){
