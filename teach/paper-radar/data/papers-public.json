@@ -1,7 +1,1125 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-03T03:54:05.655Z",
+  "generatedAt": "2026-09-03T13:04:24.001Z",
   "papers": [
+    {
+      "id": "doi:10.3389/fimmu.2026.1785073:digest",
+      "paperId": "doi:10.3389/fimmu.2026.1785073",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Exercise interventions remodel the aging microenvironment to improve prognosis in older patients with cancer.",
+      "authors": "Fang W, Wang Y, Yang Z, Zheng H, Wu Y, Chen R, Wang R, Tang H, Tang M, Ye X",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fimmu.2026.1785073",
+      "abstract": "Cancer in older adults has become a significant public health challenge, with increasing incidence and limited efficacy of conventional treatments due to aging-related biological changes, such as chronic inflammation, immune decline, metabolic dysfunction, and cellular senescence. These alterations create a pro-tumor environment, weakening antitumor capacity and reducing treatment sensitivity. Exercise medicine has emerged as a promising systemic intervention, regulating multiple physiological systems, including metabolism, immunity, skeletal muscle, and inflammation. Through these effects, exercise reshapes the aging-driven tumor-susceptible environment, potentially improving treatment tolerability and clinical outcomes. This review explores how exercise alleviates aging-associated phenotypes like metabolic decline, chronic inflammation, immune dysfunction, and sarcopenia, enhancing tumor suppression and boosting the efficacy of chemotherapy, radiotherapy, and immunotherapy. It also discusses strategies for precision exercise interventions, such as individualized prescriptions based on aging biomarkers, comprehensive risk assessments, safety management, multidisciplinary collaboration, and digital monitoring technologies. This review highlights the importance of integrating exercise into geriatric oncology care and outlines future research directions to improve the clinical management of cancer in older adults.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1785073/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42683260/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "human clinical population",
+        "precision nutrition",
+        "safety and interaction"
+      ],
+      "noteTitle": "高齡癌症運動介入與腫瘤微環境重塑的全文內容整理",
+      "content": "# 高齡癌症運動介入與腫瘤微環境重塑的全文內容整理\n\n> [!summary] 30 秒層：一句話 + 重點\n> 這篇 Frontiers in Immunology Review 認為，運動可能同時改善高齡癌症患者的代謝、慢性發炎、免疫老化、肌少症、疲勞與治療耐受，也可能透過灌流、缺氧、細胞外基質與免疫細胞影響腫瘤微環境；但腫瘤協同和存活改善仍主要是機轉／前臨床或間接證據，運動應是安全監測下的支持性復健，不是抗癌治療替代品。\n> - 老化宿主的重點問題：inflammaging、免疫老化、胰島素阻抗、粒線體功能下降、脂肪增加、肌肉減少與細胞衰老。\n> - 運動的較近端目標：肌力、功能、心肺、疲勞、情緒、生活品質、營養代謝與治療耐受。\n> - 腫瘤微環境假說：改善灌流／缺氧、免疫細胞活性、SASP、ECM 與血管功能，可能讓治療更容易發揮，但尚未確立臨床效果。\n> - 高齡、骨轉移、血球低下、感染、心肺病、認知障礙或惡病質者都需要個別化處方與醫療團隊監督。\n\n## 5 分鐘層：全文地圖\n\n文章先說明高齡癌症患者常同時有多重共病、器官儲備下降和治療毒性，接著以老化的代謝、發炎、免疫、肌肉和細胞衰老建立宿主脆弱性的背景。第二部分整理運動如何改善代謝／粒線體、inflammaging、免疫老化與肌少症。第三部分把這些全身變化連到腫瘤微環境的缺氧、血管、細胞外基質和 SASP。第四部分討論運動可能如何支持化療、放療、免疫治療耐受及減少多系統毒性。第五部分提出依 biomarker、功能、心肺與安全風險分層的處方、穿戴裝置、遠距監測和多專業合作。最後指出最佳劑量、時機、治療協同、真實世界依從性和長期存活仍需研究，不能由機轉圖直接跳到「運動改善預後」。\n\n## 高齡宿主與癌症治療挑戰\n\n**要點**：高齡不是單一風險，真正影響治療的是生理儲備、共病、功能、營養和免疫等多因素組合。\n\n作者把高齡相關的 inflammaging、IL-6／TNF-α、免疫細胞組成改變、胰島素阻抗、脂質代謝失衡、粒線體功能下降、脂肪增加、肌肉減少和 senescence-associated secretory phenotype（SASP）放在同一個框架。這些變化可能增加癌症風險、降低免疫監視、增加治療副作用，或使患者在化療、放療、手術和免疫治療中較難維持功能。文章同時承認老年人常被排除於試驗，專門針對高齡癌症的證據不足，因此不應把一般成人的固定劑量或運動處方直接套用。\n\n## 運動可能改善的四個生理面向\n\n1. **代謝與粒線體**：有氧運動可能透過 AMPK–PGC-1α、粒線體生成、胰島素敏感性和代謝彈性改善能量使用；阻力運動較強調肌原纖維蛋白合成與 mTORC1，但兩者有重疊。這些變化可能協助處理疲勞、體重下降和代謝壓力，不能直接等於腫瘤縮小。\n2. **慢性發炎**：規律活動、減少內臟脂肪、肌肉分泌 myokines、腸道菌相和組織灌流改變，可能降低長期發炎訊號；運動時短暫升高的 muscle-derived IL-6 和慢性 inflammaging 的 IL-6 不應混為一談，意義取決於時間與情境。\n3. **免疫老化**：高齡常有 naïve T 細胞減少、記憶 T 細胞比例變化、NK 細胞活性下降、Treg／MDSC 增加。運動可能提升外周 NK／T 細胞活性、減少免疫抑制或改善腫瘤內細胞浸潤；但部分證據來自健康老人、動物或轉譯研究。\n4. **肌少症與惡病質**：肌肉是生理儲備與代謝器官，肌少症可能和毒性、功能下降、治療中斷有關。循序阻力訓練可作為肌少症管理核心並搭配營養支持；癌症惡病質則是腫瘤驅動的高分解代謝，單靠運動不足，需多模式處理。\n\n## 腫瘤微環境與治療協同假說\n\n老化腫瘤微環境可能有 senescent cell 與 SASP 累積、ECM 硬化／纖維化、血管退化、低灌流、缺氧、酸化與免疫抑制。文章認為運動可能透過心肺與循環改善腫瘤組織灌流與氧合，並在某些動物模型增加 CD8+ T 細胞浸潤；機械負荷也可能影響膠原重整、ECM turnover 和免疫細胞通路。這些機轉有生物學合理性，但直接腫瘤特異性路徑仍不完整，且人類研究的訊號可能很小、癌別依賴或只出現在特定 grade。\n\n在化療／放療方面，作者提出較好的心肺、肌肉、肝腎功能和組織修復可能有助於疲勞、毒性、皮膚炎、黏膜炎、治療延遲或功能恢復；在免疫治療方面，運動可能影響 CD8+ T、NK、Treg、MDSC、CXCL9／CXCL10、CCL22 和 HIF-1α 等路徑。可是「降低疲勞或改善功能」是近端支持性 outcome，「提升免疫檢查點抑制劑反應、無進展存活或總存活」是更遠的主張，不能混成一件事。文中也提到術前乳癌運動 RCT 的腫瘤缺氧轉錄訊號只呈現邊緣或較弱的整體比較，正好說明機轉仍在早期。\n\n## 精準處方與安全\n\n作者建議處方依發炎／免疫、血糖／血脂、肌肉／脂肪、心率、血壓、主觀疲勞、功能與治療期別調整。術前 prehabilitation 是迅速增加生理儲備；化療期間要配合週期、疲勞和血球；緩解期則偏向長期功能、代謝和生活品質。多專業團隊包括腫瘤科、運動復健、營養師、心理、護理與社工。\n\n文中將嚴重化療相關血小板低下（<25,000/mL）、不穩定且有骨折風險的骨轉移、嚴重有症狀貧血（Hb <8 g/dL）、發燒的急性感染列為需要完全暫停訓練／測試的例子，也要求評估跌倒、骨質、心肺事件、胸悶和心律不整。這些數字和條件須以正式指引、癌症治療和醫療團隊確認，不能只靠本篇 Review 自行決定。出現胸悶、暈眩、明顯呼吸困難或急性惡化時應立即停止並升級處理。\n\n穿戴裝置可記錄心率、步數、步態、平衡、肌電或血氧，遠距平台可提供示範、回饋、提醒和依從性追蹤；但裝置資料是監測工具，不是腫瘤療效證據，也要處理隱私、網路和數位落差。\n\n## 白話理解\n\n這篇文章不是說「運動可以治癌」，而是說高齡癌症患者的身體狀態會影響能否承受治療，運動可能像一種全身性的支持工具，幫助肌力、心肺、疲勞、情緒和功能，也可能透過血流和免疫路徑影響腫瘤環境。可是腫瘤機轉多來自動物或實驗室，真正能不能提高化療或免疫治療成功率，還要靠直接的人體試驗。臨床上應先確認血球、感染、骨轉移、心肺、平衡、營養和治療期別，再由團隊安排循序且可調整的運動；不應因這篇 Review 停藥或延後抗癌治療。\n\n## 實務帶走\n\n1. 先做高齡整合評估：功能、肌力、平衡、跌倒、營養、體重、症狀、共病、心肺、骨轉移、血球、感染、認知和心理。\n2. 把有氧和阻力運動定位為支持性復健；目標可先放在功能、肌力、疲勞、生活品質和治療耐受，不先承諾腫瘤縮小或存活。\n3. 低肌力／肌少症可在安全篩選後循序加入阻力訓練；明顯惡病質、攝取不足或急性病情要同步做營養和醫療處理。\n4. 依治療週期、疲勞、血球、心率、血壓和症狀動態調整劑量；出現紅旗症狀要停止並依團隊流程處理。\n5. 由腫瘤科、復健、營養、護理、心理與社工共同決定處方和升級規則；穿戴裝置只作為回饋與安全監測。\n6. 對骨轉移、嚴重血球低下、發燒感染、嚴重貧血或心肺不穩定者，不採用一套固定網路運動菜單，先取得醫療團隊許可。\n\n## 自我測驗\n\n> [!question]- Q1：這篇 Review 對運動最穩妥的臨床定位是什麼？\n> 是經過風險評估與動態監測的支持性復健，可能改善功能、肌力、疲勞、生活品質與治療耐受；不是單獨抗癌治療，也不能取代化療、放療或免疫治療。\n\n> [!question]- Q2：為什麼腫瘤內 CD8+ T 細胞增加不能直接等於存活改善？\n> 因為它是機轉或替代指標，部分證據來自動物或轉譯研究；癌別、治療、免疫狀態和運動劑量不同，還需要人類試驗把它連到治療反應、無進展存活或總存活。\n\n> [!question]- Q3：肌少症和癌症惡病質在運動處理上有什麼差異？\n> 年齡相關肌少症通常較能對阻力負荷反應；癌症惡病質是腫瘤驅動的高分解代謝，單靠運動不夠，需要營養、症狀和疾病處理的多模式支持。\n\n> [!question]- Q4：開始高齡癌症運動介入前要先確認什麼？\n> 要確認功能、跌倒、骨轉移、血球、感染、心肺、認知、心理、營養與治療期別，設定監測和中止規則；胸悶、暈眩、明顯呼吸困難、發燒或急性惡化時停止並求助。\n\n## Reference 與全文證據\n\n`Fang W, Wang Y, Yang Z, Zheng H, Wu Y, Chen R, Wang R, Tang H, Tang M, Ye X. Exercise interventions remodel the aging microenvironment to improve prognosis in older patients with cancer. Front Immunol. 2026;17:1785073. doi:10.3389/fimmu.2026.1785073.`\n\n完整來源為 Worker verified open-access PDF，20 頁，source SHA-256 `4068b77fa5bb54181518ff0c3c5b188c6d5d30be4231e2482aeb4a9b68bba648`，全文文字 SHA-256 `e7273eaf9fd960539955fb183e50ea0cff037df6285f08d1f8ca71c801a67110`；全文包含摘要、機轉、腫瘤微環境、治療協同、安全門檻、精準處方、數位監測、多專業合作、未來展望與參考文獻。本次為 Worker batch 的 `paper-digest`，另有獨立 `paper-review`；已逐頁讀取全文，保留「支持性功能益處」與「腫瘤／存活效果」的證據差距。",
+      "cards": [
+        {
+          "title": "支持性復健的定位",
+          "question": "這篇 Review 對運動最穩妥的臨床定位是什麼？",
+          "answer": "是經過風險評估與動態監測的支持性復健，可能改善功能、肌力、疲勞、生活品質與治療耐受；不是單獨抗癌治療，也不能取代化療、放療或免疫治療。",
+          "tags": [
+            "高齡癌症",
+            "運動復健",
+            "證據界線"
+          ]
+        },
+        {
+          "title": "機轉不等於存活",
+          "question": "為什麼腫瘤內 CD8+ T 細胞增加不能直接等於存活改善？",
+          "answer": "因為它是機轉或替代指標，部分證據來自動物或轉譯研究；癌別、治療、免疫狀態和運動劑量不同，還需要人類試驗連到治療反應、無進展存活或總存活。",
+          "tags": [
+            "CD8 T細胞",
+            "腫瘤微環境",
+            "機轉研究"
+          ]
+        },
+        {
+          "title": "肌少症與惡病質",
+          "question": "肌少症和癌症惡病質在運動處理上有什麼差異？",
+          "answer": "年齡相關肌少症通常較能對阻力負荷反應；癌症惡病質是腫瘤驅動的高分解代謝，單靠運動不夠，需要營養、症狀和疾病處理的多模式支持。",
+          "tags": [
+            "肌少症",
+            "癌症惡病質",
+            "營養支持"
+          ]
+        },
+        {
+          "title": "開始前的安全確認",
+          "question": "開始高齡癌症運動介入前要先確認什麼？",
+          "answer": "確認功能、跌倒、骨轉移、血球、感染、心肺、認知、心理、營養與治療期別，設定監測和中止規則；胸悶、暈眩、明顯呼吸困難、發燒或急性惡化時停止並求助。",
+          "tags": [
+            "運動安全",
+            "骨轉移",
+            "高齡評估"
+          ]
+        }
+      ],
+      "completedAt": "2026-09-03T13:02:02.290Z"
+    },
+    {
+      "id": "doi:10.3389/fimmu.2026.1785073:review",
+      "paperId": "doi:10.3389/fimmu.2026.1785073",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Exercise interventions remodel the aging microenvironment to improve prognosis in older patients with cancer.",
+      "authors": "Fang W, Wang Y, Yang Z, Zheng H, Wu Y, Chen R, Wang R, Tang H, Tang M, Ye X",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fimmu.2026.1785073",
+      "abstract": "Cancer in older adults has become a significant public health challenge, with increasing incidence and limited efficacy of conventional treatments due to aging-related biological changes, such as chronic inflammation, immune decline, metabolic dysfunction, and cellular senescence. These alterations create a pro-tumor environment, weakening antitumor capacity and reducing treatment sensitivity. Exercise medicine has emerged as a promising systemic intervention, regulating multiple physiological systems, including metabolism, immunity, skeletal muscle, and inflammation. Through these effects, exercise reshapes the aging-driven tumor-susceptible environment, potentially improving treatment tolerability and clinical outcomes. This review explores how exercise alleviates aging-associated phenotypes like metabolic decline, chronic inflammation, immune dysfunction, and sarcopenia, enhancing tumor suppression and boosting the efficacy of chemotherapy, radiotherapy, and immunotherapy. It also discusses strategies for precision exercise interventions, such as individualized prescriptions based on aging biomarkers, comprehensive risk assessments, safety management, multidisciplinary collaboration, and digital monitoring technologies. This review highlights the importance of integrating exercise into geriatric oncology care and outlines future research directions to improve the clinical management of cancer in older adults.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1785073/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42683260/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "human clinical population",
+        "precision nutrition",
+        "safety and interaction"
+      ],
+      "noteTitle": "高齡癌症運動介入與腫瘤微環境重塑的品質評讀",
+      "content": "# 高齡癌症運動介入與腫瘤微環境重塑的品質評讀\n\n## 研究問題與研究設計\n\n本文是 Frontiers in Immunology 的敘述性 Review，探討老化造成的代謝失衡、慢性發炎、免疫老化、肌少症與腫瘤微環境改變，是否能透過運動介入改善高齡癌症患者的治療耐受與腫瘤控制。文章也提出精準運動處方、風險評估、數位監測和多專業合作的臨床路徑。\n\n- 文章不是單一臨床試驗，也不是有預先註冊流程的系統性回顧；它整合動物研究、細胞／機轉研究、健康或老年人運動研究、癌症復健研究、部分臨床試驗與指引，建立「運動—老化宿主—腫瘤微環境」的理論模型。\n- 主要生物學面向包括代謝與粒線體、inflammaging、immunosenescence、骨骼肌／肌少症、腫瘤缺氧與灌流、細胞衰老與 SASP、細胞外基質，以及化療、放療和免疫治療的耐受與可能協同。\n- 臨床執行部分建議依發炎／免疫指標、血糖／血脂、肌肉與脂肪量、心肺功能、跌倒和骨轉移風險個別化；也提出穿戴裝置、遠距管理與腫瘤科、復健、營養、心理和護理團隊合作。\n- 文章自己承認，運動與老化腫瘤生物學的分子機制尚未完整釐清，不同癌別、治療期別、運動劑量、強度、時機及長期存活的證據仍需研究。\n\n## 品質快照\n\n### 優點\n\n- 將高齡癌症患者視為同時有腫瘤與宿主脆弱性的族群，沒有只用腫瘤細胞或年齡單一變項解釋治療反應。\n- 清楚拆開代謝、發炎、免疫、肌肉、血管／缺氧、細胞衰老和心理功能等可能路徑，方便形成研究假說與跨專業評估架構。\n- 特別區分一般年齡相關肌少症和癌症惡病質：後者是高分解代謝狀態，單靠機械負荷不足，需結合營養和多模式處理。\n- 把安全列為運動介入前提，提到血小板、貧血、發燒感染、不穩定骨轉移、跌倒、心肺事件、認知與心理狀態，並強調動態監測和中止規則。\n- 不只提出運動處方，也說明數位落差、穿戴裝置資料、醫療紀錄、家庭和社區資源，以及多專業交接需要共同設計。\n\n### 主要限制\n\n1. 這是敘述性 Review，沒有明確的系統性搜尋、研究納入／排除流程或跨研究偏倚評估；不同證據層級被放在同一套生物學敘事中，可能高估機轉的一致性。\n2. 很多腫瘤微環境與免疫結果來自小鼠、細胞、健康老人或非高齡癌症族群，不能直接外推到高齡患者的死亡、無進展存活或治療反應。\n3. 運動研究的癌別、治療、強度、時機、依從性、功能基線和 outcome 差異很大；「可改善疲勞、功能或生活品質」和「提高化療、放療或免疫治療抗腫瘤效果」不是同一個主張。\n4. 文中以腫瘤灌流、缺氧、CD8+ T 細胞、NK 細胞、Treg、MDSC、細胞衰老、SASP 或 SCFA 作為可能橋接，但這些替代或機轉指標沒有一致證明會轉成患者重要臨床結果。\n5. 文章提出某些安全門檻，例如血小板低於 25,000/mL、血紅素低於 8 g/dL、活動性感染發燒或不穩定骨轉移時暫停運動；這些需由個別癌症、治療、醫療團隊與正式指引確認，不能把評論中的數字當成所有場域的獨立處方。\n6. 把改善肌肉量、藥物分布、肝腎代謝或組織修復連到降低化療毒性與延長存活，仍可能受健康者偏差、治療選擇、癌別、營養、社會支持和依從性混雜；評論沒有提供足以估計因果效果的新資料。\n\n## 主要主張與保守解讀\n\n文章的第一層主張是老化會伴隨 inflammaging、免疫老化、胰島素阻抗、粒線體功能下降、脂肪增加、肌肉減少和細胞衰老，這些宿主變化可能使癌症更容易發生、進展或難以耐受治療。這能作為高齡腫瘤整合照護的生物學背景，但不代表每位高齡患者都有同樣的腫瘤微環境，也不代表改善某一個 biomarker 就會改變癌症結果。\n\n第二層主張是運動可以同時改善代謝彈性、粒線體、發炎、NK／T 細胞、骨骼肌、心肺功能、情緒和疲勞。這些面向中，肌力、身體功能、疲勞和生活品質通常比腫瘤控制更接近臨床復健證據；運動可能作為支持性照護與治療耐受的輔助。對癌症惡病質則不能只加阻力訓練，需結合營養、症狀與疾病負荷評估。\n\n第三層主張是運動可能改變腫瘤灌流與缺氧、細胞外基質、SASP 和免疫抑制，因而與化療、放療或免疫治療產生協同。文中引用乳癌動物模型、轉錄體分析、腫瘤血管與免疫細胞研究，也提到一項術前運動 RCT 的次級分析在缺氧基因特徵有較弱或邊緣訊號，且 grade 3 腫瘤較明顯。這些支持「值得做轉譯研究」，尚不足以說運動能提高特定治療的腫瘤反應或存活。\n\n文章的臨床建議較像安全框架：治療前先做高齡整合評估，依心肺、肌力、平衡、骨轉移、血球、感染、症狀與認知決定運動類型；療程中用心率、血壓、主觀疲勞和症狀動態調整；低活動量、胸悶、暈眩或急性惡化要停止並升級處理。不同階段要有不同目的：術前 prehabilitation 著重儲備，化療期著重耐受與功能，緩解期著重長期功能、代謝和生活品質。這些做法需在正式指引、醫療監督和患者偏好下執行。\n\n## Critical Appraisal／GRADE\n\n對主張「運動是可依高齡癌症患者風險個別化的支持性介入，可能改善功能、疲勞、肌少症與治療耐受；其重塑老化腫瘤微環境並提高化療、放療或免疫治療效果的臨床因果證據仍不足」的證據，依 deterministic `grade_judge.py` 以敘述性 Review／混合證據 starting level=low，對 risk of bias、inconsistency、indirectness 和 imprecision 各降一級，publication bias 不額外降級，最後為 Very low（⊕◯◯◯）。\n\n- risk of bias：文章沒有完整系統性搜尋與正式偏倚評估，且混合前臨床、機轉、觀察性和臨床研究，無法由評論本身校正選擇與引用偏差。\n- inconsistency：癌別、年齡、治療期別、運動形式、劑量、依從性和 outcome 高度異質；功能、疲勞、免疫 biomarker、腫瘤灌流與存活不一定同向。\n- indirectness：許多腫瘤微環境與免疫機轉來自動物、細胞或非高齡癌症樣本，不能直接代表高齡患者的治療反應或存活。\n- imprecision：直接比較不同運動處方與癌症治療協同的試驗不足，最佳時機、強度、持續時間與長期 outcome 尚無可靠效應估計。\n\nVery low 表示對「運動是否改善腫瘤控制或存活」的確定性很低，不表示運動對功能、疲勞或生活品質沒有價值。比較合適的臨床說法是：運動可在安全篩選與個別化監測下作為癌症支持性復健的一部分；不應宣稱運動能單獨治癌、取代抗癌治療，或已證實讓免疫治療更有效。\n\n`argdown_lint.py` 對上述支持性照護與機轉證據界線主張回傳 clean。\n\n## 白話導讀\n\n這篇文章把高齡癌症患者想成「腫瘤加上正在老化的身體」。年齡可能伴隨慢性發炎、免疫力下降、代謝問題和肌肉減少，讓治療更難承受。作者整理研究，認為合適的有氧和阻力運動可能幫助肌力、疲勞、心肺、情緒和日常功能，也可能透過血流、缺氧和免疫路徑影響腫瘤環境。不過，許多腫瘤機轉結果來自動物或實驗室；目前最穩妥的用途是把運動當作經過風險評估的支持性復健，而不是把它當成已證實的抗癌藥。患者要依血球、感染、骨轉移、心肺、平衡、營養和治療期別調整，出現胸悶、暈眩或急性症狀要停止並求助。\n\n## 臨床應用\n\n- 先做高齡整合評估：功能、肌力、平衡、跌倒、營養、體重變化、症狀、心肺共病、骨轉移、血球、感染、認知和心理狀態。\n- 把運動定位為支持性復健，與腫瘤治療、營養支持、症狀處理和心理照護並行；不可自行減藥、延後治療或以運動取代抗癌治療。\n- 低肌力／肌少症可考慮循序阻力訓練，心肺耐力不足可考慮依耐受性安排有氧；癌症惡病質、明顯攝取不足或急性病情需多模式營養與醫療評估。\n- 由運動復健、腫瘤科、營養師、護理、心理與社工共同設定劑量和升級規則；治療週期中的疲勞、血球與症狀變化要讓處方可調整。\n- 使用穿戴裝置或遠距平台時，把心率、步數、疲勞和依從性當作監測資料，不把裝置估算直接當成腫瘤療效；注意數位落差、隱私和沒有網路時的替代方案。\n- 胸痛／胸悶、暈眩、明顯呼吸困難、發燒或急性惡化時停止運動並依醫療團隊的紅旗流程處理；癌症治療期間的安全門檻應由團隊和正式指引確認。\n\n## 研究限制與待查問題\n\n1. 需要依癌別、年齡、功能、肌少症／惡病質、治療類型和疾病階段分層的隨機試驗，直接比較運動處方與標準照護。\n2. 需要預先定義運動劑量、強度、頻率、時機、依從性和安全 outcome，並同時測量疲勞、功能、生活品質、治療完成、毒性、無進展存活與總存活。\n3. 需要把腫瘤灌流、缺氧、免疫細胞、細胞衰老、發炎、肌肉與營養 biomarker 和患者重要結果連結，避免只用 surrogate 改善推論癌症效果。\n4. 需要研究癌症惡病質、骨轉移、血球低下、心肺疾病、認知障礙和多重共病者的安全處方與中止規則。\n5. 需要評估穿戴裝置、數位監測、社區／家庭復健和多專業模式是否能在真實世界維持依從、可近性與公平性。\n6. 需要釐清運動與化療、放療、免疫治療的最佳時間窗，並確認「耐受性改善」是否真的轉化成較少治療中斷與更好的長期癌症結果。\n\n## 證據位置\n\n- 老化負荷、運動總論與研究定位：`Abstract`、`1 Introduction`。\n- 代謝、inflammaging、immunosenescence、肌少症：`2 Exercise-mediated modulation of biological aging`。\n- 腫瘤微環境、灌流／缺氧、ECM 與 SASP：`3 Multilevel mechanisms`。\n- 化療／放療耐受、免疫治療協同與多系統毒性：`4 Biological mechanisms underlying synergistic effects`。\n- 分層處方、禁忌／風險、數位監測、多專業合作：`5 Precision pathways and implementation strategies`。\n- 研究缺口與政策／臨床轉譯：`6 Summary and future outlook`。\n- 完整來源：Fang W, Wang Y, Yang Z, et al. *Exercise interventions remodel the aging microenvironment to improve prognosis in older patients with cancer.* Front Immunol. 2026;17:1785073. doi:10.3389/fimmu.2026.1785073. Worker verified open-access PDF，20 頁，source SHA-256 `4068b77fa5bb54181518ff0c3c5b188c6d5d30be4231e2482aeb4a9b68bba648`，全文文字 SHA-256 `e7273eaf9fd960539955fb183e50ea0cff037df6285f08d1f8ca71c801a67110`。\n- 本次為 Worker focused-quick `paper-review`；已逐頁讀取完整 PDF 文字，並將支持性復健、腫瘤機轉和存活主張分層，未以摘要代替全文。",
+      "cards": [],
+      "completedAt": "2026-09-03T12:58:22.159Z"
+    },
+    {
+      "id": "doi:10.3389/fpubh.2026.1912567:digest",
+      "paperId": "doi:10.3389/fpubh.2026.1912567",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Community governance and nutrition-oriented cancer care for women: policy pathways to reduce survival disparities.",
+      "authors": "Hao L, Ma X, Feng Y",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.3389/fpubh.2026.1912567",
+      "abstract": "Nutrition is increasingly recognized as a modifiable determinant of treatment tolerance, metabolic health, quality of life, and survivorship outcomes among women with cancer. However, nutrition-oriented cancer care is often delivered as an individual-level clinical recommendation, while many determinants of dietary behavior and nutritional vulnerability arise outside oncology clinics. Food insecurity, unequal food environments, limited dietitian availability, fragmented referral systems, low nutrition literacy, transport barriers, and gendered caregiving roles can prevent women with breast, cervical, ovarian, endometrial, and other cancers from receiving timely and effective nutrition support. Community governance provides a policy framework for linking oncology services with primary care, public health agencies, community organizations, food assistance programs, digital platforms, and patient groups. This Mini Review examines how community governance can strengthen nutrition-oriented cancer care for women and reduce survival disparities. We summarize pathways through which community-level conditions influence nutritional status and survivorship, distinguish established evidence from promising implementation models and expert-policy rationale, and propose governance mechanisms for nutrition screening, referral, food support, and follow-up. Community-governed nutrition care should move beyond service volume and evaluate whether nutritionally vulnerable women receive accessible, culturally appropriate, and outcome-oriented support across the cancer continuum.",
+      "legalFullTextUrl": "https://doi.org/10.3389/fpubh.2026.1912567",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42676994/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "dietitian clinical nutrition",
+        "guideline and consensus",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "女性癌症營養照護與社區治理的全文內容整理",
+      "content": "# 女性癌症營養照護與社區治理的全文內容整理\n\n> [!summary] 30 秒層：一句話 + 重點\n> 這篇 Frontiers in Public Health Mini Review 主張，女性癌症患者的營養照護不能只停在門診飲食建議，應把營養篩檢、營養師轉介、食物不安全處理、社區健康工作者、數位／電話支持與公平監測連成跨部門服務路徑；但它是敘述性回顧與政策框架，尚未證明社區治理本身能降低癌症死亡或存活差距。\n> - 影響營養的障礙包括治療症狀、食物不安全、財務壓力、交通、營養識能、照顧家人和營養師不足。\n> - 文章把證據分成 established clinical evidence、promising implementation evidence、expert-policy rationale。\n> - 六條路徑：篩檢、風險分層轉介、社區工作者／導航、食物援助、數位混合支持、公平性監測。\n> - 較可先期待的 outcome 是食物安全、服務可近性、症狀、治療完成、營養狀態和生活品質；存活改善仍需直接研究。\n\n## 5 分鐘層：全文地圖\n\n文章先說明女性癌症患者在診斷、治療、復健與長期存活期間，可能同時出現營養不良、非預期體重下降、肌少症、肥胖、代謝異常、微量營養素不足和飲食品質差。接著指出，噁心、味覺改變、口腔黏膜炎、吞嚥困難、腹瀉、便秘、疼痛與疲倦，會和收入下降、交通障礙、家庭照顧責任、食物價格及照護斷裂互相影響。作者使用 PubMed、Web of Science、Google Scholar、WHO、National Cancer Institute 和指引做 2015–2025 年的 targeted narrative search，再以三種證據層級整理。全文中段介紹食物不安全、照護斷裂與性別化照顧負擔，後段提出六個治理機制、五項政策優先順序、實施障礙與公平指標，最後強調應以務實與準實驗研究確認哪些組件有效、可擴張且可持續。\n\n## 為什麼只給飲食建議不夠\n\n**要點**：建議能否執行，取決於患者能不能取得食物、服務和支持。\n\n一位接受乳癌或卵巢癌化療的女性，可能被建議增加蛋白質、維持肌肉、處理噁心與維持體重；但她同時可能因治療費用、工作中斷、交通、沒有時間煮飯或需要照顧孩子而做不到。食物不安全不只代表吃不飽，也可能讓人以便宜、能量密度高但營養品質較低的食物取代適合的食物，或在食物與藥物之間取捨。即使總熱量足夠，也可能有飲食品質差、肥胖、糖尿病與微量營養素不足。\n\n作者把 community governance 定義為跨腫瘤科、基層醫療、公共衛生、社會照護、地方食物系統、社區健康工作者、患者團體與地方政府的協調決策、資源配置和問責。它的單位不再只是患者與醫師，而是圍繞患者的服務網：誰做篩檢、誰轉介、誰處理食物取得、誰在家中追蹤、誰回報警訊、誰對公平性負責。\n\n## 三種證據層級\n\n文章把已有資料分為三類。**Established evidence** 是指營養風險篩檢、營養評估、營養不良管理與個別化介入具有較穩固的臨床基礎。**Promising implementation evidence** 包括社區健康工作者、患者導航、食物援助與數位支持，已有部分服務改善或流程成果，但需要依地區調整。**Expert-policy rationale** 則是跨部門治理、資金、角色分工、公平監測等政策建議，概念上合理卻缺少癌症營養專屬的充分試驗。\n\n這個區分是全文重要的閱讀提示：食物不安全與較差飲食品質的關聯，不能直接等於食物援助會降低死亡；導航改善急性照護使用或治療完成，也不能直接等於延長存活。治理成效要先從合理的中間 outcome 開始評估。\n\n## 六條社區治理路徑\n\n1. **例行篩檢**：在診斷、治療前、化放療期間、術後、內分泌治療和 survivorship 追蹤，除體重外也問攝取、症狀、食物不安全和社會障礙。PG-SGA、NRS-2002、GLIM 相關評估、體重變化和食物安全工具各有用途；陽性篩檢要觸發轉介與追蹤，不能只是填表。\n2. **風險分層轉介**：低風險者可接受簡短教育；中風險者可接受症狀性飲食指導、團體教育與電話追蹤；嚴重體重下降、肌少症、攝取不足、食物不安全、晚期疾病或複雜共病者，應由營養師和跨專業團隊密切介入。\n3. **社區健康工作者與導航**：可辨識食物不安全、提醒回診、協調交通、連結食物計畫、監測症狀並把疑慮回報臨床團隊，但不能取代營養師。需要訓練、督導、清楚角色、紅旗症狀和升級路徑。\n4. **食物援助**：包括購物券、醫療客製餐、蔬果處方、food pharmacy、送餐、食物銀行與社區廚房。對治療中的患者要考量症狀、蛋白質、食安、文化與家庭人口；對肥胖或代謝風險者不能只提供熱量。\n5. **數位與混合支持**：可做症狀追蹤、教育、預約提醒、轉介協調和遠距營養諮詢，但年長、偏鄉、低收入、移民或低數位識能者可能被排除。電話、紙本、社區工作者和面對面服務應與數位工具並用，並注意隱私與多語言。\n6. **公平監測**：追蹤誰被篩檢、誰完成轉介、誰得到食物援助、誰被漏接，以及結果是否依收入、地理、族群、年齡、保險、移民身分與偏鄉程度而不同。\n\n## 政策與執行障礙\n\n作者提出五項政策優先：把營養和食物不安全篩檢列為女性癌症照護品質指標；為營養師服務、醫療營養治療、食物援助和社區導航建立資金；建立腫瘤中心、基層醫療、公共衛生、食物銀行、婦女團體與社會照護的正式合作；培訓臨床人員和社區工作者；持續監測公平性。每個正向篩檢都應有回饋迴路，讓轉介、資料共享和責任可追蹤。\n\n實作上可能遇到資金跨醫療／公共衛生／社會服務分散、營養師短缺、醫院與地方政府責任不同、慈善經費不穩定、數位平台沒有支付或不嵌入工作流程等問題。作者因此不主張把某一國或某一社區的模式原封不動複製，而是要依當地服務能力、文化、交通與食物系統調整。\n\n## 白話理解\n\n這篇文章提醒我們，對癌症患者說「吃好一點」常常不夠，因為她可能正在噁心、沒錢、沒有交通、必須照顧全家，或根本找不到營養師。比較完整的做法，是在篩檢出營養風險後，真的把她接到營養師、症狀處理、食物援助、社區人員和後續追蹤。文章最有價值的是把照護責任畫出來，讓「有提供服務」變成「高風險的人有得到適合的服務」。但它不是一個證明延長存活的試驗，因此要把服務可近性、食物安全、症狀、治療完成和生活品質與存活分開報告。\n\n## 實務帶走\n\n1. 在治療前、治療中、術後和存活者追蹤，除了體重，也問攝取、症狀、食物不安全、交通、經濟和家庭照顧負擔。\n2. 陽性篩檢要連到營養師、症狀管理、社會工作、食物援助或電話追蹤；只留下紀錄而沒有行動不算完成照護。\n3. 社區健康工作者適合延伸支持、辨識障礙、協助就醫和回報警訊，不取代營養師、醫師或感染／腫瘤治療判斷。\n4. 食物援助需配合治療症狀、能量／蛋白質、食安、文化和家庭人口；不要把單一菜單或「抗癌飲食」當成人人適用。\n5. 數位服務要保留電話、紙本和面對面替代方案，避免最需要支持的人因數位落差被漏接。\n\n## 自我測驗\n\n> [!question]- Q1：作者為什麼說癌症營養照護不能只在門診完成？\n> 因為食物不安全、交通、收入、症狀、照顧責任、營養識能和服務斷裂會決定患者能否執行建議；營養照護需要連結社區、基層、社會照護與食物資源。\n\n> [!question]- Q2：三種證據層級怎麼區分？\n> Established evidence 是較穩固的臨床營養基礎；promising implementation evidence 是已有部分服務成果但需情境調整的模式；expert-policy rationale 是合理但尚未充分試驗的治理與政策建議。\n\n> [!question]- Q3：社區健康工作者可以取代營養師嗎？\n> 不可以。他們可以辨識障礙、支持回診、連結食物資源、監測症狀和回報臨床團隊，但需要清楚訓練、督導和升級路徑，不能取代營養評估與治療。\n\n> [!question]- Q4：評估社區治理時，為什麼不能一開始只看存活？\n> 因為目前直接降低癌症死亡的證據有限；應先追蹤篩檢覆蓋、轉介時間與完成、食物安全、營養狀態、症狀、治療完成、住院、生活品質和公平性，再研究長期腫瘤結果。\n\n## Reference 與全文證據\n\n`Hao L, Ma X, Feng Y. Community governance and nutrition-oriented cancer care for women: policy pathways to reduce survival disparities. Front Public Health. 2026;14:1912567. doi:10.3389/fpubh.2026.1912567.`\n\n完整來源為 PMCID `PMC13527662` 的已核驗 PMC HTML，source SHA-256 `fe8daca1e4da4d1fc2188825e7379e7011a8a6dbbb7df966aff18b021dc8c06a`；全文包含摘要、搜尋與證據分類、Table 1、Figure 1–2、食物不安全、照護斷裂、性別化照顧、六條治理路徑、政策優先順序、實施障礙與研究缺口。本次為 Worker batch 的 `paper-digest`，另有獨立 `paper-review`；已完整讀取全文，不把政策框架改寫成存活改善證據。",
+      "cards": [
+        {
+          "title": "為什麼需要社區治理",
+          "question": "作者為什麼說癌症營養照護不能只在門診完成？",
+          "answer": "食物不安全、交通、收入、症狀、照顧責任、營養識能和服務斷裂會決定患者能否執行建議；營養照護需要連結社區、基層、社會照護與食物資源。",
+          "tags": [
+            "癌症營養",
+            "食物不安全",
+            "社區治理"
+          ]
+        },
+        {
+          "title": "三種證據層級",
+          "question": "文章中的三種證據層級怎麼區分？",
+          "answer": "Established evidence 是較穩固的臨床營養基礎；promising implementation evidence 是已有部分服務成果但需情境調整的模式；expert-policy rationale 是合理但尚未充分試驗的治理與政策建議。",
+          "tags": [
+            "證據分級",
+            "實施研究",
+            "政策"
+          ]
+        },
+        {
+          "title": "社區工作者的角色邊界",
+          "question": "社區健康工作者可以取代營養師嗎？",
+          "answer": "不可以。他們可辨識障礙、支持回診、連結食物資源、監測症狀和回報團隊，但需要訓練、督導和升級路徑，不能取代營養評估與治療。",
+          "tags": [
+            "社區健康工作者",
+            "營養師",
+            "轉介"
+          ]
+        },
+        {
+          "title": "先看中間結果",
+          "question": "評估社區治理時，為什麼不能一開始只看存活？",
+          "answer": "目前直接降低癌症死亡的證據有限；應先追蹤篩檢、轉介、食物安全、營養狀態、症狀、治療完成、住院、生活品質和公平性，再研究長期腫瘤結果。",
+          "tags": [
+            "研究設計",
+            "存活結果",
+            "公平性"
+          ]
+        }
+      ],
+      "completedAt": "2026-09-03T12:52:51.257Z"
+    },
+    {
+      "id": "doi:10.3389/fpubh.2026.1912567:review",
+      "paperId": "doi:10.3389/fpubh.2026.1912567",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Community governance and nutrition-oriented cancer care for women: policy pathways to reduce survival disparities.",
+      "authors": "Hao L, Ma X, Feng Y",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.3389/fpubh.2026.1912567",
+      "abstract": "Nutrition is increasingly recognized as a modifiable determinant of treatment tolerance, metabolic health, quality of life, and survivorship outcomes among women with cancer. However, nutrition-oriented cancer care is often delivered as an individual-level clinical recommendation, while many determinants of dietary behavior and nutritional vulnerability arise outside oncology clinics. Food insecurity, unequal food environments, limited dietitian availability, fragmented referral systems, low nutrition literacy, transport barriers, and gendered caregiving roles can prevent women with breast, cervical, ovarian, endometrial, and other cancers from receiving timely and effective nutrition support. Community governance provides a policy framework for linking oncology services with primary care, public health agencies, community organizations, food assistance programs, digital platforms, and patient groups. This Mini Review examines how community governance can strengthen nutrition-oriented cancer care for women and reduce survival disparities. We summarize pathways through which community-level conditions influence nutritional status and survivorship, distinguish established evidence from promising implementation models and expert-policy rationale, and propose governance mechanisms for nutrition screening, referral, food support, and follow-up. Community-governed nutrition care should move beyond service volume and evaluate whether nutritionally vulnerable women receive accessible, culturally appropriate, and outcome-oriented support across the cancer continuum.",
+      "legalFullTextUrl": "https://doi.org/10.3389/fpubh.2026.1912567",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42676994/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "dietitian clinical nutrition",
+        "guideline and consensus",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "女性癌症營養照護與社區治理的品質評讀",
+      "content": "# 女性癌症營養照護與社區治理的品質評讀\n\n## 研究問題與研究設計\n\n本文是 Frontiers in Public Health 的 Mini Review，探討如何用社區治理把女性癌症患者的營養照護從腫瘤門診延伸到基層醫療、公共衛生、社會照護、食物援助、社區健康工作者、數位平台與患者團體。作者關心的不是某一種飲食對某一種癌症的療效，而是食物不安全、交通、照顧責任、營養識能、轉介斷裂與營養師不足，如何影響營養脆弱性、治療耐受、生活品質與存活差距。\n\n- 作者針對 PubMed、Web of Science、Google Scholar、WHO、National Cancer Institute 與指引，主要搜尋 2015–2025 年文獻，保留較早的定義與整合照護框架。\n- 這是 targeted narrative search，不是系統性回顧；作者明確將資料分成 established evidence、promising implementation evidence 和 expert-policy rationale。\n- 文章提出六條治理路徑：例行營養與食物不安全篩檢、風險分層轉介、社區健康工作者／導航、食物援助、數位／混合支持，以及公平性監測。\n- 文章不提供新的患者資料、隨機分派或一個可直接複製的介入試驗；其主要產出是概念框架、政策優先順序和未來研究問題。\n\n## 品質快照\n\n### 優點\n\n- 把癌症營養從「給患者個別飲食建議」擴展成需要食物可得性、經濟、交通、照護角色和跨機構責任的照護路徑，符合實際執行困難。\n- 清楚區分較成熟的臨床營養基礎、仍需情境調整的社區執行證據，以及尚未充分測試的治理與政策推論，避免把三種證據混成同一等級。\n- 提醒女性癌症患者可能同時面臨非預期體重下降、肌少症、肥胖、代謝異常、微量營養素不足、治療症狀和家庭照顧負擔，不把營養風險簡化成 BMI。\n- 提出可追蹤的流程與公平指標，例如篩檢覆蓋率、轉介時間、食物援助連結、營養狀態、症狀、治療中斷、生活品質、財務壓力及不同族群的服務落差。\n\n### 主要限制\n\n1. Mini Review 使用 targeted narrative search，沒有完整系統性搜尋、雙人篩選、正式品質評估或可重現的研究排除流程，可能受選文與作者觀點影響。\n2. 文中把乳癌、子宮內膜癌、卵巢癌、子宮頸癌及其他癌症放在共同框架內，但腫瘤、治療、症狀、體重目標與營養需求並不相同，不能假設同一治理方案對各癌別效果相等。\n3. 食物不安全與照護中斷的關聯證據多為觀察性；食物援助、社區健康工作者和導航可能改善食物安全、生活品質或治療完成，但降低癌症死亡率的證據仍有限。\n4. 社區治理、跨部門財務、數位平台與公平儀表板主要是政策合理性與執行建議，缺少癌症營養情境下的隨機或準實驗比較資料。\n5. 社區健康工作者可延伸追蹤，但若訓練、督導、轉介邊界和升級機制不足，可能提供不安全或不一致的癌症飲食建議；文章沒有給出各醫療體系都適用的最低訓練標準。\n6. 「改善營養照護可減少存活差距」是合理長期目標，但要穿過營養、治療耐受、治療完成、共病、社會支持和腫瘤生物學多重路徑；不能從服務量直接推論存活改善。\n\n## 主要主張與保守解讀\n\n作者首先整理較穩固的臨床基礎：腫瘤營養指引支持營養風險篩檢、完整評估、個別化營養介入和症狀處理；食物不安全與較差飲食品質、放棄醫療或癌症照護中斷有關。這些資料支持「篩檢時也應問食物取得與社會需求」，但不代表所有食物不安全患者都會有相同腫瘤 outcome。\n\n作者的治理模型把陽性篩檢連到可執行的行動：營養師轉介、症狀管理、食物援助、社會照護和後續追蹤；再依低、中、高風險分配服務。低風險可接受簡短教育，中風險可接受團體教育和電話追蹤，高風險如嚴重體重下降、肌少症、攝取不足、食物不安全、晚期疾病或複雜共病，則需要營養師主導、社會支持與較密切監測。這是合理的服務設計，但風險切點、成本效益和效果仍要在各地驗證。\n\n文章也指出女性常在治療期間持續負擔煮飯、育兒、照顧長輩與家庭飲食責任，可能沒有時間照顧自己；因此衛教不應只有規則，還要協助家庭協商、症狀期進食、避免危險限制飲食和取得實際支援。這是重要的性別與社會脈絡，但不能把所有女性都視為同質群體，仍需尊重文化、家庭結構、年齡、收入、移民身分與個人偏好。\n\n社區健康工作者與 patient navigator 可協助識別食物不安全、提醒就診、協調交通、連結食物計畫與回報警訊，但不應取代營養師。食物援助可包括代購券、醫療客製餐、蔬果處方、食物藥局、送餐、食物銀行與社區廚房；仍要考慮症狀、蛋白質、食安、文化與家庭人數。數位工具可做症狀追蹤、教育與遠距營養諮詢，但低數位識能、年長、偏鄉與低收入女性可能被排除，所以作者偏好電話、紙本、社區工作者與數位混合模式。\n\n最重要的保守界線是：社區治理應先用可達性、轉介完成、食物安全、營養狀態、症狀、治療完成和生活品質等中間結果評估，不能一開始就宣稱降低死亡或 survival disparities。這篇文章較適合作為服務設計與研究議程，不是證明某項政策能改善癌症存活的臨床試驗。\n\n## Critical Appraisal／GRADE\n\n對主張「女性癌症營養照護需要把篩檢、營養師轉介、食物援助、社區／基層支持、數位混合追蹤與公平監測連成可問責的服務系統；這些路徑值得以務實研究測試，但目前不能證明社區治理本身降低癌症死亡或存活差距」的證據，依 deterministic `grade_judge.py` 以 narrative review／政策框架 starting level=low，對 risk of bias、inconsistency、indirectness 和 imprecision 各降一級，publication bias 不額外降級，最後為 Very low（⊕◯◯◯）。\n\n- risk of bias：這是有目的的敘述性搜尋，缺乏系統性選文與正式偏倚評估，並混合指引、觀察研究、實施研究與專家政策推論。\n- inconsistency：不同癌別、照護場域、社區模式與 outcome 異質；社區健康工作者、食物援助、數位工具與導航的結果不能視為同一介入。\n- indirectness：許多證據只支持食物安全、流程、生活品質或治療完成等中間結果，無法直接代表女性癌症患者的長期存活；政策框架也未必適用所有地區。\n- imprecision：癌症營養情境下的治理模型、風險分層和跨部門資金缺少足夠的隨機或準實驗估計，效果大小與成本效益不確定。\n\nVery low 表示「社區治理能否改善癌症存活」的效應尚無可靠估計，不表示篩檢、營養師介入或處理食物不安全沒有價值。實務上應把它當作整合照護的設計框架，依現有癌症營養指引與當地服務資源落地，並明確量測可達性、轉介和病人重要結果。\n\n`argdown_lint.py` 對上述治理框架與證據界線主張回傳 clean。\n\n## 白話導讀\n\n這篇文章說，癌症患者被告知「多吃蛋白質、維持體重、改善飲食」不代表做得到。化療噁心、口腔黏膜炎、疲倦、收入下降、交通不便、照顧家人和買不到合適食物，都可能讓建議無法執行。作者因此建議，腫瘤科不只要篩檢營養風險，也要問患者是否買得到食物、能不能回診、是否需要社會支持，再把營養師、基層醫療、社區工作者和食物援助連起來。文章有說服力的地方是把「營養建議」變成一條服務路徑；但它不是試驗，沒有證明這樣做一定能延長存活，所以應先看患者是否及時得到幫助、症狀和生活品質是否改善。\n\n## 臨床應用\n\n- 在診斷、治療前、治療中、術後和存活者追蹤，除了體重與攝取，也詢問食物不安全、症狀、交通、經濟、家庭支持與照顧負擔。\n- 陽性篩檢要有後續行動：營養師評估、症狀處理、社會工作、食物援助、交通或電話追蹤；不要只完成表單而沒有轉介。\n- 依風險分層服務：高風險者由營養師和跨專業團隊密切追蹤；社區健康工作者負責延伸支持、辨識障礙與回報警訊，不取代專業診斷或營養治療。\n- 食物援助要配合癌症治療症狀、蛋白質／能量需求、食安、文化、家庭人數與代謝風險，不能只發熱量或套用單一菜單。\n- 數位工具應和電話、紙本、社區人員及面對面服務並用，並檢查年長、偏鄉、低收入、移民和低數位識能女性是否被漏接。\n\n## 研究限制與待查問題\n\n1. 需要以隨機或準實驗設計測試食物援助、營養師轉介、社區健康工作者和混合數位模式對營養狀態、症狀、治療完成、住院、生活品質與財務壓力的效果。\n2. 需要依癌別、治療階段、年齡、地理、收入、族群與食物不安全程度分層，避免把不同需求合併成單一治理效果。\n3. 需要預先定義篩檢覆蓋率、陽性後轉介時間、轉介完成、服務可近性、公平性與病人報告結果，並追蹤長期腫瘤 outcome。\n4. 需要研究社區工作者訓練、督導、角色邊界、資料共享、隱私、轉介升級和跨部門責任，降低不安全建議與流程斷裂。\n5. 需要比較不同財務與支付模式的可持續性，確認服務不只在試辦期有效，也能到達最容易被漏接的女性。\n\n## 證據位置\n\n- 文章定位、搜尋範圍與證據三分法：`Abstract`、`1.1 Literature search and conceptual scope`。\n- 女性癌症的營養症狀、食物不安全與社會障礙：`Introduction`、`2. Why nutrition-oriented cancer care requires community governance?`。\n- 篩檢、風險分層、社區健康工作者、食物援助、數位／混合支持：`4. Governance mechanisms`。\n- 政策優先順序與公平指標：`5. Policy pathways to reduce survival disparities`。\n- 對中間結果與存活主張的界線、研究缺口：`6. Discussion`、`7. Conclusion`。\n- 完整來源：Hao L, Ma X, Feng Y. *Community governance and nutrition-oriented cancer care for women: policy pathways to reduce survival disparities.* Front Public Health. 2026;14:1912567. doi:10.3389/fpubh.2026.1912567. PMCID `PMC13527662`，Worker verified PMC HTML，source SHA-256 `fe8daca1e4da4d1fc2188825e7379e7011a8a6dbbb7df966aff18b021dc8c06a`。\n- 本次為 Worker focused-quick `paper-review`；已逐段讀取完整 PMC HTML。本文屬 Mini Review 與政策框架，未把治理建議或中間結果改寫成存活改善證據。",
+      "cards": [],
+      "completedAt": "2026-09-03T12:49:34.828Z"
+    },
+    {
+      "id": "doi:10.1097/cce.0000000000001465:digest",
+      "paperId": "doi:10.1097/cce.0000000000001465",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "What Are We Actually Feeding ICU Patients? The Case for Studying Formula Composition.",
+      "authors": "Morowitz M, Simon D, Huang D, Martinez E, Mehta N",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.1097/CCE.0000000000001465",
+      "abstract": "Large randomized controlled trials testing the quantity and timing of enteral nutrition (EN) in critically ill patients have consistently failed to demonstrate benefit. We propose that these negative results may partly reflect an unexamined variable: the composition of EN formulas themselves. Most widely used formulas rely on corn-derived simple carbohydrates, isolated functional fibers, dairy-based proteins, and omega-6-rich vegetable oils, ingredients selected largely for manufacturing efficiency and shelf stability rather than clinical evidence. These components bear little resemblance to whole foods, and their distinct effects on metabolism, inflammation, and gut function have received little study in critical illness. Commercially available whole-food and plant-based EN formulas now offer compositionally distinct alternatives, yet no rigorous trials have compared them to conventional formulas in critically ill patients. We argue for a paradigm shift from volume-based to composition-focused nutrition research, pairing patient-centered clinical outcomes with mechanistic endpoints, including effects on the gut microbiome.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42640598/",
+      "category": "recommended",
+      "tags": [
+        "design:randomized controlled",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "precision nutrition",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "ICU 腸道營養配方組成研究缺口的全文內容整理",
+      "content": "# ICU 腸道營養配方組成研究缺口的全文內容整理\n\n> [!summary] 30 秒層：一句話 + 重點\n> 這篇 Critical Care Explorations 評論主張 ICU 腸道營養研究不應只看餵食量與時機，也要直接研究配方的碳水化合物、纖維、蛋白質與脂肪來源；但目前沒有嚴謹的 ICU 頭對頭試驗證明 whole-food、plant-based 或任何特定配方能改善死亡、感染、呼吸器天數或住院結果。\n> - 常見商業配方常以 corn maltodextrin、corn syrup 或 corn syrup solids 作為主要碳水化合物，纖維來源與含量差異很大。\n> - 蛋白質可來自乳蛋白、酪蛋白、黃豆或水解乳清；脂肪則常含菜籽油、玉米油、黃豆油、紅花油或 MCT。\n> - 纖維、SCFA、腸道菌相和腸道屏障是合理的機轉研究方向，但也會受抗生素、疾病嚴重度、藥物與餵食中斷影響。\n> - 文章是研究議程與假說，不是更換 ICU 配方的臨床指引。\n\n## 5 分鐘層：全文地圖\n\n文章先指出，大型 ICU 營養試驗多集中於「餵多少」和「何時餵」，NUTRIREA-2、TARGET、EDEN、PermiT 等研究沒有一致顯示調整量或時機會帶來臨床好處，有些甚至出現傷害訊號。作者因此提出另一個可能被忽略的變項：餵進去的配方本身由什麼組成。接著文章讀取多種產品標示，整理碳水化合物、纖維、蛋白質和脂肪來源，說明它們可能與代謝、發炎、腸道菌相及屏障有關。中段分別討論快速吸收碳水、分離功能性纖維、乳／植物蛋白與 omega-6／omega-3 脂肪的研究缺口。後段承認傳統配方在滅菌、保存、標準化、管路安全和成本上的正當優勢，並提出未來以配方頭對頭試驗搭配微生物相、SCFA、腸道屏障和病人重要結果的研究方案。\n\n## 文章的問題意識\n\n**要點**：研究失敗不能直接歸因於配方，作者是在要求把配方組成變成可測試的變項。\n\n傳統 ICU 營養研究常把目標寫成熱量、蛋白質克數與開始餵食的時間。作者認為，若不同試驗都使用成分不同但未被充分描述的 EN，單看總量和時機可能掩蓋原料來源的差異。文章不是說目前配方「有害」或 whole-food 配方「一定更好」，而是說製造效率、保存穩定與臨床證據之間可能存在值得研究的取捨。它也提醒，連續管灌與測量 glycemic index 時的口服負荷不同，不能直接把一般食物的升糖指標套用到 ICU 管灌。\n\n## Table 1：配方成分差異\n\n作者整理的產品標籤顯示，Ensure Original、PediaSure Enteral、Jevity、Osmolite、Isosource 等配方的主要碳水化合物常包括 corn maltodextrin、corn syrup、corn syrup solids 或 brown rice syrup；纖維可少於 1 g、沒有添加，或包含 cellulose、FOS、oat／soy／pea fiber、inulin。蛋白質來源包括 milk protein concentrate、sodium／calcium caseinate、soy isolate、hydrolyzed whey，也有 pea、rice、chicken 或 almond butter 等 whole-food 配方成分。脂肪來源則混合 canola、corn、soy、high-oleic safflower、olive、flax oil 和 MCT。\n\n這個表的用途是指出「組成有差異」，不是證明標籤上的某個原料會導致臨床結果。配方版本、實際給藥量、病人吸收、餵食中斷、疾病和藥物都會影響真正的暴露。不能只因一個產品標示有 whole-food、organic 或 plant-based，就假定其耐受性、營養完整性、污染風險或臨床效果比較好。\n\n## 四個待研究的組成面向\n\n**碳水化合物**：作者指出許多配方以玉米麥芽糊精或玉米糖漿類為主，屬快速吸收的葡萄糖聚合物。這可能影響血糖和腸道菌可取得的底物，但危重病人的最佳碳水來源尚未被直接比較。\n\n**纖維**：纖維的溶解性、黏度和可發酵性會影響它是否到達結腸、是否被共生菌轉成 SCFA。作者指出分離功能性纖維在製造過程中可能與完整食物纖維基質不同；inulin、FOS、oat、soy、pea fiber 的效果也依種類、劑量和時間而變。既有研究常聚焦腹瀉等症狀，不等於已證明能改善死亡或功能。\n\n**蛋白質**：現行建議常強調每日 1.2–2.0 g/kg 的量，但乳蛋白、酪蛋白、黃豆、水解乳清與植物蛋白的胺基酸、白胺酸、消化性和代謝效果可能不同。文章明確指出，據作者所知，還沒有直接比較乳源與非乳源蛋白在 ICU 病人的嚴謹試驗；慢性病研究的抗發炎結果不能直接移植到急性危重病。\n\n**脂肪**：不同配方的 omega-6、omega-3、MCT 和油脂來源不同。作者以 omega-3 研究說明，若對照配方本身含有可能影響發炎的脂肪，試驗結果會受到比較基準影響；但這也不代表高 omega-6 配方已被證明會傷害 ICU 病人。\n\n## 腸道菌相與安全取捨\n\n危重病常出現菌相多樣性下降、潛在致病菌增加與腸道屏障受損。作者提出，若簡單碳水在近端小腸被吸收、沒有到達結腸，可能減少共生菌可利用的底物；纖維發酵成的 butyrate 等 SCFA 也可能支持上皮屏障、調節免疫。這是生理上合理的假說，但菌相同時受到抗生素、疾病嚴重度、灌流、藥物、餵食中斷和住院環境影響，不能只看到菌相差異就把原因歸給配方。益生菌、合生元和益生元的 ICU 研究也有菌株、劑量與時間異質性，指引多是低確定性、弱建議。\n\n作者特別提醒，傳統配方是重要的支持療法，製造要求有其合理原因：降低污染、維持開封後保存與營養一致性、避免管路阻塞、控制滲透壓、處理過敏原並維持供應。whole-food 配方還要回答黏度、管路相容性、耐受性、蛋白質完整性、成本、批次變異和污染風險。研究不能只以「比較接近天然食物」作為優勢判定。\n\n## 白話理解\n\n這篇文章像是在問：「同樣餵 1,500 kcal，這些熱量來自什麼，會不會也重要？」作者看了常見產品標籤，發現不同配方的糖類、纖維、蛋白質和油脂來源確實不同，也整理了它們可能影響血糖、腸道菌和發炎的理由。但它沒有把 ICU 病人分成不同配方，也沒有新數據告訴我們誰活得比較久或少感染。因此目前可以接受的結論是「配方組成值得被嚴格研究」，不可以改寫成「玉米麥芽糊精有害」或「全食物配方已證明較好」。\n\n## 實務帶走\n\n1. 臨床評估配方時，同時看能量／蛋白質目標、實際達標、餵食中斷、腹瀉／便秘、血糖、腎肝功能、液體限制、誤吸風險與供應安全；不要只看產品宣稱。\n2. 目前選擇 EN 應依 ICU 指引與病人病情、胃腸耐受、管路和代謝限制，不能因一篇評論就停用標準配方或自行改成全食物配方。\n3. 對 whole-food 或 plant-based 產品，先確認營養完整性、蛋白質品質、黏度、管路相容性、保存、污染與過敏原管理，再由團隊評估是否合適。\n4. 若出現腹瀉、餵食不耐或血糖波動，先查感染、藥物、腸道功能、灌食速度、餵食中斷和疾病嚴重度，不能直接把問題歸因於某個單一原料。\n5. 做品質改善或研究時，應把實際配方暴露、餵食方式、抗生素、疾病嚴重度、菌相／SCFA 與病人重要 outcome 一起記錄，避免只用總熱量或菌相多樣性代表成功。\n\n## 自我測驗\n\n> [!question]- Q1：這篇文章的主要貢獻是什麼？\n> 它提出配方組成是不同於餵食量和時機的研究變項，要求以頭對頭試驗同時測量病人重要結果和微生物／腸道機轉；不是提供現成的配方更換建議。\n\n> [!question]- Q2：為什麼不能看到 corn maltodextrin 就判定配方有害？\n> 因為產品標示只描述成分，沒有告訴我們在 ICU 病人的實際暴露和臨床效果；血糖、菌相與 outcome 還會受病情、抗生素、藥物、餵食中斷和管灌方式影響。\n\n> [!question]- Q3：whole-food 配方在研究前要先處理哪些安全問題？\n> 要確認滅菌與保存、污染、蛋白質完整性、黏度、管路相容性、管路阻塞、耐受性、過敏原、成本、批次變異和醫院供應，不可只用天然或植物性標籤判定優勢。\n\n> [!question]- Q4：未來嚴謹試驗應測量什麼？\n> 除了死亡、感染、呼吸器天數、住院天數、餵食耐受與功能等病人重要 outcome，也應縱向測量糞便菌相、SCFA、腸道屏障指標，並完整記錄配方、餵食中斷、抗生素與病情。\n\n## Reference 與全文證據\n\n`Morowitz MJ, Simon DM, Huang DT, Martinez EE, Mehta NM. What Are We Actually Feeding ICU Patients? The Case for Studying Formula Composition. Crit Care Explor. 2026;8(9):e1465. doi:10.1097/CCE.0000000000001465.`\n\n完整來源為 PMCID `PMC13506233` 的已核驗 PMC HTML，source SHA-256 `d3e20a82efd0fc716018928f870beba67b5890130c03a49db7de40845988b410`；全文包含摘要、Key Points、Table 1、配方組成討論、纖維／蛋白質／脂肪與腸道菌相段落、限制與研究建議。本次為 Worker batch 的 `paper-digest`，另有獨立 `paper-review`；本文屬評論與研究議程，沒有把假說或商品標籤當成臨床試驗結果。",
+      "cards": [
+        {
+          "title": "配方組成是研究變項",
+          "question": "這篇文章的主要貢獻是什麼？",
+          "answer": "它提出配方組成是不同於餵食量和時機的研究變項，要求以頭對頭試驗同時測量病人重要結果和微生物／腸道機轉；不是現成的配方更換建議。",
+          "tags": [
+            "腸道營養",
+            "研究缺口",
+            "ICU"
+          ]
+        },
+        {
+          "title": "標籤不等於臨床傷害",
+          "question": "為什麼不能看到 corn maltodextrin 就判定配方有害？",
+          "answer": "產品標示只描述成分，沒有告訴我們在 ICU 病人的實際暴露和臨床效果；血糖、菌相與 outcome 還會受病情、抗生素、藥物、餵食中斷和管灌方式影響。",
+          "tags": [
+            "配方成分",
+            "因果推論",
+            "臨床營養"
+          ]
+        },
+        {
+          "title": "全食物配方的安全性",
+          "question": "whole-food 配方在研究前要先處理哪些安全問題？",
+          "answer": "要確認滅菌與保存、污染、蛋白質完整性、黏度、管路相容性、耐受性、過敏原、成本、批次變異和醫院供應，不可只用天然或植物性標籤判定優勢。",
+          "tags": [
+            "全食物配方",
+            "管路安全",
+            "耐受性"
+          ]
+        },
+        {
+          "title": "未來試驗的完整測量",
+          "question": "未來嚴謹試驗應測量什麼？",
+          "answer": "除了死亡、感染、呼吸器天數、住院天數、餵食耐受與功能，也應縱向測量糞便菌相、SCFA、腸道屏障指標，並完整記錄配方、餵食中斷、抗生素與病情。",
+          "tags": [
+            "研究設計",
+            "微生物相",
+            "病人重要結果"
+          ]
+        }
+      ],
+      "completedAt": "2026-09-03T12:45:33.804Z"
+    },
+    {
+      "id": "doi:10.1097/cce.0000000000001465:review",
+      "paperId": "doi:10.1097/cce.0000000000001465",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "What Are We Actually Feeding ICU Patients? The Case for Studying Formula Composition.",
+      "authors": "Morowitz M, Simon D, Huang D, Martinez E, Mehta N",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.1097/CCE.0000000000001465",
+      "abstract": "Large randomized controlled trials testing the quantity and timing of enteral nutrition (EN) in critically ill patients have consistently failed to demonstrate benefit. We propose that these negative results may partly reflect an unexamined variable: the composition of EN formulas themselves. Most widely used formulas rely on corn-derived simple carbohydrates, isolated functional fibers, dairy-based proteins, and omega-6-rich vegetable oils, ingredients selected largely for manufacturing efficiency and shelf stability rather than clinical evidence. These components bear little resemblance to whole foods, and their distinct effects on metabolism, inflammation, and gut function have received little study in critical illness. Commercially available whole-food and plant-based EN formulas now offer compositionally distinct alternatives, yet no rigorous trials have compared them to conventional formulas in critically ill patients. We argue for a paradigm shift from volume-based to composition-focused nutrition research, pairing patient-centered clinical outcomes with mechanistic endpoints, including effects on the gut microbiome.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42640598/",
+      "category": "recommended",
+      "tags": [
+        "design:randomized controlled",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "precision nutrition",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "ICU 腸道營養配方組成研究缺口的品質評讀",
+      "content": "# ICU 腸道營養配方組成研究缺口的品質評讀\n\n## 研究問題與研究設計\n\n本文是 Critical Care Explorations 的評論／觀點文章，問題不是比較兩種配方的臨床試驗，而是提出：過去 ICU 腸道營養（enteral nutrition, EN）研究多聚焦「餵多少、何時餵」，是否忽略了「配方由什麼組成」。作者以常見商業配方的標示、既有營養與微生物相研究，以及 ICU 的安全限制，主張需要直接研究碳水化合物、纖維、蛋白質與脂肪來源。\n\n- 文章引用 NUTRIREA-2、TARGET、EDEN、PermiT 等餵食量／時機試驗，指出這些試驗未一致證明增加或調整供給量能改善臨床結果；但這並不等於已證明配方組成是失敗原因。\n- Table 1 列出多種常見或可取得的配方，作者注意到部分產品以 corn maltodextrin、corn syrup 或 corn syrup solids 為主要碳水化合物，纖維含量和來源差異很大，蛋白質可來自乳蛋白、酪蛋白、黃豆或水解乳清，脂肪則常含菜籽油、玉米油、黃豆油、紅花油或 MCT。\n- 作者把 whole-food／plant-based EN 視為可比較的替代方案，提出未來應做配方對配方的嚴謹試驗，同時測量病人重要結果與腸道微生物相、短鏈脂肪酸和腸道屏障等機轉終點。\n- 這不是 systematic review、meta-analysis 或 RCT；沒有受試者分派、沒有新的 ICU outcome 資料，也沒有證明任何特定商品或成分優於現行配方。\n\n## 品質快照\n\n### 優點\n\n- 把 ICU 營養研究的問題從總熱量、蛋白質克數擴展到原料來源、纖維物理性質、脂肪組成和微生物相，提出可被試驗檢驗的研究架構。\n- 同時處理成人與兒科 ICU，並承認年齡造成的微生物相差異與配方差異，沒有假裝兩者可直接互換。\n- 不只談 whole-food 配方的可能優點，也列出滅菌、保存、營養一致性、管路阻塞、黏度、耐受性、過敏原、成本和批次差異等實際安全與可行性問題。\n- 未把腸道菌相、SCFA 或 omega-6 的機轉假說當成臨床療效；文章結論是呼籲研究，而非建議 ICU 立即更換全部配方。\n\n### 主要限制\n\n1. 這是作者觀點／評論，不是系統性證據整合；選取的研究、產品標籤和機轉文獻可能受作者關注的研究方向影響，沒有預先註冊的搜尋、納入流程或偏倚評估。\n2. Table 1 的產品成分是標籤與廠商網站在 2026 年 2 月取得的描述，配方、地區版本、批次與實際給藥量可能不同；「超加工」或原料來源本身不能直接預測 ICU outcome。\n3. 從纖維被腸道菌發酵、產生 SCFA、支持腸道屏障的生理機轉，推到危重病人死亡、感染、呼吸器天數或住院天數的改善，中間仍缺少直接的配方比較試驗。\n4. 作者引用的 omega-3、益生菌、益生元及植物蛋白研究，族群、劑量、配方、疾病狀態和 outcome 不同；不能用慢性病、動物或非 ICU 研究替代 ICU 配方證據。\n5. 批評現有配方以製造效率和保存穩定為主時，仍需同時考慮這些設計帶來的感染控制、營養標準化、管路安全與供應可靠性；評論沒有提供完整成本效益或安全性資料。\n6. 文章沒有界定不同 ICU 亞群的優先配方問題，例如休克、腎衰竭、ARDS、兒科或高誤吸風險病人；即使未來有結果，也可能需要依病情和耐受性分層。\n\n## 主要主張與保守解讀\n\n作者的核心觀察是：多數商業 EN 配方的碳水化合物常以 corn maltodextrin、corn syrup 或 corn syrup solids 為主，纖維含量通常低於健康成人建議量且來源常是分離的功能性纖維；蛋白質與脂肪來源也有差異。這些成分確實可能影響吸收、發酵、微生物相、腸道屏障或發炎，但「可能影響」不等於已知會使危重病人的臨床結果變好或變壞。\n\n文章把纖維的溶解性、黏度與可發酵性連到 SCFA 和腸道屏障，並指出危重病人有菌相失衡。這是一條合理的機轉研究路徑，但 ICU 中菌相同時受抗生素、疾病嚴重度、腸道灌流、藥物、餵食中斷與住院環境影響；若沒有縱向糞便採樣、SCFA、腸道屏障指標和配方暴露的同步資料，不能把菌相差異歸因於配方。\n\n對蛋白質，文章提醒只看每日克數可能忽略胺基酸來源、白胺酸、消化性和乳／植物蛋白差異；對脂肪，則討論 omega-6 豐富配方與發炎假說，以及 omega-3 試驗中對照配方不同可能造成的解讀差異。但作者也承認目前沒有直接比較乳源與非乳源蛋白在 ICU 病人的嚴謹試驗，whole-food 配方的耐受性、黏度、管路相容性、成本和臨床效益仍未知。\n\n因此，這篇文章最有價值的結論是研究設計建議：未來做頭對頭配方試驗，預先定義死亡、感染、呼吸器天數、住院天數、腹瀉、餵食達標和病人功能等重要結果，並同步做微生物相、SCFA、糞便 calprotectin 或其他腸道屏障指標。它不是「現在 ICU 應改用全食物配方」的臨床指引。\n\n## Critical Appraisal／GRADE\n\n對主張「腸道營養配方的原料組成是尚未充分研究、但值得以臨床與機轉終點直接比較的研究變項；目前不能證明 whole-food、plant-based 或任何特定碳水／纖維／蛋白質／脂肪來源能改善危重病人 outcome」的證據，依 deterministic `grade_judge.py` 以觀點性證據 starting level=low，對 risk of bias、inconsistency、indirectness 和 imprecision 各降一級，publication bias 不額外降級，最後為 Very low（⊕◯◯◯）。\n\n- risk of bias：評論沒有系統性搜尋與正式偏倚評估，也沒有新的受試者資料；商品標籤和挑選的機轉研究不足以估計臨床效應。\n- inconsistency：引用的 EN 量／時機試驗、omega-3、纖維、益生菌與非 ICU 蛋白質研究在族群、配方和 outcome 上高度異質，不能合併成一致的配方效果。\n- indirectness：不少機轉或比較證據來自非危重病人、兒童、慢性病或動物；推到成人 ICU、兒科 ICU 或特定病情均需直接試驗。\n- imprecision：作者明確指出尚無嚴謹的 ICU 配方頭對頭試驗，因此任何特定配方對死亡、感染或住院結果的效應都尚未估計。\n\nVery low 表示目前對配方組成的臨床效果幾乎沒有可靠確定性，不表示配方成分不重要。臨床上仍應依現行指南、病情、腎肝功能、血糖、胃腸耐受、誤吸風險、供應安全和個別營養目標選擇 EN；不可因這篇評論就自行停用標準配方或把商業 whole-food 產品當成已證實治療。\n\n`argdown_lint.py` 對上述「研究缺口／待驗證假說」主張回傳 clean。\n\n## 白話導讀\n\n這篇文章請我們不要只看 ICU 病人一天餵進多少熱量或蛋白質，也要問配方裡的碳水化合物、纖維、蛋白質和油脂從哪裡來。作者注意到很多常見配方使用玉米來源的快速吸收碳水化合物、分離纖維、乳／黃豆蛋白和不同植物油；有些全食物或植物配方也已經買得到。可是文章不是比較兩種配方的臨床試驗，沒有證明哪一種能讓病人活得更久、少感染、少用呼吸器或更快出院。它提出的是一個值得做的問題：未來研究要把「配方內容」和「餵食量、時機」分開，並同時看病人真正重要的結果與腸道菌相機轉。\n\n## 臨床應用\n\n- 目前可做的是把配方標籤、實際攝取量、餵食中斷、腹瀉／便秘、血糖、腎功能、液體限制與病情放在同一個營養評估中；不能只憑「全食物」或「植物性」標籤判定較好。\n- 需要高蛋白或高熱量時，先依 ICU 營養指引與病人耐受性設定目標，再確認蛋白質來源、滲透壓、纖維、脂肪、微量營養素和水分是否適合。\n- 腹瀉、腸麻痺、誤吸風險、休克或腎肝功能異常者，配方変更應由 ICU、醫師、營養師和護理團隊共同評估；不能用機轉假說取代安全監測。\n- 對新型 whole-food 或 plant-based 配方，應先查證產品的營養完整性、管路相容性、黏度、保存與污染風險、成本和醫院供應，再討論個別試用。\n- 若參與研究或品質改善，可記錄配方實際暴露、餵食達標、胃腸症狀、抗生素、疾病嚴重度和臨床 outcome，避免只追蹤菌相或 SCFA 而忽略病人重要結果。\n\n## 研究限制與待查問題\n\n1. 需要成人與兒科 ICU 分開、依病情分層的隨機頭對頭 EN 配方試驗，預先定義安全性與病人重要 outcome。\n2. 需要完整記錄配方原料、實際攝取、餵食中斷、藥物與抗生素，並以縱向糞便採樣、SCFA、腸道屏障指標研究可能機轉。\n3. 需要比較完整食物基質、分離功能性纖維、不同蛋白質來源與脂肪酸組成，而不是把多種成分綁成不可拆解的複方。\n4. 需要評估腹瀉、便秘、胃排空、誤吸、管路阻塞、過敏、污染、成本和工作流程，不能只追求菌相多樣性。\n5. 需要釐清哪些亞群可能受益或受害，以及配方效果是否會和餵食方式、連續／間歇灌食、抗生素和疾病嚴重度交互作用。\n\n## 證據位置\n\n- 核心問題、評論定位與配方研究主張：`Abstract`、`Key Points` 與開頭段落。\n- 常見配方碳水、纖維、蛋白質與脂肪來源：`Table 1. Composition of Commonly Used Enteral Nutrition Formulas`。\n- 餵食量／時機試驗與研究缺口：NUTRIREA-2、TARGET、EDEN、PermiT 討論段落。\n- 纖維、SCFA、菌相與腸道屏障：`Fiber`、`gut microbiome` 相關段落及 references 8–10、17–21。\n- whole-food 配方安全、耐受、成本與管路限制：`To be clear` 起始段落及結尾研究建議。\n- 完整來源：Morowitz MJ, Simon DM, Huang DT, Martinez EE, Mehta NM. *What Are We Actually Feeding ICU Patients? The Case for Studying Formula Composition.* Crit Care Explor. 2026;8(9):e1465. doi:10.1097/CCE.0000000000001465. PMCID `PMC13506233`，Worker verified PMC HTML，source SHA-256 `d3e20a82efd0fc716018928f870beba67b5890130c03a49db7de40845988b410`。\n- 本次為 Worker focused-quick `paper-review`；已逐段讀取完整 PMC HTML。本文屬評論／假說生成，未以摘要或商品標籤取代臨床試驗證據。",
+      "cards": [],
+      "completedAt": "2026-09-03T12:42:37.408Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1882788:digest",
+      "paperId": "doi:10.3389/fnut.2026.1882788",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Could diet and body composition influence vaginitis treatment success? A clinical nutrition-based analysis.",
+      "authors": "Tazeoglu A, Ergul Y",
+      "journal": "Frontiers in Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fnut.2026.1882788",
+      "abstract": "To investigate the association between anthropometric characteristics, dietary composition, and obstetric/gynecological history and the risk of treatment failure among women diagnosed with vaginitis. A total of 106 women diagnosed with vaginitis were included in this prospective observational study. Patients were divided into two groups: those who recovered after treatment and those with treatment-resistant infections. Demographic data, body mass index (BMI), abdominal fat ratio, daily fiber intake, dietary carbohydrate and simple sugar percentages, diabetes status, menopausal state, Obstetric history, and prior episodes of vaginitis were recorded. Comparisons between groups were analyzed using t-tests and Chi-square tests. Multivariate logistic regression was used to identify predictors of treatment failure. Patients in the treatment-resistant group had significantly higher BMI, abdominal fat ratio, and dietary carbohydrate and simple sugar intake (p < 0.05). Fiber intake was lower in this group but did not reach statistical significance. Diabetes mellitus, vaginal delivery, and history of recurrent vaginitis were more frequent among treatment-resistant patients. Multivariate analysis identified diabetes (p = 0.02), history of vaginal delivery (p = 0.01), and recurrent vaginitis (p = 0.009) as significant predictors of treatment failure. This study demonstrates that poor dietary quality, increased central adiposity, and metabolic and obstetric risk factors are associated with vaginitis treatment failure.",
+      "legalFullTextUrl": "https://doi.org/10.3389/fnut.2026.1882788",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42620497/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "clinical nutrition technology",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "飲食、體組成與陰道炎治療成功的全文內容整理",
+      "content": "# 飲食、體組成與陰道炎治療成功的全文內容整理\n\n> [!summary] 30 秒層：一句話 + 重點\n> 這篇土耳其單中心前瞻性觀察研究追蹤 106 位陰道炎女性約 2 週；治療抗性組的 BMI、總體脂、腹部脂肪、碳水化合物與單糖占比較高，而糖尿病、陰道生產與復發性陰道炎在多變項模型中仍與治療抗性相關，但研究沒有測試飲食介入，不能證明飲食或體組成造成治療失敗。\n> - 106 人中 87 人（82.1%）恢復，19 人（17.9%）被分類為治療抗性／症狀持續。\n> - 治療抗性組 BMI 29.81 對 26.15 kg/m²，總體脂 37.92 對 34.71%，腹部脂肪 41.28 對 33.18%。\n> - 碳水化合物占比 76.41% 對 69.35%，單糖占比 14.02% 對 11.17%；纖維 19.87 對 21.09 g，未達顯著差異。\n> - 多變項 OR：糖尿病 3.43、陰道生產 5.94、復發性陰道炎 9.96；部分區間很寬，不能當成確定因果或個人預測值。\n\n## 5 分鐘層：全文地圖\n\n文章從陰道炎常見、反覆與治療後仍有症狀的臨床問題出發，提出飲食、肥胖、身體組成與糖尿病可能和治療反應同時相關。作者接著說明前瞻性觀察設計、患者來源、常規治療和 2 週追蹤，再描述 3 天飲食回憶、BeBiS 飲食分析與 TANITA 多頻 BIA。結果比較恢復組與治療抗性組的體位、體脂、腹部脂肪、營養素比例及臨床特徵，並以多變項 logistic regression 找出相關變項。Discussion 將飲食品質、代謝健康、肥胖、糖尿病與反覆感染放在同一個照護脈絡，但本研究沒有分派低糖飲食、減重或其他營養治療，也沒有測量微生物相，所以只能產生假說與臨床評估線索。\n\n## 研究對象與流程\n\n**要點**：這是完成常規治療追蹤的女性門診／臨床樣本，不是飲食治療試驗。\n\n- 124 人初始評估，18 人排除：8 人有婦科共病、6 人未完成追蹤、4 人 outcome 資料不完整，最後 106 人。\n- 平均年齡 45.05±13.87 歲；87 人恢復，19 人治療抗性或症狀持續。\n- 研究團隊沒有控制治療種類；由獨立婦科醫師在約 2 週依臨床症狀判定恢復或持續。服藥不規則或未完成追蹤者被排除，因此結果也可能只代表能完成照護流程的人。\n- 陰道炎不是單一疾病。若細菌性陰道症、念珠菌、滴蟲、混合感染或非感染性發炎被合併，兩組的治療反應未必能直接比較。\n\n## 飲食與身體組成測量\n\n**要點**：測量提供營養線索，但不等於長期暴露或介入效果。\n\n每位受試者接受 3 天飲食回憶，由 BeBiS 軟體估算營養素；以 TANITA 多頻生物電阻分析測量 BMI、總體脂與腹部脂肪等身體組成。治療抗性組的碳水化合物與單糖占比較高，纖維量則沒有顯著差異。3 天回憶可能受記憶誤差、平日與週末差異、症狀期間飲食改變影響；BIA 也會受水分、測量時機和設備演算法影響。研究沒有用連續血糖、HbA1c、胰島素阻抗、發炎指標、陰道／腸道微生物相或長期飲食紀錄來驗證機轉。\n\n## 組間差異與多變項結果\n\n**要點**：組間差異是關聯訊號，不能直接變成「吃糖導致治療失敗」。\n\n治療抗性組 BMI 29.81 對 26.15 kg/m²，總體脂 37.92 對 34.71%，腹部脂肪 41.28 對 33.18%。碳水化合物占比 76.41% 對 69.35%，單糖占比 14.02% 對 11.17%；纖維 19.87 對 21.09 g，研究中未達統計顯著。糖尿病比例為 63.2% 對 33.3%（p=.02），既往生產 94.7% 對 70.1%（p=.03），陰道生產 88.9% 對 57.3%（p=.01），復發性陰道炎 94.7% 對 64.4%（p=.009）。停經狀態沒有顯著差異。\n\n多變項分析中，糖尿病 OR 3.43（95% CI 1.22–9.64）、產科史 OR 7.67（0.97–60.52）、陰道生產 OR 5.94（1.26–28.14）、復發性陰道炎 OR 9.96（1.27–78.25）；停經 OR 1.93（0.67–5.55）和陰道手術 OR 2.31（0.63–8.49）未達顯著。產科史、陰道生產和復發性陰道炎的信賴區間寬，表示估計不精確，也不能把 OR 直接當作單一個人的治療失敗機率。\n\n## 白話理解\n\n研究發現「仍有症狀的人」同時有較高體脂、較高 BMI 和較高碳水／單糖占比，也比較常有糖尿病、陰道生產或反覆陰道炎。這很值得在臨床訪談時注意，但它沒有回答「如果把糖分降下來，治療就會成功嗎？」因為研究沒有把人隨機分配到不同飲食，也沒有統一藥物或按感染類型分層。糖尿病可能影響免疫、血糖和感染環境；高 BMI 可能和代謝、荷爾蒙、活動、就醫或其他因素相連，但這些可能路徑不能只靠本研究的組間差異確認。\n\n## 實務帶走\n\n1. 症狀持續或反覆時先重新確認病因與檢驗，區分細菌性陰道症、念珠菌、滴蟲、混合感染、非感染性發炎及其他婦科問題；不要只歸因於飲食。\n2. 有糖尿病或代謝風險者，可把血糖控制、用藥、感染史、飲食與體組成放進整合評估；營養諮詢是輔助照護，不取代婦科治療。\n3. 飲食訪談可找出含糖飲、精製澱粉與整體飲食品質的可改變處，但不要把「完全禁糖」或某個 BMI 目標宣稱為陰道炎治療。\n4. 若要改善飲食，依血糖、文化、食物可得性與個人目標，優先減少過量含糖飲與高精製食品，增加整體飲食品質；同時追蹤症狀、檢驗與治療適從性。\n5. 反覆陰道炎、糖尿病與既往生產史可用來安排較完整的病史詢問與追蹤，不應拿來責怪患者或當成不可改變的命運。\n\n## 自我測驗\n\n> [!question]- Q1：為什麼治療抗性組吃較多碳水化合物和單糖，仍不能說高糖飲食造成治療失敗？\n> 因為研究是觀察性研究，沒有分派飲食、沒有控制治療，也沒有證明飲食先於結果或排除糖尿病、感染類型、適從性等混雜；組間差異只能表示同時出現的關聯。\n\n> [!question]- Q2：哪些因素在多變項模型中仍與治療抗性相關？\n> 糖尿病、既往產科史、陰道生產和復發性陰道炎；其中產科史、陰道生產和復發性陰道炎的信賴區間寬，應視為不精確的線索。\n\n> [!question]- Q3：3 天飲食回憶和 BIA 的主要限制是什麼？\n> 3 天回憶可能不代表長期飲食，且會受回憶與週末／平日差異影響；BIA 受水分、測量時機與設備演算法影響，不能等同精確的長期脂肪或代謝測量。\n\n> [!question]- Q4：臨床上可以怎麼使用這篇研究？\n> 把糖尿病、代謝風險、飲食與反覆史納入症狀持續者的整合評估，並先確認感染類型與治療適從性；可以提供個別化營養協助，但不能用飲食取代診斷、抗感染治療或追蹤。\n\n## Reference 與全文證據\n\n`Tazeoglu A, Ergul Y. Could diet and body composition influence vaginitis treatment success? A clinical nutrition-based analysis. Front Nutr. 2026. doi:10.3389/fnut.2026.1882788.`\n\n完整來源為 PMCID `PMC13485544` 的已核驗 PMC HTML，source SHA-256 `e803acbb9bdde70506e6114b822a392e684899e09020a0bd9540cfeec990ebf1`；全文包含摘要、方法、受試者流程、飲食與 BIA 測量、組間結果、多變項分析、討論、限制與結論。本次為 Worker batch 的 `paper-digest`，另有獨立 `paper-review`；已讀取全文，不以摘要代替全文，並保留「關聯不等於飲食治療效果」的限制。",
+      "cards": [
+        {
+          "title": "關聯不等於飲食因果",
+          "question": "為什麼治療抗性組吃較多碳水化合物和單糖，仍不能說高糖飲食造成治療失敗？",
+          "answer": "因為研究是觀察性研究，沒有分派飲食、沒有控制治療，也沒有排除糖尿病、感染類型、適從性等混雜；組間差異只能表示同時出現的關聯。",
+          "tags": [
+            "飲食",
+            "觀察性研究",
+            "因果推論"
+          ]
+        },
+        {
+          "title": "多變項相關因素",
+          "question": "哪些因素在多變項模型中仍與治療抗性相關？",
+          "answer": "糖尿病、既往產科史、陰道生產和復發性陰道炎；其中產科史、陰道生產和復發性陰道炎的信賴區間寬，應視為不精確的線索。",
+          "tags": [
+            "糖尿病",
+            "復發性陰道炎",
+            "多變項分析"
+          ]
+        },
+        {
+          "title": "測量限制",
+          "question": "3 天飲食回憶和 BIA 的主要限制是什麼？",
+          "answer": "3 天回憶可能不代表長期飲食，且會受回憶與週末／平日差異影響；BIA 受水分、測量時機與設備演算法影響，不能等同精確的長期脂肪或代謝測量。",
+          "tags": [
+            "飲食回憶",
+            "BIA",
+            "測量誤差"
+          ]
+        },
+        {
+          "title": "臨床使用邊界",
+          "question": "臨床上可以怎麼使用這篇研究？",
+          "answer": "把糖尿病、代謝風險、飲食與反覆史納入症狀持續者的整合評估，先確認感染類型與治療適從性；營養協助不能取代診斷、抗感染治療或追蹤。",
+          "tags": [
+            "臨床應用",
+            "營養評估",
+            "治療安全"
+          ]
+        }
+      ],
+      "completedAt": "2026-09-03T12:38:02.801Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1882788:review",
+      "paperId": "doi:10.3389/fnut.2026.1882788",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Could diet and body composition influence vaginitis treatment success? A clinical nutrition-based analysis.",
+      "authors": "Tazeoglu A, Ergul Y",
+      "journal": "Frontiers in Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fnut.2026.1882788",
+      "abstract": "To investigate the association between anthropometric characteristics, dietary composition, and obstetric/gynecological history and the risk of treatment failure among women diagnosed with vaginitis. A total of 106 women diagnosed with vaginitis were included in this prospective observational study. Patients were divided into two groups: those who recovered after treatment and those with treatment-resistant infections. Demographic data, body mass index (BMI), abdominal fat ratio, daily fiber intake, dietary carbohydrate and simple sugar percentages, diabetes status, menopausal state, Obstetric history, and prior episodes of vaginitis were recorded. Comparisons between groups were analyzed using t-tests and Chi-square tests. Multivariate logistic regression was used to identify predictors of treatment failure. Patients in the treatment-resistant group had significantly higher BMI, abdominal fat ratio, and dietary carbohydrate and simple sugar intake (p < 0.05). Fiber intake was lower in this group but did not reach statistical significance. Diabetes mellitus, vaginal delivery, and history of recurrent vaginitis were more frequent among treatment-resistant patients. Multivariate analysis identified diabetes (p = 0.02), history of vaginal delivery (p = 0.01), and recurrent vaginitis (p = 0.009) as significant predictors of treatment failure. This study demonstrates that poor dietary quality, increased central adiposity, and metabolic and obstetric risk factors are associated with vaginitis treatment failure.",
+      "legalFullTextUrl": "https://doi.org/10.3389/fnut.2026.1882788",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42620497/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "clinical nutrition technology",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "飲食、體組成與陰道炎治療失敗關聯的品質評讀",
+      "content": "# 飲食、體組成與陰道炎治療失敗關聯的品質評讀\n\n## 研究問題與研究設計\n\n本文探討陰道炎患者的飲食型態、身體組成與治療後症狀是否持續的關聯。研究資料來自土耳其單中心、前瞻性觀察性研究；研究團隊沒有分派飲食或治療，也沒有控制臨床醫師實際採用的治療方案，因此結果只能支持預測或關聯，不能直接推論飲食或體脂造成治療失敗。\n\n- 124 名初始評估者中，18 人因婦科共病、未完成追蹤或資料不完整排除，最後 106 人納入；其中 87 人（82.1%）被分類為治療成功，19 人（17.9%）為治療抗性／症狀持續。\n- 追蹤約 2 週，由獨立婦科醫師依臨床症狀判定恢復或持續；不規則服藥或未完成追蹤者被排除。研究並非隨機試驗，治療內容由常規照護決定。\n- 飲食以 3 天飲食回憶、BeBiS 軟體估算；身體組成以 TANITA 多頻生物電阻分析測量。研究納入 BMI、總體脂、腹部脂肪、碳水化合物、單糖與纖維等資料。\n- 研究目的較接近找出治療反應不佳的臨床與營養相關線索，而不是測試低糖飲食、減重或營養諮詢是否能改善陰道炎治療結果。\n\n## 品質快照\n\n### 優點\n\n- 採前瞻性收案並安排追蹤，而不是只從既有病歷事後尋找暴露與結果的關係。\n- 同時記錄 BMI、總體脂與腹部脂肪，以及碳水化合物、單糖和纖維攝取，讓臨床營養問題不只停留在體重一項指標。\n- 研究報告了排除流程、治療抗性比例、糖尿病與復發史等臨床變項，也使用多變項分析檢視部分混雜因素。\n- 把治療失敗放在 2 週的臨床追蹤情境中觀察，對門診如何辨認可能需要較密切追蹤的個案有一定啟發性。\n\n### 主要限制\n\n1. 這是單中心、樣本 106 人的觀察性研究；治療並非由研究團隊標準化或隨機分派，無法證明飲食、BMI 或腹部脂肪造成治療失敗。\n2. 研究以臨床症狀分類恢復與持續，但陰道炎可能包括細菌性陰道症、外陰陰道念珠菌病、滴蟲感染或混合感染；不同病因、檢驗結果、病原體與治療反應未必能合併解讀。\n3. 3 天飲食回憶容易受記憶、週末／平日差異與當時症狀影響，未必代表平常飲食；研究也沒有客觀測量血糖控制、胰島素阻抗、微生物相或發炎指標來連接飲食與感染結果。\n4. 身體組成使用 BIA，受水分、測量時機與設備演算法影響；單次 BMI 或脂肪測量也不能說明長期體重變化或脂肪分布變化。\n5. 治療抗性組僅 19 人，多變項模型的勝算比信賴區間寬，像產科史、陰道生產與復發性陰道炎的估計仍有明顯不確定性。\n6. 糖尿病、既往生產、陰道生產與復發性陰道炎可能同時代表年齡、荷爾蒙、就醫史、暴露史、治療適從性或感染類型差異；即使調整後仍有關聯，也不代表每一條關聯都是可改變的原因。\n\n## 主要結果與保守解讀\n\n106 名女性平均年齡為 45.05±13.87 歲。87 人恢復，19 人仍有症狀或被歸為治療抗性。治療抗性組的 BMI 較高（29.81 對 26.15 kg/m²），總體脂（37.92 對 34.71%）與腹部脂肪（41.28 對 33.18%）也較高。飲食上，碳水化合物占比（76.41% 對 69.35%）與單糖占比（14.02% 對 11.17%）較高；纖維量則為 19.87 對 21.09 g，研究中未達統計顯著。這些是組間觀察到的差異，不是介入後的變化。\n\n糖尿病在治療抗性組較常見（63.2% 對 33.3%，p=.02），既往生產（94.7% 對 70.1%，p=.03）、陰道生產（88.9% 對 57.3%，p=.01）與復發性陰道炎（94.7% 對 64.4%，p=.009）也較常見。多變項結果顯示，糖尿病 OR 3.43（95% CI 1.22–9.64）、產科史 OR 7.67（0.97–60.52）、陰道生產 OR 5.94（1.26–28.14）、復發性陰道炎 OR 9.96（1.27–78.25）與治療抗性有關。產科史、陰道生產和復發性陰道炎的區間很寬，表示估計精確度有限。停經狀態與陰道手術則沒有顯著關聯。\n\n因此，較可靠的解讀是：在這個特定單中心樣本中，糖尿病、陰道生產與復發性陰道炎可作為需要確認病因、治療適從性與追蹤安排的臨床線索；較高 BMI、腹部脂肪、碳水化合物與單糖攝取則與治療抗性組同時出現。研究沒有測試飲食改變，也沒有證明降低糖分、減重或增加纖維會提高治療成功率。作者提出飲食品質與代謝狀態值得納入照護，但這仍是合理假說，不是本研究已證實的治療效果。\n\n## Critical Appraisal／GRADE\n\n對主張「在這個單中心陰道炎女性樣本中，較高 BMI／腹部脂肪與較高碳水化合物、單糖攝取和治療抗性同時出現，而糖尿病、陰道生產及復發性陰道炎是多變項模型中的相關因子；但不能由此推論飲食或身體組成造成治療失敗」的證據，依 deterministic `grade_judge.py` 以觀察性研究 starting level=low，對 risk of bias、inconsistency、indirectness 和 imprecision 各降一級，publication bias 不額外降級，最後為 Very low（⊕◯◯◯）。\n\n- risk of bias：治療方案未由研究控制，感染類型與臨床嚴重度的異質性、殘餘混雜及 3 天飲食回憶可能影響結果；BIA 也是間接的體組成測量。\n- inconsistency：本研究只有一個單中心 cohort，沒有獨立隊列重複估計，且營養變項與多種臨床因素彼此相關，不能確認各因素的穩定方向或相對重要性。\n- indirectness：結果只適用於土耳其單中心、接受常規治療並完成約 2 週追蹤的女性，不能直接外推到不同病因、男性、孕婦、住院患者或其他治療路徑。\n- imprecision：治療抗性組只有 19 人，多變項 OR 的信賴區間寬，部分區間接近或跨過無差異；飲食差異也沒有介入效果估計。\n\nVery low 表示我們對效應大小和因果方向的信心很低，不表示營養或代謝評估沒有臨床價值。可接受的說法是「飲食與代謝狀態可作為整合評估的一部分」，不可寫成「高糖飲食導致陰道炎治療失敗」或「減重／低糖飲食已被證明能治好陰道炎」。\n\n`argdown_lint.py` 對本次保守、非因果主張回傳 clean。\n\n## 白話導讀\n\n這篇研究追蹤 106 位有陰道炎的女性，看兩週後哪些人症狀恢復、哪些人仍然不舒服。仍有症狀的人平均 BMI、體脂、腹部脂肪和碳水化合物／單糖占比比較高，糖尿病、陰道生產和反覆陰道炎也比較常見。可是這不是把人分成低糖飲食與一般飲食的試驗；研究者沒有改變飲食，也沒有統一所有人的藥物或治療。因此我們只能說這些特徵在這群人中一起出現，不能說哪一個就是治療失敗的原因。真正照護時，先確認感染類型、檢驗、用藥與追蹤，再把血糖、飲食和體組成當作可能影響整體健康與復發風險的背景一起處理。\n\n## 臨床應用\n\n- 對症狀持續或反覆者，先重新確認是細菌性陰道症、念珠菌、滴蟲、混合感染、非感染性發炎，還是其他婦科問題；不可只用飲食解釋。\n- 若有糖尿病或高代謝風險，評估血糖控制、用藥、感染史、攝取情況與就醫適從性；營養師可協助建立可執行的飲食改善，但不能取代婦科診斷和抗感染治療。\n- 3 天飲食回憶可作初步訪談，不宜當成長期飲食的精確測量。若要追蹤，應重複記錄平日與週末，配合體重、腰圍、血糖與症狀／檢驗結果，而非只追求單一 BMI 目標。\n- 對碳水化合物或單糖攝取偏高者，應依整體飲食、血糖、文化與可負擔性調整，重點是降低精製糖飲與高精製食品的過量攝取，不把「完全禁糖」當作陰道炎治療。\n- 反覆陰道炎與陰道生產史是研究中的相關線索，不是病人的責任或不可改變的命運；應用於安排檢驗、衛教和追蹤，不應用於貼標籤。\n\n## 研究限制與待查問題\n\n1. 需要依陰道炎病因分層、較大樣本、多中心前瞻性研究，並標準化治療和 2 週以上的症狀與檢驗追蹤。\n2. 需要直接測量血糖／代謝狀態、陰道與腸道微生物相、發炎和荷爾蒙，釐清營養與感染表型的可能路徑。\n3. 需要飲食或代謝介入試驗，預先設定臨床重要結果，才能判斷飲食諮詢、血糖管理或體重介入是否改善治療反應與復發。\n4. 需要明確分辨治療失敗、再感染、復發、持續症狀和非感染性症狀，避免把不同問題合併成一個 outcome。\n5. 需要報告實際抗感染藥物、療程、依從性、伴侶／性行為與既往感染史，減少治療路徑差異造成的混雜。\n\n## 證據位置\n\n- 研究設計、納入／排除與 2 週追蹤：`Methods`、`Study population` 與 outcome 定義。\n- 飲食回憶與 BeBiS、TANITA BIA：`Dietary assessment` 與 `Body composition` 方法段落。\n- BMI、體脂、腹部脂肪、碳水化合物、單糖、纖維及臨床特徵差異：結果表與 `Results`。\n- 糖尿病、產科史、陰道生產、復發性陰道炎和停經狀態的 OR：多變項分析結果表。\n- 單中心、觀察性設計、未控制治療與飲食測量限制：`Discussion`、`Limitations` 與 `Conclusion`。\n- 完整來源：Tazeoglu A, Ergul Y. *Could diet and body composition influence vaginitis treatment success? A clinical nutrition-based analysis.* Front Nutr. 2026. doi:10.3389/fnut.2026.1882788. PMCID `PMC13485544`，Worker verified PMC HTML，source SHA-256 `e803acbb9bdde70506e6114b822a392e684899e09020a0bd9540cfeec990ebf1`。\n- 本次為 Worker focused-quick `paper-review`；已讀取 Worker 驗證的完整 PMC HTML 文字，未以摘要代替全文，也未把觀察性關聯改寫成飲食治療效果。",
+      "cards": [],
+      "completedAt": "2026-09-03T12:34:24.500Z"
+    },
+    {
+      "id": "doi:10.1253/circrep.cr-26-0004:digest",
+      "paperId": "doi:10.1253/circrep.cr-26-0004",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Association Between Nutritional Risk and Physical Function Improvements in Cardiovascular Disease Patients With Frailty in a Community-Based Care Ward.",
+      "authors": "Oda Y, Kitagaki K, Unzai H, Kihara C, Niwano M, Ueda C, Wada Y, Kaneko M, Otobe Y",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.1253/circrep.CR-26-0004",
+      "abstract": "We investigated the association between nutritional risk and improvement in physical function during hospitalization among patients with cardiovascular disease, particularly those with heart failure, admitted to a community-based care ward. We retrospectively analyzed 84 patients who underwent cardiac rehabilitation in a community-based care ward between July 2023 and May 2025. Nutritional risk on admission was assessed using the Mini Nutritional Assessment-Short Form (MNA-SF). Patients were classified into 2 groups: non-malnourished (normal/at risk; MNA-SF ≥8, n=43) and malnourished (MNA-SF ≤7, n=41). The primary outcome was no improvement in physical function (change in Short Physical Performance Battery (SPPB) [∆SPPB] ≤0). Sensitivity analysis used an alternative definition (∆SPPB ≤2). The association between malnutrition and outcome was analyzed using modified Poisson regression adjusted for propensity score. Overall, 21 patients (25.0%) showed no improvement in physical function (∆SPPB ≤0), whereas 53 (63.1%) showed no improvement using the alternative definition. Malnutrition was not associated with no improvement in physical function in the primary analysis (adjusted risk ratio: 1.16; 95% cconfidence interval [CI]: 0.52-2.64; P=0.71), whereas a significant association was observed in sensitivity analysis (adjusted risk ratio: 2.3; 95% CI: 1.19-4.42; P<0.001). Nutritional risk was not associated with no improvement in physical function in the primary analysis, although an association was observed in sensitivity analyses using the alternative definition.",
+      "legalFullTextUrl": "https://www.jstage.jst.go.jp/article/circrep/advpub/0/advpub_CR-26-0004/_pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42577654/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "chronic disease nutrition",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "社區照護病房衰弱心血管病人營養風險與功能改善的全文內容整理",
+      "content": "# 社區照護病房衰弱心血管病人營養風險與功能改善的全文內容整理\n\n> [!summary] 30 秒層：一句話 + 重點\n> 這篇日本單中心回溯性研究分析 84 名住進社區照護病房、接受心臟復健的衰弱心血管病人；MNA-SF ≤7 的營養不良在嚴格的「SPPB 沒增加或下降」定義下沒有顯著關聯，但在「增加不到 3 分」的敏感度定義下，功能改善不足的 adjusted RR 為 2.30，因此結果很依賴 outcome 定義。\n> - 84 人中 77 人有 HF，HFpEF 佔 HF 分類的 72.7%；中位年齡 87 歲，baseline SPPB 中位數 2。\n> - 41 人（49%）MNA-SF ≤7；主要 outcome ΔSPPB ≤0 共 21 人（25.0%）。\n> - 主要 adjusted RR 1.16（95% CI 0.52–2.64，p=0.71）；敏感度 adjusted RR 2.30（1.19–4.42，p<0.001）。\n> - 機構出院 adjusted RR 1.35（0.68–3.11，p=0.19），不能只用營養風險預測是否回家。\n\n## 5 分鐘層：全文地圖\n\n文章從高齡 CVD 病人常見衰弱、ADL 下降和社區照護病房的返家目標開始，提出入院營養風險可能影響心臟復健後的功能恢復與出院地點。作者說明單中心回溯性 cohort、MNA-SF、SPPB、modified Poisson regression 和 propensity score，接著報告 84 人的基線、復健內容、主要／敏感度結果和機構出院。Discussion 的關鍵是：營養風險可能是復健需求的提示，但病人年齡、HF、認知、功能、實際復健強度和社會支持都同時影響結果；研究沒有證明補充營養會讓 SPPB 增加。\n\n## 研究對象與流程\n\n**要點**：這是一群非常高齡、功能很差、以 HF 為主的病人，不是一般門診 CVD 族群。\n\n- 2023 年 7 月至 2025 年 5 月 107 名連續接受 CR；排除缺資料 10、入院 SPPB ≥9 的 10、轉科 1、住院死亡 2，最後 84 人。\n- 中位年齡 87（IQR 81–91）歲，BMI 18.9（16.7–21.5）kg/m²；HF 77 人（91.7%），其中 HFpEF 56 人（72.7%）。\n- 入院 SPPB 中位數 2，代表平衡、步速和椅子起立功能都很差；研究排除 SPPB ≥9 以減少 ceiling effect。\n- MNA-SF ≤7 為 malnourished 41 人，MNA-SF ≥8 為 non-malnourished 43 人。MNA-SF 是篩檢工具，不是完整 malnutrition 診斷。\n\n## CR 與測量方式\n\n**要點**：所有人都有 ADL training，但有氧、步態與肌力訓練的比例在兩組不同，這會影響功能結果解讀。\n\n病房 CR 每天 60 分鐘、每週 5 天，依體能與運動耐受性安排有氧器材、阻力、步態、肌力、ADL 和 conditioning。入院及出院測 SPPB，計算 ΔSPPB；出院到 special nursing home 或有照護服務的 senior housing 算 institutional care。propensity score 用年齡、性別、baseline SPPB、Barthel Index、HDS-R、BNP、長照保險與家庭組成估計。\n\n營養不良組較少接受有氧（12.2% 對 60.5%）、步態（70.7% 對 97.7%）和肌力（85.4% 對 100%）訓練，conditioning 比例則較高。這可能代表營養不良降低訓練耐受性，也可能是病情較重的標誌；這不是單純可由營養分數消除的差異。\n\n## 主要結果：定義會改變結論\n\n**要點**：先看研究預先定義的主要分析，再看敏感度分析，不能只留下顯著的 RR。\n\n以 ΔSPPB ≤0 定義沒有改善時，21/84（25.0%）沒有改善：malnourished 12/41（29.3%），non-malnourished 9/43（20.9%），adjusted RR 1.16（95% CI 0.52–2.64，p=0.71），沒有顯著差異。以 ΔSPPB ≤2 作敏感度定義時，53/84（63.1%）沒有達到 3 分改善：malnourished 35/41（85.4%），non-malnourished 18/43（41.9%），adjusted RR 2.30（1.19–4.42，p<0.001）。作者指出 CVD 病人 SPPB 的 minimal clinically important difference 可能約 3 分，所以敏感度定義有臨床理由，但它仍不能取代主要分析。\n\n## 出院地點\n\n機構出院 37/84（44.1%）；malnourished 23/41（56.1%），non-malnourished 14/43（32.6%）。未調整比例看起來不同，但 propensity score 調整後 RR 1.35（95% CI 0.68–3.11，p=0.19），沒有顯著關聯。返家或機構照護還會受到認知、家庭和居住、經濟、長照、既往機構照護、藥物負擔及居家支持影響，因此不能用 MNA-SF 單獨決定出院。\n\n## 白話理解\n\n這篇研究不是讓一組人補營養、另一組不補，而是回頭比較「入院時營養篩檢較差」的人在復健後進步多少。若只把 SPPB 完全沒增加算作沒改善，營養不良沒有顯著關聯；若把增加不到 3 分算作不足改善，營養不良組的風險較高。這告訴我們營養風險值得早期辨識，尤其可以提醒團隊安排更完整營養與復健評估，但不代表營養風險本身造成了恢復差，也沒有證明某種營養補充能改變結果。\n\n## 實務帶走\n\n1. 入院可先用 MNA-SF 分流，但低分後要接續體重變化、攝取量、吞嚥、肌力、肌少症、疾病負荷和 GLIM 所需資料。\n2. 營養師與復健團隊一起檢查能量／蛋白質需要、液體／鈉與腎功能限制，以及病人能否承受有氧、肌力和步態訓練。\n3. 低 SPPB 病人應按耐受性設計訓練；低營養風險可能同時是較重病情與較低復健劑量的訊號。\n4. 出院規劃要把功能、認知、家庭、長照、居住和照護能力一起納入，不能只看營養分數。\n5. HF 病人補充營養不可套用固定高量飲品，要考量液體、鈉、腎功能、食慾、吞嚥、血糖和藥物。\n\n## 自我測驗\n\n> [!question]- Q1：主要分析為什麼不能直接說營養不良和功能恢復差有關？\n> 研究預先的 ΔSPPB ≤0 主要 outcome 中，adjusted RR 1.16、p=0.71 沒有顯著關聯；顯著結果只出現在替代 ΔSPPB ≤2 的敏感度定義。\n\n> [!question]- Q2：MNA-SF ≤7 代表什麼？\n> 代表營養不良風險篩檢為高，不等同於完整 malnutrition 診斷；臨床還要評估攝取、體重、肌少症、吞嚥、疾病負荷並考慮 GLIM。\n\n> [!question]- Q3：為什麼兩組的復健內容很重要？\n> 營養不良組較少接受有氧、步態和肌力訓練，較多 conditioning；功能差可能反映營養、病情和復健劑量互相影響，不能只歸因於營養分數。\n\n> [!question]- Q4：能否用 MNA-SF 預測病人會不會回家？\n> 不能。機構出院調整後 RR 1.35、95% CI 0.68–3.11、p=0.19；出院地點還受認知、家庭、長照、經濟和居家支持影響。\n\n## Reference 與全文證據\n\n`Oda Y, Kitagaki K, Unzai H, et al. Association Between Nutritional Risk and Physical Function Improvements in Cardiovascular Disease Patients With Frailty in a Community-Based Care Ward. Circ Rep. 2026;8(8):1317–1325. doi:10.1253/circrep.CR-26-0004.`\n\n完整來源為 PMCID `PMC13454649` 的已核驗 PMC HTML，source SHA-256 `8566abb57f89bf70a2b5b9386e7e7eebd516747fb60700835a3fe331c1905d1e`；全文包含摘要、方法、Figure 1–2、Table 1–4、復健內容、限制、結論與參考文獻。本次為 Worker batch 的 `paper-digest`，另有獨立 paper-review 和 4 張理解型測驗卡。",
+      "cards": [
+        {
+          "title": "主要與敏感度結果",
+          "question": "為什麼不能只說營養不良和功能恢復差有關？",
+          "answer": "預先定義的 ΔSPPB≤0 主要分析 adjusted RR 1.16、p=0.71 沒有顯著關聯；顯著結果只出現在替代 ΔSPPB≤2 的敏感度定義。",
+          "tags": [
+            "MNA-SF",
+            "SPPB",
+            "敏感度分析"
+          ]
+        },
+        {
+          "title": "MNA-SF 的用途",
+          "question": "MNA-SF≤7 代表什麼？",
+          "answer": "代表營養不良風險篩檢為高，不等同完整 malnutrition 診斷；還要評估攝取、體重、肌少症、吞嚥、疾病負荷並考慮 GLIM。",
+          "tags": [
+            "營養篩檢",
+            "GLIM",
+            "高齡"
+          ]
+        },
+        {
+          "title": "復健劑量的混雜",
+          "question": "為什麼兩組復健內容不同很重要？",
+          "answer": "營養不良組較少接受有氧、步態和肌力訓練，較多 conditioning；功能差可能反映營養、病情和復健劑量互相影響，不能只歸因於營養分數。",
+          "tags": [
+            "心臟復健",
+            "功能",
+            "混雜"
+          ]
+        },
+        {
+          "title": "不能只用營養預測返家",
+          "question": "能否用 MNA-SF 預測病人會不會回家？",
+          "answer": "不能。機構出院調整後 RR 1.35、95% CI 0.68–3.11、p=0.19；出院地點還受認知、家庭、長照、經濟和居家支持影響。",
+          "tags": [
+            "出院規劃",
+            "社區照護",
+            "營養風險"
+          ]
+        }
+      ],
+      "completedAt": "2026-09-03T12:27:06.130Z"
+    },
+    {
+      "id": "doi:10.1253/circrep.cr-26-0004:review",
+      "paperId": "doi:10.1253/circrep.cr-26-0004",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Association Between Nutritional Risk and Physical Function Improvements in Cardiovascular Disease Patients With Frailty in a Community-Based Care Ward.",
+      "authors": "Oda Y, Kitagaki K, Unzai H, Kihara C, Niwano M, Ueda C, Wada Y, Kaneko M, Otobe Y",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.1253/circrep.CR-26-0004",
+      "abstract": "We investigated the association between nutritional risk and improvement in physical function during hospitalization among patients with cardiovascular disease, particularly those with heart failure, admitted to a community-based care ward. We retrospectively analyzed 84 patients who underwent cardiac rehabilitation in a community-based care ward between July 2023 and May 2025. Nutritional risk on admission was assessed using the Mini Nutritional Assessment-Short Form (MNA-SF). Patients were classified into 2 groups: non-malnourished (normal/at risk; MNA-SF ≥8, n=43) and malnourished (MNA-SF ≤7, n=41). The primary outcome was no improvement in physical function (change in Short Physical Performance Battery (SPPB) [∆SPPB] ≤0). Sensitivity analysis used an alternative definition (∆SPPB ≤2). The association between malnutrition and outcome was analyzed using modified Poisson regression adjusted for propensity score. Overall, 21 patients (25.0%) showed no improvement in physical function (∆SPPB ≤0), whereas 53 (63.1%) showed no improvement using the alternative definition. Malnutrition was not associated with no improvement in physical function in the primary analysis (adjusted risk ratio: 1.16; 95% cconfidence interval [CI]: 0.52-2.64; P=0.71), whereas a significant association was observed in sensitivity analysis (adjusted risk ratio: 2.3; 95% CI: 1.19-4.42; P<0.001). Nutritional risk was not associated with no improvement in physical function in the primary analysis, although an association was observed in sensitivity analyses using the alternative definition.",
+      "legalFullTextUrl": "https://www.jstage.jst.go.jp/article/circrep/advpub/0/advpub_CR-26-0004/_pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42577654/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "chronic disease nutrition",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "社區照護病房衰弱心血管病人營養風險與功能改善的品質評讀",
+      "content": "# 社區照護病房衰弱心血管病人營養風險與功能改善的品質評讀\n\n## 研究問題與研究設計\n\n本文是日本單中心回溯性 cohort，研究住進 community-based care ward、接受心臟復健（CR）的衰弱心血管疾病（CVD）病人，入院時的營養風險是否與住院期間身體功能改善不足及出院至機構照護有關。研究對象以 HF 為主，因此結果更接近高齡 HF 復健情境，而不是所有 CVD 病人。\n\n- 2023 年 7 月至 2025 年 5 月共有 107 名連續接受 CR 的病人；排除缺資料 10、入院 SPPB ≥9 的 10、轉其他科 1、住院死亡 2，最後 84 人。\n- 入院 MNA-SF ≤7 定義為 malnourished（41 人），MNA-SF ≥8 合併正常／有營養不良風險為 non-malnourished（43 人）。MNA-SF 是篩檢工具，不是 GLIM 診斷。\n- 主要結果是出院 SPPB 減入院 SPPB 的 ΔSPPB ≤0，即沒有改善或變差；敏感度分析改用 ΔSPPB ≤2。次要結果是出院至機構照護。\n- 病房 CR 每天 60 分鐘、每週 5 天，依功能與運動耐受性安排有氧、步態、肌力、ADL 和 conditioning，但不同營養組的 CR 內容並不相同。\n\n## 品質快照\n\n### 優點\n\n- 使用連續住院個案、入院和出院 SPPB、MNA-SF、Barthel Index、HDS-R、BNP、家庭組成與長照資料，臨床情境具體。\n- 用 modified Poisson regression 估計 adjusted risk ratio，並用 propensity score 納入年齡、性別、baseline SPPB、BI、HDS-R、BNP、長照保險和家庭組成。\n- 作者沒有把敏感度分析的顯著結果當成主要結論，明確指出主要定義下沒有顯著關聯，且功能改善的定義會改變結果。\n- 文章注意到營養不良組較少接受有氧、步態與肌力訓練，這讓「營養風險—功能恢復」可能與復健劑量互相纏繞，而非單一營養因素。\n\n### 主要限制\n\n1. 單中心、樣本僅 84 人，且中位年齡 87 歲、91.7% 有 HF，外推到其他 CVD、較年輕病人或不同病房需非常保守。\n2. 回溯性設計不能建立營養風險造成復健恢復較差的因果；未量測或未充分調整的疾病嚴重度、認知、社會支持、復健強度、食慾、吞嚥、肌少症和照護目標仍可能混雜。\n3. MNA-SF 只是營養風險篩檢，不能取代 GLIM 或完整營養評估；以 ≤7 和 ≥8 二分也把「有風險」併到非 malnourished 組。\n4. 主要結果 ΔSPPB ≤0 沒有顯著關聯，替代 ΔSPPB ≤2 卻出現 adjusted RR 2.3；結果依 threshold 改變，應視為敏感度訊號而非確證。\n5. 馬爾營養組接受有氧、步態和肌力訓練比例較低，conditioning 比例較高；復健內容與強度本身可能是中介或混雜，propensity score 未能完全解決。\n6. 排除 baseline SPPB ≥9 雖可減少 ceiling effect，卻限制了結果只適用於入院功能較差者。\n\n## 主要結果與保守解讀\n\n84 名病人的中位年齡為 87 歲，BMI 中位數 18.9 kg/m²，baseline SPPB 中位數 2，出院 SPPB 中位數 5；HF 占 91.7%，其中 HFpEF 72.7%。MNA-SF ≤7 的 malnourished 佔 49%。這顯示病房內的營養風險和功能低下都很常見，但不是營養風險已被證明造成低功能。\n\n在主要定義 ΔSPPB ≤0 下，21 人（25.0%）沒有改善：malnourished 12/41（29.3%），non-malnourished 9/43（20.9%）；adjusted RR 1.16（95% CI 0.52–2.64，p=0.71），沒有顯著關聯。替代定義 ΔSPPB ≤2 下，53 人（63.1%）被分類為沒有足夠改善：malnourished 35/41（85.4%），non-malnourished 18/43（41.9%）；adjusted RR 2.30（1.19–4.42，p<0.001）。這個差異說明「什麼叫改善」會明顯改變研究結論，也可能反映 SPPB 的臨床重要差異門檻。\n\n出院至機構照護共 37 人（44.1%）：malnourished 23/41（56.1%），non-malnourished 14/43（32.6%）；調整後 RR 1.35（95% CI 0.68–3.11，p=0.19），沒有顯著關聯。出院地點還受家庭、經濟、認知、長照安排、居住情形、藥物和照護容量影響，因此不能只用 MNA-SF 預測回家。\n\n## Critical Appraisal／GRADE\n\n對主張「在高齡、衰弱、以 HF 為主的社區照護病房 CR 病人中，較高營養風險可能與較少的功能恢復有關，但關聯依 SPPB 改善定義而變，不能證明營養風險造成恢復不良」的證據，依 deterministic `grade_judge.py` 以回溯性觀察研究 starting level=low，對 risk of bias、inconsistency、indirectness 和 imprecision 各降一級，publication bias 不額外降級，最後為 Very low（⊕◯◯◯）。\n\n- risk of bias：單中心回溯性資料、未量測混雜、復健內容在兩組不同，且 MNA-SF 為篩檢而非診斷。\n- inconsistency：主要 ΔSPPB ≤0 為 null，替代 ΔSPPB ≤2 為顯著；結果對 outcome threshold 敏感。\n- indirectness：病人非常高齡、以 HFpEF 和社區照護病房為主，不能直接外推到一般住院、門診或所有 CVD。\n- imprecision：樣本小、事件數有限，主要 RR CI 寬且跨過無差異；機構出院的調整後 CI 也跨過 null。\n\nVery low 不表示營養評估不重要，而是表示本研究只能支持「及早篩檢可能有助於安排營養與復健整合」，不能證明單獨改善 MNA-SF 就會增加 SPPB，也不能把 ΔSPPB ≤2 的敏感度結果當作確定治療效果。可接受的說法是「營養風險可能標示較高的功能恢復需求，需和復健劑量、疾病嚴重度、認知和社會支持一起評估」。\n\n`argdown_lint.py` 對上述保守、非因果主張回傳 clean。\n\n## 白話導讀\n\n這篇研究看的是住進日本社區照護病房、身體功能很差的高齡心血管病人。入院時約一半被營養風險篩檢判為 malnourished。若把「沒有進步」定義得很嚴格（SPPB 沒增加或下降），兩組沒有明顯差異；若把增加不到 3 分也算沒有足夠改善，營養不良組的風險較高。這表示營養狀態可能是辨識復健需求的線索，但結果也受到病人年齡、心衰竭、認知、功能、家庭和實際復健內容影響。它不是營養介入試驗，沒有證明補充營養一定能讓病人走得更好或回家。\n\n## 臨床應用\n\n- 入院先做 MNA-SF 是合理的分流起點，但若有風險，要接續體重變化、攝取量、肌力、肌少症、吞嚥、發炎／疾病負荷和 GLIM 所需資料。\n- 營養師與復健團隊應一起看「能不能吃、吃多少、需要多少蛋白質／能量、如何配合訓練」，而不是只把低分當成預後標籤。\n- 低 SPPB 病人應設個別化、可承受的有氧、肌力、步態和 ADL 訓練；營養不良組復健強度較低可能是可調整的照護缺口，也可能是病情較重的表現。\n- 出院安排要同時納入功能、認知、家庭支持、長照、居住和經濟因素；不能單靠 MNA-SF 決定返家或機構。\n- HF 個案仍須依液體、鈉、腎功能、血壓、食慾和藥物限制客製化，不能把「補營養」簡化成固定高量飲品。\n\n## 研究限制與待查問題\n\n1. 需要多中心、前瞻性研究，使用 GLIM 或完整營養評估，並預先定義 SPPB 的 MCID。\n2. 需要記錄實際能量／蛋白質攝取、營養介入、復健時間與強度，拆開營養和訓練的相對貢獻。\n3. 需要納入肌少症、吞嚥、炎症、認知、frailty、社會支持和 HF 嚴重度，以降低殘餘混雜。\n4. 需要追蹤返家後功能、再住院、生活品質和死亡，而不只看出院時 SPPB 或出院地點。\n5. 需要比較不同營養—復健整合方案是否真正改善病人重要結果，而不是只改善篩檢分數。\n\n## 證據位置\n\n- 研究設計、病房 CR 與排除條件：`Methods: Study Design and Population`。\n- MNA-SF、SPPB、主要／敏感度 outcome 和 modified Poisson：`Data Collection and Assessment Measures`、`Outcomes`、`Statistical Analysis`。\n- 84 人流程與基線：Figure 2、Table 1。\n- SPPB、出院地點與 adjusted RR：Table 2–4、`Results`。\n- 營養風險、復健強度與因果限制：`Discussion`、`Study Limitations`、`Conclusions`。\n- 完整來源：Oda Y, Kitagaki K, Unzai H, et al. *Association Between Nutritional Risk and Physical Function Improvements in Cardiovascular Disease Patients With Frailty in a Community-Based Care Ward*. Circ Rep. 2026;8(8):1317–1325. doi:10.1253/circrep.CR-26-0004. PMCID `PMC13454649`，Worker verified PMC HTML，source SHA-256 `8566abb57f89bf70a2b5b9386e7e7eebd516747fb60700835a3fe331c1905d1e`。\n- 本次為 Worker focused-quick `paper-review`；未把敏感度分析、MNA-SF 篩檢或觀察性關聯當成營養介入的因果證據。",
+      "cards": [],
+      "completedAt": "2026-09-03T12:24:15.590Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1863405:digest",
+      "paperId": "doi:10.3389/fnut.2026.1863405",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Laboratory-selected, probiotic Ligilactobacillus salivarius SBT2687 supplementation is associated with subjective knee symptoms and the gut microbiome in adults with pre-osteoarthritis: a randomized controlled trial in Japanese.",
+      "authors": "Ushizawa E, Yasueda T, Nakano A, Sugino T, Fukuda M, Ueno H",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fnut.2026.1863405",
+      "abstract": "Although the gut microbiome is involved in the pathogenesis of knee osteoarthritis (OA), the effects of dietary supplementation remain controversial. Probiotics are a promising option for lifestyle management of inflammatory diseases. This study aimed to investigate the effects of dietary supplementation with probiotics on subjective symptoms and the gut microbiome in adults with knee pre-OA. For the in vitro laboratory selection of probiotic strains, 110 strains of lactic acid bacteria and bifidobacteria were serially examined for expression profiles of OA-related genes in interleukin-1β-stimulated SW982 cells. The clinical trial was a double-blind, placebo-controlled, randomized clinical trial of Japanese adults with knee pre-OA based on Kellgren-Lawrence grade 0 or 1 and subjective symptoms. Probiotics or a placebo were administered during a 12-week intervention from January to April 2024. The primary outcomes were pain, stiffness, and discomfort in both knees, assessed using the visual analog scale (VAS). Secondary outcomes included subjective assessments, gut microbiome, blood biochemistry, and safety profiles, including adverse events. Ligilactobacillus salivarius SBT2687 (LS2687) was identified in the analysis of gene expression profiles of SW982 cells. For the clinical trial, 108 participants (median age 52.0 years [IQR 47.0-57.0], 65.7% female) were included in the study. A greater reduction was observed in VAS scores for all symptoms in the LS2687 group than in the placebo group at 12 weeks (pain: -2.9 ± 6.1 vs. -1.7 ± 4.8, P = 0.048; stiffness: -3.6 ± 7.1 vs. -1.3 ± 5.1, P = 0.014; discomfort: -3.8 ± 7.5 vs. -1.7 ± 5.3, P = 0.016), although the between-group improvements did not survive baseline adjustment (ANCOVA P = 0.14-0.24). The species-level relative abundance of Lactobacillus salivarius increased in the LS2687 group (from 3.63% to 35.49%; P < 0.001 and 0.005 in within- and between-group comparisons, respectively). No adverse events were associated with this intervention throughout the study. LS2687 supplementation was well-tolerated and provided new insights into the probiotic management of knee pre-OA. The gut-knee axis should be considered in the management of symptoms with knee pre-OA. https://center6.umin.ac.jp/cgi-open-bin/ctr/ctr_view.cgi?recptno=R000059864, identifier [R000059864].",
+      "legalFullTextUrl": "https://doi.org/10.3389/fnut.2026.1863405",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42614183/",
+      "category": "recommended",
+      "tags": [
+        "design:randomized controlled",
+        "herbs phytochemicals supplements",
+        "human clinical population",
+        "precision nutrition",
+        "safety and interaction"
+      ],
+      "noteTitle": "LS2687 益生菌對膝部前骨關節炎症狀與腸道菌相的全文內容整理",
+      "content": "# LS2687 益生菌對膝部前骨關節炎症狀與腸道菌相的全文內容整理\n\n> [!summary] 30 秒層：一句話 + 重點\n> 這個日本雙盲 RCT 讓 KL grade 0–1、具有輕微膝部症狀的成人連續 12 週補充 LS2687 或安慰劑；LS2687 組的腸道 *L. salivarius* 相對豐度上升，未調整 VAS 比較也有訊號，但基線調整後症狀效果不顯著，不能說已預防或治療膝骨關節炎。\n> - 110 人隨機，2 人退出，LS2687 與 placebo 各 54 人進入主要分析；依從性約 99.6% 與 99.5%。\n> - 痛、僵硬、不適的未調整平均 change 均較 LS2687 有利，但 ANCOVA 調整基線後 p=0.14–0.24。\n> - *L. salivarius*／Lactobacillus 相對豐度由 3.63% 增至 35.49%，但這只來自部分可偵測菌相樣本。\n> - JKOM、JOA 和 Shannon alpha diversity 沒有一致組間改善；12 週內 33 件不良事件均未被判定與介入相關。\n\n## 5 分鐘層：全文地圖\n\n文章先以 gut-joint axis 和 pre-OA 的早期介入概念為背景，接著描述如何從 110 株乳酸菌／雙歧桿菌在 IL-1β 刺激的 SW982 滑膜細胞中選出 LS2687，再報告日本成人 12 週雙盲安慰劑試驗。結果分成主觀症狀、功能量表、腸道 16S 菌相和安全性。Discussion 最重要的邊界是：小型、短期、症狀很輕的研究可以提供生物學訊號，但不能把未調整的 VAS p 值、細胞基因表現或糞便相對豐度轉成軟骨修復、疾病預防或確定疼痛治療效果。\n\n## 研究問題與菌株篩選\n\n**要點**：作者問的是特定菌株 LS2687 是否和 pre-OA 症狀、腸道菌相有關；益生菌效果具有菌株和疾病特異性，不能把結果外推到所有 Lactobacillus。\n\n研究先將 46 個物種、110 株菌在 IL-1β 刺激的 SW982 人類滑膜細胞中篩選，測量 TNF-α、MMP-13、COX-2、NGF 等 OA 相關基因。LS2687 是唯一在次級篩選中降低所有測試基因的候選菌株。這個結果只能說明細胞模型中的基因表現訊號；細胞 lysate 不等於活菌到達關節，也不能預測人體疼痛或影像結果。\n\n## 人體試驗方法\n\n**要點**：研究有隨機、雙盲和安慰劑對照，但族群是輕微 pre-OA，且主要終點是主觀 VAS。\n\n- 研究在日本大阪進行，12 週每日三顆 LS2687 或 tapioca starch placebo capsules；註冊 `R000059864`。\n- 110 人隨機、2 人退出，LS2687 和 placebo 各 54 人進入主要分析；中位年齡 53 對 51 歲，女性 66.7% 對 64.8%，BMI 約 22.7 對 22.6 kg/m²。\n- 參與者有膝痛且 KL grade 0 或 1，排除臨床症狀性 OA、膝手術、類風濕性關節炎、常吃高乳酸菌食品或其他可能干擾的條件。\n- 每日記錄服用、生活型態、飲食、用藥和不良事件；依從性非常高。\n- VAS 每天記錄痛、僵硬和不適；次要結果為 JKOM、JOA、血液生化、16S rRNA 糞便菌相、Shannon–Wiener index 和安全性。\n\n## 症狀結果：為什麼不能只看 p 值\n\n**要點**：原始組間比較有小幅差異，但基線調整後消失；低基線和兩組都改善使結果容易受 floor effect、安慰劑和 regression to the mean 影響。\n\nLS2687 組的 VAS pain、stiffness、discomfort 平均 change 分別是 −2.9±6.1、−3.6±7.1、−3.8±7.5 mm；placebo 分別是 −1.7±4.8、−1.3±5.1、−1.7±5.3 mm，未調整 p=0.048、0.014、0.016。可是確認性 ANCOVA 以基線 VAS 調整後，pain、stiffness、discomfort 和總分 p=0.24、0.14、0.17、0.16，沒有達顯著。\n\nJKOM VAS、JKOM total 和 JOA total 的組間差異也不顯著。兩組從低基線都改善，代表安慰劑效果和回歸平均值不能排除。研究者指出未調整的 VAS 組間差異小於 established OA 常用的 MCID；因此這個結果更適合視為探索性訊號，不是可直接使用的疼痛療效。\n\n## 菌相結果：有變化，但不是機制證明\n\n**要點**：補充後糞便中 *L. salivarius* 相對豐度增加，說明菌株或相關訊號可能被偵測到；沒有證明活性、代謝物、腸道屏障或疼痛改善的因果鏈。\n\nLS2687 組在 Lactobacillus 屬內的 *L. salivarius* 相對豐度由 3.63% 增至 35.49%，placebo 由 7.77% 降至 5.92%，change p=0.005。然而這項分析只包含部分可偵測樣本；研究也沒有直接測量 SCFA、發炎介質、腸道屏障或 MRI 結構變化。Shannon alpha diversity 沒有組間差異。即使菌株在糞便中增加，也不能說它已經改善滑膜發炎、軟骨或功能。\n\n## 安全性與研究者的解釋\n\n12 週內共有 23 人報告 33 件不良事件，LS2687 18 件、placebo 15 件，沒有被判定與介入相關；血液生化沒有臨床重要變化。這支持短期耐受性尚可，但不等於不同疾病、長期使用或高風險個案也同樣安全。\n\n作者認為 LS2687 的 gut-joint axis 可能透過菌相和免疫代謝影響症狀，但同時承認研究短、樣本小、效果有限、JKOM／JOA 不適合非常輕微的 pre-OA、沒有 MRI，也沒有功能代謝物或發炎標誌。BMI<23 的 subgroup p=0.003 不是可靠的效應修飾證據，因為 interaction p=0.059，應等待預先指定的大型研究確認。\n\n## 白話理解\n\n研究者先在細胞中挑出 LS2687，再讓有輕微膝症狀但 X 光幾乎正常的成人吃 12 週。吃益生菌的人糞便裡較容易找到 *L. salivarius*，表示補充物可能改變了菌相；膝部 VAS 在未調整的比較也稍微有利。但兩組都變好，基線調整後差異不見，功能量表和菌相多樣性也沒改善。最穩妥的讀法是「LS2687 有短期安全性和菌株偵測訊號，症狀療效與 gut-joint 機制仍未確定」，不是「益生菌已修復關節或預防 OA」。\n\n## 實務帶走\n\n1. 不要用 LS2687 取代活動、肌力、體重、睡眠、疼痛評估、物理治療或醫師診療。\n2. 若討論益生菌，要說明效果具有菌株、疾病和族群特異性；本研究不能外推到其他產品或 established OA。\n3. 追蹤個案應看疼痛軌跡、功能和活動，不要只用糞便單一菌種相對豐度判定有效。\n4. 營養師可協助整體飲食、蛋白質、體重與活動支持，但不能宣稱 LS2687 已透過 gut-joint axis 保護軟骨。\n5. 疼痛、腫脹、活動受限或機械性症狀持續時，仍需依臨床需要就醫評估，不要因 pre-OA 或益生菌結果延誤診斷。\n\n## 自我測驗\n\n> [!question]- Q1：LS2687 組的 VAS p 值顯著，為什麼仍不能說已改善膝痛？\n> 因為基線 VAS 調整後 ANCOVA p=0.14–0.24，兩組都改善且基線很低，floor effect、安慰劑和回歸平均值都可能影響未調整結果。\n\n> [!question]- Q2：*L. salivarius* 相對豐度增加代表什麼？\n> 代表 LS2687 補充後，部分可偵測糞便樣本中該菌相對於 Lactobacillus 屬的比例增加；不代表活菌一定定殖、功能代謝物增加或造成疼痛改善。\n\n> [!question]- Q3：這篇是否證明 LS2687 可以預防 OA 或修復軟骨？\n> 沒有。研究只有 12 週、族群是 KL 0–1 的輕微 pre-OA，沒有 MRI 或其他結構性終點，也沒有長期疾病進程資料。\n\n> [!question]- Q4：營養師如何把結果說得誠實？\n> 可以說這是特定菌株的短期探索性研究，安全性尚可且菌相出現訊號；生活型態、功能、疼痛和醫療評估仍是核心，不能把結果外推為所有益生菌的治療效果。\n\n## Reference 與全文證據\n\n`Ushizawa E, Yasueda T, Nakano A, et al. Laboratory-selected, probiotic Ligilactobacillus salivarius SBT2687 supplementation is associated with subjective knee symptoms and the gut microbiome in adults with pre-osteoarthritis: a randomized controlled trial in Japanese. Front Nutr. 2026;13:1863405. doi:10.3389/fnut.2026.1863405.`\n\n完整來源為 PMCID `PMC13481194` 的已核驗 CC-BY PMC HTML，source SHA-256 `807db318c05e6ecb779aeddd80cef529acd27a4a2ccb7f9f2ab2a9d49619b7e1`；全文包含摘要、細胞篩選、人體試驗方法、Table 1–3、菌相、安全性、限制、結論與參考文獻。本次為 Worker batch 的 `paper-digest`，另有獨立 `paper-review` 和 4 張理解型測驗卡。",
+      "cards": [
+        {
+          "title": "未調整 VAS 的邊界",
+          "question": "LS2687 組的 VAS p 值顯著，為什麼仍不能說已改善膝痛？",
+          "answer": "基線 VAS 調整後 ANCOVA p=0.14–0.24，兩組都改善且基線很低，floor effect、安慰劑和回歸平均值都可能影響未調整結果。",
+          "tags": [
+            "LS2687",
+            "VAS",
+            "膝痛"
+          ]
+        },
+        {
+          "title": "菌株豐度不等於機制",
+          "question": "L. salivarius 相對豐度增加代表什麼？",
+          "answer": "代表部分可偵測糞便樣本中該菌相對於 Lactobacillus 屬的比例增加；不代表活菌定殖、功能代謝物增加或造成疼痛改善。",
+          "tags": [
+            "腸道菌相",
+            "Lactobacillus",
+            "益生菌"
+          ]
+        },
+        {
+          "title": "不能宣稱修復軟骨",
+          "question": "這篇是否證明 LS2687 可以預防 OA 或修復軟骨？",
+          "answer": "沒有。研究只有 12 週、族群是 KL 0–1 的輕微 pre-OA，沒有 MRI 或其他結構性終點，也沒有長期疾病進程資料。",
+          "tags": [
+            "pre-OA",
+            "軟骨",
+            "證據邊界"
+          ]
+        },
+        {
+          "title": "營養師的誠實說法",
+          "question": "營養師如何把 LS2687 研究結果說得誠實？",
+          "answer": "這是特定菌株的短期探索性研究，安全性尚可且菌相出現訊號；生活型態、功能、疼痛和醫療評估仍是核心，不能外推為所有益生菌的治療效果。",
+          "tags": [
+            "臨床應用",
+            "營養",
+            "益生菌"
+          ]
+        }
+      ],
+      "completedAt": "2026-09-03T12:20:05.678Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1863405:review",
+      "paperId": "doi:10.3389/fnut.2026.1863405",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Laboratory-selected, probiotic Ligilactobacillus salivarius SBT2687 supplementation is associated with subjective knee symptoms and the gut microbiome in adults with pre-osteoarthritis: a randomized controlled trial in Japanese.",
+      "authors": "Ushizawa E, Yasueda T, Nakano A, Sugino T, Fukuda M, Ueno H",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fnut.2026.1863405",
+      "abstract": "Although the gut microbiome is involved in the pathogenesis of knee osteoarthritis (OA), the effects of dietary supplementation remain controversial. Probiotics are a promising option for lifestyle management of inflammatory diseases. This study aimed to investigate the effects of dietary supplementation with probiotics on subjective symptoms and the gut microbiome in adults with knee pre-OA. For the in vitro laboratory selection of probiotic strains, 110 strains of lactic acid bacteria and bifidobacteria were serially examined for expression profiles of OA-related genes in interleukin-1β-stimulated SW982 cells. The clinical trial was a double-blind, placebo-controlled, randomized clinical trial of Japanese adults with knee pre-OA based on Kellgren-Lawrence grade 0 or 1 and subjective symptoms. Probiotics or a placebo were administered during a 12-week intervention from January to April 2024. The primary outcomes were pain, stiffness, and discomfort in both knees, assessed using the visual analog scale (VAS). Secondary outcomes included subjective assessments, gut microbiome, blood biochemistry, and safety profiles, including adverse events. Ligilactobacillus salivarius SBT2687 (LS2687) was identified in the analysis of gene expression profiles of SW982 cells. For the clinical trial, 108 participants (median age 52.0 years [IQR 47.0-57.0], 65.7% female) were included in the study. A greater reduction was observed in VAS scores for all symptoms in the LS2687 group than in the placebo group at 12 weeks (pain: -2.9 ± 6.1 vs. -1.7 ± 4.8, P = 0.048; stiffness: -3.6 ± 7.1 vs. -1.3 ± 5.1, P = 0.014; discomfort: -3.8 ± 7.5 vs. -1.7 ± 5.3, P = 0.016), although the between-group improvements did not survive baseline adjustment (ANCOVA P = 0.14-0.24). The species-level relative abundance of Lactobacillus salivarius increased in the LS2687 group (from 3.63% to 35.49%; P < 0.001 and 0.005 in within- and between-group comparisons, respectively). No adverse events were associated with this intervention throughout the study. LS2687 supplementation was well-tolerated and provided new insights into the probiotic management of knee pre-OA. The gut-knee axis should be considered in the management of symptoms with knee pre-OA. https://center6.umin.ac.jp/cgi-open-bin/ctr/ctr_view.cgi?recptno=R000059864, identifier [R000059864].",
+      "legalFullTextUrl": "https://doi.org/10.3389/fnut.2026.1863405",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42614183/",
+      "category": "recommended",
+      "tags": [
+        "design:randomized controlled",
+        "herbs phytochemicals supplements",
+        "human clinical population",
+        "precision nutrition",
+        "safety and interaction"
+      ],
+      "noteTitle": "LS2687 益生菌對膝部前骨關節炎症狀與腸道菌相的品質評讀",
+      "content": "# LS2687 益生菌對膝部前骨關節炎症狀與腸道菌相的品質評讀\n\n## 研究問題與研究設計\n\n本文是日本成人膝部 pre-osteoarthritis（pre-OA）的雙盲、安慰劑對照、隨機試驗，研究實驗室篩選的 *Ligilactobacillus salivarius* SBT2687（LS2687）是否改善膝部主觀症狀及腸道微生物體。研究先用 IL-1β 刺激的人類 SW982 滑膜細胞，從 46 個物種、110 株乳酸菌與雙歧桿菌篩出候選菌株，再進入 12 週臨床試驗。細胞基因表現結果不是人體療效證據，應與臨床結果分開。\n\n- 臨床研究在大阪進行，UMin 註冊 `R000059864`；110 人隨機分組，2 人退出後主要分析包含 LS2687 54 人與 placebo 54 人。\n- 參與者為 30–65 歲、KL grade 0 或 1 且有膝部主觀症狀者；中位年齡約 53 對 51 歲，女性約 67% 對 65%，BMI 約 22.7 對 22.6 kg/m²。\n- 每日食用三顆 LS2687 或外觀相同的 tapioca starch placebo capsules，持續 12 週；依從性約 99.6% 與 99.5%。\n- 主要結果是 100-mm VAS 的膝痛、僵硬與不適；次要結果為 JKOM、JOA、血液生化、16S rRNA 腸道菌相、Shannon–Wiener alpha diversity 與安全性。\n\n## 品質快照\n\n### 優點\n\n- 隨機、雙盲、安慰劑對照，分派序列由不參與研究執行的統計公司保管，直到主要分析後才揭盲。\n- 研究註冊、倫理核准、每日依從性與不良事件都有交代，且分析計畫預先指定，沒有 interim analysis。\n- 同時呈現主觀症狀、功能量表、菌相和血液安全性，能讓讀者看到「症狀訊號」是否和「腸道菌相變化」一致。\n- 作者承認 VAS 組間差異在基線調整後不再顯著、效果小於既有 OA 的 MCID，JKOM／JOA 沒有顯著組間差異，也承認沒有直接測量功能代謝物或發炎標誌。\n\n### 主要限制\n\n1. 主要 VAS 結果在未調整的 Mann–Whitney 比較中達 p=0.014–0.048，但確認性 ANCOVA 調整基線後 p=0.14–0.24，結果不能當作穩定的治療效果。\n2. 參與者症狀接近零，存在 floor effect 和 regression to the mean；兩組都有改善，安慰劑效果不能排除。\n3. 研究只有 12 週、樣本約 108 人，且 pre-OA 的 KL grade 0–1 沒有明顯結構性 OA；不能宣稱 LS2687 防止軟骨退化、治療 established OA 或改善長期功能。\n4. 腸道菌相中 *L. salivarius* 的變化只在部分可偵測樣本出現，主要 change 分析約 LS2687 32 人、placebo 22 人；菌相的相對豐度增加也不能證明活菌定殖、功能代謝物增加或造成疼痛改善。\n5. JKOM 與 JOA 是為 OA 設計的量表，可能不適合症狀很輕、尚未有明顯影像改變的 pre-OA；研究沒有 MRI 或直接結構性終點。\n6. 研究由 Megmilk Snow Brand 資助；多位作者是公司員工，且作者揭露公司持有 LS2687 相關專利權。這不證明結果錯誤，但需提高對主觀終點與轉譯性結論的審慎程度。\n\n## 主要結果與可接受的讀法\n\nLS2687 組的 VAS pain、stiffness 和 discomfort 平均 change 分別為 −2.9±6.1、−3.6±7.1 和 −3.8±7.5 mm；placebo 組為 −1.7±4.8、−1.3±5.1 和 −1.7±5.3 mm，未調整 p 值分別為 0.048、0.014、0.016。然而，基線 VAS 調整後介入效果 p=0.24、0.14、0.17（總分 p=0.16），所以不能只引用前面的未調整 p 值宣稱 LS2687 已改善膝痛。\n\nJKOM VAS、JKOM total 和 JOA total 的組間差異不顯著。兩組的 total VAS sensitivity analysis 為 LS2687 −10.3±20.0 對 placebo −4.9±14.3，p=0.028，但仍受低基線、安慰劑和多重探索限制；作者指出效果小於 established OA 的 MCID。BMI<23 的 subgroup p=0.003 不是可靠的 effect modifier，interaction p=0.059，應視為探索性。\n\n菌相方面，LS2687 組在 Lactobacillus 屬內的 *L. salivarius* 相對豐度由 3.63% 增至 35.49%，placebo 由 7.77% 降至 5.92%，change 的 p=0.005；但分析只有一部分可偵測樣本，而且 Shannon alpha diversity 沒有組間差異。這比較像「補充的菌株或相近訊號可在部分糞便樣本被偵測」，不是已證明的 gut-joint axis 功能機制。108 人中 23 人報告 33 件不良事件（LS2687 18、placebo 15），沒有被判定為與介入相關；12 週短期安全性尚可，但不等於長期安全性已確立。\n\n## Critical Appraisal／GRADE\n\n對主張「12 週 LS2687 補充可能改變部分 pre-OA 成人的腸道 *L. salivarius* 相對豐度，但能否改善膝部主觀症狀或透過 gut-joint axis 改善疾病仍不確定」的證據，依 deterministic `grade_judge.py` 以隨機試驗 starting level=high，對 risk of bias、inconsistency、indirectness 和 imprecision 各降一級，publication bias 不額外降級，最後為 Very low（⊕◯◯◯）。\n\n- risk of bias：企業資助與專利利益需揭露；主要主觀終點受低基線、floor effect、安慰劑和基線調整前後不一致影響。\n- inconsistency：VAS 未調整比較有訊號，但 ANCOVA、JKOM、JOA 與 alpha diversity 沒有組間改善；症狀與菌相的方向沒有形成一致的臨床機制鏈。\n- indirectness：族群是 KL 0–1、症狀輕微的 pre-OA，不是 established OA；細胞 IL-1β 篩選和相對菌豐度不能直接代表軟骨、疼痛或功能結果。\n- imprecision：樣本小、追蹤短、菌相 change 只有部分樣本，且 VAS 效果未通過基線調整、也小於既有 OA 的 MCID。\n\nVery low 不代表 LS2687 一定無效；它表示目前證據不能支持把 LS2687 當成膝 OA 預防、軟骨保護或疼痛治療方案。可接受的說法是「這個小型試驗觀察到部分主觀症狀和菌株相對豐度的探索性訊號，需更大、獨立、長期且有結構性終點的試驗確認」。不能改寫成「LS2687 修復腸漏、逆轉 OA」、「*L. salivarius* 增加就是疼痛改善原因」或「已證明可以預防膝關節退化」。\n\n`argdown_lint.py` 對上述保守、非因果的主張回傳 clean。\n\n## 白話導讀\n\n研究者先在細胞中挑出一株看起來能降低發炎相關基因表現的菌，再讓有輕微膝症狀、但 X 光還沒有明顯 OA 的日本成人吃 12 週。吃益生菌的人在原始未調整比較中膝痛、僵硬和不適下降較多，但兩組都變好，基線調整後差異消失；功能量表也沒有差異。腸道中被偵測到的 *L. salivarius* 增加，代表補充物可能影響菌相，但沒有證明這個變化改善了膝關節。最穩妥的結論是「有安全性和生物學訊號，療效仍待確認」，不是「益生菌已治療 OA」。\n\n## 臨床應用\n\n- 不要用 LS2687 取代體重管理、肌力與活動訓練、疼痛評估、睡眠、必要的物理治療或醫師診療。\n- 若個案考慮益生菌，應說明菌株、劑量、疾病和效果具有 strain-specificity；本研究結果不能外推到其他 *Lactobacillus*、其他產品或 established OA。\n- 以功能、疼痛軌跡、活動能力和病人重要結果追蹤，不要只用糞便菌相或單一菌種相對豐度判定有效。\n- 營養師可協助整體飲食、體重、蛋白質與活動支持，但不能宣稱某一飲食或 LS2687 已透過 gut-joint axis 保護軟骨。\n- 若疼痛持續、腫脹、活動受限或出現機械性症狀，應依臨床需要由醫師評估；不要因為 pre-OA 名稱或益生菌結果延誤診斷。\n\n## 研究限制與待查問題\n\n1. 需要較大且由非產品公司主導的試驗，以基線調整的主要終點、足夠長期追蹤和預先指定 MCID。\n2. 需要 MRI、影像或其他直接結構性終點，判斷是否影響疾病進程，而不是只有短期 VAS。\n3. 需要測量 SCFA、發炎介質、腸道屏障和菌株活性，才能檢驗 gut-joint axis 是否是中介。\n4. 需要驗證 baseline microbiome 是否真正預測反應，並避免只在可偵測菌相子集做選擇性解讀。\n5. 需要在不同性別、年齡、BMI、族群和 established OA 族群複製結果，並比較不同菌株和標準照護。\n\n## 證據位置\n\n- 菌株挑選與 110 株細胞篩選：`In vitro identification`、Figure 1。\n- 隨機、盲法、介入、主要及次要結果定義：`Clinical study`、`Randomization and blinding`、`Primary outcomes`、`Secondary outcomes`。\n- VAS、JKOM、JOA、菌相和 safety 數字：Table 2、`Primary outcome`、`Key secondary outcomes`。\n- 基線調整、floor effect、MCID 和 subgroup 限制：`Sensitivity analyses`、`Discussion`。\n- 公司資助、作者任職與專利利益：`Funding Statement`、`Conflict of interest`。\n- 完整來源：Ushizawa E, Yasueda T, Nakano A, et al. *Laboratory-selected, probiotic Ligilactobacillus salivarius SBT2687 supplementation is associated with subjective knee symptoms and the gut microbiome in adults with pre-osteoarthritis: a randomized controlled trial in Japanese*. Front Nutr. 2026;13:1863405. doi:10.3389/fnut.2026.1863405. PMCID `PMC13481194`，Worker verified PMC HTML，source SHA-256 `807db318c05e6ecb779aeddd80cef529acd27a4a2ccb7f9f2ab2a9d49619b7e1`。\n- 本次為 Worker focused-quick `paper-review`；未把細胞篩選、未調整 p 值或菌相相對豐度當作軟骨或疼痛的因果證據。",
+      "cards": [],
+      "completedAt": "2026-09-03T12:17:04.896Z"
+    },
+    {
+      "id": "doi:10.2337/doc25-0067:digest",
+      "paperId": "doi:10.2337/doc25-0067",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "The Effect of Physical Activity on the Gut Microbiome in Prediabetes: Results from a Randomized Controlled Trial.",
+      "authors": "Demmer R, Pope Z, Avenido F, Mitchell N, Richmond Hubbard P, Johnson S, Sharma S, McDonough D, Rydell S, Johnson A, Pereira M",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.2337/doc25-0067",
+      "abstract": "To test the effect of physical activity on the gut microbiome and circulating short chain fatty acids among sedentary adults with prediabetes and overweight/obesity. In a pilot and feasibility trial, we randomized 77 adults with prediabetes and a sedentary lifestyle into one of two groups: 1) Intervention: Invited to engage in home-based moderate intensity walking 3x/week for 30 minutes/session in weeks 1-4 and for 45 minutes/session during weeks 5-8 of the 8-week intervention; or 2) Control: Maintained habitual physical activity levels. We performed metagenomic sequencing from stool collected at baseline, week 4, and week 8, with short-chain fatty acids (SCFA) measured from serum collected at baseline and week 8. Taxonomic and functional profiling were performed on the metagenomic reads; alpha diversity metrics were subsequently derived. Linear regression assessed the difference in change between the intervention and control groups for alpha-diversity and SCFA levels. We screened 1,533 participants for eligibility and consented 132. Of these, 87 entered the run-in phase and 77 were randomized. Participants were 51.4±8.9 years old, 87.7% female, and 74% non-Hispanic White. Mean fasting glucose was 103.3±13.2 while mean BMI was 34.4±5.7. In comparison to control, the intervention group experienced decreased alpha diversity as characterized by Shannon, Richness, and Faith's diversity indices by intervention week 8 (P<0.05). Changes in SCFA levels were not statistically significant different in intervention vs. control. Randomization to a walking intervention resulted in modest gut microbiome changes among adults with overweight/obesity and prediabetes.",
+      "legalFullTextUrl": "https://diabetesjournals.org/docm-care/article-pdf/doi/10.2337/doc25-0067/859187/docm250067.pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42577916/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "design:randomized controlled",
+        "human clinical population",
+        "obesity and metabolism",
+        "precision nutrition"
+      ],
+      "noteTitle": "8 週居家走路對前期糖尿病腸道微生物體的全文內容整理",
+      "content": "# 8 週居家走路對前期糖尿病腸道微生物體的全文內容整理\n\n> [!summary] 30 秒層：一句話 + 重點\n> 這個 pilot RCT 把 77 名久坐、前期糖尿病且過重／肥胖成人隨機分到 8 週居家走路或維持習慣活動；走路組的腸道 alpha diversity 在第 8 週下降，但 SCFA、血糖、體重和多數代謝結果沒有清楚改善，因此是值得追蹤的菌相訊號，不是已證明的代謝機制。\n> - 介入：第 1–4 週每週 3 次、每次 30 分鐘；第 5–8 週每次 45 分鐘，走路日目標至少 6,000 步。\n> - 糞便於基線、4 週、8 週做 shotgun metagenomics；SCFA 於基線和 8 週測量。\n> - 兩組第 8 週 beta diversity 沒有差異；單一 taxa、KO 和功能路徑經 FDR 後沒有顯著結果。\n> - 步數的 difference in change 為 480.8（95% CI −223.8 至 1,185.4）步／日，表示實際介入分離有限。\n\n## 5 分鐘層：全文地圖\n\n文章從前期糖尿病和活動不足的背景開始，提出腸道微生物體可能是運動影響代謝健康的中介。接著說明隨機化、居家走路、糞便 metagenomics、血清 SCFA、心代謝指標和統計流程，再報告 alpha diversity、單一菌、功能路徑、SCFA 和代謝結果。Discussion 最重要的轉折是：alpha diversity 下降與部分既有運動研究方向相反，可能是短期生態重組，也可能只是樣本小、活動量增加不夠或其他生活因素的訊號；不能從這個研究判定下降一定有益。\n\n## 研究問題\n\n**要點**：作者問的是「中等強度身體活動會不會改變前期糖尿病成人的腸道菌相和血中 SCFA」，不是「走路能否治好糖尿病」。\n\n前期糖尿病常伴隨心血管風險，身體活動是標準可修正因素；但運動如何透過免疫、發炎、腸道屏障和 microbial metabolites 影響代謝，仍未完全清楚。SCFA 是候選中介，然而過去人類研究常沒有隨機化、沒有控制組或研究代謝健康者，因此本研究用 pilot RCT 補上部分缺口。\n\n## 研究方法\n\n**要點**：隨機分派是主要強項，居家未監督與小樣本是主要弱點。\n\n- 1,533 人篩選，132 人同意，87 人進入 run-in，77 人隨機：介入 39、對照 38。\n- 平均年齡 51.4 歲、87.7% 女性、74% 非西語裔白人；平均 BMI 34.4 kg/m²、空腹血糖 103.3 mg/dL。\n- 納入 30–64 歲、BMI ≥25、符合前期糖尿病、每週活動少於 100 分鐘、體重穩定者；近期抗生素、胃腸疾病、運動禁忌和妊娠等排除。\n- 介入組用 Fitbit 監測，對照組維持習慣活動。糞便用 shotgun metagenomics，讀數經 BBDuk 和 host-read filtering，再以 Sourmash、HUMAnN3 等做 taxonomy 和功能分析。\n- alpha diversity 以 rarefied 500,000 reads 後分析；taxa 和 functional pathways 使用多重比較校正，q<0.1 作為顯著門檻。\n\n## 主要發現：alpha diversity 下降\n\n**要點**：走路組第 8 週 Shannon、Richness 和 Faith’s diversity 都下降；這不是「一定變壞」或「一定變好」的同義詞。\n\ninverse Simpson 在第 4 週下降，但第 8 週不再顯著。兩組 beta diversity 第 8 週沒有差異。作者原本預期活動量增加可能帶來更高多樣性，因此這個結果和部分過去運動研究相反。Discussion 提出，短期生活型態尤其飲食介入有時會先出現 alpha diversity 下降並伴隨代謝改善，但本試驗沒有足夠資料證明此處也發生同樣事情。\n\n## SCFA、代謝與步數\n\n**要點**：SCFA 沒有顯著組間差異，不能說走路透過 propionate 或 butyrate 已改善代謝。\n\npropionic acid 的 difference in change 約 1.35（95% CI −8.21 至 10.91），butyric acid 約 0.91（−7.50 至 9.31）；都跨過無差異。體重約 0.39 kg（−0.31 至 1.09）、BMI 約 0.15 kg/m²（−0.10 至 0.40）、空腹血糖約 0.007 mg/dL（−3.92 至 3.94），也沒有清楚介入效果。LDL-C 的估計差異為 9.57 mg/dL（1.06 至 18.08），但它是多項探索結果之一，不能單獨解讀成走路造成臨床惡化。\n\n步數差異的信賴區間跨零，顯示實際介入分離不精確。疫情也影響依從性；這不是一個能把運動劑量完全控制住的 supervised exercise trial。\n\n## Taxa、KO 與作者假說\n\n**要點**：部分 taxa 和 KO 出現 raw p-value 訊號，但 FDR 後沒有顯著的單一菌或功能結果。\n\nCoprococcus、Agathobaculum、Butyricimonas 和 Roseburia 等被列為探索訊號，Butyricimonas faecihominis 在介入組增加、Roseburia hominis 的方向則不如預期；多重校正後沒有穩定差異。前十名 KO 涉及 envelope stress、growth／replication、surface glycan／LPS、phosphonate 和 aromatic／phenolic metabolism，raw p-value 看起來有主題，但 FDR<5% 沒有結果。作者把這些視為未來試驗要驗證的可能「適應性」方向，不是已證實的益生菌或 SCFA 產生增加。\n\n## 白話理解\n\n研究把走路當成一個可能改變腸道環境的刺激，結果看到的是「整體多樣性變少」，而不是「好菌越多」。一個生態系變得更集中，可能是暫時選出某些能適應新環境的菌，也可能只是採樣波動或飲食、活動量等因素造成。因為這個研究小、介入未監督、實際步數差異有限，而且 SCFA 和血糖沒有同步改善，所以最穩妥的結論是：走路和腸道菌相可能有關，alpha diversity 的方向需要更大研究重做；不能把它變成「多樣性下降有益」或「運動已透過腸道菌治療前期糖尿病」。\n\n## 實務帶走\n\n1. 走路仍可依個人能力和一般身體活動指引漸進安排，但處方理由應是整體健康、體能和代謝風險，不是本研究的單一菌相訊號。\n2. 前期糖尿病照護仍以飲食、體重、血糖、血壓、血脂、睡眠和可持續活動量為主；alpha diversity 或 SCFA 檢測不能取代標準追蹤。\n3. 若追蹤生活型態改變，要一起記錄步數、強度、飲食、抗生素、藥物、腸胃症狀和體重，避免把菌相變化孤立解讀。\n4. 營養師可以用這篇提醒個案：菌相多樣性不是越高越好、也不是越低越好；短期結果要和血糖及生活品質一起看。\n5. 研究族群主要是中年女性、非西語裔白人且 BMI 偏高；老人、正常體重、已確診 T2D 或其他族群須保留外推限制。\n\n## 自我測驗\n\n> [!question]- Q1：走路組 alpha diversity 下降，能不能直接說腸道變差？\n> 不能。這可能是短期生態重組、採樣或生活因素造成，也可能有不同的生物意義；本研究沒有同步證明 SCFA 或代謝改善，因此不能替下降貼上好壞標籤。\n\n> [!question]- Q2：這篇是否證明走路增加 SCFA？\n> 沒有。propionate、butyrate 等 SCFA 的組間 change 沒有顯著差異，信賴區間也跨過無差異。\n\n> [!question]- Q3：為什麼 raw p-value 的 KO 或菌種訊號不能直接當作機制？\n> 因為研究樣本小、探索項目多；FDR 校正後 taxa 和功能路徑沒有顯著結果，作者也把這些只當成未來研究假說。\n\n> [!question]- Q4：臨床上應如何使用這篇結果？\n> 依一般活動指引鼓勵安全、可持續的走路，並追蹤血糖、體重、飲食和功能；不要用 alpha diversity、SCFA 或單一菌種取代前期糖尿病標準照護。\n\n## Reference 與全文證據\n\n`Demmer RT, Pope Z, Avenido FR, et al. The Effect of Physical Activity on the Gut Microbiome in Prediabetes: Results from a Randomized Controlled Trial. Diabetes Obes Cardiometab CARE. 2026;1(2):219–229. doi:10.2337/doc25-0067.`\n\n完整來源為 PMCID `PMC13455599` 的已核驗 PMC HTML，source SHA-256 `3cb030112200768eb80e3599cbd1520dc564f5df529430f69493e4093429809e`；全文包含摘要、方法、Table 1–2、Figure 1–2、補充分析、Discussion、限制、結論與參考文獻。本次為 Worker batch 的 `paper-digest`，另有獨立品質評讀和 4 張理解型測驗卡。",
+      "cards": [
+        {
+          "title": "alpha diversity 下降的邊界",
+          "question": "走路組 alpha diversity 下降，能不能直接說腸道變差？",
+          "answer": "不能。可能是短期生態重組、採樣或生活因素造成；本研究沒有同步證明 SCFA 或代謝改善，因此不能把下降直接標成好或壞。",
+          "tags": [
+            "alpha diversity",
+            "腸道微生物",
+            "運動"
+          ]
+        },
+        {
+          "title": "SCFA 沒有被證明增加",
+          "question": "這個 RCT 是否證明走路增加 SCFA？",
+          "answer": "沒有。propionate、butyrate 等 SCFA 的組間 change 沒有顯著差異，信賴區間跨過無差異。",
+          "tags": [
+            "SCFA",
+            "propionate",
+            "代謝"
+          ]
+        },
+        {
+          "title": "探索性 KO 不能當機制",
+          "question": "為什麼 raw p-value 的 KO 或菌種訊號不能直接當作機制？",
+          "answer": "研究樣本小且探索項目多；FDR 校正後 taxa 和功能路徑沒有顯著結果，作者把這些只當成未來研究假說。",
+          "tags": [
+            "KO",
+            "FDR",
+            "研究解讀"
+          ]
+        },
+        {
+          "title": "前期糖尿病的實務使用",
+          "question": "臨床上應如何使用這篇走路與腸道菌相研究？",
+          "answer": "依一般活動指引鼓勵安全、可持續的走路，並追蹤血糖、體重、飲食和功能；不要用 alpha diversity、SCFA 或單一菌種取代標準照護。",
+          "tags": [
+            "臨床應用",
+            "前期糖尿病",
+            "營養"
+          ]
+        }
+      ],
+      "completedAt": "2026-09-03T12:12:07.147Z"
+    },
+    {
+      "id": "doi:10.2337/doc25-0067:review",
+      "paperId": "doi:10.2337/doc25-0067",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "The Effect of Physical Activity on the Gut Microbiome in Prediabetes: Results from a Randomized Controlled Trial.",
+      "authors": "Demmer R, Pope Z, Avenido F, Mitchell N, Richmond Hubbard P, Johnson S, Sharma S, McDonough D, Rydell S, Johnson A, Pereira M",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.2337/doc25-0067",
+      "abstract": "To test the effect of physical activity on the gut microbiome and circulating short chain fatty acids among sedentary adults with prediabetes and overweight/obesity. In a pilot and feasibility trial, we randomized 77 adults with prediabetes and a sedentary lifestyle into one of two groups: 1) Intervention: Invited to engage in home-based moderate intensity walking 3x/week for 30 minutes/session in weeks 1-4 and for 45 minutes/session during weeks 5-8 of the 8-week intervention; or 2) Control: Maintained habitual physical activity levels. We performed metagenomic sequencing from stool collected at baseline, week 4, and week 8, with short-chain fatty acids (SCFA) measured from serum collected at baseline and week 8. Taxonomic and functional profiling were performed on the metagenomic reads; alpha diversity metrics were subsequently derived. Linear regression assessed the difference in change between the intervention and control groups for alpha-diversity and SCFA levels. We screened 1,533 participants for eligibility and consented 132. Of these, 87 entered the run-in phase and 77 were randomized. Participants were 51.4±8.9 years old, 87.7% female, and 74% non-Hispanic White. Mean fasting glucose was 103.3±13.2 while mean BMI was 34.4±5.7. In comparison to control, the intervention group experienced decreased alpha diversity as characterized by Shannon, Richness, and Faith's diversity indices by intervention week 8 (P<0.05). Changes in SCFA levels were not statistically significant different in intervention vs. control. Randomization to a walking intervention resulted in modest gut microbiome changes among adults with overweight/obesity and prediabetes.",
+      "legalFullTextUrl": "https://diabetesjournals.org/docm-care/article-pdf/doi/10.2337/doc25-0067/859187/docm250067.pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42577916/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "design:randomized controlled",
+        "human clinical population",
+        "obesity and metabolism",
+        "precision nutrition"
+      ],
+      "noteTitle": "8 週居家走路對前期糖尿病腸道微生物體的品質評讀",
+      "content": "# 8 週居家走路對前期糖尿病腸道微生物體的品質評讀\n\n## 研究問題與研究設計\n\n本文是 pilot and feasibility 的隨機、平行對照試驗，測試中等強度走路是否改變久坐、前期糖尿病且過重／肥胖成人的腸道微生物體與循環短鏈脂肪酸（SCFA）。研究註冊於 ClinicalTrials.gov `NCT04931836`，不是以糖尿病或心血管事件為主要臨床結局的治療試驗。\n\n- 1,533 人接受篩選，132 人同意，87 人進入 run-in，77 人最後隨機分派：走路組 39、維持平常活動的對照組 38。\n- 參與者平均 51.4±8.9 歲，87.7% 為女性，74% 為非西語裔白人；平均 BMI 34.4±5.7 kg/m²、空腹血糖 103.3±13.2 mg/dL。\n- 走路組被邀請在第 1–4 週每週 3 次、每次 30 分鐘，第 5–8 週每次 45 分鐘，走路日目標至少 6,000 步；對照組維持習慣活動。\n- 糞便在基線、4 週、8 週採集，做 shotgun metagenomics；血清 SCFA 在基線與 8 週測量。以線性模型評估兩組 change 的差異，菌相功能以 Sourmash、HUMAnN3 等流程分析，多重比較使用 FDR。\n\n## 品質快照\n\n### 優點\n\n- 隨機化與平行對照比過去許多沒有控制組的運動—腸道菌相研究更能降低基線混雜。\n- 重複採樣能觀察 4 與 8 週的時間變化；同時測量 taxonomy、功能、KEGG ortholog 和血清 SCFA，不只看一個菌。\n- 納入前期糖尿病與過重／肥胖、且排除近期抗生素、胃腸疾病與運動禁忌，研究問題與代謝風險族群直接相關。\n- 對結果的解讀相對克制：作者承認研究樣本小、走路增加幅度有限，單一 taxa、功能路徑和 SCFA 分析對多重比較的 power 不足。\n\n### 主要限制\n\n1. 這是 77 人的 pilot 試驗，最終部分 biomarker 分析只有介入組 31–34 人、對照組 36–37 人；對單菌種、功能和 SCFA 的估計不精確。\n2. 介入是居家、未監督的走路，基線到第 8 週的兩組步數差異估計為 480.8（95% CI −223.8 至 1,185.4）步／日，信賴區間跨過無差異；實際 exercise dose 可能不足或不一致。\n3. 參與者被要求維持飲食，但不是住院控制飲食；糞便前 3 天飲食被要求重複，仍不能排除日常飲食、腸道通過時間或其他生活變化。\n4. alpha diversity 下降是探索性主要訊號，但與既有部分運動研究的方向相反；單一研究不能判定「多樣性下降」本身是有益、暫時適應或不利。\n5. 物種與功能路徑的 raw p-value 訊號在 FDR 校正後沒有顯著結果；作者提到的 KO 主題只能作為未來假說，不是已驗證的功能改變。\n6. 參與者主要是中年、女性和非西語裔白人，不能直接外推到已確診 T2D、正常體重、老年人或其他族群。\n\n## 主要結果與保守解讀\n\n介入組在第 8 週的 Shannon、Richness 和 Faith’s diversity 指標相較對照組出現下降；inverse Simpson 在第 4 週下降，但到第 8 週不再顯著。作者未報告兩組第 8 週 beta diversity 的差異。SCFA 沒有顯著組間 change：例如 propionic acid 的 difference in change 約 1.35（95% CI −8.21 至 10.91），butyric acid 約 0.91（−7.50 至 9.31），均跨過無差異。\n\n心代謝 biomarker 在介入期也沒有一致差異：體重 difference in change 約 0.39 kg（−0.31 至 1.09）、BMI 約 0.15 kg/m²（−0.10 至 0.40）、空腹血糖約 0.007 mg/dL（−3.92 至 3.94）；LDL-C 的估計差異為 9.57 mg/dL（1.06 至 18.08），但這是多項探索結果之一，不能把它解讀成走路造成臨床惡化。步數增加的 CI 同樣跨過零，表示這個小型未監督介入的實際劑量不夠精確。\n\n若把 alpha diversity 下降放回全文，可能有兩種以上解釋：短期生活型態介入的菌相重組未必先表現為多樣性上升，或許是暫時的生態篩選；也可能只是樣本波動、飲食或活動劑量不一致。文中提到 Coprococcus、Agathobaculum、Butyricimonas 和 Roseburia 等探索訊號，但多重比較後沒有達到顯著，不能據此指定「好菌」或宣稱 SCFA 產生增加。\n\n## Critical Appraisal／GRADE\n\n針對主張「在前期糖尿病且過重／肥胖的久坐成人中，8 週中等強度居家走路可能改變腸道 alpha diversity，但尚未證明能改變 SCFA、特定菌種、功能路徑或心代謝結果」的證據，依 deterministic `grade_judge.py` 以隨機試驗 starting level=high，對 risk of bias、inconsistency 和 imprecision 各降一級，indirectness 與 publication bias 不額外降級，最後為 Very low（⊕◯◯◯）。\n\n- risk of bias：隨機化是優點，但居家、未監督介入的實際步數增加有限，且部分結果有缺失樣本；菌相多重探索結果也增加選擇性解讀風險。\n- inconsistency：本試驗 alpha diversity 下降，方向與部分先前運動研究不同；單一 pilot 無法確認方向在不同族群和劑量下是否一致。\n- imprecision：n=77，部分 SCFA／biomarker 分析約 31–37 人，CI 寬且多數跨過無差異；單一菌種與 KO 的 FDR 後結果不顯著。\n\nLow certainty 不等於走路沒有健康價值；它表示本研究不能把腸道菌相變化當成走路改善前期糖尿病的已驗證中介。可接受的說法是「這個小型 RCT 觀察到 alpha diversity 的探索性改變，仍需更大、劑量更清楚和追蹤更久的試驗」。不可改寫成「走路會修復腸道菌相」、「多樣性下降一定有益」、「走路已透過 SCFA 改善血糖」或「某一菌種是必要機制」。\n\n`argdown_lint.py` 對上述保守、非因果的主張回傳 clean。\n\n## 白話導讀\n\n研究者讓一群久坐、前期糖尿病又過重／肥胖的成年人連續 8 週增加走路，然後看糞便裡的腸道微生物和血液裡的 SCFA。走路組的整體 alpha diversity 反而下降，這並不自動代表變差，因為短期飲食或生活型態改變可能先篩選出不同的菌群；但它也不代表一定變好。SCFA、血糖、體重和大多數代謝指標沒有清楚改善，物種與功能訊號在多重校正後也不穩定。這篇最可靠的收穫是：走路和腸道菌相之間可能有關聯，值得用更大試驗驗證，不能用一次小型研究取代運動和前期糖尿病的標準照護證據。\n\n## 臨床應用\n\n- 鼓勵走路應依一般身體活動指引、個人能力、關節與心肺狀況漸進安排；不要把本試驗的菌相結果當成運動處方的唯一理由。\n- 前期糖尿病照護仍應以體重、飲食、血糖、睡眠、血壓、血脂和可持續的活動量為主，不能用 alpha diversity 或 SCFA 檢測取代標準監測。\n- 若要追蹤生活型態介入，應記錄實際步數、運動強度、飲食、藥物、抗生素與腸胃症狀；單次糞便菌相結果不宜直接標籤「好菌／壞菌」。\n- 營養師可用這篇提醒個案：菌相變化不必然等於多樣性上升，且短期訊號尚未證明能改善血糖；飲食建議仍應依整體飲食品質、可行性、血糖與體重目標調整。\n- 研究參與者多為中年女性、非西語裔白人且 BMI 偏高；對老人、正常體重、已確診 T2D 或不同族群須保留外推限制。\n\n## 研究限制與待查問題\n\n1. 需要更大的、充分 powered 的運動試驗，明確控制頻率、強度、時間與總步數，並保留意向治療分析。\n2. 需要更密集的糞便與血液採樣，判斷 alpha diversity 下降是否短暫、可重現，及是否和實際代謝結果連結。\n3. 需要預先指定主要菌種／功能／SCFA 結局並處理多重比較，避免從 raw p-value 挑出故事。\n4. 需要比較運動、飲食、運動加飲食和標準照護，才能拆開腸道菌相和體重／血糖改善的相對貢獻。\n5. 需要納入更廣泛的年齡、性別、族群和糖尿病風險範圍，並測量長期 T2D 發生、心血管風險與生活品質。\n\n## 證據位置\n\n- 研究目的、隨機分派與主要結果：Abstract、`Introduction` 與 `Results` opening。\n- 納入條件、走路劑量、糞便採樣與 sequencing：`Research Design and Methods`、`Home-based Walking Intervention`、`Microbiome Measurement and Data Processing`。\n- baseline 與 change 數值：Table 1、Table 2。\n- alpha diversity、taxa、KO、SCFA 和 beta diversity：`Effect of Intervention on Short Chain Fatty Acids`、`Effect of Intervention on Gut Microbiome`、Figure 2 與 Supplementary Tables。\n- 因果邊界、COVID 影響、樣本小與 future trials：`Discussion`、`Limitations/Strengths`、`Conclusion`。\n- 完整來源：Demmer RT, Pope Z, Avenido FR, et al. *The Effect of Physical Activity on the Gut Microbiome in Prediabetes: Results from a Randomized Controlled Trial*. Diabetes Obes Cardiometab CARE. 2026;1(2):219–229. doi:10.2337/doc25-0067. PMCID `PMC13455599`，Worker verified PMC HTML，source SHA-256 `3cb030112200768eb80e3599cbd1520dc564f5df529430f69493e4093429809e`。\n- 本次為 Worker focused-quick `paper-review`；未把探索性 KO、raw p-value 或作者假說當成確證臨床效益。",
+      "cards": [],
+      "completedAt": "2026-09-03T12:09:10.355Z"
+    },
+    {
+      "id": "doi:10.1136/heartjnl-2026-328221:digest",
+      "paperId": "doi:10.1136/heartjnl-2026-328221",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Bidirectional links between heart failure and cancer: shared pathophysiology, clinical outcomes and collaborative management.",
+      "authors": "Gill A, Li T, Jimenez S, Cadeiras M, Fan D, Singh S, Ebong I",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.1136/heartjnl-2026-328221",
+      "abstract": "Heart failure (HF) and cancer are leading causes of global morbidity and mortality that share a significant bidirectional relationship. Epidemiologic studies reveal that cancer patients and survivors face a substantially elevated risk of HF, largely driven by cardiotoxic systemic therapies including chemotherapy, targeted therapy, immunotherapy and radiation therapy. Conversely, individuals with HF have a markedly increased incidence of cancer. This interconnection is underpinned by age and shared modifiable risk factors, including smoking, hypertension, diabetes and obesity, as well as common pathophysiological mechanisms such as chronic inflammation, neurohormonal activation, oxidative stress and dysregulated angiogenesis. Clonal haematopoiesis of indeterminate potential has emerged as a novel biological link, promoting both maladaptive cardiac remodelling and tumourigenesis. Clinically, the coexistence of HF and cancer creates complex management challenges, as each condition worsens the prognosis of the other and limits therapeutic options. In addition to providing a broad overview of the topic, this review incorporates three aspects that are underexplored in existing cardio-oncology literature-management of advanced metastatic cancer in patients with HF, use of advanced HF therapies in patients with cancer and disparities in cardio-oncology care and clinical trial representation. Effective management of patients with HF and cancer requires a multidisciplinary cardio-oncology approach that incorporates rigorous risk stratification, early detection using serial cardiac biomarkers and imaging and personalised management tailored to cancer treatment. Irrespective, cancer patients with HF have a poor prognosis. It is necessary to balance oncological efficacy with cardiovascular safety while providing a clear definition of the goals of care. Early integration of palliative and rehabilitative care can significantly improve patient quality of life and outcomes. Nevertheless, effective novel treatment strategies have significantly improved the overall survivorship for patients with cancer and/or HF.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42571652/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "human clinical population",
+        "obesity and metabolism",
+        "precision nutrition",
+        "safety and interaction"
+      ],
+      "noteTitle": "心衰竭與癌症雙向關聯及共同照護全文內容整理",
+      "content": "# 心衰竭與癌症雙向關聯及共同照護全文內容整理\n\n> [!summary] 30 秒層：一句話 + 重點\n> 這篇 specialist narrative review 的主旨是：癌症及其治療可能增加心衰竭（HF）風險，而 HF 病人也觀察到較高的癌症發生與死亡風險；兩病共享發炎、代謝、神經荷爾蒙和血管路徑，因此需要 cardio-oncology 團隊協調，但觀察性關聯不能直接當成因果或治療效果。\n> - 癌症倖存者的 HF 風險依癌種、anthracycline／trastuzumab、放療劑量和基線心臟狀態而異。\n> - HF→癌症的數字來自 cohort、registry 和 meta-analysis，可能混有 surveillance、共同風險和 survivorship bias。\n> - 風險分層常用病史、血壓、LVEF、troponin、natriuretic peptide、strain echocardiography 或 CMR；這些是監測工具，不是獨立診斷器。\n> - 晚期雙重疾病要同時處理治療耐受性、cachexia、功能、營養、復健、緩和照護和病人目標。\n\n## 5 分鐘層：全文地圖\n\n文章先說明 HF 與癌症的流行病學雙向交集，再整理共同病理機制，接著分別討論癌症病人的 HF 預防、已有 HF 病人的癌症治療、advanced HF、轉移癌，以及多專科協作。最後用研究缺口收束：目前最需要的是雙疾病族群的多中心前瞻性研究、外部驗證模型、較公平的試驗納入和長期監測標準。\n\n## 研究問題與背景\n\n**要點**：作者不是在測試單一藥物，而是在整理如何於心臟安全與腫瘤療效互相牽制時作決策。\n\n- 成人癌症倖存者約有較高 HF 風險；HF 病人也在多個觀察性資料中出現較高 incident cancer。\n- 共同可修正風險包括高血壓、糖尿病、肥胖、吸菸和活動不足；年齡則同時連結衰老、CHIP 和細胞老化。\n- 文章特別把晚期轉移癌＋既有 HF、癌症治療後 advanced HF、照護不平等和試驗代表性列為重點。\n\n## 流行病學重點\n\n**要點**：數字支持「要提高警覺」，不支持把 HF 直接說成癌症成因。\n\n癌症倖存者的資料包括 36,232 人的 community-based retrospective cohort；年輕成人接受 anthracycline 後 5 年 HF 約 4.0%，未暴露者約 1.3%。乳癌 cohort 中，anthracycline 單用的 5 年 HF 累積發生率約 4.3%，合併 trastuzumab 接近 20%。歷史性胸腔放療也可能在多年後出現心肌纖維化、瓣膜、心包膜或冠心病問題。\n\n反方向的 HF→癌症資料包括：一個 community cohort 約高 70%、丹麥 registry 約高 24%、義大利 cohort 接近兩倍，以及 9 個觀察性 cohort、超過 700 萬人 meta-analysis 的整體風險約高 43%。但 HF 病人接觸醫療較頻繁，早期診斷附近的風險特別高，可能代表 surveillance bias；年齡、吸菸、肥胖、糖尿病、慢性發炎與 survivorship bias 也不能排除。\n\n## 共同病理生理\n\n**要點**：機制能解釋為什麼兩病可能互相牽動，但機制合理性不等於阻斷它就能改善兩種疾病。\n\n- 慢性低度發炎和 CHIP 可能同時推動心臟重塑、纖維化和腫瘤生物學；TET2、DNMT3A、ASXL1 是文中舉例的 CHIP 變異。\n- HF 的交感神經和 RAAS 活化可能透過 β-adrenergic、angiotensin II、IL-6 和 VEGF 訊號影響腫瘤；腫瘤細胞激素也可能加強心臟發炎和纖維化。\n- 氧化壓力、粒線體代謝、血管新生和細胞外基質重塑是共同背景，但多數細節來自轉譯或實驗研究。\n- 心肌梗塞或衰竭心肌釋放的細胞外囊泡、免疫細胞重編程和腫瘤微環境的結果很有研究價值，還不能當作日常診療的生物標誌物閘門。\n\n## 癌症治療造成 HF：要記住的差異\n\n**要點**：藥物類別、累積劑量、既往放療和基線風險決定監測與調整，不是看到藥名就一律停用。\n\n- Anthracyclines 透過 topoisomerase IIβ 和 reactive oxygen species 造成較具劑量累積性的心肌傷害；可考慮劑量管理、liposomal formulation、dexrazoxane 與 LVEF／troponin 監測。\n- HER2 therapy 影響心肌細胞存活與壓力修復，LV dysfunction 相對可能恢復；出現 HF 時須依腫瘤與心臟狀況決定暫停和重新挑戰。\n- VEGF／VEGFR inhibitors 可能造成高血壓、內皮功能異常與 LV dysfunction；proteasome inhibitors 可能有早期 HF、血壓和體液負荷問題。\n- Immune checkpoint inhibitor myocarditis 雖罕見但可能暴發；BTK inhibitors 要注意 atrial fibrillation；胸腔放療要盡量降低心臟與冠脈劑量。\n\n## HF 病人發生癌症：治療衝突\n\n**要點**：HF 會限制某些抗癌治療的安全空間，癌症又會讓 HF 藥物更難調整。\n\n開始抗癌治療前要評估 HF 嚴重度、LVEF、血流動力、肺高壓、共病、功能和腎功能。低血壓、腎毒性、肝損傷、血球減少、低白蛋白、cachexia 和 CYP450 藥物交互作用，都可能使 GDMT、利尿劑或抗癌方案需要調整。LVAD 可能受到血小板低下、感染風險和預期壽命限制；近期或活動性癌症也會讓心臟移植評估更複雜。這些是個別化風險決策，不是文章授權的固定禁忌清單。\n\n## Advanced disease、緩和與復健\n\n晚期 HF 和轉移癌可能共同造成喘、疲倦、食慾差、液體變化、肌少症和 cachexia；症狀彼此重疊，標準預後工具可能低估風險。作者支持較早整合緩和照護、共享決策與照護目標討論，包含治療降階、ICD 或 LVAD 處理、居家照護和末期規劃。復健則需要心肺運動測試、癌症治療副作用、frailty、骨脆弱、共病、營養狀態與居家／中心場域一起考量；營養師、心臟科、腫瘤科、復健人員與基層照護要共同決定安全強度。\n\n## 研究缺口\n\n目前缺少雙疾病族群的多中心隨機試驗，很多心臟保護證據從單一疾病或特定癌種外推。現有風險模型仍未充分納入累積放療劑量、新型免疫療法、動態 biomarker、基因體、蛋白體和先天社會環境。女性、少數族群、老人、frailty、既有 HF 和腎功能異常者代表性不足；晚發心毒性和第二癌症也沒有一致的監測時間與方式。\n\n## 怎麼把全文用在實務上\n\n1. 癌症治療前建立心臟風險基線，記錄症狀、LVEF、血壓、糖尿病、腎功能、既往治療和活動能力。\n2. 治療中依方案追蹤症狀、體重、血壓、ECG、troponin、natriuretic peptide、LVEF 或 strain；警訊出現時由團隊判斷是否調整。\n3. 營養照護同時看食慾、噁心、cachexia、肌少症、鈉／液體限制、血糖、腎功能與治療耐受性，不能只用單一 HF 飲食模板。\n4. 逐項核對腫瘤藥、HF 藥、利尿劑、抗凝藥與 CYP 交互作用；病人不要自行停藥或重啟治療。\n5. 晚期雙重疾病及早說清楚治療目的、功能期望、症狀優先順序和病人可接受的負擔。\n\n## 自我測驗\n\n> [!question]- Q1：癌症倖存者 HF 風險較高，最合理的臨床含義是什麼？\n> 應依癌種、累積治療、既往心臟狀態和共病安排風險分層及監測；不能把 cohort 的平均風險直接當成個人預測值，也不能因此自行停抗癌治療。\n\n> [!question]- Q2：為什麼 HF→癌症的關聯不能直接解讀為因果？\n> 主要證據是觀察性 cohort、registry 和 meta-analysis；HF 病人有較多醫療接觸，且年齡、吸菸、肥胖、糖尿病、慢性發炎和 survivorship bias 都可能造成或放大關聯。\n\n> [!question]- Q3：哪些指標可以協助 cardio-oncology 監測，哪些不能單獨做決策？\n> 症狀、血壓、ECG、troponin、natriuretic peptide、LVEF、strain 和 CMR 可協助風險分層與早期偵測，但不能單獨決定停藥、換癌症方案或證明腫瘤進展原因。\n\n> [!question]- Q4：為什麼晚期 HF＋癌症要早點加入緩和與復健？\n> 兩病會共同造成症狀、cachexia、功能下降和治療負擔；緩和照護協助目標和症狀，復健與營養協助安全功能維持，並不等於放棄抗癌或 HF 治療。\n\n## Reference 與全文證據\n\n`Gill A, Li T, Jimenez S, et al. Bidirectional links between heart failure and cancer: shared pathophysiology, clinical outcomes and collaborative management. Heart. 2026. doi:10.1136/heartjnl-2026-328221.`\n\n完整來源為 Worker verified CC BY-NC PDF，全文檔涵蓋 PDF 第 1–12 頁、正文、Tables 1–5、限制、結論與參考文獻；source SHA-256 `38a77830c9de241461173c5c07f8a6130f49e4869e4d1e9bcf4a43a8a45b4621`。本次為 Worker batch 的 `paper-digest`，另有獨立的 `paper-review`；兩者不是同一份成果。",
+      "cards": [
+        {
+          "title": "關聯不等於因果",
+          "question": "為什麼 HF 病人癌症風險較高不能直接解讀為 HF 造成癌症？",
+          "answer": "核心資料是觀察性 cohort、registry 和 meta-analysis，可能受 surveillance、年齡、吸菸、肥胖、糖尿病、慢性發炎與 survivorship bias 影響。",
+          "tags": [
+            "心衰竭",
+            "癌症",
+            "因果推論"
+          ]
+        },
+        {
+          "title": "抗癌治療的心臟監測",
+          "question": "癌症治療期間哪些資料可協助 cardio-oncology 監測？",
+          "answer": "依風險追蹤症狀、血壓、ECG、troponin、natriuretic peptide、LVEF、strain 或 CMR；它們是分層與早期偵測工具，不是單獨停藥或換療法的決策器。",
+          "tags": [
+            "cardio-oncology",
+            "LVEF",
+            "心毒性"
+          ]
+        },
+        {
+          "title": "藥物心毒性的差異",
+          "question": "為什麼不能看到抗癌藥名就一律停用？",
+          "answer": "Anthracycline、HER2、VEGF、免疫檢查點和 BTK 藥物的心臟風險、可逆性與處置不同，還受劑量、基線 LVEF、腎功能和癌症療效影響，需團隊個別化判斷。",
+          "tags": [
+            "anthracycline",
+            "HER2",
+            "藥物安全"
+          ]
+        },
+        {
+          "title": "晚期雙重疾病的照護",
+          "question": "晚期 HF 加癌症時，為什麼要早點加入緩和照護、復健和營養？",
+          "answer": "兩病會共同造成喘、疲倦、cachexia、功能下降和治療負擔；整合照護可協助症狀、功能、營養與治療目標，不等於放棄抗癌或 HF 治療。",
+          "tags": [
+            "緩和照護",
+            "復健",
+            "營養"
+          ]
+        }
+      ],
+      "completedAt": "2026-09-03T12:04:07.102Z"
+    },
+    {
+      "id": "doi:10.1136/heartjnl-2026-328221:review",
+      "paperId": "doi:10.1136/heartjnl-2026-328221",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Bidirectional links between heart failure and cancer: shared pathophysiology, clinical outcomes and collaborative management.",
+      "authors": "Gill A, Li T, Jimenez S, Cadeiras M, Fan D, Singh S, Ebong I",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.1136/heartjnl-2026-328221",
+      "abstract": "Heart failure (HF) and cancer are leading causes of global morbidity and mortality that share a significant bidirectional relationship. Epidemiologic studies reveal that cancer patients and survivors face a substantially elevated risk of HF, largely driven by cardiotoxic systemic therapies including chemotherapy, targeted therapy, immunotherapy and radiation therapy. Conversely, individuals with HF have a markedly increased incidence of cancer. This interconnection is underpinned by age and shared modifiable risk factors, including smoking, hypertension, diabetes and obesity, as well as common pathophysiological mechanisms such as chronic inflammation, neurohormonal activation, oxidative stress and dysregulated angiogenesis. Clonal haematopoiesis of indeterminate potential has emerged as a novel biological link, promoting both maladaptive cardiac remodelling and tumourigenesis. Clinically, the coexistence of HF and cancer creates complex management challenges, as each condition worsens the prognosis of the other and limits therapeutic options. In addition to providing a broad overview of the topic, this review incorporates three aspects that are underexplored in existing cardio-oncology literature-management of advanced metastatic cancer in patients with HF, use of advanced HF therapies in patients with cancer and disparities in cardio-oncology care and clinical trial representation. Effective management of patients with HF and cancer requires a multidisciplinary cardio-oncology approach that incorporates rigorous risk stratification, early detection using serial cardiac biomarkers and imaging and personalised management tailored to cancer treatment. Irrespective, cancer patients with HF have a poor prognosis. It is necessary to balance oncological efficacy with cardiovascular safety while providing a clear definition of the goals of care. Early integration of palliative and rehabilitative care can significantly improve patient quality of life and outcomes. Nevertheless, effective novel treatment strategies have significantly improved the overall survivorship for patients with cancer and/or HF.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42571652/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "human clinical population",
+        "obesity and metabolism",
+        "precision nutrition",
+        "safety and interaction"
+      ],
+      "noteTitle": "心衰竭與癌症雙向關聯及共同照護的品質評讀",
+      "content": "# 心衰竭與癌症雙向關聯及共同照護的品質評讀\n\n## 研究問題與研究設計\n\n本文是 Heart 發表的 specialist narrative review，整理心衰竭（HF）與癌症之間的雙向流行病學、共同病理生理、治療衝突與 cardio-oncology 協作。它不是新收案的單一研究，也不是有統合效應量的系統性回顧；作者依賴既有 cohort、registry、觀察性研究、機制研究、臨床試驗與指引，提出一個臨床管理框架。\n\n文章特別聚焦三個常被低估的情境：已有 HF 的晚期轉移癌、癌症病人的 advanced HF，以及 cardio-oncology 照護與臨床試驗代表性不足。主要問題不是「HF 是否必然造成癌症」或「某一個 biomarker 能否診斷」，而是如何在癌症療效、心臟安全性、功能、營養狀態、症狀與病人目標之間協調。\n\n## 品質快照\n\n### 文章做得好的地方\n\n- 把癌症治療造成的 HF 風險，與 HF 病人後續癌症風險分開整理，避免只把 cardio-oncology 當成化療副作用管理。\n- 按治療類型列出 anthracyclines、HER2 therapy、VEGF／VEGFR inhibitors、proteasome inhibitors、免疫檢查點抑制劑、BTK inhibitors 與胸腔放療的機制和監測重點。\n- 把共同風險因子（年齡、吸菸、高血壓、糖尿病、肥胖、活動不足）和共同路徑（慢性發炎、交感／RAAS、氧化壓力、血管新生、細胞外基質與 CHIP）放在同一張圖中。\n- 沒有把「雙向關聯」直接寫成因果。作者明確承認 HF→癌症的資料主要是觀察性 cohort／registry，可能受 surveillance、殘餘混雜與 survivorship bias 影響。\n- 納入緩和照護、復健、營養師、病人目標和照護協調，讓管理不只停留在藥物和 LVEF。\n\n### 主要限制\n\n1. 文章是敘事性整合，沒有完整系統性搜尋、研究品質表格或可重現的統合分析；不同癌種、HF 表型、治療暴露與結局不能直接合併。\n2. 多數「HF 增加癌症」的數字來自觀察性研究。HF 病人接受更多檢查，早期診斷後的監測偏差可能放大關聯；年齡、吸菸、糖尿病、肥胖與慢性發炎也可能解釋部分訊號。\n3. 癌症病人發生 HF 的風險數字跨越不同年代和治療技術。歷史性 mantle-field 放療、舊式 anthracycline 暴露，不能無條件外推到現代劑量與心臟保護策略。\n4. 管理建議多依共識、單一疾病 HF 指引或特定癌症研究外推到雙疾病族群；真正把 cardio-oncology 策略隨機比較一般照護並以癌症與心臟雙重結局評估的試驗仍少。\n5. 文章對 advanced HF 使用 LVAD、移植、GDMT 和腫瘤治療的討論指出實務衝突，但高風險、血小板低下、腎肝功能異常、cachexia 和預期壽命會使個別結果非常不均質。\n\n## 關鍵數據與可接受的讀法\n\n癌症倖存者的 HF 風險高於一般族群；文中引用的研究包括 36,232 名成人癌症倖存者的 community cohort，以及年輕成人接受 anthracycline 後 5 年 HF 4.0% 對未暴露者 1.3%。乳癌 cohort 中，anthracycline 單用的 5 年 HF 累積發生率約 4.3%，合併 trastuzumab 接近 20%。這些數字支持治療暴露與基線風險需要被納入監測，但它們來自不同 cohort 和治療組合，不能當成每位病人的個別預測值。\n\n相反方向的 HF→癌症關聯也被多個資料庫觀察到：文章引用的 community cohort 約高 70%、丹麥 registry 約高 24%、義大利 cohort 接近兩倍；一項九個觀察性 cohort 的 meta-analysis 則估計整體風險高 43%。作者同時提醒，這些結果無法排除 surveillance、共同風險因子與 survivorship bias，不能宣稱 HF 本身已被證明會造成腫瘤生成。\n\n共存 HF 的癌症住院者也有較差結果。文中引用的 national cohort 中，HF 合併癌症住院約 12.7 天對 8.2 天，住院死亡 12.2% 對 4.5%；英國資料顯示癌症背景的急性 HF 出院後中位存活約 1.6 年對 2.6 年。但這類比較仍可能含疾病嚴重度、癌症分期、治療限制和照護差異，不能只把差值歸因於某一條共同生物途徑。\n\n## 共同病理生理的可信度邊界\n\nCHIP、TET2／DNMT3A／ASXL1、慢性低度發炎、交感神經和 RAAS 活化、氧化壓力、VEGF 與細胞外基質重塑，提供了 HF 和癌症可能互相影響的生物學合理性。心肌梗塞或衰竭心肌釋放的細胞外囊泡、免疫細胞重編程與腫瘤微環境的實驗結果很有啟發性，但不能直接變成臨床用藥或篩檢建議。尤其「共同機制存在」不等於「阻斷該機制一定能同時治好兩病」。\n\n## 治療與照護判讀\n\n- Anthracycline 的心肌細胞損傷偏劑量累積且較不可逆；HER2 therapy 的 LV dysfunction 在適當監測和處置後較可能恢復。這是機制和風險管理差異，不是讓病人自行停藥的指令。\n- VEGF／VEGFR 抑制劑可能帶來高血壓、微血管變化和 LV dysfunction；免疫檢查點抑制劑相關 myocarditis 雖少見但可暴發；BTK inhibitors 需注意心房顫動。實際調整要由腫瘤科與心臟科依癌症療效、症狀、LVEF、troponin、ECG、腎功能與藥物交互作用共同決定。\n- 基線和序列 troponin、natriuretic peptides、strain echocardiography 或 CMR 可協助高風險監測；它們是風險分層和早期偵測工具，不是單獨確診癌症或 HF 惡化原因的工具。\n- HF 治療可能受低血壓、腎毒性、肝損傷、血球減少、cachexia、藥物 CYP 交互作用或體液變化限制；癌症治療也可能因 HF 而減量、暫停或換方案。\n- Advanced HF、轉移癌和惡病質重疊時，及早加入緩和照護與共享決策，可以把症狀、營養、功能、照護目標、裝置處理和治療強度放在同一個討論，不代表放棄抗癌或 HF 治療。\n\n## Critical Appraisal／GRADE\n\n對主張「HF 與癌症存在雙向流行病學關聯，且共同風險與病理途徑支持以 multidisciplinary cardio-oncology 進行風險分層、序列監測與個人化協作；但目前尚不能由觀察性關聯推定 HF 造成癌症，或證明某一整合策略改善雙重疾病結局」的整體證據，依 deterministic `grade_judge.py` 以混合觀察性與轉譯證據 starting level=low，對 risk of bias、inconsistency、indirectness、imprecision 各降一級，出版偏差不額外降級，最後為 Very low（⊕◯◯◯）。\n\n- risk of bias：HF→癌症與共病預後的核心數字主要來自 cohort、registry 或住院資料，易受殘餘混雜、監測偏差、疾病嚴重度和 survivorship bias 影響。\n- inconsistency：癌種、HF 表型、治療年代、劑量、追蹤時間與結局定義不同；機制研究和臨床結果也不能視為同一層級。\n- indirectness：許多藥物保護和監測建議由單一疾病試驗、共識或特定癌種外推至 HF＋癌症共存者；advanced HF 和 metastatic cancer 的證據更間接。\n- imprecision：部分亞組、死亡和裝置／移植結果樣本小，個別治療效果和最佳監測頻率仍缺少精確估計。\n\n這個 Very low 是對「整體雙向框架及整合管理能改善結局」的保守評等，不否定已有較強的特定藥物毒性或指引性監測知識。可接受的說法是：癌症治療可能造成 HF，HF 與癌症共存時預後通常較差，因此需要協作和監測；不可改寫成「HF 會造成癌症」、「所有癌症病人都要使用某種心臟保護藥」或「cardio-oncology clinic 已被隨機試驗證明可降低所有死亡」。\n\n`argdown_lint.py` 對此保守、非因果主張回傳 clean。\n\n## 白話導讀\n\nHF 和癌症會互相增加照護難度：有些抗癌藥會傷害心臟，有 HF 的人又可能因低血壓、腎功能、體力或藥物交互作用而無法照原計畫治療。兩種疾病也共享吸菸、血壓、糖尿病、肥胖、慢性發炎等背景。這不代表 HF 一定導致癌症，而是提醒團隊不要把兩個疾病分開處理。病人需要的是事前看風險、治療中看症狀與心臟指標、必要時調整抗癌和 HF 方案，並把復健、營養、緩和照護和病人真正想要的治療目標納入決策。\n\n## 臨床應用\n\n1. 癌症治療前：整理既往 HF、LVEF、冠心病、血壓、糖尿病、腎功能、活動能力、吸菸、肥胖和預定抗癌療法；高風險者由 cardio-oncology 團隊建立監測計畫。\n2. 治療期間：依方案追蹤症狀、體重、血壓、ECG、troponin、natriuretic peptide、LVEF 或 strain；出現呼吸困難、胸痛、浮腫、暈厥、快速心跳或明顯功能下降時，應及時聯絡醫療團隊。\n3. 營養照護：同時留意癌症治療的噁心、食慾下降、cachexia、肌少症、鈉／液體限制、血糖與腎功能；不要只追求體重下降或套用單一 HF 飲食而忽略癌症治療耐受性。\n4. 藥物安全：核對 CYP450 交互作用、腎肝功能、血球、低血壓與體液狀態；不依文章表格自行停用抗癌藥、ACEI／ARB、β-blocker、利尿劑或 SGLT2 inhibitor。\n5. 晚期雙重疾病：及早討論疾病控制、症狀舒緩、復健、居家照護、裝置處理和緩和照護；把治療強度與病人價值排序寫清楚。\n\n## 研究限制與待查問題\n\n1. 需要多中心、前瞻性、同時納入癌症與心臟 endpoint 的隨機研究，測試 cardio-oncology 監測或心臟保護策略是否改善病人重要結局。\n2. 需要整合累積藥物劑量、放療心臟劑量、免疫治療、動態 biomarker、影像、基因和社會決定因素的外部驗證模型。\n3. 需要更公平納入女性、少數族群、老人、frailty、既有 HF 和腎功能異常者，避免試驗資料只適用於低風險癌症族群。\n4. 需要釐清 HF→癌症的真實生物效應與 surveillance、共同風險、survivorship bias 的相對比例。\n5. 需要明確的長期監測時間、復健轉介條件和 advanced HF＋癌症的 LVAD、移植、緩和照護決策資料。\n\n## 證據位置\n\n- 雙向流行病學和臨床結果：`Epidemiology and clinical outcomes of HF coexisting with cancer`，PDF 第 2–3、7–8 頁。\n- 共同機制：`Shared pathophysiological mechanisms between HF and cancer`，PDF 第 3–4 頁。\n- 基線風險、監測與癌症治療心毒性：`Prevention and management strategies`、Tables 1–3，PDF 第 4–7 頁。\n- advanced HF、轉移癌、緩和照護與復健：`Implications of advanced disease`、`Multidisciplinary collaboration`，PDF 第 8–9 頁。\n- 偏差、研究缺口與未來方向：`Gaps in evidence and future directions`、Table 5、`Conclusion`，PDF 第 9–11 頁。\n- 完整來源：Gill A, Li T, Jimenez S, et al. *Bidirectional links between heart failure and cancer: shared pathophysiology, clinical outcomes and collaborative management*. Heart. 2026. doi:10.1136/heartjnl-2026-328221. CC BY-NC PDF，Worker verified source SHA-256 `38a77830c9de241461173c5c07f8a6130f49e4869e4d1e9bcf4a43a8a45b4621`。\n- 本次為 Worker focused-quick `paper-review`；未把 review 的機制假說或摘要數字當作隨機治療效果。",
+      "cards": [],
+      "completedAt": "2026-09-03T12:00:36.387Z"
+    },
+    {
+      "id": "doi:10.3390/jcm15155895:digest",
+      "paperId": "doi:10.3390/jcm15155895",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "The Urogenital Microbiome-Metabolic Interface in Postmenopausal Recurrent Urinary Tract Infection: Estrogen Deficiency, Diabetes, Obesity, and Microbial Reservoirs.",
+      "authors": "Alghoul W, Ashraf R, Rafiuddin S, Kharoufeh A, Al-Shammari W, Abedi M, Alabid I, Patni M, Yousef A, Hamdy H",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.3390/jcm15155895",
+      "abstract": "Background/Objectives: Recurrent urinary tract infection (rUTI) is common after menopause, but estrogen deficiency alone does not explain variation in recurrence, symptoms, and microbial profiles. This study aimed to synthesize evidence on the interactions among estrogen deficiency, urogenital microbial ecology, diabetes, obesity, microbial reservoirs, and anatomical, neurological, and functional modifiers of postmenopausal rUTI susceptibility. Methods: PubMed and Scopus were searched for original studies published from 1 January 2021 to 15 June 2026. A structured narrative synthesis included 62 original reports comprising clinical interventions, observational cohorts, microbiome and multi-omic studies, and cellular and animal experiments. Evidence was interpreted according to study design, population relevance, and biological directness. Results: Menopause was associated with reduced Lactobacillus dominance, higher vaginal pH, and altered vaginal or urinary communities, although findings were heterogeneous. Vaginal estrogen reduced recurrence and improved the local urogenital environment, but microbiome restoration is not established as its sole mechanism. Gut, rectal, vaginal, urinary, and bladder-wall reservoirs may contribute to persistence or repeated exposure. Diabetes was linked to dysbiosis and impaired urothelial defence, whereas obesity evidence remained less direct. Pelvic organ prolapse with incomplete emptying, elevated postvoid residual urine, age-related detrusor dysfunction, stroke, immobility, functional dependence, incontinence, and catheter exposure may further modify susceptibility. Conclusions: Postmenopausal rUTI is multifactorial. The urogenital microbiome-metabolic interface is a useful integrative framework, but not a validated causal or diagnostic model. Vaginal estrogen, urine culture, metabolic and bladder-function assessment, and antimicrobial stewardship remain the clinical foundation; microbiome-directed strategies require prospective validation.",
+      "legalFullTextUrl": "https://doi.org/10.3390/jcm15155895",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42589999/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "human clinical population",
+        "obesity and metabolism",
+        "precision nutrition",
+        "safety and interaction"
+      ],
+      "noteTitle": "停經後反覆性泌尿道感染的荷爾蒙、微生物與代謝介面全文內容整理",
+      "content": "# 停經後反覆性泌尿道感染的荷爾蒙、微生物與代謝介面全文內容整理\n\n> [!summary] 30 秒層：一句話 + 重點\n> 這篇結構化敘事回顧把停經後反覆性泌尿道感染（rUTI）看成雌激素、泌尿生殖道微生物、糖尿病、肥胖、微生物儲庫與膀胱功能共同作用的問題；局部陰道雌激素和標準臨床評估目前比「指定某種菌」更有實務基礎。\n> - 搜尋 2021-01-01 至 2026-06-15 的 PubMed 與 Scopus，870 筆紀錄，去重後 646 筆，最後納入 62 篇原始報告。\n> - 停經常與較少 Lactobacillus 優勢、較高陰道 pH 和生態改變相關，但個體差異大，不能視為必然模式。\n> - 局部雌激素可降低復發並改善局部環境；微生物重建可能參與其中，但不是已證實的唯一機制。\n> - 糖尿病、排空不全、殘餘尿、失能、失禁與導尿管是臨床需一起檢查的情境；肥胖—微生物—rUTI 的直接人類證據仍弱。\n\n## 5 分鐘層：先抓住全文地圖\n\n**這篇不是單一試驗，也不是統合分析。** 作者把 62 篇研究依直接的停經後 rUTI、停經後微生物／GSM、廣泛女性 rUTI、糖尿病、肥胖、治療、診斷與實驗機制分組。研究設計從 RCT、cohort、橫斷面微生物研究到細胞和動物實驗都有，所以適合建立「要檢查哪些介面」的地圖，不適合讀成一個已驗證的風險分數。\n\n## 研究問題與背景\n\n**要點**：作者想解釋為什麼同樣經歷停經或雌激素下降，有些人反覆感染，有些人沒有。\n\n- rUTI 通常指 6 個月內至少 2 次有症狀事件，或 12 個月內至少 3 次，但不同研究的微生物確認要求不完全相同。\n- 傳統「尿液無菌」模型已被低生物量培養和定序研究修正；尿液中偵測到細菌 DNA 或可培養菌，不等於該菌造成症狀。\n- 停經後的局部雌激素刺激下降，可能改變上皮、pH、乳酸產生與 Lactobacillus 優勢，形成較易受影響的生態狀態，但不是單一固定菌相。\n\n## 方法與納入範圍\n\n**要點**：搜尋流程透明地交代數量，但因為是 structured narrative synthesis，結果仍須依研究設計和直接性分層閱讀。\n\n- PubMed 566 筆、Scopus 304 筆，共 870 筆；去除 224 筆重複後，646 筆題名／摘要篩選。\n- 排除 512 筆題名／摘要紀錄，取得並評估 134 篇全文；再排除 72 篇，62 篇進入整合。\n- 作者依族群相關性、研究設計、縱向性、生物學直接性和一致性解讀，並刻意把臨床、轉譯、實驗和假說生成證據分開。\n- 這個流程能讓讀者看到證據來源的跨度，但沒有提供系統性回顧式的整合效應量或可直接轉換成治療效果的 pooled estimate。\n\n## 主要概念一：停經與泌尿生殖道生態\n\n**要點**：停經後較少 Lactobacillus 優勢和較高 pH 是一致方向，但不是每位女性都相同，也不能用一個尿液或陰道樣本決定感染診斷。\n\n陰道和尿液是相鄰但不相同的生態位。陰道較常見 Lactobacillus 優勢；尿液是更低生物量、異質性更高的環境。排尿樣本可能混入尿道、外陰、陰道或會陰菌，導管樣本較接近膀胱環境。定序提供的是核酸訊號，不能獨立證明存活、毒性或症狀因果。因此，菌相結果需要和症狀、培養、取樣方式及宿主反應一起看。\n\n## 主要概念二：局部雌激素\n\n**要點**：局部雌激素是本文最接近臨床可用的部分，但不能把「復發減少」過度簡化為「某個菌恢復」。\n\n作者整理的次級隨機研究顯示，12 週時局部 estradiol 組有 80% 樣本呈 Lactobacillus／Bifidobacterium 優勢，保濕劑組 36%、安慰劑組 26%；陰道 pH 和代謝體也發生變化。這支持局部環境改善和生態變化同時存在，但沒有證明微生物重建是唯一中介。小型 L. crispatus 陰道栓研究中，Lactobacillus 豐度由不可測到 19%，年度膀胱炎次數由 6.3 降至 2.4；由於不是充分隨機安慰劑對照，應視為初步訊號，而不是定案的菌種處方。\n\n## 主要概念三：儲庫、糖尿病與肥胖\n\n**要點**：反覆暴露可能來自多個身體部位，但「有儲庫」不等於一定會發病；糖尿病較有機制支持，肥胖的直接臨床證據較薄。\n\n- 腸道、直腸、陰道、尿液與膀胱壁都可能是持續存在或再次暴露的來源；不同研究的縱向追蹤和菌株證據仍不一致。\n- 高葡萄糖或胰島素訊號改變的模型，可能降低 psoriasin、削弱尿路上皮屏障並增加 E. coli 侵入；臨床上仍須分開看膿尿、無症狀菌尿、外陰陰道感染與症狀性 UTI。\n- SGLT2 與泌尿生殖道感染的臨床結果並不完全一致，不能由單一微生物研究推導停藥或換藥。\n- 肥胖研究多為生育年齡女性、動物或細胞研究；「肥胖造成微生物變化，再造成停經後 rUTI」目前是可研究假說，不是臨床因果模型。\n\n## 主要概念四：解剖、神經與功能\n\n**要點**：骨盆器官脫垂、殘餘尿和功能受限要放在排空情境裡理解，不能只把年齡或脫垂本身標為感染原因。\n\n排空不全、較高 postvoid residual、逼尿肌功能下降、失禁、中風後活動受限、臥床與導尿管都可能改變感染暴露和照護難度。脫垂若沒有排空問題，不能單獨視為 rUTI 原因。對於反覆或難治個案，排尿症狀、殘餘尿、膀胱功能、活動能力、便失禁、導尿管和衛生照護情境，比單看菌相報告更能指引下一步評估。\n\n## 臨床應用：帶走的行動\n\n1. 先確認是不是有症狀的 rUTI，必要時依培養、症狀與既往抗藥性處理；不要只因膿尿、無症狀菌尿或定序結果自行加抗生素。\n2. 和醫療團隊討論局部陰道雌激素是否適合，並同時評估 GSM 症狀、復發紀錄、腎功能、用藥和禁忌情境。\n3. 營養照護可協助血糖、體重、飲食與代謝風險管理，但本文沒有證明某一種飲食或減重方案可直接治療 rUTI。\n4. 反覆發作或治療反應不佳時，追問排尿不全、殘餘尿、脫垂、失禁、中風、活動受限和導尿管暴露，必要時轉介泌尿科。\n5. 微生物導向治療仍應視為研究方向；標準尿液培養、症狀判斷、膀胱功能與抗生素管理不能被取代。\n\n## 文章的邏輯邊界\n\n文章最有用的框架是把「生態、代謝、儲庫和功能」放在同一張臨床地圖上；最容易誤讀的地方，是把跨研究的合理機制串成已證明的因果鏈。作者自己也指出，微生物組不是已驗證的診斷模型，沒有一個通用門檻可以區分定殖與症狀性疾病；陰道雌激素的復發資料比指定微生物療法的資料成熟；肥胖部分則需要更直接的停經後人類研究。\n\n## 自我測驗\n\n> [!question]- Q1：為什麼「偵測到細菌」不等於「正在感染」？\n> 尿液或陰道樣本可能代表定殖、污染、無症狀菌尿或真正的症狀性感染；排尿樣本還可能混入鄰近部位菌。定序也不能單獨證明微生物存活、毒性或造成症狀。\n\n> [!question]- Q2：局部陰道雌激素的證據可以支持到哪裡？\n> 可以支持它可能降低停經後 rUTI 復發並改善局部環境，且部分研究伴隨 Lactobacillus、pH 或代謝體改變；不能直接說恢復某一個菌種就是唯一機制，也不能把小型菌種研究當成標準處方。\n\n> [!question]- Q3：糖尿病和肥胖在本文中的證據為什麼不能等量齊觀？\n> 糖尿病有高葡萄糖、上皮屏障和抗菌防禦的轉譯機制及部分臨床資料；肥胖的相關研究更多來自生育年齡女性、動物或細胞，對停經後 rUTI 的直接臨床證據較少。\n\n> [!question]- Q4：反覆感染又治療反應不佳時，除了再換抗生素還要查什麼？\n> 要重新確認症狀和培養，並詢問殘餘尿、排空不全、脫垂、膀胱功能、中風或活動受限、失禁及導尿管暴露；這些因素可能比單一菌相結果更直接影響處理方向。\n\n## Reference 與全文證據\n\n`Alghoul WI, Ashraf R, Rafiuddin S, et al. The Urogenital Microbiome–Metabolic Interface in Postmenopausal Recurrent Urinary Tract Infection: Estrogen Deficiency, Diabetes, Obesity, and Microbial Reservoirs. J Clin Med. 2026;15(15):5895. doi:10.3390/jcm15155895.`\n\n完整來源為 PMCID `PMC13467049` 的已核驗 CC-BY PMC HTML，source SHA-256 為 `a6b20b1b7752f47e20b9a5ff9fc9b3b1e74e3533c6219f2120ca9d2ab195067f`。本次為 Worker batch 的 `paper-digest`，全文依序覆蓋摘要、方法、各主題段落、限制、結論與參考文獻；沒有用摘要或 metadata 代替全文。",
+      "cards": [
+        {
+          "title": "微生物偵測不等於感染",
+          "question": "為什麼尿液或陰道樣本偵測到細菌，不等於正在感染？",
+          "answer": "可能是定殖、污染、無症狀菌尿或症狀性感染；排尿樣本可能混入鄰近部位菌，定序也不能單獨證明存活、毒性或症狀因果。",
+          "tags": [
+            "rUTI",
+            "微生物體",
+            "診斷"
+          ]
+        },
+        {
+          "title": "陰道雌激素的證據邊界",
+          "question": "局部陰道雌激素的研究結果可以支持到哪裡？",
+          "answer": "可支持它可能降低停經後 rUTI 復發並改善局部環境，部分研究伴隨菌相、pH 或代謝體改變；不能說某個菌種重建是唯一機制。",
+          "tags": [
+            "陰道雌激素",
+            "Lactobacillus",
+            "停經"
+          ]
+        },
+        {
+          "title": "糖尿病與肥胖的直接性",
+          "question": "為什麼糖尿病和肥胖的證據不能等量齊觀？",
+          "answer": "糖尿病有高葡萄糖、上皮屏障和抗菌防禦的轉譯機制及部分臨床資料；肥胖研究較多來自生育年齡女性、動物或細胞，停經後 rUTI 的直接證據較少。",
+          "tags": [
+            "糖尿病",
+            "肥胖",
+            "證據直接性"
+          ]
+        },
+        {
+          "title": "反覆感染的下一步評估",
+          "question": "反覆感染且治療反應不佳時，除了換抗生素還要查什麼？",
+          "answer": "重新確認症狀和培養，並詢問殘餘尿、排空不全、脫垂、膀胱功能、中風或活動受限、失禁與導尿管暴露；這些因素可能比單一菌相結果更直接影響處理。",
+          "tags": [
+            "臨床應用",
+            "殘餘尿",
+            "抗生素管理"
+          ]
+        }
+      ],
+      "completedAt": "2026-09-03T11:55:51.950Z"
+    },
+    {
+      "id": "doi:10.3390/jcm15155895:review",
+      "paperId": "doi:10.3390/jcm15155895",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "The Urogenital Microbiome-Metabolic Interface in Postmenopausal Recurrent Urinary Tract Infection: Estrogen Deficiency, Diabetes, Obesity, and Microbial Reservoirs.",
+      "authors": "Alghoul W, Ashraf R, Rafiuddin S, Kharoufeh A, Al-Shammari W, Abedi M, Alabid I, Patni M, Yousef A, Hamdy H",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.3390/jcm15155895",
+      "abstract": "Background/Objectives: Recurrent urinary tract infection (rUTI) is common after menopause, but estrogen deficiency alone does not explain variation in recurrence, symptoms, and microbial profiles. This study aimed to synthesize evidence on the interactions among estrogen deficiency, urogenital microbial ecology, diabetes, obesity, microbial reservoirs, and anatomical, neurological, and functional modifiers of postmenopausal rUTI susceptibility. Methods: PubMed and Scopus were searched for original studies published from 1 January 2021 to 15 June 2026. A structured narrative synthesis included 62 original reports comprising clinical interventions, observational cohorts, microbiome and multi-omic studies, and cellular and animal experiments. Evidence was interpreted according to study design, population relevance, and biological directness. Results: Menopause was associated with reduced Lactobacillus dominance, higher vaginal pH, and altered vaginal or urinary communities, although findings were heterogeneous. Vaginal estrogen reduced recurrence and improved the local urogenital environment, but microbiome restoration is not established as its sole mechanism. Gut, rectal, vaginal, urinary, and bladder-wall reservoirs may contribute to persistence or repeated exposure. Diabetes was linked to dysbiosis and impaired urothelial defence, whereas obesity evidence remained less direct. Pelvic organ prolapse with incomplete emptying, elevated postvoid residual urine, age-related detrusor dysfunction, stroke, immobility, functional dependence, incontinence, and catheter exposure may further modify susceptibility. Conclusions: Postmenopausal rUTI is multifactorial. The urogenital microbiome-metabolic interface is a useful integrative framework, but not a validated causal or diagnostic model. Vaginal estrogen, urine culture, metabolic and bladder-function assessment, and antimicrobial stewardship remain the clinical foundation; microbiome-directed strategies require prospective validation.",
+      "legalFullTextUrl": "https://doi.org/10.3390/jcm15155895",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42589999/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "human clinical population",
+        "obesity and metabolism",
+        "precision nutrition",
+        "safety and interaction"
+      ],
+      "noteTitle": "停經後反覆性泌尿道感染的荷爾蒙、微生物與代謝介面品質評讀",
+      "content": "# 停經後反覆性泌尿道感染的荷爾蒙、微生物與代謝介面品質評讀\n\n## 研究問題與研究設計\n\n本文是一篇以 PubMed 與 Scopus 為基礎的結構化敘事性文獻整合，不是系統性回顧或統合分析，也不是單一臨床試驗。作者要回答的是：停經後反覆性泌尿道感染（postmenopausal rUTI）是否可由雌激素缺乏、泌尿生殖道微生物生態、糖尿病、肥胖、微生物儲庫，以及解剖、神經與功能因素共同理解。\n\n- 搜尋涵蓋 2021-01-01 至 2026-06-15 的原始研究；PubMed 566 筆、Scopus 304 筆，共 870 筆紀錄。\n- 去除 224 筆重複後，646 筆進入題名／摘要篩選；512 筆在此階段排除，134 篇取得全文並評估，最後排除 72 篇，納入 62 篇原始報告。\n- 納入研究混合了介入試驗、觀察性 cohort、微生物體與 multi-omic 研究、細胞實驗和動物研究。這種範圍有助於建立機制框架，但也使結果不能視為同質性的治療效果估計。\n- 作者的主軸結論是：停經後 rUTI 是多因素現象；陰道雌激素、尿液培養、代謝與膀胱功能評估，以及抗生素管理仍是臨床基礎；微生物導向策略尚需前瞻驗證。\n\n## 品質快照\n\n### 有價值的地方\n\n作者先把常被分開討論的因素放到同一框架：停經後局部雌激素下降、陰道 pH 與 Lactobacillus 生態變化，可能與糖尿病造成的尿路上皮防禦異常、腸道／直腸／陰道／尿液或膀胱壁儲庫，以及殘餘尿、脫垂、逼尿肌功能、失能和導尿管暴露互相作用。文章也明確指出，不同取樣方法、低生物量污染、定序只能顯示核酸而不能證明微生物存活，都會影響「微生物失衡」的解讀。\n\n### 主要限制\n\n1. 這是結構化敘事整合，沒有系統性回顧所需的完整偏差評估、預先註冊的可重複選文流程或統合效應量；62 篇研究不能直接合併成一個 rUTI 風險數字。\n2. 研究族群、樣本、取樣位置、rUTI 定義和結果指標差異很大。排尿樣本與導管樣本的污染風險不同；現階段沒有經驗證的微生物量門檻可單獨區分定殖與症狀性感染。\n3. 陰道雌激素的臨床復發證據比「恢復某一種微生物組成」的機制證據更成熟，不能把 Lactobacillus 變化當成已驗證的唯一中介。\n4. 糖尿病的機制證據包含模型與轉譯研究，臨床上仍須區分膿尿、無症狀菌尿、外陰陰道感染與有症狀細菌性 UTI；不能把高血糖或定序結果直接等同於感染。\n5. 肥胖是本文中臨床驗證最弱的部分。人類研究多非停經後 rUTI 族群，部分關聯來自動物或細胞實驗；不能據此宣稱肥胖—微生物—rUTI 的因果鏈已建立。\n\n## 關鍵證據與保守解讀\n\n雌激素部分整理到一項次級隨機研究：12 週時，局部 estradiol 組有 80% 的樣本呈 Lactobacillus／Bifidobacterium 優勢，保濕劑組 36%、安慰劑組 26%；同時陰道 pH 和代謝體也改變。這支持局部環境改善與雌激素相關，但不能單憑此結果證明所有復發下降都由微生物組重建造成。另一項小型 L. crispatus 陰道栓研究中，Lactobacillus 豐度由不可測到 19%，年度膀胱炎次數由 6.3 降至 2.4；但它不是一般意義上具充分對照的隨機安慰劑試驗，應視為初步訊號。\n\n對糖尿病，文章整理了高葡萄糖環境可能降低 psoriasin、削弱上皮屏障並增加 E. coli 定殖或侵入的模型證據，也提醒 SGLT2 相關證據並不一致。對解剖與功能因素，骨盆器官脫垂本身不應被簡化成感染原因，較重要的是是否伴隨殘餘尿、排空不全、導尿管或功能失能；中風、臥床、失禁與衛生問題則有合理性，但直接量測仍有限。\n\n## Critical Appraisal／GRADE\n\n針對主張「停經後 rUTI 的生態、代謝與功能因素彼此交織，而陰道雌激素與標準臨床評估是目前較有支持的基礎」的整體證據，依 deterministic `grade_judge.py` 以觀察性與混合轉譯證據的 starting level=low，對 risk of bias、inconsistency、indirectness、imprecision 各降一級，出版偏差不額外降級，最後為 Very low（⊕◯◯◯）。\n\n- risk of bias：納入研究設計混雜，且本文為敘事整合，沒有可替代單篇研究品質的統合偏差校正。\n- inconsistency：微生物組結果受族群、取樣部位、定序方法和定義影響，雌激素與不同微生物策略的方向及效果大小不能假定一致。\n- indirectness：相當比例的機制證據來自細胞、動物或非停經後族群；肥胖尤其缺乏直接的臨床 rUTI 驗證。\n- imprecision：多數研究樣本小、追蹤短或是探索性結果，尚未形成可靠的臨床預測門檻。\n\n這個 Very low 是對整體整合主張的保守判斷，不表示每一個子問題都沒有資料，也不表示陰道雌激素與 rUTI 的所有臨床證據都同樣薄弱。較可信的說法是：局部雌激素在停經後 rUTI 的臨床位置有較強支持，微生物環境可能參與其中，但機制與個別菌種尚未確立；糖尿病、儲庫、排空與功能因素值得評估；肥胖—微生物—rUTI 的因果性仍屬研究假說。\n\n`argdown_lint.py` 對上述主張回傳 clean。不能把本文的整合框架改寫成已驗證的診斷模型、微生物檢測門檻或個人化抗生素選擇器，也不能把生物學合理性改寫成「雌激素缺乏必然造成感染」或「減重會降低 rUTI」。\n\n## 白話導讀\n\n這篇文章提醒我們，停經後反覆 UTI 通常不是一個單獨原因造成的。局部雌激素下降可能讓陰道環境改變；血糖控制不佳可能削弱尿路上皮防禦；腸道或陰道等部位可能提供反覆暴露來源；殘餘尿、膀胱收縮功能、活動能力與導尿管則會改變排空和暴露情境。可是「看見菌」不等於「菌正在造成症狀」，也不能只用微生物組報告取代尿液培養、症狀判斷和臨床評估。\n\n## 臨床應用\n\n- 先確認是否符合症狀性 rUTI，依需要做尿液培養；不要只因定序結果、膿尿或無症狀菌尿就自行加用抗生素。\n- 與醫療團隊討論局部陰道雌激素是否適合，並同時評估復發紀錄、泌尿生殖症狀、腎功能與用藥安全性。\n- 評估糖尿病控制、體重與飲食時，把它們當作整體照護的一部分，而不是宣稱某個營養介入已被本文證明可以治療 rUTI。\n- 若反覆發作或治療反應不佳，應詢問排尿不全、殘餘尿、脫垂、便失禁、活動受限、中風病史與導尿管暴露，必要時轉介泌尿科。\n- 抗生素選擇與療程應依培養、症狀、既往抗藥性和現行指引；本文不支持用微生物組或肥胖指標單獨選藥。\n\n## 研究限制與待查問題\n\n1. 需要具體、可重複的停經後 rUTI 定義、取樣標準與縱向追蹤，才能區分定殖、復發與真正的症狀性事件。\n2. 需要大型前瞻研究比較陰道雌激素、微生物導向策略與標準照護，並測試微生物變化是否是臨床復發改善的中介，而非只報告組成差異。\n3. 需要在停經後族群直接驗證肥胖、血糖、代謝藥物、殘餘尿和功能因素的相對貢獻。\n4. 需要先驗證再使用的生物標誌物或微生物門檻，不能把研究探索 cut-off 直接用於診斷或治療。\n\n## 證據位置\n\n- 搜尋數量與納入流程：全文 `Methods`、`Study selection` 與流程圖段落。\n- 停經後微生物生態、GSM、取樣與低生物量限制：`Postmenopausal urinary and vaginal microbiome`、`Methodological considerations`。\n- 雌激素與微生物／pH 結果：`Estrogen deficiency and the urogenital ecosystem` 及代表性研究表格。\n- 儲庫、糖尿病與肥胖：`Microbial reservoirs`、`Diabetes`、`Obesity`。\n- 殘餘尿、脫垂、逼尿肌、失能與導尿管：`Anatomical, neurological, and functional modifiers`。\n- 臨床位置、證據層級和未來研究：`Clinical positioning`、`Limitations`、`Conclusions`。\n- 完整來源：PMCID `PMC13467049`、DOI `10.3390/jcm15155895`，CC-BY PMC HTML；本次全文檔由 Worker verified cache 提供，source SHA-256 為 `a6b20b1b7752f47e20b9a5ff9fc9b3b1e74e3533c6219f2120ca9d2ab195067f`。\n- 本次為 Worker 的 focused-quick `paper-review`；未把摘要、metadata 或文章的參考文獻清單冒充成全文評讀。",
+      "cards": [],
+      "completedAt": "2026-09-03T11:51:26.934Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1874235:digest",
+      "paperId": "doi:10.3389/fnut.2026.1874235",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Prognostic value of a novel indicator integrating C-reactive protein-triglyceride glucose index and coronary physiological burden in patients undergoing PCI: a prospective cohort study.",
+      "authors": "Lin X, Yan Y, Chen H, Zhong J, Chen Y, Li B, Fan L, Luo Y, Chen L, Chen Q",
+      "journal": "Frontiers in Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fnut.2026.1874235",
+      "abstract": "Patients with coronary artery disease (CAD) continue to face residual cardiovascular risk despite receiving guideline-directed optimal therapy. Both systemic metabolic-inflammatory dysregulation, reflected by the C-reactive protein-triglyceride glucose index (CTI), and coronary physiological burden, assessed by the quantitative flow ratio (QFR), are critical determinants of prognosis. However, the combined prognostic value of these two factors in patients after percutaneous coronary intervention (PCI) remains unclear. This study aimed to evaluate the prognostic value of an integrated index combining CTI with residual coronary physiological burden in patients undergoing PCI. This single-center registry study (ChiCTR2100042363) consecutively enrolled 1,468 patients with CAD who underwent PCI between March 2021 and February 2022. A novel integrated index, μCTI, was derived from the CTI and the sum of the residual QFR in the three major coronary vessels. The primary endpoint was major adverse cardiovascular and cerebrovascular events (MACCE), defined as a composite of all-cause death, non-fatal myocardial infarction (MI), ischemia-driven revascularization (IDR), or stroke. During a median follow-up of 24 months, a total of 185 MACCE (12.6%) occurred. In multivariable Cox regression, each standard deviation increase in μCTI was independently associated with a 79% rise in MACCE risk [adjusted hazard ratio (HR) = 1.79, 95% CI: 1.54-2.07, p < 0.001]. Furthermore, MACCE risk progressively increased across ascending μCTI quartiles (P for trend < 0.001). Restricted cubic spline (RCS) analysis revealed a linear relationship between μCTI and MACCE risk (P for nonlinear = 0.058). The composite μCTI acts as an independent predictive biomarker and delivers supplementary risk stratification information for patients after PCI. This combined index could serve as an auxiliary tool to identify individuals at elevated risk of MACCE beyond single metabolic-inflammatory or coronary physiological indicators.",
+      "legalFullTextUrl": "https://doi.org/10.3389/fnut.2026.1874235",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42602145/",
+      "category": "recommended",
+      "tags": [
+        "design:RCT",
+        "guideline and consensus",
+        "human clinical population",
+        "precision nutrition",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "CTI 與殘餘冠脈生理負荷整合指標預測 PCI 後事件的全文內容整理",
+      "content": "# CTI 與殘餘冠脈生理負荷整合指標預測 PCI 後事件的全文內容整理\n\n> [!summary] 30 秒層：一句話 + 重點\n> 這項單中心前瞻性登錄研究把全身代謝—發炎負荷（CTI）和 PCI 後三條冠脈的殘餘功能負荷（3 V-μQFR）合成 μCTI；μCTI 越高，24 個月 MACCE 越多，但主要由缺血驅動再血管化（IDR）構成，死亡、MI、中風組合並未顯著。\n> - 1,468 名 PCI 病人，追蹤中位數 24 個月；185 MACCE（12.6%），48 人失訪。\n> - μCTI 每增加 1 SD 的完全調整 HR 1.79（95% CI 1.54–2.07，p<0.001）。\n> - μCTI Q4 vs Q1 HR 4.02（2.36–6.87）；ROC AUC 0.662，NRI 相對 3 V-μQFR 增加 12.3%。\n> - 主要 MACCE 組成：IDR 128、死亡 38、MI 4、中風 15；硬結局組合 HR 1.29（0.98–1.71，p=0.074）。\n> 品質 → 見配對的品質評讀：本篇整理不取代可信度判斷。\n\n## 5 分鐘層\n\n**要點**：先理解 CTI、3 V-μQFR 和 μCTI 的構成，再看四分位與 Cox 結果；最後把「預測 IDR」與「改善死亡」分開，這是本篇最重要的閱讀邊界。\n\n## 研究問題 / 背景\n\n**要點**：PCI 可以改善局部血管狹窄，但病人仍有殘餘心血管風險；作者想把代謝—發炎與冠脈功能兩種風險一起表達。\n\n- TyG 可近似胰島素阻抗，CRP 代表系統性發炎；CTI 用 CRP、TG、FBG 組合這兩種訊號。\n- μQFR 可從冠脈攝影估算功能性血流狀態；3 V-μQFR 是三條主要冠脈 PCI 後殘餘值的總和。\n- 作者提出 CFAF = 3 V-μQFR／3，μCTI = CTI／CFAF，意義是把代謝—發炎負荷放在殘餘冠脈功能保留的背景中解讀。\n\n## 方法\n\n**要點**：研究連續納入 2021 年 3 月至 2022 年 2 月 PCI 成人，排除嚴重腎功能不全、癌症、既往 CABG、預期壽命 <2 年、懷孕以及無法可靠做 QFR 的影像。\n\n- 最終 1,468 人；平均年齡 63.57±10.79 歲，女性 18.60%，48 人失訪。追蹤到 2024-02-25 或事件發生。\n- 主要結局 MACCE = 全因死亡、非致死性 MI、IDR 或中風；依 ARC 與 Fourth Universal Definition of MI 定義，endpoint committee 對分組盲化。\n- μQFR 由兩位對臨床資料盲化且完成認證的介入心臟科醫師，用最佳冠脈攝影投影與軟體分析；自動邊界不佳時手動修正。\n- μCTI 依 Q1–Q4 分組，cut-offs 4.797、5.395、6.071。比較 ROC／AUC、DeLong、NRI、IDI、Kaplan–Meier、Cox、RCS 與預先指定子群。\n- 敏感度包含 PH assumption、PSM、排除 LVEF<40%、基線總閉塞、限制功能完整再血管化及失訪最壞情境補值。\n\n## 主要發現\n\n**要點**：μCTI 與 MACCE 呈階梯式關聯，Q3/Q4 明顯高於 Q1/Q2；但差異主要由 IDR 造成，不代表硬結局或長期存活已改善。\n\n| 結果 | 數值 | 讀法 |\n|---|---|---|\n| MACCE | 185/1,468（12.6%） | 24 個月追蹤的複合事件 |\n| IDR | 128（8.7%） | MACCE 最大組成 |\n| 全因死亡／MI／中風 | 38（2.6%）／4（0.3%）／15（1.0%） | 各組差異均不顯著 |\n| μCTI 每 1 SD，Model 3 | HR 1.79（1.54–2.07），p<0.001 | 較高 μCTI 與 MACCE 關聯 |\n| Q4 vs Q1，Model 3 | HR 4.02（2.36–6.87） | Q4 最高風險組 |\n| 硬結局（死亡＋MI＋中風） | HR 1.29（0.98–1.71），p=0.074 | 尚未達顯著 |\n| μCTI 模型 AUC | 0.662（0.622–0.703） | discrimination 有限到中等 |\n| 相對 3 V-μQFR 的 NRI | 12.3%，p=0.007 | 風險重新分類有統計改善 |\n\nMACCE 事件率從 Q1 5.4%、Q2 8.7%、Q3 17.2% 到 Q4 19.1%，趨勢 p<0.001；IDR 從 2.5%、6.3%、12.3% 到 13.9%，趨勢也 p<0.001。Q1 vs Q2 與 Q3 vs Q4 沒有顯著差異，較像低風險與中高風險的分層訊號。\n\nRCS 顯示 μCTI 與 MACCE 近似線性正相關（nonlinearity p=0.072）；CTI 與 3 V-μQFR 則呈 J 型非線性。μCTI 在年齡、性別、BMI、糖尿病、既往 MI／PCI 及臨床診斷子群的每 SD 關聯方向一致，所有 interaction p>0.05。\n\n## 臨床意義 / 怎麼用\n\n**要點**：μCTI 可當作研究性殘餘風險整理工具；偏高時可促使團隊重新檢視缺血、血脂、血糖、發炎、腎功能與二次預防，但不能單憑數字選治療。\n\n- 文章的最佳 5.50／中位數 5.40 是研究資料產生的風險分層 cut-off，不是跨中心、跨設備驗證的診斷或用藥門檻。\n- 實務討論可連同 LDL-C、TG、HbA1c、CRP、腎功能、LVEF、PCI 完整性與症狀一起看；營養面可評估飲食、體重與代謝風險，但 CTI 不等於營養診斷。\n- μCTI 的差異主要是 IDR；作者指出其對死亡、MI、中風的預測需要更大樣本、更久追蹤。\n- 研究沒有比較 μCTI 導引治療與一般照護，所以不能說降低 μCTI 或依 μCTI 加強治療會改善預後。\n\n## 重要圖表重述\n\n**要點**：Figure 1 是納入流程；Table 1 是 μCTI 四分位基線；Figure 2 比較預測模型；Figure 3 展示事件曲線；Table 3 拆 MACCE 組成；Table 4 是 Cox；Figure 4 是 RCS；Figure 5 是子群。\n\n- Q4 的 CTI、hs-CRP、TG、FBG 和 μCTI 較高，3 V-μQFR 較低；也伴隨較多糖尿病、較高 HbA1c，說明分組不是單一指標差異。\n- ROC 顯示 μCTI 比 CTI、TyG、hs-CRP 有統計增量，但與 3 V-μQFR discrimination 沒顯著差異；NRI 才顯示重新分類改善。\n- Kaplan–Meier 與 pairwise Hommel 校正顯示 Q3/Q4 和 Q1/Q2 差異，IDR 曲線最能解釋總 MACCE。\n- Sensitivity 的 PSM cohort n=1,377、排除總閉塞、功能完整再血管化與 worst-case 失訪補值後，主要方向仍維持。\n\n## 與既有認知的對照\n\n**要點**：本次 Worker batch 不連接個人 vault，故不虛構既有筆記比對；本篇的知識增量是把 CTI 與局部冠脈功能放到同一個複合風險框架，但沒有建立可改變的治療效果。\n\n- 既有方向：TyG、CRP 與 QFR 各自可提供代謝／發炎或局部缺血訊息。\n- 本篇整理：μCTI 嘗試同時反映全身負荷與 PCI 後殘餘功能負荷，並在 MACCE／IDR 風險重新分類上增加資訊。\n- 知識邊界：μCTI 是合成指標，AUC 0.662 且硬結局未顯著；需外部驗證、決策曲線與介入研究。\n\n## 概念 / 名詞整理\n\n**要點**：CTI 是代謝—發炎指標、3 V-μQFR 是三血管殘餘冠脈功能、CFAF 是功能保留比例，μCTI 是把前兩者相除的研究指標。\n\n- MACCE：全因死亡、非致死性 MI、IDR、中風的複合結局。\n- IDR：因缺血而需要的再血管化；本篇是 MACCE 中最多的組成。\n- QFR／μQFR：從冠脈攝影影像估算功能性血流狀態；本篇沒有額外壓力導線。\n- CTI：以 CRP、TG、FBG 組合的代謝—發炎負荷。\n- μCTI：CTI／CFAF；數值高可來自 CTI 高、CFAF 低，或兩者同時存在。\n- AUC：模型區分事件與非事件的能力；0.662 的改善不等於病人結果改善。\n- NRI／IDI：重新分類與區辨改善的統計量，不能單獨取代臨床效益和決策曲線。\n\n## 自我測驗\n\n> [!question]- Q1：為什麼這篇的 μCTI 主要像是在預測 IDR，而不是死亡？\n> MACCE 185 例中 IDR 有 128 例，死亡 38、MI 4、中風 15；硬結局合併的 μCTI HR 1.29，p=0.074 未顯著。μCTI 內含殘餘冠脈生理負荷，所以可能對再發缺血／再血管化較敏感。\n\n> [!question]- Q2：μCTI 5.40 或 5.50 可以直接當什麼？\n> 只能作為本研究中風險分層的探索性參考；它是單中心 PCI cohort 的中位數或 ROC cut-off，尚未經多中心外部驗證，也不是單獨加強治療的門檻。\n\n> [!question]- Q3：μCTI 比 CTI、TyG、hs-CRP 好，代表什麼？\n> μCTI 模型 AUC 分別有統計增益，NRI 相對 3 V-μQFR 為 12.3%，表示部分風險重新分類資訊增加；但 AUC 只有 0.662，且與 3 V-μQFR 的 discrimination 無顯著差異，不能直接說它能改善病人結局。\n\n> [!question]- Q4：營養團隊讀到偏高 CTI／μCTI 時，合理動作是什麼？\n> 把它當作重新檢視血糖、TG、CRP、血脂、腎功能、飲食與二次預防的提示，並和心臟科依症狀及現行指引整合；不要把 CTI 或 μCTI 當作單一營養診斷或用藥決定器。\n\n## Reference\n\n`Lin X, Yan Y, Chen H, et al. Prognostic value of a novel indicator integrating C-reactive protein-triglyceride glucose index and coronary physiological burden in patients undergoing PCI: a prospective cohort study. Front Nutr. 2026;13:1874235. doi:10.3389/fnut.2026.1874235.`\n\n完整來源為 PMCID PMC13473336 的已核驗 PMC HTML。本次為 Worker batch 的 `paper-digest`，不推送外部複習網站，也不把 vault daily-note integration 當作完成。",
+      "cards": [
+        {
+          "title": "μCTI 與 IDR",
+          "question": "為什麼 μCTI 主要像是在預測 IDR，而不是死亡？",
+          "answer": "MACCE 185 例中 IDR 128 例，死亡 38、MI 4、中風 15；硬結局合併 HR 1.29、p=0.074 未顯著。μCTI 含殘餘冠脈生理負荷，可能對再發缺血較敏感。",
+          "tags": [
+            "μCTI",
+            "IDR",
+            "PCI"
+          ]
+        },
+        {
+          "title": "研究 cut-off 的邊界",
+          "question": "μCTI 5.40 或 5.50 可以直接當什麼？",
+          "answer": "只能作此單中心 PCI cohort 的探索性風險分層參考；尚未外部驗證，也不是單獨加強治療的門檻。",
+          "tags": [
+            "風險分層",
+            "cut-off",
+            "心血管"
+          ]
+        },
+        {
+          "title": "AUC 與臨床效益",
+          "question": "μCTI 比 CTI、TyG、hs-CRP 好，代表什麼？",
+          "answer": "AUC 與 NRI 有統計增益，但 AUC 0.662、與 3 V-μQFR discrimination 無顯著差異；統計預測改善不等於病人結局改善。",
+          "tags": [
+            "AUC",
+            "NRI",
+            "預測模型"
+          ]
+        },
+        {
+          "title": "偏高 μCTI 的實務反應",
+          "question": "營養團隊讀到偏高 CTI 或 μCTI 時，合理動作是什麼？",
+          "answer": "把它當作重新檢視血糖、TG、CRP、血脂、腎功能、飲食與二次預防的提示，與心臟科依症狀和指引整合；不要把它當成單一營養診斷或用藥決定器。",
+          "tags": [
+            "臨床應用",
+            "營養評估",
+            "二次預防"
+          ]
+        }
+      ],
+      "completedAt": "2026-09-03T11:44:17.553Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1874235:review",
+      "paperId": "doi:10.3389/fnut.2026.1874235",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Prognostic value of a novel indicator integrating C-reactive protein-triglyceride glucose index and coronary physiological burden in patients undergoing PCI: a prospective cohort study.",
+      "authors": "Lin X, Yan Y, Chen H, Zhong J, Chen Y, Li B, Fan L, Luo Y, Chen L, Chen Q",
+      "journal": "Frontiers in Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fnut.2026.1874235",
+      "abstract": "Patients with coronary artery disease (CAD) continue to face residual cardiovascular risk despite receiving guideline-directed optimal therapy. Both systemic metabolic-inflammatory dysregulation, reflected by the C-reactive protein-triglyceride glucose index (CTI), and coronary physiological burden, assessed by the quantitative flow ratio (QFR), are critical determinants of prognosis. However, the combined prognostic value of these two factors in patients after percutaneous coronary intervention (PCI) remains unclear. This study aimed to evaluate the prognostic value of an integrated index combining CTI with residual coronary physiological burden in patients undergoing PCI. This single-center registry study (ChiCTR2100042363) consecutively enrolled 1,468 patients with CAD who underwent PCI between March 2021 and February 2022. A novel integrated index, μCTI, was derived from the CTI and the sum of the residual QFR in the three major coronary vessels. The primary endpoint was major adverse cardiovascular and cerebrovascular events (MACCE), defined as a composite of all-cause death, non-fatal myocardial infarction (MI), ischemia-driven revascularization (IDR), or stroke. During a median follow-up of 24 months, a total of 185 MACCE (12.6%) occurred. In multivariable Cox regression, each standard deviation increase in μCTI was independently associated with a 79% rise in MACCE risk [adjusted hazard ratio (HR) = 1.79, 95% CI: 1.54-2.07, p < 0.001]. Furthermore, MACCE risk progressively increased across ascending μCTI quartiles (P for trend < 0.001). Restricted cubic spline (RCS) analysis revealed a linear relationship between μCTI and MACCE risk (P for nonlinear = 0.058). The composite μCTI acts as an independent predictive biomarker and delivers supplementary risk stratification information for patients after PCI. This combined index could serve as an auxiliary tool to identify individuals at elevated risk of MACCE beyond single metabolic-inflammatory or coronary physiological indicators.",
+      "legalFullTextUrl": "https://doi.org/10.3389/fnut.2026.1874235",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42602145/",
+      "category": "recommended",
+      "tags": [
+        "design:RCT",
+        "guideline and consensus",
+        "human clinical population",
+        "precision nutrition",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "CTI 與殘餘冠脈生理負荷整合指標預測 PCI 後事件的品質評讀",
+      "content": "# CTI 與殘餘冠脈生理負荷整合指標預測 PCI 後事件的品質評讀\n\n## 研究設計與研究問題\n\n本文為單中心、前瞻性登錄觀察研究，納入 2021 年 3 月至 2022 年 2 月接受 PCI 的 CAD 成人，建立整合全身代謝—發炎負荷與三條主要冠脈殘餘生理狀態的 μCTI，評估其與 PCI 後 MACCE 的關聯及增量預測價值。研究登錄號 ChiCTR2100042363，最終 1,468 人，追蹤中位數 24 個月，48 人失訪，發生 185 個 MACCE（12.6%）。\n\n- CTI = 0.412×ln(CRP) + ln(TG×FBG)/2；3 V-μQFR 是三條主要冠脈 PCI 後殘餘 μQFR 總和。\n- CFAF = 3 V-μQFR／3，μCTI = CTI／CFAF；μCTI 越高代表在較低殘餘冠脈功能保留下，有較高的代謝—發炎負荷。\n- 主要結局 MACCE 為全因死亡、非致死性 MI、缺血驅動再血管化（IDR）或中風的複合結局。\n- μQFR 由兩位不知道臨床資料、受訓且認證的介入心臟科醫師依標準化影像流程分析；事件由對分組不知情的臨床 endpoint committee 判定。\n\n## 研究結果\n\n完全調整 Cox Model 3 中，μCTI 每增加 1 個標準差，MACCE HR 1.79（95% CI 1.54–2.07，p<0.001）。四分位 Q1 為參照，Q3 HR 3.46（2.06–5.80）、Q4 HR 4.02（2.36–6.87），趨勢 p<0.001；Q2 HR 1.66（0.95–2.92）未達顯著。μCTI 的 ROC AUC 0.662（95% CI 0.622–0.703），較 CTI、TyG、hs-CRP 的 AUC 分別增加 0.042、0.087、0.060，DeLong p 均<0.001；與 3 V-μQFR 的 discrimination 沒顯著差異，但 NRI 改善 12.3%（p=0.007）。\n\n事件組成是重要的解讀限制：185 個 MACCE 中 IDR 128（8.7%），全因死亡 38（2.6%）、MI 4（0.3%）、中風 15（1.0%）。μCTI 四分位的 MACCE 與 IDR 皆有顯著梯度（均 p<0.001），但死亡、MI、中風沒有顯著組間差異。把較硬結局（死亡＋MI＋中風）單獨組合後，μCTI 關聯減弱且未顯著（HR 1.29，95% CI 0.98–1.71，p=0.074）。因此研究的主要訊號很可能由 IDR／再發缺血驅動，不足以宣稱能預測死亡或 MI。\n\n## 品質快照\n\n- 優點：連續收案、兩位盲於臨床資料的 QFR 分析者、盲於分組的 endpoint committee、完整的 24 個月追蹤與多重敏感度分析；比例 98.98% 使用 statin，且無嚴重多重共線性（VIF<5）。\n- 內部效度限制：單中心觀察性資料仍有殘餘混雜；μCTI 是把 CTI 與 QFR 以數學比例合成的 post-PCI 指標，未必代表可修改的單一生理機制。\n- 模型問題：μCTI quartile Cox 模型整體 proportional-hazards test 有違反（global p=0.033），作者指出主要由性別、既往 MI、既往 PCI 驅動，刪除後通過；這仍使主要模型的時間恆定 HR 需要保守解讀。\n- 預測性能：AUC 0.662 只是有限到中等的 discrimination，NRI／IDI 的統計改善不等於實際臨床淨效益。Q3/Q4 的風險上升主要是 IDR，硬結局事件數太少。\n- 遺失資料：48 人失訪，研究用 last observation carried forward、以及全失訪者都發生 MACCE 的 worst-case imputation，結果方向仍類似；這有助於敏感度，但不能消除單中心與選擇問題。\n\n## Critical Appraisal／GRADE\n\n對「PCI 後較高 μCTI 與較高 MACCE（主要由 IDR 驅動）關聯」的證據，依 deterministic `grade_judge.py` 以觀察性研究 starting level=low，對 risk of bias、indirectness、imprecision 各降一級，最後為 Very low（⊕◯◯◯）。risk of bias 來自單中心、非隨機、殘餘混雜與複合指標；indirectness 來自單一 PCI 中心和以 IDR 為主的結局；imprecision 來自死亡／MI／中風事件稀少、AUC 僅 0.662 與 Q2 CI 跨 null。雖然結果有劑量梯度、PSM 和多組敏感度，不能把它們當作介入效益證據。\n\n可接受的結論是：「在此單中心 PCI cohort，較高基線 μCTI 與較高 24 個月 MACCE 調整後關聯，且增量訊號主要可能來自 IDR。」不能直接改寫成「μCTI 導引策略可以改善預後」、「μCTI 5.40／5.50 是已驗證的治療門檻」或「降低 CTI 會降低事件」。作者自己也承認仍需多中心、外部驗證和評估 μCTI 是否能改善決策或結果的前瞻研究。\n\n`argdown_lint.py` 對上述保守、非因果的主張回傳 clean。文章 Discussion 將 ROC 最佳值和中位數寫成「可操作 threshold」及更密集監測的量化依據，應在讀書筆記中標記為作者的轉譯性推論，尤其在硬結局未顯著時不能擴大適用。\n\n## 白話導讀\n\n作者把兩種風險放在同一個指標裡：一種是血液反映的代謝與發炎負荷（CTI），另一種是心臟三條主要血管做完 PCI 後還剩多少功能性缺口（3 V-μQFR）。μCTI 越高的人，兩年內發生 MACCE 越多；可是仔細拆開看，最常見的是再次因缺血做血管重建，死亡、心肌梗塞和中風太少，沒有顯著差異。所以這篇比較像是在告訴我們「哪些 PCI 後病人可能需要更密切地看再發缺血」，還沒有證明這個數字能選出一個治療方案，或能讓病人活得更久。\n\n## 臨床應用\n\nμCTI 可作為研究性風險整理框架：若偏高，團隊可重新核對血糖、TG、CRP、LDL-C、腎功能、左心室功能、PCI 完整性、症狀和目前二次預防。營養面可協助確認飲食、體重、血糖與代謝風險，但不能只用 CTI 或 μCTI 決定營養處方。PCI 後的再血管化與藥物策略仍要依症狀、影像、缺血評估、現行指引和醫療團隊判斷；不可單憑 5.40 或 5.50 加藥，也不可把本篇當成降低 CRP／TG 或改善 μQFR 可降低死亡的試驗證據。\n\n## 研究限制與待查問題\n\n1. 單中心觀察研究，無法排除殘餘混雜或建立因果。\n2. 族群僅為接受 PCI 者，不能外推到未做 PCI、不同中心或不同設備／操作者。\n3. MACCE 由 IDR 主導；硬結局事件少，死亡與 MI 的推論不精確。\n4. μCTI 的除法合成及 3 V-μQFR 的操作性需要外部驗證；AUC 0.662 的臨床增益有限。\n5. 四分位 cut-off 與 ROC cut-off 需要不同 cohort、較長追蹤和決策曲線評估，不能直接當治療閘門。\n\n## 證據位置\n\n- 完整來源：PMCID PMC13473336、DOI `10.3389/fnut.2026.1874235`，核驗後完整 PMC HTML。\n- 定義、樣本、QFR 流程與統計：Methods；主要樣本和四分位：Table 1。\n- AUC、NRI／IDI、MACCE 組成與 HR：Results；Figure 2–5；Tables 2–4。\n- PH、PSM、排除分析及 worst-case：Sensitivity analysis 與 Supplementary Tables S3–S12。\n- 因果與外部效度限制：Discussion、Study limitations、Conclusion。\n- 本次為 Worker focused-quick；作者／期刊背景、引用影響力與廣泛參考文獻核查留待 deep review。",
+      "cards": [],
+      "completedAt": "2026-09-03T11:40:55.701Z"
+    },
+    {
+      "id": "doi:10.1097/md.0000000000050306:digest",
+      "paperId": "doi:10.1097/md.0000000000050306",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Non-HDL-C to HDL-C ratio and risks of all-cause and cardiovascular mortality in patients with coronary heart disease and type 2 diabetes mellitus: Results from NHANES 2005 to 2018.",
+      "authors": "Wang N, Chen X, Li H, Cheng S, Hu Y, Wang L, Zhou Q, Zhang Q, Hao J, Qi C",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.1097/MD.0000000000050306",
+      "abstract": "Dyslipidemia is a major contributor to adverse outcomes in patients with coronary heart disease (CHD) and type 2 diabetes mellitus (T2DM). The non-high-density lipoprotein cholesterol to high-density lipoprotein cholesterol ratio (NHHR) is a comprehensive lipid marker, but its prognostic value in this high-risk population remains unclear. This study aimed to investigate the association between NHHR and the risks of all-cause and cardiovascular mortality, as well as its correlations with metabolic, renal, and inflammatory markers in patients with CHD and T2DM. A total of 1058 patients with CHD and T2DM were identified from the National Health and Nutrition Examination Survey 2005 to 2018 database. NHHR was calculated and categorized into quartiles. The primary outcomes were all-cause and cardiovascular mortality, determined via linkage to the National Death Index. Cox proportional hazards models, adjusted for multiple confounders, were used to assess associations. Restricted cubic spline analyses were performed to investigate nonlinear relationships, and subgroup analyses evaluated effect modifications. Pearson correlation analyses assessed associations between NHHR and baseline clinical parameters. During a median follow-up of 59 months, 414 deaths occurred, including 177 cardiovascular deaths. Each unit increase in NHHR was independently associated with a 13% higher risk of all-cause mortality (hazard ratio: 1.13; 95% confidence interval: 1.09-1.17) and a 16% higher risk of cardiovascular mortality (hazard ratio: 1.16; 95% confidence interval: 1.12-1.19). Compared with the lowest quartile, participants in the highest NHHR quartile had markedly elevated mortality risks. Restricted cubic spline analyses revealed significant nonlinear associations between NHHR and both outcomes (P-nonlinearity < .001 for all-cause mortality; P = .002 for cardiovascular mortality), with a threshold effect observed around NHHR = 2.69. Subgroup analyses showed stronger associations among individuals with normal renal function and higher inflammatory markers. NHHR correlated positively with triglycerides, total cholesterol, body mass index, glycated hemoglobin, and inflammatory indices, and negatively with high-density lipoprotein cholesterol. Elevated NHHR is independently associated with increased risks of all-cause and cardiovascular mortality in patients with CHD and T2DM, with a clear nonlinear threshold effect. NHHR also reflects metabolic, renal, and inflammatory status, highlighting its potential as a simple, cost-effective biomarker for risk stratification and personalized management in this high-risk population.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42601761/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "precision nutrition",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "NHHR 與冠心病合併第二型糖尿病死亡風險的全文內容整理",
+      "content": "# NHHR 與冠心病合併第二型糖尿病死亡風險的全文內容整理\n\n> [!summary] 30 秒層：一句話 + 重點\n> 在 NHANES 2005–2018 的冠心病（CHD）合併第二型糖尿病（T2DM）成人中，基線 non-HDL-C／HDL-C ratio（NHHR）越高，之後全因與心血管死亡越多；關聯在約 2.69 之後變陡，但這是風險分層訊號，不是單獨用藥門檻。\n> - 最終 1,058 人，中位追蹤 59 個月；414 例全因死亡、177 例心血管死亡。\n> - Model 3 每增加 1 單位 NHHR：全因死亡 HR 1.13（95% CI 1.09–1.17），心血管死亡 HR 1.14（1.09–1.20）。\n> - 最高四分位（≥3.83）相對最低四分位（<2.00）：全因 HR 4.22、心血管 HR 3.68。\n> - NHHR 與 HDL-C 負相關（r=−0.63），也與 TC、TG、BMI、HbA1c、eGFR、WBC 反映的代謝／腎／發炎狀態相連。\n> 品質 → 見配對的品質評讀：本篇閱讀整理不取代可信度判斷。\n\n## 5 分鐘層\n\n**要點**：閱讀順序是研究背景 → NHHR 和結局怎麼定義 → Cox 與 RCS 的主要數字 → 子群和相關分析 → 臨床使用限制。全文最重要的邊界是「高 NHHR 預測較高死亡」不等於「降低 NHHR 已證明能降低死亡」。\n\n## 研究問題 / 背景\n\n**要點**：CHD 與 T2DM 共存時本來就有很高的心血管與全因風險，作者想知道一個可由常規血脂計算的綜合比值能否補充預後分層。\n\n- non-HDL-C 代表 TC 減去 HDL-C 的膽固醇部分；NHHR 把較多促動脈粥樣硬化的脂質與 HDL-C 的相對量放在一起。\n- 作者指出單看 LDL-C 仍可能留下 residual risk，而 NHHR 可能整合脂質失衡、代謝、腎功能與發炎背景。\n- 文章回顧既有研究：NHHR 已在 CHD、PCI 後事件、腦動脈狹窄、糖尿病／高血壓等情境被研究，但 CHD＋T2DM 高風險族群的縱向死亡資料仍不足。\n\n## 方法\n\n**要點**：這是 NHANES 2005–2018 的回溯性 cohort；以基線空腹血脂計算 NHHR，以 National Death Index 追蹤死亡至 2019-12-31。\n\n- 納入 ≥20 歲且基線同時有 CHD 和 T2DM 的人；CHD 依自陳醫師診斷，T2DM 依 FPG、HbA1c、糖尿病診斷與用藥組合判定。缺失超過 20% 的關鍵資料者排除，小於 20% 者以 missForest random forest imputation 補值。\n- NHHR 四分位：Q1 <2.00、Q2 2.00–<2.69、Q3 2.69–<3.83、Q4 ≥3.83；也以連續變數分析。\n- 全因死亡與心血管死亡由 National Death Index linkage 取得；心血管死亡依 ICD-10 心臟與腦血管疾病相關碼定義。\n- Model 1 未調整；Model 2 調整人口、共病、BMI、飲酒和降脂藥；Model 3 再調整 HbA1c、eGFR、尿酸與 WBC。\n- Kaplan–Meier／log-rank 比較四分位生存；Cox model 估計 HR；RCS 用 4 個 knots（第 5、35、65、95 百分位），並用 3 knots（10、50、90 百分位）做 sensitivity。\n\n## 主要發現\n\n**要點**：NHHR 越高，死亡風險越高；Q4 的風險約為 Q1 的 4 倍，RCS 顯示約 2.69 後上升較快，但臨床可用性仍待前瞻研究。\n\n| 發現 | 數值 | 內容整理 |\n|---|---|---|\n| 全因死亡事件 | 414/1,058（39.1%） | 中位追蹤 59 個月 |\n| 心血管死亡事件 | 177/1,058（16.7%） | National Death Index 結局 |\n| NHHR 每增加 1 單位，Model 3 全因死亡 | HR 1.13（1.09–1.17），p<0.001 | 約 13% 較高的觀察風險 |\n| NHHR 每增加 1 單位，Model 3 心血管死亡 | HR 1.14（1.09–1.20），p<0.001 | 約 14% 較高的觀察風險 |\n| Q4 vs Q1，全因死亡 | HR 4.22（2.99–5.96），p<0.001 | Q4 為 NHHR≥3.83 |\n| Q4 vs Q1，心血管死亡 | HR 3.68（2.18–6.21），p<0.001 | Q1 為 NHHR<2.00 |\n| RCS 轉折 | 約 NHHR 2.69 | 全因與心血管 overall 均顯著；nonlinear p 分別 <0.001、0.002 |\n\n高 NHHR 者的 Kaplan–Meier 生存機率較低，四分位曲線的 log-rank p<0.001。非存活者通常較老，心衰竭、腦中風與癌症較多，BMI、DBP、HDL-C、白蛋白、eGFR、血紅素較低，尿酸與 NHHR 較高；這些差異也說明 NHHR 所處的臨床背景很複雜。\n\n### 子群與相關\n\n- NHHR 與死亡的正向關聯在多數子群方向一致；正常腎功能者的 interaction 對全因 p=0.002、心血管 p=0.008；WBC 較高者心血管 p=0.013；無心衰竭者全因 p=0.019。\n- 年齡、性別、BMI、高血壓與 HbA1c 沒有顯著 interaction。子群結果是效果修飾探索，不是可單獨決定治療的規則。\n- Pearson correlation：NHHR 與 HDL-C r=−0.63（p<0.001），與 TC、TG 正相關（均 p<0.001），並與 BMI、HbA1c、eGFR、WBC 有弱但顯著相關；與年齡、性別、種族無顯著相關。\n\n## 臨床意義 / 怎麼用\n\n**要點**：NHHR 適合作為常規血脂之外的整合風險提示，若偏高就重新檢視整體二次預防與代謝／腎／發炎狀態；不宜只憑 2.69 就加藥。\n\n- 實務上可由 TC 和 HDL-C 計算 NHHR，連同 LDL-C、TG、HbA1c、eGFR、血壓、吸菸、用藥及依從性一起看。\n- 本文的 2.69 是此資料與模型的非線性轉折估計，不是已由治療試驗驗證的 cut-off。\n- 作者建議高 NHHR 者考慮加強降脂治療與追蹤；但本文沒有比較「降低 NHHR」與對照治療的死亡結果，所以這部分只能當待驗證的臨床假說。\n- 不可把 NHHR 當成營養或藥物介入的唯一指標，也不可由本篇推導停藥、加用 statin 或 PCSK9 inhibitor 的個別醫囑。\n\n## 重要圖表重述\n\n**要點**：Figure 1 是樣本流程；Figure 2 是四分位生存差異；Figure 3 是約 2.69 後變陡的 RCS；Figure 4 是效果修飾；Figure 5 是 NHHR 和代謝／腎／發炎指標的相關矩陣。\n\n- Table 1 把存活與死亡者的年齡、共病、血脂、腎功能與 NHHR 放在一起比較，顯示非存活者 NHHR 中位數 3.34 vs 2.35。\n- Table 2 顯示每單位 NHHR 和四分位與兩個死亡結局的 HR；Model 3 已納入 HbA1c、eGFR、尿酸、WBC。\n- RCS 圖不是在證明病理門檻，而是顯示觀察到的曲線形狀；曲線在低 NHHR 較平，超過約 2.69 後上升。\n\n## 與既有認知的對照\n\n**要點**：本次 Worker batch 不連接個人 vault，沒有把未查閱的既有筆記寫成比較結果；本篇的增量是把 NHHR 放到 CHD＋T2DM 的死亡追蹤中，並提供樣本內非線性轉折估計。\n\n- 既有認知：LDL-C、non-HDL-C、HDL-C 和 TG 各自提供脂質風險資訊。\n- 本篇整理：NHHR 可把促動脈粥樣硬化與 HDL-C 的相對平衡合在一個常規可計算的指標中。\n- 知識邊界：NHHR 同時與 BMI、HbA1c、eGFR、WBC 相關，不能當成完全獨立的單一病因；2.69 也需要其他族群與前瞻介入驗證。\n\n## 概念 / 名詞整理\n\n**要點**：NHHR 是比例、HR 是追蹤期間的相對危險估計、RCS 是曲線形狀工具；三者都不等於治療效果。\n\n- non-HDL-C：TC−HDL-C，概括 HDL-C 以外的膽固醇。\n- NHHR：non-HDL-C／HDL-C；數值越高通常代表不利脂質相對 HDL-C 更多。\n- CHD＋T2DM：本文的高風險研究族群，不等於一般成人。\n- HR：在 Cox 模型下兩組瞬時死亡風險的比值；本文是調整後觀察關聯。\n- RCS：以平滑曲線檢視非線性與可能轉折；轉折估計不能直接成為治療門檻。\n- interaction：檢查不同子群的關聯是否統計上真的不同；沒有顯著 interaction 不能說各子群完全相同，只能說資料未支持差異。\n\n## 自我測驗\n\n> [!question]- Q1：NHHR 2.69 在本文中代表什麼？\n> 它是 RCS 顯示風險曲線開始變陡的樣本內轉折估計；不是診斷值，也不是已經由介入試驗證實的「降到這裡就能降低死亡」治療門檻。\n\n> [!question]- Q2：如何向病人解釋 Q4 vs Q1 的 HR 4.22？\n> 在這個 CHD＋T2DM 的 NHANES 樣本和調整模型中，NHHR≥3.83 者的觀察全因死亡 hazard 約是 NHHR<2.00 者的 4.22 倍；這不是個人四倍確定死亡機率，也不是 NHHR 造成死亡的證明。\n\n> [!question]- Q3：為什麼 NHHR 不能被視為完全獨立的營養或脂質因果指標？\n> 它與 HDL-C 強負相關，也與 TC、TG、BMI、HbA1c、eGFR、WBC 相關，反映的是多層代謝、腎與發炎背景；此外研究只測量基線 NHHR，降脂治療細節也不足。\n\n> [!question]- Q4：研究結果最合理的臨床動作是什麼？\n> 把偏高 NHHR 當作重新檢視 LDL-C／TG、降脂藥與依從性、HbA1c、腎功能、血壓和整體二次預防的提示，依現行指引做個別決策；不要單憑本篇加藥或以 2.69 作唯一 cut-off。\n\n## Reference\n\n`Wang N, Chen X, Li H, Cheng S, Hu Y, Wang L, Zhou Q, Zhang Q, Hao J, Qi C. Non-HDL-C to HDL-C ratio and risks of all-cause and cardiovascular mortality in patients with coronary heart disease and type 2 diabetes mellitus: Results from NHANES 2005 to 2018. Medicine. 2026;105(33):e50306. doi:10.1097/MD.0000000000050306.`\n\n完整來源為 PMCID PMC13480856 的已核驗 PMC HTML。本次為 Worker batch 的 `paper-digest`，不推送外部複習網站，也不把 vault daily-note integration 當作已完成。",
+      "cards": [
+        {
+          "title": "NHHR 2.69 的邊界",
+          "question": "NHHR 2.69 在本文中代表什麼？",
+          "answer": "它是 RCS 顯示死亡風險曲線開始變陡的樣本內轉折估計，不是診斷值，也不是已由介入試驗證實的治療門檻。",
+          "tags": [
+            "NHHR",
+            "心血管死亡",
+            "風險分層"
+          ]
+        },
+        {
+          "title": "HR 4.22 的意思",
+          "question": "如何正確解釋 NHHR 最高四分位相對最低四分位的 HR 4.22？",
+          "answer": "在 CHD+T2DM 的 NHANES 樣本和調整模型中，NHHR≥3.83 者的觀察全因死亡 hazard 約是 NHHR<2.00 者的 4.22 倍；不是個人四倍確定死亡機率，也不是因果證明。",
+          "tags": [
+            "Cox model",
+            "全因死亡",
+            "統計解讀"
+          ]
+        },
+        {
+          "title": "NHHR 的混合訊號",
+          "question": "為什麼 NHHR 不能被視為完全獨立的脂質因果指標？",
+          "answer": "NHHR 與 HDL-C、TC、TG、BMI、HbA1c、eGFR、WBC 相關，反映代謝、腎與發炎背景；且只測量基線、降脂治療細節不足。",
+          "tags": [
+            "脂質",
+            "代謝",
+            "腎功能"
+          ]
+        },
+        {
+          "title": "偏高 NHHR 怎麼用",
+          "question": "研究結果最合理的臨床動作是什麼？",
+          "answer": "把偏高 NHHR 當作重新檢視血脂、降脂藥與依從性、HbA1c、腎功能、血壓和二次預防的提示，依現行指引決策；不要單憑本篇加藥或以 2.69 作唯一 cut-off。",
+          "tags": [
+            "臨床應用",
+            "CHD",
+            "T2DM"
+          ]
+        }
+      ],
+      "completedAt": "2026-09-03T11:37:00.245Z"
+    },
+    {
+      "id": "doi:10.1097/md.0000000000050306:review",
+      "paperId": "doi:10.1097/md.0000000000050306",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Non-HDL-C to HDL-C ratio and risks of all-cause and cardiovascular mortality in patients with coronary heart disease and type 2 diabetes mellitus: Results from NHANES 2005 to 2018.",
+      "authors": "Wang N, Chen X, Li H, Cheng S, Hu Y, Wang L, Zhou Q, Zhang Q, Hao J, Qi C",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.1097/MD.0000000000050306",
+      "abstract": "Dyslipidemia is a major contributor to adverse outcomes in patients with coronary heart disease (CHD) and type 2 diabetes mellitus (T2DM). The non-high-density lipoprotein cholesterol to high-density lipoprotein cholesterol ratio (NHHR) is a comprehensive lipid marker, but its prognostic value in this high-risk population remains unclear. This study aimed to investigate the association between NHHR and the risks of all-cause and cardiovascular mortality, as well as its correlations with metabolic, renal, and inflammatory markers in patients with CHD and T2DM. A total of 1058 patients with CHD and T2DM were identified from the National Health and Nutrition Examination Survey 2005 to 2018 database. NHHR was calculated and categorized into quartiles. The primary outcomes were all-cause and cardiovascular mortality, determined via linkage to the National Death Index. Cox proportional hazards models, adjusted for multiple confounders, were used to assess associations. Restricted cubic spline analyses were performed to investigate nonlinear relationships, and subgroup analyses evaluated effect modifications. Pearson correlation analyses assessed associations between NHHR and baseline clinical parameters. During a median follow-up of 59 months, 414 deaths occurred, including 177 cardiovascular deaths. Each unit increase in NHHR was independently associated with a 13% higher risk of all-cause mortality (hazard ratio: 1.13; 95% confidence interval: 1.09-1.17) and a 16% higher risk of cardiovascular mortality (hazard ratio: 1.16; 95% confidence interval: 1.12-1.19). Compared with the lowest quartile, participants in the highest NHHR quartile had markedly elevated mortality risks. Restricted cubic spline analyses revealed significant nonlinear associations between NHHR and both outcomes (P-nonlinearity < .001 for all-cause mortality; P = .002 for cardiovascular mortality), with a threshold effect observed around NHHR = 2.69. Subgroup analyses showed stronger associations among individuals with normal renal function and higher inflammatory markers. NHHR correlated positively with triglycerides, total cholesterol, body mass index, glycated hemoglobin, and inflammatory indices, and negatively with high-density lipoprotein cholesterol. Elevated NHHR is independently associated with increased risks of all-cause and cardiovascular mortality in patients with CHD and T2DM, with a clear nonlinear threshold effect. NHHR also reflects metabolic, renal, and inflammatory status, highlighting its potential as a simple, cost-effective biomarker for risk stratification and personalized management in this high-risk population.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42601761/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "precision nutrition",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "NHHR 與冠心病合併第二型糖尿病死亡風險的品質評讀",
+      "content": "# NHHR 與冠心病合併第二型糖尿病死亡風險的品質評讀\n\n## 研究問題與設計\n\n本文以 NHANES 2005–2018 的成人資料，評估 non-HDL-C／HDL-C ratio（NHHR）與冠心病（CHD）合併第二型糖尿病（T2DM）患者全因死亡及心血管死亡的關聯，並探索 NHHR 與代謝、腎功能及發炎指標的相關。研究是回溯性觀察性 cohort，暴露在基線測量，死亡由 National Death Index linkage 追蹤至 2019-12-31。\n\n- 最終樣本 1,058 人；中位追蹤 59 個月，414 人（39.1%）全因死亡，177 人（16.7%）心血管死亡。\n- CHD 為自陳醫師診斷的心絞痛、心肌梗塞或 CHD；T2DM 由 FPG≥7.0 mmol/L、HbA1c≥6.5%，或自陳糖尿病且使用降糖藥定義。\n- NHHR =（TC−HDL-C）／HDL-C，以連續值及四分位分析：Q1<2.00、Q2 2.00–<2.69、Q3 2.69–<3.83、Q4≥3.83。\n- Cox proportional hazards models：Model 1 未調整；Model 2 調整年齡、性別、種族、高血壓、心衰竭、飲酒、BMI、降脂藥；Model 3 再調整 HbA1c、eGFR、尿酸與 WBC。\n- 另做 Kaplan–Meier／log-rank、四節點 RCS、三節點 sensitivity RCS、eGFR／WBC／心衰竭／年齡／性別／BMI／高血壓／HbA1c 子群和 Pearson correlation。\n\n## 品質快照\n\n- 優點：死亡結局由 National Death Index linkage、追蹤時間明確；NHHR 可由常規脂質檢驗計算；模型分層調整、RCS 檢查非線性，且有 alternative knot sensitivity analysis。\n- 主要限制：樣本只有 1,058 人且事件數有限；NHHR 僅基線測量，無法反映治療或脂質隨時間變化；部分共變項有缺失且以 random forest imputation 補值；降脂治療細節不足。\n- 統計解讀：Model 3 每增加 1 單位 NHHR，全因死亡 HR 1.13（95% CI 1.09–1.17），心血管死亡 HR 1.14（1.09–1.20），Q4 vs Q1 全因 HR 4.22（2.99–5.96），心血管 HR 3.68（2.18–6.21）。這些是觀察到的風險關聯，不是 NHHR 導致死亡的效應。\n- RCS 的約 2.69 閾值是本資料、模型與樣本中的估計轉折，不應直接當成已驗證的治療門檻。文章後段把它稱為可操作 cut-off 並建議加強降脂治療，這部分已超過本研究設計能直接支持的程度。\n- 外推性：對已知 CHD＋T2DM 且符合 NHANES 2005–2018 資料條件的成人較有參考價值；不能直接外推到無 CHD、無 T2DM、其他國家、較新治療時代或不同脂質分布的人。\n\n## 主要數值結果\n\n### 全因與心血管死亡\n\n- Model 3 NHHR 連續值：全因死亡 HR 1.13（95% CI 1.09–1.17，p<0.001）；心血管死亡 HR 1.14（95% CI 1.09–1.20，p<0.001）。\n- NHHR 四分位相對 Q1：全因死亡 Q2 HR 2.10、Q3 HR 3.27、Q4 HR 4.22，皆 p<0.001；心血管死亡 Q2 HR 1.95（p=0.017）、Q3 HR 2.83、Q4 HR 3.68，Q3/Q4 p<0.001。\n- 四分位趨勢檢定兩種結局在 Model 1–3 均 p for trend<0.001。\n- Kaplan–Meier 曲線各四分位生存曲線分離，log-rank p<0.001；這與 Cox 結果方向一致，但仍是同一觀察資料的不同表達方式。\n\n### 非線性與子群\n\nRCS 顯示兩種結局都有顯著 overall 與 nonlinear association：全因死亡 p overall<0.001、p nonlinear<0.001；心血管死亡 p overall<0.001、p nonlinear=0.002。曲線在 NHHR 約 2.69 之後上升較快。三節點 sensitivity configuration 得到相近結果，支持形狀不是單一 knot 設定造成，但不能消除殘餘混雜或反向解釋問題。\n\n子群關聯大致一致；正常腎功能者的 interaction 對全因死亡 p=0.002、心血管死亡 p=0.008，心血衰竭陰性者的全因死亡 interaction p=0.019，WBC 較高者的心血管死亡 interaction p=0.013。年齡、性別、BMI、高血壓及 HbA1c 沒有顯著 interaction。這些屬探索性效果修飾訊號，不能視為已證實的個別化處方依據。\n\n### 相關分析\n\nNHHR 與 HDL-C 強負相關（r=−0.63，p<0.001），與 TC、TG 正相關（均 p<0.001）；與 BMI、HbA1c、eGFR、WBC 有弱但顯著相關。這支持 NHHR 是脂質平衡的綜合指標，也提示它混合反映代謝與發炎狀態，而不是純粹獨立的新生物機制。\n\n## Critical Appraisal／GRADE\n\n本研究的 outcome 是全因與心血管死亡，證據來自單一 NHANES 觀察性 cohort；依 deterministic `grade_judge.py`，以 observational starting level=low，對 risk of bias、indirectness 與 imprecision 各降一級，未使用 upgrade，最後確定性為 Very low（⊕◯◯◯）。降級理由是基線單次 NHHR、治療細節不足、樣本與事件數有限、缺失補值、未測量混雜與外部 cut-off 尚未驗證。大 HR、明確劑量趨勢和 RCS 不能自動抵銷這些設計問題。\n\n本篇值得採用的說法是：「在 NHANES 2005–2018 的 CHD＋T2DM 樣本中，較高基線 NHHR 與較高死亡風險呈調整後、非線性關聯。」不宜寫成「把 NHHR 降到 2.69 以下就能降低死亡」或「NHHR 超過 2.69 應直接加 statin／PCSK9 inhibitor」。若要支持治療決策，需要以治療介入或至少縱向 repeated NHHR、完整降脂藥劑量與臨床共變項來驗證。\n\n`argdown_lint.py` 對上述保守、非因果的主張回傳 clean；本文 Discussion 將關聯閾值延伸為「actionable cutoff」及加強治療建議，屬應在實務筆記中標為作者推論、而非結果直接證實的 inference gap。\n\n## 白話導讀\n\nNHHR 可以想成「不利脂質總量」相對於 HDL-C 的比例；比例越高，表示保護性的 HDL-C 相對少、其他膽固醇相對多。本文在已經有冠心病和第二型糖尿病的人身上看到，基線 NHHR 越高，之後死亡越多，尤其 2.69 左右之後曲線變陡。但這不代表 NHHR 本身就是可被單獨治療的病因：高 NHHR 可能只是把既有的脂質、腎功能、發炎、疾病嚴重度與治療差異一起反映出來。它目前比較像「提醒團隊重新檢視整體風險」的訊號，而不是一個單獨決定用藥的按鈕。\n\n## 臨床應用\n\n對 CHD＋T2DM 病人，NHHR 可從常規 TC 與 HDL-C 計算，作為整合脂質風險與追蹤討論的輔助資料。若數值偏高，合理做法是核對 LDL-C／non-HDL-C、三酸甘油脂、目前降脂藥與依從性、HbA1c、腎功能、血壓、吸菸與整體二次預防流程，並依現行指引和個別禁忌由醫療團隊決定處置。不能依本篇單獨加藥、停藥或把 2.69 當診斷切點；也不能把「正常腎功能／高 WBC 的子群較強」當成已驗證的篩選規則。\n\n## 研究限制\n\n1. 回溯性觀察資料不能確定 NHHR 與死亡的時間或因果方向。\n2. NHHR 只在基線測量，無法處理脂質、降脂藥與疾病狀態的動態變化。\n3. 降脂治療缺少詳細劑量與時間資訊；殘餘混雜可能很重要。\n4. 關鍵變項缺失小於 20% 者以 missForest 補值，補值模型不會自動恢復未測量的臨床資訊。\n5. 研究族群、資料年份與死亡分類限制外部效度；2.69 閾值需要其他族群與前瞻資料驗證。\n\n## 證據位置\n\n- 完整來源：PMCID PMC13480856、DOI `10.1097/MD.0000000000050306`，核驗後完整 PMC HTML。\n- 研究問題、樣本、暴露與調整模型：Abstract、Introduction、Methods 2.1–2.6。\n- 死亡事件、HR、四分位與生存曲線：Results 3.1–3.2、Table 1–2、Figure 2。\n- 閾值、子群與相關：Results 3.3–3.5、Figure 3–5。\n- 作者解釋與限制：Discussion 4、4.1、Conclusion。\n- 本次為 Worker focused-quick；作者／期刊背景、引用影響力掃描與廣泛參考文獻核查留待 deep review，沒有把 deferred 工作冒充完成。",
+      "cards": [],
+      "completedAt": "2026-09-03T11:31:47.222Z"
+    },
+    {
+      "id": "doi:10.3290/j.ohpd.c_2770:digest",
+      "paperId": "doi:10.3290/j.ohpd.c_2770",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Sex Differences in the Association Between Body Composition, Sarcopenic Obesity, and Periodontitis: Mediating Role of Oxidative Stress Markers.",
+      "authors": "Yao Y, Sun J, Zou Y, Zhang Y, Jiang Y, Ji J",
+      "journal": "Aging, frailty and sarcopenia (PubMed)",
+      "year": "2026",
+      "doi": "10.3290/j.ohpd.c_2770",
+      "abstract": "This study aims to examine, in a sex-stratified manner, the associations of fat mass index (FMI), muscle mass index (MMI), and the muscle-to-fat ratio (MFR) with oral health as represented by periodontitis (PD), and to quantify the mediating role of systemic inflammatory and oxidative stress (OS) markers in these associations. This research drew on cross-sectional data from the National Health and Nutrition Examination Survey (NHANES 2011-2014; n=3,553). Confounder-adjusted weighted logistic regression models determined sex-stratified associations. Restricted cubic spline (RCS) regression evaluated non-linear MFR-PD relationships. Mediation analysis quantified the contribution of OS markers. Among women, lower MFR was associated with a statistically significantly increased PD risk (OR=0.49, 95% CI:0.34-0.72, p=0.001). Higher FMI (OR=1.59, 95% CI:1.15-2.19, p=0.008) and MMI (OR=1.86, 95% CI:1.13-3.07, p=0.018) also conferred increased risk. No statistically significant associations were observed in men. Serum albumin mediated 15.1% (p= 0.040) of the association between MFR and PD, 27.9% (p= 0.040) of the association between MMI and PD, and 23.4% (p0.001) of the association between FMI and PD. Subgroup analyses revealed no statistically significant interaction effects (all p> 0.05). In women, a lower MFR is independently associated with higher PD prevalence, while higher FMI and MMI are also associated with elevated PD prevalence. Serum albumin partly explains these associations, suggesting that oxidative stress may be one of the pathways linking body composition imbalance to compromised oral health. No comparable associations were observed in men. For clinicians, MFR together with serum albumin may serve as accessible and low-cost markers for identifying women, particularly those in the peri-menopausal period, who could benefit from early periodontal screening and targeted nutritional or lifestyle interventions. Prospective cohort studies and interventional trials are warranted to confirm causality and to evaluate whether improving body composition translates into measurable benefits for oral health.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42583787/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "design:prospective cohort",
+        "health promotion and lifestyle",
+        "human clinical population",
+        "neg:broad data or method only",
+        "nutrition and dietary pattern",
+        "obesity and metabolism",
+        "safety and interaction"
+      ],
+      "noteTitle": "體組成與女性牙周炎關聯的全文內容整理",
+      "content": "# 體組成與女性牙周炎關聯的全文內容整理\n\n> [!summary] 30 秒層：一句話 + 重點\n> 在 NHANES 2011–2014 的女性完整資料中，肌肉相對脂肪較少、脂肪量指標較高，與較高牙周炎（PD）盛行呈調整後關聯；男性沒有相同的統計訊號，血清白蛋白只部分傳遞女性中的關聯。\n> - 3,553 名成人：女性 1,752、男性 1,801；女性 PD 盛行率 29.1%，男性 43.8%。\n> - 女性 Model 3：MFR OR 0.493（95% CI 0.339–0.718），FMI OR 1.586（1.149–2.190），MMI OR 1.863（1.130–3.073）。\n> - 白蛋白中介比例：MFR 15.05%、MMI 27.85%、FMI 23.37%；其餘三個候選指標沒有顯著中介。\n> - 研究是橫斷面觀察性分析，不能由此證明體組成造成 PD，也不能把三分位數當臨床診斷切點。\n> 品質 → 見配對的品質評讀：本篇閱讀僅整理內容，不取代可信度判斷。\n\n## 5 分鐘層\n\n**要點**：先記住研究的設計與限制，再依序掌握女性主要結果、男性的未顯著結果、白蛋白中介、敏感度分析與臨床使用邊界；下列各節的「要點」行可以快速重建全文。\n\n## 研究問題 / 背景\n\n**要點**：作者把牙周炎、體組成失衡與全身發炎／氧化還原訊號放在同一個問題中，特別詢問女性與男性是否呈現不同關聯，以及白蛋白等血清指標是否可能位於關聯路徑中。\n\n- PD 是牙周支持組織逐步破壞的慢性發炎疾病，與牙齦、牙槽骨、牙周韌帶損傷及成人掉牙有關；文章引用全球疾病負擔與 NHANES 研究，將口腔健康放在全身疾病脈絡中。\n- 文章的生物學背景是：牙菌斑失衡與宿主免疫反應可引發發炎介質；脂肪組織、肌肉代謝、氧化壓力與牙周組織可能透過全身循環互相連結。\n- 肌少性肥胖（SO）在文中被描述為肌肉量下降與脂肪比例異常上升的共存表型，常與老化、代謝症候群、功能障礙、慢性發炎及氧化壓力並存。\n- 作者認為單一 BMI 或腰圍不足以表達肌肉—脂肪平衡，因此選擇 FMI、MMI 與 MFR；研究假設較高 FMI、較低 MMI／MFR 與較差口腔健康相關，且女性可能更明顯。\n\n## 方法\n\n**要點**：這是一項 NHANES 2011–2014 的橫斷面二次分析，以標準化牙周檢查作 PD 分類，以全身 DXA 計算體組成，並以複雜抽樣加權的性別分層模型分析。\n\n- NHANES 使用分層多階段機率抽樣，目標是代表美國非機構化平民。19,931 名參與者先留下 11,102 名成人；排除缺少牙周檢查、DXA／白蛋白／尿酸／總膽紅素／γ-glutamyltransferase 及其他人口、生活型態或共病資料者，最後納入 3,553 人。\n- 牙周檢查使用 OHXPER.DAT，受訓檢查者以 Williams probe 檢查六個口腔部位；PD 依 2012 CDC/AAP 的 mild、moderate、severe 定義，分析時合併成 PD 與非 PD。\n- DXA 提供總脂肪量（TFM）、骨礦物質含量（BMC）和總瘦體組織量（TLM）。FMI = TFM／身高²；MMI =（TLM−BMC）／身高²；MFR =（TLM−BMC）／TFM。\n- Model 1 未調整；Model 2 加入年齡、種族、教育、婚姻與貧困收入比；Model 3 再加入吸菸、飲酒、糖尿病、高血壓和高血脂。所有分析納入 MEC 權重、分層變項 SDMVSTRA、PSU，以及兩個 NHANES cycle 合併後的 4 年權重。\n- 作者另外做 MFR restricted cubic spline（RCS）、女性年齡／收入／吸菸／飲酒／糖尿病／高血壓／高血脂子群互動分析、白蛋白／尿酸／總膽紅素／γ-glutamyltransferase 的 bootstrap 1,000 次中介分析，以及 ordinal logistic 和加入身體活動、WBC 的 sensitivity Model 4。\n\n## 主要發現\n\n**要點**：女性的結果集中在「較低 MFR、較高 FMI、較高 MMI 與 PD 盛行較高」；男性三個指標均未達統計顯著，白蛋白是唯一在女性三條關聯中都呈顯著間接效果的候選指標。\n\n| 分析 | 結果 | 解讀 |\n|---|---|---|\n| 女性 Model 3，MFR 每 1 單位 | OR 0.493；95% CI 0.339–0.718；p=0.001 | MFR 越高，PD 盛行勝算較低；這是關聯，不是因果效果 |\n| 女性 Model 3，FMI 每 1 單位 | OR 1.586；95% CI 1.149–2.190；p=0.008 | FMI 越高，PD 盛行較高 |\n| 女性 Model 3，MMI 每 1 單位 | OR 1.863；95% CI 1.130–3.073；p=0.018 | MMI 方向為正；作者認為較高 MMI 同時伴隨較高 FMI，不能解讀成單純肌肉保護 |\n| 女性 MFR 最高三分位 vs 最低三分位 | OR 0.593；95% CI 0.403–0.873；p=0.012 | 樣本內相對分組支持較高 MFR 的較低 PD 盛行 |\n| 男性 Model 3，MFR／MMI／FMI | 分別 OR 1.011（p=0.909）、1.567（p=0.056）、1.179（p=0.435） | 沒有統計顯著關聯；不能寫成男性沒有風險 |\n| 女性 RCS | p overall=0.018；p nonlinear=0.611 | 近似線性負向關聯，沒有已證實的門檻或平台期 |\n| 白蛋白中介 | MFR 15.05%、MMI 27.85%、FMI 23.37% | 三者都是部分中介；白蛋白仍不是特異氧化壓力因果指標 |\n\n### 女性基線差異\n\n- 女性 PD 組年齡中位數 48 歲，非 PD 組 45 歲；PD 組教育程度較低、PIR<1 比例較高、非西班牙裔黑人與吸菸比例較高，且高血壓較多。\n- 女性 PD 組的 FMI 中位數 1.21 vs 1.09、MMI 1.67 vs 1.60、MFR 1.39 vs 1.47；白蛋白 4.1 vs 4.2 g/dl，總膽紅素較低、γ-glutamyltransferase 較高。\n- 男性 PD 組的年齡、教育、收入、種族、婚姻與吸菸也不同；但三個體組成指標的組間差異不顯著。男性白蛋白與尿酸較低，總膽紅素差異達顯著。\n\n### 中介與穩健性\n\n- 四個候選中介只剩白蛋白在三個暴露上顯著；尿酸、總膽紅素、γ-glutamyltransferase 的間接效果 CI 都跨過 null。\n- 白蛋白的間接與直接效果方向一致，代表部分傳遞而非抵銷；直接效果仍存在，所以不是完整中介。\n- 把 PD 改成 none、mild、moderate、severe 四級後，女性 MFR OR 0.506（95% CI 0.357–0.716）、MMI OR 1.773（1.120–2.805）、FMI 最高 vs 最低三分位 OR 2.401（1.571–3.670），方向維持。\n- Model 4 加入身體活動和 WBC 後，MFR OR 0.491（0.329–0.734）、MMI OR 1.820（1.038–3.193）、FMI OR 1.573（1.099–2.253），仍呈顯著關聯。\n- 子群中有些女性群組呈現 MFR 關聯，但所有 interaction p>0.05，因此文章沒有證明某個子群的效果真的不同。\n\n## 臨床意義 / 怎麼用\n\n**要點**：本篇最可用的訊息是把體組成、營養風險和牙周健康放在一起看；不應用研究中的三分位數診斷 SO，也不能把低白蛋白當成需要補充白蛋白的治療指示。\n\n- 對有肥胖、肌少、咀嚼困難、營養風險或牙周症狀的女性，可同時確認飲食攝取、功能與體重變化、吸菸飲酒、糖尿病控制、口腔清潔與牙周檢查需求。\n- 低 MFR 與低白蛋白可作為「值得進一步評估」的線索；PD 的診斷仍需牙周臨床檢查，營養處置仍需完整營養評估。\n- 研究沒有測試營養介入、體組成改善、白蛋白補充或牙周治療，所以不能據此宣稱任何介入能降低 PD。\n- 下一步研究需要重複測量體組成、飲食、口腔衛生、白蛋白、更特異的氧化壓力指標與牙周結局，以確認時間順序和可改變性。\n\n## 重要圖表重述\n\n**要點**：圖 1 說明樣本如何從 NHANES 19,931 人縮到 3,553 人；表 1–2 描述性比較男女 PD 與非 PD；表 3–4 是性別分層 logistic regression；圖 2、3 和表 5–7 分別補充形狀、子群、中介與敏感度。\n\n- Figure 1：成人篩選與缺失資料排除流程，顯示完整案例要求造成樣本縮減。\n- Tables 1–2：女性 PD 組在體組成、白蛋白、社會經濟與吸菸等多個面向有差異；男性主要體組成組間差異不顯著。\n- Tables 3–4：女性 Model 1–3 的 MFR 負向、FMI 和 MMI 正向；男性所有模型的 CI 都跨 null。\n- Figure 2：女性 MFR 與 PD 的整體關聯顯著，但非線性檢定不顯著，曲線更接近持續的線性負向趨勢。\n- Figure 3：女性不同年齡、收入、行為與共病子群的估計值有差異，但互動檢定未顯示效果修飾。\n- Table 5／Figure 4：白蛋白對三個體組成指標都是部分中介，其餘候選中介未顯示可偵測的傳遞。\n- Tables 6–7：更換 PD 嚴重度模型、加上身體活動與 WBC 後，女性主要結果仍大致相同。\n\n## 與既有認知的對照\n\n**要點**：本次 Worker batch 不連接個人 vault；因此不把未查閱的既有筆記假裝成比較結果。可保留的知識增量是，本文把「單一肥胖指標」推進到「肌肉—脂肪相對平衡」並呈現性別分層，但仍需要前瞻性驗證。\n\n- 既有背景：BMI 或腰圍可描述體型，但不能同時表達肌肉量和脂肪量的相對關係。\n- 本篇更新：在女性 NHANES 完整資料中，MFR、FMI、MMI 的方向不同，顯示「肌肉多」不必然等於「體組成較健康」；MFR 的相對平衡較能對應作者的研究問題。\n- 未解決處：沒有外部 MFR cut-off、沒有時間順序、沒有完整飲食與口腔衛生資料；因此這項知識增量不能取代既有牙周診斷或營養評估。\n\n## 概念 / 名詞整理\n\n**要點**：讀懂本文需要把「測量指標」「統計關聯」「中介訊號」三層分開，避免把指標名稱直接當成疾病或機制。\n\n- PD（periodontitis）：依臨床 attachment loss 和 probing depth 定義的牙周炎；本文把 mild、moderate、severe 合併分析，也另做四級嚴重度敏感度分析。\n- FMI（fat mass index）：以身高平方校正的總脂肪量。\n- MMI（muscle mass index）：以身高平方校正、扣除骨礦物質含量後的瘦體組織量。\n- MFR（muscle-to-fat ratio）：去除 BMC 後的瘦體組織量除以總脂肪量，代表相對肌肉—脂肪平衡，不是肌少症診斷本身。\n- SO（sarcopenic obesity）：文章用來描述肌肉量下降與脂肪增加的共存表型；本文沒有用國際統一 MFR cut-off 直接診斷 SO。\n- RCS：用來檢查暴露與結果是否存在非線性曲線；本篇女性 MFR 的整體關聯顯著，但非線性不顯著。\n- 中介分析：把暴露與 PD 的統計關聯拆成直接效果與經由候選中介的間接效果；這種分解需要時間順序與因果假設，不能只靠橫斷面資料證明生物機制。\n- 白蛋白：可能反映營養、發炎、肝臟合成與氧化還原狀態的整合指標；本篇的「白蛋白中介」不能等同「白蛋白是特異氧化壓力來源」。\n\n## 自我測驗\n\n> [!question]- Q1：為什麼本文不能直接說「肌肉越多，牙周越健康」？\n> 因為女性 MMI 反而與較高 PD 盛行相關（Model 3 OR 1.863），且較高 MMI 在本樣本中伴隨較高 FMI。作者因此把 MFR 的相對平衡和單一 MMI 分開解讀；這仍是橫斷面關聯，不是肌肉造成 PD 的證據。\n\n> [!question]- Q2：女性的 MFR 結果應怎麼用，不能怎麼用？\n> 可以把較低 MFR 當成需要整合營養、功能與牙科評估的風險線索；Model 3 每增加 1 單位的 OR 是 0.493（95% CI 0.339–0.718）。不能把樣本三分位數當成診斷切點，也不能由此宣稱改善 MFR 會治療或預防牙周炎。\n\n> [!question]- Q3：白蛋白的中介結果告訴我們什麼，又沒有告訴我們什麼？\n> 白蛋白是女性三個體組成—PD 關聯中唯一有顯著間接效果的候選指標，中介比例約 15.05%–27.85%，且直接效果仍顯著。它提示整合性的營養／發炎／氧化還原訊號可能參與關聯，但沒有證明白蛋白是特異氧化壓力機制，也沒有測試白蛋白補充的效益。\n\n> [!question]- Q4：為什麼男性結果不能被寫成「男性不受影響」？\n> 男性 MFR、MMI、FMI 的估計都沒有達統計顯著，MMI Model 3 p=0.056；這只代表在這個樣本與模型下沒有足夠證據支持關聯。女性與男性的信賴區間、混雜與統計 power 不等同，且子群 interaction 也都不顯著，不能把未顯著當成保護效果。\n\n## Reference\n\n`Yao Y, Sun J, Zou Y, Zhang Y, Jiang Y, Ji J. Sex Differences in the Association Between Body Composition, Sarcopenic Obesity, and Periodontitis: Mediating Role of Oxidative Stress Markers. Oral Health Prev Dent. 2026;24:599–612. doi:10.3290/j.ohpd.c_2770.`\n\n完整來源為已核驗 DOI／題名相符的 PMC HTML（PMCID: PMC13469317）。本次為 Worker batch 的 `paper-digest`；不重複推送外部複習網站，也不把未做的 vault daily-note integration 當成完成。",
+      "cards": [
+        {
+          "title": "肌肉量與牙周健康",
+          "question": "為什麼本文不能直接說肌肉越多，牙周越健康？",
+          "answer": "女性 MMI 反而與較高 PD 盛行相關（Model 3 OR 1.863），且較高 MMI 同時伴隨較高 FMI；MFR 的相對平衡要和單一 MMI 分開解讀。",
+          "tags": [
+            "體組成",
+            "牙周炎",
+            "肌少性肥胖"
+          ]
+        },
+        {
+          "title": "MFR 如何解讀",
+          "question": "女性的 MFR 結果可以怎麼用，不能怎麼用？",
+          "answer": "較低 MFR 可作為整合營養、功能與牙科評估的風險線索；Model 3 每增加 1 單位 OR 0.493（95% CI 0.339–0.718）。不能把樣本三分位數當診斷切點，也不能宣稱改善 MFR 會治療牙周炎。",
+          "tags": [
+            "MFR",
+            "臨床應用",
+            "牙周炎"
+          ]
+        },
+        {
+          "title": "白蛋白中介邊界",
+          "question": "白蛋白的中介結果提示什麼，又沒有證明什麼？",
+          "answer": "白蛋白是三條女性體組成—PD 關聯中唯一有顯著間接效果的候選指標，中介比例約 15.05%–27.85%，直接效果仍顯著；它未證明特異氧化壓力機制或白蛋白補充效益。",
+          "tags": [
+            "白蛋白",
+            "中介分析",
+            "氧化壓力"
+          ]
+        },
+        {
+          "title": "男性未顯著的正確意思",
+          "question": "為什麼男性結果不能被寫成男性不受影響？",
+          "answer": "男性 MFR、MMI、FMI 在此樣本與模型下均未達統計顯著，MMI 的 Model 3 p=0.056；未顯著不等於保護效果或已證明沒有風險，且所有 interaction p 也都大於 0.05。",
+          "tags": [
+            "性別差異",
+            "統計解讀",
+            "牙周炎"
+          ]
+        }
+      ],
+      "completedAt": "2026-09-03T11:25:49.503Z"
+    },
+    {
+      "id": "doi:10.3290/j.ohpd.c_2770:review",
+      "paperId": "doi:10.3290/j.ohpd.c_2770",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Sex Differences in the Association Between Body Composition, Sarcopenic Obesity, and Periodontitis: Mediating Role of Oxidative Stress Markers.",
+      "authors": "Yao Y, Sun J, Zou Y, Zhang Y, Jiang Y, Ji J",
+      "journal": "Aging, frailty and sarcopenia (PubMed)",
+      "year": "2026",
+      "doi": "10.3290/j.ohpd.c_2770",
+      "abstract": "This study aims to examine, in a sex-stratified manner, the associations of fat mass index (FMI), muscle mass index (MMI), and the muscle-to-fat ratio (MFR) with oral health as represented by periodontitis (PD), and to quantify the mediating role of systemic inflammatory and oxidative stress (OS) markers in these associations. This research drew on cross-sectional data from the National Health and Nutrition Examination Survey (NHANES 2011-2014; n=3,553). Confounder-adjusted weighted logistic regression models determined sex-stratified associations. Restricted cubic spline (RCS) regression evaluated non-linear MFR-PD relationships. Mediation analysis quantified the contribution of OS markers. Among women, lower MFR was associated with a statistically significantly increased PD risk (OR=0.49, 95% CI:0.34-0.72, p=0.001). Higher FMI (OR=1.59, 95% CI:1.15-2.19, p=0.008) and MMI (OR=1.86, 95% CI:1.13-3.07, p=0.018) also conferred increased risk. No statistically significant associations were observed in men. Serum albumin mediated 15.1% (p= 0.040) of the association between MFR and PD, 27.9% (p= 0.040) of the association between MMI and PD, and 23.4% (p0.001) of the association between FMI and PD. Subgroup analyses revealed no statistically significant interaction effects (all p> 0.05). In women, a lower MFR is independently associated with higher PD prevalence, while higher FMI and MMI are also associated with elevated PD prevalence. Serum albumin partly explains these associations, suggesting that oxidative stress may be one of the pathways linking body composition imbalance to compromised oral health. No comparable associations were observed in men. For clinicians, MFR together with serum albumin may serve as accessible and low-cost markers for identifying women, particularly those in the peri-menopausal period, who could benefit from early periodontal screening and targeted nutritional or lifestyle interventions. Prospective cohort studies and interventional trials are warranted to confirm causality and to evaluate whether improving body composition translates into measurable benefits for oral health.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42583787/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "design:prospective cohort",
+        "health promotion and lifestyle",
+        "human clinical population",
+        "neg:broad data or method only",
+        "nutrition and dietary pattern",
+        "obesity and metabolism",
+        "safety and interaction"
+      ],
+      "noteTitle": "體組成與肌少性肥胖對女性牙周炎風險的品質評讀",
+      "content": "# 體組成與肌少性肥胖對女性牙周炎風險的品質評讀\n\n## 閱讀範圍與論文問題\n\n本次依 `paper-review` 的 Worker focused-quick 模式閱讀已核驗的完整 PMC HTML，主題是肌肉—脂肪體組成與牙周炎（PD）的性別差異，以及血清白蛋白在其中的中介角色。完整文章包含摘要、研究方法、結果、表 1–7、圖 1–4、討論、限制與結論；作者不是在測試治療效果，而是在 NHANES 2011–2014 橫斷面資料中估計關聯。\n\n## 研究設計與樣本\n\n- 資料來源：NHANES 2011–2014，美國非機構化平民的分層多階段機率抽樣；分析使用 4 年合併權重、分層變項與 PSU，並以 MEC examination weight（WTMEC2YR）處理複雜抽樣。\n- 納入 3,553 名成人（女性 1,752、男性 1,801）。原始 19,931 人中，先排除未滿 20 歲者；其後因缺少牙周檢查、DXA／實驗室資料及人口、生活型態或共病資料而排除。女性 PD 盛行率 29.1%，男性 43.8%。\n- 暴露指標由全身 DXA 測量：FMI = 總脂肪量／身高²；MMI =（總瘦體組織量 − 骨礦物質含量）／身高²；MFR =（總瘦體組織量 − 骨礦物質含量）／總脂肪量。PD 依 2012 CDC/AAP mild、moderate、severe 定義，再合併為 PD 與非 PD。\n- 主要模型為按性別分層的 survey-weighted logistic regression：Model 1 未調整；Model 2 調整年齡、種族、教育、婚姻與貧困收入比；Model 3 再調整吸菸、飲酒、糖尿病、高血壓與高血脂。另做 RCS、女性分層互動、中介分析，以及牙周炎嚴重度 ordinal logistic regression 與加上身體活動和 WBC 的 Model 4。\n\n## 結果摘要\n\n### 女性\n\n完全調整的 Model 3 顯示，MFR 每增加 1 單位，PD 盛行勝算較低（OR 0.493，95% CI 0.339–0.718，p=0.001）。以 MFR 最低三分位為參照，最高三分位 OR 0.593（95% CI 0.403–0.873，p=0.012）。RCS 的整體關聯顯著（p overall=0.018），但非線性不顯著（p nonlinear=0.611），因此資料支持近似線性負向關聯，而不是已證實的門檻值。\n\n相反地，較高 FMI 與較高 MMI 都與較高 PD 盛行相關：FMI 每增加 1 單位 OR 1.586（95% CI 1.149–2.190，p=0.008），MMI 每增加 1 單位 OR 1.863（95% CI 1.130–3.073，p=0.018）。MMI 的方向看似反直覺；作者指出本樣本中較高 MMI 與較高 FMI 同時出現，故單看肌肉量不能等同於較佳代謝或口腔健康。這是作者的解釋，不是本研究能由橫斷面資料證實的機制。\n\n### 男性\n\n男性在 Model 3 中沒有任何主要體組成指標與 PD 達統計顯著關聯：MFR OR 1.011（95% CI 0.832–1.228，p=0.909）、MMI OR 1.567（95% CI 0.987–2.488，p=0.056）、FMI OR 1.179（95% CI 0.761–1.827，p=0.435）。因此「女性出現、男性未出現」是本資料的性別分層結果，不應寫成男性沒有風險或已證明存在生物學抗性。\n\n### 中介與敏感度分析\n\n女性的四個候選指標（白蛋白、尿酸、總膽紅素、γ-glutamyltransferase）中，只有白蛋白的間接效果在三個暴露上達顯著：MFR 間接效果 −0.0219（95% CI −0.0385 至 −0.0001），中介比例 15.05%（95% CI 0.58%–28.00%，p=0.040）；MMI 間接效果 0.0230，中介比例 27.85%（95% CI 0.81%–58.00%，p=0.040）；FMI 間接效果 0.0186，中介比例 23.37%（95% CI 4.65%–63.00%，p<0.001）。直接效果仍顯著，屬部分中介。這個白蛋白訊號同時受營養狀態、發炎、肝臟合成與氧化還原狀態影響，不能單獨當作特異性的氧化壓力因果路徑。\n\n女性把 PD 改成四級嚴重度的 ordinal logistic sensitivity analysis 仍得到相近方向：MFR OR 0.506（95% CI 0.357–0.716，p<0.001）、MMI OR 1.773（95% CI 1.120–2.805，p=0.014），以及 FMI 最高三分位對最低三分位 OR 2.401（95% CI 1.571–3.670，p<0.001）。再加入身體活動與 WBC 的 Model 4 後，MFR OR 0.491（95% CI 0.329–0.734，p=0.002）、MMI OR 1.820（95% CI 1.038–3.193，p=0.038）、FMI OR 1.573（95% CI 1.099–2.253，p=0.017），方向與顯著性大致維持。分層分析雖在部分女性子群看到關聯，所有 interaction p 都 >0.05，不能宣稱年齡、吸菸或共病已證實改變效果。\n\n## 品質快照\n\n- 內部效度：中等偏低。優點是使用 DXA、標準化牙周檢查、複雜抽樣權重、預先列出的共變項、RCS、分層與兩組敏感度分析；但仍是觀察性橫斷面研究，且最後分析樣本因完整資料要求而可能產生選擇偏差。\n- 統計解讀：主要 CI 多未跨 1，女性結果在不同模型與敏感度分析方向一致；男性 MMI 的 Model 3 p=0.056 應視為未達傳統顯著門檻，而非陽性結果。文章同時測試多個暴露、性別、子群與中介，未見明確的多重比較校正說明，故 p 值不宜脫離整體證據解讀。\n- 量測與定義：PD 使用 CDC/AAP 臨床定義；體組成來自 DXA，並把 MFR、FMI、MMI 以連續值及樣本內三分位分析。作者承認目前缺乏國際標準化的 SO/MFR 診斷切點，所以三分位不能直接拿來當臨床 cut-off。\n- 中介推論：白蛋白的部分中介是統計分解，不等於證明氧化壓力造成 PD；白蛋白並非特異氧化壓力指標，且橫斷面設計無法確定體組成、白蛋白與 PD 的時間順序。\n- 外推性：資料代表 2011–2014 年美國成人且完整資料者；peri-menopausal 女性的臨床建議是作者提出的應用假說，並非本研究依更年期分層或介入試驗直接驗證的效果。\n\n## GRADE 與推論邊界\n\n針對「女性中較低 MFR／較高 FMI 與較高 PD 盛行相關」這個關聯性問題，依 `grade_judge.py` 以觀察性研究起始低確定性，因 risk of bias 與 indirectness 各降一級，最後為 Very low（⊕◯◯◯）；大樣本、加權設計、臨床量測、劑量趨勢與敏感度分析提供支持，但殘餘混雜、缺失資料、反向因果與外部切點不足使確定性不能上調。針對「白蛋白是氧化壓力造成 PD 的中介」則維持低或極低確定性：中介模型有一致的統計訊號，但白蛋白的生物學非特異性與時間順序問題很大。`argdown_lint.py` 對本篇保守的非因果主張回傳 clean，未發現 association／single-study／surrogate outcome 跳成因果結論的推論漏洞。這裡的 GRADE 是對觀察性關聯的保守判斷，不是治療建議的效益評分。\n\n可接受的結論是：「在 NHANES 2011–2014 完整資料的女性樣本中，較低 MFR、較高 FMI 與較高 MMI 與 PD 盛行呈調整後關聯；白蛋白統計上部分解釋這些關聯。」不可直接改寫成：「肌少性肥胖造成女性牙周炎」、「補白蛋白可以預防牙周炎」或「MFR 已是有效篩檢工具」。作者也明確指出反向因果、未測量飲食／口腔衛生與缺乏更特異 OS 指標等限制。\n\n## 臨床應用\n\n目前可採取的低風險做法，是把體組成失衡與低白蛋白視為需要進一步詢問與轉介的風險線索，而不是使用本研究的三分位數當診斷標準。對有肥胖、肌少、咀嚼困難、營養風險或牙周症狀的女性，可同時確認飲食攝取、體重與功能變化、吸菸飲酒、糖尿病控制、口腔清潔及牙周檢查需求；若有牙齦出血、牙周囊袋、牙齒鬆動或咀嚼能力下降，應由牙科評估。營養介入應依完整營養評估與既有疾病處置規劃，不能由本篇推導補充白蛋白或特定抗氧化療法。\n\n若要把這個訊號轉成實務流程，合理的下一步是前瞻性追蹤：重複測量 DXA 或可接受的體組成指標、白蛋白、較特異的氧化壓力／發炎指標、飲食與口腔衛生，並以標準化牙周結局驗證時間順序與可改變性。這也符合作者要求 cohort、Mendelian randomization 與介入試驗來確認因果的結論。\n\n## 白話導讀\n\n這篇研究不是把人分成治療組和對照組，而是把美國一批成人的身體組成、血液白蛋白和牙周檢查放在一起比較。女性資料中，肌肉相對脂肪越少、脂肪指標越高，牙周炎越常見；但因為資料只在同一時間點收集，所以我們不知道是體組成影響牙周炎，還是牙周炎造成咀嚼與營養問題而改變體組成。白蛋白只解釋其中一部分統計關聯，也不是可以直接補充或治療的證據。實務上最合理的訊息是：女性若同時有體組成失衡、營養風險或牙周症狀，值得把營養評估和牙科檢查一起安排，而不是拿研究中的三分位數自行診斷。\n\n## 研究限制與待查問題\n\n1. 橫斷面設計不能判定方向；牙周炎造成咀嚼困難與營養／體組成改變是合理的反向因果可能。\n2. 吸菸與飲酒為自陳，仍可能有回憶偏差與殘餘混雜。\n3. 口腔衛生、蛋白質攝取、Healthy Eating Index、hsCRP 等資料缺失或不完整；加入身體活動與 WBC 不能完全取代這些變項。\n4. 白蛋白把營養、發炎、肝臟合成與抗氧化功能混在一起；需更特異的 8-OHdG、MDA、SOD、CAT、GPx 等指標驗證。\n5. MFR／肌少性肥胖沒有可直接外推的標準 cut-off；結果需在不同族群與不同年齡、性別及牙周照護情境中驗證。\n\n## 快速結論\n\n這篇文章提供了值得追蹤、但尚不足以改變治療的訊號：在美國 NHANES 2011–2014 女性完整資料中，體組成的肌肉—脂肪平衡與牙周炎盛行有一致的調整後關聯，白蛋白呈現小到中等比例的統計中介。最可靠的用途是提醒營養與牙科團隊進行整合評估；不應把它當成因果證明、白蛋白治療證據或已驗證的 MFR 篩檢門檻。\n\n## 證據位置\n\n- 完整來源：PMC article `PMC13469317`；DOI `10.3290/j.ohpd.c_2770`；來源格式為核驗後完整 HTML。\n- 研究目的、樣本與主要 OR：Abstract；Materials and Methods；Tables 1–4。\n- RCS、分層與中介數值：Results 的 RCS Regression Analysis、Subgroup Analysis、Mediation Analysis；Table 5、Figure 4。\n- 穩健性與限制：Sensitivity Analyses；Tables 6–7；Discussion；Conclusion。\n- 模式邊界：本次為 Worker focused-quick；作者／期刊背景、引用影響力掃描與廣泛參考文獻核查依流程留待 deep review，未把 deferred 工作當成已完成。",
+      "cards": [],
+      "completedAt": "2026-09-03T11:20:08.503Z"
+    },
     {
       "id": "doi:10.1038/s41598-026-66673-0:digest",
       "paperId": "doi:10.1038/s41598-026-66673-0",
