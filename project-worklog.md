@@ -1,5 +1,44 @@
 # Kat Chang site 工作日誌
 
+## 2026-09-04｜全站網頁與12篇衛教專文深度埋入關鍵字、升級Schema與AI (GEO)收錄結構總檢核
+
+### 任務
+
+- 依使用者指示，深度檢查全站所有 GitHub Pages 頁面與 12 篇衛教專文（`blog/posts.json`），盤點可進一步埋入目標關鍵字與強化 SEO / AI (GEO: ChatGPT, Perplexity, Claude, Gemini) 收錄的空間。
+- 遵循目錄規範，建立專屬資料夾 `work/2026-09-04-fullsite-seo-keyword-audit-and-enrichment/`，所有檢測與修訂腳本置於 `source/`，總數據置於 `output/`。
+- **任務 ①（全面基線盤點）**：撰寫 `deep_seo_audit.py`，盤點全站 41 組目標關鍵字（21 組企業講座商業關鍵字 + 15 組個人品牌/核心專科詞 + 5 組地域與法規詞）。基準檢測發現 21 組企業講座詞中高達 20 組在舊版中為 0 次出現，台北/桃園營養師推薦僅出現在 Meta Keywords。
+- **任務 ②（核心入口與服務頁優化）**：
+  - `about.html`：於 Schema.org 擴充 `jobTitle`（中高齡營養師、健康講座接案講師、長照營養師）、`areaServed`（台北市、新北市、桃園市、台灣）與 `knowsAbout`，在 Hero 導言與個人檔案自然植入「台北營養師推薦」、「桃園營養師推薦」、「長照營養師」、「肌少症飲食」、「精準營養」。
+  - `index.html`：於 Schema.org 擴充服務地域與專長，在首頁 Hero 導言與第一服務卡片植入三大核心詞與「台北/桃園實體與全台線上」。
+  - `class.html`：全面升級課程與講座架構，新增「四大特色講座與授課模組」卡片分區（企業職場與 EAP 講座、100% 零明火料理示範、樂齡大學與長照培訓、講師合作與演講邀約），自然融合 21 組企業講座關鍵字；Schema.org 擴充課程結構。
+- **任務 ③（12 篇衛教專文精準植入）**：
+  - 開發 `apply_precise_enrichment.py`，在保證醫學實證與文章可讀性的前提下，於 12 篇專文之正文、摘要與關鍵字標籤細膩埋入目標詞彙（如 Ch1 食品營養標示法規、Ch2 體重管理與外食減醣工作坊、Ch3 預防脂肪肝與三高飲食講座、Ch4 上班族外食抗疲勞飲食、Ch5 高階主管減壓與護心飲食、Ch6 肌少症飲食、Ch7 維生素 D 骨骼鈣化、Ch8 水分平衡與電解質生活判讀、早餐專文穩定血糖早餐等）。
+- **任務 ④（AI / GEO 結構同步與覆盤）**：
+  - 執行 `sync_seo_and_geo.py` 自動同步 `sitemap.xml`、`sitemap.html`、`llms.txt`、`llms-full.txt`、`robots.txt` 與 `blog/index.html`。
+  - 重新執行 `deep_seo_audit.py` 驗收：全站 41 組目標關鍵字全數達到 >0 次覆蓋，0 出現率關鍵字歸零（Zero count keywords: []）。
+- **任務 ⑤（版本控制與推播）**：
+  - 通過「首項（about.html）、中項（class.html）、末項（blog/posts.json）」三點式 100% 一致性抽檢。
+  - 將成果正式提交並推播至 GitHub `origin/main`。
+
+### 主要輸出
+
+- `work/2026-09-04-fullsite-seo-keyword-audit-and-enrichment/source/deep_seo_audit.py`：全站 41 組關鍵字深層審計腳本。
+- `work/2026-09-04-fullsite-seo-keyword-audit-and-enrichment/source/apply_precise_enrichment.py`：12 篇專文精準關鍵字注水腳本。
+- `work/2026-09-04-fullsite-seo-keyword-audit-and-enrichment/output/site_deep_audit_data.json`：全站審計與關鍵字分佈矩陣總數據（41 組關鍵字 100% 覆蓋）。
+- `about.html`、`index.html`、`class.html`：核心 HTML 結構、視覺內文與 Schema.org 優化。
+- `blog/posts.json`：12 篇專文正文與 Meta 關鍵字深度優化。
+- `sitemap.xml`、`sitemap.html`、`llms.txt`、`llms-full.txt`、`robots.txt`、`blog/index.html`：全站 SEO & GEO 同步更新。
+
+### 驗證
+
+- 三點式抽檢通過：
+  - 首項（about.html）：Schema.org 與可見導言完整整合中高齡營養師、台北營養師推薦、桃園營養師推薦與長照營養師。
+  - 中項（class.html）：四大模組區塊（.card-grid.four）自然涵蓋 21 組企業講座關鍵字，排版結構完整無破版。
+  - 末項（blog/posts.json）：12 篇專文正文自然融入專科詞彙與商業詞彙，未破壞既有醫學論述邏輯與文法結構。
+- 41 組關鍵字覆蓋率：100%（0 出現之關鍵字數量為 0）。
+- 全站 SEO & GEO 自動同步腳本執行退出碼 0。
+- GitHub Pages 發布推送驗證完成。
+
 ## 2026-09-04｜全站內鏈優化、三大關鍵字與桃園營養師推薦佈局、21組企業講座關鍵字確立與推播 GitHub
 
 ### 任務
@@ -2155,3 +2194,45 @@
 
 - 遠端公開修正已完成並可由公開頁核對；本機 Git 保留 dirty worktree，未 commit、未以本機工作樹推送，避免混入未授權或既有修改。
 - 收工狀態分開記錄：公開分類與管理頁修正已完成；本機完整同步與 Search Console 數據未完成／未取得。
+
+## 2026-09-04 第八章公開待審字眼清除與本機同步
+
+### 任務與範圍
+
+- 依使用者明確指示，清除公開 GitHub Blog 第八章正文中的「本篇為待審稿。」並檢查其他公開文章是否有「待審」字眼。
+- 本次只處理公開 `blog/posts.json` 的文章資料；Word／Markdown 審閱主檔仍保留內部審閱狀態，沒有把公開版修正誤當成文章已通過審閱。
+
+### 遠端盤點與公開修正
+
+- 寫入前重新讀取 GitHub `main:blog/posts.json`：12 篇文章、遠端原 blob SHA `7434b801dbdbae86f8c7b7336eb3447a4623e879`，公開欄位與正文共命中 1 次「待審」，唯一命中為第八章 `2026-09-01-how-much-water-electrolytes-calcium-iron-bone-health` 的 `body`。
+- 以 GitHub 網頁編輯器直接提交，提交訊息為 `fix(blog): remove internal review label`，提交 SHA `f694d3790f95f9951a0aff1b12cc897de38ad6a5`。
+- 提交差異只包含 `blog/posts.json` 的 1 行刪除與 1 行新增，只有第八章 `body` 欄位變動；未改變其他文章、標題、摘要、關鍵字、圖片、FAQ、分類或 `showOnHome`。
+
+### 驗證與本機保存
+
+- 提交後重新讀取遠端：最新 blob SHA `8b52e4fc49eb8f7b55e4b9d73dba76c0fa796f81`，12 篇文章中「待審」命中 0 次，公開文章資料 JSON 可解析。
+- 四篇首頁精選仍為：`2026-08-17-carbohydrates-food-guide`、`2026-08-15-nutrition-tools-standards-guidelines`、`2026-05-19-功能醫學預防阿茲海默症的系統性介入策略`、`食物過敏知多少`；數量仍為 4，第八章仍為 `showOnHome=false`。
+- 公開 Pages `blog/posts.json` 回應 200、12 篇文章、命中 0 次；第八章公開文章頁 DOM 顯示「待審」0 次，首頁 DOM 仍顯示 4 篇精選文章。
+- 已把提交後遠端 JSON 原始位元組保存回本機 `blog/posts.json`；本機與遠端原始位元組及解析後資料均一致。
+
+### 錯誤、根因與修正
+
+- 第一次準備提交時，GitHub 編輯頁在回覆確認後因瀏覽器暫存分頁結束而失效，沒有產生遠端提交；重新讀取遠端 SHA 確認未變更後，重新編輯並完成同一筆目標修正。
+- 這次再次確認：`/admin/` 或 GitHub 公開編輯只會先改遠端，並不會自動回寫桌機資料夾；需要在遠端提交後重新下載／同步，才能讓本機保存最終版本。
+
+### 新增規則與使用者偏好
+
+- 使用者明確要求：公開 GitHub 文章不得出現「待審」這類內部審閱字眼。日後每次推送前，必須掃描公開 `blog/posts.json` 的所有文章欄位與正文；命中「待審」「待審稿」「待人工審閱」時，先移除公開狀態文字或停止推送。Word 審閱主檔可保留內部狀態，但不能帶入公開版本。
+- 已將上述硬性檢查補入本專案 `agent.md`；本次沒有修改網站程式、Word 審閱檔、Markdown、sitemap 或 `showOnHome`。
+
+### 尚未完成、風險與 Git 狀態
+
+- GitHub 公開修正已完成；本機 `blog/posts.json` 已同步，但本機 Git 尚未 commit 或由本機工作樹 push，避免混入其他既有修改。工作樹目前至少有本次 `agent.md` 與 `blog/posts.json` 的修改，其他既有 dirty／未追蹤內容保留不動。
+- Search Console 本次未查得曝光、點擊、CTR、平均排名、熱門查詢或熱門頁面數據；不能以公開頁面核對取代 Search Console。
+
+### 2026-09-04 20:00 收工核對
+
+- 重新讀取遠端 `main`：HEAD 為 `f694d3790f95f9951a0aff1b12cc897de38ad6a5`；`blog/posts.json` blob SHA 為 `8b52e4fc49eb8f7b55e4b9d73dba76c0fa796f81`。遠端 12 篇文章、首頁精選 4 篇，公開欄位與正文「待審」命中 0 次。
+- 本機 `blog/posts.json` 與遠端原始位元組一致，SHA-256 為 `af6abd8038354b1fe83096b93bfe5b6acafca392dc7ef05c1da64498931bec98`。
+- 敏感資訊掃描未發現 `ghp_`、`github_pat_`、`Bearer`、API key 或 access token。`git diff --check` 無內容錯誤，僅有 Windows 換行正規化警告。
+- Git 工作樹保留 `agent.md`、`blog/posts.json`、`project-worklog.md` 修改，未替本機工作樹 commit 或 push；GitHub 公開修正則已由使用者確認後完成遠端提交。
