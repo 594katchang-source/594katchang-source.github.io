@@ -1,0 +1,803 @@
+{
+  "total_nodes": 23,
+  "total_internal_links": 158,
+  "bidirectional_pairs_count": 4,
+  "bidirectional_pairs": [
+    {
+      "node_a": "https://594katchang-source.github.io/",
+      "node_a_name": "首頁",
+      "node_b": "https://594katchang-source.github.io/sitemap.html",
+      "node_b_name": "網站地圖 (HTML)",
+      "a_to_b_anchors": [
+        "網站地圖"
+      ],
+      "b_to_a_anchors": [
+        "首頁 ｜ Kat Chang 凱特營養師"
+      ]
+    },
+    {
+      "node_a": "https://594katchang-source.github.io/about.html",
+      "node_a_name": "個人簡介",
+      "node_b": "https://594katchang-source.github.io/class.html",
+      "node_b_name": "授課講座",
+      "a_to_b_anchors": [
+        "授課",
+        "查看授課"
+      ],
+      "b_to_a_anchors": [
+        "簡介"
+      ]
+    },
+    {
+      "node_a": "https://594katchang-source.github.io/about.html",
+      "node_a_name": "個人簡介",
+      "node_b": "https://594katchang-source.github.io/sitemap.html",
+      "node_b_name": "網站地圖 (HTML)",
+      "a_to_b_anchors": [
+        "網站地圖"
+      ],
+      "b_to_a_anchors": [
+        "簡介",
+        "簡介 ｜ 專業資歷與服務理念"
+      ]
+    },
+    {
+      "node_a": "https://594katchang-source.github.io/class.html",
+      "node_a_name": "授課講座",
+      "node_b": "https://594katchang-source.github.io/sitemap.html",
+      "node_b_name": "網站地圖 (HTML)",
+      "a_to_b_anchors": [
+        "網站地圖"
+      ],
+      "b_to_a_anchors": [
+        "授課",
+        "授課 ｜ 課程講座與工作坊"
+      ]
+    }
+  ],
+  "keyword_coverage": {
+    "中高齡營養師": [
+      {
+        "page_name": "首頁",
+        "url": "https://594katchang-source.github.io/",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 1,
+        "related_terms": {
+          "中高齡": 3,
+          "高齡營養": 3
+        }
+      },
+      {
+        "page_name": "個人簡介",
+        "url": "https://594katchang-source.github.io/about.html",
+        "in_title": true,
+        "in_headings": true,
+        "exact_count": 4,
+        "related_terms": {
+          "中高齡": 5,
+          "長照": 1,
+          "高齡營養": 7,
+          "長輩": 1
+        }
+      },
+      {
+        "page_name": "授課講座",
+        "url": "https://594katchang-source.github.io/class.html",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 0,
+        "related_terms": {
+          "中高齡": 4,
+          "長照": 2,
+          "高齡營養": 2,
+          "長輩": 2
+        }
+      },
+      {
+        "page_name": "衛教專欄首頁",
+        "url": "https://594katchang-source.github.io/blog/",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 0,
+        "related_terms": {
+          "中高齡": 1,
+          "高齡營養": 1
+        }
+      },
+      {
+        "page_name": "教學工具首頁",
+        "url": "https://594katchang-source.github.io/teach/",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 0,
+        "related_terms": {
+          "中高齡": 1,
+          "高齡營養": 1
+        }
+      },
+      {
+        "page_name": "教具：營養排行榜",
+        "url": "https://594katchang-source.github.io/teach/nutritionranking/",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 0,
+        "related_terms": {
+          "中高齡": 1,
+          "高齡營養": 1,
+          "長輩": 1
+        }
+      },
+      {
+        "page_name": "教具：壓力與食物關係",
+        "url": "https://594katchang-source.github.io/teach/Stress-Food/",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 0,
+        "related_terms": {
+          "中高齡": 1,
+          "高齡營養": 1
+        }
+      },
+      {
+        "page_name": "網站地圖 (HTML)",
+        "url": "https://594katchang-source.github.io/sitemap.html",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 0,
+        "related_terms": {
+          "中高齡": 2,
+          "長照": 1,
+          "高齡營養": 2,
+          "長輩": 1
+        }
+      },
+      {
+        "page_name": "文章：蛋白質與胺基酸 從身體功能、食物品質到植物性飲食",
+        "url": "https://594katchang-source.github.io/blog/post.html?id=2026-08-22-proteins-amino-acids-book-notes",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 0,
+        "related_terms": {
+          "高齡營養": 1
+        }
+      },
+      {
+        "page_name": "文章：食物選擇怎麼影響健康？用適足、均衡、適量、多樣做出每天吃得到的選擇",
+        "url": "https://594katchang-source.github.io/blog/post.html?id=2026-08-14-food-choices-human-health-guide",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 0,
+        "related_terms": {
+          "高齡營養": 1,
+          "長輩": 2
+        }
+      },
+      {
+        "page_name": "文章：影響近半世紀的營養學入門神書《Nutrition: Concepts & Controversies》最新版，營養師導讀健康行為轉向與15個爭議",
+        "url": "https://594katchang-source.github.io/blog/post.html?id=2026-08-13-nutrition-concepts-controversies-17e-guide",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 0,
+        "related_terms": {
+          "高齡營養": 3,
+          "長輩": 2
+        }
+      },
+      {
+        "page_name": "文章：每天喝多少水才夠？從電解質、鈣鐵到骨質保養",
+        "url": "https://594katchang-source.github.io/blog/post.html?id=2026-09-01-how-much-water-electrolytes-calcium-iron-bone-health",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 0,
+        "related_terms": {
+          "長照": 1
+        }
+      }
+    ],
+    "肌少症飲食": [
+      {
+        "page_name": "首頁",
+        "url": "https://594katchang-source.github.io/",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 1,
+        "related_terms": {
+          "肌少症": 1,
+          "肌少": 1
+        }
+      },
+      {
+        "page_name": "個人簡介",
+        "url": "https://594katchang-source.github.io/about.html",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 1,
+        "related_terms": {
+          "肌少症": 1,
+          "肌少": 1
+        }
+      },
+      {
+        "page_name": "授課講座",
+        "url": "https://594katchang-source.github.io/class.html",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 1,
+        "related_terms": {
+          "肌少症": 3,
+          "蛋白質": 5,
+          "肌少": 3
+        }
+      },
+      {
+        "page_name": "衛教專欄首頁",
+        "url": "https://594katchang-source.github.io/blog/",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 0,
+        "related_terms": {
+          "蛋白質": 1
+        }
+      },
+      {
+        "page_name": "教具：營養排行榜",
+        "url": "https://594katchang-source.github.io/teach/nutritionranking/",
+        "in_title": false,
+        "in_headings": true,
+        "exact_count": 2,
+        "related_terms": {
+          "肌少症": 2,
+          "蛋白質": 4,
+          "肌少": 2
+        }
+      },
+      {
+        "page_name": "網站地圖 (HTML)",
+        "url": "https://594katchang-source.github.io/sitemap.html",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 0,
+        "related_terms": {
+          "肌少症": 1,
+          "蛋白質": 4,
+          "肌少": 1
+        }
+      },
+      {
+        "page_name": "文章：維生素怎麼吃？從脂溶性、水溶性到補充品風險",
+        "url": "https://594katchang-source.github.io/blog/post.html?id=2026-08-25-vitamins-book-notes",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 0,
+        "related_terms": {
+          "蛋白質": 3
+        }
+      },
+      {
+        "page_name": "文章：蛋白質與胺基酸 從身體功能、食物品質到植物性飲食",
+        "url": "https://594katchang-source.github.io/blog/post.html?id=2026-08-22-proteins-amino-acids-book-notes",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 0,
+        "related_terms": {
+          "蛋白質": 113,
+          "阻力運動": 1
+        }
+      },
+      {
+        "page_name": "文章：脂質怎麼吃才健康？搞懂飽和脂肪、Omega-3、膽固醇與食用油選擇",
+        "url": "https://594katchang-source.github.io/blog/post.html?id=2026-08-20-lipids-fatty-acids-guide",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 0,
+        "related_terms": {
+          "蛋白質": 7
+        }
+      },
+      {
+        "page_name": "文章：碳水化合物怎麼吃才穩？從全穀、膳食纖維到添加糖",
+        "url": "https://594katchang-source.github.io/blog/post.html?id=2026-08-17-carbohydrates-food-guide",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 0,
+        "related_terms": {
+          "蛋白質": 13
+        }
+      },
+      {
+        "page_name": "文章：身體怎麼把食物變成能量？從消化、吸收到營養訊號讀懂人體",
+        "url": "https://594katchang-source.github.io/blog/post.html?id=2026-08-16-remarkable-body-nutrition-guide",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 0,
+        "related_terms": {
+          "蛋白質": 10
+        }
+      },
+      {
+        "page_name": "文章：DRI、營養標示怎麼看？用六大類食物讀懂營養數字與超級食物迷思",
+        "url": "https://594katchang-source.github.io/blog/post.html?id=2026-08-15-nutrition-tools-standards-guidelines",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 0,
+        "related_terms": {
+          "蛋白質": 9
+        }
+      },
+      {
+        "page_name": "文章：食物選擇怎麼影響健康？用適足、均衡、適量、多樣做出每天吃得到的選擇",
+        "url": "https://594katchang-source.github.io/blog/post.html?id=2026-08-14-food-choices-human-health-guide",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 0,
+        "related_terms": {
+          "蛋白質": 13
+        }
+      },
+      {
+        "page_name": "文章：影響近半世紀的營養學入門神書《Nutrition: Concepts & Controversies》最新版，營養師導讀健康行為轉向與15個爭議",
+        "url": "https://594katchang-source.github.io/blog/post.html?id=2026-08-13-nutrition-concepts-controversies-17e-guide",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 0,
+        "related_terms": {
+          "蛋白質": 6
+        }
+      },
+      {
+        "page_name": "文章：食物過敏知多少？",
+        "url": "https://594katchang-source.github.io/blog/post.html?id=食物過敏知多少",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 0,
+        "related_terms": {
+          "蛋白質": 1
+        }
+      },
+      {
+        "page_name": "文章：超商早餐怎麼搭才更穩定",
+        "url": "https://594katchang-source.github.io/blog/post.html?id=sample-balanced-breakfast",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 0,
+        "related_terms": {
+          "蛋白質": 1
+        }
+      },
+      {
+        "page_name": "文章：每天喝多少水才夠？從電解質、鈣鐵到骨質保養",
+        "url": "https://594katchang-source.github.io/blog/post.html?id=2026-09-01-how-much-water-electrolytes-calcium-iron-bone-health",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 0,
+        "related_terms": {
+          "蛋白質": 13
+        }
+      }
+    ],
+    "企業健康講座": [
+      {
+        "page_name": "首頁",
+        "url": "https://594katchang-source.github.io/",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 1,
+        "related_terms": {
+          "健康講座": 1
+        }
+      },
+      {
+        "page_name": "個人簡介",
+        "url": "https://594katchang-source.github.io/about.html",
+        "in_title": false,
+        "in_headings": false,
+        "exact_count": 1,
+        "related_terms": {
+          "健康講座": 1
+        }
+      },
+      {
+        "page_name": "授課講座",
+        "url": "https://594katchang-source.github.io/class.html",
+        "in_title": true,
+        "in_headings": true,
+        "exact_count": 3,
+        "related_terms": {
+          "健康講座": 4,
+          "EAP": 1
+        }
+      }
+    ]
+  },
+  "node_stats": [
+    {
+      "name": "首頁",
+      "url": "https://594katchang-source.github.io/",
+      "type": "Core/Tool",
+      "outgoing_count": 12,
+      "incoming_count": 13,
+      "outgoing_samples": [
+        "首頁",
+        "簡介",
+        "授課",
+        "教具",
+        "文章"
+      ],
+      "incoming_samples": [
+        "Kat Chang",
+        "Kat Chang",
+        "首頁",
+        "設計：張雁雲營養師/食品營養博士/健康管理碩士",
+        "網站首頁"
+      ]
+    },
+    {
+      "name": "個人簡介",
+      "url": "https://594katchang-source.github.io/about.html",
+      "type": "Core/Tool",
+      "outgoing_count": 9,
+      "incoming_count": 16,
+      "outgoing_samples": [
+        "Kat Chang",
+        "首頁",
+        "簡介",
+        "授課",
+        "服務"
+      ],
+      "incoming_samples": [
+        "簡介",
+        "02Kat營養師簡介Kat Chang 張雁雲營養師的學經歷及專長優勢介紹。",
+        "簡介",
+        "簡介",
+        "簡介"
+      ]
+    },
+    {
+      "name": "授課講座",
+      "url": "https://594katchang-source.github.io/class.html",
+      "type": "Core/Tool",
+      "outgoing_count": 8,
+      "incoming_count": 10,
+      "outgoing_samples": [
+        "Kat Chang",
+        "首頁",
+        "簡介",
+        "授課",
+        "服務"
+      ],
+      "incoming_samples": [
+        "授課",
+        "03課程範例衛教、營養課程與教學設計案例。",
+        "授課",
+        "查看授課",
+        "授課"
+      ]
+    },
+    {
+      "name": "衛教專欄首頁",
+      "url": "https://594katchang-source.github.io/blog/",
+      "type": "Core/Tool",
+      "outgoing_count": 21,
+      "incoming_count": 0,
+      "outgoing_samples": [
+        "Kat Chang",
+        "首頁",
+        "簡介",
+        "授課",
+        "服務"
+      ],
+      "incoming_samples": []
+    },
+    {
+      "name": "教學工具首頁",
+      "url": "https://594katchang-source.github.io/teach/",
+      "type": "Core/Tool",
+      "outgoing_count": 17,
+      "incoming_count": 0,
+      "outgoing_samples": [
+        "Kat Chang",
+        "首頁",
+        "簡介",
+        "授課",
+        "服務"
+      ],
+      "incoming_samples": []
+    },
+    {
+      "name": "教具：營養排行榜",
+      "url": "https://594katchang-source.github.io/teach/nutritionranking/",
+      "type": "Core/Tool",
+      "outgoing_count": 7,
+      "incoming_count": 0,
+      "outgoing_samples": [
+        "首頁",
+        "設計：張雁雲營養師/食品營養博士/健康管理碩士",
+        "預防肌少症飲食：蛋白質與胺基酸指南",
+        "每天喝多少水才夠？電解質、鈣鐵與骨質保養",
+        "DRI 與營養標示怎麼看？六大類食物真意"
+      ],
+      "incoming_samples": []
+    },
+    {
+      "name": "教具：論文讀書小站",
+      "url": "https://594katchang-source.github.io/teach/paper-radar/",
+      "type": "Core/Tool",
+      "outgoing_count": 6,
+      "incoming_count": 0,
+      "outgoing_samples": [
+        "Kat Chang",
+        "首頁",
+        "簡介",
+        "授課",
+        "教具"
+      ],
+      "incoming_samples": []
+    },
+    {
+      "name": "教具：壓力與食物關係",
+      "url": "https://594katchang-source.github.io/teach/Stress-Food/",
+      "type": "Core/Tool",
+      "outgoing_count": 4,
+      "incoming_count": 0,
+      "outgoing_samples": [
+        "首頁",
+        "Chapter 4 碳水化合物怎麼吃才穩？從全穀、膳食纖維到添加糖（穩定血糖與情緒）",
+        "Chapter 5 脂質怎麼吃才健康？搞懂飽和脂肪、Omega-3 與抗發炎好油",
+        "超商早餐怎麼搭才更穩定？上班族與外食族抗疲勞快速組合"
+      ],
+      "incoming_samples": []
+    },
+    {
+      "name": "教具：情緒營養字卡",
+      "url": "https://594katchang-source.github.io/teach/emotion-cards/",
+      "type": "Core/Tool",
+      "outgoing_count": 1,
+      "incoming_count": 0,
+      "outgoing_samples": [
+        "回首頁"
+      ],
+      "incoming_samples": []
+    },
+    {
+      "name": "教具：營養大作戰",
+      "url": "https://594katchang-source.github.io/teach/nutrition-battle/",
+      "type": "Core/Tool",
+      "outgoing_count": 1,
+      "incoming_count": 0,
+      "outgoing_samples": [
+        "首頁"
+      ],
+      "incoming_samples": []
+    },
+    {
+      "name": "網站地圖 (HTML)",
+      "url": "https://594katchang-source.github.io/sitemap.html",
+      "type": "Core/Tool",
+      "outgoing_count": 31,
+      "incoming_count": 6,
+      "outgoing_samples": [
+        "Kat Chang",
+        "首頁",
+        "簡介",
+        "授課",
+        "服務"
+      ],
+      "incoming_samples": [
+        "網站地圖",
+        "網站地圖",
+        "網站地圖",
+        "網站地圖",
+        "網站地圖"
+      ]
+    },
+    {
+      "name": "文章：維生素怎麼吃？從脂溶性、水溶性到補充品風險",
+      "url": "https://594katchang-source.github.io/blog/post.html?id=2026-08-25-vitamins-book-notes",
+      "type": "Article",
+      "outgoing_count": 6,
+      "incoming_count": 3,
+      "outgoing_samples": [
+        "全書導讀",
+        "第一章食物選擇",
+        "第二章營養工具與標準",
+        "第三章消化與吸收",
+        "第五章脂質與脂肪酸"
+      ],
+      "incoming_samples": [
+        "維生素怎麼吃？從脂溶性、水溶性到補充品風險",
+        "衛教：維生素怎麼吃？從脂溶性、水溶性到補充品風險",
+        "Chapter 7 維生素怎麼吃？從脂溶性、水溶性到補充品風險"
+      ]
+    },
+    {
+      "name": "文章：蛋白質與胺基酸 從身體功能、食物品質到植物性飲食",
+      "url": "https://594katchang-source.github.io/blog/post.html?id=2026-08-22-proteins-amino-acids-book-notes",
+      "type": "Article",
+      "outgoing_count": 7,
+      "incoming_count": 4,
+      "outgoing_samples": [
+        "https://594katchang-source.github.io/blog/post.html?id=2026-08-13-nutrition-concepts-controversies-17e-guide",
+        "https://594katchang-source.github.io/blog/post.html?id=2026-08-14-food-choices-human-health-guide",
+        "https://594katchang-source.github.io/blog/post.html?id=2026-08-15-nutrition-tools-standards-guidelines",
+        "https://594katchang-source.github.io/blog/post.html?id=2026-08-17-carbohydrates-food-guide",
+        "https://594katchang-source.github.io/blog/post.html?id=2026-08-20-lipids-fatty-acids-guide"
+      ],
+      "incoming_samples": [
+        "蛋白質與胺基酸 從身體功能、食物品質到植物性飲食",
+        "預防肌少症飲食：蛋白質與胺基酸指南",
+        "衛教：蛋白質與胺基酸 從身體功能、食物品質到植物性飲食",
+        "Chapter 6 蛋白質與胺基酸：從身體功能、食物品質到植物性飲食"
+      ]
+    },
+    {
+      "name": "文章：脂質怎麼吃才健康？搞懂飽和脂肪、Omega-3、膽固醇與食用油選擇",
+      "url": "https://594katchang-source.github.io/blog/post.html?id=2026-08-20-lipids-fatty-acids-guide",
+      "type": "Article",
+      "outgoing_count": 6,
+      "incoming_count": 5,
+      "outgoing_samples": [
+        "第一章：Food Choices and Human Health",
+        "第二章：Nutrition Tools, Standards, and Guidelines",
+        "第四章：碳水化合物怎麼吃才穩？",
+        "https://594katchang-source.github.io/blog/post.html?id=2026-08-13-nutrition-concepts-controversies-17e-guide",
+        "https://594katchang-source.github.io/blog/"
+      ],
+      "incoming_samples": [
+        "脂質怎麼吃才健康？搞懂飽和脂肪、Omega-3、膽固醇與食用油選擇",
+        "Chapter 5 脂質怎麼吃才健康？搞懂飽和脂肪、Omega-3 與抗發炎好油",
+        "衛教：脂質怎麼吃才健康？搞懂飽和脂肪、Omega-3、膽固醇與食用油選擇",
+        "第五章脂質與脂肪酸",
+        "https://594katchang-source.github.io/blog/post.html?id=2026-08-20-lipids-fatty-acids-guide"
+      ]
+    },
+    {
+      "name": "文章：碳水化合物怎麼吃才穩？從全穀、膳食纖維到添加糖",
+      "url": "https://594katchang-source.github.io/blog/post.html?id=2026-08-17-carbohydrates-food-guide",
+      "type": "Article",
+      "outgoing_count": 4,
+      "incoming_count": 5,
+      "outgoing_samples": [
+        "https://594katchang-source.github.io/blog/post.html?id=2026-08-13-nutrition-concepts-controversies-17e-guide",
+        "https://594katchang-source.github.io/blog/",
+        "https://594katchang-source.github.io/about.html",
+        "https://594katchang-source.github.io/teach/paper-radar/"
+      ],
+      "incoming_samples": [
+        "碳水化合物怎麼吃才穩？從全穀、膳食纖維到添加糖",
+        "Chapter 4 碳水化合物怎麼吃才穩？從全穀、膳食纖維到添加糖（穩定血糖與情緒）",
+        "衛教：碳水化合物怎麼吃才穩？從全穀、膳食纖維到添加糖",
+        "https://594katchang-source.github.io/blog/post.html?id=2026-08-17-carbohydrates-food-guide",
+        "第四章：碳水化合物怎麼吃才穩？"
+      ]
+    },
+    {
+      "name": "文章：身體怎麼把食物變成能量？從消化、吸收到營養訊號讀懂人體",
+      "url": "https://594katchang-source.github.io/blog/post.html?id=2026-08-16-remarkable-body-nutrition-guide",
+      "type": "Article",
+      "outgoing_count": 5,
+      "incoming_count": 4,
+      "outgoing_samples": [
+        "全書導讀",
+        "第二章：Nutrition Tools, Standards, and Guidelines",
+        "第一章：Food Choices and Human Health",
+        "功能醫學與預防阿茲海默症的飲食介入判讀",
+        "網站首頁"
+      ],
+      "incoming_samples": [
+        "身體怎麼把食物變成能量？從消化、吸收到營養訊號讀懂人體",
+        "人體消化與吸收機轉從消化道生理、酵素作用到營養訊號傳遞，讀懂身體代謝運作。",
+        "衛教：身體怎麼把食物變成能量？從消化、吸收到營養訊號讀懂人體",
+        "第三章消化與吸收"
+      ]
+    },
+    {
+      "name": "文章：DRI、營養標示怎麼看？用六大類食物讀懂營養數字與超級食物迷思",
+      "url": "https://594katchang-source.github.io/blog/post.html?id=2026-08-15-nutrition-tools-standards-guidelines",
+      "type": "Article",
+      "outgoing_count": 5,
+      "incoming_count": 8,
+      "outgoing_samples": [
+        "全書導讀",
+        "第一章食物選擇",
+        "Blog 文章列表",
+        "作者簡介",
+        "論文讀書小站"
+      ],
+      "incoming_samples": [
+        "DRI、營養標示怎麼看？用六大類食物讀懂營養數字與超級食物迷思",
+        "DRI 與營養標示怎麼看？用六大類食物讀懂營養數字、每日參考值與超級食物迷思。",
+        "DRI 與營養標示怎麼看？六大類食物真意",
+        "衛教：DRI、營養標示怎麼看？用六大類食物讀懂營養數字與超級食物迷思",
+        "第二章營養工具與標準"
+      ]
+    },
+    {
+      "name": "文章：食物選擇怎麼影響健康？用適足、均衡、適量、多樣做出每天吃得到的選擇",
+      "url": "https://594katchang-source.github.io/blog/post.html?id=2026-08-14-food-choices-human-health-guide",
+      "type": "Article",
+      "outgoing_count": 5,
+      "incoming_count": 8,
+      "outgoing_samples": [
+        "Nutrition Concepts & Controversies 第 17 版導讀",
+        "超商早餐怎麼搭才更穩定",
+        "論文讀書小站",
+        "張雁雲營養師專業簡介",
+        "Kat Chang 衛教文章"
+      ],
+      "incoming_samples": [
+        "食物選擇怎麼影響健康？用適足、均衡、適量、多樣做出每天吃得到的選擇",
+        "食物選擇怎麼影響健康？適足、均衡、適量、多樣四大原則，輕鬆落實日常餐盤搭配。",
+        "衛教：食物選擇怎麼影響健康？用適足、均衡、適量、多樣做出每天吃得到的選擇",
+        "第一章食物選擇",
+        "https://594katchang-source.github.io/blog/post.html?id=2026-08-14-food-choices-human-health-guide"
+      ]
+    },
+    {
+      "name": "文章：影響近半世紀的營養學入門神書《Nutrition: Concepts & Controversies》最新版，營養師導讀健康行為轉向與15個爭議",
+      "url": "https://594katchang-source.github.io/blog/post.html?id=2026-08-13-nutrition-concepts-controversies-17e-guide",
+      "type": "Article",
+      "outgoing_count": 0,
+      "incoming_count": 9,
+      "outgoing_samples": [],
+      "incoming_samples": [
+        "影響近半世紀的營養學入門神書《Nutrition: Concepts & Controversies》最新版，營養師導讀健康行為轉向與15個爭議",
+        "衛教：影響近半世紀的營養學入門神書《Nutrition: Concepts & Controversies》最新版，營養師導讀健康行為轉向與15個爭議",
+        "全書導讀",
+        "https://594katchang-source.github.io/blog/post.html?id=2026-08-13-nutrition-concepts-controversies-17e-guide",
+        "https://594katchang-source.github.io/blog/post.html?id=2026-08-13-nutrition-concepts-controversies-17e-guide"
+      ]
+    },
+    {
+      "name": "文章：功能醫學預防阿茲海默症的系統性介入策略",
+      "url": "https://594katchang-source.github.io/blog/post.html?id=2026-05-19-功能醫學預防阿茲海默症的系統性介入策略",
+      "type": "Article",
+      "outgoing_count": 0,
+      "incoming_count": 1,
+      "outgoing_samples": [],
+      "incoming_samples": [
+        "功能醫學與預防阿茲海默症的飲食介入判讀"
+      ]
+    },
+    {
+      "name": "文章：食物過敏知多少？",
+      "url": "https://594katchang-source.github.io/blog/post.html?id=食物過敏知多少",
+      "type": "Article",
+      "outgoing_count": 0,
+      "incoming_count": 0,
+      "outgoing_samples": [],
+      "incoming_samples": []
+    },
+    {
+      "name": "文章：超商早餐怎麼搭才更穩定",
+      "url": "https://594katchang-source.github.io/blog/post.html?id=sample-balanced-breakfast",
+      "type": "Article",
+      "outgoing_count": 0,
+      "incoming_count": 4,
+      "outgoing_samples": [],
+      "incoming_samples": [
+        "超商早餐怎麼搭才更穩定",
+        "超商早餐怎麼搭才更穩定？上班族與外食族抗疲勞快速組合",
+        "衛教：超商早餐怎麼搭才更穩定",
+        "超商早餐怎麼搭才更穩定"
+      ]
+    },
+    {
+      "name": "文章：每天喝多少水才夠？從電解質、鈣鐵到骨質保養",
+      "url": "https://594katchang-source.github.io/blog/post.html?id=2026-09-01-how-much-water-electrolytes-calcium-iron-bone-health",
+      "type": "Article",
+      "outgoing_count": 3,
+      "incoming_count": 3,
+      "outgoing_samples": [
+        "Chapter 7 維生素怎麼吃？從脂溶性、水溶性到補充品風險",
+        "Chapter 6 蛋白質與胺基酸：從身體功能、食物品質到植物性飲食",
+        "Kat Chang 營養師個人簡介"
+      ],
+      "incoming_samples": [
+        "每天喝多少水才夠？從電解質、鈣鐵到骨質保養",
+        "每天喝多少水才夠？電解質、鈣鐵與骨質保養",
+        "衛教：每天喝多少水才夠？從電解質、鈣鐵到骨質保養"
+      ]
+    }
+  ]
+}

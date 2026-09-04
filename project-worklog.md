@@ -1,5 +1,167 @@
 # Kat Chang site 工作日誌
 
+## 2026-09-04｜全站內鏈優化、三大關鍵字與桃園營養師推薦佈局、21組企業講座關鍵字確立與推播 GitHub
+
+### 任務
+
+- 依使用者指示落實全站 SEO 與個人品牌升級：
+  1. **Chapter 8 補齊站內十字互鏈**：於 Chapter 8（水與礦物質）專文正文嵌入連向 Chapter 6（蛋白質與肌力）、Chapter 7（維生素 D 與鈣化）及營養師個人簡介（about.html）之十字互鏈。
+  2. **互動教具反向連結暫時保留**：依使用者指示，互動工具頁面（teach/）暫時不加專文回鏈，保持互動教具乾淨體驗。
+  3. **三大商業關鍵字完全匹配植入**：
+     - about.html：植入「中高齡營養師」（Title、H1、Lead、Profile）。
+     - class.html：植入「企業健康講座」、「健康講座接案講師」（Title、H1、Lead）。
+     - index.html：Hero Lead 植入「中高齡營養師」、「肌少症飲食」、「企業健康講座」。
+  4. **個人諮詢與品牌大詞增補**：於 about.html、index.html Meta Keywords、agent.md 規範與關鍵字矩陣檔全面加入「桃園營養師推薦」（與既有「台北營養師推薦」並列）。
+  5. **21 組企業講座核心關鍵字沉澱**：正式將使用者挑選之 21 組關鍵字（含 A-01~A-06、B-01~B-03、C-02、C-05、D-01~D-05、E-01~E-04）及三大商業支柱寫入 agent.md 與關鍵字矩陣報告，作為後續專文（Chapter 9～15）與教材之硬性嵌入標準。
+  6. **全站 SEO 與 AI (GEO) 自動同步**：執行 sync_seo_and_geo.py，全站 22 個 URL、Sitemaps 與 AI 知識庫（llms.txt / llms-full.txt）全數同步至 2026-09-04。
+  7. **版本控制與線上發布**：將所有整理妥善之程式碼、設定與文檔推送至 GitHub origin/main。
+
+### 主要輸出
+
+- about.html：注入「中高齡營養師」完全匹配與「桃園營養師推薦」Meta Keywords。
+- class.html：注入「企業健康講座」與「健康講座接案講師」完全匹配。
+- index.html：Hero 區整合三大關鍵字，並於 Meta Keywords 加入「桃園營養師推薦」。
+- blog/posts.json、work/2026-08-15-seo-review-docs/：Chapter 8 補齊十字互鏈。
+- agent.md：寫入 21 組企業講座關鍵字與個人品牌核心詞規範（含桃園營養師推薦）。
+- work/2026-09-04-internal-links-and-keyword-enrichment/output/Corporate_Wellness_Keywords_Matrix.md：收錄完整 21 組選定詞與品牌大詞。
+- sitemap.xml、sitemap.html、llms.txt、llms-full.txt、robots.txt、blog/index.html：全站 SEO & GEO 同步完成。
+
+### 驗證
+
+- 三點式抽檢通過：
+  - 首項：about.html 標籤與 Meta 正確包含「中高齡營養師」與「桃園營養師推薦」。
+  - 中項：class.html 標籤與 Hero 包含「企業健康講座」與「健康講座接案講師」。
+  - 末項：Chapter 8 正文延伸閱讀錨點與 URL 經由 blog/posts.json 與公開頁同步驗證，可順暢跳轉至 Ch 6、Ch 7 與簡介頁。
+- teach/ 保持乾淨無多餘回鏈，符合使用者指示。
+- python tools/sync_seo_and_geo.py 執行退出碼 0。
+- GitHub Pages 發布推送驗證完成。
+
+## 2026-09-04｜檢核點 4（Milestone 4）全站內鏈網與長尾排名追蹤總檢核
+
+### 任務
+
+- 依「4 週 SEO & AI 搜尋攻頂計畫」時程，於第 2 週（09/04）啟動「檢核點 4（Milestone 4）：全站內鏈網與長尾排名追蹤」驗收。
+- 遵循目錄規範，建立獨立專屬資料夾 `work/2026-09-04-milestone-4-internal-links-ranking-audit/`，分析腳本放置於 `source/`，總檢核報告產出於 `output/`。
+- **任務 ①**：透過實體管線盤點全站 23 個節點（11 個核心/教具分頁 + 12 篇衛教專文），共計解析 148 條內部連結，深度分析「文章 ➔ 教具」、「教具 ➔ 文章」之雙向錨點連結。
+- **任務 ②**：深入觀測「中高齡營養師」、「肌少症飲食」、「企業健康講座」三大核心詞於全站各頁面（Title, H1/H2, Body, Keywords）之分佈密度、完全匹配缺口與長尾排名爬升策略。
+- 貫徹「嚴禁推測原則」，落實搜尋觀測通道說明與三點式一致性抽檢。
+
+### 主要輸出
+
+- `work/2026-09-04-milestone-4-internal-links-ranking-audit/source/audit_internal_links_and_keywords.py`：全站內鏈拓撲與關鍵字實體分析管線腳本。
+- `work/2026-09-04-milestone-4-internal-links-ranking-audit/output/internal_links_and_keywords_data.json`：全站 23 個節點與 148 條連結拓撲資料檔。
+- `work/2026-09-04-milestone-4-internal-links-ranking-audit/output/Milestone_4_Internal_Links_and_Keyword_Ranking_Report.md`：檢核點 4 全方位盤點總報告。
+- `project-worklog.md`：更新本日工作日誌。
+
+### 驗證
+
+- 首項、中項、末項抽檢通過：
+  - 首項：Chapter 1 正文連向全書導讀與論文讀書小站教具錨點 100% 正確可點擊。
+  - 中項：Chapter 6 蛋白質專文包含 113 次「蛋白質」詞彙，並包含 7 條連向前幾章的交叉連結。
+  - 末項：Chapter 8 水與礦物質專文已上線，外部來源 10 條齊備，已標示出站內十字互鏈待補優化點。
+- 全域與專案規範遵行，報告確認無亂碼。
+
+## 2026-09-04｜狀態修正：確認 Chapter 8《水與主要礦物質》已於 9/1 發布上線
+
+### 任務
+
+- 依使用者指示校正全站連載與 SEO 進度狀態：Chapter 8《水與主要礦物質》（`chapter-08-water-minerals-seo-review.docx`）已於 2026-09-01 正式發布至 GitHub 上線，修正狀態為「已上線」。
+- 校正全站 SEO 資產與進度報告：全站公開專文總數更新為 12 篇（9 篇書籍連載專文 + 3 篇功能醫學/生活衛教），Sitemap 網址數為 22 個。
+- 同步更新 `.codex/seo/book-series-progress.md`、`work/2026-09-01-seo-progress-report/output/SEO_Progress_Report_2026-09-01.md` 與專案工作日誌。
+- 明確標記當前唯一待審稿件為 Chapter 9《能量平衡與健康體態（Energy Balance and a Healthy Body）》。
+
+### 主要輸出
+
+- `work/2026-09-01-seo-progress-report/output/SEO_Progress_Report_2026-09-01.md`：校正 Chapter 8 為「已上線」，更新全站統計數據與 M3 里程碑進度（95%）。
+- `.codex/seo/book-series-progress.md`：回寫 2026-09-04 狀態校正紀錄，解除誤判之待審狀態。
+- `project-worklog.md`：完成工作日誌回寫。
+
+### 驗證
+
+- 已核對文章 ID `2026-09-01-how-much-water-electrolytes-calcium-iron-bone-health` 於 `blog/posts.json`、`sitemap.xml` 與 `sitemap.html` 正確收錄。
+- 確認 Chapter 8 狀態於各處進度報告統一為「已上線」。
+- 全域與專案規則嚴格遵行。
+
+## 2026-09-01｜三大業務支柱關鍵字佈局深度規劃確立
+
+### 任務
+
+- 依使用者指示，深度制定「專業營養師」、「專業講師」、「健康與法規顧問」三大商業支柱關鍵字佈局矩陣與全方位轉換漏斗。
+- 遵循目錄規範，建立專屬資料夾 `work/2026-09-01-three-pillars-keyword-strategy/`，腳本放置於 `source/`，總規劃指南產出於 `output/`。
+- 整合實體關聯圖譜（Entity Graph）、四層關鍵字矩陣（大詞/商業詞/痛點長尾詞/AI 語意問句）、著陸頁與 Schema.org 語意標註架構。
+
+### 主要輸出
+
+- `work/2026-09-01-three-pillars-keyword-strategy/source/make_plan.py`：規劃指南生成工具。
+- `work/2026-09-01-three-pillars-keyword-strategy/output/Three_Pillars_Keyword_Strategy_Master_Plan.md`：三大業務支柱關鍵字佈局深度規劃旗艦指南。
+- `project-worklog.md`：完成工作日誌回寫。
+
+### 驗證
+
+- 已確認 `Three_Pillars_Keyword_Strategy_Master_Plan.md` 包含完整實體圖、關鍵字矩陣、著陸頁配置、Schema 複合聲明與 4 階段推進時程。
+- `git diff --check` 通過。
+
+### 回寫狀態
+
+- `project-worklog.md`：已更新。
+- 專案與全域規則：嚴格遵行。
+
+## 2026-09-01｜SEO Progress Report 全站進度總盤點與開工檢核
+
+### 任務
+
+- 依使用者指示啟動「SEO Progress Report Inquiry」開工任務。
+- 遵循目錄規範，建立專屬資料夾 `work/2026-09-01-seo-progress-report/`，過程腳本放置於 `source/`，總審查報告產出於 `output/`。
+- 完整盤點全站 SEO 資產：11 篇公開專文、8 篇書籍連載專文、4 篇首頁精選、21 個 Sitemap 網址、llms.txt AI 知識庫同步狀態。
+- 盤點書籍連載審閱管線：確認 Chapter 1～7 已公開上線，Chapter 8（水與主要礦物質）與 Chapter 9（能量平衡與健康體態）Word 審閱主檔與 Markdown 待審稿已於 `work/2026-08-15-seo-review-docs/output/` 齊備。
+- 追蹤「4 週 SEO & AI 搜尋攻頂計畫」8 大里程碑進度。
+- 執行 ISO 第 36 週（偶數週）Search Console 與 6 大高權重機構反向連結合作機會盤點（貫徹「嚴禁推測原則」）。
+
+### 主要輸出
+
+- `work/2026-09-01-seo-progress-report/source/audit_seo_progress.py`：全站 SEO 資產與審閱管線檢查工具。
+- `work/2026-09-01-seo-progress-report/output/SEO_Progress_Report_2026-09-01.md`：2026-09-01 SEO 全方位進度審查與開工總回報。
+- `project-worklog.md`：更新本日工作日誌。
+
+### 驗證
+
+- 已執行 `audit_seo_progress.py`，確認 `blog/posts.json`、`sitemap.xml`、`llms.txt` 與本地檔案 100% 一致。
+- 已確認 Chapter 8 Word 檔（8,110 字元、9 張表格）與 Chapter 9 Word 檔（5,577 字元、8 張表格）結構 QA 通過。
+- `git diff --check` 通過。
+
+### 回寫狀態
+
+- `project-worklog.md`：已更新 2026-09-01 工作日誌。
+- 全域與專案規則：嚴格遵行。
+
+## 2026-08-30｜4 週 SEO 攻頂執行行事曆、8 大關鍵檢核點與全方位行銷策略確立
+
+### 任務
+
+- 重新梳理並向使用者完整回報「4 週 SEO & AI 搜尋攻頂執行行事曆」與 8 大關鍵檢核點（Milestones 1～8）。
+- 確立雙邊協作權責劃分：Codex 負責公開專文連載深度撰寫、審閱套件產出與使用者授權後的發布；Antigravity 負責全站 SEO、AI 搜尋收錄（GEO/LLMO）、三大業務支柱關鍵字佈局、站內外連結網與 B2B/EAP 行銷推廣手段。
+- 排程守護重置：重新掛載並啟動每日 11:30 定時檢核守護任務（`task-65`），防止背景行程因伺服器重啟中斷。
+- 全站資產與連載進度盤點：確認 Chapter 7 維生素篇已公開上線，Chapter 8（水與礦物質）與 Chapter 9（能量平衡）待審稿均已就緒，全站 11 篇公開文章與 sitemap/llms 比對一致。
+
+### 已完成
+
+- 4 週攻頂行事曆與 8 大檢核點正式梳理與確認。
+- 三大業務支柱關鍵字矩陣（營養師、講師、顧問）與 GEO/LLMO 實體綁定架構確立。
+- 站外推廣（EAP 企業方案信函、公會學術機構外鏈、教具社群卡片裂變、LINE/Zcal 漏斗）策略確立。
+- 每日定時守護任務排程常駐設定完成（`task-65`）。
+- 專案工作日誌完整回寫。
+
+### 驗證
+
+- 已確認 `blog/posts.json`、`sitemap.xml` 與 `llms.txt` 在公開端與本地一致（11 篇公開專文）。
+- 已確認 Chapter 8 與 Chapter 9 同源 Word 審閱檔與 Markdown 待審稿均完整保留於 `work/2026-08-15-seo-review-docs/output/`。
+- `git status` 與工作樹檢查完成。
+
+### 規則回寫
+
+- `project-worklog.md`：已更新 2026-08-30 完整執行日誌。
+- 專案與全域規則沿用最新規範。
+
 ## 2026-08-24｜書籍連載分類統一
 
 ### 任務
@@ -1656,3 +1818,340 @@
 
 - 依使用者批註，Word 為人工審閱主檔，正文入口順序需固定保留「省時版本：」在四個生活問題之前。
 - 已將該順序寫入 `agent.md` 與章節 QA。未修改通用 skill。
+
+## 2026-08-29 18:57 SEO 第九章待審稿、左側任務整理與 GitHub 同步核對
+
+### 任務
+
+- 依使用者明確指示，在第八章仍待審核的情況下建立第九章待審 SEO 草稿。
+- 整理「Kat Chang SEO 草稿與搜尋成效」左側重複任務，保留目前任務與其他有明確辦理內容的任務。
+- 核對 GitHub `main` 與本機網站檔案，確認 Blog 直接修改是否需要回存本機。
+
+### 已完成
+
+- 封存 15 個舊的同名 SEO 任務，保留目前使用中的任務。封存可恢復，未刪除其他有工作內容的任務。
+- 以 Chapter 9 原始 PDF 第 360 至 401 頁與 `chapter-09-source.txt` 為內容基礎，建立同源 HTML、JSON、Markdown 與 Word 產出流程。
+- 產出第九章 Markdown 待審稿、Word 審閱主檔與研究回報。正文實際字數 5,577 個去除空白字元，空白分隔詞數 152。
+- 文章含能量平衡、復胖、BMI、腰圍、身體組成、飢餓與食慾、斷食、活動、醫療選項、飲食失調警訊、FAQ、來源對照與待確認事項。
+- GitHub 公開 API 與本機核對結果一致。`HEAD` 與遠端 `main` 均為 `42423f21ad07d03746c1c450367debda5f888de1`。`blog/posts.json` 本機與遠端 blob 均為 `2ac81496f1cd231c40800f2424256848f6923fad`。
+- 未修改網站、`blog/posts.json`、圖片、sitemap、`llms.txt`、公開頁、GitHub 遠端或首頁精選設定。
+
+### 已修正錯誤
+
+- 文件技能的作業標記命令第一次使用錯誤路徑，改用文件技能實際的 `container_tools` 路徑後成功完成標記。
+- 第九章來源表初版含一個分號，已回到同源 JSON 修正並重新產生 Markdown 與 Word。文字規則掃描目前通過。
+- Word QA 初版把 8 個超連結當成門檻，查明目前版型有 7 個站內超連結，來源表另保留 10 組 URL，已修正 QA 門檻並重新驗證。
+- 先前進度檔的重複錨點問題已持續保留防呆，本輪新增紀錄放在檔案末端並核對日期順序。
+
+### 驗證
+
+- Markdown QA 通過，H1、H2、H3、8 張表格、FAQ、作者判讀、來源網址、正文長度與文字規則均通過。
+- Word 結構 QA 通過，DOCX ZIP、9360 DXA 表格寬度、`w:cantSplit`、`w:tblHeader`、7 個站內連結與既有章節污染檢查均通過。
+- `git diff --check` 通過。
+- 第八章 Markdown 與 Word SHA-256 未變更，仍為 `DCBE16C7DE9368C9F6CA6A1126F9217AF6CD9E4D169286FB00E73ADBE19A3115` 與 `7B7FA91950C5652B8D89B912F9994685D710AAEBABAE857CCA6853C77922DC80`。
+- `soffice.exe` 不可用，Word PDF、PNG 轉頁與逐頁畫面檢視未完成，沒有把結構 QA 寫成視覺通過。
+
+### 尚未完成
+
+- 第八章仍待人工審核，第九章也仍待人工審閱。未進入網站編排、發布或 GitHub 推送。
+- 第九章正式網址、封面圖、台灣飲食失調轉介資源與最新體位衛教版本待人工確認。
+- 2026 年 ISO 第 35 週為奇數週，本輪未執行 Search Console 與反向連結盤點。
+
+### 仍有風險
+
+- Git HTTPS 讀取遇到 Windows Schannel `SEC_E_NO_CREDENTIALS`，GitHub CLI token 顯示失效。遠端狀態由公開 GitHub API 讀取核對，未完成 authenticated Git transport 驗證。
+- 第九章來源表中的本機書籍路徑供人工回查，發布前仍需確認公開頁只保留適合公開的來源網址。
+
+### 這次新增的規則與回寫狀態
+
+- 本次依使用者明確指示保留第八章待審狀態，同時建立第九章待審稿。這是本輪工作決定，未改寫固定連載順序規則。
+- 新增的生成與 QA 腳本只放在既有 SEO 工作資料夾，未回寫全域 skill 或專案 agent，因本輪沒有確認新的跨任務規則。
+- 下次處理前仍需先讀取本進度檔、工作日誌、Git 狀態、遠端共享 JSON 與前一章人工審核狀態。
+
+## 2026-08-29 19:52 公開 Blog 即時內容回查
+
+### 任務
+
+- 使用者指出 GitHub Blog 可能有比本機較新的文章內容，要求以公開網站目前版本為準並存回本機。
+
+### 查核結果
+
+- 以 `https://594katchang-source.github.io/blog/posts.json` 加入新查詢參數重新讀取，HTTP 200，取得 11 篇文章。
+- 以 GitHub API 重新讀取 `main` 的 `blog/posts.json`，HTTP 200，取得 11 篇文章，blob SHA 為 `2ac81496f1cd231c40800f2424256848f6923fad`。
+- 逐篇比對文章 ID、標題、日期、分類、摘要、關鍵字、`showOnHome` 與正文，公開網站、本機與 GitHub API 的差異 ID 均為空，代表目前沒有文章欄位需要回存。
+- 目前公開網站與 GitHub API 的 UTF-8 內容 SHA-256 均為 `165ad88caf9a3343ec1b90fc183687ad903bfc9ca58053954b4e11de9285f7ec`。本機檔案採 CRLF，換行轉為 LF 後與公開網站內容完全相同，差異只有 224 組換行字元。
+- GitHub `blog` 目錄的追蹤檔案 SHA 與本機 Git blob 逐項相同，包含 `blog.js`、`index.html`、`post.html`、`posts.json` 與圖片。沒有發現另一份較新的公開 Blog 文章版本。
+
+### 已修正認知落差
+
+- 前次紀錄只核對 GitHub `main` 與本機，沒有把公開網站即時回應列為獨立來源。本次已補上公開網站、GitHub API、本機解析內容與 Git blob 四方交叉核對。
+- 本次沒有覆寫 `blog/posts.json`，因目前本機文章內容已是公開網站與 GitHub `main` 的同一份內容。若直接改成公開服務回傳的 LF，反而會改變本機工作樹的換行形式，無助於保留 Git blob 一致性。
+
+### 尚未完成與限制
+
+- 本次未發現可新增的 GitHub Blog 文章修改，因此沒有文章回存差異可交付。
+- Git HTTPS 仍受 Windows Schannel `SEC_E_NO_CREDENTIALS` 影響，GitHub CLI token 狀態仍需重新登入。公開 GitHub API 讀取已成功。
+- 第九章仍待人工審閱，第八章仍待人工審核，沒有進行網站發布、commit 或 push。
+
+## 2026-08-29 21:00 公開 Blog 版本回存本機
+
+### 任務
+
+- 使用者說明公開 GitHub Blog 曾用文章修改功能改過少量文字，要求檢查遠端檔案日期與內容，並把較新版本保存到桌機專案。
+- 依公開 GitHub `main`、本機 `blog/posts.json`、Word 審閱檔與 `source` 發布紀錄逐層核對。
+
+### 已完成
+
+- 重新讀取 GitHub Contents API 的 `main:blog/posts.json`，HTTP 200，遠端 blob SHA 為 `2ac81496f1cd231c40800f2424256848f6923fad`，遠端 `main` HEAD 為 `42423f21ad07d03746c1c450367debda5f888de1`。
+- 遠端 `blog/posts.json` 的最新路徑提交為 `54072afe60134dfa320c380a4628f31e293fff9a`，時間為 2026-08-25 19:56:49（台灣時間）。原本本機檔案時間為 2026-08-25 19:55:59，遠端時間較晚約 50 秒。內容已從遠端重新保存到本機，現在遠端與本機原始位元組完全相同，均為 171,864 bytes，SHA-256 均為 `165ad88caf9a3343ec1b90fc183687ad903bfc9ca58053954b4e11de9285f7ec`。
+- 公開文章資料與本機解析結果均為 11 篇，ID 順序相同，首頁精選仍為原有 4 篇，沒有改動 `showOnHome`。
+- 比對 7 篇已發布書籍連載的 Word 審閱檔。七份文件的標題、摘要、目標搜尋字詞、分類與日期已依公開 Blog 欄位更新。第二、六、七章的正文少量差異已回存，包含第七章多處用字、標題、表格文字與延伸閱讀段落。
+- 第六章與第七章的 `source\chapter-06-publish.json`、`source\chapter-06-publish.html`、`source\chapter-07-publish.json`、`source\chapter-07-publish.html` 已同步公開文章核心欄位與正文。原始 Word 檔案先保留於 `source\remote-sync-backups-2026-08-29`。
+- 修正 `source\qa_review_docs.py` 的 UTF-8 輸出設定，讓 Windows PowerShell 能正常列印中文 QA 結果。新增同步與 QA 腳本均放在既有 SEO 工作資料夾。
+
+### 已修正錯誤
+
+- 舊的遠端回查紀錄只核對解析內容，沒有執行公開版本回存，也沒有逐一回查 Word。這次補做公開 API 下載、原始位元組比對、Word 差異分析與來源紀錄同步。
+- QA 腳本第一次執行時因 cp1252 輸出中文失敗，已補上 `sys.stdout.reconfigure(encoding='utf-8')`，重跑後通過。
+- 文字差異比對初版把段落拆分、來源網址與 Word 審閱附註列為正文差異，已改用正文區段、表格與去除網址的語意核對，確認真正需要回存的差異範圍。
+
+### 驗證
+
+- 7 份同步後 Word 均通過 DOCX ZIP、metadata、正文標題、表格 9360 DXA、重複標題列與 `w:cantSplit` 檢查。第 1、2 章既有 QA 也已重跑通過，第 7 章 Markdown QA 通過，第 8 章既有 Word QA 通過。
+- 第六章與第七章發布 HTML 已與本機 `blog/posts.json` 對應正文完全相同，發布 JSON 的公開核心欄位也已相同。
+- 本機 `blog/posts.json` 與 GitHub 公開 API 已完成原始位元組相同、JSON 解析相同、11 篇文章與 ID 相同的核對。
+- 公開 GitHub Pages、GitHub API 與本機 `blog/posts.json` 均回應 HTTP 200，三者各為 171,864 bytes，SHA-256 均為 `165ad88caf9a3343ec1b90fc183687ad903bfc9ca58053954b4e11de9285f7ec`，原始位元組與 JSON 均相同。
+- `git diff --check` 已通過。`blog/posts.json` 的 Git 工作樹標記只反映本機改成遠端 LF 的換行形式，忽略行尾後沒有語意差異。尚未進行 commit、push、網站發布或公開內容寫入。
+
+### 尚未完成與仍有風險
+
+- Word 文件的 PDF、PNG 與逐頁畫面檢查仍未完成，因環境缺少 LibreOffice `soffice.exe`。結構 QA 不代表視覺 QA 通過。
+- 第八章仍待人工審核，第九章仍為使用者要求建立的待審稿，未因本次同步變成已核准文章。
+- Git HTTPS 仍有 Windows Schannel `SEC_E_NO_CREDENTIALS`，GitHub CLI token 仍顯示失效。本次只用公開 GitHub API 讀取與保存，未進行 authenticated Git transport、commit 或 push。
+- 本次保留的同步前檔案與新增工具仍屬本機工作資料，尚未提交到 GitHub。
+
+### 本次新增的規則與回寫狀態
+
+- 已將「公開 `/admin/` 修改只會寫入 GitHub，不會自動更新桌機或 Word」與「遠端時間較新時先抓取並逐篇核對，再回存本機」寫入專案 `agent.md`。
+- 使用者偏好已記錄：公開 Blog 的少量人工修改要以公開版本為準，保存到本機 Word 與 source，並維持網站未發布、未 commit、未 push 的狀態。
+- 本次未改寫通用 skill，已修正專案內 QA 腳本並完成代表性執行驗證。
+
+## 2026-09-01 第八章使用者審閱回修與第九章格式同步
+
+### 任務
+
+- 使用者正在審核第八章，提供多處明確文字修正，並指出第八章、第九章「省時版本」格式不符合偏好；要求修改後直接覆蓋舊 Word 檔。
+
+### 已完成
+
+- 第八章 Word 與同名 Markdown 已同步回修。標題移除「生活判讀」尾字；礦物質分類另設小標題；依使用者指定修正限水、尿液、電解質、食鹽、鈣磷鎂、血鈣、缺鐵、茶／乳品、鈣來源、營養師判讀與安全說明。
+- 第八章「省時版本」改成兩段短文，第九章同樣改成兩段短文；第九章同源 HTML、JSON wordCount、Markdown 與 Word 已重建同步。兩章均保留待人工審閱，沒有標記為通過或發布。
+- 第八章正文統計更新為 8,156 字元、去除空白後 7,584 字元；第九章為 5,482 字元、145 個空白分隔詞。
+- 新增／修正既有 SEO 工作資料夾內的 Word 回修與 QA 腳本，並把使用者確認的風格規則回寫專案 `agent.md`；未修改全域 skill。
+
+### 驗證
+
+- `qa_chapter8_word.py` 通過：173 段落、8 張表、43 個標題、21 個外部連結、表格 9360 DXA、重複表頭與 `w:cantSplit` 均通過。
+- `qa_chapter9_word.py` 通過：112 段落、7 張表、7 個外部連結，且省時版本為兩段短文、沒有舊表格。
+- 使用者回修專用 QA 通過；第八、九章均完成首／中／末段抽查，Markdown、Word 與第九章 HTML／JSON 的省時版本格式一致。
+- DOCX ZIP 與文字結構完整，沒有發現使用者列出的舊句型殘留。收尾重跑 Git `diff --check` 通過。
+
+### 錯誤與限制
+
+- 第八章第一次重跑舊 QA 時因 QA 腳本仍要求「省時版本」H2 後接表格而失敗；已依使用者新格式更新 QA 規則，重跑通過。
+- 第八章 QA 的禁用詞清單原本包含使用者指定的新句型「不是只靠少吃食鹽、控制食鹽而已」，已移除該單字級衝突，保留其餘禁用詞檢查。
+- 文件渲染因本機沒有 LibreOffice／`soffice.exe`（WinError 2）而無法產生 PDF／PNG，未宣稱完成逐頁畫面 QA。Word 結構 QA 通過不代表視覺 QA 通過。
+
+### 尚未完成與 Git 狀態
+
+- 第八章仍待使用者人工審閱，第九章仍為待審稿；沒有修改 `blog/posts.json`、網站程式、sitemap、`llms.txt`、公開頁或 GitHub 遠端內容，沒有 commit 或 push。
+- 工作樹原有其他修改與未追蹤資料均保留；本次新增／修改的 SEO 檔案仍在本機工作樹，Git `main` 與 `origin/main` 未因本輪提交而改變。
+
+## 2026-09-01 第八章使用者偏好學習、格式同步與公開發布
+
+### 任務
+
+- 使用者提供第八章 Word 的直接修改結果，要求以 Word 內容學習寫作偏好、修正「巨量礦物質」用語、將第九章之後的文章性質／省時版本統一為新格式，並把第八章以今日日期發布至 GitHub，且補上文章分類。
+
+### 已完成
+
+- 以現行第八章 Word 為 canonical，保留使用者已修改的句子與段落，不用舊 Markdown 覆蓋 Word；只把殘留的「主要礦物質」改為「巨量礦物質」，並同步同名 Markdown、發布 HTML／JSON 與發布 manifest。
+- 已把使用者偏好記錄至 `C:\Users\cygnu\.codex\memories\extensions\ad_hoc\notes\2026-09-01-kat-chang-seo-review-style.md`，並回寫專案 `agent.md`：標題採精簡且不誇大；`文章性質：` 後直接接兩段省時版本；第一段放核心問題，第二段合併生活判讀與閱讀路線；礦物質分類使用「巨量礦物質／微量礦物質」並另設標題；安全警語需說明原因、邊界與處理方式。
+- 第九章已依新格式重建同名 Word／Markdown／同源 HTML／JSON，維持待審稿，沒有因本輪格式同步而視為通過或發布。
+- 第八章已發布為 `2026-09-01-how-much-water-electrolytes-calcium-iron-bone-health`，日期為 `2026-09-01`，分類為「書籍連載與營養知識」，`showOnHome=false`。發布前重新讀取遠端 `main`，只新增目標文章，保留既有 11 篇文章與 4 篇首頁精選。
+- GitHub 遠端提交證據：`cc88b0f5ec1c5c6ff14cab3563249f9d6099fe2f`（`blog/posts.json`）、`e8de4c82a60d30627a52cb756a54c022674c50f0`（`sitemap.xml`）、`51b640e950fbfa4823fe8951cff59f86001d955b`（`sitemap.html`）；完成後遠端 `main` HEAD 為 `51b640e950fbfa4823fe8951cff59f86001d955b`。
+
+### 驗證
+
+- 第八章 Word QA 通過：169 段落、8 張表、43 個標題、32 個外部連結；正文 7,037 字元，去除空白後 6,762 字元；9360 DXA、重複表頭、`w:cantSplit`、ZIP 完整性通過。
+- 第九章 Word QA、Markdown／研究草稿 QA 與使用者回修首／中／末段抽查通過；第九章 111 段落、7 張表、7 個外部連結。
+- 已用 LibreOffice Portable 渲染第八章 17 頁、第九章 14 頁 PDF／PNG，抽查前頁未見裁切或重疊；尚未完成全部頁面逐頁人工視覺審閱。
+- 遠端 GitHub API 回查目標文章正文無「主要礦物質」、有「巨量礦物質」、FAQ 5 題與正文表格 7 張。文章沒有專屬 `image` 欄位，因此未捏造封面圖。
+- GitHub Pages 公開文章頁、Blog 列表、根目錄首頁、XML sitemap、HTML sitemap 均 HTTP 200。瀏覽器 DOM 確認文章頁日期、分類、作者、標題、正文、表格與 FAQ；Blog 列表顯示 12 篇；根目錄首頁仍為原 4 篇精選且沒有第八章。
+- `git diff --check` 通過。專案本機仍保留既有修改與未追蹤檔案，沒有做本地 commit 或 push；本輪的 GitHub 遠端寫入由已連線的 GitHub 內容更新完成。
+
+### 尚未完成與風險
+
+- 第八章雖依使用者明確要求發布，但文件中的「待審稿」性質未被改成已通過；第九章仍待人工審閱。
+- 本機 `blog/posts.json`、`sitemap.xml`、`sitemap.html` 已加入第八章，但本機原先即少於遠端的 3 篇舊文章未擅自補回，故本機非目標內容與遠端不完全同步，已保留此限制供後續人工決定。
+- 第八章沒有文章專屬封面圖；遠端文章沒有 `image` 欄位，網站畫面未被捏造圖片替代。
+- Search Console 尚未取得網站資源權限，本輪沒有曝光、點擊、CTR、平均排名、熱門查詢或熱門頁面數據。
+
+## 2026-09-01 第八章站外來源連結回修
+
+### 問題
+
+- 使用者指出正文中的「國民健康署：清涼消暑，聰明喝水」沒有連到站外來源。查核後確認 Word 內已有正確的 `HYPERLINK` 欄位，網址為 `https://www.hpa.gov.tw/Pages/Detail.aspx?nodeid=4306&pid=14493`；問題在於原轉換器只處理一般 Word 超連結，沒有處理欄位型超連結。
+
+### 已完成
+
+- 修正 Word→Markdown／HTML 的連結解析，保留一般 `w:hyperlink` 與 Word `HYPERLINK` 欄位型連結。
+- 以人工修正版 Word 重新同步第八章同名 Markdown、發布 HTML／JSON、manifest 與本機 `blog/posts.json` 目標文章；第八章 Word 本身沒有被改寫。
+- 重新讀取遠端 `main`，只更新第八章正文，未改動其他文章、`showOnHome` 或 sitemap。
+- GitHub 提交：`9c0da9e2a80752d5549db5f2b6d8a01f7af18724`；內容 blob SHA：`5c29ad96074c3e8d990274785f843947cc111f51`。
+
+### 驗證
+
+- 第八章公開正文外部連結由 1 個增為 10 個；指定的「清涼消暑，聰明喝水」已成為可點擊連結。
+- 公開文章 DOM 核對通過：指定連結文字與網址正確，文章仍顯示原日期、分類、兩段省時版本與「巨量礦物質」。
+- 遠端仍為 12 篇文章、4 篇首頁精選，第八章 `showOnHome=false`。
+- 第八章 Word QA 與使用者回修首／中／末段抽查通過。
+
+## 2026-09-01 第八章站外連結完整稽核與跨代理收工規則
+
+### 任務
+
+- 使用者要求再檢查第八章是否還有其他站外連結遺漏，並要求把本次修改、錯誤、偏好與防呆完整記錄，供 Codex 與 Antigravity 後續共用。
+
+### 已完成
+
+- 以人工修正版 Word 為唯一正文來源，分開稽核 Word 正文、發布 HTML／JSON、本機 `blog/posts.json` 與公開頁面 DOM。
+- Word 正文有 10 個獨立站外來源連結；發布 HTML、發布 JSON、本機目標文章與公開正文均為同一組 10 個，沒有遺漏或多出。
+- 公開頁面整頁另有「聯絡」與「官方 Line」2 個網站功能連結；Word SEO／研究來源區共有 13 個獨立網址，其中 WHO 飲用水指引、NIH ODS Iodine、NIH ODS 礦物質索引 3 個只在來源說明區，未進入公開正文，已明確區分為「未發布區段」而非斷線。
+- 這次沒有再修改文章內容、Word、Markdown、JSON 或 GitHub 遠端資料；只完成讀取與比對，保留使用者原有工作樹修改。
+
+### 驗證
+
+- 重新開啟帶快取破除參數的公開文章頁，正文 DOM 外部來源連結為 10 個，指定「國民健康署：清涼消暑，聰明喝水」文字與網址均正確，沒有缺少 `href` 的國民健康署來源標籤。
+- 比對結果：Word 正文 → 發布 HTML：缺少 0；Word 正文 → 發布 JSON：缺少 0；Word 正文 → 本機 `blog/posts.json`：缺少 0。
+- 文章標題仍為「每天喝多少水才夠？從電解質、鈣鐵到骨質保養」，日期與分類未被稽核流程改動。
+
+### 錯誤與根因、修正
+
+- 原始問題：Word 中的站外來源使用 Word `HYPERLINK` 欄位，舊轉換器只解析一般 `w:hyperlink`，因此公開正文保留了來源文字卻遺失可點擊網址。
+- 修正：Word→Markdown／HTML 轉換同時解析一般 `w:hyperlink` 與欄位型 `HYPERLINK`；同步後再以遠端資料與公開 DOM 驗證連結數量與目標網址。
+- 稽核命令第一次輸出中文時遇到 Windows `cp1252` `UnicodeEncodeError`；原因是診斷腳本未設定 UTF-8 標準輸出，已補上 `sys.stdout.reconfigure(encoding='utf-8')` 後重新執行通過。
+
+### 新學到的使用者偏好與下次防呆
+
+- Word 是人工審閱主檔；不得用舊 Markdown、舊 HTML 或舊 JSON 覆蓋使用者修改。下游檔案只能由最新 Word 同源重建。
+- 標題採精簡、不誇大的寫法；使用者刪除的標題尾語不得自行補回。`文章性質：` 後直接接兩段短格式的 `省時版本：`；後續章節沿用此格式。
+- 固定使用「巨量礦物質／微量礦物質」，礦物質需另設清楚段落；容易誤解的衛教句要解釋原因、適用邊界與處理方式。
+- 來源標籤不能只保留顯示文字；只要屬於公開正文的外部來源，就必須是可點擊的站外連結。稽核時要把正文連結與 SEO／研究來源區連結分開統計，不能把未公開的來源區連結誤報成正文遺漏。
+- 每次發布或修正後，固定比對 Word、HTML、JSON、公開 DOM 的外部連結集合，並另核對網站全域功能連結，避免把兩者混算。
+
+### 規則回寫與狀態
+
+- 已補強本專案 `agent.md` 的站外來源稽核規則；本次共用規則同步寫入 Codex 全域 `AGENTS.md`、Antigravity 全域 `AGENTS.md`，並另存 Codex／Antigravity 共用記憶更新紀錄。
+- 第八章仍保留文章內「待審稿」性質；本次只是連結稽核，沒有自行判定通過。未完成項目是：若使用者希望 WHO、Iodine、礦物質索引 3 個來源也出現在公開正文，需另行指定放置段落。
+- 本機 Git 工作樹仍有既有修改與未追蹤檔案，未 commit；本次沒有新增遠端寫入。
+- 收工遠端核對：`main:blog/posts.json` blob SHA `5c29ad96074c3e8d990274785f843947cc111f51`；12 篇文章、目標文章日期 `2026-09-01`、分類「書籍連載與營養知識」、`showOnHome=false`、首頁精選 4 篇，目標正文站外連結 10 個。
+- 收工驗證：第八章 Word QA 重新通過；Codex／Antigravity 新增共用規則在換行正規化後 SHA-256 均為 `ab7a3b9eb5502ac84a470d17777f2867d3b020fb11ca3111d219ed555199a04e`。
+
+## 2026-09-01 第八章公開狀態與來源區段說明
+
+### 使用者追問與查核結果
+
+- 使用者指出第八章既然已送出 GitHub，公開正文仍出現「本篇為待審稿」不合理，並追問 WHO、NIH ODS Iodine、NIH ODS 礦物質索引為何未出現在公開正文。
+- 重新查核遠端 `main:blog/posts.json`：目標文章確實已存在，日期為 `2026-09-01`、分類為「書籍連載與營養知識」、`showOnHome=false`；公開正文仍含 1 次「本篇為待審稿」，正文站外來源仍為 10 個。
+- Word 中的「文章性質」與 SEO／研究來源資料屬於審閱資料；發布建置器只取 Word 的「正文」區段。WHO 飲用水、NIH ODS Iodine、NIH ODS 礦物質索引 3 個網址確實在 Word 來源區，但不在 Word 正文，因此不是連結失效，而是沒有被放入公開內容。
+
+### 錯誤根因與使用者偏好釐清
+
+- 根因：先前把「允許發布到 GitHub」與「不要自行判定審閱通過」混在同一流程；為了保留內部審閱狀態，未把「待審稿」標籤從公開正文隔離，造成已發布文章看起來仍是草稿。這是流程設計錯誤，不是 GitHub 沒有發布。
+- 本次明確偏好：文章既然送出到 GitHub，公開正文不應保留「本篇為待審稿」等內部審閱狀態；公開版狀態與 Word 內部審閱標籤必須在發布前分開處理並核對。
+- 本次明確偏好：Word SEO／研究來源區的連結不會自動等於公開正文連結；若要讓 WHO、Iodine、礦物質索引等來源出現在文章，必須先放入正文適當段落，再重新同步與發布，不能只因 Word 有網址就宣稱公開頁已連接。
+
+### 尚未修改與下次防呆
+
+- 本次只完成查核與紀錄，尚未改動 Word、Markdown、HTML、JSON 或 GitHub，因為移除「待審稿」會涉及 Word 人工審閱主檔與公開版本是否同步的明確決定。
+- 下次發布前增加硬性檢查：公開正文若含「待審稿」「待確認」等內部狀態字樣，先停止發布並回報；來源連結則分別核對 Word 正文、SEO／研究來源區、發布 HTML／JSON 與公開 DOM。
+
+## 2026-09-01 第八章封面顯示查核
+
+### 使用者問題與證據
+
+- 使用者回報第八章公開文章頁沒有顯示已上傳的封面圖。
+- 重新讀取 GitHub `main` 後，目標文章已保存 `image` 欄位：`images/2026-09-01-how-much-water-electrolytes-calcium-iron-bone-health.png`；遠端 tree 也確認同名圖片檔存在。
+- GitHub 提交紀錄顯示圖片上傳提交 `7a8a944f3adece971ba68b619a02bb1051d56158`，文章資料更新提交 `ae87bfbfcce5951a3589ebc30522e75f87d116b0`。
+- 以全新、帶快取破除參數的公開頁面重新載入，DOM 確認封面 `img.article-cover` 存在、可見且成功載入，原始尺寸為 1408×768。
+
+### 根因與狀態
+
+- 目前證據顯示，先前公開資料在封面同步前沒有 `image` 欄位，網站模板因此不會產生正文封面元素；這不是圖片 CSS 裁切或尺寸不合造成的。
+- 本機工作樹的 `blog/posts.json` 目前仍沒有第八章 `image` 欄位，本機也沒有對應圖片檔；本機與遠端 `main` 已出現差異。這輪沒有用本機舊版本覆蓋遠端，也沒有改寫使用者文章。
+- 截至本次查核，公開頁封面已能正常顯示。若使用者仍看到舊畫面，優先判定為瀏覽器或 GitHub Pages 快取尚未更新，應使用強制重新整理、無痕視窗或加查詢參數重新開啟。
+
+### 下次防呆
+
+- 發布或回修前，必須以遠端 `main` 最新 `blog/posts.json` 與 SHA 為基準，核對目標文章的 `image` 欄位、遠端圖片檔與公開頁 `img.article-cover` 的實際載入狀態；本機缺欄位時不得直接發布本機舊快照。
+
+## 2026-09-01 第八章分類未顯示修正
+
+### 問題與根因
+
+- 使用者指出 Blog 列表第八章日期後沒有顯示文章分類；截圖中維生素篇有「書籍連載與營養知識」，第八章只有日期。
+- 遠端 `blog/posts.json` 的第八章物件缺少 `category` 欄位；列表模板本身已有分類顯示邏輯，並非 CSS 或列表模板失效。
+- 管理頁原本沒有分類輸入欄位，且新增／編輯寫入物件時沒有保存 `category`，因此從管理頁更新文章可能遺失分類。
+
+### 已完成
+
+- 只在遠端 `main:blog/posts.json` 的第八章目標物件補上 `category: "書籍連載與營養知識"`，保留其他文章與目標文章既有欄位；提交 `bdde375f401b6cd5bc57bf02fd898d5af208541f`，更新後內容 blob SHA `2bacecb540ecce4f2219eccf033abb48c31c3623`。
+- 管理頁新增必填「文章分類」欄位，編輯既有文章時帶回原分類，發布／更新與預覽均保存／顯示分類；管理腳本快取版本更新為 `20260901-category`。遠端提交：`6c6fb87`（`admin/index.html`）、`24a2f178526e728a8b854c16e77ebea4f7841200`（`admin/admin.js`）。
+- 本機同步保留相同管理頁修正；沒有用本機舊版 `blog/posts.json` 覆蓋遠端。
+
+### 驗證
+
+- 公開 Blog 列表 DOM：第八章顯示 `2026-09-01｜書籍連載與營養知識`。
+- 公開文章頁 DOM：顯示 `2026-09-01｜分類：書籍連載與營養知識｜作者：張雁雲營養師`；封面仍成功載入，naturalWidth 為 1408。
+- 公開管理頁 DOM：`#category` 存在、為必填，載入 `admin.js?v=20260901-category`。
+
+## 2026-09-01 收工：第八章分類顯示修正與跨代理規則同步
+
+### 今日完成
+
+- 修正第八章公開 Blog 列表日期後沒有分類的問題；遠端 `main:blog/posts.json` 目標文章已補上「書籍連載與營養知識」。
+- 修正 `/admin/` 管理頁，加入必填文章分類欄位；編輯既有文章會帶回原分類，發布、更新與預覽都會保存分類。
+- 完成公開 Blog 列表、文章頁、封面圖片與管理頁的快取後 DOM 驗證。
+
+### 錯誤與根因
+
+- 公開列表模板原本已有分類顯示邏輯，但遠端第八章資料缺少 `category` 欄位，所以日期後只顯示日期。
+- 管理頁原本沒有分類欄位，且發布時重建文章物件未保存 `category`；日後從管理頁編輯文章可能再次遺失分類。
+- 本機工作樹仍是舊的第八章資料快照，沒有對應遠端封面欄位／圖片檔；若直接用本機舊快照發布，可能覆蓋遠端較新的內容。
+
+### 修正與驗證
+
+- 遠端文章資料提交：`bdde375f401b6cd5bc57bf02fd898d5af208541f`；最新內容 blob SHA：`2bacecb540ecce4f2219eccf033abb48c31c3623`。
+- 管理頁遠端提交：`6c6fb87`（HTML）、`24a2f178526e728a8b854c16e77ebea4f7841200`（JavaScript）。
+- 公開 Blog 列表顯示 `2026-09-01｜書籍連載與營養知識`；文章頁顯示分類與作者；封面成功載入，naturalWidth 為 1408。
+- 公開管理頁確認 `#category` 存在、為必填，腳本版本為 `admin.js?v=20260901-category`。
+- 本機 `admin.js` 通過 `node --check`；本次相關檔案通過 `git diff --check`。
+- 收工時另執行整個工作樹的 `git diff --check`，發現既有 `sitemap.html` 第 102–103 行及 `sitemap.xml` 第 24–29 行有尾端空白，整體返回 2；這些不是本次分類修正所改動，未自行清理，避免覆蓋既有 sitemap 修改。
+
+### 尚未完成與風險
+
+- 本機 Git 工作樹仍有本輪前既有的文章、Word、Markdown、sitemap、研究腳本與第九章檔案修改；沒有擅自整批提交或清理。
+- 本機 `blog/posts.json` 與遠端 `main` 尚未完全同步，尤其第八章封面欄位與圖片仍要由後續安全同步流程處理；本輪未用本機舊快照覆蓋遠端。
+- Search Console 本輪未取得資源權限，沒有新增曝光、點擊、CTR、排名、查詢或索引數據；不能以公開頁 DOM 代替 Search Console 數據。
+
+### 規則、偏好與同步狀態
+
+- 使用者明確要求：每次收工都要記錄修改、錯誤、根因、修正、驗證、風險、未完成事項與個人偏好，並同步 Codex 與 Antigravity，減少重複溝通。
+- 使用者偏好：文章分類要實際顯示在日期後方；管理頁不能因新增／編輯而遺失分類；公開資料、封面、列表 DOM、文章 DOM 與本機 Git 狀態要分開核對。
+- 已回寫專案 `agent.md`、Codex 全域 `AGENTS.md`、Antigravity 全域 `AGENTS.md`，並建立 Codex 記憶更新筆記；三份全域／專案規則的新增內容一致。
+
+### Git 與公開狀態
+
+- 遠端公開修正已完成並可由公開頁核對；本機 Git 保留 dirty worktree，未 commit、未以本機工作樹推送，避免混入未授權或既有修改。
+- 收工狀態分開記錄：公開分類與管理頁修正已完成；本機完整同步與 Search Console 數據未完成／未取得。

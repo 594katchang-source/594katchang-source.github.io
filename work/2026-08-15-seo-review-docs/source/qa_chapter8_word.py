@@ -23,7 +23,7 @@ FORBIDDEN = [
     "顛覆性", "革命性", "劃時代", "前所未有", "意義重大", "具有重要意義",
     "影響深遠", "不可忽視", "舉足輕重", "令人印象深刻", "發人深省", "耐人尋味",
     "引人入勝", "耳目一新", "極具潛力", "極具前景", "極具發展空間", "不僅",
-    "不只", "不是", "而且", "而是", "從以上可以看出", "接下來", "我們將探討",
+    "不只", "而且", "而是", "從以上可以看出", "接下來", "我們將探討",
     "讓我們一起來看看", "這篇文章將帶你了解", "透過上述介紹", "相信你已經",
     "無論你是", "還是", "如果你也有同樣的困惑", "Controversy", "——", "；",
 ]
@@ -56,20 +56,21 @@ body_children = list(body)
 quick_nodes = [
     node
     for node in body_children
-    if node.tag == f"{{{NS['w']}}}p" and xml_paragraph_text(node) == "省時版本："
+    if node.tag == f"{{{NS['w']}}}p" and xml_paragraph_text(node).startswith("省時版本：")
 ]
-question_nodes = [
-    node
-    for node in body_children
-    if node.tag == f"{{{NS['w']}}}p" and xml_paragraph_text(node).startswith("本章的四個生活問題很適合拿來自我檢查：")
-]
-if len(quick_nodes) != 1 or len(question_nodes) != 2:
-    fail(f"unexpected quick-version/question count: quick={len(quick_nodes)} questions={len(question_nodes)}")
-if body_children.index(quick_nodes[0]) >= body_children.index(question_nodes[-1]):
-    fail("quick-version block is not before the body question paragraph")
+if len(quick_nodes) != 1:
+    fail(f"unexpected quick-version count: quick={len(quick_nodes)}")
 quick_position = body_children.index(quick_nodes[0])
-if quick_position + 1 >= len(body_children) or body_children[quick_position + 1].tag != f"{{{NS['w']}}}tbl":
-    fail("quick-version heading is not followed by its table")
+if quick_position + 1 >= len(body_children) or body_children[quick_position + 1].tag != f"{{{NS['w']}}}p":
+    fail("quick-version summary is not followed by a prose roadmap paragraph")
+if not xml_paragraph_text(body_children[quick_position + 1]).startswith("水分是日常維持循環、體溫、排便與身體功能的基礎"):
+    fail("quick-version practical paragraph is missing")
+if not any(
+    "文章性質：" in xml_paragraph_text(node)
+    for node in body_children[:quick_position]
+    if node.tag == f"{{{NS['w']}}}p"
+):
+    fail("article nature paragraph is missing before quick version")
 
 tables = root.findall(".//w:tbl", NS)
 if len(tables) != len(document.tables):
@@ -101,7 +102,8 @@ required = [
     "目標搜尋字詞、相關搜尋字詞與搜尋意圖",
     "文章摘要與適合搜尋結果顯示的開場",
     "正文",
-    "省時版本：",
+    "省時版本：很多人把喝水簡化：",
+    "礦物質怎麼分類？巨量礦物質與微量礦物質",
     "Kat Chang 營養師的判讀",
     "FAQ：章節主題常見問題",
     "文章結構化資料、作者、更新日期與 canonical 建議",
@@ -115,11 +117,13 @@ if missing:
 source_text = MARKDOWN.read_text(encoding="utf-8")
 if "第八章" not in source_text or "水與礦物質" not in source_text:
     fail("Markdown source does not identify Chapter 8")
-if "正文實際字數：8,110 字元" not in source_text:
+if "正文實際字數：7,037 字元" not in source_text:
     fail("Markdown source does not contain the verified body count")
-markdown_quick_position = source_text.index("## 省時版本：")
-if source_text.find("本章的四個生活問題很適合拿來自我檢查：", markdown_quick_position) < markdown_quick_position:
-    fail("Markdown quick-version block is not before the body question paragraph")
+markdown_quick_position = source_text.index("省時版本：")
+if source_text.find("從了解水分平衡與脫水開始", markdown_quick_position) < markdown_quick_position:
+    fail("Markdown quick-version roadmap paragraph is missing")
+if "本章的四個生活問題很適合拿來自我檢查：" not in source_text:
+    fail("Markdown source is missing the article question framing")
 
 links = sum(1 for rel in document.part.rels.values() if rel.reltype.endswith("/hyperlink"))
 headings = sum(1 for p in document.paragraphs if p.style.name.startswith("Heading"))
@@ -131,8 +135,8 @@ result = {
     "tables": len(document.tables),
     "headings": headings,
     "external_hyperlinks": links,
-    "body_characters": 8110,
-    "body_characters_without_whitespace": 7538,
+    "body_characters": 7037,
+    "body_characters_without_whitespace": 6762,
     "table_width_dxa": 9360,
     "repeating_headers": True,
     "cant_split": True,

@@ -1,0 +1,61 @@
+{
+  "reviewTitle": "第九章待審 SEO 草稿",
+  "author": "Kat Chang 凱特營養師，專長高齡營養、疾病營養、精準醫學與健康促進。",
+  "seoTitle": "減重一直復胖怎麼辦？從能量平衡、身體組成到吃得穩的健康策略",
+  "targetTerms": ["能量平衡", "減重復胖", "身體組成", "BMI 怎麼看", "飲食失調"],
+  "relatedTerms": ["基礎代謝", "飢餓與食慾", "內臟脂肪", "間歇性斷食", "健康減重", "體重循環", "暴食", "厭食症", "體重污名"],
+  "searchIntent": "資訊型與健康決策前期。讀者想知道體重為何反覆變化、BMI 與腰圍如何解讀、怎麼安排可持續的飲食與活動，也想辨認飲食失調警訊與求助時機。",
+  "summary": "能量平衡能幫助理解體重變化，卻不能取代身體組成、腰圍、肌力、檢驗、睡眠與飲食行為的共同判讀。本文以書籍第九章為主軸，整理復胖原因、飢餓與食慾、斷食風險、活動安排、醫療選項與飲食失調求助線索。",
+  "opening": "減重後復胖，不一定代表意志力差，也不能只用基礎代謝一個詞解釋。體重短期變化可能包含水分、肝醣、腸道內容物、肌肉與脂肪。先看體重趨勢，再把腰圍、身體組成、睡眠、藥物、疾病與生活條件放進判讀，才比較接近真正的健康問題。",
+  "articleTitle": "減重一直復胖怎麼辦？從能量平衡、身體組成到吃得穩的健康策略",
+  "bodyHtmlFile": "chapter-09-energy-balance-body.html",
+  "seoDescription": "減重一直復胖怎麼辦？凱特營養師從能量平衡、BMI、腰圍、身體組成與飢餓訊號出發，整理可執行的飲食活動策略、斷食風險與飲食失調求助警訊。",
+  "category": "營養與健康、書籍連載、熟齡營養",
+  "tags": ["能量平衡", "健康減重", "身體組成", "BMI", "腰圍", "飲食失調", "高齡營養", "復胖"],
+  "slug": "energy-balance-body-composition-healthy-weight-eating-disorders",
+  "canonical": "待人工確認正式文章網址",
+  "internalLinks": [
+    ["身體怎麼把食物變成能量？延伸閱讀", "https://594katchang-source.github.io/blog/post.html?id=2026-08-16-remarkable-body-nutrition-guide"],
+    ["食物選擇與健康飲食原則", "https://594katchang-source.github.io/blog/post.html?id=2026-08-14-food-choices-human-health-guide"],
+    ["碳水化合物、膳食纖維與添加糖", "https://594katchang-source.github.io/blog/post.html?id=2026-08-17-carbohydrates-food-guide"],
+    ["脂質與脂肪酸的食物選擇", "https://594katchang-source.github.io/blog/post.html?id=2026-08-20-lipids-fatty-acids-guide"],
+    ["蛋白質與胺基酸的食物品質", "https://594katchang-source.github.io/blog/post.html?id=2026-08-22-proteins-amino-acids-book-notes"],
+    ["維生素與補充品風險", "https://594katchang-source.github.io/blog/post.html?id=2026-08-25-vitamins-book-notes"],
+    ["作者專業簡介", "https://594katchang-source.github.io/about.html"]
+  ],
+  "faq": [
+    "Q1：減重一直復胖，是基礎代謝壞掉了嗎？",
+    "Q2：BMI 正常就代表身體健康嗎？",
+    "Q3：間歇性斷食一定比少量多餐好嗎？",
+    "Q4：怎麼知道自己可能有飲食失調？",
+    "Q5：想增加體重的人也需要看能量平衡嗎？"
+  ],
+  "faqSchema": "人工審閱後，若公開頁面實際呈現的問答與本文一致，可加入 FAQPage JSON-LD。問答內容需與訪客看得到的文字相同，不能只在結構化資料加入頁面未呈現的醫療承諾。",
+  "articleSchema": ["使用 Article 或 BlogPosting", "headline 使用 H1", "description 使用 SEO 描述", "author 指向 Kat Chang 凱特營養師與作者介紹頁", "datePublished 由正式發布日填入", "dateModified 以實際更新日填入", "mainEntityOfPage 指向正式文章網址", "image 指向正式封面圖", "isPartOf 指向書籍連載導覽頁"],
+  "reviewDate": "2026-08-29",
+  "sources": [
+    ["書籍原始 PDF與第九章擷取文字", "D:/@Codex/書籍/2026-07-29-Nutrition-Concepts-Controversies-17e/source/Nutrition Concepts & Controversies 營養學概念與爭論(2027).pdf，PDF 360 至 401 頁。D:/@Codex/書籍/2026-07-29-Nutrition-Concepts-Controversies-17e/process/chapter-09-source.txt", "支持能量平衡、身體組成、食慾、飲食行為、醫療選項與 Controversy 9 的章節主線，台灣數值與現行指引另以官方來源核對"],
+    ["NIDDK：Am I at a Healthy Weight?", "https://www.niddk.nih.gov/health-information/weight-management/adult-overweight-obesity/am-i-healthy-weight", "支持 BMI 無法直接測量體脂、腰圍的補充判讀、亞洲族群腹部脂肪與身體組成限制"],
+    ["NIDDK：Factors Affecting Weight & Health", "https://www.niddk.nih.gov/health-information/weight-management/adult-overweight-obesity/factors-affecting-weight-health", "支持睡眠、活動、環境、藥物、疾病、家族與基因等因素會影響體重與健康"],
+    ["國民健康署：成人健康體位與腰圍資料", "https://health99.hpa.gov.tw/storage/pdf/materials/22261.pdf", "支持台灣成人 BMI 與腰圍常用衛教切點，文章保留篩檢用途與個別醫療判讀限制"],
+    ["WHO：Physical activity", "https://www.who.int/initiatives/behealthy/physical-activity", "支持成人有氧活動、肌力活動與高齡者平衡活動的建議方向"],
+    ["NIDDK：Choosing a Safe & Successful Weight-loss Program", "https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program", "支持安全減重方案需要配合健康狀況、藥物與可長期維持的行動"],
+    ["NIMH：Eating Disorders", "https://www.nimh.nih.gov/health/publications/eating-disorders", "支持飲食失調可能發生於不同年齡、性別、體重與體型，治療可包含心理、醫療、營養與部分藥物支持"],
+    ["PubMed：A systematic review of weight stigma and disordered eating cognitions and behaviors", "https://pubmed.ncbi.nlm.nih.gov/38278088/", "支持體重污名與飲食失調想法及行為的關聯，作為衛教語言與求助段落的研究背景"],
+    ["NIDDK：Prescription medications to treat overweight & obesity", "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity", "支持處方藥需由醫療人員依個人狀況評估，文章未把美國門檻當成台灣固定處方"],
+    ["NIDDK：Bariatric surgery definition and facts", "https://www.niddk.nih.gov/health-information/weight-management/bariatric-surgery/definition-facts", "支持減重手術的效益與長期營養、醫療追蹤需求" ]
+  ],
+  "wordCount": {"characters": 5482, "words": 145},
+  "originalClaims": [
+    "把能量平衡放進台灣讀者可用的判讀流程，並用體重、腰圍、身體組成、肌力、檢驗與生活品質拆開單一數字的限制。",
+    "把復胖、斷食、飢餓、睡眠、藥物、環境與體重污名放在同一篇文章，連到實際餐桌、工作與高齡照顧情境。",
+    "保留書籍對飲食失調的警示，加入體重正常也可能需要幫忙、運動員與男性可能被漏掉，以及具體求助與急性警訊。"
+  ],
+  "pending": [
+    "正式文章網址、發布日期、封面圖與作者頁欄位仍待人工確認。",
+    "台灣正式發布前，需再由人工核對當年度國民健康署體位、腰圍、身體活動與飲食失調轉介資源。",
+    "醫療選項段落只提供決策方向，不能取代醫師對處方藥、手術、疾病與用藥的個別評估。",
+    "第八章仍待人工審核，本次依使用者明確指示建立第九章待審稿，未將第八章標記為完成。",
+    "目前無法執行 LibreOffice PDF/PNG 轉頁與逐頁畫面檢視，Word 交付前僅能完成結構 QA。"
+  ]
+}

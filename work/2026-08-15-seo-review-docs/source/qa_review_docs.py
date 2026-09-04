@@ -1,10 +1,13 @@
 import json
 import re
+import sys
 from pathlib import Path
 from zipfile import ZipFile
 from xml.etree import ElementTree as ET
 
 from docx import Document
+
+sys.stdout.reconfigure(encoding='utf-8')
 
 
 BASE = Path(__file__).resolve().parent.parent
