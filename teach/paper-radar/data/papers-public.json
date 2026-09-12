@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-12T13:35:52.317Z",
+  "generatedAt": "2026-09-12T14:23:57.336Z",
   "papers": [
     {
       "id": "doi:10.3390/nu18132198:review",
@@ -64580,6 +64580,162 @@
         }
       ],
       "completedAt": "2026-09-12T12:30:35.976Z"
+    },
+    {
+      "id": "doi:10.1016/j.ajcnut.2026.101416:review",
+      "paperId": "doi:10.1016/j.ajcnut.2026.101416",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "A self-selected vegan diet reduces skeletal muscle mass in healthy older adults: a randomized controlled trial.",
+      "authors": "Domić J, Grootswagers P, Pinckaers P, Melchers M, van Loon L, de Groot L",
+      "journal": "Other nutrition journals (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.ajcnut.2026.101416",
+      "abstract": "Adopting a plant-based diet may compromise protein intake and impair skeletal muscle mass in older adults. To compare the impact of a 12-wk self-selected vegan diet with that of an omnivorous diet and a self-selected vegan diet with resistance exercise (RE) on skeletal muscle mass, strength, and muscle protein synthesis (MPS) rates in older adults. This randomized controlled trial included 3 parallel study arms in which 72 healthy older adults aged ≥65 y were randomly assigned to follow 1) a self-selected vegan diet (VEG), 2) their habitual omnivorous diet (OMNI), or 3) a self-selected vegan diet with RE (VEG-RE). At baseline and after 12 wk, thigh muscle volume, thigh muscle fat infiltration, and body fat distribution were assessed using magnetic resonance imaging, appendicular lean mass with dual x-ray absorptiometry, and muscle strength via Biodex. MPS rates were assessed during the first 10 d using a deuterium oxide protocol. Other outcome measures were body mass, dietary intake, and physical activity. Linear mixed models were applied to test differences between VEG and the other groups. Results are presented as estimated marginal mean or change in estimated marginal mean [95% confidence interval (CI)]. VEG reduced protein intake with ‒27.7 g/d (95% CI: ‒37.3, ‒18.2 g/d), ‒22.0 g/d (95% CI: ‒31.7, ‒12.4 g/d), and ‒19.3 g/d (95% CI: ‒29.2, ‒9.37 g/d) in weeks 1, 6, and 12 (all P 0.05), but different from OMNI (P < 0.0001), in which protein intake did not change. Thigh muscle volume and appendicular lean mass significantly reduced in VEG [‒0.61 L (95% CI: ‒0.72, ‒0.50 L); ‒1.15 kg (95% CI: ‒1.46, ‒0.85 kg)] compared to OMNI [‒0.01 L (95% CI: ‒0.11, 0.09 L); +0.05 kg (95% CI: ‒0.23, 0.32 kg); both P < 0.0001] and VEG-RE [‒0.35 L (95% CI: ‒0.47, ‒0.24 L), P = 0.0038; ‒0.62 kg (95% CI: ‒0.93, ‒0.32 kg), P = 0.0033]. MPS was lower in VEG [1.09 %/d (95% CI: 1.01, 1.17 %/d)] compared with OMNI [1.27 %/d (95% CI: 1.18, 1.35 %/d); P = 0.0073] and VEG-RE [1.24 %/d (95% CI: 1.16, 1.33 %/d); P = 0.0246]. A self-selected vegan diet reduces protein intake, skeletal muscle mass, and MPS in older adults. The negative impact of a vegan diet on skeletal muscle mass can be mitigated by RE. This trial was registered at clinicaltrials.gov as NCT05809466. (https://clinicaltrials.gov/study/NCT05809466).",
+      "legalFullTextUrl": "https://doi.org/10.1016/j.ajcnut.2026.101416",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42680254/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "design:randomized controlled",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "自選純素飲食與健康高齡者肌肉量變化的品質評讀",
+      "content": "# 自選純素飲食與健康高齡者肌肉量變化的品質評讀\n\n> [!info] 全文品質評讀\n> **一句話判定**：這是一篇方法與結果相當完整、具有臨床營養價值的三組隨機對照試驗；它可靠地顯示「在本研究的 self-selected、蛋白質下降情境下」高齡者純素飲食伴隨肌肉量與 MPS 下降，阻力運動可部分緩和。它不能證明蛋白質充足、設計良好的所有純素飲食都會造成肌少症。\n\n## 品質快照\n\n| 面向 | 判定 | 全文依據 |\n|---|---|---|\n| 研究問題 | 清楚且臨床重要 | Introduction 與研究假設聚焦高齡者純素飲食、蛋白質、肌肉量、MPS、肌力與脂肪分布。 |\n| 設計 | 良好 | 12 週、三平行組 RCT，VEG、OMNI、VEG-RE；ClinicalTrials.gov NCT05809466。 |\n| 介入 | 生態效度高、控制度較低 | 飲食是 self-selected，能反映真實轉換飲食的後果，但沒有把蛋白質、能量、食物品質控制成等量。 |\n| 結果測量 | 強 | MRI、DEXA、Biodex、D2O 肌肉蛋白合成、3-day food records、accelerometry，包含客觀肌肉與脂肪測量。 |\n| 統計 | 適當但多 outcome | intention-to-treat、linear mixed models、household clustering、性別／年齡調整、Benjamini–Hochberg 與 Bonferroni；多重結果仍使解讀需聚焦預先重要 outcome。 |\n| 依從性 | 尚可 | VEG-RE 平均約出席 21/24 次阻力運動；營養資訊會議出席不完整，但有錄影補充。 |\n| 直接性 | 高但有範圍 | 直接測量健康、非肌少症、休閒活動高齡者；不能直接外推到臨床肌少症、年輕人或蛋白質充分規劃的純素飲食。 |\n\n## 研究問題與方法\n\n研究將 72 位健康、年齡 ≥65 歲的成人隨機分為自選純素飲食 VEG（n=23）、習慣雜食 OMNI（n=26）和自選純素飲食加每週兩次漸進阻力運動 VEG-RE（n=23）。純素兩組不能吃任何動物性食品；三組都接受營養資訊，研究營養師特別說明蛋白質、cobalamin、鈣、鐵和維生素 D。VEG-RE 的訓練包含六種主要肌群動作，下肢四組 10–15 次、上肢三組 15 次，強度從約 50% 漸進至 60–75% 估計 1-RM。\n\n主要測量包括 12 週前後 MRI 大腿肌肉體積與脂肪分布、DEXA appendicular lean mass、Biodex 膝伸展／屈曲肌力；MPS 以 10 日 deuterium oxide protocol、肌肉切片及同位素質譜估計。飲食使用多次 3-day food records，身體活動使用 accelerometer 與日誌。統計使用線性混合模型，按結果調整性別、年齡及 household clustering，次要 outcome 做 Benjamini–Hochberg，多重比較後才做預設 contrasts；以 intention-to-treat 分析。\n\n## 主要結果\n\n### 蛋白質與胺基酸\n\nVEG 蛋白質從習慣期約 77.4 g/day、0.97 g/kg/day，至第 1、6、12 週分別下降約 27.7、22.0、19.3 g/day；第 12 週約低 0.21 g/kg/day。OMNI 蛋白質沒有顯著改變，VEG-RE 的蛋白質下降與 VEG 相近。VEG 除 cysteine 外的必需胺基酸也下降。這證實組間真正不同的不只是飲食標籤，還包括蛋白質總量與胺基酸供應。\n\n### 肌肉體積、瘦體重與 MPS\n\n12 週後 VEG 大腿肌肉體積變化為 −0.61 L，OMNI 約 −0.01 L，VEG-RE −0.35 L；VEG 與 OMNI、VEG-RE 的差異均顯著。VEG appendicular lean mass −1.15 kg，OMNI +0.05 kg，VEG-RE −0.62 kg；VEG-RE 相較 VEG 的下降較少。混合肌肉 FSR 為 VEG 1.09%/day、OMNI 1.27%/day、VEG-RE 1.24%/day；VEG 顯著低於兩個比較組。\n\n### 肌力、脂肪與活動\n\n膝伸展／屈曲肌力的原始 treatment-by-time 訊號在多重比較校正後不再顯著，因此不應把「肌力改善」當成本篇確定結果。VEG 大腿肌內脂肪增加較多；VEG 與 VEG-RE 都降低內臟脂肪，並把肝脂肪分率由約 7.5% 降至約 5%。VEG 久坐時間增加，作者的探索分析未發現久坐變化與大腿肌肉體積變化有顯著相關。\n\n## Risk of Bias\n\n1. **介入無法盲化**：飲食與運動組別明顯，參與者與研究團隊不可能完全盲化；客觀 MRI、DEXA 和同位素方法降低了主觀測量偏差。\n2. **蛋白質是關鍵共變項而非等量控制**：VEG 組實際蛋白質下降，這是研究要觀察的真實風險，但也使本研究無法單獨分離「純素食物來源」和「蛋白質不足」的因果效果。\n3. **能量平衡與自選食物影響**：VEG 體重下降約 2.9 kg、纖維增加約 45%，實際可利用能量可能降低；飲食的熱量、蛋白質密度、胺基酸與產品種類沒有被完全標準化。\n4. **短期與特定族群**：只有 12 週，參與者為健康、非肌少症、休閒活動高齡者，對已有肌少症、失能、疾病或不同年齡層的外推有限。\n5. **阻力運動組仍有蛋白質不足**：VEG-RE 不能回答「蛋白質足夠的純素飲食加阻力運動」是否能完全保住肌肉；它測到的是 self-selected vegan diet 加運動。\n6. **利益衝突與資金需透明解讀**：部分作者有來自乳品、肉品或植物蛋白研究的研究經費／顧問或演講關係，但作者說明相關組織未影響設計、資料、分析或投稿決定；資金為 Regio Deal Foodvalley，聲明未參與研究決策。\n\n## GRADE-style 判斷\n\n原文不是 GRADE 評讀；以下是針對本篇主要臨床問題的保守判斷。\n\n| 問題 | 判定 | 理由 |\n|---|---|---|\n| 在健康高齡者中，self-selected vegan diet 會降低蛋白質攝取 | Moderate | 隨機分組、飲食紀錄方向一致、差異大且 CI 清楚；但飲食自選與紀錄仍有測量限制。 |\n| 在同一情境中，VEG 會降低肌肉體積、appendicular lean mass 與 MPS | Moderate | 隨機對照、客觀 MRI/DEXA/D2O、多個肌肉結果方向一致；主要降級為無法盲化、介入短期及蛋白質／能量共變。 |\n| VEG-RE 可部分緩和肌肉量與 MPS 下降 | Low to moderate | 有 VEG-RE 比較組且阻力運動依從性不低；肌力的多重比較校正後不顯著，且蛋白質仍下降。 |\n| 所有設計良好的純素飲食都會造成高齡肌少症 | Very low | 本研究沒有等蛋白質、等能量的純素對照，不能把 self-selected diet 的結果外推到充分規劃的純素飲食。 |\n\n## 推論漏洞\n\n| 容易做出的推論 | 全文真正支持 | 不能推出 |\n|---|---|---|\n| 純素飲食本身必然造成肌少症 | 自選純素介入伴隨蛋白質／胺基酸下降與肌肉量下降 | 蛋白質充足、能量足夠、食物品質良好的純素飲食一定有同樣結果。 |\n| 阻力運動可以抵消蛋白質不足 | VEG-RE 的肌肉量與 MPS 下降比 VEG 少 | 運動可以完全取代高齡者的蛋白質與能量規劃。 |\n| 純素飲食造成所有健康結果都變差 | 內臟脂肪與肝脂肪下降，肌肉結果變差 | 以肌肉結果推論整體心代謝結果必然變差。 |\n| 肌力結果與肌肉量一樣確定 | 肌肉體積、瘦體重與 MPS 結果一致 | 肌力已被研究證明有顯著組間差異；多重校正後肌力訊號不顯著。 |\n| 體重下降就是有利減重 | VEG 體重、內臟脂肪和肝脂肪下降 | 高齡者在瘦體重下降的同時減重必然安全或有利。 |\n\n## 對營養師實務的意義\n\n1. 追蹤高齡者純素轉換時，不能只問「有沒有吃豆類」；應量化每日與每餐蛋白質、蛋白質品質／消化性、必需胺基酸、總能量、體重與活動量。\n2. 蛋白質替代和食物密度要在飲食改變前設計，而不是等 appendicular lean mass 已下降才補救。\n3. 阻力運動應成為肌肉保護計畫的一部分，但 VEG-RE 的結果提醒不能把運動當作蛋白質不足的替代方案。\n4. 完全植物性高齡飲食還要盤點 cobalamin、鈣、鐵、維生素 D 與其他可能不足；本研究營養師會議也把這些列為重點。\n5. 同時追蹤肌肉與脂肪／肝脂肪指標，避免只因體重或肝脂肪改善就忽略肌肉量與功能風險。\n\n## Final verdict\n\n**收錄：可以，且值得優先。** 它是與植物性蛋白、健康長壽、肌少症預防高度相關的完整 RCT，使用 MRI、DEXA、D2O 和線性混合模型，全文證據可核對。**品質定位：對「自選純素飲食造成蛋白質下降並伴隨肌肉量／MPS下降」為中等確定性；對「所有純素飲食都不利肌肉」則證據不足。** 這篇最適合拿來提醒營養師：飲食標籤不等於營養充足，純素高齡介入必須把蛋白質、胺基酸、能量與阻力運動一起設計。\n\n## Source\n\n- Domić J, Grootswagers P, Pinckaers P, Melchers M, van Loon L, de Groot L. *A self-selected vegan diet reduces skeletal muscle mass in healthy older adults: a randomized controlled trial.* The American Journal of Clinical Nutrition. 2026;124:101416. DOI: 10.1016/j.ajcnut.2026.101416.\n- 合法全文：OA PDF，15 pages；Methods pp. 2–5、Results pp. 5–12、Discussion/Conclusion pp. 10–13；ClinicalTrials.gov NCT05809466。",
+      "cards": [],
+      "completedAt": "2026-09-12T13:57:00.199Z"
+    },
+    {
+      "id": "doi:10.1016/j.ajcnut.2026.101416:digest",
+      "paperId": "doi:10.1016/j.ajcnut.2026.101416",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "A self-selected vegan diet reduces skeletal muscle mass in healthy older adults: a randomized controlled trial.",
+      "authors": "Domić J, Grootswagers P, Pinckaers P, Melchers M, van Loon L, de Groot L",
+      "journal": "Other nutrition journals (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.ajcnut.2026.101416",
+      "abstract": "Adopting a plant-based diet may compromise protein intake and impair skeletal muscle mass in older adults. To compare the impact of a 12-wk self-selected vegan diet with that of an omnivorous diet and a self-selected vegan diet with resistance exercise (RE) on skeletal muscle mass, strength, and muscle protein synthesis (MPS) rates in older adults. This randomized controlled trial included 3 parallel study arms in which 72 healthy older adults aged ≥65 y were randomly assigned to follow 1) a self-selected vegan diet (VEG), 2) their habitual omnivorous diet (OMNI), or 3) a self-selected vegan diet with RE (VEG-RE). At baseline and after 12 wk, thigh muscle volume, thigh muscle fat infiltration, and body fat distribution were assessed using magnetic resonance imaging, appendicular lean mass with dual x-ray absorptiometry, and muscle strength via Biodex. MPS rates were assessed during the first 10 d using a deuterium oxide protocol. Other outcome measures were body mass, dietary intake, and physical activity. Linear mixed models were applied to test differences between VEG and the other groups. Results are presented as estimated marginal mean or change in estimated marginal mean [95% confidence interval (CI)]. VEG reduced protein intake with ‒27.7 g/d (95% CI: ‒37.3, ‒18.2 g/d), ‒22.0 g/d (95% CI: ‒31.7, ‒12.4 g/d), and ‒19.3 g/d (95% CI: ‒29.2, ‒9.37 g/d) in weeks 1, 6, and 12 (all P 0.05), but different from OMNI (P < 0.0001), in which protein intake did not change. Thigh muscle volume and appendicular lean mass significantly reduced in VEG [‒0.61 L (95% CI: ‒0.72, ‒0.50 L); ‒1.15 kg (95% CI: ‒1.46, ‒0.85 kg)] compared to OMNI [‒0.01 L (95% CI: ‒0.11, 0.09 L); +0.05 kg (95% CI: ‒0.23, 0.32 kg); both P < 0.0001] and VEG-RE [‒0.35 L (95% CI: ‒0.47, ‒0.24 L), P = 0.0038; ‒0.62 kg (95% CI: ‒0.93, ‒0.32 kg), P = 0.0033]. MPS was lower in VEG [1.09 %/d (95% CI: 1.01, 1.17 %/d)] compared with OMNI [1.27 %/d (95% CI: 1.18, 1.35 %/d); P = 0.0073] and VEG-RE [1.24 %/d (95% CI: 1.16, 1.33 %/d); P = 0.0246]. A self-selected vegan diet reduces protein intake, skeletal muscle mass, and MPS in older adults. The negative impact of a vegan diet on skeletal muscle mass can be mitigated by RE. This trial was registered at clinicaltrials.gov as NCT05809466. (https://clinicaltrials.gov/study/NCT05809466).",
+      "legalFullTextUrl": "https://doi.org/10.1016/j.ajcnut.2026.101416",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42680254/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "design:randomized controlled",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "自選純素飲食、高齡肌肉量與蛋白質充足性的全文整理",
+      "content": "# 自選純素飲食、高齡肌肉量與蛋白質充足性的全文整理\n\n## 一、這篇研究在問什麼\n\n這是一項 12 週、三平行組的 randomized controlled trial，研究 65 歲以上健康高齡者在「自選純素飲食」下，蛋白質攝取、肌肉量、肌肉蛋白合成（MPS）、肌力與體脂分布如何變化；也測試每週兩次漸進式阻力運動是否能減少純素飲食對肌肉的負面影響。\n\n三組為：\n\n- **VEG**：自選純素飲食，n=23。\n- **OMNI**：維持習慣性雜食，n=26。\n- **VEG-RE**：自選純素飲食加每週兩次監督式阻力運動，n=23。\n\n全文重點不是「所有純素飲食都會造成肌肉流失」，而是：在這個健康高齡族群中，採用自選純素飲食後，蛋白質與必需胺基酸攝取下降，並伴隨肌肉量與 MPS 下降；若加入阻力運動，肌肉量流失較少、MPS 較高，但仍未完全抵消蛋白質下降造成的影響。\n\n## 二、全文結構地圖\n\n- **Introduction**：說明高齡者的蛋白質需求、老化與肌少症風險、植物性蛋白的蛋白質密度／胺基酸／消化性差異，以及研究假設。\n- **Methods**：三組 12 週介入；純素組不得吃動物性食物，研究營養師提供每月資訊會議與實用工具；測量 MRI、DEXA、Biodex、D2O 肌肉蛋白合成、飲食、身體活動與生化／身體指標。\n- **Results**：完整報告蛋白質、胺基酸、肌肉體積、appendicular lean mass、MPS、肌力、肌內脂肪、內臟脂肪、肝脂肪與久坐時間。\n- **Discussion**：將肌肉結果連到蛋白質數量與品質、負能量平衡、纖維增加和阻力運動；同時保留純素飲食對內臟脂肪與肝脂肪的可能健康利益。\n- **Conclusion**：自選純素飲食在本研究情境下損害蛋白質攝取、肌肉量與 MPS；阻力運動可以緩和，但不能完全消除負面影響。\n- **Author statements / References**：含倫理核准、試驗註冊、資金、利益衝突、資料取得與 71 篇參考文獻。\n\n## 三、方法與介入細節\n\n### 1. 受試者、隨機與介入\n\n研究共納入 72 位健康高齡者，平均年齡約 72 歲，隨機分派到 VEG、OMNI 或 VEG-RE。兩位參與者未完成介入但回來接受追蹤，研究仍依 intention-to-treat 原則納入統計。純素組與純素加阻力運動組完全避免動物性食物；OMNI 維持習慣飲食。三組都參加營養資訊會議，第三次會議特別討論高齡者蛋白質攝取與依各組飲食調整策略。\n\n研究團隊提供純素或動物性食品產品協助依從性，要求停用非醫囑營養補充品，但維生素 D 依年齡建議補充。純素兩組每月由研究營養師說明替代食物、蛋白質、cobalamin、鈣、鐵和維生素 D，並提供食譜與產品辨識工具。因此這不是完全沒有營養教育的自由飲食，但蛋白質與總能量仍由參與者自行選擇。\n\n### 2. 阻力運動\n\nVEG-RE 每週兩次、共 12 週接受監督式漸進阻力運動，包含 leg press、leg extension、lat pulldown、chest press、shoulder press 和 cable row；下肢四組 10–15 次，上肢三組 15 次，強度由約 50% 逐步到下肢 75%、上肢 60% 的估計 1-RM。原先 VEG-RE 參與者的平均出席約 21/24 次，顯示實際運動暴露不低。\n\n### 3. 結果測量與統計\n\n肌肉體積、肌內脂肪與脂肪分布用 MRI；appendicular lean mass 用 DEXA；膝伸展／屈曲肌力用 Biodex；混合肌肉 MPS 用 deuterium oxide 10 日 protocol 與肌肉切片、同位素質譜測量。飲食以多個 3-day food records 搭配 Compl-eat，身體活動以 accelerometer 加活動日誌。使用 linear mixed models，依 outcome 調整性別、年齡或 household clustering，次要結果使用 Benjamini–Hochberg，必要時再做 Bonferroni post hoc；缺失值未插補，混合模型以 likelihood maximum estimation 處理。\n\n## 四、主要結果\n\n### 1. 蛋白質與胺基酸下降\n\nVEG 的蛋白質攝取從習慣期約 77.4 g/day、0.97 g/kg/day，降至第 1、6、12 週分別約少 27.7、22.0、19.3 g/day；第 12 週約為少 0.21 g/kg/day。OMNI 蛋白質沒有顯著改變；VEG-RE 的蛋白質下降幅度與 VEG 相近。VEG 的所有必需胺基酸（cysteine 除外）也下降，植物性蛋白增加不能抵消動物性蛋白消失。\n\n這一點是本研究最重要的介入差異：它測到的是「自選純素飲食實際造成的蛋白質與胺基酸改變」，不是把蛋白質固定在等量後比較蛋白質來源。\n\n### 2. 肌肉體積與 appendicular lean mass\n\n12 週後，VEG 大腿肌肉體積減少 **0.61 L**（95% CI −0.72 至 −0.50），OMNI 減少 0.01 L；VEG-RE 減少 0.35 L，顯著少於 VEG。VEG appendicular lean mass 減少 **1.15 kg**（95% CI −1.46 至 −0.85），OMNI 約增加 0.05 kg，VEG-RE 減少 0.62 kg；VEG 與兩組比較均顯著。\n\nVEG 大腿肌內脂肪增加約 0.45 個百分點，OMNI 約增加 0.05 個百分點，VEG-RE 約增加 0.20 個百分點；VEG-RE 對部分肌肉區域較能緩和改變。\n\n### 3. 肌肉蛋白合成與肌力\n\n10 日測量的混合肌肉 fractional synthesis rate 為 VEG 1.09%/day、OMNI 1.27%/day、VEG-RE 1.24%/day；VEG 顯著低於 OMNI 和 VEG-RE。膝伸展與屈曲肌力的組間差異，在多重比較校正後不再顯著；原始趨勢是 VEG 下降、VEG-RE 增加，因此阻力運動可能保留肌力，但本研究對肌力的確定性低於肌肉體積和 MPS。\n\n### 4. 脂肪、肝脂肪與身體活動\n\nVEG 和 VEG-RE 都降低內臟脂肪約 9%，並將肝脂肪分率由約 7.5% 降到約 5%；全身脂肪百分比與腹部皮下脂肪的組間變化不明顯。VEG 久坐時間在第 12 週增加約 3.70 個百分點／日，OMNI 下降約 3.62 個百分點／日，VEG-RE沒有明顯改變；作者做探索分析後，久坐變化與大腿肌肉體積變化沒有顯著相關。\n\n因此，研究結果同時包含兩面：自選純素飲食帶來肌肉與蛋白質風險，也可能帶來內臟脂肪與肝脂肪改善；不能只挑一面解讀。\n\n## 五、作者討論與適用邊界\n\n作者認為 VEG 的肌肉量與 MPS 下降，最可能與蛋白質從約 1.0 g/kg/day 降到約 0.7 g/kg/day、必需胺基酸下降、植物性蛋白可利用性較低，以及負能量平衡共同有關。VEG 體重約下降 2.9 kg，雖然食物紀錄的總能量變化不大，但纖維增加約 45%，實際可利用能量可能下降。VEG-RE 蛋白質也下降，因此阻力運動只能減少而不能消除肌肉流失。\n\n作者也指出，先前「蛋白質充足且配有 mycoprotein 或高蛋白替代品」的純素研究，未必得到相同的 MPS 差異；這支持「純素飲食的蛋白質數量、品質、密度、胺基酸組成與能量平衡」比飲食標籤本身更重要。\n\n不能把本研究直接推成「所有純素飲食都會造成肌少症」，因為：研究對象是健康、非肌少症、休閒活動的高齡者；飲食為 self-selected；介入只有 12 週；並非把蛋白質、能量或食物品質控制成等量；且研究觀察到的負面結果與蛋白質下降、可利用能量和自選食物組合密切相連。\n\n## 六、營養實務落點\n\n1. 高齡者轉向純素飲食時，先設計足量蛋白質與必需胺基酸，不要只把肉、魚、蛋、乳品拿掉而不補替代品。\n2. 同時追蹤 g/day 與 g/kg/day、每餐蛋白質、蛋白質品質／消化性、總能量、體重、肌力與活動量。\n3. 高齡且完全植物性飲食者要把 cobalamin、鈣、鐵與維生素 D 納入評估；本研究的營養教育也特別強調這些營養素。\n4. 阻力運動是重要的保護因子，但不能用運動掩蓋蛋白質與能量不足；本研究 VEG-RE 仍有肌肉量下降。\n5. 追蹤時不要只看體重或肝脂肪改善；體重下降若伴隨 appendicular lean mass 和肌肉體積下降，對高齡者功能獨立性可能不利。\n\n## 七、白話導讀\n\n這篇真正告訴我們的是：高齡者改吃純素，若只是照自己原本的習慣換食物，蛋白質很容易從約 1.0 g/kg/day 降到約 0.7 g/kg/day，12 週後肌肉量、肌肉蛋白合成和部分肌肉功能會受到影響；每週兩次阻力運動可以減少損失，但沒有完全保住肌肉。純素飲食同時可能降低內臟脂肪和肝脂肪，所以合理做法不是簡單判定「純素好」或「純素壞」，而是把蛋白質、胺基酸、總能量、阻力運動和微量營養素一起設計。\n\n## Source\n\n- Domić J, Grootswagers P, Pinckaers P, Melchers M, van Loon L, de Groot L. *A self-selected vegan diet reduces skeletal muscle mass in healthy older adults: a randomized controlled trial.* The American Journal of Clinical Nutrition. 2026;124:101416. DOI: 10.1016/j.ajcnut.2026.101416.\n- 合法全文：OA PDF，15 pages；Worker identity matched；全文 Methods、Results、Discussion、Conclusion 與 71 篇 references 已讀取；ClinicalTrials.gov NCT05809466。",
+      "cards": [
+        {
+          "title": "",
+          "question": "這個 RCT 比較了哪三組高齡者？",
+          "answer": "自選純素飲食 VEG（n=23）、維持習慣雜食 OMNI（n=26），以及自選純素飲食加每週兩次監督式阻力運動 VEG-RE（n=23）。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "自選純素組的蛋白質攝取發生什麼改變？",
+          "answer": "相較習慣攝取，VEG 在第 1、6、12 週約少 27.7、22.0、19.3 g/day，且所有必需胺基酸（cysteine 除外）也下降；OMNI 沒有同樣的蛋白質下降。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "阻力運動是否完全抵消純素飲食造成的肌肉量下降？",
+          "answer": "沒有。VEG 大腿肌肉體積約少 0.61 L、appendicular lean mass 少 1.15 kg；VEG-RE 約少 0.35 L 和 0.62 kg，損失較小但仍存在。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "這篇研究能否直接證明所有純素飲食都會造成肌少症？",
+          "answer": "不能。研究測試的是健康高齡者的 12 週 self-selected vegan diet；結果很可能同時受蛋白質數量與品質、總能量、纖維增加和飲食替代方式影響，不能外推到蛋白質充足且妥善規劃的純素飲食。",
+          "tags": []
+        }
+      ],
+      "completedAt": "2026-09-12T13:54:59.760Z"
+    },
+    {
+      "id": "doi:10.1002/fsn3.72331:review",
+      "paperId": "doi:10.1002/fsn3.72331",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "From Macronutrients to Functional Foods: Nutritional Strategies for Recovery Following High-Intensity Exercise.",
+      "authors": "Farzana H, Vigriawan G, Santini A, Nurkolis F",
+      "journal": "Nutrition guidelines and consensus (PubMed)",
+      "year": "2026",
+      "doi": "10.1002/fsn3.72331",
+      "abstract": "High-intensity exercise improves aerobic and anaerobic performance, neuromuscular function, and sport-specific readiness but may also induce glycogen depletion, exercise-induced muscle damage, muscle soreness, inflammatory responses, oxidative stress, and temporary reductions in subsequent performance. Recovery nutrition is therefore essential to restore physiological readiness. This review aimed to synthesize current evidence on nutritional strategies for recovery following high-intensity exercise, ranging from foundational macronutrients to functional foods and bioactive compounds. A structured narrative review was conducted using peer-reviewed literature retrieved from PubMed/MEDLINE, Scopus, Web of Science, SPORTDiscus, ScienceDirect, and Google Scholar. Priority was given to position stands, consensus statements, systematic reviews, meta-analyses, randomized controlled trials, and human intervention studies published in English between 2011 and May 2026. Eligible studies involved athletes or physically active adults and examined biochemical, perceptual, or functional recovery outcomes after high-intensity, repeated-sprint, resistance, eccentric, or muscle-damaging exercise. Carbohydrate and protein remain the most consistently supported nutritional strategies for recovery. Carbohydrate facilitates glycogen resynthesis, particularly when recovery time is limited, whereas high-quality protein supports muscle protein synthesis and tissue repair. Functional foods and bioactive compounds may provide additional benefits as adjunct recovery strategies, although the available evidence varies considerably across exercise models, participant characteristics, supplementation protocols, and recovery outcomes. Among the functional foods reviewed, tart cherry currently has the strongest supporting evidence for selected recovery outcomes. Curcumin, omega-3 fatty acids, and beetroot have shown promising context-dependent benefits, whereas evidence for pomegranate, cocoa flavanols, and green tea remains more variable and is generally stronger for oxidative-stress modulation than for consistent improvements in functional recovery. Chronic high-dose vitamin C and E supplementation may impair training adaptations. Based on the synthesized evidence, we propose a hierarchical and periodized conceptual framework for recovery nutrition following high-intensity exercise, in which carbohydrate and protein adequacy remain the primary priorities. Within this framework, functional foods and bioactive compounds may serve as context-dependent adjuncts, and their application should be individualized according to recovery demands, competition schedule, adaptation goals, and the current strength and consistency of the available evidence.",
+      "legalFullTextUrl": "https://doi.org/10.1002/fsn3.72331",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42707668/",
+      "category": "recommended",
+      "tags": [
+        "design:randomized controlled",
+        "guideline and consensus",
+        "herbs phytochemicals supplements",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "高強度運動後恢復營養與功能性食品敘事回顧的品質評讀",
+      "content": "# 高強度運動後恢復營養與功能性食品敘事回顧的品質評讀\n\n> [!info] 全文品質評讀\n> **一句話判定**：可收錄作為運動恢復營養的實務導讀與研究地圖；但它是未註冊的 structured narrative review，不是系統性回顧或統合分析，且文中提出的階層式框架尚未被前瞻性試驗驗證。碳水／蛋白質的基礎角色較可信；各功能性食品的直接恢復效果需逐情境判讀。\n\n## 品質快照\n\n| 面向 | 判定 | 全文依據 |\n|---|---|---|\n| 研究問題 | 清楚 | Introduction 與 Materials and Methods：聚焦高強度運動後的肝醣、肌肉修復、痠痛、發炎、氧化壓力、功能與後續表現。 |\n| 設計 | 中度限制 | 2.1 明確是 structured narrative review；不是 formal PRISMA systematic/scoping review。 |\n| 搜尋 | 有透明度但不可完整重現 | 2.2–2.3 列出六個資料庫與四組概念詞，但未提供完整逐庫檢索式、檢索筆數與去重流程。 |\n| 文獻選擇 | 可信度受限 | 2.4–2.5 說明納入人體運動與恢復研究，也說明由作者進行篩選；但沒有資料庫 yield、duplicate removal 或逐階段排除數。 |\n| 證據判讀 | 有結構、非正式 GRADE | 2.6 自建 strong／moderate／low／very low 質性分類，明確聲明不能當作 formal GRADE。 |\n| 結果 | 可用但異質性高 | 3.1.2–3.1.12 依營養類別與恢復結果整理，並反覆交代產品、劑量、時機、運動模式和結果差異。 |\n| 實務框架 | 有啟發性、未驗證 | 3.2、4、5、8 提出先碳水／蛋白質、再依問題選 adjunct 的階層與週期化模型，但未有 prospective validation。 |\n\n## 研究方法與全文讀取結果\n\n本文搜尋 PubMed/MEDLINE、Scopus、Web of Science、SPORTDiscus、ScienceDirect 和 Google Scholar，時間範圍為 2011 年 1 月至 2026 年 5 月，並保留少量基礎性舊文獻。納入 athletes、trained individuals 或 physically active adults，運動型態含 HIIT、repeated sprint、resistance、eccentric、intermittent sport activity 與 exercise-induced muscle damage；結果含肝醣、肌蛋白合成、肌肉損傷、發炎、氧化壓力、痠痛、神經肌肉功能和下一次表現。\n\n全文身份與來源：PMC OA HTML（PMC13547834），Worker identity `valid=true`、DOI 與題名 matched；本文包含 Abstract、Introduction、2.1–2.6 方法、3.1.1–3.2 結果、Discussion、Practical Implications、Limitations、Research Gaps、Conclusions、作者聲明與 References。全文文本 106,499 characters，沒有用摘要代替全文。\n\n## 主要結果與解讀\n\n### 1. 基礎營養的直接性較高\n\n碳水化合物在同日再訓練、兩次運動間短於約 4 小時或比賽密集時，對肝醣快速恢復最具一致性；恢復時間長時，全天總碳水比立即時機更重要。蛋白質則支援肌肉修復與重塑，作者整理多數運動者約 1.4–2.0 g/kg/day、每次約 20–40 g 分配攝取的實務框架，但仍需依總量、訓練量、能量限制與個別情境調整。\n\n這些數字來自本文整合的運動營養立場聲明與既有研究，並非本篇新試驗測出的劑量—反應結果。因此可作為實務起點，不能當作不分運動類型、體重、腎臟狀況、總能量或比賽安排的自動處方。\n\n### 2. 功能性食品結果是情境依賴的\n\n酸櫻桃對選定肌力恢復與部分發炎結果有較多支持，但痠痛、CK、IL-6、TNF-α 和活動範圍並不一致。甜菜根在離心或重複衝刺情境的痠痛與功能恢復較有訊號，對發炎與肌肉損傷標記則不穩定。薑黃素可能改善痠痛與 CK，但不同吸收增強配方不能視為同一介入；omega-3 對部分肌肉損傷與發炎指標可能有益，EPA/DHA 比例、劑量和時間仍有不確定性。\n\n石榴、可可黃烷醇與綠茶較像是有氧化壓力／redox 調節訊號而非穩定提升運動恢復表現；肉桂直接運動恢復證據少，文中列為 very low certainty。維生素 C/E 的核心安全訊息是長期高劑量可能削弱訓練適應，不能把降低氧化壓力標記直接等同於更好的長期訓練成果。\n\n## Risk of Bias / 推論邊界\n\n1. **未註冊與非系統性流程**：作者承認沒有 protocol registration，也沒有完整 systematic/scoping review 流程。\n2. **選擇偏差無法完整稽核**：未報告各資料庫檢索數、重複移除、全文排除或 PRISMA 流程，雖然作者說明篩選與解讀分工，但讀者無法重建所有排除決策。\n3. **介入與結果異質性高**：運動模式、受試者訓練程度、產品形式、活性成分含量、劑量、時機、使用期與結果測量差異大，限制直接比較。\n4. **敘事整合的主觀性**：作者建立四級質性證據分類，但不是正式 GRADE，也沒有每一個營養介入的統一 risk-of-bias 表或可計算的合併效果。\n5. **框架未驗證**：階層式、週期化模型是作者由文獻整合出的概念模型，不是經臨床試驗證實能改善恢復或表現的決策工具。\n6. **族群外推有限**：許多研究是小樣本、休閒運動者，女性運動員與不同運動項目的代表性不足；因此不能直接外推到所有菁英運動員、一般成人或臨床患者。\n\n## GRADE-style 判斷\n\n原文沒有 formal GRADE；以下是針對本篇「可否以整體文章支持各類恢復建議」的保守外部判斷，不是作者原始分級。\n\n| 問題 | 判定 | 理由 |\n|---|---|---|\n| 碳水在短恢復窗口補肝醣 | Low to moderate | 有運動營養立場聲明與多個人體研究支持，生理直接性較高；但本文本身是敘事整合且未做正式品質合併。 |\n| 蛋白質支持肌肉修復 | Low to moderate | 有立場聲明與人體研究，方向一致；實際效果依基線攝取、訓練與運動型態而變。 |\n| 酸櫻桃／甜菜根／薑黃素／omega-3 改善特定恢復結果 | Low | 有回顧與人體研究，但結果、配方、劑量、時機和功能性終點不一致。 |\n| 可可／綠茶／石榴的直接運動表現恢復 | Low to very low | 較常見的是氧化壓力或部分生化訊號，功能與表現結果不穩定。 |\n| 肉桂作為恢復策略 | Very low | 直接運動恢復研究少、樣本小、結果有限且方案不一致。 |\n| 作者階層式、週期化框架可改善恢復 | Very low | 尚未有前瞻性驗證；目前只是作者導出的概念模型。 |\n\n## 推論漏洞\n\n| 容易做出的推論 | 全文真正支持 | 不能推出 |\n|---|---|---|\n| 每位運動者都要立即吃固定量碳水 | 短恢復窗口時，碳水是最優先；長恢復窗口看全天總量 | 不分運動日程、總量與個別狀況的固定處方。 |\n| 蛋白質越多越能加速恢復 | 足量且分配合理有助肌肉修復 | 任意提高蛋白質都會讓下一次表現更好。 |\n| 酸櫻桃／甜菜根能消除肌肉損傷 | 特定情境可能改善部分痠痛或功能結果 | 對所有運動型態、所有生化指標都有效。 |\n| CK 或 CRP 下降就是恢復完成 | 生化指標只是恢復的一部分 | 可取代力量、痠痛、神經肌肉功能與下一次訓練表現。 |\n| 抗氧化補充越強越好 | 食物型抗氧化攝取較合理；長期高劑量 C/E 可能干擾適應 | 把高劑量抗氧化品當成一般運動恢復必需品。 |\n| 本文框架是臨床決策規則 | 是作者的 evidence-informed conceptual synthesis | 已證明能改善運動恢復或表現的 validated algorithm。 |\n\n## 對成人營養照護／運動營養的實務落點\n\n1. 先評估運動型態、下一次訓練間隔、全天能量與碳水／蛋白質，再討論補充品。\n2. 把「快速肝醣恢復」「肌肉修復」「痠痛／功能恢復」「氧化壓力」分成不同問題，避免用一個產品處理全部結果。\n3. 若使用功能性食品或 supplement，建立產品、活性成分、劑量、時機、使用期、耐受性、藥物交互作用與污染風險紀錄。\n4. 以功能性結果為主、指標為輔；將 DOMS、力量、跳躍、重複衝刺、下一日訓練品質與必要的 CK/CRP 等一併看。\n5. 適應訓練期不宜長期自行使用高劑量 C/E；特殊疾病、缺乏、用藥或競賽需求要另作醫療／營養評估。\n\n## Final verdict\n\n**收錄：可以。** 題材符合功能性食品、運動後恢復與臨床可解讀營養策略的興趣範圍；合法 OA HTML 完整，方法、結果、限制、研究缺口和 references 均可核對。**品質定位：中低確定性的敘事證據地圖，不是高品質介入試驗或 systematic review。** 最適合用來建立「先基本營養、再情境化 adjunct」的閱讀框架，不適合直接拿來開立固定劑量或宣稱產品保證有效。\n\n## Source\n\n- Farzana HR, Vigriawan GE, Santini A, Nurkolis F. *From Macronutrients to Functional Foods: Nutritional Strategies for Recovery Following High‐Intensity Exercise.* Food Science & Nutrition. 2026. DOI: 10.1002/fsn3.72331.\n- 合法全文：PMC OA HTML，PMC13547834；全文 identity matched；證據位置為 Materials and Methods 2.1–2.6、Results 3.1.1–3.2、Discussion、Practical Implications、Limitations、Research Gaps and Future Directions、Conclusions。",
+      "cards": [],
+      "completedAt": "2026-09-12T13:50:48.299Z"
+    },
+    {
+      "id": "doi:10.1002/fsn3.72331:digest",
+      "paperId": "doi:10.1002/fsn3.72331",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "From Macronutrients to Functional Foods: Nutritional Strategies for Recovery Following High-Intensity Exercise.",
+      "authors": "Farzana H, Vigriawan G, Santini A, Nurkolis F",
+      "journal": "Nutrition guidelines and consensus (PubMed)",
+      "year": "2026",
+      "doi": "10.1002/fsn3.72331",
+      "abstract": "High-intensity exercise improves aerobic and anaerobic performance, neuromuscular function, and sport-specific readiness but may also induce glycogen depletion, exercise-induced muscle damage, muscle soreness, inflammatory responses, oxidative stress, and temporary reductions in subsequent performance. Recovery nutrition is therefore essential to restore physiological readiness. This review aimed to synthesize current evidence on nutritional strategies for recovery following high-intensity exercise, ranging from foundational macronutrients to functional foods and bioactive compounds. A structured narrative review was conducted using peer-reviewed literature retrieved from PubMed/MEDLINE, Scopus, Web of Science, SPORTDiscus, ScienceDirect, and Google Scholar. Priority was given to position stands, consensus statements, systematic reviews, meta-analyses, randomized controlled trials, and human intervention studies published in English between 2011 and May 2026. Eligible studies involved athletes or physically active adults and examined biochemical, perceptual, or functional recovery outcomes after high-intensity, repeated-sprint, resistance, eccentric, or muscle-damaging exercise. Carbohydrate and protein remain the most consistently supported nutritional strategies for recovery. Carbohydrate facilitates glycogen resynthesis, particularly when recovery time is limited, whereas high-quality protein supports muscle protein synthesis and tissue repair. Functional foods and bioactive compounds may provide additional benefits as adjunct recovery strategies, although the available evidence varies considerably across exercise models, participant characteristics, supplementation protocols, and recovery outcomes. Among the functional foods reviewed, tart cherry currently has the strongest supporting evidence for selected recovery outcomes. Curcumin, omega-3 fatty acids, and beetroot have shown promising context-dependent benefits, whereas evidence for pomegranate, cocoa flavanols, and green tea remains more variable and is generally stronger for oxidative-stress modulation than for consistent improvements in functional recovery. Chronic high-dose vitamin C and E supplementation may impair training adaptations. Based on the synthesized evidence, we propose a hierarchical and periodized conceptual framework for recovery nutrition following high-intensity exercise, in which carbohydrate and protein adequacy remain the primary priorities. Within this framework, functional foods and bioactive compounds may serve as context-dependent adjuncts, and their application should be individualized according to recovery demands, competition schedule, adaptation goals, and the current strength and consistency of the available evidence.",
+      "legalFullTextUrl": "https://doi.org/10.1002/fsn3.72331",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42707668/",
+      "category": "recommended",
+      "tags": [
+        "design:randomized controlled",
+        "guideline and consensus",
+        "herbs phytochemicals supplements",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "高強度運動後碳水、蛋白質與功能性食品的恢復營養全文整理",
+      "content": "# 高強度運動後碳水、蛋白質與功能性食品的恢復營養全文整理\n\n## 一、這篇文章在回答什麼\n\n這是一篇 **structured narrative review**，整理高強度、重複衝刺、阻力、離心與肌肉損傷運動後，碳水化合物、蛋白質、功能性食品與生物活性物質對肝醣恢復、肌肉修復、痠痛、發炎、氧化壓力、神經肌肉功能和下一次運動表現的證據。作者不是要建立一個已驗證的處方，而是提出依「主要恢復問題」排序的階層式、週期化概念框架。\n\n## 二、全文結構地圖\n\n- **Introduction**：高強度運動同時造成肝醣消耗、肌肉損傷、發炎、氧化壓力與短期表現下降，因此恢復營養要配合下一次運動的時間與目標。\n- **Materials and Methods**：搜尋 PubMed/MEDLINE、Scopus、Web of Science、SPORTDiscus、ScienceDirect、Google Scholar；涵蓋 2011 年 1 月至 2026 年 5 月，並保留少量奠基性舊文獻。納入運動者、受訓者或身體活動成人的人體研究、系統性回顧、統合分析、立場聲明與共識文件；全文最後引用 51 篇來源。\n- **Results**：依生理壓力、碳水、蛋白質與胺基酸、酸櫻桃、石榴、甜菜根／硝酸鹽、可可黃烷醇、綠茶、薑黃素、肉桂、omega-3、維生素 C/E，以及整合框架分段討論。\n- **Discussion / Practical Implications**：先確保碳水和蛋白質，再依痠痛、肌肉損傷、氧化壓力、發炎、血管或神經肌肉恢復需要選擇輔助性功能性食品；使用時要考慮劑量、時機、配方、耐受性與污染風險。\n- **Limitations / Research Gaps**：未註冊、不是完整 systematic/scoping review、沒有資料庫檢索數與排除流程、沒有 meta-analysis；產品、劑量、時間、運動模式與結果異質性很高，提出的框架尚未被前瞻性研究驗證。\n- **Conclusion**：碳水和蛋白質是最可轉移的基礎；酸櫻桃、薑黃素、omega-3 和甜菜根只在特定情境有實務潛力，不能取代基本運動營養。\n\n## 三、逐段全文重點\n\n### 1. 研究設計與方法\n\n作者明確把本文定義為 structured narrative review，而非 PRISMA 系統性回顧或 scoping review。搜尋以四個概念區塊組成：運動壓力、營養介入、恢復結果、生理標記。納入結果包含肝醣恢復、肌肉蛋白合成、肌肉損傷、發炎、氧化壓力、肌肉痠痛、神經肌肉功能和後續運動表現。作者說明由兩位作者進行文獻識別與初步資格判定，另外作者負責方法監督、證據解讀與爭議討論。\n\n作者建立 strong、moderate、low、very low 四級的**質性證據分類**，依研究設計、結果一致性、方法品質、樣本數、運動與族群直接性、劑量／時機清楚程度和運動實務適用性判定；文中也特別說明這不是 formal GRADE。\n\n### 2. 高強度運動的恢復負荷\n\n重複高強度運動會大量使用 phosphocreatine、無氧糖解與肌肉肝醣；恢復時間短時，肝醣未完全補回會降低下一次高強度工作的能力。衝刺、阻力、離心與間歇運動還可能造成肌膜破壞、興奮—收縮耦聯受損、肌節損傷、痠痛、力量下降、局部發炎與氧化壓力。文中提醒 creatine kinase、myoglobin、lactate dehydrogenase 等生化指標不能單獨等同於運動功能恢復。\n\n### 3. 碳水化合物\n\n在兩次運動間少於約 4 小時、必須同日再訓練或比賽時，碳水是最穩定的肝醣恢復策略；文中整理常見的早期補充概念約為 1.0–1.2 g/kg/h，但這是快速恢復情境的文獻建議，不是所有人的固定處方。若恢復時間較長，全天碳水總量比立即時機更重要。蛋白質加入碳水可能在碳水不足或增加總能量時有幫助，但碳水已足夠時，不一定能額外加速肝醣合成。\n\n### 4. 蛋白質與胺基酸\n\n作者引用運動蛋白質立場聲明，將多數運動者的日蛋白質範圍整理為約 1.4–2.0 g/kg/day，並提到能量限制、高訓練量或體組成調整時可能需要更高攝取。實務上可把高品質蛋白質分散於全天，每次約 20–40 g，並注意必需胺基酸與 leucine。作者同時提醒效果受基線蛋白質、訓練狀態、運動類型、蛋白質品質、時機與全天總量影響；乳品、蛋、魚、瘦肉、豆類和大豆食品都可作為食物型恢復來源。\n\n### 5. 功能性食品與生物活性物質\n\n- **酸櫻桃**：對部分肌力恢復和某些發炎結果最有支持，但痠痛、CK、IL-6、TNF-α 和活動範圍的結果不一致；常見研究是運動前後連續數日使用果汁或濃縮物。\n- **石榴**：可能改善部分短期肌肉損傷結果，但 CK、myoglobin、lactate 或痠痛不一致；產品形式、劑量、polyphenol 含量與時機差異大。\n- **甜菜根／硝酸鹽**：可能對特定離心或重複衝刺情境的痠痛與功能恢復有幫助，但對發炎、肌肉損傷和氧化壓力指標不一致；不能推成普遍有效。\n- **可可黃烷醇與綠茶兒茶素**：對氧化壓力或 redox 調節的訊號較一致，對痠痛、肌力和後續表現的直接改善較不穩定。\n- **薑黃素**：可能調節痠痛、CK 與發炎，但配方吸收率差異很大，piperine、磷脂複合物或奈米配方不能視為同一產品；集中補充品還有安全性考量。\n- **肉桂**：運動恢復直接證據很少，樣本小且族群特定，應歸為 emerging bioactive compound、very low certainty。\n- **Omega-3**：對 CK、LDH、myoglobin 及部分 CRP／IL-6 或痠痛、肌力恢復可能有幫助，但 EPA/DHA 比例、劑量、使用期、基線狀態和運動情境仍未確定。\n- **維生素 C/E**：短期可能降低部分氧化壓力指標，但長期高劑量可能削弱訓練適應；文中引用的警示研究是高劑量方案，不能直接外推到一般食物中的抗氧化營養。\n\n### 6. 作者的階層式框架\n\n第一層是碳水和蛋白質充足，分別對應肝醣補充與肌肉修復；第二層才是依主要問題選擇功能性食品或生物活性物質，例如酸櫻桃／甜菜根針對特定痠痛或功能恢復情境，或薑黃素／omega-3 作為選定情況的輔助。作者強調這是由敘事整合提出的概念模型，不是已驗證的 clinical decision algorithm。\n\n## 四、給營養實務的可用結論\n\n1. 先問下一次訓練或比賽何時發生，再判斷是否需要快速肝醣恢復；不要把「立即補充」當作所有運動者的必要條件。\n2. 先檢查全天能量、碳水、蛋白質與分配，再討論功能性食品；功能性食品不能補救基本營養不足。\n3. 若考慮酸櫻桃、甜菜根、薑黃素或 omega-3，需記錄產品型態、實際活性成分、劑量、時機、使用期、耐受性、藥物與運動禁用／污染風險。\n4. 把生化標記和實際功能、痠痛、力量、跳躍、重複衝刺或下一次訓練品質一起看，不要以單一 CK 或氧化壓力指標宣稱恢復成功。\n5. 適應訓練期避免把長期高劑量抗氧化補充當成固定恢復策略；若有缺乏、疾病或特殊比賽情境，應另行評估。\n\n## 五、白話導讀\n\n這篇不是在說哪一種果汁或膠囊最有效，而是在提醒：如果明天還要比賽，先把碳水和蛋白質吃夠；如果是肌肉痠痛、重複衝刺或恢復時間很短，某些酸櫻桃、甜菜根、薑黃素或 omega-3 可能作為輔助，但研究結果很看情境。文章的框架有實務啟發性，卻沒有被前瞻性試驗驗證，所以不能把它當成固定劑量處方或保證提升表現的清單。\n\n## Source\n\n- Farzana HR, Vigriawan GE, Santini A, Nurkolis F. *From Macronutrients to Functional Foods: Nutritional Strategies for Recovery Following High‐Intensity Exercise.* Food Science & Nutrition. 2026. DOI: 10.1002/fsn3.72331.\n- 合法全文：PMC OA HTML，PMC13547834；全文身份比對通過（DOI 與題名 matched），涵蓋 Introduction、Materials and Methods、Results、Discussion、Practical Implications、Limitations、Research Gaps、Conclusions、作者聲明與 References。",
+      "cards": [
+        {
+          "title": "",
+          "question": "若運動者同一天內很快要再訓練，恢復營養的第一優先是什麼？",
+          "answer": "先確保碳水化合物供應以補回肝醣；文章整理的快速恢復文獻常見概念約為 1.0–1.2 g/kg/h，但要依恢復時間、總能量和運動情境調整。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "這篇文章如何定位蛋白質在高強度運動後的角色？",
+          "answer": "蛋白質是肌肉修復與重塑的基礎，可把高品質蛋白質分散於全天，每次約 20–40 g；效果仍受全天總量、運動類型、訓練狀態、蛋白質品質與時機影響。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "酸櫻桃、甜菜根和薑黃素可以取代基本運動營養嗎？",
+          "answer": "不可以。作者把功能性食品與生物活性物質定位為依痠痛、肌肉損傷、氧化壓力或短恢復窗口選用的 adjuncts；碳水和蛋白質充足仍是第一層。",
+          "tags": []
+        },
+        {
+          "title": "",
+          "question": "為什麼不能看到 CK 或氧化壓力下降就宣稱恢復成功？",
+          "answer": "不同生化指標的峰值時間不同，且研究的運動模式、產品配方、劑量、時機和受試者差異很大；作者主張要把痠痛、力量、神經肌肉功能、下一次運動表現與生化指標一起判讀。",
+          "tags": []
+        }
+      ],
+      "completedAt": "2026-09-12T13:49:15.161Z"
     }
   ]
 }
