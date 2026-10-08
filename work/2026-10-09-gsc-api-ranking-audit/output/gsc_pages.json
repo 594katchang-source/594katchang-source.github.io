@@ -1,0 +1,47 @@
+[
+  {
+    "keys": [
+      "https://594katchang-source.github.io/"
+    ],
+    "clicks": 10,
+    "impressions": 80,
+    "ctr": 0.125,
+    "position": 4.8375
+  },
+  {
+    "keys": [
+      "https://594katchang-source.github.io/about.html"
+    ],
+    "clicks": 2,
+    "impressions": 32,
+    "ctr": 0.0625,
+    "position": 6.375
+  },
+  {
+    "keys": [
+      "https://594katchang-source.github.io/class.html"
+    ],
+    "clicks": 2,
+    "impressions": 19,
+    "ctr": 0.10526315789473684,
+    "position": 10.052631578947368
+  },
+  {
+    "keys": [
+      "https://594katchang-source.github.io/blog/post.html?id=2026-08-14-food-choices-human-health-guide"
+    ],
+    "clicks": 0,
+    "impressions": 12,
+    "ctr": 0,
+    "position": 9.916666666666666
+  },
+  {
+    "keys": [
+      "https://594katchang-source.github.io/sitemap.html"
+    ],
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 1
+  }
+]

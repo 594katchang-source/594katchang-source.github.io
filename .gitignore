@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 /work/2026-09-08-nutritionranking-data-refresh/source/
 /work/2026-09-08-nutritionranking-data-refresh/output/nutrition_data.js
+*credential*.json*
+*service_account*.json*
+gsc-credentials*
+

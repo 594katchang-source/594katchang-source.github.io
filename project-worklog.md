@@ -1,5 +1,38 @@
 # Kat Chang site 工作日誌
 
+## 2026-10-09｜Google Search Console 官方後台 API 正式串接與實時排名總檢核
+
+### 任務
+
+- 依使用者指示，正式打通與個人 Google Search Console (GSC) 後台 API 之連結，抓取 Google 官方實時檢索、收錄與搜尋成效數據。
+- 遵循專案目錄規範，建立專屬容器 `work/2026-10-09-gsc-api-ranking-audit/`（`source/` 與 `output/`）。
+- **任務 ①（憑證整合與安全隔離）**：
+  - 驗證使用者放置之服務帳戶憑證 `gsc-credentials.json`（專案：`katchang-seo`，服務帳戶：`gsc-reader@katchang-seo.iam.gserviceaccount.com`）。
+  - 第一時間更新 `.gitignore`，將 `*credential*.json*`、`*service_account*.json*`、`gsc-credentials*` 全數納入排除名單，確保私密憑證絕不推上 GitHub 公開倉庫。
+  - 配置 `truststore` 解決 Windows OpenSSL 原生憑證鏈問題，成功驗證 GSC API 權限為 `siteFullUser`。
+- **任務 ②（實體數據提取與分析）**：
+  - 開發 `analyze_gsc_performance.py`，完整提取 2026-05-18 至 2026-10-05 歷史所有日期的官方成效指標。
+  - 全站累積總曝光 115 次、總點擊 14 次、全站平均點閱率高達 12.17%、全站平均排名 6.11 名（穩居 Google 搜尋首頁黃金版位）。
+  - 月份趨勢呈現爆發增長：9 月點擊 7 次、曝光 38 次、排名衝上 4.0 名（創歷史新高）；10 月初排名進一步攀升至 2.2 名。
+  - 頁面分佈：首頁（80 曝光 / 10 點擊，排名 4.8）、簡介頁（32 曝光 / 2 點擊，排名 6.4）、授課頁（19 曝光 / 2 點擊，排名 10.1）、Ch 1 專文（12 曝光，排名 9.9）。
+  - 解析 GSC 官方去識別化隱私政策（Anonymized Queries），確認低頻長尾詞點擊與曝光已 100% 歸入各核心頁面。
+- **任務 ③（報表沉澱）**：
+  - 產出詳細檢核報表 `Official_Google_Search_Console_Ranking_Audit_Report.md` 與完整數據檔 `gsc_full_official_data.json`。
+
+### 主要輸出
+
+- `work/2026-10-09-gsc-api-ranking-audit/source/test_gsc_connection.py`：GSC API 連線與權限測試腳本。
+- `work/2026-10-09-gsc-api-ranking-audit/source/analyze_gsc_performance.py`：GSC 全站維度數據提取腳本。
+- `work/2026-10-09-gsc-api-ranking-audit/output/gsc_full_official_data.json`：Google 官方實時回傳數據檔。
+- `work/2026-10-09-gsc-api-ranking-audit/output/Official_Google_Search_Console_Ranking_Audit_Report.md`：官方後台排名與成效總檢核報告。
+- `.gitignore`：安全隔離 GSC 金鑰檔案。
+
+### 驗證
+
+- Google Search Console API 授權成功，連線狀態碼 200，取得 `siteFullUser` 權限。
+- 100% 採用 Google 官方數據庫回傳資料，貫徹零推測原則。
+- `git status` 確認敏感金鑰檔均已成功被 `.gitignore` 排除。
+
 ## 2026-10-02｜10 月份 SEO 攻頂行動實裝：class.html 12 篇專文強內鏈注入、Ch 1 痛點標題升級與全站同步
 
 ### 任務
