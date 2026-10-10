@@ -664,7 +664,7 @@
       border: 1.5px solid #BFDBFE;
       border-radius: 16px;
       padding: 16px 20px;
-      margin: 24px 0;
+      margin: 20px 0;
     }
     .modal-adaptation-card h4 {
       margin: 0 0 6px;
@@ -678,6 +678,83 @@
       font-size: 1.02rem;
       font-weight: 700;
       line-height: 1.6;
+    }
+
+    /* 尚未完成手冊對齊或未載明精確克數之引導提示框 */
+    .modal-unverified-notice {
+      background: #FFFBEB;
+      border: 1.5px solid #FDE68A;
+      border-radius: 16px;
+      padding: 18px 20px;
+      margin: 20px 0;
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+    }
+    .modal-unverified-notice .notice-icon {
+      font-size: 1.8rem;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+    .modal-unverified-notice .notice-content strong {
+      color: #92400E;
+      font-size: 1.05rem;
+      display: block;
+      margin-bottom: 6px;
+      line-height: 1.5;
+    }
+    .modal-unverified-notice .notice-content p {
+      color: #78350F;
+      font-size: 0.95rem;
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    .lang-switch-btn {
+      background: #EFF6FF;
+      color: #1D4ED8;
+      border: 1px solid #BFDBFE;
+      padding: 4px 10px;
+      border-radius: 8px;
+      font-size: 0.88rem;
+      font-weight: 800;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .lang-switch-btn:hover {
+      background: #DBEAFE;
+    }
+
+    /* 列印樣式優化：徹底解決不斷重複與背景整頁列印問題 */
+    @media print {
+      body.print-single-mode > *:not(.recipe-modal-overlay) {
+        display: none !important;
+      }
+      body.print-single-mode {
+        background: #fff !important;
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+      body.print-single-mode .recipe-modal-overlay {
+        position: static !important;
+        display: block !important;
+        background: #fff !important;
+        padding: 0 !important;
+        overflow: visible !important;
+      }
+      body.print-single-mode .recipe-modal-dialog {
+        max-width: 100% !important;
+        width: 100% !important;
+        box-shadow: none !important;
+        border: 1px solid #ccc !important;
+        border-radius: 0 !important;
+        padding: 20px !important;
+        margin: 0 !important;
+        page-break-inside: avoid;
+      }
+      .modal-actions-row, .modal-close-btn, .lang-switch-btn {
+        display: none !important;
+      }
     }
 
     /* 彈窗底部三大功能按鈕 */
@@ -1471,14 +1548,66 @@
       }).join('');
     }
 
-    // 打開放大彈窗 (Modal - 圖 2)
+    // 打開放大彈窗 (Modal)
     function openModal(id) {
       const item = allRecipes.find(r => r.id === id);
       if (!item) return;
       currentModalItem = item;
 
-      const isCooker = (item.eq && item.eq.includes('電鍋')) || item.t.includes('電鍋');
-      const isOfficial = item.ch.includes('國民健康署') || item.ch.includes('衛生局') || item.ch.includes('醫院') || item.ch.includes('社區營養');
+      const hasRealMat = Array.isArray(item.mat) && item.mat.length > 0;
+      const hasRealSteps = Array.isArray(item.steps) && item.steps.length > 0;
+
+      // 檢查是否有國臺語對應版本 (臺中市衛生局雙語影片)
+      let langSwitchHtml = '';
+      if (item.dish.includes('【國語版】')) {
+        const twDish = item.dish.replace('【國語版】', '【臺語版】');
+        const counterpart = allRecipes.find(r => r.dish === twDish);
+        if (counterpart) {
+          langSwitchHtml = `<button class="lang-switch-btn" onclick="openModal('${counterpart.id}')">🗣️ 切換至【臺語版】教學影片</button>`;
+        }
+      } else if (item.dish.includes('【臺語版】')) {
+        const zhDish = item.dish.replace('【臺語版】', '【國語版】');
+        const counterpart = allRecipes.find(r => r.dish === zhDish);
+        if (counterpart) {
+          langSwitchHtml = `<button class="lang-switch-btn" onclick="openModal('${counterpart.id}')">🗣️ 切換至【國語版】教學影片</button>`;
+        }
+      }
+
+      // 材料區塊 HTML
+      let matHtml = '';
+      if (hasRealMat) {
+        matHtml = `
+          <h3 class="modal-section-title">🥗 準備材料（官方/原頻道真實配方）</h3>
+          <div class="materials-grid">
+            ${item.mat.map(m => `<div class="mat-item">${m}</div>`).join('')}
+          </div>
+        `;
+      }
+
+      // 步驟區塊 HTML
+      let stepsHtml = '';
+      if (hasRealSteps) {
+        stepsHtml = `
+          <h3 class="modal-section-title">🍳 料理步驟（精確烹調指引）</h3>
+          <ol class="steps-list">
+            ${item.steps.map(s => `<li>${s}</li>`).join('')}
+          </ol>
+        `;
+      }
+
+      // 若未載明精確克數或步驟，依指示呈現專屬指引
+      let missingNoticeHtml = '';
+      if (!hasRealMat || !hasRealSteps) {
+        missingNoticeHtml = `
+          <div class="modal-unverified-notice">
+            <div class="notice-icon">💡</div>
+            <div class="notice-content">
+              <strong>請點擊下方【看影片】觀看原頻道完整示範；或點擊【複製提問】一鍵生成精確材料與步驟指引！</strong>
+              <p>本道料理為原創影音示範，為落實「嚴禁推測」之實證食材規範，未載明於官方手冊或說明欄之精確克數不使用通用假資料充數。您可以點擊【複製提問】一鍵交由 AI 為您依據現場人數換算 10 人份食材與長輩安全備料指引！</p>
+            </div>
+          </div>
+        `;
+      }
 
       modalContent.innerHTML = `
         <h2 class="modal-dish-title">${item.dish}</h2>
@@ -1488,31 +1617,20 @@
           <span>⏱️ ${item.time || '15-25 分鐘'}</span>
           <span>🍳 設備：${(item.eq || []).join('、')}</span>
           <span>📢 示範：${item.ch}</span>
+          ${langSwitchHtml}
         </div>
 
-        <!-- 綠色機能色塊 (圖 2) -->
+        <!-- 綠色機能色塊 -->
         <div class="modal-highlight-card">
           <h4>💡 營養師觀點（全年齡視角）</h4>
           <p>${item.nutritionFocus || item.fit || '少油低鈉、健康原味，兼顧全齡生長發育、日常體力補充與長輩消化安全。'}</p>
         </div>
 
-        <!-- 準備材料 -->
-        <h3 class="modal-section-title">🥗 準備材料（依人數彈性調整）</h3>
-        <div class="materials-grid">
-          ${(item.mat || [item.dish + '主要食材 適量', '純淨飲用水或高湯 適量', '蔥薑天然辛香料 少許', '薄鹽醬油或少許鹽提鮮']).map(m => `
-            <div class="mat-item">${m}</div>
-          `).join('')}
-        </div>
+        ${matHtml}
+        ${stepsHtml}
+        ${missingNoticeHtml}
 
-        <!-- 料理步驟 -->
-        <h3 class="modal-section-title">🍳 料理步驟</h3>
-        <ol class="steps-list">
-          ${(item.steps || ['將食材洗淨、切成適口大小備用。', '放入烹調容器或電鍋內鍋中。', '進行加熱熟化或拌勻入味。', '溫熱盛盤享用。']).map(s => `
-            <li>${s}</li>
-          `).join('')}
-        </ol>
-
-        <!-- 調整建議 (圖 2 藍底色塊) -->
+        <!-- 調整建議 -->
         <div class="modal-adaptation-card">
           <h4>🥣 質地與備料簡化建議</h4>
           <p>${item.adaptation || item.tip || '如供幼兒或長輩食用，建議將食材切細薄或適度延長熟化時間，保留天然甘甜更易入口。'}</p>
@@ -1521,7 +1639,7 @@
         <!-- 底部三大功能按鈕 -->
         <div class="modal-actions-row">
           <a class="modal-action-btn btn-watch" href="https://www.youtube.com/watch?v=${item.id}" target="_blank" rel="noopener noreferrer">
-            ▶ 看示範影片
+            ▶ 看影片
           </a>
           <button class="modal-action-btn btn-copy-ai" onclick="copyAiPrompt()">
             📋 複製提問
@@ -1539,6 +1657,7 @@
     function closeModal() {
       modalOverlay.classList.remove('open');
       document.body.style.overflow = '';
+      document.body.classList.remove('print-single-mode');
       currentModalItem = null;
     }
     modalCloseBtn.addEventListener('click', closeModal);
@@ -1575,6 +1694,9 @@
     function printSingleLesson() {
       document.body.classList.add('print-single-mode');
       window.print();
+      setTimeout(() => {
+        document.body.classList.remove('print-single-mode');
+      }, 1000);
     }
 
     function showToast(msg) {
