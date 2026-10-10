@@ -53,7 +53,7 @@ pages_info = [
         "items": [
             {"title": "教具：營養排行榜 (Nutrition Ranking)", "url": f"{BASE_URL}/teach/nutritionranking/", "desc": "六大類食材營養密度與微量元素即時排序與比較工具。", "priority": "0.8", "changefreq": "weekly"},
             {"title": "教具：每日營養與熱量需求計算器 (TDEE/BMR)", "url": f"{BASE_URL}/teach/daily-needs/", "desc": "精算 TDEE、BMR 基礎代謝率與 6 大飲食型態三大營養素建議克數與份數。", "priority": "0.8", "changefreq": "weekly"},
-            {"title": "教具：六大類食物代換表速查 (Food Exchange)", "url": f"{BASE_URL}/teach/food-exchange/", "desc": "依衛福部國健署最新標準，54 種食物每份重量、熱量與營養素速查資料庫。", "priority": "0.8", "changefreq": "weekly"},
+            {"title": "教具：食物代換速查表 (Food Exchange)", "url": f"{BASE_URL}/teach/food-exchange/", "desc": "依衛福部國健署最新標準完整收錄，六大類食物每份重量、熱量與營養素速查資料庫。", "priority": "0.8", "changefreq": "weekly"},
             {"title": "教具：判斷比圈叉大考驗 (OX Challenge)", "url": f"{BASE_URL}/teach/ox-challenge/", "desc": "樂齡體智雙重任務互動教具，支援輪播切換題詞與自訂題庫。", "priority": "0.8", "changefreq": "monthly"},
             {"title": "教具：論文讀書小站 (Paper Radar)", "url": f"{BASE_URL}/teach/paper-radar/", "desc": "國際權威醫學期刊與營養實證研究導讀雷達站。", "priority": "0.8", "changefreq": "weekly"},
             {"title": "教具：壓力與食物關係 (Stress Food)", "url": f"{BASE_URL}/teach/Stress-Food/", "desc": "壓力荷爾蒙、皮質醇與情緒性進食的生理機轉與飲食對策。", "priority": "0.7", "changefreq": "monthly"},
