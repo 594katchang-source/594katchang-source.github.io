@@ -187,4 +187,39 @@ h1,h2,h3,p{margin-top:0}h1{max-width:none;margin-bottom:22px;font-size:clamp(2.3
   border: 1px solid rgba(46,125,90,0.15);
 }
 
+/* ============================================================
+   全站深色/漸層橫幅文字強制純白保護（杜絕深色背景配暗字）
+   ============================================================ */
+.hero-banner, .hero-banner h1, .hero-banner h2, .hero-banner p, 
+.hero-banner .lead, .hero-banner .eyebrow, .hero-banner span:not(.card-cat-badge),
+.hero-dark, .banner-dark {
+  color: #FFFFFF !important;
+}
+
+/* ============================================================
+   全站手機版閱覽舒適度優化 (RWD Mobile Usability)
+   ============================================================ */
+@media (max-width: 600px) {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  /* 確保手機觸控按鈕面積充足好點擊 */
+  button, .btn, .chip, input, select, textarea {
+    touch-action: manipulation;
+  }
+  /* 表格在窄螢幕保持滑順捲動提示 */
+  .table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  /* 邊界保護：避免貼邊 */
+  .section, main {
+    padding-left: clamp(12px, 3.5vw, 20px);
+    padding-right: clamp(12px, 3.5vw, 20px);
+  }
+}
+
+
 

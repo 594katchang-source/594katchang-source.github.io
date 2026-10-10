@@ -21,22 +21,78 @@
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "每日營養與熱量需求計算器",
-      "applicationCategory": "HealthApplication",
-      "operatingSystem": "Web",
-      "url": "https://594katchang-source.github.io/teach/daily-needs/",
-      "description": "精準計算 TDEE、BMR 基礎代謝率，並依據 6 大飲食型態分配蛋白質、脂肪與碳水化合物克數之健康工具。",
-      "author": {
-        "@type": "Person",
-        "name": "張雁雲營養師",
-        "url": "https://594katchang-source.github.io/about.html"
-      },
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "TWD"
-      }
+      "@graph": [
+        {
+          "@type": "WebApplication",
+          "name": "每日營養與熱量需求計算器 (TDEE / BMR)",
+          "applicationCategory": "HealthApplication",
+          "operatingSystem": "Web",
+          "url": "https://594katchang-source.github.io/teach/daily-needs/",
+          "description": "精準計算 TDEE、BMR 基礎代謝率，並依據 6 大飲食型態分配蛋白質、脂肪與碳水化合物克數之健康工具。",
+          "author": {
+            "@type": "Person",
+            "name": "張雁雲營養師",
+            "url": "https://594katchang-source.github.io/about.html"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "TWD"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首頁",
+              "item": "https://594katchang-source.github.io/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "互動衛教工具",
+              "item": "https://594katchang-source.github.io/teach/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "每日營養與熱量需求計算器",
+              "item": "https://594katchang-source.github.io/teach/daily-needs/"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "什麼是 TDEE 與 BMR？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "BMR（基礎代謝率）是指人體在靜止狀態下維持生命所需消耗的最低熱量；TDEE（每日總熱量消耗）則是將 BMR 乘上個人的日常身體活動強度係數，代表一天真正消耗的總熱量。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "減重時熱量赤字應該設定多少最適當？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "建議每日熱量赤字設定在 300 至 500 大卡之間（約為 TDEE 的 80%~85%），每週約可健康減重 0.3~0.5 公斤，切勿長期低於 BMR 基礎代謝率，以防肌肉流失與代謝減緩。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "長輩或高齡者每天該吃多少蛋白質？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "健康長輩為了預防肌少症與衰弱症，蛋白質建議攝取量為每公斤體重 1.2 至 1.5 公克；若有慢性腎臟病則需由營養師評估適度限制。"
+              }
+            }
+          ]
+        }
+      ]
     }
   </script>
 
@@ -208,6 +264,15 @@
     .faq-item p { margin-top: 8px; color: var(--muted); line-height: 1.7; font-size: 1.02rem; }
     @media (max-width: 768px) {
       .macro-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 600px) {
+      .calc-container { padding: 12px 10px 40px; }
+      .calc-card { padding: 20px 16px; border-radius: 20px; }
+      .form-grid { grid-template-columns: 1fr; gap: 14px; }
+      .stat-grid { grid-template-columns: 1fr; gap: 12px; }
+      .stat-box strong { font-size: 2.2rem; }
+      .faq-block { padding: 20px 16px; border-radius: 18px; }
+      .btn-calc { min-height: 48px; font-size: 1.1rem; }
     }
   </style>
 </head>
