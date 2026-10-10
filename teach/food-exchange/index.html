@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>六大類食物代換表速查 (完整實用版) ｜ Kat Chang 凱特營養師</title>
-  <meta name="description" content="依據衛福部國民健康署最新食物代換標準表設計之互動速查工具！收錄全榖雜糧、豆魚蛋肉、蔬菜、水果、乳品、油脂與堅果種子六大類食物一份份量、生熟克數、熱量與三大營養素，支援即時關鍵字搜尋與分類篩選。">
-  <meta name="keywords" content="食物代換表, 衛福部食物代換表, 一份肉幾克, 一份全穀幾克, 糖尿病食物代換, 減重份數計算, 六大類食物份量, Kat Chang, 張雁雲營養師">
+  <title>六大類食物代換表速查 (完整版) ｜ Kat Chang 凱特營養師</title>
+  <meta name="description" content="依據衛福部國民健康署最新食物代換標準表完整收錄！全榖雜糧、豆魚蛋肉（低中高脂）、蔬菜、水果、乳品、油脂與堅果種子六大類食物一份份量、生熟克數、熱量與三大營養素，支援即時關鍵字搜尋與分類折疊。">
+  <meta name="keywords" content="食物代換表, 衛福部食物代換表完整版, 一份肉幾克, 一份全穀幾克, 糖尿病食物代換, 減重份數計算, 六大類食物份量, Kat Chang, 張雁雲營養師">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
   <link rel="canonical" href="https://594katchang-source.github.io/teach/food-exchange/">
   <link rel="stylesheet" href="../../styles.css?v=20260728-mobile">
   
   <meta property="og:type" content="website">
-  <meta property="og:title" content="六大類食物代換表速查 (完整實用版) ｜ Kat Chang 凱特營養師">
-  <meta property="og:description" content="衛福部最新標準：全榖、豆魚蛋肉、蔬果、奶類、好油一份到底是多少？生活化份量對照速查。">
+  <meta property="og:title" content="六大類食物代換表速查 (完整版) ｜ Kat Chang 凱特營養師">
+  <meta property="og:description" content="依據衛福部最新標準完整收錄！全榖、豆魚蛋肉、蔬果、奶類、好油一份到底是多少？生活化份量對照速查。">
   <meta property="og:url" content="https://594katchang-source.github.io/teach/food-exchange/">
   <meta property="og:image" content="https://594katchang-source.github.io/assets/og/og-teach-hub.png">
   <meta property="og:site_name" content="Kat Chang 凱特營養師">
@@ -22,11 +22,11 @@
     {
       "@context": "https://schema.org",
       "@type": "WebApplication",
-      "name": "六大類食物代換表速查",
+      "name": "六大類食物代換表速查 (完整版)",
       "applicationCategory": "HealthApplication",
       "operatingSystem": "Web",
       "url": "https://594katchang-source.github.io/teach/food-exchange/",
-      "description": "衛福部國健署標準食物代換表數位速查工具，提供六大類食物生熟重量、份數、三大營養素與生活化手量比喻。",
+      "description": "衛福部國健署標準食物代換表完整數位速查工具，提供六大類食物生熟重量、份數、三大營養素折疊對照。",
       "author": {
         "@type": "Person",
         "name": "張雁雲營養師",
@@ -41,205 +41,264 @@
   </script>
 
   <style>
-    .exchange-container {
-      max-width: 1100px;
+    /* 依據指示：版面不花俏、乾淨清爽、大字體、折疊卡片列表呈現 */
+    .exchange-wrap {
+      max-width: 860px;
       margin: 0 auto;
-      padding: 20px 0 60px;
-    }
-    .hero-header {
-      margin-bottom: 28px;
-      text-align: center;
-    }
-    .hero-header h1 {
-      font-size: clamp(2rem, 4vw, 3.2rem);
-      font-weight: 900;
-      color: var(--green-dark);
-      margin-bottom: 12px;
-    }
-    .hero-header .lead {
-      margin: 0 auto;
-      color: var(--muted);
-      font-size: 1.15rem;
+      padding: 16px 12px 60px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
     }
     .nav-breadcrumbs {
       display: flex;
       align-items: center;
       gap: 8px;
-      font-size: 0.95rem;
+      font-size: 1rem;
       font-weight: 700;
       color: var(--muted);
-      margin-bottom: 24px;
+      margin-bottom: 20px;
     }
     .nav-breadcrumbs a { text-decoration: none; color: var(--green-dark); }
     
-    /* 總表卡片 */
-    .summary-card {
-      background: var(--surface);
+    /* 置頂搜尋列 */
+    .sticky-search-box {
+      position: sticky;
+      top: 65px;
+      z-index: 20;
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(12px);
       border: 1px solid var(--line);
       border-radius: 24px;
-      padding: 24px;
-      box-shadow: var(--shadow);
-      margin-bottom: 32px;
-      overflow-x: auto;
-    }
-    .summary-card h2 {
-      font-size: 1.4rem;
-      color: var(--ink);
-      margin-bottom: 16px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-    .summary-table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 1rem;
-      text-align: center;
-    }
-    .summary-table th, .summary-table td {
-      padding: 12px 14px;
-      border: 1px solid #e1ebe3;
-    }
-    .summary-table th {
-      background: #eef6f2;
-      color: var(--green-dark);
-      font-weight: 900;
-    }
-    .summary-table tr:nth-child(even) { background: #fafcfa; }
-
-    /* 搜尋與過濾 */
-    .filter-bar {
-      display: flex;
-      gap: 14px;
-      flex-wrap: wrap;
-      margin-bottom: 24px;
-      align-items: center;
-      background: rgba(255, 255, 255, 0.9);
-      padding: 16px 20px;
-      border-radius: 20px;
-      border: 1px solid var(--line);
-    }
-    .search-input {
-      flex: 1 1 260px;
-      min-height: 48px;
-      padding: 10px 16px;
-      border: 1.5px solid #cfd8d2;
-      border-radius: 14px;
-      font-size: 1.05rem;
-      font-family: inherit;
-    }
-    .search-input:focus {
-      outline: none;
-      border-color: var(--green);
-      box-shadow: 0 0 0 3px rgba(31, 122, 91, 0.15);
-    }
-    .cat-pills {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-    .cat-btn {
-      padding: 8px 16px;
-      border-radius: 999px;
-      border: 1px solid var(--line);
-      background: #fff;
-      color: var(--ink);
-      font-weight: 800;
-      font-size: 0.95rem;
-      cursor: pointer;
-      transition: all .18s;
-    }
-    .cat-btn.active, .cat-btn:hover {
-      background: var(--green-dark);
-      border-color: var(--green-dark);
-      color: #fff;
-    }
-
-    /* 食物卡片清單網格 */
-    .foods-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
-      gap: 18px;
-      margin-bottom: 40px;
-    }
-    .food-item-card {
-      background: #fff;
-      border: 1px solid var(--line);
-      border-radius: 20px;
       padding: 20px;
-      box-shadow: 0 8px 24px rgba(24, 33, 43, 0.05);
-      transition: transform .18s, box-shadow .18s;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
+      box-shadow: 0 10px 30px rgba(24, 33, 43, 0.08);
+      margin-bottom: 28px;
     }
-    .food-item-card:hover {
-      transform: translateY(-3px);
-      box-shadow: var(--shadow);
-    }
-    .card-top {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      margin-bottom: 12px;
-    }
-    .food-name {
-      font-size: 1.3rem;
+    .main-title {
+      font-size: clamp(1.8rem, 4vw, 2.4rem);
       font-weight: 900;
-      color: var(--ink);
-      margin: 0;
-    }
-    .badge {
-      display: inline-block;
-      padding: 4px 10px;
-      border-radius: 999px;
-      font-size: 0.85rem;
-      font-weight: 800;
-    }
-    .badge.grain { background: #fdf5e6; color: #a66500; border: 1px solid #f6deb3; }
-    .badge.protein { background: #eef6f2; color: #0d4c39; border: 1px solid #c8e4d3; }
-    .badge.veg { background: #eef9f2; color: #1e7041; border: 1px solid #c9ebd4; }
-    .badge.fruit { background: #fdf0f0; color: #b83333; border: 1px solid #f8d0d0; }
-    .badge.dairy { background: #f0f7fd; color: #1a5c9e; border: 1px solid #cfe2f6; }
-    .badge.fat { background: #fffbe6; color: #8f6e05; border: 1px solid #fae896; }
-
-    .food-portion {
-      background: #f8faf8;
-      border-radius: 12px;
-      padding: 12px 14px;
+      color: #0f5b43;
+      text-align: center;
       margin-bottom: 14px;
     }
-    .portion-title {
-      font-size: 0.88rem;
-      color: var(--muted);
-      font-weight: 700;
-      margin-bottom: 4px;
-    }
-    .portion-val {
-      font-size: 1.15rem;
-      font-weight: 900;
-      color: var(--green-dark);
-    }
-    .macro-chips {
+    .search-input-wrap {
+      position: relative;
       display: flex;
-      gap: 8px;
-      font-size: 0.9rem;
-      font-weight: 800;
-      color: var(--muted);
-      border-top: 1px solid #eff3ef;
-      padding-top: 10px;
+      align-items: center;
     }
-    .macro-chips span { flex: 1; text-align: center; }
+    .search-input {
+      width: 100%;
+      height: 56px;
+      padding: 12px 48px 12px 20px;
+      border: 2px solid #2da67b;
+      border-radius: 999px;
+      font-size: 1.25rem;
+      font-family: inherit;
+      outline: none;
+      transition: border-color .2s, box-shadow .2s;
+      background: #fff;
+    }
+    .search-input:focus {
+      border-color: #0f5b43;
+      box-shadow: 0 0 0 4px rgba(45, 166, 123, 0.2);
+    }
+    .clear-search-btn {
+      position: absolute;
+      right: 16px;
+      background: #eef2ef;
+      border: none;
+      border-radius: 50%;
+      width: 32px;
+      height: 32px;
+      font-size: 18px;
+      color: #666;
+      cursor: pointer;
+      display: none;
+      align-items: center;
+      justify-content: center;
+    }
+    .search-hint {
+      text-align: center;
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
 
-    .empty-hint {
+    /* 類別折疊卡片 */
+    .cat-card {
+      background: #fff;
+      border: 1px solid #e2e8e4;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 6px 20px rgba(24, 33, 43, 0.04);
+      margin-bottom: 22px;
+    }
+    .cat-header {
+      width: 100%;
+      background: linear-gradient(135deg, #1f7a5b, #155d44);
+      padding: 18px 22px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      text-align: left;
+      transition: background .2s;
+    }
+    .cat-header:hover {
+      background: linear-gradient(135deg, #17654a, #0e4c36);
+    }
+    .cat-title-text {
+      font-size: 1.5rem;
+      font-weight: 900;
+      letter-spacing: 0.02em;
+      margin-bottom: 6px;
+    }
+    .cat-meta-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      font-size: 0.92rem;
+      font-weight: 700;
+    }
+    .meta-pill {
+      background: rgba(255, 255, 255, 0.22);
+      padding: 3px 10px;
+      border-radius: 8px;
+    }
+    .cat-note {
+      font-size: 0.85rem;
+      color: #ffeaa7;
+      margin-top: 5px;
+      font-weight: 600;
+    }
+    .toggle-arrow {
+      font-size: 26px;
+      font-weight: 900;
+      margin-left: 14px;
+      transition: transform 0.2s ease;
+    }
+    .cat-card.collapsed .toggle-arrow {
+      transform: rotate(-90deg);
+    }
+
+    /* 內容清單表格區 */
+    .cat-body {
+      display: block;
+    }
+    .cat-card.collapsed .cat-body {
+      display: none;
+    }
+    .table-head {
+      display: grid;
+      grid-template-columns: 5fr 4fr 3fr;
+      padding: 14px 18px;
+      background: #f7faf8;
+      font-weight: 900;
+      color: #55655b;
+      font-size: 1.1rem;
+      border-bottom: 1px solid #eef2ef;
+    }
+    .table-row {
+      display: grid;
+      grid-template-columns: 5fr 4fr 3fr;
+      padding: 16px 18px;
+      align-items: center;
+      border-bottom: 1px solid #f0f4f1;
+      font-size: 1.25rem;
+      transition: background .15s;
+    }
+    .table-row:last-child {
+      border-bottom: none;
+    }
+    .table-row:hover {
+      background: #f0f9f4;
+    }
+    .food-name-col {
+      font-weight: 900;
+      color: var(--ink);
+    }
+    .food-note-text {
+      font-size: 0.85rem;
+      color: #d74436;
+      font-weight: 700;
+      margin-top: 3px;
+    }
+    .food-amount-col {
+      color: #4a5568;
+      text-align: center;
+    }
+    .food-weight-col {
+      color: #718096;
+      text-align: center;
+      font-size: 1.05rem;
+    }
+
+    .no-result-box {
       text-align: center;
       padding: 60px 20px;
       background: #fff;
       border-radius: 20px;
       border: 1px dashed var(--line);
       color: var(--muted);
-      font-size: 1.15rem;
-      grid-column: 1 / -1;
+      font-size: 1.3rem;
+      margin-top: 20px;
+    }
+
+    /* 自訂底部專案卡 */
+    .custom-footer-card {
+      background: #0f4a38;
+      color: #fff;
+      border-radius: 24px;
+      padding: 32px 28px;
+      margin-top: 48px;
+    }
+    .footer-author-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+      flex-wrap: wrap;
+    }
+    .footer-author-box h3 {
+      font-size: 1.5rem;
+      margin: 0 0 6px;
+      color: #d1fae5;
+    }
+    .btn-portaly {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #fff;
+      color: #0f4a38;
+      padding: 12px 24px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 900;
+      font-size: 1.05rem;
+      transition: transform .18s;
+    }
+    .btn-portaly:hover {
+      transform: translateY(-2px);
+      background: #f0fdf4;
+    }
+    .disclaimer-box {
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 16px;
+      padding: 18px 20px;
+      margin-top: 22px;
+      font-size: 0.98rem;
+      line-height: 1.7;
+      color: #d1fae5;
+    }
+
+    @media (max-width: 600px) {
+      .table-head { font-size: 1rem; padding: 12px 14px; }
+      .table-row { font-size: 1.15rem; padding: 14px 12px; }
+      .cat-title-text { font-size: 1.3rem; }
+      .sticky-search-box { top: 0; padding: 16px; }
     }
   </style>
 </head>
@@ -260,214 +319,529 @@
     </nav>
   </header>
 
-  <main class="section">
-    <div class="exchange-container">
+  <main class="section" style="padding-top: 20px;">
+    <div class="exchange-wrap">
       <div class="nav-breadcrumbs">
         <a href="../../">首頁</a> &gt; <a href="../">互動衛教工具</a> &gt; <span>食物代換表速查</span>
       </div>
 
-      <div class="hero-header">
-        <p class="eyebrow">Food Exchange Database</p>
-        <h1>六大類食物代換表速查 (完整實用版)</h1>
-        <p class="lead">依據衛福部國民健康署最新食物代換標準表設計。幫助您精準掌握「一份」的份量、克數與熱量，日常備餐、控糖減脂一目瞭然！</p>
+      <!-- 置頂搜尋區 -->
+      <div class="sticky-search-box">
+        <h1 class="main-title">🥗 食物代換速查表 (完整版)</h1>
+        <div class="search-input-wrap">
+          <input type="text" id="searchInput" class="search-input" placeholder="搜尋食物... (例如: 飯, 牛奶, 蘋果, 菜, 雞胸肉)">
+          <button id="clearSearchBtn" class="clear-search-btn" aria-label="清除搜尋">✕</button>
+        </div>
+        <div class="search-hint">每一份量之營養成分與重量對照 ｜ 100% 完整收錄衛福部官方代換表</div>
       </div>
 
-      <!-- 總表模組 -->
-      <div class="summary-card">
-        <h2>
-          <span>📊</span>
-          <span>六大類食物「每 1 份」營養成分總表</span>
-        </h2>
-        <table class="summary-table">
-          <thead>
-            <tr>
-              <th>類別名稱</th>
-              <th>蛋白質 (g)</th>
-              <th>脂肪 (g)</th>
-              <th>醣類 (g)</th>
-              <th>每份熱量 (大卡)</th>
-              <th>主要提供營養素</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><b>全榖雜糧類</b></td>
-              <td>2</td>
-              <td>微量</td>
-              <td>15</td>
-              <td><b>70</b></td>
-              <td>複合碳水化合物、B群、膳食纖維</td>
-            </tr>
-            <tr>
-              <td><b>豆魚蛋肉 (低脂)</b></td>
-              <td>7</td>
-              <td>3 以下</td>
-              <td>微量</td>
-              <td><b>55</b></td>
-              <td>優質蛋白質、鐵、維生素B12</td>
-            </tr>
-            <tr>
-              <td><b>豆魚蛋肉 (中脂)</b></td>
-              <td>7</td>
-              <td>5</td>
-              <td>微量</td>
-              <td><b>75</b></td>
-              <td>優質蛋白質、脂肪、卵磷脂</td>
-            </tr>
-            <tr>
-              <td><b>豆魚蛋肉 (高脂)</b></td>
-              <td>7</td>
-              <td>10</td>
-              <td>微量</td>
-              <td><b>120</b></td>
-              <td>飽和脂肪較高，建議適量攝取</td>
-            </tr>
-            <tr>
-              <td><b>蔬菜類</b></td>
-              <td>1</td>
-              <td>微量</td>
-              <td>5</td>
-              <td><b>25</b></td>
-              <td>膳食纖維、鉀、鎂、植化素</td>
-            </tr>
-            <tr>
-              <td><b>水果類</b></td>
-              <td>微量</td>
-              <td>微量</td>
-              <td>15</td>
-              <td><b>60</b></td>
-              <td>天然果糖、維生素C、抗氧化物質</td>
-            </tr>
-            <tr>
-              <td><b>乳品類 (全脂)</b></td>
-              <td>8</td>
-              <td>8</td>
-              <td>12</td>
-              <td><b>150</b></td>
-              <td>鈣質、優質蛋白質、維生素B2</td>
-            </tr>
-            <tr>
-              <td><b>乳品類 (低脂)</b></td>
-              <td>8</td>
-              <td>4</td>
-              <td>12</td>
-              <td><b>120</b></td>
-              <td>豐富鈣質、低飽和脂肪</td>
-            </tr>
-            <tr>
-              <td><b>油脂與堅果種子</b></td>
-              <td>微量</td>
-              <td>5</td>
-              <td>微量</td>
-              <td><b>45</b></td>
-              <td>必需脂肪酸、維生素E、不飽和脂肪</td>
-            </tr>
-          </tbody>
-        </table>
+      <!-- 分類列表區容器 -->
+      <div id="categoriesContainer"></div>
+      <div id="noResult" class="no-result-box" style="display: none;">
+        找不到符合搜尋條件的食物，請嘗試輸入其他關鍵字。
       </div>
 
-      <!-- 篩選列 -->
-      <div class="filter-bar">
-        <input type="text" id="searchInput" class="search-input" placeholder="🔍 搜尋食材名稱（如：白飯、雞胸肉、蛋、芭樂、堅果...）">
-        <div class="cat-pills">
-          <button class="cat-btn active" data-cat="all">全部 (54)</button>
-          <button class="cat-btn" data-cat="全榖雜糧類">全榖雜糧</button>
-          <button class="cat-btn" data-cat="豆魚蛋肉類">豆魚蛋肉</button>
-          <button class="cat-btn" data-cat="蔬菜類">蔬菜類</button>
-          <button class="cat-btn" data-cat="水果類">水果類</button>
-          <button class="cat-btn" data-cat="乳品類">乳品類</button>
-          <button class="cat-btn" data-cat="油脂與堅果種子類">油脂堅果</button>
+      <!-- 底部設計者與免責聲明 -->
+      <div class="custom-footer-card">
+        <div class="footer-author-box">
+          <div>
+            <h3>Kat Chang 凱特營養師 (張雁雲) 設計</h3>
+            <p style="margin: 0; color: #a7f3d0; font-size: 1.05rem;">專業營養諮詢 • 個人化飲食規劃 • 樂齡衛教推廣</p>
+          </div>
+          <a href="https://portaly.cc/katchang" target="_blank" rel="noopener" class="btn-portaly">
+            查看電子名片 ➔
+          </a>
+        </div>
+        <div class="disclaimer-box">
+          <b>📋 免責聲明：</b><br>
+          本食物代換表僅供初步參考使用，資料來源依據衛生福利部國民健康署最新公布之《食物代換表》。但個別健康情況、慢性疾病（如糖尿病、腎臟病）營養需求有所不同，重要飲食調整或營養介入前，請務必諮詢合格營養師。
         </div>
       </div>
-
-      <!-- 食物卡片清單 -->
-      <div class="foods-grid" id="foodsGrid"></div>
-
     </div>
   </main>
 
   <footer style="text-align:center; padding:28px; color:var(--muted); border-top:1px solid var(--line); font-size:1rem;">
-    @2026 Kat Chang 凱特營養師｜中高齡營養專家 ｜ 資料來源：衛生福利部國民健康署《食物代換表》 ｜ <a href="../../sitemap.html" style="color:inherit; font-weight:700;">網站地圖</a> ｜ <a href="../" style="color:var(--green-dark); font-weight:700;">返回教具總覽</a>
+    @2026 Kat Chang 凱特營養師｜中高齡營養專家 ｜ <a href="../../sitemap.html" style="color:inherit; font-weight:700;">網站地圖</a> ｜ <a href="../" style="color:var(--green-dark); font-weight:700;">返回教具總覽</a>
   </footer>
 
   <script>
-    let foodsData = [];
-    let currentCat = 'all';
-
-    const catBadgeClass = {
-      '全榖雜糧類': 'grain',
-      '豆魚蛋肉類': 'protein',
-      '蔬菜類': 'veg',
-      '水果類': 'fruit',
-      '乳品類': 'dairy',
-      '油脂與堅果種子類': 'fat'
+    // --- 資料庫 (完整收錄所有類別與 100% 完整品項) ---
+    const CATEGORIES = {
+      DAIRY_FULL: { name: '乳品類 (全脂)', protein: 8, fat: 8, carbs: 12, calories: 150, note: '' },
+      DAIRY_LOW: { name: '乳品類 (低脂)', protein: 8, fat: 4, carbs: 12, calories: 120, note: '' },
+      DAIRY_SKIM: { name: '乳品類 (脫脂)', protein: 8, fat: 0, carbs: 12, calories: 80, note: '脂肪標示為微量' },
+      PROTEIN_LOW: { name: '豆魚蛋肉類 (低脂)', protein: 7, fat: 3, carbs: 0, calories: 55, note: '脂肪3公克以下' },
+      PROTEIN_MED: { name: '豆魚蛋肉類 (中脂)', protein: 7, fat: 5, carbs: 0, calories: 75, note: '' },
+      PROTEIN_HIGH: { name: '豆魚蛋肉類 (高脂 & 超高脂)', protein: 7, fat: 10, carbs: 0, calories: 120, note: '含超高脂類(脂肪>10g, 熱量>135kcal)' },
+      GRAINS: { name: '全穀雜糧類', protein: 2, fat: 0, carbs: 15, calories: 70, note: '脂肪標示為微量' },
+      VEGETABLES: { name: '蔬菜類', protein: 1, fat: 0, carbs: 5, calories: 25, note: '每份可食部分約100公克' },
+      FRUITS: { name: '水果類', protein: 0, fat: 0, carbs: 15, calories: 60, note: '蛋白質標示為微量' },
+      OILS: { name: '油脂與堅果種子類', protein: 0, fat: 5, carbs: 0, calories: 45, note: '' }
     };
 
-    fetch('../../food_exchange_db.json')
-      .then(res => res.json())
-      .then(data => {
-        foodsData = data.items;
-        renderFoods();
-      })
-      .catch(err => {
-        console.error('Failed to load foods:', err);
-      });
+    const FOOD_DATABASE = [
+      // --- 乳品類 (全脂) ---
+      { name: '全脂奶', amount: '1杯', weight: '240ml', category: 'DAIRY_FULL' },
+      { name: '全脂奶粉', amount: '4湯匙', weight: '30g', category: 'DAIRY_FULL' },
+      { name: '蒸發奶', amount: '1/2杯', weight: '120ml', category: 'DAIRY_FULL' },
+      { name: '起司片', amount: '2片', weight: '45g', category: 'DAIRY_FULL' },
+      { name: '乳酪絲', amount: '-', weight: '35g', category: 'DAIRY_FULL' },
+      
+      // --- 乳品類 (低脂) ---
+      { name: '低脂奶', amount: '1杯', weight: '240ml', category: 'DAIRY_LOW' },
+      { name: '低脂奶粉', amount: '3湯匙', weight: '25g', category: 'DAIRY_LOW' },
+      { name: '優格(無糖)', amount: '3/4杯', weight: '210g', category: 'DAIRY_LOW' },
+      { name: '優酪乳(無糖)', amount: '1杯', weight: '240ml', category: 'DAIRY_LOW' },
 
+      // --- 乳品類 (脫脂) ---
+      { name: '脫脂奶', amount: '1杯', weight: '240ml', category: 'DAIRY_SKIM' },
+      { name: '脫脂奶粉', amount: '2.5湯匙', weight: '20g', category: 'DAIRY_SKIM' },
+
+      // --- 豆魚蛋肉類 (低脂) ---
+      { name: '蝦米', amount: '-', weight: '15g (生)', category: 'PROTEIN_LOW' },
+      { name: '小魚干', amount: '-', weight: '10g (生)', category: 'PROTEIN_LOW' },
+      { name: '蝦皮', amount: '-', weight: '20g (生)', category: 'PROTEIN_LOW' },
+      { name: '魚脯', amount: '-', weight: '30g (生)', category: 'PROTEIN_LOW' },
+      { name: '鰹魚、鮪魚', amount: '-', weight: '30g (生)', category: 'PROTEIN_LOW' },
+      { name: '一般魚類', amount: '-', weight: '35g (生)', category: 'PROTEIN_LOW' },
+      { name: '白鯧', amount: '-', weight: '40g (生)', category: 'PROTEIN_LOW' },
+      { name: '蝦仁', amount: '-', weight: '50g (生)', category: 'PROTEIN_LOW' },
+      { name: '小卷(鹹)', amount: '-', weight: '35g (生)', category: 'PROTEIN_LOW' },
+      { name: '花枝', amount: '-', weight: '60g (生)', category: 'PROTEIN_LOW' },
+      { name: '章魚', amount: '-', weight: '55g (生)', category: 'PROTEIN_LOW' },
+      { name: '魚丸(不包肉)', amount: '-', weight: '55g (生/熟)', category: 'PROTEIN_LOW', note: '+10g碳水化合物' },
+      { name: '牡蠣', amount: '-', weight: '65g(生) / 35g(熟)', category: 'PROTEIN_LOW' },
+      { name: '文蛤', amount: '-', weight: '160g (生)', category: 'PROTEIN_LOW' },
+      { name: '白海參', amount: '-', weight: '100g (生)', category: 'PROTEIN_LOW' },
+      { name: '豬大里肌 (瘦豬後腿/前腿肉)', amount: '-', weight: '35g (生) / 30g (熟)', category: 'PROTEIN_LOW' },
+      { name: '牛腱', amount: '-', weight: '35g (生) / 30g (熟)', category: 'PROTEIN_LOW' },
+      { name: '牛肉干', amount: '-', weight: '20g (生)', category: 'PROTEIN_LOW', note: '+5g碳水化合物' },
+      { name: '豬肉干', amount: '-', weight: '15g (生)', category: 'PROTEIN_LOW', note: '+5g碳水化合物' },
+      { name: '火腿', amount: '-', weight: '45g (生)', category: 'PROTEIN_LOW', note: '+5g碳水化合物' },
+      { name: '雞里肉、雞胸肉', amount: '-', weight: '30g (生)', category: 'PROTEIN_LOW' },
+      { name: '雞腿', amount: '-', weight: '40g (生)', category: 'PROTEIN_LOW' },
+      { name: '牛肚', amount: '-', weight: '50g (生)', category: 'PROTEIN_LOW' },
+      { name: '雞肫', amount: '-', weight: '40g (生)', category: 'PROTEIN_LOW' },
+      { name: '豬心', amount: '-', weight: '45g (生)', category: 'PROTEIN_LOW' },
+      { name: '豬肝', amount: '-', weight: '30g(生) / 20g(熟)', category: 'PROTEIN_LOW' },
+      { name: '雞肝', amount: '-', weight: '40g(生) / 30g(熟)', category: 'PROTEIN_LOW' },
+      { name: '膽肝', amount: '-', weight: '20g (生)', category: 'PROTEIN_LOW' },
+      { name: '豬腎', amount: '-', weight: '45g (生)', category: 'PROTEIN_LOW' },
+      { name: '豬血', amount: '-', weight: '110g (生)', category: 'PROTEIN_LOW' },
+      { name: '雞蛋白', amount: '-', weight: '60g (生)', category: 'PROTEIN_LOW' },
+      { name: '黃豆', amount: '-', weight: '20g (生)', category: 'PROTEIN_LOW', note: '+5g碳水化合物' },
+      { name: '黑豆', amount: '-', weight: '25g (生)', category: 'PROTEIN_LOW', note: '+10g碳水化合物' },
+      { name: '毛豆', amount: '-', weight: '50g (生)', category: 'PROTEIN_LOW', note: '+5g碳水化合物' },
+      { name: '豆包', amount: '-', weight: '30g (生)', category: 'PROTEIN_LOW' },
+      { name: '干絲', amount: '-', weight: '40g (生)', category: 'PROTEIN_LOW' },
+      { name: '臭豆腐', amount: '-', weight: '50g (生)', category: 'PROTEIN_LOW' },
+      { name: '無糖豆漿', amount: '-', weight: '190ml', category: 'PROTEIN_LOW' },
+      { name: '麵腸', amount: '-', weight: '35g (生)', category: 'PROTEIN_LOW' },
+      { name: '麵丸', amount: '-', weight: '40g (生)', category: 'PROTEIN_LOW' },
+      { name: '烤麩', amount: '-', weight: '35g (生)', category: 'PROTEIN_LOW' },
+
+      // --- 豆魚蛋肉類 (中脂) ---
+      { name: '虱目魚、烏魚、肉鯽、鹹醞魚、鮭魚', amount: '-', weight: '35g(生) / 30g(熟)', category: 'PROTEIN_MED' },
+      { name: '魚肉鬆', amount: '-', weight: '25g (生)', category: 'PROTEIN_MED', note: '+10g碳水化合物' },
+      { name: '鱈魚、比目魚', amount: '-', weight: '50g (生)', category: 'PROTEIN_MED' },
+      { name: '虱目魚丸、花枝丸', amount: '-', weight: '50g (生)', category: 'PROTEIN_MED', note: '+7g碳水化合物' },
+      { name: '旗魚丸、魚丸(包肉)', amount: '-', weight: '60g (生)', category: 'PROTEIN_MED', note: '+7g碳水化合物' },
+      { name: '豬大排、豬小排', amount: '-', weight: '35g(生) / 30g(熟)', category: 'PROTEIN_MED' },
+      { name: '豬後腿肉、豬前腿肉、羊肉、豬腳', amount: '-', weight: '35g(生) / 30g(熟)', category: 'PROTEIN_MED' },
+      { name: '豬肉鬆', amount: '-', weight: '20g (生)', category: 'PROTEIN_MED', note: '+5g碳水化合物' },
+      { name: '肉脯', amount: '-', weight: '20g (生)', category: 'PROTEIN_MED' },
+      { name: '低脂培根', amount: '-', weight: '40g (生)', category: 'PROTEIN_MED' },
+      { name: '雞翅、雞排', amount: '-', weight: '40g (生)', category: 'PROTEIN_MED' },
+      { name: '雞爪', amount: '-', weight: '30g (生)', category: 'PROTEIN_MED' },
+      { name: '鴨賞', amount: '-', weight: '25g (生)', category: 'PROTEIN_MED' },
+      { name: '豬舌', amount: '-', weight: '40g (生)', category: 'PROTEIN_MED' },
+      { name: '豬肚', amount: '-', weight: '50g (生)', category: 'PROTEIN_MED' },
+      { name: '豬小腸', amount: '-', weight: '55g (生)', category: 'PROTEIN_MED' },
+      { name: '豬腦', amount: '-', weight: '60g (生)', category: 'PROTEIN_MED' },
+      { name: '雞蛋', amount: '-', weight: '55g (生)', category: 'PROTEIN_MED' },
+      { name: '豆枝', amount: '-', weight: '60g (生)', category: 'PROTEIN_MED', note: '+5g油脂+30g碳水' },
+      { name: '百頁結', amount: '-', weight: '50g (生)', category: 'PROTEIN_MED' },
+      { name: '油豆腐', amount: '-', weight: '55g (生)', category: 'PROTEIN_MED' },
+      { name: '豆豉', amount: '-', weight: '35g (生)', category: 'PROTEIN_MED' },
+      { name: '五香豆干', amount: '-', weight: '35g (生)', category: 'PROTEIN_MED' },
+      { name: '小方豆干', amount: '-', weight: '40g (生)', category: 'PROTEIN_MED' },
+      { name: '黃豆干', amount: '-', weight: '70g (生)', category: 'PROTEIN_MED' },
+      { name: '傳統豆腐', amount: '-', weight: '80g (生)', category: 'PROTEIN_MED' },
+      { name: '嫩豆腐', amount: '1/2盒', weight: '140g (生)', category: 'PROTEIN_MED' },
+      { name: '素獅子頭', amount: '-', weight: '50g (生)', category: 'PROTEIN_MED', note: '含碳水5g' },
+      { name: '素火腿', amount: '-', weight: '40g (生)', category: 'PROTEIN_MED', note: '含碳水3g' },
+      { name: '素油雞', amount: '-', weight: '55g (生)', category: 'PROTEIN_MED', note: '含碳水7g' },
+      { name: '素香鬆', amount: '-', weight: '25g (生)', category: 'PROTEIN_MED', note: '含碳水12g' },
+
+      // --- 豆魚蛋肉類 (高脂 & 超高脂) ---
+      { name: '秋刀魚', amount: '-', weight: '35g (生)', category: 'PROTEIN_HIGH' },
+      { name: '牛肉條', amount: '-', weight: '40g (生)', category: 'PROTEIN_HIGH' },
+      { name: '豬肉酥', amount: '-', weight: '20g (生)', category: 'PROTEIN_HIGH', note: '+5g碳水' },
+      { name: '雞心', amount: '-', weight: '45g (生)', category: 'PROTEIN_HIGH' },
+      { name: '素雞', amount: '-', weight: '40g (生)', category: 'PROTEIN_HIGH' },
+      { name: '素魚', amount: '-', weight: '35g (生)', category: 'PROTEIN_HIGH' },
+      { name: '素雞塊', amount: '-', weight: '50g (生)', category: 'PROTEIN_HIGH', note: '+7g碳水' },
+      { name: '百頁豆腐', amount: '-', weight: '70g (生)', category: 'PROTEIN_HIGH' },
+      { name: '麵筋泡', amount: '-', weight: '15g (生)', category: 'PROTEIN_HIGH' },
+      { name: '豬蹄膀', amount: '-', weight: '40g (生)', category: 'PROTEIN_HIGH', note: '超高脂 (脂肪>10g, 熱量>135kcal)' },
+      { name: '梅花肉', amount: '-', weight: '35g (生)', category: 'PROTEIN_HIGH', note: '超高脂 (脂肪>10g, 熱量>135kcal)' },
+      { name: '牛腩', amount: '-', weight: '40g (生)', category: 'PROTEIN_HIGH', note: '超高脂 (脂肪>10g, 熱量>135kcal)' },
+      { name: '豬大腸', amount: '-', weight: '100g (生)', category: 'PROTEIN_HIGH', note: '超高脂 (脂肪>10g, 熱量>135kcal)' },
+      { name: '香腸、蒜味香腸、五花臘肉', amount: '-', weight: '40g (生)', category: 'PROTEIN_HIGH', note: '加工製品，超高脂' },
+      { name: '熱狗、五花肉', amount: '-', weight: '50g (生)', category: 'PROTEIN_HIGH', note: '加工製品，超高脂' },
+      { name: '素肉燥', amount: '-', weight: '65g (生)', category: 'PROTEIN_HIGH', note: '+10g碳水，超高脂' },
+
+      // --- 全穀雜糧類 ---
+      { name: '米、黑米、小米、糯米、糙米、什穀米、胚芽米', amount: '1/8杯(米杯)', weight: '20g', category: 'GRAINS' },
+      { name: '飯', amount: '1/4碗', weight: '40g', category: 'GRAINS' },
+      { name: '粥(稠)', amount: '1/2碗', weight: '125g', category: 'GRAINS' },
+      { name: '白年糕', amount: '-', weight: '30g', category: 'GRAINS' },
+      { name: '芋頭糕', amount: '-', weight: '60g', category: 'GRAINS' },
+      { name: '蘿蔔糕', amount: '1塊 (6x8x1.5cm)', weight: '50g', category: 'GRAINS' },
+      { name: '豬血糕', amount: '-', weight: '35g', category: 'GRAINS' },
+      { name: '小湯圓(無餡)', amount: '約10粒', weight: '30g', category: 'GRAINS' },
+      { name: '燒餅', amount: '1/4個', weight: '20g', category: 'GRAINS', note: '+1/2茶匙油' },
+      { name: '油條', amount: '2/3根', weight: '(未標示重量)', category: 'GRAINS', note: '+3茶匙油' },
+      { name: '甜不辣', amount: '-', weight: '40g', category: 'GRAINS', note: '高蛋白(8.8g)' },
+      { name: '馬鈴薯', amount: '1/2個(中)', weight: '90g', category: 'GRAINS' },
+      { name: '蕃薯(地瓜)', amount: '1/2個(小)', weight: '55g', category: 'GRAINS' },
+      { name: '山藥', amount: '1塊', weight: '80g', category: 'GRAINS' },
+      { name: '芋頭', amount: '1/5個(中)', weight: '55g', category: 'GRAINS' },
+      { name: '荸薺', amount: '8粒', weight: '100g', category: 'GRAINS' },
+      { name: '蓮藕', amount: '-', weight: '100g', category: 'GRAINS' },
+      { name: '大麥、小麥、蕎麥', amount: '-', weight: '20g', category: 'GRAINS' },
+      { name: '麥粉', amount: '4湯匙', weight: '20g', category: 'GRAINS' },
+      { name: '麥片', amount: '3湯匙', weight: '20g', category: 'GRAINS' },
+      { name: '麵粉', amount: '3湯匙', weight: '20g', category: 'GRAINS' },
+      { name: '麵條(乾)', amount: '-', weight: '20g', category: 'GRAINS' },
+      { name: '麵條(濕)', amount: '-', weight: '30g', category: 'GRAINS' },
+      { name: '麵條(熟)', amount: '1/2碗', weight: '60g', category: 'GRAINS' },
+      { name: '拉麵', amount: '-', weight: '25g', category: 'GRAINS' },
+      { name: '油麵', amount: '1/2碗', weight: '45g', category: 'GRAINS' },
+      { name: '鍋燒麵(熟)', amount: '-', weight: '60g', category: 'GRAINS' },
+      { name: '通心粉(乾)', amount: '1/3杯', weight: '20g', category: 'GRAINS', note: '高蛋白' },
+      { name: '義大利麵(乾)、全麥', amount: '-', weight: '20g', category: 'GRAINS', note: '高蛋白' },
+      { name: '麵線(乾)', amount: '-', weight: '25g', category: 'GRAINS' },
+      { name: '餃子皮', amount: '3張', weight: '30g', category: 'GRAINS' },
+      { name: '餛飩皮', amount: '3-7張', weight: '30g', category: 'GRAINS' },
+      { name: '春捲皮', amount: '1.5張', weight: '30g', category: 'GRAINS' },
+      { name: '饅頭', amount: '1/3個(中)', weight: '30g', category: 'GRAINS' },
+      { name: '山東饅頭', amount: '1/6個', weight: '30g', category: 'GRAINS' },
+      { name: '吐司、全麥吐司', amount: '1/2~1/3片', weight: '30g', category: 'GRAINS' },
+      { name: '餐包', amount: '1個(小)', weight: '30g', category: 'GRAINS' },
+      { name: '漢堡麵包', amount: '1/2個', weight: '25g', category: 'GRAINS' },
+      { name: '菠蘿麵包', amount: '1/3個(小)', weight: '30g', category: 'GRAINS', note: '+1茶匙油' },
+      { name: '奶酥麵包', amount: '1/3個(小)', weight: '30g', category: 'GRAINS', note: '+1茶匙油' },
+      { name: '蘇打餅干', amount: '3片', weight: '20g', category: 'GRAINS' },
+      { name: '玉米或玉米粒', amount: '2/3根', weight: '85g', category: 'GRAINS' },
+      { name: '爆米花(不加奶油)', amount: '1杯', weight: '15g', category: 'GRAINS' },
+      { name: '薏仁', amount: '1.5湯匙', weight: '20g', category: 'GRAINS', note: '高蛋白' },
+      { name: '蓮子(乾)', amount: '40粒', weight: '25g', category: 'GRAINS', note: '高蛋白' },
+      { name: '栗子(乾)', amount: '3粒(大)', weight: '20g', category: 'GRAINS' },
+      { name: '菱角', amount: '8粒', weight: '60g', category: 'GRAINS' },
+      { name: '南瓜', amount: '-', weight: '85g', category: 'GRAINS' },
+      { name: '豌豆仁', amount: '-', weight: '70g', category: 'GRAINS', note: '高蛋白' },
+      { name: '皇帝豆', amount: '-', weight: '65g', category: 'GRAINS', note: '高蛋白' },
+      { name: '紅豆、綠豆、花豆', amount: '2湯匙(乾)', weight: '25g', category: 'GRAINS', note: '高蛋白' },
+      { name: '蠶豆、刀豆', amount: '2湯匙(乾)', weight: '20g', category: 'GRAINS', note: '高蛋白' },
+      { name: '鷹嘴豆', amount: '2湯匙(乾)', weight: '25g', category: 'GRAINS', note: '高蛋白' },
+      { name: '冬粉(乾)', amount: '1/2把', weight: '15g', category: 'GRAINS', note: '低蛋白' },
+      { name: '藕粉', amount: '3湯匙', weight: '20g', category: 'GRAINS', note: '低蛋白' },
+      { name: '西谷米(粉圓)', amount: '1.5湯匙', weight: '15g', category: 'GRAINS', note: '低蛋白' },
+      { name: '米苔目(濕)', amount: '-', weight: '50g', category: 'GRAINS', note: '低蛋白' },
+      { name: '米粉(乾)', amount: '-', weight: '20g', category: 'GRAINS', note: '低蛋白' },
+      { name: '米粉(濕)', amount: '1/2碗', weight: '30-50g', category: 'GRAINS' },
+      { name: '芋圓、地瓜圓(冷凍)', amount: '-', weight: '30g', category: 'GRAINS' },
+      { name: '河粉(濕)', amount: '-', weight: '25g', category: 'GRAINS' },
+      { name: '越南春捲皮(乾)', amount: '-', weight: '20g', category: 'GRAINS' },
+      { name: '蛋餅皮、蔥油餅皮(冷凍)', amount: '-', weight: '35g', category: 'GRAINS' },
+
+      // --- 蔬菜類 (每份約100g) ---
+      { name: '黃豆芽', amount: '-', weight: '100g', category: 'VEGETABLES', note: '高蛋白' },
+      { name: '胡瓜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '葫蘆瓜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '蒲瓜(扁蒲)', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '木耳', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '茭白筍', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '綠豆芽', amount: '-', weight: '100g', category: 'VEGETABLES', note: '高蛋白' },
+      { name: '洋蔥', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '甘藍', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '高麗菜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '山東白菜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '包心白菜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '翠玉白菜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '芥菜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '萵苣', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '冬瓜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '玉米筍', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '小黃瓜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '苦瓜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '甜椒(青椒)', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '澎湖絲瓜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '芥蘭菜嬰', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '胡蘿蔔', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '鮮雪裡紅', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '蘿蔔', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '球莖甘藍', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '麻竹筍', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '綠蘆筍', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '小白菜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '韭黃', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '芥蘭', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '油菜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '空心菜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '油菜花', amount: '-', weight: '100g', category: 'VEGETABLES', note: '高蛋白' },
+      { name: '青江菜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '美國芹菜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '紅鳳菜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '皇冠菜', amount: '-', weight: '100g', category: 'VEGETABLES', note: '高蛋白' },
+      { name: '紫甘藍', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '萵苣葉', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '龍鬚菜', amount: '-', weight: '100g', category: 'VEGETABLES', note: '高蛋白' },
+      { name: '花椰菜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '韭菜花', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '金針菜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '高麗菜芽', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '茄子', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '黃秋葵', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '番茄(大)', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '香菇', amount: '-', weight: '100g', category: 'VEGETABLES', note: '高蛋白' },
+      { name: '牛蒡', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '竹筍', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '半天筍', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '苜蓿芽', amount: '-', weight: '100g', category: 'VEGETABLES', note: '高蛋白' },
+      { name: '鵝菜心', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '韭菜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '地瓜葉 (番薯葉)', amount: '-', weight: '100g', category: 'VEGETABLES', note: '高蛋白' },
+      { name: '芹菜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '茼蒿', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '紅莧菜', amount: '-', weight: '100g', category: 'VEGETABLES', note: '高蛋白' },
+      { name: '荷蘭豆菜心', amount: '-', weight: '100g', category: 'VEGETABLES', note: '高蛋白' },
+      { name: '鵝仔白菜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '白鳳菜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '柳松菇', amount: '-', weight: '100g', category: 'VEGETABLES', note: '高蛋白' },
+      { name: '洋菇', amount: '-', weight: '100g', category: 'VEGETABLES', note: '高蛋白' },
+      { name: '猴頭菇', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '黑甜菜', amount: '-', weight: '100g', category: 'VEGETABLES', note: '高蛋白' },
+      { name: '芋莖', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '金針菇', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '小芹菜', amount: '-', weight: '100g', category: 'VEGETABLES', note: '高蛋白' },
+      { name: '莧菜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '野苦瓜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '紅梗珍珠菜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '川七', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '番茄罐頭', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '角菜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '菠菜', amount: '-', weight: '100g', category: 'VEGETABLES' },
+      { name: '草菇', amount: '-', weight: '100g', category: 'VEGETABLES', note: '高蛋白' },
+
+      // --- 水果類 ---
+      { name: '油柑(金棗)', amount: '6個', weight: '120g (可食)', category: 'FRUITS' },
+      { name: '柳丁', amount: '1個', weight: '130g (可食)', category: 'FRUITS' },
+      { name: '香吉士', amount: '1個', weight: '130g (可食)', category: 'FRUITS' },
+      { name: '椪柑', amount: '1個', weight: '150g (可食)', category: 'FRUITS' },
+      { name: '桶柑(海梨)', amount: '1個', weight: '155g (可食)', category: 'FRUITS' },
+      { name: '白柚', amount: '2片', weight: '165g (可食)', category: 'FRUITS', note: '含鉀200~399mg' },
+      { name: '葡萄柚', amount: '3/4個', weight: '165g (可食)', category: 'FRUITS' },
+      { name: '青龍蘋果', amount: '小1個', weight: '115g (可食)', category: 'FRUITS' },
+      { name: '五爪蘋果', amount: '小1個', weight: '125g (可食)', category: 'FRUITS' },
+      { name: '富士蘋果', amount: '小1個', weight: '130g (可食)', category: 'FRUITS' },
+      { name: '哈密瓜', amount: '1/4個', weight: '150g (可食)', category: 'FRUITS', note: '高鉀(≥400mg)' },
+      { name: '木瓜', amount: '1/3個', weight: '150g (可食)', category: 'FRUITS', note: '含鉀200~399mg' },
+      { name: '香瓜(美濃)', amount: '2/3個', weight: '165g (可食)', category: 'FRUITS', note: '高鉀(≥400mg)' },
+      { name: '紅西瓜', amount: '1片', weight: '180g (可食)', category: 'FRUITS', note: '含鉀200~399mg' },
+      { name: '黃西瓜', amount: '1片', weight: '195g (可食)', category: 'FRUITS' },
+      { name: '太陽瓜', amount: '2/3個', weight: '215g (可食)', category: 'FRUITS', note: '高鉀(≥400mg)' },
+      { name: '新疆哈密瓜', amount: '2/5個', weight: '245g (可食)', category: 'FRUITS', note: '高鉀(≥400mg)' },
+      { name: '金煌芒果', amount: '1片', weight: '105g (可食)', category: 'FRUITS' },
+      { name: '愛文芒果', amount: '1.5片', weight: '150g (可食)', category: 'FRUITS' },
+      { name: '葫蘆芭樂', amount: '1個', weight: '155g (可食)', category: 'FRUITS', note: '含鉀200~399mg' },
+      { name: '土芭樂', amount: '1個', weight: '155g (可食)', category: 'FRUITS', note: '含鉀200~399mg' },
+      { name: '泰國芭樂', amount: '1/3個', weight: '160g (可食)', category: 'FRUITS' },
+      { name: '西洋梨', amount: '1個', weight: '105g (可食)', category: 'FRUITS' },
+      { name: '粗梨', amount: '小1個', weight: '120g (可食)', category: 'FRUITS' },
+      { name: '水梨', amount: '3/4個', weight: '145g (可食)', category: 'FRUITS' },
+      { name: '仙桃', amount: '1個', weight: '50g (可食)', category: 'FRUITS' },
+      { name: '水蜜桃', amount: '小1個', weight: '145g (可食)', category: 'FRUITS' },
+      { name: '玫瑰桃', amount: '1個', weight: '145g (可食)', category: 'FRUITS', note: '含鉀200~399mg' },
+      { name: '桃子', amount: '1個', weight: '220g (可食)', category: 'FRUITS', note: '高鉀(≥400mg)' },
+      { name: '黑棗梅(新鮮)', amount: '3個', weight: '110g (可食)', category: 'FRUITS' },
+      { name: '加州李', amount: '小1個', weight: '120g (可食)', category: 'FRUITS' },
+      { name: '李子', amount: '4個', weight: '145g (可食)', category: 'FRUITS' },
+      { name: '紅棗', amount: '10個', weight: '25g (可食)', category: 'FRUITS' },
+      { name: '黑棗', amount: '9個', weight: '25g (可食)', category: 'FRUITS' },
+      { name: '綠棗子', amount: '2個', weight: '130g (可食)', category: 'FRUITS', note: '含鉀200~399mg' },
+      { name: '柿餅', amount: '3/4個', weight: '33g (可食)', category: 'FRUITS' },
+      { name: '紅柿', amount: '3/4個', weight: '100g (可食)', category: 'FRUITS' },
+      { name: '榴槤', amount: '1/4瓣', weight: '45g (可食)', category: 'FRUITS' },
+      { name: '釋迦', amount: '1/2個', weight: '60g (可食)', category: 'FRUITS', note: '含鉀200~399mg' },
+      { name: '香蕉', amount: '大1/2根 或 小1根', weight: '70g (可食)', category: 'FRUITS', note: '含鉀200~399mg' },
+      { name: '櫻桃', amount: '9個', weight: '80g (可食)', category: 'FRUITS' },
+      { name: '紅毛丹', amount: '-', weight: '80g (可食)', category: 'FRUITS' },
+      { name: '山竹', amount: '5個', weight: '84g (可食)', category: 'FRUITS' },
+      { name: '葡萄', amount: '13個', weight: '85g (可食)', category: 'FRUITS' },
+      { name: '龍眼', amount: '13個', weight: '90g (可食)', category: 'FRUITS', note: '含鉀200~399mg' },
+      { name: '荔枝', amount: '9個', weight: '100g (可食)', category: 'FRUITS' },
+      { name: '火龍果', amount: '-', weight: '110g (可食)', category: 'FRUITS' },
+      { name: '奇異果', amount: '1.5個', weight: '105g (可食)', category: 'FRUITS', note: '含鉀200~399mg' },
+      { name: '鳳梨', amount: '1/10片', weight: '110g (可食)', category: 'FRUITS' },
+      { name: '百香果', amount: '2個', weight: '140g (可食)', category: 'FRUITS' },
+      { name: '枇杷', amount: '-', weight: '155g (可食)', category: 'FRUITS' },
+      { name: '草莓', amount: '小16個', weight: '160g (可食)', category: 'FRUITS', note: '含鉀200~399mg' },
+      { name: '蓮霧', amount: '2個', weight: '165g (可食)', category: 'FRUITS' },
+      { name: '楊桃', amount: '3/4個', weight: '170g (可食)', category: 'FRUITS' },
+      { name: '聖女蕃茄', amount: '23個', weight: '220g (可食)', category: 'FRUITS', note: '含鉀200~399mg' },
+      { name: '椰棗', amount: '-', weight: '20g', category: 'FRUITS', note: '含添加糖' },
+      { name: '芒果乾', amount: '-', weight: '20g', category: 'FRUITS', note: '含添加糖' },
+      { name: '芭樂乾', amount: '-', weight: '20g', category: 'FRUITS', note: '含添加糖' },
+      { name: '無花果乾', amount: '-', weight: '20g', category: 'FRUITS', note: '含添加糖' },
+      { name: '葡萄乾', amount: '-', weight: '20g', category: 'FRUITS', note: '含添加糖' },
+      { name: '蔓越莓乾', amount: '-', weight: '20g', category: 'FRUITS', note: '含添加糖' },
+      { name: '鳳梨乾', amount: '-', weight: '20g', category: 'FRUITS', note: '含添加糖' },
+      { name: '龍眼干', amount: '-', weight: '22g', category: 'FRUITS', note: '含添加糖, 含鉀200~399mg' },
+      { name: '黑棗梅(乾)', amount: '-', weight: '25g', category: 'FRUITS', note: '含添加糖' },
+      { name: '芒果青', amount: '-', weight: '30g', category: 'FRUITS', note: '含添加糖' },
+
+      // --- 油脂與堅果種子類 ---
+      { name: '大豆油', amount: '1茶匙', weight: '5g', category: 'OILS' },
+      { name: '玉米油', amount: '1茶匙', weight: '5g', category: 'OILS' },
+      { name: '花生油', amount: '1茶匙', weight: '5g', category: 'OILS' },
+      { name: '紅花子油', amount: '1茶匙', weight: '5g', category: 'OILS' },
+      { name: '葵花子油', amount: '1茶匙', weight: '5g', category: 'OILS' },
+      { name: '麻油', amount: '1茶匙', weight: '5g', category: 'OILS' },
+      { name: '椰子油', amount: '1茶匙', weight: '5g', category: 'OILS' },
+      { name: '棕櫚油', amount: '1茶匙', weight: '5g', category: 'OILS' },
+      { name: '橄欖油', amount: '1茶匙', weight: '5g', category: 'OILS' },
+      { name: '芥花油', amount: '1茶匙', weight: '5g', category: 'OILS' },
+      { name: '椰漿', amount: '-', weight: '30g', category: 'OILS', note: '+1.5g碳水' },
+      { name: '椰奶', amount: '-', weight: '55g', category: 'OILS', note: '+2g碳水' },
+      { name: '牛油', amount: '1茶匙', weight: '6g', category: 'OILS' },
+      { name: '豬油', amount: '1茶匙', weight: '5g', category: 'OILS' },
+      { name: '雞油', amount: '1茶匙', weight: '5g', category: 'OILS' },
+      { name: '培根', amount: '1片', weight: '15g', category: 'OILS', note: '含少許蛋白質' },
+      { name: '奶油乳酪(cream cheese)', amount: '2茶匙', weight: '12g', category: 'OILS', note: '含少許蛋白質' },
+      { name: '瑪琪琳、酥油', amount: '1茶匙', weight: '6g', category: 'OILS' },
+      { name: '蛋黃醬', amount: '1茶匙', weight: '8g', category: 'OILS' },
+      { name: '沙拉醬(法國/義大利式)', amount: '2茶匙', weight: '10g', category: 'OILS' },
+      { name: '花生醬', amount: '1茶匙', weight: '9g', category: 'OILS' },
+      { name: '鮮奶油', amount: '1湯匙', weight: '13g', category: 'OILS' },
+      { name: '加州酪梨', amount: '2湯匙 (1/6個)', weight: '40g', category: 'OILS', note: '+3g碳水' },
+      { name: '瓜子', amount: '1湯匙 (約50粒)', weight: '15g (可食)', category: 'OILS', note: '含蛋白質4g' },
+      { name: '南瓜子、葵花子', amount: '1湯匙 (約30粒)', weight: '10g (可食)', category: 'OILS', note: '含蛋白質2g' },
+      { name: '各式花生仁', amount: '10粒', weight: '13g (可食)', category: 'OILS', note: '含蛋白質4g' },
+      { name: '花生粉', amount: '2湯匙', weight: '13g', category: 'OILS', note: '含蛋白質4g' },
+      { name: '黑(白)芝麻', amount: '4茶匙', weight: '10g', category: 'OILS', note: '含蛋白質1g' },
+      { name: '杏仁果', amount: '5粒', weight: '7g', category: 'OILS', note: '含蛋白質2g' },
+      { name: '腰果', amount: '5粒', weight: '10g', category: 'OILS', note: '含蛋白質2g' },
+      { name: '開心果', amount: '15粒', weight: '10g', category: 'OILS', note: '含蛋白質2g' },
+      { name: '核桃仁', amount: '2粒', weight: '7g', category: 'OILS', note: '含蛋白質1g' }
+    ];
+
+    const container = document.getElementById('categoriesContainer');
     const searchInput = document.getElementById('searchInput');
-    const catBtns = document.querySelectorAll('.cat-btn');
-    const grid = document.getElementById('foodsGrid');
+    const clearBtn = document.getElementById('clearSearchBtn');
+    const noResult = document.getElementById('noResult');
 
-    searchInput.addEventListener('input', renderFoods);
+    function renderGroups(filterText = '') {
+      const term = filterText.toLowerCase().trim();
+      container.innerHTML = '';
+      let totalFound = 0;
 
-    catBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        catBtns.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        currentCat = btn.dataset.cat;
-        renderFoods();
+      // Group foods
+      const groups = {};
+      Object.keys(CATEGORIES).forEach(k => groups[k] = []);
+
+      FOOD_DATABASE.forEach(item => {
+        const catInfo = CATEGORIES[item.category];
+        const matchName = item.name.toLowerCase().includes(term);
+        const matchCat = catInfo.name.toLowerCase().includes(term);
+        const matchNote = item.note && item.note.toLowerCase().includes(term);
+        if (!term || matchName || matchCat || matchNote) {
+          groups[item.category].push(item);
+          totalFound++;
+        }
       });
-    });
 
-    function renderFoods() {
-      const q = searchInput.value.trim().toLowerCase();
-      const filtered = foodsData.filter(item => {
-        const matchesCat = (currentCat === 'all') || (item.category === currentCat);
-        const matchesQ = !q || item.name.toLowerCase().includes(q) || (item.sub && item.sub.toLowerCase().includes(q));
-        return matchesCat && matchesQ;
-      });
-
-      if (filtered.length === 0) {
-        grid.innerHTML = '<div class="empty-hint">查無符合條件的食材，請嘗試其他關鍵字或切換分類。</div>';
+      if (totalFound === 0) {
+        noResult.style.display = 'block';
         return;
       }
+      noResult.style.display = 'none';
 
-      grid.innerHTML = filtered.map(item => {
-        const badgeStyle = catBadgeClass[item.category] || 'grain';
-        return `
-          <div class="food-item-card">
-            <div>
-              <div class="card-top">
-                <h3 class="food-name">${item.name}</h3>
-                <span class="badge ${badgeStyle}">${item.category}</span>
-              </div>
-              <div class="food-portion">
-                <div class="portion-title">每 1 份生活化份量 / 計量：</div>
-                <div class="portion-val">${item.portion}</div>
-                <div style="font-size:0.9rem; color:var(--muted); margin-top:2px;">可食生重/規格：${item.weight}</div>
-              </div>
+      // 渲染每個大分類折疊卡片
+      Object.keys(CATEGORIES).forEach(catKey => {
+        const items = groups[catKey];
+        if (!items || items.length === 0) return;
+
+        const info = CATEGORIES[catKey];
+        const card = document.createElement('div');
+        card.className = 'cat-card';
+
+        // 卡片頭部按鈕
+        const header = document.createElement('button');
+        header.type = 'button';
+        header.className = 'cat-header';
+        header.innerHTML = `
+          <div>
+            <div class="cat-title-text">${info.name} (${items.length})</div>
+            <div class="cat-meta-pills">
+              <span class="meta-pill">熱量 ${info.calories} 大卡</span>
+              <span class="meta-pill">醣類 ${info.carbs}g</span>
+              <span class="meta-pill">蛋白質 ${info.protein}g</span>
+              <span class="meta-pill">脂肪 ${info.fat}g</span>
             </div>
-            <div>
-              <div class="macro-chips">
-                <span>🔥 <b>${item.calories}</b> 卡</span>
-                <span>🥩 蛋 <b>${item.p}g</b></span>
-                <span>🥑 脂 <b>${item.f}g</b></span>
-                <span>🍚 醣 <b>${item.c}g</b></span>
-              </div>
-            </div>
+            ${info.note ? `<div class="cat-note">${info.note}</div>` : ''}
           </div>
+          <span class="toggle-arrow">▲</span>
         `;
-      }).join('');
+
+        // 點擊折疊切換
+        header.addEventListener('click', () => {
+          card.classList.toggle('collapsed');
+        });
+
+        // 卡片內容表格
+        const body = document.createElement('div');
+        body.className = 'cat-body';
+        body.innerHTML = `
+          <div class="table-head">
+            <div style="text-align:left;">食物名稱</div>
+            <div style="text-align:center;">份量參考</div>
+            <div style="text-align:center;">重量/計量</div>
+          </div>
+          ${items.map(it => `
+            <div class="table-row">
+              <div class="food-name-col">
+                ${it.name}
+                ${it.note ? `<div class="food-note-text">${it.note}</div>` : ''}
+              </div>
+              <div class="food-amount-col">${it.amount}</div>
+              <div class="food-weight-col">${it.weight}</div>
+            </div>
+          `).join('')}
+        `;
+
+        card.appendChild(header);
+        card.appendChild(body);
+        container.appendChild(card);
+      });
     }
+
+    searchInput.addEventListener('input', (e) => {
+      const val = e.target.value;
+      clearBtn.style.display = val ? 'flex' : 'none';
+      renderGroups(val);
+    });
+
+    clearBtn.addEventListener('click', () => {
+      searchInput.value = '';
+      clearBtn.style.display = 'none';
+      renderGroups('');
+      searchInput.focus();
+    });
+
+    // 初始載入完整資料庫
+    renderGroups();
   </script>
 </body>
 </html>
