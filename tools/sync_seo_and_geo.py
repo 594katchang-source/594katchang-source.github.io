@@ -52,9 +52,12 @@ pages_info = [
         "category": "互動教具與模組 (Interactive Teaching Tools)",
         "items": [
             {"title": "教具：營養排行榜 (Nutrition Ranking)", "url": f"{BASE_URL}/teach/nutritionranking/", "desc": "六大類食材營養密度與微量元素即時排序與比較工具。", "priority": "0.8", "changefreq": "weekly"},
+            {"title": "教具：每日營養與熱量需求計算器 (TDEE/BMR)", "url": f"{BASE_URL}/teach/daily-needs/", "desc": "精算 TDEE、BMR 基礎代謝率與 6 大飲食型態三大營養素建議克數與份數。", "priority": "0.8", "changefreq": "weekly"},
+            {"title": "教具：六大類食物代換表速查 (Food Exchange)", "url": f"{BASE_URL}/teach/food-exchange/", "desc": "依衛福部國健署最新標準，54 種食物每份重量、熱量與營養素速查資料庫。", "priority": "0.8", "changefreq": "weekly"},
+            {"title": "教具：判斷比圈叉大考驗 (OX Challenge)", "url": f"{BASE_URL}/teach/ox-challenge/", "desc": "樂齡體智雙重任務互動教具，支援輪播切換題詞與自訂題庫。", "priority": "0.8", "changefreq": "monthly"},
             {"title": "教具：論文讀書小站 (Paper Radar)", "url": f"{BASE_URL}/teach/paper-radar/", "desc": "國際權威醫學期刊與營養實證研究導讀雷達站。", "priority": "0.8", "changefreq": "weekly"},
             {"title": "教具：壓力與食物關係 (Stress Food)", "url": f"{BASE_URL}/teach/Stress-Food/", "desc": "壓力荷爾蒙、皮質醇與情緒性進食的生理機轉與飲食對策。", "priority": "0.7", "changefreq": "monthly"},
-            {"title": "教具：情緒營養字卡 (Emotion Cards)", "url": f"{BASE_URL}/teach/emotion-cards/", "desc": "高齡長輩情緒引導與身心健康互動式翻牌教具。", "priority": "0.7", "changefreq": "monthly"},
+            {"title": "教具：草木心語植物療癒牌卡 (Emotion Cards)", "url": f"{BASE_URL}/teach/emotion-cards/", "desc": "高齡長輩情緒引導與身心健康互動式翻牌教具。", "priority": "0.7", "changefreq": "monthly"},
             {"title": "教具：營養大作戰 (Nutrition Battle)", "url": f"{BASE_URL}/teach/nutrition-battle/", "desc": "樂齡課堂實體與線上互動營養問答對戰遊戲。", "priority": "0.7", "changefreq": "monthly"},
         ]
     },

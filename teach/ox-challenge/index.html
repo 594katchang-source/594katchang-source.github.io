@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>判斷比圈叉大考驗 (樂齡體智互動教具) ｜ Kat Chang 凱特營養師</title>
+  <meta name="description" content="判斷比圈叉大考驗！專為長照據點、銀髮防跌與樂齡課堂設計的體能動智快問快答教具。可設定切換間隔秒數、自訂判斷題目關鍵字，支援手機大螢幕投影，鍛鍊長輩專注力、快速反應與肢體活動。">
+  <meta name="keywords" content="比圈叉大考驗, 樂齡體智遊戲, 雙重任務訓練, 長輩大腦活化, 破冰互動教具, 防跌肢體反應, 課堂教學工具, Kat Chang, 張雁雲營養師">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+  <link rel="canonical" href="https://594katchang-source.github.io/teach/ox-challenge/">
+  <link rel="stylesheet" href="../../styles.css?v=20260728-mobile">
+  
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="判斷比圈叉大考驗 (樂齡體智互動教具) ｜ Kat Chang 凱特營養師">
+  <meta property="og:description" content="長照據點、銀髮破冰與課堂必備！字體超大、秒數自訂、可換題目庫，長輩動腦動身首選。">
+  <meta property="og:url" content="https://594katchang-source.github.io/teach/ox-challenge/">
+  <meta property="og:image" content="https://594katchang-source.github.io/assets/og/og-teach-hub.png">
+  <meta property="og:site_name" content="Kat Chang 凱特營養師">
+  <meta property="og:locale" content="zh_TW">
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "判斷比圈叉大考驗",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "Web",
+      "url": "https://594katchang-source.github.io/teach/ox-challenge/",
+      "description": "樂齡體智與雙重任務訓練教具，支援輪播切換題詞、大字體視覺提示與自訂題庫。",
+      "author": {
+        "@type": "Person",
+        "name": "張雁雲營養師",
+        "url": "https://594katchang-source.github.io/about.html"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "TWD"
+      }
+    }
+  </script>
+
+  <style>
+    .game-container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px 0 60px;
+      text-align: center;
+    }
+    .nav-breadcrumbs {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--muted);
+      margin-bottom: 24px;
+      text-align: left;
+    }
+    .nav-breadcrumbs a { text-decoration: none; color: var(--green-dark); }
+    
+    .hero-header {
+      margin-bottom: 24px;
+    }
+    .hero-header h1 {
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      font-weight: 900;
+      color: var(--green-dark);
+      margin-bottom: 12px;
+    }
+
+    /* 遊戲大主螢幕展示區 */
+    .game-screen {
+      background: #ffffff;
+      border: 3px solid var(--green);
+      border-radius: 32px;
+      box-shadow: 0 20px 60px rgba(13, 76, 57, 0.12);
+      padding: clamp(36px, 6vw, 72px) 20px;
+      margin-bottom: 32px;
+      min-height: 380px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+    .rule-badge {
+      position: absolute;
+      top: 20px;
+      background: #eef6f2;
+      border: 1px solid #c8e4d3;
+      color: var(--green-dark);
+      padding: 6px 18px;
+      border-radius: 999px;
+      font-size: 1.1rem;
+      font-weight: 800;
+    }
+    .word-display {
+      font-size: clamp(3.5rem, 10vw, 6.5rem);
+      font-weight: 950;
+      color: var(--ink);
+      line-height: 1.2;
+      letter-spacing: 0.05em;
+      margin: 20px 0;
+      transition: transform 0.15s ease-out;
+    }
+    .pulse-animation {
+      animation: popIn 0.35s ease-out;
+    }
+    @keyframes popIn {
+      0% { transform: scale(0.85); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    .countdown-bar-wrap {
+      width: min(400px, 80%);
+      height: 12px;
+      background: #e9eee9;
+      border-radius: 999px;
+      overflow: hidden;
+      margin-top: 10px;
+    }
+    .countdown-bar {
+      height: 100%;
+      width: 100%;
+      background: var(--coral);
+      border-radius: 999px;
+      transition: width 0.1s linear;
+    }
+
+    /* 控制面板 */
+    .control-panel {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 24px;
+      box-shadow: var(--shadow);
+      margin-bottom: 32px;
+    }
+    .panel-row {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 18px;
+    }
+    .input-pill {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: #f7faf7;
+      padding: 10px 18px;
+      border-radius: 16px;
+      border: 1px solid #dce8df;
+      font-weight: 800;
+    }
+    .input-pill input {
+      padding: 8px 12px;
+      border: 1.5px solid #cfd8d2;
+      border-radius: 10px;
+      font-size: 1.1rem;
+      font-weight: 800;
+      text-align: center;
+    }
+    .btn-main {
+      min-height: 52px;
+      padding: 12px 32px;
+      font-size: 1.25rem;
+      font-weight: 900;
+      border-radius: 16px;
+      cursor: pointer;
+      border: none;
+      transition: all 0.18s;
+    }
+    .btn-start {
+      background: var(--green);
+      color: #fff;
+      box-shadow: 0 8px 20px rgba(31, 122, 91, 0.28);
+    }
+    .btn-start:hover {
+      background: var(--green-dark);
+      transform: translateY(-2px);
+    }
+    .btn-stop {
+      background: var(--coral);
+      color: #fff;
+    }
+    .btn-secondary {
+      background: #fff;
+      border: 1.5px solid var(--line);
+      color: var(--ink);
+    }
+
+    /* 題庫管理折疊 */
+    .word-manager {
+      text-align: left;
+      margin-top: 16px;
+      border-top: 1px dashed var(--line);
+      padding-top: 16px;
+    }
+    .word-manager summary {
+      cursor: pointer;
+      font-weight: 800;
+      color: var(--green-dark);
+      font-size: 1.05rem;
+    }
+    .word-tags {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 14px;
+    }
+    .word-chip {
+      background: #eef6f2;
+      border: 1px solid #c8e4d3;
+      color: var(--green-dark);
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-weight: 800;
+      font-size: 0.95rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .word-chip button {
+      background: none;
+      border: none;
+      color: #888;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body class="teach-directory">
+  <header class="site-header">
+    <a class="brand" href="../../">
+      <img src="../../assets/profile/kat-avatar.jpg" alt="Kat Chang 凱特營養師">
+      <span>Kat Chang</span>
+    </a>
+    <nav>
+      <a href="../../index.html">首頁</a>
+      <a href="../../about.html">簡介</a>
+      <a href="../../class.html">授課</a>
+      <a href="../../index.html#services">服務</a>
+      <a href="../">教具總覽</a>
+      <a href="../../blog/">文章</a>
+      <a href="https://zcal.co/katchang" target="_blank" rel="noopener">聯絡</a>
+    </nav>
+  </header>
+
+  <main class="section">
+    <div class="game-container">
+      <div class="nav-breadcrumbs">
+        <a href="../../">首頁</a> &gt; <a href="../">互動衛教工具</a> &gt; <span>判斷比圈叉大考驗</span>
+      </div>
+
+      <div class="hero-header">
+        <p class="eyebrow">Cognitive Dual-Task Training</p>
+        <h1>判斷比圈叉大考驗</h1>
+        <p class="lead">刺激長輩認知反應、手眼協調與抑制控制！台上出題輪播，台下雙手比圈或比叉。</p>
+      </div>
+
+      <!-- 螢幕展示區 -->
+      <div class="game-screen" id="gameScreen">
+        <div class="rule-badge" id="ruleBadge">目前判斷條件：包含「食物」比 ⭕，不是比 ❌</div>
+        <div class="word-display" id="wordDisplay">準備開始</div>
+        <div class="countdown-bar-wrap">
+          <div class="countdown-bar" id="countdownBar"></div>
+        </div>
+      </div>
+
+      <!-- 控制面板 -->
+      <div class="control-panel">
+        <div class="panel-row">
+          <div class="input-pill">
+            <label for="intervalSec">切換時間：</label>
+            <input type="number" id="intervalSec" min="1" max="30" value="3" style="width: 70px;"> 秒
+          </div>
+          <div class="input-pill">
+            <label for="ruleInput">判斷規則提示：</label>
+            <input type="text" id="ruleInput" value="是健康蔬菜比 ⭕，其餘比 ❌" style="width: 240px;">
+          </div>
+        </div>
+
+        <div class="panel-row">
+          <button class="btn-main btn-start" id="btnToggle" onclick="toggleGame()">▶ 開始考驗</button>
+          <button class="btn-main btn-secondary" onclick="nextWordManually()">⏭ 下一題</button>
+          <button class="btn-main btn-secondary" onclick="resetDefaultWords()">🔄 載入預設營養題庫</button>
+        </div>
+
+        <details class="word-manager">
+          <summary>題庫詞彙管理 (點此新增或刪除字詞，目前共 <span id="wordCount">0</span> 題)</summary>
+          <div style="margin-top:14px; display:flex; gap:10px; flex-wrap:wrap;">
+            <input type="text" id="newWordInput" placeholder="輸入新詞彙..." style="padding:8px 12px; border-radius:10px; border:1px solid #ccc; flex:1; min-width:200px;">
+            <button onclick="addWord()" class="btn-main btn-secondary" style="min-height:40px; padding:6px 18px; font-size:1rem;">＋ 新增詞彙</button>
+          </div>
+          <div class="word-tags" id="wordTags"></div>
+        </details>
+      </div>
+
+      <div class="faq-block" style="text-align:left; background:#fff; padding:24px; border-radius:20px; border:1px solid var(--line);">
+        <h3 style="color:var(--green-dark); margin-bottom:12px;">課堂破冰帶動指引</h3>
+        <p style="color:var(--muted); line-height:1.7; margin:0;">
+          1. <b>肢體雙重任務 (Dual-Task)</b>：長輩站立或坐姿踏步，看到螢幕詞彙時，雙手在胸前比 ⭕ 或胸前交叉比 ❌，同時大聲唸出答案。<br>
+          2. <b>防跌與大腦活化</b>：透過高頻切換條件（如健康食物比圈、加工食品比叉、高鉀蔬菜比圈），強化長輩前額葉執行功能與抑制控制反應！
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer style="text-align:center; padding:28px; color:var(--muted); border-top:1px solid var(--line); font-size:1rem;">
+    @2026 Kat Chang 凱特營養師｜中高齡營養專家 ｜ <a href="../../sitemap.html" style="color:inherit; font-weight:700;">網站地圖</a> ｜ <a href="../" style="color:var(--green-dark); font-weight:700;">返回教具總覽</a>
+  </footer>
+
+  <script>
+    const defaultWords = [
+      "地瓜葉", "珍珠奶茶", "花椰菜", "油炸炸雞", "深海鮭魚",
+      "含糖汽水", "牛番茄", "加工香腸", "無糖豆漿", "奶油蛋糕",
+      "高麗菜", "五花肥肉", "奇異果", "洋芋片", "黑豆水", "洋蔥", "炸薯條", "燕麥片"
+    ];
+
+    let currentWords = [...defaultWords];
+    let isRunning = false;
+    let timer = null;
+    let progressTimer = null;
+    let currentIdx = -1;
+
+    const wordDisplay = document.getElementById('wordDisplay');
+    const ruleBadge = document.getElementById('ruleBadge');
+    const ruleInput = document.getElementById('ruleInput');
+    const intervalSec = document.getElementById('intervalSec');
+    const btnToggle = document.getElementById('btnToggle');
+    const countdownBar = document.getElementById('countdownBar');
+    const wordTags = document.getElementById('wordTags');
+    const wordCount = document.getElementById('wordCount');
+
+    function renderTags() {
+      wordCount.textContent = currentWords.length;
+      wordTags.innerHTML = currentWords.map((w, idx) => `
+        <span class="word-chip">
+          ${w}
+          <button onclick="deleteWord(${idx})" title="刪除">✕</button>
+        </span>
+      `).join('');
+    }
+
+    function addWord() {
+      const input = document.getElementById('newWordInput');
+      const val = input.value.trim();
+      if (val && !currentWords.includes(val)) {
+        currentWords.push(val);
+        input.value = '';
+        renderTags();
+      }
+    }
+
+    function deleteWord(idx) {
+      currentWords.splice(idx, 1);
+      renderTags();
+    }
+
+    function resetDefaultWords() {
+      currentWords = [...defaultWords];
+      renderTags();
+    }
+
+    function toggleGame() {
+      if (isRunning) {
+        stopGame();
+      } else {
+        startGame();
+      }
+    }
+
+    function startGame() {
+      if (currentWords.length === 0) {
+        alert('請先在題庫中加入詞彙！');
+        return;
+      }
+      isRunning = true;
+      btnToggle.textContent = '⏹ 暫停考驗';
+      btnToggle.className = 'btn-main btn-stop';
+      ruleBadge.textContent = '目前判斷條件：' + ruleInput.value;
+      nextWord();
+      startInterval();
+    }
+
+    function stopGame() {
+      isRunning = false;
+      clearInterval(timer);
+      clearInterval(progressTimer);
+      btnToggle.textContent = '▶ 開始考驗';
+      btnToggle.className = 'btn-main btn-start';
+      countdownBar.style.width = '100%';
+    }
+
+    function nextWord() {
+      // 隨機選一個非重複詞彙
+      let nextIdx;
+      do {
+        nextIdx = Math.floor(Math.random() * currentWords.length);
+      } while (nextIdx === currentIdx && currentWords.length > 1);
+      
+      currentIdx = nextIdx;
+      wordDisplay.textContent = currentWords[currentIdx];
+      wordDisplay.classList.remove('pulse-animation');
+      void wordDisplay.offsetWidth; // trigger reflow
+      wordDisplay.classList.add('pulse-animation');
+    }
+
+    function nextWordManually() {
+      ruleBadge.textContent = '目前判斷條件：' + ruleInput.value;
+      nextWord();
+      if (isRunning) {
+        startInterval();
+      }
+    }
+
+    function startInterval() {
+      clearInterval(timer);
+      clearInterval(progressTimer);
+
+      const sec = Math.max(1, parseFloat(intervalSec.value) || 3);
+      const totalMs = sec * 1000;
+      let elapsedMs = 0;
+
+      countdownBar.style.width = '100%';
+
+      progressTimer = setInterval(() => {
+        elapsedMs += 50;
+        const remaining = Math.max(0, 1 - (elapsedMs / totalMs));
+        countdownBar.style.width = (remaining * 100) + '%';
+      }, 50);
+
+      timer = setInterval(() => {
+        nextWord();
+        elapsedMs = 0;
+        countdownBar.style.width = '100%';
+      }, totalMs);
+    }
+
+    ruleInput.addEventListener('input', () => {
+      ruleBadge.textContent = '目前判斷條件：' + ruleInput.value;
+    });
+
+    renderTags();
+  </script>
+</body>
+</html>

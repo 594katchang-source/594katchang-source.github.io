@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>六大類食物代換表速查 (完整實用版) ｜ Kat Chang 凱特營養師</title>
+  <meta name="description" content="依據衛福部國民健康署最新食物代換標準表設計之互動速查工具！收錄全榖雜糧、豆魚蛋肉、蔬菜、水果、乳品、油脂與堅果種子六大類食物一份份量、生熟克數、熱量與三大營養素，支援即時關鍵字搜尋與分類篩選。">
+  <meta name="keywords" content="食物代換表, 衛福部食物代換表, 一份肉幾克, 一份全穀幾克, 糖尿病食物代換, 減重份數計算, 六大類食物份量, Kat Chang, 張雁雲營養師">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+  <link rel="canonical" href="https://594katchang-source.github.io/teach/food-exchange/">
+  <link rel="stylesheet" href="../../styles.css?v=20260728-mobile">
+  
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="六大類食物代換表速查 (完整實用版) ｜ Kat Chang 凱特營養師">
+  <meta property="og:description" content="衛福部最新標準：全榖、豆魚蛋肉、蔬果、奶類、好油一份到底是多少？生活化份量對照速查。">
+  <meta property="og:url" content="https://594katchang-source.github.io/teach/food-exchange/">
+  <meta property="og:image" content="https://594katchang-source.github.io/assets/og/og-teach-hub.png">
+  <meta property="og:site_name" content="Kat Chang 凱特營養師">
+  <meta property="og:locale" content="zh_TW">
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "六大類食物代換表速查",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "Web",
+      "url": "https://594katchang-source.github.io/teach/food-exchange/",
+      "description": "衛福部國健署標準食物代換表數位速查工具，提供六大類食物生熟重量、份數、三大營養素與生活化手量比喻。",
+      "author": {
+        "@type": "Person",
+        "name": "張雁雲營養師",
+        "url": "https://594katchang-source.github.io/about.html"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "TWD"
+      }
+    }
+  </script>
+
+  <style>
+    .exchange-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 20px 0 60px;
+    }
+    .hero-header {
+      margin-bottom: 28px;
+      text-align: center;
+    }
+    .hero-header h1 {
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      font-weight: 900;
+      color: var(--green-dark);
+      margin-bottom: 12px;
+    }
+    .hero-header .lead {
+      margin: 0 auto;
+      color: var(--muted);
+      font-size: 1.15rem;
+    }
+    .nav-breadcrumbs {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--muted);
+      margin-bottom: 24px;
+    }
+    .nav-breadcrumbs a { text-decoration: none; color: var(--green-dark); }
+    
+    /* 總表卡片 */
+    .summary-card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 24px;
+      box-shadow: var(--shadow);
+      margin-bottom: 32px;
+      overflow-x: auto;
+    }
+    .summary-card h2 {
+      font-size: 1.4rem;
+      color: var(--ink);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .summary-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 1rem;
+      text-align: center;
+    }
+    .summary-table th, .summary-table td {
+      padding: 12px 14px;
+      border: 1px solid #e1ebe3;
+    }
+    .summary-table th {
+      background: #eef6f2;
+      color: var(--green-dark);
+      font-weight: 900;
+    }
+    .summary-table tr:nth-child(even) { background: #fafcfa; }
+
+    /* 搜尋與過濾 */
+    .filter-bar {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-bottom: 24px;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 16px 20px;
+      border-radius: 20px;
+      border: 1px solid var(--line);
+    }
+    .search-input {
+      flex: 1 1 260px;
+      min-height: 48px;
+      padding: 10px 16px;
+      border: 1.5px solid #cfd8d2;
+      border-radius: 14px;
+      font-size: 1.05rem;
+      font-family: inherit;
+    }
+    .search-input:focus {
+      outline: none;
+      border-color: var(--green);
+      box-shadow: 0 0 0 3px rgba(31, 122, 91, 0.15);
+    }
+    .cat-pills {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .cat-btn {
+      padding: 8px 16px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: #fff;
+      color: var(--ink);
+      font-weight: 800;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: all .18s;
+    }
+    .cat-btn.active, .cat-btn:hover {
+      background: var(--green-dark);
+      border-color: var(--green-dark);
+      color: #fff;
+    }
+
+    /* 食物卡片清單網格 */
+    .foods-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+      gap: 18px;
+      margin-bottom: 40px;
+    }
+    .food-item-card {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0 8px 24px rgba(24, 33, 43, 0.05);
+      transition: transform .18s, box-shadow .18s;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .food-item-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow);
+    }
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 12px;
+    }
+    .food-name {
+      font-size: 1.3rem;
+      font-weight: 900;
+      color: var(--ink);
+      margin: 0;
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 800;
+    }
+    .badge.grain { background: #fdf5e6; color: #a66500; border: 1px solid #f6deb3; }
+    .badge.protein { background: #eef6f2; color: #0d4c39; border: 1px solid #c8e4d3; }
+    .badge.veg { background: #eef9f2; color: #1e7041; border: 1px solid #c9ebd4; }
+    .badge.fruit { background: #fdf0f0; color: #b83333; border: 1px solid #f8d0d0; }
+    .badge.dairy { background: #f0f7fd; color: #1a5c9e; border: 1px solid #cfe2f6; }
+    .badge.fat { background: #fffbe6; color: #8f6e05; border: 1px solid #fae896; }
+
+    .food-portion {
+      background: #f8faf8;
+      border-radius: 12px;
+      padding: 12px 14px;
+      margin-bottom: 14px;
+    }
+    .portion-title {
+      font-size: 0.88rem;
+      color: var(--muted);
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .portion-val {
+      font-size: 1.15rem;
+      font-weight: 900;
+      color: var(--green-dark);
+    }
+    .macro-chips {
+      display: flex;
+      gap: 8px;
+      font-size: 0.9rem;
+      font-weight: 800;
+      color: var(--muted);
+      border-top: 1px solid #eff3ef;
+      padding-top: 10px;
+    }
+    .macro-chips span { flex: 1; text-align: center; }
+
+    .empty-hint {
+      text-align: center;
+      padding: 60px 20px;
+      background: #fff;
+      border-radius: 20px;
+      border: 1px dashed var(--line);
+      color: var(--muted);
+      font-size: 1.15rem;
+      grid-column: 1 / -1;
+    }
+  </style>
+</head>
+<body class="teach-directory">
+  <header class="site-header">
+    <a class="brand" href="../../">
+      <img src="../../assets/profile/kat-avatar.jpg" alt="Kat Chang 凱特營養師">
+      <span>Kat Chang</span>
+    </a>
+    <nav>
+      <a href="../../index.html">首頁</a>
+      <a href="../../about.html">簡介</a>
+      <a href="../../class.html">授課</a>
+      <a href="../../index.html#services">服務</a>
+      <a href="../">教具總覽</a>
+      <a href="../../blog/">文章</a>
+      <a href="https://zcal.co/katchang" target="_blank" rel="noopener">聯絡</a>
+    </nav>
+  </header>
+
+  <main class="section">
+    <div class="exchange-container">
+      <div class="nav-breadcrumbs">
+        <a href="../../">首頁</a> &gt; <a href="../">互動衛教工具</a> &gt; <span>食物代換表速查</span>
+      </div>
+
+      <div class="hero-header">
+        <p class="eyebrow">Food Exchange Database</p>
+        <h1>六大類食物代換表速查 (完整實用版)</h1>
+        <p class="lead">依據衛福部國民健康署最新食物代換標準表設計。幫助您精準掌握「一份」的份量、克數與熱量，日常備餐、控糖減脂一目瞭然！</p>
+      </div>
+
+      <!-- 總表模組 -->
+      <div class="summary-card">
+        <h2>
+          <span>📊</span>
+          <span>六大類食物「每 1 份」營養成分總表</span>
+        </h2>
+        <table class="summary-table">
+          <thead>
+            <tr>
+              <th>類別名稱</th>
+              <th>蛋白質 (g)</th>
+              <th>脂肪 (g)</th>
+              <th>醣類 (g)</th>
+              <th>每份熱量 (大卡)</th>
+              <th>主要提供營養素</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><b>全榖雜糧類</b></td>
+              <td>2</td>
+              <td>微量</td>
+              <td>15</td>
+              <td><b>70</b></td>
+              <td>複合碳水化合物、B群、膳食纖維</td>
+            </tr>
+            <tr>
+              <td><b>豆魚蛋肉 (低脂)</b></td>
+              <td>7</td>
+              <td>3 以下</td>
+              <td>微量</td>
+              <td><b>55</b></td>
+              <td>優質蛋白質、鐵、維生素B12</td>
+            </tr>
+            <tr>
+              <td><b>豆魚蛋肉 (中脂)</b></td>
+              <td>7</td>
+              <td>5</td>
+              <td>微量</td>
+              <td><b>75</b></td>
+              <td>優質蛋白質、脂肪、卵磷脂</td>
+            </tr>
+            <tr>
+              <td><b>豆魚蛋肉 (高脂)</b></td>
+              <td>7</td>
+              <td>10</td>
+              <td>微量</td>
+              <td><b>120</b></td>
+              <td>飽和脂肪較高，建議適量攝取</td>
+            </tr>
+            <tr>
+              <td><b>蔬菜類</b></td>
+              <td>1</td>
+              <td>微量</td>
+              <td>5</td>
+              <td><b>25</b></td>
+              <td>膳食纖維、鉀、鎂、植化素</td>
+            </tr>
+            <tr>
+              <td><b>水果類</b></td>
+              <td>微量</td>
+              <td>微量</td>
+              <td>15</td>
+              <td><b>60</b></td>
+              <td>天然果糖、維生素C、抗氧化物質</td>
+            </tr>
+            <tr>
+              <td><b>乳品類 (全脂)</b></td>
+              <td>8</td>
+              <td>8</td>
+              <td>12</td>
+              <td><b>150</b></td>
+              <td>鈣質、優質蛋白質、維生素B2</td>
+            </tr>
+            <tr>
+              <td><b>乳品類 (低脂)</b></td>
+              <td>8</td>
+              <td>4</td>
+              <td>12</td>
+              <td><b>120</b></td>
+              <td>豐富鈣質、低飽和脂肪</td>
+            </tr>
+            <tr>
+              <td><b>油脂與堅果種子</b></td>
+              <td>微量</td>
+              <td>5</td>
+              <td>微量</td>
+              <td><b>45</b></td>
+              <td>必需脂肪酸、維生素E、不飽和脂肪</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 篩選列 -->
+      <div class="filter-bar">
+        <input type="text" id="searchInput" class="search-input" placeholder="🔍 搜尋食材名稱（如：白飯、雞胸肉、蛋、芭樂、堅果...）">
+        <div class="cat-pills">
+          <button class="cat-btn active" data-cat="all">全部 (54)</button>
+          <button class="cat-btn" data-cat="全榖雜糧類">全榖雜糧</button>
+          <button class="cat-btn" data-cat="豆魚蛋肉類">豆魚蛋肉</button>
+          <button class="cat-btn" data-cat="蔬菜類">蔬菜類</button>
+          <button class="cat-btn" data-cat="水果類">水果類</button>
+          <button class="cat-btn" data-cat="乳品類">乳品類</button>
+          <button class="cat-btn" data-cat="油脂與堅果種子類">油脂堅果</button>
+        </div>
+      </div>
+
+      <!-- 食物卡片清單 -->
+      <div class="foods-grid" id="foodsGrid"></div>
+
+    </div>
+  </main>
+
+  <footer style="text-align:center; padding:28px; color:var(--muted); border-top:1px solid var(--line); font-size:1rem;">
+    @2026 Kat Chang 凱特營養師｜中高齡營養專家 ｜ 資料來源：衛生福利部國民健康署《食物代換表》 ｜ <a href="../../sitemap.html" style="color:inherit; font-weight:700;">網站地圖</a> ｜ <a href="../" style="color:var(--green-dark); font-weight:700;">返回教具總覽</a>
+  </footer>
+
+  <script>
+    let foodsData = [];
+    let currentCat = 'all';
+
+    const catBadgeClass = {
+      '全榖雜糧類': 'grain',
+      '豆魚蛋肉類': 'protein',
+      '蔬菜類': 'veg',
+      '水果類': 'fruit',
+      '乳品類': 'dairy',
+      '油脂與堅果種子類': 'fat'
+    };
+
+    fetch('../../food_exchange_db.json')
+      .then(res => res.json())
+      .then(data => {
+        foodsData = data.items;
+        renderFoods();
+      })
+      .catch(err => {
+        console.error('Failed to load foods:', err);
+      });
+
+    const searchInput = document.getElementById('searchInput');
+    const catBtns = document.querySelectorAll('.cat-btn');
+    const grid = document.getElementById('foodsGrid');
+
+    searchInput.addEventListener('input', renderFoods);
+
+    catBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        catBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentCat = btn.dataset.cat;
+        renderFoods();
+      });
+    });
+
+    function renderFoods() {
+      const q = searchInput.value.trim().toLowerCase();
+      const filtered = foodsData.filter(item => {
+        const matchesCat = (currentCat === 'all') || (item.category === currentCat);
+        const matchesQ = !q || item.name.toLowerCase().includes(q) || (item.sub && item.sub.toLowerCase().includes(q));
+        return matchesCat && matchesQ;
+      });
+
+      if (filtered.length === 0) {
+        grid.innerHTML = '<div class="empty-hint">查無符合條件的食材，請嘗試其他關鍵字或切換分類。</div>';
+        return;
+      }
+
+      grid.innerHTML = filtered.map(item => {
+        const badgeStyle = catBadgeClass[item.category] || 'grain';
+        return `
+          <div class="food-item-card">
+            <div>
+              <div class="card-top">
+                <h3 class="food-name">${item.name}</h3>
+                <span class="badge ${badgeStyle}">${item.category}</span>
+              </div>
+              <div class="food-portion">
+                <div class="portion-title">每 1 份生活化份量 / 計量：</div>
+                <div class="portion-val">${item.portion}</div>
+                <div style="font-size:0.9rem; color:var(--muted); margin-top:2px;">可食生重/規格：${item.weight}</div>
+              </div>
+            </div>
+            <div>
+              <div class="macro-chips">
+                <span>🔥 <b>${item.calories}</b> 卡</span>
+                <span>🥩 蛋 <b>${item.p}g</b></span>
+                <span>🥑 脂 <b>${item.f}g</b></span>
+                <span>🍚 醣 <b>${item.c}g</b></span>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+  </script>
+</body>
+</html>
