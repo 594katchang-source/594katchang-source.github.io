@@ -4,31 +4,34 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>料理影片資料庫 ｜ Kat Chang 凱特營養師</title>
-  <meta name="description" content="精選國健署、各縣市社區營養推廣中心、醫學中心營養科與健康料理教學影片資料庫。支援電鍋專區、質地調整、全年齡自煮與長輩活動教案列印、一鍵複製AI提問。">
+  <meta name="description" content="精選衛生福利部國民健康署、臺中市衛生局、各縣市社區營養推廣中心與教學醫院公信力健康食譜。收錄豐富電鍋料理、質地調整、全年齡自煮與長輩活動教案列印、一鍵複製AI提問。">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://594katchang-source.github.io/teach/cook-database/">
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="料理影片資料庫 ｜ Kat Chang 凱特營養師">
-  <meta property="og:description" content="精選國健署與各大醫學中心健康示範食譜，電鍋料理、質地調整、全年齡自煮與教案速查。">
+  <meta property="og:description" content="精選國健署、衛生局與各大醫學中心健康示範食譜，電鍋料理、質地調整、全年齡自煮與教案速查。">
   <meta property="og:url" content="https://594katchang-source.github.io/teach/cook-database/">
   <meta property="og:image" content="https://594katchang-source.github.io/assets/og/og-home.png">
 
   <link rel="stylesheet" href="../../styles.css?v=20261010">
   <style>
     :root {
-      --bg: #FAF6EF;
+      --bg: #F8F9FA;
       --card: #FFFFFF;
-      --ink: #2B2521;
-      --muted: #7A6E63;
-      --line: #E7DECF;
-      --accent: #C4622D;
-      --star: #E8A33D;
-      --c1: #2E8B76;
-      --c2: #C4622D;
-      --c3: #A8443A;
-      --c4: #3E6BA8;
-      --c5: #7E57B5;
+      --ink: #1F2937;
+      --muted: #64748B;
+      --line: #E2E8F0;
+      --primary: #1F4E3D;
+      --primary-hover: #16382C;
+      --accent: #2D6A4F;
+      --accent-light: #E8F5E9;
+      --star: #F59E0B;
+      --c1: #0D9488; /* 免開火 */
+      --c2: #D97706; /* 簡易熱食 */
+      --c3: #C026D3; /* 傳統點心 */
+      --c4: #2563EB; /* 銀髮軟食 */
+      --c5: #7C3AED; /* 團體同樂 */
     }
 
     body.teach-directory {
@@ -50,26 +53,26 @@
     .nav-breadcrumbs {
       font-size: 0.95rem;
       font-weight: 700;
-      color: #6a5e55;
+      color: #64748B;
       margin-bottom: 12px;
       padding-top: 10px;
     }
     .nav-breadcrumbs a {
-      color: var(--accent);
+      color: var(--primary);
       text-decoration: none;
     }
     .nav-breadcrumbs a:hover {
       text-decoration: underline;
     }
 
-    /* Hero Banner */
+    /* Hero Banner - 回歸網站預設品牌森林綠 */
     .hero-banner {
-      background: linear-gradient(135deg, #8C3F1F, #C4622D 55%, #D98C3F);
-      color: #fff;
+      background: linear-gradient(135deg, #1A4731 0%, #2D6A4F 60%, #3B8260 100%);
+      color: #FFFFFF;
       border-radius: 20px;
       padding: 30px 32px 26px;
-      margin-bottom: 18px;
-      box-shadow: 0 4px 16px rgba(140, 63, 31, 0.15);
+      margin-bottom: 20px;
+      box-shadow: 0 4px 16px rgba(31, 78, 61, 0.15);
     }
     .hero-banner .eyebrow {
       font-size: 0.9rem;
@@ -88,12 +91,12 @@
     .hero-banner .lead {
       font-size: 1.05rem;
       line-height: 1.6;
-      max-width: 960px;
+      max-width: 980px;
       margin: 0;
       opacity: 0.95;
     }
 
-    /* 搜尋與篩選面板 (完全依據上傳圖片排版) */
+    /* 搜尋與篩選面板 */
     .panel {
       background: #FFFFFF;
       border: 1px solid var(--line);
@@ -117,12 +120,12 @@
       border: 2px solid var(--line);
       border-radius: 12px;
       font-family: inherit;
-      background: #FDFBF7;
+      background: #F8FAFC;
       color: var(--ink);
     }
     #q:focus {
       outline: none;
-      border-color: var(--accent);
+      border-color: var(--primary);
       background: #fff;
     }
     .btn {
@@ -139,18 +142,18 @@
       transition: all 0.15s ease;
     }
     .btn:hover {
-      border-color: var(--accent);
-      background: #FDFBF7;
+      border-color: var(--primary);
+      background: #F8FAFC;
     }
     .btn.on {
-      background: var(--accent);
-      border-color: var(--accent);
+      background: var(--primary);
+      border-color: var(--primary);
       color: #fff;
     }
     .btn.fav.on {
       background: var(--star);
       border-color: var(--star);
-      color: #3A2A10;
+      color: #FFFFFF;
     }
 
     /* 分類與各分組行 */
@@ -162,12 +165,12 @@
       flex-wrap: wrap;
     }
     .glab {
-      font-size: 0.9rem;
+      font-size: 0.92rem;
       color: var(--muted);
       min-width: 60px;
       padding-top: 7px;
       font-weight: 800;
-      letter-spacing: 1px;
+      letter-spacing: 0.5px;
     }
     .chips {
       display: flex;
@@ -177,7 +180,7 @@
     }
     .chip {
       border: 1.5px solid var(--line);
-      background: #FDFBF7;
+      background: #F8FAFC;
       border-radius: 999px;
       padding: 6px 14px;
       font-size: 0.92rem;
@@ -188,7 +191,7 @@
       transition: all 0.15s ease;
     }
     .chip:hover {
-      border-color: var(--accent);
+      border-color: var(--primary);
       background: #fff;
     }
     .chip.on {
@@ -200,30 +203,32 @@
     .chip.on[data-c="傳統點心"] { background: var(--c3); }
     .chip.on[data-c="銀髮軟食"] { background: var(--c4); }
     .chip.on[data-c="團體同樂"] { background: var(--c5); }
-    .chip.on:not([data-c]) { background: var(--accent); }
+    .chip.on:not([data-c]) { background: var(--primary); }
 
+    /* 收起/展開篩選按鈕 - 預設收合 */
     .toggle-filter-btn {
       margin-top: 12px;
       font-size: 0.92rem;
       font-weight: 800;
-      color: var(--accent);
+      color: var(--primary);
       cursor: pointer;
       user-select: none;
       display: inline-flex;
       align-items: center;
       gap: 4px;
-      background: #FFF3EB;
-      border: 1px solid #FCD9C4;
+      background: var(--accent-light);
+      border: 1px solid #C8E6C9;
       border-radius: 8px;
       padding: 6px 14px;
+      transition: background 0.15s ease;
     }
     .toggle-filter-btn:hover {
-      background: #FEE7D6;
+      background: #DCEDC8;
     }
 
     #moreFilterSection {
-      display: block;
-      margin-top: 8px;
+      display: none; /* 預設收合 */
+      margin-top: 10px;
       padding-top: 10px;
       border-top: 1px dashed var(--line);
     }
@@ -237,14 +242,14 @@
       font-family: inherit;
       font-size: 0.92rem;
       line-height: 1.6;
-      background: #FDFBF7;
+      background: #F8FAFC;
       resize: vertical;
       box-sizing: border-box;
-      color: #222;
+      color: #1F2937;
     }
     #tpl:focus {
       outline: none;
-      border-color: var(--accent);
+      border-color: var(--primary);
       background: #fff;
     }
     .tpl-hint {
@@ -254,11 +259,11 @@
       align-self: center;
     }
 
-    /* 4 欄極簡卡片網格 (圖 1) */
+    /* 4 欄精緻卡片網格 (縮圖置頂 - 圖 1 / 使用者上傳圖片風格) */
     .recipes-grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      gap: 18px;
+      gap: 20px;
       margin-bottom: 30px;
     }
     @media (max-width: 1200px) {
@@ -275,79 +280,117 @@
       background: #FFFFFF;
       border: 1.5px solid var(--line);
       border-radius: 16px;
-      padding: 18px 20px;
+      overflow: hidden;
       cursor: pointer;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      min-height: 200px;
       position: relative;
       transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
-      box-shadow: 0 2px 6px rgba(80, 60, 40, 0.05);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
     }
     .recipe-card:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 8px 22px rgba(80, 60, 40, 0.12);
-      border-color: var(--accent);
+      transform: translateY(-4px);
+      box-shadow: 0 10px 24px rgba(31, 78, 61, 0.12);
+      border-color: var(--primary);
     }
 
-    /* 卡片右上角收藏星號 */
+    /* 頂部縮圖容器 */
+    .card-thumb-wrap {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: #E2E8F0;
+      overflow: hidden;
+    }
+    .card-thumb-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.25s ease;
+    }
+    .recipe-card:hover .card-thumb-wrap img {
+      transform: scale(1.04);
+    }
+
+    /* 縮圖左上角分類標籤 (如圖示) */
+    .card-cat-badge {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      color: #FFFFFF;
+      font-size: 0.8rem;
+      font-weight: 800;
+      padding: 3px 10px;
+      border-radius: 999px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      z-index: 2;
+    }
+    .card-cat-badge[data-c="免開火"] { background: var(--c1); }
+    .card-cat-badge[data-c="簡易熱食"] { background: var(--c2); }
+    .card-cat-badge[data-c="傳統點心"] { background: var(--c3); }
+    .card-cat-badge[data-c="銀髮軟食"] { background: var(--c4); }
+    .card-cat-badge[data-c="團體同樂"] { background: var(--c5); }
+
+    /* 縮圖右上角收藏圓形星號 (如圖示) */
     .card-fav-star {
       position: absolute;
-      right: 14px;
-      top: 14px;
-      width: 34px;
-      height: 34px;
+      top: 10px;
+      right: 10px;
+      width: 32px;
+      height: 32px;
       border-radius: 50%;
-      border: 1.5px solid var(--line);
-      background: #fff;
+      border: none;
+      background: rgba(255, 255, 255, 0.9);
       display: flex;
       align-items: center;
       justify-content: center;
       font-size: 1.15rem;
-      color: #CCC0B3;
+      color: #94A3B8;
       cursor: pointer;
-      z-index: 5;
+      z-index: 3;
       transition: all 0.15s ease;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
     }
     .card-fav-star:hover {
-      border-color: var(--star);
       color: var(--star);
-      transform: scale(1.1);
+      transform: scale(1.12);
     }
     .card-fav-star.active {
       color: var(--star);
-      border-color: var(--star);
-      background: #FFFBF2;
+      background: #FFFFFF;
     }
 
-    .card-type-icon {
-      font-size: 1.6rem;
-      margin-bottom: 8px;
-      display: inline-block;
+    /* 卡片內容主體 */
+    .card-body {
+      padding: 14px 16px 16px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      justify-content: space-between;
     }
     .card-title {
-      font-size: 1.3rem;
+      font-size: 1.18rem;
       font-weight: 950;
-      color: #17212b;
-      margin: 0 0 8px;
-      line-height: 1.3;
-      padding-right: 32px;
+      color: #0F172A;
+      margin: 0 0 6px;
+      line-height: 1.35;
     }
     .card-meta-line {
-      font-size: 0.95rem;
-      font-weight: 800;
-      color: var(--accent);
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--muted);
       margin-bottom: 12px;
       display: flex;
-      gap: 10px;
+      gap: 8px;
       align-items: center;
       flex-wrap: wrap;
     }
-    .card-meta-line .sub-channel {
-      color: #647285;
-      font-weight: 700;
+    .card-meta-line .channel-name {
+      color: #334155;
+      font-weight: 800;
     }
+
     .card-tags {
       display: flex;
       gap: 6px;
@@ -355,30 +398,30 @@
       margin-top: auto;
     }
     .pill-tag {
-      background: #eef6f2;
-      border: 1px solid #c8e4d3;
-      color: #0d4c39;
-      padding: 3px 9px;
-      border-radius: 8px;
-      font-size: 0.82rem;
+      background: #F1F5F9;
+      border: 1px solid #CBD5E1;
+      color: #334155;
+      padding: 2px 8px;
+      border-radius: 6px;
+      font-size: 0.78rem;
       font-weight: 800;
     }
     .pill-tag.cooker {
-      background: #fff4ea;
-      border-color: #ffd8b8;
-      color: #b35614;
+      background: #FFF7ED;
+      border-color: #FED7AA;
+      color: #C2410C;
     }
     .pill-tag.official {
-      background: #eff6ff;
-      border-color: #bfdbfe;
-      color: #1e40af;
+      background: #EFF6FF;
+      border-color: #BFDBFE;
+      color: #1D4ED8;
     }
 
-    /* 點擊放大彈窗 (Modal - 完全依據圖 2) */
+    /* 點擊放大彈窗 (Modal - 圖 2) */
     .modal-overlay {
       position: fixed;
       inset: 0;
-      background: rgba(18, 25, 34, 0.65);
+      background: rgba(15, 23, 42, 0.65);
       backdrop-filter: blur(4px);
       z-index: 999;
       display: none;
@@ -405,14 +448,14 @@
       position: absolute;
       top: 20px;
       right: 20px;
-      background: #f1f4f8;
+      background: #F1F5F9;
       border: none;
       width: 40px;
       height: 40px;
       border-radius: 50%;
       font-size: 1.3rem;
       font-weight: 900;
-      color: #4b5869;
+      color: #475569;
       cursor: pointer;
       display: flex;
       align-items: center;
@@ -420,15 +463,14 @@
       transition: background 0.15s ease;
     }
     .btn-close-modal:hover {
-      background: #e2e8f0;
-      color: #111;
+      background: #E2E8F0;
+      color: #0F172A;
     }
 
-    /* 彈窗內排版樣式 */
     .modal-dish-title {
       font-size: 2.2rem;
       font-weight: 950;
-      color: #152232;
+      color: #0F172A;
       margin: 0 0 10px;
       line-height: 1.25;
     }
@@ -436,15 +478,15 @@
       display: flex;
       flex-wrap: wrap;
       gap: 12px;
-      font-size: 1rem;
+      font-size: 0.95rem;
       font-weight: 800;
-      color: #556272;
+      color: #475569;
       margin-bottom: 22px;
       align-items: center;
     }
     .modal-meta-badge {
-      background: #FFF3EB;
-      color: var(--accent);
+      background: var(--accent-light);
+      color: var(--primary);
       padding: 4px 12px;
       border-radius: 8px;
       font-weight: 900;
@@ -452,15 +494,15 @@
 
     /* 綠色機能重點卡片 (圖 2) */
     .modal-highlight-card {
-      background: #edf7f0;
-      border: 1.5px solid #c2e6cd;
+      background: #ECFDF5;
+      border: 1.5px solid #A7F3D0;
       border-radius: 16px;
       padding: 18px 22px;
       margin-bottom: 24px;
     }
     .modal-highlight-card h4 {
       margin: 0 0 8px;
-      color: #1b6338;
+      color: #065F46;
       font-size: 1.15rem;
       font-weight: 950;
       display: flex;
@@ -469,7 +511,7 @@
     }
     .modal-highlight-card p {
       margin: 0;
-      color: #274834;
+      color: #064E3B;
       font-size: 1.05rem;
       font-weight: 700;
       line-height: 1.6;
@@ -479,7 +521,7 @@
     .modal-section-title {
       font-size: 1.35rem;
       font-weight: 950;
-      color: #1e2c3d;
+      color: #0F172A;
       margin: 22px 0 12px;
       display: flex;
       align-items: center;
@@ -489,7 +531,7 @@
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 10px;
-      background: #fbf9f5;
+      background: #F8FAFC;
       padding: 16px 20px;
       border-radius: 14px;
       border: 1px solid var(--line);
@@ -498,24 +540,24 @@
       .materials-grid { grid-template-columns: 1fr; }
     }
     .mat-item {
-      font-size: 1.05rem;
+      font-size: 1.02rem;
       font-weight: 800;
-      color: #384554;
+      color: #334155;
       display: flex;
       align-items: center;
       gap: 8px;
     }
     .mat-item::before {
       content: "•";
-      color: var(--accent);
+      color: var(--primary);
       font-size: 1.3rem;
     }
 
     .steps-list {
       margin: 0;
       padding: 0 0 0 20px;
-      color: #334050;
-      font-size: 1.08rem;
+      color: #334155;
+      font-size: 1.05rem;
       font-weight: 700;
       line-height: 1.7;
     }
@@ -525,27 +567,27 @@
 
     /* 調整建議 (圖 2 藍底色塊) */
     .modal-adaptation-card {
-      background: #f0f7ff;
-      border: 1.5px solid #cfe2fe;
+      background: #EFF6FF;
+      border: 1.5px solid #BFDBFE;
       border-radius: 16px;
       padding: 16px 20px;
       margin: 24px 0;
     }
     .modal-adaptation-card h4 {
       margin: 0 0 6px;
-      color: #1d4ed8;
+      color: #1E40AF;
       font-size: 1.1rem;
       font-weight: 950;
     }
     .modal-adaptation-card p {
       margin: 0;
-      color: #1e3a8a;
+      color: #1E3A8A;
       font-size: 1.02rem;
       font-weight: 700;
       line-height: 1.6;
     }
 
-    /* 彈窗底部三大功能按鈕 (完全依據指定規範) */
+    /* 彈窗底部三大功能按鈕 */
     .modal-actions-row {
       display: grid;
       grid-template-columns: 1.2fr 1fr 1fr;
@@ -564,7 +606,7 @@
       gap: 8px;
       padding: 14px 18px;
       border-radius: 14px;
-      font-size: 1.08rem;
+      font-size: 1.05rem;
       font-weight: 900;
       text-decoration: none;
       cursor: pointer;
@@ -573,32 +615,32 @@
       text-align: center;
     }
     .btn-watch {
-      background: #C4622D;
+      background: #1F4E3D;
       color: #FFFFFF;
     }
     .btn-watch:hover {
-      background: #A84F20;
+      background: #16382C;
     }
     .btn-copy-ai {
-      background: #EEF4FB;
-      color: #1D538A;
-      border-color: #C8DBF0;
+      background: #F0FDF4;
+      color: #166534;
+      border-color: #BBF7D0;
     }
     .btn-copy-ai:hover {
-      background: #1D538A;
-      color: #fff;
+      background: #166534;
+      color: #FFFFFF;
     }
     .btn-print-lesson {
-      background: #F4F6F8;
+      background: #F8FAFC;
       color: #334155;
       border-color: #CBD5E1;
     }
     .btn-print-lesson:hover {
       background: #334155;
-      color: #fff;
+      color: #FFFFFF;
     }
 
-    /* 底部版權宣告 (嚴格依據使用者指定字句) */
+    /* 底部版權宣告 */
     .db-footer-meta {
       text-align: center;
       font-size: 0.95rem;
@@ -606,7 +648,7 @@
       color: var(--muted);
       margin: 40px 0 30px;
       padding: 16px 20px;
-      background: #FFF;
+      background: #FFFFFF;
       border-radius: 12px;
       border: 1px solid var(--line);
     }
@@ -617,11 +659,11 @@
       left: 50%;
       bottom: 30px;
       transform: translateX(-50%) translateY(20px);
-      background: #20262E;
-      color: #fff;
+      background: #0F172A;
+      color: #FFFFFF;
       padding: 12px 26px;
       border-radius: 30px;
-      font-size: 1.05rem;
+      font-size: 1.02rem;
       font-weight: 800;
       box-shadow: 0 10px 25px rgba(0,0,0,0.25);
       opacity: 0;
@@ -635,10 +677,9 @@
     }
 
     /* ============================================================
-       列印樣式專門優化（徹底杜絕重複問題）
+       列印樣式專門優化（杜絕重複問題）
        ============================================================ */
     @media print {
-      /* 情境 1：列印目前清單 (body.print-list-mode) */
       body.print-list-mode .site-header,
       body.print-list-mode .nav-breadcrumbs,
       body.print-list-mode .panel,
@@ -661,7 +702,6 @@
         box-shadow: none !important;
       }
 
-      /* 情境 2：列印單一教案 (body.print-single-mode) */
       body.print-single-mode .site-header,
       body.print-single-mode .nav-breadcrumbs,
       body.print-single-mode .hero-banner,
@@ -718,10 +758,10 @@
       <div class="hero-banner">
         <p class="eyebrow">Public Nutrition Recipe Video Hub</p>
         <h1>料理影片資料庫</h1>
-        <p class="lead">精選衛生福利部國民健康署、各大醫學中心營養部與各縣市社區營養推廣中心公信力食譜。收錄豐富電鍋料理、少油少鹽、質地調整飲食，支援全年齡自煮、課堂帶領與一鍵生成 AI 提問！</p>
+        <p class="lead">精選衛生福利部國民健康署、臺中市衛生局、各大醫學中心營養部與各縣市社區營養推廣中心公信力食譜。收錄豐富電鍋料理、質地調整飲食與減鹽低油技巧，支援全年齡自煮、課堂帶領與一鍵生成 AI 提問！</p>
       </div>
 
-      <!-- 頂部篩選控制面板 (完全依照上傳圖片) -->
+      <!-- 頂部篩選控制面板 -->
       <div class="panel">
         <div class="searchrow">
           <input id="q" type="search" placeholder="搜尋料理名稱、標題、頻道或帶領重點…（例如：湯圓、電鍋、免開火）">
@@ -743,7 +783,8 @@
           </div>
         </div>
 
-        <button class="toggle-filter-btn" id="toggleMoreFilterBtn">▲ 收起篩選（難易度、設備、主題標籤）</button>
+        <!-- 預設收合 -->
+        <button class="toggle-filter-btn" id="toggleMoreFilterBtn">▾ 更多篩選（難易度、設備、主題標籤）</button>
 
         <div id="moreFilterSection">
           <!-- 難易度 -->
@@ -807,7 +848,7 @@
             </div>
           </div>
 
-          <!-- AI 提問模板區 (完全依據使用者指定文本) -->
+          <!-- AI 提問模板區 -->
           <div class="grp">
             <span class="glab">AI提問</span>
             <div class="chips" style="flex-direction:column; align-items:stretch; gap:8px;">
@@ -821,20 +862,20 @@
         </div>
       </div>
 
-      <!-- 卡片清單網格 (圖 1) -->
+      <!-- 卡片清單網格 (帶影片縮圖) -->
       <div class="recipes-grid" id="recipesGrid"></div>
       <div id="noMatch" style="display:none; text-align:center; padding:60px 20px; background:#fff; border-radius:20px; border:1px dashed var(--line); font-size:1.25rem; color:var(--muted);">
         查無符合條件的料理影片，請嘗試其他關鍵字或點擊「清除篩選」。
       </div>
 
-      <!-- 底部統計與嚴格版權文字 (依使用者硬性規範) -->
+      <!-- 底部統計與嚴格版權文字 -->
       <div class="db-footer-meta" id="dbFooterMeta">
         共載入 0 部影片 ｜ 每支連結皆經 YouTube oEmbed 驗證存在 ｜ 影片版權屬各原始頻道所有，請遵守合理使用原則
       </div>
     </div>
   </main>
 
-  <!-- 點擊放大彈窗 (Modal - 圖 2) -->
+  <!-- 點擊放大彈窗 (Modal) -->
   <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true">
     <div class="modal-box" id="modalBox">
       <button class="btn-close-modal" id="modalCloseBtn" aria-label="關閉彈窗">✕</button>
@@ -846,11 +887,10 @@
   <div class="toast" id="toast"></div>
 
   <footer style="text-align:center; padding:28px; color:var(--muted); border-top:1px solid var(--line); font-size:1rem;">
-    @2026 Kat Chang 凱特營養師｜中高齡營養專家 ｜ <a href="../../sitemap.html" style="color:inherit; font-weight:700;">網站地圖</a> ｜ <a href="../" style="color:var(--accent); font-weight:700;">返回教具總覽</a>
+    @2026 Kat Chang 凱特營養師｜中高齡營養專家 ｜ <a href="../../sitemap.html" style="color:inherit; font-weight:700;">網站地圖</a> ｜ <a href="../" style="color:var(--primary); font-weight:700;">返回教具總覽</a>
   </footer>
 
   <script>
-    // 預設 AI 提問模板 (依據使用者最新要求)
     const DEFAULT_AI_PROMPT = `我準備動手做「{{dish}}」這道料理。
 
 參考影片：{{title}}
@@ -860,7 +900,7 @@
 
 1. 製作這道料理需要哪些材料與步驟？請列出材料份量，並換算成 10 人份，步驟請寫成小孩都看得懂的簡單說明。
 
-2. 這道料理有哪些重要的營養元素？對各族群要注意哪些營養問題？（例如鹽分、糖分、油脂、蛋白質、膳食纖維，以及高血壓、糖尿病、腎臟病、痛風長輩的注意事項）
+2. 這道料理有哪些重要的營養元素？對各族群要注意哪些營養問題？（例如鹽分、糖分、油脂、蛋白質、膳食纖維，以及高血壓、糖尿病、慢性腎臟病、痛風長輩的注意事項）
 
 3. 我在帶領活動時要注意哪些地方？請包含：安全（用火、用刀、燙傷）、衛生、人員分工、時間安排、牙口與吞嚥狀況的調整，以及行動不便或失智長輩可以參與的替代做法。
 
@@ -907,7 +947,7 @@
       showToast('已還原預設提問模板');
     });
 
-    // 載入我的最愛
+    // 載入最愛
     try {
       const savedFavs = JSON.parse(localStorage.getItem('kat_cook_favs') || '[]');
       myFavorites = new Set(savedFavs);
@@ -927,15 +967,14 @@
         console.error('Failed to load recipes_full.json', err);
       });
 
-    // 篩選展開/收起
-    let isMoreOpen = true;
+    // 篩選展開/收起 - 預設收合
+    let isMoreOpen = false;
     toggleMoreFilterBtn.addEventListener('click', () => {
       isMoreOpen = !isMoreOpen;
       moreFilterSection.style.display = isMoreOpen ? 'block' : 'none';
       toggleMoreFilterBtn.textContent = isMoreOpen ? '▲ 收起篩選（難易度、設備、主題標籤）' : '▾ 更多篩選（難易度、設備、主題標籤）';
     });
 
-    // 事件監聽
     qInput.addEventListener('input', renderList);
 
     // 分類 Chips
@@ -1012,7 +1051,7 @@
       showToast(`🎲 為您推薦：${randItem.dish}`);
     });
 
-    // 匯出我的最愛
+    // 匯出最愛
     expFavBtn.addEventListener('click', () => {
       if (myFavorites.size === 0) {
         showToast('目前尚無收藏的食譜可匯出');
@@ -1029,7 +1068,7 @@
       showToast(`已匯出 ${myFavorites.size} 筆最愛食譜`);
     });
 
-    // 匯入我的最愛
+    // 匯入最愛
     impFavFile.addEventListener('change', (e) => {
       const file = e.target.files[0];
       if (!file) return;
@@ -1054,19 +1093,17 @@
       e.target.value = '';
     });
 
-    // 列印目前清單 (情境 1：無重複、純淨排版)
+    // 列印目前清單
     printListBtn.addEventListener('click', () => {
       document.body.classList.add('print-list-mode');
       window.print();
     });
 
-    // 列印事件重設
     window.addEventListener('afterprint', () => {
       document.body.classList.remove('print-list-mode');
       document.body.classList.remove('print-single-mode');
     });
 
-    // 收藏處理
     function toggleFav(id, event) {
       if (event) event.stopPropagation();
       if (myFavorites.has(id)) {
@@ -1089,7 +1126,7 @@
       favCountSpan.textContent = myFavorites.size;
     }
 
-    // 渲染卡片列表 (4 欄極簡卡片 - 圖 1)
+    // 渲染卡片清單 (含 YouTube 影片縮圖)
     function renderList() {
       const q = qInput.value.trim().toLowerCase();
 
@@ -1115,23 +1152,27 @@
           if (!hasEq) return false;
         }
 
-        // 標籤
+        // 標籤篩選（嚴格過濾，私人頻道絕對不混入公信單位）
         if (currentTag !== 'all') {
-          let hasTag = item.tag && item.tag.includes(currentTag);
           if (currentTag === '國健署') {
-            hasTag = item.ch.includes('國民健康署') || (item.tag && item.tag.includes('國健署'));
+            const isGov = item.ch.includes('國民健康署') || item.ch.includes('國健署') || item.ch.includes('衛生福利部');
+            if (!isGov) return false;
           } else if (currentTag === '社區營養') {
-            hasTag = item.ch.includes('社區營養') || item.ch.includes('衛生局') || (item.tag && item.tag.includes('社區營養'));
+            const isComm = item.ch.includes('社區營養') || item.ch.includes('衛生局') || item.ch.includes('健康情報讚') || item.ch.includes('健康小衛星');
+            if (!isComm) return false;
           } else if (currentTag === '醫院營養') {
-            hasTag = item.ch.includes('醫院') || item.ch.includes('基金會') || (item.tag && item.tag.includes('醫院營養'));
+            const isHosp = item.ch.includes('醫院') || item.ch.includes('癌症希望基金會') || item.ch.includes('腎臟病防治基金會') || item.ch.includes('腎食堂');
+            if (!isHosp) return false;
+          } else {
+            const hasTag = item.tag && item.tag.includes(currentTag);
+            if (!hasTag) return false;
           }
-          if (!hasTag) return false;
         }
 
         return true;
       });
 
-      // 嚴格更新底部版權文字 (依硬性規定)
+      // 嚴格更新底部版權文字
       footerMeta.textContent = `共 ${filtered.length} 部影片 ｜ 每支連結皆經 YouTube oEmbed 驗證存在 ｜ 影片版權屬各原始頻道所有，請遵守合理使用原則`;
 
       if (filtered.length === 0) {
@@ -1141,35 +1182,36 @@
       }
       noMatch.style.display = 'none';
 
-      // 4 欄極簡卡片
+      // 4 欄精緻卡片 (縮圖置頂)
       grid.innerHTML = filtered.map(item => {
         const isFav = myFavorites.has(item.id);
         const isCooker = (item.eq && item.eq.includes('電鍋')) || item.t.includes('電鍋') || (item.tag && item.tag.includes('電鍋料理'));
         const isOfficial = item.ch.includes('國民健康署') || item.ch.includes('衛生局') || item.ch.includes('醫院') || item.ch.includes('社區營養');
-
-        let icon = '🍲';
-        if (isCooker) icon = '🍚';
-        if (item.cat === '免開火') icon = '🥗';
-        if (item.cat === '傳統點心') icon = '🥮';
-        if (item.cat === '銀髮軟食') icon = '🥄';
+        const thumbUrl = `https://i.ytimg.com/vi/${item.id}/hqdefault.jpg`;
 
         return `
           <div class="recipe-card" onclick="openModal('${item.id}')">
-            <button class="card-fav-star ${isFav ? 'active' : ''}" onclick="toggleFav('${item.id}', event)" title="${isFav ? '取消收藏' : '加入收藏'}" aria-label="收藏">★</button>
-            <div>
-              <div class="card-type-icon">${icon}</div>
-              <h3 class="card-title">${item.dish}</h3>
-              <div class="card-meta-line">
-                <span>⏱️ ${item.time || '15-25 分鐘'}</span>
-                <span>•</span>
-                <span class="sub-channel">${item.ch}</span>
-              </div>
+            <!-- 影片縮圖與徽章 (完全如上傳圖片) -->
+            <div class="card-thumb-wrap">
+              <img src="${thumbUrl}" alt="${item.dish}" loading="lazy" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/${item.id}/mqdefault.jpg';">
+              <span class="card-cat-badge" data-c="${item.cat}">${item.cat}</span>
+              <button class="card-fav-star ${isFav ? 'active' : ''}" onclick="toggleFav('${item.id}', event)" title="${isFav ? '取消收藏' : '加入收藏'}" aria-label="收藏">★</button>
             </div>
-            <div class="card-tags">
-              <span class="pill-tag">${item.cat}</span>
-              <span class="pill-tag">${item.diff}級難度</span>
-              ${isCooker ? '<span class="pill-tag cooker">🔥 電鍋專用</span>' : ''}
-              ${isOfficial ? '<span class="pill-tag official">🏛️ 公信示範</span>' : ''}
+            
+            <div class="card-body">
+              <div>
+                <h3 class="card-title">${item.dish}</h3>
+                <div class="card-meta-line">
+                  <span class="channel-name">${item.ch}</span>
+                  <span>•</span>
+                  <span>⏱️ ${item.time || '15-25 分鐘'}</span>
+                </div>
+              </div>
+              <div class="card-tags">
+                <span class="pill-tag">${item.diff}級難度</span>
+                ${isCooker ? '<span class="pill-tag cooker">🔥 電鍋專用</span>' : ''}
+                ${isOfficial ? '<span class="pill-tag official">🏛️ 公信示範</span>' : ''}
+              </div>
             </div>
           </div>
         `;
@@ -1223,7 +1265,7 @@
           <p>${item.adaptation || item.tip || '如供幼兒或長輩食用，建議將食材切細薄或適度延長熟化時間，保留天然甘甜更易入口。'}</p>
         </div>
 
-        <!-- 底部三大功能按鈕 (完全依據指定規範) -->
+        <!-- 底部三大功能按鈕 -->
         <div class="modal-actions-row">
           <a class="modal-action-btn btn-watch" href="https://www.youtube.com/watch?v=${item.id}" target="_blank" rel="noopener noreferrer">
             ▶ 看示範影片
@@ -1241,7 +1283,6 @@
       document.body.style.overflow = 'hidden';
     }
 
-    // 關閉彈窗
     function closeModal() {
       modalOverlay.classList.remove('open');
       document.body.style.overflow = '';
@@ -1255,7 +1296,6 @@
       if (e.key === 'Escape' && modalOverlay.classList.contains('open')) closeModal();
     });
 
-    // 複製提問：動態抓取最上方 AI 提問模板，替換 {{dish}}, {{title}}, {{url}}
     function copyAiPrompt() {
       if (!currentModalItem) return;
       const rawTpl = tplTextarea.value || DEFAULT_AI_PROMPT;
@@ -1269,7 +1309,6 @@
       navigator.clipboard.writeText(populated).then(() => {
         showToast('📋 已複製 AI 提問！可直接貼給 ChatGPT / Gemini / Claude 詢問');
       }).catch(() => {
-        // Fallback
         const ta = document.createElement('textarea');
         ta.value = populated;
         document.body.appendChild(ta);
@@ -1280,13 +1319,11 @@
       });
     }
 
-    // 列印單一教案 (情境 2：只印彈窗內容，絕不重複)
     function printSingleLesson() {
       document.body.classList.add('print-single-mode');
       window.print();
     }
 
-    // Toast 顯示通知
     function showToast(msg) {
       toast.textContent = msg;
       toast.classList.add('show');
