@@ -327,17 +327,14 @@
               <div class="macro-item protein">
                 <h4>優質蛋白質</h4>
                 <div class="grams" id="resProtein">-- <span style="font-size:1.1rem;">g</span></div>
-                <div class="portions" id="resProteinPortion">約 -- 份豆魚蛋肉</div>
               </div>
               <div class="macro-item carbs">
                 <h4>全榖碳水化合物</h4>
                 <div class="grams" id="resCarbs">-- <span style="font-size:1.1rem;">g</span></div>
-                <div class="portions" id="resCarbsPortion">約 -- 碗飯份量</div>
               </div>
               <div class="macro-item fat">
                 <h4>優質油脂與堅果</h4>
                 <div class="grams" id="resFat">-- <span style="font-size:1.1rem;">g</span></div>
-                <div class="portions" id="resFatPortion">約 -- 份好油種子</div>
               </div>
             </div>
           </div>
@@ -440,13 +437,8 @@
 
       document.getElementById('dietPatternName').textContent = `依據【${preset.name}】配比：蛋白質 ${preset.protein}% ｜ 碳水 ${preset.carbs}% ｜ 脂肪 ${preset.fat}%`;
       document.getElementById('resProtein').innerHTML = `${pGrams} <span style="font-size:1.1rem;">g</span>`;
-      document.getElementById('resProteinPortion').textContent = `約 ${pPortions} 份豆魚蛋肉類`;
-
       document.getElementById('resCarbs').innerHTML = `${cGrams} <span style="font-size:1.1rem;">g</span>`;
-      document.getElementById('resCarbsPortion').textContent = `約 ${cBowls} 碗熟飯 (主食總量)`;
-
       document.getElementById('resFat').innerHTML = `${fGrams} <span style="font-size:1.1rem;">g</span>`;
-      document.getElementById('resFatPortion').textContent = `約 ${fPortions} 份好油與堅果`;
 
       document.getElementById('resWater').textContent = `${waterMin} ~ ${waterMax}`;
 
