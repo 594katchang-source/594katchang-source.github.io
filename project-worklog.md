@@ -12,19 +12,26 @@
 - **任務 ②（GSC 每週自動追蹤管線升級）**：
   - 全面升級 `tools/weekly_gsc_and_keywords_report.py`，新增「6 大主打互動教具專屬成效追蹤板塊」。
   - 建立對 6 大教具專屬路徑（`teach/nutritionranking/`、`teach/paper-radar/`、`teach/food-exchange/`、`teach/daily-needs/`、`teach/Stress-Food/`、`teach/emotion-cards/`）之獨立點擊、曝光、CTR 與排名監控機制。
-  - 實測產出最新週報（`GSC_Weekly_Growth_Report_2026-10-06.md`），確認管線 100% 順暢。
+- **任務 ③（Codex 與 Antigravity 雙向知識庫沉澱與排程確認）**：
+  - 更新 `agent.md`，正式將 6 大主打教具 30 組擴充關鍵字與每週 GSC 排程規範永久固化為協作標準。
+  - 執行 `tools/sync_seo_and_geo.py`，全站 Sitemaps、llms.txt 與 llms-full.txt 全面同步。
+  - 確認 Antigravity 對話層級 Daemon 任務（`task-828`）與 Windows 系統原生排程器（`KatChang_GSC_Weekly_Audit`）皆處於啟用就緒狀態。
 
 ### 主要輸出
 
 - `work/2026-10-10-tools-keyword-matrix-expansion/output/Full_71_Keywords_and_Tools_Matrix.md`：71 組關鍵字與 6 大教具擴充矩陣總表。
 - `tools/weekly_gsc_and_keywords_report.py`：升級版每週 GSC 與教具成長進度報表產生工具。
 - `work/weekly-gsc-reports/GSC_Weekly_Growth_Report_2026-10-06.md`：包含 6 大教具專屬追蹤板塊之最新官方週報。
+- `agent.md`：永久固化 71 組關鍵字與教具追蹤維護規範。
+- 全站 SEO / GEO 基礎設施：`sitemap.xml`、`sitemap.html`、`llms.txt`、`llms-full.txt`、`robots.txt`、`blog/index.html`。
 
 ### 驗證
 
 - 6 大教具路徑與 30 組關鍵字成功對應並載入 GSC API 監控陣列。
 - `python tools/weekly_gsc_and_keywords_report.py` 執行退出碼 0，成功產出最新報表。
+- `python tools/sync_seo_and_geo.py` 執行退出碼 0，全站 25 個 URL 同步完畢。
 - 三點式驗證通過：NutriRank（首項）、每日需求計算器（中項）、草木心語卡牌（末項）皆完整列於追蹤看板。
+- `git status` 確認敏感憑證金鑰隔離完好，無任何外洩風險。
 
 ## 2026-10-09｜Google Search Console 官方後台 API 正式串接與實時排名總檢核
 
