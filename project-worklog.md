@@ -1,5 +1,31 @@
 # Kat Chang site 工作日誌
 
+## 2026-10-10｜6 大主打互動教具 30 組擴充關鍵字矩陣確立、全站 71 組關鍵字與 GSC 每週追蹤系統升級
+
+### 任務
+
+- 依使用者明確指示，針對全站 6 大主打互動教具（NutriRank 食品營養排行榜、論文讀書小站、食物代換速查表、每日營養與熱量需求計算器、Stress Food 壓力飲食解謎、草木心語 情緒覺察卡牌），建立專屬擴充關鍵字矩陣。
+- 遵循專案目錄規範，建立專屬容器 `work/2026-10-10-tools-keyword-matrix-expansion/`（`source/` 與 `output/`）。
+- **任務 ①（關鍵字矩陣總表沉澱）**：
+  - 將 6 大主打教具精準規劃 30 組高意圖、高轉換工具關鍵字（T-01 至 T-30）。
+  - 結合原站 41 組商業與專科關鍵字，彙整為完整的《全站 71 組核心關鍵字與 6 大互動教具擴充矩陣總表》（`Full_71_Keywords_and_Tools_Matrix.md`）。
+- **任務 ②（GSC 每週自動追蹤管線升級）**：
+  - 全面升級 `tools/weekly_gsc_and_keywords_report.py`，新增「6 大主打互動教具專屬成效追蹤板塊」。
+  - 建立對 6 大教具專屬路徑（`teach/nutritionranking/`、`teach/paper-radar/`、`teach/food-exchange/`、`teach/daily-needs/`、`teach/Stress-Food/`、`teach/emotion-cards/`）之獨立點擊、曝光、CTR 與排名監控機制。
+  - 實測產出最新週報（`GSC_Weekly_Growth_Report_2026-10-06.md`），確認管線 100% 順暢。
+
+### 主要輸出
+
+- `work/2026-10-10-tools-keyword-matrix-expansion/output/Full_71_Keywords_and_Tools_Matrix.md`：71 組關鍵字與 6 大教具擴充矩陣總表。
+- `tools/weekly_gsc_and_keywords_report.py`：升級版每週 GSC 與教具成長進度報表產生工具。
+- `work/weekly-gsc-reports/GSC_Weekly_Growth_Report_2026-10-06.md`：包含 6 大教具專屬追蹤板塊之最新官方週報。
+
+### 驗證
+
+- 6 大教具路徑與 30 組關鍵字成功對應並載入 GSC API 監控陣列。
+- `python tools/weekly_gsc_and_keywords_report.py` 執行退出碼 0，成功產出最新報表。
+- 三點式驗證通過：NutriRank（首項）、每日需求計算器（中項）、草木心語卡牌（末項）皆完整列於追蹤看板。
+
 ## 2026-10-09｜Google Search Console 官方後台 API 正式串接與實時排名總檢核
 
 ### 任務
