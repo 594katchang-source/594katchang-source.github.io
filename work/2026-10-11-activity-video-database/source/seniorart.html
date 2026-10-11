@@ -1,0 +1,821 @@
+﻿<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="蒐集台灣、日本與歐美長者藝術活動，支援分類、標籤、搜尋與收藏。">
+  <title>樂藝銀齡｜長者藝術教案資料庫</title>
+  <style>
+    :root {
+      --ink: #24332d;
+      --muted: #66736d;
+      --cream: #f7f3eb;
+      --paper: #fffdf8;
+      --green: #41695a;
+      --green-soft: #dfe9e2;
+      --coral: #d87862;
+      --yellow: #efc56a;
+      --line: #ddd8ce;
+      --shadow: 0 18px 45px rgba(47, 64, 56, .11);
+      --radius: 24px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 10% 0%, rgba(239, 197, 106, .22), transparent 28rem),
+        radial-gradient(circle at 95% 8%, rgba(216, 120, 98, .13), transparent 25rem),
+        var(--cream);
+      font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+      line-height: 1.6;
+    }
+
+    button, input, select { font: inherit; }
+    button, a { -webkit-tap-highlight-color: transparent; }
+    a { color: inherit; }
+
+    .skip-link {
+      position: fixed;
+      left: 1rem;
+      top: -4rem;
+      z-index: 100;
+      padding: .7rem 1rem;
+      color: white;
+      background: var(--green);
+      border-radius: 999px;
+    }
+    .skip-link:focus { top: 1rem; }
+
+    .site-header {
+      width: min(1180px, calc(100% - 32px));
+      margin: 22px auto 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: .8rem;
+      font-weight: 800;
+      letter-spacing: .04em;
+    }
+
+    .brand-mark {
+      display: grid;
+      place-items: center;
+      width: 45px;
+      aspect-ratio: 1;
+      color: white;
+      background: var(--green);
+      border-radius: 50% 50% 46% 54% / 45% 50% 50% 55%;
+      font-size: 1.35rem;
+      transform: rotate(-4deg);
+    }
+
+    .favorite-toggle {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.72);
+      color: var(--ink);
+      padding: .65rem 1rem;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: .2s ease;
+    }
+    .favorite-toggle:hover, .favorite-toggle.active {
+      background: var(--ink);
+      border-color: var(--ink);
+      color: white;
+    }
+
+    .hero {
+      width: min(1180px, calc(100% - 32px));
+      margin: 70px auto 42px;
+      display: grid;
+      grid-template-columns: 1.2fr .8fr;
+      align-items: center;
+      gap: 4rem;
+    }
+
+    .eyebrow {
+      margin: 0 0 .7rem;
+      color: var(--coral);
+      font-size: .82rem;
+      font-weight: 800;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 720px;
+      font-family: "Noto Serif TC", "Songti TC", serif;
+      font-size: clamp(2.7rem, 6vw, 5.6rem);
+      font-weight: 800;
+      letter-spacing: -.045em;
+      line-height: 1.04;
+    }
+
+    .hero-copy {
+      max-width: 650px;
+      margin: 1.3rem 0 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .hero-art {
+      position: relative;
+      min-height: 320px;
+    }
+    .shape {
+      position: absolute;
+      display: grid;
+      place-items: center;
+      box-shadow: var(--shadow);
+      font-size: 3.3rem;
+    }
+    .shape-one {
+      inset: 0 8% 20% 5%;
+      background: var(--green);
+      border-radius: 46% 54% 44% 56% / 59% 38% 62% 41%;
+      transform: rotate(6deg);
+    }
+    .shape-two {
+      width: 160px;
+      height: 160px;
+      right: 0;
+      bottom: 0;
+      background: var(--yellow);
+      border-radius: 38% 62% 60% 40% / 45% 39% 61% 55%;
+      transform: rotate(-9deg);
+      font-size: 2.5rem;
+    }
+    .shape-three {
+      width: 105px;
+      height: 105px;
+      left: 0;
+      bottom: 0;
+      background: var(--coral);
+      border-radius: 50%;
+      font-size: 2rem;
+    }
+
+    .toolbar-wrap {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      padding: 12px 0;
+      background: linear-gradient(var(--cream) 80%, transparent);
+    }
+    .toolbar {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 16px;
+      display: grid;
+      grid-template-columns: minmax(260px, 1.7fr) repeat(3, minmax(140px, .65fr));
+      gap: 10px;
+      background: rgba(255, 253, 248, .92);
+      border: 1px solid rgba(221, 216, 206, .8);
+      border-radius: 22px;
+      box-shadow: 0 12px 32px rgba(47, 64, 56, .08);
+      backdrop-filter: blur(14px);
+    }
+
+    .search-box {
+      position: relative;
+    }
+    .search-box span {
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      pointer-events: none;
+    }
+    input, select {
+      width: 100%;
+      height: 48px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: white;
+      color: var(--ink);
+      outline: none;
+    }
+    input { padding: 0 14px 0 45px; }
+    select { padding: 0 12px; cursor: pointer; }
+    input:focus, select:focus {
+      border-color: var(--green);
+      box-shadow: 0 0 0 3px rgba(65, 105, 90, .14);
+    }
+
+    main {
+      width: min(1180px, calc(100% - 32px));
+      margin: 30px auto 80px;
+    }
+
+    .results-bar {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 1rem;
+      margin: 34px 0 20px;
+    }
+    .results-bar h2 {
+      margin: 0;
+      font-family: "Noto Serif TC", serif;
+      font-size: clamp(1.55rem, 3vw, 2.3rem);
+    }
+    .results-bar p {
+      margin: 0;
+      color: var(--muted);
+    }
+    .clear-button {
+      border: 0;
+      background: transparent;
+      color: var(--coral);
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    .active-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      min-height: 10px;
+      margin-bottom: 20px;
+    }
+    .active-tag {
+      border: 0;
+      padding: .45rem .75rem;
+      background: var(--green-soft);
+      color: var(--green);
+      border-radius: 999px;
+      cursor: pointer;
+      font-size: .83rem;
+      font-weight: 700;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 22px;
+    }
+
+    .card {
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      transition: transform .24s ease, box-shadow .24s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow);
+    }
+
+    .thumb {
+      position: relative;
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      background: #d9ded8;
+    }
+    .thumb img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      transition: transform .35s ease;
+    }
+    .card:hover .thumb img { transform: scale(1.035); }
+    .region-badge {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      padding: .35rem .65rem;
+      color: white;
+      background: rgba(36, 51, 45, .83);
+      border-radius: 999px;
+      font-size: .76rem;
+      font-weight: 800;
+      backdrop-filter: blur(8px);
+    }
+
+    .favorite-button {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      display: grid;
+      place-items: center;
+      width: 38px;
+      height: 38px;
+      border: 0;
+      color: var(--ink);
+      background: rgba(255, 255, 255, .9);
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 1.15rem;
+      box-shadow: 0 4px 16px rgba(0,0,0,.12);
+    }
+    .favorite-button.active { color: #c24f43; }
+
+    .card-body {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      padding: 19px;
+    }
+    .card-meta {
+      color: var(--coral);
+      font-size: .78rem;
+      font-weight: 800;
+      letter-spacing: .06em;
+    }
+    .card h3 {
+      margin: .45rem 0 .55rem;
+      font-family: "Noto Serif TC", serif;
+      font-size: 1.27rem;
+      line-height: 1.36;
+    }
+    .card-description {
+      margin: 0;
+      color: var(--muted);
+      font-size: .92rem;
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 15px 0 18px;
+    }
+    .tag {
+      border: 0;
+      padding: .3rem .58rem;
+      color: #53625b;
+      background: #eeeee8;
+      border-radius: 999px;
+      cursor: pointer;
+      font-size: .74rem;
+    }
+    .card-actions {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 8px;
+      margin-top: auto;
+    }
+    .watch-link, .detail-button {
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 13px;
+      text-decoration: none;
+      font-weight: 800;
+    }
+    .watch-link {
+      color: white;
+      background: var(--green);
+    }
+    .watch-link:hover { background: #315346; }
+    .detail-button {
+      border: 1px solid var(--line);
+      padding: 0 14px;
+      color: var(--ink);
+      background: white;
+      cursor: pointer;
+    }
+
+    .empty {
+      grid-column: 1 / -1;
+      padding: 70px 20px;
+      text-align: center;
+      background: rgba(255,255,255,.55);
+      border: 1px dashed var(--line);
+      border-radius: var(--radius);
+    }
+    .empty span { display: block; font-size: 3rem; }
+
+    dialog {
+      width: min(680px, calc(100% - 28px));
+      max-height: calc(100vh - 36px);
+      padding: 0;
+      color: var(--ink);
+      background: var(--paper);
+      border: 0;
+      border-radius: 26px;
+      box-shadow: 0 30px 90px rgba(19, 33, 27, .25);
+    }
+    dialog::backdrop {
+      background: rgba(26, 40, 34, .55);
+      backdrop-filter: blur(5px);
+    }
+    .modal-content { padding: 28px; }
+    .modal-top {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .modal-top h2 {
+      margin: .3rem 0 0;
+      font-family: "Noto Serif TC", serif;
+      line-height: 1.3;
+    }
+    .close-button {
+      flex: 0 0 auto;
+      width: 40px;
+      height: 40px;
+      border: 1px solid var(--line);
+      background: white;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    .lesson-info {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin: 22px 0;
+    }
+    .info-block {
+      padding: 14px;
+      background: #f0eee7;
+      border-radius: 15px;
+    }
+    .info-block small {
+      display: block;
+      color: var(--muted);
+    }
+    .modal-section h3 { margin-bottom: .25rem; }
+    .modal-section p { margin-top: 0; color: var(--muted); }
+    .modal-link {
+      display: flex;
+      justify-content: center;
+      margin-top: 24px;
+      padding: .8rem 1rem;
+      color: white;
+      background: var(--green);
+      border-radius: 14px;
+      text-decoration: none;
+      font-weight: 800;
+    }
+
+    footer {
+      padding: 30px 16px 45px;
+      color: var(--muted);
+      text-align: center;
+      border-top: 1px solid var(--line);
+      font-size: .9rem;
+    }
+
+    @media (max-width: 900px) {
+      .hero { grid-template-columns: 1fr; margin-top: 48px; gap: 2rem; }
+      .hero-art { min-height: 230px; max-width: 440px; width: 100%; }
+      .toolbar { grid-template-columns: 1fr 1fr; }
+      .search-box { grid-column: 1 / -1; }
+      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 620px) {
+      .site-header { margin-top: 14px; }
+      .brand span:last-child { font-size: .92rem; }
+      .favorite-toggle { padding: .55rem .72rem; font-size: .84rem; }
+      .hero { margin-top: 40px; }
+      h1 { font-size: clamp(2.55rem, 14vw, 4rem); }
+      .hero-art { min-height: 190px; }
+      .shape-one { inset: 0 14% 20% 4%; }
+      .shape-two { width: 110px; height: 110px; }
+      .shape-three { width: 78px; height: 78px; }
+      .toolbar { grid-template-columns: 1fr; border-radius: 18px; }
+      .search-box { grid-column: auto; }
+      .grid { grid-template-columns: 1fr; }
+      .results-bar { align-items: start; flex-direction: column; }
+      .lesson-info { grid-template-columns: 1fr; }
+      .modal-content { padding: 22px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#database">跳至教案資料庫</a>
+
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">藝</span>
+      <span>樂藝銀齡資料庫</span>
+    </div>
+    <button class="favorite-toggle" id="favoriteToggle" type="button" aria-pressed="false">
+      ♡ 我的收藏 <span id="favoriteCount">0</span>
+    </button>
+  </header>
+
+  <section class="hero" aria-labelledby="pageTitle">
+    <div>
+      <p class="eyebrow">Creative Aging Library</p>
+      <h1 id="pageTitle">讓每一次創作，<br>都成為生活的光。</h1>
+      <p class="hero-copy">精選台灣、日本與歐美的長者藝術教案。依地區、媒材與活動能力快速篩選，為日照中心、社區據點與居家陪伴找到合適靈感。</p>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="shape shape-one">🎨</div>
+      <div class="shape shape-two">✂️</div>
+      <div class="shape shape-three">🌿</div>
+    </div>
+  </section>
+
+  <div class="toolbar-wrap">
+    <section class="toolbar" aria-label="搜尋與篩選">
+      <label class="search-box">
+        <span aria-hidden="true">⌕</span>
+        <input id="searchInput" type="search" placeholder="搜尋教案、媒材或能力…" autocomplete="off">
+      </label>
+      <label>
+        <span class="sr-only"></span>
+        <select id="regionFilter" aria-label="依地區篩選">
+          <option value="">所有地區</option>
+          <option value="台灣">台灣／華語</option>
+          <option value="日本">日本</option>
+          <option value="歐美">歐美／英語</option>
+        </select>
+      </label>
+      <label>
+        <select id="mediumFilter" aria-label="依媒材篩選">
+          <option value="">所有媒材</option>
+          <option value="紙藝">紙藝</option>
+          <option value="繪畫">繪畫</option>
+          <option value="黏土">黏土</option>
+          <option value="自然素材">自然素材</option>
+          <option value="綜合媒材">綜合媒材</option>
+        </select>
+      </label>
+      <label>
+        <select id="abilityFilter" aria-label="依活動能力篩選">
+          <option value="">所有能力</option>
+          <option value="手眼協調">手眼協調</option>
+          <option value="精細動作">精細動作</option>
+          <option value="感官刺激">感官刺激</option>
+          <option value="情緒紓壓">情緒紓壓</option>
+          <option value="團體合作">團體合作</option>
+          <option value="失智友善">失智友善</option>
+        </select>
+      </label>
+    </section>
+  </div>
+
+  <main id="database">
+    <div class="results-bar">
+      <div>
+        <p class="eyebrow">Lesson Collection</p>
+        <h2>教案靈感庫</h2>
+        <p id="resultCount" aria-live="polite"></p>
+      </div>
+      <button class="clear-button" id="clearFilters" type="button">清除全部篩選</button>
+    </div>
+    <div class="active-tags" id="activeTags" aria-label="目前篩選條件"></div>
+    <section class="grid" id="lessonGrid" aria-label="藝術教案清單"></section>
+  </main>
+
+  <dialog id="lessonDialog" aria-labelledby="dialogTitle">
+    <div class="modal-content" id="modalContent"></div>
+  </dialog>
+
+  <footer>
+    <p>樂藝銀齡資料庫 · 教案來源為公開 YouTube 影片，實際帶課請依長者能力調整材料與步驟。</p>
+  </footer>
+
+  <script>
+    const lessons = [
+      {id:1,title:"冰棒棍＋瓶蓋手作",region:"台灣",medium:"綜合媒材",abilities:["手眼協調","精細動作","失智友善"],level:"簡易",time:"40–50 分鐘",views:48000,url:"https://www.youtube.com/watch?v=UqpCLFSUYJk",description:"利用冰棒棍與瓶蓋進行排列、拼貼和造型創作，材料熟悉且容易取得。",materials:"冰棒棍、塑膠瓶蓋、白膠、厚紙板",tips:"先將小零件分色裝盤，協助長者一次完成一個步驟。"},
+      {id:2,title:"棉花棒點畫創作",region:"台灣",medium:"繪畫",abilities:["手眼協調","情緒紓壓","失智友善"],level:"簡易",time:"30–45 分鐘",views:35000,url:"https://www.youtube.com/watch?v=jbLlfZgMjU8",description:"用棉花棒沾顏料反覆點畫，適合創作花朵、樹木與季節風景。",materials:"棉花棒、水彩或廣告顏料、圖畫紙",tips:"提供大面積底圖，降低對精細輪廓的要求。"},
+      {id:3,title:"色紙撕貼畫",region:"台灣",medium:"紙藝",abilities:["手眼協調","感官刺激","失智友善"],level:"簡易",time:"30–40 分鐘",views:13000,url:"https://www.youtube.com/shorts/QGwYinfkluc",description:"不用剪刀，以撕、揉、貼完成畫面，同時刺激觸覺與雙手協調。",materials:"彩色紙、口紅膠、圖畫紙、簡單底圖",tips:"使用色彩對比強烈的大張色紙，更容易辨識。"},
+      {id:4,title:"重複畫藝術活動基本帶領",region:"台灣",medium:"繪畫",abilities:["手眼協調","情緒紓壓","失智友善"],level:"簡易",time:"35–50 分鐘",views:16000,url:"https://www.youtube.com/watch?v=3UyQ2a90ySA",description:"完整示範如何用簡單圖形與重複線條帶領長者創作，沒有繪畫基礎也能參與。",materials:"黑色粗筆、彩色筆、圖畫紙、簡單示範圖",tips:"每次只增加一個圖形，讓長者跟著節奏重複繪製。"},
+      {id:5,title:"彩紙小雨傘",region:"台灣",medium:"紙藝",abilities:["精細動作","手眼協調"],level:"中等",time:"40–50 分鐘",views:190000,url:"https://www.youtube.com/shorts/-DT0E_kK5pI",description:"以摺疊、黏合製作立體雨傘，可延伸為梅雨季或夏日主題壁飾。",materials:"雙面色紙、膠水、線材、圓形模板",tips:"可預先裁好圓形紙片，讓長者專注在摺與貼。"},
+      {id:6,title:"春日百花紙藝",region:"台灣",medium:"紙藝",abilities:["手眼協調","精細動作","失智友善"],level:"簡易",time:"40–50 分鐘",views:3800,url:"https://www.youtube.com/watch?v=P5zOJZQwsmA",description:"逐步示範以色紙製作春日花朵，重複花瓣動作適合長者跟做。",materials:"彩色紙、剪刀、白膠、花莖材料",tips:"預先畫好花瓣輪廓，或提供已裁切花瓣降低難度。"},
+      {id:7,title:"長者黏土手部運動",region:"台灣",medium:"黏土",abilities:["感官刺激","精細動作","失智友善"],level:"簡易",time:"30–45 分鐘",views:1000,url:"https://www.youtube.com/watch?v=9pCn6czuNxg",description:"以搓、揉、壓和組合黏土完成小作品，同時活動手指與手掌。",materials:"輕黏土、塑膠墊、簡單造型工具",tips:"選用柔軟黏土，並先以大球、大條等基本形狀暖身。"},
+      {id:8,title:"會動的蝴蝶手作",region:"台灣",medium:"紙藝",abilities:["手眼協調","精細動作","失智友善"],level:"簡易",time:"35–45 分鐘",views:2800,url:"https://www.youtube.com/watch?v=Da1aiJYwblY",description:"完整示範可活動蝴蝶的製作方式，步驟清楚且成品具有趣味回饋。",materials:"色紙、吸管或竹籤、膠帶、彩筆",tips:"尖銳竹籤可改用紙吸管，活動結構由帶領者先組裝。"},
+      {id:9,title:"失智居家活動：紙水果裝飾",region:"台灣",medium:"紙藝",abilities:["失智友善","手眼協調","感官刺激"],level:"簡易",time:"40–55 分鐘",views:3000,url:"https://www.youtube.com/watch?v=UNWKvSI85Fg",description:"台灣失智症協會提供的完整居家教學，以熟悉水果為題進行紙藝製作。",materials:"水果色紙、剪刀、黏膠、繩線",tips:"先聊喜愛的水果與市場經驗，再進入配色和組合。"},
+      {id:10,title:"失智懷舊藝術：紙碗手作",region:"歐美",medium:"紙藝",abilities:["失智友善","感官刺激","手眼協調"],level:"簡易",time:"40–55 分鐘",views:1000,url:"https://www.youtube.com/watch?v=7jyLyLAUXkQ",description:"專為失智者藝術活動帶領者製作的紙碗教學，結合手作與懷舊對話。",materials:"紙張、碗形模板、黏膠、裝飾素材",tips:"以熟悉的餐具和家庭用餐經驗作為話題引導。"},
+      {id:11,title:"毛根聖誕花圈",region:"日本",medium:"綜合媒材",abilities:["精細動作","手眼協調"],level:"簡易",time:"35–45 分鐘",views:680000,url:"https://www.youtube.com/watch?v=9JN5d103liE",description:"以纏繞為主要動作，利用毛根完成色彩繽紛的節慶花圈。",materials:"彩色毛根、緞帶、小吊飾",tips:"選擇較粗毛根，降低抓握和纏繞難度。"},
+      {id:12,title:"摺紙楓葉與銀杏",region:"日本",medium:"紙藝",abilities:["精細動作","團體合作"],level:"中等",time:"45–60 分鐘",views:340000,url:"https://www.youtube.com/watch?v=JeXOdFVqCxA",description:"以摺紙製作秋葉，可由多人共同完成大型季節壁面。",materials:"秋色色紙、釘書機或膠水、樹枝",tips:"依能力分配摺紙、配色、排列與張貼工作。"},
+      {id:13,title:"立體摺紙風鈴",region:"日本",medium:"紙藝",abilities:["精細動作","情緒紓壓"],level:"中等",time:"45–60 分鐘",views:240000,url:"https://www.youtube.com/watch?v=Xc-7SHLJVNc",description:"製作立體風鈴並加入短籤，可結合願望書寫和夏日回憶。",materials:"摺紙、細線、鈴鐺、短籤紙",tips:"可改用大尺寸色紙，並預先穿線。"},
+      {id:14,title:"節分手風琴摺鬼",region:"日本",medium:"紙藝",abilities:["手眼協調","精細動作"],level:"中等",time:"45–55 分鐘",views:99000,url:"https://www.youtube.com/watch?v=EcpJm0JyqP4",description:"運用重複手風琴摺完成鬼怪壁飾，適合節慶文化主題活動。",materials:"色紙、活動眼睛、膠水、圖樣",tips:"在紙上預畫摺線，方便長者依線操作。"},
+      {id:15,title:"銀杏與果實壁飾",region:"日本",medium:"紙藝",abilities:["精細動作","團體合作"],level:"中等",time:"50–65 分鐘",views:65000,url:"https://www.youtube.com/watch?v=l3jcmLPRry0",description:"利用附圖樣製作銀杏葉與果實，組成富有層次的秋季壁面。",materials:"黃色系色紙、圖樣、剪刀、黏膠",tips:"可由工作人員先剪出外框，長者負責摺線與排列。"},
+      {id:16,title:"七夕銀河大型壁飾",region:"日本",medium:"紙藝",abilities:["團體合作","精細動作"],level:"中等",time:"60–90 分鐘",views:60000,url:"https://www.youtube.com/watch?v=zkxaXlKBhIk",description:"共同製作星星、竹葉與許願籤，適合據點大型合作創作。",materials:"色紙、金銀紙、棉線、壁面底紙",tips:"把工作拆成數個小站，讓參與者輪流完成。"},
+      {id:17,title:"夏季透明感壁掛",region:"日本",medium:"綜合媒材",abilities:["感官刺激","精細動作"],level:"簡易",time:"40–55 分鐘",views:61000,url:"https://www.youtube.com/watch?v=1cDQGTCMTzU",description:"用透明袋、摺紙及貼紙創作透光壁掛，具有清涼且豐富的視覺效果。",materials:"透明袋、透明色紙、貼紙、緞帶",tips:"先展示材料透光效果，引導長者自由疊色。"},
+      {id:18,title:"立體朝顏花壁飾",region:"日本",medium:"紙藝",abilities:["精細動作","團體合作"],level:"中等",time:"50–60 分鐘",views:46000,url:"https://www.youtube.com/watch?v=3IMPaFSYM34",description:"按照圖樣製作立體朝顏花，可組合成夏季窗景或大型花牆。",materials:"摺紙、剪刀、白膠、花葉圖樣",tips:"花朵可分成不同難度，方便混合能力團體。"},
+      {id:19,title:"擺動紙金魚",region:"日本",medium:"紙藝",abilities:["手眼協調","感官刺激"],level:"簡易",time:"40–50 分鐘",views:27000,url:"https://www.youtube.com/watch?v=M1Ra-ARcIPM",description:"以摺紙和花紙完成輕盈金魚，組合後能形成具動態感的水族壁畫。",materials:"摺紙、花紙、活動眼睛、細線",tips:"播放流水聲或夏季音樂，增加多感官經驗。"},
+      {id:20,title:"柑橘山茶與小鳥吊飾",region:"日本",medium:"紙藝",abilities:["精細動作","團體合作"],level:"進階",time:"75–90 分鐘",views:9280,url:"https://www.youtube.com/watch?v=1xX87NRHB2A",description:"以多個紙藝單元組成冬季吊飾，適合手部能力較佳或團體分工完成。",materials:"色紙、圖樣、剪刀、繩子、樹枝",tips:"將作品拆成柑橘、花、小鳥三組分工。"},
+      {id:21,title:"失智友善蝴蝶手作",region:"歐美",medium:"紙藝",abilities:["失智友善","手眼協調","感官刺激"],level:"簡易",time:"30–40 分鐘",views:19000,url:"https://www.youtube.com/watch?v=wtgLB7IAAHo",description:"為失智者設計的簡易蝴蝶活動，兼顧認知刺激、社交與成就感。",materials:"彩紙、毛根、貼紙、膠水",tips:"以完成一半的示範品提供視覺提示。"},
+      {id:22,title:"氣球拓印畫",region:"歐美",medium:"繪畫",abilities:["感官刺激","失智友善","情緒紓壓"],level:"簡易",time:"25–40 分鐘",views:87000,url:"https://www.youtube.com/watch?v=r6SV_ZwU7LQ",description:"使用小氣球代替畫筆拓印色彩，握持容易且結果充滿驚喜。",materials:"小氣球、無毒顏料、大張圖畫紙、圍裙",tips:"氣球不要充太滿，並用淺盤盛裝顏料。"},
+      {id:23,title:"秋葉造型碗",region:"歐美",medium:"自然素材",abilities:["感官刺激","精細動作","失智友善"],level:"中等",time:"50–70 分鐘",views:34000,url:"https://www.youtube.com/watch?v=GW5boSYUaV0",description:"以秋葉拼貼成立體容器，在觸摸與排列中感受季節色彩。",materials:"人造葉或乾燥葉、氣球、拼貼膠、刷子",tips:"真葉需確認乾燥無刺；也可改用柔軟人造葉。"},
+      {id:24,title:"失智懷舊藝術：紙籃手作",region:"歐美",medium:"紙藝",abilities:["失智友善","精細動作","手眼協調"],level:"中等",time:"50–65 分鐘",views:1000,url:"https://www.youtube.com/watch?v=ZNdnLVuUwS4",description:"以完整示範教導帶領者陪伴失智者製作紙籃，並融入生活記憶對話。",materials:"紙條、底板、黏膠、裝飾紙",tips:"可加寬紙條，並將編織步驟拆成一次一上一下。"},
+      {id:25,title:"失智友善積木樹畫",region:"歐美",medium:"繪畫",abilities:["失智友善","情緒紓壓","手眼協調"],level:"簡易",time:"35–50 分鐘",views:1000,url:"https://www.youtube.com/watch?v=ym7WCUu2FRE",description:"使用色塊和簡化樹形完成風景畫，為失智者設計且附有完整繪畫指引。",materials:"顏料、粗畫筆、畫紙、樹形參考圖",tips:"限制顏色數量並分區完成，減少視覺與選擇負擔。"},
+      {id:26,title:"失智者簡易趣味手作",region:"歐美",medium:"綜合媒材",abilities:["失智友善","感官刺激","手眼協調"],level:"簡易",time:"30–45 分鐘",views:1000,url:"https://www.youtube.com/watch?v=CXljIex4O4k",description:"示範一項適合長者或失智者的完整手作流程，並說明如何調整活動難度。",materials:"大尺寸紙材、黏膠、彩色裝飾素材",tips:"一次只擺出當下會使用的材料，避免桌面過度複雜。"},
+      {id:27,title:"水彩與白膠線條畫",region:"歐美",medium:"繪畫",abilities:["情緒紓壓","失智友善","手眼協調"],level:"簡易",time:"兩次各 30 分鐘",views:5409,url:"https://www.youtube.com/shorts/hV6XhnkaRfU",description:"先以白膠畫線，乾燥後填入水彩；凸起輪廓能幫助控制色塊。",materials:"白膠或亮粉膠、水彩、厚水彩紙",tips:"第一堂畫膠線，乾燥後再進行著色。"},
+      {id:28,title:"長者直覺水彩畫",region:"歐美",medium:"繪畫",abilities:["情緒紓壓","手眼協調"],level:"簡易",time:"40–55 分鐘",views:1000,url:"https://www.youtube.com/watch?v=1Lw6S_woid0",description:"專為初學者與長者設計的直覺水彩完整教學，以自由色彩降低創作焦慮。",materials:"水彩、粗圓筆、水彩紙、清水",tips:"讓長者先選三種喜愛色彩，不需臨摹固定物件。"},
+      {id:29,title:"Etel Adnan 三線風景",region:"歐美",medium:"繪畫",abilities:["情緒紓壓","手眼協調"],level:"簡易",time:"40–55 分鐘",views:230000,url:"https://www.youtube.com/watch?v=8_bQoPbcxdo",description:"只用三條線和鮮明色塊構成風景，零繪畫基礎也能產生完整作品。",materials:"壓克力顏料、粗畫筆、畫布板或厚紙",tips:"先談家鄉山景或旅行回憶，再選擇個人色彩。"},
+      {id:30,title:"神經線條紓壓水彩",region:"歐美",medium:"繪畫",abilities:["情緒紓壓","手眼協調"],level:"簡易",time:"35–50 分鐘",views:380000,url:"https://www.youtube.com/shorts/RytwISWhME8",description:"自由畫交錯線條、將尖角修圓後著色，過程沒有對錯且富有節奏。",materials:"黑色代針筆、水彩、厚紙",tips:"提醒參與者慢慢呼吸，不需追求填滿所有色塊。"},
+      {id:31,title:"回收紙編織籃",region:"日本",medium:"紙藝",abilities:["精細動作","手眼協調"],level:"中等",time:"60–75 分鐘",views:98000,url:"https://www.youtube.com/watch?v=b8Trmg0rAQw",description:"以回收紙條逐步編織成實用小籃，影片標示適合高齡者活動與作業治療。",materials:"報紙或紙條、白膠、夾子、底板",tips:"使用較寬紙條，並先固定經線再開始交錯編織。"},
+      {id:32,title:"春季土筆立體紙藝",region:"日本",medium:"紙藝",abilities:["精細動作","團體合作"],level:"中等",time:"50–65 分鐘",views:10000,url:"https://www.youtube.com/watch?v=xPb4ryYUalc",description:"附完整製作步驟的春季土筆壁飾，明確標示適用高齡者休閒活動。",materials:"摺紙、剪刀、白膠、壁面底紙",tips:"多人分工製作土筆單元，再共同排列成春日景色。"},
+      {id:33,title:"立體草莓壁飾",region:"日本",medium:"紙藝",abilities:["精細動作","團體合作"],level:"中等",time:"50–65 分鐘",views:48000,url:"https://www.youtube.com/watch?v=DaICsxk6TxE",description:"附圖樣及逐步示範的立體草莓紙藝，適合高齡者春季共同創作。",materials:"紅綠色紙、圖樣、剪刀、白膠",tips:"先做好葉片與果實兩種工作區，再進行最後組合。"},
+      {id:34,title:"鈴蘭立體花紙藝",region:"日本",medium:"紙藝",abilities:["精細動作","情緒紓壓"],level:"中等",time:"55–70 分鐘",views:5000,url:"https://www.youtube.com/watch?v=giSGBMRgZM8",description:"針對高齡者活動與作業治療設計的立體鈴蘭，影片完整示範花朵與葉片。",materials:"白色與綠色色紙、細紙條、白膠",tips:"花朵較小，可放大圖樣或由帶領者預先捲好花心。"},
+      {id:35,title:"立體櫻花與太鼓橋",region:"日本",medium:"紙藝",abilities:["精細動作","團體合作"],level:"進階",time:"75–90 分鐘",views:10000,url:"https://www.youtube.com/watch?v=Q_K7nPC04rY",description:"附圖樣與完整步驟的季節大型壁飾，由櫻花和橋景組合而成。",materials:"粉色系色紙、壁面底紙、剪刀、黏膠",tips:"將櫻花、樹枝和橋分組製作，適合多人共同完成。"},
+      {id:36,title:"長者簡易壓克力玫瑰",region:"歐美",medium:"繪畫",abilities:["情緒紓壓","手眼協調"],level:"簡易",time:"45–60 分鐘",views:540,url:"https://www.youtube.com/watch?v=Tab-Rxt1l60",description:"Art for Seniors 系列的完整玫瑰繪畫教學，運用簡化筆觸完成花朵。",materials:"壓克力顏料、粗圓筆、畫布板、調色盤",tips:"先練習單一花瓣筆觸，再組成花朵，不要求寫實。"},
+      {id:37,title:"長者直覺秋樹水彩",region:"歐美",medium:"繪畫",abilities:["情緒紓壓","手眼協調"],level:"簡易",time:"40–55 分鐘",views:1000,url:"https://www.youtube.com/watch?v=d-JGkDyhlso",description:"以初學者和長者為對象，逐步示範自由暈染的秋日樹景。",materials:"水彩、粗畫筆、水彩紙、海綿",tips:"用海綿或較粗畫筆點出樹葉，降低精細控制需求。"},
+      {id:38,title:"失智友善節慶花圈",region:"歐美",medium:"綜合媒材",abilities:["失智友善","感官刺激","手眼協調"],level:"簡易",time:"40–55 分鐘",views:1000,url:"https://www.youtube.com/watch?v=7HxD4mZXhgY",description:"完整示範如何陪伴失智親友製作花圈，著重安全、選擇與共同創作。",materials:"預製花圈、寬緞帶、大型裝飾物、黏貼材料",tips:"只提供少量清楚選項，讓長者決定顏色和裝飾位置。"},
+      {id:39,title:"失智友善雨天藝術",region:"歐美",medium:"繪畫",abilities:["失智友善","情緒紓壓","感官刺激"],level:"簡易",time:"30–45 分鐘",views:710,url:"https://www.youtube.com/watch?v=J__au1m6O68",description:"專門設計給失智者的雨天居家藝術教學，材料簡單且流程完整。",materials:"畫紙、可水洗顏料、海綿或粗畫筆",tips:"桌面鋪防水墊，接受自由混色並避免糾正作品結果。"},
+      {id:40,title:"失智友善彩色薄紙拼貼",region:"歐美",medium:"紙藝",abilities:["失智友善","感官刺激","手眼協調"],level:"簡易",time:"35–50 分鐘",views:1000,url:"https://www.youtube.com/watch?v=Jti5sYrWAR8",description:"使用柔軟薄紙撕貼完成鮮豔圖像，影片提供完整示範與免費圖樣。",materials:"彩色薄紙、白膠、粗刷、圖樣底紙",tips:"薄紙預先分色放置，使用粗刷塗膠比直接擠膠容易。"}
+    ];
+
+    const state = {
+      search: "",
+      region: "",
+      medium: "",
+      ability: "",
+      favoritesOnly: false,
+      favorites: new Set(JSON.parse(localStorage.getItem("elderArtFavorites") || "[]"))
+    };
+
+    const els = {
+      grid: document.querySelector("#lessonGrid"),
+      count: document.querySelector("#resultCount"),
+      search: document.querySelector("#searchInput"),
+      region: document.querySelector("#regionFilter"),
+      medium: document.querySelector("#mediumFilter"),
+      ability: document.querySelector("#abilityFilter"),
+      clear: document.querySelector("#clearFilters"),
+      favoriteToggle: document.querySelector("#favoriteToggle"),
+      favoriteCount: document.querySelector("#favoriteCount"),
+      tags: document.querySelector("#activeTags"),
+      dialog: document.querySelector("#lessonDialog"),
+      modal: document.querySelector("#modalContent")
+    };
+
+    function videoId(url) {
+      const match = url.match(/(?:v=|shorts\/)([\w-]+)/);
+      return match ? match[1] : "";
+    }
+
+    function compactViews(value) {
+      if (value >= 10000) return `${(value / 10000).toFixed(value >= 100000 ? 0 : 1)} 萬`;
+      return value.toLocaleString("zh-TW");
+    }
+
+    function filteredLessons() {
+      const keyword = state.search.trim().toLocaleLowerCase("zh-Hant");
+      return lessons.filter(lesson => {
+        const haystack = [lesson.title, lesson.region, lesson.medium, lesson.description, lesson.materials, ...lesson.abilities].join(" ").toLocaleLowerCase("zh-Hant");
+        return (!keyword || haystack.includes(keyword))
+          && (!state.region || lesson.region === state.region)
+          && (!state.medium || lesson.medium === state.medium)
+          && (!state.ability || lesson.abilities.includes(state.ability))
+          && (!state.favoritesOnly || state.favorites.has(lesson.id));
+      });
+    }
+
+    function cardTemplate(lesson) {
+      const favorite = state.favorites.has(lesson.id);
+      const thumb = `https://i.ytimg.com/vi/${videoId(lesson.url)}/hqdefault.jpg`;
+      return `
+        <article class="card">
+          <div class="thumb">
+            <img src="${thumb}" alt="" loading="lazy" onerror="this.style.display='none'">
+            <span class="region-badge">${lesson.region === "歐美" ? "歐美／英語" : lesson.region}</span>
+            <button class="favorite-button ${favorite ? "active" : ""}" data-favorite="${lesson.id}" type="button" aria-label="${favorite ? "取消收藏" : "加入收藏"}：${lesson.title}" aria-pressed="${favorite}">${favorite ? "♥" : "♡"}</button>
+          </div>
+          <div class="card-body">
+            <span class="card-meta">${lesson.medium} · ${lesson.level} · 約 ${compactViews(lesson.views)} 次觀看</span>
+            <h3>${lesson.title}</h3>
+            <p class="card-description">${lesson.description}</p>
+            <div class="tags">${lesson.abilities.map(tag => `<button class="tag" type="button" data-tag="${tag}"># ${tag}</button>`).join("")}</div>
+            <div class="card-actions">
+              <a class="watch-link" href="${lesson.url}" target="_blank" rel="noopener noreferrer">觀看教學 ↗</a>
+              <button class="detail-button" data-detail="${lesson.id}" type="button">教案資訊</button>
+            </div>
+          </div>
+        </article>`;
+    }
+
+    function renderTags() {
+      const tags = [];
+      if (state.search) tags.push(["search", `搜尋：${state.search}`]);
+      if (state.region) tags.push(["region", state.region]);
+      if (state.medium) tags.push(["medium", state.medium]);
+      if (state.ability) tags.push(["ability", state.ability]);
+      if (state.favoritesOnly) tags.push(["favoritesOnly", "我的收藏"]);
+      els.tags.innerHTML = tags.map(([key, label]) => `<button class="active-tag" type="button" data-remove="${key}">${label} ×</button>`).join("");
+    }
+
+    function render() {
+      const visible = filteredLessons();
+      els.count.textContent = `目前顯示 ${visible.length}／${lessons.length} 筆教案`;
+      els.favoriteCount.textContent = state.favorites.size;
+      els.favoriteToggle.classList.toggle("active", state.favoritesOnly);
+      els.favoriteToggle.setAttribute("aria-pressed", state.favoritesOnly);
+      els.grid.innerHTML = visible.length
+        ? visible.map(cardTemplate).join("")
+        : `<div class="empty"><span>🖍️</span><h3>找不到符合條件的教案</h3><p>試著減少篩選條件，或換一個關鍵字。</p></div>`;
+      renderTags();
+    }
+
+    function saveFavorites() {
+      localStorage.setItem("elderArtFavorites", JSON.stringify([...state.favorites]));
+    }
+
+    function openDetail(id) {
+      const lesson = lessons.find(item => item.id === id);
+      if (!lesson) return;
+      els.modal.innerHTML = `
+        <div class="modal-top">
+          <div><p class="eyebrow">${lesson.region} · ${lesson.medium}</p><h2 id="dialogTitle">${lesson.title}</h2></div>
+          <button class="close-button" type="button" aria-label="關閉">✕</button>
+        </div>
+        <div class="lesson-info">
+          <div class="info-block"><small>難度</small><strong>${lesson.level}</strong></div>
+          <div class="info-block"><small>建議時間</small><strong>${lesson.time}</strong></div>
+          <div class="info-block"><small>觀看數</small><strong>約 ${compactViews(lesson.views)} 次</strong></div>
+        </div>
+        <section class="modal-section"><h3>活動說明</h3><p>${lesson.description}</p></section>
+        <section class="modal-section"><h3>準備材料</h3><p>${lesson.materials}</p></section>
+        <section class="modal-section"><h3>帶領提醒</h3><p>${lesson.tips}</p></section>
+        <div class="tags">${lesson.abilities.map(tag => `<span class="tag"># ${tag}</span>`).join("")}</div>
+        <a class="modal-link" href="${lesson.url}" target="_blank" rel="noopener noreferrer">前往 YouTube 觀看完整教學 ↗</a>`;
+      els.dialog.showModal();
+      els.modal.querySelector(".close-button").addEventListener("click", () => els.dialog.close());
+    }
+
+    let searchTimer;
+    els.search.addEventListener("input", event => {
+      window.clearTimeout(searchTimer);
+      searchTimer = window.setTimeout(() => {
+        state.search = event.target.value;
+        render();
+      }, 120);
+    });
+
+    [["region", els.region], ["medium", els.medium], ["ability", els.ability]].forEach(([key, element]) => {
+      element.addEventListener("change", event => {
+        state[key] = event.target.value;
+        render();
+      });
+    });
+
+    els.favoriteToggle.addEventListener("click", () => {
+      state.favoritesOnly = !state.favoritesOnly;
+      render();
+    });
+
+    els.clear.addEventListener("click", () => {
+      state.search = state.region = state.medium = state.ability = "";
+      state.favoritesOnly = false;
+      els.search.value = els.region.value = els.medium.value = els.ability.value = "";
+      render();
+    });
+
+    els.tags.addEventListener("click", event => {
+      const key = event.target.dataset.remove;
+      if (!key) return;
+      if (key === "favoritesOnly") state.favoritesOnly = false;
+      else {
+        state[key] = "";
+        const field = {search: els.search, region: els.region, medium: els.medium, ability: els.ability}[key];
+        if (field) field.value = "";
+      }
+      render();
+    });
+
+    els.grid.addEventListener("click", event => {
+      const favoriteButton = event.target.closest("[data-favorite]");
+      const detailButton = event.target.closest("[data-detail]");
+      const tagButton = event.target.closest("[data-tag]");
+      if (favoriteButton) {
+        const id = Number(favoriteButton.dataset.favorite);
+        state.favorites.has(id) ? state.favorites.delete(id) : state.favorites.add(id);
+        saveFavorites();
+        render();
+      } else if (detailButton) {
+        openDetail(Number(detailButton.dataset.detail));
+      } else if (tagButton) {
+        state.ability = tagButton.dataset.tag;
+        els.ability.value = state.ability;
+        render();
+        document.querySelector("#database").scrollIntoView({behavior:"smooth"});
+      }
+    });
+
+    els.dialog.addEventListener("click", event => {
+      if (event.target === els.dialog) els.dialog.close();
+    });
+
+    render();
+  </script>
+</body>
+</html>

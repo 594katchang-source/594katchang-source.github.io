@@ -1,0 +1,228 @@
+﻿<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>日照活動靈感庫｜YouTube 頻道資料庫</title>
+  <style>
+    :root{
+      --ink:#4d3028;--muted:#806c63;--paper:#fbf3e8;--card:#fffaf3;
+      --green:#b85f3d;--mint:#f7dfca;--gold:#df963d;--line:#ead9cb;
+      --red:#a9443d;--shadow:0 14px 40px rgba(105,61,40,.11)
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif}
+    button,input,select,textarea{font:inherit}
+    button{cursor:pointer}
+    a{color:inherit}
+    .hero{background:linear-gradient(135deg,#713d30 0%,#ad5d3d 55%,#d58b56 100%);color:#fffaf3;padding:42px 24px 74px;position:relative;overflow:hidden}
+    .hero:after{content:"";position:absolute;width:340px;height:340px;border:70px solid rgba(255,255,255,.06);border-radius:50%;right:-80px;top:-145px}
+    .hero-inner,.wrap{max-width:1180px;margin:auto}
+    .eyebrow{font-size:13px;letter-spacing:.18em;color:#ffe5cf;font-weight:800}
+    h1{font-size:clamp(30px,5vw,55px);margin:10px 0 12px;line-height:1.08;letter-spacing:-.04em}
+    .hero p{max-width:720px;color:#fff0e3;line-height:1.7;margin:0}
+    .wrap{padding:0 24px 50px}
+    .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:-38px;position:relative;z-index:2}
+    .stat{background:var(--card);border:1px solid rgba(255,255,255,.7);border-radius:18px;padding:20px;box-shadow:var(--shadow)}
+    .stat b{font-size:28px;display:block}.stat span{font-size:13px;color:var(--muted)}
+    .toolbar{margin:28px 0 18px;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px;display:grid;grid-template-columns:minmax(260px,2fr) repeat(2,minmax(150px,1fr));gap:10px}
+    .search{position:relative}.search input{padding-left:40px}.search:before{content:"⌕";position:absolute;left:14px;top:8px;font-size:22px;color:var(--muted)}
+    input,select,textarea{width:100%;border:1px solid var(--line);border-radius:11px;padding:11px 12px;background:#fff;color:var(--ink);outline:none}
+    input:focus,select:focus,textarea:focus{border-color:var(--green);box-shadow:0 0 0 3px rgba(184,95,61,.12)}
+    .actionbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:16px 0;flex-wrap:wrap}
+    .result{color:var(--muted);font-size:14px}
+    .actions{display:flex;gap:8px;flex-wrap:wrap}
+    .btn{border:1px solid var(--line);background:#fff;border-radius:10px;padding:9px 13px;color:var(--ink);font-weight:700}
+    .btn:hover{border-color:#c89f87;background:#fff6ed}.btn.primary{background:var(--green);color:#fff;border-color:var(--green)}.btn.primary:hover{background:#9e4e32}.btn.danger{color:var(--red)}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:19px;display:flex;flex-direction:column;min-height:305px;transition:.18s;position:relative}
+    .card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+    .card-top{display:flex;justify-content:space-between;gap:10px}.region{font-size:12px;font-weight:900;letter-spacing:.06em;padding:5px 9px;border-radius:99px;background:var(--mint);color:var(--green)}
+    .popular{font-size:12px;color:#8b5b14;background:#fff0d7;padding:5px 9px;border-radius:99px}
+    .fav{position:absolute;right:16px;top:53px;border:0;background:transparent;font-size:23px;color:#bbc5c1}.fav.on{color:var(--gold)}
+    h2{font-size:19px;margin:15px 35px 7px 0;line-height:1.35}
+    .meta{font-size:13px;color:var(--muted);margin-bottom:12px}
+    .desc{font-size:14px;line-height:1.65;color:#6a5148;margin:0 0 13px}
+    .tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:auto}.tag{font-size:12px;background:#f7e9dc;color:#795a4d;padding:5px 8px;border-radius:7px}
+    .card-actions{display:flex;gap:8px;margin-top:16px}.card-actions a{flex:1;text-align:center;text-decoration:none}.small{padding:8px 10px;font-size:13px}
+    .empty{grid-column:1/-1;text-align:center;padding:70px 20px;color:var(--muted);border:1px dashed #d9bba8;border-radius:18px}
+    .notice{margin-top:28px;background:#f8e8d9;border-left:4px solid var(--green);border-radius:12px;padding:16px 18px;color:#755548;font-size:13px;line-height:1.7}
+    dialog{border:0;border-radius:20px;padding:0;max-width:690px;width:calc(100% - 28px);box-shadow:0 30px 90px rgba(0,0,0,.25)}
+    dialog::backdrop{background:rgba(12,31,26,.58)}
+    .modal-head{padding:20px 22px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}
+    .modal-head h3{margin:0}.close{border:0;background:transparent;font-size:25px;color:var(--muted)}
+    form{padding:20px 22px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field.full{grid-column:1/-1}
+    label{display:block;font-size:13px;font-weight:800;margin-bottom:6px}.hint{font-size:12px;color:var(--muted)}
+    .modal-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:20px}
+    footer{max-width:1180px;margin:auto;padding:0 24px 35px;color:var(--muted);font-size:12px}
+    @media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}.toolbar{grid-template-columns:1fr 1fr}.search{grid-column:1/-1}.stats{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:600px){.hero{padding-top:30px}.grid{grid-template-columns:1fr}.toolbar{grid-template-columns:1fr}.search{grid-column:auto}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.stats{gap:9px}.stat{padding:15px}.stat b{font-size:23px}}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">DAY CARE ACTIVITY LIBRARY</div>
+      <h1>日照活動靈感庫</h1>
+      <p>精選台灣、日本與歐美以長者活動示範、團康遊戲、認知訓練與樂齡運動為主的 YouTube 頻道。找活動，直接看做法。</p>
+    </div>
+  </header>
+  <main class="wrap">
+    <section class="stats">
+      <div class="stat"><b id="statTotal">30</b><span>收錄頻道</span></div>
+      <div class="stat"><b id="statRegions">3</b><span>地區分類</span></div>
+      <div class="stat"><b id="statFav">0</b><span>我的收藏</span></div>
+    </section>
+
+    <section class="toolbar" aria-label="資料篩選">
+      <div class="search"><input id="q" type="search" placeholder="搜尋頻道、活動、特色或語言…"></div>
+      <select id="region"><option value="">所有地區</option><option>台灣</option><option>日本</option><option>歐美</option></select>
+      <select id="category"><option value="">所有活動</option></select>
+    </section>
+
+    <div class="actionbar">
+      <div class="result" id="resultText"></div>
+      <div class="actions">
+        <button class="btn" id="resetBtn">重設篩選</button>
+        <button class="btn" id="exportBtn">匯出 JSON</button>
+        <label class="btn" for="importFile">匯入 JSON</label><input id="importFile" type="file" accept=".json,application/json" hidden>
+        <button class="btn primary" id="addBtn">＋ 新增頻道</button>
+      </div>
+    </div>
+
+    <section class="grid" id="grid"></section>
+    <aside class="notice">
+      <strong>使用提醒：</strong>本清單優先收錄「多數影片可作為活動示範或教案靈感」的頻道，查核日期為 2026-06-20。帶領體能活動前，請依長輩身體狀況及跌倒風險調整。日本、英文內容可使用 YouTube 自動字幕與翻譯。
+    </aside>
+  </main>
+
+  <dialog id="editor">
+    <div class="modal-head"><h3 id="modalTitle">新增頻道</h3><button class="close" type="button" id="closeBtn">×</button></div>
+    <form id="channelForm">
+      <input type="hidden" id="editId">
+      <div class="form-grid">
+        <div class="field"><label for="name">頻道名稱 *</label><input id="name" required></div>
+        <div class="field"><label for="country">國家／地區 *</label><input id="country" required placeholder="例如：台灣"></div>
+        <div class="field"><label for="formRegion">分類地區 *</label><select id="formRegion" required><option>台灣</option><option>日本</option><option>歐美</option></select></div>
+        <div class="field"><label for="language">語言</label><input id="language" placeholder="繁中／日文／英文"></div>
+        <div class="field full"><label for="url">YouTube 頻道網址 *</label><input id="url" type="url" required></div>
+        <div class="field full"><label for="categories">活動分類</label><input id="categories" placeholder="用逗號分隔，例如：體適能, 認知訓練, 團康"></div>
+        <div class="field full"><label for="description">內容特色</label><textarea id="description" rows="3"></textarea></div>
+        <div class="field full"><label for="note">管理備註</label><textarea id="note" rows="2"></textarea></div>
+      </div>
+      <div class="modal-actions"><button type="button" class="btn danger" id="deleteBtn" hidden>刪除</button><button type="button" class="btn" id="cancelBtn">取消</button><button class="btn primary" type="submit">儲存</button></div>
+    </form>
+  </dialog>
+
+  <footer>資料僅作教案探索與內部管理使用；頻道內容與名稱可能隨時間調整。所有商標與影片版權屬原作者。</footer>
+
+<script>
+const seed = [
+  {id:"tw01",region:"台灣",country:"台灣",name:"YL Huang 黃雅鈴老師",url:"https://www.youtube.com/@ylhuang2555",language:"繁中",directness:"直接教案",popularity:"高",categories:["團康遊戲","認知訓練","音樂律動","手作"],description:"大量銀髮活動設計與學生實作，影片會呈現材料、玩法與現場帶領，是最完整的中文活動教案庫。",note:"推薦播放清單：老人活動設計、樂齡遊戲、認知促進。"},
+  {id:"tw02",region:"台灣",country:"台灣",name:"85樂活日照中心",url:"https://www.youtube.com/channel/UCoJodDaBOlBOkCT7VsBG8vg",language:"繁中",directness:"直接教案",popularity:"高",categories:["團康遊戲","認知訓練","肌力","生活功能"],description:"超過三千支老人活動設計影片，包含打地鼠、健身大富翁、敲敲樂等，活動點子密度非常高。",note:"頻道約 7 千訂閱、3,100 支影片；多為短片示範。"},
+  {id:"tw03",region:"台灣",country:"台灣",name:"魔術治療師的教學百寶箱",url:"https://www.youtube.com/channel/UCCB0TkOADMzjskko9d4rssQ",language:"繁中",directness:"直接教案",popularity:"中高",categories:["認知訓練","團康遊戲","職能治療","居家活動"],description:"台灣職能治療師分享失智據點、日照與社區可用的認知遊戲，通常會說明操作方法與訓練目的。",note:"推薦「健腦活動」系列。"},
+  {id:"tw04",region:"台灣",country:"台灣",name:"永安樂齡日間照顧中心",url:"https://www.youtube.com/@%E6%B0%B8%E5%AE%89%E6%A8%82%E9%BD%A1%E6%97%A5%E9%96%93%E7%85%A7%E9%A1%A7%E4%B8%AD%E5%BF%83",language:"繁中",directness:"直接教案",popularity:"中高",categories:["日照實務","認知訓練","團康遊戲","節慶活動"],description:"以日照活動為主，包含密室逃脫、搶拍王、吹球、腳力王與節慶活動，可直接觀察現場做法。",note:"頻道設有「日照活動」播放清單。"},
+  {id:"tw05",region:"台灣",country:"台灣",name:"鳳凰居社區長照機構",url:"https://www.youtube.com/channel/UCeR93KaT1BXXlCjaJ84PLhA",language:"繁中",directness:"直接教案",popularity:"中高",categories:["認知訓練","團康遊戲","節慶活動","音樂律動"],description:"大量日照現場短片，包含流水球、球球風暴、顏色遊戲、音樂律動與手眼協調活動。",note:"適合從 Shorts 快速找每日活動靈感。"},
+  {id:"tw06",region:"台灣",country:"台灣",name:"Yu 小余老師",url:"https://www.youtube.com/@Yu_SeniorFitness",language:"繁中",directness:"直接教案",popularity:"高",categories:["樂齡運動","團康遊戲","反應訓練","平衡"],description:"專門分享樂齡團體教學，示範搶角錐、反應遊戲、彈力球、動態平衡等完整活動做法。",note:"部分教學影片有萬次以上觀看。"},
+  {id:"tw07",region:"台灣",country:"台灣",name:"心起動",url:"https://www.youtube.com/@Hstartup.exercise",language:"繁中",directness:"直接教案",popularity:"高",categories:["認知訓練","樂齡運動","破冰遊戲","居家活動"],description:"分享桌面破冰、代間認知遊戲、推大球與樂齡舞蹈，器材簡單，適合日照與家屬一起帶。",note:"推薦「預防及延緩失智失能小遊戲」播放清單。"},
+  {id:"tw08",region:"台灣",country:"台灣",name:"LOHAS 樂活士樂齡運動指導團",url:"https://www.youtube.com/@lohas2021",language:"繁中",directness:"直接教案",popularity:"中高",categories:["樂齡運動","反應訓練","團康遊戲","肌力"],description:"以高齡運動遊戲與團體帶領為主，例如老師說、反應挑戰與趣味肌力活動。",note:"適合需要動身體又帶認知挑戰的課程。"},
+  {id:"tw09",region:"台灣",country:"台灣",name:"Kyo wa ikaga?",url:"https://www.youtube.com/@Kyowaikaga",language:"繁中",directness:"直接教案",popularity:"特色",categories:["認知訓練","手作","團康遊戲","日照實務"],description:"「日照中心怎麼玩」系列直接示範搧風迷宮、數字大比拚、數字插秧與簡易手作。",note:"新興短影音頻道，影片短、活動做法一目了然。"},
+  {id:"tw10",region:"台灣",country:"台灣",name:"江美娟・愛笑樂齡活動",url:"https://www.youtube.com/channel/UCkHZ_c--JHpDPrY4-oDt82A",language:"繁中",directness:"直接教案",popularity:"中高",categories:["互動遊戲","音樂律動","手指操","團康遊戲"],description:"大量社區與日照帶領紀錄，包含杯子遊戲、坐姿剪刀石頭布、捕魚歌與愛笑互動活動。",note:"適合找氣氛熱鬧、音樂與互動性高的帶領方式。"},
+
+  {id:"jp01",region:"日本",country:"日本",name:"介護予防3373チャンネル",url:"https://www.youtube.com/@3373",language:"日文",directness:"直接教案",popularity:"高",categories:["介護預防","團康遊戲","體操","認知訓練"],description:"聚焦高齡者娛樂、介護預防體操與現場帶領技巧，器材簡單、可直接改編。",note:"日文關鍵字：高齢者レクリエーション。"},
+  {id:"jp02",region:"日本",country:"日本",name:"介護エンターテイメント脳トレ介護予防研究所",url:"https://www.youtube.com/@grandma-t",language:"日文",directness:"直接教案",popularity:"高",categories:["腦力體操","團體運動","歌唱","季節活動"],description:"作業治療師石田竜生將笑聲、腦訓練和介護預防融合，影片量大且常有完整帶領時長。",note:"搜尋「流すだけ」可找適合直接播放的內容。"},
+  {id:"jp03",region:"日本",country:"日本",name:"てつまるチャンネル【介護予防】",url:"https://www.youtube.com/@tetsumaru2025",language:"日文",directness:"直接教案",popularity:"高",categories:["團康遊戲","棒球活動","腦力體操","介護預防"],description:"大量球、棒、接力與集體反應遊戲，特別適合需要熱鬧互動的日照團體。",note:"可先看「盛り上がる！集団レクリエーション」。"},
+  {id:"jp04",region:"日本",country:"日本",name:"ごぼう先生 おひとりさま健康塾",url:"https://www.youtube.com/channel/UCAAQP5G9PKyKj5vXXz-_jbg",language:"日文",directness:"直接教案",popularity:"高",categories:["椅子體操","介護預防","口腔運動","健康促進"],description:"知名銀髮椅子體操講師，動作清楚、親和力高，適合坐姿團體與功能維持。",note:"可依長輩能力降低速度或縮短時長。"},
+  {id:"jp05",region:"日本",country:"日本",name:"デイサービスセンター楽楽園",url:"https://www.youtube.com/@rakurakuen",language:"日文",directness:"直接教案",popularity:"中高",categories:["日照實務","認知訓練","手作","團康遊戲"],description:"日本日照中心直接分享現場活動，包括自製腦力拼圖、季節手作、投擲遊戲與簡易團康。",note:"活動材料與完成效果清楚，適合照著製作。"},
+  {id:"jp06",region:"日本",country:"日本",name:"青空体育の介護予防クラブ",url:"https://www.youtube.com/channel/UClqPFtZXShixdSCiGWJAGHw",language:"日文",directness:"直接教案",popularity:"中高",categories:["歌唱體操","椅子體操","失智預防","季節活動"],description:"以童謠、季節歌曲和坐姿健康操為主，常有 30–60 分鐘完整課程。",note:"音樂版權與文化熟悉度需在台灣現場重新選曲。"},
+  {id:"jp07",region:"日本",country:"日本",name:"ももちゃんず（デイサービス百の木）",url:"https://www.youtube.com/channel/UCKAiZ1KnwuviRymZYtNsEsA",language:"日文",directness:"直接教案",popularity:"中高",categories:["日照實務","團康遊戲","腦力訓練","歌唱"],description:"日本 day service 現場型頻道，示範會炒熱氣氛的遊戲、唱歌與認知活動。",note:"可觀察工作人員口令、座位配置與節奏。"},
+  {id:"jp08",region:"日本",country:"日本",name:"にこにこ体操",url:"https://www.youtube.com/channel/UCz_gTN2ilk7ng59UkofnZpA",language:"日文",directness:"直接教案",popularity:"中高",categories:["腦力體操","手指操","歌唱","反應遊戲"],description:"短小、容易跟做的猜拳、手指與歡笑體操，部分影片具有十萬級觀看。",note:"適合當 5–10 分鐘暖身或轉場活動。"},
+  {id:"jp09",region:"日本",country:"日本",name:"アカバナチャンネル【365日リハビリ体操】",url:"https://www.youtube.com/channel/UC_jN74P2s9LmYyXCA6nDA9A",language:"日文",directness:"直接教案",popularity:"中高",categories:["復健體操","季節活動","音樂律動","腦力訓練"],description:"按月份與節日整理復健和介護活動，適合建立年度活動行事曆。",note:"可依月份搜尋正月、春、夏祭等主題。"},
+  {id:"jp10",region:"日本",country:"日本",name:"ケアホームカナンとDJ施設長",url:"https://www.youtube.com/@carehomecanaan",language:"日文",directness:"直接教案",popularity:"中高",categories:["日照實務","介護預防","團康遊戲","體操"],description:"由照護機構主管示範日照團康、高齡體操和認知預防活動，短片多、現場感強。",note:"可搜尋 デイサービスレク 找日照遊戲。"},
+
+  {id:"we01",region:"歐美",country:"加拿大",name:"Art for Alzheimers Care",url:"https://www.youtube.com/@ArtforAlzheimersCare",language:"英文",directness:"直接教案",popularity:"中高",categories:["美術","手作","失智活動","感官刺激"],description:"專門示範失智長者可完成的繪畫、拓印、拼貼與合作藝術，會展示材料與製作過程。",note:"約 90 支主題影片；適合美術與精細動作課程。"},
+  {id:"we02",region:"歐美",country:"愛爾蘭",name:"Maria's Place - Activities",url:"https://www.youtube.com/@mariasplace2302",language:"英文",directness:"直接教案",popularity:"中高",categories:["腦力遊戲","手作","懷舊問答","坐姿運動"],description:"專為照顧者和高齡者製作活動，包含 trivia、brain games、節慶手作、食譜與坐姿運動。",note:"播放清單按活動類型整理，找素材很方便。"},
+  {id:"we03",region:"歐美",country:"澳洲",name:"Golden Carers",url:"https://www.youtube.com/c/goldencarers",language:"英文",directness:"直接教案",popularity:"中高",categories:["活動企劃","手作","節慶活動","行事曆"],description:"專為 activity coordinator 與 recreation therapist 提供活動靈感、規劃工具和主題日曆。",note:"YouTube 約 3 千訂閱；網站資源量更大，部分需付費。"},
+  {id:"we04",region:"歐美",country:"美國",name:"SeniorShape Fitness",url:"https://www.youtube.com/@SeniorShapeFitness",language:"英文",directness:"直接教案",popularity:"高",categories:["椅子運動","肌力","瑜伽","有氧"],description:"高品質高齡與初學者跟練課程，坐姿、有氧、肌力、伸展均有清楚分級與替代動作。",note:"適合體適能時段；使用穩固無輪椅子。"},
+  {id:"we05",region:"歐美",country:"美國",name:"yes2next",url:"https://www.youtube.com/c/yes2next",language:"英文",directness:"直接教案",popularity:"高",categories:["低衝擊運動","平衡","肌力","步行"],description:"由教練與高齡母親共同示範，氣氛溫暖且常提供坐姿替代；具大型熟齡運動受眾。",note:"約 60 萬級訂閱的熱門頻道（2026 年媒體資料）。"},
+  {id:"we06",region:"歐美",country:"美國",name:"Sit and Be Fit",url:"https://www.youtube.com/SitandBeFitTVshow",language:"英文",directness:"直接教案",popularity:"高",categories:["椅子運動","協調","平衡","復健"],description:"長壽公共電視熟齡運動節目，專為年長者與行動受限者設計，含完整集數和單項片段。",note:"節目自 1987 年起播出，適合低活動量族群。"},
+  {id:"we07",region:"歐美",country:"加拿大",name:"Improved Health",url:"https://www.youtube.com/@ImprovedHealth",language:"英文",directness:"直接教案",popularity:"高",categories:["低衝擊運動","步行","平衡","音樂律動"],description:"依 Gentle、Beginner、Intermediate 分級，提供步行、平衡、舞蹈與低衝擊運動。",note:"另有全坐姿子頻道 Improved Health Chair Workouts。"},
+  {id:"we08",region:"歐美",country:"澳洲",name:"Memory Lane Therapy",url:"https://www.youtube.com/@memorylanetherapy",language:"英文",directness:"直接教案",popularity:"中高",categories:["懷舊問答","認知訓練","手作","團康遊戲"],description:"所有內容都圍繞高齡活動，包括電視歌曲猜謎、企鵝投擲、穿線遊戲和節慶手作。",note:"適合認知、懷舊與簡易桌面活動。"},
+  {id:"we09",region:"歐美",country:"美國",name:"S&S Worldwide",url:"https://www.youtube.com/@SSWorldwideInc",language:"英文",directness:"直接教案",popularity:"中高",categories:["手作","感官刺激","器材遊戲","團體活動"],description:"大量 DIY 手作、運動遊戲及多感官活動示範；雖然對象不只長者，但有專門的 senior activities 素材。",note:"搜尋 senior、sensory 或 nursing home 可快速找到適用影片。"},
+  {id:"we10",region:"歐美",country:"美國",name:"Elder Care Services, Inc.",url:"https://www.youtube.com/@eldercareservicesinc.2726",language:"英文",directness:"直接教案",popularity:"特色",categories:["失智活動","節慶手作","感官刺激","生活功能"],description:"「Engaging Activities for Seniors」系列示範失智長者可做的節慶裝飾、簡易料理與感官手作。",note:"規模較小，但活動對象明確且步驟實用。"}
+];
+
+const KEY="daycare-youtube-db-v3", FAVKEY="daycare-youtube-favs-v3";
+let data=JSON.parse(localStorage.getItem(KEY)||"null")||seed;
+let favs=new Set(JSON.parse(localStorage.getItem(FAVKEY)||"[]"));
+const $=s=>document.querySelector(s);
+const grid=$("#grid"), editor=$("#editor");
+
+function save(){localStorage.setItem(KEY,JSON.stringify(data));localStorage.setItem(FAVKEY,JSON.stringify([...favs]));}
+function esc(v=""){return String(v).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));}
+function allCategories(){return [...new Set(data.flatMap(x=>x.categories||[]))].sort((a,b)=>a.localeCompare(b,"zh-Hant"));}
+function buildCategories(){const now=$("#category").value;$("#category").innerHTML='<option value="">所有活動</option>'+allCategories().map(x=>`<option ${x===now?"selected":""}>${esc(x)}</option>`).join("");}
+function filtered(){
+  const q=$("#q").value.trim().toLowerCase(),r=$("#region").value,c=$("#category").value;
+  return data.filter(x=>{
+    const hay=[x.name,x.country,x.language,x.description,x.note,...(x.categories||[])].join(" ").toLowerCase();
+    return (!q||hay.includes(q))&&(!r||x.region===r)&&(!c||(x.categories||[]).includes(c));
+  });
+}
+function render(){
+  const rows=filtered();
+  $("#resultText").textContent=`顯示 ${rows.length} / ${data.length} 個頻道`;
+  grid.innerHTML=rows.length?rows.map(x=>`
+    <article class="card">
+      <div class="card-top"><span class="region">${esc(x.region)}・${esc(x.country)}</span></div>
+      <button class="fav ${favs.has(x.id)?"on":""}" title="收藏" data-fav="${esc(x.id)}">★</button>
+      <h2>${esc(x.name)}</h2>
+      <div class="meta">${esc(x.language)}</div>
+      <p class="desc">${esc(x.description)}</p>
+      <div class="tags">${(x.categories||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</div>
+      <div class="card-actions"><a class="btn primary small" href="${esc(x.url)}" target="_blank" rel="noopener">開啟 YouTube ↗</a><button class="btn small" data-edit="${esc(x.id)}">編輯</button></div>
+    </article>`).join(""):`<div class="empty">找不到符合條件的頻道。試著清除部分篩選，或新增自己的資料。</div>`;
+  $("#statTotal").textContent=data.length;
+  $("#statRegions").textContent=new Set(data.map(x=>x.region)).size;
+  $("#statFav").textContent=favs.size;
+  grid.querySelectorAll("[data-fav]").forEach(b=>b.onclick=()=>{favs.has(b.dataset.fav)?favs.delete(b.dataset.fav):favs.add(b.dataset.fav);save();render()});
+  grid.querySelectorAll("[data-edit]").forEach(b=>b.onclick=()=>openEditor(b.dataset.edit));
+}
+function openEditor(id=""){
+  const x=data.find(v=>v.id===id);
+  $("#modalTitle").textContent=x?"編輯頻道":"新增頻道";
+  $("#editId").value=x?.id||"";$("#name").value=x?.name||"";$("#country").value=x?.country||"";
+  $("#formRegion").value=x?.region||"台灣";$("#language").value=x?.language||"";$("#url").value=x?.url||"";
+  $("#categories").value=(x?.categories||[]).join(", ");$("#description").value=x?.description||"";$("#note").value=x?.note||"";
+  $("#deleteBtn").hidden=!x;editor.showModal();
+}
+function closeEditor(){editor.close()}
+["q","region","category"].forEach(id=>$("#"+id).addEventListener(id==="q"?"input":"change",render));
+$("#resetBtn").onclick=()=>{["q","region","category"].forEach(id=>$("#"+id).value="");render()};
+$("#addBtn").onclick=()=>openEditor();$("#closeBtn").onclick=closeEditor;$("#cancelBtn").onclick=closeEditor;
+editor.addEventListener("click",e=>{if(e.target===editor)closeEditor()});
+$("#channelForm").onsubmit=e=>{
+  e.preventDefault();const id=$("#editId").value||"custom-"+Date.now();
+  const x={id,name:$("#name").value.trim(),country:$("#country").value.trim(),region:$("#formRegion").value,language:$("#language").value.trim(),
+    url:$("#url").value.trim(),directness:"直接教案",popularity:"特色",
+    categories:$("#categories").value.split(/[,，]/).map(v=>v.trim()).filter(Boolean),description:$("#description").value.trim(),note:$("#note").value.trim()};
+  const i=data.findIndex(v=>v.id===id);i>=0?data.splice(i,1,x):data.unshift(x);save();buildCategories();render();closeEditor();
+};
+$("#deleteBtn").onclick=()=>{
+  const id=$("#editId").value;if(!id||!confirm("確定刪除此頻道？"))return;
+  data=data.filter(x=>x.id!==id);favs.delete(id);save();buildCategories();render();closeEditor();
+};
+$("#exportBtn").onclick=()=>{
+  const blob=new Blob([JSON.stringify({exportedAt:new Date().toISOString(),channels:data,favorites:[...favs]},null,2)],{type:"application/json"});
+  const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="日照活動頻道資料庫.json";a.click();URL.revokeObjectURL(a.href);
+};
+$("#importFile").onchange=async e=>{
+  const file=e.target.files[0];if(!file)return;
+  try{const obj=JSON.parse(await file.text()),rows=Array.isArray(obj)?obj:obj.channels;if(!Array.isArray(rows))throw Error();
+    data=rows;favs=new Set(obj.favorites||[]);save();buildCategories();render();alert(`已匯入 ${data.length} 筆資料。`);
+  }catch{alert("匯入失敗：檔案不是有效的資料庫 JSON。")}e.target.value="";
+};
+buildCategories();render();
+</script>
+</body>
+</html>

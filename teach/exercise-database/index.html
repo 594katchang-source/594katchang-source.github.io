@@ -1028,9 +1028,18 @@
     /* ============================================================
        手機行動裝置極致體驗優化 (RWD Mobile First)
        ============================================================ */
+    html, body {
+      overflow-x: hidden;
+    }
+
     @media (max-width: 640px) {
       .db-wrap {
         padding: 0 12px;
+      }
+      .nav-breadcrumbs {
+        font-size: 0.88rem;
+        margin-bottom: 10px;
+        padding-top: 6px;
       }
       .hero-banner {
         padding: 22px 18px 20px;
@@ -1038,70 +1047,131 @@
         margin-bottom: 14px;
       }
       .hero-banner h1 {
-        font-size: 1.65rem;
+        font-size: 1.68rem;
         line-height: 1.25;
         margin-bottom: 8px;
       }
       .hero-banner .lead {
-        font-size: 0.95rem;
+        font-size: 0.96rem;
         line-height: 1.65;
+      }
+      .hero-stat-pills {
+        gap: 6px;
+        margin-top: 12px;
+      }
+      .hero-stat-pill {
+        font-size: 0.82rem;
+        padding: 5px 11px;
+        line-height: 1.35;
       }
       .panel {
         padding: 16px 14px;
         border-radius: 14px;
         margin-bottom: 18px;
       }
+      .searchrow {
+        gap: 8px;
+        margin-bottom: 12px;
+      }
       #q {
         width: 100%;
         min-width: 100%;
-        font-size: 0.96rem;
-        padding: 11px 13px;
+        font-size: 1rem;
+        padding: 12px 14px;
         box-sizing: border-box;
       }
       .searchrow .btn {
-        padding: 9px 12px;
-        font-size: 0.88rem;
-        flex: 1 1 45%;
+        padding: 10px 12px;
+        font-size: 0.9rem;
+        flex: 1 1 calc(50% - 6px);
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
         text-align: center;
         justify-content: center;
       }
       .grp {
         gap: 6px;
-        margin-top: 10px;
+        margin-top: 12px;
       }
       .glab {
         min-width: 100%;
-        font-size: 0.85rem;
+        font-size: 0.88rem;
         padding-top: 0;
       }
       .chips {
-        gap: 6px;
+        gap: 7px;
         width: 100%;
       }
       .chip {
-        padding: 6px 12px;
-        font-size: 0.86rem;
+        padding: 7px 13px;
+        font-size: 0.88rem;
+        min-height: 38px;
+        display: inline-flex;
+        align-items: center;
       }
       .toggle-filter-btn {
         width: 100%;
         justify-content: center;
-        font-size: 0.88rem;
-        padding: 8px 12px;
+        font-size: 0.9rem;
+        padding: 10px 12px;
+        min-height: 42px;
         box-sizing: border-box;
+        text-align: center;
+        line-height: 1.4;
+      }
+      .sub-control-row {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+      }
+      .sub-control-row > div:last-child {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+      }
+      .sort-select {
+        flex: 1;
+        min-height: 42px;
+        font-size: 0.92rem;
       }
       .recipes-grid {
         grid-template-columns: 1fr;
         gap: 16px;
         margin-bottom: 24px;
       }
+      .card-title {
+        font-size: 1.18rem;
+      }
+      .modal-overlay {
+        padding: 10px;
+      }
       .modal-box {
-        padding: 24px 16px;
+        padding: 22px 16px 24px;
         border-radius: 20px;
-        width: 96%;
-        max-height: 92vh;
+        width: 100%;
+        max-height: 92dvh;
+        -webkit-overflow-scrolling: touch;
+      }
+      .btn-close-modal {
+        top: 14px;
+        right: 14px;
+        width: 38px;
+        height: 38px;
       }
       .modal-dish-title {
-        font-size: 1.45rem;
+        font-size: 1.48rem;
+        padding-right: 40px;
+      }
+      .modal-meta-row {
+        gap: 7px;
+        font-size: 0.88rem;
+        margin-bottom: 16px;
+      }
+      .modal-highlight-card,
+      .modal-safety-card,
+      .modal-adaptation-card {
+        padding: 15px 16px;
       }
       .analysis-detail-grid {
         grid-template-columns: 1fr;
@@ -1109,10 +1179,15 @@
       .analysis-row-k {
         border-right: none;
         border-bottom: none;
-        padding-bottom: 4px;
+        padding: 10px 14px 4px;
       }
       .analysis-row-v {
-        padding-top: 4px;
+        padding: 4px 14px 12px;
+      }
+      .modal-action-btn {
+        width: 100%;
+        min-height: 48px;
+        font-size: 1rem;
       }
     }
 
