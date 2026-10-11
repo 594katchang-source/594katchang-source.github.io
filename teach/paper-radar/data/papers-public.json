@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T20:50:45.719Z",
+  "generatedAt": "2026-10-11T20:54:02.960Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -94290,6 +94290,84 @@
       "content": "---\ntitle: GLIM肌肉量與攝食減少組合對大腸直腸癌兩年存活的關聯品質評讀\ncitekey: Couto2027GLIMCRC\ndoi: 10.1016/j.nut.2026.113415\nzotero: \"\"\njournal: Nutrition\nyear: 2027\nonline_year: 2026\nauthors: Andresa da Silva Couto; Aline Barcellos Barreto; Viviane Dias Rodrigues; Nilian Carla Souza; Renata Brum Martucci\nstudy_type: prospective observational cohort study\npmid: 42815067\nreview_depth: quick\n---\n\n# GLIM肌肉量與攝食減少組合對大腸直腸癌兩年存活的關聯：品質評讀\n\n**全文核驗**：使用者提供 PDF，7 頁、可讀全文 48,391 字元；PDF 首頁 DOI、題名與指定文獻相符，全文結構涵蓋前言、方法、結果、討論及結論。原始 PDF SHA-256 `ff77322bb8ec3c02f1f2d3fe9aec1a3dfc9bb4e3aa464b3eb2f24e7c722c6752`，文字 SHA-256 `8d0619f71c3f2741fedd9a629970c76110fe4a30cd669c3c4d9efb330197a490`。逐頁讀取並以頁面影像核對 pp.1–7 的表格與版面；主要結果以 PDF pp.4–5 表 3–5 為準。全文來源為使用者提供的合法 PDF，保留於私人本機來源庫。\n\n## 一句話判讀\n\n在單一巴西腫瘤營養門診、81 位接受抗癌治療的大腸直腸癌患者中，低肌肉量合併攝食減少與較差兩年存活相關；但只有 23 個死亡事件、信賴區間寬，且患者篩選和多重組合分析帶來偏差疑慮，不能推論改善攝食或肌肉量必然降低死亡。\n\n> [!info] 品質快照\n> **設計**：單中心前瞻性觀察世代｜**樣本**：81 人，中位年齡 62 歲（IQR 55–71）；23 人於兩年追蹤期內死亡｜**偏差工具**：Newcastle–Ottawa 世代研究領域式評估；整體有嚴重疑慮，重點在選樣／追蹤條件、混雜與模型穩定性，不以不完整星等製造精確總分。\n> **GRADE**：低肌肉量＋攝食減少與兩年全因存活關聯，單篇暫定 **Very low**；觀察性證據 low 起始，因偏差風險及估計不精確各降一級｜**註冊**：主文未報研究註冊資料；有研究倫理審查核准編號 4.729.004（2021-05-24）。\n> **一句話 verdict**：這個組合可作為營養評估與進一步照護的風險提示；不能當成經驗證的個人預測工具，也不能把關聯改寫為營養治療的死亡效益。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：研究者比較 GLIM 不同「一個身體表現條件＋一個病因條件」組合，觀察哪些組合與大腸直腸癌患者兩年存活較差有關。\n> - **為什麼做**：不同 GLIM 組合可能把不同患者判成營養不良，作者想知道低 BMI、體重下降、低肌肉量與攝食減少或發炎，哪些組合較能辨認存活風險。\n> - **怎麼做**：巴西單一三級腫瘤醫院前瞻收案 81 位新診斷成人，評估 PG-SGA SF、體重、BMI、肌肉量和發炎指標，追蹤兩年，以 Kaplan–Meier、log-rank 與 Cox 模型分析存活。\n> - **看到什麼**：低肌肉量＋攝食減少組 23/79 可評估者（29%）；模型調整體能狀態與癌症分期後，與死亡危險相關 HR 3.44（95% CI 1.15–10.28，p=.027）。晚期癌症分期也與較高死亡危險相關 HR 4.90（1.72–13.94，p=.003）。\n> - **要小心什麼**：死亡事件少且估計不精確；只分析接受抗癌治療者，並排除未接受治療／很早死亡者；研究探索多個 GLIM 組合，且每個模型只放入單一組合與選出的共變項。這些資料只能支持預後關聯，沒有測試營養介入。\n\n## 全文結構與逐節重點\n\n| 原文位置 | 本節在說什麼 |\n|---|---|\n| 題名、摘要，PDF p.1 | 提出研究目的、81 人樣本、六種 GLIM 組合盛行率，以及低肌肉量＋攝食減少和分期的調整後存活關聯。 |\n| 前言，PDF pp.1–2 | 說明大腸直腸癌及治療可能造成體重和肌肉流失；指出不同 GLIM 組合的預後資料不足，形成研究問題。 |\n| 方法，PDF pp.2–3 | 前瞻性單中心世代；列納入／排除、PG-SGA SF 篩檢、GLIM 表型與病因判定、肌肉量測量、兩年存活與 Cox 分析方法。 |\n| 結果，PDF pp.3–5 | 140 人初評後納入 81 人；報告族群、營養指標、六種組合、23 死亡事件、Kaplan–Meier 比較及表 5 Cox 模型。 |\n| 討論，PDF pp.5–6 | 將低肌肉量＋攝食減少的結果與先前癌症營養文獻比較，討論肌肉量、飲食攝取和 GLIM 組合的臨床意義。 |\n| 限制、結論與聲明，PDF p.6 | 承認樣本／事件少、過度配適、多重比較、單一醫院、排除早死患者、肌肉量方法差異及自陳攝食等限制；列資助、資料可用性、AI 輔助聲明及倫理資訊。 |\n| 參考文獻，PDF pp.6–7 | 53 筆參考文獻；focused-quick 不做廣泛引用逐筆核驗。 |\n\n## 研究問題與方法\n\n- **研究問題**：在接受抗癌治療的大腸直腸癌患者中，不同 GLIM 表型條件與病因條件組合，是否與兩年整體存活相關？這是預後關聯問題，並非比較營養治療的介入效果。（PDF pp.1–2）\n- **設計與地點**：巴西里約熱內盧一所三級腫瘤醫院的前瞻性、縱向、觀察性研究；營養門診收案期間為 2021 年 6 月至 2023 年 12 月。倫理審查編號 4.729.004，核准日 2021-05-24；作者稱依 STROBE 世代研究指引報告。（PDF p.2）\n- **納入與選樣**：年滿 20 歲、新診斷大腸直腸癌、預定開始手術／化療／放療並到營養門診者。排除已開始抗癌治療、單純緩和照護、兩年內未接受抗癌治療、特定嚴重病況或缺少表型資料者。140 人初評，最終納入 81 人；流程圖列拒絕參與、肌肉量或體重變化資料缺失，以及未接受治療等排除。（PDF pp.2–3）\n- **營養篩檢與 GLIM**：以 PG-SGA Short Form ≥3 定義有營養風險；GLIM 診斷要求至少一項表型（非意願性體重下降、低 BMI、低肌肉量）和一項病因（攝食減少或發炎）。有 19 人篩檢未達風險分數，其中 7 人因低肌肉量＋攝食減少仍符合 GLIM，故納入分析。（PDF p.2）\n- **判定方式**：低 BMI 為 70 歲以下 <20 kg/m²、70 歲以上 <22 kg/m²；過去六個月體重下降 ≥5% 為顯著；肌肉量以 CT 為主、沒有 CT 時用 BIA。CT 肌肉指數依性別及 BMI 門檻判低肌肉量。攝食減少由 PG-SGA 評估；發炎以腫瘤分期或中性球／淋巴球比值 NLR >3 評估。（PDF pp.2–3）\n- **結果與統計**：主要結果為兩年 overall survival，以 Kaplan–Meier 與 log-rank 比較，並用 Cox 比例風險模型估計 HR。單變項中年齡、性別、體能狀態及癌症分期等候選變項，p<.05 者再放入各多變項模型；各模型另含一種 GLIM 組合。採 complete-case，缺值者按模型排除。樣本估計需 84 人以達 90% power、雙側 α=.05，實際僅 81 人；主要事件為 23 死亡。（PDF pp.3–5）\n\n## 主要發現\n\n| 指標／結果 | 全文估計 | 解讀 |\n|---|---:|---|\n| 最終分析樣本 | 81 人；中位年齡 62 歲（55–71）；75% 為第 III–IV 期 | 單一腫瘤營養門診，晚期病例占多數。（PDF p.3） |\n| PG-SGA SF 有營養風險 | 62/81（77%） | 風險篩檢結果，不等同各種 GLIM 組合盛行率。（PDF p.4） |\n| 低肌肉量＋攝食減少 | 23/79（29%） | 此組合可評估分母為 79，不是 81。（PDF p.4） |\n| 兩年追蹤期死亡 | 23/81（28%） | 事件數有限，會影響 Cox 模型精確度。（PDF p.4） |\n| 低肌肉量＋攝食減少組的存活 | 中位 18.19 個月（95% CI 15.04–21.33），未符合者 21.33 個月（19.71–22.95）；log-rank p=.029 | 未調整的存活曲線比較。（PDF p.4，表 4） |\n| 低肌肉量＋攝食減少與死亡 hazard | 調整體能狀態及分期後 HR 3.44（1.15–10.28），p=.027 | 表示模型中的較高瞬時死亡 hazard 關聯；信賴區間很寬，非因果效果。（PDF p.5，表 5） |\n| 晚期癌症分期（IV vs I–III） | HR 4.90（1.72–13.94），p=.003 | 模型 3 的重要疾病嚴重度關聯。（PDF p.5，表 5） |\n| 其他 GLIM 組合 | 體重下降＋攝食減少：調整 HR 2.18（0.71–6.73），p=.173；體重下降＋發炎：3.12（0.66–14.71），p=.151 | 調整後不顯著；不應只挑顯著組合說明結果。（PDF p.5，表 5） |\n\n**統計與臨床意義**：存活時間不是具有常用最小臨床重要差異（MCID）的量表；此處重點是 HR 與絕對存活時間的估計不確定性。主要 HR 的 95% CI 從 1.15 到 10.28，涵蓋由小幅到很大的風險關聯。研究未測試任何營養介入，也沒有提供可供臨床直接套用的個人預測校準、判別度或外部驗證。作者未報告 Cox 比例風險假設檢查及研究註冊／預先分析計畫；此處只記錄全文未見，未另作外部登錄查核。\n\n## 品質評讀與偏倚\n\n### 優點\n\n1. **前瞻收案與營養評估**：在治療前、首次營養門診收集 PG-SGA、人體測量、BIA 和病歷資訊，並以 CT 作肌肉量主要來源。（PDF p.2）\n2. **直接比較 GLIM 組合**：列出六種表型－病因配對，讓讀者看到不同操作定義會造成不同盛行率；不只報單一整體營養不良比例。（PDF pp.3–4）\n3. **報告調整效果與限制**：以 HR 和信賴區間呈現關聯，並在討論承認小樣本、多重比較、可能過度配適、單中心選樣和肌肉量測量差異。（PDF pp.5–6）\n\n### 偏差風險（Newcastle–Ottawa 世代研究領域式判讀）\n\n| 領域 | 判讀 | 依據 |\n|---|---|---|\n| 選樣／代表性 | 🔴 嚴重疑慮 | 單一三級醫院營養門診；納入新診斷且預定接受治療者，排除未接受治療者。作者特別指出 8 位未接受抗癌治療的早期死亡患者遭排除，可能造成選擇偏差，無法代表極短存活者。（PDF pp.2、6） |\n| 暴露／營養分類 | 🟡 有疑慮 | PG-SGA、體重和 CT/BIA 有結構化評估；但 CT 與 BIA 混用、缺少巴西族群肌肉量參照值，攝食減少為自陳，可能造成錯分。（PDF pp.2、6） |\n| 結果測量 | 🟢 相對清楚 | 以死亡及 Kaplan–Meier/Cox 存活分析；死亡日期截至 2024 年 12 月。但追蹤細節與比例風險假設檢查未充分報告。（PDF pp.3–5） |\n| 混雜控制 | 🔴 嚴重疑慮 | 模型調整體能狀態及癌症分期，但僅依單變項 p<.05 選擇候選變項；腫瘤治療、共病和其他營養／疾病差異可能殘留混雜。各組合拆成不同模型，不能視為相互獨立的因果效應。（PDF pp.3、5） |\n| 缺失資料與分析 | 🟡 有疑慮 | 依每個模型 complete-case 排除缺值；多項指標分母為 68–80，未見缺失機制分析或插補敏感度分析。（PDF pp.3–4） |\n| 選擇性報告／多重比較 | 🔴 嚴重疑慮 | 六種組合先作比較，再依較差存活的組合進入模型；樣本數與死亡事件少。作者也承認多重比較提高第一類錯誤風險及模型過度配適可能。（PDF pp.4、6） |\n\n**因果推論提醒**：研究納入與「後續接受抗癌治療」相關，並排除未治療／早期死亡患者，形成對已能進入治療及營養門診族群的選擇；這是選樣偏差風險，不只是一般隨機誤差。營養狀態亦可能反映腫瘤負荷、發炎、治療可行性及整體衰弱，殘餘混雜難排除。預測因子不等於可預防的因果因子；不能從較低肌肉量與較差存活推論增加肌肉量或營養補充會改善存活。（PDF pp.2、5–6）\n\n### GRADE（單篇主要結果的暫定剖面）\n\n觀察性研究由 low 起始。對低肌肉量＋攝食減少與兩年整體存活關聯，`grade_judge.py` 使用檔案 `process\\00117-grade-input.json`，程式結果保存在 `process\\00117-grade-result.json`。風險偏差因選樣與混雜控制降一級；不精確性因僅 23 個死亡事件、HR 95% CI 寬（1.15–10.28）降一級；單篇結果無法估計跨研究不一致性，對象與臨床問題直接，未另降間接性；沒有足夠依據作觀察性升級。程式計算的最終確定性為 **Very low**。這是對這篇研究的教學性判讀，不是整體證據體正式分級。\n\n## 白話臨床應用\n\n對大腸直腸癌患者，若肌肉量偏低且近期吃得少，這項研究支持把兩者一起視為值得進一步營養評估的警訊；實務評估仍需依個人病期、治療計畫、症狀與飲食狀況進行。研究沒有測試任何特定飲食、補充品、營養支持或運動方案，不能據此選擇介入、宣稱提高存活，或把 HR 當成個人死亡機率。\n\n## 推論檢查\n\n以作者研究問題和保守關聯性結論為主張，前提限於單中心前瞻觀察性資料，並明確寫出選樣及殘餘混雜限制。`argdown_lint.py` 以 `process\\00117-argmap.json` 執行；結果為 no inference gap，保存於 `process\\00117-argdown-result.txt`。允許的結論是「本樣本中兩者組合與較差存活相關」；「攝食改善或肌肉增加會降低死亡」超出資料支持範圍。\n\n## 作者聲明\n\n- **經費**：部分由 CAPES（Finance Code 001）資助。（PDF p.6）\n- **利益衝突**：PDF 列出 competing-interest 聲明標題，但在可讀段落中未見具體利益項目；因此記為「聲明細節未報告／需出版社版本核對」，不推定無利益衝突。（PDF p.6）\n- **資料可用性**：作者稱因參與者同意限制，資料不公開。（PDF p.6）\n- **生成式 AI**：作者表示曾使用 ChatGPT 輔助語言清晰度與格式，作者自行審查並負責內容。（PDF p.6）\n- **倫理**：報告研究倫理核准 4.729.004 及參與者書面同意。（PDF pp.2、6）\n\n## 本次流程證據\n\n- 實際執行技能：`paper-review`，Worker `focused-quick`；全文核讀與結果檢查均已完成。\n- 主要結果來源：研究方法 PDF pp.2–3；GLIM 組合與存活 PDF pp.4–5 表 3–5；限制及聲明 PDF p.6。\n- 作者／期刊背景、廣泛引文查核、重刊／勘誤及引用脈絡依 focused-quick 範圍未執行。",
       "cards": [],
       "completedAt": "2026-10-11T20:49:15.000Z"
+    },
+    {
+      "id": "doi:10.1016/j.nut.2026.113415:digest",
+      "paperId": "doi:10.1016/j.nut.2026.113415",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Differential associations of GLIM-defined malnutrition components with survival in colorectal cancer: a prospective study.",
+      "authors": "Couto A, Barreto A, Rodrigues V, Souza N, Martucci R",
+      "journal": "Adult clinical nutrition practice and assessment (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.nut.2026.113415",
+      "abstract": "Malnutrition is common among patients with colorectal cancer (CRC) and is associated with poorer treatment response and survival. However, no consensus exists on which combination of the Global Leadership Initiative on Malnutrition (GLIM) criteria best predicts survival in this population. This study aimed to to investigate the differential associations between the individual components of GLIM-defined malnutrition and overall survival in patients with colorectal cancer who received anticancer treatment during the follow-up period. This longitudinal, prospective, observational study was conducted at a tertiary oncology hospital, including newly diagnosed CRC patients. Malnutrition was diagnosed according to GLIM, combining phenotypic criteria (weight loss, low BMI, and reduced muscle mass, assessed by computed tomography or bioelectrical impedance analysis) and etiologic criteria (reduced food intake, evaluated by the Patient-Generated Subjective Global Assessment [PG-SGA], and inflammation, assessed by tumor stage or neutrophil-to-lymphocyte ratio). Two-year overall survival was analyzed using Kaplan-Meier and Cox proportional hazards models. Eighty-one patients were included (median age 62 years; IQR 55-71); 75% had advanced disease (stage III-IV). Malnutrition prevalence ranged from 6% to 57%, depending on the GLIM combination applied. In multivariate analysis, advanced disease stage (HR 4.90; 95% CI 1.72-13.94; P = 0.003) and the combination of low muscle mass and reduced food intake (HR 3.44; 95% CI 1.15-10.28; P = 0.027) were independent predictors of poorer overall survival. In the studied population, the combination of low muscle mass and reduced food intake emerged as an independent predictor of two-year survival.",
+      "legalFullTextUrl": "https://www.sciencedirect.com/science/article/pii/S0899900726003229/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42815067/",
+      "category": "recommended",
+      "tags": [
+        "adult clinical practice gaps",
+        "clinical nutrition technology",
+        "design:consensus",
+        "guideline and consensus",
+        "human clinical population",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "GLIM肌肉量與攝食減少組合對大腸直腸癌存活的全文內容整理",
+      "content": "---\ntags: [research/digest, clinical-nutrition, colorectal-cancer, GLIM, malnutrition]\ncitekey: Couto2027GLIMCRC\ndoi: 10.1016/j.nut.2026.113415\naliases:\n  - Differential associations of GLIM-defined malnutrition components with survival in colorectal cancer: a prospective study\n---\n\n> [!summary] 30 秒層\n> **一句話：** 在巴西單一腫瘤營養門診納入的 81 名大腸直腸癌患者中，低肌肉量加上攝食減少與較差兩年整體存活相關；這是預後關聯，不是營養介入效果。\n> - 六種 GLIM 組合的營養不良盛行率從 6% 到 57% 不等，判定組合會改變抓到的人數。\n> - 低肌肉量＋攝食減少：23/79 人（29%）；調整後死亡 hazard ratio 3.44（95% CI 1.15–10.28，p=.027）。\n> - 兩年追蹤有 23/81 人死亡（28%）；75% 患者是癌症第 III–IV 期。\n> - 少數死亡事件、寬信賴區間、排除未接受治療／很早死亡者，讓外推和個人預測都要保守。\n> 品質評讀另見《GLIM肌肉量與攝食減少組合對大腸直腸癌兩年存活的關聯品質評讀》。\n\n## 5 分鐘層\n**要點**：研究比較六種 GLIM 配對後，低肌肉量＋攝食減少與較差兩年存活的關聯在調整體能狀態及癌症分期後仍存在；小樣本、少數死亡事件和治療選樣限制了確定性。（PDF pp.2–6）\n\n- **族群：** 單一巴西三級腫瘤醫院新診斷成人大腸直腸癌患者；140 人初評，81 人進入分析，中位年齡 62 歲，第 III–IV 期占 75%。\n- **測量：** GLIM 需要一項表型條件加一項病因條件。低 BMI、六個月體重下降至少 5%、CT 或 BIA 肌肉量，分別配對攝食減少或發炎。\n- **六種組合：** 盛行率介於 6%–57%；組合不是互斥分類，缺值令各分析分母不同。\n- **存活：** 23/81 人在追蹤期死亡。未調整曲線中三種組合較差；Cox 調整體能狀態和分期後，僅低肌肉量＋攝食少仍顯著（HR 3.44，95% CI 1.15–10.28）。\n- **實務與限制：** 可把肌肉量及攝食線索併入進一步營養評估；研究不是營養介入試驗，且排除未接受治療／早期死亡者，不能直接外推到所有患者或推論因果效益。\n## 研究問題 / 背景\n**要點**：作者想知道，GLIM 的不同表型條件和病因條件配對後，哪些配對與大腸直腸癌患者兩年整體存活有關。（PDF pp.1–2）\n\n- GLIM 將營養不良診斷分成兩步：先用有效工具篩檢營養風險，再確認至少一項表型條件和一項病因條件。\n- 表型條件：非意願性體重下降、低 BMI、低肌肉量。病因條件：攝食減少，或疾病負荷／發炎。\n- 癌症本身和抗癌治療可能伴隨體重與肌肉流失；不過「哪一種 GLIM 組合最能辨認存活風險」的前瞻資料有限。\n- 本文比較六個表型－病因組合，不是在比較不同飲食處方，也沒有測試營養支持能否改變存活。（PDF pp.1–2）\n\n## 方法\n**要點**：研究者在一所三級腫瘤醫院前瞻收案，評估營養狀態後追蹤兩年，以存活曲線和 Cox 模型比較 GLIM 組合。（PDF pp.2–3）\n\n- **研究設計與地點：** 巴西里約熱內盧單一三級腫瘤醫院的前瞻性、縱向、觀察性研究；收案時間 2021 年 6 月至 2023 年 12 月。倫理審查核准編號 4.729.004，日期 2021-05-24。（PDF p.2）\n- **對象：** 年滿 20 歲、新診斷大腸直腸癌、尚未開始治療且預定接受手術、化療、放療或組合治療者。140 人接受初評，最終 81 人納入；中位年齡 62 歲（IQR 55–71），61% 年齡超過 60 歲。（PDF pp.2–3）\n- **篩檢：** PG-SGA Short Form 分數 ≥3 定義營養風險。19 人未達篩檢風險門檻，其中 7 人仍因低肌肉量＋攝食減少符合 GLIM，故仍納入。（PDF p.2）\n- **GLIM 判定：** 六種配對為低 BMI／體重下降／低肌肉量，分別搭配攝食減少或發炎。低 BMI 門檻是 70 歲以下 <20 kg/m²、70 歲以上 <22 kg/m²；六個月體重下降 ≥5% 視為顯著。肌肉量以 CT 為主，無 CT 時採 BIA；發炎以癌症分期或 NLR >3 表示。（PDF pp.2–3）\n- **分析：** Kaplan–Meier 曲線與 log-rank 比較存活；Cox 比例風險模型報 HR。先看年齡、性別、體能狀態及分期的單變項結果，再以顯著變項納入多變項模型；各模型包含一種 GLIM 組合與共變項。缺值採 complete-case，按模型排除。（PDF p.3）\n- **樣本規劃：** 作者估算至少需 84 人，以達 90% 檢定力、雙側顯著水準 5%；最後納入 81 人。兩年追蹤期共記錄 23 例死亡。（PDF pp.3–4）\n\n## 主要發現\n**要點**：低肌肉量＋攝食減少是六種組合中唯一在表 5 多變項模型仍達統計顯著的組合，但效應估計不精確。（PDF pp.4–5）\n\n| 結果 | 全文數值 | 怎麼讀 |\n|---|---:|---|\n| 營養篩檢風險 | PG-SGA SF ≥3：62/81（77%） | 篩檢陽性不等於每種 GLIM 組合都成立。（PDF p.4，表 2） |\n| 六種 GLIM 組合盛行率 | 低 BMI＋攝食少 5/81（6%）；低 BMI＋發炎 10/80（13%）；體重下降＋攝食少 30/69（44%）；體重下降＋發炎 39/68（57%）；低肌肉量＋攝食少 23/79（29%）；低肌肉量＋發炎 34/78（44%） | 各組可評估分母不同；組合定義明顯影響盛行率。（PDF p.4，表 3） |\n| 存活曲線：低肌肉量＋攝食少 | 符合者中位存活 18.19 個月（95% CI 15.04–21.33）；未符合者 21.33 個月（19.71–22.95）；log-rank p=.029 | 未調整比較。（PDF p.4，表 4） |\n| 調整後：低肌肉量＋攝食少 | HR 3.44（95% CI 1.15–10.28），p=.027 | Cox 模型調整體能狀態與癌症分期；CI 很寬，不是個人絕對死亡機率。（PDF p.5，表 5） |\n| 調整後：第 IV 期癌症 | HR 4.90（1.72–13.94），p=.003 | 模型 3 中相較第 I–III 期的分期關聯。（PDF p.5，表 5） |\n| 另外兩個先被選入模型的組合 | 體重下降＋攝食少：HR 2.18（0.71–6.73），p=.173；體重下降＋發炎：HR 3.12（0.66–14.71），p=.151 | 調整後沒有達統計顯著；不能只記住顯著組合。（PDF p.5，表 5） |\n\n- 低 BMI 組合的盛行率最低。體重下降＋發炎最高（57%）；低肌肉量＋攝食減少則為 29%。（PDF p.4，表 3）\n- 未調整 log-rank 比較中，體重下降＋攝食減少（p=.028）、體重下降＋發炎（p=.027）及低肌肉量＋攝食減少（p=.029）與較短存活相關；經 Cox 調整後，只有第三個組合仍顯著。（PDF pp.4–5，表 4–5）\n- 總樣本 81 人，但營養項目缺值使各組合分母降至 68–80 人；不要將表格各列分母都當作 81。（PDF pp.3–4）\n\n## 臨床意義 / 怎麼用\n**要點**：把「低肌肉量」和「近期攝食減少」一起留在營養評估視野，能提供預後警訊；本研究不告訴我們哪種處置能改善存活。（PDF pp.4–6）\n\n- 臨床上可把兩個線索當作進一步營養評估的理由，並同時看癌症分期、功能狀態、治療計畫與症狀；不能只靠一個組合判斷患者個人預後。\n- 研究沒有隨機分派任何攝食、補充品、營養支持或運動介入。因此「低肌肉量＋攝食少與較差存活相關」不能改寫成「增加攝取或肌肉可降低死亡」。\n- 作者認為 GLIM 組合和測量方式會影響營養不良盛行率；臨床比較或跨院研究應交代使用 CT 還是 BIA、攝食條件如何判定。（PDF pp.5–6）\n- 適用邊界：單一巴西醫院、接受抗癌治療、晚期患者比例高；對未治療、極短存活、其他癌症或不同照護制度的外推有限。（PDF pp.2–3、6）\n\n## 重要圖表重述\n**要點**：圖表呈現從 140 人初評到 81 人分析、不同 GLIM 組合的營養不良比例，以及組合與存活的未調整和調整後結果。（PDF pp.3–5）\n\n- **圖 1（p.3）：** 收案流程。140 人經資格判定後，81 人進入最終分析；排除含拒絕參與、缺少肌肉量／體重變化資料及未接受治療等原因。\n- **表 1（p.3）：** 81 人基本特徵：中位年齡 62 歲；女性 51%；第 III 期 41%、第 IV 期 34%；體能狀態 0–1 共 90%。\n- **表 2（p.4）：** BMI 平均 25.0±4.9；六個月體重下降中位數 8.4%（IQR 1.9–13.6）；低肌肉量 40/79（51%）；攝食減少 49/81（61%）；NLR 中位數 3.2（2.3–3.9）。\n- **表 3（p.4）：** 六個 GLIM 配對各自盛行率和死亡比例；死亡比例以 23 例總死亡為背景，組合人數有重疊，不能相加成互斥族群。\n- **表 4（p.4）：** 六組 Kaplan–Meier／log-rank。顯著的三組在未調整分析存活較短；低 BMI 配對與低肌肉量＋發炎沒有顯著差異。\n- **表 5（p.5）：** 每個 GLIM 組合各自建立多變項 Cox 模型，調整體能狀態和癌症分期；低肌肉量＋攝食少 HR 3.44 是唯一仍顯著的組合。表格不是六種組合同時互相控制的模型。\n\n## 與既有認知的對照\n**要點**：本篇把既有 GLIM「如何篩檢／診斷」的知識往「不同診斷配對與癌症存活」推進；它和九旬手術患者的 GNRI 研究不是同一種營養指標或臨床問題。\n\n- 既有筆記《GLIM 營養不良風險定義：概念與篩檢》及《GLIM 營養不良風險篩檢的風險因子操作化》整理的是營養風險概念與篩檢；本篇比較已診斷 GLIM 配對的預後關聯，不能以篩檢共識代替存活證據。（既有 digest；本篇 PDF pp.2–5）\n- 既有筆記《成人癌症門診 MST、NUTRISCORE 與 GLIM》聚焦篩檢工具與 GLIM 的診斷一致性；本篇問的是存活結局，結果不代表 GLIM 組合已成為經驗證的個人風險預測工具。\n- 既有筆記《高齡大腸直腸癌手術的 GNRI 預後研究》研究 90 歲以上接受腫瘤切除者，以 GNRI 作預後指標；本篇納入不同年齡、接受多種抗癌治療者，以 GLIM 條件組合為暴露。族群、指標、治療情境和比較方式不同，不能直接比較效應大小。\n- 本次本機筆記庫搜尋上述題名與 DOI，未找到另一篇完全相同的「GLIM 六種配對、成人大腸直腸癌兩年存活」研究；因此沒有宣稱本篇已改變整體證據結論。\n\n## 概念 / 名詞整理\n**要點**：讀懂本文的關鍵，是把篩檢、診斷條件、預後關聯和介入效果分開。（PDF pp.2–5）\n\n- **GLIM：** Global Leadership Initiative on Malnutrition；診斷須同時有至少一項表型條件及一項病因條件。\n- **表型條件：** 身體上可見的營養不良表現，例如體重下降、低 BMI、低肌肉量。\n- **病因條件：** 可能造成或伴隨營養不良的條件，例如攝食減少、疾病負荷或發炎。\n- **PG-SGA SF：** Patient-Generated Subjective Global Assessment Short Form；本文用 ≥3 篩檢營養風險，不等同 GLIM 診斷。\n- **SMI：** Skeletal Muscle Index；CT 肌肉截面積校正身高後的肌肉指標。本文沒有 CT 時以 BIA 估算，兩種方法可能讓分類有差異。\n- **NLR：** Neutrophil-to-Lymphocyte Ratio，中性球／淋巴球比值；本文以 >3 作為一種發炎判定方式。\n- **HR：** Hazard Ratio，某時間點的瞬時事件率相對值；HR 3.44 不代表每個患者有 3.44 倍的絕對死亡機率。\n- **Complete-case：** 分析時排除該模型所需資料有缺漏的患者；不同模型實際樣本可能不同。\n\n## 自我測驗\n**要點**：用以下題目練習把 GLIM 定義、模型結果與臨床推論邊界串起來。\n\n> [!question]- Q1：為什麼 77% 的 PG-SGA SF 篩檢陽性率，不等於低肌肉量＋攝食減少這個 GLIM 組合的盛行率？\n> PG-SGA SF 是營養風險篩檢；GLIM 組合需要一項表型條件加一項病因條件。本文前者為 62/81（77%），後者為 23/79（29%），任務與分母都不同。（PDF pp.2、4）\n\n> [!question]- Q2：表 5 的 HR 3.44 要如何解讀，為什麼不該說營養治療能降低死亡？\n> 它是觀察世代中低肌肉量＋攝食減少與死亡 hazard 的調整後關聯（調整體能狀態和分期），不是營養介入比較。研究沒有指派或測試治療，所以不能推論介入的因果效果。（PDF p.5）\n\n> [!question]- Q3：為什麼不能把六種 GLIM 組合人數加總，當作 81 位患者的互斥分類？\n> 六列是不同條件配對，個人可以同時符合多個組合，而且缺值使各列分母不同（68–80）；它們不是互斥分組。（PDF p.4，表 3）\n\n> [!question]- Q4：為什麼作者得到「未調整存活曲線有三個顯著組合」，最後卻只有一個組合在多變項模型顯著？\n> log-rank 是未調整比較；Cox 模型再調整體能狀態和癌症分期。調整後體重下降配對不再顯著，低肌肉量＋攝食少仍顯著，但估計仍因事件少而不精確。（PDF pp.4–5，表 4–5）\n\n> [!question]- Q5：這項研究結果最適合如何用在臨床照護？\n> 把低肌肉量合併攝食減少視為進一步營養評估的線索，並與癌症分期、功能和治療情境一起判斷；不要用 HR 當個人預測，也不要直接宣稱改善攝食會延長存活。（PDF pp.5–6）\n\n## Reference\n**要點**：本文主張與數字均回到這一篇全文；未另行核對其參考文獻的原始研究。（PDF pp.1–7）\n\n- Couto A da S, Barreto AB, Rodrigues VD, Souza NC, Martucci RB. Differential associations of GLIM-defined malnutrition components with survival in colorectal cancer: a prospective study. *Nutrition*. 2027;153:113415. doi: [10.1016/j.nut.2026.113415](https://doi.org/10.1016/j.nut.2026.113415). 線上 DOI 年份為 2026，期刊卷期標示 2027。（PDF pp.1、3–7）",
+      "cards": [
+        {
+          "title": "GLIM篩檢與診斷的差別",
+          "question": "為什麼 PG-SGA SF 篩檢陽性不等於符合每一種 GLIM 營養不良組合？",
+          "answer": "PG-SGA SF ≥3 是營養風險篩檢；GLIM 診斷須同時有至少一項表型與一項病因條件。本文篩檢陽性 62/81（77%），低肌肉量＋攝食減少則 23/79（29%），目的和分母不同。",
+          "tags": [
+            "GLIM",
+            "nutrition-screening",
+            "colorectal-cancer"
+          ]
+        },
+        {
+          "title": "HR 3.44的臨床解讀",
+          "question": "表 5 的 HR 3.44 可以回答什麼問題，不能回答什麼問題？",
+          "answer": "它表示這個前瞻觀察世代中，低肌肉量加攝食減少與較高死亡 hazard 有調整後關聯；模型調整體能狀態和癌症分期。沒有營養介入對照，不能回答增加攝取是否會降低死亡。",
+          "tags": [
+            "hazard-ratio",
+            "causal-inference",
+            "nutrition-support"
+          ]
+        },
+        {
+          "title": "不同GLIM組合的分母",
+          "question": "為什麼表 3 的六種 GLIM 組合人數不能相加成 81 位互斥患者？",
+          "answer": "同一患者可能同時符合多個表型－病因配對，所以各列會重疊；此外缺值使各組可評估分母從 68 到 80 不等。",
+          "tags": [
+            "GLIM",
+            "missing-data",
+            "study-design"
+          ]
+        },
+        {
+          "title": "為何調整後只剩一組顯著",
+          "question": "為什麼三個 GLIM 組合在未調整存活曲線有差異，調整後只剩低肌肉量加攝食減少？",
+          "answer": "log-rank 是未調整存活比較；Cox 模型另調整體能狀態與癌症分期。兩個體重下降組合調整後不再顯著。剩下的組合 HR 3.44，但 95% CI 1.15–10.28，仍有很大不確定性。",
+          "tags": [
+            "survival-analysis",
+            "confounding",
+            "GLIM"
+          ]
+        },
+        {
+          "title": "臨床上如何採用研究訊號",
+          "question": "依據本研究，營養師最合理的下一步是什麼？",
+          "answer": "將低肌肉量與攝食減少一起視為值得深入評估的預後線索，並搭配分期、功能與治療狀況判讀。不能把 HR 當成個人死亡機率，也不能說增加營養或肌肉已證實改善存活。",
+          "tags": [
+            "clinical-nutrition",
+            "colorectal-cancer",
+            "clinical-application"
+          ]
+        }
+      ],
+      "completedAt": "2026-10-11T20:52:51.000Z"
     }
   ]
 }
