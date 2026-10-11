@@ -1413,8 +1413,13 @@
         查無符合條件的運動影片或頻道，請嘗試其他關鍵字或點擊「清除篩選」。
       </div>
 
-      <!-- 底部安全跟練提醒（依指示僅保留此句） -->
+      <!-- 底部統計與嚴格版權文字 -->
       <div class="db-footer-meta" id="dbFooterMeta">
+        共載入 0 部影片 ｜ 每支連結皆經 YouTube oEmbed 驗證存在 ｜ 影片版權屬各原始頻道所有，請遵守合理使用原則
+      </div>
+
+      <!-- 底部說明框（僅保留指定安全跟練警語） -->
+      <div class="db-credits-box" style="text-align:center;">
         🙏 進行任何體能活動前，請衡量自身關節與心血管狀態，善用每部影片內建之「初學退階」與「進階變化」安全跟練。
       </div>
     </div>
@@ -1457,7 +1462,7 @@
 4. 【運動後收操與營養師增肌補水建議】
    - 適合搭配的 2 個緩和伸展動作，以及運動後黃金 30–60 分鐘內的蛋白質與水分補充建議。
 
-請用繁體中文、條列清晰回答，內容要能直接印出來作為課堂教案或居家跟練小卡。`;
+請用繁體中文、條列清楚回答，內容要能直接印出來作為課堂教案或居家跟練小卡。`;
 
     let allVideos = [];
     let allChannels = [];
@@ -1494,6 +1499,7 @@
     const printListBtn = document.getElementById('printListBtn');
     const grid = document.getElementById('recipesGrid');
     const noMatch = document.getElementById('noMatch');
+    const footerMeta = document.getElementById('dbFooterMeta');
     const modalOverlay = document.getElementById('modalOverlay');
     const modalContent = document.getElementById('modalContent');
     const modalCloseBtn = document.getElementById('modalCloseBtn');
@@ -1826,6 +1832,7 @@
 
       const filtered = getFilteredVideos();
       resultCounter.textContent = `顯示 ${filtered.length} / ${allVideos.length} 部運動影片（點擊任一卡片可查看 12 項動作細節與退階／進階調整）`;
+      footerMeta.textContent = `共 ${filtered.length} 部影片 ｜ 每支連結皆經 YouTube oEmbed 驗證存在 ｜ 影片版權屬各原始頻道所有，請遵守合理使用原則`;
 
       if (filtered.length === 0) {
         grid.innerHTML = '';
@@ -1887,6 +1894,7 @@
       });
 
       resultCounter.textContent = `📺 顯示 ${filteredCh.length} / ${allChannels.length} 個國內外精選舞蹈有氧 YouTube 頻道`;
+      footerMeta.textContent = `共 ${allVideos.length} 部影片 ｜ 每支連結皆經 YouTube oEmbed 驗證存在 ｜ 影片版權屬各原始頻道所有，請遵守合理使用原則`;
       if (filteredCh.length === 0) {
         grid.innerHTML = '';
         noMatch.style.display = 'block';
