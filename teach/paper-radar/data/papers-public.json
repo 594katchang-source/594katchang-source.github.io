@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T17:26:52.329Z",
+  "generatedAt": "2026-10-11T17:35:03.424Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -93290,6 +93290,33 @@
         }
       ],
       "completedAt": "2026-10-11T17:26:07.417Z"
+    },
+    {
+      "id": "doi:10.1016/j.orcp.2026.09.004:review",
+      "paperId": "doi:10.1016/j.orcp.2026.09.004",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Epigenetic determinants of GLP-1 responsiveness: Integrating dietary modulation beyond genetics.",
+      "authors": "",
+      "journal": "Adult GLP-1 nutrition and body-composition care (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.orcp.2026.09.004",
+      "abstract": "Glucagon-like peptide-1 receptor (GLP-1R) agonists have become major therapeutic agents for obesity and type 2 diabetes, yet clinical responses vary substantially among individuals. Although genetic variation contributes to this heterogeneity, it does not fully explain differences in glycemic control, body weight reduction, or broader metabolic outcomes. This narrative review discusses diet-driven epigenetic regulation as a potential framework linking modifiable nutritional exposures to GLP-1 physiology and variability in GLP-1R agonist responsiveness. Endogenous GLP-1 biology and the pharmacological targeting of incretin signaling are first summarized, followed by genetic determinants of GLP-1 responsiveness and their limitations. Major diet-sensitive regulatory mechanisms are then examined, including one-carbon metabolism and DNA methylation, histone modification and chromatin remodeling, microbiome-derived metabolites, and RNA-mediated or epitranscriptomic regulation. These mechanisms may influence endogenous GLP-1 secretion and degradation, GLP-1R expression, β-cell functional capacity, and the broader metabolic or inflammatory context in which incretin signaling occurs. However, direct clinical evidence linking diet-induced epigenetic changes to GLP-1R agonist therapeutic response remains limited. Therefore, diet-epigenome interactions should be interpreted as plausible modifiers of GLP-1-related metabolic biology rather than established determinants of pharmacological efficacy. Future studies integrating dietary assessment, gut hormone profiling, microbiome analysis, epigenomic markers, and multidimensional therapeutic outcomes are needed to determine whether diet-sensitive molecular signatures can support precision nutrition strategies alongside GLP-1-based therapy.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42760157/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "clinical nutrition technology",
+        "nutrition and dietary pattern",
+        "obesity and metabolism",
+        "precision nutrition",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "飲食表觀遺傳與 GLP-1 治療反應品質評讀",
+      "content": "---\ntitle: 飲食表觀遺傳與 GLP-1 治療反應品質評讀\ndoi: 10.1016/j.orcp.2026.09.004\npmid: 42760157\nauthors: Hyo Ri Shin; Tae Yoon Kim; Kyongpil Min; Ui-Hyun Park; Sang Woo Oh; Jae Kyeom Kim\njournal: Obesity Research & Clinical Practice\nyear: 2026\nstudy_type: narrative review\nreview_depth: quick\ntags:\n  - research/review\n  - nutrition\n  - GLP-1\n  - epigenetics\n  - precision-nutrition\n---\n\n> [!summary] 品質快照\n> **設計**：敘述性回顧；不適用研究樣本數。**方法檢核**：SANRA 10/12（作為敘述性回顧的整理度指標，不是偏差風險或療效確定性）。**GRADE**：不適用；本文沒有單一量化臨床結果或統合分析。**一句話判讀**：這篇把飲食、表觀遺傳與 GLP-1 生理串成有生物合理性的研究架構，也明確承認目前沒有足夠臨床證據證明飲食誘發的表觀遺傳改變能預測或改善 GLP-1 受體促效劑反應；臨床可用性仍屬假說。\n\n## Summary\n\n> ✅ 已讀完使用者提供、題名與 DOI 相符的 13 頁可讀全文。\n\n- 本文不是介入試驗，也不是系統性回顧；它整理數種飲食敏感的分子路徑，提出可能影響 GLP-1 生理與藥物反應差異的假說。\n- **最重要界線**：多數線索來自細胞、動物或非 incretin 組織；目前沒有經驗證的表觀遺傳生物標記或飲食介入，可以用來預測／改善 GLP-1RA 療效（PDF pp. 9–10，Table 2、Limitations）。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：作者提出飲食可能透過 DNA methylation、histone/chromatin、腸道菌代謝物及 RNA 調控，影響 GLP-1 相關生理，並假設這些變化可能參與不同人的 GLP-1RA 反應差異。\n> - **為什麼做**：GLP-1RA 用於肥胖與第二型糖尿病的反應有個體差異，單靠遺傳因素無法完整解釋；作者想整理飲食等可改變因素是否可能補上這段解釋。\n> - **主體**：①先整理餐後內源性 GLP-1 與藥物如何作用；②整理 GLP1R、TCF7L2、DPP4 等遺傳因素；③整理一碳代謝／DNA methylation、飲食 bioactives 與 DNMT、histone/chromatin、腸道菌 SCFA／膽酸、microRNA／m6A 等機轉；④最後談治療反應評估、營養充足性與未來 precision nutrition 研究（PDF pp. 3–10）。\n> - **所以呢**：日常照護可持續評估體重、血糖、腰圍、血壓、血脂、體組成、肌肉與功能，以及攝取不足或腸胃不適；這些屬一般臨床照護考量。不能把本文的機轉推論當成已證實的「表觀遺傳飲食處方」或個人藥效預測工具。\n\n## Paper Details\n\n**研究設計與搜尋方法**\n\n- 敘述性回顧，未收案、未進行新的人體／動物實驗，也沒有單一研究樣本數或主要臨床 outcome（PDF pp. 1、10）。\n- 作者表示搜尋 PubMed、Google Scholar、Web of Science，範圍從資料庫建立至 2026 年 5 月；列出 GLP-1、飲食、DNA methylation、microbiome、SCFA、miRNA 等搜尋詞。文獻依原創性、機轉相關性、臨床重要性及支持概念架構的適切性選取（PDF p. 2）。\n- 全文沒有提供可重現的完整檢索式、納入／排除條件、各資料庫命中及篩選數、雙人獨立篩選或正式偏差風險評估；不能視為系統性證據盤點。\n\n**全文主題與證據層級**\n\n| 主題 | 全文整理的內容 | 對 GLP-1RA 臨床反應的證據界線 |\n|---|---|---|\n| 內源性 GLP-1 與藥物背景 | 餐後營養刺激腸泌素分泌；長效 GLP-1RA 透過藥物設計避免內源性 GLP-1 快速分解，持續活化受體（PDF pp. 3–4）。 | 內源性 GLP-1 分泌／降解與長效藥物反應不是同一件事。 |\n| 遺傳因素 | 整理 GLP1R、TCF7L2、DPP4、GIPR 等與反應差異的關聯及其解釋不足（PDF pp. 4–5）。 | 遺傳只能部分解釋差異，本文不是遺傳檢測或用藥選擇試驗。 |\n| 一碳代謝與 DNA methylation | 葉酸、methionine、choline 等可能改變 methyl-donor 狀態；部分資料連到 DPP4／GLP-1 調控（PDF pp. 5–6）。 | 部分例子涉及動物或內源性 GLP-1；沒有證明飲食甲基化變化會改善 GLP-1RA 療效。 |\n| 飲食 bioactives 與 DNMT | EGCG、curcumin、genistein、resveratrol、sulforaphane 多為酵素或癌細胞模型；GSPE 與 GLP1R promoter methylation 的線索來自雌性大鼠（PDF pp. 6–7）。 | 不可由試管／癌細胞／動物研究推成一般飲食或補充品處方；作者也未建立 DNMT 變化到藥物反應的因果鏈。 |\n| Histone/chromatin | Butyrate、sulforaphane、curcumin 及高脂飲食可影響相關酵素／底物；BAF60a 缺失的實驗資料連到 GLP1R/GIPR 表現及 semaglutide 刺激下的 β-cell 分泌（PDF pp. 7–8）。 | BAF60a 是直接實驗線索，但不是飲食誘發的調控；exendin-4 例子也是藥物誘發的表觀遺傳改變。 |\n| Microbiome／代謝物 | 可發酵纖維與 SCFA、膽酸及 TGR5／FXR 相關路徑，可能影響內源性 GLP-1、HDAC 或發炎背景（PDF pp. 8–9）。 | 作者將完整的「飲食→表觀遺傳→GLP-1RA 反應」鏈標為未建立。 |\n| RNA／epitranscriptomics | miR-204、miR-194、m6A 有 GLP-1 受體或合成相關實驗／關聯；lncRNA 的 GLP-1 特異證據較弱（PDF p. 9）。 | 有些是細胞或代謝壓力模型；飲食如何改變這些標記並改變人體藥物反應仍未知。 |\n\n## Critical Appraisal\n\n**SANRA 敘述性回顧檢核：10/12**（逐項 0–2；本分數反映回顧呈現品質，不能解讀為臨床證據等級。）\n\n| 項目 | 分數 | 評讀 |\n|---|---:|---|\n| 研究主題的重要性／理由 | 2/2 | 交代 GLP-1RA 反應差異及遺傳解釋的不足，回顧理由清楚（PDF pp. 1–2）。 |\n| 研究目的 | 2/2 | 明確聚焦飲食誘發表觀遺傳如何可能連到 GLP-1 生理與藥物反應差異（PDF p. 1）。 |\n| 文獻搜尋描述 | 1/2 | 有資料庫、關鍵詞與截止時間，但無完整策略、資格條件或篩選流程，無法重現或判定遺漏程度（PDF p. 2）。 |\n| 參考文獻 | 2/2 | 各路徑與代表研究有引用，Table 2 亦附代表文獻；本次 quick review 未逐篇獨立核對引用內容。 |\n| 科學推理 | 1/2 | 作者多處區分「直接／間接／假說」並提醒臨床證據不足；但不同模型、組織與路徑之間仍以概念框架串接，尚非完整因果鏈（PDF pp. 7–10）。 |\n| 相關結果的呈現 | 2/2 | Table 2 將機轉證據層級與 GLP-1RA 反應關聯分開標示，臨床界線清楚（PDF p. 9）。 |\n\n- **完整性／挑選偏差**：搜尋與選文方式不足以保證涵蓋所有反例；作者未呈現完整研究篩選清單或相反結果的系統整理。這是敘述性回顧的主要限制。\n- **內源性與藥理作用不可混為一談**：纖維／SCFA、膽酸或 DPP4 等結果可能涉及內源性 GLP-1 生理；長效 GLP-1RA 的藥物反應還受受體、β-cell、藥物暴露及整體病況影響。作者在 Table 2 和 Limitations 承認多數反應關聯未建立（PDF pp. 9–10）。\n- **臨床證據不足**：作者明確表示，目前沒有驗證過的 epigenetic biomarker 或飲食介入能預測或改善藥物反應；多數機轉資料來自 in vitro、動物或非 incretin 組織（PDF p. 10）。\n- **GRADE／樣本數／試驗註冊**：GRADE、研究樣本數、臨床主要 outcome、試驗註冊比較均不適用，因本文是敘述性回顧而非原始臨床試驗或統合分析。\n- **資助與利益衝突**：致謝載明 Korea University Grant（2025 秋季學期）；作者聲明無已知競爭性財務利益或可能影響研究的個人關係（PDF pp. 10–11）。\n\n## Clinical Application\n\n- GLP-1RA 療程中，作者建議不要只看體重百分比；也可依病人狀況觀察血糖、腰圍、血壓、血脂、體組成、營養充足性、身體功能與骨骼肌維持，尤其留意高齡或肌肉儲備較低者（PDF p. 9）。\n- 飲食評估可涵蓋蛋白質充足性、纖維品質、食物結構、攝取量與腸胃不適；這是營養照護的評估方向，不代表本文證明某種營養素或飲食型態可提升藥物反應。\n- 不依本文開立特定 epigenetic diet、補充品、檢驗或藥物劑量；若以教學使用，適合示範如何把機轉假說和已證實臨床療效分開。\n\n## 推論檢查\n\n- 本文結論可支持「存在可供研究的飲食—表觀遺傳—GLP-1 生理假說」，不能支持「已能預測或改善 GLP-1RA 療效」。本次 `argdown_lint.py` 對此邊界論證回傳 clean；推論 map 保存在本輪 process 證據。\n\n## Source\n\n- Shin HR, Kim TY, Min K, Park UH, Oh SW, Kim JK. *Epigenetic determinants of GLP-1 responsiveness: Integrating dietary modulation beyond genetics.* **Obesity Research & Clinical Practice**. 2026. DOI: [10.1016/j.orcp.2026.09.004](https://doi.org/10.1016/j.orcp.2026.09.004); PMID: [42760157](https://pubmed.ncbi.nlm.nih.gov/42760157/).\n- 全文來源：使用者提供 PDF，文件題名、DOI 均核對相符；13 頁、原生文字可讀、109,672 字元，來源 SHA-256 `3b07ce6980f3ef079aad25834b922e9ea0d3b47a8d9ccb1b8059bec1453534b5`，擷取全文 SHA-256 `ca39bad78189497db7fb24c0d07693a463d4af82460172a70640793dbec27a56`。段落位置依該 PDF 頁碼標示。\n- 已依安裝版 paper-review skill 的 `focused-quick` 執行全文評讀；作者／期刊深查、廣泛引用核驗未執行。",
+      "cards": [],
+      "completedAt": "2026-10-11T17:32:48.663Z"
     }
   ]
 }
