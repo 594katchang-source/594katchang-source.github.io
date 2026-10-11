@@ -55,6 +55,7 @@ pages_info = [
             {"title": "教具：每日營養與熱量需求計算器 (TDEE/BMR)", "url": f"{BASE_URL}/teach/daily-needs/", "desc": "精算 TDEE、BMR 基礎代謝率與 6 大飲食型態三大營養素建議克數與份數。", "priority": "0.8", "changefreq": "weekly"},
             {"title": "教具：食物代換速查表 (Food Exchange)", "url": f"{BASE_URL}/teach/food-exchange/", "desc": "依衛福部國健署最新標準完整收錄，六大類食物每份重量、熱量與營養素速查資料庫。", "priority": "0.8", "changefreq": "weekly"},
             {"title": "教具：料理影片資料庫 (Cook Database)", "url": f"{BASE_URL}/teach/cook-database/", "desc": "收錄國健署、衛生局與醫學中心營養科公信力示範食譜，電鍋料理與全齡自煮教學資料庫。", "priority": "0.8", "changefreq": "weekly"},
+            {"title": "教具：運動影片資料庫 (Exercise Database)", "url": f"{BASE_URL}/teach/exercise-database/", "desc": "整合 549 部國內外運動影片與 122 個頻道（樂齡教案、核心肌力、老歌律動、舞蹈有氧、身體節奏），內建 12 項動作拆解與退階/進階調整。", "priority": "0.8", "changefreq": "weekly"},
             {"title": "教具：判斷比圈叉大考驗 (OX Challenge)", "url": f"{BASE_URL}/teach/ox-challenge/", "desc": "樂齡體智雙重任務互動教具，支援輪播切換題詞與自訂題庫。", "priority": "0.8", "changefreq": "monthly"},
             {"title": "教具：論文讀書小站 (Paper Radar)", "url": f"{BASE_URL}/teach/paper-radar/", "desc": "國際權威醫學期刊與營養實證研究導讀雷達站。", "priority": "0.8", "changefreq": "weekly"},
             {"title": "教具：壓力與食物關係 (Stress Food)", "url": f"{BASE_URL}/teach/Stress-Food/", "desc": "壓力荷爾蒙、皮質醇與情緒性進食的生理機轉與飲食對策。", "priority": "0.7", "changefreq": "monthly"},
@@ -223,6 +224,11 @@ Kat Chang 張雁雲營養師是食品營養博士（高齡健康組）、美國�
 
 ## 互動衛教教具 (Interactive Tools)
 
+- 每日營養與熱量需求計算器 (TDEE/BMR)：{BASE_URL}/teach/daily-needs/
+- 食物代換速查表 (Food Exchange)：{BASE_URL}/teach/food-exchange/
+- 料理影片資料庫 (Cook Database)：{BASE_URL}/teach/cook-database/
+- 運動影片資料庫 (Exercise Database)：{BASE_URL}/teach/exercise-database/
+- 判斷比圈叉大考驗 (OX Challenge)：{BASE_URL}/teach/ox-challenge/
 - NutriRank 食品營養排行榜：{BASE_URL}/teach/nutritionranking/
 - Stress Food 壓力與飲食教具：{BASE_URL}/teach/Stress-Food/
 - 情緒覺察卡 (Emotion Cards)：{BASE_URL}/teach/emotion-cards/
@@ -317,20 +323,35 @@ for p in posts:
 llms_full_content += f"""
 ## 3. 互動教具與教學模組庫 (Interactive Teaching Tools)
 
-1. **NutriRank 食品營養排行榜** ({BASE_URL}/teach/nutritionranking/)
+1. **運動影片資料庫 (All-Ages Exercise & Cognitive Movement Video Database)** ({BASE_URL}/teach/exercise-database/)
+   - 用途：整合國內外 549 部運動影片與 122 個專業頻道，涵蓋「樂齡教案（52週計畫）、核心肌力（站姿/坐姿/墊上×無道具/彈力帶/Pilates ball）、老歌律動（157首經典金曲）、舞蹈有氧（Zumba Gold/低衝擊/燃脂跟跳）、身體節奏（50部 Body Percussion 拍手踏步）」五大領域。每部影片均內建完整 12 項動作拆解、呼吸配合、常見代償錯誤，以及適合全年齡層的「初學者/受限退階調整（Regression）」與「中高階強化/雙重任務進階變化（Progression）」。
+
+2. **料理影片資料庫 (Cook Database)** ({BASE_URL}/teach/cook-database/)
+   - 用途：收錄國健署、各縣市衛生局、社區營養推廣中心與醫學中心公信力健康示範食譜，支援 100% 電鍋料理專區、質地調整軟食與 AI 提問提示詞複製。
+
+3. **每日營養與熱量需求計算器 (TDEE/BMR)** ({BASE_URL}/teach/daily-needs/)
+   - 用途：Mifflin-St Jeor 代謝公式精算 BMR、TDEE、6 大飲食型態三大營養素克數與六大類食物建議份數。
+
+4. **食物代換速查表 (Food Exchange)** ({BASE_URL}/teach/food-exchange/)
+   - 用途：依衛福部國健署標準收錄十大類食物每份重量、克數與熱量速查。
+
+5. **判斷比圈叉大考驗 (OX Challenge)** ({BASE_URL}/teach/ox-challenge/)
+   - 用途：樂齡體智雙重任務互動教具，支援超大字體輪播切換題詞與自訂題庫。
+
+6. **NutriRank 食品營養排行榜** ({BASE_URL}/teach/nutritionranking/)
    - 用途：即時查詢六大類食材之熱量、蛋白質、膳食纖維、各類維生素與礦物質排行榜，方便長輩與學員直觀比較食物營養密度。
 
-2. **Stress Food 壓力飲食教具** ({BASE_URL}/teach/Stress-Food/)
+7. **Stress Food 壓力飲食教具** ({BASE_URL}/teach/Stress-Food/)
    - 用途：解析壓力荷爾蒙（皮質醇）、自律神經與情緒性進食的生理機轉，提供上班族與高壓族群具體的抗發炎與抗皮質醇飲食對策。
 
-3. **情緒覺察卡 (Emotion Cards)** ({BASE_URL}/teach/emotion-cards/)
+8. **情緒覺察卡 (Emotion Cards)** ({BASE_URL}/teach/emotion-cards/)
    - 用途：專為銀髮族與長者設計之互動式心理營養字卡，結合情緒引導與身心健康覺察。
 
-4. **Nutrition Battle 營養大作戰** ({BASE_URL}/teach/nutrition-battle/)
+9. **Nutrition Battle 營養大作戰** ({BASE_URL}/teach/nutrition-battle/)
    - 用途：團體衛教課堂適用的互動問答與遊戲模組，透過對戰提升學員學習動機與營養知識記憶。
 
-5. **論文讀書小站 (Paper Radar)** ({BASE_URL}/teach/paper-radar/)
-   - 用途：提供臨床營養最新科研文獻導讀，解析 PubMed 與國際醫學期刊之實證研究。
+10. **論文讀書小站 (Paper Radar)** ({BASE_URL}/teach/paper-radar/)
+    - 用途：提供臨床營養最新科研文獻導讀，解析 PubMed 與國際醫學期刊之實證研究。
 
 ---
 

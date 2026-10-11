@@ -16,6 +16,11 @@ Kat Chang 張雁雲營養師是食品營養博士（高齡健康組）、美國�
 
 ## 互動衛教教具 (Interactive Tools)
 
+- 每日營養與熱量需求計算器 (TDEE/BMR)：https://594katchang-source.github.io/teach/daily-needs/
+- 食物代換速查表 (Food Exchange)：https://594katchang-source.github.io/teach/food-exchange/
+- 料理影片資料庫 (Cook Database)：https://594katchang-source.github.io/teach/cook-database/
+- 運動影片資料庫 (Exercise Database)：https://594katchang-source.github.io/teach/exercise-database/
+- 判斷比圈叉大考驗 (OX Challenge)：https://594katchang-source.github.io/teach/ox-challenge/
 - NutriRank 食品營養排行榜：https://594katchang-source.github.io/teach/nutritionranking/
 - Stress Food 壓力與飲食教具：https://594katchang-source.github.io/teach/Stress-Food/
 - 情緒覺察卡 (Emotion Cards)：https://594katchang-source.github.io/teach/emotion-cards/
