@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T16:15:41.328Z",
+  "generatedAt": "2026-10-11T16:21:25.483Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -92822,6 +92822,34 @@
         }
       ],
       "completedAt": "2026-10-11T16:14:55.063Z"
+    },
+    {
+      "id": "doi:10.1016/j.clnu.2026.106577:review",
+      "paperId": "doi:10.1016/j.clnu.2026.106577",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Proteins in artificial nutrition: toward an individualized and phase-specific prescription.",
+      "authors": "",
+      "journal": "Clinical Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.clnu.2026.106577",
+      "abstract": "Protein is a central component of artificial nutrition, yet its optimal dose and timing remain controversial. Provision of both insufficient and excessive protein is associated with adverse outcomes. Inadequate intake promotes negative nitrogen balance, muscle wasting, impaired tissue healing and repair, and increased risk of infection, whereas excessive protein may exceed metabolic capacity, causing azotemia, hepatic or renal strain, and reduced metabolic flexibility - particularly in patients with renal dysfunction. Emerging evidence indicates that the optimal protein dose is strongly influenced by patient-specific characteristics and evolves throughout the course of illness, supporting an individualized, phase-adapted strategy for protein provision rather than a fixed universal target. During early critical illness, catabolism predominates and high protein doses may not be effectively utilized. In contrast, during recovery and stabilization, higher protein targets appear beneficial for restoring lean body mass and functional capacity. This dynamic trajectory underscores the need to abandon universal recommendations in favor of personalized prescriptions. Although instruments such as nitrogen balance, body composition analysis, and indirect calorimetry can provide information about protein dosage, their routine use in clinical practice is limited and interpretation in acute illnesses remains difficult. Pragmatic, bedside strategies and the phenotyping of patients using biomarkers are, therefore, needed to tailor protein provision according to disease stage, organ function, and anabolic capacity. This opinion paper explores mechanistic insights, evidence from clinical trials, and guidelines on protein supplementation, explores biomarker-driven personalization, and highlights ongoing challenges and future research priorities in nutritional therapy.",
+      "legalFullTextUrl": "https://doi.org/10.1016/j.clnu.2026.106577",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41605121/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "design:guideline",
+        "guideline and consensus",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "precision nutrition",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "Schuetz et al. (2026) — 人工營養蛋白質的個別化與病程分期",
+      "content": "---\ntags:\n  - source/journal\n  - paper-radar\ncitekey: \"Schuetz2026IndividualizedProtein\"\ndoi: \"10.1016/j.clnu.2026.106577\"\npubmed: \"https://pubmed.ncbi.nlm.nih.gov/41605121/\"\njournal: \"Clinical Nutrition\"\nyear: 2026\nauthors: \"Philipp Schuetz; Frank Carrera-Gil; Carla Wunderle\"\nstudy_type: \"Opinion paper / narrative evidence review\"\npmid: \"41605121\"\nreview_depth: \"quick\"\nfull_text_pages: 4\nfull_text_verified: true\n---\n\n> [!info] 品質快照\n> **設計**：Opinion paper（非系統性證據整理）｜**n**：無原始受試者｜**評讀工具**：SANRA 6 項，8/12（作為敘述性綜論的整理工具）\n> **GRADE**：不適用（本文不是系統性回顧，沒有自行分級的單一主要 outcome）｜**Registration**：不適用\n> **一句話 verdict**：主張「依病程與個別器官狀況調整蛋白質」有實務價值，但文中沒有可重現的搜尋方法或證據確定性分級；把跨試驗的高蛋白亞組差異推成蛋白質本身是主要效果來源，證據不足。\n\n# Key Points\n\n## Summary\n\n> ✅ 已評讀完整使用者提供的 4 頁 PDF。DOI／題名與 PubMed PMID 41605121 一致；OCR 全文 23,505 字元、無替代字元，且已逐頁目視核對 PDF 四頁。文章為 2026 年 Clinical Nutrition Opinion Paper，非新試驗或系統性回顧。\n\n- **核心問題**：人工營養中的蛋白質量應否採固定目標？作者主張還要看疾病階段、器官功能、發炎、肌肉狀態及代謝耐受。\n- **一般醫療病房**：作者引用的 EFFORT 是個別化「能量＋蛋白質」營養支持整套介入；不能從其效果單獨判定蛋白質劑量的因果效果。\n- **重症照護**：文中指出很高蛋白量沒有帶來預期臨床好處。核對 EFFORT Protein 與 PRECISe 的 PubMed 原始摘要後，確實未見高劑量改善主要結果；PRECISe 的健康效用分數反而較差。\n- **限制**：本文沒有說明資料庫、搜尋日期、納入排除條件或系統性品質評讀；所以更適合當作議題導讀與假說，不宜單憑此文當成個別病人的處方依據。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽（繁體中文白話）\n> - **一句話**：蛋白質不足可能加劇肌肉流失，但重症早期把蛋白質一味拉得很高也不保證更好；作者主張依病人狀態和恢復階段調整。\n> - **為什麼做**：成人住院、慢性共病與重症病人常有營養風險，臨床卻還沒有一個對所有人、所有病程都適用的蛋白質數字。\n> - **主體**：文章先說明不足與過量各自可能造成的問題，再整理醫療病房、ICU 的試驗和統合分析。病房 EFFORT 同時調整能量和蛋白質，顯示整套個別化營養支持有益，卻無法拆出蛋白質單獨貢獻；重症試驗比較很高劑量與標準劑量，沒有顯示高劑量改善存活或功能。作者接著提出依 CRP／IL-6、腎功能、手握力／肌肉量與疾病階段做個別化，但這些指標尚不是可直接套用的劑量演算法。\n> - **所以呢**：本文提醒避免把某個劑量套給所有人，也提醒腎功能和病程要納入考量；不過作者最後列出的 ICU 與病房建議量仍屬作者對既有指南的摘要，不是本文試驗出的最適劑量。\n\n## Clinical Application\n\n- 閱讀方向以「先辨認照護場域和病程，再看蛋白質目標」為主。文章提出 ICU 成人前幾天逐步接近約 1.3 g/kg/day、一般醫療病房約 1.2–1.5 g/kg/day；這是作者引用現行指引的總結，不能直接當作每位患者的劑量指示（PDF p.3）。\n- EFFORT 的病房策略是個別化能量與蛋白質支持的組合；即使整套支持改善結果，也無法把改善歸因到蛋白質一項（PDF p.2）。\n- 對重症高劑量證據，應保留「更高未必更好」：EFFORT Protein 的高劑量組沒有改善活著出院；PRECISe 高蛋白組健康相關生活品質較差，沒有改善功能結果。急性腎損傷患者更需謹慎看待高劑量（PDF p.2；原始試驗摘要見下方來源）。\n- 文章提及營養師床邊調整、觀察功能進展、代謝耐受及患者偏好；但沒有驗證一個由生物標記自動算出劑量的規則（PDF p.3）。\n\n## Critical Appraisal\n\n### 研究類型與 SANRA 評讀\n\nPubMed 將本文列為 Review；原文標示 Opinion Paper，並說沒有原始資料（PDF p.1、p.3；[PubMed](https://pubmed.ncbi.nlm.nih.gov/41605121/)）。SANRA 原本評讀非系統性綜論的理由、目的、搜尋方法、引用、論證及重要結果呈現；此處逐項評分，不把總分當成臨床證據等級。\n\n| SANRA 項目 | 分數（0–2） | 全文依據 |\n|---|---:|---|\n| 說明主題重要性 | 2 | 交代疾病相關營養不良、肌少、住院不良結果及蛋白質劑量爭議（PDF p.1）。 |\n| 明確說明文章目的 | 2 | 摘要說會整理機轉、試驗、指引、生物標記、未解問題（PDF p.1）。 |\n| 說明文獻搜尋方法 | 0 | 四頁全文未報告資料庫、搜尋日期、檢索詞、選文或排除方式。 |\n| 重要主張有引用 | 2 | 主要試驗、統合分析、指引及生物標記主張均提供參考文獻（PDF pp.2–4）。 |\n| 科學論證與證據層級 | 1 | 有提醒觀察研究與介入結果不一致，也承認 EFFORT 是組合介入；但仍把跨試驗高蛋白亞組的較佳結果推成「蛋白質可能是最主要驅動因素」，超過該比較能證明的範圍。 |\n| 呈現相關終點資料 | 1 | 提供 EFFORT 的 NNT 及統合分析 OR／CI；兩個關鍵 ICU 試驗未在本文提供主要效果估計值、信賴區間或完整結果。 |\n| **合計** | **8/12** | 適合快速理解議題，選文與論證透明度不足以取代系統性證據評讀。 |\n\n### 主要推論與可核對數值\n\n| 證據段落 | 原文內容 | 評讀 |\n|---|---|---|\n| EFFORT 醫療病房試驗 | 文中稱納入逾 2,000 名有營養風險住院者；個別化能量與蛋白質目標 1.2–1.5 g/kg/day，嚴重慢性腎功能不全降至 0.8 g/kg/day；NNT 25（PDF p.2）。 | 是多面向營養支持對標準餐的比較，並非只隨機化蛋白質劑量。作者也承認不能由此試驗拆出蛋白質單獨效果。 |\n| 29 項 RCT 統合分析 | 文中報告整體營養支持死亡 OR 0.72（95% CI 0.57–0.91）；依試驗方案分組，高蛋白試驗 OR 0.57（0.44–0.74），低蛋白試驗 OR 0.93（0.73–1.19）；高蛋白定義混用 >20% 能量或 >1.0 g/kg/day（PDF p.2）。 | 這是不同試驗之間的策略分類，不是同一試驗將患者隨機分派成高、低蛋白後比較。不同介入組成和人群可能造成差異，不能直接證明蛋白質本身是主要效果來源。 |\n| EFFORT Protein | 文中比較 ≥2.2 與 ≤1.2 g/kg/day，稱無臨床好處，並提示 AKI／器官衰竭較重者可能較不利（PDF p.2）。原始 PubMed 摘要：1,329 隨機、1,301 納入分析；60 日存活出院 46.1% vs 50.2%，HR 0.91（95% CI 0.77–1.07），p=0.27；60 日死亡 RR 1.08（0.92–1.26），未顯示高劑量改善。 |\n| PRECISe | 文中比較 2.0 與 1.3 g/kg/day，稱沒有臨床好處，且健康相關生活品質較差（PDF p.2）。原始 PubMed 摘要：935 人隨機；180 日 EQ-5D-5L 健康效用的平均差 −0.05（95% CI −0.10 至 −0.01），p=0.031；死亡 HR 1.14（0.92–1.40），p=0.22；高蛋白組腸胃不耐較多，OR 1.76（1.06–2.92），p=0.030。 |\n\n### 推論漏洞、限制與利益揭露\n\n- **蛋白質歸因過強**：整體營養支持的效果來自同時含能量、蛋白質及照護管理的介入；高蛋白與低蛋白差異來自試驗層級亞組。作者由此說蛋白質可能是最主要效果來源，但這不是單獨隨機化蛋白質所證實。deterministic argument linter 對這項因果主張標示「association → causation」推論落差；試驗層級亞組無法隔離蛋白質效果則由人工全文評讀補充。\n- **搜尋與選文不可重現**：沒有交代文獻搜尋流程，無法判斷納入證據是否完整，或是否存在選擇性引用。\n- **證據確定性未評分**：不同人群、病程和介入模式混在同一篇短篇 Opinion Paper；沒有逐 outcome 的風險偏差或 GRADE 評定。這使具體劑量的確定性不能由本文單獨得出。\n- **指標仍屬待發展**：CRP、IL-6、手握力、影像肌肉量、eGFR、尿素／肌酸酐比等被提出作為 phenotyping 線索；本文沒有提供已驗證的門檻或能導出特定劑量的預測規則。作者也明言白蛋白、前白蛋白不應用來指導蛋白質治療（PDF pp.2–3）。\n- **COI**：作者申報資助或演講費與本稿無關；其中包括營養配方／營養產品相關公司。已揭露不等於已證明偏差，但閱讀蛋白補充效益主張時應保留此背景（PDF p.4；PubMed COI 註記）。\n\n## 白話重點總結\n\n**一句話**：這是一篇有用的蛋白質營養議題導讀，但它提出的個別化方向比它能證明的具體劑量更可靠。\n\n- **可相信的部分**：極高蛋白在重症患者未顯示普遍好處；病程與腎功能可能改變耐受和風險。\n- **需要降調的部分**：病房營養支持改善結果，不代表蛋白質單獨造成改善；高蛋白試驗亞組也不能直接選出所有患者的最佳劑量。\n- **還缺什麼**：清楚的系統性搜尋、逐試驗品質與證據確定性、在不同病程及腎功能族群中比較具體劑量的高品質研究。\n\n## 來源與全文核對\n\n- Schuetz P, Carrera-Gil F, Wunderle C. *Proteins in artificial nutrition: toward an individualized and phase-specific prescription.* Clinical Nutrition. 2026;58:106577. DOI: [10.1016/j.clnu.2026.106577](https://doi.org/10.1016/j.clnu.2026.106577); PMID: [41605121](https://pubmed.ncbi.nlm.nih.gov/41605121/).\n- 核心試驗原始摘要：[EFFORT Protein，PMID 36708732](https://pubmed.ncbi.nlm.nih.gov/36708732/)；[PRECISe，PMID 39153816](https://pubmed.ncbi.nlm.nih.gov/39153816/)。\n- 品質工具：[SANRA 原始方法文章，PMID 30962953](https://pubmed.ncbi.nlm.nih.gov/30962953/)。\n- 本機全文：使用者提供 PDF，4 頁；PDF SHA-256 191d431d0a862d790ffb38d1b972783c3cff042ef62759256b07554e09239ba4；OCR 文字 SHA-256 2bed0cb3a75cec05c805c7e9feb6af3bb585262910fab5e684fb3b18b85936c5。四頁已逐頁目視核對；PDF 原檔不隨公開筆記發布。",
+      "cards": [],
+      "completedAt": "2026-10-11T16:20:42.368Z"
     }
   ]
 }
