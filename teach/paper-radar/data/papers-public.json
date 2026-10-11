@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T21:16:35.948Z",
+  "generatedAt": "2026-10-11T21:22:29.870Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -94493,6 +94493,77 @@
       "content": "---\ntags:\n  - source/journal\ncitekey: \"\"\ndoi: \"10.1590/0001-3765202620260100\"\nzotero: \"\"\njournal: \"Anais da Academia Brasileira de Ciências (Annals of the Brazilian Academy of Sciences)\"\nyear: 2026\nauthors: \"Carla M. O. Aprelini, Alessandra da Silva, Rosane H. Griep, Maria de Jesus M. da Fonseca, Maria del Carmen B. Molina\"\nstudy_type: \"cross-sectional\"\npmid: \"42788561\"\nreview_depth: \"quick\"\n---\n\n> [!info] 品質快照\n> **設計**：ELSA-Brasil 第三波資料的橫斷面分析｜**分析樣本**：9,956 人｜**RoB**（Newcastle–Ottawa 觀察性研究領域判讀）：🔴 嚴重疑慮（選樣、同時測量與殘餘混雜）\n> **GRADE**：Very low（針對因果解讀；觀察性關聯由 low 起始，風險偏差降一級）｜**登錄**：橫斷面次級分析；本文未提供可供比對的預先分析計畫\n> **一句話 verdict**：大型多中心樣本顯示社會與生活型態因子和較高 DII 分組有關，但便利樣本、同一波測量、飲食自陳與分析選模限制，不能推成因果或個人飲食建議。\n\n# Key Points\n\n## Summary\n\n> ✅ 已逐頁閱讀 18 頁可讀全文；來源 PDF 的 DOI 與題名相符。\n\n- 研究用 ELSA-Brasil 2017–2019 第三波資料，分析社會經濟、生活型態及健康變項與 Dietary Inflammatory Index（DII）分組的關聯。DII 第 3 三分位代表本樣本中相對較高的飲食促發炎分數，不是發炎疾病診斷。\n- 最終模型中，休閒時間身體活動不足與第 3 分位的關聯最大（OR 約 3.0；95% CI 2.7–3.4）；男性、目前吸菸、較低收入、未滿 60 歲及肥胖也呈較高勝算。這是關聯性，不代表這些因子造成飲食分數改變。（PDF pp.1、7–11）\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽（繁體中文白話）\n> - **一句話**：在巴西一群公部門在職或退休人員中，較高的飲食發炎指數與低收入、身體活動較少、男性、吸菸及肥胖等特徵同時出現。\n> - **為什麼做**：作者想知道飲食的促發炎分數是否也和生活條件、習慣及健康狀態一起分布，讓飲食差異不只被看成個人選擇。\n> - **主體**：研究納入 9,956 人，平均 59.3 歲；以過去 12 個月 76 項 FFQ 計算 DII，但資料可用的 45 個組成參數只有 29 個。第 1 三分位（≤−2.68）為相對較低／抗發炎，第 3 三分位（≥−1.52）為相對較高／促發炎。相較第 1 三分位，休閒活動不活躍者進入第 3 分位的勝算約 3.0 倍；男性約 2.3 倍；目前吸菸者約 1.6 倍；低收入組約 1.4 倍；肥胖者約 1.2 倍。作者推測社會條件與健康行為可能共同塑造飲食，但研究沒有時間先後，這只能視為解釋假說，不能當成因果證明。（PDF pp.1、4–5、10–14）\n> - **所以呢**：營養照護可把經濟可近性、吸菸與活動環境視為理解飲食型態的背景；本文沒有測試任何諮詢或政策介入，不能據此估計介入效果，也不應把「中度飲酒」的反向關聯解讀為飲酒建議。\n\n## Clinical Application\n\n- **適用情境：**成人社區營養教育與飲食型態評估的背景資料；可提醒評估可負擔性及生活條件。\n- **不能直接用來：**個人疾病風險分層、發炎診斷、因果推論、營養介入處方或酒精攝取建議。DII 是研究分數，不能替代臨床評估。\n- **台灣外推：**受試者為巴西公立大學／研究機構的在職及退休公務人員；其收入、食物環境與族群結構和台灣臨床族群不同，外推有限。\n\n# Paper Details\n\n## Methods\n\n- **設計與來源：**橫斷面分析 ELSA-Brasil 多中心世代研究第三波（2017–2019），涵蓋五所公立大學與 Fiocruz。原波次 12,636 人；流程圖列出排除能量攝取低報／高報 2,190 人、曾接受減重手術 152 人，以及暴露或結果資料缺漏 338 人，最後分析 9,956 人。（PDF pp.2、11）\n- **族群：**ELSA-Brasil 原納入 35–74 歲公部門在職或退休人員。分析樣本女性 55.8%，平均年齡 59.3±8.7 歲。這不是巴西一般人口的代表性抽樣。（PDF pp.2、7）\n- **主要結果：**以經熱量調整的 E-DII 分數分成三分位；分數越高表示本研究定義下飲食發炎潛勢越高。量表以 76 項 FFQ 回憶前 12 個月攝取，排除補充品；45 個 DII 參數中有 29 個可用。第 1 分位 ≤−2.68；第 2 分位 −2.67 至 −1.53；第 3 分位 ≥−1.52。（PDF pp.4–6）\n- **解釋變項：**年齡、性別、人均月收入、自陳膚色／族群、吸菸、酒精攝取、休閒時間身體活動、睡眠、憂鬱症狀與 BMI 分類。身體活動以 IPAQ 休閒活動時間分成活躍（≥150 分鐘／週）、不足（10–149）及不活躍（<10）。（PDF pp.3–4）\n- **統計：**多項羅吉斯迴歸，以最低 DII 三分位為參照；階層模型依社會經濟、生活型態與健康變項逐步加入，文中稱原始分析 p<0.05 的變項才進入相應調整模型。另做性別分層敏感度分析。顯著水準 p<0.05。（PDF pp.5、7）\n\n## Critical Appraisal\n\n### Newcastle–Ottawa 觀察性研究領域判讀（橫斷面設計調整使用；非介入研究 ROBINS-I）\n\n| 領域 | 判定 | 理由 |\n|---|---|---|\n| 混雜 | 🔴 | 雖調整多項因素，但按原始 p 值選入模型可能漏掉重要混雜因子；同時測量也無法判定因素先後。（PDF pp.7、14） |\n| 選樣 | 🔴 | 僅公部門在職／退休志願者，無法代表一般人口；另排除大量能量攝取異常與部分缺值者。（PDF pp.2、11、14） |\n| 暴露與結果測量 | 🟡 | 標準化訪談、經驗證 FFQ 是優點；飲食仍仰賴回憶自陳，且 DII 只涵蓋 29/45 個參數，可能有分類錯誤。（PDF pp.3–5、14–15） |\n| 缺失資料 | 🟡 | 流程清楚，缺值 338 人採完整個案排除；未見缺失機制或插補敏感度分析。（PDF p.11） |\n| 選擇性報告／多重檢定 | 🟡 | 未見可比對的預註冊分析計畫；多項變項及分層檢定採 p<0.05，本文未說明對這些關聯分析作多重比較校正。 |\n| 整體偏差風險 | 🔴 | 關聯訊號可作假說與族群背景描述，因果解釋風險高。 |\n\n- **主要結果：**最終模型以第 1 三分位為參照：休閒時間不活躍者進入第 3 三分位 OR 3.0（95% CI 2.7–3.4）；活動不足 OR 1.9（1.6–2.1）；男性 OR 2.3（2.0–2.5）；目前吸菸 OR 1.6（1.4–2.0）；低收入 OR 1.4（1.2–1.6）；肥胖 OR 1.2（1.1–1.4）。論文摘要／結果敘述報告 40–59 歲組 OR 1.6（1.4–1.7），但方法與表格將年齡寫為 <60 或 ≤59 歲，且原始適用年齡由 35 歲起；年齡界線的報告不一致，不能確認 35–39 歲如何歸類。（PDF pp.1、3、7、10–11）\n- **其他發現：**DII 每增加 1 分，CRP 平均增加 0.253 mg/L（95% CI 0.16–0.34；p<0.001），作者引用補充表 SII；本次 PDF 未附補充表，因此無法獨立核對其模型細節。中度飲酒和較高 DII 分組呈反向關聯（約 20% 較低勝算），作者同時提醒酒精健康風險；不可轉成飲酒建議。（PDF pp.7、10、14）\n- **統計與因果：**主要樣本數大、信賴區間較窄；但沒有介入或時間順序，不能以此推導可改變因素的效果。BMI、活動、吸菸及飲食的關係可能雙向，且社會條件仍可能有殘餘混雜。性別分層結果屬探索性，女性憂鬱與較高 DII 的關聯不應當成已確認的效應修飾。（PDF pp.11、14）\n- **DII 限制：**FFQ 回憶 12 個月可能有高估／低估；DII 參數不完整、建構方式可能影響可比性。CRP 分析也沒有證明 DII 造成發炎。（PDF pp.4–5、13–15）\n- **GRADE：**以「社會／生活型態因素和 DII 分組關聯」作為觀察性證據問題，起始 low；因時間順序、選樣與殘餘混雜的嚴重風險下調一級為 **Very low**。確定性極低，因果估計不可信。計算依據：`00121-grade-input.json` 與 `00121-grade-result.json`。\n- **推論落差檢查：**`argdown_lint.py` 對作者以「影響／influence」表述因果性結論標記 `association_to_causation`；觀察性關聯支持共現，不足以證明影響方向。結果：`00121-argdown-result.json`。\n- **Funding／COI：**提供的 18 頁本文未找到資助或利益衝突聲明；標記為「本文未報告」，不推定為無。\n- **快速模式範圍：**依 Worker-batch quick tier，作者背景、期刊指標、引用影響與逐篇參考文獻驗證未執行；不把未查寫成沒有。\n\n## Key Findings\n\n1. **活動與高 DII 關聯最大：**不活躍與第 3 分位的勝算比約 3.0；不足活動約 1.9。這是同時測量的關聯，不能解讀成增加活動就能使某人 DII 降低。（PDF pp.1、10–11）\n2. **社會經濟關聯：**低收入組的高 DII 勝算約 1.4 倍；提示飲食型態可能和可近性條件一起評估，但文中未測量食物可得性或政策介入效果。（PDF pp.1、9–10）\n3. **發炎標記：**每增加 1 點 DII，CRP 高約 0.253 mg/L；僅為補充分析的關聯，補充表未隨本文提供。（PDF p.7）\n\n# Resource\n\n## Vault Integration\n\n- 本機可讀筆記快照中未找到相同 DOI 的既有筆記；本篇獨立新增 review。未連結 Zotero citekey。\n\n## Source\n\n- [DOI](https://doi.org/10.1590/0001-3765202620260100)\n- [PubMed](https://pubmed.ncbi.nlm.nih.gov/42788561/)\n- 全文來源：使用者提供的 DOI／題名相符 PDF；18 頁，文字可讀，本文含引言、方法、結果、討論及結論。首頁、表格頁 9、流程圖頁 11、結果圖頁 12、末頁 18 已渲染檢視。",
       "cards": [],
       "completedAt": "2026-10-11T21:15:24.708Z"
+    },
+    {
+      "id": "doi:10.1590/0001-3765202620260100:digest",
+      "paperId": "doi:10.1590/0001-3765202620260100",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Socioeconomic factores and unhealthy behaviors associated with the Dietary Inflammatory Index: ELSA-Brasil study.",
+      "authors": "Aprelini C, Silva A, Griep R, Fonseca M, Molina M",
+      "journal": "Obesity and metabolism (PubMed)",
+      "year": "2026",
+      "doi": "10.1590/0001-3765202620260100",
+      "abstract": "Dietary components influence inflammation, and eating behaviors are shaped by living conditions, requiring interpretation within broader social and health contexts. The aim of this study is to identify the relationship between socioeconomic conditions and lifestyle habits and the Dietary Inflammatory Index (DII) in a population of Brazilian workers. Cross-sectional study with data from the ELSA-Brasil (2017-2019). The DII was categorized into tertiles. Multinomial Logistic Regression were used to examine the relationship between DII, and the variables of interest. Adjusted Odd Ratio (OR) estimates and 95% confidence intervals (95% CI) were obtained. The sample consisted of 9,956 participants, with a mean age of 59.3 (± 8.7) years. Sedentary individuals (OR 3.0; 95% CI 2.7-3.4), men (OR 2.3; 95% CI 2.0-2.5), with intermediate levels of physical activity (OR 1.9; 95% CI 1.6-2.1), smokers (OR 1.6; 95% CI 1.4-2.0), with age between 40 and 59 years (OR 1.6; 95% CI 1.4-1.7), individuals with lower average per capita income (OR 1.4; 95% CI 1.2-1.6), and with obesity (OR 1.2; 95% CI 1.1-1.4) were greater chance to have a more inflammatory diet, while moderate drinkers had 20% less chance. The findings demonstrate the influence of social determinants and unhealthy behaviors on the pro-inflammatory dietary pattern.",
+      "legalFullTextUrl": "https://doi.org/10.1590/0001-3765202620260100",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42788561/",
+      "category": "recommended",
+      "tags": [
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "社會條件與生活型態和DII的關聯全文內容整理",
+      "content": "---\ntags:\n  - research/digest\n  - nutrition-epidemiology\ncitekey: \"Aprelini2026\"\ndoi: \"10.1590/0001-3765202620260100\"\naliases:\n  - \"Socioeconomic factores and unhealthy behaviors associated with the Dietary Inflammatory Index: ELSA-Brasil study.\"\njournal: \"Anais da Academia Brasileira de Ciências\"\nyear: 2026\nauthors: \"Carla M. O. Aprelini, Alessandra da Silva, Rosane H. Griep, Maria de Jesus M. da Fonseca, Maria del Carmen B. Molina\"\nstudy_type: \"Cross-sectional observational study\"\n---\n\n> [!summary] 30 秒層：同一群巴西公務人員中，較高飲食發炎指數與收入、活動、吸菸等特徵相關\n> - ELSA-Brasil 第三波 9,956 名成人的橫斷面分析；平均年齡 59.3±8.7 歲。（PDF pp.1、7）\n> - DII 用 76 項 FFQ 計算，但 45 個飲食參數中只有 29 個納入；第 3 三分位為相對較高的促發炎分數。（PDF pp.4–6）\n> - 最終模型中，休閒時間不活躍者進入最高 DII 三分位的勝算約 3.0 倍（95% CI 2.7–3.4）；男性約 2.3 倍。（PDF pp.1、10–11）\n> - 結果呈關聯，不能判定因果方向；樣本只含巴西公部門在職／退休人員。（PDF pp.2、14）\n> 品質評讀 → [[Aprelini2026 - 社會經濟與生活型態和飲食發炎指數的關聯品質評讀]]\n\n## 5 分鐘層`r`n**要點**：先掌握研究設計、DII 分組、主要關聯與因果邊界，再讀各節數值、圖表與名詞。`r`n`r`n## 研究問題 / 背景\n**要點**：作者想辨認哪些社會條件與生活習慣，和研究參與者飲食的促發炎潛勢較高同時出現。\n\n- Dietary Inflammatory Index（DII）把飲食中不同食物與營養成分對發炎標記的文獻評分整合為一個分數；作者使用的全球參照資料涵蓋 45 個參數。（PDF pp.1、4–5）\n- 研究問題：巴西成人的社會經濟、生活型態及健康指標，是否與 DII 高低相關？研究不是營養諮詢試驗，也沒有測試改變這些因素能否改變 DII。（PDF pp.2、5）\n\n## 方法\n**要點**：研究以同一波次的問卷、飲食與健康資料進行橫斷面分析，使用多項羅吉斯迴歸比較 DII 三分位。\n\n- ELSA-Brasil 第三波在 2017–2019 年進行；原有 12,636 人，排除能量攝取低報／高報 2,190 人、減重手術 152 人及主要變項缺值 338 人，分析樣本為 9,956 人。（PDF pp.2、11）\n- 原世代收案對象為 35–74 歲公部門在職或退休人員，來自五所公立大學與 Fiocruz。樣本女性占 55.8%，平均年齡 59.3 歲。（PDF pp.2、7）\n- 飲食以 ELSA-Brasil 76 項半定量 FFQ 回憶過去 12 個月；不計補充品。可用的 29 項飲食參數經總熱量殘差法調整後計算 E-DII。（PDF pp.4–5）\n- DII 分組：第 1 三分位 ≤−2.68（相對較低／抗發炎）；第 2 為 −2.67 至 −1.53；第 3 ≥−1.52（相對較高／促發炎）。本樣本分數範圍 −5.2 至 2.2，平均 −2.1±1.2。（PDF pp.6–7）\n- 社會變項包含性別、年齡、人均月收入與自陳膚色／族群；生活變項包含吸菸、酒精、休閒時間活動及睡眠；健康變項包含 BMI 與憂鬱症狀。（PDF pp.3–4）\n- 最低 DII 三分位作參照。階層調整模型逐步納入社會經濟、生活型態與健康因素；作者稱僅納入原始分析 p<0.05 的變項。另做依性別分層的敏感度分析。（PDF pp.5、7）\n\n## 主要發現\n**要點**：身體活動不足、男性、吸菸與低收入，和位於最高 DII 組有較高勝算；這些是調整後的關聯值。\n\n| 因子（比較組） | 高 DII 第 3 分位相對第 1 分位 | 讀法 |\n|---|---:|---|\n| 休閒時間不活躍（<10 分鐘／週，對照 ≥150 分鐘／週） | OR 3.0（95% CI 2.7–3.4） | 勝算較高，不等於因果或絕對風險增加 3 倍 |\n| 休閒時間活動不足（10–149 分鐘／週） | OR 1.9（1.6–2.1） | 勝算較高 |\n| 男性（對照女性） | OR 2.3（2.0–2.5） | 勝算較高 |\n| 目前吸菸（對照從未吸菸） | OR 1.6（1.4–2.0） | 勝算較高 |\n| 較低收入（摘要所列低收入組） | OR 1.4（1.2–1.6） | 勝算較高 |\n| 肥胖（對照正常／過輕） | OR 1.2（1.1–1.4） | 關聯幅度較小 |\n| 作者摘要年齡組 | OR 1.6（1.4–1.7） | 摘要稱 40–59 歲；方法／表格用 <60 或 ≤59 歲，界線不一致 |\n\n（來源：論文摘要與結果敘述，PDF pp.1、10–11。表 III 的 Model 2 數值與最終 Model 3 不完全相同；上表採摘要／最終模型敘述的近似值。）\n\n- **中度飲酒：**表 III Model 2 中，對照不飲酒者進入第 3 分位 OR 0.82（95% CI 0.73–0.92）；作者也稱最終模型約低 20%。這不是飲酒介入結果；作者提醒應依健康風險審慎解讀。（PDF pp.9–10、14）\n- **自陳族群：**表 III Model 2 的 Black／Brown／Yellow／Indigenous 合併組對照 White 的 OR 為 0.84（0.76–0.94）；作者指出性別分層後此關聯只在女性仍顯著。合併分組與樣本特性限制文化解釋。（PDF pp.9、11、14）\n- **CRP：**結果敘述引用補充表 SII，DII 每增加 1 分，CRP 平均增加 0.253 mg/L（95% CI 0.16–0.34；p<0.001）。此次所附本文 PDF 沒有補充表 SII，故只能記錄作者在正文中的報告，不能核對補充分析細節。（PDF p.7）\n- 睡眠、憂鬱及過重等變項在調整後沒有一致保留顯著關聯；不同模型與性別分層結果需分開讀，不應只挑顯著子群。（PDF pp.9–11）\n\n## 重要圖表重述\n**要點**：流程圖交代樣本從 12,636 人減至 9,956 人；表 III 和 Figure 2 顯示主要關聯集中在活動不足與性別。\n\n- **Figure 1（PDF p.11）：**流程依序排除能量攝取低報／高報 2,190 人、曾接受減重手術 152 人與缺少變項資料 338 人，留下 9,956 人。缺失與排除不是隨機保證，仍可能造成選樣差異。\n- **Table I（PDF pp.5–6）：**最高 DII 組有較多男性、未滿 60 歲、低收入、不活躍、短睡眠、肥胖及目前吸菸者；這些是樣本內比例比較，未調整前不可當成獨立關聯。\n- **Table III（PDF pp.9–10）：**Model 1 調整社會經濟變項；Model 2 加入吸菸、酒精、活動及睡眠。表格呈現低活動與高 DII 關聯較強，收入與吸菸亦保留關聯。\n- **Figure 2（PDF p.12）：**最終模型的森林圖以 OR=1 為無差異線；不活躍組的點估計約在 3，活動不足約在 1.9，其餘多數相關項目靠近 1–2。圖示未在各點旁標精確數值，應以正文／表格的相應模型數字為準。\n- **Figure S1／Table SII：**本文提到性別分層圖及 CRP 補充表，但附件未包含補充材料本身。\n\n## 臨床意義 / 怎麼用\n**要點**：把飲食型態放回生活條件中理解有助於提問，但本文沒有證明任何特定諮詢方案或政策可以改善 DII。\n\n- 可作為社區營養訪談的背景提示：了解食物預算、可近性、吸菸及休閒活動環境，避免把飲食差異簡化成個人意志。\n- 不以 DII 三分位取代個人飲食評估，也不按性別、收入或族群推斷個人飲食品質。\n- 不把中度飲酒與低 DII 的觀察性關聯轉成建議；本文未隨機分派飲酒，且仍可能有生活型態混雜。（PDF pp.14–15）\n- 巴西公部門樣本的結果不能直接估計台灣病人或一般社區人口的分布與介入效果。\n\n## 與既有認知的對照\n**要點**：既有筆記多談抗發炎飲食型態與疾病或營養策略；本篇補充的是社會條件和生活型態如何與 DII 同時分布，沒有更新介入效果證據。\n\n- 可對照 [[低度慢性發炎與動脈粥樣硬化心血管風險的營養策略全文內容整理]]：該筆記整理飲食策略與心血管發炎議題；本篇是觀察性社會／生活型態關聯，不能拿來證明任何抗發炎飲食介入有效。\n- 可對照 [[肌少症照護中的抗發炎飲食管理經驗與支持需求之全文內容整理]]：該研究討論照護中的支持需求；本篇增加族群層級的收入與活動背景，但族群、設計與問題不同。\n\n## 概念 / 名詞整理\n**要點**：DII 是由文獻建立的飲食分數；三分位是研究內排序，OR 表示相對勝算，兩者都不是個人診斷。\n\n- **DII／E-DII：**依多種飲食成分與發炎標記關係加總的分數；正值較促發炎、負值較抗發炎。本文採能量調整的 E-DII，且只用 29/45 項參數。（PDF pp.4–5）\n- **三分位：**依這份樣本的分數排序切成三組；最高組不是跨國或臨床通用的診斷切點。（PDF pp.5–6）\n- **OR（odds ratio）：**高 DII 組相對最低組的勝算比；OR=3 不等於風險或機率為 3 倍。（PDF pp.5、8–10）\n- **FFQ：**食物頻率問卷，回憶較長時間的平常攝取；可用於大型研究，但受記憶與低報／高報影響。（PDF pp.4、14）\n- **CRP：**發炎相關生物標記。與 DII 同時測量的相關不證明飲食分數造成 CRP 變化。（PDF pp.7、13）\n\n## 自我測驗\n**要點**：先用設計、參照組與測量限制解釋結果，再判斷是否能落到臨床建議。\n\n> [!question]- Q1：為什麼這篇研究不能證明低活動造成較高 DII？\n> 因為飲食、活動和其他因子在同一波次測量，沒有先後順序；也可能有食物可近性、健康狀況等未測因素同時影響兩者。OR 3.0 是調整後關聯，不是介入效果。（PDF pp.5、7、14）\n\n> [!question]- Q2：OR 3.0 在本文代表什麼，最容易被誤讀成什麼？\n> 代表不活躍組進入最高 DII 三分位、相較最低三分位的勝算約為活躍參照組的三倍；不代表個人一定會有促發炎飲食，也不代表絕對風險增加三倍。（PDF pp.1、5、10）\n\n> [!question]- Q3：研究最終分析樣本如何從 12,636 人變成 9,956 人？\n> 先排除能量攝取低報／高報 2,190 人，再排除減重手術 152 人及變項缺值 338 人。這些排除會影響樣本代表性，不能只看最後的大樣本數。（PDF p.11）\n\n> [!question]- Q4：為什麼 29/45 個 DII 參數和 FFQ 自陳會影響解讀？\n> 參數不完整可能改變分數與跨研究可比性；FFQ 仰賴長期回憶，會有測量誤差。分組可方便比較，卻不會消除這些限制。（PDF pp.4–5、14–15）\n\n> [!question]- Q5：中度飲酒與較低 DII 勝算的結果能否變成飲酒建議？\n> 不能。這是非隨機、橫斷面關聯，可能受其他生活型態因素混雜；作者本身也提醒酒精風險。研究沒有測試開始飲酒的效益。（PDF pp.9、14）\n\n## Reference\n**要點**：以下是本文與作者用來建立研究背景的方法來源；此快速整理沒有逐篇查核文內引文。\n\n- Aprelini CMO, da Silva A, Griep RH, da Fonseca MJM, Molina MCB. 2026. Socioeconomic factores and unhealthy behaviors associated with the Dietary Inflammatory Index: ELSA-Brasil study. *Anais da Academia Brasileira de Ciências*. 98(3):e20260100. DOI: [10.1590/0001-3765202620260100](https://doi.org/10.1590/0001-3765202620260100).\n- DII 方法來源（依本文引用）：Shivappa N, Steck SE, Hurley TG, Hussey JR, Hébert JR. 2014. Designing and developing a literature-derived, population-based dietary inflammatory index. *Public Health Nutrition*. 17(8):1689–1696. DOI: 10.1017/S1368980013002115.\n- ELSA-Brasil 世代設計（依本文引用）：Aquino EML et al. 2012. Brazilian Longitudinal Study of Adult Health (ELSA-Brasil): Objectives and Design. *American Journal of Epidemiology*. 175(4):315–324. DOI: 10.1093/aje/kwr294.",
+      "cards": [
+        {
+          "title": "DII 關聯與因果",
+          "question": "為什麼不活躍者 OR 約 3.0 不能解讀為增加活動一定會降低個人的 DII？",
+          "answer": "研究在同一波次測量飲食與活動，沒有時間先後；也可能有未測量的社會條件或健康因素造成混雜。OR 3.0 是最高對最低 DII 分位的勝算比，不是介入效應或個人絕對風險。",
+          "tags": [
+            "DII",
+            "因果推論",
+            "營養流行病學"
+          ]
+        },
+        {
+          "title": "樣本排除與代表性",
+          "question": "9,956 人的最終樣本是如何形成？這對讀結果有什麼提醒？",
+          "answer": "由 12,636 人開始，排除低報／高報能量攝取 2,190 人、減重手術 152 人、主要資料缺值 338 人。樣本大不等於代表一般巴西人口；完整個案與公務員來源都可能造成選樣差異。",
+          "tags": [
+            "研究設計",
+            "選樣偏差"
+          ]
+        },
+        {
+          "title": "DII 的測量限制",
+          "question": "為何只用 29/45 項 DII 參數與長期 FFQ 回憶，會限制分數解讀？",
+          "answer": "參數不完整可能影響分數建構與跨研究可比性；FFQ 仰賴回憶過去 12 個月飲食，容易有低報或高報。三分位是本研究樣本的相對排序，不是臨床診斷切點。",
+          "tags": [
+            "DII",
+            "飲食評估"
+          ]
+        },
+        {
+          "title": "解讀中度飲酒關聯",
+          "question": "本文中度飲酒者較低 DII 勝算，為何不能據此建議飲酒？",
+          "answer": "飲酒不是隨機分派，研究也在同一時間點測量，可能受飲食與其他生活型態因素混雜。這個關聯不估計開始飲酒的效果；作者亦提醒酒精健康風險。",
+          "tags": [
+            "觀察性研究",
+            "酒精"
+          ]
+        },
+        {
+          "title": "DII 分位數與 OR",
+          "question": "本文的 OR 比較哪兩組？最高 DII 三分位代表什麼、不代表什麼？",
+          "answer": "OR 比較第 2 或第 3 DII 三分位相對第 1 三分位的勝算；第 3 組是本樣本中相對高的促發炎分數。它不是疾病診斷、跨研究通用門檻，也不表示因果。",
+          "tags": [
+            "統計解讀",
+            "DII"
+          ]
+        }
+      ],
+      "completedAt": "2026-10-11T21:21:22.781Z"
     }
   ]
 }
