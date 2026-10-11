@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>活動影片資料庫 ｜ 全齡藝術創作・手工教案・團康破冰・體智活動速查 ｜ Kat Chang 凱特營養師</title>
   <meta name="description" content="收錄 239 筆國內外精選活動教學影片與教案靈感！涵蓋藝術創作、手工教案（紙藝、繪畫、布藝、編織、黏土、自然素材、節慶、回收再利用）與團康活動（破冰認識、猜題表演、反應挑戰、音樂舞動、合作挑戰）。100% 內建材料步驟與全齡退階/進階調整，支援親子兒童、校園青少年、企業團建、成人紓壓與社區樂齡據點帶領，並提供一鍵複製 AI 延伸提問與單張教案列印！">
-  <meta name="keywords" content="活動影片資料庫, 藝術創作教案, 手工藝教案資料庫, 團康活動遊戲, 派對遊戲資料庫, 破冰遊戲, 反應挑戰, 合作挑戰, 全齡手作DIY, 親子美勞教學, 企業團建遊戲, 職能治療活動設計, 社區據點日照活動, 認知雙重任務, 失智友善手作, 退階進階調整, Kat Chang, 張雁雲營養師">
+  <meta name="keywords" content="活動影片資料庫, 藝術創作教案, 手工教案, 團康活動遊戲, 派對團康遊戲, 破冰遊戲, 反應挑戰, 合作挑戰, 全齡手作DIY, 親子美勞教學, 企業團建遊戲, 職能治療活動設計, 社區據點日照活動, 認知雙重任務, 失智友善手作, 退階進階調整, Kat Chang, 張雁雲營養師">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
   <link rel="canonical" href="https://594katchang-source.github.io/teach/activity-database/">
   <!-- Open Graph -->
@@ -1815,7 +1815,7 @@
             (item.audiences || []).join(' '),
             (item.mat_groups || []).join(' '),
             (item.region || []).join(' '),
-            an['原站分類與屬性'], an['核心訓練目的'], an['準備材料與道具'],
+            an['教案規格與屬性'], an['核心訓練目的'], an['準備材料與道具'],
             an['帶領步驟'], an['初學者退階'], an['進階變化']
           ].filter(Boolean).join(' ').toLowerCase();
 
@@ -1907,7 +1907,7 @@
       }).join('');
     }
 
-    // 打開放大彈窗 (Modal - 完整對齊原網站教案資訊/查看玩法/材料步驟 + 全齡退階/進階調整)
+    // 打開放大彈窗 (Modal - 完整教案資訊、玩法規則、材料步驟 + 全齡退階/進階調整)
     function openModal(uid) {
       const item = allActivities.find(r => r.uid === uid || r.id === uid);
       if (!item) return;
@@ -1924,10 +1924,10 @@
         `;
       }
 
-      // 底部補充更多示範搜尋或原頻道首頁連結
+      // 底部補充更多示範搜尋或頻道首頁連結
       let moreSearchHintHtml = '';
       if (item.yt_search_url && item.yt_search_url !== item.url) {
-        const linkLabel = item.source_db === '日照活動靈感庫'
+        const linkLabel = (item.uid || '').startsWith('act_dc_')
           ? '前往該 YouTube 頻道首頁瀏覽全部影片清單 ↗'
           : '在 YouTube 搜尋更多此主題的教學示範影片 ↗';
         moreSearchHintHtml = `
@@ -1958,11 +1958,11 @@
           </div>
         </div>
 
-        <!-- 2. 中間結構化明細：原站教案資訊、準備材料、帶領步驟、引導口訣 -->
+        <!-- 2. 中間結構化明細：教案規格、準備材料、帶領步驟、引導口訣 -->
         <h3 class="modal-section-title">📋 活動拆解、材料與帶領步驟（現場操作指引）</h3>
         <div class="analysis-detail-grid">
           <div class="analysis-row-k">📌 教案規格與屬性</div>
-          <div class="analysis-row-v">${an['原站分類與屬性'] || item.cat}</div>
+          <div class="analysis-row-v">${an['教案規格與屬性'] || item.cat}</div>
           <div class="analysis-row-k">🎨 活動類型／媒材</div>
           <div class="analysis-row-v">${an['活動類型与媒材'] || (item.subcats || []).join('、')}</div>
           <div class="analysis-row-k">🎒 準備材料與道具</div>
