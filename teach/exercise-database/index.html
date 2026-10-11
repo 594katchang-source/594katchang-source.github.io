@@ -1213,9 +1213,6 @@
         </div>
       </div>
 
-      <!-- 本週主打運動橫幅 (自動對應當週第 N 週教案) -->
-      <div class="weekly-spotlight" id="weeklySpotlight" style="display:none;"></div>
-
       <!-- 頂部篩選控制面板 -->
       <div class="panel">
         <div class="searchrow">
@@ -1416,17 +1413,10 @@
         查無符合條件的運動影片或頻道，請嘗試其他關鍵字或點擊「清除篩選」。
       </div>
 
-      <!-- 底部統計與嚴格版權文字 -->
+      <!-- 底部安全跟練提醒（依指示僅保留此句） -->
       <div class="db-footer-meta" id="dbFooterMeta">
-        共載入 549 部運動影片與 122 個精選頻道 ｜ 影片版權屬各原始 YouTube 頻道所有，本庫僅供全齡健康促進與教學索引使用
+        🙏 進行任何體能活動前，請衡量自身關節與心血管狀態，善用每部影片內建之「初學退階」與「進階變化」安全跟練。
       </div>
-
-      <!-- 資料來源與原作者致謝 -->
-      <aside class="db-credits-box">
-        <h3>🙏 資料庫策展來源與原創頻道致謝</h3>
-        <p style="margin:0 0 6px;">本「運動影片資料庫」彙整並致敬五大公開運動教案資源：<strong>52週樂齡運動教案庫</strong>、<strong>核心訓練影片分類資料庫</strong>、<strong>老歌律動影片資料庫</strong>、<strong>舞蹈有氧頻道與影片查詢資料庫</strong>及<strong>身體節奏輔療資料庫（Body Percussion）</strong>。</p>
-        <p style="margin:0;">特別感謝 <a href="https://www.youtube.com/channel/UC-_VYcrB2WUzrP3Lx2eXP8w" target="_blank" rel="noopener">「長照2.0銀髮族健康促進」（黃鈺媄指導老師）</a>、衛生福利部國民健康署、各縣市衛生局與體育局樂齡巡迴運動指導團、各大醫療院所復健科/物理治療師（如北木健身 Kopi、起辰聯合治療所等）、日本ごぼう先生、スギリハCH 及全球無償分享優質跟練影片之創作者。進行任何體能活動前，請衡量自身關節與心血管狀態，善用每部影片內建之「初學退階」與「進階變化」安全跟練。</p>
-      </aside>
     </div>
   </main>
 
@@ -1497,7 +1487,6 @@
     const activeFilterSummary = document.getElementById('activeFilterSummary');
     const sortSelect = document.getElementById('sortSelect');
     const resultCounter = document.getElementById('resultCounter');
-    const weeklySpotlight = document.getElementById('weeklySpotlight');
     const tplTextarea = document.getElementById('tpl');
     const resetTplBtn = document.getElementById('resetTplBtn');
     const expFavBtn = document.getElementById('expFavBtn');
@@ -1505,7 +1494,6 @@
     const printListBtn = document.getElementById('printListBtn');
     const grid = document.getElementById('recipesGrid');
     const noMatch = document.getElementById('noMatch');
-    const footerMeta = document.getElementById('dbFooterMeta');
     const modalOverlay = document.getElementById('modalOverlay');
     const modalContent = document.getElementById('modalContent');
     const modalCloseBtn = document.getElementById('modalCloseBtn');
@@ -1531,49 +1519,18 @@
     }
     updateFavCount();
 
-    // 計算當週週次 (1~52)
-    function getCurrentWeekNumber() {
-      const now = new Date();
-      const start = new Date(now.getFullYear(), 0, 1);
-      const w = Math.ceil((((now - start) / 86400000) + start.getDay() + 1) / 7);
-      return Math.min(Math.max(w, 1), 52);
-    }
-
     // 載入運動資料庫 JSON
     fetch('exercises_full.json')
       .then(r => r.json())
       .then(data => {
         allVideos = data.videos || [];
         allChannels = data.channels || [];
-        renderWeeklySpotlight();
         renderList();
       })
       .catch(err => {
         console.error('Failed to load exercises_full.json', err);
         resultCounter.textContent = '載入資料失敗，請重新整理頁面。';
       });
-
-    function renderWeeklySpotlight() {
-      const wk = getCurrentWeekNumber();
-      const item = allVideos.find(v => v.cat === '樂齡教案' && v.week === wk) || allVideos[0];
-      if (!item) return;
-      const thumbUrl = `https://i.ytimg.com/vi/${item.id}/hqdefault.jpg`;
-      weeklySpotlight.style.display = 'flex';
-      weeklySpotlight.innerHTML = `
-        <div class="weekly-spotlight-info">
-          <img class="weekly-thumb" src="${thumbUrl}" alt="${item.title}" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/${item.id}/mqdefault.jpg';">
-          <div>
-            <span class="weekly-badge">🌟 本週主打運動・第 ${item.week || wk} 週推薦</span>
-            <h2 class="weekly-title">${item.title}</h2>
-            <p class="weekly-desc">📺 ${item.ch} ｜ ⏱️ ${item.duration} ｜ 🪑 姿勢：${item.posture.join('/')} ｜ 🎒 道具：${item.eq.join('、')}</p>
-          </div>
-        </div>
-        <div style="display:flex; gap:8px; align-items:center;">
-          <button class="weekly-btn" onclick="openModal('${item.uid}')">📖 查看動作細節與退階/進階</button>
-          <a class="weekly-btn" style="background:#0D9488; text-decoration:none;" href="${item.url}" target="_blank" rel="noopener">▶ 直接播放</a>
-        </div>
-      `;
-    }
 
     // 篩選展開/收起 - 預設收合
     let isMoreOpen = false;
@@ -1862,14 +1819,6 @@
     function renderList() {
       updateActiveSummary();
 
-      // 只在「全部」或「樂齡教案」且無搜尋與篩選時顯示本週主打橫幅
-      const hasSubFilter = currentPos !== 'all' || currentEq !== 'all' || currentType !== 'all' || currentDur !== 'all' || currentFeat !== 'all' || currentReg !== 'all' || isFavFilterOnly || qInput.value.trim() !== '' || isChannelMode;
-      if ((currentCat === 'all' || currentCat === '樂齡教案') && !hasSubFilter) {
-        weeklySpotlight.style.display = 'flex';
-      } else {
-        weeklySpotlight.style.display = 'none';
-      }
-
       if (isChannelMode) {
         renderChannelList();
         return;
@@ -1877,7 +1826,6 @@
 
       const filtered = getFilteredVideos();
       resultCounter.textContent = `顯示 ${filtered.length} / ${allVideos.length} 部運動影片（點擊任一卡片可查看 12 項動作細節與退階／進階調整）`;
-      footerMeta.textContent = `目前顯示 ${filtered.length} 部影片（全庫共 ${allVideos.length} 部影片 ＋ ${allChannels.length} 個推薦頻道） ｜ 影片版權屬各原始頻道所有`;
 
       if (filtered.length === 0) {
         grid.innerHTML = '';
