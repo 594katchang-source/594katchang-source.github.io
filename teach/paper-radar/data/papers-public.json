@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T16:21:25.483Z",
+  "generatedAt": "2026-10-11T16:28:40.197Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -92850,6 +92850,75 @@
       "content": "---\ntags:\n  - source/journal\n  - paper-radar\ncitekey: \"Schuetz2026IndividualizedProtein\"\ndoi: \"10.1016/j.clnu.2026.106577\"\npubmed: \"https://pubmed.ncbi.nlm.nih.gov/41605121/\"\njournal: \"Clinical Nutrition\"\nyear: 2026\nauthors: \"Philipp Schuetz; Frank Carrera-Gil; Carla Wunderle\"\nstudy_type: \"Opinion paper / narrative evidence review\"\npmid: \"41605121\"\nreview_depth: \"quick\"\nfull_text_pages: 4\nfull_text_verified: true\n---\n\n> [!info] 品質快照\n> **設計**：Opinion paper（非系統性證據整理）｜**n**：無原始受試者｜**評讀工具**：SANRA 6 項，8/12（作為敘述性綜論的整理工具）\n> **GRADE**：不適用（本文不是系統性回顧，沒有自行分級的單一主要 outcome）｜**Registration**：不適用\n> **一句話 verdict**：主張「依病程與個別器官狀況調整蛋白質」有實務價值，但文中沒有可重現的搜尋方法或證據確定性分級；把跨試驗的高蛋白亞組差異推成蛋白質本身是主要效果來源，證據不足。\n\n# Key Points\n\n## Summary\n\n> ✅ 已評讀完整使用者提供的 4 頁 PDF。DOI／題名與 PubMed PMID 41605121 一致；OCR 全文 23,505 字元、無替代字元，且已逐頁目視核對 PDF 四頁。文章為 2026 年 Clinical Nutrition Opinion Paper，非新試驗或系統性回顧。\n\n- **核心問題**：人工營養中的蛋白質量應否採固定目標？作者主張還要看疾病階段、器官功能、發炎、肌肉狀態及代謝耐受。\n- **一般醫療病房**：作者引用的 EFFORT 是個別化「能量＋蛋白質」營養支持整套介入；不能從其效果單獨判定蛋白質劑量的因果效果。\n- **重症照護**：文中指出很高蛋白量沒有帶來預期臨床好處。核對 EFFORT Protein 與 PRECISe 的 PubMed 原始摘要後，確實未見高劑量改善主要結果；PRECISe 的健康效用分數反而較差。\n- **限制**：本文沒有說明資料庫、搜尋日期、納入排除條件或系統性品質評讀；所以更適合當作議題導讀與假說，不宜單憑此文當成個別病人的處方依據。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽（繁體中文白話）\n> - **一句話**：蛋白質不足可能加劇肌肉流失，但重症早期把蛋白質一味拉得很高也不保證更好；作者主張依病人狀態和恢復階段調整。\n> - **為什麼做**：成人住院、慢性共病與重症病人常有營養風險，臨床卻還沒有一個對所有人、所有病程都適用的蛋白質數字。\n> - **主體**：文章先說明不足與過量各自可能造成的問題，再整理醫療病房、ICU 的試驗和統合分析。病房 EFFORT 同時調整能量和蛋白質，顯示整套個別化營養支持有益，卻無法拆出蛋白質單獨貢獻；重症試驗比較很高劑量與標準劑量，沒有顯示高劑量改善存活或功能。作者接著提出依 CRP／IL-6、腎功能、手握力／肌肉量與疾病階段做個別化，但這些指標尚不是可直接套用的劑量演算法。\n> - **所以呢**：本文提醒避免把某個劑量套給所有人，也提醒腎功能和病程要納入考量；不過作者最後列出的 ICU 與病房建議量仍屬作者對既有指南的摘要，不是本文試驗出的最適劑量。\n\n## Clinical Application\n\n- 閱讀方向以「先辨認照護場域和病程，再看蛋白質目標」為主。文章提出 ICU 成人前幾天逐步接近約 1.3 g/kg/day、一般醫療病房約 1.2–1.5 g/kg/day；這是作者引用現行指引的總結，不能直接當作每位患者的劑量指示（PDF p.3）。\n- EFFORT 的病房策略是個別化能量與蛋白質支持的組合；即使整套支持改善結果，也無法把改善歸因到蛋白質一項（PDF p.2）。\n- 對重症高劑量證據，應保留「更高未必更好」：EFFORT Protein 的高劑量組沒有改善活著出院；PRECISe 高蛋白組健康相關生活品質較差，沒有改善功能結果。急性腎損傷患者更需謹慎看待高劑量（PDF p.2；原始試驗摘要見下方來源）。\n- 文章提及營養師床邊調整、觀察功能進展、代謝耐受及患者偏好；但沒有驗證一個由生物標記自動算出劑量的規則（PDF p.3）。\n\n## Critical Appraisal\n\n### 研究類型與 SANRA 評讀\n\nPubMed 將本文列為 Review；原文標示 Opinion Paper，並說沒有原始資料（PDF p.1、p.3；[PubMed](https://pubmed.ncbi.nlm.nih.gov/41605121/)）。SANRA 原本評讀非系統性綜論的理由、目的、搜尋方法、引用、論證及重要結果呈現；此處逐項評分，不把總分當成臨床證據等級。\n\n| SANRA 項目 | 分數（0–2） | 全文依據 |\n|---|---:|---|\n| 說明主題重要性 | 2 | 交代疾病相關營養不良、肌少、住院不良結果及蛋白質劑量爭議（PDF p.1）。 |\n| 明確說明文章目的 | 2 | 摘要說會整理機轉、試驗、指引、生物標記、未解問題（PDF p.1）。 |\n| 說明文獻搜尋方法 | 0 | 四頁全文未報告資料庫、搜尋日期、檢索詞、選文或排除方式。 |\n| 重要主張有引用 | 2 | 主要試驗、統合分析、指引及生物標記主張均提供參考文獻（PDF pp.2–4）。 |\n| 科學論證與證據層級 | 1 | 有提醒觀察研究與介入結果不一致，也承認 EFFORT 是組合介入；但仍把跨試驗高蛋白亞組的較佳結果推成「蛋白質可能是最主要驅動因素」，超過該比較能證明的範圍。 |\n| 呈現相關終點資料 | 1 | 提供 EFFORT 的 NNT 及統合分析 OR／CI；兩個關鍵 ICU 試驗未在本文提供主要效果估計值、信賴區間或完整結果。 |\n| **合計** | **8/12** | 適合快速理解議題，選文與論證透明度不足以取代系統性證據評讀。 |\n\n### 主要推論與可核對數值\n\n| 證據段落 | 原文內容 | 評讀 |\n|---|---|---|\n| EFFORT 醫療病房試驗 | 文中稱納入逾 2,000 名有營養風險住院者；個別化能量與蛋白質目標 1.2–1.5 g/kg/day，嚴重慢性腎功能不全降至 0.8 g/kg/day；NNT 25（PDF p.2）。 | 是多面向營養支持對標準餐的比較，並非只隨機化蛋白質劑量。作者也承認不能由此試驗拆出蛋白質單獨效果。 |\n| 29 項 RCT 統合分析 | 文中報告整體營養支持死亡 OR 0.72（95% CI 0.57–0.91）；依試驗方案分組，高蛋白試驗 OR 0.57（0.44–0.74），低蛋白試驗 OR 0.93（0.73–1.19）；高蛋白定義混用 >20% 能量或 >1.0 g/kg/day（PDF p.2）。 | 這是不同試驗之間的策略分類，不是同一試驗將患者隨機分派成高、低蛋白後比較。不同介入組成和人群可能造成差異，不能直接證明蛋白質本身是主要效果來源。 |\n| EFFORT Protein | 文中比較 ≥2.2 與 ≤1.2 g/kg/day，稱無臨床好處，並提示 AKI／器官衰竭較重者可能較不利（PDF p.2）。原始 PubMed 摘要：1,329 隨機、1,301 納入分析；60 日存活出院 46.1% vs 50.2%，HR 0.91（95% CI 0.77–1.07），p=0.27；60 日死亡 RR 1.08（0.92–1.26），未顯示高劑量改善。 |\n| PRECISe | 文中比較 2.0 與 1.3 g/kg/day，稱沒有臨床好處，且健康相關生活品質較差（PDF p.2）。原始 PubMed 摘要：935 人隨機；180 日 EQ-5D-5L 健康效用的平均差 −0.05（95% CI −0.10 至 −0.01），p=0.031；死亡 HR 1.14（0.92–1.40），p=0.22；高蛋白組腸胃不耐較多，OR 1.76（1.06–2.92），p=0.030。 |\n\n### 推論漏洞、限制與利益揭露\n\n- **蛋白質歸因過強**：整體營養支持的效果來自同時含能量、蛋白質及照護管理的介入；高蛋白與低蛋白差異來自試驗層級亞組。作者由此說蛋白質可能是最主要效果來源，但這不是單獨隨機化蛋白質所證實。deterministic argument linter 對這項因果主張標示「association → causation」推論落差；試驗層級亞組無法隔離蛋白質效果則由人工全文評讀補充。\n- **搜尋與選文不可重現**：沒有交代文獻搜尋流程，無法判斷納入證據是否完整，或是否存在選擇性引用。\n- **證據確定性未評分**：不同人群、病程和介入模式混在同一篇短篇 Opinion Paper；沒有逐 outcome 的風險偏差或 GRADE 評定。這使具體劑量的確定性不能由本文單獨得出。\n- **指標仍屬待發展**：CRP、IL-6、手握力、影像肌肉量、eGFR、尿素／肌酸酐比等被提出作為 phenotyping 線索；本文沒有提供已驗證的門檻或能導出特定劑量的預測規則。作者也明言白蛋白、前白蛋白不應用來指導蛋白質治療（PDF pp.2–3）。\n- **COI**：作者申報資助或演講費與本稿無關；其中包括營養配方／營養產品相關公司。已揭露不等於已證明偏差，但閱讀蛋白補充效益主張時應保留此背景（PDF p.4；PubMed COI 註記）。\n\n## 白話重點總結\n\n**一句話**：這是一篇有用的蛋白質營養議題導讀，但它提出的個別化方向比它能證明的具體劑量更可靠。\n\n- **可相信的部分**：極高蛋白在重症患者未顯示普遍好處；病程與腎功能可能改變耐受和風險。\n- **需要降調的部分**：病房營養支持改善結果，不代表蛋白質單獨造成改善；高蛋白試驗亞組也不能直接選出所有患者的最佳劑量。\n- **還缺什麼**：清楚的系統性搜尋、逐試驗品質與證據確定性、在不同病程及腎功能族群中比較具體劑量的高品質研究。\n\n## 來源與全文核對\n\n- Schuetz P, Carrera-Gil F, Wunderle C. *Proteins in artificial nutrition: toward an individualized and phase-specific prescription.* Clinical Nutrition. 2026;58:106577. DOI: [10.1016/j.clnu.2026.106577](https://doi.org/10.1016/j.clnu.2026.106577); PMID: [41605121](https://pubmed.ncbi.nlm.nih.gov/41605121/).\n- 核心試驗原始摘要：[EFFORT Protein，PMID 36708732](https://pubmed.ncbi.nlm.nih.gov/36708732/)；[PRECISe，PMID 39153816](https://pubmed.ncbi.nlm.nih.gov/39153816/)。\n- 品質工具：[SANRA 原始方法文章，PMID 30962953](https://pubmed.ncbi.nlm.nih.gov/30962953/)。\n- 本機全文：使用者提供 PDF，4 頁；PDF SHA-256 191d431d0a862d790ffb38d1b972783c3cff042ef62759256b07554e09239ba4；OCR 文字 SHA-256 2bed0cb3a75cec05c805c7e9feb6af3bb585262910fab5e684fb3b18b85936c5。四頁已逐頁目視核對；PDF 原檔不隨公開筆記發布。",
       "cards": [],
       "completedAt": "2026-10-11T16:20:42.368Z"
+    },
+    {
+      "id": "doi:10.1016/j.clnu.2026.106577:digest",
+      "paperId": "doi:10.1016/j.clnu.2026.106577",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Proteins in artificial nutrition: toward an individualized and phase-specific prescription.",
+      "authors": "Schuetz P, Carrera-Gil F, Wunderle C",
+      "journal": "Clinical Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.clnu.2026.106577",
+      "abstract": "Protein is a central component of artificial nutrition, yet its optimal dose and timing remain controversial. Provision of both insufficient and excessive protein is associated with adverse outcomes. Inadequate intake promotes negative nitrogen balance, muscle wasting, impaired tissue healing and repair, and increased risk of infection, whereas excessive protein may exceed metabolic capacity, causing azotemia, hepatic or renal strain, and reduced metabolic flexibility - particularly in patients with renal dysfunction. Emerging evidence indicates that the optimal protein dose is strongly influenced by patient-specific characteristics and evolves throughout the course of illness, supporting an individualized, phase-adapted strategy for protein provision rather than a fixed universal target. During early critical illness, catabolism predominates and high protein doses may not be effectively utilized. In contrast, during recovery and stabilization, higher protein targets appear beneficial for restoring lean body mass and functional capacity. This dynamic trajectory underscores the need to abandon universal recommendations in favor of personalized prescriptions. Although instruments such as nitrogen balance, body composition analysis, and indirect calorimetry can provide information about protein dosage, their routine use in clinical practice is limited and interpretation in acute illnesses remains difficult. Pragmatic, bedside strategies and the phenotyping of patients using biomarkers are, therefore, needed to tailor protein provision according to disease stage, organ function, and anabolic capacity. This opinion paper explores mechanistic insights, evidence from clinical trials, and guidelines on protein supplementation, explores biomarker-driven personalization, and highlights ongoing challenges and future research priorities in nutritional therapy.",
+      "legalFullTextUrl": "https://doi.org/10.1016/j.clnu.2026.106577",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41605121/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "design:guideline",
+        "guideline and consensus",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "precision nutrition",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "人工營養蛋白質個別化與病程階段內容整理",
+      "content": "---\ntags: [research/digest, clinical-nutrition, medical-inpatients, protein]\ncitekey: Schuetz2026ArtificialNutrition\ndoi: 10.1016/j.clnu.2026.106577\naliases: [Proteins in artificial nutrition: toward an individualized and phase-specific prescription]\n---\n\n> [!summary] 30 秒層\n> **一句話：** 這篇觀點文主張，人工營養的蛋白質供應應依病程、器官功能與個人合成能力調整，而非所有成人套用同一個高蛋白目標。\n> - 蛋白質不足與過量都可能有害；觀察性關聯不能直接證明提高蛋白質就會改善結果。\n> - EFFORT 的個別化營養支持包含能量與蛋白質，無法單獨分辨蛋白質效果；重症試驗也未顯示極高劑量帶來臨床效益。\n> - 作者整理的參考目標是多數成人 ICU 病人逐步增加至約 1.3 g/kg/day、一般病房約 1.2–1.5 g/kg/day；這是作者引用指引的概述，不是個人處方。\n> - 發炎、腎功能、肌力／肌肉量與病程階段，可能影響需求和耐受性；白蛋白、前白蛋白不應單獨用來調整蛋白質治療。\n> 品質 → 見同篇品質評讀：〈人工營養蛋白質劑量與病程個別化品質評讀〉。\n\n## 5 分鐘層\n**要點**：本文先說明住院病人為何容易營養不良，再以一般病房和重症試驗指出「營養支持有效」不等於「蛋白質越高越好」，最後提出按個人表型、腎功能與病程階段持續調整。\n- **臨床問題**：攝取不足、發炎與活動減少會加速肌肉及功能流失；蛋白質過量也可能超過器官代謝能力。\n- **證據差異**：EFFORT 支持個別化營養支持整體策略；高／低蛋白子群是跨試驗比較。EFFORT Protein 與 PRECISe 未顯示極高蛋白改善存活。\n- **個別化訊息**：可一併觀察發炎、握力／肌肉量與腎功能；白蛋白和前白蛋白不宜直接充當蛋白質處方指標。\n- **病程應用**：急性重症期避免假定極高劑量更好；恢復期再依耐受、器官功能及功能恢復需求調整。\n- **可用範圍**：作者總結的病房與 ICU 劑量是參考指引概述；Opinion Paper 未提供個人化處方演算法，出院後證據仍不足。\n\n## 全文地圖\n**要點**：全文由住院營養不良的臨床問題，依序整理營養試驗、個別化生物標記、病程階段、實務執行與研究缺口。\n- 第 1 節介紹疾病相關營養不良及固定蛋白目標的爭議（PDF 第 1 頁）。\n- 第 2 節說明攝取不足、發炎、失能與蛋白質過量可能造成的影響（PDF 第 1–2 頁）。\n- 第 3 節對照一般病房營養支持與重症高劑量蛋白試驗（PDF 第 2 頁）。\n- 第 4–5 節整理發炎、肌肉與腎臟指標，以及急性期至恢復期的目標變化（PDF 第 2 頁）。\n- 第 6–8 節談床邊執行、成本、研究缺口與作者結論（PDF 第 3 頁）；作者利益揭露在 PDF 第 4 頁。\n\n## 各主題重點\n### 1. 住院營養不良與蛋白質失衡\n**要點**：病人可能同時面臨攝取下降、需求增加與分解加速；但蛋白質和結果的觀察性線性關聯，不代表補得越多一定越好。\n- 作者指出住院成人，特別是年長、多病共存者，常有疾病相關營養不良、肌肉量與肌力下降，並伴隨較高併發症、功能衰退及死亡風險（第 1 節，PDF 第 1 頁）。\n- 可能原因包括食慾差、腸胃功能障礙、藥物副作用、發炎與壓力相關代謝需求上升、臥床，以及年齡相關合成阻抗；社會與環境也可能妨礙進食（第 2 節，PDF 第 1–2 頁）。\n- 攝取不足可能與肌肉量／肌力、功能、免疫能力下降、傷口癒合延遲、感染和壓傷風險有關；過量則可能超過代謝處理能力，造成氮質血症、肝腎負荷或代謝彈性下降，腎功能受損者尤其需留意（摘要及第 2 節，PDF 第 1–2 頁）。\n- 作者提醒：介入研究結果不一；最佳劑量可能因族群、疾病嚴重度與階段呈現不同關係，而非單一線性規則（第 2 節，PDF 第 2 頁）。\n\n### 2. 臨床試驗與不同蛋白質劑量\n**要點**：一般病房的個別化營養支持有臨床效益，但因為是能量與蛋白質等成分的組合，不能把效益全歸因於蛋白質；重症試驗不支持常規使用極高劑量。\n\n| 證據 | 文中報告 | 解讀界線 |\n|---|---|---|\n| EFFORT 一般病房 RCT | 超過 2,000 名有營養風險的瑞士住院病人；個別化介入目標為蛋白質 1.2–1.5 g/kg/day，嚴重慢性腎功能不全者降為 0.8 g/kg/day；預防一件不良結果的 NNT 為 25 | 同時調整能量與蛋白質等營養支持，不能單獨估計蛋白質的因果效果（第 3 節，PDF 第 2 頁） |\n| 住院營養支持統合分析 | 29 項 RCT、超過 7,000 名住院病人；整體營養支持死亡勝算 OR 0.72（95% CI 0.57–0.91） | 比較的是營養支持與常規照護，不是單獨蛋白質（第 3 節，PDF 第 2 頁） |\n| 試驗層級高／低蛋白策略子群 | 高蛋白試驗 OR 0.57（95% CI 0.44–0.74）；低蛋白試驗 OR 0.93（95% CI 0.73–1.19）；支持至少 60 天時效果較明顯 | 子群依不同試驗策略分類，不是同一試驗內直接隨機比較不同蛋白劑量；作者把結果解讀為蛋白質可能是重要成分（第 3 節，PDF 第 2 頁） |\n| EFFORT Protein 重症試驗 | 比較 >2.2 與 <1.2 g/kg/day；未見存活效益，作者報告急性腎損傷病人死亡風險較高 | 文中沒有在本文列出死亡效果量；不能據此自行補寫數值（第 3 節，PDF 第 2 頁） |\n| PRECISe 重症試驗 | 比較 2.0 與 1.3 g/kg/day；極高蛋白未帶來臨床效益，且與較差健康相關生活品質有關 | 文中沒有列出生活品質效果量（第 3 節，PDF 第 2 頁） |\n\n### 3. 可能協助個別化的指標\n**要點**：指標應協助判斷發炎、肌肉狀態與腎臟排泄能力；白蛋白和前白蛋白可反映預後關聯，但不能當作營養狀態或蛋白處方的替代測量。\n- 高 CRP、IL-6 等發炎訊號與營養支持效果可能較弱相關；文章提到肌力測量（如握力）及影像估計肌肉量，可補充肌少症風險與治療反應資訊（第 4 節，PDF 第 2 頁）。\n- eGFR 與尿素／肌酸酐比值被作者列為調整蛋白質目標、留意排泄能力的候選資訊（第 4 節，PDF 第 2 頁）。\n- 白蛋白與前白蛋白受疾病狀態影響，作者明確指出不應拿來指引蛋白質治療（第 4 節，PDF 第 2 頁）。\n- 代謝體特徵與機器學習仍屬未來可能工具，尚非文中建議的日常床邊決策標準（第 4 節，PDF 第 2 頁）。\n\n### 4. 急性期、恢復期與出院後\n**要點**：作者提出營養耐受與合成能力會隨病程改變；急性重症不宜直接推到極高劑量，恢復期則需評估補足營養與重建功能的需要。\n- 急性疾病期分解代謝較強，單靠營養介入未必能逆轉這個狀態或立即改善臨床結果；但作者也不主張任由供應不足，因不足與死亡風險上升有關（第 5 節，PDF 第 2 頁）。\n- 病情穩定、恢復時，底物耐受與合成代謝逐漸回升。作者引用一般病房營養支持及出院後統合分析，支持恢復期持續營養照護；但出院後、社區與復健階段仍缺高品質研究（第 5、7 節，PDF 第 2–3 頁）。\n- 結論概述：多數成人 ICU 病人可在頭幾天逐步增加至約 1.3 g/kg/day；多數一般病房病人約 1.2–1.5 g/kg/day，並依現行指引、器官功能和耐受性調整（第 8 節，PDF 第 3 頁）。\n\n### 5. 實務執行與資源\n**要點**：文章主張由有經驗的營養師與跨專業團隊評估能量和蛋白質目標，追蹤功能進展、代謝耐受及病人偏好，再選擇可行的營養途徑。\n- 作者描述的實務順序是床邊評估與定期調整；口服營養補充品（尤其高蛋白配方）用於口服無法達標者，腸道或靜脈營養則保留給口服無法耐受，或口服處理後仍持續營養不足者（第 6 節，PDF 第 3 頁）。\n- 文中引用的經濟分析認為，個別化營養支持可能藉由減少併發症、縮短住院及加快功能恢復降低醫療成本；這是文章整理的研究結論，不是本文進行的新成本試驗（第 6 節，PDF 第 3 頁）。\n\n### 6. 作者指出的知識缺口\n**要點**：目前還沒有適用所有疾病與階段的精確蛋白目標；需用直接介入試驗確認特定蛋白建議是否改善臨床結果。\n- 尚待釐清不同疾病情境、疾病階段、蛋白來源、最佳開始時機、劑量與療程；尤其出院後及社區照護的證據不足（第 7 節，PDF 第 3 頁）。\n- 作者建議未來整合臨床表型與生物標記來選擇及監測治療，並以介入試驗驗證明確的蛋白質策略（第 7 節，PDF 第 3 頁）。\n- 本文是 Opinion Paper，沒有原始資料；利益揭露列於 PDF 第 4 頁：作者報告與本稿無關的研究補助或演講費，並稱基金會未參與稿件設計與準備。\n\n## 機轉白話講解\n**要點**：蛋白質像修復材料，但病人身體是否能把材料轉成肌肉和功能，會受發炎、腎臟排泄能力及病程階段影響。\n- 急性期可以想成「身體同時在施工又遇到警報」：發炎與疾病壓力促進分解，單純把原料加到很高，不保證能抵銷分解或立刻修復；腎臟排泄能力不足時，處理含氮代謝產物也更需考量。這個比喻只用來解釋本文整理的機轉，不是額外臨床證據。\n- 恢復期則像警報降低、身體逐步回到修復模式；營養耐受及合成能力改善後，營養補充較可能支持肌肉與功能恢復。實際目標仍需由臨床團隊依病況評估（摘要、第 2、5 節，PDF 第 1–2 頁）。\n\n## 臨床意義 / 怎麼用\n**要點**：把「是否要加蛋白」改成「目前病程、腎功能、發炎及功能狀況如何，目標怎麼追蹤」，避免只盯一個固定劑量。\n- 對一般病房成人，可把本文引用的約 1.2–1.5 g/kg/day 視為作者整理的指引範圍線索，仍須依個人疾病、腎功能與耐受性核對適用性。\n- ICU 病人不應只因為高營養風險就推定極高蛋白一定有益；文中兩項重症試驗沒有顯示存活效益，並報告特定不利結果。\n- 追蹤時可把飲食供應、握力／肌肉量、臨床進展與腎功能資訊放在同一張照護圖像中；不要單靠白蛋白或前白蛋白開立蛋白目標。\n- 這篇提供觀點與證據整理，未提供適用於個人的營養處方；若要用於照護決策，需回到原始指引、個別檢驗與臨床評估。\n\n## 重要圖表重述\n**要點**：圖 1 的核心流程是先辨認營養不良／肌少症，再按病人差異分群，最後以個別化蛋白目標配合追蹤，期望改善結果。\n- 圖中由能量、蛋白質與微量營養素不足連到不良臨床結果，表示營養治療可作為降低風險的一部分。\n- 接著以病人表型及疾病階段的異質性為中心，列出身體組成／肌肉測量、發炎及腎臟生物標記等資訊，協助設定目標；右側再連到治療效果與未來可能支援工具（Fig. 1，PDF 第 3 頁）。\n- 圖為概念流程，沒有新增數值或可直接照抄的劑量演算法。\n\n## 與既有認知的對照\n本次整理依本文自身的病程個別化框架呈現；跨筆記知識庫比對未納入，因此不推定本文與其他既有筆記相同或相異。\n\n## 概念 / 名詞整理\n**要點**：閱讀本文時要分清楚「營養支持整體效果」、「蛋白質劑量效果」與「個人當下需求」是三個不同問題。\n- **疾病相關營養不良**：疾病情境下攝取不足、需求改變及代謝異常等因素造成的營養風險；本文聚焦住院成人。\n- **負氮平衡**：氮的流失大於攝取，代表身體蛋白質淨流失；作者用它說明供應不足的風險。\n- **合成阻抗**：身體對營養或刺激的合成反應變弱；作者將高齡列為可能相關情境。\n- **EFFORT**：一般病房的個別化營養支持試驗，介入同時處理能量與蛋白質。\n- **EFFORT Protein、PRECISe**：重症照護中比較不同蛋白質供應量的試驗；本文引用結果不支持常規極高劑量。\n- **NNT**：若某介入相對對照多治療 N 人，可多避免一個指定不良結果的估計人數；本文報告 EFFORT 的 NNT 為 25。\n- **CRP、IL-6**：分別為 C-reactive protein 與 interleukin-6，本文列作發炎狀態相關候選指標。\n- **eGFR、尿素／肌酸酐比值**：本文列作腎功能或含氮代謝相關資訊，協助評估蛋白質目標的候選指標；不能脫離臨床背景單獨解讀。\n\n## 自我測驗\n> [!question]- Q1：為什麼 EFFORT 的臨床效益不能直接說成「蛋白質本身降低了不良結果」？\n> 因為 EFFORT 測試的是個別化營養支持方案，包含能量與蛋白質等成分。試驗可以支持整體營養支持策略的效果，不能在同一試驗中分離蛋白質的單獨因果效果。\n\n> [!question]- Q2：統合分析中高蛋白試驗子群的結果，和「同一病人被隨機分到高蛋白或低蛋白」有何差別？\n> 本文報告高蛋白試驗 OR 0.57（95% CI 0.44–0.74）、低蛋白試驗 OR 0.93（0.73–1.19），但這是按不同試驗策略形成的子群。它不是同一試驗內的直接劑量隨機比較，不能據此單獨確認蛋白質劑量的因果效果。\n\n> [!question]- Q3：急性重症期為何不宜把高劑量目標當成所有人固定處方？\n> 作者指出急性期分解代謝較強，營養介入未必能逆轉；EFFORT Protein 與 PRECISe 未顯示極高蛋白改善存活，並報告急性腎損傷死亡風險或生活品質方面的不利訊號。病程、腎功能和耐受性都需要一起考量。\n\n> [!question]- Q4：哪些資訊較適合和蛋白質供應一起觀察？為何不能只看白蛋白？\n> 本文列出握力、影像肌肉量、CRP／IL-6、eGFR、尿素／肌酸酐比值與病程變化。白蛋白、前白蛋白雖與預後相關，卻不能準確代表營養狀態，因此作者不建議單獨用來指引蛋白質治療。\n\n## Reference\n`Schuetz P, Carrera-Gil F, Wunderle C. Proteins in artificial nutrition: toward an individualized and phase-specific prescription. Clinical Nutrition. 2026;58:106577.` DOI: [10.1016/j.clnu.2026.106577](https://doi.org/10.1016/j.clnu.2026.106577). 全文身份：使用者提供 PDF；DOI 與題名相符；本文段落及圖表位置如上按 PDF 頁碼標記。\n\n配對品質評讀：`Schuetz2026-人工營養蛋白質個別化與分期評讀.md`。本內容整理負責重組全文知識，不替代該評讀的研究方法與推論品質判斷。",
+      "cards": [
+        {
+          "title": "人工營養蛋白質個別化",
+          "question": "為什麼 EFFORT 的結果不能單獨證明蛋白質本身造成不良結果下降？",
+          "answer": "EFFORT 測試的是包含能量與蛋白質的個別化營養支持組合。它支持整體營養支持策略，但無法在該試驗中分離蛋白質的單獨因果效果。",
+          "tags": [
+            "臨床營養",
+            "蛋白質",
+            "試驗解讀"
+          ]
+        },
+        {
+          "title": "人工營養蛋白質個別化",
+          "question": "高蛋白試驗子群 OR 0.57 與低蛋白子群 OR 0.93，為何不能直接視為同一 RCT 中的高低劑量比較？",
+          "answer": "這是依不同試驗的蛋白策略分類後所做的試驗層級子群分析，不是同一試驗內病人被隨機分派至高或低蛋白組。兩種設計能支持的因果推論不同。",
+          "tags": [
+            "臨床營養",
+            "蛋白質",
+            "統合分析"
+          ]
+        },
+        {
+          "title": "人工營養蛋白質個別化",
+          "question": "急性重症期與恢復期的蛋白質照護思路有何不同？",
+          "answer": "急性期分解代謝強，極高供應不保證能被有效利用；本文引用的重症試驗未顯示存活效益。恢復期耐受與合成能力可能改善，應重新評估營養目標與功能恢復需求，而不是沿用固定劑量。",
+          "tags": [
+            "臨床營養",
+            "蛋白質",
+            "病程階段"
+          ]
+        },
+        {
+          "title": "人工營養蛋白質個別化",
+          "question": "為什麼白蛋白不能單獨拿來調整蛋白質治療？照護團隊還可觀察哪些訊息？",
+          "answer": "作者指出白蛋白和前白蛋白雖能預測預後，卻不能準確反映營養狀態。可結合握力或影像肌肉量、CRP／IL-6、eGFR、尿素／肌酸酐比值及病程與耐受變化來理解個別情況。",
+          "tags": [
+            "臨床營養",
+            "生物標記",
+            "營養評估"
+          ]
+        }
+      ],
+      "completedAt": "2026-10-11T16:25:40.894Z"
     }
   ]
 }
