@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T10:05:19.791Z",
+  "generatedAt": "2026-10-12T10:28:54.742Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -95774,6 +95774,80 @@
       "content": "---\r\nreview_depth: quick\r\nreview_mode: focused-quick\r\ndoi: 10.1016/j.advnut.2026.100728\r\n---\r\n\r\n# 尿毒症蛋白質能量耗損「先增敏、再營養」框架：觀點文章評讀\r\n\r\n## 品質快照\r\n\r\n- **身份：**Li M、Chen Z、Liu N、Lan N、Zeng F、Xue C、Yang B；*Advances in Nutrition*17(2026)100728。Perspective，13頁，131引文。\r\n- **設計：**整合人體與前臨床研究提出神經內分泌模型；沒有新病人樣本、單一介入比較或統合分析。\r\n- **主要內容：**中樞食慾失調、ghrelin活化／反應問題、肌肉合成阻抗與粒線體障礙，可能共同影響CKD的PEW。\r\n- **品質判斷：**適合認識可測試的假說；不足以證明「先用特定增敏藥物再餵食」有效、安全，或優於現行營養照護。\r\n- **GRADE：**不適用於整篇模型。沒有特定PICO的完整研究集合與合併效應；不產生虛構全篇GRADE分數。\r\n- **一句話：**有營養學問題意識，但機轉、跨疾病藥物與CKD臨床效益之間仍有明顯證據落差。\r\n\r\n## 白話導讀\r\n\r\n作者想解釋：為何某些尿毒症患者即使得到蛋白與熱量，仍然消瘦、食慾差、肌肉不易恢復。文章把大腦食慾訊號、尿毒素、荷爾蒙、肌肉合成與粒線體串成模型，再提出運動、特定營養素和候選藥物的研究方向。它不是一項驗證新治療的試驗。文章最後也明確承認許多鏈條來自細胞與鼠，尚未在人體CKD確定。（pp.1–2、9）\r\n\r\n## 研究方法與證據來源\r\n\r\n- 作者搜尋PubMed、MEDLINE、Embase自建庫至2026年2月，加相關引文；腎病／PEW／anabolic resistance及ghrelin、GDF15、UPS、gut-brain-muscle等詞。只納英文，依主題、設計與證據強度選文。（p.2）\r\n- 未列完整逐庫策略、命中／排除數、篩讀者、重複篩選、原始研究逐篇偏差表或預先註冊。不能視為可重現的系統性回顧。\r\n- 資料涵蓋細胞、鼠、人體組織、CKD觀察資料，以及癌症／肥胖／心衰藥物試驗；證據直接性不同。本文沒有新樣本、合併效果、CI或MCID。\r\n\r\n## 主要內容與數字\r\n\r\n|內容|原文數字／訊息|正確界線|來源|\r\n|---|---|---|---|\r\n|晚期CKD PEW背景|11–54%|引用過往研究範圍，非本文統合盛行率|p.2|\r\n|DAG佔迴圈ghrelin|80–90%|一般生理背景，不能直接推斷個人缺乏AG|p.4|\r\n|作者轉述營養目標|透析蛋白1.2g/kg/d、能量30–35kcal/kg/d|作者對既有指引的概括，非本研究驗證處方；個別病況須另評估|p.7|\r\n|IS實驗暴露|正常<2.5µM、尿毒症>100–200µM|組織實際暴露與實驗濃度對應不確定，作者有保留|p.4|\r\n|藥物／運動／營養素|未提供框架整體療效與CI|不能計算NNT或聲稱改善生存|pp.7–9|\r\n\r\n- 中樞：IS-AhR可能影響BBB，發炎讓NPY/AgRP與POMC/MC4R食慾平衡偏移；人體CKD完整因果鏈尚未確立。（pp.2–4，Fig1）\r\n- 周邊：ghrelin的AG／DAG比例及GOAT活化可能受發炎影響；總ghrelin高不等於食慾刺激有效。GOAT依賴中鏈脂肪酸是機轉背景，不是補充MCT的臨床證據。（p.4）\r\n- 肌肉：IS、myostatin/activin、發炎可能抑制IRS1→PI3K/Akt/mTOR合成，並解除FoxO／UPS的降解抑制；粒線體能量障礙多來自實驗。（pp.4–6，Fig2）\r\n- 疾病比較：CKD體液超負荷可掩蓋肌肉耗損，REE亦可能正常／低；癌症、心衰、COPD的耗損原因與治療反應不能互換。（p.7，Table3）\r\n- 候選介入：運動、omega3、BCAA/HMB與藥物都在提出試驗問題；anamorelin需留意高血糖及瘦體重與功能脫節，ponsegromab癌症結果不代表CKD療效，TCMCB07多為動物，bimagrumab功能結果不一致，PINTA745開發失敗也不驗證其他藥物。（pp.7–9）\r\n\r\n## 品質評讀\r\n\r\n|領域|判斷|全文依據|\r\n|---|---|---|\r\n|問題與架構|有價值|區分底物不足、真合成阻抗及分解路徑過度活化，提出可測試框架。|\r\n|選文與透明度|有疑慮|有資料庫／截止月與主題，缺完整策略與流程，無逐篇RoB；選擇性強調機轉的可能性無法排除。|\r\n|人體直接性|嚴重限制|作者承認BBB及胞器事件主要前臨床；跨疾病藥物試驗與CKD的風險不同。|\r\n|臨床結果完整度|不足|沒有框架對病人功能、住院、生存的直接比較與效果量。|\r\n|數字與處方推論|需保留|本文引用背景範圍與指引概括，不能當本篇劑量比較，也不能把體重／瘦體重增加等同功能改善。|\r\n|內部引文對應|需再核實|Table3/4聲稱GARDEN-TIMI74的心衰安全訊號，但列出的對應引文未清楚提供該試驗完整報告；Ref130是企業新聞。focused-quick未外部驗證，不把其訊號作確定事實。|\r\n\r\n### 推論與統計檢查\r\n\r\n作者在圖說與結語多用may／hypothesis，並要求CKD專屬試驗，這些保留合理。部分段落用「只有重接訊號才能跨越存活缺口」等較強語句，超出現有直接資料：機轉合理不等於框架有效，更不能用癌症效果支援CKD藥物建議。沒有全框架量化結果或患者重要效果，MCID、NNT與因果效益均未建立。\r\n\r\nGRADE不套全篇，ROBINS-I／RoB2也不套這篇觀點文章；各原始研究若要升級為處方依據，應另做PICO、逐篇偏差與確定性評估。這輪使用focused-quick，未作期刊指標、作者履歷與全部131引文外查。\r\n\r\n## 作者承認限制\r\n\r\n作者明列BBB破壞及胞器機轉倚賴in vitro／rodent，人體CKD驗證待完成；藥物需評估心腎與血糖風險。提議嚴格定義PEW佇列中的IDPN加候選調節劑phaseII，以及MRI評估BBB，是未來研究，沒有聲稱這輪已執行。（p.9）\r\n\r\n## 臨床應用（Clinical Application）\r\n\r\n- 可作營養教學的「為何吃進去不等於合成」概念圖；每一箭頭必須標實驗／人體關聯／試驗證據，不能把假說教成確定生理事實。\r\n- PEW評估不只看體重，作者特別提醒體液掩蓋與肌肉功能；可理解為評估提示，本文沒有驗證新的臨床診斷或處方工具。\r\n- 延續個別化營養與身體活動照護的必要性；不根據這篇停供營養、延後餵食、加藥或指定omega3／BCAA／HMB劑量。\r\n- 已選且供PDF者可儲存這篇評讀；該高度專科框架不自動變成全體透析論文的選文偏好。\r\n\r\n## 經費、利益衝突與來源\r\n\r\n作者宣告無COI、無資助；沒有新增原始資料，data sharing不適用。（p.9）首頁明確Perspective與CC BY，醫院名稱裡的Naval不是研究納入軍人族群，不能據此誤判。\r\n\r\n[DOI10.1016/j.advnut.2026.100728](https://doi.org/10.1016/j.advnut.2026.100728)。使用身份核驗的完整13頁PDF；主文pp.1–9、兩圖四表、作者限制及References1–131逐頁讀完。原PDF首1、中7、末13頁渲染目視一致。\r\n\r\nSourceSHA256 978c70763c1867da56e7e1821421b7228c04cab3c94c1db7b640626b56ed1e5f；TextSHA256 6cedd8e185ef7e427cc785c17b1af3cb84c80d39f99490d3cbfd371af02c9b2b。OCR單位／希臘字形以原PDF核對；筆記為繁體中文改寫，未附原文全文或PDF。",
       "cards": [],
       "completedAt": "2026-10-12T10:04:54.931Z"
+    },
+    {
+      "id": "doi:10.1016/j.advnut.2026.100728:digest",
+      "paperId": "doi:10.1016/j.advnut.2026.100728",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Perspectives on the Nutritional Paradox in Uremia: A \"Sensitize-Then-Feed\" Framework for Protein-Energy Wasting.",
+      "authors": "",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.advnut.2026.100728",
+      "abstract": "Protein-energy wasting (PEW) drives significant morbidity and mortality in advanced chronic kidney disease (CKD). Despite the implementation of comprehensive clinical guidelines and medical nutrition therapy (MNT), a subset of uremic patients may exhibit a defining \"nutritional paradox.\" Unlike simple starvation, which responds to caloric and protein supplementation, CKD-associated cachexia is characterized by a potential systemic anabolic resistance. This renders standard nutritional interventions-including oral supplements and intradialytic parenteral nutrition (IDPN)-often insufficient. To elucidate the molecular hierarchy driving this barrier to nutritional therapy, we propose a model where during central dysregulation, gut-microbiome-derived uremic toxins, notably tryptophan metabolites like indoxyl sulfate, have been shown in experimental models to impair the blood-brain barrier integrity. This breach triggers significant hypothalamic neuroinflammation. Concurrently, pro-inflammatory cytokines (e.g., IL-1β, TNF-α) and stress-responsive circulating factors like growth differentiation factor 15 (GDF15) aberrantly reset the central metabolic set-point via the melanocortin system, potentially contributing to anorexia and altered energy expenditure. Peripherally, the failure of critical nutrient-sensing axes-specifically the ghrelin-GOAT and insulin/IGF-1 signaling pathways-may impair the anabolic PI3K/Akt/mTORC1 cascade. This peripheral desensitization not only blunts the synthetic response to dietary amino acids but also precipitates a disruption of muscle proteostasis through ubiquitin-proteasome system (UPS) hyperactivation and FOXO-mediated transcription. Concurrently, skeletal muscle undergoes significant mitochondrial bioenergetic dysfunction, further impairing nutrient utilization. By reframing PEW not simply as a state of nutrient deficiency, but as a broader dysregulation of hormonal signaling, we advocate a translational \"sensitize-then-feed\" therapeutic paradigm. We critically evaluate emerging targeted agents-including GDF15 antagonists, myostatin inhibitors, and ghrelin agonists. We propose that these agents could be investigated as metabolic modulators to potentially enhance the efficacy of tailored nutritional support in the uremic microenvironment.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42716437/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "dietitian clinical nutrition",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "precision nutrition",
+        "protein and micronutrients",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "尿毒症營養悖論與先增敏再營養：內容整理",
+      "content": "---\r\ntags: [research/digest, CKD, protein-energy-wasting]\r\ncitekey: Li2026UremicPEW\r\ndoi: 10.1016/j.advnut.2026.100728\r\nmode: worker-batch\r\n---\r\n\r\n> [!summary] 30 秒層：尿毒症耗損可能不只有營養底物不足，作者提出先改善代謝反應再營養的待測框架\r\n> - 這是Perspective，沒有新介入試驗；131引文涵蓋人體與細胞／動物資料。\r\n> - 中樞食慾、ghrelin活化、肌肉合成／分解與粒線體可能共同影響PEW。\r\n> - 體液超負荷可掩蓋耗損；體重不等於肌肉與功能。\r\n> - 候選組合須CKD專屬試驗，不能照圖開處方或延後營養。\r\n> - 品質：見配對評讀；主要是可測試假說，沒有全框架GRADE或確定臨床療效。\r\n\r\n## 5分鐘重點\r\n**要點**：區分「吃得少、利用不好、分解過多、能量不足」，再辨別各機轉的證據層級。\r\n\r\n1. 中樞：發炎與尿毒素可能影響食慾；BBB與IS-AhR鏈多為實驗。\r\n2. 周邊：AG／DAG、GOAT與受體訊號不只看總ghrelin濃度。\r\n3. 肌肉：IRS1→Akt/mTOR減弱，FoxO/UPS降解增強；myostatin/activin與粒線體問題疊加。\r\n4. CKD、癌症、心衰、COPD的耗損架構不同，藥物與功能效益不能互換。\r\n5. 「sensitize-then-feed」是未來試驗框架；作者承認人體CKD驗證不足。\r\n\r\n## 全文地圖\r\n**要點**：從CKD營養悖論走到神經內分泌、肌肉代謝、跨疾病差異，最後提出研究方向。（pp.1–9）\r\n\r\n|區塊|內容|\r\n|---|---|\r\n|Introduction／搜尋|PEW背景與合成阻抗；資料庫至2026年2月，非可重現系統回顧流程|\r\n|Neuroendocrine mechanism|發炎食慾訊號、BBB／IS-AhR、ghrelin／GOAT|\r\n|Mediators|IS、GDF15、myostatin/activin、angiotensinII|\r\n|Metabolic consequences|IRS1-PI3K-Akt-mTOR、FoxO-UPS、粒線體、脂肪browning|\r\n|Comparative pathophysiology|CKD、癌症、心衰、COPD耗損與體液差異|\r\n|Nutritional therapy|營養背景、運動、omega3、BCAA/HMB與候選藥物|\r\n|Conclusion|未來CKD試驗、MRI研究；前臨床限制、COI／資助|\r\n\r\n## 各主題重點\r\n**要點**：作者把PEW理解為多路徑問題；不是所有路徑都在人體CKD驗證。（pp.2–8）\r\n\r\n### 營養悖論與搜尋（p.2）\r\n\r\n- 作者引用晚期CKD的PEW範圍11–54%，部分患者補充底物後仍耗損；這不是本文重新估算的盛行率。\r\n- 「荷爾蒙阻抗」包含合成訊號反應不足，以及厭食／分解路徑過度活化，不能混為一個診斷。\r\n- 搜尋PubMed／MEDLINE／Embase與交叉引文至2026年2月，英文選文；沒有完整命中／排除流程、逐篇RoB或合併效果。\r\n\r\n### 中樞食慾與BBB（pp.2–4）\r\n\r\n- 發炎可壓抑NPY/AgRP並刺激POMC/MC4R，作者提出厭食與交感驅動框架。\r\n- IS活化AhR，影響claudin5與BBB，細胞／鼠證據為主；人體完整因果鏈仍待驗證。\r\n- 不把所有CKD厭食歸因於這條路徑，也不據此診斷「腦部毒性」。\r\n\r\n### Ghrelin與GOAT（p.4）\r\n\r\n- AG可活化GHSR1a；DAG佔迴圈ghrelin80–90%，不能當完全無作用。\r\n- 總ghrelin高不代表刺激足夠；比例與受體反應亦重要。\r\n- GOAT使用octanoate作活化底物，LPS實驗提示發炎影響；這不等於補MCT可以治療CKD厭食。\r\n\r\n### IS、GDF15、myostatin/activin（pp.4–6）\r\n\r\n- 作者列IS由較低正常濃度至尿毒症實驗高濃度，同時承認實驗濃度與人體組織暴露不確定，不當臨床切點。\r\n- IS-AhR／ROS／NFκB可能促進肌肉分解；GDF15作用於腦幹GFRAL-RET，關聯厭食噁心與脂解。\r\n- myostatin／activin透過ActRIIB與Smad抑制合成；不同疾病的角色與藥物風險仍須驗證。\r\n\r\n### 肌肉與脂肪代謝（p.6）\r\n\r\n- 發炎／尿毒素影響IRS1，使PI3K/Akt/mTOR合成減弱；Akt對FoxO抑制下降，可增加UPS降解。\r\n- 粒線體電子傳遞III／IV、ROS、裂分／融合與mitophagy多為實驗；作者明說人體CKD驗證不足。\r\n- 脂肪browning與脂解是模型的一部分；脂肪減少、肌肉少與體重變化不能代替彼此。\r\n\r\n### 疾病差異與營養方向（p.7）\r\n\r\n- CKD尿毒素／酸中毒、癌症腫瘤因子、心衰鬱血、COPD呼吸負擔不同。CKD靜息消耗可正常／低，不能一律假設高代謝。\r\n- 體液超負荷可能掩蓋肌肉與脂肪耗損，尤其CKD與心衰。\r\n- 作者轉述透析蛋白1.2g/kg/d及30–35kcal/kg/d作指南背景；不是本文試驗所得，也不代表每名患者處方。\r\n- 運動／omega3／BCAA-HMB是改善訊號的研究方向；本文沒有提供組合在PEW的劑量、存活效益或NNT。\r\n\r\n### 候選藥物（p.8）\r\n\r\n|候選|作者方向|保留界線|\r\n|---|---|---|\r\n|anamorelin|ghrelin受體、食慾與體重／瘦體重|高血糖；瘦體重與握力可能脫節；癌症不等於CKD|\r\n|ponsegromab|GDF15中和、癌症試驗|CKD資料不足；Table3／4安全訊號引文須再核實|\r\n|TCMCB07|MC4R拮抗、鼠模型|前臨床，不能當臨床處方|\r\n|bimagrumab／PINTA745|ActRII／myostatin方向|功能不一致；開發失敗不驗證另一藥，新聞不是完整試驗|\r\n\r\n- 作者建議嚴格PEW族群的IDPN加調節劑phaseII與MRI看BBB，本文尚未執行。（p.9）\r\n\r\n## 重要圖表重述\r\n**要點**：兩圖四表是作者整合框架；箭頭不代表已驗證的完整人體因果鏈。\r\n\r\n- Figure1／Table1（pp.3–4）：中樞發炎／BBB與周邊ghrelin-GOAT食慾失調。\r\n- Figure2／Table2（pp.5–6）：毒素、合成阻抗、蛋白降解、粒線體與介質目標。\r\n- Table3（p.7）：各疾病驅動、BBB、能量、體液與GDF15差異；心衰安全訊號不當已外查事實。\r\n- Table4（p.8）：候選藥物與風險；來源與CKD直接性須保留。\r\n\r\n## 機轉白話講解\r\n**要點**：作者以「燃料與引擎」說明：底物之外，利用與分解也可能影響肌肉。（p.7）\r\n\r\n- 食慾影響送進多少燃料；合成訊號影響利用；降解與粒線體影響留得住與能量供應。\r\n- 這是教學比喻，不能斷言患者「營養無用」。本文要求人體CKD試驗驗證。\r\n\r\n## 臨床意義 / 怎麼用\r\n**要點**：可理解營養反應差的研究問題，不能自行改藥、延後營養或套用候選組合。\r\n\r\n- 不單看體重，注意體液與功能；本文沒有驗證新診斷工具。\r\n- 仍須個別化照護；新框架不代表現行營養治療應停用。\r\n- 高度專科內容已選讀可儲存；不擴大成一般透析文章全數自動選入。\r\n- 無COI／資助、無新原始資料；宣告不能補足效果證據。（p.9）\r\n\r\n## 與既有認知的對照\r\n**要點**：本輪已查本機可讀筆記題名，protein-energy wasting／anabolic resistance／ghrelin／GDF15未找到可直接比較的筆記。\r\n\r\n- 不假造舊筆記或跨論文效果；這篇可作後續概念入口。\r\n\r\n## 概念 / 名詞整理\r\n**要點**：PEW是耗損表型；合成阻抗、厭食與分解路徑是可能機轉，不能互相當診斷。\r\n\r\n- PEW：蛋白／能量儲存耗損，體液使判讀複雜。\r\n- AG／DAG：醯化／去醯化ghrelin，GOAT參與醯化；總量不等於有效訊號。\r\n- AhR／IS：芳香烴受體與indoxyl sulfate，為機轉研究核心。\r\n- Akt/mTOR／FoxO/UPS：合成與降解兩端。\r\n- Sensitize-then-feed：作者待測假說，尚未是已驗證療法。\r\n\r\n## 自我測驗\r\n**要點**：辨認機轉與臨床用途的距離。\r\n\r\n> [!question]- Q1：總ghrelin升高為何不一定改善食慾？\r\n> 有AG／DAG比例、GOAT與受體反應問題；總量不代表有效訊號，機轉仍需人體CKD驗證。\r\n\r\n> [!question]- Q2：體重穩定能排除PEW嗎？\r\n> 不能。體液超負荷可掩蓋肌肉與脂肪損失；體重不等於功能。\r\n\r\n> [!question]- Q3：癌症藥物增重可直接用於CKD嗎？\r\n> 不能。疾病架構、心腎與血糖風險不同，增瘦體重也不保證功能改善。\r\n\r\n> [!question]- Q4：GOAT需要octanoate可證明MCT有用嗎？\r\n> 不能。底物關係不是人體治療試驗，未提供效益與劑量證據。\r\n\r\n> [!question]- Q5：「先增敏再營養」代表先停餵食嗎？\r\n> 不是。待測框架未驗證延後供應策略，不能據此停用或延後個別化營養。\r\n\r\n## Reference\r\n**要點**：依完整13頁、兩圖四表與作者限制整理，未把前臨床或引述試驗當成本篇新結果。\r\n\r\n- Li M等，*Advances in Nutrition*17(2026)100728。[DOI10.1016/j.advnut.2026.100728](https://doi.org/10.1016/j.advnut.2026.100728)。\r\n- 主文pp.1–9；References1–131 pp.9–13；原PDF首1、中7、末13頁目視核對，身份與CC BY首頁透過。\r\n- SourceSHA256 978c70763c1867da56e7e1821421b7228c04cab3c94c1db7b640626b56ed1e5f；TextSHA256 6cedd8e185ef7e427cc785c17b1af3cb84c80d39f99490d3cbfd371af02c9b2b。",
+      "cards": [
+        {
+          "title": "Ghrelin有效訊號",
+          "question": "總ghrelin升高為何不一定改善食慾？",
+          "answer": "AG／DAG比例、GOAT與受體反應亦重要；總量不代表有效訊號，機轉需人體CKD驗證。",
+          "tags": [
+            "CKD",
+            "ghrelin"
+          ]
+        },
+        {
+          "title": "體液與耗損",
+          "question": "體重穩定能排除PEW嗎？",
+          "answer": "不能。體液超負荷可掩蓋肌肉與脂肪損失；體重不等於肌肉功能。",
+          "tags": [
+            "CKD",
+            "PEW"
+          ]
+        },
+        {
+          "title": "跨疾病外推",
+          "question": "癌症藥物增重可直接用於CKD嗎？",
+          "answer": "不能。疾病架構、心腎與血糖風險不同，瘦體重增加不保證功能改善，需CKD專屬試驗。",
+          "tags": [
+            "CKD",
+            "證據直接性"
+          ]
+        },
+        {
+          "title": "機轉與療效",
+          "question": "GOAT需要octanoate可證明MCT有用嗎？",
+          "answer": "不能。底物關係不是人體治療試驗，本文沒有提供效益與劑量證據。",
+          "tags": [
+            "CKD",
+            "GOAT"
+          ]
+        },
+        {
+          "title": "框架邊界",
+          "question": "先增敏再營養代表先停餵食嗎？",
+          "answer": "不是。待測框架未驗證延後供應策略，不能據此停用或延後個別化營養。",
+          "tags": [
+            "CKD",
+            "營養照護"
+          ]
+        }
+      ],
+      "completedAt": "2026-10-12T10:28:31.380Z"
     }
   ]
 }
