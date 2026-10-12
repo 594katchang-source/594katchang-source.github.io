@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T09:39:07.134Z",
+  "generatedAt": "2026-10-12T09:52:08.459Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -95675,6 +95675,77 @@
       "content": "---\r\nreview_depth: quick\r\nreview_mode: focused-quick\r\n---\r\n\r\n# ICU轉至一般病房的營養師諮詢與營養供應：三中心回溯性研究評讀\r\n\r\n## 品質快照\r\n\r\n- **文章：**Association between dietary counselling and nutrition provision during transition from ICU to post-ICU wards. Three-centre retrospective analysis. Kutnik P, Pożyczka K, Dąbek A. *Clinical Nutrition ESPEN* 75 (2026), 105068。\r\n- **研究設計：**波蘭三院、非隨機、回溯性病歷稽核，103位ICU轉至院內病房成人。\r\n- **主要發現：**病房有營養師諮詢者的記錄蛋白達成率98.7%對69.1%、能量97.7%對69.1%，均p<.0001；沒有報告效應差的95% CI。ICU蛋白達成率121%對113%，p=.7，未證實組間差異。\r\n- **主要疑慮：**諮詢不是隨機，ICU諮詢組年齡47.8對63.6歲、住ICU10.5對4日，三院病房營養師制度也不同，全部未作多變項或中心校正。\r\n- **GRADE：**Very low ⊕◯◯◯，適用「諮詢與營養供應指標的關聯」，不代表已證實改善存活或功能。\r\n- **一句話：**資料支持ICU轉出有營養供應缺口，營養師參與與較接近計算目標相關；研究未證明其因果效應或病人臨床效益。\r\n\r\n## 白話導讀\r\n\r\n團隊比較ICU最後24小時和轉出後最初24小時，查看病歷上的需求目標、供應途徑、供應量、營養師參與及交班建議是否被遵循。103人中，ICU有58人（56.3%）諮詢營養師，病房有43人（41.7%）。全員都有轉出營養建議，但病房只有43人（41.7%）遵循。轉出後有諮詢者的記錄供應量比較接近目標；作者提出營養橋接的可能用途。這是照護過程稽核，沒有追蹤死亡、肌肉恢復或功能，也沒有把照護分配隨機化。（來源：pp.1–4）\r\n\r\n## 研究方法\r\n\r\n- 2025年7–12月，波蘭一所大學、一所三級、一所區域醫院；篩檢988人，103人符合分析條件。納入>18歲、ICU至少3日、轉院內病房；排除臨終照護、不完整紀錄和轉外院，不能視為全部ICU住院者的結果。\r\n- 三院ICU均依醫師請求可會診營養師；病房兩院每日接觸營養師，一院依醫師請求。各院流程不同。\r\n- 諮詢是營養需求評估、營養目標參與、攝取監測及途徑選擇建議；醫師仍負責營養處置。研究只記錄有無，沒有測量諮詢品質。\r\n- **達成率**=記錄的蛋白／能量供應÷計算需求×100%；沒有validated的「足夠／不足」切點。**目標偏差**=與100%的絕對差，超出和不足都計為正值。\r\n- BMI<30使用目前體重；≥30使用Lorentz理想體重加0.4×（目前−理想體重）的ABW。研究沒有查核記錄需求的計算是否準確。\r\n- 常態檢定後t檢定或Mann–Whitney U，類別卡方。未報事前樣本數計算、中心／混雜校正、多重比較校正或效應差CI。（來源：Methods pp.2–3）\r\n\r\n## 主要結果\r\n\r\n|比較／結果|有諮詢或遵循|無諮詢或未遵循|p|來源|\r\n|---|---:|---:|---:|---|\r\n|ICU能量達成率|104%|88%|.02|p.3 §3.1|\r\n|ICU能量目標絕對偏差|11%|45%|<.0001|p.3 §3.1|\r\n|ICU蛋白達成率|121%|113%|.7|p.3 §3.1|\r\n|病房蛋白達成率|98.7%|69.1%|<.0001|pp.3–4 §3.1|\r\n|病房能量達成率|97.7%|69.1%|<.0001|pp.3–4 §3.1|\r\n|病房蛋白目標絕對偏差|20.8%|41.3%|<.0001|p.3 §3.1|\r\n|病房能量目標絕對偏差|13.9%|37.3%|<.0001|p.3 §3.1|\r\n|遵循ICU交班建議者：蛋白達成率|103.5%|64.6%|<.0001|p.4 §3.2|\r\n|遵循ICU交班建議者：能量達成率|99.4%|66.8%|<.0001|p.4 §3.2|\r\n|遵循組使用EN|69.7%|21.7%|<.0001|p.4 §3.2|\r\n|遵循組使用ONS|51.2%|26.7%|.01|p.4 §3.2|\r\n\r\n達成率是紀錄供應對紀錄目標的比值，不能直接當成實吃比例或經驗證的臨床營養充足率。數據高於100%也不能一律視為較佳結果。病房諮詢組43人與遵循組43人高度重疊，作者承認兩者獨立效應無法拆開。（來源：Methods p.3；Discussion p.5）\r\n\r\n## 品質評讀\r\n\r\n|領域|判定|依據|\r\n|---|---|---|\r\n|選擇與適用族群|有疑慮|只含ICU生存並轉院內病房、有完整紀錄者，平均54.7歲；一半有癌症，非全體ICU或特定高齡族群。|\r\n|混雜與可比較性|嚴重疑慮|ICU有諮詢者比無諮詢者年輕15.8歲，住ICU中位10.5對4日；中心制度與醫師會診選擇也影響分組，沒有校正。|\r\n|暴露／結果量測|嚴重疑慮|有無諮詢未涵蓋品質；需求計算未稽核；一般餐食供應依廚房資料，不一定等於患者實際吃入。|\r\n|時間與結果範圍|有疑慮|只評估末日ICU與首日病房的兩個24h，沒有長期攝取、肌肉或臨床結果。|\r\n|統計與精確度|有疑慮|103人、多項未校正比較；未報CI，無法評估各估計區間或與臨床重要差異比較。|\r\n\r\n### 統計與臨床意義\r\n\r\n- 病房諮詢組的總蛋白供應1.49±0.41對0.86±0.48 g/kg，總能量26.97±6.71對16.27±8.03 kcal/kg，兩者p<.0001；目標也不同（蛋白1.51對1.25 g/kg、能量27.53對23.57 kcal/kg）。供應量與目標計算都與照護分組相關，不能把比率差單獨解讀成治療效果。（Table 2 p.4）\r\n- 沒有MCID或營養達成率分類界值，不能把平均98%稱作每個人「都足夠」。無功能、死亡或併發症數據，不能計算NNT或臨床效益。\r\n- Table 2的60人欄重複標為counselling；Methods與註腳確認為no-counselling。Table 3部分g／kcal單位似省略/kg，本文引用百分比結果及Table 2明確單位，保留原報告疑點。（pp.4–5）\r\n\r\n### GRADE\r\n\r\n此單一觀察性關聯研究起始Low。未控制重要分組／中心混雜及記錄量測問題，risk_of_bias評very serious降2級；樣本小且沒有主要效應CI，imprecision降1級。其餘領域未追加降級，單篇不能檢查跨研究一致性或出版偏差。無升級；`grade_judge.py`計算Very low ⊕◯◯◯。這個判定限於本篇關聯估計。\r\n\r\n### 推論與作者限制\r\n\r\n作者摘要使用「可由整合營養師減輕」的改善語句；若解讀成已證實的因果效應，`argdown_lint.py`會標記association→causation。本文採「有關聯」；Discussion也承認ICU住院時間、重疊組與回溯限制，並要求前瞻研究證實臨床結果，這些限制不能被p值抹去。（pp.1、5–6）\r\n\r\n## 臨床應用（Clinical Application）\r\n\r\n- 可作ICU轉出流程稽核的參考：交班是否寫明目前需求、實際供應、營養途徑、監測與再次評估，而非只寫可口服。\r\n- 作者提出營養橋接包括明確能量／蛋白目標、結構化文件、補充／升級條件與重評；這是作者建議，研究尚未測試這套計畫的療效。\r\n- 營養師參與率與交班遵循率都不足一半，提示流程缺口；實務可先核對記錄供應與實吃，再按病人當下狀態作個別照護，不照抄本研究均值為處方。\r\n- 作者提醒「蛋白達標」與「越高越好」不同；本研究ICU諮詢未證實蛋白達成率差異，不支持高劑量蛋白、特定產品或固定餵食途徑的療效結論。（Background p.2、Discussion pp.5–6）\r\n\r\n## 作者、經費、利益衝突與查核範圍\r\n\r\n作者Paweł Kutnik、Konrad Pożyczka、Agnieszka Dąbek。本文無研究資助；Kutnik與Dąbek揭露過往營養／藥業的講課、顧問報酬，Pożyczka聲明無利益衝突；揭露本身不等於資料不可信，但應納入解讀。倫理委員會5/2026，回溯研究免同意。focused-quick未外查期刊指標、作者履歷、撤稿資料庫或全部25筆引文。（PDF p.6）\r\n\r\n## 全文證據與來源\r\n\r\n[DOI 10.1016/j.clnesp.2026.105068](https://doi.org/10.1016/j.clnesp.2026.105068)。來源為身份與正文核驗通過的使用者提供PDF，共7頁，首頁CC BY-NC 4.0。本文主文、三表、作者承認限制、經費／COI、25筆參考資料逐頁讀完；首頁p.1、中項p.4與末項p.7渲染目視核對通過。\r\n\r\n來源SHA-256 `ffad231c977972d5802e158f23e4476608f684e5b7b32133f12e889dcd6643be`，Worker verified text SHA-256 `8c8718b5f3b47e99604f3d1416573cdd244c08ea9c596a9c84738b659eca2134`。方法pp.2–3；主要結果pp.3–4；Tables1–3 pp.4–5；Discussion／limitations／COI pp.5–6；Reference pp.6–7。\r\n\r\n原PDF的少數波蘭姓名／地名在native extraction中出現替代字元；本機Poppler後仍有字元損失，因此使用7頁本機OCR復原可讀UTF-8。主要數字、單位、作者名均以原PDF與渲染頁核對，OCR的±字形不作數值推估。原文檔、舊雜湊與未登錄的執行證據保留。",
       "cards": [],
       "completedAt": "2026-10-12T09:38:40.492Z"
+    },
+    {
+      "id": "doi:10.1016/j.clnesp.2026.105068:digest",
+      "paperId": "doi:10.1016/j.clnesp.2026.105068",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Association between dietary counselling and nutrition provision during transition from ICU to post-ICU wards. Three-centre retrospective analysis.",
+      "authors": "",
+      "journal": "Other nutrition journals (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.clnesp.2026.105068",
+      "abstract": "Adequate nutrition is crucial in critical illness and remains important after discharge from the intensive care unit. The transition from enteral to oral feeding increases the risk of protein and energy deficiency. This study evaluated whether structured dietary counselling affects nutritional provision and reduces deviation from calculated nutritional goals during hospitalization and the transition from the intensive care unit to the post-intensive care unit. This retrospective study included adult patients discharged from the intensive care unit to in-hospital wards after ≥3 days of stay (July-December 2025). Data from the last day of stay in the intensive care unit and the first day after leaving the unit were analysed, including calculated energy and protein requirements and actual oral, enteral, and parenteral intake. Patients were compared in terms of the presence of dietary counselling in the intensive care unit, counselling after leaving the intensive care unit, and adherence to ICU's discharge recommendations. This study included 103 patients. In the ICU dietary counselling was present in 56.3% of patients and improved energy adequacy (104% vs 88%, p = 0.02), reduced energy goal deviation (11% vs 45%, p < 0.0001), and favoured higher energy enteral formulas (1.42 kcal/mL vs 1.17 kcal/mL, p < 0.0001). Protein adequacy and goal deviations did not differ between groups. In the post-ICU wards dietary counselling was present in 41.7% of patients and improved both protein and energy adequacy (protein: 98.7% vs 69.1%, p < 0.0001; energy: 97.7% vs 69.1%, p < 0.0001), as well as reduced goal deviations (protein: 20.8% vs 41.3%, p < 0.0001; energy: 13.9% vs 37.3%, p < 0.0001). In addition to the nutritional impact of post-ICU dietary counselling, adherence to ICU discharge recommendations was associated with a higher frequency of enteral nutrition and ONS use (enteral: 69.7% vs 21.7%, p < 0.0001; ONS: 51.2% vs 26.7%, p = 0.01). This study provides audit evidence indicating opportunity for optimalization in both ICU and post-ICU nutrition. Discontinuity in prescriptions and inadequate nutrition provision were frequent in our cohort and resulted in suboptimal nutritional intake. In our study, dietary counselling, throughout hospital care was associated with lower energy and protein goal deviation and lower energy and protein inadequacy. In conclusion, ICU to post-ICU transitions remain a critical vulnerability in nutritional care. These challenges can be attenuated by the integration of clinical dietitians into the ICU and post-ICU standard of care.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42660495/",
+      "category": "recommended",
+      "tags": [
+        "dietitian clinical nutrition",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "ICU轉出營養供應與交班：三中心研究內容整理",
+      "content": "---\ntags: [research/digest, clinical-nutrition, ICU-transition]\ncitekey: Kutnik2026ICUTransition\ndoi: 10.1016/j.clnesp.2026.105068\nmode: worker-batch\n---\n\n> [!summary] 30 秒層：ICU轉出時，營養供應與交班之間仍有缺口\n> - 三院103位成人，觀察ICU最後24小時與病房最初24小時。\n> - 病房營養師諮詢43人；記錄蛋白達成率98.7%對69.1%，能量97.7%對69.1%。\n> - 全員都有ICU營養交班建議，只有43人（41.7%）被遵循。\n> - 達成率是記錄供應除以計算需求；一般餐食的供應量可能不同於實吃量。\n> - 品質：配對focused-quick評讀為Very low；未證明因果、存活或功能效益。\n\n## 5分鐘重點\n**要點**：先辨明「需求、供應、實吃與交班」四件事，再解讀諮詢與達成率的關聯。\n\n1. 問題是轉出後營養照護能否連續，並非比較特定產品。\n2. 諮詢包含需求評估、目標參與、攝取監測及途徑建議；研究只記錄有無。\n3. ICU諮詢和能量指標相關，蛋白達成率未見差異；病房有諮詢者兩項達成率都較高。\n4. 交班建議存在不代表被執行；遵循組與諮詢組重疊，不能拆出獨立效果。\n5. 可用於照護流程稽核；本研究均值不能直接變成個人處方。\n\n## 研究問題 / 背景\n**要點**：離開ICU不代表營養風險消失，轉出時的供應途徑與照護交接可能中斷。（pp.1–2）\n\n- ICU倖存者仍可能有食慾、吞嚥、胃腸耐受、肌肉流失及疾病相關營養困難。口服恢復不能單憑「可進食」認定供應足夠。\n- 作者關心營養師參與與營養供應的關聯，以及ICU建議在病房是否落實。背景提醒蛋白需求與「越高越好」不同；本文沒有比較蛋白劑量療效。\n- 研究目標是回溯稽核ICU／病房各一日，而非測試完整營養橋接計畫。\n\n## 方法\n**要點**：2025年7–12月、波蘭三院回溯性觀察研究；分組由實際照護決定，沒有隨機化。（pp.2–3）\n\n- 篩檢988人，納入103名>18歲、ICU至少3日並轉院內病房者；排除臨終、不完整紀錄與轉外院。62人男性、53人癌症，平均年齡54.7歲，ICU住院中位7日。\n- 三院ICU皆依醫師請求可諮詢營養師；病房兩院每日有營養師，一院依醫師請求。醫師仍負責營養處置。\n- 比較ICU最後24小時與轉出首24小時的需求目標、口服／ONS／EN／PN供應、諮詢及交班遵循。\n- BMI<30用目前體重；≥30用調整體重ABW，即Lorentz理想體重+0.4×（目前−理想）。需求由紀錄取得，計算準確性沒有另行驗證。\n- 達成率=記錄供應÷計算需求×100%；絕對偏差=達成率距100%的絕對值。沒有經驗證的足夠／不足界值。\n- t檢定或Mann–Whitney U、類別卡方；沒有中心／混雜校正、主要效應CI、事前樣本數或多重比較校正。\n\n## 主要發現\n**要點**：病房諮詢與交班遵循皆和較接近目標的供應相關，但不是獨立的隨機介入效果。（pp.3–5）\n\n|比較／指標|有諮詢或遵循|無諮詢或未遵循|p|\n|---|---:|---:|---:|\n|ICU能量達成率|104%|88%|.02|\n|ICU能量絕對偏差|11%|45%|<.0001|\n|ICU蛋白達成率|121%|113%|.7|\n|病房蛋白達成率|98.7%|69.1%|<.0001|\n|病房能量達成率|97.7%|69.1%|<.0001|\n|病房蛋白絕對偏差|20.8%|41.3%|<.0001|\n|病房能量絕對偏差|13.9%|37.3%|<.0001|\n|遵循交班：蛋白達成率|103.5%|64.6%|<.0001|\n|遵循交班：能量達成率|99.4%|66.8%|<.0001|\n|遵循交班：使用EN|69.7%|21.7%|<.0001|\n|遵循交班：使用ONS|51.2%|26.7%|.01|\n\n- ICU有諮詢58人、無45人；前者較年輕（47.8對63.6歲）、ICU較久（10.5對4日），均p<.0001。這些差異限制因果解讀。\n- 病房有諮詢43人、無60人：Table 2總蛋白1.49±0.41對0.86±0.48 g/kg、能量26.97±6.71對16.27±8.03 kcal/kg；目標亦不同，蛋白1.51對1.25 g/kg、能量27.53對23.57 kcal/kg。\n- 103人都有交班建議，僅43人遵循；諮詢與遵循組高度重疊，作者無法拆開各自效果。\n- 供應百分比不等於實吃百分比；超過100%不自動表示更好。沒有死亡、肌力、功能、長期攝取或併發症效益分析。\n\n## 重要圖表重述\n**要點**：三張表依序呈現ICU組別、病房組別及交班遵循；表頭與單位有需保留的疑點。（Tables1–3，pp.4–5）\n\n- Table 1：ICU諮詢组58人對45人，人口學、體重、計算需求及各營養途徑供應。年齡與ICU日數不平衡。\n- Table 2：病房43人對60人，蛋白／能量目標及途徑供應；60人欄重複標counselling，依Methods與註腳應解讀為無諮詢。\n- Table 3：遵循43人對未遵循60人，供應途徑及目標指標。部分g／kcal單位疑省略/kg，本文不擅自修正，採正文百分比與Table2明確單位。\n- 全文無需另重繪的核心機轉圖；研究的流程關係為「ICU計畫→病房執行→供應稽核」，不是已測試有效的治療演算法。\n\n## 臨床意義 / 怎麼用\n**要點**：先改善交班與量測連續性，不能由這份回溯資料指定產品、劑量或預期臨床療效。（Discussion pp.5–6）\n\n- 作者提議明確目標、結構化營養文件、補充／升級條件與重評的營養橋接；這套計畫尚未被本研究試驗。\n- 營養師可稽核ICU轉出時是否留下需求估計、供應與實吃資訊、目前途徑、耐受性及重評安排；需要按病人的當下狀態決定照護。\n- 研究只跨兩天，三院SOP不同，諮詢品質未量測，需求與廚房供應資料可能有誤差。不能把統計顯著當成臨床改善已證实。\n- 本研究屬成人ICU存活轉病房者，一半癌症；不能外推至兒少、臨終或全部ICU患者。\n\n## 與既有認知的對照\n**要點**：本機既有重症營養筆記關心「途徑與替代標記」，本篇增加「轉出交班與供應是否接續」的流程問題。\n\n- 已搜尋本機可讀筆記的post-ICU、critical illness、intensive care與nutrition transition。找到《急性缺血性中風重症營養路徑與生物標記變化的品質評讀》（DOI10.5144/0256-4947.2026.376）。\n- 舊筆記的核心限制是EN／PN按病況分派、替代標記不能代替病人功能；本篇同樣不能由照護分組推因果，但量測焦點改為供應比率與交班落實。\n- 這是筆記間概念比較，沒有宣稱本篇直接重複或否定該研究，也未把另一研究的數字移作本篇結論。\n\n## 概念 / 名詞整理\n**要點**：把目標、達成率與偏差拆開，才不會把高比率一律當成功。（Methods p.3）\n\n- **IDC／INC**：ICU有／無營養師諮詢；**PDC／PNC**：病房有／無諮詢。\n- **FR／NF**：遵循／未遵循ICU营養交班建議；與PDC分組重疊。\n- **ONS**口服營養補充、**EN**腸道營養、**PN**靜脈營養；本篇記錄使用與供應，不是比較途徑療效。\n- **目標達成率**與**目標絕對偏差**：例如超過目標的供應也會增加偏差；這是公式的意義，不是本文新增病人數據。\n- **Nutrition bridging**：作者提出跨照護階段維持計畫、文件與追蹤的概念；尚需前瞻研究。\n\n## 自我測驗\n**要點**：能辨別資料量測範圍、分組混雜與可採用的流程行動，比背p值更重要。\n\n> [!question]- Q1：病房98.7%蛋白達成率代表實吃足夠嗎？\n> 不一定。它是記錄供應除以計算需求，廚房供應不一定等於吃入；需求本身未驗證，也沒有足夠的臨床界值。\n\n> [!question]- Q2：為何不能說營養師諮詢造成較好的供應？\n> 非隨機分組；ICU諮詢組較年輕、住院較久，三院制度不同。没有混雜或中心校正，諮詢與交班遵循也重疊。\n\n> [!question]- Q3：交班建議存在是否足夠？\n> 不足。103人都有建議但僅43人（41.7%）遵循，應稽核病房實際執行、供應與重評，而非只看文件有無。\n\n> [!question]- Q4：可否用ICU蛋白結果推薦更多蛋白？\n> 不能。121%對113%的達成率p=.7，未證實差異；本篇沒有比較劑量療效或長期功能結果。\n\n> [!question]- Q5：本篇最合理的實務用途是什麼？\n> 作為營養交班與供應連續性的流程稽核參考。作者營養橋接構想仍待前瞻验证，不能把均值直接當個人處方。\n\n## Reference\n**要點**：依身份匹配的7頁完整PDF、三表與作者限制整理；原PDF首中末目視核對，OCR復原文字未改變來源。\n\n- Kutnik P, Pożyczka K, Dąbek A. *Clinical Nutrition ESPEN* 75(2026)105068. [DOI10.1016/j.clnesp.2026.105068](https://doi.org/10.1016/j.clnesp.2026.105068)。\n- 本文自行改寫教學筆記，未轉貼原文全文。方法pp.2–3、結果pp.3–4、Tables1–3 pp.4–5、Discussion／限制／倫理／經費／COI pp.5–6、References pp.6–7。\n- 無資助；Kutnik與Dąbek揭露過往營養／藥業講課顧問報酬，Pożyczka無COI。倫理5/2026、回溯研究免同意，資料可合理要求。\n- 完整來源SHA-256 ffad231c977972d5802e158f23e4476608f684e5b7b32133f12e889dcd6643be；可讀文字SHA-256 8c8718b5f3b47e99604f3d1416573cdd244c08ea9c596a9c84738b659eca2134。原文字替代字元經Poppler後仍存在，再以7頁本機OCR復原，數字以原PDF核對。",
+      "cards": [
+        {
+          "title": "供應與實吃",
+          "question": "病房98.7%蛋白達成率代表實吃足夠嗎？",
+          "answer": "不一定。記錄供應除以計算需求，廚房供應未必等於吃入，需求未驗證且沒有足夠的臨床界值。",
+          "tags": [
+            "營養供應",
+            "ICU轉出"
+          ]
+        },
+        {
+          "title": "分組混雜",
+          "question": "為何不能說營養師諮詢造成較好的供應？",
+          "answer": "非隨機分組；ICU諮詢组較年輕、住院較久，三院制度不同；沒有混雜與中心校正，交班遵循與諮詢又重疊。",
+          "tags": [
+            "觀察研究",
+            "ICU轉出"
+          ]
+        },
+        {
+          "title": "交班執行",
+          "question": "交班建議存在是否足夠？",
+          "answer": "不足。103人都有建議但只有43人（41.7%）遵循，須稽核病房實際執行、供應與重評。",
+          "tags": [
+            "營養交班",
+            "ICU轉出"
+          ]
+        },
+        {
+          "title": "蛋白結果邊界",
+          "question": "可否用ICU蛋白結果推薦更多蛋白？",
+          "answer": "不能。121%對113%達成率p=.7，未證實差異；沒有比較劑量療效或長期功能。",
+          "tags": [
+            "蛋白質",
+            "ICU轉出"
+          ]
+        },
+        {
+          "title": "流程應用",
+          "question": "本篇最合理的實務用途是什麼？",
+          "answer": "作為營養交班及供應連續性的稽核參考。橋接構想待前瞻驗證，均值不能當個人處方。",
+          "tags": [
+            "營養照護",
+            "ICU轉出"
+          ]
+        }
+      ],
+      "completedAt": "2026-10-12T09:51:43.279Z"
     }
   ]
 }
