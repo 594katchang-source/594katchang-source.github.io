@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T04:55:23.875Z",
+  "generatedAt": "2026-10-12T05:02:43.591Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -94866,6 +94866,86 @@
       "content": "---\ntags:\n  - source/journal\ncitekey: \"Li2026DietaryPatternsCKD\"\ndoi: \"10.3389/fnut.2026.1858619\"\njournal: \"Frontiers in Nutrition\"\nyear: 2026\nauthors: \"Jinglong Li; Qisen Zhu; Jian Ding; Nik Nur Izzati Nik Mohd Fakhruddin\"\nstudy_type: \"systematic review of mixed intervention and observational evidence\"\npmid: \"42819067\"\nreview_depth: \"quick\"\n---\n\n> [!info] 品質快照\n> **設計**：混合證據系統性回顧／敘述綜合｜**n**：31 篇報告（並非一個共同樣本）｜**RoB**（AMSTAR-2 critical domains，質性檢視）：🔴 critically low\n> **GRADE**：作者按主題給 moderate、low、low、very low；本次以確定性計算器對四個寬泛主題做保守重算皆為 very low，不能代替 outcome-specific GRADE｜**Registration**：🔴 摘要與方法列出的 PROSPERO 編號不同，登錄頁未能核實\n> **一句話 verdict**：題目高度貼近高齡 T2D+CKD 營養照護，但註冊矛盾、搜尋限制及多處研究表格與原始研究不符，使效果方向、研究設計與作者 GRADE 都不宜直接採用。\n\n# Key Points\n\n## Summary\n\n> ✅ 已讀完並核對可讀全文（18 頁；PDF SHA-256 `69849b3c463eb56163afcad933a67a9401a52f414f294ff873d5e6f22d5ccdcd`；全文文字 SHA-256 `35fac5cfbd2d66b343d9392aaa556e3ac3e47fba073a51bf09c0fc49c42f3173`）\n\n- 作者回顧飲食品質、蛋白質／鈉／碳水、抗氧化營養及身體活動四類文獻，納入 31 篇，因研究差異大而採敘述整理、沒有統合分析。\n- 文中報告的鈉限制結果包含 24 小時收縮壓下降 10.8 mmHg（95% CI −17.0 至 −4.6）；這是血壓指標，不能當成已證實延緩腎衰竭。其他列出的 HbA1c、體重及腎功能數字亦須先回到原始研究核對。\n- 核對 PubMed 原始紀錄後，至少四筆表格設計／主題標示與所引文獻不符，包含把橫斷研究寫成介入、把觀察性世代研究寫成 RCT，以及把運動 RCT 分到蛋白質管理。這會影響讀者能否追溯每個結論來自哪一研究。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：作者想整理飲食和活動與高齡第二型糖尿病合併慢性腎臟病之腎臟、代謝結果的關係，但實際納入不少不是這個完整族群的間接研究。\n> - **為什麼做**：作者認為只靠藥物和血壓管理不足以回答日常生活型態能否改善腎臟及代謝指標，因此查五個資料庫，檢視 2015–2025 年英文人體研究。\n> - **主體**：31 篇報告分成四組：飲食品質；蛋白質、鈉與碳水調整；抗氧化／抗發炎營養；運動與自我管理。作者以敘述方式整理，沒有把不同研究合併成 pooled effect。文中引用一些飲食品質關聯、短期血壓／血糖變化、營養補充品生物標記及活動能力結果；研究族群、設計和測量方式差異很大。\n> - **所以呢**：這篇可作為「有哪些研究主題值得追查」的入口，不能直接據此決定個別患者的蛋白質、鈉、補充品或運動處方。註冊號互相矛盾，且多個研究表格和正式文獻不一致，建議先查原始試驗／隊列研究再作臨床引用。\n\n## Clinical Application\n\n- **適用情境：**作為高齡 T2D 合併 CKD 生活型態證據的初步索引，協助找出飲食型態、蛋白質／鈉調整、活動與功能結果等可進一步追查的主題。\n- **個人照護界線：**本文沒有可靠的 outcome-specific pooled estimate，亦未提供足以直接套用的統一族群、分期、介入劑量與長期硬終點。鈉限制的血壓變化、短期生物標記或單一研究不能直接替代腎衰竭、死亡、營養不良或功能結果；不可由本文單獨指定蛋白質或補充品處方。\n- **台灣適用性：**納入族群地區及 CKD／年齡條件不一致，未提供台灣族群估計。需先確認原始研究和本地照護條件，不可把「高齡 T2D+CKD」標題視為所有結果都來自該族群。\n\n# Paper Details\n\n## Methods\n\n- **設計：**混合隨機／非隨機介入及觀察研究的系統性回顧，採 SWiM 式敘述綜合，不做統合分析。\n- **問題與範圍：**PIO 聚焦老年 T2D+CKD 的飲食、營養、活動及腎臟結果；作者亦保留廣義 CKD 或 T2D 研究作「間接證據」。\n- **搜尋：**PubMed、EMBASE、Scopus、Web of Science Core Collection、Cochrane；文章稱最終搜尋日期 2025-12-31，檢索 2015-01-01 至 2025-12-31 的英文人體研究。Table 2 顯示 PubMed filters 含多個 publication type，EMBASE 只限臨床研究且要求受控試驗／RCT，這與納入觀察研究的研究問題不一致。\n- **篩選：**1,093 records；去除 318 重複後 775；標題排除 635、140 篇摘要排除 67、73 篇全文排除 42，納入 31。流程圖 p.6 的數字加總相符，但全文排除理由未逐篇列文獻與理由。\n- **擷取與品質：**兩位作者獨立擷取並交叉核對；使用 MMAT 2018 逐研究標示百分比；另將 GRADE 套在四個寬泛主題。\n- **主要方法疑點：**摘要列 PROSPERO CRD420251087535，方法段列 CRD420251246555；兩個 PROSPERO 網址本輪均未能讀回核對。文中說資格條件經修訂並重新篩選，但未交代修訂內容及時間。\n\n## Key Findings\n\n1. **飲食型態／品質：**作者報告較高飲食品質與較佳腎臟指標相關。Table 10 列 OR 0.73（CKD）、OR 0.59（eGFR<60）及 OR 0.77（白蛋白尿），但未在該表完整連回每個估計的研究、族群、調整變項及精確度；不應把這些數字當作單一統合效果。\n2. **蛋白質、鈉與碳水：**作者引用降低蛋白質可能與較低 RRT 發生相關，但營養不良者可能有較高死亡風險；亦列鈉限制短期降低收縮壓，以及極低碳水研究短期 HbA1c／體重變化。介入和觀察關聯混在同一主題中，長期腎臟結果未確立。\n3. **抗氧化／抗發炎：**包含維生素 E、茄紅素、curcumin、probiotic soy milk、dietary inflammatory index 等不同證據；多為短期 biomarker 或橫斷關聯，不能推論長期腎臟硬終點。\n4. **活動／自我管理：**作者整理運動、久坐、健康識能和自我照護。PubMed 的 Leehey exercise RCT 摘要記載 n=36 隨機、32 人完成，12 週監督運動加飲食管理與單獨飲食管理相比，運動能力改善，但腎功能組間差異不顯著；這與本文把該文引用列在「蛋白質管理」表格的分類不符。\n5. **研究數：**四主題列數合計 31，但參考文獻 29–31 是同一研究團隊同一 12 週 VLCBD 試驗的三份相關報告；文中沒有清楚說明主題計數採「報告」還是「獨立試驗」，存在重複計入證據的可能。\n\n## Critical Appraisal\n\n### AMSTAR-2 critical domains（質性判定）\n\n| 領域 | 判定 | 根據 |\n|---|---|---|\n| 事前方案／註冊 | 🔴 | 摘要及方法段各列一個不同 PROSPERO ID；登錄頁未核實，資格條件修訂未解釋。 |\n| 搜尋是否充分 | 🔴 | 雖列五個資料庫及完整搜尋式，但 EMBASE 限 RCT／受控試驗卻宣稱納入觀察研究；PubMed 限制較多，並排除非英文及灰色文獻。 |\n| 全文排除清單 | 🔴 | 42 篇全文排除只有聚合理由，未列可能符合者及逐筆排除理由。 |\n| 納入研究與資料可靠性 | 🔴 | Tables 6–9 的若干作者、設計、主題或結果與相同編號 References 不符，獨立查 PubMed 亦確認多例；影響結果可追溯性。 |\n| 偏差評估 | 🟡 | 使用 MMAT 且逐研究列值，但研究設計標示／表格映射有錯，無法完全信任評估欄位與研究的對應。 |\n| 綜合方法與異質性 | 🔴 | 不統合分析的理由可理解，但混合暴露與結果後只作方向性歸納，沒有正式探查異質性；主題層級 GRADE 無 outcome-specific profile。 |\n| 發表／報告偏差 | 🔴 | 未報告評估缺漏結果或發表偏差的方法。 |\n| 資助與利益 | 🟡 | 作者聲明本篇無財務支持／無競爭利益；未清楚提供每篇納入研究的資助資訊及其對解讀的影響。 |\n\n**整體：critically low confidence（質性 AMSTAR-2 判定）**。多個關鍵方法與資料映射問題同時存在；表格錯置使讀者難以判斷哪些主要結果確實支持作者的主題結論。這不是 AMSTAR-2 官方總分。\n\n### GRADE（決定性計算器重算，主題級、非 outcome-specific）\n\n使用安裝技能的 `grade_judge.py`，四個寬泛主題均以觀察證據占主／混合且無法視為 RCT-dominant，故從 low 開始；表格研究映射問題列為 very serious risk of bias，其他異質、間接及不精確各列 serious；發表偏差未被評估但無足夠證據僅因未評估再降級。計算器結果四主題皆為 **very low**（Patterns net −5；Macronutrients net −5；Antioxidant net −6；Activity net −5）。這些是針對本文呈現資料的保守主題級重算；因本文沒有完整 outcome-level evidence profiles，不能視為可供臨床決策的新 GRADE 結論。作者原列依序 moderate、low、low、very low，與本次方法品質疑慮後的重算不一致。\n\n### 統計、spin 與推論\n\n- **數值與臨床重要性：**本文沒有單一主要 outcome，也未完整提供所有納入研究的 effect estimate、precision、追蹤期及目標族群。血壓、HbA1c、白蛋白尿及肌酸酐型 eGFR 都需與患者重要結果分開解讀；本次不替異質指標設定單一 MCID。\n- **原始研究核對：**PubMed 將 Ding et al. DOI 10.1111/jhn.13245 描述為 1,522 名 ≥18 歲成人的橫斷研究，而 Table 6 把它列為 CKD/T2D 飲食介入；Tauchi et al. DOI 10.1007/s10157-019-01796-5 是 449 名成人的歷史世代研究，而 Table 7 列成高齡者 RCT；Malhotra et al. DOI 10.1016/j.numecd.2016.07.009 是 nested case-control，而 Table 7 列為介入研究。Leehey et al. DOI 10.1159/000447703 是運動 RCT，而 Table 9 將其列在蛋白質管理。這些錯置由正式參考文獻編號與 PubMed 原始摘要互相核對。\n- **論證：**作者結論多用「associated」及「may」，並承認異質性；但 Practical implications 進一步建議將整合介入納入常規照護。針對「可改善腎臟硬終點」這個較強的臨床解讀，`argdown_lint.py` exit 1，標出 surrogate-to-hard-endpoint 跨越。本文可支持進一步研究和個別評估的理由，不能支持該強因果解讀。\n- **資助／利益：**作者聲明未獲本研究／出版經費，且無可構成競爭利益的商業或財務關係。\n\n### 🟢 優點／🔴 風險／🟡 注意\n\n- 🟢 聚焦臨床重要且常見的高齡 T2D+CKD 交集；明列五資料庫、納排條件、篩選流程、MMAT 及 GRADE；作者承認間接族群與短追蹤限制。\n- 🔴 兩個註冊號互相矛盾；資料庫 filters 與混合設計問題不相稱；多處研究表格欄與原始研究錯配；未列逐篇全文排除理由，且未評估發表偏差。\n- 🟡 把「31 篇報告」視作 31 個獨立證據單位尚未釐清；極低碳水三篇相關報告可能來自同一試驗。實際臨床數值須回到原始研究逐篇核對。\n\n## Resource\n\n- [Frontiers 原文全文](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1858619/full)\n- [PubMed 原始紀錄：Ding et al.](https://pubmed.ncbi.nlm.nih.gov/37795524/)\n- [PubMed 原始紀錄：Tauchi et al.](https://pubmed.ncbi.nlm.nih.gov/31587125/)\n- [PubMed 原始紀錄：Malhotra et al.](https://pubmed.ncbi.nlm.nih.gov/27562875/)\n- [PubMed 原始紀錄：Leehey et al.](https://pubmed.ncbi.nlm.nih.gov/27385652/)\n- [摘要列出的 PROSPERO 註冊連結 CRD420251087535](https://www.crd.york.ac.uk/PROSPERO/view/CRD420251087535)；本輪無法讀回核實。\n- [PRISMA 2020 官方 checklist](https://www.prisma-statement.org/prisma-2020-checklist)；本篇 27 項核對見 [`prisma2020-check-fnut2026.md`](../process/prisma2020-check-fnut2026.md)。\n- 文內定位：背景 pp.1–2；PIO／方法／搜尋 pp.2–5；流程圖 p.6；MMAT pp.7–8；GRADE 與四主題 pp.9–15；討論、限制、實務意涵與聲明 pp.15–18。\n- 全文結構與首中末核對紀錄：[`source-structure-outline-fnut2026.md`](../process/source-structure-outline-fnut2026.md)。\n\n## Source\n\nLi J, Zhu Q, Ding J, Nik Mohd Fakhruddin NNI. Dietary patterns and physical activity in relation to renal and metabolic outcomes among older adults with type 2 diabetes and chronic kidney disease: a systematic review. *Frontiers in Nutrition*. 2026;13:1858619. doi:10.3389/fnut.2026.1858619. Published 16 September 2026. Open access, CC BY.\n\n- Worker 全文路徑：Unpaywall 發現 → Frontiers 官方 PDF；DOI 與英文題名完全吻合，PDF 18 頁可讀，1–18 頁均有可讀主文；未使用使用者提供 PDF。\n- 註冊證據：官方全文摘要連至 CRD420251087535，方法段列 CRD420251246555；本輪兩筆登錄均未能由 PROSPERO 網頁獨立確認。\n- Quick review：依 Worker 模式略過作者背景、期刊指標、引用影響分析及廣泛逐篇 CrossRef 查核；因表格映射風險，追加四筆 PubMed 原始研究核對。\n- PRISMA 2020 27 項逐項檢查：見 process/prisma2020-check-fnut2026.md。\n- GRADE 計算器輸入／輸出及論證 lint：見 process/grade-input-fnut2026-*.json、grade-output-fnut2026-*.json、argmap-fnut2026.json、argdown-lint-fnut2026.json。\n- PDF 原檔、完整原文、私人紀錄及私人備註排除於公開成果。",
       "cards": [],
       "completedAt": "2026-10-12T04:52:16.674Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1858619:digest",
+      "paperId": "doi:10.3389/fnut.2026.1858619",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Dietary patterns and physical activity in relation to renal and metabolic outcomes among older adults with type 2 diabetes and chronic kidney disease: a systematic review.",
+      "authors": "Li J, Zhu Q, Ding J, Nik Mohd Fakhruddin N",
+      "journal": "",
+      "year": "",
+      "doi": "10.3389/fnut.2026.1858619",
+      "abstract": "Lifestyle modification is increasingly recognized as a critical component in the management of chronic kidney disease (CKD), particularly among elderly individuals with type 2 diabetes, a population at high risk of disease progression and comorbidities. While pharmacological treatment remains central, growing evidence highlights the role of dietary patterns and physical activity in potentially influencing renal and metabolic outcomes. However, the extent and consistency of these effects remain unclear, particularly in older diabetic populations. This systematic review aimed to synthesize evidence from both intervention and observational studies examining dietary patterns, dietary interventions, physical activity, and related lifestyle exposures associated with renal and metabolic outcomes in older adults with type 2 diabetes and chronic kidney disease. A comprehensive literature search was conducted across PubMed, EMBASE, Scopus, Web of Science, and the Cochrane Library. A total of 31 eligible studies were included in the final analysis. Healthier dietary patterns-particularly Mediterranean, plant-based, low-sodium, and moderated protein approaches-were generally associated with favorable renal and metabolic outcomes, although the certainty of evidence varied across themes. Sodium restriction reduced blood pressure and albuminuria, while moderated protein intake was associated with favorable renal outcomes when nutritional status was carefully monitored. Physical activity interventions improved glycemic control, blood pressure, and functional capacity, with possible indirect benefits for renal function. Evidence regarding antioxidant supplementation and very low-carbohydrate diets remains limited and inconclusive. Dietary patterns and physical activity are associated with renal and metabolic outcomes among elderly individuals with type 2 diabetes. These findings suggest that nutrition-focused lifestyle interventions may be considered supportive components of routine care, although stronger evidence is required. However, further large-scale, high-quality, and long-term studies are needed to establish definitive recommendations and develop tailored intervention strategies for this high-risk population. https://www.crd.york.ac.uk/PROSPERO/view/CRD420251087535, identifier PROSPERO (CRD420251087535).",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1858619/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42819067/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "design:systematic review",
+        "evidence literacy",
+        "health promotion and lifestyle",
+        "neg:drug or surgery only",
+        "nutrition and dietary pattern",
+        "protein and micronutrients",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "高齡糖尿病腎病飲食與運動證據的全文內容整理",
+      "content": "---\ntags:\n  - source/journal\ncitekey: \"Li2026DietaryPatternsCKD\"\ndoi: \"10.3389/fnut.2026.1858619\"\njournal: \"Frontiers in Nutrition\"\nyear: 2026\nstudy_type: \"systematic review with narrative synthesis\"\nreview_depth: \"worker-batch\"\n---\n\n> [!summary] 30 秒重點\n> 作者整理 31 篇報告，討論飲食品質、蛋白質／鈉／碳水、抗氧化營養與活動管理。較健康的飲食型態和運動多呈有利關聯；鈉限制研究報告短期收縮壓下降，蛋白質策略需要兼顧營養不良風險。證據族群、設計和指標差異大，沒有統合分析；本文數值及研究分類須連同配對評讀的原始研究核對結果一起看。\n>\n> - 這是異質研究的敘述綜合，31 篇「報告」不等於 31 個互相獨立試驗。\n> - 四主題作者 GRADE 為中等、低、低、極低；品質評讀保守重算均為極低，理由見配對評讀。\n> - 全文定位：研究流程 p.6；GRADE 與飲食型態 pp.9–10；營養策略 pp.10–12；抗氧化 pp.12–13；活動與自我管理 pp.14–15；限制及結論 pp.15–16。\n\n## 5 分鐘導讀\n\n**要點**：這篇回顧提供的是高齡第二型糖尿病合併慢性腎臟病生活型態研究的主題地圖，不是可直接套用的單一處方或合併效果值。\n\n作者在 5 個資料庫尋找 2015–2025 年英文人體研究，問題涵蓋飲食、營養、身體活動與腎臟／代謝結果。PRISMA 流程圖由 1,093 筆紀錄開始，去重 318 筆後篩查 775 筆；標題階段排除 635 筆、摘要排除 67 筆，全文 73 篇中排除 42 篇，最後納入 31 篇。研究設計混合隨機與非隨機介入及觀察研究；族群也不都同時符合「高齡＋T2D＋CKD」，作者將部分結果當作間接證據。研究差異過大，因此依主題敘述整理而未做統合分析。〔方法 pp.2–5；流程圖 p.6；結果 pp.8–9〕\n\n## 全文地圖\n\n**要點**：研究從族群、搜尋與納排條件開始，接著分別整理研究品質、四個生活型態主題、整體限制及實務含意。\n\n1. **背景與問題**：高齡、T2D、CKD 的交集帶來腎臟及代謝照護需求；作者聚焦飲食與身體活動。〔pp.1–2〕\n2. **方法**：PIO 問題、五資料庫檢索、人體英文研究與納排標準、雙人資料擷取；使用 MMAT 和 GRADE。〔pp.2–5〕\n3. **篩選與品質**：流程圖呈現 1,093 到 31 篇的篩選；作者以 MMAT 描述多數研究符合部分設計與測量準則，同時列出代表性及混雜控制等限制。〔pp.6–8，Figure 1、Table 4〕\n4. **證據主題**：飲食品質（6 篇）、蛋白質／鈉／碳水策略（11 篇）、抗發炎與抗氧化營養（5 篇）、活動與自我管理（9 篇）。作者數量以報告列出，相關報告可能來自同一試驗。〔pp.9–15，Tables 5–10〕\n5. **討論、限制與結論**：作者指出異質、追蹤期短、部分偏差風險、特定高齡糖尿病腎病研究不足和地區集中；結論以「可能相關／支持」描述，要求更大且較長期的研究。〔pp.15–16〕\n\n## 各主題重點\n\n### 1. 飲食型態與整體飲食品質\n\n**要點**：文中多以較高飲食品質和較佳腎臟指標的關聯為主；其中觀察資料不能單獨證明因果。\n\n作者整理地中海型、植物性、均衡與其他飲食品質評分。CORDIOPREV 的次級分析報告，在 T2D 且肥胖者中，地中海飲食相較低脂飲食呈現 eGFR 下降較少及尿白蛋白／肌酸酐比（uACR）下降的方向。觀察研究則報告較均衡飲食與較低 CKD 盛行或較佳腎臟指標相關；跨族群資料包括糖尿病者、CKD 成人及高齡糖尿病者，適用性不一。作者認為整體飲食品質可能比單一營養素更值得關注，但觀察關聯仍可能受混雜及自陳飲食誤差影響。〔pp.9–10，Table 6〕\n\n### 2. 蛋白質、鈉與碳水策略\n\n**要點**：作者描述的核心取捨是依個人腎病與營養狀況調整，不能由本文推成統一的克數限制。\n\n- **蛋白質**：部分晚期糖尿病腎病觀察資料將較低蛋白攝取與較低腎臟替代治療風險連結，但營養不良者死亡風險訊號較不利。另有研究呈現不同方向；高蛋白攝取的結果會因基線風險與營養狀態而不同。低蛋白飲食與酮酸補充的研究報告可行性及部分生化改善，但需要監測營養狀況與功能變化。〔pp.10–11，Table 7〕\n- **鈉**：一項第 3–4 期 CKD 隨機交叉試驗報告，限鈉飲食相較平常飲食的 24 小時收縮壓差為 −10.8 mmHg（95% CI −17.0 至 −4.6；p=0.001）。這是該試驗的短期血壓結果，不等於已證實可延緩腎衰竭。糖尿病腎病觀察資料亦討論鹽攝取、尿蛋白與腎功能變化。〔p.11，Table 7〕\n- **碳水**：一項 12 週極低碳水飲食試驗在糖尿病腎病患者中，作者報告 HbA1c 中位數下降 1.3 個百分點，對照組下降 0.7；體重分別下降 4.0 kg 與 0.2 kg。試驗期間腎臟指標未顯示統計上顯著惡化；三篇相關報告可能是同一試驗，長期高齡 CKD 效果與安全性仍不清楚。〔pp.11–12，Table 7；References 29–31〕\n\n### 3. 抗發炎與抗氧化營養\n\n**要點**：這組研究以短期生物標記、橫斷關聯或小型試驗為主，尚不能證明補充品可改善長期腎臟硬終點。\n\n作者整理維生素 E、血清茄紅素、薑黃素、益生菌豆漿與整體飲食發炎指數等五項不同暴露。文中報告 12 週高劑量維生素 E 試驗改善部分氧化壓力／發炎指標；高齡糖尿病 NHANES 橫斷資料中，cis-lycopene 與較低 DKD 勝算相關，但 total 及 trans-lycopene 未見相同顯著關聯；8 週薑黃素及益生菌豆漿研究報告部分指標變化。研究時間短或觀察性，不能據此自行加用營養補充品。〔pp.12–13，Table 8〕\n\n### 4. 身體活動與行為自我管理\n\n**要點**：活動介入較一致地報告體能、血糖或血壓方面的改善訊號；腎功能變化需留意測量方式及研究分類。\n\n作者整理結構化運動、運動復健、久坐、活動維持及健康識能。運動介入有體能或心代謝指標改善訊號；腎臟結果較不一致。運動可能改變或保留肌肉量，肌酸酐及肌酸酐型 eGFR 因此不一定只反映腎絲球過濾變化；作者提醒可同時考慮 cystatin-C 指標。久坐常見、長期持續活動不易，健康識能與自我管理支持可能影響依從性。〔pp.14–15，Table 9〕\n\n## 機轉白話講解\n\n**要點**：本篇以生活型態和臨床指標的關聯為主，並未用這些研究證明單一路徑造成腎功能改變。\n\n全文討論氧化壓力、發炎、血壓、蛋白尿及肌肉量等可能相關因素，但不同研究測量不同指標。將「生物標記改變」直接解讀為「腎臟長期保護」是超出本文資料的推論；更完整的研究設計和長期結果仍是必要條件。〔pp.12–16〕\n\n## 臨床意義／怎麼用\n\n**要點**：可用來找出待查原始研究的題目，不宜作為個別患者的營養處方。\n\n對營養照護的實用提醒是：先確認研究族群是否真為高齡 T2D+CKD、CKD 分期、營養不良風險、介入和追蹤期，再看患者重要結果與不良影響。尤其不能把本篇各研究的異質數值合併，也不能僅憑此文決定蛋白質、鈉、極低碳水或抗氧化補充品用量。活動結果則須把功能成效與腎功能測量分開解讀。配對品質評讀指出，本文註冊號與多個表格中的研究設計／主題對應有疑點，引用時應回到原始文獻。〔pp.3–5、10–16；配對評讀「Critical Appraisal」〕\n\n## 重要圖表重述\n\n**要點**：Figure 1 是篩選流程；Table 5 是作者主題層級 GRADE；Tables 6–9 按主題列研究，Table 10 概述方向及限制。\n\n- **Figure 1（p.6）**：五個資料庫合計 1,093 筆；318 筆重複，775 筆進標題／摘要流程，42 篇全文排除後留 31 篇。這些算術已與圖面逐項核對。\n- **Table 5（p.9）**：作者評定四主題為：飲食品質 moderate；巨量營養策略 low；抗發炎／抗氧化 low；活動／自我管理 very low。這是作者呈現的主題級評定，不是每個結果的完整 GRADE profile。\n- **Tables 6–9（pp.9–14）**：分別列飲食型態、營養策略、抗氧化營養、活動／自我管理；需注意配對評讀已核對出研究與列欄映射不一致的例子。\n- **Table 10（p.15）**：以研究設計、結果方向及限制作敘述摘要，不能視為統合效果表。\n\n## 與既有認知的對照\n\n**要點**：本輪沒有可用的既有筆記庫搜尋工具，因此不推測它與既有筆記是否相符。\n\n本輪只把此篇與配對的品質評讀及其列出的原始研究核對結果對照。評讀已記錄四個表格映射疑點、兩個不一致的 PROSPERO 編號，以及作者 GRADE 和保守主題級重算不同；細節見配對評讀，不在摘要中將其改寫成已解決的事實。\n\n## 概念 / 名詞整理\n\n**要點**：看懂不同層級的腎臟指標與研究設計，才能避免將關聯或替代指標當成確證療效。\n\n- **CKD / DKD**：慢性腎臟病／糖尿病腎臟病；本文納入人群不限於完整的高齡 T2D+CKD 交集。\n- **eGFR**：估算腎絲球過濾率；本文提及以肌酸酐或 cystatin-C 估算，兩者受影響因素不同。\n- **uACR / ACR**：尿白蛋白與肌酸酐比；腎臟風險標記之一，非腎衰竭或死亡本身。\n- **RRT / ESRD**：腎臟替代治療／末期腎臟病，屬較直接的臨床事件；本文各研究未一致測量。\n- **敘述綜合**：在研究不適合合併計算時逐主題整理；不是 pooled meta-analysis。\n- **GRADE**：證據確定性分級。需區分作者按四個寬泛主題的等級與 outcome-specific 證據檔。\n\n## 自我測驗\n\n**要點**：回答時先指出證據層級，再說明哪些結論不能跨越。\n\n<details><summary>1. 為什麼作者沒有做統合分析？</summary>\n\n研究族群、飲食／活動介入、研究設計、追蹤期及結果測量高度異質，作者選擇敘述綜合；因此本文沒有共同 pooled effect。\n\n</details>\n\n<details><summary>2. 限鈉試驗的 −10.8 mmHg 能證明什麼？</summary>\n\n它是特定第 3–4 期 CKD 隨機交叉試驗報告的 24 小時收縮壓差；本身不能證明腎衰竭、死亡或長期腎功能進展降低。\n\n</details>\n\n<details><summary>3. 為什麼蛋白質限制在高齡 CKD 需要看營養狀態？</summary>\n\n回顧描述的資料同時有較低腎臟替代治療風險及營養不良者不利死亡風險訊號；過度限制可能加重蛋白質／能量耗損。\n\n</details>\n\n<details><summary>4. 運動介入後 eGFR 改善要多看哪一點？</summary>\n\n肌肉量變化可影響肌酸酐，因此應留意 eGFR 的估算方式，並考慮 cystatin-C 等不同指標；不能只憑肌酸酐變化判定腎臟真的改善。\n\n</details>\n\n<details><summary>5. 為什麼摘要必須搭配品質評讀閱讀？</summary>\n\n回顧方法和研究映射存在疑點，且多項結論來自間接或觀察證據；品質評讀已核對註冊號與原始研究對應，提醒哪些表格結論要回查原文。\n\n</details>\n\n## Reference\n\nLi J, Zhu Q, Ding J, Nik Mohd Fakhruddin NNI. Dietary patterns and physical activity in relation to renal and metabolic outcomes among older adults with type 2 diabetes and chronic kidney disease: a systematic review. *Frontiers in Nutrition*. 2026;13:1858619. Published 2026-09-16. DOI: [10.3389/fnut.2026.1858619](https://doi.org/10.3389/fnut.2026.1858619). 正式全文： [Frontiers 全文](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1858619/full)。\n\n**全文與定位**：已核對 18 頁 PDF 及可讀正文，首、中、末頁交叉檢查和逐頁結構見 `process/source-structure-outline-fnut2026.md`；本文頁碼依 PDF 頁標記。配對品質評讀：`output/高齡糖尿病腎病飲食與運動證據的品質評讀.md`。原文 PDF 不公開。",
+      "cards": [
+        {
+          "title": "為何這篇回顧沒有統合分析？",
+          "question": "作者採敘述綜合而未做統合分析，主要理由是什麼？",
+          "answer": "納入研究的族群、介入或暴露、設計、追蹤期和結果測量差異很大，不適合合併為共同效果值。",
+          "tags": [
+            "CKD",
+            "系統性回顧",
+            "研究方法"
+          ]
+        },
+        {
+          "title": "限鈉結果的推論界線",
+          "question": "本文報告的限鈉試驗收縮壓差 −10.8 mmHg，可以直接證明什麼？",
+          "answer": "只能說該特定第 3–4 期 CKD 隨機交叉試驗觀察到 24 小時收縮壓差；不能由此直接證明長期腎衰竭或死亡風險降低。",
+          "tags": [
+            "CKD",
+            "鈉",
+            "替代指標"
+          ]
+        },
+        {
+          "title": "蛋白質限制的安全取捨",
+          "question": "為什麼高齡糖尿病 CKD 患者不能只看腎臟指標來決定蛋白質限制？",
+          "answer": "文中資料同時呈現腎臟替代治療風險的有利關聯，以及營養不良者可能出現不利死亡訊號；限制需考慮營養狀態，避免蛋白質／能量耗損。",
+          "tags": [
+            "CKD",
+            "蛋白質",
+            "營養不良"
+          ]
+        },
+        {
+          "title": "運動後如何解讀 eGFR",
+          "question": "運動研究報告肌酸酐型 eGFR 變化時，為什麼還要看 cystatin-C？",
+          "answer": "肌肉量改變可能影響血清肌酸酐，因此肌酸酐型 eGFR 的變化不一定完全代表過濾功能改變；不同估算指標可協助審慎解讀。",
+          "tags": [
+            "CKD",
+            "運動",
+            "eGFR"
+          ]
+        },
+        {
+          "title": "系統性回顧為何仍需查原始研究？",
+          "question": "即使論文是系統性回顧，讀者為何仍要抽查原始研究？",
+          "answer": "系統性回顧的篩選、研究映射與表格分類仍可能有錯；本篇配對評讀已找到設計或主題欄和原始文獻不一致的例子。",
+          "tags": [
+            "系統性回顧",
+            "來源查核",
+            "研究品質"
+          ]
+        }
+      ],
+      "completedAt": "2026-10-12T05:00:31.637Z"
     }
   ]
 }
