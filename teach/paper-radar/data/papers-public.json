@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T08:09:45.823Z",
+  "generatedAt": "2026-10-12T08:22:01.614Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -95575,6 +95575,81 @@
       "content": "---\r\nreview_depth: quick\r\nreview_mode: focused-quick\r\n---\r\n\r\n# 繁體中文筆記：高齡住院者肌少性肥胖與出院功能受損\r\n\r\n## 品質快照\r\n\r\n- 研究設計：單中心、回溯性加前瞻性觀察研究。\r\n- 對象：義大利大學醫院急性老年病房，分析453位住院高齡者；平均84.93歲，女性52.1%。\r\n- 表型：肌少性肥胖（SO）36人（7.9%）、單純肥胖（OB）65人（14.3%）、非肥胖肌少症（SARC）98人、非肌少非肥胖（NS-NO）254人。原文把SARC 98/453標成21.0%，但實際比例為21.6%。\r\n- 主要發現：在Table 4 Model 4（年齡、性別及CIRS嚴重度調整）中，SO與出院ADL受損的RR為2.90（95% CI 1.09–7.74，p=.027）；估計區間寬，SO只有36人。\r\n- 偏差風險：有嚴重選擇偏差疑慮、殘餘混雜及精確度不足；另見表格分母百分比錯誤與部分迴歸方向／p值標示不一致。\r\n- GRADE：Very low ⊕◯◯◯（單一觀察性研究起始Low，風險偏差與不精確各降一級；由 `grade_judge.py` 計算）。\r\n- 一句話判讀：急性住院高齡者中，入院SO與出院時ADL受損較高有關；研究不能證明SO造成失能，也不能證明篩檢或介入可改善功能。\r\n\r\n## 白話導讀\r\n\r\n- **研究問什麼：**在急性老年病房，用ESPEN-EASO方法診斷的SO是否常見，及它是否與住院期間日常生活能力變化有關。\r\n- **怎麼做：**以BMI≥27 kg/m²先篩查高齡肥胖，接著量握力與BIA相對肌肉／脂肪量；比較SO、OB、SARC與NS-NO四組。ADL於入院、住院中、出院評估，另記錄IADL。\r\n- **看見什麼：**101人通過肥胖篩檢，36人達SO診斷。SO組出院ADL受損比例為30/36（83.3%），NS-NO為166/254（65.4%）；組間原始比例比較p=.073。校正模型中SO仍與出院受損有關，但區間很寬。OB組平均短期恢復較多，經校正後差異不穩。\r\n- **實務上：**不要只看BMI判斷高齡者功能風險；同時留意肌力、相對肌肉量、脂肪量、營養狀態、認知和基線功能。研究未測試營養、運動、復健或篩檢方案，因此不能用它推定介入效益。\r\n\r\n## 研究方法\r\n\r\n- **地點與時間：**Friuli Venezia Giulia區域的單一大學醫院急性老年病房，2023年1月至2025年5月。依2024年6月1日前後分成回溯與前瞻資料；兩階段套用同一流程。\r\n- **收案：**1639名≥65歲候選住院者中，453人進入分析，1186人未納入，主要原因為缺少關鍵資料；缺乏可用BIA／握力、功能資料不完整及院內死亡也屬排除原因。\r\n- **診斷：**BMI≥27 kg/m²加年齡、共病或急性疾病風險作肥胖篩檢。SO需同時有低握力（男<27 kg、女<16 kg）、低SMM占體重（男<37%、女<27.6%）及高FM占體重（男>27.3%、女>40.7%）。\r\n- **功能與共變項：**ADL<6定義ADL受損；IADL<8定義IADL受損。使用MNA、SPMSQ、CIRS與Clinical Frailty Scale。\r\n- **統計：**事前估計樣本數410人，再加10%；以常態／非參數組間檢定、卡方、Bonferroni事後比較、Ward階層群集、臨床軌跡分類、相對風險與邏輯斯迴歸分析。作者以5組多重插補估計檢查非納入者的缺失資料影響。\r\n\r\n## 主要結果\r\n\r\n| 結果 | 原文數值 | 解讀 |\r\n|---|---:|---|\r\n| 納入分析 | 453 / 1639 | 1186人未納入，資料缺漏占主因；完整案例的代表性仍需謹慎。 |\r\n| 肌少性肥胖 | 36（7.9%） | 101位BMI篩檢陽性者中有36位達全部診斷條件。 |\r\n| 出院ADL受損，SO | 30/36（83.3%） | 高於NS-NO組的65.4%，但Table 2四組原始比較p=.073。 |\r\n| 出院ADL受損，NS-NO | 166/254（65.4%） | 參照組。 |\r\n| SO出院ADL受損，Table 4 Model 3 | RR 2.95（1.01–8.65），p=.039 | 調整CRP/白蛋白比；估計不精確。 |\r\n| SO出院ADL受損，Table 4 Model 4 | RR 2.90（1.09–7.74），p=.027 | 調整年齡、性別與CIRS嚴重度；仍有關聯但CI寬。 |\r\n| OB住院至出院恢復，未調整 | RR 2.02（1.13–3.63），p=.006 | 未校正時OB組較常見正向ADL變化；Model 4未達顯著。 |\r\n| ADL/IADL與高齡、營養及認知 | 作者報告高齡、營養不良與認知受損和功能較差相關 | Table 5部分校正模型中MNA與SPMSQ方向翻轉，變項編碼或表格需釐清，不單獨解讀該組調整係數。 |\r\n\r\n## 品質評讀\r\n\r\n### 偏差風險\r\n\r\n| 領域 | 判定 | 依據 |\r\n|---|---|---|\r\n| 選擇與缺失資料 | 高疑慮 | 1639人中1186人未進入分析（約72%）；缺關鍵BIA／握力／功能資料與院內死亡排除，可能使可分析樣本與較差預後者不同。作者比較已觀察特徵並做插補估計檢查，但不能排除未測量差異。 |\r\n| 混雜 | 高疑慮 | 納入急性疾病嚴重度、共病與部分人口學／基線功能，但單中心非隨機觀察設計仍可能受疾病種類、照護強度、活動／復健量及未測量衰弱等混雜。 |\r\n| 暴露測量 | 中度疑慮 | 使用共識切點、校正握力計與標準BIA程序；急性住院液體狀態仍可能影響BIA，正式重測信度未在研究內估計，且只於入院測量一次。 |\r\n| 結果測量 | 中度疑慮 | ADL/IADL是病人重要且重複測量的結果，但評估者盲化未明確交代，ADL分群門檻會把連續功能資訊二分化。 |\r\n| 精確度與報告 | 高疑慮 | SO僅36人，調整後CI寬；Table 1的SARC百分比與人數不合，Table 2 SARC基線受損52人卻標34.1%（52/98=53.1%），Table 4部分p值與95% CI不一致；Table 5的MNA／SPMSQ係數方向在調整性別後翻轉。 |\r\n\r\n### 統計與臨床意義\r\n\r\n- Table 4 Model 4 顯示SO出院ADL受損的相對風險為2.90；95% CI 1.09–7.74跨幅大，反映事件數少、估計不穩。不能把此相對估計轉換為個人絕對風險，也不能推作因果效應。\r\n- SO原始出院受損比例83.3%對65.4%，未調整整體四組差異p=.073；調整模型與原始比例回答不同問題，應並列閱讀。\r\n- 研究未報ADL的最小臨床重要差異（MCID），也未評估患者感受到的變化，無法判定平均分數變化是否達臨床重要程度。\r\n- 模型2中SO出院RR 3.93（0.91–16.93）但p=.049，CI跨過1；未採用該列支撐主結論，主解讀使用有一致顯著性標記的Model 4。Table 4稱RR、Table 5採邏輯斯迴歸但註記也寫RR，報告口徑需審慎。\r\n- Table 5 MNA與SPMSQ方向於調整性別後反轉，且表格未解釋變項是否改以風險類別／反向編碼；只採用作者文字結論作背景，不把該表係數當成已釐清的個別風險方向。\r\n\r\n### GRADE 判定\r\n\r\n**結果：Very low ⊕◯◯◯。**單篇觀察性研究起始為Low；因嚴重選擇／混雜疑慮降一級，SO樣本少且估計CI寬再降一級。研究族群與問題直接，單篇研究不能檢查跨研究不一致；沒有足夠資料證明出版偏差，故這兩項不另降級。沒有符合升級條件。計算輸入與輸出保存在本次 evidence 目錄。\r\n\r\n### 推論檢查\r\n\r\n`argdown_lint.py` 對以下描述性關聯主張判定無推論缺口：入院SO與單中心急性住院高齡者出院ADL受損較高相關。主張保留單一觀察研究限制，不說SO造成失能。作者提出應實施篩檢是臨床建議，本文並未比較篩檢方案或營養／復健介入，不能把建議當成已證實有效的治療策略。\r\n\r\n## 臨床應用（Clinical Application）\r\n\r\n- 住院高齡者評估應把營養、肌力、體組成、認知與功能放在同一脈絡；BMI看似高或正常都不能單獨描述肌肉與脂肪組成。\r\n- 若使用ESPEN-EASO框架，需依流程先篩檢，再合併握力和體組成測量；本研究的BMI與生物阻抗切點來自特定共識，液體狀態與量測品質仍要判讀。\r\n- 可把ADL與IADL作為營養照護和復健團隊共同追蹤的功能結果。研究沒有測量攝取、介入內容或肌肉變化，不應據此承諾蛋白質補充、減重或運動方案能改善住院結果。\r\n- 年齡、MNA與SPMSQ的表格編碼方向有疑點；臨床上應回到量表原始定義與病歷，不照抄該表係數作個人風險計算。\r\n\r\n## 期刊、作者與引用查核範圍\r\n\r\n- 本次 `focused-quick` 僅核對全文首頁出版資料、倫理與利益衝突聲明，以及文內引用和全部參考文獻列表的閱讀覆蓋。\r\n- 未執行作者履歷、期刊指標／排名、撤稿資料庫、逐條CrossRef DOI、引用脈絡或補充檔案外查；不將它們描述為已驗證。\r\n\r\n## 全文證據與可回查位置\r\n\r\n- DOI：[10.1038/s41430-026-01835-x](https://doi.org/10.1038/s41430-026-01835-x)；PubMed：[PMID 42859214](https://pubmed.ncbi.nlm.nih.gov/42859214/)；期刊頁：[European Journal of Clinical Nutrition](https://www.nature.com/articles/s41430-026-01835-x)。\r\n- 診斷流程與切點：PDF pp.2–3；納入與表型結果：p.3、Table 1 p.4；功能比例：Table 2 p.5；軌跡結果：pp.5–7、Fig. 3 p.7；調整後風險：Table 4 p.8、Table 5 p.9；限制及結論：p.10；倫理、利益衝突與CC BY 4.0：p.12。\r\n- 合法全文為Worker驗證的身份相符PDF，來源SHA-256 `760bde00947cb0081022a5305ff8cb45fb0bbebc23768d381ca51a0ab73992ff`；12頁、全文69,304字元，verified text SHA-256 `01ac9fa88501c4f839d4bc22822ba3e571c3134abd41f53e6ed1d0a38ed2fcb5`。首／中／末及表格頁視覺核對 receipts 隨本輪 evidence 保存。",
       "cards": [],
       "completedAt": "2026-10-12T08:07:08.696Z"
+    },
+    {
+      "id": "doi:10.1038/s41430-026-01835-x:digest",
+      "paperId": "doi:10.1038/s41430-026-01835-x",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Prevalence and impact of sarcopenic obesity at hospital admission according to ESPEN-EASO approach on functional status of older adults: results of a retrospective and prospective observational study.",
+      "authors": "Gortan Cappellari G, Barazzoni R, Veronese N, De Colle P, Castiglia G, Bianchini M, Cortese C, Rampazzo S, Rizza A, Zampieri G, Zanetti M",
+      "journal": "Aging, frailty and sarcopenia (PubMed)",
+      "year": "2026",
+      "doi": "10.1038/s41430-026-01835-x",
+      "abstract": "Sarcopenic obesity (SO) is associated with adverse outcomes. This study aimed to assess the prevalence of SO diagnosed using the ESPEN-EASO approach and its correlations with functional impairment in an acute geriatric setting. Observational study including 453 older adults admitted to a Geriatric Unit. According to the ESPEN-EASO approach, patients were screened for obesity (BMI), assessed for handgrip strength (HGS, dynamometry), and body composition (bioimpedance analysis). SO was defined by low HGS, reduced relative to body weight skeletal muscle mass (SMM%), and increased relative fat mass (FM%). Screen-positive patients not meeting SO criteria were classified as obese (OB). Screen-negative patients with low SMM% and HGS were defined as sarcopenic (SARC); the remaining served as control (NS-NO). Functional status was investigated by IADL and by basal ADL collected at admission, during hospitalization, and at discharge and analyzed using trajectory modeling and univariate and multivariate adjusted models. Among enrolled patients (mean age: 84.9 ± 7.0 y, F: 236, 52.1%), 36 (7.9%) had SO, 65 (14.3%) OB, 98 (21.0%) SARC, and 254 (56.7%) NS-NO. In multivariate analyses (NS-NO as reference) only SO demonstrated an increased risk of impaired ADL at discharge while OB and SARC did not. Trajectory modeling confirmed an SO-specific association with functional impairment followed by lower ADL recovery. Age, malnutrition, and cognitive impairment were independently associated with reduced ADL at admission and at discharge and with IADL. Sarcopenic obesity is associated with a higher risk of poor ADL at discharge, emphasizing the importance of personalized obesity phenotyping in hospitalized older adults.",
+      "legalFullTextUrl": "https://doi.org/10.1038/s41430-026-01835-x",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42859214/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "human clinical population",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "肌少性肥胖與高齡住院者出院功能：全文內容整理",
+      "content": "---\r\ncitekey: GortanCappellari2026SarcopenicObesity\r\ndoi: 10.1038/s41430-026-01835-x\r\ndigest_mode: worker-batch\r\n---\r\n\r\n> [!summary] 30秒層｜體重較高，不代表住院高齡者的肌力和功能受到保護\r\n> - 本研究依ESPEN-EASO流程將453位急性住院高齡者分為四種身體表型，36人（7.9%）符合肌少性肥胖（SO）。\r\n> - SO組出院ADL受損30/36（83.3%），非肌少非肥胖組166/254（65.4%）。\r\n> - 校正年齡、性別及共病嚴重度後，SO出院ADL受損RR 2.90（95% CI 1.09–7.74；p=.027）。\r\n> - 研究只量測入院體組成／握力，沒有測試營養、運動或復健介入；SO是風險關聯，不能直接當成介入效果。\r\n> - 品質指標：SO僅36人、1186候選住院者未納入；原表有數字一致性疑點。品質判讀 → 同篇「肌少性肥胖與高齡住院者出院功能受損：全文品質評讀」。\r\n\r\n# 肌少性肥胖與高齡住院者出院功能：全文內容整理\r\n\r\n## 5分鐘層｜把全文串起來\r\n\r\n**要點**：先辨認身體表型，再看功能軌跡；BMI、肌力、體組成與ADL各回答不同問題。\r\n\r\n這篇研究補上急性老年病房的資料：團隊使用BMI先篩檢肥胖，再把握力、肌肉與脂肪占體重比例合併診斷，而不是把「肥胖」視為單一群體。研究發現SO占7.9%，其出院ADL受損關聯較高。單純肥胖者未調整時平均恢復較多，調整後這個關聯不穩。非肥胖肌少者也未呈現與SO相同的結果；作者提醒參照組多數已有低握力，可能減少組間差別。對營養師的學習點是把體組成與功能放在同一評估脈絡，並留意選擇偏差、急性水分改變和小樣本。全文不能回答某種補充、減重或復健方案是否能改善出院功能。（來源：pp.1–3、Tables 1–4、Discussion及Limitations p.10）\r\n\r\n## 研究問題／背景\r\n\r\n**要點**：既有SO定義不同，使住院盛行率與功能結果難比較；作者想用同一共識流程看急性老年病房。\r\n\r\n- SO是脂肪過多與骨骼肌量／肌力減少同時存在的表型。Introduction整理其與跌倒、功能、認知、生活品質及存活的既有研究關聯，但不是本研究重新驗證的所有結果。\r\n- 高齡住院者可因不動、發炎與營養不良降低肌力與生活獨立性。肥胖者的肌少可能被忽略。\r\n- 既有ESPEN-EASO研究多在卒中復健或嚴重肥胖住院族群，急性老年病房的盛行與功能結果較少。\r\n- 本篇主要問題：入院SO有多少，以及SO、OB、SARC和NS-NO是否有不同的ADL/IADL與短期恢復軌跡。（來源：Introduction pp.1–2）\r\n\r\n## 方法\r\n\r\n**要點**：以453位資料完整的住院高齡者作觀察性比較；身體表型在入院判定，功能在三個時間點評估。\r\n\r\n- 單一義大利大學醫院急性老年病房；2023年1月至2025年5月。2024年6月1日前後區分回溯與前瞻資料，套用同一protocol。\r\n- 1639名≥65歲候選住院者中453人納入，1186人未納入，主要是資料缺漏；缺可靠BIA／握力、功能資料不完整和院內死亡也可排除。平均年齡84.93歲，女性236人（52.1%）。\r\n- 入院72小時內執行綜合老年評估，包含ADL、IADL、MNA、SPMSQ、CIRS及Clinical Frailty Scale。ADL在入院、住院中及出院評估；IADL反映基線狀態。\r\n- BIA量相對骨骼肌量與脂肪量；盡量避開輸液及急性液體改變。握力每手兩次、間隔30秒取平均。\r\n\r\n| 篩檢／診斷項目 | 本研究界值或流程 | 來源 |\r\n|---|---|---|\r\n| 肥胖初篩 | BMI≥27 kg/m²，合併年齡、慢性共病或急性病況的肌少風險 | pp.2–3 |\r\n| 低握力 | 男<27 kg，女<16 kg | p.3 |\r\n| 低骨骼肌占體重 | 男<37%，女<27.6% | p.3 |\r\n| 高脂肪占體重 | 男>27.3%，女>40.7% | p.3 |\r\n| SO | 篩檢陽性且同時低握力、低SMM%、高FM% | p.3 |\r\n| OB | 肥胖篩檢陽性，未符合全部SO診斷項目 | p.3 |\r\n| SARC | 肥胖篩檢陰性，但低握力與低SMM%同時存在 | p.3 |\r\n| NS-NO | 篩檢陰性且未同時達SARC條件 | p.3 |\r\n| 功能受損 | ADL<6；IADL<8 | p.2 |\r\n\r\n- 統計含組間檢定、Bonferroni事後校正、Ward階層群集、臨床軌跡分類與多變項模型。作者做事前樣本數估計與5組插補估計的缺失資料敏感性檢查。（來源：Methods pp.2–3）\r\n\r\n## 主要發現\r\n\r\n**要點**：SO與出院功能較差有關；肥胖單獨存在的結果與SO不同，但不能視為肥胖具有因果保護作用。\r\n\r\n| 結果 | 數值 | 閱讀重點／位置 |\r\n|---|---:|---|\r\n| SO人數 | 36（7.9%） | 其中男22、女14；Table 1 p.4 |\r\n| OB人數 | 65（14.3%） | 肥胖篩檢陽性但未達全部SO項目；p.3 |\r\n| SARC人數 | 98 | 原文印21.0%，但98/453=21.6%；p.1、Table 1 p.4 |\r\n| NS-NO人數 | 254（原文印56.7%） | 參照組；Table 1 p.4。254/453約56.1%，原表百分比也需保留疑點。 |\r\n| 出院ADL受損，SO vs NS-NO | 30/36（83.3%）vs 166/254（65.4%） | Table 2 p.5；四組原始比較p=.073 |\r\n| SO出院ADL受損，Model 4 | RR 2.90，95% CI 1.09–7.74，p=.027 | 年齡、性別與CIRS嚴重度校正；Table 4 p.8 |\r\n| SO出院ADL受損，Model 3 | RR 2.95，95% CI 1.01–8.65，p=.039 | CRP/白蛋白比校正；Table 4 p.8 |\r\n| 住院至出院ADL平均改變 | NS-NO +0.40；SARC +0.17；OB +0.85；SO +0.31 | Table 1 p.4；組間p=.007，不能用未校正平均比較建立保護性因果結論 |\r\n| 出院功能回升的比例 | NS-NO 22.4%；SARC 18.4%；OB 36.9%；SO 22.2% | Table 2 p.5，p=.044；OB回升關聯在校正後不穩 |\r\n\r\n- 約一半患者的ADL從基線到住院中降低。群集區分維持獨立、下降後恢復、下降未恢復、全期ADL很低四種軌跡。\r\n- SO較常見於功能下降而出院未恢復的軌跡；OB較常見於功能回升的軌跡。\r\n- 作者文字報告年齡、營養與認知和功能有關，但Table 5的MNA／SPMSQ方向在調整性別後翻轉且編碼未說明，數值不宜直接作風險計算。（來源：Results pp.5–6、Fig.3 p.7、Table 5 p.9）\r\n\r\n## 臨床意義／怎麼用\r\n\r\n**要點**：把SO當作需要更完整評估的風險訊號，並用實際功能量測追蹤病人。\r\n\r\n- 評估體重較高的住院高齡者時，仍需看握力、肌肉與脂肪比例、營養、認知和基線功能。\r\n- BIA受液體狀態影響，急性住院的測量時點與品質尤其重要；本研究避開輸液等時點，但不能完全排除水分造成的分類誤差。\r\n- ADL與IADL把功能落到基本自我照護和較複雜生活活動，適合作為團隊共同討論的結果；與BMI或體組成是不同資訊。\r\n- 沒有營養、運動或復健介入比較，也沒有住院中體組成／握力重測，因此不能從本文決定介入劑量或承諾功能效果。\r\n- 作者承認觀察設計、SO人數有限、單中心、參照組多有低握力，及體組成／握力只入院測一次。樣本排除與表格一致性疑點也需要看同篇評讀。（來源：pp.2–3、Discussion與Limitations p.10）\r\n\r\n## 重要圖表重述\r\n\r\n**要點**：表圖依序呈現研究流向、診斷表型、功能軌跡與調整後估計，應連在一起讀。\r\n\r\n- **Fig.1（p.2）：**由1639候選住院者至453納入者的流程，提醒功能／體組成資料缺漏與院內死亡排除。\r\n- **Fig.2（p.5）：**比較有／無BMI初篩的SO盛行率；正式流程7.9%，不做初篩為13.9%。作者認為不做初篩可能把BMI並未肥胖者也判成SO。\r\n- **Fig.3（p.7）：**顯示四種ADL群集與臨床軌跡的各表型分布；是分群後關聯，沒有隨機介入。\r\n- **Table 1（p.4）：**四組基線、營養、認知、檢驗、體組成與ADL平均；原表部分百分比與分母不合。\r\n- **Table 2（p.5）：**功能受損與回升比例；SARC基線ADL受損52人卻印34.1%，52/98=53.1%，需保留原表疑點。\r\n- **Table 3（p.6）：**受損者較高齡、MNA較低、認知錯誤較多的未校正比較。\r\n- **Table 4（p.8）：**各調整模型的身體表型與功能關聯；Model 4的SO出院ADL估計是主要閱讀數字。Model 2的95% CI跨1而p=.049，原報告一致性有疑點。\r\n- **Table 5（p.9）：**年齡、MNA、SPMSQ迴歸；方向及RR/OR標示存在需釐清處，不照抄為個人預測工具。\r\n\r\n## 與既有認知的對照\r\n\r\n**要點**：這篇新增急性住院的SO表型與功能風險資料，並未新增介入有效性證據。\r\n\r\n- 本次搜尋本機可讀筆記庫的sarcopenia／frailty／ESPEN／EASO相關筆記，找到已存在的「機構高齡者與阿茲海默症運動介入的全文內容整理」（DOI 10.1186/s12877-026-08133-y）。**⚠️ 補充／筆記脈絡：**該筆記主題是介入與功能結果；本篇把焦點放在急性入院表型及出院關聯，兩者的研究問題不能互換。\r\n- 同篇品質評讀已指出很低的關聯證據確定度與表格疑點。本整理用於理解全文內容；要判斷可信度可回看配對評讀。\r\n- 文內引用26為ESPEN-EASO診斷共識（DOI 10.1016/j.clnu.2021.11.014），提供本篇定義來源；本次沒有另外評讀該共識全文。\r\n\r\n## 概念／名詞整理\r\n\r\n**要點**：辨認「篩檢、診斷、相對體組成、功能受損與關聯」，才能避免用一個數字取代完整評估。\r\n\r\n- **SO：**sarcopenic obesity，肌少性肥胖；本研究依篩檢、肌力及相對肌肉／脂肪量合併判定。\r\n- **SMM%／FM%：**骨骼肌量／脂肪量占體重百分比。與絕對肌肉量或BMI不同。\r\n- **ADL：**基本日常生活活動；本研究滿分6，低於6視為受損。\r\n- **IADL：**工具性日常生活活動；本研究低於8視為受損。\r\n- **MNA／SPMSQ：**營養與認知篩評工具；分數方向要依量表定義，不能把報告中的變項編碼疑點忽略。\r\n- **RR與CI：**相對風險與其估計不確定度；本篇Model 4的CI很寬，並非精確的個人風險。\r\n- **功能軌跡：**把三時間點ADL變化作分群，用來理解不同變化型態；分群本身不是病因或治療效果。\r\n\r\n## 自我測驗\r\n\r\n**要點**：先想清楚判斷流程、資料限制與臨床邊界，再看答案。\r\n\r\n> [!question]- Q1：為何BMI≥27不能直接診斷SO？\r\n> **答案：**BMI只是初篩。SO還需要低握力、低相對骨骼肌量與高相對脂肪量同時存在；本研究101位篩檢陽性者只有36位達SO。\r\n\r\n> [!question]- Q2：SO出院受損RR 2.90能證明SO造成失能嗎？\r\n> **答案：**不能。它是單中心觀察性隊列的校正後關聯；選擇偏差、未量測混雜與估計不精確仍在，且沒有介入。\r\n\r\n> [!question]- Q3：為何OB平均ADL回升較多，不能解讀成增加脂肪可保護住院功能？\r\n> **答案：**這是未隨機的表型比較，OB與其他組的基線和照護因素可能不同，且校正後恢復關聯不穩；不是增脂肪介入的結果。\r\n\r\n> [!question]- Q4：這篇為什麼特別需要看收案流程？\r\n> **答案：**1639候選者僅453納入，1186未納入且可排除院內死亡。可分析者可能與資料不足、嚴重病況者不同，影響代表性。\r\n\r\n> [!question]- Q5：量BIA時與急性住院狀態有何關係？\r\n> **答案：**液體狀態會影響阻抗與體組成估計；研究盡量避開輸液等時點，但只入院測一次，不能知道住院中肌肉／脂肪如何變化。\r\n\r\n## Reference\r\n\r\n**要點**：所有研究數據回到同一PDF與指定表圖；配對評讀另有品質計算收據。\r\n\r\nGortan Cappellari G et al. 2026. *European Journal of Clinical Nutrition*. [DOI 10.1038/s41430-026-01835-x](https://doi.org/10.1038/s41430-026-01835-x)。診斷pp.2–3；Tables 1–5在pp.4–6、8–9；Fig.2/3在pp.5/7；Discussion與Limitations p.10；全部55筆參考資料pp.10–11；作者、經費、利益衝突、倫理與CC BY 4.0 p.12。\r\n\r\n經Worker身份／可讀性核驗的PDF共12頁；來源SHA-256 `760bde00947cb0081022a5305ff8cb45fb0bbebc23768d381ca51a0ab73992ff`，verified text SHA-256 `01ac9fa88501c4f839d4bc22822ba3e571c3134abd41f53e6ed1d0a38ed2fcb5`。全文依頁讀完，共享來源大綱和逐段定位，兩種skill各自實際執行與建新manifest。",
+      "cards": [
+        {
+          "title": "SO的診斷流程",
+          "question": "為何BMI≥27不能直接診斷SO？",
+          "answer": "BMI只是初篩。SO還需要低握力、低相對骨骼肌量與高相對脂肪量同時存在；本研究101位篩檢陽性者只有36位達SO。",
+          "tags": [
+            "高齡營養",
+            "肌少性肥胖",
+            "功能評估"
+          ]
+        },
+        {
+          "title": "關聯與因果",
+          "question": "SO出院受損RR 2.90能證明SO造成失能嗎？",
+          "answer": "不能。它是單中心觀察性隊列的校正後關聯；選擇偏差、未量測混雜與估計不精確仍在，且沒有介入。",
+          "tags": [
+            "高齡營養",
+            "肌少性肥胖",
+            "功能評估"
+          ]
+        },
+        {
+          "title": "單純肥胖與恢復",
+          "question": "為何OB平均ADL回升較多，不能解讀成增加脂肪可保護住院功能？",
+          "answer": "這是未隨機的表型比較，OB與其他組的基線和照護因素可能不同，且校正後恢復關聯不穩；不是增脂肪介入的結果。",
+          "tags": [
+            "高齡營養",
+            "肌少性肥胖",
+            "功能評估"
+          ]
+        },
+        {
+          "title": "完整案例的代表性",
+          "question": "這篇為什麼特別需要看收案流程？",
+          "answer": "1639候選者僅453納入，1186未納入且可排除院內死亡。可分析者可能與資料不足、嚴重病況者不同，影響代表性。",
+          "tags": [
+            "高齡營養",
+            "肌少性肥胖",
+            "功能評估"
+          ]
+        },
+        {
+          "title": "BIA與急性水分狀態",
+          "question": "量BIA時與急性住院狀態有何關係？",
+          "answer": "液體狀態會影響阻抗與體組成估計；研究盡量避開輸液等時點，但只入院測一次，不能知道住院中肌肉／脂肪如何變化。",
+          "tags": [
+            "高齡營養",
+            "肌少性肥胖",
+            "功能評估"
+          ]
+        }
+      ],
+      "completedAt": "2026-10-12T08:19:38.383Z"
     }
   ]
 }
