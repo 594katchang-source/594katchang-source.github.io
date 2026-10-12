@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T11:55:43.849Z",
+  "generatedAt": "2026-10-12T11:59:27.741Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -96240,6 +96240,34 @@
         }
       ],
       "completedAt": "2026-10-12T11:55:18.477Z"
+    },
+    {
+      "id": "doi:10.1016/j.jand.2023.11.013:review",
+      "paperId": "doi:10.1016/j.jand.2023.11.013",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Position of the Academy of Nutrition and Dietetics: Medical Nutrition Therapy Behavioral Interventions Provided by Dietitians for Adults With Overweight or Obesity, 2024.",
+      "authors": "Raynor H, Morgan-Bathke M, Baxter S, Halliday T, Lynch A, Malik N, Garay J, Rozga M",
+      "journal": "Dietitian evidence literacy and risk communication (PubMed)",
+      "year": "2024",
+      "doi": "10.1016/j.jand.2023.11.013",
+      "abstract": "Providing interventions that facilitate improvement of dietary intake and other health behaviors can improve nutrition-related outcomes in adults with overweight or obesity. Medical nutrition therapy (MNT) behavioral interventions require expertise from registered dietitian nutritionists or international equivalents (dietitians), which no other health care provider can provide for adults with obesity. Current evidence supports the role of MNT behavioral interventions for adults with overweight or obesity as an effective treatment option, when appropriate for and desired by the client. This Academy of Nutrition and Dietetics Position Paper describes potential benefits and concerns regarding dietitian-provided MNT behavioral interventions for adults with overweight and obesity and informs dietitians about implications for practice. This Position Paper is supported by a systematic review examining effectiveness of MNT interventions provided by dietitians and by an evidence-based practice guideline. It is the position of the Academy of Nutrition and Dietetics that MNT behavioral interventions for adults (aged 18 years and older) with overweight or obesity should be a treatment option, when appropriate and desired by the client, to improve cardiometabolic, quality of life, and anthropometric outcomes. Dietitians providing MNT recognize the complex contributors to overweight and obesity, and thus individualize interventions, based on a shared decision-making process, and deliver interventions in an inclusive, compassionate, and client-centered manner. Interventions should include collaboration with an interprofessional team when needed. Dietitians strive to increase health equity and reduce health disparities by advocating and providing opportunities for increased access to effective nutrition care services. This position remains in effect until December 31, 2031.",
+      "legalFullTextUrl": "https://higherlogicdownload.s3.amazonaws.com/THEACADEMY/e84e5d26-582d-4c53-b6f0-f0ab6604326f/UploadedImages/WM/CSOWM/Position_paper_2024_Obesity.pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/38040115/",
+      "category": "recommended",
+      "tags": [
+        "adult clinical practice gaps",
+        "design:systematic review",
+        "dietitian clinical nutrition",
+        "evidence literacy",
+        "guideline and consensus",
+        "nutrition and dietary pattern",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "成人體重照護的營養行為介入：學會立場與實證界線",
+      "content": "---\ntitle: \"成人體重照護的營養行為介入：學會立場與實證界線\"\ncitekey: Raynor2024AdultMNT\ndoi: \"10.1016/j.jand.2023.11.013\"\njournal: \"Journal of the Academy of Nutrition and Dietetics\"\nyear: 2024\nauthors: \"Raynor HA, Morgan-Bathke M, Baxter SD, Halliday T, Lynch A, Malik N, Garay JL, Rozga M\"\nstudy_type: \"學會立場文件／實證指南摘要\"\nreview_depth: quick\nmode: focused-quick\nfull_text_reviewed: true\nsource_pages_reviewed: \"PDF 1–8／期刊408–415，含43筆參考文獻\"\nsource_sha256: \"20255895643bf19a6f6a07e1a833530531e5e0ce167527ad2ffffbaae6a54f49\"\ntags: [source/journal, adult-nutrition, obesity, behavior-change]\n---\n\n> [!info] 品質快照\n> **設計**：學會立場文件，摘要既有系統性回顧與EBPG；不是新收案或新統合分析。**n**：本篇無單一病人數；支持回顧列62個RCT、3個非隨機對照試驗，不能當本篇65位受試者。\n> **工具**：精簡AGREE II，查制定嚴謹度、建議—證據連結、利益衝突管理及更新政策；不捏造正式量化分數。\n> **GRADE**：17條建議有1B／1C／2C／Consensus；本文未提供可重算每項結果GRADE的完整研究資料，保留作者等級、不另造全篇分數。\n> **Registration**：本篇未報告立場文件預先註冊；不是RCT，試驗註冊不適用。\n> **結論**：適合成人營養門診建立尊重意願、長期追蹤與不污名化的照護；不能由學會立場直接推出最佳減重飲食、確切效果大小，或營養師單獨造成所有效益。\n\n## Summary\n\n✅ 讀完8頁，含Figure 1的17項建議、Figure 2、43筆文獻清單與作者／審閱／資金資訊；核對原PDF首頁、中央第4頁和末頁。\n\nAcademy主張：對18歲以上過重／肥胖成人，**在適合且本人願意時**，營養師提供的MNT行為介入可作治療選項，目標包括心代謝、生活品質與身體測量。照護要個別化、共享決策、包容、同理，並在需要時與其他專業協作。（PDF pp.1–2，期刊pp.408–409）\n\n本篇於2024年刊出，屬今天處理的積壓閱讀，不是2026年新研究。文件列其立場有效至2031年12月31日；這是原文日期，沒有替代當前法規或台灣給付核對。（PDF pp.1、8）\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> **一句話**：想改善體重相關健康的人，可以選擇營養師的長期行為與飲食照護；不願減重的人也應得到尊重與合宜營養服務。\n> **為什麼做**：肥胖因素複雜，單次講飲食或只看體重難以回應病人的生活與健康需求；照護成本、污名和可近性也影響能否獲得服務。\n> **主體**：①說明系統性回顧與17條指南建議；②整理血壓、腰圍、體重與生活品質等可能效益；③說明專業合作及資料收集；④處理病人污名、費用、復胖與文化需求；⑤提出專業能力、人力多樣性與健康公平的方向。（PDF pp.2–7）\n> **所以呢**：應把整體健康、意願、生活條件與維持支持納入，而不是強迫每個人減重；仍需看支持回顧的實際效果與偏倚，才能回答能改善多少、哪些人最有效。\n\n## 方法與核心數據\n\n- 支持回顧搜尋6個資料庫，2008年至2021年1月；篩過19,000多筆題名／摘要及900多份全文，納入62 RCT與3非隨機對照試驗。本篇僅提供這些概述，沒有完整搜尋式、研究清單、逐研究偏倚或forest plot。（PDF p.2）\n- 該回顧的效果方向：收縮壓、腰圍、BMI與體重減輕百分比屬中或高確定性；舒張壓低、心理生活品質中、身體生活品質低、成本效益低。本篇**沒有**實際合併效果、CI、I²或共同MCID，不補寫推估數字。（PDF p.2）\n- ≥5次互動與≥1年介入的較佳結果來自亞組模式；不能當作把每位病人隨機分配5次對4次的直接因果試驗。結束後約3個月效益可能衰減，因此強調維持接觸。（PDF p.2、Figure 1）\n- EBPG以證據、專家及病人價值經Evidence-to-Decision架構形成17條建議；1／2表示強／弱，B／C表示中／低確定性，Consensus表示共識。（PDF pp.2–4）\n\n## 品質評讀\n\n| AGREE II聚焦面向 | 判定 | 全文依據／影響 |\n|---|---|---|\n| 目標與病人價值 | 優點 | 成人18歲以上、本人適合且願意，重複強調共享決策與尊重不追求減重者；未強迫單一飲食。（pp.1–5） |\n| 制定嚴謹度 | 部分可追溯 | 指向獨立回顧與EBPG，交代資料庫數、期間、納入試驗數與EtD；但本篇不足以獨立重做篩選／偏倚／確定性計算。不是這份立場全文沒讀完，而是其報告層級如此。（p.2） |\n| 建議—證據連結 | 有限制 | 每條有等級；部分會面數／時長來自亞組、專業／公平主張含共識。本文未提供效果大小與害處事件表，不能把所有條文視為高確定性試驗。（pp.2–4） |\n| 編輯獨立性／COI | 未完整核實 | Academy資助且其中作者是其員工；另列研究、乳業研究與媒體報酬等關係。未清楚報告對相關條文的迴避程序。專業團體本身也有擴大MNT可近性與角色的倡議目標。（p.8） |\n| 外部審閱與更新 | 部分報告 | 經Academy內部、Council on Research、會員公開意見及再次審閱，2023-10-20核准；有效至2031年底。未在本篇給固定的證據重搜／更新節點。（p.8） |\n\n### 統計、效益與推論查核\n\n本篇沒有新primary outcome或事件表；不適合算NNT、fragility index或整篇GRADE。量化效益與MCID在本篇未報告，不能用「有顯著」取代臨床重要性。**未把支持回顧的62 RCT逐篇讀完，也未假裝重新驗證其GRADE。**\n\n需要保持的界線：\n\n1. 血壓／BMI／腰圍改善不等於已證明心血管事件或死亡下降。本文談「心代謝結果」，不應擴寫成全面存活利益。\n2. Look AHEAD與DPP是營養師和其他專業共同提供生活型態介入，不能從其成果隔離出營養師唯一貢獻。（p.2）\n3. ≥5次／≥1年是支持長期照護的方向，仍依資源與病人意願；不能保證達到次數就成功。（pp.2–4）\n4. 文中稱其他專業不能提供營養師的MNT，是專業角色立場，並未在本篇呈現不同職業、同樣介入條件的優越性比較試驗；不能當成各國法規結論。（pp.1、5）\n5. 心理健康與飲食障礙風險「平均未見傷害／可能改善」不等於每個人沒有風險。仍需全面評估、尊重意願及適時轉介。（pp.2、5–6）\n6. 復胖後仍可能保留部分風險因子改善，是本文引用的回顧主張；本篇沒有效應大小，不能保證每位個案五年受益。（p.6）\n\nGRADE保留原17條分級。本文件不是同一主要結果的完整證據集合，未建立不足資訊的grade_judge輸入。未見本文本身宣稱主要硬性終點確定降低，故不為不存在的作者主張捏造argdown錯誤。\n\n## 臨床應用\n\n| 營養師可做的事 | 原文條件／理由 |\n|---|---|\n| 先詢問是否願意討論體重與選擇目標 | 不想减重也可改善飲食品質與健康；用本人偏好的稱呼，不只假定person-first字詞都合適。（pp.5–6） |\n| 評估完整健康與生活情境 | 飲食、活動、疾病、心理、功能、食物取得與社會條件；需要時轉介。（p.2） |\n| 設計營養足夠且做得到的飲食 | 多種飲食型態可個別化；能量依估計／量測需求調整，不主張某一飲食普遍最佳。（Figure 1，pp.3–4） |\n| 提供較長期互動與維持支持 | 可行且願意時≥5次，介入≥1年，結束後至少每3個月追蹤；頻率仍個別化。（pp.3–4） |\n| 結合自我監測與合宜活動 | 依執業範圍提供或轉介活動專業，不把追蹤變成責備。（p.4） |\n| 改善照護環境與可近性 | 合適血壓袖帶／體重計、無障礙、預算可行教材，文化謙遜而非套用族群刻板印象。（pp.5–6） |\n\n台灣日常成人營養門診可以使用以上照護與溝通原則；文中美國保險、Medicare立法倡議及專業認證是發表時的美國背景，不能當成本地現行給付規定。原文提到藥物／代謝手術患者的**營養協作**，本評讀不延伸成手術療效或藥物處方，也不擴大日常feed。\n\n## 重要圖表、利益與未解事項\n\nFigure 1在PDF pp.3–4／期刊410–411，17條涵蓋MNT方法、服務方式、飲食活動與特殊成人需求；Figure 2在PDF p.5／期刊412，以概念圖連結病人、專業及公平的效益／機會，不是新試驗的數據圖。\n\nAcademy資助、內部／會員審閱與作者COI都有揭露。尚未由本篇核算：最佳個別化策略、弱勢／身障族群效果、特定接觸模式的因果差異、成本效益大小及不良事件率。作者亦指出需收集代表性更充分的實務資料。（pp.4–8）\n\n## Resource\n\n- Raynor et al. 2024, J Acad Nutr Diet 124(3):408–415。[DOI](https://doi.org/10.1016/j.jand.2023.11.013)。\n- 支持文件為本文ref4的2023 EBPG、ref7的2023系統性回顧，與本篇不同，未用摘要冒充它們的全文評讀。\n- 本篇完整英文題名、作者、期刊年份與頁碼強匹配官方公開PDF；PDF內未找到DOI，沒有聲稱DOI文字存在。原檔只供私人閱讀，公開的是獨立評讀，非全文翻譯／原圖重製。\n- Quick範圍未做作者／期刊深查、外部引用逐筆核對或台灣現行法規／給付查詢。",
+      "cards": [],
+      "completedAt": "2026-10-12T11:58:58.128Z"
     }
   ]
 }
