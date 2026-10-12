@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T11:59:27.741Z",
+  "generatedAt": "2026-10-12T12:03:58.392Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -96268,6 +96268,80 @@
       "content": "---\ntitle: \"成人體重照護的營養行為介入：學會立場與實證界線\"\ncitekey: Raynor2024AdultMNT\ndoi: \"10.1016/j.jand.2023.11.013\"\njournal: \"Journal of the Academy of Nutrition and Dietetics\"\nyear: 2024\nauthors: \"Raynor HA, Morgan-Bathke M, Baxter SD, Halliday T, Lynch A, Malik N, Garay JL, Rozga M\"\nstudy_type: \"學會立場文件／實證指南摘要\"\nreview_depth: quick\nmode: focused-quick\nfull_text_reviewed: true\nsource_pages_reviewed: \"PDF 1–8／期刊408–415，含43筆參考文獻\"\nsource_sha256: \"20255895643bf19a6f6a07e1a833530531e5e0ce167527ad2ffffbaae6a54f49\"\ntags: [source/journal, adult-nutrition, obesity, behavior-change]\n---\n\n> [!info] 品質快照\n> **設計**：學會立場文件，摘要既有系統性回顧與EBPG；不是新收案或新統合分析。**n**：本篇無單一病人數；支持回顧列62個RCT、3個非隨機對照試驗，不能當本篇65位受試者。\n> **工具**：精簡AGREE II，查制定嚴謹度、建議—證據連結、利益衝突管理及更新政策；不捏造正式量化分數。\n> **GRADE**：17條建議有1B／1C／2C／Consensus；本文未提供可重算每項結果GRADE的完整研究資料，保留作者等級、不另造全篇分數。\n> **Registration**：本篇未報告立場文件預先註冊；不是RCT，試驗註冊不適用。\n> **結論**：適合成人營養門診建立尊重意願、長期追蹤與不污名化的照護；不能由學會立場直接推出最佳減重飲食、確切效果大小，或營養師單獨造成所有效益。\n\n## Summary\n\n✅ 讀完8頁，含Figure 1的17項建議、Figure 2、43筆文獻清單與作者／審閱／資金資訊；核對原PDF首頁、中央第4頁和末頁。\n\nAcademy主張：對18歲以上過重／肥胖成人，**在適合且本人願意時**，營養師提供的MNT行為介入可作治療選項，目標包括心代謝、生活品質與身體測量。照護要個別化、共享決策、包容、同理，並在需要時與其他專業協作。（PDF pp.1–2，期刊pp.408–409）\n\n本篇於2024年刊出，屬今天處理的積壓閱讀，不是2026年新研究。文件列其立場有效至2031年12月31日；這是原文日期，沒有替代當前法規或台灣給付核對。（PDF pp.1、8）\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> **一句話**：想改善體重相關健康的人，可以選擇營養師的長期行為與飲食照護；不願減重的人也應得到尊重與合宜營養服務。\n> **為什麼做**：肥胖因素複雜，單次講飲食或只看體重難以回應病人的生活與健康需求；照護成本、污名和可近性也影響能否獲得服務。\n> **主體**：①說明系統性回顧與17條指南建議；②整理血壓、腰圍、體重與生活品質等可能效益；③說明專業合作及資料收集；④處理病人污名、費用、復胖與文化需求；⑤提出專業能力、人力多樣性與健康公平的方向。（PDF pp.2–7）\n> **所以呢**：應把整體健康、意願、生活條件與維持支持納入，而不是強迫每個人減重；仍需看支持回顧的實際效果與偏倚，才能回答能改善多少、哪些人最有效。\n\n## 方法與核心數據\n\n- 支持回顧搜尋6個資料庫，2008年至2021年1月；篩過19,000多筆題名／摘要及900多份全文，納入62 RCT與3非隨機對照試驗。本篇僅提供這些概述，沒有完整搜尋式、研究清單、逐研究偏倚或forest plot。（PDF p.2）\n- 該回顧的效果方向：收縮壓、腰圍、BMI與體重減輕百分比屬中或高確定性；舒張壓低、心理生活品質中、身體生活品質低、成本效益低。本篇**沒有**實際合併效果、CI、I²或共同MCID，不補寫推估數字。（PDF p.2）\n- ≥5次互動與≥1年介入的較佳結果來自亞組模式；不能當作把每位病人隨機分配5次對4次的直接因果試驗。結束後約3個月效益可能衰減，因此強調維持接觸。（PDF p.2、Figure 1）\n- EBPG以證據、專家及病人價值經Evidence-to-Decision架構形成17條建議；1／2表示強／弱，B／C表示中／低確定性，Consensus表示共識。（PDF pp.2–4）\n\n## 品質評讀\n\n| AGREE II聚焦面向 | 判定 | 全文依據／影響 |\n|---|---|---|\n| 目標與病人價值 | 優點 | 成人18歲以上、本人適合且願意，重複強調共享決策與尊重不追求減重者；未強迫單一飲食。（pp.1–5） |\n| 制定嚴謹度 | 部分可追溯 | 指向獨立回顧與EBPG，交代資料庫數、期間、納入試驗數與EtD；但本篇不足以獨立重做篩選／偏倚／確定性計算。不是這份立場全文沒讀完，而是其報告層級如此。（p.2） |\n| 建議—證據連結 | 有限制 | 每條有等級；部分會面數／時長來自亞組、專業／公平主張含共識。本文未提供效果大小與害處事件表，不能把所有條文視為高確定性試驗。（pp.2–4） |\n| 編輯獨立性／COI | 未完整核實 | Academy資助且其中作者是其員工；另列研究、乳業研究與媒體報酬等關係。未清楚報告對相關條文的迴避程序。專業團體本身也有擴大MNT可近性與角色的倡議目標。（p.8） |\n| 外部審閱與更新 | 部分報告 | 經Academy內部、Council on Research、會員公開意見及再次審閱，2023-10-20核准；有效至2031年底。未在本篇給固定的證據重搜／更新節點。（p.8） |\n\n### 統計、效益與推論查核\n\n本篇沒有新primary outcome或事件表；不適合算NNT、fragility index或整篇GRADE。量化效益與MCID在本篇未報告，不能用「有顯著」取代臨床重要性。**未把支持回顧的62 RCT逐篇讀完，也未假裝重新驗證其GRADE。**\n\n需要保持的界線：\n\n1. 血壓／BMI／腰圍改善不等於已證明心血管事件或死亡下降。本文談「心代謝結果」，不應擴寫成全面存活利益。\n2. Look AHEAD與DPP是營養師和其他專業共同提供生活型態介入，不能從其成果隔離出營養師唯一貢獻。（p.2）\n3. ≥5次／≥1年是支持長期照護的方向，仍依資源與病人意願；不能保證達到次數就成功。（pp.2–4）\n4. 文中稱其他專業不能提供營養師的MNT，是專業角色立場，並未在本篇呈現不同職業、同樣介入條件的優越性比較試驗；不能當成各國法規結論。（pp.1、5）\n5. 心理健康與飲食障礙風險「平均未見傷害／可能改善」不等於每個人沒有風險。仍需全面評估、尊重意願及適時轉介。（pp.2、5–6）\n6. 復胖後仍可能保留部分風險因子改善，是本文引用的回顧主張；本篇沒有效應大小，不能保證每位個案五年受益。（p.6）\n\nGRADE保留原17條分級。本文件不是同一主要結果的完整證據集合，未建立不足資訊的grade_judge輸入。未見本文本身宣稱主要硬性終點確定降低，故不為不存在的作者主張捏造argdown錯誤。\n\n## 臨床應用\n\n| 營養師可做的事 | 原文條件／理由 |\n|---|---|\n| 先詢問是否願意討論體重與選擇目標 | 不想减重也可改善飲食品質與健康；用本人偏好的稱呼，不只假定person-first字詞都合適。（pp.5–6） |\n| 評估完整健康與生活情境 | 飲食、活動、疾病、心理、功能、食物取得與社會條件；需要時轉介。（p.2） |\n| 設計營養足夠且做得到的飲食 | 多種飲食型態可個別化；能量依估計／量測需求調整，不主張某一飲食普遍最佳。（Figure 1，pp.3–4） |\n| 提供較長期互動與維持支持 | 可行且願意時≥5次，介入≥1年，結束後至少每3個月追蹤；頻率仍個別化。（pp.3–4） |\n| 結合自我監測與合宜活動 | 依執業範圍提供或轉介活動專業，不把追蹤變成責備。（p.4） |\n| 改善照護環境與可近性 | 合適血壓袖帶／體重計、無障礙、預算可行教材，文化謙遜而非套用族群刻板印象。（pp.5–6） |\n\n台灣日常成人營養門診可以使用以上照護與溝通原則；文中美國保險、Medicare立法倡議及專業認證是發表時的美國背景，不能當成本地現行給付規定。原文提到藥物／代謝手術患者的**營養協作**，本評讀不延伸成手術療效或藥物處方，也不擴大日常feed。\n\n## 重要圖表、利益與未解事項\n\nFigure 1在PDF pp.3–4／期刊410–411，17條涵蓋MNT方法、服務方式、飲食活動與特殊成人需求；Figure 2在PDF p.5／期刊412，以概念圖連結病人、專業及公平的效益／機會，不是新試驗的數據圖。\n\nAcademy資助、內部／會員審閱與作者COI都有揭露。尚未由本篇核算：最佳個別化策略、弱勢／身障族群效果、特定接觸模式的因果差異、成本效益大小及不良事件率。作者亦指出需收集代表性更充分的實務資料。（pp.4–8）\n\n## Resource\n\n- Raynor et al. 2024, J Acad Nutr Diet 124(3):408–415。[DOI](https://doi.org/10.1016/j.jand.2023.11.013)。\n- 支持文件為本文ref4的2023 EBPG、ref7的2023系統性回顧，與本篇不同，未用摘要冒充它們的全文評讀。\n- 本篇完整英文題名、作者、期刊年份與頁碼強匹配官方公開PDF；PDF內未找到DOI，沒有聲稱DOI文字存在。原檔只供私人閱讀，公開的是獨立評讀，非全文翻譯／原圖重製。\n- Quick範圍未做作者／期刊深查、外部引用逐筆核對或台灣現行法規／給付查詢。",
       "cards": [],
       "completedAt": "2026-10-12T11:58:58.128Z"
+    },
+    {
+      "id": "doi:10.1016/j.jand.2023.11.013:digest",
+      "paperId": "doi:10.1016/j.jand.2023.11.013",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Position of the Academy of Nutrition and Dietetics: Medical Nutrition Therapy Behavioral Interventions Provided by Dietitians for Adults With Overweight or Obesity, 2024.",
+      "authors": "Raynor H, Morgan-Bathke M, Baxter S, Halliday T, Lynch A, Malik N, Garay J, Rozga M",
+      "journal": "Dietitian evidence literacy and risk communication (PubMed)",
+      "year": "2024",
+      "doi": "10.1016/j.jand.2023.11.013",
+      "abstract": "Providing interventions that facilitate improvement of dietary intake and other health behaviors can improve nutrition-related outcomes in adults with overweight or obesity. Medical nutrition therapy (MNT) behavioral interventions require expertise from registered dietitian nutritionists or international equivalents (dietitians), which no other health care provider can provide for adults with obesity. Current evidence supports the role of MNT behavioral interventions for adults with overweight or obesity as an effective treatment option, when appropriate for and desired by the client. This Academy of Nutrition and Dietetics Position Paper describes potential benefits and concerns regarding dietitian-provided MNT behavioral interventions for adults with overweight and obesity and informs dietitians about implications for practice. This Position Paper is supported by a systematic review examining effectiveness of MNT interventions provided by dietitians and by an evidence-based practice guideline. It is the position of the Academy of Nutrition and Dietetics that MNT behavioral interventions for adults (aged 18 years and older) with overweight or obesity should be a treatment option, when appropriate and desired by the client, to improve cardiometabolic, quality of life, and anthropometric outcomes. Dietitians providing MNT recognize the complex contributors to overweight and obesity, and thus individualize interventions, based on a shared decision-making process, and deliver interventions in an inclusive, compassionate, and client-centered manner. Interventions should include collaboration with an interprofessional team when needed. Dietitians strive to increase health equity and reduce health disparities by advocating and providing opportunities for increased access to effective nutrition care services. This position remains in effect until December 31, 2031.",
+      "legalFullTextUrl": "https://higherlogicdownload.s3.amazonaws.com/THEACADEMY/e84e5d26-582d-4c53-b6f0-f0ab6604326f/UploadedImages/WM/CSOWM/Position_paper_2024_Obesity.pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/38040115/",
+      "category": "recommended",
+      "tags": [
+        "adult clinical practice gaps",
+        "design:systematic review",
+        "dietitian clinical nutrition",
+        "evidence literacy",
+        "guideline and consensus",
+        "nutrition and dietary pattern",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "成人體重照護的17項營養行為建議：共享決策與長期支持",
+      "content": "---\r\ntitle: \"成人體重照護的17項營養行為建議：共享決策與長期支援\"\r\ncitekey: Raynor2024AdultMNT\r\ndoi: \"10.1016/j.jand.2023.11.013\"\r\njournal: \"Journal of the Academy of Nutrition and Dietetics\"\r\nyear: 2024\r\nstudy_type: \"學會立場檔案／指南摘要\"\r\nmode: worker-batch\r\nfull_text_reviewed: true\r\nsource_pages_reviewed: \"PDF 1–8／期刊408–415，含43筆參考文獻\"\r\nsource_sha256: \"20255895643bf19a6f6a07e1a833530531e5e0ce167527ad2ffffbaae6a54f49\"\r\ntags: [research/digest, adult-nutrition, obesity, behavior-change]\r\n---\r\n\r\n> [!summary] 30秒層\r\n> 營養師的MNT行為介入可作成人過重／肥胖的照護選項，前提是適合且本人願意。\r\n> - 目標看心代謝、生活品質與身體測量，也看本人重視的健康需求。\r\n> - 多種飲食型態可以個別化；營養足夠、做得到及共享決策是共同條件。\r\n> - 可行且願意時，至少5次互動、至少1年介入，結束後至少每3個月維持追蹤。\r\n> - 不想減重也能接受飲食與健康照護；減少汙名，用本人偏好的語言。\r\n> - 文化、預算、功能、食物取得與服務可近性會影響落地。\r\n> 品質另見同篇評讀；本整理描述原文，不保證每位病人的效果或重算支援回顧。\r\n\r\n## 5分鐘層／全文地圖\r\n\r\n**要點**：讀「要點」與17條表格，便能重建文章從效果到服務公平的全貌。\r\n\r\n| PDF／期刊頁碼 | 內容 |\r\n|---|---|\r\n| p.1／408 | 學會立場、成人18歲以上、意願與共享決策 |\r\n| p.2／409 | 支援系統性回顧、EBPG及病人可能效益 |\r\n| pp.3–4／410–411 | Figure 1的17條建議；專業合作與研究資料需求 |\r\n| pp.5–6／412–413 | Figure 2；病人汙名、成本、復胖與專業能力／文化／人力疑慮 |\r\n| pp.7–8／414–415 | 結論、43筆文獻、審閱、核准日期、作者及資金揭露 |\r\n\r\n## 證據背景與適用條件\r\n\r\n**要點**：這是2024立場檔案，援引既有回顧和指南，沒有新試驗的單一樣本。\r\n\r\n支援回顧搜尋6個資料庫、2008年至2021年1月，篩19,000多筆題名／摘要與900多份全文，納入62 RCT、3非隨機對照試驗。本文概述收縮壓、腰圍、BMI、體重減輕百分比有中／高確定性支援；舒張壓低、心理生活品質中、身體生活品質低、成本效益低。沒有列實際合併效果、CI或I²，所以這份整理也不創造數字。（p.2）\r\n\r\n介入≥5次且≥1年的較佳結果是亞組模式，結束後3個月效果可能減弱。這提供長期支援方向，不能當每位病人達到次數必然成功的證據。Look AHEAD與DPP範例由營養師與其他專業共同執行，不能拆成營養師唯一貢獻。（p.2）\r\n\r\n## 建議條文表\r\n\r\n**要點**：17條分四組，個別化與意願貫穿每一組；強度與確定性是不同維度。\r\n\r\n1＝較強、2＝較弱；B＝中、C＝低確定性；Consensus＝專家共識。以下以自己的話重述Figure 1，不重製原表。\r\n\r\n| 編號／建議 | 強度 | 證據等級 | 適用族群／條件 |\r\n|---|---|---|---|\r\n| 1.1 用NCP、共享決策與臨床判斷個別化照護 | 共識 | 未另列 | 成人過重／肥胖，各自需求情境與目標 |\r\n| 1.2 MNT作改善心代謝、QoL及體重結果的選項 | 1 | B | 適合且本人願意 |\r\n| 1.3 需要時跨專業提供完整多成分照護 | 1 | C | 同上 |\r\n| 1.4 持續評估、調整目標、維持方案與資源 | 共識 | 未另列 | 同上 |\r\n| 1.5 減少偏見／汙名，個別化、本人偏好語言與包容環境 | 共識 | 未另列 | 所有接受照護者 |\r\n| 2.1 可行且願意時至少5次互動；頻率依個案 | 2 | C | 成人過重／肥胖 |\r\n| 2.2 介入至少1年以最佳化心代謝及體重結果 | 1 | C | 適合且願意 |\r\n| 2.3 結束後至少每3個月追蹤，持續多久依本人意願 | 1 | C | 維持改善的成人 |\r\n| 2.4 遠距、實體或混合；含實體可能較佳 | 2 | C | 依可近性與需求 |\r\n| 2.5 個別及團體都可用 | 2 | C | 可行且適合 |\r\n| 2.6 串聯門診、社群、工作場域等適合環境 | 1 | B | 需要資源與支援的成人 |\r\n| 2.7 理解可用服務付費管道、改善照護取得 | 共識 | 未另列 | 原文美國制度背景，不等於臺灣給付 |\r\n| 3.1 多種飲食可個別化，營養足夠、可持續、能量依需求調整 | 1 | C | 體重改善或維持目標 |\r\n| 3.2 完整方案納營養足夠飲食、自我監測及合宜活動 | 1 | C | 本人願意；活動依執業範圍或轉介 |\r\n| 4.1 合併T2DM、CVD、血脂等問題時，與團隊協調個別MNT | 1 | B | 成人共病照護 |\r\n| 4.2 已接受藥物／代謝手術者仍需營養師協作維持營養足夠 | 1 | B | 原文營養照護情境，不是手術或藥物療效推薦 |\r\n| 4.3 對較多不平等負擔的成人，依文化、價值及障礙設計介入 | 1 | C | 低資源、少數族群、高齡、身障等成人 |\r\n\r\n來源：PDF pp.3–4／期刊410–411。這17條沒有指定一個普遍最佳飲食，也沒有個人固定熱量或藥物劑量。\r\n\r\n## 病人的效益與疑慮\r\n\r\n**要點**：改善不只體重；同時處理汙名、費用與長期維持，讓病人有選擇。\r\n\r\n### 效益\r\n\r\n- 可能改善飲食品質、合宜活動、血壓、部分血糖與行動能力，並改善生活品質和部分心理狀態；不同結果的確定性不同，不把全部效果合併成一個保證。（p.2）\r\n- 完整NCP評估可能找出心理健康、功能限制、食物不安全與其他需求，轉介心理、社工、活動／復健或食物支援，擴大所需服務。（p.2）\r\n\r\n### 疑慮與因應\r\n\r\n- 只盯體重或以羞辱為動機會傷害照護關係；應問本人想討論什麼。不願追求減重也可改善飲食與健康，尊重決定不責備。（pp.5–6）\r\n- person-first不是所有人的共同偏好；原文列有人喜歡談「體重」、有人選不同用詞，應詢問。環境需有合宜袖帶、足夠承重／輪椅可用體重計與無障礙教材。（pp.5–6）\r\n- 費用與保險阻礙取得服務；檔案談美國發表時的政策倡議。不能據此聲稱2026臺灣或美國現行給付已涵蓋某項服務。（p.6）\r\n- 復胖不表示所有風險因子改善都消失；本文引用回顧說部分改善可維持，但未提供可保證個人結果的數值。（p.6）\r\n- 平均未見心理傷害不是每個人都沒有飲食障礙風險，仍以完整評估及轉介處理。（pp.2、5）\r\n\r\n## 專業角色、能力與健康公平\r\n\r\n**要點**：合作、能力與文化謙遜可以改善服務；專業倡議不等於職業優越性的比較試驗。\r\n\r\n- 營養師在跨專業團隊中做飲食為核心的MNT，建立轉介關係；依角色與規範由適當人員提供服務。檔案主張MNT需要營養師專業，但本文沒有等條件職業比較試驗。（pp.4–5）\r\n- 實務資料可補低社經、少數代表族群、身障等成人的證據缺口；資料要含社會風險、照護經驗、代表性與結果，而不是隻稱重。（pp.4–5）\r\n- 能力包含肥胖複雜因素、實證照護、跨專業協作、避免汙名與理解不平等；需要教育及持續訓練。（p.6）\r\n- 文化能力訓練若把人套入群體樣板可能加強刻板印象；文化謙遜要求自我反思、分享決策權與向病人學習。（p.6）\r\n- 作者引用2021職業調查：6%有Hispanic／Latino背景、10%非White、少於4%有身障，用來討論人力代表性。這些是原文引用的歷史美國調查，不是今天台灣營養師統計。（p.6）\r\n\r\n## 與前版或他版差異\r\n\r\n**要點**：2024檔案承接2015版，凸顯個別化、意願、汙名與可近性；沒有逐條比較前版效果。\r\n\r\n作者資訊列前版2015年12月，Council on Research於2023年10月20日核准現版，有效至2031年底；文中沒有完整前後條文差異表。本篇支援來源是另兩份2023系統性回顧與EBPG，不把它們算成本篇新試驗。（pp.7–8）\r\n\r\n## 實務落地\r\n\r\n**要點**：先問意願與整體健康，再共同選小步驟、追蹤與必要轉介。\r\n\r\n1. 開始問是否願意談體重、希望改善哪些健康與生活結果，以及偏好的說法。\r\n2. 完整評估攝食、疾病與用藥情境、功能、心理、食物／經濟與文化條件；需要時轉介。\r\n3. 選營養足夠且符合本人生活的飲食目標，搭配自我監測與合宜活動；不把每個人塞進同一低熱量方案。\r\n4. 依資源與本人願意安排較長期互動，治療結束後仍協議維持支援。\r\n5. 追蹤本人在意的結果、飲食行為、血壓／血糖／腰圍等合適指標及困難，不以體重單項判定成功或失敗。\r\n\r\n以上依本篇pp.1–6重述，不提供個人醫療處方或未核對的給付條件。\r\n\r\n## 重要圖表重述\r\n\r\n**要點**：Figure 1是17條建議，Figure 2是效益與機會的概念圖，兩者都不是新試驗結果圖。\r\n\r\n- Figure 1（pp.3–4）分MNT方法、提供方式、飲食活動、特殊成人需求；數字強度與字母確定性分開。\r\n- Figure 2（p.5）四區：病人可能健康效益、專業合作與資料效益、病人的不汙名與可近性機會，以及專業人力／多樣性／政策機會。它表達方向，沒有因果效應量。\r\n- 原頁1／4／8及Figure 2所在第5頁已視覺核對；原圖與全文未公開重製。\r\n\r\n## 與既有認知的對照\r\n\r\n**要點**：本機同篇評讀把立場、原分級與證據缺口分開，避免把服務次數變成成功保證。\r\n\r\n本輪本機已儲存同篇focused-quick評讀，指出5次／1年屬研究模式與服務方向，且本文無合併效果可重算。這個對照支援長期與病人中心照護，不證明任何單一飲食最佳。未使用外部vault搜尋工具，不聲稱已完成外部知識庫檢索；對照只限實際讀過的本機成果。\r\n\r\n## 概念／名詞整理\r\n\r\n**要點**：介入、程式、指南與結果各有不同意思。\r\n\r\n- **MNT**：醫學營養治療，依臨床和個別需求提供營養介入。\r\n- **NCP**：評估、營養診斷、介入、監測與評值的營養照護程式。\r\n- **EBPG／EtD**：實證實務指南／證據到決策架構，兼顧證據、專家與病人價值。\r\n- **QoL**：生活品質，與體重、血壓不是同一結果。\r\n- **weight bias／stigma**：因體重形成偏見／汙名，可能影響語言、環境及服務。\r\n- **文化謙遜**：持續自省、共同決策、向個案學習，不把族群習慣當固定模板。\r\n\r\n## 自我測驗\r\n\r\n**要點**：以個案需求回答，而不是隻背接觸次數。\r\n\r\n> [!question]- Q1：過重成人不想減重，是否就沒有MNT可提供？\r\n> 不是。尊重不追求減重的決定，仍可改善飲食品質與其他健康目標；不強迫談體重或使用其不喜歡的詞。（pp.5–6）\r\n\r\n> [!question]- Q2：為何不能保證5次諮詢加1年介入就會成功？\r\n> 這是支援研究的亞組模式與指南方向，個案仍受條件、偏好和資源影響；≥5次為2C，至少1年為1C。不是固定次數的成功保證。（pp.2–4）\r\n\r\n> [!question]- Q3：指南是否選出唯一最佳減重飲食？\r\n> 沒有。多種飲食可個別化，需營養足夠、可執行，能量依估計／量測需要與本人目標調整。（Figure 1，pp.3–4）\r\n\r\n> [!question]- Q4：為何體重以外還要追蹤與轉介？\r\n> 完整評估可能找出心理、功能、食物不安全與其他需求；目標亦含心代謝與QoL，體重無法代表所有改善或問題。（pp.2、4–6）\r\n\r\n> [!question]- Q5：文化能力訓練何時反而可能造成問題？\r\n> 把人固定套進族群模板可能形成刻板印象；需文化謙遜、自我反思並與個案共同決策，確認其真正習慣與障礙。（p.6）\r\n\r\n## Reference\r\n\r\n**要點**：本篇原文與支援檔案分清楚，不以引用摘要代替完整閱讀。\r\n\r\n- Raynor et al. 2024, J Acad Nutr Diet 124(3):408–415。[DOI](https://doi.org/10.1016/j.jand.2023.11.013)。全文8頁與43筆文獻清單已讀。\r\n- ref4：2023成人體重MNT EBPG；ref7：2023營養師體重介入系統性回顧。這兩份不同文章未在本篇閱讀工作中假稱已全文評讀。\r\n- 原檔案由Academy資助，經內部／會員及Council審閱；有作者利益揭露，原文不是產品或服務背書。（p.8）\r\n- 這是獨立重述及5張理解卡；不公開原PDF、原圖或逐句全文翻譯。",
+      "cards": [
+        {
+          "title": "成人營養行為介入",
+          "question": "Q1：過重成人不想減重，是否就沒有MNT可提供？",
+          "answer": "不是。尊重不追求減重的決定，仍可改善飲食品質與其他健康目標；不強迫談體重或使用其不喜歡的詞。（pp.5–6）",
+          "tags": [
+            "adult-nutrition",
+            "obesity"
+          ]
+        },
+        {
+          "title": "成人營養行為介入",
+          "question": "Q2：為何不能保證5次諮詢加1年介入就會成功？",
+          "answer": "這是支援研究的亞組模式與指南方向，個案仍受條件、偏好和資源影響；≥5次為2C，至少1年為1C。不是固定次數的成功保證。（pp.2–4）",
+          "tags": [
+            "adult-nutrition",
+            "obesity"
+          ]
+        },
+        {
+          "title": "成人營養行為介入",
+          "question": "Q3：指南是否選出唯一最佳減重飲食？",
+          "answer": "沒有。多種飲食可個別化，需營養足夠、可執行，能量依估計／量測需要與本人目標調整。（Figure 1，pp.3–4）",
+          "tags": [
+            "adult-nutrition",
+            "obesity"
+          ]
+        },
+        {
+          "title": "成人營養行為介入",
+          "question": "Q4：為何體重以外還要追蹤與轉介？",
+          "answer": "完整評估可能找出心理、功能、食物不安全與其他需求；目標亦含心代謝與QoL，體重無法代表所有改善或問題。（pp.2、4–6）",
+          "tags": [
+            "adult-nutrition",
+            "obesity"
+          ]
+        },
+        {
+          "title": "成人營養行為介入",
+          "question": "Q5：文化能力訓練何時反而可能造成問題？",
+          "answer": "把人固定套進族群模板可能形成刻板印象；需文化謙遜、自我反思並與個案共同決策，確認其真正習慣與障礙。（p.6）",
+          "tags": [
+            "adult-nutrition",
+            "obesity"
+          ]
+        }
+      ],
+      "completedAt": "2026-10-12T12:03:29.697Z"
     }
   ]
 }
