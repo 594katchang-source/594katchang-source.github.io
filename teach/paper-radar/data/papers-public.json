@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T11:08:24.418Z",
+  "generatedAt": "2026-10-12T11:24:07.526Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -95981,6 +95981,83 @@
         }
       ],
       "completedAt": "2026-10-12T11:08:00.852Z"
+    },
+    {
+      "id": "doi:10.1016/j.clnesp.2026.105085:digest",
+      "paperId": "doi:10.1016/j.clnesp.2026.105085",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Protein Intake Is Associated with Adiposity and Quality of Life in Adults with Becker Muscular Dystrophy.",
+      "authors": "",
+      "journal": "Other nutrition journals (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.clnesp.2026.105085",
+      "abstract": "Becker Muscular Dystrophy (BMD) is a rare X-linked genetic condition characterised by reduced dystrophin expression, causing progressive skeletal muscle and functional decline, and ultimately poor quality of life (QoL). With no current pharmacological cure, practical easy-to-implement strategies are needed to improve QoL in BMD. Increasing dietary protein intake is beneficial in other clinical populations, exhibiting positive impacts on lean body mass and self-reported pain. While progressive muscle deterioration is a hallmark of BMD, less is known about the interaction between nutritional status, body composition, physical function and QoL in BMD. Therefore, this study aimed to characterise dietary intake and explore relationships between dietary factors and readouts of body composition, muscle size/strength and QoL. Adult males with BMD (n = 20) and age-matched controls (n = 12), completed 2 food diaries ∼6 weeks apart with instructions to state exact quantities, brand names and cooking methods, a battery of physical tests assessing body composition, muscle size, strength, and function, as well as validated questionnaires on perceived physical function, pain/fatigue, QoL, and nutritional knowledge. Adults with BMD reported 29% lower daily energy intake, 25-30% lower carbohydrate and fat intakes, and 21% lower relative protein intake (0.86 vs. 1.08g/kg/day) than controls (all p < 0.05). Only 10% of the BMD group met the minimum end of The European Society for Clinical Nutrition (ESPEN) recommended protein intake range for disease-related muscle loss (1.2-1.7g/kg/day). The BMD group exhibited greater fat mass index (FMI) (9.31kg/m2 vs. 6.30kg/m2) and 95% of BMD were classified obese or overweight, however no differences in lean mass were observed. Individuals with BMD also exhibited lower tibialis anterior muscle thickness, strength, and physical function, and reported reduced QoL, lower limb function and activities of daily living, along with higher pain and fatigue (67-77%, all p < 0.05). When controlling for age, total energy intake and self-reported physical activity, protein intake (g/kg/day) was negatively associated with fat mass index (r = -0.698, p = 0.017) and positively associated with SF36v2 quality of life (r = 0.503, p = 0.040), whilst BMI was positively associated with pain (r = 0.684, p = 0.002). Our results show adults with BMD report lower overall caloric and relative protein intake than non-dystrophic individuals, with protein intake substantially lower than guidance for other muscle-wasting conditions. Adults with BMD also displayed higher levels of adiposity, reported higher fatigue and pain as well as lower quality of life. The observed positive associations between relative protein intake and QoL, together with the negative associations between relative protein intake and adiposity, support further investigation into the role of protein intake in adults with BMD. Prospective and intervention studies are needed to establish the true nature of these relationships to inform nutritional recommendations for the BMD population.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42674362/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "nutrition and dietary pattern",
+        "protein and micronutrients",
+        "safety and interaction",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "Becker肌失養症：蛋白攝取、體脂與生活品質整理",
+      "content": "---\r\ndigest_mode: worker-batch\r\ndoi: 10.1016/j.clnesp.2026.105085\r\ntags: [research/digest, Becker肌失養症, 蛋白質]\r\n---\r\n# Becker肌失養症成人蛋白、體脂與生活品質：研究內容整理\r\n> [!summary] 30 秒層\r\n> 成人BMD的每公斤蛋白攝取與體脂／生活品質同時相關，但沒有證明提高蛋白能改善它們。\r\n> - 20名BMD成人男性與12名年齡匹配健康對照，非隨機觀察研究。\r\n> - BMD每公斤蛋白較低，但絕對g/day沒有顯著差。\r\n> - 控制年齡、能量和自報活動後，蛋白比率與FMI負相關、SF36v2正相關。\r\n> - BIA、飲食低報、小樣本與原表分母矛盾限制解讀。\r\n> 品質未評讀（內容整理）；需可信度判斷 → /paper-review；本輪另有品質評讀。\r\n\r\n5 分鐘層：先讀各節「要點」；完整層：再讀方法、結果表與限制。\r\n\r\n## 研究問題／背景\r\n**要點**：肌失養症需要營養照護，但其他肌肉流失病群的蛋白建議不能直接當BMD最佳處方。\r\n作者想描寫成人Becker muscular dystrophy的日常攝取、飲食品質、身體組成與身心功能，並找出蛋白攝取的相關性。BMD肌肉變化、行動限制與能量消耗下降可能同時影響體脂及營養需求；本篇沒有讓患者增蛋白後測效果。（pp.1–2）\r\n\r\n## 方法\r\n**要點**：兩次飲食紀錄配一次身體／功能評估，用相關分析探索關係。\r\n- 原招26名BMD，最後20名男性，46±12歲；12名健康對照47±13歲。BMD診斷自述，排胃造口、認知缺陷與另外會影響測量的慢性病；較重者可能不足代表。（p.2）\r\n- 18名BMD實體測量，2名只完成飲食／問卷。Methods可走9／不可走11，而表1寫11／9，原文矛盾不自行選一個當定論。（pp.2、4）\r\n- 兩次各3天飲食（2平日、1週末），相隔約6週；紀錄份量品牌，紙本或Libro，Nutritics由同一調查者輸入。HEI2020調成英國克數與纖維>30g/day的尺度。（p.3）\r\n- BMD以臂展及3.5%校正估身高／坐秤，對照立姿身高及站秤；BIA估身體組成，超音波量GM、TA與前臂肌厚。三次MVC取最好，可走者測10m與TUG；看得見收縮但無力記0，與無法測不同。（p.3）\r\n- SF36v2生活品質、CIS疲勞、VAS痛、LEFS/Barthel/NEADL功能與日常活動、PASIPD活動，以及食慾、營養知識及食物素養問卷。（p.3）\r\n- 常態t／非引數Mann–Whitney，Pearson／Spearman，partial correlation控制年齡、能量、自報活動；pairwise exclusion。探索性多重比較未校正。（pp.3、7）\r\n\r\n## 主要發現\r\n**要點**：相對蛋白的差異不等於絕對蛋白不足造成所有問題。\r\n| 結果 | BMD／對照或BMD內關聯 | 原文 |\r\n|---|---|---|\r\n| 相對蛋白 | .86／1.08g/kg/day，p=.028 | p.1、表2 p.5；表2四捨五入.9／1.1 |\r\n| 絕對蛋白 | 81.2±22.1／91.1±20.1g/day，未顯著 | 表2 |\r\n| 蛋白佔能量 | 20.4±4.7%／16.7±4.7%，p=.012 | 表2 |\r\n| 自報能量 | 1602.4±351.5／2229.5±17kcal/day | 原表2印刷值，未擅改對照SD |\r\n| 體重／BMI | 97.6／85.8kg；30.0／26.7kg/m² | 表1 |\r\n| 脂量指數FMI | 9.31／6.30，p=.04 | pp.4–5 |\r\n| 瘦量 | 絕對瘦量與LMI未顯著不同 | pp.4–5 |\r\n| HEI | 40.9±9.8／42.5±9.7，p=.657 | p.5；兩組均≤50 |\r\n| 品質／疲勞／痛 | SF36v2 43.6／89.6；CIS79.6／47.4；VAS3.4／.8 | pp.5–6 |\r\n| 肌厚 | GM26.3／21.4mm；TA20.9／26.0mm | pp.5–6 |\r\n| 蛋白–FMI | partial r=−.698，p=.017 | §3.6 p.7 |\r\n| 蛋白–SF36v2 | partial r=.503，p=.040 | 同上 |\r\n| BMI–痛 | partial r=.684，p=.002 | 同上 |\r\n\r\nBMD鎂、鐵、銅、鋅較低，兩組食慾／營養知識未差。95%BMD過重／肥胖。作者說僅10%達其他肌肉耗損情境範圍下限1.2g/kg/day；這不是本篇驗證的BMD目標。控制三項後，蛋白沒有與LMI、肌厚、力量或行動功能顯著相關。相關估計未給CI，不能推算改善QoL多少分。（pp.4–8）\r\n\r\n## 重要圖表重述\r\n**要點**：身體組成、飲食與功能三組資訊要一起看。\r\n- 表1人口與行動狀態，與Methods可走人數相反。\r\n- 表2飲食及營養素：蛋白百分比較高、g/kg較低、絕對克數未顯著，呈現分母的重要性；對照能量SD17按原表保留。\r\n- 表3超音波／功能，表4心理與日常活動，表5食物素養：不同指標反映不同層面，不能用一個瘦量值替代全部功能。\r\n- 圖1身體組成BIA n14；圖2兩次飲食日間／餐次分佈；圖3FMI相關n16。圖3圖說稱Pearson，正文稱partial，尚待作者澄清。（原PDF pp.4、7已實看）\r\n- GM較厚可能是假性肥大，TA較薄則符合萎縮。肌肉厚不等於組成／力量較好，BIA瘦量也不能拆開正常肌肉、脂肪浸潤、纖維化與水分。（pp.6–8）\r\n\r\n## 臨床意義／怎麼用\r\n**要點**：評估攝取、能量消耗與肌肉品質，不能根據橫斷相關保證高蛋白收益。\r\n較好QoL可能讓人吃更多蛋白，而不是蛋白造成QoL好；疾病嚴重度、活動與體脂也可能同時影響兩者。g/kg以體重為分母，BMI／FMI又和脂量／體重相關，可能出現共同分母的數學耦合；這是評讀補充的替代解釋，尚未證明它解釋全部結果。\r\n自報低能量伴高脂量，可能低報或低消耗；本篇未量BMR。不要為了追別病群蛋白目標而無條件增加總熱量。作者希望做BMD專屬介入研究，配DXA／MRI及直接能量消耗測量。（pp.7–8）\r\n\r\n## 作者限制與全文地圖\r\n**要點**：罕見病難招人，不會讓小樣本與量測問題自動消失。\r\npp.1–2交代問題與招募；p.3飲食、身體組成、功能／問卷；pp.4–7逐項結果；pp.7–8討論反向因果、低報、BIA、樣本數及未來研究；pp.8–10為資助、COI及117篇參考文獻。全部10頁已讀，首1、中5、末10及表圖關鍵頁視覺核對。作者承認未達預期樣本，沒有BMD專屬蛋白劑量試驗，不提供MCID或NNT。\r\nMDUK博士獎助23GRO-PS48-0291，作者宣告沒有COI。（p.8）\r\n\r\n## 與既有認知的對照\r\n**要點**：同篇review和digest使用同一份核驗來源，保留「關聯」措辭。\r\n已與本輪同篇品質評讀核對上述主要數字及原表矛盾。Worker模式略過外部vault日誌／重複卡片推送，沒有宣稱查遍所有既有筆記或另核117篇引用全文。\r\n\r\n## 概念／名詞整理\r\n**要點**：瘦量、肌厚、功能與體脂不能互換。\r\nBMD為Becker肌失養症；FMI脂量÷身高平方，LMI瘦量÷身高平方；GM腓腸肌、TA脛前肌；假性肥大是外觀／厚度增加但組成不等於健康肌肉；partial correlation是在指定變項控制後的關聯，不能排除其他混雜；HEI為飲食品質，不是單一蛋白指標。\r\n\r\n## 自我測驗\r\n**要點**：能解釋分母與設計，才能避免把結果讀成處方。\r\n> [!question]- Q1：為何g/kg有差，g/day卻不一定有差？\r\n> g/kg受體重影響；BMD體重較高，絕對81.2／91.1g/day未顯著，相對.86／1.08g/kg有差。不能只憑比率定蛋白因果。\r\n> [!question]- Q2：為何較厚GM不代表更強？\r\n> 假性肥大、脂肪浸潤與纖維化可能增加厚度；TA較薄、功能較差，不能單看一處肌厚。\r\n> [!question]- Q3：蛋白與QoL正相關，可以保證加蛋白改善QoL嗎？\r\n> 不能，橫斷無時間先後，反向因果與其他混雜未消除，且控制後沒有蛋白與力量／功能的顯著關聯。\r\n> [!question]- Q4：能照搬1.2g/kg/day為BMD最佳值嗎？\r\n> 不能，作者引用別種肌肉耗損情境，沒有驗證BMD劑量、效益和安全；還需按個案能量與體脂判斷。\r\n> [!question]- Q5：為什麼不能直接把低自報能量解讀為需要多吃？\r\n> 活動與消耗較低或低報均可能；BMR未測且體脂高，無條件加總能量可能加脂。\r\n\r\n## Reference\r\n**要點**：本篇依據完整全文，不用其他病群研究填補BMD效果。\r\nHaslam I等，Clinical Nutrition ESPEN75（2026）105085，[DOI](https://doi.org/10.1016/j.clnesp.2026.105085)。CC BY全文來自使用者精確PDF白名單，來源與文字SHA儲存新manifest；不公開PDF／原文全文。背景引文僅按本篇引用解說，Quick／worker-batch未另做全部117篇外查。",
+      "cards": [
+        {
+          "title": "BMD蛋白研究",
+          "question": "為何相對蛋白較低不能直接證明蛋白造成問題？",
+          "answer": "BMD體重較高，g/kg受分母影響；絕對81.2／91.1g/day未顯著，反向因果與混雜也存在。",
+          "tags": [
+            "BMD",
+            "蛋白",
+            "身體組成"
+          ]
+        },
+        {
+          "title": "BMD蛋白研究",
+          "question": "GM較厚為何不等於肌力較好？",
+          "answer": "BMD可能假性肥大、脂肪浸潤與纖維化；TA較薄且功能較差，厚度與品質不可互換。",
+          "tags": [
+            "BMD",
+            "蛋白",
+            "身體組成"
+          ]
+        },
+        {
+          "title": "BMD蛋白研究",
+          "question": "蛋白與QoL相關能否保證增加蛋白改善QoL？",
+          "answer": "不能，橫斷研究未定時間先後；較好QoL也可能改善攝取，控制後沒有蛋白與力量功能的顯著關聯。",
+          "tags": [
+            "BMD",
+            "蛋白",
+            "身體組成"
+          ]
+        },
+        {
+          "title": "BMD蛋白研究",
+          "question": "1.2g/kg/day是否是本篇證實的BMD最佳目標？",
+          "answer": "不是，引用其他肌肉耗損情境的範圍下限，BMD專屬劑量效果和安全尚待介入研究。",
+          "tags": [
+            "BMD",
+            "蛋白",
+            "身體組成"
+          ]
+        },
+        {
+          "title": "BMD蛋白研究",
+          "question": "低自報能量為何不能直接轉成增加總熱量？",
+          "answer": "可能低報或低消耗，BMR未量且體脂偏高；無條件加能量可能增加脂量。",
+          "tags": [
+            "BMD",
+            "蛋白",
+            "身體組成"
+          ]
+        }
+      ],
+      "completedAt": "2026-10-12T11:23:38.363Z"
     }
   ]
 }
