@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T11:24:07.526Z",
+  "generatedAt": "2026-10-12T11:34:30.152Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -96058,6 +96058,82 @@
         }
       ],
       "completedAt": "2026-10-12T11:23:38.363Z"
+    },
+    {
+      "id": "doi:10.1016/j.tjnut.2026.101720:digest",
+      "paperId": "doi:10.1016/j.tjnut.2026.101720",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "The Development and Validation of the Vegan/Vegetarian Athlete's Plate.",
+      "authors": "",
+      "journal": "Other nutrition journals (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.tjnut.2026.101720",
+      "abstract": "The Vegan/Vegetarian Athlete's Plate (Veg AP) is a modification of the Athlete's Plate designed to guide athletes about how to fuel adequately at various training loads on a vegetarian or vegan diet. The purpose of this study was to validate and determine the usefulness of the Veg AP among athletes of various competition levels. Part 1 involved developing 120 vegetarian or vegan \"plates\" for athletes of different weights at different training loads. Nutrient content of these plates was measured and compared with sport nutrition and vegetarian nutrition guidelines. Part 2 entailed athletes watching a presentation about how to use the Veg AP and then having the athletes create their meals in a university dining hall in accordance with the Veg AP. The appropriateness of the plate was determined by a group of experts. A subset of these athletes participated in a focus group to further ascertain perceptions of the utility of the Veg AP. The Veg AP meets international sport nutrition guidelines for energy and macronutrient content. Micronutrient content of the Veg AP varies, and proper instruction about how best to build plant-based meals to include adequate iron, zinc, and vitamin B12 while avoiding excessive dietary fiber is warranted, particularly to support easier training loads and lighter weight categories. Athlete perception of the Veg AP was that it was educational and helpful for creating a vegetarian or vegan meal that sufficiently supports variable training loads, even for those experienced with vegetarian nutrition. The Veg AP is a useful tool for teaching about vegetarian sport nutrition and providing practical guidance for athletes of a variety of sports and competition levels.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42435807/",
+      "category": "recommended",
+      "tags": [
+        "design:guideline",
+        "guideline and consensus",
+        "nutrition and dietary pattern",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "純素與蛋奶素運動員餐盤：訓練負荷與營養缺口整理",
+      "content": "---\r\ndigest_mode: worker-batch\r\ndoi: 10.1016/j.tjnut.2026.101720\r\ntags: [research/digest, 植物性飲食, 運動營養]\r\n---\r\n# 純素／蛋奶素運動員餐盤：開發、試用與營養缺口整理\r\n> [!summary] 30 秒層\r\n> Veg AP可協助按訓練負荷搭配植物性餐點，仍需補足鐵、鋅、B12與高纖耐受教育。\r\n> - 120個專業設計餐單，加17名運動員試用，8人焦點訪談。\r\n> - 能量與巨量營養素大致達模型目標；一組75kg低負荷蛋奶素蛋白低於保守設定。\r\n> - 知識分數9±5.1→15.7±2.1，p<.001；不是競技表現或長期營養狀態的結果。\r\n> - 女性鐵標準、男性鋅標準與B12較難達成，小食量／低負荷要更仔細搭配。\r\n> 品質未評讀（內容整理）；需可信度判斷 → /paper-review；同篇既有評讀仍各自保留。\r\n\r\n5 分鐘層：先讀各節「要點」；完整層：再讀表格、方法與應用限制。\r\n\r\n## 研究問題／背景\r\n**要點**：一般運動員餐盤圖不直接解答如何在素食下隨訓練量補足營養。\r\nVeg AP改編原Athlete’s Plate，分純素與蛋奶素、簡單／中等／高訓練負荷。植物性偏向植物食品，不等於每一個人完全排動物食物；蛋奶素保留蛋奶，純素排所有動物食物。作者想同時驗證專業設計的餐單營養值與運動員實際理解／使用情形。這篇不直接比較素食和雜食的競技效益。（pp.1–2）\r\n\r\n## 全文地圖與方法\r\n**要點**：餐單模擬、前後知識測驗及訪談回答不同問題。\r\n- pp.1–2：背景、定義、工具目的與兩階段混合方法；資料於2021年4月／10月校園收集，2026年7月11日線上發表。\r\n- pp.2–3：8名運動營養研究生（4RDN、4非RDN）設計120餐單：60kg／75kg，各30純素與30蛋奶素，每種分10低、10中、10高負荷；ESHA Food Processor SQL11.1分析。（圖2、表1）\r\n- 依模型假設正餐佔一天能量77%，另23%由點心供給。不是單一餐直接供全日能量／營養，也不是追蹤實際全天吃完。（p.2）\r\n- pp.3–4：便利樣本17人，運動>5小時／週且有興趣植物性飲食。平均22.8±5歲，男13女4；12棒球，另攀巖2及長曲棍球／鐵人／足球各1；13校際Division II、3休閒、1地區菁英。12雜食、2素／純素、3其他，7有素食經驗。（表2）\r\n- 先知識問卷→30分鐘預錄教學→同問卷，再到餐廳按指定飲食及負荷選食物，餐前秤重拍照。10名運動營養師先審查修訂視覺評分尺，最高13分。（pp.3–4）\r\n- 8人參加3場Zoom焦點團體、各10–30分鐘，錄音逐字稿、兩研究者獨立編碼討論；訪談者不參加介入實施。（p.4）\r\n- pp.4–9：結果與模型巨量／微量營養、纖維、教育與供餐環境；p.10限制、結論、資助與COI；pp.10–12全部63篇參考文獻。\r\n- 統計：單樣本t、Wilcoxon、因子分析；知識前後paired t、Pearson、經驗組Mann–Whitney，p<.05。本文沒有長期追蹤或對照教學。（pp.2–4）\r\n\r\n## 模型如何設定營養標準\r\n**要點**：以下是作者餐單驗證門檻，不是新訂的個人處方。\r\n表1原PDF p.3已看；「全日／正餐77%」分列：\r\n| 指標 | 低／中／高負荷全日 | 正餐77%標準 |\r\n|---|---|---|\r\n| 能量kcal/kg | 30／45／55 | 23／35／42 |\r\n| 碳水g/kg | 4／6／8 | 3.1／4.6／6.1 |\r\n| 脂肪g/kg | 1／1.5／2 | .8／1.2／1.5 |\r\n| 蛋白g/kg | 全部2.0 | 全部1.5 |\r\n| 纖維g/1000kcal | 14 | 10.8 |\r\n| B12µg | 6 | 4.6 |\r\n| 鈣mg | 1000 | 770 |\r\n| 鐵mg | 男14、女32 | 男10.8、女24.6 |\r\n| 鋅mg | 男16.5、女12 | 男12.7、女9.2 |\r\n\r\n每日2g/kg蛋白是作者保守採國際建議高階，不證明人人必須2。鐵女性全日表1印32，Discussion32.4；正餐標準24.6，保留其設計尺度。兩體重與三負荷只涵蓋模型範圍，不能不加評估地套所有患者／訓練者。（pp.2–3、8–9）\r\n\r\n## 主要發現\r\n**要點**：模型達標程度與短期知識變化要分開讀。\r\n| 結果 | 原文數值／描述 | 位置 |\r\n|---|---|---|\r\n| 能量／巨量 | 大致達標；75kg低負荷蛋奶素平均蛋白1.3g/kg，低於正餐1.5，p<.05 | pp.4、8 |\r\n| 膳食纖維 | 各餐單型別均高於14g/1000kcal | pp.4、9 |\r\n| 鈣／男性鐵 | 所有型別高於各自門檻 | p.4 |\r\n| 女性鐵 | 8/12型別67%未達24.6mg，較高負荷較容易 | p.4 |\r\n| 男性鋅 | 12種型別均未達12.7mg | p.4 |\r\n| 女性鋅 | 5/12型別42%達9.2mg，多為中／高負荷 | p.4 |\r\n| B12 | 8/12型別67%低於4.6µg | p.4 |\r\n| 知識總分 | 9±5.1→15.7±2.1，p<.001，n17 | 表3 p.7 |\r\n| 有／無經驗知識 | 前12.4±3.9／6.6±4.5；後17.3±1.5／14.5±1.6 | 表4 p.7 |\r\n| 餐盤視覺匹配分 | 有經驗8.9±1.6、無經驗5.7±2.4，最高13 | 表4 p.7 |\r\n| 自認有用 | 16/17，94% | p.4 |\r\n| 為環境每週素食一天意願 | 10/17，59%，yes或maybe | p.4 |\r\n| 焦點團體 | 新的視覺學習、選豆後仍困惑、環境覺察 | 表5 p.7與pp.9–10 |\r\n\r\n「12型別」是2體重×2飲食×3負荷，各10餐單，不是12位患者。77%假設允許點心補充，故1.3g/kg正餐不能直接等同全天蛋白不足。量表分數沒有CI／MCID，未測實際長期鐵、B12血值、肌肉增長、比賽成績或環境排放。（pp.2–4、8）\r\n\r\n## 重要圖表重述\r\n**要點**：圖表各自呈現餐盤設計、模型分配與營養驗證。\r\n- 圖1 p.2：三負荷餐盤，植物蛋白來源、發酵食品與微量營養提醒；高負荷容許精製穀物避免過早飽足，不只是把肉換成豆。\r\n- 圖2 p.3：120餐單的2×2×3分配；不等於120受試者。\r\n- 圖3 p.5：能量、碳水、脂肪、蛋白、纖維對設計門檻；圖說與圖軸用median／mean標示不完全一致，整理不由圖反推未報精確值。\r\n- 圖4 p.6：B12、鈣、鐵與鋅分佈／離群值，與文字說明的達標缺口一起解讀。\r\n- 表1至5依序為門檻、人口特徵、知識前後、經驗差異與質性主題。p.3／7原頁核對避免OCR把2.1寫成21、把Division II看錯。\r\n\r\n## 臨床／教學應用\r\n**要點**：用餐盤啟動理解，再以食物選擇、可近性與個別化補足缺口。\r\n蛋奶素／純素餐點可在適當設計下供巨量營養，但應教鐵與鋅來源、生物可利用率、B12強化食物／補充需求及鈣來源。植物蛋白與動物蛋白的文獻是本文背景，不是此小型研究直接驗證等效肌肉或表現。\r\n高負荷時大量纖維可能早飽或GI困擾；可依訓練時段選擇較低纖維穀物、煮熟蔬菜及更適口食物，不是讓一般成人長期低纖。低負荷／小體型食量較少時，微量營養密度反而需更注意。\r\n教學要實際演練：按當天負荷選餐、說明正餐與點心角色、問清「今天短暫高強度但其餘時間久坐」如何判負荷。訪談表明只看圖仍會困惑，供餐環境需有可選的素食專案。（pp.7–10）\r\n\r\n## 限制與既有認知對照\r\n**要點**：短期學會搭配不等於長期攝取、健康或競技效果已改善。\r\n疫情限制招募與自助供餐，3批次、可能由餐廳人員代盛；17人男性／棒球居多，8人自願訪談，外推受限。模型餐單由專業人員設計，使用者仍需教學。本文沒有等值對照、長期營養素測量或表現試驗。\r\n已比對本輪同篇既有品質評讀的範圍與核驗來源，不重做review。Worker模式跳過外部vault每日筆記與重複卡片推送，未宣稱查遍vault或另核全部63篇背景文獻。\r\n\r\n## 概念／名詞整理\r\n**要點**：分清餐單驗證與人群試驗。\r\nVeg AP為純素／蛋奶素運動員餐盤；training load為強度與量的組合；RDN為註冊營養師；MPS為肌蛋白合成；PreS/PostS為教學前後同知識問卷。模型營養量、短期知識與真實全天攝取是三個不同的結果。\r\n\r\n## 自我測驗\r\n**要點**：能說出模型的分母及使用限制。\r\n> [!question]- Q1：120餐單是否表示120受試者？\r\n> 不是，8研究生設計2體重×2飲食×3負荷×10餐單；實際試用17人、訪談8人。\r\n> [!question]- Q2：1.3g/kg正餐低於門檻，是否證明全天蛋白不足？\r\n> 正餐假設佔77%，點心仍可補；門檻2g/kg/day是保守高階，不是每個運動員已證實的必需值。\r\n> [!question]- Q3：巨量大致達標為何仍需營養師？\r\n> 女性鐵、男性鋅、B12有缺口，小食量／低負荷更難；圖形不替代營養密度與生物利用率教育。\r\n> [!question]- Q4：高纖為何可能影響重訓練？\r\n> 可能過早飽足與GI不適，難達高能量需求；應按時段與負荷安排食物，不是全面排纖維。\r\n> [!question]- Q5：知識分數提高能否證明運動表現改善？\r\n> 不能，n17短期無對照測驗，沒有比賽、肌肉或長期營養結果；只證明觀察到當下知識變化。\r\n\r\n## Reference\r\n**要點**：內容以12頁全文及原圖表為依據。\r\nLynch HM、Reguant Closa A、Meyer N，The Journal of Nutrition156（2026）101720，[DOI](https://doi.org/10.1016/j.tjnut.2026.101720)。使用者精確PDF白名單、原頁CC BY-NC-ND；僅以自寫重述整理分享，不附PDF、原文或原圖。全部12頁／63引文已掃過，首1、中7、末12與數值表p.3原頁核對；背景引用未在worker-batch另做全文外查。作者無COI，Point Loma Nazarene University RASP及Wesleyan Center支援、資助者未介入；資料與codebook待申請批准。（p.10）",
+      "cards": [
+        {
+          "title": "素食運動員餐盤",
+          "question": "120餐單是否表示120受試者？",
+          "answer": "不是，8研究生做2體重×2飲食×3負荷×10餐單；實際試用17人，訪談8人。",
+          "tags": [
+            "運動營養",
+            "素食",
+            "營養教育"
+          ]
+        },
+        {
+          "title": "素食運動員餐盤",
+          "question": "正餐1.3g/kg低於1.5門檻是否證明全天蛋白不足？",
+          "answer": "正餐假設占全天77%，點心仍可补充；2g/kg/day是保守模型高端，並非本研究證實人人必要。",
+          "tags": [
+            "運動營養",
+            "素食",
+            "營養教育"
+          ]
+        },
+        {
+          "title": "素食運動員餐盤",
+          "question": "巨量大致達標為何仍需營養教育？",
+          "answer": "女性鐵、男性鋅與B12有缺口；小體型或低負荷食量較少，需要食物營養密度與生物利用率教育。",
+          "tags": [
+            "運動營養",
+            "素食",
+            "營養教育"
+          ]
+        },
+        {
+          "title": "素食運動員餐盤",
+          "question": "重訓練日為何可能改用較低纖維食物？",
+          "answer": "大量纖維可能過早飽足和腸胃不適，妨礙高能量攝取；按時段與負荷調整，並非一般成人長期低纖。",
+          "tags": [
+            "運動營養",
+            "素食",
+            "營養教育"
+          ]
+        },
+        {
+          "title": "素食運動員餐盤",
+          "question": "知識分數9到15.7可否推成運動表現改善？",
+          "answer": "不能，17人短期無對照知識測驗，没有競技、肌肉或長期營養結果；只能說當下知識分數提高。",
+          "tags": [
+            "運動營養",
+            "素食",
+            "營養教育"
+          ]
+        }
+      ],
+      "completedAt": "2026-10-12T11:34:02.828Z"
     }
   ]
 }
