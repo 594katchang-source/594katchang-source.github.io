@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T11:05:21.781Z",
+  "generatedAt": "2026-10-12T11:08:24.418Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -95902,6 +95902,85 @@
       "content": "---\r\nreview_depth: quick\r\nreview_mode: focused-quick\r\ndoi: 10.1016/j.nut.2026.113410\r\n---\r\n# 透析患者GLIM診斷：病因定義改變盛行率，尚非診斷準確度驗證\r\n\r\n## 品質快照\r\n- Windahl K等，Diagnosing malnutrition in patients on dialysis using the global leadership initiative on malnutrition (GLIM) criteria: bridging the gap between theoretical consensus and real-world applicability。Nutrition 153（2027）113410；2026年接受／線上來源，保留2027卷年。DOI 10.1016/j.nut.2026.113410。\r\n- 瑞典六中心探索性橫斷混合方法研究：93位成人透析患者（HD57、PD36）與10位腎臟營養師；非介入試驗。\r\n- 病因要求低攝取或CRP升高時，GLIM營養不良42%；把透析本身視為病因時55%，McNemar p=.001。兩模型分類不同，不證明哪個更正確。\r\n- 低肌量49%；中位評估15分鐘。流程有臨床參考價值；診斷效度與改善預後尚待驗證。\r\n- **GRADE：Very low ⊕◯◯◯**，針對本篇分類盛行率／可行性之外推信心；不是GLIM全部文獻的總評。\r\n\r\n## 白話導讀\r\n這篇讓同一群透析患者接受兩種GLIM判定。兩者都要求體重下降、低BMI或低肌量之一；差別在是否還要找到攝取不足／CRP升高，或只要正在透析便算病因成立。第二種規則多認出病例，卻沒有第三方診斷金標準，因此不能直接叫它「敏感度更高」。營養師可利用本篇檢視水腫、肌量量測與透析時段安排，不能省略尋找真正需要處理的攝取與發炎原因。（pp.1–8）\r\n\r\n## 研究方法與全文結構\r\n| 頁碼 | 內容與重點 |\r\n|---|---|\r\n| 1–2 | 成人GLIM與透析的體液／慢性發炎特殊性；≥18歲、維持透析至少3個月；排孕哺、認知／溝通障礙 |\r\n| 2–3 | 2025年1–6月收案；四中心抽選合格患者三分之一，另兩中心20人來自營養師候診名單；10名營養師先受GLIM／凹陷水腫訓練 |\r\n| 2–3 | HD在透析後10–60分鐘量測；PD於例行門診。低腿圍判低肌量，有水腫改量上臂肌圍；BMI校正與CRP／攝取判斷 |\r\n| 3–4 | 全部患者不論篩檢結果均接受GLIM；同人兩模型用McNemar比較。14項問卷含7項Likert與開放題，以主題分析整理 |\r\n| 4–6 | 盛行率、篩檢漏案、表1人口／CRP、表2營養及圖1–3 |\r\n| 7–8 | 圖4分類差異、圖5可行性；體液、腿圍校正、單次CRP及攝取主觀判斷的限制 |\r\n| 9–10 | 結論、倫理、利益衝突、資助、AI語言修訂揭露與33篇參考文獻 |\r\n\r\n攝取由24小時回憶、餐次、剩食、質地需求及KDOQI需求做營養師判斷，沒有正式算營養素；HD分透析／非透析日。CRP取最近一次，模型I以≥3mg/L為發炎，並非慢性發炎金標準。小腿圍BMI25–29.9減3cm、30–39.9減7cm、≥40減12cm是**本研究操作**；不能未經在地驗證就套用所有透析個案。圖1已實際看原頁，低肌量界線男CC<33cm、女<32cm或AMC<90%適足值，重度CC男<29／女<30或AMC<70%；這些是本篇分類，不是本報告新處方。（pp.2–3）\r\n\r\n## 主要結果\r\n| 結果 | 原文數值 | 解讀／位置 |\r\n|---|---|---|\r\n| 樣本 | n=93；HD57、PD36；年齡中位74（IQR59–78） | 非全瑞典代表樣本，p.5表1 |\r\n| 營養不良模型I／II | 42%／55%；p=.001 | 同人規則不同；約13百分點差，非治療效果，pp.4、7圖4 |\r\n| 中度／重度 | I：16%／26%；II：25%／30% | 差異來自病因門檻，p.4 |\r\n| 低肌量 | 主分析49%；腿圍探索分析校正48%→不校正34% | 分母／AMC與CC部分不同，保留原文，pp.3–5 |\r\n| 不校正腿圍時營養不良 | I33%、II41% | 顯示對量測操作敏感，p.5 |\r\n| 傳統篩檢 | 41人44.1%有風險；12人12.9%篩檢陰性仍GLIM陽性，其中6重度 | 沒有獨立參照標準，不稱12人全是「真漏診」，pp.4、6 |\r\n| 攝取判斷 | 低能量20人21.5%；低蛋白45人48.4% | 主觀臨床評估，非精確營養素攝取量，p.5表2 |\r\n| 水腫 | 10人11% | 改AMC，有測量程式異質性，pp.3、5 |\r\n| 可行性 | 10名營養師；中位15分鐘（IQR6–41） | 複雜個案可逾30分鐘；4人懷疑肥胖腿圍過度校正，p.4 |\r\n| 組織重點 | 下班後透析、器材、排程、訓練、護理協作 | 不只是「工具快」，pp.4–8 |\r\n\r\n**原表需警示：**表1男性53（60），其與總n=93的百分比不相符；表2肥胖17（13.3%），正文約18%，原PDF p.5確認是印刷內容。部分共病／CRP分母亦不全等於93且未逐項解釋。不要自行替作者改數字；主判斷以明確的93／57／36與兩模型比例為主。表1血紅素／肌酸酐單位也需原資料澄清，不作臨床閾值引用。\r\n\r\n## 品質評讀：設計對應偏倚檢查\r\n本篇是診斷操作／可行性研究，按QUADAS-2四域檢查；並非具合格參照標準的準確度研究。\r\n- 🟡 患者選擇：多中心成人，但混合隨機抽樣與候診名單；排溝通障礙者，可行性可能偏樂觀。\r\n- 🔴 指標測試：BMI腿圍校正對盛行率影響大；水腫改AMC；單次CRP、未量化攝取、測量人也做GLIM分類。\r\n- 🔴 參照標準：無獨立臨床金標準、無盲態判讀、無預後驗證。兩GLIM模型互比不等於驗證準確性。\r\n- 🟡 流程與時序：所有人均診斷降低篩檢驗證偏差，但最近CRP時點與PD體液標準化不夠清楚。分母報告不一致。\r\n- 整體：分類研究具有實務用途，若拿來證明模型II更準確則高偏倚風險；問卷僅10人且參與研究者自評，不能代表所有營養師。\r\n\r\n## 統計、GRADE與推論落差\r\n- McNemar適合同一患者兩種二元分類；p=.001表示分類不同，沒有真陽性／真陰性參照便不能算或宣稱敏感度／特異度。\r\n- 無事前樣本數計算，未報主要差異CI；非介入研究，未提供MCID、住院／死亡／功能等硬結果。\r\n- deterministic GRADE以觀察研究Low起始，測量／選擇問題serious−1，小樣本、無CI及10人問卷imprecision serious−1，無升級，得Very low。對「更準確」的主張，本篇更根本缺少效度證據。\r\n- 實際argdown檢查：用分類增多或主觀「可行」推到改善患者硬結果會觸發落差；本文不作該跳躍。\r\n- 作者自己提到過度診斷與省略病因評估可能導致介入設計不當。其「more sensitive」應讀成更寬的分類規則，不是已量測的診斷敏感度。（pp.5、8–9）\r\n\r\n## 臨床應用\r\n先記錄水腫與量測時點，同時評估肌量、體重變化與攝取；篩檢陰性也不要忽略疑似肌量下降。保留模型定義與腿圍校正方式，才能解讀跨中心數字。可與護理人員分工安排透析後量測，但需訓練與個案確認；本篇沒有證明這種分工改善預後，也沒有要求把所有透析患者自動診斷為營養不良。\r\n\r\n## 資助、限制與來源\r\n研究由兩瑞典基金支援；Avesani揭露Abbott講課與Fresenius-Kabi顧問／講課，Windahl為Fresenius-Kabi講課，Wallin為Chiesi顧問。倫理2024-01555-01；使用ChatGPT／Copilot作語言潤飾由作者負責，不據此否定研究。（p.9）\r\nQuick模式未另核作者、期刊指標、引文或補充檔；S1/S2僅讀本文對其結果的描述，不假稱補充檔全讀。\r\n全文10頁、33參考文獻已分段掃過；原PDF首1、中5、末10與圖1 p.3均視覺核對。\r\n來源：[原文DOI](https://doi.org/10.1016/j.nut.2026.113410)。合法CC BY全文由既有Unpaywall路線取得；全文／文字SHA由本次新execution manifest記錄。私人來源檔不公開。",
       "cards": [],
       "completedAt": "2026-10-12T11:04:54.343Z"
+    },
+    {
+      "id": "doi:10.1016/j.nut.2026.113410:digest",
+      "paperId": "doi:10.1016/j.nut.2026.113410",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Diagnosing malnutrition in patients on dialysis using the global leadership initiative on malnutrition (GLIM) criteria: bridging the gap between theoretical consensus and real-world applicability.",
+      "authors": "Windahl K, Eyre S, Cecchini V, Ersten L, Chen C, Lännevall L, Nitschke M, Wallin C, Lu Y, Schiller L, Sabatino A, Lindholm B, Cederholm T, Avesani C",
+      "journal": "Adult clinical nutrition practice and assessment (PubMed)",
+      "year": "2026",
+      "doi": "10.1016/j.nut.2026.113410",
+      "abstract": "The Global Leadership Initiative on Malnutrition (GLIM) is a framework for diagnosing malnutrition. The applicability of GLIM in patients receiving dialysis remains insufficiently explored. This study aimed to identify the most prevalent phenotypic criteria, assess whether dialysis per se can be used as the sole etiological criterion, and evaluate dietitians' perceptions of GLIM's feasibility in clinical practice. In this exploratory mix-method study, adult patients undergoing hemodialysis (HD) or peritoneal dialysis (PD) were recruited from six Swedish dialysis centers. Malnutrition was diagnosed and graded according to GLIM. Phenotypic criteria included unintentional weight loss, low body mass index, and low muscle mass assessed by calf or arm muscle circumference. Two etiologic models were applied: (I) reduced dietary intake or inflammation, and (II) dialysis as the sole disease-related burden. Renal dietitians conducted assessments and completed a questionnaire on feasibility. Ninety-three patients were included (HD n = 57, PD n = 36), median age 74 y; 60% were male and 43% had diabetes. Low muscle mass was the most prevalent phenotypic criterion (49%). Malnutrition prevalence was 42% using model I and 55% using model II. Ten dietitians completed the assessments, with a median time of 15 minutes. Facilitators included clear guidelines, appropriate equipment, and organizational support. Assessment was also perceived as motivating for patients. The prevalence of malnutrition among dialysis patients using GLIM varied between 42% and 55% depending on the etiological model. Low muscle mass was the most common phenotypic criterion. GLIM appeared feasible for routine use in dialysis care.",
+      "legalFullTextUrl": "https://uu.diva-portal.org/smash/get/diva2:2109278/FULLTEXT01.pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42772122/",
+      "category": "recommended",
+      "tags": [
+        "adult clinical practice gaps",
+        "chronic disease nutrition",
+        "design:consensus",
+        "dietitian clinical nutrition",
+        "guideline and consensus",
+        "human clinical population",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "透析GLIM：表徵、病因與日常評估整理",
+      "content": "---\r\ndigest_mode: worker-batch\r\ndoi: 10.1016/j.nut.2026.113410\r\ntags: [research/digest, GLIM, 透析營養]\r\n---\r\n# 透析患者GLIM：從篩檢到病因判斷的實務整理\r\n> [!summary] 30 秒層\r\n> 同一群患者換一種病因規則，營養不良比例可由42%變55%；病例變多不等於診斷更準。\r\n> - 瑞典六中心93名成人：HD57、PD36；低肌量是最常見表徵。\r\n> - 模型I要求低攝取或發炎；模型II直接把透析視為疾病負擔。\r\n> - 小腿圍的肥胖校正與水腫會明顯改變分類。\r\n> - 10名營養師中位需15分鐘，複雜個案可能超過30分鐘。\r\n> 品質未評讀（內容整理）；需可信度判斷 → /paper-review；本輪另有同篇品質評讀。\r\n\r\n## 研究問題／背景\r\n**要點**：GLIM在透析的難題是體液、肌量與病因，不只是套一個BMI值。\r\nGLIM要求至少一個表徵與一個病因。透析患者可能有水腫、肥胖合併肌量低、疲倦與攝取不良。透析與腎衰竭可能帶來慢性發炎，作者想知道是否所有人只憑透析就算病因成立，同時檢查營養師能否把完整評估放入日常排程。（pp.1–2）\r\n本篇是2026年接受的線上論文，PDF卷期為Nutrition153（2027）113410，兩種年份各自保留。\r\n\r\n## 方法\r\n**要點**：全體93人都接受兩模型，不讓篩檢陰性直接停止診斷。\r\n- 2025年1–6月六家瑞典透析中心、成人維持透析≥3個月。四中心隨機抽選合格者三分之一，兩中心20人取自營養師候診名單；排孕哺、認知及溝通困難。（p.2）\r\n- 10名營養師接受GLIM與凹陷水腫訓練。HD於透析後10–60分鐘，PD在例行門診評估。不能假設每位PD都經完全一致的空腹／腹腔排空程式，本文沒有這樣報告。（p.2）\r\n- 篩檢包括低BMI（<70歲<20；≥70歲<22kg/m²）、六個月非自願下降>5%、吃東西困難。水分下降不算非自願營養性減重。（pp.2–3）\r\n- 肌量一般量CC；凹陷水腫改由MAC與TSF算AMC；有AVF時取相反側手臂。BMI25–29.9、30–39.9、≥40的CC分別減3、7、12cm，這是本研究採用的規則。（p.2）\r\n- 24小時回憶搭配餐次、剩食／質地及估計需求判斷能量／蛋白是否足夠，未精算營養素。最近一次CRP≥3mg/L視為發炎。（pp.2–3）\r\n- 模型I：表徵＋低攝取或發炎；模型II：表徵＋透析疾病負擔。McNemar比較同人分類；匿名14項問卷、7項Likert及開放題整理五個主題。（p.3）\r\n\r\n## 主要發現\r\n**要點**：病因規則與肌量操作改變數字；沒有獨立金標準可選出「真實」比例。\r\n| 專案 | 結果 | 原文位置 |\r\n|---|---|---|\r\n| 樣本 | 93人、HD57／PD36，年齡中位74歲（IQR59–78） | 表1 p.5 |\r\n| 模型I營養不良 | 42%；中度16%、重度26% | p.4、圖4 p.7 |\r\n| 模型II營養不良 | 55%；中度25%、重度30%，兩分類p=.001 | 同上 |\r\n| 低肌量 | 主分析49%；CC校正／不校正探索分析48%／34% | pp.3–5 |\r\n| 不校正CC的診斷比例 | 模型I33%、II41% | p.5 |\r\n| 篩檢風險 | 41人44.1%；另12人篩檢陰性仍GLIM陽性，其中6重度 | pp.4、6 |\r\n| 低能量／蛋白攝取 | 20人21.5%／45人48.4% | 表2 p.5 |\r\n| 水腫 | 10人11%，改AMC | pp.3、5 |\r\n| 時間 | 10人問卷，中位15分鐘、IQR6–41 | p.4 |\r\n\r\n原表男性53（60%）、肥胖17（13.3%）與正文及總樣本比例有矛盾，原PDF p.5已確認；不自行修正或借這些欄位推新結論。主分析49%與只談CC的48%不強制合併為同一值。本文未報完整混淆矩陣、診斷敏感度／特異度、CI、MCID或後續病人預後。\r\n\r\n## 重要圖表重述\r\n**要點**：五張圖把流程、入組、規則敏感性與工作現場串起來。\r\n- 圖1（p.3）：篩檢→全體診斷→中／重度分級，並列兩病因模型；原頁實看，低CC男<33／女<32cm，重度男<29／女<30cm，AMC相對適足值<90%／<70%。只記為本研究界線，不宣稱本地所有透析患者都驗證適用。\r\n- 圖2（p.4）：六中心收案流程，顯示最後93人。\r\n- 圖3（p.6）：低肌量主導表徵；攝取及發炎可重疊，比例不可相加當不同患者。\r\n- 圖4（p.7）：兩模型中／重度比例差異，p=.001是分類差。\r\n- 圖5（p.8）：訓練、器材、清楚規範及排程／組織支援影響可行性。\r\n- 表1／2（p.5）：人口、實驗室與營養資料；部分分母／單位與百分比需澄清。不要把印刷問題當成實際量測更正。\r\n\r\n## 臨床意義／怎麼用\r\n**要點**：儲存測量條件並查病因，才能把診斷連到可處理的營養問題。\r\n單次CRP低不排除慢性發炎；體液可能掩蓋體重／肌量下降；肥胖校正也可能讓CC低估。這些都要求綜合評估。只因正在透析便完成病因欄，可能忽略攝取不足，介入就不夠個別化。若篩檢陰性但懷疑肌量低，本篇支援進一步評估的必要性；沒有證明全體強制同流程改善死亡或住院。\r\n晚班HD常在營養師下班後結束；可討論受訓護理人員協助量測及安排，但時間／效益需由本地服務核對。（pp.4–8）\r\n\r\n## 作者限制\r\n**要點**：資料接近臨床流程，代價是攝取、發炎與肌量分類不夠精確。\r\n作者列單次CRP、肥胖CC校正、20人候診抽樣、無事前樣本數、攝取未正式計算及問卷僅10人。沒有獨立診斷／預後驗證，不能說模型II較正確。多中心與事前訓練是優點，並不能消除以上限制。（pp.7–9）\r\n\r\n## 與既有認知的對照\r\n**要點**：本篇提醒區分「有風險」「GLIM陽性」與「改善患者結果」。\r\n已比對本輪同篇品質評讀：p=.001只證兩套規則不同；higher sensitivity屬作者的推論，不是本篇量得的敏感度。Worker模式不另重複vault日誌／卡片推送，未宣稱查遍外部vault或完整驗證GLIM所有文獻。\r\n\r\n## 概念／名詞整理\r\n**要點**：表徵說明發生了什麼，病因幫忙解釋為什麼。\r\nGLIM是營養不良診斷架構；CC是小腿圍，AMC是上臂肌圍；BMI校正要與水腫處理分開記錄；CRP是發炎指標，單值不等於慢性負擔的全部；McNemar處理同人配對的二元分類。營養不良、低肌量、肥胖可以並存，不能把體重高當營養良好。\r\n\r\n## 自我測驗\r\n**要點**：能說明規則與限制，才知道如何用。\r\n> [!question]- Q1：為什麼55%不能證明模型II更準確？\r\n> 同一患者改成透析自動符合病因，分類更寬。沒有獨立參照標準、真陽性／陰性或預後，所以只能說病例增加。\r\n> [!question]- Q2：水腫和肥胖如何影響肌量判斷？\r\n> 水腫可能放大腿圍，研究改用AMC；肥胖以BMI減CC，但校正讓分類由48%變34%，是否合適仍需驗證。\r\n> [!question]- Q3：篩檢陰性為何還要留意肌量？\r\n> 12人篩檢陰性仍GLIM陽性，其中6重度；篩檢條件未完整涵蓋肌量。這不是獨立金標準證明的12例真漏診。\r\n> [!question]- Q4：15分鐘可直接當服務人力估計嗎？\r\n> 僅10名受訓營養師自報，中位IQR6–41；水腫／複雜病例可能>30分鐘，晚班時段與器材也影響排程。\r\n> [!question]- Q5：為何透析符合病因後仍查攝取？\r\n> 攝取與發炎是不同可處理原因；省略它們可能讓營養介入不適切。本篇低蛋白判斷45人48.4%，但不是精確g/day資料。\r\n\r\n## Reference\r\n**要點**：整理依據本文10頁，不借摘要或外部相似文章補內容。\r\nWindahl等，Nutrition153（2027）113410，[DOI](https://doi.org/10.1016/j.nut.2026.113410)；2026接受。本文所引GLIM2019、肌量2022、發炎2024與2025更新均為背景引文，未在worker-batch另做全文外查。全文／文字SHA與合法來源儲存在fresh execution manifest；全部10頁與33篇參考文獻已讀，首1、中5、末10及圖1原頁核對。補充檔未獨立讀取，不假裝已讀。基金、營養公司COI與AI語言潤飾揭露見p.9。",
+      "cards": [
+        {
+          "title": "透析GLIM實務",
+          "question": "為何模型II的55%不能證明較準確？",
+          "answer": "病因改為透析自動符合，分類較寬；沒有獨立金標準、真陽性陰性或預後驗證，只能說分類不同。",
+          "tags": [
+            "GLIM",
+            "透析",
+            "營養評估"
+          ]
+        },
+        {
+          "title": "透析GLIM實務",
+          "question": "水腫與肥胖對CC判斷有何不同影響？",
+          "answer": "水腫可能放大腿圍，研究改AMC；肥胖以BMI校正CC，但校正／不校正低肌量48%／34%，適用性需驗證。",
+          "tags": [
+            "GLIM",
+            "透析",
+            "營養評估"
+          ]
+        },
+        {
+          "title": "透析GLIM實務",
+          "question": "篩檢陰性為何仍留意肌量？",
+          "answer": "12人篩檢陰性仍GLIM陽性，6重度。篩檢不完整涵蓋肌量，但沒有金標準可把12人全稱真漏診。",
+          "tags": [
+            "GLIM",
+            "透析",
+            "營養評估"
+          ]
+        },
+        {
+          "title": "透析GLIM實務",
+          "question": "中位15分鐘能否直接當所有服務的人力標準？",
+          "answer": "不能，只有10位受訓營養師，IQR6–41，複雜病例可能逾30分鐘，器材與透析時段影響可行性。",
+          "tags": [
+            "GLIM",
+            "透析",
+            "營養評估"
+          ]
+        },
+        {
+          "title": "透析GLIM實務",
+          "question": "即使透析視為病因成立，為何還評估攝取與發炎？",
+          "answer": "兩者指向不同可處理原因。省略可能讓介入不個別化；45人48.4%被判低蛋白，但未正式計算g/day。",
+          "tags": [
+            "GLIM",
+            "透析",
+            "營養評估"
+          ]
+        }
+      ],
+      "completedAt": "2026-10-12T11:08:00.852Z"
     }
   ]
 }
