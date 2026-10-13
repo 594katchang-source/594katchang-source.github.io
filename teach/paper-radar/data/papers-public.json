@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T04:56:03.151Z",
+  "generatedAt": "2026-10-13T05:02:20.752Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -96547,6 +96547,72 @@
       "content": "---\ntags:\n  - source/journal\ncitekey: \"Li2026DietaryB1Stroke\"\ndoi: \"10.1097/MD.0000000000050900\"\nzotero: \"\"\njournal: \"Medicine (Baltimore)\"\nyear: 2026\nauthors: \"Zhi Li, Min Fu, Li Wang, Qiong Chen, Guang Yao, Qianhua Dai, Lili Jiang, Yangzhou Xu\"\nstudy_type: \"cross-sectional\"\npmid: \"42854020\"\nreview_depth: \"quick\"\n---\n\n> [!info] 品質快照\n> **設計**：NHANES 橫斷面分析｜**n**：11,750 名成人；449 人自述曾中風｜**RoB**（Newcastle–Ottawa，病因研究面向）：🔴高\n> **GRADE**：Very low（飲食 B1 與既往中風的關聯）｜**Registration**：n.a.（非介入試驗）\n> **一句話 verdict**：結果只支持「較高自述 B1 攝取與較低既往中風勝算相關」；不能證明補充 B1 可預防中風，且原文數表有多處分母／模型資訊不一致。\n\n# Key Points\n\n## Summary\n\n> ✅ Full text reviewed\n\n- 美國 NHANES 2005–2018 的 11,750 名成人中，449 人自述曾被醫療人員告知中風；較高飲食維生素 B1 攝取與較低既往中風勝算相關。\n- 最高與最低攝取四分位相比，完全調整後 OR 0.56（95% CI 0.41–0.89；Table 3 列 p=.008）；連續變項 OR 0.82（95% CI 0.68–0.99；p=.043），但論文沒有清楚交代連續值的單位刻度。\n- 橫斷面資料無法判定攝取發生在中風之前；暴露與中風都依自陳，不能推成因果或補充品效果。GRADE 計算為 Very low。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽（繁體中文白話）\n> - **一句話**：在一份美國成人健康調查裡，飲食回憶中 B1 較高的人，比較少自述曾中風。\n> - **為什麼做**：作者想知道一般 B 群研究較少討論的 thiamin，是否也和中風有關。\n> - **主體（橫斷面觀察）**：作者把 NHANES 成人依飲食 B1 分成四組；最低組作參照，最高組的調整後既往中風勝算比為 0.56（95% CI 0.41–0.89）。這是不同人同一調查中的關聯，並非追蹤新發中風，也不是介入比較。\n> - **作者推測**：thiamin 可能透過能量代謝、內皮功能與氧化壓力相關途徑影響血管健康；這些機轉是背景推論，本文沒有測試補充 B1 的效果。\n> - **所以呢**：不能依這篇研究推定補充 B1 能預防中風。年齡摘要、四分位樣本數與模型調整資訊有原文矛盾，應先保留疑問。\n\n## Clinical Application\n\n- **適應症**：本文沒有測試任何治療或營養介入，不能用來設定中風預防處方。\n- **實務解讀**：若臨床評估飲食 B1，仍應以整體飲食、病史與適當營養評估為主；單次或短期自陳攝取不能代表長期狀態。\n- **不可外推**：不支持以 B1 補充品降低中風風險，也不支持把 1.58 mg/day 當作個人治療目標。\n- **在地適用性**：樣本是美國一般成人，未專門研究台灣高齡者、慢性病營養照護或已中風者；外推至本地臨床需另有證據。\n\n# Paper Details\n\n## Methods\n\n- **設計與資料**：NHANES 2005–2018 橫斷面分析；限 20 歲以上且關鍵變項完整者，共 11,750 人。作者使用複雜抽樣權重，企圖推估美國非機構化成人族群。\n- **暴露**：以 NHANES 24 小時飲食回憶估算 B1 攝取，再按四分位分組；全文未充分交代個人回憶日數及如何由短期回憶代表 habitual intake。\n- **結果**：受訪者自述是否曾被醫師或其他醫療人員告知中風；未說明以病歷核實或取得中風亞型。方法段稱主要關注 ischemic stroke，但此問法本身不能確認亞型。\n- **統計**：複雜抽樣加權 logistic regression、限制立方樣條與 LASSO 預測模型；分析樣本 11,750 人、449 個自述中風事件。沒有先驗樣本數計算；論文未清楚報告多重檢定控制。\n\n## Critical Appraisal\n\n### Newcastle–Ottawa（病因研究面向；橫斷面）\n\n| 領域 | 判定 | 依據 |\n|---|---|---|\n| 混雜 | 🔴 高風險 | 有調整人口學與多項臨床變項，但暴露／結果時間順序不明，可能有反向因果與未量測混雜；Results 對 Model II 調整項的敘述與 Table 3 註腳不一致。 |\n| 樣本選擇／缺失 | 🟡 有疑慮 | 使用全國抽樣權重是優點；排除關鍵資料不完整者，但未清楚比較排除者與納入者。 |\n| 暴露分類 | 🔴 高風險 | 飲食回憶有測量誤差；未測 thiamin biomarker，且「habitual」攝取的回憶期與穩定性說明不足。 |\n| 結果測量 | 🔴 高風險 | 中風是回憶中的既往醫療診斷；未以病歷驗證，也未清楚區分缺血性與出血性中風。 |\n| 選擇性報告 | 🟡 有疑慮 | 未報告預先註冊或分析計畫；多項營養素、分層與模型比較但未見多重比較校正。 |\n\n**整體 RoB：高。** 抽樣加權與大樣本是優點，但不能補回時間順序、量測誤差與原文表格的不一致。\n\n### 統計、臨床意義與推論\n\n- **主要關聯**：Table 3 的最高 vs 最低 B1 四分位調整 OR 為 0.56（0.41–0.89）；連續 B1 項 OR 0.82（0.68–0.99）。連續項目沒有清楚標示估計單位，避免解讀為「每增加 1 mg」的效果。\n- **不確定性**：連續模型 p=.043 接近 .05；研究未提供可用於個人處置的絕對風險差或臨床重要差異。MCID 不適用於這項橫斷面勝算關聯。\n- **劑量反應**：Results 描述約 1.58 mg/day 後斜率變緩、稱非線性；同段後文又稱 essentially linear。圖示無法消除正文的說法差異，故不採用 1.58 mg/day 作個人門檻。\n- **預測模型**：LASSO 模型 AUC=0.771；作者承認僅在同一資料集內驗證，未報告外部驗證，不能當成已可部署的臨床工具。\n- **Argdown 推論檢查**：依 argdown_lint.py，作者摘要從觀察性 association 延伸到「potential cerebrovascular benefit」被標記為 association-to-causation gap。較穩妥結論是兩者相關，因果與補充效果尚待前瞻或介入研究。\n- **原文資料／報告矛盾**：Table 2 的四分位人數 3,226+3,173+2,832+2,699=11,930，超過文中總樣本 11,750；Table 1/2 的中風比例標示也不一致。Table 1 年齡摘要 24.3（11.7–36.9）與成人納入條件及年齡分組難以對上。Results 調整變項清單與 Table 3 註腳不同。無原始資料可校正，本文不猜測正確值。\n- **Funding/COI**：作者稱無資助、無利益衝突。資料需向通訊作者合理申請。\n\n### GRADE（主要關聯）\n\n| 領域 | 判定 | 理由 |\n|---|---|---|\n| 起始等級 | Low | 單一橫斷面觀察證據。 |\n| Risk of bias | Serious | 時序、暴露和結果自陳、殘餘混雜及報告矛盾。 |\n| Inconsistency | Not serious（有限） | 單一研究無法估計研究間異質性，沒有用此項額外降級；這不代表已獲獨立重複。 |\n| Indirectness | Not serious | 對美國成人的飲食 B1 與既往中風關聯是直接測量；但不回答補充品預防效果。 |\n| Imprecision | Serious | 連續估計 CI 接近無效值，事件數 449，關聯大小仍不確定。 |\n| Publication bias | Not serious（未能判定） | 未見直接證據；單一研究也無法可靠排除發表偏差。 |\n| **計算結果** | **Very low** | grade_judge.py：Low 起始、兩項 serious 降級、淨變動 −2。 |\n\n## 深度外查範圍\n\n依 Worker `focused-quick` 執行：作者履歷、期刊指標、引用影響與廣泛 reference verification 略過；本機公開摘要沒有載入私人 vault 筆記。這些未執行項目不代表已核實無問題。\n\n## Resource\n\n- 相關私人 vault 筆記：本次 worker-batch 未搜尋／未載入，避免把私人內容帶入公開成果。\n- Zotero item：未由本次來源證據確認。\n\n## Source\n\n- 全文來源：PMC 完整文章 HTML；DOI／英文題名身份比對通過；可讀正文含 Introduction、Methods、Results、Discussion、Conclusion 與 References。完整路由、拒絕候選及 SHA-256 留存在本輪私有執行證據。\n- [PMC 全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13657529/)｜[DOI](https://doi.org/10.1097/MD.0000000000050900)｜[PubMed](https://pubmed.ncbi.nlm.nih.gov/42854020/)\n- 主要數值位置：PMC Results 3.1–3.3、Tables 1–4、Figures 1–3；限制與作者解讀：Discussion、Conclusion。",
       "cards": [],
       "completedAt": "2026-10-13T04:54:40.000Z"
+    },
+    {
+      "id": "doi:10.1097/md.0000000000050900:digest",
+      "paperId": "doi:10.1097/md.0000000000050900",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Dietary vitamin B1 intake and stroke risk in U.S. adults: Insights from a nationally representative health examination survey.",
+      "authors": "Li Z, Fu M, Wang L, Chen Q, Yao G, Dai Q, Jiang L, Xu Y",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.1097/MD.0000000000050900",
+      "abstract": "Stroke imposes a substantial global burden of mortality and long-term disability, and its occurrence is driven by diverse vascular risk factors. As an essential micronutrient, vitamin B1 (thiamin) has been implicated in cardiovascular protection, yet whether habitual dietary intake of this vitamin relates to stroke occurrence remains incompletely understood. The present study therefore examined the association between dietary vitamin B1 intake and stroke risk using nationally representative data from the National Health and Nutrition Examination Survey. This cross-sectional analysis included 11,750 participants aged 20 years or older drawn from the National Health and Nutrition Examination Survey cycles of 2005 to 2018. Dietary vitamin B1 intake was divided into quartiles, and stroke status was ascertained from self-reported physician diagnoses. Weighted multivariable logistic regression models, adjusted sequentially for demographic, behavioral, and clinical covariates, were fitted to estimate odds ratios for stroke across intake levels, and restricted cubic spline regression was used to characterize the dose-response pattern. Least absolute shrinkage and selection operator regression was further applied to screen predictors for a stroke risk prediction model. An inverse association was observed between dietary vitamin B1 intake and stroke. In the fully adjusted model, participants in the highest intake quartile had 44% lower odds of stroke than those in the lowest quartile (odds ratio = 0.56, 95% CI: 0.41-0.89), and this inverse gradient remained materially consistent across strata of sex, age, race/ethnicity, and major clinical conditions. Dose-response modeling revealed a nonlinear pattern in which stroke odds declined steeply until intake reached approximately 1.58 mg/d, after which the decline became more gradual. A prediction model built on least absolute shrinkage and selection operator-selected clinical variables, including vitamin B1, achieved an area under the receiver operating characteristic curve of 0.771. In this nationally representative sample of U.S. adults, greater dietary vitamin B1 intake was independently associated with lower odds of stroke, lending support to a potential cerebrovascular benefit of thiamin. Prospective cohort and interventional studies are warranted to confirm this association and to elucidate the biological pathways involved.",
+      "legalFullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13657529/",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42854020/",
+      "category": "recommended",
+      "tags": [
+        "design:prospective cohort",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "美國成人膳食維生素 B1 攝取與中風風險的內容整理",
+      "content": "---\ntags:\n  - research/digest\n  - nutrition/cardiovascular\ncitekey: \"Li2026DietaryB1Stroke\"\ndoi: \"10.1097/MD.0000000000050900\"\npmid: \"42854020\"\njournal: \"Medicine (Baltimore)\"\nyear: 2026\nstudy_type: \"cross-sectional\"\n---\n\n> [!summary] 30 秒層\n> **一句話**：NHANES 成人資料中，較高的自陳飲食 B1 與較低的既往中風勝算相關；研究不能證明 B1 或補充品能預防中風。\n> - 11,750 名美國成人、449 人自述曾中風；飲食 B1 依四分位分析。\n> - 完全調整後最高 vs 最低四分位 OR=0.56（95% CI 0.41–0.89；Table 3 p=.008）；連續變項 OR=0.82（0.68–0.99；p=.043），但單位刻度未清楚交代。\n> - 研究是橫斷面，飲食與既往中風時間順序不明；表格樣本數與年齡摘要存在內部矛盾。\n> **品質 → 配對 review 判定 GRADE Very low；見本輪同 DOI 評讀。**\n\n> [!tip] 5 分鐘層：先讀每節開頭的「要點」掌握文章，再看表格數字和方法限制。\n\n## 研究問題 / 背景\n\n**要點：作者利用美國 NHANES 調查，檢視飲食 B1 攝取與自述曾中風之間是否相關。**\n\n- 作者指出，既有 B 群與中風研究較常討論 folate、B6、B12；飲食 vitamin B1（thiamin）的人群證據較少。\n- 生化背景提及 thiamin 參與能量代謝與神經功能，並可能與氧化壓力、血管內皮功能相關；這些機轉不是本研究實際測量的變項。（Introduction；Discussion）\n\n## 方法\n\n**要點：研究以 2005–2018 NHANES 成人資料做橫斷面分析，使用抽樣權重與加權 logistic regression。**\n\n- 分析 11,750 名 ≥20 歲成人；449 人報告曾被醫療人員告知中風，11,301 人未報告中風。關鍵變項缺漏者排除；全文未報告先驗樣本數計算。（Methods 2.1）\n- vitamin B1 由 24 小時飲食回憶估計並分成 Q1–Q4。全文沒有清楚說明每人回憶日數如何代表長期 habitual intake；飲食回憶可能有測量誤差。（Methods 2.2）\n- 中風依受訪者回想「是否曾被醫師或醫療人員告知」判定，未說明病歷確認或中風亞型。Methods 提及主要關注 ischemic stroke，但這個問項本身未確認亞型。（Methods 2.3）\n- 使用複雜抽樣加權、分層加權 logistic regression、restricted cubic spline、亞組分析及 LASSO 預測模型；Table 3 的 Model II 註腳列入 BMI、血脂及血球指標等，而 Results 前文列出的調整項較少，兩處說明不一致。（Methods 2.5；Results 3.2；Table 3）\n\n## 主要發現\n\n**要點：作者報告飲食 B1 越高、中風勝算越低，但連續估計單位不清，且這是既往中風的關聯。**\n\n| 比較（Table 3） | 調整 OR | 95% CI | p 值 |\n|---|---:|---:|---:|\n| B1 連續變項（單位未清楚說明） | 0.82 | 0.68–0.99 | .043 |\n| Q2 vs Q1 | 0.74 | 0.51–1.09 | .190 |\n| Q3 vs Q1 | 0.65 | 0.49–0.99 | .048 |\n| Q4 vs Q1 | 0.56 | 0.41–0.89 | .008 |\n| Q1–Q4 趨勢 | — | — | .009 |\n\n- 摘要把 Q4 vs Q1 描述為中風勝算低 44%；這是勝算差，不是絕對風險下降，也不應寫成因果效果。（Abstract；Table 3）\n- 作者描述 spline 在約 1.58 mg/day 後斜率轉緩；同一 Results 段又稱關聯「essentially linear」。兩種描述沒有完全調和，不把 1.58 mg/day 當個人需求量或治療門檻。（Results 3.2；Fig. 2）\n- LASSO 預測模型納入年齡、種族、BMI、吸菸、飲酒、糖尿病、高血壓、PIR、B1、TC 與 HDL-C；AUC=0.771。作者承認僅在同一資料集內驗證，沒有獨立外部驗證。（Results 3.3；Fig. 3；Discussion）\n\n## 臨床意義 / 怎麼用\n\n**要點：這篇適合提醒研究者注意飲食暴露與中風既往史的關聯，不足以改變補充品或中風預防處置。**\n\n- 飲食回憶中的 B1 攝取可與整體飲食品質一起觀察；本研究沒有測血中 thiamin、沒有提供補充介入，也沒有追蹤新發中風。\n- 作者提出的抗氧化與內皮機轉屬背景解釋，不能由這份橫斷面分析證明。不能據此建議以 B1 補充品預防中風。\n- 研究族群是美國一般成人，不是台灣高齡者或營養門診族群；結果不提供個別處方值。\n\n## 重要圖表重述\n\n**要點：Table 3 是主要關聯估計；其他表格與圖呈現樣本特徵、分組差異、劑量反應和預測模型。**\n\n- **Table 1**：對照自述中風與未中風者的基線特徵；B1 攝取及多項人口學、臨床指標不同。\n- **Table 2**：按 B1 四分位列人口學／臨床特徵及中風狀態；但四分位 N 合計與全體樣本數不符，詳見下方限制。\n- **Table 3**：加權 logistic regression；最高四分位對最低四分位 OR=0.56（95% CI 0.41–0.89）。\n- **Table 4**：性別、年齡、BMI、種族、教育、飲酒、吸菸、高血壓及糖尿病分層；交互作用 p 值均未達 .05，但部分分層 CI 較寬。\n- **Figure 1**：參與者納入流程；**Figure 2**：B1 與中風勝算的 spline；**Figure 3**：LASSO 變項篩選及 ROC/AUC。原圖未在本輪下載，以上依全文圖說及結果敘述整理。\n\n## 與既有認知的對照\n\n**要點：本 Worker 公開整理未載入私人 vault 或私人筆記，避免把個人資料混入公開內容。**\n\n- 本節未做 vault 搜尋或內部筆記連結；本次整理只依此文全文。未搜尋不代表私人筆記不存在。\n\n## 概念 / 名詞整理\n\n**要點：OR 描述樣本中的勝算比，橫斷面加權分析仍不能建立時間順序或因果。**\n\n- **NHANES**：美國全國健康與營養調查，採分層、多階段抽樣；分析需納入權重才能反映抽樣設計。\n- **24 小時飲食回憶**：受訪者回想前一日飲食；可估當日攝取，但未必代表長期習慣。\n- **OR（odds ratio）**：勝算比；OR=0.56 不等於每人中風風險直接下降 44%。\n- **Restricted cubic spline**：用彎曲函數估計暴露與結果的形狀；本文對「非線性」和「近似線性」的文字描述不完全一致。\n- **LASSO**：以懲罰項篩選預測變項；AUC 衡量區辨度，不代表模型校準良好或可外部套用。\n\n## 自我測驗\n\n> [!question]- Q1：為什麼 Q4 vs Q1 的 OR=0.56 不能解讀成「補充 B1 讓中風風險下降 44%」？\n> 這是橫斷面中飲食回憶與既往中風的勝算關聯，沒有介入、追蹤或時間順序；OR 也不是絕對風險差。研究不能判斷中風是否改變了飲食。\n\n> [!question]- Q2：連續 B1 OR=0.82 看起來有顯著關聯，使用時還缺少什麼資訊？\n> Table 3 沒清楚標示連續變項的單位刻度，且 CI 0.68–0.99、p=.043 接近無效值。不要自行假設為每增加 1 mg 的效果。\n\n> [!question]- Q3：研究為何不能用來設定每日 1.58 mg 的中風預防目標？\n> 1.58 mg/day 是作者對 spline 轉折的描述，不是隨機試驗驗證的需求量或治療切點；全文還同時把關係稱作近似線性，也沒有檢驗補充介入。\n\n> [!question]- Q4：讀 Table 2 時要先注意哪個資料核對問題？\n> 四個 Q 組 N 為 3,226、3,173、2,832、2,699，合計 11,930，超過文中 11,750 人；在作者澄清前，不應自行修補分母或以該表重新計算比例。\n\n## Reference\n\nLi Z, Fu M, Wang L, Chen Q, Yao G, Dai Q, Jiang L, Xu Y. *Dietary vitamin B1 intake and stroke risk in U.S. adults: Insights from a nationally representative health examination survey.* Medicine (Baltimore). 2026;105(41):e50900. DOI: 10.1097/MD.0000000000050900.\n\n- [PMC 全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13657529/)（Results 3.1–3.3、Tables 1–4、Figures 1–3、Discussion、Conclusion）\n- [DOI](https://doi.org/10.1097/MD.0000000000050900)｜[PMID 42854020](https://pubmed.ncbi.nlm.nih.gov/42854020/)",
+      "cards": [
+        {
+          "title": "橫斷面關聯不是補充效果",
+          "question": "為什麼這篇的 Q4 vs Q1 OR=0.56 不能證明補充 B1 預防中風？",
+          "answer": "飲食 B1 與既往中風是在同一橫斷面資料中比較，無時間先後、追蹤或介入。OR 是勝算比，也不是絕對風險下降。",
+          "tags": [
+            "vitamin B1",
+            "stroke",
+            "study design"
+          ]
+        },
+        {
+          "title": "單位不清先別換算",
+          "question": "Table 3 的連續 B1 OR=0.82，為何不能直接說每增加 1 mg 就有這個效果？",
+          "answer": "論文沒有清楚交代連續變項估計的單位刻度；p=.043 且 95% CI 0.68–0.99。應保留作者報值，不自行補上每 mg 解讀。",
+          "tags": [
+            "vitamin B1",
+            "odds ratio",
+            "statistics"
+          ]
+        },
+        {
+          "title": "核對四分位分母",
+          "question": "Table 2 的分組人數要先核對什麼？",
+          "answer": "四組 N 合計 11,930，超過全文分析樣本 11,750。保留原文並標記矛盾，不猜測正確分母或重算比例。",
+          "tags": [
+            "data quality",
+            "NHANES",
+            "paper reading"
+          ]
+        },
+        {
+          "title": "AUC 不等於可部署",
+          "question": "預測模型 AUC=0.771 為何不足以當成臨床可用工具？",
+          "answer": "AUC 只描述區辨度；作者僅在同一資料集內驗證，沒有獨立外部驗證，也未提供足夠證據說明不同族群中的校準與效能。",
+          "tags": [
+            "prediction model",
+            "AUC",
+            "validation"
+          ]
+        }
+      ],
+      "completedAt": "2026-10-13T04:57:27.000Z"
     }
   ]
 }
