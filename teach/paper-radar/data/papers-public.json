@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-14T08:21:47.427Z",
+  "generatedAt": "2026-10-14T08:34:26.674Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -97535,6 +97535,32 @@
         }
       ],
       "completedAt": "2026-10-14T08:17:17.2766931Z"
+    },
+    {
+      "id": "doi:10.21037/jtd-2026-1470:review",
+      "paperId": "doi:10.21037/jtd-2026-1470",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Short-term clinical outcomes of nasoduodenal tube versus feeding jejunostomy after minimally invasive esophagectomy: a retrospective cohort study with exploratory microbiome analysis.",
+      "authors": "Ge Q, Wang C, Zheng C, Zheng H, Wen Y, Luo J, Qiang Y, Wang Y, Cong Z, Shen Y",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.21037/jtd-2026-1470",
+      "abstract": "Esophagectomy remains an effective treatment for esophageal cancer but is associated with severe postoperative complications, in which nutritional status plays a critical role. The optimal route for enteral feeding remains uncertain. To address this uncertainty, we compared the short-term clinical outcomes of the two approaches and exploratorily analyzed the differences in gut microbiota. This retrospective cohort study enrolled patients who underwent minimally invasive esophagectomy (MIE) for esophageal squamous cell carcinoma (ESCC) between July 2018 and June 2021. Primary outcomes were surgery-related complications (including anastomotic leakage, anastomotic stenosis, pneumonia, respiratory failure, cardiac events, chylothorax, intestinal fistula and bowel obstruction) and catheter-related outcomes (including occlusion, accidental removal, displacement and retention time). Baseline data were extracted from medical records. Propensity score matching (PSM) was applied to control for potential confounders. Intestinal fluid and fecal samples were collected after enteral nutrition for 16S ribosomal DNA (16S rDNA) sequencing. After PSM, a total of 381 patients (nasoduodenal tube: 282; feeding jejunostomy: 153) was finally included. The feeding jejunostomy group exhibited a higher incidence of pneumonia (21.49% vs. 33.99%, P=0.007), respiratory failure (3.07% vs. 13.07%, P<0.001), anastomotic stenosis (1.32% vs. 5.23%, P=0.03) and bowel obstruction (0% vs. 2.16%, P=0.03). Nasoduodenal tube placement was associated with more accidental removal (13.16% vs. 0.65%, P<0.001) and catheter displacement (13.60% vs. 6.54%, P=0.03). The catheter retention time {37 [interquartile range (IQR): 15-40] days vs. 39 (IQR: 37-42) days, P<0.001} was also shorter in nasoduodenal tube group. In this study, nasoduodenal tube placement was associated with a higher incidence of catheter-related complications, whereas feeding jejunostomy was linked to more surgery-related complications. Nasoduodenal tube placement also showed potential functional advantages for the gut microbiome. However, future multi-center randomized controlled trials are still needed to minimize potential confounders and validate the differences between the two enteral nutrition routes.",
+      "legalFullTextUrl": "https://doi.org/10.21037/jtd-2026-1470",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42865837/",
+      "category": "recommended",
+      "tags": [
+        "design:randomized controlled",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "precision nutrition",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "微創食道切除後鼻十二指腸管與空腸造口：短期臨床結果品質評讀",
+      "content": "# 微創食道切除後鼻十二指腸管與空腸造口：術後結果品質評讀\n\n> 已依 paper-review skill 閱讀完整 19 頁開放全文。本文為單中心回溯性隊列研究；重要樣本數和部分表格數值存在內部不一致，結論需保留為關聯而非因果。\n\n## 品質快照\n\n| 項目 | 評讀 |\n|---|---|\n| 研究問題 | 食道鱗狀細胞癌患者接受微創食道切除後，比較鼻十二指腸管與空腸造口的短期手術、導管及恢復結果；另以極小樣本探索腸道菌相。 |\n| 設計／樣本 | 單中心回溯性隊列；PSM 後正文及表格為鼻十二指腸管 228 人、空腸造口 153 人，共 381 人。菌相子研究另納 6 人（每組 3 人）。 |\n| 主要結果 | 空腸造口組肺炎、呼吸衰竭、吻合口狹窄及腸阻塞比例較高；鼻十二指腸管組意外拔除與移位較多。 |\n| 主要限制 | 非隨機分派、殘餘混雜可能；單中心且特定手術／病人；菌相子研究 n=6；結果報告有多處樣本數及數值不一致。 |\n| 整體判斷 | 可作為術後餵食管路取捨的假說生成資料；不足以指定所有病人應採某一路徑，也不能將菌相差異視為功能或臨床效益證據。 |\n\n## 研究設計與方法\n\n- 納入 2018 年 7 月至 2021 年 6 月於南京一所醫院接受 VAMIE 或 RAMIE 的成年食道鱗狀細胞癌患者；回溯病歷資料。手術醫師均有超過 100 例食道切除經驗，兩組採同一機構營養支持流程。（PDF pp. 3–5）\n- 術後當日給予腸外營養，逐步於術後第 3 天達全量腸內營養；設定每日 25–30 kcal/kg，持續至出院。兩組管路建立方式不同：鼻十二指腸管置於遠端十二指腸，空腸造口設於 Treitz 韌帶遠端 30–40 cm。（PDF p. 4）\n- 主要結果包括手術相關併發症及導管事件；次要結果包括開始喝水、引流管移除、NLR 及白蛋白。作者使用傾向分數配對處理混雜，少量缺值以多重插補處理；統計檢定雙側 α=0.05。（PDF pp. 4–5）\n- 微生物探索性子研究是另行招募的配對隊列，總共僅 6 人；於餵食至少一個月後收集腸液及糞便作 16S rDNA 定序。（PDF p. 3–5）\n\n## 主要結果\n\n| 結果 | 鼻十二指腸管 n=228 | 空腸造口 n=153 | p 值 |\n|---|---:|---:|---:|\n| 肺炎 | 21.49% | 33.99% | 0.007 |\n| 呼吸衰竭 | 3.07% | 13.07% | <0.001 |\n| 吻合口狹窄 | 1.32% | 5.23% | 0.03 |\n| 腸阻塞 | 0% | 2.61%（4 人） | 0.03 |\n| 非預期拔管 | 13.16% | 0.65% | <0.001 |\n| 導管移位 | 13.60% | 6.54% | 0.03 |\n| 導管留置時間，中位數（IQR） | 37（15–40）天 | 39（37–42）天 | <0.001 |\n| 吻合口滲漏 | 14.91% | 11.76% | 0.38 |\n| 首次飲水時間，中位數 | 兩組均 4 天 | 兩組均 4 天 | 0.44 |\n| 引流管移除時間，中位數 | 兩組均 7 天 | 兩組均 7 天 | 0.97 |\n\n- 以上併發症數字依 Results 與 Table 2；不能由回溯性組間差異推斷管路造成併發症。（PDF pp. 8–10）\n- NLR 與白蛋白的表格、正文描述在部分術後日期及數值上互相對不上；不據此下定量的發炎或營養優劣結論。原文也沒有報告能證明兩組病人重要臨床營養狀態不同的預先指定主要終點。（PDF pp. 9–10）\n- 菌相樣本每組 3 人，顯示若干分類群與推估路徑差異；作者將鼻十二指腸管描述為可能有菌相功能優勢，但這是探索性分析，沒有驗證相關功能、感染結果或臨床中介機轉。（PDF pp. 3、10–15）\n\n## Critical Appraisal\n\n### 優點\n\n- 比較兩種常用餵食路徑，納入手術、管路與恢復等多面向結果，而不只報告單一營養指標。（PDF pp. 4–10）\n- 兩組採標準化院內餵食與照護流程，且作者以 PSM 降低已測量混雜因素造成的差異。（PDF pp. 4–5、7–8）\n- 描述管路特有風險的方向具有臨床可理解性：鼻管較易意外移除／移位，外科造口則有侵入性手術及腸阻塞風險。（PDF pp. 9–14）\n\n### 主要偏倚與報告問題\n\n- **非隨機分派**：管路選擇可能受醫師偏好、病人狀況或照護需求影響。PSM 只能平衡已測量且納入模型的因素，無法排除未測量混雜；作者承認殘餘混雜仍存在。（PDF pp. 3、15）\n- **樣本數不一致**：摘要稱 PSM 後鼻十二指腸管組 282 人、空腸造口 153 人；但摘要合計宣稱 381 人，正文流程、Table 1、Table 2 均為 228+153=381。主結果分母應以正文及表格的 228／153 為準，摘要的 282 無法由全文核實。（PDF pp. 1、6–9）\n- **腸阻塞比例不一致**：摘要報空腸造口 2.16%，Results 正文稱 2.16%，但 Table 2 顯示 4/153=2.61%。本評讀以表格分子、分母重算約 2.61%，並保留原文不一致。（PDF pp. 1、8–9）\n- **術後 NLR／白蛋白表格與正文不一致**：例如 Table 2 與 Results 對 POD 1、3、7 的 NLR，以及 POD 1、4 白蛋白數值和排列有多處不合。未取得更正或原始資料前，不能可靠判定方向與幅度。（PDF pp. 9–10）\n- **多項結局與多重比較**：同時檢驗多項手術、導管、恢復及實驗室結果；未見明確多重比較校正或主要結局階層，p 值應審慎解讀。部分顯著結果的事件數很少，例如腸阻塞 4 例與吻合口狹窄 11 例。（PDF pp. 4–10）\n- **菌相研究極小且探索性**：n=6 無法穩定代表族群；16S 及 PICRUSt 推估不等於直接量測代謝功能，亦無法證實菌相差異導致臨床併發症。（PDF pp. 3、5、10–15）\n- **外部效度有限**：單一中國醫院的食道鱗狀細胞癌、微創手術與特定營養流程，不必然適用於其他癌種、開放手術、不同餵食配方或照護系統。（PDF pp. 3–5）\n\n## 白話導讀\n\n研究比較兩種術後送營養的入口：從鼻子放到十二指腸的細管，或手術建立空腸造口。表格呈現的方向是：鼻管較容易被拔掉或移位；空腸造口組觀察到較多肺炎、呼吸衰竭、吻合口狹窄及腸阻塞。可是這不是隨機試驗，不能確認差異由管路本身造成；而且摘要與正文、表格的樣本數或數值有不一致。菌相分析只有 6 人，適合產生後續問題，不適合用來決定臨床餵食路徑。\n\n## 臨床應用／實務意義\n\n- 本文支持的是術後管路選擇需同時權衡「外科造口相關風險」與「鼻管固定／位移風險」，不是一種方法全面優於另一種。（PDF pp. 8–15）\n- 對需要長期餵食、腹部手術風險、合作度、鼻管照護與意外移除風險不同的病人，仍需由手術與營養團隊結合個別狀況評估；本文沒有建立選擇規則或經驗證的風險模型。\n- 不宜用 n=6 的菌相結果調整病人營養處方，也不應把探索性 KEGG 路徑差異解讀為已證實的免疫、感染或營養效益。（PDF pp. 10–15）\n- 更可靠的下一步需要多中心前瞻性或隨機研究、預先指定主要結局、透明報告配對流程與分母，並將管路事件、術後併發症、營養狀態和病人生活品質一起追蹤。（PDF pp. 15–16）\n\n## 全文結構與首中末核對\n\n- **全文結構**：Abstract（PDF pp. 1–2）；Introduction（pp. 2–3）；Methods：患者、手術、營養治療、資料收集、取樣、倫理與統計（pp. 3–5）；Results：基線、主要／次要結果、菌相（pp. 6–11）；Discussion（pp. 11–15）；Conclusion、資助／利益揭露、倫理及參考文獻（pp. 15–19）。\n- **首段核對**：PDF p. 1 標題、設計及摘要數據與原文相符；注意摘要的 PSM 鼻管 n=282 與正文／表格 n=228 不一致。\n- **中段核對**：PDF pp. 9–10 的 Table 2、次要結果及菌相結果已對照正文；保留腸阻塞比例、NLR／白蛋白報告差異。\n- **末段核對**：PDF pp. 15–19 的限制、結論、資助／利益揭露、倫理及參考文獻均已查看；作者明示回溯性偏倚、主觀結局缺少及仍需前瞻性驗證。\n\n## 資料來源\n\nGe QY, et al. “Short-term clinical outcomes of nasoduodenal tube versus feeding jejunostomy after minimally invasive esophagectomy: a retrospective cohort study with exploratory microbiome analysis.” *Journal of Thoracic Disease*. 2026;18(9):1024. DOI: [10.21037/jtd-2026-1470](https://doi.org/10.21037/jtd-2026-1470). [期刊全文頁](https://jtd.amegroups.org/article/view/10.21037/jtd-2026-1470/html). PDF 頁碼依原文頁腳 pp. 1–19。全文 PDF SHA-256：`d41885dda98fb4103bb78f1b849c37e8e25db1d18dda0944aecebf14003a77af`；全文文字 SHA-256：`ebdf2fb40ac3235e50ea214fbe2ff6ee9391ede21175c3b32231cf94c41bea52`。\n\n## 使用提醒\n\n本文可用於了解術後餵食路徑比較及研究限制，不能取代食道切除後個別化營養照護、院內 ERAS 流程或外科團隊決策。",
+      "cards": [],
+      "completedAt": "2026-10-14T08:31:36.5399444Z"
     }
   ]
 }
