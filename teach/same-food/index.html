@@ -1,0 +1,1965 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>飲食找相同轉盤遊戲 ｜ 全齡互動教具</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@700;900&display=swap">
+<script src="food-data.js"></script>
+<style>
+:root {
+  --primary: #FF6B35;
+  --primary-hover: #FA571E;
+  --secondary: #1B998B;
+  --secondary-deep: #13776C;
+  --gold: #FFB703;
+  --gold-light: #FFE8A3;
+  --ground: #F3F7F6;
+  --surface: #FFFFFF;
+  --surface-2: #EAF1F0;
+  --line: #CFDEDC;
+  --line-soft: #E2ECEB;
+  --ink: #14282B;
+  --ink-2: #3F5E64;
+  --ink-3: #6F8D93;
+  --shadow: 0 4px 18px rgba(20,40,43,0.08), 0 1px 3px rgba(20,40,43,0.05);
+  --shadow-lg: 0 16px 40px rgba(20,40,43,0.14);
+  --radius: 16px;
+  --sans: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif;
+  --serif: "Noto Serif TC", "Songti TC", serif;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+.wrap {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 24px 20px 60px;
+}
+h1, h2, h3 { font-family: var(--sans); font-weight: 900; margin: 0; }
+
+/* 頂部導航與標頭 */
+.nav-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--secondary-deep);
+  font-weight: 700;
+  font-size: 14.5px;
+  text-decoration: none;
+  margin-bottom: 16px;
+  padding: 6px 12px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  transition: all .15s;
+}
+.nav-back:hover {
+  background: var(--secondary);
+  color: #fff;
+  border-color: var(--secondary);
+}
+
+.masthead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid var(--line-soft);
+}
+.masthead-title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.masthead-icon {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--gold) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  box-shadow: 0 6px 16px rgba(255,107,53,0.3);
+  color: #fff;
+  flex: none;
+}
+.masthead h1 {
+  font-size: clamp(24px, 3.8vw, 34px);
+  color: var(--ink);
+  letter-spacing: .02em;
+}
+.masthead p {
+  margin: 4px 0 0;
+  color: var(--ink-2);
+  font-size: 15px;
+}
+.top-badges {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.badge {
+  font-size: 13px;
+  font-weight: 700;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  color: var(--ink-2);
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.badge.highlight {
+  background: #E6F6F4;
+  border-color: var(--secondary);
+  color: var(--secondary-deep);
+}
+
+/* 主工作台佈局 */
+.console {
+  display: grid;
+  grid-template-columns: 340px minmax(0, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+@media (max-width: 900px) {
+  .console { grid-template-columns: 1fr; }
+}
+
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--line-soft);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.panel > header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  background: var(--surface-2);
+  border-bottom: 1px solid var(--line-soft);
+}
+.panel > header h2 { font-size: 17px; color: var(--ink); display: flex; align-items: center; gap: 8px; }
+.panel .body { padding: 20px; }
+
+.rail { position: sticky; top: 20px; }
+@media (max-width: 900px) { .rail { position: static; } }
+
+/* 表單控制元件 */
+.field + .field { margin-top: 22px; }
+.label {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .08em;
+  color: var(--ink-3);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.label b {
+  font-size: 19px;
+  font-weight: 900;
+  color: var(--primary);
+  font-variant-numeric: tabular-nums;
+}
+
+.seg-category {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.cat-btn {
+  font: inherit;
+  font-size: 13.5px;
+  font-weight: 700;
+  text-align: left;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1.5px solid var(--line);
+  background: var(--surface);
+  color: var(--ink-2);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all .15s;
+}
+.cat-btn:hover {
+  border-color: var(--secondary);
+  color: var(--ink);
+  background: #F2F9F8;
+}
+.cat-btn[aria-pressed="true"] {
+  background: #E8F7F5;
+  border-color: var(--secondary);
+  color: var(--secondary-deep);
+  font-weight: 900;
+  box-shadow: 0 2px 6px rgba(27,153,139,0.18);
+}
+.cat-btn.wide { grid-column: span 2; }
+
+.seg-small {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 5px;
+  background: var(--surface-2);
+  padding: 5px;
+  border-radius: 12px;
+  border: 1px solid var(--line-soft);
+}
+.seg-small button {
+  font: inherit;
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--ink-2);
+  background: transparent;
+  border: 0;
+  border-radius: 8px;
+  padding: 8px 0;
+  cursor: pointer;
+  transition: all .15s;
+}
+.seg-small button:hover:not([aria-pressed="true"]) { color: var(--ink); background: rgba(0,0,0,0.04); }
+.seg-small button[aria-pressed="true"] {
+  background: var(--primary);
+  color: #fff;
+  box-shadow: 0 2px 6px rgba(255,107,53,0.3);
+}
+
+.seg-source {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+  background: var(--surface-2);
+  padding: 5px;
+  border-radius: 12px;
+  border: 1px solid var(--line-soft);
+}
+.seg-source button {
+  font: inherit;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--ink-2);
+  background: transparent;
+  border: 0;
+  border-radius: 8px;
+  padding: 8px 4px;
+  cursor: pointer;
+  transition: all .15s;
+}
+.seg-source button[aria-pressed="true"] {
+  background: var(--ink);
+  color: #fff;
+}
+
+input[type=range] {
+  width: 100%;
+  accent-color: var(--primary);
+  height: 26px;
+  cursor: pointer;
+}
+.ticks {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--ink-3);
+  font-variant-numeric: tabular-nums;
+  margin-top: -2px;
+}
+
+.switch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 0;
+  border-top: 1px solid var(--line-soft);
+}
+.switch:first-of-type { border-top: 0; }
+.switch .txt { font-size: 14.5px; font-weight: 700; color: var(--ink); }
+.switch .txt small { display: block; color: var(--ink-3); font-size: 12.5px; font-weight: 400; }
+.toggle {
+  flex: none;
+  width: 48px;
+  height: 28px;
+  border-radius: 999px;
+  border: 1.5px solid var(--line);
+  background: var(--surface-2);
+  position: relative;
+  cursor: pointer;
+  transition: background .18s, border-color .18s;
+}
+.toggle::after {
+  content: "";
+  position: absolute;
+  inset: 2px auto 2px 2px;
+  width: 20px;
+  border-radius: 50%;
+  background: var(--ink-3);
+  transition: transform .18s, background .18s;
+}
+.toggle[aria-pressed="true"] {
+  background: var(--secondary);
+  border-color: var(--secondary);
+}
+.toggle[aria-pressed="true"]::after {
+  transform: translateX(20px);
+  background: #fff;
+}
+
+.btn {
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  border-radius: 12px;
+  padding: 12px 18px;
+  border: 1.5px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all .15s;
+}
+.btn:hover { border-color: var(--ink-2); transform: translateY(-1px); }
+.btn.primary {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+  font-size: 16.5px;
+  box-shadow: 0 4px 14px rgba(255,107,53,0.3);
+}
+.btn.primary:hover {
+  background: var(--primary-hover);
+  border-color: var(--primary-hover);
+}
+.btn.wide { width: 100%; }
+.btn:disabled { opacity: .45; cursor: not-allowed; transform: none; box-shadow: none; }
+
+/* 右側預覽區工具列 */
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 20px;
+  background: var(--surface-2);
+  border-bottom: 1px solid var(--line-soft);
+}
+.toolbar-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.toolbar .btn { padding: 9px 15px; font-size: 14px; }
+.toolbar .btn.play-master {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+  font-size: 15px;
+  box-shadow: 0 4px 12px rgba(255,107,53,0.25);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+  padding: 20px;
+}
+.thumb {
+  background: var(--surface);
+  border: 1.5px solid var(--line-soft);
+  border-radius: 14px;
+  padding: 12px 12px 10px;
+  cursor: pointer;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+  transition: border-color .15s, transform .15s, box-shadow .15s;
+}
+.thumb:hover {
+  border-color: var(--secondary);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+}
+.thumb .no {
+  font-size: 12.5px;
+  font-weight: 800;
+  letter-spacing: .06em;
+  color: var(--ink-3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.thumb .pair {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.thumb .pair .disc {
+  flex: 1;
+}
+.thumb .pair .sep {
+  font-size: 14px;
+  color: var(--primary);
+  font-weight: 900;
+}
+.thumb-ans-pill {
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--secondary-deep);
+  background: #E8F7F5;
+  padding: 2px 8px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* 圓盤 Disc 與符號排版 */
+.disc {
+  position: relative;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #FFFDF9;
+  border: 3px solid #10252C;
+  overflow: hidden;
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.06);
+}
+.sym {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  user-select: none;
+}
+.sym svg { width: 100%; height: 100%; display: block; }
+.sym img { width: 100%; height: 100%; object-fit: contain; display: block; }
+
+/* 食材徽章卡片（食物模式） */
+.food-badge-item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 1.5px solid #E2ECEB;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+  padding: 4%;
+}
+.food-badge-emoji {
+  font-size: clamp(14px, 4vw, 36px);
+  line-height: 1.1;
+}
+.food-badge-name {
+  font-size: clamp(9px, 1.4vw, 13px);
+  font-weight: 900;
+  color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 90%;
+  line-height: 1.1;
+  margin-top: 2px;
+}
+
+.empty { padding: 50px 20px; text-align: center; color: var(--ink-3); }
+.note { font-size: 13.5px; color: var(--ink-2); padding: 0 20px 20px; margin: 0; }
+
+/* 提示訊息膠囊 */
+.status {
+  position: fixed;
+  left: 50%;
+  bottom: 30px;
+  transform: translateX(-50%) translateY(14px);
+  background: var(--ink);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 700;
+  box-shadow: var(--shadow-lg);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s, transform .2s;
+  z-index: 200;
+  max-width: 90vw;
+  text-align: center;
+}
+.status.on { opacity: 1; transform: translateX(-50%) translateY(0); }
+</style>
+
+<!-- 全螢幕播放器樣式 -->
+<style id="playerCSS">
+.fys {
+  --stage: #10252C;
+  --stage-2: #193842;
+  --card: #FFFDF9;
+  --card-line: #0A171B;
+  --hi: #FFB703;
+  --hi2: #FF6B35;
+  --txt: #F4FBFB;
+  --txt-2: #A3C2C8;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: var(--stage);
+  color: var(--txt);
+  font-family: var(--sans);
+  display: flex;
+  flex-direction: column;
+  overscroll-behavior: none;
+}
+.fys * { box-sizing: border-box; }
+.fys-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 14px 24px;
+  background: var(--stage-2);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.fys-no {
+  font-size: clamp(20px, 2.2vw, 28px);
+  font-weight: 900;
+  letter-spacing: .04em;
+  font-variant-numeric: tabular-nums;
+}
+.fys-no em {
+  font-style: normal;
+  color: var(--hi);
+  font-size: 1.3em;
+}
+.fys-dots {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  max-width: 44vw;
+  justify-content: center;
+}
+.fys-dots i {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #2E5560;
+  display: block;
+}
+.fys-dots i.on { background: var(--hi); }
+.fys-dots i.now { background: var(--hi2); transform: scale(1.45); }
+.fys-tools { display: flex; gap: 8px; }
+.fys-tools button {
+  font: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--txt);
+  background: transparent;
+  border: 1.5px solid #36606B;
+  border-radius: 10px;
+  padding: 7px 12px;
+  cursor: pointer;
+  transition: all .15s;
+}
+.fys-tools button:hover { border-color: var(--hi); color: var(--hi); }
+
+.fys-stage {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(12px, 3.5vw, 54px);
+  padding: 10px clamp(16px, 3vw, 48px);
+  min-height: 0;
+  position: relative;
+}
+.fys-card {
+  position: relative;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  width: min(38vw, 55vh);
+  background: var(--card);
+  border: 6px solid var(--card-line);
+  box-shadow: 0 24px 60px rgba(0,0,0,0.7);
+  overflow: hidden;
+  flex: none;
+}
+.fys-split {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  color: var(--txt-2);
+  flex: none;
+}
+.fys-split .bar {
+  width: 4px;
+  flex: 1;
+  background: repeating-linear-gradient(to bottom, #2E5560 0 12px, transparent 12px 24px);
+  min-height: 50px;
+}
+.fys-split .q {
+  width: clamp(48px, 5.2vw, 68px);
+  height: clamp(48px, 5.2vw, 68px);
+  border-radius: 50%;
+  background: var(--hi2);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(26px, 3vw, 40px);
+  font-weight: 900;
+  flex: none;
+  box-shadow: 0 8px 24px rgba(255,107,53,0.6);
+}
+
+.fys-sym {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  user-select: none;
+  transition: opacity .45s ease, filter .45s ease;
+}
+.fys-sym svg { width: 100%; height: 100%; display: block; }
+.fys-sym img { width: 100%; height: 100%; object-fit: contain; display: block; }
+
+.fys.revealed .fys-sym { opacity: .18; filter: grayscale(1); }
+.fys.revealed .fys-sym.hit {
+  opacity: 1;
+  filter: none;
+  animation: fys-pop .75s cubic-bezier(.22,1.3,.36,1) both;
+  z-index: 20;
+}
+.fys-sym.hit::before {
+  content: "";
+  position: absolute;
+  inset: -14%;
+  border-radius: 50%;
+  border: 6px solid var(--hi2);
+  opacity: 0;
+  box-shadow: 0 0 0 6px rgba(255,183,3,0.45);
+}
+.fys.revealed .fys-sym.hit::before {
+  animation: fys-ring .75s .1s ease-out both;
+}
+
+@keyframes fys-pop {
+  0% { transform: scale(var(--s,1)) rotate(var(--r,0deg)); }
+  45% { transform: scale(calc(var(--s,1)*1.45)) rotate(var(--r,0deg)); }
+  100% { transform: scale(calc(var(--s,1)*1.22)) rotate(var(--r,0deg)); }
+}
+@keyframes fys-ring {
+  0% { opacity: 0; transform: scale(.4); }
+  55% { opacity: 1; transform: scale(1.08); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+/* 底部操作與衛教解說卡 */
+.fys-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 10px 24px 20px;
+  background: var(--stage-2);
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+/* 營養衛教特寫資訊卡 */
+.fys-nutrition-card {
+  width: min(920px, 94vw);
+  background: #112830;
+  border: 2px solid var(--gold);
+  border-radius: 16px;
+  padding: 14px 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  display: none;
+  animation: fadeInDown .35s ease-out;
+}
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.fys.revealed .fys-nutrition-card { display: block; }
+
+.nut-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+.nut-title {
+  font-size: clamp(20px, 2.3vw, 26px);
+  font-weight: 900;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nut-title .nut-name { color: var(--gold); }
+.nut-badge {
+  font-size: 13px;
+  font-weight: 800;
+  background: var(--secondary);
+  color: #fff;
+  padding: 3px 12px;
+  border-radius: 999px;
+  letter-spacing: .04em;
+}
+.nut-badge.cat {
+  background: #E8552D;
+}
+.nut-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 6px 14px;
+  font-size: clamp(14.5px, 1.5vw, 17px);
+  line-height: 1.5;
+}
+.nut-label {
+  font-weight: 900;
+  color: var(--txt-2);
+  white-space: nowrap;
+}
+.nut-val {
+  color: #F0F6F6;
+  font-weight: 500;
+}
+.nut-val strong {
+  color: var(--gold);
+  font-weight: 800;
+}
+
+.fys-btn-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.fys-btn {
+  font: inherit;
+  font-weight: 900;
+  cursor: pointer;
+  border-radius: 14px;
+  border: 2px solid transparent;
+  font-size: clamp(17px, 1.9vw, 23px);
+  padding: 10px 24px;
+  background: #254953;
+  color: var(--txt);
+  transition: all .15s;
+}
+.fys-btn:hover { background: #32606D; }
+.fys-btn.go {
+  background: var(--hi2);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(255,107,53,0.45);
+}
+.fys-btn.go:hover { background: #FF8050; }
+.fys-btn:disabled { opacity: .35; cursor: not-allowed; }
+
+.fys-end {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  background: var(--stage);
+  text-align: center;
+  padding: 24px;
+  z-index: 100;
+}
+.fys-end h3 {
+  font-size: clamp(30px, 4.4vw, 52px);
+  font-weight: 900;
+  color: var(--gold);
+  margin: 0;
+}
+.fys-end p {
+  font-size: clamp(16px, 1.8vw, 22px);
+  color: var(--txt-2);
+  margin: 0;
+}
+
+@media (max-width: 820px), (orientation: portrait) {
+  .fys-stage { flex-direction: column; gap: 8px; }
+  .fys-card { width: min(84vw, 36vh); }
+  .fys-split { flex-direction: row; width: 100%; justify-content: center; gap: 12px; }
+  .fys-split .bar {
+    width: auto;
+    height: 3px;
+    flex: 1;
+    min-height: 0;
+    background: repeating-linear-gradient(to right, #2E5560 0 12px, transparent 12px 24px);
+  }
+  .fys-dots { display: none; }
+  .nut-grid { grid-template-columns: 1fr; gap: 4px; }
+}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <!-- 返回導航 -->
+  <a class="nav-back" href="../index.html">← 返回教學互動工具庫</a>
+
+  <!-- 標頭 -->
+  <header class="masthead">
+    <div class="masthead-title">
+      <div class="masthead-icon">🍽️</div>
+      <div>
+        <h1>飲食找相同轉盤遊戲</h1>
+        <p>雙轉盤找唯一相同食物！對齊 TFDA 官方營養數據，揭曉答案秒懂份數換算與核心營養！</p>
+      </div>
+    </div>
+    <div class="top-badges">
+      <span class="badge highlight">🎯 雙盤演算法 100% 隨機一對</span>
+      <span class="badge">📊 內建六大類 120+ 筆實測數據</span>
+      <span class="badge">📑 支援 PPTX / 離線 HTML 匯出</span>
+    </div>
+  </header>
+
+  <!-- 操作台主佈局 -->
+  <div class="console">
+    <!-- 左側設定面板 -->
+    <aside class="panel rail">
+      <header>
+        <h2>⚙️ 遊戲與主題設定</h2>
+        <span style="font-size:12px; font-weight:700; color:var(--secondary-deep); background:#E6F6F4; padding:2px 8px; border-radius:6px;">自訂難度</span>
+      </header>
+      <div class="body">
+        <!-- 主題分類 -->
+        <div class="field">
+          <div class="label">主題食材分類 <span id="itemCountTag" style="font-size:12px; color:var(--secondary);">20 種食材</span></div>
+          <div class="seg-category" id="catGroup">
+            <button type="button" class="cat-btn wide" data-cat="all_food" aria-pressed="true">
+              <span>🌟</span> 綜合六大類大亂鬥 (120種)
+            </button>
+            <button type="button" class="cat-btn" data-cat="protein" aria-pressed="false">
+              <span>🥩</span> 豆魚蛋肉類
+            </button>
+            <button type="button" class="cat-btn" data-cat="grain" aria-pressed="false">
+              <span>🌾</span> 全穀雜糧類
+            </button>
+            <button type="button" class="cat-btn" data-cat="vegetable" aria-pressed="false">
+              <span>🥦</span> 蔬菜類
+            </button>
+            <button type="button" class="cat-btn" data-cat="fruit" aria-pressed="false">
+              <span>🍎</span> 水果類
+            </button>
+            <button type="button" class="cat-btn" data-cat="dairy" aria-pressed="false">
+              <span>🥛</span> 乳品類
+            </button>
+            <button type="button" class="cat-btn" data-cat="fat_seed" aria-pressed="false">
+              <span>🥜</span> 油脂與堅果類
+            </button>
+          </div>
+        </div>
+
+        <!-- 素材呈現模式 -->
+        <div class="field">
+          <div class="label">圖案呈現風格</div>
+          <div class="seg-source" id="sourceGroup">
+            <button type="button" data-src="badge" aria-pressed="true">🏷️ 食材圖卡 (推薦)</button>
+            <button type="button" data-src="emoji" aria-pressed="false">😀 純 Emoji</button>
+          </div>
+        </div>
+
+        <!-- 每邊圖案數量（難度） -->
+        <div class="field">
+          <div class="label">每邊圖案數量（難度） <b id="nVal">5</b></div>
+          <div class="seg-small" id="nGroup">
+            <button type="button" data-n="3" aria-pressed="false">3</button>
+            <button type="button" data-n="4" aria-pressed="false">4</button>
+            <button type="button" data-n="5" aria-pressed="true">5</button>
+            <button type="button" data-n="6" aria-pressed="false">6</button>
+            <button type="button" data-n="7" aria-pressed="false">7</button>
+            <button type="button" data-n="8" aria-pressed="false">8</button>
+          </div>
+        </div>
+
+        <!-- 題目總數滑桿 -->
+        <div class="field">
+          <div class="label">題目總數 <b id="countVal">10 題</b></div>
+          <input type="range" id="countRange" min="5" max="30" step="1" value="10">
+          <div class="ticks"><span>5 題</span><span>15 題</span><span>30 題</span></div>
+        </div>
+
+        <!-- 難度開關 -->
+        <div class="field">
+          <div class="switch">
+            <div class="txt">大小隨機縮放<small>各圖案大小略有變化，增加眼力辨別度</small></div>
+            <button type="button" class="toggle" id="scaleToggle" aria-pressed="true"></button>
+          </div>
+          <div class="switch">
+            <div class="txt">隨機角度旋轉<small>圖案旋轉角度，考驗空間旋轉認知</small></div>
+            <button type="button" class="toggle" id="rotateToggle" aria-pressed="true"></button>
+          </div>
+        </div>
+
+        <div style="margin-top: 24px;">
+          <button type="button" class="btn primary wide" id="regenBtn">🔄 重新隨機生成題目</button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- 右側預覽區 -->
+    <main class="panel">
+      <div class="toolbar">
+        <div style="font-weight:800; font-size:15px; color:var(--ink);">
+          題目預覽（共 <span id="totalQuestionsText" style="color:var(--primary); font-size:18px;">10</span> 題）
+        </div>
+        <div class="toolbar-actions">
+          <button type="button" class="btn play-master" id="playBtn">▶ 開始全螢幕播放</button>
+          <button type="button" class="btn" id="pptxBtn">📊 匯出 PPTX 簡報</button>
+          <button type="button" class="btn" id="htmlBtn">💾 下載離線 HTML</button>
+        </div>
+      </div>
+
+      <div class="grid" id="previewGrid"></div>
+      <p class="note" id="previewNote"></p>
+    </main>
+  </div>
+</div>
+
+<!-- 全螢幕播放器容器 -->
+<div id="playerHost"></div>
+<div class="status" id="toast"></div>
+
+<!-- 播放核心與演算法 -->
+<script id="playerScript">
+/* ==================== 播放核心 FindSamePlayer ==================== */
+window.FindSamePlayer = (function () {
+  function esc(s) {
+    return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  function renderSym(sym, mode) {
+    if (mode === 'badge') {
+      return '<div class="food-badge-item">' +
+        '<span class="food-badge-emoji">' + esc(sym.emoji || '🍽️') + '</span>' +
+        '<span class="food-badge-name">' + esc(sym.name || '') + '</span>' +
+        '</div>';
+    }
+    // emoji mode
+    return '<svg viewBox="0 0 100 100" aria-hidden="true"><text x="50" y="50" font-size="78" text-anchor="middle" dominant-baseline="central">' + esc(sym.emoji || '🍎') + '</text></svg>';
+  }
+
+  function renderDisc(el, items, mode, opts) {
+    opts = opts || {};
+    var ansId = opts.answerId;
+    var html = '';
+    for (var i = 0; i < items.length; i++) {
+      var it = items[i];
+      var hit = ansId && it.sym.id === ansId;
+      var left = (0.5 + it.x / 2 - it.r / 2) * 100;
+      var top = (0.5 + it.y / 2 - it.r / 2) * 100;
+      var size = it.r * 100;
+      html += '<div class="fys-sym' + (hit ? ' hit' : '') + '" style="left:' + left.toFixed(3) + '%;top:' + top.toFixed(3) +
+        '%;width:' + size.toFixed(3) + '%;height:' + size.toFixed(3) + '%;--r:' + it.rot + 'deg;--s:' + it.scale +
+        ';transform:rotate(' + it.rot + 'deg) scale(' + it.scale + ')">' + renderSym(it.sym, mode) + '</div>';
+    }
+    el.innerHTML = html;
+  }
+
+  /* --- Web Audio 即時合成音效 --- */
+  var ac = null;
+  function playSuccessTone() {
+    try {
+      if (!ac) ac = new (window.AudioContext || window.webkitAudioContext)();
+      if (ac.state === 'suspended') ac.resume();
+      var t0 = ac.currentTime;
+      var freqs = [523.25, 659.25, 783.99, 1046.50]; // C5, E5, G5, C6
+      freqs.forEach(function (f, i) {
+        var o = ac.createOscillator(), g = ac.createGain();
+        o.type = 'triangle';
+        o.frequency.value = f;
+        var s = t0 + i * 0.08;
+        g.gain.setValueAtTime(0.0001, s);
+        g.gain.exponentialRampToValueAtTime(0.22, s + 0.02);
+        g.gain.exponentialRampToValueAtTime(0.0001, s + 0.25);
+        o.connect(g); g.connect(ac.destination);
+        o.start(s); o.stop(s + 0.3);
+      });
+    } catch (e) {}
+  }
+
+  function Player(root, deck, opts) {
+    opts = opts || {};
+    var self = this;
+    this.deck = deck;
+    this.mode = deck.mode || 'badge';
+    this.i = Math.min(opts.start || 0, deck.questions.length - 1);
+    this.revealed = false;
+    this.sound = true;
+    this.onClose = opts.onClose;
+
+    var el = document.createElement('div');
+    el.className = 'fys';
+    el.tabIndex = -1;
+    el.innerHTML =
+      '<div class="fys-top">' +
+        '<div class="fys-no">第 <em data-no>1</em> 題 <span style="opacity:.6; font-size:.8em">/ ' + deck.questions.length + ' 題</span></div>' +
+        '<div class="fys-dots" data-dots></div>' +
+        '<div class="fys-tools">' +
+          '<button type="button" data-sound>🔊 音效: 開</button>' +
+          '<button type="button" data-fs>⛶ 全螢幕</button>' +
+          '<button type="button" data-close>✕ 關閉</button>' +
+        '</div>' +
+      '</div>' +
+      '<div class="fys-stage">' +
+        '<div class="fys-card" data-card-l></div>' +
+        '<div class="fys-split"><div class="bar"></div><div class="q">？</div><div class="bar"></div></div>' +
+        '<div class="fys-card" data-card-r></div>' +
+      '</div>' +
+      '<div class="fys-bottom">' +
+        '<div class="fys-nutrition-card" data-nut-card>' +
+          '<div class="nut-header">' +
+            '<div class="nut-title">' +
+              '<span data-nut-emoji style="font-size:1.4em;"></span>' +
+              '<span>相同食物：<strong class="nut-name" data-nut-name></strong></span>' +
+            '</div>' +
+            '<div style="display:flex; gap:6px;">' +
+              '<span class="nut-badge cat" data-nut-cat></span>' +
+              '<span class="nut-badge" data-nut-badge></span>' +
+            '</div>' +
+          '</div>' +
+          '<div class="nut-grid">' +
+            '<div class="nut-label">【建議份數】：</div>' +
+            '<div class="nut-val" data-nut-portion></div>' +
+            '<div class="nut-label">【核心營養】：</div>' +
+            '<div class="nut-val" data-nut-desc></div>' +
+          '</div>' +
+        '</div>' +
+        '<div class="fys-btn-row">' +
+          '<button type="button" class="fys-btn" data-prev>← 上一題</button>' +
+          '<button type="button" class="fys-btn go" data-act>👀 公布答案 (空白鍵)</button>' +
+          '<button type="button" class="fys-btn" data-next>下一題 →</button>' +
+        '</div>' +
+      '</div>';
+
+    root.appendChild(el);
+    this.el = el;
+    this.$ = function (s) { return el.querySelector(s); };
+
+    var dotsWrap = this.$('[data-dots]');
+    dotsWrap.innerHTML = '';
+    for (var k = 0; k < deck.questions.length; k++) {
+      var dot = document.createElement('i');
+      dotsWrap.appendChild(dot);
+    }
+
+    this.bindEvents();
+    this.render();
+    try { el.focus(); } catch (e) {}
+  }
+
+  Player.prototype.bindEvents = function () {
+    var self = this;
+    this.$('[data-act]').addEventListener('click', function () { self.toggle(); });
+    this.$('[data-next]').addEventListener('click', function () { self.go(self.i + 1); });
+    this.$('[data-prev]').addEventListener('click', function () { self.go(self.i - 1); });
+    this.$('[data-close]').addEventListener('click', function () { self.destroy(); });
+
+    this.$('[data-sound]').addEventListener('click', function () {
+      self.sound = !self.sound;
+      this.textContent = self.sound ? '🔊 音效: 開' : '🔇 音效: 關';
+    });
+
+    this.$('[data-fs]').addEventListener('click', function () {
+      if (!document.fullscreenElement) {
+        self.el.requestFullscreen().catch(function () {});
+      } else {
+        document.exitFullscreen().catch(function () {});
+      }
+    });
+
+    this.keyHandler = function (e) {
+      if (e.key === ' ' || e.code === 'Space') {
+        e.preventDefault();
+        self.toggle();
+      } else if (e.key === 'ArrowRight' || e.key === 'PageDown') {
+        e.preventDefault();
+        self.go(self.i + 1);
+      } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+        e.preventDefault();
+        self.go(self.i - 1);
+      } else if (e.key === 'Escape') {
+        self.destroy();
+      }
+    };
+    window.addEventListener('keydown', this.keyHandler);
+  };
+
+  Player.prototype.render = function () {
+    var q = this.deck.questions[this.i];
+    this.$('[data-no]').textContent = String(this.i + 1);
+    this.revealed = false;
+    this.el.classList.remove('revealed');
+
+    var dots = this.$('[data-dots]').children;
+    for (var k = 0; k < dots.length; k++) {
+      dots[k].className = (k < this.i ? 'on' : '') + (k === this.i ? ' now' : '');
+    }
+
+    this.$('[data-prev]').disabled = (this.i === 0);
+    this.$('[data-next]').disabled = (this.i === this.deck.questions.length - 1);
+    this.$('[data-act]').textContent = '👀 公布答案 (空白鍵)';
+    this.$('[data-act]').className = 'fys-btn go';
+
+    // 填入營養資訊
+    var ansFood = q.answerFood;
+    if (ansFood) {
+      this.$('[data-nut-emoji]').textContent = ansFood.emoji || '🍽️';
+      this.$('[data-nut-name]').textContent = ansFood.name;
+      this.$('[data-nut-cat]').textContent = ansFood.category;
+      this.$('[data-nut-badge]').textContent = ansFood.categoryBadge || '健康機能';
+      this.$('[data-nut-portion]').textContent = ansFood.portion || '依建議份量攝取';
+      this.$('[data-nut-desc]').textContent = ansFood.nutrition;
+    }
+
+    renderDisc(this.$('[data-card-l]'), q.left, this.mode, {});
+    renderDisc(this.$('[data-card-r]'), q.right, this.mode, {});
+  };
+
+  Player.prototype.toggle = function () {
+    if (!this.revealed) {
+      this.revealed = true;
+      this.el.classList.add('revealed');
+      var q = this.deck.questions[this.i];
+
+      renderDisc(this.$('[data-card-l]'), q.left, this.mode, { answerId: q.answerId });
+      renderDisc(this.$('[data-card-r]'), q.right, this.mode, { answerId: q.answerId });
+
+      if (this.sound) playSuccessTone();
+
+      if (this.i < this.deck.questions.length - 1) {
+        this.$('[data-act]').textContent = '下一題 ➔';
+        this.$('[data-act]').className = 'fys-btn';
+      } else {
+        this.$('[data-act]').textContent = '🎉 挑戰完成！';
+      }
+    } else {
+      if (this.i < this.deck.questions.length - 1) {
+        this.go(this.i + 1);
+      } else {
+        this.showEnd();
+      }
+    }
+  };
+
+  Player.prototype.go = function (target) {
+    if (target < 0 || target >= this.deck.questions.length) return;
+    this.i = target;
+    this.render();
+  };
+
+  Player.prototype.showEnd = function () {
+    var self = this;
+    var endDiv = document.createElement('div');
+    endDiv.className = 'fys-end';
+    endDiv.innerHTML =
+      '<h3>🎉 太棒了！全部題目挑戰成功！</h3>' +
+      '<p>恭喜完成 ' + this.deck.questions.length + ' 道飲食找相同轉盤題目，健康知識滿分！</p>' +
+      '<div style="display:flex; gap:14px; margin-top:16px;">' +
+        '<button type="button" class="fys-btn go" data-restart>🔄 再玩一次</button>' +
+        '<button type="button" class="fys-btn" data-quit>退出播放</button>' +
+      '</div>';
+    this.el.appendChild(endDiv);
+
+    endDiv.querySelector('[data-restart]').addEventListener('click', function () {
+      endDiv.remove();
+      self.i = 0;
+      self.render();
+    });
+    endDiv.querySelector('[data-quit]').addEventListener('click', function () {
+      self.destroy();
+    });
+  };
+
+  Player.prototype.destroy = function () {
+    window.removeEventListener('keydown', this.keyHandler);
+    if (document.fullscreenElement) {
+      try { document.exitFullscreen(); } catch (e) {}
+    }
+    this.el.remove();
+    if (this.onClose) this.onClose();
+  };
+
+  return {
+    mount: function (root, deck, opts) { return new Player(root, deck, opts); },
+    renderDisc: renderDisc,
+    renderSym: renderSym
+  };
+})();
+</script>
+
+<!-- 主控台與生成器邏輯 -->
+<script>
+(function () {
+  'use strict';
+  var DP = window.FindSamePlayer;
+
+  /* ---------------- 狀態管理 ---------------- */
+  var state = {
+    category: 'all_food',
+    source: 'badge', // 'badge' or 'emoji'
+    n: 5,
+    count: 10,
+    scaleVary: true,
+    rotate: true
+  };
+
+  var deck = null;
+
+  function $(id) { return document.getElementById(id); }
+
+  function showToast(msg) {
+    var t = $('toast');
+    t.textContent = msg;
+    t.classList.add('on');
+    setTimeout(function () { t.classList.remove('on'); }, 2200);
+  }
+
+  function shuffle(a) {
+    for (var i = a.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var temp = a[i]; a[i] = a[j]; a[j] = temp;
+    }
+    return a;
+  }
+
+  /* 取得當前選定主題的食材庫清單 */
+  function getPool() {
+    var db = window.FOOD_DATABASE;
+    if (!db) return [];
+    var cat = db[state.category];
+    return cat ? cat.items : [];
+  }
+
+  /* 雙轉盤排版演算法（泊松排斥圓散布） */
+  function layout(n) {
+    for (var attempt = 0; attempt < 8; attempt++) {
+      var base = (0.58 / Math.sqrt(n)) * Math.pow(0.93, attempt);
+      var pts = [], tries = 0;
+      while (pts.length < n && tries < 4500) {
+        tries++;
+        var r = base * (state.scaleVary ? (0.80 + Math.random() * 0.44) : 1);
+        var ang = Math.random() * Math.PI * 2;
+        var d = Math.sqrt(Math.random()) * Math.max(0, 0.94 - r);
+        var x = Math.cos(ang) * d, y = Math.sin(ang) * d, ok = true;
+        for (var i = 0; i < pts.length; i++) {
+          var dx = pts[i].x - x, dy = pts[i].y - y;
+          if (Math.sqrt(dx * dx + dy * dy) < (pts[i].r + r) * 0.96) {
+            ok = false;
+            break;
+          }
+        }
+        if (ok) {
+          pts.push({
+            x: x, y: y, r: r,
+            rot: state.rotate ? Math.round(Math.random() * 360) : 0,
+            scale: 1
+          });
+        }
+      }
+      if (pts.length === n) return pts;
+    }
+    // 環形兜底排布
+    var ring = [];
+    for (var k = 0; k < n; k++) {
+      var a = (k / n) * Math.PI * 2;
+      ring.push({
+        x: Math.cos(a) * 0.54,
+        y: Math.sin(a) * 0.54,
+        r: 0.48 / Math.sqrt(n),
+        rot: state.rotate ? Math.round(Math.random() * 360) : 0,
+        scale: 1
+      });
+    }
+    return ring;
+  }
+
+  /* 產生題目組 */
+  function buildDeck() {
+    var pool = getPool();
+    var n = state.n;
+    var needPerQuestion = 2 * n - 1; // 1 個相同 + (n-1)*2 個相異
+    if (pool.length < needPerQuestion) {
+      return null;
+    }
+
+    var qs = [];
+    var lastAnsId = null;
+
+    for (var i = 0; i < state.count; i++) {
+      var shuffled = shuffle(pool.slice());
+      // 避免連續兩題完全相同答案
+      if (shuffled[0].id === lastAnsId && shuffled.length > 1) {
+        var sw = shuffled[0]; shuffled[0] = shuffled[1]; shuffled[1] = sw;
+      }
+      var target = shuffled[0];
+      lastAnsId = target.id;
+
+      var leftItems = [target].concat(shuffled.slice(1, n));
+      var rightItems = [target].concat(shuffled.slice(n, needPerQuestion));
+
+      qs.push({
+        answerId: target.id,
+        answerFood: target,
+        left: attach(shuffle(leftItems.slice()), layout(n)),
+        right: attach(shuffle(rightItems.slice()), layout(n))
+      });
+    }
+
+    var catObj = window.FOOD_DATABASE[state.category] || { title: '飲食找相同' };
+    return {
+      title: '飲食找相同 - ' + catObj.title,
+      categoryTitle: catObj.title,
+      mode: state.source,
+      perSide: n,
+      questions: qs
+    };
+  }
+
+  function attach(syms, slots) {
+    return syms.map(function (s, i) {
+      return {
+        sym: s,
+        x: slots[i].x,
+        y: slots[i].y,
+        r: slots[i].r,
+        rot: slots[i].rot,
+        scale: slots[i].scale
+      };
+    });
+  }
+
+  /* ---------------- 預覽網格渲染 ---------------- */
+  function renderPreview() {
+    var grid = $('previewGrid'), note = $('previewNote');
+    grid.innerHTML = '';
+    $('totalQuestionsText').textContent = String(state.count);
+
+    if (!deck) {
+      var need = 2 * state.n - 1;
+      grid.innerHTML = '<p class="empty">素材不足：每邊 ' + state.n + ' 個圖案，至少需要 <b>' + need +
+        '</b> 種不同食材，目前該類別只有 ' + getPool().length + ' 種。請將「每邊圖案數量」調小或選擇大亂鬥。</p>';
+      note.textContent = '';
+      $('playBtn').disabled = $('pptxBtn').disabled = $('htmlBtn').disabled = true;
+      return;
+    }
+
+    $('playBtn').disabled = $('pptxBtn').disabled = $('htmlBtn').disabled = false;
+
+    deck.questions.forEach(function (q, idx) {
+      var thumb = document.createElement('button');
+      thumb.type = 'button';
+      thumb.className = 'thumb';
+      thumb.innerHTML =
+        '<div class="no">' +
+          '<span>第 ' + (idx + 1) + ' 題</span>' +
+          '<span class="thumb-ans-pill">' + (q.answerFood ? (q.answerFood.emoji + ' ' + q.answerFood.name) : '') + '</span>' +
+        '</div>' +
+        '<div class="pair">' +
+          '<div class="disc" data-l></div>' +
+          '<span class="sep">◆</span>' +
+          '<div class="disc" data-r></div>' +
+        '</div>';
+
+      DP.renderDisc(thumb.querySelector('[data-l]'), q.left, deck.mode, {});
+      DP.renderDisc(thumb.querySelector('[data-r]'), q.right, deck.mode, {});
+
+      thumb.title = '點擊從第 ' + (idx + 1) + ' 題開始播放';
+      thumb.addEventListener('click', function () {
+        play(idx);
+      });
+      grid.appendChild(thumb);
+    });
+
+    note.textContent = '💡 提示：點擊任何一題可直接從該題全螢幕播放。播放時可按空白鍵公布答案並解鎖營養衛教小卡，支援 ← → 方向鍵切換。';
+  }
+
+  function regenerate() {
+    deck = buildDeck();
+    renderPreview();
+  }
+
+  function play(start) {
+    if (!deck) return;
+    DP.mount($('playerHost'), deck, { start: start || 0 });
+  }
+
+  /* ---------------- PPTX 簡報生成引擎 ---------------- */
+  var W = 1600, H = 900, DR = 275, DCY = 385, DCX1 = 410, DCX2 = 1190;
+  var TEXT_FONT = '"Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif';
+
+  function drawSlide(ctx, deckData, q, idx, total, reveal) {
+    // 舞台深色背景
+    ctx.fillStyle = '#10252C';
+    ctx.fillRect(0, 0, W, H);
+
+    // 題號標頭
+    ctx.textBaseline = 'middle';
+    ctx.textAlign = 'left';
+    ctx.fillStyle = '#F4FBFB';
+    ctx.font = '900 40px ' + TEXT_FONT;
+    ctx.fillText('第 ', 64, 58);
+    var wA = ctx.measureText('第 ').width;
+    ctx.fillStyle = '#FFB703';
+    ctx.font = '900 54px ' + TEXT_FONT;
+    ctx.fillText(String(idx + 1), 64 + wA, 56);
+    var wB = ctx.measureText(String(idx + 1)).width;
+    ctx.fillStyle = '#F4FBFB';
+    ctx.font = '900 40px ' + TEXT_FONT;
+    ctx.fillText(' 題', 64 + wA + wB, 58);
+
+    ctx.fillStyle = '#8FAEB5';
+    ctx.font = '700 26px ' + TEXT_FONT;
+    ctx.textAlign = 'right';
+    ctx.fillText('飲食找相同轉盤 ｜ 共 ' + total + ' 題', W - 64, 58);
+
+    // 中間虛線與問號
+    ctx.strokeStyle = '#274B54';
+    ctx.lineWidth = 4;
+    ctx.setLineDash([14, 14]);
+    ctx.beginPath(); ctx.moveTo(W / 2, 130); ctx.lineTo(W / 2, 310); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(W / 2, 460); ctx.lineTo(W / 2, 640); ctx.stroke();
+    ctx.setLineDash([]);
+
+    ctx.beginPath();
+    ctx.arc(W / 2, DCY, 44, 0, Math.PI * 2);
+    ctx.fillStyle = '#FF6B35';
+    ctx.fill();
+    ctx.fillStyle = '#FFFFFF';
+    ctx.font = '900 44px ' + TEXT_FONT;
+    ctx.textAlign = 'center';
+    ctx.fillText('？', W / 2, DCY + 3);
+
+    // 繪製左右雙盤
+    drawDiscCanvas(ctx, DCX1, DCY, DR, q.left, q.answerId, reveal);
+    drawDiscCanvas(ctx, DCX2, DCY, DR, q.right, q.answerId, reveal);
+
+    // 下方區塊（題目頁 vs 答案衛教頁）
+    if (!reveal) {
+      ctx.textAlign = 'center';
+      ctx.font = '900 42px ' + TEXT_FONT;
+      ctx.fillStyle = '#FFB703';
+      ctx.fillText('👀 雙眼比對左右轉盤，找出唯一相同的食物！', W / 2, H - 90);
+      ctx.font = '700 24px ' + TEXT_FONT;
+      ctx.fillStyle = '#A3C2C8';
+      ctx.fillText('（請全班同學或長輩一起喊出食物名稱）', W / 2, H - 42);
+    } else {
+      // 答案頁：繪製結構化深色高質感衛教小卡
+      var cardX = 140, cardY = 675, cardW = W - 280, cardH = 190;
+      ctx.fillStyle = '#173640';
+      ctx.strokeStyle = '#FFB703';
+      ctx.lineWidth = 3;
+      roundRect(ctx, cardX, cardY, cardW, cardH, 18, true, true);
+
+      var food = q.answerFood;
+      if (food) {
+        // 第一行：食物名稱與徽章
+        ctx.textAlign = 'left';
+        ctx.fillStyle = '#FFB703';
+        ctx.font = '900 34px ' + TEXT_FONT;
+        ctx.fillText('🎉 相同食物：' + food.emoji + ' ' + food.name, cardX + 32, cardY + 44);
+
+        // 分類膠囊
+        ctx.fillStyle = '#FF6B35';
+        roundRect(ctx, cardX + 480, cardY + 22, 160, 36, 18, true, false);
+        ctx.fillStyle = '#FFFFFF';
+        ctx.font = '900 20px ' + TEXT_FONT;
+        ctx.textAlign = 'center';
+        ctx.fillText(food.category, cardX + 560, cardY + 41);
+
+        // 建議份數
+        ctx.textAlign = 'left';
+        ctx.font = '900 24px ' + TEXT_FONT;
+        ctx.fillStyle = '#A3C2C8';
+        ctx.fillText('【建議份數】：', cardX + 32, cardY + 98);
+        ctx.fillStyle = '#FFFFFF';
+        ctx.font = '700 24px ' + TEXT_FONT;
+        ctx.fillText(food.portion, cardX + 190, cardY + 98);
+
+        // 核心營養
+        ctx.font = '900 24px ' + TEXT_FONT;
+        ctx.fillStyle = '#A3C2C8';
+        ctx.fillText('【核心營養】：', cardX + 32, cardY + 144);
+        ctx.fillStyle = '#E8F5F5';
+        ctx.font = '500 22px ' + TEXT_FONT;
+        // 限制長度
+        var nutStr = food.nutrition;
+        if (ctx.measureText(nutStr).width > cardW - 220) {
+          nutStr = nutStr.slice(0, 52) + '…';
+        }
+        ctx.fillText(nutStr, cardX + 190, cardY + 144);
+      }
+    }
+  }
+
+  function drawDiscCanvas(ctx, cx, cy, radius, items, answerId, reveal) {
+    ctx.save();
+    // 圓盤底色與邊框
+    ctx.beginPath();
+    ctx.arc(cx, cy, radius, 0, Math.PI * 2);
+    ctx.fillStyle = '#FFFDF9';
+    ctx.fill();
+    ctx.strokeStyle = '#0A171B';
+    ctx.lineWidth = 6;
+    ctx.stroke();
+    ctx.clip();
+
+    // 繪製各個符號
+    for (var i = 0; i < items.length; i++) {
+      var it = items[i];
+      var hit = (it.sym.id === answerId);
+      var x = cx + it.x * radius;
+      var y = cy + it.y * radius;
+      var r = it.r * radius;
+
+      ctx.save();
+      ctx.translate(x, y);
+      ctx.rotate(it.rot * Math.PI / 180);
+
+      if (reveal) {
+        if (!hit) {
+          ctx.globalAlpha = 0.2;
+        } else {
+          ctx.globalAlpha = 1.0;
+        }
+      }
+
+      // 食材圖卡或 Emoji
+      if (deck.mode === 'badge') {
+        // 白底圓卡
+        ctx.beginPath();
+        ctx.arc(0, 0, r, 0, Math.PI * 2);
+        ctx.fillStyle = '#FFFFFF';
+        ctx.fill();
+        ctx.strokeStyle = '#D5E4E4';
+        ctx.lineWidth = 2;
+        ctx.stroke();
+
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.font = (r * 1.05) + 'px sans-serif';
+        ctx.fillText(it.sym.emoji || '🍽️', 0, -r * 0.18);
+
+        ctx.fillStyle = '#14282B';
+        ctx.font = '900 ' + Math.max(12, Math.round(r * 0.38)) + 'px ' + TEXT_FONT;
+        ctx.fillText(it.sym.name, 0, r * 0.58);
+      } else {
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.font = (r * 1.8) + 'px sans-serif';
+        ctx.fillText(it.sym.emoji || '🍎', 0, 0);
+      }
+
+      ctx.restore();
+
+      // 若公布答案且為目標物，外圈繪製醒目橘金色發光雙環
+      if (reveal && hit) {
+        ctx.save();
+        ctx.beginPath();
+        ctx.arc(x, y, r * 1.25, 0, Math.PI * 2);
+        ctx.strokeStyle = '#FF6B35';
+        ctx.lineWidth = 8;
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.arc(x, y, r * 1.42, 0, Math.PI * 2);
+        ctx.strokeStyle = 'rgba(255,183,3,0.5)';
+        ctx.lineWidth = 6;
+        ctx.stroke();
+        ctx.restore();
+      }
+    }
+    ctx.restore();
+  }
+
+  function roundRect(ctx, x, y, width, height, radius, fill, stroke) {
+    ctx.beginPath();
+    ctx.moveTo(x + radius, y);
+    ctx.lineTo(x + width - radius, y);
+    ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
+    ctx.lineTo(x + width, y + height - radius);
+    ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
+    ctx.lineTo(x + radius, y + height);
+    ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
+    ctx.lineTo(x, y + radius);
+    ctx.quadraticCurveTo(x, y, x + radius, y);
+    ctx.closePath();
+    if (fill) ctx.fill();
+    if (stroke) ctx.stroke();
+  }
+
+  /* ---------------- 極簡 PPTX 打包引擎 ---------------- */
+  var CRC = (function () {
+    var t = new Uint32Array(256);
+    for (var n = 0; n < 256; n++) {
+      var c = n;
+      for (var k = 0; k < 8; k++) c = c & 1 ? 0xEDB88320 ^ (c >>> 1) : c >>> 1;
+      t[n] = c >>> 0;
+    }
+    return t;
+  })();
+  function crc32(buf) {
+    var c = 0xFFFFFFFF;
+    for (var i = 0; i < buf.length; i++) c = (c >>> 8) ^ CRC[(c ^ buf[i]) & 0xFF];
+    return (c ^ 0xFFFFFFFF) >>> 0;
+  }
+  function zipPack(files) {
+    var totalSize = 0;
+    files.forEach(function (f) {
+      totalSize += 30 + f.name.length + f.data.length + 46 + f.name.length;
+    });
+    totalSize += 22;
+    var out = new Uint8Array(totalSize);
+    var p = 0, cd = [];
+    var enc = new TextEncoder();
+
+    files.forEach(function (f) {
+      var nameBuf = enc.encode(f.name);
+      var offset = p;
+      var crc = crc32(f.data);
+      var sz = f.data.length;
+
+      // Local file header
+      out.set([0x50, 0x4B, 0x03, 0x04, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0], p);
+      var v = new DataView(out.buffer);
+      v.setUint32(p + 14, crc, true);
+      v.setUint32(p + 18, sz, true);
+      v.setUint32(p + 22, sz, true);
+      v.setUint16(p + 26, nameBuf.length, true);
+      v.setUint16(p + 28, 0, true);
+      p += 30;
+      out.set(nameBuf, p); p += nameBuf.length;
+      out.set(f.data, p); p += sz;
+
+      cd.push({ nameBuf: nameBuf, crc: crc, sz: sz, offset: offset });
+    });
+
+    var cdStart = p;
+    cd.forEach(function (c) {
+      out.set([0x50, 0x4B, 0x01, 0x02, 20, 0, 20, 0, 0, 0, 0, 0, 0, 0], p);
+      var v = new DataView(out.buffer);
+      v.setUint32(p + 16, c.crc, true);
+      v.setUint32(p + 20, c.sz, true);
+      v.setUint32(p + 24, c.sz, true);
+      v.setUint16(p + 28, c.nameBuf.length, true);
+      v.setUint32(p + 42, c.offset, true);
+      p += 46;
+      out.set(c.nameBuf, p); p += c.nameBuf.length;
+    });
+
+    var cdSize = p - cdStart;
+    out.set([0x50, 0x4B, 0x05, 0x06, 0, 0, 0, 0], p);
+    var v2 = new DataView(out.buffer);
+    v2.setUint16(p + 8, cd.length, true);
+    v2.setUint16(p + 10, cd.length, true);
+    v2.setUint32(p + 12, cdSize, true);
+    v2.setUint32(p + 16, cdStart, true);
+    p += 22;
+
+    return out.subarray(0, p);
+  }
+
+  function buildPptx(slideBuffers) {
+    var enc = new TextEncoder();
+    var files = [];
+    function add(name, str) { files.push({ name: name, data: enc.encode(str) }); }
+
+    var ct = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
+      '<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">' +
+      '<Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>' +
+      '<Default Extension="xml" ContentType="application/xml"/>' +
+      '<Default Extension="png" ContentType="image/png"/>' +
+      '<Override PartName="/ppt/presentation.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.presentation.main+xml"/>' +
+      '<Override PartName="/ppt/slideMasters/slideMaster1.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.slideMaster+xml"/>' +
+      '<Override PartName="/ppt/slideLayouts/slideLayout1.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.slideLayout+xml"/>' +
+      '<Override PartName="/ppt/theme/theme1.xml" ContentType="application/vnd.openxmlformats-officedocument.theme+xml"/>';
+
+    for (var i = 0; i < slideBuffers.length; i++) {
+      ct += '<Override PartName="/ppt/slides/slide' + (i + 1) + '.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.slide+xml"/>';
+    }
+    ct += '</Types>';
+    add('[Content_Types].xml', ct);
+
+    add('_rels/.rels', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
+      '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">' +
+      '<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="ppt/presentation.xml"/>' +
+      '</Relationships>');
+
+    var sldIds = '', presRels = '<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideMaster" Target="slideMasters/slideMaster1.xml"/>';
+    for (var s = 0; s < slideBuffers.length; s++) {
+      var rid = 'rId' + (s + 2);
+      sldIds += '<p:sldId id="' + (256 + s) + '" r:id="' + rid + '"/>';
+      presRels += '<Relationship Id="' + rid + '" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slide" Target="slides/slide' + (s + 1) + '.xml"/>';
+    }
+    presRels += '<Relationship Id="rId' + (slideBuffers.length + 2) + '" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme" Target="theme/theme1.xml"/>';
+
+    add('ppt/presentation.xml', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
+      '<p:presentation xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">' +
+      '<p:sldMasterIdLst><p:sldMasterId id="2147483648" r:id="rId1"/></p:sldMasterIdLst>' +
+      '<p:sldIdLst>' + sldIds + '</p:sldIdLst>' +
+      '<p:sldSz cx="12192000" cy="6858000" type="screen16x9"/><p:notesSz cx="6858000" cy="9144000"/>' +
+      '</p:presentation>');
+
+    add('ppt/_rels/presentation.xml.rels', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
+      '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">' + presRels + '</Relationships>');
+
+    add('ppt/slideMasters/slideMaster1.xml', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
+      '<p:sldMaster xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">' +
+      '<p:cSld><p:spTree><p:nvGrpSpPr><p:cNvPr id="1" name=""/><p:cNvGrpSpPr/><p:nvPr/></p:nvGrpSpPr>' +
+      '<p:grpSpPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="0" cy="0"/><a:chOff x="0" y="0"/><a:chExt cx="0" cy="0"/></a:xfrm></p:grpSpPr>' +
+      '</p:spTree></p:cSld><p:clrMap bg1="lt1" tx1="dk1" bg2="lt2" tx2="dk2" accent1="accent1" accent2="accent2" accent3="accent3" accent4="accent4" accent5="accent5" accent6="accent6" hlink="hlink" folHlink="folHlink"/>' +
+      '<p:sldLayoutIdLst><p:sldLayoutId id="2147483649" r:id="rId1"/></p:sldLayoutIdLst></p:sldMaster>');
+
+    add('ppt/slideMasters/_rels/slideMaster1.xml.rels', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
+      '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">' +
+      '<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout" Target="../slideLayouts/slideLayout1.xml"/>' +
+      '</Relationships>');
+
+    add('ppt/slideLayouts/slideLayout1.xml', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
+      '<p:sldLayout xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" type="blank">' +
+      '<p:cSld><p:spTree><p:nvGrpSpPr><p:cNvPr id="1" name=""/><p:cNvGrpSpPr/><p:nvPr/></p:nvGrpSpPr>' +
+      '<p:grpSpPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="0" cy="0"/><a:chOff x="0" y="0"/><a:chExt cx="0" cy="0"/></a:xfrm></p:grpSpPr>' +
+      '</p:spTree></p:cSld></p:sldLayout>');
+
+    add('ppt/slideLayouts/_rels/slideLayout1.xml.rels', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
+      '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">' +
+      '<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideMaster" Target="../slideMasters/slideMaster1.xml"/>' +
+      '</Relationships>');
+
+    add('ppt/theme/theme1.xml', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
+      '<a:theme xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" name="FoodDobble">' +
+      '<a:themeElements><a:clrScheme name="Food"><a:dk1><a:srgbClr val="10252C"/></a:dk1><a:lt1><a:srgbClr val="FFFFFF"/></a:lt1><a:dk2><a:srgbClr val="173640"/></a:dk2><a:lt2><a:srgbClr val="F4FBFB"/></a:lt2><a:accent1><a:srgbClr val="FF6B35"/></a:accent1><a:accent2><a:srgbClr val="FFB703"/></a:accent2><a:accent3><a:srgbClr val="1B998B"/></a:accent3><a:accent4><a:srgbClr val="2E5560"/></a:accent4><a:accent5><a:srgbClr val="8FAEB5"/></a:accent5><a:accent6><a:srgbClr val="E8552D"/></a:accent6><a:hlink><a:srgbClr val="FF6B35"/></a:hlink><a:folHlink><a:srgbClr val="FFB703"/></a:folHlink></a:clrScheme>' +
+      '<a:fontScheme name="Office"><a:majorFont><a:latin typeface="Calibri"/><a:ea typeface=""/><a:cs typeface=""/></a:majorFont><a:minorFont><a:latin typeface="Calibri"/><a:ea typeface=""/><a:cs typeface=""/></a:minorFont></a:fontScheme>' +
+      '<a:fmtScheme name="Office"><a:fillStyleLst><a:solidFill><a:schemeClr val="phClr"/></a:solidFill></a:fillStyleLst><a:lnStyleLst><a:ln w="9525"><a:solidFill><a:schemeClr val="phClr"/></a:solidFill></a:ln></a:lnStyleLst><a:effectStyleLst><a:effectLst/></a:effectStyleLst><a:bgFillStyleLst><a:solidFill><a:schemeClr val="phClr"/></a:solidFill></a:bgFillStyleLst></a:fmtScheme>' +
+      '</a:themeElements></a:theme>');
+
+    // 每一頁投影片（內嵌全螢幕 PNG 影像）
+    for (var j = 0; j < slideBuffers.length; j++) {
+      var imgName = 'image' + (j + 1) + '.png';
+      files.push({ name: 'ppt/media/' + imgName, data: slideBuffers[j] });
+
+      var sldXml = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
+        '<p:sld xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">' +
+        '<p:cSld><p:spTree><p:nvGrpSpPr><p:cNvPr id="1" name=""/><p:cNvGrpSpPr/><p:nvPr/></p:nvGrpSpPr>' +
+        '<p:grpSpPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="0" cy="0"/><a:chOff x="0" y="0"/><a:chExt cx="0" cy="0"/></a:xfrm></p:grpSpPr>' +
+        '<p:pic><p:nvPicPr><p:cNvPr id="2" name="SlideImage"/><p:cNvPicPr><a:picLocks noChangeAspect="1"/></p:cNvPicPr><p:nvPr/></p:nvPicPr>' +
+        '<p:blipFill><a:blip r:embed="rId1"/><a:stretch><a:fillRect/></a:stretch></p:blipFill>' +
+        '<p:spPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="12192000" cy="6858000"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></p:spPr></p:pic>' +
+        '</p:spTree></p:cSld></p:sld>';
+      add('ppt/slides/slide' + (j + 1) + '.xml', sldXml);
+
+      var sldRels = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
+        '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">' +
+        '<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="../media/' + imgName + '"/>' +
+        '</Relationships>';
+      add('ppt/slides/_rels/slide' + (j + 1) + '.xml.rels', sldRels);
+    }
+
+    var packed = zipPack(files);
+    return new Blob([packed], { type: 'application/vnd.openxmlformats-officedocument.presentationml.presentation' });
+  }
+
+  function exportPptx() {
+    if (!deck) return;
+    var btn = $('pptxBtn');
+    var oldText = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = '繪製投影片中…';
+
+    var cv = document.createElement('canvas');
+    cv.width = W; cv.height = H;
+    var ctx = cv.getContext('2d');
+    var buffers = [];
+    var totalSlides = deck.questions.length * 2; // 每題 2 頁：題目頁 + 答案衛教頁
+
+    function processStep(stepIndex) {
+      if (stepIndex >= totalSlides) {
+        btn.textContent = '封裝 PPTX 中…';
+        setTimeout(function () {
+          var blob = buildPptx(buffers);
+          var filename = '飲食找相同_' + deck.categoryTitle + '_每邊' + state.n + '個_' + deck.questions.length + '題.pptx';
+          var a = document.createElement('a');
+          a.href = URL.createObjectURL(blob);
+          a.download = filename;
+          a.click();
+          setTimeout(function () { URL.revokeObjectURL(a.href); }, 10000);
+          btn.disabled = false;
+          btn.textContent = oldText;
+          showToast('✅ 成功匯出 PPTX 簡報（含題目頁與答案衛教頁）！');
+        }, 60);
+        return;
+      }
+
+      var qIndex = Math.floor(stepIndex / 2);
+      var isReveal = (stepIndex % 2 === 1);
+      btn.textContent = '繪製投影片 (' + (stepIndex + 1) + '/' + totalSlides + ')…';
+
+      drawSlide(ctx, deck, deck.questions[qIndex], qIndex, deck.questions.length, isReveal);
+
+      cv.toBlob(function (b) {
+        var reader = new FileReader();
+        reader.onload = function () {
+          buffers.push(new Uint8Array(reader.result));
+          setTimeout(function () { processStep(stepIndex + 1); }, 10);
+        };
+        reader.readAsArrayBuffer(b);
+      }, 'image/png');
+    }
+
+    setTimeout(function () { processStep(0); }, 30);
+  }
+
+  /* ---------------- 離線單機 HTML 匯出 ---------------- */
+  function exportOfflineHtml() {
+    if (!deck) return;
+    var btn = $('htmlBtn');
+    btn.disabled = true;
+    btn.textContent = '打包 HTML 中…';
+
+    var htmlStr = '<!DOCTYPE html>\n<html lang="zh-Hant">\n<head>\n<meta charset="utf-8">\n' +
+      '<meta name="viewport" content="width=device-width, initial-scale=1">\n' +
+      '<title>' + deck.title + ' (單機離線版)</title>\n' +
+      '<style>' + $('playerCSS').textContent + '</style>\n' +
+      '</head>\n<body style="margin:0; background:#10252C; overflow:hidden;">\n' +
+      '<div id="offlineHost"></div>\n' +
+      '<script>\n' +
+      'window.OFFLINE_DECK = ' + JSON.stringify(deck) + ';\n' +
+      $('playerScript').textContent + '\n' +
+      'document.addEventListener("DOMContentLoaded", function() {\n' +
+      '  window.FindSamePlayer.mount(document.getElementById("offlineHost"), window.OFFLINE_DECK, {\n' +
+      '    onClose: function() { window.location.reload(); }\n' +
+      '  });\n' +
+      '});\n' +
+      '<' + '/script>\n</body>\n</html>';
+
+    var blob = new Blob([htmlStr], { type: 'text/html;charset=utf-8' });
+    var filename = '飲食找相同_' + deck.categoryTitle + '_單機離線版.html';
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = filename;
+    a.click();
+    setTimeout(function () { URL.revokeObjectURL(a.href); }, 10000);
+
+    btn.disabled = false;
+    btn.textContent = '💾 下載離線 HTML';
+    showToast('✅ 成功下載單機離線 HTML 檔！隨插即用！');
+  }
+
+  /* ---------------- 事件綁定與初始化 ---------------- */
+  function bindUI() {
+    // 主題選擇
+    var catBtns = document.querySelectorAll('#catGroup .cat-btn');
+    catBtns.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        catBtns.forEach(function (b) { b.setAttribute('aria-pressed', 'false'); });
+        btn.setAttribute('aria-pressed', 'true');
+        state.category = btn.getAttribute('data-cat');
+        var pool = getPool();
+        $('itemCountTag').textContent = pool.length + ' 種食材';
+        regenerate();
+      });
+    });
+
+    // 圖案呈現風格
+    var srcBtns = document.querySelectorAll('#sourceGroup button');
+    srcBtns.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        srcBtns.forEach(function (b) { b.setAttribute('aria-pressed', 'false'); });
+        btn.setAttribute('aria-pressed', 'true');
+        state.source = btn.getAttribute('data-src');
+        regenerate();
+      });
+    });
+
+    // 每邊數量 N
+    var nBtns = document.querySelectorAll('#nGroup button');
+    nBtns.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        nBtns.forEach(function (b) { b.setAttribute('aria-pressed', 'false'); });
+        btn.setAttribute('aria-pressed', 'true');
+        state.n = parseInt(btn.getAttribute('data-n'), 10);
+        $('nVal').textContent = String(state.n);
+        regenerate();
+      });
+    });
+
+    // 題目總數滑桿
+    $('countRange').addEventListener('input', function () {
+      state.count = parseInt(this.value, 10);
+      $('countVal').textContent = state.count + ' 題';
+      regenerate();
+    });
+
+    // 縮放與旋轉開關
+    $('scaleToggle').addEventListener('click', function () {
+      state.scaleVary = !state.scaleVary;
+      this.setAttribute('aria-pressed', state.scaleVary ? 'true' : 'false');
+      regenerate();
+    });
+    $('rotateToggle').addEventListener('click', function () {
+      state.rotate = !state.rotate;
+      this.setAttribute('aria-pressed', state.rotate ? 'true' : 'false');
+      regenerate();
+    });
+
+    // 重新生成按鈕
+    $('regenBtn').addEventListener('click', function () {
+      regenerate();
+      showToast('🎲 已為您隨機重新洗牌與排版！');
+    });
+
+    // 頂部按鈕
+    $('playBtn').addEventListener('click', function () { play(0); });
+    $('pptxBtn').addEventListener('click', exportPptx);
+    $('htmlBtn').addEventListener('click', exportOfflineHtml);
+  }
+
+  // 初始化執行
+  bindUI();
+  regenerate();
+})();
+</script>
+
+</body>
+</html>
