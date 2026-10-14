@@ -27,6 +27,7 @@ Kat Chang 張雁雲營養師是食品營養博士（高齡健康組）、美國�
 - 情緒覺察卡 (Emotion Cards)：https://594katchang-source.github.io/teach/emotion-cards/
 - Nutrition Battle 營養對戰遊戲：https://594katchang-source.github.io/teach/nutrition-battle/
 - 論文讀書小站 (Paper Radar)：https://594katchang-source.github.io/teach/paper-radar/
+- 飲食找相同轉盤遊戲 (Find Same Food Dobble)：https://594katchang-source.github.io/teach/same-food/
 
 ## 精選衛教文章庫 (Articles Library)
 
