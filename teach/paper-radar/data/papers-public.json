@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-14T07:13:34.576Z",
+  "generatedAt": "2026-10-14T07:17:16.134Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -97282,6 +97282,73 @@
       "content": "# 全果費約果粉能否額外改善糖尿病風險？FERDINAND 隨機試驗品質評讀\n\n## 文獻資料與全文依據\nMohamed IA, Sequeira-Bisson IR, Lim JJ, et al. “Evaluating Whole Fruit Feijoa Powder for Type 2 Diabetes Risk Prevention: A Randomised Controlled Trial.” *Diabetes, Obesity and Metabolism*. 2026;28(11):10709–10724. DOI: [10.1111/dom.71270](https://doi.org/10.1111/dom.71270). PMID 42677597；PMCID PMC13646332。研究全文：PMC HTML，https://pmc.ncbi.nlm.nih.gov/articles/PMC13646332/；合法全文識別與主文可讀性已通過。來源快取 `[local path removed]`，SHA-256 `a8a7491d92e3beda584bb96e0b159d5a37eb5f6993b0acb2d81b7b42272a0476`。本次依序閱讀全文主文、結果、討論、結論、附錄說明與參考文獻；研究設計與結果見〈Methods〉、〈Results〉及 Tables 1–4，原始資料補充表與模型圖見 Supporting Information Table S1/Figure S1。\n\n## 研究問題與設計\nFERDINAND 為 6 個月、雙盲、平行組隨機對照試驗，評估每日 1,150 mg 全果費約（feijoa）粉 Feiolix，是否能在商業低能量飲食（LED）及後續飲食維持支持上，額外改善體重（BW）、空腹血漿葡萄糖（FPG）及代謝指標。比較組為外觀相配安慰劑。前 2 個月採嚴格全餐替代 LED，之後 4 個月提供健康飲食與維持體重的營養師團體支持。共同主要結果為 BW、FPG；血壓、體組成及血液生化為次要結果。\n\n## 研究方法、樣本與分析\n共隨機分派 97 人（果粉 48、安慰劑 49）；平均年齡 46.4 歲、女性 81.4%，平均體重 103 kg、BMI 37.1、FPG 6.2 mmol/L。研究原計畫收案 160 人，招募限制後仍以 97 人分析；作者估算實際檢出原目標 FPG 差異的統計力約 68%。篩檢至基線平均 33±8 天，期間 16 人回復正常血糖、12 人進展至第二型糖尿病，因此基線確認糖尿病前期者為 69 人；全體 ITT 仍為 97 人。主要採線性混合效應模型及意向治療分析，遺失資料用 LOCF（作者描述為對非隨機缺失的插補），並以觀察資料敏感度分析檢查一致性。試驗登錄 ANZCTR ACTRN12622000210774，倫理核准 NZ HDEC 2022 EXP 12032。\n\n## 主要結果\n- **體重：**兩組前 2 個月 LED 期間下降，維持期部分回升；全程約較基線減少 5.1 kg。治療×時間沒有組間差異（p=.74）。\n- **空腹血糖：**兩組隨時間改善（時間效應 p<.001），但未證實果粉額外效果（全體 ITT 治療×時間 p=.09；基線糖尿病前期子群組間 p=.10）。文中摘要另列一個以特定模型／資料處理得到的 p=.09；不能將其說成確立效果。\n- **血壓：**收縮壓治療×時間交互作用 p=.01，果粉組第 4、6 月低於安慰劑（兩時點 p<.05）；舒張壓無相同組間效果。正常血壓子群沒有交互作用（SBP p=.20、DBP p=.38），因此訊號可能限於原本血壓較高者，仍需獨立確認。\n- **其他指標與依從性／留存：**體組成及血液生化未見治療組間交互作用。6 個月完成率果粉 66.7%、安慰劑 61.2%；總流失約 36%，約八成退出發生在 2 個月 LED 期。補充品依從率安慰劑 92±11%、果粉 82±22%（p=.03），兩組均高於 80%。\n\n## 品質快照\n**優點：**隨機、雙盲、安慰劑對照；預先登錄；提供意向治療和觀察資料敏感度分析；多族群樣本；報告主要結果並揭露產品供應及資助資訊。\n\n**限制與偏差風險：**樣本未達原定 160 人且估計統計力僅約 68%，小至中等臨床差異可能未檢出。篩檢到基線約 33 日內血糖狀態變動，使實際糖尿病前期子群縮小。流失約 36% 且集中於嚴格 LED 階段，缺失不太可能完全隨機；LOCF 的假設可能影響估計，但作者報告觀察資料分析方向一致。果粉依從性低於安慰劑。FPG 結果未達顯著，且探索性分析中一位安慰劑組 6 月 FPG 9.6 mmol/L 的離群值會影響 p 值（移除後 p=.09），突顯結果脆弱。SBP 是次要結果，需考慮多重比較；血壓訊號在正常血壓子群未重現。未主動招募糖耐量受損者，而作者認為其假設機轉可能更適合用餐後或胰島素刺激狀態評估。個別參與者資料因倫理核准限制不公開。\n\n## 研究限制與利益揭露\n作者承認收案及流失使樣本低於計畫規模、基線糖尿病前期人數較少，且未主動納入糖耐量受損族群。資料僅可向通訊作者申請，個人層級資料不公開。研究由紐西蘭 National Science Challenge High Value Nutrition Program／MBIE（grant 3710040）支持；資助者聲明未參與設計、收集分析、解讀或投稿。Anagenix Ltd. 提供 Feiolix 與匹配安慰劑；作者聲明該公司未參與研究設計、資料處理或論文準備。產品供應關係仍應在判讀時一併考量。\n\n## 白話導讀\n研究比較的是「全餐替代減重方案＋營養師支持」再加費約果粉，與同一方案加安慰劑。參與者兩組都在減重期降重、血糖也隨時間改善；目前資料沒有證明果粉讓體重或空腹血糖比安慰劑多改善。收縮壓出現可能訊號，但它是次要結果，且在正常血壓者沒有看到相同模式。這是一項初步單一試驗，不能用來宣稱費約果粉可預防糖尿病或取代既有治療。\n\n## 臨床應用\n對成人肥胖及糖尿病前期族群，這篇研究支持的是 LED 與後續飲食支持可伴隨體重及部分代謝指標改善；未支持加用 1,150 mg/日 Feiolix 能額外降低體重或 FPG。SBP 結果可作為後續大型、預先指定血壓分析研究的假說，暫不宜轉成補充品療效建議。臨床溝通應優先說明研究所用的是嚴格全餐替代及密集支持，不能把其效果單獨歸因於一般飲食或果粉；更不能由本試驗推論糖尿病預防成效。\n\n## 可追溯位置\n研究問題／隨機設計：Abstract、Introduction 末段及 Methods〈Study design〉；樣本及基線：Methods〈Participants〉、Results 及 Table 1；預定終點／模型：Methods〈Study outcomes〉、〈Statistical analyses〉；體重、FPG、血壓及其他結果：Results、Tables 2–4、Supporting Information Table S1/Figure S1；流失、樣本不足、子群與臨床意涵：Discussion 與 Conclusion；資助、產品供應、倫理及資料限制：Funding、Conflicts of Interest、Ethics Statement、Data Availability Statement。DOI 10.1111/dom.71270；PMCID PMC13646332。",
       "cards": [],
       "completedAt": "2026-10-14T07:11:45.6637004Z"
+    },
+    {
+      "id": "doi:10.1111/dom.71270:digest",
+      "paperId": "doi:10.1111/dom.71270",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Evaluating Whole Fruit Feijoa Powder for Type 2 Diabetes Risk Prevention: A Randomised Controlled Trial.",
+      "authors": "I A Mohamed, I R Sequeira‐Bisson, J J Lim, L D Plank, R Murphy, S D Poppitt, J L Miles‐Chan",
+      "journal": "Diabetes, Obesity & Metabolism",
+      "year": "2026",
+      "doi": "10.1111/dom.71270",
+      "abstract": "Low energy diets (LEDs) are effective for body weight (BW) loss and improvement of type 2 diabetes (T2D) risk biomarkers. Emerging evidence suggests that whole fruit feijoa powder, rich in polyphenols and abscisic acid, may further support T2D prevention. The FERDINAND study investigated whether daily consumption of a whole fruit feijoa powder enhanced LED-driven improvements in fasting plasma glucose (FPG), BW, and other metabolic markers. At in-clinic screening, 97 participants were enrolled into the trial and randomised to receive 1150 mg/day of whole fruit feijoa powder (Fx, n = 48) or Placebo treatment (n = 49) for 6 months. All participants underwent 2 months of LED-induced weight loss, followed by 4 months of dietary advice for weight loss maintenance. BW, FPG, and secondary outcomes including blood pressure (BP) were assessed at baseline (M0) and the end of months 2 (M2), 4 (M4), and 6 (M6). Data were analysed using linear mixed-effects models as intention-to-treat (ITT) with imputation for missing not-at-random data points. BW decreased in both treatment groups during the 2-month LED, with a gradual upward trajectory over the subsequent 4 months (time0-6m: p < 0.001). There was no difference in BW between Fx and Placebo over the 6-month intervention (treatment×time0-6m: p = 0.74). FPG followed the weight loss trajectory in both treatment groups (time0-6m: p < 0.001), but with no between-group interaction over 6 months (treatment×time0-6m: p = 0.09, n = 97). Systolic BP (SBP), but not diastolic BP, declined over the 6 months between treatments (treatment×time0-6m: p = 0.01) in all participants, with SBP in Fx lower than Placebo at M4 and M6 (p < 0.05, both). In adults with overweight (predominantly obesity) and prediabetes, Fx supplementation may enhance blood pressure improvement achieved through BW loss. The polyphenolic matrix of whole fruit feijoa, which contains a high proportion of catechins, may have contributed to vascular benefits.",
+      "legalFullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13646332/",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42677597/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "design:randomised controlled",
+        "human clinical population",
+        "obesity and metabolism",
+        "safety and interaction"
+      ],
+      "noteTitle": "費約果粉與糖尿病風險：FERDINAND 隨機試驗全文內容整理",
+      "content": "---\ntags:\n  - research/digest\n  - randomized-controlled-trial\n  - prediabetes\n  - obesity\n  - feijoa\ncitekey: \"Mohamed2026FeijoaFERDINAND\"\ndoi: \"10.1111/dom.71270\"\nstudy_type: \"6-month double-blind parallel randomized controlled trial\"\n---\n\n> [!summary] 30 秒層｜一句話 + 重點\n> 這項 6 個月試驗沒有證明每日 1,150 mg 全果費約粉能在低能量飲食方案上額外改善體重或空腹血糖；收縮壓有一個需要大型研究確認的次要訊號。\n> - 隨機 97 人：果粉 48 人、安慰劑 49 人；前 2 個月為嚴格全餐替代低能量飲食，後 4 個月為維持期飲食支持。\n> - 體重兩組都先降後回升，6 個月治療×時間 p=.74；空腹血糖隨時間改善，但組間沒有確證差異。\n> - 收縮壓治療×時間 p=.01，果粉組第 4、6 月較低；正常血壓子群未見相同交互作用。\n> - 試驗低於原計畫 160 人，完成率約六成，收縮壓為次要結果。\n> 品質未評讀（內容整理）；需可信度判斷 → /paper-review\n\n# 內容整理（快速吸收）\r\n\r\n## 5 分鐘讀懂\r\n\r\n**要點**：本文先交代背景與雙盲隨機設計，再依序報告共同主要結果、次要血壓訊號、圖表及限制；讀者應把「兩組都隨時間改善」和「果粉組間額外效應」分開。\r\n\n\n## 研究問題／背景\n\n**要點**：研究問的是全果費約粉能否在低能量減重方案之外，額外改善肥胖且有糖尿病風險成人的空腹血糖、體重與代謝指標；研究結果不等同費約水果日常食用效果。\n\n- 研究對象為過重／肥胖、篩檢時有糖尿病前期的成人；研究動機來自低能量飲食可減重並改善代謝指標，以及費約果粉含多酚與脫落酸（ABA）的前臨床／初步研究線索。\n- 作者提出的假設是果粉可加強飲食介入對體重與血糖的效果；試驗直接比較添加果粉與添加安慰劑，而非比較果粉和不減重。\n- 本研究產品為標準化全果粉 Feiolix，不能直接泛化至新鮮費約果、其他果粉或不同劑量。\n\n## 方法\n\n**要點**：這是雙盲安慰劑對照的 6 個月隨機試驗；前 2 個月 LED 與後 4 個月維持支持同時影響兩組，所以額外組間差異才是果粉效果的關鍵。\n\n- 共 97 人隨機分組：Feiolix 48 人、匹配安慰劑 49 人；每日 1,150 mg，介入 6 個月。\n- 第 1–2 月：嚴格全餐替代 LED，每日四份產品、總量 3,360 kJ；第 3–6 月：健康飲食與維持體重的營養師團體支持。\n- 共同主要結果是體重與空腹血漿葡萄糖（FPG）；其他結果包括血壓、體組成、血液生化。基線（M0）及第 2、4、6 月量測。\n- 統計使用線性混合效應模型的意向治療分析；遺失資料按作者說明以 LOCF 插補，也報告原始觀察資料敏感度分析。\n- 篩檢至基線平均 33±8 日，16 人轉為正常血糖、12 人達第二型糖尿病範圍；因此基線仍為糖尿病前期者只有 69 人，但全體 ITT 保留 97 人。\n- 預先登錄 ANZCTR ACTRN12622000210774。全文指出樣本計畫原為 160 人，最後收 97 人；作者估算原目標 FPG 差異的檢定力約 68%。\n\n## 主要發現\n\n**要點**：兩組在 LED 期均減重且 FPG 隨時間改善，但主要終點沒有顯示費約果粉額外效益；只有收縮壓出現需謹慎確認的組間訊號。\n\n| 結果 | 全文報告 | 怎麼讀 |\n|---|---|---|\n| 體重 | 兩組前 2 月下降、後 4 月部分回升；6 月平均較基線約 −5.1 kg；治療×時間 p=.74 | 未見果粉額外減重效果 |\n| FPG | 兩組隨時間改善（時間效應 p<.001）；全體組間交互作用 p=.09；基線糖尿病前期子群 p=.10 | 未證實果粉比安慰劑多改善血糖 |\n| 收縮壓 | 全體治療×時間 p=.01；第 4、6 月果粉組低於安慰劑（兩時點 p<.05） | 次要結果；須考慮樣本數與多重比較 |\n| 舒張壓 | 未見相同組間效果 | 沒有一致的血壓全貌改善證據 |\n| 正常血壓子群 | 收縮壓交互作用 p=.20；舒張壓 p=.38 | 血壓訊號未在此子群重現 |\n| 體組成與血液生化 | 治療×時間未達顯著 | 沒有額外組間效果證據 |\n| 完成與依從性 | 6 月完成率果粉 66.7%、安慰劑 61.2%；依從率果粉 82±22%、安慰劑 92±11%（p=.03） | 約 36% 未完成，且果粉依從率較低 |\n\n## 臨床意義／怎麼用\n\n**要點**：可把文章讀成「LED 搭配支持期間兩組都改善，果粉額外效益未明」；不要把收縮壓的次要訊號當成已確認降壓或預防糖尿病證據。\n\n- 對研究族群，減重與 FPG 的變化伴隨 LED 及其後續營養支持；因兩組都接受這套方案，不能用組內改善歸因果粉。\n- 本研究不支持以 Feiolix 取代體重管理、血糖監測、降壓治療或其他既有照護，也不能由 6 個月的替代終點推論已預防第二型糖尿病。\n- 收縮壓結果適合作為未來試驗的假設：需較大樣本、預先指定血壓終點，並確認不同基線血壓族群是否一致。\n- 實際應用時須交代介入包含嚴格全餐替代、約 3,360 kJ/日和團體營養師支持，不是一般日常飲食背景下單獨補充果粉。\n\n## 重要圖表重述\n\n**要點**：主文的基線表用來確認兩組起點，結果表展示四次追蹤的變化與模型檢定；補充圖則對照完整樣本和預先界定的血糖／血壓子群。\n\n- Table 1：呈現隨機兩組的基線人口學與臨床特徵；判讀後續結果時，須記住全體隨機者和基線糖尿病前期子群不是同一個分母。\n- Tables 2–4：分別整理體重／體組成、FPG／血液生化及血壓的追蹤結果與模型檢定；看治療×時間交互作用而不是只看兩組各自前後變化。\n- Supporting Information Table S1：補充原始觀察資料分析；Figure S1：顯示原始資料以及基線糖尿病前期、正常血壓子群的模型結果。個別受試者資料受倫理限制，未公開。\n\n## 與既有認知的對照\n\n**要點**：本地既有論文筆記庫及本工作資料夾未找到費約果／費約果粉的既有筆記，因此本次沒有可逐項比較的舊筆記；這不代表外部文獻沒有相關研究。\n\n- 本次僅能確認本地既有筆記未收錄此概念；文章自身提及先前僅有一項人體費約補充試驗，並稱本研究是首項評估全果費約粉的 T2D 預防試驗。這是本文作者的文獻背景敘述。\n\n## 概念／名詞整理\n\n**要點**：理解本研究要分清「時間效應」「治療×時間」和「次要結果」，因為它們回答的不是同一個問題。\n\n- **低能量飲食（LED）**：研究前 2 個月採用的全餐替代飲食方案；此處方案為每日四份、總計 3,360 kJ。\n- **意向治療（ITT）**：依原始隨機分組分析所有受試者，降低只分析完成者造成的偏差，但遺失資料處理仍會影響估計。\n- **治療×時間交互作用**：比較兩組隨追蹤時間的變化是否不同；它比單看某組前後變化更直接回答「果粉是否額外有效」。\n- **LOCF**：以最後一次觀察值帶入後續缺失時間點的插補方法；在流失集中發生且缺失非隨機時，結論依賴其假設。\n- **收縮壓（SBP）**：本研究的次要血壓結果；即使出現統計差異，也須與主要終點、子群結果、樣本力及多重比較一起解讀。\n\n## 自我測驗\r\n\r\n**要點**：以下四題練習區分組間效果、次要結果、共同介入與基線族群變動。\r\n\r\n> [!question]- Q1：若兩組 LED 期間都減重，哪個比較才能回答果粉是否帶來額外減重？\n> 看兩組治療×時間差異（本研究 p=.74），而不是只看果粉組自身前後變化。兩組共同接受 LED 和飲食支持，組內改善不能單獨歸因果粉。\n\n> [!question]- Q2：這篇試驗能否說 Feiolix 預防第二型糖尿病？\n> 不能。試驗沒有證明主要終點的額外改善，也未以糖尿病發生率作為已證實的預防結果；作者研究的是風險指標和 6 個月變化。\n\n> [!question]- Q3：收縮壓 p=.01 為什麼仍需保留態度？\n> 收縮壓是次要結果，正常血壓子群沒有相同交互作用，而且樣本只有 97 人、流失約 36%。需更大且預先設計的研究確認。\n\n> [!question]- Q4：為什麼不能把本試驗的結果泛化成「吃費約果就能降血糖」？\n> 介入是每日 1,150 mg 特定全果粉，加上嚴格全餐替代和後續營養師支持；試驗沒有比較新鮮水果，也未發現粉末對 FPG 有額外組間效果。\n\n## Reference\r\n\r\n**要點**：本筆記依據同一篇經核驗全文整理，以下提供 DOI 與 PMC 原文入口。\r\n\r\n`Mohamed2026FeijoaFERDINAND`, Mohamed IA, et al. *Diabetes, Obesity and Metabolism*. 2026;28(11):10709–10724. DOI: [10.1111/dom.71270](https://doi.org/10.1111/dom.71270). PMC: https://pmc.ncbi.nlm.nih.gov/articles/PMC13646332/。來源全文 SHA-256：`a8a7491d92e3beda584bb96e0b159d5a37eb5f6993b0acb2d81b7b42272a0476`。",
+      "cards": [
+        {
+          "title": "費約果粉與糖尿病風險：FERDINAND試驗",
+          "question": "如何判斷費約果粉是否在 LED 之外額外改善體重或血糖？",
+          "answer": "比較隨機兩組的治療×時間差異，而不是只看一組前後變化。本研究體重交互作用 p=.74，FPG 未證實額外改善。",
+          "tags": [
+            "隨機試驗",
+            "體重",
+            "空腹血糖"
+          ]
+        },
+        {
+          "title": "費約果粉與糖尿病風險：FERDINAND試驗",
+          "question": "收縮壓 p=.01 能否直接支持費約果粉的降壓建議？",
+          "answer": "不能。這是次要結果，正常血壓子群未重現，且總樣本 97 人、流失約 36%；需要預先指定血壓終點的大型試驗確認。",
+          "tags": [
+            "血壓",
+            "次要結果",
+            "證據解讀"
+          ]
+        },
+        {
+          "title": "費約果粉與糖尿病風險：FERDINAND試驗",
+          "question": "本研究的減重與血糖改善能否都歸因於 Feiolix？",
+          "answer": "不能。兩組都接受前 2 個月全餐替代 LED 和後續飲食支持；組內改善不能單獨歸因果粉，應看組間治療×時間差異。",
+          "tags": [
+            "低能量飲食",
+            "因果判讀",
+            "試驗設計"
+          ]
+        },
+        {
+          "title": "費約果粉與糖尿病風險：FERDINAND試驗",
+          "question": "為什麼研究納入 97 人，但基線糖尿病前期子群只有 69 人？",
+          "answer": "篩檢到基線平均約 33 天，期間 16 人回復正常血糖、12 人進展至第二型糖尿病範圍。全體 ITT 仍保留 97 人。",
+          "tags": [
+            "族群界定",
+            "糖尿病前期",
+            "樣本"
+          ]
+        }
+      ],
+      "completedAt": "2026-10-14T07:15:38.5168399Z"
     }
   ]
 }
