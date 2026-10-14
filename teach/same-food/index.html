@@ -448,9 +448,9 @@ input[type=range] {
   aspect-ratio: 1;
   border-radius: 50%;
   background: #FFFDF9;
-  border: 3px solid #10252C;
+  border: 4px solid #10252C;
   overflow: hidden;
-  box-shadow: inset 0 2px 6px rgba(0,0,0,0.06);
+  box-shadow: inset 0 2px 8px rgba(0,0,0,0.08);
 }
 .sym {
   position: absolute;
@@ -463,7 +463,7 @@ input[type=range] {
 .sym svg { width: 100%; height: 100%; display: block; }
 .sym img { width: 100%; height: 100%; object-fit: contain; display: block; }
 
-/* 食材徽章卡片（食物模式） */
+/* 食材徽章卡片（食物模式）超大視覺 */
 .food-badge-item {
   width: 100%;
   height: 100%;
@@ -474,24 +474,25 @@ input[type=range] {
   text-align: center;
   border-radius: 50%;
   background: #FFFFFF;
-  border: 1.5px solid #E2ECEB;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.06);
-  padding: 4%;
+  border: 2.5px solid #CBDDDD;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+  padding: 5%;
 }
 .food-badge-emoji {
-  font-size: clamp(14px, 4vw, 36px);
-  line-height: 1.1;
+  font-size: clamp(24px, 5.5vw, 64px);
+  line-height: 1.05;
 }
 .food-badge-name {
-  font-size: clamp(9px, 1.4vw, 13px);
+  font-size: clamp(13px, 2.2vw, 24px);
   font-weight: 900;
-  color: var(--ink);
+  color: #14282B;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 90%;
-  line-height: 1.1;
+  max-width: 95%;
+  line-height: 1.15;
   margin-top: 2px;
+  letter-spacing: .02em;
 }
 
 .empty { padding: 50px 20px; text-align: center; color: var(--ink-3); }
@@ -607,10 +608,10 @@ input[type=range] {
   position: relative;
   aspect-ratio: 1;
   border-radius: 50%;
-  width: min(38vw, 55vh);
+  width: min(45vw, 75vh);
   background: var(--card);
-  border: 6px solid var(--card-line);
-  box-shadow: 0 24px 60px rgba(0,0,0,0.7);
+  border: 7px solid var(--card-line);
+  box-shadow: 0 28px 70px rgba(0,0,0,0.85);
   overflow: hidden;
   flex: none;
 }
@@ -629,15 +630,15 @@ input[type=range] {
   min-height: 50px;
 }
 .fys-split .q {
-  width: clamp(48px, 5.2vw, 68px);
-  height: clamp(48px, 5.2vw, 68px);
+  width: clamp(52px, 5.5vw, 76px);
+  height: clamp(52px, 5.5vw, 76px);
   border-radius: 50%;
   background: var(--hi2);
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: clamp(26px, 3vw, 40px);
+  font-size: clamp(28px, 3.2vw, 44px);
   font-weight: 900;
   flex: none;
   box-shadow: 0 8px 24px rgba(255,107,53,0.6);
@@ -667,9 +668,9 @@ input[type=range] {
   position: absolute;
   inset: -14%;
   border-radius: 50%;
-  border: 6px solid var(--hi2);
+  border: 7px solid var(--hi2);
   opacity: 0;
-  box-shadow: 0 0 0 6px rgba(255,183,3,0.45);
+  box-shadow: 0 0 0 8px rgba(255,183,3,0.45);
 }
 .fys.revealed .fys-sym.hit::before {
   animation: fys-ring .75s .1s ease-out both;
@@ -693,19 +694,19 @@ input[type=range] {
   align-items: center;
   justify-content: center;
   gap: 12px;
-  padding: 10px 24px 20px;
+  padding: 12px 24px 22px;
   background: var(--stage-2);
   border-top: 1px solid rgba(255,255,255,0.08);
 }
 
-/* 營養衛教特寫資訊卡 */
+/* 營養衛教特寫資訊卡 - 超大清晰大字排版 */
 .fys-nutrition-card {
-  width: min(920px, 94vw);
+  width: min(1040px, 95vw);
   background: #112830;
-  border: 2px solid var(--gold);
-  border-radius: 16px;
-  padding: 14px 20px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  border: 2.5px solid var(--gold);
+  border-radius: 18px;
+  padding: 16px 24px;
+  box-shadow: 0 12px 36px rgba(0,0,0,0.65);
   display: none;
   animation: fadeInDown .35s ease-out;
 }
@@ -719,25 +720,25 @@ input[type=range] {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
-  margin-bottom: 8px;
+  gap: 14px;
+  margin-bottom: 10px;
   flex-wrap: wrap;
 }
 .nut-title {
-  font-size: clamp(20px, 2.3vw, 26px);
+  font-size: clamp(24px, 2.9vw, 36px);
   font-weight: 900;
   color: #fff;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
 }
-.nut-title .nut-name { color: var(--gold); }
+.nut-title .nut-name { color: var(--gold); font-size: 1.15em; }
 .nut-badge {
-  font-size: 13px;
-  font-weight: 800;
+  font-size: 16px;
+  font-weight: 900;
   background: var(--secondary);
   color: #fff;
-  padding: 3px 12px;
+  padding: 4px 16px;
   border-radius: 999px;
   letter-spacing: .04em;
 }
@@ -747,9 +748,9 @@ input[type=range] {
 .nut-grid {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 6px 14px;
-  font-size: clamp(14.5px, 1.5vw, 17px);
-  line-height: 1.5;
+  gap: 8px 16px;
+  font-size: clamp(16px, 1.9vw, 22px);
+  line-height: 1.55;
 }
 .nut-label {
   font-weight: 900;
@@ -758,7 +759,11 @@ input[type=range] {
 }
 .nut-val {
   color: #F0F6F6;
-  font-weight: 500;
+  font-weight: 600;
+}
+.nut-val strong {
+  color: var(--gold);
+  font-weight: 800;
 }
 .nut-val strong {
   color: var(--gold);
@@ -1272,20 +1277,30 @@ window.FindSamePlayer = (function () {
     return cat ? cat.items : [];
   }
 
-  /* 雙轉盤排版演算法（泊松排斥圓散布） */
+  /* 雙轉盤排版演算法（泊松排斥圓散布，圖案大幅放大） */
   function layout(n) {
+    var baseRadiusMap = {
+      3: 0.45,
+      4: 0.38,
+      5: 0.32,
+      6: 0.28,
+      7: 0.25,
+      8: 0.23
+    };
+    var baseR = baseRadiusMap[n] || (0.72 / Math.sqrt(n));
+
     for (var attempt = 0; attempt < 8; attempt++) {
-      var base = (0.58 / Math.sqrt(n)) * Math.pow(0.93, attempt);
+      var base = baseR * Math.pow(0.95, attempt);
       var pts = [], tries = 0;
       while (pts.length < n && tries < 4500) {
         tries++;
-        var r = base * (state.scaleVary ? (0.80 + Math.random() * 0.44) : 1);
+        var r = base * (state.scaleVary ? (0.88 + Math.random() * 0.28) : 1);
         var ang = Math.random() * Math.PI * 2;
         var d = Math.sqrt(Math.random()) * Math.max(0, 0.94 - r);
         var x = Math.cos(ang) * d, y = Math.sin(ang) * d, ok = true;
         for (var i = 0; i < pts.length; i++) {
           var dx = pts[i].x - x, dy = pts[i].y - y;
-          if (Math.sqrt(dx * dx + dy * dy) < (pts[i].r + r) * 0.96) {
+          if (Math.sqrt(dx * dx + dy * dy) < (pts[i].r + r) * 0.92) {
             ok = false;
             break;
           }
@@ -1305,9 +1320,9 @@ window.FindSamePlayer = (function () {
     for (var k = 0; k < n; k++) {
       var a = (k / n) * Math.PI * 2;
       ring.push({
-        x: Math.cos(a) * 0.54,
-        y: Math.sin(a) * 0.54,
-        r: 0.48 / Math.sqrt(n),
+        x: Math.cos(a) * 0.52,
+        y: Math.sin(a) * 0.52,
+        r: baseR * 0.92,
         rot: state.rotate ? Math.round(Math.random() * 360) : 0,
         scale: 1
       });
@@ -1426,7 +1441,7 @@ window.FindSamePlayer = (function () {
   }
 
   /* ---------------- PPTX 簡報生成引擎 ---------------- */
-  var W = 1600, H = 900, DR = 275, DCY = 385, DCX1 = 410, DCX2 = 1190;
+  var W = 1600, H = 900, DR = 310, DCY = 370, DCX1 = 410, DCX2 = 1190;
   var TEXT_FONT = '"Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif';
 
   function drawSlide(ctx, deckData, q, idx, total, reveal) {
@@ -1438,97 +1453,96 @@ window.FindSamePlayer = (function () {
     ctx.textBaseline = 'middle';
     ctx.textAlign = 'left';
     ctx.fillStyle = '#F4FBFB';
-    ctx.font = '900 40px ' + TEXT_FONT;
-    ctx.fillText('第 ', 64, 58);
+    ctx.font = '900 44px ' + TEXT_FONT;
+    ctx.fillText('第 ', 64, 56);
     var wA = ctx.measureText('第 ').width;
     ctx.fillStyle = '#FFB703';
-    ctx.font = '900 54px ' + TEXT_FONT;
-    ctx.fillText(String(idx + 1), 64 + wA, 56);
+    ctx.font = '900 58px ' + TEXT_FONT;
+    ctx.fillText(String(idx + 1), 64 + wA, 54);
     var wB = ctx.measureText(String(idx + 1)).width;
     ctx.fillStyle = '#F4FBFB';
-    ctx.font = '900 40px ' + TEXT_FONT;
-    ctx.fillText(' 題', 64 + wA + wB, 58);
+    ctx.font = '900 44px ' + TEXT_FONT;
+    ctx.fillText(' 題', 64 + wA + wB, 56);
 
     ctx.fillStyle = '#8FAEB5';
-    ctx.font = '700 26px ' + TEXT_FONT;
+    ctx.font = '700 28px ' + TEXT_FONT;
     ctx.textAlign = 'right';
-    ctx.fillText('飲食找相同轉盤 ｜ 共 ' + total + ' 題', W - 64, 58);
+    ctx.fillText('飲食找相同轉盤 ｜ 共 ' + total + ' 題', W - 64, 56);
 
     // 中間虛線與問號
     ctx.strokeStyle = '#274B54';
     ctx.lineWidth = 4;
     ctx.setLineDash([14, 14]);
-    ctx.beginPath(); ctx.moveTo(W / 2, 130); ctx.lineTo(W / 2, 310); ctx.stroke();
-    ctx.beginPath(); ctx.moveTo(W / 2, 460); ctx.lineTo(W / 2, 640); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(W / 2, 120); ctx.lineTo(W / 2, 290); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(W / 2, 450); ctx.lineTo(W / 2, 620); ctx.stroke();
     ctx.setLineDash([]);
 
     ctx.beginPath();
-    ctx.arc(W / 2, DCY, 44, 0, Math.PI * 2);
+    ctx.arc(W / 2, DCY, 48, 0, Math.PI * 2);
     ctx.fillStyle = '#FF6B35';
     ctx.fill();
     ctx.fillStyle = '#FFFFFF';
-    ctx.font = '900 44px ' + TEXT_FONT;
+    ctx.font = '900 48px ' + TEXT_FONT;
     ctx.textAlign = 'center';
     ctx.fillText('？', W / 2, DCY + 3);
 
-    // 繪製左右雙盤
+    // 繪製左右雙盤（大幅放大）
     drawDiscCanvas(ctx, DCX1, DCY, DR, q.left, q.answerId, reveal);
     drawDiscCanvas(ctx, DCX2, DCY, DR, q.right, q.answerId, reveal);
 
     // 下方區塊（題目頁 vs 答案衛教頁）
     if (!reveal) {
       ctx.textAlign = 'center';
-      ctx.font = '900 42px ' + TEXT_FONT;
+      ctx.font = '900 46px ' + TEXT_FONT;
       ctx.fillStyle = '#FFB703';
-      ctx.fillText('👀 雙眼比對左右轉盤，找出唯一相同的食物！', W / 2, H - 90);
-      ctx.font = '700 24px ' + TEXT_FONT;
+      ctx.fillText('👀 雙眼比對左右轉盤，找出唯一相同的食物！', W / 2, H - 85);
+      ctx.font = '700 26px ' + TEXT_FONT;
       ctx.fillStyle = '#A3C2C8';
-      ctx.fillText('（請全班同學或長輩一起喊出食物名稱）', W / 2, H - 42);
+      ctx.fillText('（請全班同學或長輩一起喊出食物名稱）', W / 2, H - 36);
     } else {
-      // 答案頁：繪製結構化深色高質感衛教小卡
-      var cardX = 140, cardY = 675, cardW = W - 280, cardH = 190;
+      // 答案頁：繪製結構化深色高質感超大字衛教小卡
+      var cardX = 120, cardY = 665, cardW = W - 240, cardH = 205;
       ctx.fillStyle = '#173640';
       ctx.strokeStyle = '#FFB703';
-      ctx.lineWidth = 3;
-      roundRect(ctx, cardX, cardY, cardW, cardH, 18, true, true);
+      ctx.lineWidth = 3.5;
+      roundRect(ctx, cardX, cardY, cardW, cardH, 20, true, true);
 
       var food = q.answerFood;
       if (food) {
         // 第一行：食物名稱與徽章
         ctx.textAlign = 'left';
         ctx.fillStyle = '#FFB703';
-        ctx.font = '900 34px ' + TEXT_FONT;
-        ctx.fillText('🎉 相同食物：' + food.emoji + ' ' + food.name, cardX + 32, cardY + 44);
+        ctx.font = '900 38px ' + TEXT_FONT;
+        ctx.fillText('🎉 相同食物：' + food.emoji + ' ' + food.name, cardX + 36, cardY + 48);
 
         // 分類膠囊
         ctx.fillStyle = '#FF6B35';
-        roundRect(ctx, cardX + 480, cardY + 22, 160, 36, 18, true, false);
+        roundRect(ctx, cardX + 540, cardY + 22, 180, 42, 21, true, false);
         ctx.fillStyle = '#FFFFFF';
-        ctx.font = '900 20px ' + TEXT_FONT;
+        ctx.font = '900 22px ' + TEXT_FONT;
         ctx.textAlign = 'center';
-        ctx.fillText(food.category, cardX + 560, cardY + 41);
+        ctx.fillText(food.category, cardX + 630, cardY + 44);
 
         // 建議份數
         ctx.textAlign = 'left';
-        ctx.font = '900 24px ' + TEXT_FONT;
+        ctx.font = '900 28px ' + TEXT_FONT;
         ctx.fillStyle = '#A3C2C8';
-        ctx.fillText('【建議份數】：', cardX + 32, cardY + 98);
+        ctx.fillText('【建議份數】：', cardX + 36, cardY + 108);
         ctx.fillStyle = '#FFFFFF';
-        ctx.font = '700 24px ' + TEXT_FONT;
-        ctx.fillText(food.portion, cardX + 190, cardY + 98);
+        ctx.font = '700 28px ' + TEXT_FONT;
+        ctx.fillText(food.portion, cardX + 210, cardY + 108);
 
         // 核心營養
-        ctx.font = '900 24px ' + TEXT_FONT;
+        ctx.font = '900 28px ' + TEXT_FONT;
         ctx.fillStyle = '#A3C2C8';
-        ctx.fillText('【核心營養】：', cardX + 32, cardY + 144);
+        ctx.fillText('【核心營養】：', cardX + 36, cardY + 158);
         ctx.fillStyle = '#E8F5F5';
-        ctx.font = '500 22px ' + TEXT_FONT;
-        // 限制長度
+        ctx.font = '600 25px ' + TEXT_FONT;
         var nutStr = food.nutrition;
-        if (ctx.measureText(nutStr).width > cardW - 220) {
+        if (ctx.measureText(nutStr).width > cardW - 250) {
           nutStr = nutStr.slice(0, 52) + '…';
         }
-        ctx.fillText(nutStr, cardX + 190, cardY + 144);
+        ctx.fillText(nutStr, cardX + 210, cardY + 158);
       }
     }
   }
@@ -1541,11 +1555,11 @@ window.FindSamePlayer = (function () {
     ctx.fillStyle = '#FFFDF9';
     ctx.fill();
     ctx.strokeStyle = '#0A171B';
-    ctx.lineWidth = 6;
+    ctx.lineWidth = 7;
     ctx.stroke();
     ctx.clip();
 
-    // 繪製各個符號
+    // 繪製各個符號（大幅放大文字與 Emoji）
     for (var i = 0; i < items.length; i++) {
       var it = items[i];
       var hit = (it.sym.id === answerId);
@@ -1558,11 +1572,7 @@ window.FindSamePlayer = (function () {
       ctx.rotate(it.rot * Math.PI / 180);
 
       if (reveal) {
-        if (!hit) {
-          ctx.globalAlpha = 0.2;
-        } else {
-          ctx.globalAlpha = 1.0;
-        }
+        ctx.globalAlpha = hit ? 1.0 : 0.2;
       }
 
       // 食材圖卡或 Emoji
@@ -1572,22 +1582,22 @@ window.FindSamePlayer = (function () {
         ctx.arc(0, 0, r, 0, Math.PI * 2);
         ctx.fillStyle = '#FFFFFF';
         ctx.fill();
-        ctx.strokeStyle = '#D5E4E4';
-        ctx.lineWidth = 2;
+        ctx.strokeStyle = '#CBDDDD';
+        ctx.lineWidth = 3;
         ctx.stroke();
 
         ctx.textAlign = 'center';
         ctx.textBaseline = 'middle';
-        ctx.font = (r * 1.05) + 'px sans-serif';
-        ctx.fillText(it.sym.emoji || '🍽️', 0, -r * 0.18);
+        ctx.font = (r * 1.25) + 'px sans-serif';
+        ctx.fillText(it.sym.emoji || '🍽️', 0, -r * 0.16);
 
         ctx.fillStyle = '#14282B';
-        ctx.font = '900 ' + Math.max(12, Math.round(r * 0.38)) + 'px ' + TEXT_FONT;
+        ctx.font = '900 ' + Math.max(16, Math.round(r * 0.48)) + 'px ' + TEXT_FONT;
         ctx.fillText(it.sym.name, 0, r * 0.58);
       } else {
         ctx.textAlign = 'center';
         ctx.textBaseline = 'middle';
-        ctx.font = (r * 1.8) + 'px sans-serif';
+        ctx.font = (r * 2.1) + 'px sans-serif';
         ctx.fillText(it.sym.emoji || '🍎', 0, 0);
       }
 
@@ -1599,13 +1609,13 @@ window.FindSamePlayer = (function () {
         ctx.beginPath();
         ctx.arc(x, y, r * 1.25, 0, Math.PI * 2);
         ctx.strokeStyle = '#FF6B35';
-        ctx.lineWidth = 8;
+        ctx.lineWidth = 9;
         ctx.stroke();
 
         ctx.beginPath();
-        ctx.arc(x, y, r * 1.42, 0, Math.PI * 2);
-        ctx.strokeStyle = 'rgba(255,183,3,0.5)';
-        ctx.lineWidth = 6;
+        ctx.arc(x, y, r * 1.45, 0, Math.PI * 2);
+        ctx.strokeStyle = 'rgba(255,183,3,0.55)';
+        ctx.lineWidth = 7;
         ctx.stroke();
         ctx.restore();
       }
@@ -1629,7 +1639,7 @@ window.FindSamePlayer = (function () {
     if (stroke) ctx.stroke();
   }
 
-  /* ---------------- 極簡 PPTX 打包引擎 ---------------- */
+  /* ---------------- 標準 PPTX 打包引擎（完全相容 PowerPoint） ---------------- */
   var CRC = (function () {
     var t = new Uint32Array(256);
     for (var n = 0; n < 256; n++) {
@@ -1644,60 +1654,89 @@ window.FindSamePlayer = (function () {
     for (var i = 0; i < buf.length; i++) c = (c >>> 8) ^ CRC[(c ^ buf[i]) & 0xFF];
     return (c ^ 0xFFFFFFFF) >>> 0;
   }
-  function zipPack(files) {
-    var totalSize = 0;
+
+  function zipStore(files) {
+    var enc = new TextEncoder(), parts = [], central = [], offset = 0;
     files.forEach(function (f) {
-      totalSize += 30 + f.name.length + f.data.length + 46 + f.name.length;
-    });
-    totalSize += 22;
-    var out = new Uint8Array(totalSize);
-    var p = 0, cd = [];
-    var enc = new TextEncoder();
+      var name = enc.encode(f.name), data = f.data, crc = crc32(data);
+      var lh = new Uint8Array(30 + name.length), d = new DataView(lh.buffer);
+      d.setUint32(0, 0x04034b50, true);
+      d.setUint16(4, 20, true);
+      d.setUint16(6, 0x0800, true); // UTF-8 filename flag
+      d.setUint16(8, 0, true);
+      d.setUint16(10, 0, true);
+      d.setUint16(12, 0x21, true);
+      d.setUint32(14, crc, true);
+      d.setUint32(18, data.length, true);
+      d.setUint32(22, data.length, true);
+      d.setUint16(26, name.length, true);
+      d.setUint16(28, 0, true);
+      lh.set(name, 30);
+      parts.push(lh, data);
 
-    files.forEach(function (f) {
-      var nameBuf = enc.encode(f.name);
-      var offset = p;
-      var crc = crc32(f.data);
-      var sz = f.data.length;
-
-      // Local file header
-      out.set([0x50, 0x4B, 0x03, 0x04, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0], p);
-      var v = new DataView(out.buffer);
-      v.setUint32(p + 14, crc, true);
-      v.setUint32(p + 18, sz, true);
-      v.setUint32(p + 22, sz, true);
-      v.setUint16(p + 26, nameBuf.length, true);
-      v.setUint16(p + 28, 0, true);
-      p += 30;
-      out.set(nameBuf, p); p += nameBuf.length;
-      out.set(f.data, p); p += sz;
-
-      cd.push({ nameBuf: nameBuf, crc: crc, sz: sz, offset: offset });
-    });
-
-    var cdStart = p;
-    cd.forEach(function (c) {
-      out.set([0x50, 0x4B, 0x01, 0x02, 20, 0, 20, 0, 0, 0, 0, 0, 0, 0], p);
-      var v = new DataView(out.buffer);
-      v.setUint32(p + 16, c.crc, true);
-      v.setUint32(p + 20, c.sz, true);
-      v.setUint32(p + 24, c.sz, true);
-      v.setUint16(p + 28, c.nameBuf.length, true);
-      v.setUint32(p + 42, c.offset, true);
-      p += 46;
-      out.set(c.nameBuf, p); p += c.nameBuf.length;
+      var ch = new Uint8Array(46 + name.length), c2 = new DataView(ch.buffer);
+      c2.setUint32(0, 0x02014b50, true);
+      c2.setUint16(4, 20, true);
+      c2.setUint16(6, 20, true);
+      c2.setUint16(8, 0x0800, true);
+      c2.setUint16(10, 0, true);
+      c2.setUint16(12, 0, true);
+      c2.setUint16(14, 0x21, true);
+      c2.setUint32(16, crc, true);
+      c2.setUint32(20, data.length, true);
+      c2.setUint32(24, data.length, true);
+      c2.setUint16(28, name.length, true);
+      c2.setUint32(42, offset, true);
+      ch.set(name, 46);
+      central.push(ch);
+      offset += lh.length + data.length;
     });
 
-    var cdSize = p - cdStart;
-    out.set([0x50, 0x4B, 0x05, 0x06, 0, 0, 0, 0], p);
-    var v2 = new DataView(out.buffer);
-    v2.setUint16(p + 8, cd.length, true);
-    v2.setUint16(p + 10, cd.length, true);
-    v2.setUint32(p + 12, cdSize, true);
-    v2.setUint32(p + 16, cdStart, true);
-    p += 22;
+    var cdSize = central.reduce(function (a, b) { return a + b.length; }, 0);
+    var eo = new Uint8Array(22), e = new DataView(eo.buffer);
+    e.setUint32(0, 0x06054b50, true);
+    e.setUint16(8, files.length, true);
+    e.setUint16(10, files.length, true);
+    e.setUint32(12, cdSize, true);
+    e.setUint32(16, offset, true);
 
-    return out.subarray(0, p);
+    return new Blob(parts.concat(central, [eo]), {
+      type: 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
+    });
+  }
+
+  var NS_P = 'xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main"';
+  var XMLHEAD = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\r\n';
+  var EMPTY_TREE = '<p:nvGrpSpPr><p:cNvPr id="1" name=""/><p:cNvGrpSpPr/><p:nvPr/></p:nvGrpSpPr>' +
+    '<p:grpSpPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="0" cy="0"/><a:chOff x="0" y="0"/><a:chExt cx="0" cy="0"/></a:xfrm></p:grpSpPr>';
+
+  function themeXML() {
+    var acc = ['FF6B35', 'FFB703', '1B998B', '2E5560', '8FAEB5', 'E8552D'];
+    var accents = acc.map(function (c, i) {
+      return '<a:accent' + (i + 1) + '><a:srgbClr val="' + c + '"/></a:accent' + (i + 1) + '>';
+    }).join('');
+    var fill = '<a:solidFill><a:schemeClr val="phClr"/></a:solidFill>';
+    var ln = '<a:ln w="9525" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:prstDash val="solid"/></a:ln>';
+    var fx = '<a:effectStyle><a:effectLst/></a:effectStyle>';
+    return XMLHEAD +
+      '<a:theme xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" name="FindSame">' +
+      '<a:themeElements><a:clrScheme name="FindSame">' +
+      '<a:dk1><a:sysClr val="windowText" lastClr="000000"/></a:dk1>' +
+      '<a:lt1><a:sysClr val="window" lastClr="FFFFFF"/></a:lt1>' +
+      '<a:dk2><a:srgbClr val="10252C"/></a:dk2><a:lt2><a:srgbClr val="FFFDF9"/></a:lt2>' +
+      accents +
+      '<a:hlink><a:srgbClr val="FF6B35"/></a:hlink><a:folHlink><a:srgbClr val="FFB703"/></a:folHlink>' +
+      '</a:clrScheme>' +
+      '<a:fontScheme name="FindSame">' +
+      '<a:majorFont><a:latin typeface="Calibri Light"/><a:ea typeface=""/><a:cs typeface=""/></a:majorFont>' +
+      '<a:minorFont><a:latin typeface="Calibri"/><a:ea typeface=""/><a:cs typeface=""/></a:minorFont>' +
+      '</a:fontScheme>' +
+      '<a:fmtScheme name="FindSame">' +
+      '<a:fillStyleLst>' + fill + fill + fill + '</a:fillStyleLst>' +
+      '<a:lnStyleLst>' + ln + ln + ln + '</a:lnStyleLst>' +
+      '<a:effectStyleLst>' + fx + fx + fx + '</a:effectStyleLst>' +
+      '<a:bgFillStyleLst>' + fill + fill + fill + '</a:bgFillStyleLst>' +
+      '</a:fmtScheme></a:themeElements></a:theme>';
   }
 
   function buildPptx(slideBuffers) {
@@ -1705,8 +1744,7 @@ window.FindSamePlayer = (function () {
     var files = [];
     function add(name, str) { files.push({ name: name, data: enc.encode(str) }); }
 
-    var ct = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
-      '<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">' +
+    var ct = XMLHEAD + '<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">' +
       '<Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>' +
       '<Default Extension="xml" ContentType="application/xml"/>' +
       '<Default Extension="png" ContentType="image/png"/>' +
@@ -1721,8 +1759,7 @@ window.FindSamePlayer = (function () {
     ct += '</Types>';
     add('[Content_Types].xml', ct);
 
-    add('_rels/.rels', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
-      '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">' +
+    add('_rels/.rels', XMLHEAD + '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">' +
       '<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="ppt/presentation.xml"/>' +
       '</Relationships>');
 
@@ -1734,70 +1771,51 @@ window.FindSamePlayer = (function () {
     }
     presRels += '<Relationship Id="rId' + (slideBuffers.length + 2) + '" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme" Target="theme/theme1.xml"/>';
 
-    add('ppt/presentation.xml', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
-      '<p:presentation xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">' +
+    add('ppt/presentation.xml', XMLHEAD + '<p:presentation ' + NS_P + ' saveSubsetFonts="1">' +
       '<p:sldMasterIdLst><p:sldMasterId id="2147483648" r:id="rId1"/></p:sldMasterIdLst>' +
       '<p:sldIdLst>' + sldIds + '</p:sldIdLst>' +
-      '<p:sldSz cx="12192000" cy="6858000" type="screen16x9"/><p:notesSz cx="6858000" cy="9144000"/>' +
-      '</p:presentation>');
+      '<p:sldSz cx="12192000" cy="6858000"/><p:notesSz cx="6858000" cy="9144000"/></p:presentation>');
 
-    add('ppt/_rels/presentation.xml.rels', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
-      '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">' + presRels + '</Relationships>');
+    add('ppt/_rels/presentation.xml.rels', XMLHEAD + '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">' + presRels + '</Relationships>');
 
-    add('ppt/slideMasters/slideMaster1.xml', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
-      '<p:sldMaster xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">' +
-      '<p:cSld><p:spTree><p:nvGrpSpPr><p:cNvPr id="1" name=""/><p:cNvGrpSpPr/><p:nvPr/></p:nvGrpSpPr>' +
-      '<p:grpSpPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="0" cy="0"/><a:chOff x="0" y="0"/><a:chExt cx="0" cy="0"/></a:xfrm></p:grpSpPr>' +
-      '</p:spTree></p:cSld><p:clrMap bg1="lt1" tx1="dk1" bg2="lt2" tx2="dk2" accent1="accent1" accent2="accent2" accent3="accent3" accent4="accent4" accent5="accent5" accent6="accent6" hlink="hlink" folHlink="folHlink"/>' +
-      '<p:sldLayoutIdLst><p:sldLayoutId id="2147483649" r:id="rId1"/></p:sldLayoutIdLst></p:sldMaster>');
+    add('ppt/slideMasters/slideMaster1.xml', XMLHEAD + '<p:sldMaster ' + NS_P + '>' +
+      '<p:cSld><p:bg><p:bgPr><a:solidFill><a:srgbClr val="10252C"/></a:solidFill><a:effectLst/></p:bgPr></p:bg><p:spTree>' + EMPTY_TREE + '</p:spTree></p:cSld>' +
+      '<p:clrMap bg1="lt1" tx1="dk1" bg2="lt2" tx2="dk2" accent1="accent1" accent2="accent2" accent3="accent3" accent4="accent4" accent5="accent5" accent6="accent6" hlink="hlink" folHlink="folHlink"/>' +
+      '<p:sldLayoutIdLst><p:sldLayoutId id="2147483649" r:id="rId1"/></p:sldLayoutIdLst>' +
+      '<p:txStyles><p:titleStyle/><p:bodyStyle/><p:otherStyle/></p:txStyles></p:sldMaster>');
 
-    add('ppt/slideMasters/_rels/slideMaster1.xml.rels', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
-      '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">' +
+    add('ppt/slideMasters/_rels/slideMaster1.xml.rels', XMLHEAD + '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">' +
       '<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout" Target="../slideLayouts/slideLayout1.xml"/>' +
+      '<Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme" Target="../theme/theme1.xml"/>' +
       '</Relationships>');
 
-    add('ppt/slideLayouts/slideLayout1.xml', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
-      '<p:sldLayout xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" type="blank">' +
-      '<p:cSld><p:spTree><p:nvGrpSpPr><p:cNvPr id="1" name=""/><p:cNvGrpSpPr/><p:nvPr/></p:nvGrpSpPr>' +
-      '<p:grpSpPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="0" cy="0"/><a:chOff x="0" y="0"/><a:chExt cx="0" cy="0"/></a:xfrm></p:grpSpPr>' +
-      '</p:spTree></p:cSld></p:sldLayout>');
+    add('ppt/slideLayouts/slideLayout1.xml', XMLHEAD + '<p:sldLayout ' + NS_P + ' type="blank" preserve="1">' +
+      '<p:cSld name="空白"><p:spTree>' + EMPTY_TREE + '</p:spTree></p:cSld><p:clrMapOvr><a:masterClrMapping/></p:clrMapOvr></p:sldLayout>');
 
-    add('ppt/slideLayouts/_rels/slideLayout1.xml.rels', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
-      '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">' +
+    add('ppt/slideLayouts/_rels/slideLayout1.xml.rels', XMLHEAD + '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">' +
       '<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideMaster" Target="../slideMasters/slideMaster1.xml"/>' +
       '</Relationships>');
 
-    add('ppt/theme/theme1.xml', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
-      '<a:theme xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" name="FoodDobble">' +
-      '<a:themeElements><a:clrScheme name="Food"><a:dk1><a:srgbClr val="10252C"/></a:dk1><a:lt1><a:srgbClr val="FFFFFF"/></a:lt1><a:dk2><a:srgbClr val="173640"/></a:dk2><a:lt2><a:srgbClr val="F4FBFB"/></a:lt2><a:accent1><a:srgbClr val="FF6B35"/></a:accent1><a:accent2><a:srgbClr val="FFB703"/></a:accent2><a:accent3><a:srgbClr val="1B998B"/></a:accent3><a:accent4><a:srgbClr val="2E5560"/></a:accent4><a:accent5><a:srgbClr val="8FAEB5"/></a:accent5><a:accent6><a:srgbClr val="E8552D"/></a:accent6><a:hlink><a:srgbClr val="FF6B35"/></a:hlink><a:folHlink><a:srgbClr val="FFB703"/></a:folHlink></a:clrScheme>' +
-      '<a:fontScheme name="Office"><a:majorFont><a:latin typeface="Calibri"/><a:ea typeface=""/><a:cs typeface=""/></a:majorFont><a:minorFont><a:latin typeface="Calibri"/><a:ea typeface=""/><a:cs typeface=""/></a:minorFont></a:fontScheme>' +
-      '<a:fmtScheme name="Office"><a:fillStyleLst><a:solidFill><a:schemeClr val="phClr"/></a:solidFill></a:fillStyleLst><a:lnStyleLst><a:ln w="9525"><a:solidFill><a:schemeClr val="phClr"/></a:solidFill></a:ln></a:lnStyleLst><a:effectStyleLst><a:effectLst/></a:effectStyleLst><a:bgFillStyleLst><a:solidFill><a:schemeClr val="phClr"/></a:solidFill></a:bgFillStyleLst></a:fmtScheme>' +
-      '</a:themeElements></a:theme>');
+    add('ppt/theme/theme1.xml', themeXML());
 
-    // 每一頁投影片（內嵌全螢幕 PNG 影像）
-    for (var j = 0; j < slideBuffers.length; j++) {
-      var imgName = 'image' + (j + 1) + '.png';
-      files.push({ name: 'ppt/media/' + imgName, data: slideBuffers[j] });
+    slideBuffers.forEach(function (buf, i) {
+      var n = i + 1;
+      add('ppt/slides/slide' + n + '.xml', XMLHEAD + '<p:sld ' + NS_P + '><p:cSld><p:spTree>' + EMPTY_TREE +
+        '<p:pic><p:nvPicPr><p:cNvPr id="2" name="Slide ' + n + '"/><p:cNvPicPr><a:picLocks noChangeAspect="1"/></p:cNvPicPr><p:nvPr/></p:nvPicPr>' +
+        '<p:blipFill><a:blip r:embed="rId2"/><a:stretch><a:fillRect/></a:stretch></p:blipFill>' +
+        '<p:spPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="12192000" cy="6858000"/></a:xfrm>' +
+        '<a:prstGeom prst="rect"><a:avLst/></a:prstGeom></p:spPr></p:pic>' +
+        '</p:spTree></p:cSld><p:clrMapOvr><a:masterClrMapping/></p:clrMapOvr></p:sld>');
 
-      var sldXml = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
-        '<p:sld xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">' +
-        '<p:cSld><p:spTree><p:nvGrpSpPr><p:cNvPr id="1" name=""/><p:cNvGrpSpPr/><p:nvPr/></p:nvGrpSpPr>' +
-        '<p:grpSpPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="0" cy="0"/><a:chOff x="0" y="0"/><a:chExt cx="0" cy="0"/></a:xfrm></p:grpSpPr>' +
-        '<p:pic><p:nvPicPr><p:cNvPr id="2" name="SlideImage"/><p:cNvPicPr><a:picLocks noChangeAspect="1"/></p:cNvPicPr><p:nvPr/></p:nvPicPr>' +
-        '<p:blipFill><a:blip r:embed="rId1"/><a:stretch><a:fillRect/></a:stretch></p:blipFill>' +
-        '<p:spPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="12192000" cy="6858000"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></p:spPr></p:pic>' +
-        '</p:spTree></p:cSld></p:sld>';
-      add('ppt/slides/slide' + (j + 1) + '.xml', sldXml);
+      add('ppt/slides/_rels/slide' + n + '.xml.rels', XMLHEAD + '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">' +
+        '<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout" Target="../slideLayouts/slideLayout1.xml"/>' +
+        '<Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="../media/image' + n + '.png"/>' +
+        '</Relationships>');
 
-      var sldRels = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' +
-        '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">' +
-        '<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="../media/' + imgName + '"/>' +
-        '</Relationships>';
-      add('ppt/slides/_rels/slide' + (j + 1) + '.xml.rels', sldRels);
-    }
+      files.push({ name: 'ppt/media/image' + n + '.png', data: buf });
+    });
 
-    var packed = zipPack(files);
-    return new Blob([packed], { type: 'application/vnd.openxmlformats-officedocument.presentationml.presentation' });
+    return zipStore(files);
   }
 
   function exportPptx() {
