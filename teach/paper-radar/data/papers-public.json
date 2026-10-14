@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-14T07:37:18.318Z",
+  "generatedAt": "2026-10-14T08:13:30.564Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -97442,6 +97442,32 @@
         }
       ],
       "completedAt": "2026-10-14T07:34:28.6900264Z"
+    },
+    {
+      "id": "doi:10.3346/jkms.2026.41.e256:review",
+      "paperId": "doi:10.3346/jkms.2026.41.e256",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Prevalence of Sarcopenia in Korean Adults Based on the Asian Working Group for Sarcopenia 2025 Criteria: Analysis of the 2024 Korea National Health and Nutrition Examination Survey.",
+      "authors": "Jun-Il Yoo, Yonghan Cha, Deog-Yoon Kim, Young-Kyun Lee, Yong-Chan Ha",
+      "journal": "Journal of Korean Medical Science",
+      "year": "2026",
+      "doi": "10.3346/jkms.2026.41.e256",
+      "abstract": "The Asian Working Group for Sarcopenia (AWGS) updated its diagnostic guideline in 2025 to incorporate body mass index (BMI)-adjusted cut-off values for muscle mass and extended diagnostic criteria to middle-aged adults (50-64 years). Using nationally representative data from the 2024 Korea National Health and Nutrition Examination Survey (KNHANES), we examined how the new AWGS 2025 criteria influence the prevalence of sarcopenia among Korean adults and characterized age- and sex-specific patterns. The study population comprised 2,366 adults aged ≥ 50 years (876 men and 1,490 women) who participated in the 2024 KNHANES. Participants were stratified by sex and age group (50-64 years and ≥ 65 years). Low muscle mass was assessed using dual-energy X-ray absorptiometry (DEXA) and bioimpedance analysis (BIA) according to AWGS 2025 criteria, which incorporate both height-adjusted (kg/m²) and BMI-adjusted (kg/m² per BMI) thresholds. Prevalence estimates were weighted to account for the complex sampling design. Among adults ≥ 80 years, sarcopenia prevalence increased sharply (35.4% in women and 28.8% in men by DEXA). Age-specific prevalence was low in the 50-54 year group (men 2.7%, women 3.2%), rose gradually through the seventies, and increased steeply thereafter. Women exhibited higher prevalence than men in the oldest age group. Comparison between BIA and DEXA measurements showed divergence with age: at 50-54 years, BIA yielded higher appendicular skeletal muscle mass than DEXA (23.77 kg vs. 23.10 kg); at ≥ 80 years, BIA yielded lower values (18.65 kg vs. 20.35 kg). Application of the AWGS 2025 BMI-adjusted criteria identifies a substantial proportion of Korean older adults at risk of sarcopenia, with women aged ≥ 80 years particularly vulnerable. The divergence between BIA and DEXA measurements in very old adults suggests that measurement modality should be carefully considered in clinical practice. These findings provide timely evidence for public health planning as Korea enters a super-aged society.",
+      "legalFullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13659108/",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42865285/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "design:guideline",
+        "guideline and consensus",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "AWGS 2025 下韓國低肌肉量盛行與 BIA/DEXA 比較：品質評讀",
+      "content": "# AWGS 2025 肌少症新標準下韓國低肌肉量盛行：品質評讀\n\n## 文獻資料與全文依據\nYoo JI, et al. “Prevalence of sarcopenia based on the 2025 Asian Working Group for Sarcopenia consensus: a cross-sectional analysis of the 2024 Korea National Health and Nutrition Examination Survey.” *Journal of Korean Medical Science*. 2026;41:e256. DOI: [10.3346/jkms.2026.41.e256](https://doi.org/10.3346/jkms.2026.41.e256). PMC 全文：https://pmc.ncbi.nlm.nih.gov/articles/PMC13659108/（以來源文件核對 DOI/title identity）。來源快取 `[local path removed]`，SHA-256 `0e21d4630fc0eb71f024e3d7a9007dcd4dcfffe93e9fa8819fbfdbd7a03efe5d`；HTML 主文擷取 28,644 字，SHA-256 `6758ed935b26b78c1fe5a8235ec736e3022905f0c48a67894c4506bad9a66e3d`。全文含摘要、引言、方法、結果、表 1、圖 1–2、討論、限制、揭露及 33 筆參考文獻均已依序閱讀。核對定位採期刊文章 HTML 的 Introduction、Methods、Results、Discussion 與 Table/Figure。\n\n## 研究問題與設計\n以 2024 年韓國國民健康與營養調查（KNHANES）代表性抽樣資料，描述韓國 50 歲以上成人依 AWGS 2025 身高調整及 BMI 調整低肌肉量門檻的年齡、性別分布，並比較 InBody 970 多頻 BIA 與 DEXA 的附肢骨骼肌量（ASM）平均值。這是橫斷面次級資料分析，不是診斷準確度研究，也不是追蹤肌少症發生率的隊列。\n\n## 方法、樣本與分析\n- 納入同時完成健康檢查與體組成測量的非機構居住者；最終 2,366 人（男 876、女 1,490），依性別及 50–64、≥65 歲等年齡層分析，盛行率使用抽樣權重。（Methods〈Study population〉）\n- ASM 由 DEXA（Lunar Prodigy）與 InBody 970 BIA 測得。依 AWGS 2025，成人 ≥65 歲沿用 AWGS 2019 SMI 門檻並新增 BMI 調整門檻；50–64 歲另用早期篩檢 cut-offs。符合身高調整或 BMI 調整任一門檻即分類低肌肉量。（Methods〈Diagnostic criteria〉）\n- 研究未能一致取得握力與身體功能資料，因此主要結果是低肌肉量；作者採用社區研究的早期篩檢作法，並非依完整診斷條件確診肌少症。（Methods〈Diagnostic criteria〉；Discussion〈Limitations〉）\n- 以加權盛行率呈現各年齡／性別層，使用 R survey 套件處理複雜抽樣。BIA 與 DEXA 的比較主要是各年齡層 ASM 平均值比較；文中未報 Bland–Altman limits of agreement、個體分類一致率或診斷敏感度／特異度。（Methods〈Statistical analysis〉；Fig. 2）\n\n## 主要結果\n- 最終樣本中，50–64 歲男 406、女 736；≥65 歲男 470、女 628。高齡組糖尿病與低收入比例較高，可能與低肌肉量分布及選擇性存活／健康狀態相關。（Table 1）\n- 依 DEXA 及 AWGS 2025 分類，50–54 歲低肌肉量盛行率男 2.7%、女 3.2%；60–64 歲男 2.2%、女 3.3%；80 歲以上升至男 28.8%、女 35.4%。70–79 歲兩性均上升但低於 80 歲組。（Results〈Prevalence〉；Fig. 1）\n- Table 1 顯示以 BIA 分類的 50–64 歲低肌肉量比例男 2.5%、女 3.1%；≥65 歲男 10.2%、女 9.7%。DEXA 對應比例為 2.7%、3.4%、10.4%、10.5%。這些是不同量測法套用相應切點後的比例，不等同診斷分類一致率。（Table 1）\n- ASM 平均值差異隨年齡改變：50–54 歲 BIA 23.77 kg、DEXA 23.10 kg；55–59 歲 BIA 23.41、DEXA 22.64 kg；75–79 歲約 19.99 vs 19.97 kg；≥80 歲 BIA 18.65、DEXA 20.35 kg，差約 1.7 kg（約 8.4%）。這是年齡層平均值的方向反轉，不能直接推成每位高齡者 BIA 都低估。（Results〈Comparison〉；Fig. 2）\n\n## 品質快照\n**優點：**使用新發布的 AWGS 2025 門檻；KNHANES 為全國複雜抽樣資料並用權重估計；同一受試者有 BIA 與 DEXA 測量；分年齡與性別呈現結果；作者清楚揭露肌力／功能資料缺失及橫斷設計限制。（Methods、Discussion）\n\n**限制與偏差風險：**摘要與題名使用「肌少症盛行率」語言，但本文實際估計的是低肌肉量，因缺乏一致肌力／體能資料無法依完整 AWGS 診斷定義確認肌少症；臨床端引用時應用此較窄的結局名稱。BIA–DEXA 比較用分層平均 ASM，未呈個體一致界限、分類一致率或診斷性能，不能充分支持「兩方法一致」或「某方法準確性較好」。作者將差異歸因於老化時水分分布／組織導電性變化，並討論 DEXA lean soft tissue 可能包含非收縮組織；這些是討論中的可能機制，本研究未直接測試。橫斷面分析無法建立 BMI 調整切點的預測效度、因果關係或介入效益。KNHANES 排除機構居住者，極高齡盛行率可能受選擇影響。摘要將 BIA/DEXA 差異稱為 divergence，但方法未見正式配對差異檢定與信賴區間；統計確定度需保留。\n\n## 研究限制與利益揭露\n作者指出未有一致肌力與身體功能測量、橫斷設計不評估時間／因果、排除機構居住者可能低估極高齡負擔，並建議未來納入握力與功能表現。此研究由韓國保健福祉部資助的 PACEN 計畫支持（RS-2025-02213601）；作者聲明無利益衝突。倫理核准 KDCA IRB No. 2022-11-16-R-03，受試者有書面同意。（Ethics、Funding、Disclosure、Discussion〈Limitations〉）\n\n## 白話導讀\n研究發現，用 AWGS 2025 的低肌肉量門檻分類時，韓國 80 歲以上族群比例明顯增加，女性約三分之一、男性約四分之一以上。這不是完整肌少症診斷率，因為分析沒有一致的肌力資料。研究同時看到年輕層 BIA 平均 ASM 高於 DEXA、80 歲以上則反過來；但只看群體平均不能告訴我們兩台儀器對每一位病人是否相符。\n\n## 臨床應用\n可用本文提醒臨床對高齡、尤其 ≥80 歲者檢視低肌肉量風險，並確認報告上使用的儀器、型號、切點與量測法；不要將這份韓國盛行率直接當成本地族群數值，也不要將低肌肉量篩檢直接標記為肌少症診斷。若 BIA 結果會影響重要決策，應依適用指南、肌力與功能評估及個別臨床情境共同判讀；本文本身沒有證明所有 ≥80 歲者都需要 DEXA，也沒有提供介入或治療建議。\n\n## 可追溯位置\n摘要／研究背景：Abstract、Introduction；樣本及排除：Methods〈Study population〉；AWGS 2025 切點與低肌肉量操作定義：Methods〈Diagnostic criteria for sarcopenia〉；抽樣權重：Methods〈Statistical analysis〉；人口特徵：Table 1；年齡與性別盛行率：Results〈Prevalence〉、Figure 1；BIA/DEXA 平均 ASM：Results〈Comparison of muscle mass measurements〉、Figure 2；測量原理與限制：Discussion；限制、資助與揭露：Discussion〈Limitations〉、Funding、Disclosure、Ethics statement。DOI 10.3346/jkms.2026.41.e256；來源 SHA-256 已列於本文首段。",
+      "cards": [],
+      "completedAt": "2026-10-14T08:09:16.4087055Z"
     }
   ]
 }
