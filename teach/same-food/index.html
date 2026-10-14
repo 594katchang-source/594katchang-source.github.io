@@ -463,7 +463,7 @@ input[type=range] {
 .sym svg { width: 100%; height: 100%; display: block; }
 .sym img { width: 100%; height: 100%; object-fit: contain; display: block; }
 
-/* 食材徽章卡片（食物模式）超大視覺 */
+/* 食材徽章卡片（食物模式）高對比超清晰視覺 */
 .food-badge-item {
   width: 100%;
   height: 100%;
@@ -473,26 +473,28 @@ input[type=range] {
   justify-content: center;
   text-align: center;
   border-radius: 50%;
-  background: #FFFFFF;
-  border: 2.5px solid #CBDDDD;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
-  padding: 5%;
+  background: #FFFFFF !important;
+  border: 3.5px solid #10252C !important;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.22) !important;
+  padding: 4% !important;
+  box-sizing: border-box !important;
 }
 .food-badge-emoji {
-  font-size: clamp(24px, 5.5vw, 64px);
-  line-height: 1.05;
+  font-size: clamp(28px, 6vw, 68px) !important;
+  line-height: 1 !important;
+  display: block;
 }
 .food-badge-name {
-  font-size: clamp(13px, 2.2vw, 24px);
-  font-weight: 900;
-  color: #14282B;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 95%;
-  line-height: 1.15;
-  margin-top: 2px;
-  letter-spacing: .02em;
+  font-size: clamp(14px, 2.3vw, 24px) !important;
+  font-weight: 900 !important;
+  color: #10252C !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  max-width: 95% !important;
+  line-height: 1.1 !important;
+  margin-top: 2px !important;
+  letter-spacing: .02em !important;
 }
 
 .empty { padding: 50px 20px; text-align: center; color: var(--ink-3); }
@@ -565,6 +567,7 @@ input[type=range] {
 .sym svg { width: 100%; height: 100%; display: block; }
 .sym img { width: 100%; height: 100%; object-fit: contain; display: block; }
 
+/* 食材徽章卡片（全螢幕與離線版完全共用）高對比超清晰視覺 */
 .food-badge-item {
   width: 100%;
   height: 100%;
@@ -574,27 +577,28 @@ input[type=range] {
   justify-content: center;
   text-align: center;
   border-radius: 50%;
-  background: #FFFFFF;
-  border: 2.5px solid #CBDDDD;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
-  padding: 5%;
-  box-sizing: border-box;
+  background: #FFFFFF !important;
+  border: 3.5px solid #10252C !important;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.22) !important;
+  padding: 4% !important;
+  box-sizing: border-box !important;
 }
 .food-badge-emoji {
-  font-size: clamp(24px, 5.5vw, 64px);
-  line-height: 1.05;
+  font-size: clamp(28px, 6vw, 68px) !important;
+  line-height: 1 !important;
+  display: block;
 }
 .food-badge-name {
-  font-size: clamp(13px, 2.2vw, 24px);
-  font-weight: 900;
-  color: #14282B;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 95%;
-  line-height: 1.15;
-  margin-top: 2px;
-  letter-spacing: .02em;
+  font-size: clamp(14px, 2.3vw, 24px) !important;
+  font-weight: 900 !important;
+  color: #10252C !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  max-width: 95% !important;
+  line-height: 1.1 !important;
+  margin-top: 2px !important;
+  letter-spacing: .02em !important;
 }
 
 .fys-top {
@@ -602,10 +606,10 @@ input[type=range] {
   align-items: center;
   justify-content: space-between;
   gap: 14px;
-  padding: 12px 24px;
+  padding: 10px 24px;
   background: var(--stage-2);
   border-bottom: 1px solid rgba(255,255,255,0.08);
-  flex: none;
+  flex: 0 0 auto;
 }
 .fys-no {
   font-size: clamp(20px, 2.2vw, 28px);
@@ -650,7 +654,7 @@ input[type=range] {
 .fys-tools button:hover { border-color: var(--hi); color: var(--hi); }
 
 .fys-stage {
-  flex: 1 1 0;
+  flex: 1 1 auto;
   min-height: 0;
   display: flex;
   align-items: center;
@@ -659,14 +663,15 @@ input[type=range] {
   padding: 6px clamp(12px, 2.5vw, 36px);
   position: relative;
   overflow: visible;
+  transition: max-height 0.3s ease;
 }
 /* 尋找題目時：圓盤飽滿巨大 */
 .fys-card {
   position: relative;
   aspect-ratio: 1;
   border-radius: 50%;
-  width: min(42vw, 62vh);
-  max-height: 62vh;
+  width: min(40vw, 56vh);
+  max-height: 56vh;
   background: var(--card);
   border: 7px solid var(--card-line);
   box-shadow: 0 28px 70px rgba(0,0,0,0.85);
@@ -674,10 +679,17 @@ input[type=range] {
   flex: none;
   transition: width 0.3s ease, max-height 0.3s ease;
 }
-/* 揭曉答案時：圓盤自動縮減高度讓位，確保下方衛教卡 100% 完整無遮擋！ */
+/* 揭曉答案時：舞台高度鎖死在24vh以內，圓盤精巧縮減至22vh，徹底杜絕遮擋！ */
+.fys.revealed .fys-stage {
+  flex: 0 0 auto;
+  max-height: 24vh;
+  padding: 2px clamp(8px, 1.5vw, 20px);
+  margin-bottom: 6px;
+}
 .fys.revealed .fys-card {
-  width: min(28vw, 32vh);
-  max-height: 32vh;
+  width: min(20vw, 22vh);
+  max-height: 22vh;
+  border-width: 4.5px;
 }
 
 .fys-split {
@@ -1350,27 +1362,27 @@ window.FindSamePlayer = (function () {
   /* 雙轉盤排版演算法（泊松排斥圓散布，圖案大幅放大） */
   function layout(n) {
     var baseRadiusMap = {
-      3: 0.45,
-      4: 0.38,
-      5: 0.32,
-      6: 0.28,
-      7: 0.25,
-      8: 0.23
+      3: 0.38,
+      4: 0.32,
+      5: 0.26,
+      6: 0.23,
+      7: 0.20,
+      8: 0.18
     };
-    var baseR = baseRadiusMap[n] || (0.72 / Math.sqrt(n));
+    var baseR = baseRadiusMap[n] || (0.65 / Math.sqrt(n));
 
     for (var attempt = 0; attempt < 8; attempt++) {
       var base = baseR * Math.pow(0.95, attempt);
       var pts = [], tries = 0;
       while (pts.length < n && tries < 4500) {
         tries++;
-        var r = base * (state.scaleVary ? (0.88 + Math.random() * 0.28) : 1);
+        var r = base * (state.scaleVary ? (0.90 + Math.random() * 0.22) : 1);
         var ang = Math.random() * Math.PI * 2;
         var d = Math.sqrt(Math.random()) * Math.max(0, 0.94 - r);
         var x = Math.cos(ang) * d, y = Math.sin(ang) * d, ok = true;
         for (var i = 0; i < pts.length; i++) {
           var dx = pts[i].x - x, dy = pts[i].y - y;
-          if (Math.sqrt(dx * dx + dy * dy) < (pts[i].r + r) * 0.92) {
+          if (Math.sqrt(dx * dx + dy * dy) < (pts[i].r + r) * 1.05) {
             ok = false;
             break;
           }
@@ -1535,9 +1547,9 @@ window.FindSamePlayer = (function () {
     ctx.fillText(' 題', 64 + wA + wB, 56);
 
     ctx.fillStyle = '#8FAEB5';
-    ctx.font = '700 28px ' + TEXT_FONT;
+    ctx.font = '700 25px ' + TEXT_FONT;
     ctx.textAlign = 'right';
-    ctx.fillText('飲食找相同轉盤 ｜ 共 ' + total + ' 題', W - 64, 56);
+    ctx.fillText('飲食找相同轉盤 ｜ 共 ' + total + ' 題', W - 80, 56);
 
     // 中間虛線與問號
     ctx.strokeStyle = '#274B54';
@@ -1571,7 +1583,7 @@ window.FindSamePlayer = (function () {
       ctx.fillText('（請全班同學或長輩一起喊出食物名稱）', W / 2, H - 36);
     } else {
       // 答案頁：繪製結構化深色高質感超大字衛教小卡（加大並多行完整繪製零截斷）
-      var cardX = 100, cardY = 645, cardW = W - 200, cardH = 232;
+      var cardX = 80, cardY = 635, cardW = W - 160, cardH = 240;
       ctx.fillStyle = '#173640';
       ctx.strokeStyle = '#FFB703';
       ctx.lineWidth = 3.5;
@@ -1583,32 +1595,33 @@ window.FindSamePlayer = (function () {
         ctx.textAlign = 'left';
         ctx.fillStyle = '#FFB703';
         ctx.font = '900 38px ' + TEXT_FONT;
-        ctx.fillText('🎉 相同食物：' + food.emoji + ' ' + food.name, cardX + 36, cardY + 44);
+        ctx.fillText('🎉 相同食物：' + food.emoji + ' ' + food.name, cardX + 36, cardY + 46);
 
-        // 分類膠囊
+        // 分類膠囊（放置於卡片右上角，避免文字過長重疊）
+        var badgeW = 220, badgeH = 44, badgeX = cardX + cardW - badgeW - 36, badgeY = cardY + 22;
         ctx.fillStyle = '#FF6B35';
-        roundRect(ctx, cardX + 540, cardY + 18, 180, 42, 21, true, false);
+        roundRect(ctx, badgeX, badgeY, badgeW, badgeH, 22, true, false);
         ctx.fillStyle = '#FFFFFF';
         ctx.font = '900 22px ' + TEXT_FONT;
         ctx.textAlign = 'center';
-        ctx.fillText(food.category, cardX + 630, cardY + 40);
+        ctx.fillText(food.category, badgeX + badgeW / 2, badgeY + badgeH / 2 + 2);
 
         // 建議份數
         ctx.textAlign = 'left';
         ctx.font = '900 26px ' + TEXT_FONT;
         ctx.fillStyle = '#A3C2C8';
-        ctx.fillText('【建議份數】：', cardX + 36, cardY + 96);
+        ctx.fillText('【建議份數】：', cardX + 36, cardY + 102);
         ctx.fillStyle = '#FFFFFF';
         ctx.font = '700 26px ' + TEXT_FONT;
-        ctx.fillText(food.portion, cardX + 210, cardY + 96);
+        ctx.fillText(food.portion, cardX + 220, cardY + 102);
 
-        // 核心營養（100% 完整換行呈現，絕無任何截斷）
+        // 核心營養（100% 完整多行換行呈現，絕無任何截斷）
         ctx.font = '900 26px ' + TEXT_FONT;
         ctx.fillStyle = '#A3C2C8';
-        ctx.fillText('【核心營養】：', cardX + 36, cardY + 142);
+        ctx.fillText('【核心營養】：', cardX + 36, cardY + 152);
         ctx.fillStyle = '#E8F5F5';
         ctx.font = '600 24px ' + TEXT_FONT;
-        drawWrappedText(ctx, food.nutrition, cardX + 210, cardY + 142, cardW - 250, 36, 3);
+        drawWrappedText(ctx, food.nutrition, cardX + 220, cardY + 152, cardW - 260, 36, 3);
       }
     }
   }
