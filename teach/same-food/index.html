@@ -679,17 +679,18 @@ input[type=range] {
   flex: none;
   transition: width 0.3s ease, max-height 0.3s ease;
 }
-/* 揭曉答案時：舞台高度鎖死在24vh以內，圓盤精巧縮減至22vh，徹底杜絕遮擋！ */
+/* 揭曉答案時：圓盤維持 34vh 飽滿大尺寸（題目細節清晰可見），舞台高度受控自適應，與下方字卡保持完美留白！ */
 .fys.revealed .fys-stage {
-  flex: 0 0 auto;
-  max-height: 24vh;
+  flex: 1 1 auto;
+  max-height: 38vh;
+  min-height: 0;
   padding: 2px clamp(8px, 1.5vw, 20px);
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 .fys.revealed .fys-card {
-  width: min(20vw, 22vh);
-  max-height: 22vh;
-  border-width: 4.5px;
+  width: min(30vw, 34vh);
+  max-height: 34vh;
+  border-width: 5.5px;
 }
 
 .fys-split {
