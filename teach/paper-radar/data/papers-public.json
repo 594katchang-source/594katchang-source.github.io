@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-14T07:17:16.134Z",
+  "generatedAt": "2026-10-14T07:32:35.462Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -97349,6 +97349,32 @@
         }
       ],
       "completedAt": "2026-10-14T07:15:38.5168399Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1896369:review",
+      "paperId": "doi:10.3389/fnut.2026.1896369",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "InBody bioelectrical impedance research in clinical nutrition: a bibliometric analysis of trends, applications, and evidence gaps, 2002-2025.",
+      "authors": "Tsai K, Yang S, Koo M",
+      "journal": "Adult clinical nutrition practice and assessment (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fnut.2026.1896369",
+      "abstract": "InBody analyzers are widely used for body composition assessment in clinical nutrition research, but no platform-specific bibliometric study has mapped the development, dominant topics, or evidence gaps of the InBody literature. This study examined InBody-related research from 2002 to 2025. English-language original research articles were retrieved from the Science Citation Index Expanded within the Web of Science (WoS) Core Collection using the search term \"InBody.\" Records were analyzed using Bibliometrix and VOSviewer. Analyses included descriptive bibliometrics, country and institutional productivity, journal productivity, citation impact, author-keyword co-occurrence, trend-topic analysis, and logistic growth modeling. Cross-database validation was conducted using Scopus and PubMed. The final WoS corpus included 406 articles across 217 sources, with an annual growth rate of 19.7% and a mean of 17.7 citations per article; 294 articles (72.4%) were published from 2020 onward. South Korea contributed the largest fractional share (14.6%), while the United States produced the highest mean annual citation rate among the top 10 countries (4.93 citations/year). The logistic model fitted cumulative output closely (R2 = 0.97), with an estimated saturation ceiling of approximately 1,172 articles and a projected peak annual output of about 75 articles around 2028. The most-cited articles centered on validation against dual-energy X-ray absorptiometry (DXA). Author-keyword mapping identified seven clusters, including a clinically oriented cluster linking distinct but related themes of sarcopenia, older adults, phase angle, hemodialysis, malnutrition, and frailty. Recent trend topics included phase angle, non-alcoholic fatty liver disease, frailty, young adults, and weight loss. Cross-database validation showed broadly consistent temporal, geographic, and source patterns across WoS, Scopus, and PubMed; all 12 leading WoS author keywords also appeared in Scopus, of which nine ranked within the Scopus top 10. InBody-related research is expanding rapidly and shifting from device validation toward clinical application, particularly in geriatric and clinical nutrition. Three priorities emerge: (i) device-model-specific and population-specific validation, particularly under-represented regions; (ii) population- and condition-specific phase-angle reference ranges; and (iii) longitudinal and intervention-responsive designs rather than additional cross-sectional DXA comparisons. Addressing these priorities may support more consistent, evidence-based interpretation of InBody-derived body composition measures in nutrition and clinical practice.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1896369/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42866063/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "clinical nutrition technology",
+        "design:longitudinal",
+        "nutrition and dietary pattern",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "InBody 臨床營養研究計量分析：品質評讀",
+      "content": "# InBody 臨床營養研究計量分析：品質評讀\n\n## 文獻資料與全文依據\nTsai K-W, Yang S-W, Koo M. “InBody bioelectrical impedance research in clinical nutrition: a bibliometric analysis of trends, applications, and evidence gaps, 2002–2025.” *Frontiers in Nutrition*. 2026;13:1896369. DOI: [10.3389/fnut.2026.1896369](https://doi.org/10.3389/fnut.2026.1896369). 開放全文 PDF：https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1896369/pdf。來源路徑 `[local path removed]`；SHA-256 `325b76a6708e662c159e478def69969182b2e7fe4cc4bc916f566e3b6e3465df`；擷取文字 SHA-256 `4e3ae40227db81af32b5379862c13d738a40795614eacd82a1f74d57d3941933`。已依 PDF 頁序閱讀 1–17 頁（含方法、表 1–5、圖 1–5、討論、結論、揭露與 38 筆參考文獻）。定位均以下列 PDF 頁碼為準。\n\n## 研究問題與設計\n這是一篇品牌平台限定的書目計量分析，整理 2002–2025 年 InBody 相關原創研究的數量變化、國家／機構／期刊分布、引用、作者關鍵詞及研究主題。主要資料集是 Web of Science Core Collection 的 SCI-Expanded；以 Topic 欄位精確搜尋 “InBody”，限英文原創研究及 2002–2025 年。另以作者可見欄位敏感度搜尋，並用 Scopus、PubMed 作資料庫層級的趨勢驗證。研究沒有直接招募病人、比較 InBody 與 DXA 的測量結果，或統合臨床療效。\n\n## 方法、資料與分析\n- WoS 搜尋日期為 2026-05-03；限制英文原創研究、2002–2025。407 筆中排除 1 筆 “Inbody” 僅為引文作者姓氏的假陽性，納入 406 篇。作者可見欄位敏感度搜尋找到 404 筆，皆包含於 Topic 搜尋；Topic 多出的 3 筆在 KeyWords Plus 出現 InBody 720，經人工確認相關。（PDF pp. 3、5）\n- Scopus 採 title/abstract/author keywords 搜尋，455 篇；PubMed 採 Title/Abstract 或 Other Term，排除 9 筆後為 664 篇。兩者是分開的驗證資料集，不與 WoS 合併，也不是逐筆一致性研究。（PDF pp. 4–5、10）\n- 使用 Bibliometrix 5.0、R 4.2.0、VOSviewer 1.6.20；國家和地區按通訊作者欄位並以分數計數，機構則以每篇文章所列的不同機構平均分配權重。關鍵詞用 192 項同義詞整理表與排除詞，並做不同 cluster resolution 敏感度比較。（PDF pp. 3–4）\n- 用描述性書目指標、作者關鍵詞共現、趨勢主題、Kendall τ-b 跨資料庫地理排序相關，以及累積文章的 logistic growth model；沒有對納入的 406 篇逐篇做偏倚風險或臨床證據等級評估。（PDF pp. 3–5）\n\n## 主要發現\n- **出版趨勢：**406 篇分布於 217 個來源，年增率 19.7%，每篇平均 17.7 次引用、平均文章年齡 5.2 年、每篇平均 6.8 位作者，26.1% 有國際合著。2020–2025 發表 294 篇（72.4%）；2024 年 65 篇、2025 年 63 篇。（PDF p. 5）\n- **成長模型：**累積量 logistic model 擬合 R²=.97、RMSE=3.58，估計飽和上限約 1,172 篇、約 2028 年達年發表峰值 75 篇、10% 至 90% 成長期約 17.2 年。這是模型外推，不是已發生的出版量或臨床發展預測。（PDF pp. 5、15）\n- **地理分布：**南韓 fractional share 14.6%（59.3 篇），中國 11.2%（45.5 篇），美國 9.2%（37.3 篇）；美國在前十國家中每篇年均引用率最高（4.93），顯示產出量與引用影響力排名不同。（PDF p. 6）\n- **熱門來源／高被引研究：**最多被引文章聚焦 BIA/InBody 與 DXA 的測量比較；排名第一的 2020 年研究總引用 338 次。這表示該主題被引用較多，不表示 InBody 與 DXA 等效或證據無偏。（PDF pp. 7–9）\n- **主題網絡：**作者關鍵詞形成 7 個群集；其中一群連結 body composition、sarcopenia、older adults、phase angle、hemodialysis、malnutrition、frailty 等詞。作者提醒共同群集只代表關鍵詞共現，不代表臨床概念相同；該群集在不同解析度下大致穩定。（PDF p. 8）\n- **新興主題：**phase angle、NAFLD、young adults 的關鍵詞中位出版年為 2025，frailty 和 weight loss 為 2024，代表近期研究關注度，不等於診斷效能或臨床效益已確立。（PDF p. 8）\n- **跨資料庫驗證：**三個資料庫皆呈現 2013 後逐步增加、2020 後快速增加；國家排序相關均為正（τ-b=.517–.669，皆 p<.001），12 個 WoS 領先關鍵詞全都出現在 Scopus，其中 9 個進入 Scopus 前十排序。作者明確限定這是模式層級一致，資料庫涵蓋與欄位定義不同。（PDF pp. 9–12）\n\n## 品質快照\n**優點：**明確限定品牌與期間，交代搜尋欄位、日期、納排條件；除 WoS 主分析外加入敏感度搜尋、Scopus／PubMed 驗證；國家與機構採分數計數，關鍵詞做同義詞整理及 cluster resolution 敏感度分析；補充資料提供 R 腳本和 thesaurus。（PDF pp. 3–5、15）\n\n**限制與偏差風險：**主分析只涵蓋 WoS SCI-Expanded 中的英文原創研究，精確品牌詞也可能漏掉未在題名、摘要、作者關鍵詞或資料庫欄位提及 InBody 的研究。作者承認語言與資料庫限制；Scopus／PubMed 不是同一筆數集合，國家欄位及來源定義不完全相同。文獻引用年齡、資料庫收錄及引用慣例會影響引用指標。關鍵詞群集依賴作者提供用詞和整理表，結果是書目結構而非臨床分類。logistic 飽和預測假定研究條件相對穩定，可能受競品、指南、研究資金或技術替代影響。最重要的是書目計量本身不評估測量準確度、偏倚風險、研究品質或患者結局；故不能以篇數、引用數或快速成長推論臨床可靠性。（PDF pp. 4–5、14–15）\n\n## 研究限制與作者建議\n作者建議優先做：不同 InBody 型號與不同臨床族群的分層驗證；建立依族群與疾病狀態區分的 phase-angle 參考範圍；增加追蹤與介入反應性研究，而非持續只做橫斷面的 DXA 對照。這些是作者從出版趨勢和證據缺口提出的研究方向，不是已驗證的臨床指引。（PDF pp. 13–15）\n\n## 白話導讀\n這篇文章像是盤點 InBody 相關論文「在哪些地方、何時、哪些主題比較常被研究」。作者發現論文快速增加，早期常見的是和 DXA 比較，近年增加高齡營養、肌少症、衰弱與相位角等主題。但這份地圖只告訴我們研究者寫了什麼、發表多少；它沒有檢查每篇研究做得好不好，也沒有驗證某台 InBody 能否準確診斷某位病人的營養問題。\n\n## 臨床應用\n臨床可把本文當作選題和研究缺口的地圖：閱讀 InBody 報告時，應先核對儀器型號、測量條件、族群適用性，以及使用的是推估體組成值還是原始／較少依賴預測方程的參數。對高齡、透析、肌少症或肝病族群，這篇不能提供個別切點或處置建議；也不能因 phase angle 是新興關鍵詞就直接作為診斷標準。臨床切點與療效仍需查詢相應族群、特定型號的驗證研究及指南。\n\n## 可追溯位置\n研究目的與 BIA／InBody 平台差異：PDF pp. 1–3；WoS 搜尋與分析方法：pp. 3–5；出版成長、國家／機構／期刊與高被引文章：pp. 5–9（Tables 1–4）；關鍵詞群集與趨勢：p. 8、pp. 11–12（Figures 3–5）；跨資料庫驗證：pp. 9–12（Table 5）；臨床主題、地域缺口、研究建議及限制：pp. 12–15；資料可得性、資助、作者使用 LLM 與利益揭露：pp. 15–16。DOI 10.3389/fnut.2026.1896369。",
+      "cards": [],
+      "completedAt": "2026-10-14T07:29:21.3494912Z"
     }
   ]
 }
