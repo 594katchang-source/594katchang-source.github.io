@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T05:40:41.731Z",
+  "generatedAt": "2026-10-14T05:54:56.211Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -96702,6 +96702,34 @@
         }
       ],
       "completedAt": "2026-10-13T05:39:30.056Z"
+    },
+    {
+      "id": "doi:10.7759/cureus.116152:review",
+      "paperId": "doi:10.7759/cureus.116152",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Alternative Medicine and Nutritional Therapy in Adult Inflammatory Bowel Disease in India: A Move Towards Holistic Practice.",
+      "authors": "Prerana Ghosh, Karan Varshney",
+      "journal": "Cureus",
+      "year": "2026",
+      "doi": "10.7759/cureus.116152",
+      "abstract": "Inflammatory bowel disease (IBD), including ulcerative colitis (UC) and Crohn's disease (CD), is a chronic gastrointestinal disorder with increasing incidence in India (also referred to as Bharat), posing a significant public health challenge. Low-cost alternatives to prohibitively expensive long-term pharmacological treatments remain underutilised and unoptimised in treatment guidelines. Such alternatives include complementary and alternative medicine (CAM) and nutritional therapies. For example, herbal medicines, such as curcumin, may be a safe and feasible adjunct therapy and should be considered in patients with UC. CAM practices are prevalent and accepted by patients in India for a wide range of reasons. This narrative review analyses various types of CAM used in IBD patients across India and evaluates data on their efficacy and safety. Additionally, nutritional therapies, like exclusive enteral nutrition, may show promise in managing CD but are not standard practice. We highlight useful recommendations, such as offering different formulations, involving dietitians and trained nurses in a multidisciplinary team to provide patient support, and researching dietary interventions specifically relevant to India. This review further emphasises that CAM and dietary interventions are well regarded and are sought out by patients. Thus, these options should be better understood by practitioners and integrated into practice. By incorporating such practices, India can develop a low-cost, holistic IBD care model that considers the patients' socioeconomic and cultural contexts.",
+      "legalFullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13657756/",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42866443/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "dietitian clinical nutrition",
+        "herbs phytochemicals supplements",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "safety and interaction",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "1. **CAM／curcumin：**作者整理的 UC 試驗支持「可能的品質評讀",
+      "content": "---\r\ndoi: \"10.7759/cureus.116152\"\r\npmid: \"42866443\"\r\npmcid: \"PMC13657756\"\r\njournal: \"Cureus\"\r\nyear: 2026\r\npublished: \"2026-09-12\"\r\nvolume: 18\r\nissue: 9\r\narticle: \"e116152\"\r\nauthors: \"Prerana Ghosh; Karan Varshney\"\r\nstudy_type: \"Narrative review\"\r\nreview_depth: \"quick\"\r\n---\r\n\r\n> [!info] 品質快照\r\n> **設計**：敘述性回顧｜**n**：不適用（未報告納入研究總數）｜**方法評讀**（SANRA 六項）：8/12（逐項理由見下）\r\n> **GRADE**：不適用（沒有單一預先指定或統合的 outcome）｜**Registration**：不適用\r\n> **一句話 verdict**：可作印度成人 IBD 的 CAM 與營養照護背景整理；搜尋與選文方法不夠可重現，混合證據層級不足以支持 CAM 取代常規治療或宣稱整體安全有效。\r\n\r\n# Key Points\r\n\r\n## Summary\r\n\r\n> ✅ 已閱讀並整理 PMC 全文（5,125 字、46 個正文段落；含表格與揭露段落）。\r\n\r\n- 本文主張在印度成人 IBD 照護中，應更了解患者使用的補充替代療法（CAM），並改善腸道營養治療與營養師參與；但它是敘述性回顧，沒有合併效果估計，不能把文中多種療法視為同等確立的療效或安全性證據。〔Introduction, 段落 005–007；Review／Methodology, 段落 010–012；Conclusions, 段落 051〕\r\n\r\n## 白話導讀\r\n\r\n> [!abstract] 整篇講給你聽\r\n> - **一句話**：作者整理印度成人潰瘍性結腸炎（UC）與克隆氏症（CD）患者可能使用的 CAM，以及排他性腸道營養（EEN）等營養介入，提出臨床溝通、研究與服務建議。\r\n> - **為什麼做**：作者以印度 IBD 長期治療負擔、治療可近性差異及患者使用傳統療法的情境，說明既有高收入國家治療建議未必能直接套用。這是作者的背景論述，不是本文新做的病人調查。〔Introduction, 段落 005–007〕\r\n> - **主體**：CAM 部分以 curcumin、Pathadya Churna、Udumbara kvatha basti 為主，也提到動物研究與病例報告；營養部分整理 EEN、部分腸道營養（PEN）、CD-TREAT 與 CDED，並談配方接受度、支持服務與飲食限制風險。〔Review, 段落 018–023、Table 1；Nutrition, 段落 040–049〕\r\n> - **所以呢**：最可直接採用的是在 IBD 營養評估中詢問患者是否使用草藥／CAM、避免責備語氣並記錄產品與共用藥物，以及及早安排個別化營養師諮詢。本文沒有證明某種 CAM 可安全取代 IBD 藥物；EEN 也須由 IBD 團隊按病情、營養狀態與可接受度評估。〔Review, 段落 036–038、046–049、051〕\r\n\r\n## Clinical Application\r\n\r\n- **適用對象：**台灣成人 UC／CD 營養照護團隊，可把本文當作印度情境下患者 CAM 使用與營養介入的背景閱讀；不能直接外推其費用、可近性、使用比例或療效到台灣。\r\n- **實務做法：**定期、非評斷地詢問草藥、補充品、傳統療法與自行限食；記錄產品名稱／成分、使用情境及是否與處方藥併用，轉介腸胃科醫師與藥師評估交互作用或不良反應。本文指出未告知醫療團隊與溝通不足是安全問題，但沒有提供特定產品的劑量建議。〔Review, 段落 036–038〕\r\n- **飲食評估：**避免只因患者報告食物誘發症狀就全面刪除多類食物；評估攝取、體重變化、營養不良及限制飲食風險，依個別需求提供飲食諮詢。文中引用的觀察研究指出，接受飲食諮詢者不到一半；該數值是被回顧的外部研究，不是本文樣本。〔Nutrition, 段落 048〕\r\n- **EEN：**本文整理 EEN 作為 IBD 團隊可評估的營養治療，提及常見療程約 6–8 週、口服或管灌配方；成人印度研究數量少，且患者接受度、依從性、配方口味、社會飲食及費用都是限制。不要將文中的兒科 CD 數字或跨國研究結果直接套用到台灣成人。〔Nutrition, 段落 041–049〕\r\n- **在地適用性：**偏低至有限。研究問題聚焦印度的醫療資源、文化及費用背景；文章沒有評估台灣給付、台灣臨床指引或本地病人結果。本文所提「低成本」也不等於台灣實際成本低。\r\n\r\n# Paper Details\r\n\r\n## Methods\r\n\r\n- **設計：**敘述性文獻回顧；沒有新收案、樣本數、對照組、統計分析或單一臨床主要 outcome。\r\n- **作者自述搜尋：**Embase、PubMed/MEDLINE、Google Scholar；另在需要時使用 ResearchGate、灰色文獻及先前回顧的參考文獻。搜尋詞概括涵蓋 CAM／Ayurveda／營養（如 EEN）、IBD 與印度。〔Review／Methodology, 段落 010–012〕\r\n- **未報告：**搜尋日期／時間範圍、可重現的完整檢索式、納入與排除標準、去重／篩選流程、納入篇數、資料擷取方式及正式偏倚風險評估。故不應把它描述為系統性回顧或完整的證據分級。\r\n- **正文結構：**印度 IBD 藥物治療與費用背景 → CAM 使用情境與各療法證據 → CAM 溝通及整合障礙 → EEN／PEN 等營養介入 → 執行障礙與研究建議。\r\n\r\n## Critical Appraisal\r\n\r\n| SANRA 項目（每項 0–2） | 評分 | 根據本文的判斷 |\r\n|---|---:|---|\r\n| 回顧主題的重要性 | 2 | 交代印度 IBD 照護成本、可近性與患者 CAM 使用背景。 |\r\n| 具體目的 | 2 | 明確描述要整理印度 IBD 的 CAM 與營養治療、挑戰及建議。 |\r\n| 文獻搜尋描述 | 1 | 列出資料庫與概括關鍵詞，但沒有日期、完整搜尋式及選文流程。 |\r\n| 參考文獻呈現 | 1 | 主要論述有引用，但快速評讀未逐條查核引文是否支持原句。 |\r\n| 科學推理 | 1 | 作者有指出證據不均、研究小與異質性，但結論把「低風險／安全」及可取代藥物的可能性說得超出本文呈現的資料。 |\r\n| 相關結果的呈現 | 1 | 有表格概述療法與研究類型，卻多未列樣本數、效應量、信賴區間、不良事件定義或追蹤期。 |\r\n| **合計（描述性快速評讀，不是正式品質認證）** | **8/12** | **方法透明度與結果細節不足；結論需降調。** |\r\n\r\n- **設計對應工具：**敘述性回顧，以 SANRA 與選擇性呈現檢查評讀；不是 RCT／觀察性研究／系統性回顧，故 RoB 2、ROBINS-I、AMSTAR-2 與 GRADE 不適用於這篇文章本身。\r\n- **證據層級：**文中將小型 RCT、系統性回顧、動物研究及病例報告放在同一敘述脈絡；表 1 有標出部分研究類型，但沒有逐研究樣本與效果資料，讀者不容易判斷每項建議的確定性。\r\n- **統計與臨床意義：**本文沒有自己的主要 outcome、統合效應或可供計算的 MCID；文中「超過 75% 發炎下降」、EEN 最高約 80% 緩解等數字均是對被引用研究的二手轉述，本文未提供足夠分母、信賴區間或研究細節供重新核對。不得把它們當成本文估計值或台灣成人預期效果。〔Review, 段落 020–023、Table 1；Nutrition, 段落 041–044〕\r\n- **推論落差：**本文前段承認 curcumin 證據主要限於輕至中度活動性 UC 且研究小、療程短、劑量／配方異質；CD 證據有限且不一致，其他草藥則包含動物與病例證據。結論仍將 CAM 與 EEN 一概稱為「低風險、安全的替代療法」，並提出某些情況可能取代藥物；本文提供的材料不足以支持 CAM 可取代常規 IBD 藥物。〔Review, 段落 020–023、051〕\r\n- **異質性／外推：**印度資源、保險、文化與藥物成本是文章核心背景；不能直接外推到台灣。兒童 CD 的 EEN 使用結果也不代表成人 IBD 的效果。\r\n- **作者承認的限制：**CAM 在 CD 的證據有限且衝突；多項研究樣本小、療程短、缺乏 power calculation、配方異質；若干支持來自動物或病例；印度成人 IBD 的 EEN 研究數量少，依從性與社會飲食障礙仍待處理。〔Review, 段落 020–023；Nutrition, 段落 044、046–049〕\r\n- **本文另有的限制：**搜尋與納入方法不足以重現；沒有逐項證據品質評估；多個重點數字沒有在本文呈現分母、估計精度或完整 harms；回顧中提出的「低成本」與「安全」並未以跨療法比較證據建立。\r\n- **Registration／資助與利益衝突：**回顧未提預先註冊（不適用於一般敘述性回顧；亦未提供 protocol）。作者聲明本研究未獲外部財務支持，且沒有申報中的財務關係或其他可能影響結果的活動。〔Disclosures, 段落 053–056〕\r\n- **快速評讀範圍：**本次沒有做作者／期刊指標、引用影響或逐篇參考文獻 Crossref 核驗；屬 focused-quick 明確範圍，不能解讀為那些查核已通過。\r\n\r\n## Key Findings\r\n\r\n1. **CAM／curcumin：**作者整理的 UC 試驗支持「可能作為輔助」的研究訊號，但研究規模、期間、配方及疾病嚴重度有限；CD 證據被作者描述為有限且互相矛盾。〔Review, 段落 020–021；Table 1〕\r\n2. **其他 Ayurvedic 療法：**文中提到 Pathadya Churna、與類固醇併用的 Udumbara kvatha basti、動物研究及病例報告。表 1 的「>75% 發炎下降」是單一回顧研究對外部試驗的簡述；缺乏足夠細節可在本文判斷其臨床意義。〔Review, 段落 022–023；Table 1〕\r\n3. **EEN／PEN 與個別化營養：**回顧認為 EEN 在 CD 有一定證據，但成人印度研究稀少；在其他族群／地區的研究不能直接等同於台灣成人療效。作者建議改善配方可接受度、教育與營養師／護理師支持，並避免不恰當的多重食物排除。〔Nutrition, 段落 041–049〕\r\n4. **臨床對話：**作者強調患者可能不會主動告知 CAM 使用，建議醫療人員詢問、討論安全並與合格服務提供者協作；這是本文最可立即轉成照護流程的方向。〔Review, 段落 036–038〕\r\n\r\n# Resource\r\n\r\n## Source\r\n\r\n- [PMC 全文 HTML](https://pmc.ncbi.nlm.nih.gov/articles/PMC13657756/)\r\n- [DOI](https://doi.org/10.7759/cureus.116152)\r\n- [PubMed PMID 42866443](https://pubmed.ncbi.nlm.nih.gov/42866443/)\r\n- 原文位置：PMC HTML 的 Abstract、Introduction and background、Review（Methodology／CAM／營養療法）、Table 1、Conclusions、Disclosures。逐段 block ID 對照見 `evidence/paragraph-coverage.md`。",
+      "cards": [],
+      "completedAt": "2026-10-14T03:21:55.000Z"
     }
   ]
 }
