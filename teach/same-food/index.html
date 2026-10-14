@@ -655,29 +655,29 @@ input[type=range] {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: clamp(12px, 3.5vw, 54px);
-  padding: 8px clamp(16px, 3vw, 48px);
+  gap: clamp(10px, 3vw, 44px);
+  padding: 6px clamp(12px, 2.5vw, 36px);
   position: relative;
-  overflow: hidden;
+  overflow: visible;
 }
 /* 尋找題目時：圓盤飽滿巨大 */
 .fys-card {
   position: relative;
   aspect-ratio: 1;
   border-radius: 50%;
-  width: min(43vw, 66vh);
-  max-height: 66vh;
+  width: min(42vw, 62vh);
+  max-height: 62vh;
   background: var(--card);
   border: 7px solid var(--card-line);
   box-shadow: 0 28px 70px rgba(0,0,0,0.85);
   overflow: hidden;
   flex: none;
-  transition: width 0.32s ease, max-height 0.32s ease;
+  transition: width 0.3s ease, max-height 0.3s ease;
 }
 /* 揭曉答案時：圓盤自動縮減高度讓位，確保下方衛教卡 100% 完整無遮擋！ */
 .fys.revealed .fys-card {
-  width: min(35vw, 43vh);
-  max-height: 43vh;
+  width: min(28vw, 32vh);
+  max-height: 32vh;
 }
 
 .fys-split {
@@ -731,7 +731,7 @@ input[type=range] {
 .fys-sym.hit::before {
   content: "";
   position: absolute;
-  inset: -14%;
+  inset: -22%;
   border-radius: 50%;
   border: 7px solid var(--hi2);
   opacity: 0;
@@ -758,11 +758,11 @@ input[type=range] {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-  padding: 10px 24px 18px;
+  gap: 8px;
+  padding: 8px 20px 14px;
   background: var(--stage-2);
   border-top: 1px solid rgba(255,255,255,0.08);
-  flex: none;
+  flex: 0 0 auto;
   z-index: 60;
   width: 100%;
 }
@@ -772,11 +772,11 @@ input[type=range] {
   width: min(1060px, 96vw);
   background: #112830;
   border: 2.5px solid var(--gold);
-  border-radius: 16px;
-  padding: 12px 22px;
-  box-shadow: 0 10px 32px rgba(0,0,0,0.65);
+  border-radius: 14px;
+  padding: 10px 20px;
+  box-shadow: 0 8px 28px rgba(0,0,0,0.65);
   display: none;
-  animation: fadeInDown .28s ease-out;
+  animation: fadeInDown .25s ease-out;
   box-sizing: border-box;
 }
 @keyframes fadeInDown {
@@ -1044,19 +1044,20 @@ window.FindSamePlayer = (function () {
   }
 
   function renderSym(sym, mode) {
-    if (mode === 'badge') {
-      return '<div class="food-badge-item">' +
-        '<span class="food-badge-emoji">' + esc(sym.emoji || '🍽️') + '</span>' +
-        '<span class="food-badge-name">' + esc(sym.name || '') + '</span>' +
-        '</div>';
+    if (mode === 'emoji') {
+      return '<svg viewBox="0 0 100 100" aria-hidden="true"><text x="50" y="50" font-size="78" text-anchor="middle" dominant-baseline="central">' + esc(sym.emoji || '🍎') + '</text></svg>';
     }
-    // emoji mode
-    return '<svg viewBox="0 0 100 100" aria-hidden="true"><text x="50" y="50" font-size="78" text-anchor="middle" dominant-baseline="central">' + esc(sym.emoji || '🍎') + '</text></svg>';
+    // 預設一律為清晰美觀的食材圖卡（白底圓卡 + Emoji + 繁體中文食材名稱）
+    return '<div class="food-badge-item">' +
+      '<span class="food-badge-emoji">' + esc(sym.emoji || '🍽️') + '</span>' +
+      '<span class="food-badge-name">' + esc(sym.name || '') + '</span>' +
+      '</div>';
   }
 
   function renderDisc(el, items, mode, opts) {
     opts = opts || {};
     var ansId = opts.answerId;
+    var currentMode = (mode === 'emoji') ? 'emoji' : 'badge';
     var html = '';
     for (var i = 0; i < items.length; i++) {
       var it = items[i];
@@ -1066,7 +1067,7 @@ window.FindSamePlayer = (function () {
       var size = it.r * 100;
       html += '<div class="fys-sym' + (hit ? ' hit' : '') + '" style="left:' + left.toFixed(3) + '%;top:' + top.toFixed(3) +
         '%;width:' + size.toFixed(3) + '%;height:' + size.toFixed(3) + '%;--r:' + it.rot + 'deg;--s:' + it.scale +
-        ';transform:rotate(' + it.rot + 'deg) scale(' + it.scale + ')">' + renderSym(it.sym, mode) + '</div>';
+        ';transform:rotate(' + it.rot + 'deg) scale(' + it.scale + ')">' + renderSym(it.sym, currentMode) + '</div>';
     }
     el.innerHTML = html;
   }
@@ -1097,7 +1098,7 @@ window.FindSamePlayer = (function () {
     opts = opts || {};
     var self = this;
     this.deck = deck;
-    this.mode = deck.mode || 'badge';
+    this.mode = (deck && deck.mode === 'emoji') ? 'emoji' : 'badge';
     this.i = Math.min(opts.start || 0, deck.questions.length - 1);
     this.revealed = false;
     this.sound = true;
@@ -1569,8 +1570,8 @@ window.FindSamePlayer = (function () {
       ctx.fillStyle = '#A3C2C8';
       ctx.fillText('（請全班同學或長輩一起喊出食物名稱）', W / 2, H - 36);
     } else {
-      // 答案頁：繪製結構化深色高質感超大字衛教小卡
-      var cardX = 120, cardY = 665, cardW = W - 240, cardH = 205;
+      // 答案頁：繪製結構化深色高質感超大字衛教小卡（加大並多行完整繪製零截斷）
+      var cardX = 100, cardY = 645, cardW = W - 200, cardH = 232;
       ctx.fillStyle = '#173640';
       ctx.strokeStyle = '#FFB703';
       ctx.lineWidth = 3.5;
@@ -1582,37 +1583,60 @@ window.FindSamePlayer = (function () {
         ctx.textAlign = 'left';
         ctx.fillStyle = '#FFB703';
         ctx.font = '900 38px ' + TEXT_FONT;
-        ctx.fillText('🎉 相同食物：' + food.emoji + ' ' + food.name, cardX + 36, cardY + 48);
+        ctx.fillText('🎉 相同食物：' + food.emoji + ' ' + food.name, cardX + 36, cardY + 44);
 
         // 分類膠囊
         ctx.fillStyle = '#FF6B35';
-        roundRect(ctx, cardX + 540, cardY + 22, 180, 42, 21, true, false);
+        roundRect(ctx, cardX + 540, cardY + 18, 180, 42, 21, true, false);
         ctx.fillStyle = '#FFFFFF';
         ctx.font = '900 22px ' + TEXT_FONT;
         ctx.textAlign = 'center';
-        ctx.fillText(food.category, cardX + 630, cardY + 44);
+        ctx.fillText(food.category, cardX + 630, cardY + 40);
 
         // 建議份數
         ctx.textAlign = 'left';
-        ctx.font = '900 28px ' + TEXT_FONT;
+        ctx.font = '900 26px ' + TEXT_FONT;
         ctx.fillStyle = '#A3C2C8';
-        ctx.fillText('【建議份數】：', cardX + 36, cardY + 108);
+        ctx.fillText('【建議份數】：', cardX + 36, cardY + 96);
         ctx.fillStyle = '#FFFFFF';
-        ctx.font = '700 28px ' + TEXT_FONT;
-        ctx.fillText(food.portion, cardX + 210, cardY + 108);
+        ctx.font = '700 26px ' + TEXT_FONT;
+        ctx.fillText(food.portion, cardX + 210, cardY + 96);
 
-        // 核心營養
-        ctx.font = '900 28px ' + TEXT_FONT;
+        // 核心營養（100% 完整換行呈現，絕無任何截斷）
+        ctx.font = '900 26px ' + TEXT_FONT;
         ctx.fillStyle = '#A3C2C8';
-        ctx.fillText('【核心營養】：', cardX + 36, cardY + 158);
+        ctx.fillText('【核心營養】：', cardX + 36, cardY + 142);
         ctx.fillStyle = '#E8F5F5';
-        ctx.font = '600 25px ' + TEXT_FONT;
-        var nutStr = food.nutrition;
-        if (ctx.measureText(nutStr).width > cardW - 250) {
-          nutStr = nutStr.slice(0, 52) + '…';
-        }
-        ctx.fillText(nutStr, cardX + 210, cardY + 158);
+        ctx.font = '600 24px ' + TEXT_FONT;
+        drawWrappedText(ctx, food.nutrition, cardX + 210, cardY + 142, cardW - 250, 36, 3);
       }
+    }
+  }
+
+  /* Canvas 文字自動換行繪製函數（確保營養衛教完整呈現） */
+  function drawWrappedText(ctx, text, x, y, maxWidth, lineHeight, maxLines) {
+    maxLines = maxLines || 3;
+    var chars = text.split('');
+    var line = '';
+    var lines = [];
+    for (var n = 0; n < chars.length; n++) {
+      var testLine = line + chars[n];
+      if (ctx.measureText(testLine).width > maxWidth && n > 0) {
+        lines.push(line);
+        line = chars[n];
+        if (lines.length >= maxLines - 1) {
+          lines.push(text.substring(n));
+          line = '';
+          break;
+        }
+      } else {
+        line = testLine;
+      }
+    }
+    if (line) lines.push(line);
+
+    for (var k = 0; k < lines.length; k++) {
+      ctx.fillText(lines[k], x, y + k * lineHeight);
     }
   }
 
@@ -1944,14 +1968,34 @@ window.FindSamePlayer = (function () {
     btn.disabled = true;
     btn.textContent = '打包 HTML 中…';
 
+    // 確保 deck.mode 始終為合法值，預設一律為食材圖卡模式
+    deck.mode = (deck.mode === 'emoji') ? 'emoji' : 'badge';
+
+    var offlineGlobalCSS =
+      ':root {\n' +
+      '  --sans: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", -apple-system, sans-serif;\n' +
+      '  --primary: #FF6B35;\n' +
+      '  --secondary: #00A896;\n' +
+      '  --secondary-deep: #028090;\n' +
+      '  --gold: #FFB703;\n' +
+      '  --stage: #10252C;\n' +
+      '  --stage-2: #193842;\n' +
+      '  --card: #FFFDF9;\n' +
+      '  --card-line: #0A171B;\n' +
+      '  --txt: #F4FBFB;\n' +
+      '  --txt-2: #A3C2C8;\n' +
+      '}\n' +
+      '*, *::before, *::after { box-sizing: border-box; }\n' +
+      'html, body { width: 100%; height: 100%; margin: 0; padding: 0; background: #10252C; overflow: hidden; font-family: var(--sans); }\n';
+
     var htmlStr = '<!DOCTYPE html>\n<html lang="zh-Hant">\n<head>\n<meta charset="utf-8">\n' +
       '<meta name="viewport" content="width=device-width, initial-scale=1">\n' +
       '<title>' + deck.title + ' (單機離線版)</title>\n' +
       '<link rel="preconnect" href="https://fonts.googleapis.com">\n' +
       '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n' +
       '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap">\n' +
-      '<style>' + $('playerCSS').textContent + '</style>\n' +
-      '</head>\n<body style="margin:0; background:#10252C; overflow:hidden;">\n' +
+      '<style>\n' + offlineGlobalCSS + '\n' + $('playerCSS').textContent + '\n</style>\n' +
+      '</head>\n<body>\n' +
       '<div id="offlineHost"></div>\n' +
       '<script>\n' +
       'window.OFFLINE_DECK = ' + JSON.stringify(deck) + ';\n' +
