@@ -51,7 +51,8 @@ pages_info = [
     {
         "category": "互動教具與模組 (Interactive Teaching Tools)",
         "items": [
-            {"title": "教具：每日營養與熱量需求計算器 (TDEE/BMR)", "url": f"{BASE_URL}/teach/daily-needs/", "desc": "精算 TDEE、BMR 基礎代謝率與 6 大飲食型態三大營養素建議克數與份數。", "priority": "0.8", "changefreq": "weekly"},
+            {"title": "教具：每日營養與熱量需求計算器 (TDEE/BMR)", "url": f"{BASE_URL}/teach/daily-needs/", "desc": "精算 TDEE、BMR 基礎代謝率與三大巨量營養素建議克數與衛福部 DRIs 第八版建議。", "priority": "0.8", "changefreq": "weekly"},
+            {"title": "教具：智慧餐食與份數分配器 (Meal Planner)", "url": f"{BASE_URL}/teach/meal-planner/", "desc": "營養師配膳專業設計！由熱量與三大比例推導六大類份數、低中高脂肉連動油脂，安排 2~6 餐與示範循環菜單。", "priority": "0.8", "changefreq": "weekly"},
             {"title": "教具：食物代換速查表 (Food Exchange)", "url": f"{BASE_URL}/teach/food-exchange/", "desc": "依衛福部國健署最新標準完整收錄，六大類食物每份重量、熱量與營養素速查資料庫。", "priority": "0.8", "changefreq": "weekly"},
             {"title": "教具：營養排行榜 (Nutrition Ranking)", "url": f"{BASE_URL}/teach/nutritionranking/", "desc": "六大類食材營養密度與微量元素即時排序與比較工具。", "priority": "0.8", "changefreq": "weekly"},
             {"title": "教具：論文讀書小站 (Paper Radar)", "url": f"{BASE_URL}/teach/paper-radar/", "desc": "國際權威醫學期刊與營養實證研究導讀雷達站。", "priority": "0.8", "changefreq": "weekly"},

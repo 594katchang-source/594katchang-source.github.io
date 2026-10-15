@@ -831,6 +831,13 @@
             • <b>中高齡肌少防護（熟齡長輩）</b>：若年齡大於 65 歲，建議每日蛋白質攝取量維持在每公斤體重 1.2–1.5 公克，並平均分配於三餐，更有助於刺激肌肉蛋白合成並預防肌少症。<br>
             • <b>慢性疾病族群須知</b>：若患有慢性腎臟病（CKD）、心臟衰竭或需嚴格限鉀/限鈉者，微量元素與水分攝取請遵照專科醫師與營養師之個別化門診指引。
           </div>
+
+          <!-- 一鍵前往智慧餐食與份數分配器 -->
+          <div style="margin-top:24px; text-align:center;">
+            <a id="btnGoMealPlanner" href="../meal-planner/" class="btn-calc" style="text-decoration:none; display:inline-flex; align-items:center; justify-content:center; gap:10px; padding:14px 28px; width:auto; font-size:1.15rem;">
+              🍽️ 帶入此熱量與比例，前往「智慧餐食與份數分配器」規劃各餐份數 ➔
+            </a>
+          </div>
         </div>
       </div>
 
@@ -1086,6 +1093,12 @@
 
       // 7. 渲染 Chart.js 環形圖 (Doughnut Chart)
       renderMacroChart(preset.name, pCal, cCal, fCal, targetCalories);
+
+      // 動態更新前往「智慧餐食與份數分配器」之連結參數
+      const mealPlannerBtn = document.getElementById('btnGoMealPlanner');
+      if (mealPlannerBtn) {
+        mealPlannerBtn.href = `../meal-planner/?cal=${targetCalories}&p=${preset.protein}&c=${preset.carbs}&f=${preset.fat}`;
+      }
 
       // 顯示結果並滾動
       const resBox = document.getElementById('results');
