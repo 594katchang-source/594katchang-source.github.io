@@ -882,78 +882,220 @@
       currentDay: 1
     };
 
-    // 示範菜色資料庫 (對接 cook-database 275 道真實菜色)
+    // 示範菜色資料庫 (依據 teach/food-exchange 代換表結構化定義)
     const SAMPLE_MENUS = {
       1: {
         breakfast: {
-          grain: { name: '烤全麥吐司', portion: '2 片 (約 50g)', gram: '50g' },
-          protein: { name: '水煮蛋 / 荷包蛋', portion: '1 顆 (約 55g)', gram: '55g', link: '../cook-database/' },
-          veg: { name: '和風生菜小黃瓜沙拉', portion: '1 碗 (約 100g)' },
-          fruit: { name: '富士小蘋果', portion: '1 個 (約 130g)' },
-          dairy: { name: '全脂鮮乳', portion: '1 杯 (240ml)' },
-          oil: { name: '特級初榨橄欖油', portion: '1 茶匙 (5g)' }
+          grain: { name: '烤全麥吐司', type: 'toast' },
+          protein: { name: '荷包蛋 / 水煮蛋', type: 'egg', link: '../cook-database/' },
+          veg: { name: '和風小黃瓜彩椒沙拉' },
+          fruit: { name: '富士小蘋果', type: 'apple' },
+          dairy: { name: '全脂鮮乳', type: 'milk' },
+          oil: { name: '特級初榨橄欖油', type: 'oil' }
         },
         lunch: {
-          grain: { name: '胚芽米飯', portion: '約 0.8 碗 (133g)', gram: '133g' },
-          protein: { name: '茶油時蔬蒸雞胸肉', portion: '約 60g 熟肉 (2 份)', link: '../cook-database/' },
-          veg: { name: '蒜炒地瓜葉與黑木耳', portion: '約 0.8 碗 (120g)' },
-          fruit: { name: '芭樂切片', portion: '1/3 個 (160g)' },
-          oil: { name: '無調味綜合堅果', portion: '1 湯匙 (10g)' }
+          grain: { name: '胚芽米飯', type: 'rice' },
+          protein: { name: '茶油時蔬蒸雞胸肉', type: 'chicken', link: '../cook-database/' },
+          veg: { name: '蒜炒地瓜葉與黑木耳' },
+          fruit: { name: '芭樂切片', type: 'guava' },
+          oil: { name: '無調味綜合堅果', type: 'nuts' }
         },
         dinner: {
-          grain: { name: '紅藜地瓜飯', portion: '約 0.8 碗 (133g)', gram: '133g' },
-          protein: { name: '清蒸破布子鯛魚片', portion: '約 70g 熟魚 (2 份)', link: '../cook-database/' },
-          veg: { name: '彩椒炒四季豆', portion: '約 0.8 碗 (120g)' },
-          oil: { name: '純芝麻油 (淋菜烹調)', portion: '1.5 茶匙 (7.5g)' }
+          grain: { name: '紅藜胚芽飯', type: 'rice' },
+          protein: { name: '清蒸破布子鯛魚片', type: 'fish', link: '../cook-database/' },
+          veg: { name: '彩椒炒四季豆' },
+          fruit: null,
+          dairy: null,
+          oil: { name: '純芝麻油 (淋菜烹調)', type: 'oil' }
         }
       },
       2: {
         breakfast: {
-          grain: { name: '溫熱熟燕麥片', portion: '約 1 碗 (60g 乾麥片泡發)' },
-          protein: { name: '無糖高纖豆漿', portion: '1 杯 (190ml, 1 份)' },
-          veg: { name: '番茄小黃瓜片', portion: '約 0.5 碗 (60g)' },
-          fruit: { name: '香蕉 (小)', portion: '1 根 (70g)' },
-          dairy: { name: '低脂起司片', portion: '1 片 (22g)' },
-          oil: { name: '無調味腰果', portion: '5 粒 (10g)' }
+          grain: { name: '溫熱熟燕麥片', type: 'oats' },
+          protein: { name: '無糖高纖豆漿佐嫩蒸蛋', type: 'egg', link: '../cook-database/' },
+          veg: { name: '番茄小黃瓜沙拉' },
+          fruit: { name: '香蕉 (小)', type: 'banana' },
+          dairy: { name: '低脂起司片', type: 'cheese' },
+          oil: { name: '無調味腰果', type: 'nuts' }
         },
         lunch: {
-          grain: { name: '紫米五穀飯', portion: '約 0.8 碗 (133g)' },
-          protein: { name: '香烤鮭魚佐檸檬', portion: '約 60g 熟魚 (2 份)', link: '../cook-database/' },
-          veg: { name: '清炒高麗菜與紅蘿蔔', portion: '約 0.8 碗 (120g)' },
-          fruit: { name: '聖女番茄', portion: '約 12 顆 (110g)' },
-          oil: { name: '苦茶油 (烹調用)', portion: '1.5 茶匙 (7.5g)' }
+          grain: { name: '紫米五穀飯', type: 'rice' },
+          protein: { name: '香烤鮭魚佐檸檬', type: 'fish', link: '../cook-database/' },
+          veg: { name: '清炒高麗菜與紅蘿蔔' },
+          fruit: { name: '聖女番茄', type: 'tomato' },
+          oil: { name: '苦茶油 (烹調用)', type: 'oil' }
         },
         dinner: {
-          grain: { name: '清蒸栗子南瓜', portion: '約 1 碗 (170g, 2份全穀)' },
-          protein: { name: '九層塔香煎豆腐', portion: '傳統豆腐 1 塊 (160g, 2 份)', link: '../cook-database/' },
-          veg: { name: '薑絲清炒芥藍菜', portion: '約 0.8 碗 (120g)' },
-          oil: { name: '特級初榨橄欖油', portion: '1.5 茶匙 (7.5g)' }
+          grain: { name: '清蒸栗子南瓜', type: 'pumpkin' },
+          protein: { name: '九層塔香煎傳統豆腐', type: 'tofu', link: '../cook-database/' },
+          veg: { name: '薑絲清炒芥藍菜' },
+          fruit: null,
+          dairy: null,
+          oil: { name: '特級初榨橄欖油', type: 'oil' }
         }
       },
       3: {
         breakfast: {
-          grain: { name: '手工地瓜燒餅', portion: '約 0.8 個 (60g)' },
-          protein: { name: '蔥花炒蛋', portion: '1 顆 (約 55g)', link: '../cook-database/' },
-          veg: { name: '洋蔥彩椒絲', portion: '約 0.5 碗 (50g)' },
-          fruit: { name: '奇異果', portion: '1.5 個 (105g)' },
-          dairy: { name: '高鈣無糖優酪乳', portion: '1 杯 (200ml)' },
-          oil: { name: '南瓜子仁', portion: '1 湯匙 (10g)' }
+          grain: { name: '手工地瓜燒餅', type: 'flatbread' },
+          protein: { name: '香煎蔥花蛋', type: 'egg', link: '../cook-database/' },
+          veg: { name: '洋蔥彩椒絲' },
+          fruit: { name: '奇異果', type: 'kiwi' },
+          dairy: { name: '高鈣無糖優酪乳', type: 'yogurt' },
+          oil: { name: '南瓜子仁', type: 'nuts' }
         },
         lunch: {
-          grain: { name: '蕎麥涼麵佐胡麻', portion: '熟麵約 1 碗 (120g)' },
-          protein: { name: '蔥燒里肌嫩豬排', portion: '生重約 70g (2 份)', link: '../cook-database/' },
-          veg: { name: '川燙青江菜與金針菇', portion: '約 0.8 碗 (120g)' },
-          fruit: { name: '大水梨切塊', portion: '3/4 個 (145g)' },
-          oil: { name: '白芝麻胡麻醬', portion: '1 湯匙 (12g)' }
+          grain: { name: '蕎麥涼麵', type: 'noodles' },
+          protein: { name: '蔥燒里肌嫩豬排', type: 'meat', link: '../cook-database/' },
+          veg: { name: '川燙青江菜與金針菇' },
+          fruit: { name: '大水梨切塊', type: 'apple' },
+          oil: { name: '白芝麻胡麻醬', type: 'oil' }
         },
         dinner: {
-          grain: { name: '雜糧十穀飯', portion: '約 0.8 碗 (133g)' },
-          protein: { name: '薑絲鮮蛤蜊燉豆腐', portion: '文蛤 160g + 嫩豆腐半盒', link: '../cook-database/' },
-          veg: { name: '枸杞川燙皇宮菜', portion: '約 0.8 碗 (120g)' },
-          oil: { name: '冷壓芝麻油', portion: '1 茶匙 (5g)' }
+          grain: { name: '雜糧十穀飯', type: 'rice' },
+          protein: { name: '薑絲鮮鱸魚豆腐湯', type: 'fish', link: '../cook-database/' },
+          veg: { name: '枸杞川燙皇宮菜' },
+          fruit: null,
+          dairy: null,
+          oil: { name: '冷壓芝麻油', type: 'oil' }
         }
       }
     };
+
+    // --- 食物代換標準動態換算引擎 (100% 依據 teach/food-exchange 代換表) ---
+    function formatGrainPortion(type, servings) {
+      if (servings <= 0) return '0 份';
+      if (type === 'toast') {
+        // teach/food-exchange: 薄吐司 1份 = 1/2片 (25g)
+        const slices = (servings * 0.5).toFixed(1);
+        const grams = Math.round(servings * 25);
+        return `${slices} 片 (生重約 ${grams}g)`;
+      } else if (type === 'rice') {
+        // 1份 = 1/4碗 (熟重 40g, 生重 20g)
+        const bowls = (servings * 0.25).toFixed(1);
+        const grams = Math.round(servings * 40);
+        return `約 ${bowls} 碗 (熟重約 ${grams}g)`;
+      } else if (type === 'oats') {
+        // 1份 = 3湯匙 (20g乾重泡發)
+        const spoons = (servings * 3).toFixed(1);
+        const grams = Math.round(servings * 20);
+        return `${spoons} 湯匙 (乾燕麥約 ${grams}g 泡發)`;
+      } else if (type === 'pumpkin') {
+        // 1份 = 85g
+        const grams = Math.round(servings * 85);
+        return `約 ${grams}g (塊狀約 ${(servings * 0.5).toFixed(1)} 碗)`;
+      } else if (type === 'sweet_potato') {
+        // 1份 = 1/2條小 (55g)
+        const pcs = (servings * 0.5).toFixed(1);
+        const grams = Math.round(servings * 55);
+        return `約 ${pcs} 條小 (約 ${grams}g)`;
+      } else if (type === 'flatbread') {
+        // 1份 = 1/4個 (20g)
+        const pcs = (servings * 0.25).toFixed(1);
+        const grams = Math.round(servings * 20);
+        return `約 ${pcs} 個 (約 ${grams}g)`;
+      } else if (type === 'noodles') {
+        // 1份 = 1/2碗熟麵 (60g)
+        const bowls = (servings * 0.5).toFixed(1);
+        const grams = Math.round(servings * 60);
+        return `熟麵約 ${bowls} 碗 (約 ${grams}g)`;
+      }
+      return `${servings.toFixed(1)} 份`;
+    }
+
+    function formatProteinPortion(dishName, type, servings) {
+      if (servings <= 0) return '0 份';
+      // teach/food-exchange: 1份豆魚蛋肉 = 7g 蛋白質
+      if (type === 'egg') {
+        // 雞蛋 1 顆 (55g) = 1.0 份
+        if (servings <= 1.1) {
+          return `荷包蛋 / 水煮蛋 1 顆 (約 55g，1.0 份)`;
+        } else {
+          // 當份數大於 1 份 (如 1.8 份、2.0 份)，雞蛋出 1 顆，剩餘蛋白質由豆漿或毛豆補足
+          const rem = servings - 1.0;
+          const soymilkMl = Math.round(rem * 190);
+          return `雞蛋 1 顆 (1.0 份，55g)<br><span style="color:#0f5b43; font-weight:800;">+ 蛋白補足</span>：無糖豆漿約 ${soymilkMl} ml (${rem.toFixed(1)} 份)`;
+        }
+      } else if (type === 'chicken' || type === 'meat') {
+        // 去骨生肉 1份 = 35g (熟重約 30g)
+        const rawG = Math.round(servings * 35);
+        const cookedG = Math.round(servings * 30);
+        return `去骨肉生重約 ${rawG}g (熟重約 ${cookedG}g，${servings.toFixed(1)} 份)`;
+      } else if (type === 'fish') {
+        // 魚片 1份 = 35g 生重 (熟重約 30g)
+        const rawG = Math.round(servings * 35);
+        const cookedG = Math.round(servings * 30);
+        return `鮮魚生重約 ${rawG}g (熟重約 ${cookedG}g，${servings.toFixed(1)} 份)`;
+      } else if (type === 'tofu') {
+        // 傳統豆腐 1份 = 80g
+        const grams = Math.round(servings * 80);
+        return `傳統豆腐約 ${grams}g (${servings.toFixed(1)} 份)`;
+      }
+      return `${servings.toFixed(1)} 份`;
+    }
+
+    function formatVegPortion(servings) {
+      if (servings <= 0) return '0 份';
+      // 1份蔬菜 = 生重 100g (熟重約 0.5 碗)
+      const grams = Math.round(servings * 100);
+      const bowls = (servings * 0.5).toFixed(1);
+      return `生重約 ${grams}g (煮熟約 ${bowls} 碗)`;
+    }
+
+    function formatFruitPortion(type, servings) {
+      if (servings <= 0) return '0 份';
+      if (type === 'apple') {
+        const pcs = (servings * 1.0).toFixed(1);
+        const g = Math.round(servings * 130);
+        return `約 ${pcs} 個 (約 ${g}g)`;
+      } else if (type === 'guava') {
+        const pcs = (servings * 0.33).toFixed(1);
+        const g = Math.round(servings * 160);
+        return `約 ${pcs} 個 (約 ${g}g)`;
+      } else if (type === 'tomato') {
+        const pcs = Math.round(servings * 23);
+        const g = Math.round(servings * 220);
+        return `約 ${pcs} 顆 (約 ${g}g)`;
+      } else if (type === 'banana') {
+        const pcs = (servings * 1.0).toFixed(1);
+        const g = Math.round(servings * 70);
+        return `小約 ${pcs} 根 (約 ${g}g)`;
+      } else if (type === 'kiwi') {
+        const pcs = (servings * 1.5).toFixed(1);
+        const g = Math.round(servings * 105);
+        return `約 ${pcs} 個 (約 ${g}g)`;
+      }
+      return `${servings.toFixed(1)} 份`;
+    }
+
+    function formatOilPortion(type, servings) {
+      if (servings <= 0) return '0 份';
+      if (type === 'oil') {
+        const tsp = (servings * 1.0).toFixed(1);
+        const g = Math.round(servings * 5);
+        return `約 ${tsp} 茶匙 (${g}g)`;
+      } else if (type === 'nuts') {
+        const spoons = (servings * 1.0).toFixed(1);
+        const g = Math.round(servings * 10);
+        return `無調味堅果約 ${spoons} 湯匙 (${g}g)`;
+      }
+      return `${servings.toFixed(1)} 份`;
+    }
+
+    function formatDairyPortion(type, servings) {
+      if (servings <= 0) return '0 份';
+      if (type === 'milk') {
+        const ml = Math.round(servings * 240);
+        return `約 ${ml} ml (${servings.toFixed(1)} 杯)`;
+      } else if (type === 'cheese') {
+        const pcs = (servings * 2).toFixed(1);
+        const g = Math.round(servings * 45);
+        return `約 ${pcs} 片 (${g}g)`;
+      } else if (type === 'yogurt') {
+        const ml = Math.round(servings * 200);
+        return `約 ${ml} ml`;
+      }
+      return `${servings.toFixed(1)} 份`;
+    }
 
     function updatePercentSum() {
       const p = parseFloat(document.getElementById('proteinPercent').value) || 0;
@@ -1224,6 +1366,20 @@
         const d = dayData[m.key];
         if (!d) return;
 
+        const grainServ = parseFloat((state.grains / state.mealCount).toFixed(1));
+        const meatServ = parseFloat((opt.meatServ / state.mealCount).toFixed(1));
+        const vegServ = parseFloat((state.veg / state.mealCount).toFixed(1));
+        const fruitServ = parseFloat((state.fruit / state.mealCount).toFixed(1));
+        const oilServ = parseFloat((opt.oilServ / state.mealCount).toFixed(1));
+        const milkServ = (m.key === 'breakfast') ? state.milk : 0;
+
+        const grainPortionStr = formatGrainPortion(d.grain.type, grainServ);
+        const proteinPortionStr = formatProteinPortion(d.protein.name, d.protein.type, meatServ);
+        const vegPortionStr = formatVegPortion(vegServ);
+        const fruitPortionStr = d.fruit ? formatFruitPortion(d.fruit.type, fruitServ) : '';
+        const oilPortionStr = d.oil ? formatOilPortion(d.oil.type, oilServ) : '';
+        const dairyPortionStr = d.dairy ? formatDairyPortion(d.dairy.type, milkServ) : '';
+
         html += `
           <div class="menu-meal-card">
             <div class="menu-meal-title">
@@ -1232,32 +1388,32 @@
             <div class="dish-items-grid">
               <!-- 主食 -->
               <div class="dish-item-box">
-                <div class="dish-category">🌾 主食 (${(state.grains / state.mealCount).toFixed(1)} 份)</div>
+                <div class="dish-category">🌾 主食 (${grainServ} 份)</div>
                 <div class="dish-name">${d.grain.name}</div>
-                <div class="dish-portion">${d.grain.portion}</div>
+                <div class="dish-portion" style="color:var(--green-dark); font-weight:800;">${grainPortionStr}</div>
               </div>
 
               <!-- 主菜 -->
               <div class="dish-item-box">
-                <div class="dish-category">🥩 主菜 (${(opt.meatServ / state.mealCount).toFixed(1)} 份)</div>
+                <div class="dish-category">🥩 主菜 (${meatServ} 份)</div>
                 <div class="dish-name">${d.protein.name}</div>
-                <div class="dish-portion">${d.protein.portion}</div>
+                <div class="dish-portion" style="color:#0c4d38; font-weight:800; line-height:1.5;">${proteinPortionStr}</div>
                 ${d.protein.link ? `<a class="dish-link" href="${d.protein.link}" target="_blank">▶ 檢視官方食譜示範 ↗</a>` : ''}
               </div>
 
               <!-- 配菜 -->
               <div class="dish-item-box">
-                <div class="dish-category">🥬 配菜 (${(state.veg / state.mealCount).toFixed(1)} 份)</div>
+                <div class="dish-category">🥬 配菜 (${vegServ} 份)</div>
                 <div class="dish-name">${d.veg.name}</div>
-                <div class="dish-portion">${d.veg.portion}</div>
+                <div class="dish-portion" style="color:var(--green-dark); font-weight:800;">${vegPortionStr}</div>
               </div>
 
               <!-- 點心 / 佐料 -->
               <div class="dish-item-box">
                 <div class="dish-category">🍎 點心／好油／乳品</div>
-                ${d.fruit ? `<div style="font-size:0.95rem; font-weight:800; color:#b91c1c;">🍎 水果：${d.fruit.name} ${d.fruit.portion}</div>` : ''}
-                ${d.oil ? `<div style="font-size:0.95rem; font-weight:800; color:#b45309;">🥜 油脂：${d.oil.name} ${d.oil.portion}</div>` : ''}
-                ${d.dairy ? `<div style="font-size:0.95rem; font-weight:800; color:#1d4ed8;">🥛 乳品：${d.dairy.name} ${d.dairy.portion}</div>` : ''}
+                ${d.fruit ? `<div style="font-size:0.92rem; font-weight:800; color:#b91c1c; margin-bottom:4px;">🍎 水果 (${fruitServ}份)：${d.fruit.name} ${fruitPortionStr}</div>` : ''}
+                ${d.oil ? `<div style="font-size:0.92rem; font-weight:800; color:#b45309; margin-bottom:4px;">🥜 油脂 (${oilServ}份)：${d.oil.name} ${oilPortionStr}</div>` : ''}
+                ${(d.dairy && milkServ > 0) ? `<div style="font-size:0.92rem; font-weight:800; color:#1d4ed8;">🥛 乳品 (${milkServ}份)：${d.dairy.name} ${dairyPortionStr}</div>` : ''}
               </div>
             </div>
           </div>
