@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T04:55:21.375Z",
+  "generatedAt": "2026-10-15T05:03:15.966Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -97863,6 +97863,83 @@
       "content": "---\ntags:\n  - source/journal\ncitekey: null\ndoi: \"10.1093/ckj/sfag320\"\nzotero: null\njournal: \"Clinical Kidney Journal\"\nyear: 2026\nauthors: \"Piccoli GB, Nava J, Romano-Andrioni B, Arias-Guillén M, De Martino F, Speller J, Torreggiani M, D’Alessandro C, Avesani CM, European Renal Nutrition Working Group of the European Renal Association\"\nstudy_type: \"narrative review\"\npmid: \"42866020\"\nreview_depth: \"quick\"\n---\n\n> [!info] 品質快照\n> **設計**：敘述性綜述，納入兩位共同作者／專家病人的經驗敘事｜**樣本數**：無統計分析樣本；兩段個人經驗不等於研究樣本\n> **偏倚評估**：原始研究RoB不適用；SANRA快速評分 **8/12**（重要性2、目的2、搜尋0、引用2、論證1、結果資料1）。最大疑慮是未說明搜尋與選文方式，無法判斷證據涵蓋是否完整。\n> **GRADE**：不適用；本文沒有定義單一PICO、合併臨床結果或逐結果確定性評級｜**註冊**：不適用\n> **一句話 verdict**：可作為跨CKD病程、病人文化偏好與環境永續的討論導讀；不宜當成低蛋白、植物性或鉀磷處方的療效證明。\n\n# Key Points\n\n## Summary\n\n作者主張腎臟照護可把健康與環境永續一併納入營養討論：優先食物品質、較少高度加工食品、適度植物性飲食與個別化諮詢，同時避免把限制變成僵硬規則。這是敘述性綜述，不是系統搜尋或療效統合分析；臨床效果與證據確定性沒有被重新量化。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：作者把腎臟病預防、不同CKD階段的飲食、透析水足跡和病人生活經驗放在一起，提倡「兼顧病人與環境」的營養照護。\n> - **為什麼做**：腎臟飲食常被簡化成限制蛋白質、鉀或磷，但食物也牽涉生活品質、文化、營養狀態與環境成本；作者希望把這些面向放回共同決策。\n> - **主體（敘述性綜述）**：①談飲食與CKD預防；②說明低蛋白與植物性飲食的定義及品質差異；③整理保守治療、透析和移植期間蛋白質、磷、鉀的飲食爭議；④用兩位專家病人的經驗說明文化與彈性；⑤用HDF與漢堡的水量比喻說明環境負擔。文中另以一位70 kg成人的圖表比較三種飲食，但本次只核對圖說，沒有視覺讀取圖內數值。\n> - **所以呢**：這篇支持臨床人員多問病人吃什麼、在意什麼，並依腎功能、化驗、藥物與營養狀況調整；它沒有證明所有CKD患者都應吃素或採同一蛋白質、鉀、磷目標。\n> - **最重要限制**：文章未報告文獻搜尋方法、納入條件或證據分級；水足跡示例依估算假設而變，不能解讀成飲食能實際抵銷透析造成的環境負擔。\n\n## Clinical Application\n\n- **適用範圍**：作為CKD營養溝通與共同決策的概念文章，涵蓋預防、非透析CKD、透析及腎移植；不是個別治療指引。\n- **可帶入臨床的做法**：討論飲食時一併了解食物文化、可負擔性、生活作息、病人目標及可持續執行程度；隨CKD階段、殘餘腎功能、藥物、化驗與營養狀態回頭調整（P044–P055）。\n- **不宜直接照抄的處方**：文中0.8 g/kg/day是作者描述一般建議的背景值；文章本身沒有試驗比較或個別處方演算法（P028）。極低蛋白飲食、透析期間蛋白質調整及植物性鉀磷解讀都需要適應症、營養狀態與監測，不能由此篇單獨決定（P036–P043）。\n- **風險界線**：作者指出全植物食物的鉀生體可用率可能較低，但這不等於可忽略個別高血鉀、藥物影響或抽血監測（P041）。\n- **在地適用性**：可採用以食物品質、文化適配及共同決策為原則；具體食物替換和營養目標仍須依台灣個案的腎臟科／營養照護評估，不由環境論述推導個人處方。\n\n# Paper Details\n\n## Methods\n\n- **研究設計**：敘述性綜述；摘要說明以腎病患者經驗補充跨CKD病程的營養與永續論述（P001、P009）。\n- **文獻方法**：全文沒有資料庫名稱、搜尋式、搜尋日期、納入／排除條件、篩選流程或研究品質評估方法；因此不能確認文獻是否完整或重現選文。\n- **研究對象／樣本**：沒有新招募的研究樣本；文中兩段病人觀點由共同作者中的專家病人撰寫（P010–P012、P049–P055、P065–P066）。\n- **統計與主要結果**：沒有統計方法、主要臨床結果或效果合併；文章整理既有研究並提出概念性建議。\n- **文獻量**：參考文獻62筆；本次 focused-quick 沒有逐篇做 CrossRef 與主張對照查核。\n\n## Critical Appraisal\n\n### SANRA 快速評估\n\n| 面向 | 分數 | 判斷依據 |\n|---|---:|---|\n| 說明文章重要性 | 2/2 | 將CKD照護、營養與醫療環境足跡連結，理由清楚（P001、P003–P009）。 |\n| 說明目標 | 2/2 | 摘要與引言清楚說明要討論跨CKD階段的營養和永續照護（P001、P009）。 |\n| 描述文獻搜尋 | 0/2 | 未提供搜尋來源、日期、策略或選文條件。 |\n| 引用 | 2/2 | 主要段落附有參考編號，全文列62筆；本次不代表已查證每項引用是否準確。 |\n| 科學論證 | 1/2 | 對高蛋白、鉀磷、透析飲食和病人自主有平衡討論，但無系統性證據整理，較廣的結論可能受選文影響。 |\n| 呈現相關結果資料 | 1/2 | 提供部分數值與估算，卻沒有整理臨床效果大小、證據等級或可重算的環境估算步驟。 |\n| **合計** | **8/12** | 快速閱讀者評分，作為敘述性綜述的可讀性／完整度提醒；不是治療效果GRADE或原始試驗RoB。 |\n\nSANRA六項及0–2分評分方式依原始工具說明；此表是本次單人快速評估，沒有第二位評讀者校準。\n\n### 統計、估算與推論\n\n- **沒有臨床效應可做統計或MCID核對**：無試驗組別、效應量、信賴區間、p值或主要臨床終點。GRADE與臨床效果量不適用於本文本身。\n- **漢堡等值是水量示意**：Figure 1題註給出HDF每年約100,000 L、工業漢堡每個約1,500 L，算術比值約66.7個。正文稱估計受畜牧方式等影響（P016、P018–P021）；但全文沒有讓讀者重算100,000 L年度值的完整設備、療程頻率與生命週期假設。它只比較水量，不是碳排等值，也沒有證明患者飲食能抵銷透析用水。\n- **圖2數字未核**：圖說稱比較70 kg成人的植物為主、標準低蛋白及高動物性蛋白三種飲食之營養、碳與水足跡；經驗證的HTML抽取到圖說但未讀取圖片內數值，故本筆記不引用圖內數字（P017）。\n- **植物性飲食與腎臟效益需保留條件**：文中把植物食物較低磷生體可用率、較低血磷／FGF-23，以及蛋白質調整的腎臟影響連結到可能好處（P030–P036、P040–P043）；本篇未做系統性研究選取、偏倚評估或因果統合，不能據此確認跨病程的療效大小。\n- **論點結構檢查**：以「植物為主飲食跨CKD階段具有腎臟保護臨床效果」作為因果主張輸入 `argdown_lint.py`，偵測到 association→causation 缺口。本文同時使用機轉、特定研究及病人經驗；這些材料可支持討論假說和共同決策，不能單獨證成廣泛因果結論。\n- **相反面與不確定性**：作者指出植物性不必然健康或低足跡，過度加工、食物運輸和不同畜牧模式可能改變環境影響；對增量透析飲食政策也明言需長期資料（P021、P043）。\n\n### Funding / COI\n\n- **利益衝突**：作者聲明無（P072）。\n- **資料**：作者聲明沒有為本文產生或分析新資料（P073、P075）。\n- **資助**：全文未見獨立 funding statement；工作小組致謝不等同資助揭露（P059–P060）。\n\n## Key Findings\n\n1. **營養照護從限制轉向食物品質與個別化**：作者主張以較少高度加工食物、適量植物來源食物及個別化飲食諮詢為核心；並未主張所有CKD患者一律採素食（P001、P028–P037）。\n2. **鉀與磷限制需要看食物來源和臨床情境**：作者整理全食物植物來源的磷、鉀生體可用率可能不同，並提出高纖維飲食中的鉀訊號；仍需依腎功能、藥物及實際化驗個別評估（P030、P040–P043）。\n3. **病人偏好是照護內容的一部分**：兩位共同作者／專家病人描述文化食物、透析飲食限制、營養師溝通與移植後飲食變化；屬經驗敘事，不是代表性樣本或介入成效證據（P010–P012、P049–P055）。\n4. **永續比較是說明工具**：HDF與漢堡的年用水示意可幫助討論環境足跡，但其估算前提與適用性有限，不能拿來比較療法優劣或要求病人以飲食「補償」治療（P013–P021）。\n\n## Limitations\n\n1. 沒有報告可重現的文獻搜尋及選文流程；選擇性引用風險無法排除。\n2. 沒有系統性評估既有研究的偏倚、結果一致性或確定性，也未提供主要臨床效果量。\n3. 水足跡示例雖說明是近似比較，但年度HDF用水及飲食足跡的估算步驟不足以獨立重算；圖2圖像數值在本次未視覺確認。\n4. 兩位患者／專家敘事增添文化觀點，但不能代表不同CKD族群的偏好分布或營養效果。\n5. 參考文獻共62筆；focused-quick 範圍未做逐項引用查核、作者背景或期刊指標分析。\n\n## Conclusion\n\n這篇適合用來開啟「CKD飲食、病人生活與環境永續如何一起談」的討論。可借用的實務原則是以食物品質和共同決策取代僵化禁令，並隨疾病階段與臨床資料調整。文章沒有建立具體療效估計或可套用的飲食處方；對植物性飲食的廣泛腎臟保護結論，應視為待系統性證據支持的論點。\n\n# Resource\n\n## Vault Integration\n\n- 本工作區沒有已確認的 Papers／Medicine vault 或 Zotero citekey；未虛構內部連結。\n- 本筆記將交由既有 `merge-notes` 合併並以 DOI／PMID 去重。\n\n## Source\n\n- [PMC full text HTML](https://pmc.ncbi.nlm.nih.gov/articles/PMC13655732/)\n- [Oxford Academic article and rights statement](https://academic.oup.com/ckj/advance-article/doi/10.1093/ckj/sfag320/8793616)\n- [DOI](https://doi.org/10.1093/ckj/sfag320)\n- [PubMed](https://pubmed.ncbi.nlm.nih.gov/42866020/)\n- [SANRA original scale paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC6434870/)\n- 本機核對：PMC article HTML，200,210 bytes，SHA-256 `7cddc605e5a58347f8e1ddcba3b7777ca482126f1001ecbd7b6d29021187041f`；抽取75段正文、24個標題，全部段落與來源逐字正規化比對相符，首／中／末抽驗通過，參考文獻62筆。完整來源位置與抽取證據見本輪 `evidence/fulltext-ckj-sfag320-audit.json`。\n- PMC來源核驗器記錄全文身份相符；PaperFetch 的 exit 2 收據保留為暫時失敗，並未當成全文耗盡。全文由PMC HTML取得；出版社頁標示 CC BY 4.0，允許附正確出處的再利用。本筆記以繁中自行摘要及評析，不複製原文段落。",
       "cards": [],
       "completedAt": "2026-10-15T04:52:57.099Z"
+    },
+    {
+      "id": "doi:10.1093/ckj/sfag320:digest",
+      "paperId": "doi:10.1093/ckj/sfag320",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Nutrition and Green Nephrology-not only for health but also for compensation: the water footprint and its hamburger equivalent.",
+      "authors": "Giorgina Barbara Piccoli, Julia Nava, Barbara Romano-Andrioni, Marta Arias-Guillén, Federica De Martino, Junelle Speller, Massimo Torreggiani, Claudia D’Alessandro, Carla Maria Avesani, the European Renal Nutrition Working Group of the European Renal Association",
+      "journal": "Clinical Kidney Journal",
+      "year": "2026",
+      "doi": "10.1093/ckj/sfag320",
+      "abstract": "Nutrition is recognized as a cornerstone of chronic kidney disease (CKD) prevention and management, while healthcare sustainability has become a major priority in nephrology. These two challenges converge because dietary choices influence both kidney health and the environmental footprint of care. In this narrative review, enriched by the perspectives of patients who experienced CKD, dialysis, and kidney transplantation, we discuss how nutritional interventions can simultaneously improve clinical outcomes and reduce the carbon and water footprint associated with kidney care. We summarize current evidence supporting healthy plant-dominant dietary patterns across the CKD continuum, from disease prevention to conservative management, dialysis and transplantation. We highlight the emerging shift from nutrient restriction toward food quality, emphasizing minimally processed plant-based foods, moderation of animal protein intake and individualized nutritional counseling. The review also discusses the evolving evidence challenging traditional dietary paradigms in advanced CKD and dialysis, particularly regarding protein, potassium and phosphate management. To illustrate the environmental implications of nutritional choices, we introduce the concept of the \"hamburger equivalent,\" comparing the annual water footprint of hemodiafiltration with that required for beef production. Rather than promoting guilt or restricting the choice of effective kidney replacement therapies, this concept illustrates how healthier dietary habits may help offset part of the unavoidable environmental burden of kidney care. Throughout the CKD journey, personalized nutritional counseling that respects patients' cultural preferences and values may improve adherence, quality of life and clinical outcomes while contributing to planetary health. Integrating sustainable nutrition into routine nephrology practice therefore represents an opportunity to align high-quality patient care with environmental stewardship.",
+      "legalFullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13655732/",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42866020/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "health promotion and lifestyle",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "腎臟營養與綠色腎臟醫學：內容整理",
+      "content": "---\ntags:\n  - research/digest\n  - kidney-nutrition\ncitekey: null\ndoi: \"10.1093/ckj/sfag320\"\naliases:\n  - Nutrition and Green Nephrology—not only for health but also for compensation: the water footprint and its hamburger equivalent\njournal: \"Clinical Kidney Journal\"\nyear: 2026\npmid: \"42866020\"\nsource_format: \"PMC HTML\"\nsource_sha256: \"7cddc605e5a58347f8e1ddcba3b7777ca482126f1001ecbd7b6d29021187041f\"\n---\n\n> [!summary] 30 秒層｜一句話 + 重點\n> 這篇敘述性綜述主張腎臟營養照護應同時看病人健康、飲食文化與環境足跡；它整理可討論的方向，沒有提供一種可套用所有CKD患者的飲食處方。\n> - **文章類型**：敘述性綜述，加入兩位專家病人的生活經驗；不是有系統搜尋的療效回顧，也沒有合併臨床效果量。（P001、P009–P012、P049–P055）\n> - **飲食主軸**：重視少加工食物、適度植物性食物與個別化諮詢；仍要依CKD階段、化驗、藥物及營養狀態調整。（P028–P043）\n> - **環境比喻**：作者以HDF年用水約100,000 L、每個漢堡約1,500 L，示意約66.7個漢堡的水量；這只是依估算假設做的水量比較。（P018–P019）\n> - **最重要界線**：搜尋方法與選文條件未報告，無法確認證據完整度；不應由本文推導普遍素食、低蛋白或放寬鉀磷限制。（P028–P043、P056–P058）\n> 品質評讀已另存：Piccoli2026 - 腎臟營養與綠色腎臟醫學。\n\n## 5 分鐘層｜快速掌握全文脈絡\n\n**要點：**作者從「食物會影響腎臟健康，也帶有環境足跡」出發，依序談預防、低蛋白與植物飲食、晚期CKD／透析／移植的飲食爭議，以及病人偏好和共同決策。\n\n- **研究目的**：說明健康營養照護如何同時顧及CKD風險與腎臟醫療的碳、水足跡；兩位共同作者／專家病人的經驗補充文化和生活脈絡。（P001、P009–P012、P049–P055）\n- **環境示意**：以HDF年用水和漢堡製作水量作比喻，幫助理解水資源規模；作者也承認估算會隨畜牧方式及療程假設變動。（P016–P021）\n- **生命早期與預防**：作者把孕期、兒童期、肥胖、糖尿病和心血管風險放入CKD預防脈絡，提倡早期健康飲食而非兒童限制性飲食。（P022–P027）\n- **定義飲食型態**：文章用0.8 g/kg/day作一般蛋白質建議的背景，將植物為主描述為至少50%–60%能量來自植物食物；同時提醒植物性不代表少加工或足跡必然低。（P028–P029、P021）\n- **CKD飲食爭議**：作者整理蛋白質、磷和鉀的來源與生體可用率，提出食物品質可能比單看營養素總量更有意義；依據來自引用文獻，本文未自行做系統性效果評估。（P030–P043）\n- **共同決策**：飲食建議應跟著腎功能、藥物、生活和病人目標調整；彈性和文化適配可能讓病人較能參與。（P044–P055）\n- **作者的結語**：鼓勵把永續納入腎臟營養對話，但文章沒有建立臨床療效大小、GRADE等級或統一處方。（P056–P058、P072–P075）\n\n完整段落閱讀地圖：[`reading-map-ckj-sfag320.md`](../process/reading-map-ckj-sfag320.md)。下方依原文主題整理。\n\n## 完整層｜按主題理解全文\n\n### 1. 為什麼談綠色腎臟營養\n\n**要點：**作者把疾病預防、日常飲食和腎臟醫療的環境影響視為相連議題。\n\n- 引言以醫療及食品系統的碳足跡、人口老化與CKD共病為背景，指出營養可同時參與風險和照護。（P003–P009）\n- 作者倡議新鮮、少加工、較植物為主的飲食，也提醒運輸、食品加工及水足跡可能改變環境效益，不能只用「植物性」當作足跡標籤。（P008、P021）\n- 文章希望「照顧病人」仍是優先目標；環境意識不應造成病人羞愧，也不應限制病人選擇合適腎臟替代治療。（P013–P015）\n\n### 2. 漢堡等值是概念示意\n\n**要點：**66.7是把兩個水用量估值相除，不是臨床結果，也不代表飲食可實際抵銷透析用水。\n\n- 作者引用每次血液透析約350–800 L、HDF額外用水約50 L的背景估計，再以每次500 L的HDF情境作比較。（P016、P018）\n- Figure 1題註用HDF年用水約100,000 L除以每個工業漢堡約1,500 L，換算約66.66個漢堡的水量。（P019）\n- **算式**：100,000 ÷ 1,500 ≈ 66.7；兩個輸入值是作者引用的近似估值，不是本篇量測。（P018–P019）\n- 作者說明水使用會依畜牧方式等因素改變；因此此比喻適合引發環境對話，不可解讀為漢堡與HDF的整體碳排相等，或病人能以飲食抵銷透析的環境成本。（P018–P021）\n- Figure 2題註說明比較70 kg成人三種飲食的營養與足跡，但本次只核對圖說，沒有讀取圖內圖表數值，故不在此重述。（P017）\n\n### 3. CKD預防與飲食定義\n\n**要點：**作者把CKD預防放在整個生命歷程，並區分蛋白質總量、蛋白質來源及食物加工程度。\n\n- 作者將孕期健康、母體疾病、早產／小於胎齡及兒童飲食偏好納入預防脈絡，並提醒家庭風險溝通不等於為兒童開限制性飲食。（P022–P027）\n- 作者以非透析CKD第3–5期作背景，說明一般蛋白建議0.8 g/kg/day，低蛋白指低於一般建議量；此定義不是本文建立的新處方。（P028）\n- 文中將植物為主飲食描述為至少50%–60%總能量來自植物食物，並列舉DASH、地中海、Okinawan、PLADO及NNRD等型態。（P028）\n- 植物為主不一定健康：作者舉出超加工素食零食、含糖飲料及某些脂肪來源作提醒，並討論全穀加工、農藥殘留與纖維的取捨。（P029）\n\n### 4. 蛋白質、磷與鉀：作者整理的討論方向\n\n**要點：**文章鼓勵從食物來源與個別狀態理解蛋白質、磷、鉀；它沒有證明所有CKD患者都要放寬限制。\n\n- 作者整理植物性飲食可能降低磷的生體可用率，並引用與血磷、FGF-23等指標的關聯；低蛋白飲食的接受度、生活品質與營養安全也被討論。（P030–P032）\n- 作者列述低蛋白飲食可能與腎功能穩定和血流動力學變化相關，並提及妊娠CKD、移植後飲食及極低蛋白飲食的特定研究；這些是既有研究的敘述整理，不是本文新做的試驗。（P032–P036）\n- 作者說極低蛋白飲食約0.3–0.4 g/kg/day，可能延後透析，但不易執行，且需胺基酸／酮酸補充；補充品足跡尚未建立。（P036）\n- 晚期CKD和透析部分重新討論動物性蛋白、磷酸鹽添加物與植物來源礦物質的生體可用率。（P037–P043）\n- 作者引述植物來源鉀可能有較低生體可用率及高纖飲食資料，但個人血鉀仍會受腎功能、藥物、食物加工與化驗影響；不能只靠本文停用限制或監測。（P040–P041）\n- 增量透析例子顯示不同照護系統會配合殘餘腎功能調整飲食與透析頻率；作者指出仍需長期安全資料。（P042–P043）\n\n### 5. 病人的生活、文化與飲食彈性\n\n**要點：**病人經驗提醒營養建議會碰到文化食物、治療階段和生活安排，溝通方式本身也影響可行性。\n\n- Federica敘述長期移植經驗、運動與個人蛋白質飲食，並表達飲食對健康和選擇自主的意義；這是個人經驗而非介入證據。（P010–P012）\n- Junelle描述牙買加裔家庭食物、腹膜透析時增加肉類及豆類被限制的經驗，說明「健康建議」可能同時牽涉文化身分與環境價值。（P049–P052）\n- 她認為能解釋建議理由、邀請病人共同決定的營養師／護理師對話，更能支持理解與生活品質；移植後飲食條件也會改變。（P053–P055）\n- 作者建議將飲食視為可隨腎功能、藥物、目標和偏好調整的生活方式，使用教育提示與彈性例外，而不是一成不變的禁令。（P044–P048）\n\n### 6. 作者結論及讀者帶走的重點\n\n**要點：**可帶走的是「把營養、文化與永續一起談」的方向；不能帶走的是未經本文證明的通用醫療處方。\n\n- 作者主張新鮮少加工、較植物為主的飲食可能兼顧病人及環境，並把減少治療負擔視作永續照護的機會。（P056–P058）\n- **閱讀界線**：文章未說明搜尋資料庫、搜尋日期、選文條件或文獻品質評估；不能判斷所引研究是否完整，也沒有本文自己的臨床效果量或GRADE。（全文方法資訊未報告；參見P001、P056–P058）\n- **實務原則**：可把食物品質、超加工食品、病人文化與共同決策加入討論；低蛋白、鉀磷和透析飲食仍需按個案的疾病階段、營養狀態、藥物與化驗決定。（P028–P047）\n- **研究聲明**：作者聲明無利益衝突，且沒有新資料產生或分析。（P072–P075）\n\n## 概念整理\n\n- **植物為主飲食**：以植物食物占較大比例，不等同完全素食，也不保證產品少加工或環境足跡較低。（P028–P029、P021）\n- **低蛋白／極低蛋白**：文章以低於一般0.8 g/kg/day描述低蛋白，並將0.3–0.4 g/kg/day稱為極低蛋白；後者需監測及補充，不可當作通用建議。（P028、P036）\n- **生體可用率**：食物中礦物質實際被腸道吸收利用的程度；作者用來討論植物來源磷及鉀，但個別患者仍須看化驗和臨床狀態。（P030、P040–P041）\n- **HDF**：血液透析的一種模式，本文用其水足跡作環境示意，沒有比較患者療效或透析方式優劣。（P016–P019）\n- **共同決策**：把臨床建議的理由、病人目標、文化飲食與可執行性一起討論，並隨病程調整。（P044–P055）\n\n## 自我測驗\n\n> [!question]- Q1：這篇文章是否是系統性回顧或統合分析？\n> 不是。作者稱其為敘述性綜述，加入兩位專家病人的經驗，但沒有說明可重現的搜尋和選文方法，也沒有統計合併。（P001、P009、P072–P075）\n\n> [!question]- Q2：66.7個漢堡代表什麼？\n> 它是100,000 L HDF年度用水除以每個漢堡約1,500 L製作用水得到的近似水量比值；不能解讀成碳排相等或飲食可實際抵銷透析用水。（P018–P019）\n\n> [!question]- Q3：文中0.8 g/kg/day和0.3–0.4 g/kg/day代表什麼？\n> 0.8 g/kg/day是文章說明一般蛋白質建議量的背景，低於此量被用來描述低蛋白；0.3–0.4 g/kg/day是極低蛋白飲食，需特別營養監測與胺基酸／酮酸補充，不是人人適用處方。（P028、P036）\n\n> [!question]- Q4：為什麼植物來源的鉀／磷討論不能直接拿來放寬每位CKD患者的限制？\n> 作者談的是來源及生體可用率的整體資料；實際血鉀、血磷仍受腎功能、藥物、食物加工、營養狀態和個人化驗影響，本文沒有提供個人決策演算法。（P030、P040–P043）\n\n> [!question]- Q5：兩位病人經驗可以支持什麼、不能支持什麼？\n> 可支持把文化食物、病程變化與共同決策納入營養對話；兩段經驗不能代表所有患者，也不能當作飲食療效或偏好比例的研究結果。（P010–P012、P049–P055、P065–P066）\n\n## Reference\n\n- Piccoli GB, Nava J, Romano-Andrioni B, et al. *Nutrition and Green Nephrology—not only for health but also for compensation: the water footprint and its hamburger equivalent.* Clinical Kidney Journal. 2026;19(10):sfag320. doi:10.1093/ckj/sfag320.\n- [PMC全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13655732/)｜[DOI](https://doi.org/10.1093/ckj/sfag320)｜[PubMed](https://pubmed.ncbi.nlm.nih.gov/42866020/)\n- [品質評讀](Piccoli2026%20-%20腎臟營養與綠色腎臟醫學.md)｜[逐段閱讀地圖](../process/reading-map-ckj-sfag320.md)\n- 全文HTML 200,210 bytes，SHA-256 `7cddc605e5a58347f8e1ddcba3b7777ca482126f1001ecbd7b6d29021187041f`；75段主文全部與PMC來源正規化文字逐段一致，首／中／末抽驗相符。Figure 2影像資料未視覺核對，不引用圖內數值。",
+      "cards": [
+        {
+          "title": "綠色腎臟營養的定位與界線",
+          "question": "這篇文章能支持哪些臨床討論，又不能直接當作什麼？",
+          "answer": "它能引導把食物品質、文化偏好、CKD階段和環境足跡一起討論；它是未說明搜尋方法的敘述性綜述，沒有新試驗或合併療效，不能單獨決定通用飲食處方。",
+          "tags": [
+            "kidney-nutrition",
+            "narrative-review",
+            "clinical-application"
+          ]
+        },
+        {
+          "title": "漢堡等值的水量算法",
+          "question": "約66.7個漢堡的比喻是如何算出來的？",
+          "answer": "作者把HDF每年約100,000 L水除以每個工業漢堡約1,500 L用水，得到約66.7；這是近似水量對照，不是碳排等值或患者飲食可抵銷透析用水的證明。",
+          "tags": [
+            "green-nephrology",
+            "water-footprint",
+            "critical-reading"
+          ]
+        },
+        {
+          "title": "低蛋白與極低蛋白差異",
+          "question": "本文如何區分低蛋白飲食和極低蛋白飲食？",
+          "answer": "文章以一般背景建議0.8 g/kg/day描述低蛋白飲食，並把0.3–0.4 g/kg/day稱為極低蛋白；極低蛋白方案較難執行且需胺基酸／酮酸補充，這些數值不是對所有CKD患者的個人處方。",
+          "tags": [
+            "protein",
+            "CKD",
+            "nutrition-counseling"
+          ]
+        },
+        {
+          "title": "植物性鉀磷與個別化",
+          "question": "為什麼不能從植物食物的鉀磷生體可用率推論每位患者都可放寬限制？",
+          "answer": "生體可用率是整體食物來源特徵；個別血鉀、血磷仍受腎功能、藥物、加工程度、營養狀態與實際化驗影響，而本文沒有提出個人化決策演算法。",
+          "tags": [
+            "potassium",
+            "phosphate",
+            "individualized-care"
+          ]
+        },
+        {
+          "title": "病人經驗的用途",
+          "question": "兩位共同作者的病人經驗在這篇文章中可以說明什麼？",
+          "answer": "它們呈現飲食文化、透析限制及移植後變化如何影響生活和共同決策；兩段經驗不能代表所有患者，也不能當成飲食療效或偏好比例的研究證據。",
+          "tags": [
+            "patient-preference",
+            "shared-decision-making",
+            "renal-nutrition"
+          ]
+        }
+      ],
+      "completedAt": "2026-10-15T05:00:20.660Z"
     }
   ]
 }
