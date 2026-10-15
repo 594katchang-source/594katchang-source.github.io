@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T03:40:13.576Z",
+  "generatedAt": "2026-10-15T04:35:39.586Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -97729,6 +97729,34 @@
         }
       ],
       "completedAt": "2026-10-15T03:38:06.9262987+00:00"
+    },
+    {
+      "id": "doi:10.1016/j.isci.2026.117257:review",
+      "paperId": "doi:10.1016/j.isci.2026.117257",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Nonpharmacological interventions for frailty and sarcopenia in older adults with gastrointestinal cancers: A Bayesian network meta-analysis.",
+      "authors": "Xiaoxu Wang, Xueyuan Hui, Zhongmin Fu, Yinning Guo, Lisi Duan, Wenbing Shi, Qiaona Dong, Qin Xu, Xinyi Xu",
+      "journal": "iScience",
+      "year": "2026",
+      "doi": "10.1016/j.isci.2026.117257",
+      "abstract": "To compare the effects of nonpharmacological interventions on frailty, sarcopenia, and related physical-function outcomes in older adults with gastrointestinal cancers, we conducted a Bayesian random-effects network meta-analysis of 21 randomized controlled trials from 10 countries. Most interventions did not show clear benefits for frailty, sarcopenia, gait speed, Timed Up and Go performance, sit-to-stand performance, skeletal muscle index, or 6-min walk distance. Prehabilitation exercise showed a low-certainty benefit for handgrip strength, whereas enhanced nutritional support and intensive physiotherapy showed limited benefits for patient-reported physical function. However, these findings were based on small, sparsely connected networks, and the certainty of evidence was generally low or very low. No single intervention was consistently effective across outcomes. These results highlight the need for larger, cancer-specific trials using standardized outcome definitions and clearer reporting of intervention intensity, adherence, safety, and feasibility.",
+      "legalFullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13657227/",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42866646/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "design:randomized controlled",
+        "evidence literacy",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "safety and interaction",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "對年滿60歲胃腸道癌患者，這份21項RCT的網絡統合分析沒有找到能明確改的品質評讀",
+      "content": "---\ntags:\n  - source/journal\ncitekey: null\ndoi: \"10.1016/j.isci.2026.117257\"\nzotero: null\njournal: \"iScience\"\nyear: 2026\nauthors: \"Wang X, Hui X, Fu Z, Guo Y, Duan L, Shi W, Dong Q, Xu Q, Xu X\"\nstudy_type: \"systematic review and Bayesian network meta-analysis of RCTs\"\npmid: \"42866646\"\nreview_depth: \"quick\"\n---\n\n> [!info] 品質快照\n> **設計**：21項RCT的貝氏隨機效應網絡統合分析｜**族群**：年滿60歲胃腸道癌患者｜**總樣本數**：主文未提供，依賴未能核對的補充表S1\n> **RoB**：主文呈現多個偏倚面向；受試者／人員盲法為高風險的比例達71.43%。主文未清楚說明使用RoB 2的完整逐域判讀，故本次不虛構單一整體評級。\n> **作者GRADE**：衰弱、肌少症、TUGT、坐站測試、SMI＝很低；步速、6MWD、握力＝低；主觀身體功能＝中等。作者域別依據在補充表S6，本輪無法核對。\n> **本次GRADE計算**：以主文可見資料重新評級後，衰弱、肌少症、TUGT、坐站測試、SMI、握力＝很低；步速、6MWD、主觀身體功能＝低。與作者不同的握力及主觀功能等級屬主文資料下的暫定結果，見下方原因。\n> **一句話 verdict**：目前不足以選定單一常規介入；兩個主要結果研究太少，握力與主觀功能訊號受到網絡稀疏、盲法與數值報告不一致限制。\n\n# Key Points\n\n## Summary\n\n對年滿60歲胃腸道癌患者，這份21項RCT的網絡統合分析沒有找到能明確改善衰弱或肌少症的單一介入；握力及主觀功能只有有限且需謹慎解讀的訊號。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：作者把21項不同非藥物介入試驗放進網絡統合分析，想知道高齡胃腸道癌患者哪類介入較能改善衰弱、肌少症與身體功能。\n> - **為什麼做**：直接比較不同運動、營養與復健介入的試驗很少，單看一兩項研究不容易判斷哪種做法較有幫助。\n> - **主體（SR／NMA）**：對象為年滿60歲胃腸道癌患者；納入運動、營養補充、複合介入、密集物理治療等。衰弱只由3項試驗、肌少症由2項試驗評估，兩者都沒有明確改善。握力的術前運動比較和主觀功能的加強營養／密集物理治療比較有統計訊號，但每個比較的研究少、網絡不完整，不能把排名當成已證實的治療順序。\n> - **所以呢**：目前不宜依這篇研究指定單一介入或照搬一個通用配方；應把結果視為研究假說，臨床介入仍需依治療期別、營養風險、症狀與可行性個別評估。\n> - **最重要限制**：各結果只納入2至9項試驗，許多介入沒有直接比較；整體網絡沒有閉合迴圈，研究也無法檢驗直接與間接結果是否一致。\n\n## Clinical Application\n\n- **適用範圍**：研究對象為年滿60歲且確診胃腸道癌者；不能直接外推到其他癌別、年齡較輕者或所有治療階段。\n- **介入解讀**：握力可能受術前運動、早期術後活動影響；主觀身體功能可能受加強營養路徑或密集物理治療影響。這些是有限比較的訊號，不能當成常規療效已確立。\n- **營養路徑例子**：文中提到一項食道切除術試驗的延伸營養照護路徑，包含術前口服營養補充、住院期間空腸管餵食與出院後追蹤；這是單一試驗的方案描述，作者沒有評估成本效益，不應直接當作每位患者的處方。\n- **安全與依從性**：7項試驗報告輕微或短暫不良事件，7項明確報告沒有介入相關事件，另7項沒有提供安全資料。依從性定義不一，報告比例範圍14%至100%，不能假定實際完成度一致。\n- **實務界線**：文章中的運動及蛋白質建議多為背景資料，不是這次統合分析證明的個別處方；不可由SUCRA排名推導誰一定受益。\n\n# Paper Details\n\n## Methods\n\n- **研究問題**：比較非藥物介入對衰弱、肌少症及相關功能結果的影響。\n- **搜尋**：PubMed、Web of Science、Embase、Cochrane Library、Scopus、CNKI、Wanfang、VIP及Chinese Biomedical Literature Database；從建庫起搜尋至2025-02-15，納入英文或中文研究。完整逐庫搜尋式指向補充資料S7，本輪無法核對。\n- **納入條件**：年滿60歲胃腸道癌患者；非藥物介入；隨機或叢集隨機試驗；同行評審完整論文。共同主要結果是衰弱與肌少症；次要結果包括握力、肌肉量、步速、TUGT、坐站、6MWD及主觀功能。\n- **篩選流程**：4,553筆紀錄；移除710筆重複後3,843筆；全文評估2,722篇，排除2,703篇；另由參考文獻找到2篇，最後納入21篇（P017）。\n- **納入研究**：21項、10個國家，多數於2020至2024年發表；主文未提供可核對的合併受試者總數，詳細特徵在補充表S1（P019、P070）。\n- **分析**：R 4.4.0、gemtc與JAGS 4.3.0；每個結果分開建模，隨機效應，4條鏈、20,000次burn-in及50,000次後驗抽樣；連續結果使用SMD及95%可信區間；以SUCRA排序（P081）。\n- **分析上的重要矛盾**：研究結果段落指出星狀網絡無法檢驗直接與間接證據一致性；統計方法段落則稱套用一致性模型可確保比較推論有效（P029、P081）。模型設定本身不能代替一致性或transitivity檢查。\n\n## Critical Appraisal\n\n### 偏倚與研究品質\n\n- 作者報告序列產生95.24%、資料缺失90.48%、選擇性報告100%的研究評為低風險；盲法問題較明顯：受試者及執行人員盲法只有23.81%評為低風險，71.43%為高風險。評估者盲法61.90%為低風險，分配隱蔽57.14%為低風險（P025）。\n- 95.24%的研究在Jadad量表達3分以上，不應因此直接稱整體偏倚低；Jadad總分不能消除未盲法對主觀結果的影響。\n- 主文說兩名評閱者依Cochrane Handbook評估多個偏倚面向，但沒有清楚命名標準RoB 2工具；逐研究圖Figure 3及補充表S5未能在本輪視覺核對。不能從主文百分比重建每個試驗的RoB 2判斷。\n\n### 統計、效應量與推論\n\n| 結果 | 試驗數 | 作者主文結果 | 作者GRADE | 本次計算 |\n|---|---:|---|---|---|\n| 衰弱（共同主要結果） | 3 | 未見介入明確改善 | 很低 | 很低 |\n| 肌少症（共同主要結果） | 2 | 未見介入明確改善 | 很低 | 很低 |\n| 步速 | 3 | 未見介入明確較佳 | 低 | 低 |\n| TUGT | 2 | 未見介入明確較佳 | 很低 | 很低 |\n| 坐站測試 | 2 | 未見一致差異 | 很低 | 很低 |\n| SMI | 3 | 未見介入明確改善 | 很低 | 很低 |\n| 6MWD | 9 | 未見介入明確改善 | 低 | 低 |\n| 握力 | 7 | 有介入訊號，但報告數值有差異 | 低 | 很低 |\n| 主觀身體功能 | 9 | 加強營養及密集物理治療比較出現訊號 | 中等 | 低 |\n\n本次計算依安裝的grade_judge.py，從RCT主體的High起始，按主文可見的偏倚、精確度與研究數量評級。握力另因成對分析I²=78.4%、NMA數值與Table 2不一致而降級；主觀功能因可信區間寬、主文未提供總樣本數而將精確度列為嚴重。作者報告的GRADE細節在Table S6，本輪無法核對，所以此兩項差異是依目前可見資料作的暫定評級，不宣稱重現作者原始評級。\n\n- **握力數值未能對齊**：結果段落稱術前運動NMA的SMD為−0.61（95% CrI −1.06至−0.14），SUCRA 95.3%；Table 2則列SMD −0.76（區間標作95% CI −1.43至−0.05），SUCRA 93.87%。另一個按時點的成對分析列SMD +0.28（95% CI 0.01至0.55，I²=78.4%）。分析集合可能不同，但文章沒有清楚說明方向編碼及差異；補充表S6–S9未核實前，不能把這些值合併成單一效果。\n- **MCID未建立**：作者把SMD約−0.61換算為握力約增加5.4公斤，並提到5.0–6.5公斤的MCID範圍；同文又承認胃腸癌高齡族群沒有明確建立的HGS MCID（P039、P052）。主文沒有交代該MCID來源及換算假設，因此不能把結果確定稱為達到臨床重要差異。\n- **主觀功能的估計不同分析**：NMA的加強營養及密集物理治療比較分別列SMD −0.76（95% CrI −1.44至−0.08）及−0.69（95% CrI −1.37至−0.04）；按時點合併的成對分析為SMD +0.10（95% CI −0.03至0.23，p=0.10，I²=0%）。這些不是相同比較，因此不直接等同矛盾；但分析方向與估計集合需交代清楚，否則容易誤讀。\n- **SUCRA限制**：排名機率不能取代效應估計與可信區間；網絡稀疏且無閉合迴圈時，排名對資料與模型假設敏感（P013、P029、P060）。\n- **網絡一致性**：方法稱不做一致性檢定是因為沒有閉合迴圈，但結果段落又承認因此無法檢查直接與間接證據一致性。Consistency model不能使未檢驗的比較自動有效。\n- **因果／機轉**：Discussion提到發炎、mTOR、蛋白質合成及癌症惡病質作為可能解釋；這些是背景機轉推論，不是本統合分析直接測量的中介證據。\n- **報告偏倚**：作者說多數結果少於10項研究，未正式評估漏報結果或小型研究效應（P060）；因此不能推論不存在出版偏倚。\n- **註冊**：文章自述前瞻性登錄PROSPERO CRD420251046375（P069）；本輪未獨立取得該記錄及比對protocol修訂，故不把自述等同已核實。\n\n### PRISMA 2020報告檢查\n\n依官方PRISMA 2020 27項核對，詳見本工作資料夾中的完整逐項表。主文已報告研究目的、搜尋截止日、研究篩選數、研究者獨立篩選／抽取、主要結果、部分敏感度分析、利益衝突及研究限制。主要缺口是：comparator定義重複；缺資料轉換與各合成納入規則；出版偏倚未評估；protocol修訂及資助者角色未交代；個別研究估計、完整搜尋式、偏倚細節與GRADE域理由依賴本輪未核實的補充資料。\n\n## Limitations\n\n1. 主文只提供21項研究，未提供總參與者人數；補充表S1未能查閱。\n2. 每項結果只有2至9項研究，且無閉合網絡，直接／間接比較可信度受限。\n3. 主文中握力估計的數值、區間類型及排名不一致，尚待補充表確認。\n4. PICOS comparator段落複製介入定義；完整逐庫搜尋式及protocol內容未核實。\n5. 作者評估了安全與依從性，但有三分之一研究未提供安全結果。\n\n## Conclusion\n\n對胃腸道癌高齡者，目前證據不足以推薦單一非藥物介入來改善衰弱或肌少症。握力與主觀功能可能存在特定介入訊號，但應以低確定性及稀疏網絡理解。下一個有效核對點是取得並閱讀Supplementary Material S1–S20，釐清合併樣本數、各試驗估計、GRADE域理由、搜尋式及握力方向差異。\n\n# Resource\n\n## Vault Integration\n\n- 本工作區未找到Papers/資料夾或既有Zotero citekey；未虛構citekey或Zotero連結。\n- 精確DOI／PMID可由本機 Worker 在後續merge-notes時合併或避免重複。\n\n## Source\n\n- [PMC full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC13657227/)\n- [DOI](https://doi.org/10.1016/j.isci.2026.117257)\n- [PubMed](https://pubmed.ncbi.nlm.nih.gov/42866646/)\n- [PRISMA 2020 official checklist](https://www.prisma-statement.org/prisma-2020-checklist)\n- 本機取得格式為PMC HTML，主文96,965字元；文章標示CC BY-NC-ND 4.0。只引用必要書目資訊並以自己的批判分析表述，不複製主文段落或全文。",
+      "cards": [],
+      "completedAt": "2026-10-15T04:32:19.444Z"
     }
   ]
 }
