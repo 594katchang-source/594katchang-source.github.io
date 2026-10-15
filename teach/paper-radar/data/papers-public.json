@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T18:55:56.173Z",
+  "generatedAt": "2026-10-15T19:00:34.981Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -98266,6 +98266,72 @@
       "content": "# 研究評讀｜頭頸部鱗狀細胞癌的癌症相關營養不良：腫瘤代謝與免疫失調\n\n## 文獻資料\n\n- 英文題名：Beyond reduced intake: tumor metabolism and immune dysregulation drive cancer-related malnutrition in head and neck squamous cell carcinoma (HNSCC)\n- DOI：10.1007/s00520-026-11115-w\n- 設計：敘述性文獻回顧（narrative review）\n- 出版者全文：Springer，版本紀錄；全文以 Europe PMC XML 取得並經 Worker 核對 DOI、英文題名及主文可讀性。全文頁列示 CC BY-NC-ND 4.0；本筆記以摘要轉述為主，未複製全文或圖表。\n- 全文定位：各節名稱及節內段落序號依核驗後的 XML 擷取文本；文中參考文獻號沿用原文。\n\n## 白話導讀\n\n可以把腫瘤想成會改變身體能量使用方式的「耗能中心」：病人即使沒有明顯少吃，腫瘤相關的發炎和代謝變化仍可能讓脂肪、肌肉逐步消耗。這是作者用來整理研究的解釋模型，不代表每位病人都會以相同方式發生，也還不能單靠 PET 數字或抽血結果確診。臨床上要把吃得如何、吞嚥與疼痛、體重變化、肌力和影像一起看，越早發現功能與肌肉下降，越能及早調整營養及支持照護。\n\n## 30 秒摘要\n\n作者提出一個整合觀點：頭頸部鱗狀細胞癌患者的營養惡化，可能不只是吞嚥困難、黏膜炎或治療副作用造成吃得少；腫瘤代謝、全身發炎與肌肉分解也可能共同推進能量耗損。作者建議及早結合營養評估、肌肉量／功能、發炎指標及既有影像資訊辨識風險。這是生物學合理、值得研究的框架；目前 TLG、C3 肌肉指標及免疫營養仍有研究數量、標準化和證據品質限制，不能當成單一診斷或通用治療處方。\n\n## 品質快照\n\n| 項目 | 評讀 |\n|---|---|\n| 研究問題 | 說明腫瘤代謝與免疫發炎如何連結 HNSCC 的營養不良、肌肉流失及早期風險辨識。 |\n| 研究設計／樣本 | 敘述性回顧；本文沒有新收案、樣本數或對照組。作者提及一項前瞻性 HNSCC 世代研究，但本文未交代其樣本數、效應值或信賴區間。 |\n| 搜尋與納入方法 | 全文未見資料庫、搜尋日期、關鍵字、納入／排除條件或研究篩選流程，因此無法確認文獻是否完整或如何選取。 |\n| 統計方法 | 未進行統合分析；本文未呈現可供重算的合併效果量或主要原始數據。 |\n| 主要主張 | 腫瘤代謝、發炎與宿主組織分解形成交互作用；C3 肌肉評估、TLG、CRP／NLR 可作互補風險線索；早期營養照護應同時重視瘦體組織與功能。 |\n| 臨床可用性 | 適合作為風險辨識與跨專業照護的概念框架；作者明言 TLG 與 C3 閾值尚未充分標準化，影像／發炎指標不可單獨判定營養不良。 |\n\n## 全文地圖與段落重點\n\n1. **Cancer-related malnutrition in HNSCC: Beyond reduced intake**：P1–P7 從 GLIM 炎症病因條件及進食障礙出發，提出腫瘤主導的免疫代謝觀點，並說明本文整合 TLG、發炎與 C3 肌肉評估的目的。\n2. **Tumor metabolism and systemic energy wasting**：P8–P11 敘述 Warburg 效應、乳酸／Cori cycle、脂肪組織褐變、肌肉蛋白分解和腫瘤—宿主營養競爭。\n3. **Cytokine-driven immune dysregulation and muscle wasting**：P12–P17 說明 IL-6、TNF-α、IL-1β、分解訊號與免疫營養；圖 1 與表 1 以示意方式彙整機制。\n4. **Clinical translation: Skeletal muscle loss, metabolic imaging, and nutritional risk**：P18–P29 說明肌少症、C3 肌肉指標、PET TLG、CRP／NLR 的可能角色，並明列研究數量、方法與閾值限制；表 2、表 3 為工具與研究概覽。\n5. **Early immune-metabolic nutritional strategies in HNSCC**：P30–P33 主張早期、多專業、個別化營養介入；免疫營養證據異質，尚不足支持超出現行指引適應範圍的常規使用。\n6. **Conclusions**：P34–P35 重述整合框架與早期辨識的可能價值。補充資料、致謝、作者貢獻、經費、資料可得性及聲明見 P37–P44；作者表示本研究未產生或分析資料集。\n\n## 5 分鐘導讀：作者提出什麼、證據到哪裡\n\n### 1. 從「吃得少」擴大到「腫瘤—宿主代謝互動」\n\n傳統因素仍重要：吞嚥困難、疼痛、黏膜炎與治療毒性會降低進食。但作者指出，部分患者在治療前就出現體重和骨骼肌下降；因此 GLIM 所列疾病相關發炎也應納入病因理解。作者把腫瘤代謝、全身發炎和宿主組織分解整合成一個假說框架（全文第 1 節 P2–P7）。\n\n### 2. 機轉鏈條\n\n作者描述腫瘤偏好葡萄糖代謝、產生乳酸，伴隨宿主能量消耗增加；PTHrP 與發炎訊號可能促進脂解及脂肪褐變；發炎與蛋白分解訊號則可能促進肌肉流失，釋出的胺基酸再被腫瘤代謝利用（「Tumor metabolism…」P8–P11；「Cytokine-driven…」P12–P14；表 1）。這些是回顧中整合的生物學路徑，不等於本文直接測得每一條路徑的因果效應。\n\n### 3. 風險辨識工具\n\n- **C3 肌肉量**：頭頸部 CT 可用 C3 橫切面肌肉作全身肌肉量的替代評估；BMI 可能漏掉肌肉減少（「Clinical translation…」P18–P20、表 2）。肌少症評估還需留意肌力與身體功能，不應只看單一影像數字。\n- **TLG**：PET 的 total lesion glycolysis 同時反映病灶體積與葡萄糖代謝活性，是腫瘤代謝負荷的候選線索（同節 P21–P22）。目前直接連結 TLG、C3 肌肉及營養風險的 HNSCC 資料有限；PET 流程、病灶分割及 cut-off 不一致（P24）。\n- **發炎指標**：CRP、NLR 較易取得但不具特異性；IL-6 等細胞激素在本文定位較偏研究用途。需和病史、攝取量、體重趨勢、功能與身體組成一起解讀（P29、表 2）。\n\n作者的限制說明很重要：TLG 和 C3 影像是互補資訊，不是單獨診斷癌症相關營養不良的標記（P24、P29）。\n\n### 4. 介入建議的證據邊界\n\n作者支持及早營養照護、多專業支持、足夠能量與蛋白質，以及把維持瘦體組織與功能列為目標（「Early immune-metabolic…」P30–P33）。精胺酸、omega-3 脂肪酸及核苷酸等免疫營養配方被描述為有潛力，但研究場景、對象和配方不同，本文不支持超出現行指引適應範圍的常規使用（P30）。本文沒有提供可直接套用的 kcal/kg、蛋白質劑量、產品配方或個別病人處方。\n\n## Critical Appraisal｜品質評讀\n\n### 優點\n\n- 聚焦 HNSCC 的營養風險，將進食障礙、腫瘤代謝、發炎及肌肉表型放進同一臨床概念圖，提醒照護者不要只追體重或熱量（第 1 節 P3–P7；結論 P34–P35）。\n- 提出可以在臨床資料中探索的組合：營養評估、C3 肌肉量、PET TLG 及 CRP／NLR，且承認尚無單一足夠的 biomarker（臨床轉譯 P24–P29）。\n- 對影像標準化、觀察性資料有限、免疫營養研究異質等限制有明確交代（P24、P30）。\n\n### 主要限制與可信度疑點\n\n1. **回顧方法不可重現**：未報告搜尋資料庫、日期、檢索式、文獻選取條件或品質評讀。這使文獻完整性及選擇性引用風險無法判斷；不可把它當系統性回顧或指引。\n2. **缺少研究層級數據**：未提供納入研究的樣本數、患者特徵、效果大小、區間估計或偏差風險表。表 3 是摘要性整理，無法比較各研究的設計品質或估計穩定度。作者也聲明未產生或分析資料集（Data availability P41、P44）。\n3. **內文引用與文末文獻有可核對的不一致**：\n   - 免疫營養改善 CD4/CD8 比值與術後恢復的敘述（「Cytokine-driven…」P14）引用 [22]；文末 [22] 題名是 ActRIIB 拮抗與癌症惡病質動物研究，而 HNSCC 免疫營養研究列於 [24]。\n   - PET TLG 與 C3 肌肉／營養風險的前瞻性 HNSCC 世代研究（「Clinical translation…」P22）引用 [31]；文末 [31] 題名是非小細胞肺癌 PET 參數統合分析，但表 3 將相應 HNSCC 研究列為 Rey et al. [32]。\n   - TLG 段落（同節 P21）引用 [30]，其文末題名是頭頸癌 CT 肌肉量評估可行性研究，未直接對應 TLG 主張。\n\n   這些是依本文自己的引文號與文末題名所做的內部核對，可能源於引用錯置；在作者更正或回查原始研究前，相關臨床證據的可追溯性應視為降低，不能替作者自行改號。\n4. **因果語氣強於本文資料**：腫瘤代謝造成全身能量耗損及肌肉分解的機轉有生物學合理性，但本文主要為敘述性整合，並未以本文資料證明因果或量化每個機轉對患者結果的貢獻。\n5. **工具仍未標準化**：C3 SMI cut-off、PET acquisition、病灶分割和 TLG cut-off 尚未一致；目前不應以 TLG 或影像肌肉量取代完整營養與功能評估（P24、P29）。\n\n### 整體判斷\n\n**可信度：概念框架可參考；臨床效果與單一指標判定仍屬低確定性。** 這篇回顧適合產生假說和提醒早期、多面向評估，但其搜尋方法缺席、沒有研究層級數據，加上若干內部引文錯置，限制了對因果和治療效果的信心。它不是證明 TLG 可診斷營養不良、也不是免疫營養常規使用的充分依據。\n\n## 臨床應用｜給營養照護的可行做法\n\n1. HNSCC 病人於治療前和治療中，並行追蹤實際攝取、吞嚥／疼痛／黏膜症狀、體重趨勢、肌力／功能及營養風險；不要因 BMI 或體重短期穩定就排除肌肉流失。\n2. 有既有頭頸部 CT 且具分析能力時，可把 C3 肌肉評估作為補充資訊；若已有 PET/CT，TLG 可提供腫瘤代謝背景，但本文不支持自行套用單一 cut-off。\n3. CRP、NLR 可協助形成整體判斷，但會受感染、共病等影響；不能獨立診斷營養不良。IL-6 等指標在本文仍偏研究用途。\n4. 優先及早處理可改善攝取的症狀與照護障礙，依現行癌症營養指引和個別狀況安排足夠能量、蛋白質與支持性照護；本回顧沒有提供可直接複製的劑量。\n5. 免疫營養配方的使用需依現行指引、治療情境與醫療團隊評估；本文承認證據異質，不能將其描述為所有 HNSCC 病人的標準治療。\n\n## 自我測驗\n\n1. **作者為何認為「吃得少」不足以解釋所有營養惡化？** 因為部分患者在治療前已有肌肉與體重流失，作者認為腫瘤代謝與發炎也可能造成宿主組織分解；但本文沒有建立因果量化。\n2. **C3 肌肉量和 TLG 各自代表什麼？** C3 肌肉評估補充身體組成／肌肉量；TLG 反映 PET 病灶體積與代謝活性的組合。兩者是互補線索，不是單獨診斷。\n3. **哪些方法限制讓 TLG 尚不能單獨作臨床門檻？** HNSCC 觀察研究有限，PET 掃描、分割方法及 cut-off 異質，仍需較大型前瞻性驗證（臨床轉譯 P24）。\n4. **本文是否證明免疫營養對所有 HNSCC 病人有效？** 否。作者稱結果有潛力但研究異質，需足夠樣本的隨機研究；建議仍應守現行指引適應範圍（介入 P30）。\n\n## 來源定位\n\n- 原始全文與出版者頁面：[Springer 原文，DOI 10.1007/s00520-026-11115-w](https://link.springer.com/article/10.1007/s00520-026-11115-w)\n- 全文依據：本輪 Worker 驗證之 Europe PMC XML 主文；來源 DOI、題名及可讀性均通過。文中段落索引對應本輪 `oby70293-fulltext-extracted.json`；官方全文格式說明：[Europe PMC RESTful Web Service](https://europepmc.org/RestfulWebService)\n- 內文引用疑點僅按全文的引文號及參考文獻題名比對，未把錯置自行更正，也未以未核驗的外部來源補數據。",
       "cards": [],
       "completedAt": "2026-10-15T18:52:07.586Z"
+    },
+    {
+      "id": "doi:10.1007/s00520-026-11115-w:digest",
+      "paperId": "doi:10.1007/s00520-026-11115-w",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Beyond reduced intake: tumor metabolism and immune dysregulation drive cancer-related malnutrition in head and neck squamous cell carcinoma (HNSCC).",
+      "authors": "",
+      "journal": "Aging, frailty and sarcopenia (PubMed)",
+      "year": "2026",
+      "doi": "10.1007/s00520-026-11115-w",
+      "abstract": "Cancer-related malnutrition is highly prevalent in patients with head and neck squamous cell carcinoma (HNSCC) and represents a major determinant of treatment tolerance, quality of life, and survival. Although traditionally attributed to reduced oral intake caused by dysphagia, mucositis, and treatment-related toxicity, increasing evidence indicates that malnutrition in HNSCC is largely driven by tumor-induced metabolic and inflammatory alterations. Enhanced aerobic glycolysis, systemic inflammation, and tumor-derived factors promote hypermetabolism, substrate redistribution, and progressive skeletal muscle depletion. Within this immune-metabolic framework, the tumor behaves as a metabolic sink, redirecting glucose, lipids, and amino acids from host tissues to sustain its growth, thereby contributing to energy wasting and sarcopenia independently of caloric intake. Recent clinical data support the translational relevance of this model. Imaging-based assessment of body composition at the third cervical vertebra (C3) and metabolic imaging parameters such as total lesion glycolysis (TLG) provide measurable indicators of tumor metabolic burden and its association with skeletal muscle loss and nutritional risk. Integrating metabolic imaging, inflammatory biomarkers, and body composition analysis may enable earlier identification of patients at high risk of malnutrition and treatment-related toxicity. This review integrates these complementary biological and imaging domains into a unified immune-metabolic framework for nutritional risk stratification in HNSCC. Recognizing cancer-related malnutrition in HNSCC as a tumor-driven immune-metabolic syndrome has important therapeutic implications. Early immune-metabolic nutritional strategies, rather than reactive caloric supplementation alone, may represent a key component of integrated oncologic care aimed at preserving lean body mass and improving clinical outcomes.",
+      "legalFullTextUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13638751/fullTextXML",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42832090/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "clinical nutrition technology",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "Beyond reduced intake: tumor metabolism and immune dysregulation drive cancer-related malnutrition in head and neck squamous cell carcinoma (HNSCC) — 全文整理",
+      "content": "# 全文整理｜頭頸部鱗狀細胞癌營養不良的腫瘤—免疫代謝觀點\n\n## 文獻識別\n\n- 英文題名：Beyond reduced intake: tumor metabolism and immune dysregulation drive cancer-related malnutrition in head and neck squamous cell carcinoma (HNSCC)\n- DOI：10.1007/s00520-026-11115-w\n- 文獻類型：敘述性回顧；非原始臨床試驗、非統合分析。\n- 全文來源：Springer 版本紀錄；Europe PMC 完整 XML。Worker 已核對 DOI、英文題名、版本與主文可讀性。本文沒有新收案或統合數據；資料可得性聲明稱未產生或分析資料集。\n- 本整理逐節依據核驗後的 XML；定位使用原文節名與節內段落，不以摘要代替全文。\n\n## 30 秒摘要\n\n頭頸部鱗狀細胞癌（HNSCC）的營養不良，不一定只是吞嚥痛、黏膜炎或治療副作用讓人吃得少。作者整理出另一個可能同時存在的過程：腫瘤改變能量使用，發炎訊號增加，脂肪和肌肉逐漸分解，於是患者即使體重短期看來變化不大，也可能正在失去肌肉與功能。臨床可把攝取量、症狀、體重趨勢、肌力／功能、C3 肌肉影像、CRP／NLR 和既有 PET 資訊放在一起看。這是一個有生物學合理性的風險框架；TLG、C3 門檻及免疫營養的證據仍有限，不能單獨診斷或取代現行指引。\n\n## 全文地圖\n\n1. **癌症相關營養不良不只來自攝取減少**：用 GLIM 的病因觀點說明發炎；提出整合腫瘤負荷、全身發炎與肌肉量的回顧目的。\n2. **腫瘤代謝與全身能量耗損**：介紹 Warburg 效應、乳酸、脂肪組織變化、胺基酸動員與腫瘤—宿主代謝競爭。\n3. **細胞激素、免疫失調與肌肉流失**：連結慢性發炎、分解訊號、肌少症及免疫營養的可能角色。\n4. **臨床轉譯：肌肉、代謝影像與營養風險**：討論 C3 肌肉量、PET TLG、BMI、發炎指標和整合性評估，並列出標準化不足。\n5. **早期免疫代謝營養策略**：強調及早、多專業營養照護；免疫營養仍受配方和研究場景差異限制。\n6. **結論**：將營養不良視為腫瘤與宿主互動下的多因素問題，提出早期風險辨識的研究方向。\n\n## 5 分鐘導讀：逐節重點\n\n### 一、Cancer-related malnutrition in HNSCC: Beyond reduced intake\n\n- GLIM 診斷框架需至少一項表型條件（例如體重下降、低 BMI 或肌肉量減少）及一項病因條件（例如進食量減少或疾病相關發炎）。因此，疾病發炎本身可以是病因線索，而不只是攝取不足的結果（P2）。\n- 吞嚥困難、黏膜炎、疼痛及治療毒性仍是重要原因；作者提出它們無法解釋所有治療前就開始的體重與肌肉下降（P3–P5）。\n- 文章的目標是把腫瘤代謝負荷（TLG）、全身發炎及 C3 肌肉評估視為互補因子（P7）。這是回顧提出的整合框架，不是本文驗證過的診斷模型。\n\n### 二、Tumor metabolism and systemic energy wasting\n\n- 作者以 Warburg 效應描述腫瘤對葡萄糖利用及乳酸生成的偏好；乳酸處理、肝臟糖質新生及能量消耗可能增加宿主代謝負擔（P8–P9）。\n- PTHrP 和發炎因子可能促進脂解與白色脂肪褐變；肌肉蛋白分解釋出胺基酸，造成宿主組織耗損（P9–P10）。\n- 「腫瘤是代謝匯」是作者用來表達營養基質重新分配的比喻：葡萄糖、脂質、胺基酸的使用可能偏向腫瘤生長，宿主肌肉、肝臟和脂肪組織則承受代價（P10–P11）。本文沒有實測患者的基質流向或個別能量消耗。\n\n### 三、Cytokine-driven immune dysregulation and muscle wasting\n\n- IL-6、TNF-α、IL-1β 與食慾、胰島素敏感性、分解路徑及組織流失相關；myostatin/SMAD、ubiquitin–proteasome 等路徑被用來說明肌肉蛋白合成和分解的可能失衡（P12–P13）。\n- 圖 1 是腫瘤、宿主組織與發炎訊號的機轉示意；表 1 將腫瘤糖解、全身發炎、脂肪重塑、肌肉蛋白分解及代謝競爭分成五類。這些圖表整理機轉，不是新測量結果。\n- 作者提及圍手術期免疫營養可能影響 CD4/CD8 比值與恢復（P14），但對應引文號存在問題（見「全文核對提醒」），故不宜只依本段確認效果。\n\n### 四、Clinical translation: Skeletal muscle loss, metabolic imaging, and nutritional risk\n\n- EWGSOP2 的肌少症概念以肌力作重要起點，再看肌肉量／品質及身體表現；HNSCC 常規影像中的 C3 橫切面肌肉可作全身肌肉量替代線索（P18–P20）。BMI 不能充分反映肌肉量。\n- PET TLG 把病灶體積與代謝活性結合，作者將其視為腫瘤代謝負荷候選指標（P21）。一項前瞻性 HNSCC 世代研究在文中被描述為 TLG 與 C3 肌肉、發炎及營養風險相關（P22），但該段引用與表 3／文末文獻不一致。\n- 表 2 列出 BMI／體重變化、C3 SMI、PET TLG、CRP／IL-6 及功能性營養評估的優點與限制。沒有單一 biomarker 足以識別腫瘤主導的營養不良；CRP、NLR 易取得但不專一，IL-6 等仍偏研究用途（P29）。\n- 作者明確說明 TLG 證據主要來自有限的觀察研究；PET 採集、分割與 cut-off 不同，C3 閾值也未完全標準化，因此應作為補充工具而非獨立標記（P24）。\n\n### 五、Early immune-metabolic nutritional strategies in HNSCC\n\n- 作者支持在放射治療／同步化放療前後及早進行營養照護，與腫瘤治療、疼痛處理及多專業支持整合（P30–P32）。高腫瘤負荷、發炎、早期肌肉流失、吞嚥障礙及多模式治療可共同增加營養脆弱性。\n- 足夠能量和蛋白質、保存瘦體組織與功能，是作者提出的照護目標（P33）；但本文沒有提供可直接使用的個別 kcal/kg、蛋白質 g/kg 或配方劑量。\n- 精胺酸、omega-3 脂肪酸和核苷酸等免疫營養配方在部分情境有希望，但研究對象、配方及治療情境差異大。作者要求更足量隨機研究，並未建議在現行指引適應範圍以外常規使用（P30）。\n\n### 六、Conclusions\n\n作者把癌症相關營養不良描述為腫瘤代謝、慢性發炎與宿主組織分解的交互作用，並主張整合影像、身體組成與營養評估可望較早發現風險（P34–P35）。本文提供的是概念性、轉譯性的整理；要確認因果、指標門檻與介入效益，仍須更完整的臨床研究。\n\n## 全文結構化整理\n\n### 概念路徑（作者提出的模型）\n\n腫瘤葡萄糖代謝改變／代謝需求增加 → 乳酸與腫瘤—宿主訊號改變 → 發炎與胰島素相關代謝失衡 → 脂肪與骨骼肌被動員／分解 → 瘦體組織、體能與營養儲備下降。進食障礙及治療副作用可同時疊加在這條路徑上，並非二選一。\n\n### 表 1 的五類機制\n\n| 機制 | 文章整理的代表變化 | 對照護的提醒 |\n|---|---|---|\n| 腫瘤糖解／能量需求 | 葡萄糖利用與乳酸生成增加 | 單補熱量不一定能避免肌肉流失。 |\n| 全身發炎 | IL-6、TNF-α、IL-1β 等訊號 | 需同時評估病程、感染等非腫瘤因素。 |\n| 脂肪重塑 | PTHrP、發炎訊號與脂肪褐變 | 儲存能量可能被加速消耗。 |\n| 骨骼肌分解 | myostatin/SMAD、蛋白分解訊號 | 體重或 BMI 不能取代肌肉和功能評估。 |\n| 腫瘤—宿主代謝競爭 | 葡萄糖、脂質、胺基酸重新分配 | 以多面向風險框架理解營養不良。 |\n\n### 表 2 的工具對照\n\n| 工具 | 可補充的資訊 | 主要限制 |\n|---|---|---|\n| BMI／體重下降 | 一般營養狀態、容易追蹤 | 對早期肌少症與代謝改變敏感度不足。 |\n| C3 SMI（CT） | 頭頸部既有影像的肌肉量線索 | 需要分析能力，標準化及通用 cut-off 尚不足。 |\n| PET TLG | 腫瘤體積與糖解活性的合併指標 | 尚未標準化為營養診斷工具；HNSCC 直接研究有限。 |\n| CRP、NLR、IL-6 | 發炎背景 | 非特異；細胞激素多屬研究工具，不能單獨診斷。 |\n| 功能性營養評估 | 攝取、功能、症狀與臨床判斷 | 評估者與病人回報會有差異，但對照護不可缺少。 |\n\n### 表 3 的臨床研究概覽\n\n表 3 把研究分成 TLG／肌肉／營養風險、PNI 與發炎指數、營養—發炎綜合預後等方向。它提供研究線索，但沒有在表內列出各研究樣本數、調整變項、效果量、信賴區間或風險偏差，因此不能據此比較哪一個模型預測力最佳，也不能量化 TLG 對營養不良的效應。\n\n## 作者框架與既有臨床理解的關係\n\n作者不是否定進食障礙的角色，而是補充疾病相關發炎、腫瘤代謝與宿主分解的可能貢獻。GLIM 的病因條件提供營養不良可由疾病與發炎驅動的概念；HNSCC 的吞嚥／口腔症狀仍需照護。文章新增的整合方向是把 PET 代謝負荷、C3 肌肉表型和發炎資料放到同一風險圖像中，而非提出已驗證的新診斷準則或新處方。\n\n## 臨床閱讀提示\n\n- 先做完整營養與症狀評估：進食量、吞嚥、疼痛、黏膜炎、體重趨勢、肌力／功能及治療計畫。\n- 若有既有頭頸部 CT 和分析資源，可用 C3 肌肉資訊補足 BMI；若患者已有 PET/CT，TLG 是背景資料，不是獨立營養診斷。\n- CRP／NLR 需一起考量感染與共病；不要把發炎指標單獨當成營養狀態。\n- 依現行癌症營養指引，及早與腫瘤、營養、吞嚥及症狀照護團隊合作。本文不提供個人劑量或免疫營養產品處方。\n\n## 限制與全文核對提醒\n\n- 全文沒有方法學章節、資料庫搜尋策略、檢索式、搜尋日期、納入排除條件或研究品質評分；選文是否完整不可知。\n- 本文沒有原始樣本、統合效果量或研究層級的 n、CI、cut-off 分布；表格是敘述性整理。\n- 作者自己承認 TLG 研究少且觀察性、PET 方法異質、C3 閾值未標準化；這些指標只宜互補評估。\n- 文內引文與文末題名有至少三處可核對的錯置：免疫營養效果段落引 [22]，但 [22] 題名為 ActRIIB 動物研究，HNSCC 免疫營養研究列作 [24]；TLG 段落引 [30]，其題名為 C3 肌肉 CT 評估；前瞻性 HNSCC cohort 段落引 [31]，其題名為非小細胞肺癌 PET 統合分析，而表 3 將 Rey 等 HNSCC 研究列作 [32]。此為原文內部一致性問題，本整理未自行調號。\n- 因果路徑具有合理性，但敘述性回顧不能證明腫瘤代謝對每位患者的因果貢獻，也不能由本文推出介入效果大小。\n\n## 名詞小辭典\n\n- **HNSCC**：頭頸部鱗狀細胞癌。\n- **癌症相關營養不良**：癌症及治療背景下的營養與身體組成惡化；GLIM 同時考量體型／肌肉等表型及進食減少或發炎等病因。\n- **惡病質（cachexia）**：與疾病相關、伴隨肌肉量流失及代謝改變的消耗狀態；不等同單純吃不夠。\n- **肌少症（sarcopenia）**：以肌力為重要起點，並結合肌肉量／品質和身體表現評估的肌肉疾病。\n- **C3 SMI**：第三頸椎影像的骨骼肌面積相對身高等指標，作為身體肌肉量的替代評估線索。\n- **TLG**：total lesion glycolysis；PET 中整合病灶體積及代謝活性的參數。\n- **NLR**：中性球／淋巴球比值，可作非特異的全身發炎線索。\n- **Warburg effect**：腫瘤細胞在有氧情況下仍偏向糖解作用的代謝現象。\n- **代謝匯（metabolic sink）**：本文用以形容腫瘤需求可能改變宿主營養基質去向的概念性比喻，不是臨床檢驗值。\n\n## 自我測驗\n\n1. **為何文章不把營養不良只歸因於吃得少？** 因 GLIM 也承認疾病相關發炎；部分 HNSCC 患者在治療開始前已有肌肉與體重下降，作者提出腫瘤代謝及發炎可能同時參與。\n2. **C3 SMI 與 TLG 各提供什麼資訊？** C3 SMI 是肌肉量／身體組成線索；TLG 是腫瘤體積與 PET 代謝活性的線索。兩者互補，不能單獨診斷營養不良。\n3. **目前限制 TLG 臨床門檻的因素有哪些？** HNSCC 觀察研究有限，PET 採集、病灶分割和 cut-off 異質，尚待大型前瞻性驗證。\n4. **作者是否主張所有 HNSCC 病人常規使用免疫營養？** 否。研究情境和配方異質，需更多足量隨機研究；本文要求遵循現行指引適應範圍。\n\n## 來源與執行依據\n\n- [Springer 原文，DOI 10.1007/s00520-026-11115-w](https://link.springer.com/article/10.1007/s00520-026-11115-w)\n- [Europe PMC RESTful Web Service](https://europepmc.org/RestfulWebService)：本輪合法全文 XML 路徑使用 `fullTextXML`。\n- 本機核驗全文：`source.xml`，SHA-256 `9591e8976c9917d2d64200e801e2eb634cfc4c0fa32935f6f6e6c06ddfe9cbcd`；DOI／題名精確匹配、主文可讀。\n- 文章授權資訊以出版者頁所示 CC BY-NC-ND 4.0 為準；此 digest 以自撰轉述呈現，未附原文 PDF 或整段原文。",
+      "cards": [
+        {
+          "title": "營養惡化的雙重來源",
+          "question": "作者為何認為 HNSCC 營養不良不一定只是吃得少？",
+          "answer": "進食障礙之外，作者也提出腫瘤代謝、全身發炎及脂肪／肌肉分解可能共同參與；本文未量化因果貢獻。",
+          "tags": [
+            "HNSCC",
+            "營養不良",
+            "代謝"
+          ]
+        },
+        {
+          "title": "C3 與 TLG",
+          "question": "C3 SMI 和 PET TLG 各代表哪一類風險資訊？",
+          "answer": "C3 SMI 補充肌肉量／身體組成；TLG 補充腫瘤體積與代謝活性，兩者都不能單獨診斷營養不良。",
+          "tags": [
+            "肌少症",
+            "影像",
+            "風險評估"
+          ]
+        },
+        {
+          "title": "TLG 的證據邊界",
+          "question": "為何目前不能把 TLG 當作單一臨床營養門檻？",
+          "answer": "HNSCC 觀察研究有限，PET 採集、病灶分割與 cut-off 尚未標準化，作者要求更大型前瞻性驗證。",
+          "tags": [
+            "TLG",
+            "研究限制",
+            "臨床應用"
+          ]
+        },
+        {
+          "title": "免疫營養何時用",
+          "question": "本文是否支持所有 HNSCC 病人常規使用免疫營養？",
+          "answer": "否。現有研究的配方、病人和治療情境異質，需更多足量隨機研究並依現行指引適應範圍使用。",
+          "tags": [
+            "免疫營養",
+            "證據確定性",
+            "指引"
+          ]
+        }
+      ],
+      "completedAt": "2026-10-15T18:58:49.135Z"
     }
   ]
 }
