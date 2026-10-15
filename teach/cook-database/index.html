@@ -1338,7 +1338,26 @@
       .then(r => r.json())
       .then(data => {
         allRecipes = data;
+
+        // 支援 URL 參數搜尋與自動開啟彈窗 (?q=料理關鍵字 與 ?id=料理ID)
+        const urlParams = new URLSearchParams(window.location.search);
+        const searchQ = urlParams.get('q');
+        const targetId = urlParams.get('id');
+
+        if (searchQ) {
+          qInput.value = searchQ;
+        }
+
         renderList();
+
+        if (targetId) {
+          openModal(targetId);
+        } else if (searchQ) {
+          const exact = allRecipes.find(r => r.dish === searchQ);
+          if (exact) {
+            openModal(exact.id);
+          }
+        }
       })
       .catch(err => {
         console.error('Failed to load recipes_full.json', err);

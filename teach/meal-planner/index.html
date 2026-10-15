@@ -882,12 +882,12 @@
       currentDay: 1
     };
 
-    // 示範菜色資料庫 (依據 teach/food-exchange 代換表結構化定義)
+    // 示範菜色資料庫 (依據 teach/food-exchange 代換表結構化定義，且 100% 與 teach/cook-database 一致)
     const SAMPLE_MENUS = {
       1: {
         breakfast: {
           grain: { name: '烤全麥吐司', type: 'toast' },
-          protein: { name: '荷包蛋 / 水煮蛋', type: 'egg', link: '../cook-database/' },
+          protein: { name: '家常蒸蛋', type: 'egg', link: '../cook-database/?q=家常蒸蛋&id=E8Mi4yarySY' },
           veg: { name: '和風小黃瓜彩椒沙拉' },
           fruit: { name: '富士小蘋果', type: 'apple' },
           dairy: { name: '全脂鮮乳', type: 'milk' },
@@ -895,14 +895,14 @@
         },
         lunch: {
           grain: { name: '胚芽米飯', type: 'rice' },
-          protein: { name: '茶油時蔬蒸雞胸肉', type: 'chicken', link: '../cook-database/' },
+          protein: { name: '吞嚥照護食茶油雞', type: 'chicken', link: '../cook-database/?q=吞嚥照護食茶油雞&id=OI_8xoSawyQ' },
           veg: { name: '蒜炒地瓜葉與黑木耳' },
           fruit: { name: '芭樂切片', type: 'guava' },
           oil: { name: '無調味綜合堅果', type: 'nuts' }
         },
         dinner: {
           grain: { name: '紅藜胚芽飯', type: 'rice' },
-          protein: { name: '清蒸破布子鯛魚片', type: 'fish', link: '../cook-database/' },
+          protein: { name: '清蒸鯛魚片', type: 'fish', link: '../cook-database/?q=清蒸鯛魚片&id=zmDizQYJKNM' },
           veg: { name: '彩椒炒四季豆' },
           fruit: null,
           dairy: null,
@@ -912,7 +912,7 @@
       2: {
         breakfast: {
           grain: { name: '溫熱熟燕麥片', type: 'oats' },
-          protein: { name: '無糖高纖豆漿佐嫩蒸蛋', type: 'egg', link: '../cook-database/' },
+          protein: { name: '鮮蔬牛奶水嫩蒸蛋', type: 'egg', link: '../cook-database/?q=鮮蔬牛奶水嫩蒸蛋&id=Uc7VqUudD2s' },
           veg: { name: '番茄小黃瓜沙拉' },
           fruit: { name: '香蕉 (小)', type: 'banana' },
           dairy: { name: '低脂起司片', type: 'cheese' },
@@ -920,14 +920,14 @@
         },
         lunch: {
           grain: { name: '紫米五穀飯', type: 'rice' },
-          protein: { name: '香烤鮭魚佐檸檬', type: 'fish', link: '../cook-database/' },
+          protein: { name: 'Omega-3 護心料理：家鄉鯖魚佐時蔬', type: 'fish', link: '../cook-database/?q=家鄉鯖魚佐時蔬&id=I_PuLUR88bw' },
           veg: { name: '清炒高麗菜與紅蘿蔔' },
           fruit: { name: '聖女番茄', type: 'tomato' },
           oil: { name: '苦茶油 (烹調用)', type: 'oil' }
         },
         dinner: {
           grain: { name: '清蒸栗子南瓜', type: 'pumpkin' },
-          protein: { name: '九層塔香煎傳統豆腐', type: 'tofu', link: '../cook-database/' },
+          protein: { name: '低鈉堅果彩椒蒸豆腐', type: 'tofu', link: '../cook-database/?q=低鈉堅果彩椒蒸豆腐&id=bbRK7ynxl0A' },
           veg: { name: '薑絲清炒芥藍菜' },
           fruit: null,
           dairy: null,
@@ -937,7 +937,7 @@
       3: {
         breakfast: {
           grain: { name: '手工地瓜燒餅', type: 'flatbread' },
-          protein: { name: '香煎蔥花蛋', type: 'egg', link: '../cook-database/' },
+          protein: { name: '韓式水蒸蛋【國語版】', type: 'egg', link: '../cook-database/?q=韓式水蒸蛋&id=02KiDOoJY1Y' },
           veg: { name: '洋蔥彩椒絲' },
           fruit: { name: '奇異果', type: 'kiwi' },
           dairy: { name: '高鈣無糖優酪乳', type: 'yogurt' },
@@ -945,14 +945,14 @@
         },
         lunch: {
           grain: { name: '蕎麥涼麵', type: 'noodles' },
-          protein: { name: '蔥燒里肌嫩豬排', type: 'meat', link: '../cook-database/' },
+          protein: { name: '無油軟嫩瘦肉', type: 'meat', link: '../cook-database/?q=無油軟嫩瘦肉&id=bmRXaUhWUac' },
           veg: { name: '川燙青江菜與金針菇' },
           fruit: { name: '大水梨切塊', type: 'apple' },
           oil: { name: '白芝麻胡麻醬', type: 'oil' }
         },
         dinner: {
           grain: { name: '雜糧十穀飯', type: 'rice' },
-          protein: { name: '薑絲鮮鱸魚豆腐湯', type: 'fish', link: '../cook-database/' },
+          protein: { name: '社區鍋營養無油煙蒸鱸魚', type: 'fish', link: '../cook-database/?q=蒸鱸魚&id=vo_jYRR02wc' },
           veg: { name: '枸杞川燙皇宮菜' },
           fruit: null,
           dairy: null,
@@ -1008,12 +1008,12 @@
       if (type === 'egg') {
         // 雞蛋 1 顆 (55g) = 1.0 份
         if (servings <= 1.1) {
-          return `荷包蛋 / 水煮蛋 1 顆 (約 55g，1.0 份)`;
+          return `${dishName} 1 份 (含全蛋 1 顆，約 55g)`;
         } else {
-          // 當份數大於 1 份 (如 1.8 份、2.0 份)，雞蛋出 1 顆，剩餘蛋白質由豆漿或毛豆補足
+          // 當份數大於 1 份 (如 1.8 份、2.0 份)，以蛋 1 顆為基礎 (1.0 份)，剩餘蛋白質由豆漿補足
           const rem = servings - 1.0;
           const soymilkMl = Math.round(rem * 190);
-          return `雞蛋 1 顆 (1.0 份，55g)<br><span style="color:#0f5b43; font-weight:800;">+ 蛋白補足</span>：無糖豆漿約 ${soymilkMl} ml (${rem.toFixed(1)} 份)`;
+          return `${dishName} 1.0 份 (含全蛋 1 顆，55g)<br><span style="color:#0f5b43; font-weight:800;">+ 蛋白補足</span>：無糖豆漿約 ${soymilkMl} ml (${rem.toFixed(1)} 份)`;
         }
       } else if (type === 'chicken' || type === 'meat') {
         // 去骨生肉 1份 = 35g (熟重約 30g)
