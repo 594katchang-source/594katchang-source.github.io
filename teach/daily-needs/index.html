@@ -649,7 +649,7 @@
               <div class="kpi-unit" id="resBmiStatus">正常體位</div>
             </div>
             <div class="kpi-card">
-              <div class="kpi-label">BMR 基礎代謝率 (Mifflin-St Jeor)</div>
+              <div class="kpi-label">BMR 基礎代謝率</div>
               <div class="kpi-val" id="resBmr">--</div>
               <div class="kpi-unit">kcal / 日</div>
             </div>
@@ -709,43 +709,48 @@
             </div>
           </div>
 
-          <!-- 3. 完整計算公式與代入算式解析 (橫式 一條 一條 呈現，• 換行在開頭，結果鮮明顏色) -->
-          <div class="formula-section">
-            <div class="formula-title">🧮 完整計算公式與代入算式解析</div>
+          <!-- 3. 完整計算公式與代入算式解析 (預設收合) -->
+          <details class="formula-section">
+            <summary class="formula-title" style="cursor:pointer; list-style:none; display:flex; justify-content:space-between; align-items:center;">
+              <span style="display:flex; align-items:center; gap:10px;">🧮 完整計算公式與代入算式解析</span>
+              <span style="font-size:0.9rem; font-weight:700; color:var(--green-dark); background:#e8f5ed; padding:4px 12px; border-radius:10px;">點擊展開 / 收合</span>
+            </summary>
             
-            <!-- 步驟 1 橫式卡片 -->
-            <div class="formula-row-card">
-              <div class="formula-row-header">
-                <span class="step-badge">步驟 1</span>
-                <h4>BMR 基礎代謝率（Mifflin-St Jeor 臨床代謝公式）</h4>
+            <div style="margin-top:20px;">
+              <!-- 步驟 1 橫式卡片 -->
+              <div class="formula-row-card">
+                <div class="formula-row-header">
+                  <span class="step-badge">步驟 1</span>
+                  <h4>BMR 基礎代謝率（Mifflin-St Jeor 臨床代謝公式）</h4>
+                </div>
+                <div class="formula-lines" id="formulaStep1Lines">
+                  <!-- 動態注入橫式 lines -->
+                </div>
               </div>
-              <div class="formula-lines" id="formulaStep1Lines">
-                <!-- 動態注入橫式 lines -->
-              </div>
-            </div>
 
-            <!-- 步驟 2 橫式卡片 -->
-            <div class="formula-row-card">
-              <div class="formula-row-header">
-                <span class="step-badge">步驟 2</span>
-                <h4>TDEE 每日總能量消耗與個人目標熱量</h4>
+              <!-- 步驟 2 橫式卡片 -->
+              <div class="formula-row-card">
+                <div class="formula-row-header">
+                  <span class="step-badge">步驟 2</span>
+                  <h4>TDEE 每日總能量消耗與個人目標熱量</h4>
+                </div>
+                <div class="formula-lines" id="formulaStep2Lines">
+                  <!-- 動態注入橫式 lines -->
+                </div>
               </div>
-              <div class="formula-lines" id="formulaStep2Lines">
-                <!-- 動態注入橫式 lines -->
-              </div>
-            </div>
 
-            <!-- 步驟 3 橫式卡片 -->
-            <div class="formula-row-card">
-              <div class="formula-row-header">
-                <span class="step-badge">步驟 3</span>
-                <h4>三大巨量營養素每日克數與熱量分配</h4>
-              </div>
-              <div class="formula-lines" id="formulaStep3Lines">
-                <!-- 動態注入橫式 lines -->
+              <!-- 步驟 3 橫式卡片 -->
+              <div class="formula-row-card">
+                <div class="formula-row-header">
+                  <span class="step-badge">步驟 3</span>
+                  <h4>三大巨量營養素每日克數與熱量分配</h4>
+                </div>
+                <div class="formula-lines" id="formulaStep3Lines">
+                  <!-- 動態注入橫式 lines -->
+                </div>
               </div>
             </div>
-          </div>
+          </details>
 
           <!-- 4. 衛福部國人膳食營養素參考攝取量 (DRIs 第八版) 重要微量營養素建議 (膳食纖維, 維生素D, 鎂, 鐵, 鋅, 鉀) -->
           <div class="dris-section">
@@ -822,7 +827,7 @@
           <!-- 5. 營養師貼心提醒 -->
           <div class="elder-notice">
             <b>凱特營養師貼心叮嚀：</b><br>
-            • <b>每日水分補足</b>：成人每日基本建議飲水量約為體重(kg) × 30–35 ml（以目前體重計算約需 <span id="resWater" style="font-weight:900; color:var(--green-dark);">--</span> 毫升），請少量多次補充、避免等到口渴才飲水。<br>
+            • <b>每日水分補足</b>：成人每日基本建議飲水量約為體重(kg) × 25–35 ml（以目前體重計算約需 <span id="resWater" style="font-weight:900; color:var(--green-dark);">--</span> 毫升），請少量多次補充、避免等到口渴才飲水。<br>
             • <b>中高齡肌少防護（熟齡長輩）</b>：若年齡大於 65 歲，建議每日蛋白質攝取量維持在每公斤體重 1.2–1.5 公克，並平均分配於三餐，更有助於刺激肌肉蛋白合成並預防肌少症。<br>
             • <b>慢性疾病族群須知</b>：若患有慢性腎臟病（CKD）、心臟衰竭或需嚴格限鉀/限鈉者，微量元素與水分攝取請遵照專科醫師與營養師之個別化門診指引。
           </div>
@@ -831,13 +836,13 @@
 
       <div class="faq-block">
         <h3>常見問題與營養知識解析</h3>
-        <details class="faq-item" open>
+        <details class="faq-item">
           <summary>為什麼本計算器採用 Mifflin-St Jeor 公式？</summary>
           <p><b>Mifflin-St Jeor 公式</b>於 1990 年提出，相較於 1919 年的舊版 Harris-Benedict 公式，在現代臨床營養學與美國營養飲食學會（AND）的多項大型實證研究中，已被證實是估算現代人靜止基礎代謝率（BMR）最為精準且可靠的臨床公式，能有效避免代謝率高估的偏差。</p>
         </details>
         <details class="faq-item">
           <summary>什麼是三大巨量營養素？與微量營養素有何不同？</summary>
-          <p><b>三大巨量營養素（Macronutrients）</b>包括碳水化合物、蛋白質與脂肪，是人體維持生命代謝與活動能量的主要來源，需要以「公克（g）」為單位每日攝取；而<b>微量營養素（Micronutrients）</b>如膳食纖維、維生素 D、鎂、鐵、鋅、鉀等，雖然每日需求量以「毫克（mg）」或「微克（μg）」計算，卻是體內代謝、骨質密度、神經傳導與心血管健康不可或缺的調節之鑰。</p>
+          <p><b>三大巨量營養素（Macronutrients）</b>包括碳水化合物、蛋白質與脂肪，是人體維持生命代謝與活動能量的主要來源，需要以「公克（g）」為單位每日攝取；而<b>微量營養素（Micronutrients）</b>雖然每日需求量以「毫克（mg）」或「微克（μg）」計算，卻是體內代謝、骨質密度、神經傳導與心血管健康不可或缺的調節之鑰。</p>
         </details>
         <details class="faq-item">
           <summary>減重時熱量赤字設定在多少最適當？</summary>
@@ -930,11 +935,11 @@
       const cGrams = Math.round(cCal / 4);
       const pPerKg = (pGrams / weight).toFixed(2);
 
-      // 步驟 3 橫式一行一行生成
+      // 步驟 3 橫式一行一行生成 (刪除後方括號說明)
       const step3Lines = [
-        `• <b>優質蛋白質 (${preset.protein}%)</b>：${targetCalories.toLocaleString()} kcal × ${preset.protein}% = ${pCal.toLocaleString()} kcal ÷ 4 kcal/g = <span class="highlight-num green">${pGrams}</span> <span class="unit">g</span>（換算約每公斤體重 <span class="highlight-num green">${pPerKg}</span> g/kg）`,
-        `• <b>全榖碳水化合物 (${preset.carbs}%)</b>：${targetCalories.toLocaleString()} kcal × ${preset.carbs}% = ${cCal.toLocaleString()} kcal ÷ 4 kcal/g = <span class="highlight-num blue">${cGrams}</span> <span class="unit">g</span>（維持腦力與身體機能主燃料）`,
-        `• <b>優質油脂與堅果 (${preset.fat}%)</b>：${targetCalories.toLocaleString()} kcal × ${preset.fat}% = ${fCal.toLocaleString()} kcal ÷ 9 kcal/g = <span class="highlight-num amber">${fGrams}</span> <span class="unit">g</span>（維護細胞膜與脂溶性維生素吸收）`
+        `• <b>優質蛋白質 (${preset.protein}%)</b>：${targetCalories.toLocaleString()} kcal × ${preset.protein}% = ${pCal.toLocaleString()} kcal ÷ 4 kcal/g = <span class="highlight-num green">${pGrams}</span> <span class="unit">g</span>`,
+        `• <b>全榖碳水化合物 (${preset.carbs}%)</b>：${targetCalories.toLocaleString()} kcal × ${preset.carbs}% = ${cCal.toLocaleString()} kcal ÷ 4 kcal/g = <span class="highlight-num blue">${cGrams}</span> <span class="unit">g</span>`,
+        `• <b>優質油脂與堅果 (${preset.fat}%)</b>：${targetCalories.toLocaleString()} kcal × ${preset.fat}% = ${fCal.toLocaleString()} kcal ÷ 9 kcal/g = <span class="highlight-num amber">${fGrams}</span> <span class="unit">g</span>`
       ];
 
       // 5. 衛福部 DRIs 第八版 6 大指定關鍵營養素動態標準 (膳食纖維, 維生素D, 鎂, 鐵, 鋅, 鉀)
@@ -1023,8 +1028,8 @@
         potDesc = "成年女性充足攝取量 (2.5g)，促進體內鈉離子排出、消水腫。";
       }
 
-      // 水分計算
-      const waterMin = Math.round(weight * 30);
+      // 水分計算 (25–35 ml / kg)
+      const waterMin = Math.round(weight * 25);
       const waterMax = Math.round(weight * 35);
 
       // 6. 渲染至 DOM
