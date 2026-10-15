@@ -4,15 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>每日營養與熱量需求計算器 (TDEE / BMR / 三大巨量營養素 / DRIs) ｜ Kat Chang 凱特營養師</title>
-  <meta name="description" content="免費 TDEE 每日總消耗熱量與 BMR 基礎代謝率線上計算器：透明展示計算公式算式、三大巨量營養素配比圖表（支援 6 大飲食型態）與台灣衛福部最新版國人膳食營養素參考攝取量（DRIs 第八版）個人化建議。">
-  <meta name="keywords" content="TDEE計算機, BMR基礎代謝率, 每日熱量需求計算, 三大巨量營養素, DRIs國人膳食營養素參考攝取量, 蛋白質需求, 飲食型態配比, 減重熱量赤字, Kat Chang, 張雁雲營養師">
+  <meta name="description" content="免費 TDEE 每日總消耗熱量與 BMR 基礎代謝率線上計算器：採用臨床實證 Mifflin-St Jeor 代謝公式，透明展示橫式計算算式、三大巨量營養素配比圖表與台灣衛福部國人膳食營養素參考攝取量（DRIs 第八版）膳食纖維、維生素D、鎂、鐵、鋅、鉀個人化建議。">
+  <meta name="keywords" content="TDEE計算機, BMR基礎代謝率, Mifflin-St Jeor公式, 每日熱量需求計算, 三大巨量營養素, DRIs國人膳食營養素參考攝取量, 蛋白質需求, 維生素D, 膳食纖維, 減重熱量赤字, Kat Chang, 張雁雲營養師">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
   <link rel="canonical" href="https://594katchang-source.github.io/teach/daily-needs/">
   <link rel="stylesheet" href="../../styles.css?v=20260728-mobile">
   
   <meta property="og:type" content="website">
   <meta property="og:title" content="每日營養與熱量需求計算器 ｜ Kat Chang 凱特營養師">
-  <meta property="og:description" content="精準計算 TDEE、BMR、三大巨量營養素配比與台灣衛福部 DRIs 第八版個人化營養建議，公式算式全公開。">
+  <meta property="og:description" content="精準計算 TDEE、BMR、三大巨量營養素配比與台灣衛福部 DRIs 第八版個人化營養建議，Mifflin-St Jeor 公式算式全公開。">
   <meta property="og:url" content="https://594katchang-source.github.io/teach/daily-needs/">
   <meta property="og:image" content="https://594katchang-source.github.io/assets/og/og-teach-hub.png">
   <meta property="og:site_name" content="Kat Chang 凱特營養師">
@@ -31,7 +31,7 @@
           "applicationCategory": "HealthApplication",
           "operatingSystem": "Web",
           "url": "https://594katchang-source.github.io/teach/daily-needs/",
-          "description": "精準計算 TDEE、BMR 基礎代謝率，提供透明公式算式、三大巨量營養素克數與台灣衛福部 DRIs 第八版個人化微量營養素與水分建議。",
+          "description": "精準計算 TDEE、BMR 基礎代謝率，提供 Mifflin-St Jeor 透明橫式算式、三大巨量營養素克數與台灣衛福部 DRIs 第八版個人化微量營養素建議。",
           "author": {
             "@type": "Person",
             "name": "張雁雲營養師",
@@ -71,10 +71,10 @@
           "mainEntity": [
             {
               "@type": "Question",
-              "name": "什麼是 TDEE 與 BMR？如何計算？",
+              "name": "什麼是 TDEE 與 BMR？本計算器採用何種代謝公式？",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "BMR（基礎代謝率）是指人體在靜止狀態下維持生命所需消耗的最低熱量，本計算器採用國際臨床通用的 Harris-Benedict 與 Mifflin-St Jeor 公式；TDEE（每日總熱量消耗）則是將 BMR 乘上個人的日常身體活動強度係數，代表一天真正消耗的總熱量。"
+                "text": "BMR（基礎代謝率）是指人體在靜止狀態下維持生命所需消耗的最低熱量。本計算器採用國際臨床醫學實證公認精準度極高的 Mifflin-St Jeor 公式；TDEE（每日總熱量消耗）則是將 BMR 乘上個人的日常身體活動強度係數，代表一天真正消耗的總熱量。"
               }
             },
             {
@@ -127,7 +127,7 @@
       margin: 0 auto;
       color: var(--muted);
       font-size: 1.15rem;
-      max-width: 800px;
+      max-width: 820px;
       line-height: 1.6;
     }
     .calc-card {
@@ -200,7 +200,7 @@
       gap: 10px;
     }
 
-    /* KPI 卡片 */
+    /* KPI 核心摘要卡片 */
     .kpi-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -318,72 +318,121 @@
       align-items: center;
     }
 
-    /* 公式算式透明化展示區 */
+    /* 橫式 一條 一條 公式算式展示區 */
     .formula-section {
       background: #f9fbf9;
       border: 1.5px solid #d8e6dc;
       border-left: 6px solid var(--green);
-      border-radius: 20px;
-      padding: clamp(20px, 3vw, 28px);
+      border-radius: 24px;
+      padding: clamp(20px, 3vw, 30px);
       margin-bottom: 30px;
     }
     .formula-title {
-      font-size: 1.25rem;
+      font-size: 1.35rem;
       font-weight: 900;
       color: var(--green-dark);
-      margin-bottom: 16px;
+      margin-bottom: 20px;
       display: flex;
       align-items: center;
-      gap: 8px;
+      gap: 10px;
     }
-    .formula-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 16px;
-    }
-    .formula-box {
+    .formula-row-card {
       background: #ffffff;
-      border: 1px solid #e0eae3;
-      border-radius: 14px;
-      padding: 16px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+      border: 1.5px solid #dce8df;
+      border-radius: 18px;
+      padding: 20px 24px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+      transition: all .2s ease;
     }
-    .formula-box h5 {
-      margin: 0 0 8px;
-      font-size: 1.05rem;
-      font-weight: 800;
-      color: var(--ink);
+    .formula-row-card:last-child {
+      margin-bottom: 0;
+    }
+    .formula-row-card:hover {
+      border-color: var(--green);
+      box-shadow: 0 4px 14px rgba(31, 122, 91, 0.08);
+    }
+    .formula-row-header {
       display: flex;
-      justify-content: space-between;
       align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+      padding-bottom: 10px;
+      border-bottom: 1px dashed #e2ede5;
     }
-    .formula-badge {
-      font-size: 0.8rem;
-      padding: 3px 8px;
-      border-radius: 6px;
-      background: #eef6f1;
-      color: var(--green-dark);
-      font-weight: 700;
-    }
-    .formula-code {
-      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-      font-size: 0.92rem;
-      background: #f5f8f6;
-      border: 1px solid #dbeef1;
+    .step-badge {
+      background: linear-gradient(135deg, var(--green-dark), var(--green));
+      color: #fff;
+      font-size: 0.88rem;
+      font-weight: 900;
+      padding: 4px 12px;
       border-radius: 8px;
-      padding: 10px 12px;
-      color: #1e3a2b;
-      line-height: 1.55;
-      word-break: break-all;
-      margin-bottom: 6px;
+      letter-spacing: 0.5px;
+      white-space: nowrap;
     }
-    .formula-result-note {
-      font-size: 0.9rem;
+    .formula-row-header h4 {
+      margin: 0;
+      font-size: 1.15rem;
+      font-weight: 900;
+      color: var(--ink);
+    }
+    .formula-lines {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .formula-line {
+      font-size: 1.02rem;
+      line-height: 1.65;
+      color: #24352b;
+      word-break: break-word;
+      display: block;
+    }
+    .formula-line b {
+      color: var(--green-dark);
+      margin-right: 2px;
+    }
+    
+    /* 算式最後結果數字鮮明顏色高亮標記 */
+    .highlight-num {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 1.25rem;
+      font-weight: 950;
+      padding: 2px 10px;
+      border-radius: 8px;
+      display: inline-block;
+      margin: 0 4px;
+      vertical-align: middle;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    }
+    .highlight-num.green {
+      background: #e6f7ee;
+      color: #0b6b47;
+      border: 1.5px solid #a3dfbc;
+    }
+    .highlight-num.blue {
+      background: #eaf3fd;
+      color: #125596;
+      border: 1.5px solid #afd3fa;
+    }
+    .highlight-num.coral {
+      background: #fdf0ec;
+      color: #cb431d;
+      border: 1.5px solid #f7bfad;
+    }
+    .highlight-num.amber {
+      background: #fdf6ea;
+      color: #b06503;
+      border: 1.5px solid #f9dcb0;
+    }
+    .formula-line .unit {
+      font-size: 0.95rem;
+      font-weight: 700;
       color: var(--muted);
-      font-weight: 600;
+      margin-left: 2px;
     }
 
-    /* 衛福部 DRIs 第八版個人化營養建議卡片 */
+    /* 衛福部 DRIs 第八版個人化營養建議卡片 (6 顆指定重要營養素) */
     .dris-section {
       background: #ffffff;
       border: 1.5px solid #dce8df;
@@ -394,7 +443,7 @@
     }
     .dris-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
       gap: 16px;
       margin-top: 18px;
     }
@@ -402,26 +451,31 @@
       background: #fafdfa;
       border: 1.5px solid #e2ede5;
       border-radius: 18px;
-      padding: 18px;
+      padding: 18px 20px;
       text-align: left;
       transition: all .2s ease;
     }
     .dris-card:hover {
       border-color: var(--green);
       box-shadow: 0 4px 12px rgba(31, 122, 91, 0.08);
+      transform: translateY(-2px);
+    }
+    .dris-header-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 6px;
     }
     .dris-icon {
-      font-size: 1.8rem;
-      margin-bottom: 8px;
+      font-size: 1.6rem;
     }
     .dris-name {
-      font-size: 1.05rem;
+      font-size: 1.1rem;
       font-weight: 800;
       color: var(--ink);
-      margin-bottom: 4px;
     }
     .dris-val {
-      font-size: 1.6rem;
+      font-size: 1.7rem;
       font-weight: 950;
       color: var(--green-dark);
       line-height: 1.2;
@@ -488,6 +542,9 @@
       .form-grid { grid-template-columns: 1fr; gap: 14px; }
       .kpi-grid { grid-template-columns: 1fr; gap: 12px; }
       .dris-grid { grid-template-columns: 1fr; gap: 12px; }
+      .formula-row-card { padding: 16px; border-radius: 14px; }
+      .formula-line { font-size: 0.98rem; }
+      .highlight-num { font-size: 1.15rem; padding: 2px 6px; }
       .faq-block { padding: 20px 16px; border-radius: 18px; }
       .btn-calc { min-height: 48px; font-size: 1.15rem; }
     }
@@ -519,7 +576,7 @@
       <div class="hero-header">
         <p class="eyebrow">Nutrition Assessment Tool</p>
         <h1>每日營養與熱量需求計算器</h1>
-        <p class="lead">透明呈現 Harris-Benedict 代謝公式與計算歷程，結合台灣衛福部《國人膳食營養素參考攝取量（DRIs 第八版）》標準與 6 大主流飲食型態，為您精算個人化每日熱量與三大巨量營養素目標。</p>
+        <p class="lead">採用臨床公認高精準度之 <b>Mifflin-St Jeor 公式</b>，透明條列展開橫式計算算式，並對接衛生福利部最新發布之《國人膳食營養素參考攝取量（DRIs 第八版）》標準，為您精算三大巨量營養素與 6 大關鍵微量營養素。</p>
       </div>
 
       <div class="calc-card">
@@ -592,7 +649,7 @@
               <div class="kpi-unit" id="resBmiStatus">正常體位</div>
             </div>
             <div class="kpi-card">
-              <div class="kpi-label">BMR 基礎代謝率</div>
+              <div class="kpi-label">BMR 基礎代謝率 (Mifflin-St Jeor)</div>
               <div class="kpi-val" id="resBmr">--</div>
               <div class="kpi-unit">kcal / 日</div>
             </div>
@@ -652,104 +709,122 @@
             </div>
           </div>
 
-          <!-- 3. 公式與算式透明化展示區 (Calculation Details) -->
+          <!-- 3. 完整計算公式與代入算式解析 (橫式 一條 一條 呈現，• 換行在開頭，結果鮮明顏色) -->
           <div class="formula-section">
             <div class="formula-title">🧮 完整計算公式與代入算式解析</div>
-            <div class="formula-grid">
-              <!-- BMR 算式 -->
-              <div class="formula-box">
-                <h5>
-                  <span>步驟 1：BMR 基礎代謝率</span>
-                  <span class="formula-badge">Harris-Benedict 公式</span>
-                </h5>
-                <div class="formula-code" id="formulaBmrCode">計算中...</div>
-                <div class="formula-result-note" id="formulaBmrNote">身體在完全靜態下維持呼吸與器官運作之基本熱量。</div>
+            
+            <!-- 步驟 1 橫式卡片 -->
+            <div class="formula-row-card">
+              <div class="formula-row-header">
+                <span class="step-badge">步驟 1</span>
+                <h4>BMR 基礎代謝率（Mifflin-St Jeor 臨床代謝公式）</h4>
               </div>
-
-              <!-- TDEE 算式 -->
-              <div class="formula-box">
-                <h5>
-                  <span>步驟 2：TDEE 與目標熱量</span>
-                  <span class="formula-badge">活動強度加權</span>
-                </h5>
-                <div class="formula-code" id="formulaTdeeCode">計算中...</div>
-                <div class="formula-result-note" id="formulaTdeeNote">以活動量與體位目標調整後的每日攝取總熱量。</div>
+              <div class="formula-lines" id="formulaStep1Lines">
+                <!-- 動態注入橫式 lines -->
               </div>
+            </div>
 
-              <!-- 三大巨量營養素算式 -->
-              <div class="formula-box" style="grid-column: 1 / -1;">
-                <h5>
-                  <span>步驟 3：三大巨量營養素克數換算</span>
-                  <span class="formula-badge">熱量密度除法</span>
-                </h5>
-                <div class="formula-code" id="formulaMacroCode">計算中...</div>
-                <div class="formula-result-note">換算依據：蛋白質 4 kcal/g、碳水化合物 4 kcal/g、脂肪 9 kcal/g。</div>
+            <!-- 步驟 2 橫式卡片 -->
+            <div class="formula-row-card">
+              <div class="formula-row-header">
+                <span class="step-badge">步驟 2</span>
+                <h4>TDEE 每日總能量消耗與個人目標熱量</h4>
+              </div>
+              <div class="formula-lines" id="formulaStep2Lines">
+                <!-- 動態注入橫式 lines -->
+              </div>
+            </div>
+
+            <!-- 步驟 3 橫式卡片 -->
+            <div class="formula-row-card">
+              <div class="formula-row-header">
+                <span class="step-badge">步驟 3</span>
+                <h4>三大巨量營養素每日克數與熱量分配</h4>
+              </div>
+              <div class="formula-lines" id="formulaStep3Lines">
+                <!-- 動態注入橫式 lines -->
               </div>
             </div>
           </div>
 
-          <!-- 4. 衛福部國人膳食營養素參考攝取量 (DRIs 第八版) 重要營養素建議 -->
+          <!-- 4. 衛福部國人膳食營養素參考攝取量 (DRIs 第八版) 重要微量營養素建議 (膳食纖維, 維生素D, 鎂, 鐵, 鋅, 鉀) -->
           <div class="dris-section">
-            <h3 style="margin:0; font-size:1.35rem; color:var(--ink); font-weight:900;">💊 衛福部國人膳食營養素參考攝取量（DRIs 第八版）個人化建議</h3>
-            <p style="margin:6px 0 0; color:var(--muted); font-size:0.98rem;" id="drisTargetDesc">依據您的性別與年齡判定之最新建議值：</p>
+            <h3 style="margin:0; font-size:1.35rem; color:var(--ink); font-weight:900;">💊 衛福部國人膳食營養素參考攝取量（DRIs 第八版）關鍵營養素建議</h3>
+            <p style="margin:6px 0 0; color:var(--muted); font-size:0.98rem;" id="drisTargetDesc">依據您的性別與年齡，由衛生福利部國民健康署最新發布《國人膳食營養素參考攝取量（DRIs 第八版）》標準對照：</p>
 
             <div class="dris-grid">
-              <!-- 飲水量 -->
-              <div class="dris-card">
-                <div class="dris-icon">💧</div>
-                <div class="dris-name">每日建議飲水</div>
-                <div class="dris-val" id="driWater">-- <small>ml</small></div>
-                <div class="dris-hint">以體重 30~35ml 計算，包含純水與無糖清茶。</div>
-              </div>
-
               <!-- 膳食纖維 -->
               <div class="dris-card">
-                <div class="dris-icon">🌾</div>
-                <div class="dris-name">膳食纖維 (Fiber)</div>
-                <div class="dris-val" id="driFiber">-- <small>g</small></div>
+                <div class="dris-header-row">
+                  <span class="dris-icon">🌾</span>
+                  <div class="dris-name">膳食纖維 (Dietary Fiber)</div>
+                </div>
+                <div class="dris-val" id="driFiber">-- <small>g / 日</small></div>
                 <div class="dris-hint" id="driFiberHint">衛福部 DRIs 第八版建議量。</div>
               </div>
 
-              <!-- 鈣質 -->
+              <!-- 維生素 D -->
               <div class="dris-card">
-                <div class="dris-icon">🦴</div>
-                <div class="dris-name">鈣質 (Calcium)</div>
-                <div class="dris-val" id="driCalcium">-- <small>mg</small></div>
-                <div class="dris-hint" id="driCalciumHint">維護骨質密度與肌肉神經傳導。</div>
+                <div class="dris-header-row">
+                  <span class="dris-icon">☀️</span>
+                  <div class="dris-name">維生素 D (Vitamin D)</div>
+                </div>
+                <div class="dris-val" id="driVitD">-- <small>μg / 日</small></div>
+                <div class="dris-hint" id="driVitDHint">促進鈣質吸收、維持骨骼健康與免疫平衡。</div>
               </div>
 
-              <!-- 鐵質 -->
+              <!-- 鎂 -->
               <div class="dris-card">
-                <div class="dris-icon">🩸</div>
-                <div class="dris-name">鐵質 (Iron)</div>
-                <div class="dris-val" id="driIron">-- <small>mg</small></div>
-                <div class="dris-hint" id="driIronHint">紅血球血紅素合成與氧氣運送。</div>
+                <div class="dris-header-row">
+                  <span class="dris-icon">⚡</span>
+                  <div class="dris-name">鎂 (Magnesium)</div>
+                </div>
+                <div class="dris-val" id="driMagnesium">-- <small>mg / 日</small></div>
+                <div class="dris-hint" id="driMagnesiumHint">調節心臟跳動、神經傳導與放鬆肌肉。</div>
               </div>
 
-              <!-- 維生素 C -->
+              <!-- 鐵 -->
               <div class="dris-card">
-                <div class="dris-icon">🍊</div>
-                <div class="dris-name">維生素 C</div>
-                <div class="dris-val" id="driVitC">100 <small>mg</small></div>
-                <div class="dris-hint">抗氧化、促進膠原蛋白合成與植物鐵吸收。</div>
+                <div class="dris-header-row">
+                  <span class="dris-icon">🩸</span>
+                  <div class="dris-name">鐵 (Iron)</div>
+                </div>
+                <div class="dris-val" id="driIron">-- <small>mg / 日</small></div>
+                <div class="dris-hint" id="driIronHint">紅血球血紅素主要原料，維持全身氧氣供應。</div>
               </div>
 
-              <!-- 鈉攝取上限 -->
+              <!-- 鋅 -->
               <div class="dris-card">
-                <div class="dris-icon">🧂</div>
-                <div class="dris-name">每日鈉攝取上限</div>
-                <div class="dris-val" id="driSodium">&lt; 2,300 <small>mg</small></div>
-                <div class="dris-hint">約食鹽 6 公克，血壓偏高長輩建議低於 2,000mg。</div>
+                <div class="dris-header-row">
+                  <span class="dris-icon">🛡️</span>
+                  <div class="dris-name">鋅 (Zinc)</div>
+                </div>
+                <div class="dris-val" id="driZinc">-- <small>mg / 日</small></div>
+                <div class="dris-hint" id="driZincHint">強化免疫防護、維持正常味覺與蛋白質合成。</div>
               </div>
+
+              <!-- 鉀 -->
+              <div class="dris-card">
+                <div class="dris-header-row">
+                  <span class="dris-icon">🥑</span>
+                  <div class="dris-name">鉀 (Potassium)</div>
+                </div>
+                <div class="dris-val" id="driPotassium">-- <small>mg / 日</small></div>
+                <div class="dris-hint" id="driPotassiumHint">維持細胞滲透壓與血壓平衡，促進多餘鈉排出。</div>
+              </div>
+            </div>
+
+            <div style="margin-top:16px; font-size:0.9rem; color:var(--muted); text-align:right;">
+              資料來源：<a href="https://www.hpa.gov.tw/Pages/ashx/GetFile.ashx?lang=c&type=2&sid=a309f81456b9416ea458a6e9025546a4" target="_blank" rel="noopener" style="color:var(--green-dark); font-weight:700;">衛生福利部國民健康署《國人膳食營養素參考攝取量》第八版總表 ↗</a>
             </div>
           </div>
 
           <!-- 5. 營養師貼心提醒 -->
           <div class="elder-notice">
             <b>凱特營養師貼心叮嚀：</b><br>
-            • <b>中高齡肌少防護（熟齡族群）</b>：若年齡大於 65 歲，建議每日蛋白質攝取量維持在每公斤體重 1.2–1.5 公克，並平均分配於三餐，更有助於刺激肌肉蛋白合成並預防肌少症。<br>
-            • <b>飲水定時定量</b>：長輩因口渴中樞敏感度退化，建議不要等到口渴才喝水，每日應分次補足建議水分（約每 1~2 小時飲用 150–200ml）。<br>
-            • <b>慢性疾病族群須知</b>：若患有慢性腎臟病（CKD）、心臟衰竭、高尿酸血症或痛風者，蛋白質與水分攝取量需經專科醫師與營養師個別化門診評估調整。
+            • <b>每日水分補足</b>：成人每日基本建議飲水量約為體重(kg) × 30–35 ml（以目前體重計算約需 <span id="resWater" style="font-weight:900; color:var(--green-dark);">--</span> 毫升），請少量多次補充、避免等到口渴才飲水。<br>
+            • <b>中高齡肌少防護（熟齡長輩）</b>：若年齡大於 65 歲，建議每日蛋白質攝取量維持在每公斤體重 1.2–1.5 公克，並平均分配於三餐，更有助於刺激肌肉蛋白合成並預防肌少症。<br>
+            • <b>慢性疾病族群須知</b>：若患有慢性腎臟病（CKD）、心臟衰竭或需嚴格限鉀/限鈉者，微量元素與水分攝取請遵照專科醫師與營養師之個別化門診指引。
           </div>
         </div>
       </div>
@@ -757,16 +832,16 @@
       <div class="faq-block">
         <h3>常見問題與營養知識解析</h3>
         <details class="faq-item" open>
-          <summary>什麼是 BMR 與 TDEE？兩者有何差別？</summary>
-          <p><b>BMR（基礎代謝率）</b>是指身體在完全靜止、維持呼吸、心跳、器官運轉所消耗的最低熱量。而 <b>TDEE（每日總消耗熱量）</b>則是加上了日常活動、走動、工作與運動後的總消耗。減重時建議攝取熱量不可低於 BMR，否則容易流失肌肉、降低代謝。</p>
+          <summary>為什麼本計算器採用 Mifflin-St Jeor 公式？</summary>
+          <p><b>Mifflin-St Jeor 公式</b>於 1990 年提出，相較於 1919 年的舊版 Harris-Benedict 公式，在現代臨床營養學與美國營養飲食學會（AND）的多項大型實證研究中，已被證實是估算現代人靜止基礎代謝率（BMR）最為精準且可靠的臨床公式，能有效避免代謝率高估的偏差。</p>
         </details>
         <details class="faq-item">
-          <summary>三大巨量營養素與微量營養素有什麼不同？</summary>
-          <p><b>三大巨量營養素（Macronutrients）</b>包括碳水化合物、蛋白質與脂肪，是人體能量與組織建構的主要來源，需要以「公克（g）」為單位大量攝取；而<b>微量營養素（Micronutrients）</b>如鈣、鐵、鋅、維生素 C 等，則是維持生理機能不可或缺的微量調節者（以毫克 mg 或微克 μg 為單位）。兩者相輔相成才能維持身體最佳代謝機能。</p>
+          <summary>什麼是三大巨量營養素？與微量營養素有何不同？</summary>
+          <p><b>三大巨量營養素（Macronutrients）</b>包括碳水化合物、蛋白質與脂肪，是人體維持生命代謝與活動能量的主要來源，需要以「公克（g）」為單位每日攝取；而<b>微量營養素（Micronutrients）</b>如膳食纖維、維生素 D、鎂、鐵、鋅、鉀等，雖然每日需求量以「毫克（mg）」或「微克（μg）」計算，卻是體內代謝、骨質密度、神經傳導與心血管健康不可或缺的調節之鑰。</p>
         </details>
         <details class="faq-item">
-          <summary>長輩減重或增重，熱量與蛋白質該如何調整？</summary>
-          <p>高齡長輩不建議採取極端節食（熱量落差過大），應以「溫和熱量赤字（減 15%）」為主，並搭配阻力運動以避免肌少症。如體重過輕或食慾不佳，可透過堅果飲、優質蛋白質進行溫和增重（+10%）。</p>
+          <summary>減重時熱量赤字設定在多少最適當？</summary>
+          <p>建議將熱量赤字設定在每日 300 至 500 大卡之間（約為 TDEE 的 80%~85%），每週約可健康減重 0.3~0.5 公斤。嚴禁長期攝取低於個人的 BMR 基礎代謝率，否則會引發甲狀腺與荷爾蒙失調、肌肉大量流失與基礎代謝永久減緩。</p>
         </details>
       </div>
     </div>
@@ -803,83 +878,154 @@
       const hM = height / 100;
       const bmi = weight / (hM * hM);
 
-      // 2. BMR (Harris-Benedict 公式)
-      let bmr = 0;
-      let bmrFormulaStr = "";
-      if (gender === 'male') {
-        bmr = 88.362 + (13.397 * weight) + (4.799 * height) - (5.677 * age);
-        bmrFormulaStr = `88.362 + (13.397 × ${weight}kg) + (4.799 × ${height}cm) - (5.677 × ${age}歲)\n= 88.362 + ${(13.397 * weight).toFixed(1)} + ${(4.799 * height).toFixed(1)} - ${(5.677 * age).toFixed(1)}\n= ${Math.round(bmr).toLocaleString()} kcal / 日`;
-      } else {
-        bmr = 447.593 + (9.247 * weight) + (3.098 * height) - (4.330 * age);
-        bmrFormulaStr = `447.593 + (9.247 × ${weight}kg) + (3.098 × ${height}cm) - (4.330 × ${age}歲)\n= 447.593 + ${(9.247 * weight).toFixed(1)} + ${(3.098 * height).toFixed(1)} - ${(4.330 * age).toFixed(1)}\n= ${Math.round(bmr).toLocaleString()} kcal / 日`;
-      }
+      // 2. BMR (改回 Mifflin-St Jeor 臨床代謝公式)
+      // 男性：10 × 體重(kg) + 6.25 × 身高(cm) - 5 × 年齡(歲) + 5
+      // 女性：10 × 體重(kg) + 6.25 × 身高(cm) - 5 × 年齡(歲) - 161
+      const wPart = 10 * weight;
+      const hPart = 6.25 * height;
+      const aPart = 5 * age;
+      const sPart = (gender === 'male') ? 5 : -161;
+      const sPartStr = (gender === 'male') ? "+ 5" : "- 161";
+
+      const bmrRaw = wPart + hPart - aPart + sPart;
+      const bmr = Math.round(bmrRaw);
+
+      // 步驟 1 橫式一行一行生成 (• 換行在開頭，結果數字鮮明顏色)
+      const step1Lines = [
+        `• <b>臨床公式原型</b>：10 × 體重(kg) + 6.25 × 身高(cm) - 5 × 年齡(歲) ${gender === 'male' ? '+ 5 (男性常數)' : '- 161 (女性常數)'}`,
+        `• <b>個人數值代入</b>：10 × ${weight}kg + 6.25 × ${height}cm - 5 × ${age}歲 ${sPartStr}`,
+        `• <b>分項相乘計算</b>：${wPart.toFixed(1)} + ${hPart.toFixed(1)} - ${aPart.toFixed(1)} ${sPartStr}`,
+        `• <b>基礎代謝率判定</b>：BMR 臨床評估結果為 <span class="highlight-num green">${bmr.toLocaleString()}</span> <span class="unit">kcal / 日</span>`
+      ];
 
       // 3. TDEE 與目標熱量
       const tdeeBaseline = bmr * activity;
       let goalFactor = 1.0;
-      let goalText = "維持體重 (100%)";
+      let goalText = "維持現狀體重 (100% 平衡)";
       if (goal === 'lose') {
         goalFactor = 0.85;
-        goalText = "溫和減重 (-15% 赤字)";
+        goalText = "健康溫和減重 (85% 赤字 -15%)";
       } else if (goal === 'gain') {
         goalFactor = 1.10;
-        goalText = "增肌增重 (+10% 盈餘)";
+        goalText = "健康增肌增重 (110% 盈餘 +10%)";
       }
       const targetCalories = Math.round(tdeeBaseline * goalFactor);
-      const tdeeFormulaStr = `TDEE = BMR (${Math.round(bmr)}) × 活動係數 (${activity})\n     = ${Math.round(tdeeBaseline).toLocaleString()} kcal\n目標熱量 = ${Math.round(tdeeBaseline)} × ${goalFactor} (${goalText})\n        = ${targetCalories.toLocaleString()} kcal / 日`;
+
+      // 步驟 2 橫式一行一行生成
+      const step2Lines = [
+        `• <b>活動強度加權</b>：BMR 基礎代謝率 (${bmr.toLocaleString()} kcal) × 日常活動強度係數 (${activity})`,
+        `• <b>基準 TDEE 消耗</b>：${bmr.toLocaleString()} × ${activity} = <span class="highlight-num blue">${Math.round(tdeeBaseline).toLocaleString()}</span> <span class="unit">kcal / 日</span>`,
+        `• <b>個人體位目標調整</b>：基準 TDEE × 目標因子 (${goalFactor} ｜ ${goalText})`,
+        `• <b>每日建議目標熱量</b>：${Math.round(tdeeBaseline).toLocaleString()} × ${goalFactor} = <span class="highlight-num coral">${targetCalories.toLocaleString()}</span> <span class="unit">kcal / 日</span>`
+      ];
 
       // 4. 三大巨量營養素計算
       const preset = dietPresets[diet] || dietPresets.balanced;
       const pCal = Math.round(targetCalories * (preset.protein / 100));
       const fCal = Math.round(targetCalories * (preset.fat / 100));
-      const cCal = targetCalories - pCal - fCal; // 確保總和精確相符
+      const cCal = targetCalories - pCal - fCal; // 精確湊整
 
       const pGrams = Math.round(pCal / 4);
       const fGrams = Math.round(fCal / 9);
       const cGrams = Math.round(cCal / 4);
       const pPerKg = (pGrams / weight).toFixed(2);
 
-      const macroFormulaStr = `• 優質蛋白質 (${preset.protein}%)：${targetCalories} × ${preset.protein}% = ${pCal} kcal ÷ 4 kcal/g = ${pGrams} g (約 ${pPerKg} g/kg 體重)\n• 全榖碳水 (${preset.carbs}%)：${targetCalories} × ${preset.carbs}% = ${cCal} kcal ÷ 4 kcal/g = ${cGrams} g\n• 優質油脂 (${preset.fat}%)：${targetCalories} × ${preset.fat}% = ${fCal} kcal ÷ 9 kcal/g = ${fGrams} g`;
+      // 步驟 3 橫式一行一行生成
+      const step3Lines = [
+        `• <b>優質蛋白質 (${preset.protein}%)</b>：${targetCalories.toLocaleString()} kcal × ${preset.protein}% = ${pCal.toLocaleString()} kcal ÷ 4 kcal/g = <span class="highlight-num green">${pGrams}</span> <span class="unit">g</span>（換算約每公斤體重 <span class="highlight-num green">${pPerKg}</span> g/kg）`,
+        `• <b>全榖碳水化合物 (${preset.carbs}%)</b>：${targetCalories.toLocaleString()} kcal × ${preset.carbs}% = ${cCal.toLocaleString()} kcal ÷ 4 kcal/g = <span class="highlight-num blue">${cGrams}</span> <span class="unit">g</span>（維持腦力與身體機能主燃料）`,
+        `• <b>優質油脂與堅果 (${preset.fat}%)</b>：${targetCalories.toLocaleString()} kcal × ${preset.fat}% = ${fCal.toLocaleString()} kcal ÷ 9 kcal/g = <span class="highlight-num amber">${fGrams}</span> <span class="unit">g</span>（維護細胞膜與脂溶性維生素吸收）`
+      ];
 
-      // 5. 衛福部 DRIs 第八版動態數值判定
+      // 5. 衛福部 DRIs 第八版 6 大指定關鍵營養素動態標準 (膳食纖維, 維生素D, 鎂, 鐵, 鋅, 鉀)
+      // 官方總表依年齡分層：19-30, 31-50, 51-70, 71+
+      let fiberVal = 25;
+      let fiberDesc = "衛福部標準建議量";
+      let vitDVal = 10;
+      let vitDDesc = "1~50歲建議攝取量 (相當於 400 IU)。";
+      let magVal = 320;
+      let magDesc = "神經與肌肉代謝需求量。";
+      let ironVal = 10;
+      let ironDesc = "紅血球血紅素合成基本量。";
+      let zincVal = 12;
+      let zincDesc = "成人建議攝取量 (蛋白質合成與免疫防護)。";
+      let potVal = 2500;
+      let potDesc = "成人充足攝取量 (AI)，有助維持正常血壓與排除多餘鈉。";
+
+      // 膳食纖維 (DRIs 第八版適度活動標準)
+      if (gender === 'male') {
+        if (age < 51) {
+          fiberVal = 34;
+          fiberDesc = "19~50歲成年男性適度活動標準（約 3 份蔬菜 + 2 份水果 + 未精製全穀）。";
+        } else if (age <= 70) {
+          fiberVal = 32;
+          fiberDesc = "51~70歲熟齡男性標準量，維持腸道蠕動與血糖血脂穩定。";
+        } else {
+          fiberVal = 30;
+          fiberDesc = "71歲以上高齡男性標準量，配合充足水分改善排便順暢。";
+        }
+      } else {
+        if (age < 51) {
+          fiberVal = 27;
+          fiberDesc = "19~50歲育齡女性適度活動標準，預防代謝症候群。";
+        } else if (age <= 70) {
+          fiberVal = 25;
+          fiberDesc = "51~70歲熟齡女性標準量，輔助膽固醇代謝。";
+        } else {
+          fiberVal = 24;
+          fiberDesc = "71歲以上高齡女性標準量，多攝取溫軟高纖雜糧。";
+        }
+      }
+
+      // 維生素 D (DRIs 第八版：51歲以上提高為 15μg)
+      if (age >= 51) {
+        vitDVal = 15;
+        vitDDesc = "51歲以上熟齡長輩骨質流失加劇，衛福部提高至 15 μg (600 IU)。";
+      }
+
+      // 鎂 (DRIs 第八版：男 380/360/350；女 320/310/300)
+      if (gender === 'male') {
+        if (age < 51) magVal = 380;
+        else if (age <= 70) magVal = 360;
+        else magVal = 350;
+        magDesc = "男性神經傳導與放鬆肌肉能量代謝標準。";
+      } else {
+        if (age < 51) magVal = 320;
+        else if (age <= 70) magVal = 310;
+        else magVal = 300;
+        magDesc = "女性神經安撫與鈣質協同吸收代謝標準。";
+      }
+
+      // 鐵 (DRIs 第八版：育齡女性 15mg，男及停經後 10mg)
+      if (gender === 'female' && age < 51) {
+        ironVal = 15;
+        ironDesc = "育齡女性因每月經期生理流失，衛福部建議提高至 15 mg。";
+      } else {
+        ironVal = 10;
+        ironDesc = gender === 'female' ? "51歲以上停經後女性需求量回降至 10 mg。" : "成人男性紅血球日常造血與氧氣輸送標準量。";
+      }
+
+      // 鋅 (DRIs 第八版：男 15mg，女 12mg)
+      if (gender === 'male') {
+        zincVal = 15;
+        zincDesc = "成年男性建議攝取量（維持生殖機能、味覺敏銳與傷口修復）。";
+      } else {
+        zincVal = 12;
+        zincDesc = "成年女性建議攝取量（免疫酵素活化與膠原蛋白合成）。";
+      }
+
+      // 鉀 (DRIs 第八版：男 2800mg，女 2500mg)
+      if (gender === 'male') {
+        potVal = 2800;
+        potDesc = "成年男性充足攝取量 (2.8g)，維持心臟跳動與神經肌肉興奮性。";
+      } else {
+        potVal = 2500;
+        potDesc = "成年女性充足攝取量 (2.5g)，促進體內鈉離子排出、消水腫。";
+      }
+
+      // 水分計算
       const waterMin = Math.round(weight * 30);
       const waterMax = Math.round(weight * 35);
-
-      let fiberRec = 25;
-      let fiberHint = "";
-      let calciumRec = 1000;
-      let calciumHint = "衛福部標準建議量 (19-50歲)。";
-      let ironRec = 10;
-      let ironHint = "男性標準建議量。";
-
-      if (gender === 'male') {
-        if (age < 50) {
-          fiberRec = 34;
-          fiberHint = "成年男性 (19-50歲) 建議攝取量。";
-        } else {
-          fiberRec = 30;
-          fiberHint = "熟齡男性 (50歲以上) 建議攝取量。";
-        }
-        ironRec = 10;
-        ironHint = "男性紅血球日常合成需求量。";
-      } else {
-        if (age < 50) {
-          fiberRec = 27;
-          fiberHint = "育齡女性 (19-50歲) 建議攝取量。";
-          ironRec = 15;
-          ironHint = "育齡女性經期鐵質流失補充量。";
-        } else {
-          fiberRec = 25;
-          fiberHint = "熟齡女性 (50歲以上) 建議攝取量。";
-          ironRec = 10;
-          ironHint = "停經後女性生理需求量回降。";
-        }
-      }
-
-      if (age >= 50) {
-        calciumRec = 1200;
-        calciumHint = "50歲以上熟齡骨質流失加速，衛福部建議提高至 1,200mg。";
-      }
 
       // 6. 渲染至 DOM
       document.getElementById('resBmi').textContent = bmi.toFixed(1);
@@ -889,7 +1035,7 @@
       else if (bmi >= 27) bmiStatus = '肥胖等級 (≥ 27)';
       document.getElementById('resBmiStatus').textContent = bmiStatus;
 
-      document.getElementById('resBmr').textContent = Math.round(bmr).toLocaleString();
+      document.getElementById('resBmr').textContent = bmr.toLocaleString();
       document.getElementById('resTdee').textContent = targetCalories.toLocaleString();
 
       document.getElementById('dietPatternName').textContent = `依據【${preset.name}】配比：蛋白質 ${preset.protein}% ｜ 碳水化合物 ${preset.carbs}% ｜ 脂肪 ${preset.fat}%`;
@@ -906,20 +1052,32 @@
       document.getElementById('resFatCal').textContent = `${fCal.toLocaleString()} kcal`;
       document.getElementById('resFatRatio').textContent = `佔比 ${preset.fat}% ｜ 維持荷爾蒙與細胞膜健康`;
 
-      // 渲染公式算式
-      document.getElementById('formulaBmrCode').textContent = bmrFormulaStr;
-      document.getElementById('formulaTdeeCode').textContent = tdeeFormulaStr;
-      document.getElementById('formulaMacroCode').textContent = macroFormulaStr;
+      // 渲染橫式條列公式算式
+      document.getElementById('formulaStep1Lines').innerHTML = step1Lines.map(l => `<div class="formula-line">${l}</div>`).join('');
+      document.getElementById('formulaStep2Lines').innerHTML = step2Lines.map(l => `<div class="formula-line">${l}</div>`).join('');
+      document.getElementById('formulaStep3Lines').innerHTML = step3Lines.map(l => `<div class="formula-line">${l}</div>`).join('');
 
-      // 渲染 DRIs 建議
-      document.getElementById('drisTargetDesc').textContent = `依據您的條件【${gender === 'male' ? '男性' : '女性'}，${age} 歲，${weight} kg】，由台灣衛福部國人膳食營養素參考攝取量（DRIs 第八版）比對生成：`;
-      document.getElementById('driWater').innerHTML = `${waterMin.toLocaleString()} ~ ${waterMax.toLocaleString()} <small>ml</small>`;
-      document.getElementById('driFiber').innerHTML = `${fiberRec} <small>g</small>`;
-      document.getElementById('driFiberHint').textContent = fiberHint;
-      document.getElementById('driCalcium').innerHTML = `${calciumRec.toLocaleString()} <small>mg</small>`;
-      document.getElementById('driCalciumHint').textContent = calciumHint;
-      document.getElementById('driIron').innerHTML = `${ironRec} <small>mg</small>`;
-      document.getElementById('driIronHint').textContent = ironHint;
+      // 渲染 DRIs 6 大關鍵營養素建議
+      document.getElementById('drisTargetDesc').textContent = `依據您的條件【${gender === 'male' ? '男性' : '女性'}，${age} 歲，${weight} kg】，由台灣衛福部《國人膳食營養素參考攝取量（DRIs 第八版）》標準比對生成：`;
+      document.getElementById('driFiber').innerHTML = `${fiberVal} <small>g / 日</small>`;
+      document.getElementById('driFiberHint').textContent = fiberDesc;
+
+      document.getElementById('driVitD').innerHTML = `${vitDVal} <small>μg / 日</small>`;
+      document.getElementById('driVitDHint').textContent = vitDDesc;
+
+      document.getElementById('driMagnesium').innerHTML = `${magVal} <small>mg / 日</small>`;
+      document.getElementById('driMagnesiumHint').textContent = magDesc;
+
+      document.getElementById('driIron').innerHTML = `${ironVal} <small>mg / 日</small>`;
+      document.getElementById('driIronHint').textContent = ironDesc;
+
+      document.getElementById('driZinc').innerHTML = `${zincVal} <small>mg / 日</small>`;
+      document.getElementById('driZincHint').textContent = zincDesc;
+
+      document.getElementById('driPotassium').innerHTML = `${potVal.toLocaleString()} <small>mg / 日</small>`;
+      document.getElementById('driPotassiumHint').textContent = potDesc;
+
+      document.getElementById('resWater').textContent = `${waterMin.toLocaleString()} ~ ${waterMax.toLocaleString()}`;
 
       // 7. 渲染 Chart.js 環形圖 (Doughnut Chart)
       renderMacroChart(preset.name, pCal, cCal, fCal, targetCalories);
