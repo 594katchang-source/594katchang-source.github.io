@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T00:46:00.507Z",
+  "generatedAt": "2026-10-17T00:53:04.073Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -98824,6 +98824,82 @@
       "content": "---\ntags:\n  - source/journal\ncitekey: null\ndoi: \"10.1016/j.gore.2026.102200\"\nzotero: null\njournal: \"Gynecologic Oncology Reports\"\nyear: 2026\nauthors: \"Victoria E. Rodriguez; Rachel Frankenthal; Jessica Walchonski; Beth Y. Karlan; Dana M. Chase\"\nstudy_type: \"narrative review\"\npmid: \"42877707\"\nreview_depth: \"quick\"\n---\n\n> [!info] 品質快照\n> **設計**：敘述性文獻回顧｜**n**：不適用（未招募研究對象）｜**評讀框架**：SANRA（本次結構化判讀 8/12；非作者評分）\n> **GRADE**：不適用（未按 outcome 系統性合併證據）｜**Registration**：不適用\n> **一句話 verdict**：適合作為婦科癌症存活照護的跨領域導覽；搜尋方法未交代、證據強度不一，四支柱整合模式尚未由本文直接測試。\n\n# Key Points\n\n## Summary\n\n> ✅ Full text reviewed\n\n- Rodriguez 等人提出婦科癌症存活照護的四個支柱：更年期管理、性健康、心理社會健康，以及營養與身體活動。文章倡議從診斷時開始定期篩檢，並以跨專業轉介回應需求。\n- 本文是敘述性回顧與臨床觀點整合，沒有新收案、樣本數、主要 outcome、統計分析或 pooled effect。文內百分比來自所引研究，不能當成本篇的統合估計。\n- 對營養實務最直接的訊息是：追蹤營養風險、體重與肌肉／功能變化，提供個別化飲食與活動支持並及早轉介營養師或復健專業。婦科癌症專屬介入證據仍有限。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽（繁體中文白話）\n> - **一句話**：婦科癌症治療結束後，照護不能只看癌症有沒有復發，也要持續處理更年期、性健康、心理與經濟壓力，以及營養和活動能力。\n> - **為什麼做**：作者指出存活者增加，但後續照護常把重心放在疾病監測，治療帶來的荷爾蒙、性功能、情緒、財務、飲食與體能問題容易沒有被系統性問到。\n> - **主體（敘述性回顧）**：文章依四個主題整理既有研究與臨床建議。更年期部分談症狀評估、荷爾蒙與非荷爾蒙處置；性健康部分談主動詢問、陰道乾澀疼痛、放射治療後狹窄、骨盆底復健與心理支持；心理社會部分談憂鬱、焦慮、復發恐懼與財務毒性；營養與活動部分談營養風險、飲食品質、肌肉功能和運動。最後以跨專業篩檢、轉介與教育整合成照護框架。\n> - **所以呢**：這是一張照護地圖，不是驗證該整合模式能改善存活或生活品質的臨床試驗。作者也承認婦科癌症專屬證據不均、介入研究不足；實務上應把框架當作辨識需求與安排轉介的起點，並依癌別、病理、分期、治療與個人目標調整。\n\n## 研究問題與方法\n\n- **問題**：如何把婦科癌症存活者常被分開處理的長期需求整理成以病人為中心的照護框架？（Abstract；§1）\n- **設計**：作者稱為敘述性回顧，整合文獻與臨床觀點，依四支柱呈現。全文未說明資料庫、檢索日期、搜尋詞、納入／排除條件、篩選流程或證據評等方法（Abstract Methods；§1）。\n- **對象與樣本**：沒有本篇新收案，也沒有本篇樣本數；範圍是婦科癌症存活照護的既有文獻與臨床建議。\n- **統計方法與主要數值結果**：無新統計分析、主要 outcome、效果量或信賴區間。文內的盛行率與指引數值是作者引用的個別來源，族群與追蹤時間不同，不應相加或視為 pooled estimate。\n- **主要結論**：建立從診斷開始並延伸至治療與存活追蹤的例行篩檢及轉介路徑；作者認為四支柱應納入整合照護，但成效尚待婦科癌症族群的研究驗證。（§6–7）\n\n## 逐節大綱與閱讀重點\n\n全文逐段閱讀錨點共 72 段，依序保存在本輪閱讀證據；下列逐節摘要涵蓋正文各節與表 1–5。\n\n| 原文位置 | 本節重點 |\n|---|---|\n| Abstract | 將照護缺口聚焦於四支柱，提出以病人為中心的整合框架。 |\n| §1 Introduction | 美國婦科癌症存活者人數增加；治療後生理、性、心理及日常功能需求常被復發監測掩蓋。 |\n| §2.1 | 治療誘發停經可帶來明顯症狀與長期健康風險；作者建議以工具規律評估。 |\n| §2.2 | 荷爾蒙治療應按癌別、組織型、分期、復發風險與個人目標判斷；部分荷爾蒙敏感腫瘤需謹慎或避免。 |\n| §2.3 | 說明更年期荷爾蒙製劑與一般劑量類別；有子宮者的黃體素保護及早發停經處置需由臨床團隊個別化。 |\n| §2.4–2.5 | 提及非荷爾蒙藥物、心理行為介入、睡眠處置及治療前共同決策。 |\n| §3.1 | 性健康篩檢宜主動、常規化，且不以是否有性活動作為是否詢問的條件。 |\n| §3.2 | 陰道乾澀與性交疼痛可採潤滑／保濕、局部治療或其他介入；癌別安全性與資料限制需先評估。 |\n| §3.3–3.4 | 放射治療可能造成陰道組織改變；文章整理擴張器、骨盆底復健及及早衛教。 |\n| §3.5 | 身體意象、焦慮、憂鬱與伴侶互動會影響性健康，心理與伴侶支持可納入轉介。 |\n| §4.1 | 憂鬱、焦慮與復發恐懼常見，風險會受症狀、支持、年齡及社會條件影響。 |\n| §4.2 | 財務負擔與財務壓力會疊加心理困擾；作者建議篩檢並連結社工、財務導航與社區資源。 |\n| §4.3 | 列出 PHQ-9、GAD-7、NCCN Distress Thermometer、CWS、COST 等工具，並建議陽性後安排評估及轉介。 |\n| §5.1 | 建議自診斷起追蹤營養風險、身體組成、肌少／功能與活動量，依結果轉介營養及復健專業。 |\n| §5.2 | 飲食建議主要外推自一般癌症存活指引；重點是飲食品質、足夠營養與蛋白質、肌肉保存及個別化體重管理。 |\n| §5.3 | 介紹一般活動量及肌力訓練建議，同時指出婦科癌症運動試驗少、效果與長期維持證據不一致。 |\n| Table 1 | 跨域篩檢工具與轉介總表；表中工具用途不同，不能視為可互換的診斷工具。 |\n| Tables 2–4 | 分別整理癌別荷爾蒙考量、製劑劑型及非荷爾蒙處置；須回到個別臨床情境判斷。 |\n| §6、Table 5 | 將四支柱轉成照護方案要素：例行篩檢、臨床人員教育、跨專業服務及轉介。 |\n| §7 Conclusion | 作者明言證據基礎不均，呼籲增加設計充分的婦科癌症專屬研究並納入服務不足族群。 |\n\n## Clinical Application\n\n- **照護情境：**婦科癌症診斷、治療轉換與存活追蹤期間，可把四支柱當作定期詢問和轉介清單；正向篩檢後應安排進一步評估，篩檢分數本身不是診斷。\n- **營養照護：**持續查看攝取、體重變化、營養風險、肌肉／身體功能與疲憊；依個人治療副作用、共病、營養狀態和活動能力安排飲食及活動支持。避免只追求體重下降而忽略肌肉與功能。\n- **轉介合作：**需要時連結營養師、復健／物理治療、骨盆底治療、心理專業、停經／性健康服務及社工。文章建議的是團隊照護方向，不是要求每位存活者接受所有介入。\n- **本地應用邊界：**文章的情境與多項資料來自美國；在臺灣使用前，需依癌別治療、可用服務、量表繁體中文版效度及院所流程調整。本文沒有驗證臺灣族群的可行性或效果。\n- **避免誤讀：**文章引用的蛋白質、熱量與活動量建議是作者整理的外部指引，不是本篇試驗結果，也不是個別處方。存活者可能有治療副作用、腎臟病或其他限制，應以完整評估與治療團隊決策為準。\n\n## Critical Appraisal\n\n**SANRA 結構化判讀（每項 0–2；總分 8/12，為本次評讀者判斷）：**\n\n| 項目 | 評分 | 依據 |\n|---|---:|---|\n| 重要性理由 | 2 | §1 清楚說明存活者增加與照護需求被忽略。 |\n| 目的／問題 | 2 | Abstract 與 §1 明確列出四個照護支柱與整合目標。 |\n| 文獻搜尋描述 | 0 | 未見資料庫、搜尋式、日期、選文條件或篩選流程，無法重現搜尋。 |\n| 引用品質 | 2 | 多數流行病學、指引及介入主張附有引用；本次 quick review 未逐條核對參考文獻。 |\n| 科學推理 | 1 | 以臨床領域組織證據並承認證據不足，但未按研究設計／偏差風險分層，部分建議的證據層級不易辨識。 |\n| 相關數據呈現 | 1 | 表 1–5 有助落地，但未系統呈現各研究的設計、樣本、效果量、精確度與證據確定性。 |\n\n**設計適配與偏差：**SANRA 適用於敘述性回顧。主要風險是搜尋與選文不可重現，以及未交代如何處理相反結果，增加選擇性引用風險。這不是 RCT／世代研究，故不套用 RoB 2、ROBINS-I，也沒有單一主要 outcome 可計算 MCID 或 GRADE。\n\n**統計與證據界線：**本篇未合併研究、未進行統計檢定。各章的比例、療效與建議分散於不同來源，本文沒有在同一人群或同一追蹤條件下比較；不可由相關性推論四支柱方案能改善存活或生活品質。§5 的運動介入例子包含未見組間顯著差異或長期行為改變未維持的研究，作者也指出婦科癌症專屬介入研究不足。\n\n**論證檢查：**對結論「整合照護對改善生活品質與結果是必要的」以 `argdown_lint.py` 檢查，出現 1 項 `association_to_causation`。本文可支持需求普遍、應主動評估的照護理由，但沒有直接測試四支柱整合模式的比較試驗；效果主張宜降為待驗證的照護假說。\n\n**作者承認的限制：**§5、§7 指出婦科癌症專屬營養／活動研究有限、證據不均，並呼籲進行足夠規模的臨床試驗及納入較少被研究的族群。\n\n**另見限制：**未公開搜尋與選文流程；未提供逐項證據等級或整合照護模型的實施資料；跨癌別與分期的荷爾蒙安全性不能只靠總體敘述決定；Table 1 將營養風險、攝食品質及飲食模式工具放在同一欄，實際用途不同，使用者需先確認工具目的與適用人群。\n\n## Resource\n\n- **原文：**[PMC 全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13663893/)｜[DOI](https://doi.org/10.1016/j.gore.2026.102200)\n- **書目：**Rodriguez VE, Frankenthal R, Walchonski J, Karlan BY, Chase DM. *A comprehensive model for gynecologic cancer patients' survivorship care.* Gynecologic Oncology Reports. 2026;67:102200. Published 2026-08-28. PMID: 42877707; PMCID: PMC13663893.\n- **來源與授權：**本輪全文來源為 PMC article HTML，已核對 DOI、英文題名及可讀正文。快取 metadata 的 license 欄為空；PMC 原文頁 copyright 區明示 © 2026 The Authors、CC BY 4.0。本筆記只保留評讀與書目，不含全文或 PDF。\n- **全文識別：**source SHA-256 `f02bb07bda72db4a4ee622dd26167641062af57962034f9220ad8b1f05e66db0`。\n- **檢索範圍：**Quick review；依全文各節、Table 1–5、作者限制及利益揭露完成評讀。未做廣泛作者／期刊指標、引用影響、PubPeer 或逐篇參考文獻查核。\n- **Funding / COI：**第一作者獲 NIH/NCI T32CA251072 支持；作者聲明無已知可能影響本文的財務利益或人際關係（Funding disclosure；Declaration of competing interest）。",
       "cards": [],
       "completedAt": "2026-10-17T00:44:01.087Z"
+    },
+    {
+      "id": "doi:10.1016/j.gore.2026.102200:digest",
+      "paperId": "doi:10.1016/j.gore.2026.102200",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "A comprehensive model for gynecologic cancer patients' survivorship care.",
+      "authors": "Rodriguez V, Frankenthal R, Walchonski J, Karlan B, Chase D",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.1016/j.gore.2026.102200",
+      "abstract": "The population of gynecologic cancer survivors is rapidly increasing, yet survivorship care remains fragmented and often focused primarily on surveillance for disease recurrence. This review aims to define the key domains shaping survivorship and propose a comprehensive, patient-centered model for gynecologic oncology. Our narrative reviews and synthesizes current evidence and clinical perspectives to examine gynecologic cancer survivorship. We organize the analysis around four clinically relevant pillars: menopause management, sexual health and function, psychosocial health, and nutrition and physical activity. Evidence was summarized and gaps in care are identified to inform a comprehensive survivorship framework. Gynecologic cancer survivors experience complex and interrelated long-term sequelae. Treatment-induced menopause contributes to substantial symptom burden and increased risk of chronic disease. Sexual dysfunction is highly prevalent yet frequently underrecognized in clinical care. Psychosocial challenges, including depression, anxiety, fear of recurrence, and financial toxicity, are common and persistent. Nutrition and physical activity influence quality of life, physical functioning, and survival outcomes, although gynecologic cancer-specific evidence remains limited. Deficiencies in routine screening and assessment across survivorship domains, clinician knowledge and training, and access to multidisciplinary interventions contribute to unmet survivorship needs. Survivorship care in gynecologic oncology requires a structured, holistic, and multidisciplinary approach that extends beyond surveillance for disease recurrence. Integrating menopause care, sexual health support, psychosocial services, and lifestyle interventions into routine care is essential to address unmet needs and improve long-term outcomes. A comprehensive model centered on these four pillars provides a practical framework for screening, intervention, and multidisciplinary survivorship care aimed at improving long-term quality of life and health outcomes.",
+      "legalFullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13663893/",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42877707/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "health promotion and lifestyle",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "婦科癌症存活者四支柱照護的內容整理",
+      "content": "---\ntags:\n  - research/digest\n  - oncology-survivorship\ncitekey: \"Rodriguez2026GynecologicSurvivorship\"\ndoi: \"10.1016/j.gore.2026.102200\"\naliases:\n  - \"A comprehensive model for gynecologic cancer patients' survivorship care\"\nstudy_type: \"narrative review\"\nyear: 2026\nreview_depth: \"worker-batch\"\n---\n\n> [!summary] 30 秒層：婦科癌症存活照護要把更年期、性健康、心理社會需求、營養與活動一起納入追蹤。\n> - 作者整理四個照護支柱，建議從診斷時開始規律篩檢、依需求轉介。\n> - 本文是敘述性回顧，沒有新收案或統合分析；盛行率與指引數值是引用資料，不是本文新算的效果。\n> - 婦科癌症專屬營養與運動介入研究有限；作者提出的是照護架構，尚未證明整合方案能改善存活或生活品質。\n> - 營養實務可先追蹤攝取、體重變化、營養風險、肌肉與功能，再安排個別化支持和轉介。\n> 品質未評讀（內容整理）；同 DOI 有獨立品質評讀。\n\n## 5 分鐘層：全文地圖\n\n**要點：文章從治療後需求出發，依四個領域整理照護，再提出跨專業實施框架。**\n\n- §1 說明存活者增加、照護過度聚焦復發監測的缺口。\n- §2 更年期管理：症狀與長期健康、荷爾蒙治療、非荷爾蒙選項及共同決策。\n- §3 性健康與功能：篩檢、乾澀與疼痛、放射治療後變化、骨盆底復健及心理關係面向。\n- §4 心理社會健康：憂鬱、焦慮、復發恐懼、財務毒性及評估轉介。\n- §5 營養與身體活動：營養和功能評估、飲食建議、活動建議與介入研究限制。\n- §6、Table 5 將四支柱整理為例行篩檢、臨床人員教育及跨專業服務。\n- §7 重申證據不均，呼籲婦科癌症專屬研究並納入較少被服務的族群。\n\n## 各主題重點\n\n**要點：四支柱互相連動，篩檢是辨識需求的入口；治療決策仍需依病理、分期、症狀和個人情況調整。**\n\n### 背景與研究目的（§1）\n\n作者引用美國 2025 年估計，婦科癌症存活者約 ==150 萬人==，並預估 2035 年約 ==170 萬人==。這是本文引用的人口估計，不是作者在本篇收集的新資料。婦科癌症及其治療會影響生殖與荷爾蒙、性功能、身體意象、疲勞、腸胃／泌尿功能、心理狀態和日常活動。作者希望把分散的長期需求整理成以病人為中心的照護模型。\n\n### 更年期管理（§2.1–2.5；Tables 1–4）\n\n- 作者指出，約 ==30–50%== 的婦科癌症患者在診斷時尚未停經或正處於停經過渡期；手術、化療或放療可能造成突然的治療誘發停經。文章描述血管舒縮、泌尿生殖、睡眠與認知症狀，以及雌激素提早下降可能伴隨的長期健康風險（§2.1）。\n- MRS、MENQOL 等工具可協助評估症狀和生活品質；Table 1 建議在診斷、治療期間、存活追蹤及症狀或治療轉換時評估。\n- Table 2 按癌別、組織型、分期與復發情況，將全身性或陰道荷爾蒙治療分成可考慮、需謹慎及不建議。核心訊息是安全性不能只依「婦科癌症」大類判斷；荷爾蒙敏感腫瘤與特定高風險情況需要腫瘤團隊共同決策（§2.2）。\n- Table 3 列出雌激素、黃體素、複方及陰道製劑的形式與劑量範圍。作者指出，有子宮者使用全身性雌激素通常需評估子宮內膜保護；治療誘發早發停經與一般症狀治療的劑量目標不同。該表是文獻彙整，不是個人處方（§2.3）。\n- 若不適用或不選擇荷爾蒙，可依症狀評估非荷爾蒙藥物、認知行為治療、催眠、針灸、活動、瑜伽及睡眠處置（Table 4；§2.4）。治療前共同決策應討論癌別／病理、分期、復發風險、症狀、長期風險與患者偏好（§2.5）。\n\n### 性健康與功能（§3.1–3.5；Tables 1、3、4）\n\n- 作者引用研究指出，性功能問題常見且可能持續數月至數年；文中引用子宮頸癌存活者性功能障礙比例可接近 ==80%==，但不同癌別、研究定義與治療不同，不能視作所有存活者的共同風險（§3）。\n- 建議不論是否有性活動，都由照護團隊主動詢問，使用 Brief Sexual Symptom Checklist、ASEX 或 FSFI 等工具，辨認乾澀、疼痛、性慾、喚起、高潮或關係困擾（§3.1）。\n- 陰道乾澀與性交疼痛可依禁忌及癌別安全性考慮保濕劑、潤滑劑、陰道局部治療、骨盆底治療及其他方案。作者引用一項局部 lidocaine 研究，疼痛下降比例為 ==88% 對 33%==；本文未提供本篇統合估計，且陰道 estrogen、ospemifene 的癌症存活者資料仍有限（§3.2）。\n- 骨盆放射治療可能造成纖維化、沾黏與陰道狹窄。作者引用研究中治療後六個月 grade 2 約 ==29%==、grade 3 約 ==3.6%==；建議在治療前說明，並依臨床狀況考慮擴張器、持續性復健或性健康服務（§3.3）。\n- 骨盆底肌肉張力或協調問題可能參與疼痛與性功能障礙；物理治療可包含肌力與協調訓練、放鬆、手法治療、生物回饋及擴張器（§3.4）。焦慮、憂鬱、身體意象、復發恐懼與伴侶互動也可影響性健康，需要時加入心理或伴侶支持（§3.5）。\n\n### 心理社會健康（§4.1–4.3；Table 1）\n\n- 文章引用不同癌別、治療及評估時間的資料，憂鬱與焦慮比例約 ==20% 至超過 70%==；復發恐懼約影響 ==四分之一至三分之一== 的存活者（§4.1）。這些範圍差異大，不代表單一族群的精確盛行率。\n- 年齡、症狀、經濟條件、工作、社會支持、共病及目前疾病狀態可能與心理困擾相關。作者提及正念、同儕支持及居家運動等研究，但本文沒有合併估算其效果。\n- 文中引用中度至重度財務毒性約 ==17–44%==，財務壓力最高可達 ==69%==；醫療費用和財務壓力與心理困擾及生活品質相關（§4.2）。作者建議及早詢問並連結社工、財務諮詢、患者補助或社區資源。\n- Table 1 列 PHQ-9、GAD-7、NCCN Distress Thermometer、Cancer Worry Scale 與 COST 等評估工具。篩檢陽性後要有進一步評估與轉介路徑，不能把篩檢工具當成診斷（§4.3）。\n\n### 營養與身體活動（§5.1–5.3；Tables 1、5）\n\n- 治療副作用可能造成攝取下降、體重變化、營養不良、肌肉流失、疲憊、衰弱及功能下降。作者指出，婦科癌症專屬研究不足，許多建議外推自更廣泛的癌症存活指引（§5）。\n- Table 1 列 MNA、MST、MUST、NRS-2002、NUTRISCORE、PG-SGA SF 等營養風險工具，也列 Healthy Eating Index（HEI）；這些工具的用途並不相同，實務上應按目的選用。PROMIS Physical Function 與 ECOG 可協助整理功能狀態（§5.1）。\n- 飲食建議主要依 ACS 癌症存活者指引：重視蔬果、全穀、豆類，限制加工肉及高度加工食品，維持營養充足並保留瘦體組織（§5.2）。作者引用的指引數值包括蛋白質至少 >1 g/kg/day；另引 ESPEN 約 1.0–1.5 g/kg/day、25–30 kcal/kg/day。這些是文章彙整的指引範圍，需按年齡、共病、治療副作用與營養狀態個別化。\n- 作者引用的觀察資料將飲食品質與死亡率連結；這屬關聯，不能證明飲食型態造成存活差異。肥胖與子宮內膜癌死亡率的關聯，也不等於本文證明某種減重療程改善癌症結果（§5.2）。\n- 文章彙整的一般活動量建議為每週 ==150–300 分鐘中等強度== 或 ==75–150 分鐘高強度== 活動，並至少 ==每週 2 次肌力活動==。作者強調維持肌肉與功能；同時指出研究結果不一，例如 PADVOA 介入與一般照護組間未見顯著差異，Fitbit 介入的活動增加未能長期維持（§5.3）。\n\n### 整合照護與結論（§6–7；Table 5）\n\n- Table 5 把四支柱轉成可採用的服務方向：更年期及性健康標準化篩檢、心理與財務困擾回應、營養評估與活動支持、臨床人員教育及跨專業轉介。\n- 作者承認證據基礎不均，呼籲增加婦科癌症專屬、規模足夠的試驗，並優先納入年輕、族裔少數及社經資源較少的存活者（§7）。本篇沒有測試這套服務模型，也沒有估計它能減少復發或死亡。\n\n## 機轉白話講解\n\n**要點：作者用「四支柱」把不同治療後需求放進同一張照護地圖，重點是互相詢問和轉介，而非一條已證實的單向因果鏈。**\n\n可把存活照護想成定期檢查四個互相牽動的面向：治療造成的停經症狀可能影響睡眠、情緒與性健康；疼痛、疲憊或經濟壓力可能讓飲食和活動更難維持；營養不足或功能下降又會增加日常照護需求。每次追蹤不必一次解決所有問題，但要能辨認問題並把患者連到合適的專業服務。這是文章的概念整理；本文沒有直接驗證四個面向彼此的因果方向或整合方案效果。\n\n## 臨床意義 / 怎麼用\n\n**要點：先用簡短、固定的問題找出需求，再依癌別風險與患者目標安排進一步評估和轉介。**\n\n- 從診斷、治療轉換到存活追蹤，按需要詢問停經症狀、性健康、心理困擾／復發恐懼、財務壓力、營養風險和體能；有新症狀或重大治療轉換時再評估。\n- 營養照護可先確認近期攝取與體重變化，再配合營養風險、肌肉／功能狀態與疲憊程度；需要時轉介營養師、復健或物理治療專業。\n- 把維持肌肉和日常功能納入飲食及活動討論。不要只用體重或 BMI 判定營養狀態，也不要把存活者的飲食建議簡化成一律減重。\n- 荷爾蒙和陰道治療的決策需回到癌別、組織型、分期、復發狀態及禁忌；營養素或活動量數值也不能代替個別醫療評估。\n- 本文主要整理美國癌症存活指引與跨族群研究；在臺灣應依癌症團隊流程、可用服務及量表適用性調整。本文未驗證臺灣族群或特定健保服務路徑。\n\n## 重要圖表重述\n\n**要點：Tables 1–5 是作者把評估工具、處置選項和服務模式整理成清單，表格本身不是介入成效證據。**\n\n- **Table 1：**六個篩檢領域（更年期、性健康、心理、財務、營養、活動／功能）、建議工具與可能轉介。\n- **Table 2：**按婦科腫瘤類型及病理風險整理全身性／陰道荷爾蒙治療的考量。\n- **Table 3：**列更年期荷爾蒙製劑形式、常見劑量與使用方式；須依臨床情境調整。\n- **Table 4：**列血管舒縮症狀、睡眠、陰道乾澀／疼痛、放療後性功能及心理關係議題的藥物與非藥物選項。\n- **Table 5：**把四支柱轉成存活照護方案的執行方向，如標準篩檢、教育、轉介及婦科癌症專屬研究。\n\n## 與既有認知的對照\n\n**要點：本篇補上跨域存活照護框架；兩篇相關整理分別聚焦營養自我管理及重症營養支持，族群與問題不同。**\n\n- *Nutrition literacy and dietary self-management in breast and gynecologic cancer survivorship*（DOI: [10.3389/fpubh.2026.1902901](https://doi.org/10.3389/fpubh.2026.1902901)）聚焦營養識能、疲勞、飲食迷思、家屬支持與持續自我管理；本篇則把營養放在停經、性健康、心理及財務需求之中，補上轉介架構。\n- *Nutritional Challenges and Strategies in Obese Critically Ill Patients with Gynecological Cancer*（DOI: [10.3390/nu18121905](https://doi.org/10.3390/nu18121905)）聚焦肥胖婦科癌症重症患者、肌少性肥胖與 EN/PN；本篇是較廣的癌症存活期照護回顧，不能把 ICU 餵食處方直接套到一般存活追蹤。\n\n## 概念 / 名詞整理\n\n**要點：理解本篇需區分存活者照護、篩檢、局部症狀介入，以及營養風險和生活型態評估。**\n\n- **Cancer survivorship care：**癌症治療期間及治療後處理長期健康、功能、心理和生活需求的照護。\n- **Treatment-induced menopause：**手術、化療或放療造成的卵巢功能提早下降或停經；症狀和風險需依治療及患者情況評估。\n- **GSM（genitourinary syndrome of menopause）：**停經相關泌尿生殖道症狀群，可能包括陰道乾澀、不適及泌尿症狀。\n- **Sarcopenia：**肌肉量與肌力／功能下降；單看體重或 BMI 可能漏掉肌肉流失。\n- **Financial toxicity：**癌症照護相關費用造成的客觀財務負擔及主觀財務壓力。\n- **Screening vs diagnosis：**篩檢工具用於辨認需進一步評估者，不等於臨床診斷。\n- **Association vs causation：**本文引用的多項飲食、活動與結果關係來自觀察研究，不能單憑關聯證明因果。\n\n## 自我測驗\n\n**要點：用情境題回想本文如何區分照護需求、證據強度與個別治療決策。**\n\n> [!question]- Q1：患者詢問「把四支柱加入追蹤後，一定能改善存活嗎？」依本文應如何回答？\n> 不能這樣保證。本文是敘述性回顧和照護框架，沒有直接測試整合方案的臨床試驗；應說明這是針對未滿足需求提出的照護方向，成效仍需研究。\n\n> [!question]- Q2：為什麼不能對所有婦科癌症存活者使用同一套全身性或陰道荷爾蒙建議？\n> 癌別、組織型、分期、荷爾蒙敏感性與復發狀態不同。Table 2 將情況分成可考慮、需謹慎或不建議；應由腫瘤團隊按病理風險和患者目標共同決策。\n\n> [!question]- Q3：Table 1 把多種營養工具放在同一領域時，使用前要先確認什麼？\n> 確認工具的目的是營養風險篩檢、營養評估，還是飲食品質衡量。MNA、MST、PG-SGA SF 和 HEI 不可視為彼此可替代的診斷工具。\n\n> [!question]- Q4：為什麼文章的蛋白質、熱量和活動量數值不能直接當成每位存活者的處方？\n> 這些數值是作者彙整的一般指引，本文沒有個人化處方試驗。年齡、共病、腎功能、治療副作用、營養狀態及活動能力都會改變適用方式，需要個別評估。\n\n> [!question]- Q5：如何解讀本文所述婦科癌症運動介入研究結果不一致？\n> 一些計畫顯示可行或部分短期改善，但 PADVOA 未見介入組與一般照護組顯著差異，Fitbit 活動增加也沒有長期維持。這支持繼續研究與提供個別化活動支持，不足以證明特定方案能改善長期存活。\n\n## Reference\n\n**要點：原文是可讀的 PMC 全文，且頁面標示 CC BY 4.0；本整理不重製原文全文或 PDF。**\n\n- Rodriguez VE, Frankenthal R, Walchonski J, Karlan BY, Chase DM. *A comprehensive model for gynecologic cancer patients' survivorship care.* Gynecologic Oncology Reports. 2026;67:102200. DOI: [10.1016/j.gore.2026.102200](https://doi.org/10.1016/j.gore.2026.102200). [PMC 全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13663893/).\n- 全文識別 SHA-256：`f02bb07bda72db4a4ee622dd26167641062af57962034f9220ad8b1f05e66db0`。\n- 主題整理與研究限制依全文 Abstract、§1–7 及 Tables 1–5；本文未另行查核文內每篇引用研究。",
+      "cards": [
+        {
+          "title": "四支柱照護的證據界線",
+          "question": "患者問：整合更年期、性健康、心理與營養照護已證明可以改善存活嗎？依本文應如何回答？",
+          "answer": "本文是敘述性回顧與照護框架，沒有直接測試四支柱整合方案的臨床試驗。可以說作者根據現有需求提出整合方向，但生活品質和存活效果仍需研究驗證。",
+          "tags": [
+            "婦科癌症",
+            "存活照護",
+            "證據界線"
+          ]
+        },
+        {
+          "title": "荷爾蒙治療要看什麼",
+          "question": "為什麼不能只根據「婦科癌症存活者」這個身份判斷荷爾蒙治療是否適用？",
+          "answer": "安全性會隨癌別、組織型、分期、荷爾蒙敏感性和復發狀態改變。文章依這些條件整理可考慮、需謹慎與不建議情況，須由患者和腫瘤團隊個別決策。",
+          "tags": [
+            "更年期",
+            "荷爾蒙治療",
+            "癌別風險"
+          ]
+        },
+        {
+          "title": "營養工具不可互換",
+          "question": "Table 1 同列營養風險工具與 Healthy Eating Index 時，使用者應先確認什麼？",
+          "answer": "先確認工具用途是營養風險篩檢、營養評估，還是飲食品質衡量。不同工具評估的問題不同，不能把分數當成同一種診斷結果或彼此替代。",
+          "tags": [
+            "營養篩檢",
+            "評估工具",
+            "飲食品質"
+          ]
+        },
+        {
+          "title": "營養與活動數字怎麼用",
+          "question": "為什麼文章引用的蛋白質、熱量和活動量範圍不能直接當成每位存活者的個人處方？",
+          "answer": "它們是作者整理的一般指引，不是本文為個人處方設計的臨床試驗。年齡、共病、治療副作用、營養狀態和功能能力都會影響適用方式，需要個別評估。",
+          "tags": [
+            "營養照護",
+            "身體活動",
+            "個別化"
+          ]
+        },
+        {
+          "title": "運動研究不一致",
+          "question": "文章所述婦科癌症運動研究有可行性或短期改善時，為什麼仍不能直接宣稱長期效果已確立？",
+          "answer": "部分研究顯示可行或部分結果改善，但 PADVOA 未見介入組與一般照護組顯著差異，Fitbit 介入的活動增加也未持續。研究結果與追蹤期間不一，長期臨床效果仍不確定。",
+          "tags": [
+            "運動介入",
+            "研究結果",
+            "長期效果"
+          ]
+        }
+      ],
+      "completedAt": "2026-10-17T00:51:46.157Z"
     }
   ]
 }
