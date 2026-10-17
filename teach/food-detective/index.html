@@ -828,19 +828,20 @@
       text-decoration: underline;
     }
 
-    /* 列印設定：嚴格單頁 A4，徹底杜絕最後一頁多印空白頁 */
+    /* 列印設定：嚴格單頁 A4，徹底杜絕縱向拉伸變形與跨頁空白頁 */
     @media print {
       @page {
         size: A4 portrait;
-        margin: 8mm 10mm;
+        margin: 0;
       }
       .no-print, #hidden-capture, #msgToast, .exit-fs-float { display: none !important; }
       html, body {
         background: white !important;
         margin: 0 !important;
         padding: 0 !important;
-        width: 100% !important;
+        width: 210mm !important;
         height: auto !important;
+        overflow: visible !important;
       }
       .preview-container {
         display: block !important;
@@ -850,13 +851,16 @@
       }
       .sheet-scaler {
         transform: none !important;
-        height: auto !important;
+        height: 297mm !important;
+        max-height: 297mm !important;
         margin: 0 !important;
         padding: 0 !important;
         page-break-after: always !important;
         page-break-inside: avoid !important;
         break-after: page !important;
         break-inside: avoid !important;
+        overflow: hidden !important;
+        box-sizing: border-box !important;
       }
       .sheet-scaler:last-child {
         page-break-after: auto !important;
@@ -866,15 +870,82 @@
         box-shadow: none !important;
         border: none !important;
         margin: 0 auto !important;
-        padding: 4mm 8mm !important;
-        width: 100% !important;
-        max-width: 190mm !important;
-        height: 270mm !important;
-        max-height: 270mm !important;
+        padding: 10mm 12mm !important;
+        width: 210mm !important;
+        height: 297mm !important;
+        max-height: 297mm !important;
         box-sizing: border-box !important;
         overflow: hidden !important;
         page-break-inside: avoid !important;
         break-inside: avoid !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
+      }
+      .sheet-header {
+        margin-bottom: 6px !important;
+        padding-bottom: 4px !important;
+      }
+      .sheet-title {
+        font-size: 18pt !important;
+        margin-bottom: 4px !important;
+      }
+      .sheet-instruction {
+        padding: 6px 10px !important;
+        margin-bottom: 8px !important;
+        font-size: 9.5pt !important;
+      }
+      .shelf-container {
+        flex: 1 1 0 !important;
+        min-height: 0 !important;
+        padding: 8px 10px 6px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        overflow: hidden !important;
+      }
+      .shelf-badge {
+        font-size: 10.5pt !important;
+        padding: 1px 12px !important;
+        top: -11px !important;
+      }
+      .sheet-food-grid {
+        flex: 1 1 0 !important;
+        height: 100% !important;
+        min-height: 0 !important;
+        gap: 6px !important;
+        margin-top: 4px !important;
+      }
+      .sheet-food-item {
+        padding: 3px 2px !important;
+        min-height: 0 !important;
+        max-height: 100% !important;
+        box-sizing: border-box !important;
+      }
+      .sheet-food-item .food-icon-img {
+        width: 32px !important;
+        height: 32px !important;
+        margin-bottom: 1px !important;
+      }
+      .sheet-food-name {
+        font-size: 10pt !important;
+        margin-top: 1px !important;
+        line-height: 1.1 !important;
+      }
+      .sheet-food-portion,
+      .sheet-food-cat {
+        font-size: 7.5pt !important;
+        margin-top: 1px !important;
+        line-height: 1 !important;
+      }
+      .sheet-calc-box {
+        padding: 6px 10px !important;
+        margin-top: 8px !important;
+        font-size: 10pt !important;
+      }
+      .sheet-footer {
+        margin-top: 6px !important;
+        padding-top: 4px !important;
+        font-size: 8pt !important;
       }
     }
 
