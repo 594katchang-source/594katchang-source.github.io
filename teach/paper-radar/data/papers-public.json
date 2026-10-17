@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T03:05:59.939Z",
+  "generatedAt": "2026-10-17T03:13:20.662Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -99401,6 +99401,84 @@
       "content": "---\ncitekey: Konstantopoulou2026DietaryPhytochemicalIndex\ndoi: 10.3390/nu18193130\nzotero: zotero://select/items/@Konstantopoulou2026DietaryPhytochemicalIndex\njournal: Nutrients\nyear: 2026\nauthors: Konstantopoulou SM, Foscolou A, Papazafiropoulou AK, Makris A, Leftaki AD, Panagiotopoulos G, Gioxari A, Lampropoulou DI, Detopoulou P, Panoutsopoulos GI, Argyri K\nstudy_type: cross-sectional\npmid: 42884581\nreview_depth: quick\n---\n\n> [!info] 品質快照\n> **設計**：單一地區診間橫斷面研究｜**樣本**：收案 340 人；空腹血糖可用 216 人；主要完整個案模型 199 人｜**RoB**（觀察性病因研究領域評讀）：🔴 嚴重疑慮\n> **GRADE**：Very low ⊕◯◯◯（主要結果：DPI 與空腹血糖的關聯；依本次評讀輸入執行 `grade_judge.py`）｜**登錄**：非試驗；全文未提預先註冊\n> **一句話 verdict**：高 DPI 與較低空腹血糖呈調整後關聯，但單點量測、缺失與殘餘混雜及橫斷面設計，使因果和臨床效果仍不確定。\n\n# 膳食植化指數與第二型糖尿病成人空腹血糖的關聯｜品質評讀\n\n## Key Points\n\n### Summary\n\n> ✅ 已讀全文（18 頁；依可讀全文 PDF 的逐頁文字核對）\n\n- 在希臘 Messinia 一家糖尿病門診的 340 位第二型糖尿病（T2D）成人中，研究觀察到膳食植化指數（Dietary Phytochemical Index, DPI）較高者空腹血糖較低。主要完整個案模型每高 **1 個百分點 DPI**，空腹血糖平均低 **0.652 mg/dL**（95% CI −1.177 至 −0.127；p=0.015；n=199）。\n- 這是同一時間點量測的關聯，不能推論「增加 DPI 會降血糖」。空腹血糖以外，完整調整模型的 HbA1c 關聯不顯著（b=−0.003%；95% CI −0.014 至 0.008；p=0.598；n=310）。\n- 作者沒有指定空腹血糖的最小臨床重要差異（MCID）；因此統計顯著不等於已證明病人可感受到或治療上重要的改善。研究者也明確說明，結果不足以支持以 DPI 作為 T2D 臨床管理策略。\n\n### 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：這篇研究發現，在希臘一家糖尿病門診中，平常吃到較多特定植物性食物能量的人，單次空腹血糖平均較低；它沒有測試飲食介入，也沒有證明改變飲食會造成血糖下降。\n> - **為什麼做**：既有 DPI 與 T2D 血糖的研究少且結果不一致，歐洲地中海飲食環境的資料尤其有限（原文 pp. 2–3）。\n> - **怎麼做、看到什麼**：研究者以過去一個月的半定量食物頻率問卷計算 DPI，將 340 人按 DPI 分成四組；空腹血糖可用資料只有 216 人，主要完整調整分析為 199 人。最高 DPI 四分位相較最低四分位，空腹血糖低 20.9 mg/dL；HbA1c 則沒有顯著差異（pp. 7–11）。\n> - **所以呢**：結果提供一項可供後續研究檢驗的觀察線索，不構成個人化飲食處方或加減藥依據。問卷誤差、血糖缺失、單一診所及未能排除的混雜都會影響解讀（pp. 14–15）。\n\n## Clinical Application\n\n- **適用範圍：**希臘 Messinia 單一糖尿病門診、已確診 T2D 的成人；平均年齡 65.9 歲，約一半為女性。這是族群層級觀察，不能直接套用到特定個人或臺灣照護情境。\n- **可支持的說法：**較高 DPI 與較低空腹血糖有調整後關聯；作者的敏感度分析大致維持關聯方向。\n- **不能支持的做法：**不能設定 DPI 臨床目標值、承諾血糖降幅，或以本研究推動停藥／減藥。這些需要前瞻性研究及隨機試驗；研究本身沒有介入。\n- **專業溝通：**若討論蔬果、豆類、全穀、堅果種子、橄欖與橄欖油等食物，可將它們視為整體飲食品質的研究線索；須依個人飲食、治療及偏好評估，不把 DPI 分數當成已驗證的治療處方。\n\n## Paper Details\n\n### Methods\n\n- **設計與收案：**橫斷面觀察研究，於 2024-05-27 至 2026-05-29 在希臘 Kalamata General Hospital 糖尿病門診連續招募；納入年滿 18 歲且 T2D 診斷至少 6 個月者。研究倫理核准編號為 4078/28.02.2024 與 20/24.05.2024（原文 pp. 3–4）。\n- **暴露：**受試者回報前一個月飲食。DPI 定義為指定富含植化素食物的能量占每日總能量百分比；本研究計入水果、蔬菜、豆類、全穀、堅果／種子、橄欖／橄欖油。FFQ 沒有記錄大豆，因此未計入；此指數代表食物群組的能量占比，不直接測量植化素含量或生物利用率（p. 5）。\n- **結果：**主要結果為空腹血糖（mg/dL）；HbA1c 為次要血糖指標。資料取自入組前一個月內最近的檢驗；若沒有近期檢驗，19 位受試者在門診以血糖機取得廠商標示的 plasma-equivalent 結果（p. 5）。\n- **樣本與缺失：**共 340 人；空腹血糖有 216 人、HbA1c 有 330 人；主要 fully adjusted 完整個案模型 n=199。沒有先驗樣本數估算；作者的事後敏感度計算稱 n=199 對約 |r|=0.20 有 80% power，並提醒這不代表所有次要分析都有足夠 power（p. 6）。\n- **統計：**以線性迴歸估計連續 DPI 與四分位關聯；逐步調整年齡、性別、BMI、活動量、吸菸／vaping、糖尿病年數、治療類別與共病數；另調整 MedDietScore、總能量及社經因素。採 5,000 次 BCa bootstrap、50 組多重插補（每組 20 次迭代）及 Rubin’s rules；六個食物群組探索結果使用 Benjamini–Hochberg FDR 校正（pp. 6–7）。\n\n### Key Findings\n\n| 結果 | 估計值 | 解讀 |\n|---|---|---|\n| DPI 每增加 1 個百分點，空腹血糖 | b=−0.652 mg/dL；95% CI −1.177 至 −0.127；p=0.015；n=199 | 調整人口、生活型態與臨床因子後仍顯著；每 10 個百分點換算約 −6.5 mg/dL，但這只是關聯尺度，不是介入效果（pp. 9–10）。 |\n| DPI 最高組 Q4 對最低組 Q1 | b=−20.9 mg/dL；95% CI −38.87 至 −2.93；p=0.023；n=199 | Q2、Q3 對 Q1 未達顯著；趨勢檢定 p=0.014（pp. 10–11）。 |\n| HbA1c 完整調整模型 | b=−0.003%；95% CI −0.014 至 0.008；p=0.598；n=310 | 未觀察到顯著關聯（p. 10）。 |\n| 敏感度分析 | 加入 MedDietScore、總能量及社經因素後，空腹血糖係數仍約 −0.61 至 −0.76；剔除極端能量回報後 b=−0.827，p=0.007；多重插補 b=−0.518，p=0.021 | 方向一致可增加穩健性，但無法消除橫斷面設計或未測量混雜（pp. 9、11）。 |\n| 六種 DPI 食物群組 | 單獨模型經 FDR 後皆不顯著；同時納入模型也皆不顯著 | 不應把水果或全穀的未校正趨勢解讀成單一食物的有效成分（pp. 11–12）。 |\n\n## Critical Appraisal\n\n### 研究偏差與適用性\n\n| 領域 | 判定 | 依據 |\n|---|---|---|\n| 混雜 | 🔴 嚴重疑慮 | 主要模型調整多項因素，但治療只分口服、胰島素、合併治療；藥物類別、劑量、依從性及近期調整未完整取得。其他飲食與行為因素也可能殘留混雜（pp. 6、15）。 |\n| 選樣 | 🟡 有疑慮 | 由單一地區、一家門診招募，且沒有系統性篩選／招募紀錄；連續收案減少部分任意挑選，但不能代表所有 T2D 成人（pp. 3–4、15）。 |\n| 暴露分類 | 🟡 有疑慮 | 一個月 FFQ 由受試者自陳；DPI 是可取得食物項目的修正版，未納入大豆，也不反映植化素濃度、多樣性或吸收率（pp. 5、14–15）。 |\n| 缺失資料 | 🔴 嚴重疑慮 | 空腹血糖僅 216/340 人可用，主要模型再降為 199 人；多重插補在 missing-at-random 假設下方向相近，但無法驗證缺失機制（pp. 6–7、15）。 |\n| 結果測量 | 🟡 有疑慮 | 以最近一次（入組前一個月內）檢驗或門診血糖機測量；不同實驗室、單次測量及部分 capillary 測量可能造成變異（p. 5、15）。 |\n| 選擇性報告 | 🟡 未能完整判斷 | 全文未報告預先註冊或公開分析計畫；未見明確結果切換證據，但無法以登錄資料核對。 |\n\n**整體偏差判斷：嚴重疑慮。** 這項病因關聯研究依 paper-review 的 Newcastle–Ottawa 病因研究架構作橫斷面領域評讀；此處不計算未經驗證的星級總分。沒有明確的暴露起始與追蹤時間，無法模擬「持續提高 DPI」的 target trial；而同一 DPI 可能由不同食物組合達成，介入版本也未被定義。選樣、時間先後及未測量混雜因此限制因果詮釋（觀察性研究因果評讀；全文 pp. 3–7、14–15）。\n\n### 統計、臨床重要性與推論\n\n- **臨床重要性：**作者沒有提供或預先指定空腹血糖 MCID。每 10 個百分點 DPI 對應約 −6.5 mg/dL 的觀察關聯，換算 95% CI 約 −11.77 至 −1.27 mg/dL；CI 不跨零，但是否達臨床重要門檻無法由本文判定。統計顯著不等於臨床重要。\n- **模型與穩健性：**主要估計的 bootstrap CI（−1.318 至 −0.163）與一般迴歸 CI 同方向。多重插補和能量回報敏感度分析也保留負向結果；但殘差上尾偏離常態、可能異質變異，且五筆標準化殘差大於 3。Cook’s distance 最大 0.260，未見大於 1 的觀察值（p. 9）。\n- **多重比較：**探索六個食物群組並作 FDR 校正，校正後皆不顯著；群組結果應視為假說生成（pp. 11–12）。\n- **Spin／推論：**摘要稱「相關聯」，與主要結果相符，未把非顯著 HbA1c 說成有效。討論中「可能具有臨床意義」仍須搭配作者在結論中的限制：橫斷面結果不足以支持 DPI 治療策略。按 `argdown_lint.py` 對此關聯性結論檢查，未發現由研究結果跳到因果或臨床硬終點的邏輯缺口；本評讀仍不把它延伸成介入建議。\n- **GRADE（主要結果）：**起始為觀察性證據 Low；偏差風險降一級、imprecision 降一級；因只有一項研究，異質性不可估，未因此降級；研究族群及空腹血糖與本文關聯問題直接，未就間接性降級；無法以單篇研究判定 publication bias，也未作此項降級。計算器最後等級為 **Very low**。四分位呈趨勢不構成因果劑量反應；工具因已有降級而不接受升級。\n- **經費與利益衝突：**作者聲明無外部經費、無利益衝突；個體資料因隱私／倫理限制無法取得（p. 16）。\n\n### 優點與限制\n\n- 🟢 **優點：**研究目的與主要結果明確；呈現完整調整與敏感度分析；使用 bootstrap、多重插補與 FDR；並明確區分空腹血糖及 HbA1c 結果（pp. 6–12）。\n- 🔴 **限制：**橫斷面無法確認飲食先於血糖；無法排除因既有血糖狀況而改變飲食的反向因果；主要結果樣本因缺失從 340 降至 199；FFQ 自陳、DPI 修正定義、不同血糖測量來源與未取得藥物細節都可能影響估計（pp. 14–15）。\n- 🟡 **仍需釐清：**研究沒有預先樣本數規劃、系統性篩選紀錄或本文可核對的預先註冊；單一希臘地區的結果可否外推到臺灣仍未知。作者建議後續以前瞻世代與隨機試驗確認，並進一步研究性別差異及食物群組機制（p. 15）。\n\n## Resource\n\n- [原文 DOI](https://doi.org/10.3390/nu18193130)\n- [PubMed 記錄](https://pubmed.ncbi.nlm.nih.gov/42884581/)（本輪可讀全文在 MDPI PDF；直接開啟 PubMed 頁面時工具無法取得內容）\n- **全文身份依據：**PDF p. 1 顯示完整英文題名、作者、`Nutrients 2026, 18, 3130` 與 DOI；p. 18 再次顯示 DOI。PDF p. 1 標示 CC BY 授權。本文頁碼引用均指該 18 頁 PDF。\n- **相關筆記：**本輪快速比對工作目錄與本機 Paper Radar DOI 索引，未找到本 DOI 的既有 review/digest；完成結果將由本機 merge-notes 去重整合。",
       "cards": [],
       "completedAt": "2026-10-17T02:59:21.164Z"
+    },
+    {
+      "id": "doi:10.3390/nu18193130:digest",
+      "paperId": "doi:10.3390/nu18193130",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Dietary Phytochemical Index and Fasting Plasma Glucose in Adults with Type 2 Diabetes: A Cross-Sectional Study.",
+      "authors": "Konstantopoulou S, Foscolou A, Papazafiropoulou A, Makris A, Leftaki A, Panagiotopoulos G, Gioxari A, Lampropoulou D, Detopoulou P, Panoutsopoulos G, Argyri K",
+      "journal": "Nutrients (PubMed)",
+      "year": "2026",
+      "doi": "10.3390/nu18193130",
+      "abstract": "Background/Objectives: Type 2 diabetes mellitus (T2D) is a major public health challenge. Phytochemicals have gained attention for their potential role in glucose regulation. This study aimed to investigate the association between dietary phytochemical intake, assessed using the Dietary Phytochemical Index (DPI), and fasting plasma glucose in adults with established T2D. Methods: A cross-sectional study was conducted among 340 adults with T2D attending the Diabetes Clinic of the General Hospital of Kalamata, Greece. Dietary intake was assessed using a validated food frequency questionnaire and DPI was calculated as the percentage of total daily energy derived from fruits, vegetables, legumes, whole grains, nuts/seeds and olives/olive oil. Multivariable linear regression was used to examine the association between DPI and fasting plasma glucose, adjusting for demographic, lifestyle, anthropometric and clinical characteristics. The fully adjusted analysis included 199 participants with complete data. Additional models adjusted for Mediterranean diet adherence, total energy intake and socioeconomic factors. Results: Each 1-percentage-point increase in DPI was associated with 0.65 mg/dL lower fasting plasma glucose (b = -0.652, 95% CI: -1.177 to -0.127; and p = 0.015). The association remained after additional adjustment for Mediterranean diet adherence, total energy intake and socioeconomic factors and was supported by multiple-imputation analysis. Food-group component analyses were exploratory; no component remained statistically significant after false discovery rate correction. Conclusions: Higher DPI was associated with lower fasting plasma glucose in adults with T2D after adjustment for measured covariates. Prospective studies and randomized trials are needed to confirm this association and determine its clinical relevance.",
+      "legalFullTextUrl": "https://doi.org/10.3390/nu18193130",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42884581/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "herbs phytochemicals supplements",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "膳食植化指數與第二型糖尿病成人空腹血糖全文內容整理",
+      "content": "---\ncitekey: Konstantopoulou2026DietaryPhytochemicalIndex\ndoi: 10.3390/nu18193130\ntags: [research/digest, nutrition, type-2-diabetes, dietary-patterns, phytochemicals]\nstudy_type: cross-sectional\nreview_depth: worker-batch\n---\n\n> [!summary] 30 秒層｜一句話 + 重點\n> 希臘一個 T2D 門診研究發現，較高的膳食植化指數（DPI）與較低空腹血糖有關；研究沒有測試飲食介入，不能據此預測改變飲食會降多少血糖。\n> - 收案 340 位成人；主要空腹血糖完整調整模型只有 199 人。\n> - DPI 每高 1 個百分點，空腹血糖平均低 0.652 mg/dL（95% CI −1.177 至 −0.127；p=0.015）。\n> - 最高 DPI 組對最低組低 20.9 mg/dL；HbA1c 沒有顯著關聯。\n> - 六種食物群組各自的結果經多重比較校正後皆不顯著。\n> **品質另見同篇「膳食植化指數與第二型糖尿病成人空腹血糖的關聯品質評讀」。**\n\n> [!info] 5 分鐘層\n> 依每節開頭的「要點」掃描即可掌握研究主線；表格與條列保留完整方法、數值和限制。\n\n# 膳食植化指數與第二型糖尿病成人空腹血糖｜全文內容整理\n\n**原文**：Dietary Phytochemical Index and Fasting Plasma Glucose in Adults with Type 2 Diabetes: A Cross-Sectional Study. Konstantopoulou SM, Foscolou A, Papazafiropoulou AK, et al. *Nutrients*. 2026;18:3130. DOI: 10.3390/nu18193130.\n\n## 研究問題 / 背景\n\n**要點**：作者想知道，日常飲食中由富含植化素食物提供的能量比例，是否與已確診 T2D 成人的空腹血糖有關；地中海族群的相關研究仍少，既有結果並不一致（原文 pp. 2–3）。\n\n- 植化素是多種植物性食物中的生物活性成分；研究背景提到抗氧化、發炎、葡萄糖代謝及腸道菌相等可能途徑。這些是既有研究提出的機轉，本文沒有直接測量或驗證它們。\n- DPI 將指定食物群的能量加總後，除以總每日能量，再乘 100%。因此它描述的是飲食組成比例，不是血液植化素濃度，也不代表每一種食物的植化素含量相同（原文 pp. 3、5）。\n- 主要問題是 DPI 與空腹血糖；次要問題是 DPI 與 HbA1c，以及六種食物群組分別與空腹血糖的關聯。\n\n## 方法\n\n**要點**：在希臘單一糖尿病門診進行橫斷面觀察；以過去一個月 FFQ 計算 DPI，將單次血糖指標與飲食資料作迴歸分析（原文 pp. 3–7）。\n\n- **族群與收案：**2024-05-27 至 2026-05-29 連續招募；18 歲以上、T2D 至少 6 個月。共 340 人，平均年齡 65.9 歲，49.7% 女性。研究地點為希臘 Messinia 的 Kalamata General Hospital 糖尿病門診。\n- **DPI 六種食物群：**水果（含整果、果汁、果乾）、蔬菜、豆類、全穀、堅果／種子、橄欖／橄欖油。問卷沒有大豆項目，所以沒有納入 DPI。\n- **血糖量測：**空腹血糖資料 216 人，HbA1c 資料 330 人。空腹血糖取入組前一個月內最近的檢驗；缺近期檢驗時，19 人在門診用血糖機測量。主要完整調整模型因缺少結果或共變項，最後為 199 人。\n- **分析：**連續 DPI 與四分位組皆作線性迴歸。主要模型調整年齡、性別、BMI、活動量、吸菸／vaping、糖尿病年數、降糖治療類別及共病數；敏感度分析再納入地中海飲食分數（MedDietScore）、總能量及社經因素。另做 bootstrap、多重插補及六種食物群的 FDR 校正。\n- **樣本數規劃：**沒有先驗樣本數計算。作者事後估算 n=199 對約 |r|=0.20 有 80% power，並提醒不能據此說次要分析都有足夠檢定力（原文 p. 6）。\n\n## 主要發現\n\n**要點**：主要結果是 DPI 越高，空腹血糖越低；在本文中，這個關聯沒有延伸到 HbA1c，也沒有一個單獨食物群在多重校正後脫穎而出（原文 pp. 8–12）。\n\n| 分析 | 實際數值 | 怎麼讀 |\n|---|---|---|\n| DPI 每高 1 個百分點，空腹血糖 | b=−0.652 mg/dL；95% CI −1.177 至 −0.127；p=0.015；n=199 | fully adjusted 模型的平均關聯。每高 10 個百分點約對應 −6.5 mg/dL；這不是飲食介入效果（原文 pp. 9–10）。 |\n| DPI 四分位 Q4 對 Q1 | b=−20.9 mg/dL；95% CI −38.87 至 −2.93；p=0.023；n=199 | Q2 為 −6.12（p=0.521），Q3 為 −15.23（p=0.099）；四分位線性趨勢 p=0.014（原文 pp. 10–11）。 |\n| HbA1c fully adjusted | b=−0.003%；95% CI −0.014 至 0.008；p=0.598；n=310 | 沒有顯著關聯；HbA1c 可用資料共 330 人（原文 pp. 8、10）。 |\n| 加入 MedDietScore／總能量／社經因素 | 空腹血糖 b 約 −0.610 至 −0.763；各模型 p=0.007–0.030 | 估計方向大致維持；統計調整仍不能證明因果（原文 p. 9）。 |\n| 多重插補與能量回報敏感度 | 多重插補 n=340：b=−0.518，95% CI −0.958 至 −0.079，p=0.021；排除極端能量回報後 n=172：b=−0.827，95% CI −1.422 至 −0.233，p=0.007 | 方向與主要模型相近，但插補仰賴 missing-at-random 假設（原文 pp. 9、11）。 |\n| 六種 DPI 食物群 | FDR 校正後皆不顯著；同時納入模型也皆不顯著 | 不應把未校正的水果或全穀趨勢說成單一食物效果（原文 pp. 11–12）。 |\n\n## 臨床意義 / 怎麼用\n\n**要點**：把結果當作研究線索，不把 DPI 分數當成治療目標；這篇沒有測試「提高 DPI」能否降低血糖（原文 pp. 14–15）。\n\n- 研究者認為，DPI 關聯在額外調整 MedDietScore 與總能量後仍存在；但 DPI 是一個食物比例指標，纖維、食物基質、熱量、藥物與其他行為都可能共同影響結果。\n- 作者提出植化素與纖維等可能機制，也引用不同族群的既有研究；本研究沒有直接量測植化素、發炎、腸道菌相或胰島素敏感性，這些不能當成本文已證實的原因。\n- 本研究沒有提供空腹血糖的最小臨床重要差異（MCID）。約 −6.5 mg/dL／每 10 個百分點 DPI 是統計模型換算值，臨床重要性仍不明。\n- 作者結論要求後續前瞻性研究與隨機試驗；文章明言目前結果不足以支持以 DPI 作為 T2D 臨床管理策略。不能用它推算個人療效或作為調藥依據。\n\n## 重要圖表重述\n\n**要點**：表 1 描繪樣本與四分位；表 2–3 呈現主要迴歸；表 4 與圖 1 顯示單一食物群的探索性結果，沒有校正後的特定群組訊號（原文 pp. 8–12）。\n\n- **表 1（p. 8）：**340 人各 85 人分成四組。平均 DPI 從 Q1 的 34.6% 到 Q4 的 65%；空腹血糖 Q1 141 ± 53、Q4 120 ± 27 mg/dL（整體 p=0.048）。HbA1c 四組差異不顯著（p=0.480）。較高 DPI 組報告的總能量及碳水、蛋白質、脂肪克數也較低。\n- **表 2（p. 10）：**連續 DPI 與空腹血糖在逐步調整模型中皆為負向；與 HbA1c 的模型則不顯著。VIF 最大 1.672，作者未發現明顯共線性。\n- **表 3（p. 11）：**只有最高組 Q4 對最低組 Q1 的對比達統計顯著；Q2、Q3 的區間跨過零。多重插補也保留 Q4 對 Q1 的負向關聯。\n- **表 4／圖 1（pp. 11–12）：**水果、全穀未校正點估計為負，但 p 值分別為 0.069、0.070；六種食物群 FDR 後都不顯著。同時調整六群後仍無顯著單一群組。\n- **補充表 S1–S5：**對照完整個案與排除者、呈現食物群能量來源、極端能量回報敏感度，以及多重插補結果；它們補充穩健性，沒有改變本文橫斷面設計的因果限制。\n\n## 與既有認知的對照\n\n**要點**：既有整理談的是植物性飲食整體型態、豆類與纖維；本文則新增一個特定 DPI 指標與空腹血糖的希臘 T2D 成人橫斷面關聯，兩者回答的問題不同。\n\n- 本機可讀筆記索引已收錄〈植物性飲食、豆類與纖維在第二型糖尿病的全文內容整理〉（DOI: 10.3390/nu18162672）。該文整理多種飲食模式與試驗／統合分析；本文沒有直接比較這些飲食方案，也沒有試驗增加 DPI。\n- 本文的 DPI 把六種食物群合併為能量比例；因此不能由其總分推論哪一種食物造成關聯。單一食物群分析校正後不顯著，與「某種植物性食物已被本文證明有效」不同。\n- 本輪沒有可用的 `vault_search` 連接器；以上是對 2,475 列本機可讀筆記索引作文字比對後找到的最直接相關整理，不代表已搜尋所有私人筆記。\n\n## 概念 / 名詞整理\n\n**要點**：理解這篇的關鍵，是分清飲食比例指標、不同血糖時間尺度，以及「有關聯」和「介入有效」的差別。\n\n- **DPI（Dietary Phytochemical Index）：**六類指定食物提供的能量 ÷ 總能量 × 100%；不是直接測量植化素。\n- **FFQ（food frequency questionnaire）：**問受試者一段期間常吃的食物及頻率；本研究回報前一個月，仍可能受回憶與回報誤差影響。\n- **MedDietScore：**作者用來表示地中海飲食遵從度的分數；本文將它納入敏感度模型，觀察 DPI 關聯是否仍存在。\n- **空腹血糖與 HbA1c：**前者是單次空腹血糖值；後者整合較長期間的血糖暴露。本文兩項結果不同，不能把空腹血糖關聯改寫成 HbA1c 改善。\n- **完整個案與多重插補：**主要模型只用有完整資料者；多重插補則在缺失隨機假設下補足分析資料。兩者方向相近可作敏感度參考，不會使缺失機制自動消失。\n- **FDR（false discovery rate）：**在六個食物群探索分析中控制多重比較帶來的假陽性風險；校正後皆不顯著。\n\n## 自我測驗\n\n> [!question]- Q1：DPI 高 10 個百分點就代表把某一種食物加量，會讓這位患者空腹血糖降 6.5 mg/dL 嗎？為什麼？\n> 不代表。DPI 是六種食物能量占總能量的比例，可能由不同食物組合達成；研究是橫斷面觀察，約 −6.5 mg/dL 是模型關聯換算，不是介入效果。\n\n> [!question]- Q2：為什麼主模型 199 人，而不是全部 340 人？這會讓讀者注意什麼？\n> 340 人中只有 216 人有空腹血糖，還有部分共變項缺失，所以完整調整空腹血糖模型剩 199 人。缺失可能造成選樣偏差；多重插補只能在其假設下檢查敏感度。\n\n> [!question]- Q3：本文的空腹血糖與 HbA1c 結果是否一致？如何說才精確？\n> 不一致：空腹血糖主模型每高 1 個 DPI 百分點低 0.652 mg/dL（95% CI −1.177 至 −0.127；p=0.015）；HbA1c fully adjusted 模型不顯著（p=0.598）。不能概括成「整體血糖控制都改善」。\n\n> [!question]- Q4：水果、蔬菜、豆類、全穀、堅果／種子、橄欖／橄欖油，哪一組已被本文證明是關聯來源？\n> 沒有任何一組被證明。六組探索結果經 FDR 校正後都不顯著；同時調整六組的模型也沒有顯著單一群組。DPI 整體關聯不能直接歸功於某一食物。\n\n> [!question]- Q5：可以用這篇文章設定 DPI 臨床目標或調整降糖藥嗎？下一步研究需要什麼？\n> 不可以；沒有 DPI 介入、因果估計或可用的 MCID。作者建議前瞻性研究與隨機試驗，確認提高富含植化素食物的攝取是否會持續改善血糖指標。\n\n## Reference\n\n- Konstantopoulou SM, Foscolou A, Papazafiropoulou AK, et al. *Dietary Phytochemical Index and Fasting Plasma Glucose in Adults with Type 2 Diabetes: A Cross-Sectional Study.* Nutrients. 2026;18:3130. [https://doi.org/10.3390/nu18193130](https://doi.org/10.3390/nu18193130).\n- 全文位置：背景與研究目標 pp. 2–3；方法 pp. 3–7；主要表格與結果 pp. 8–12；討論、限制與結論 pp. 12–15；經費與利益衝突 p. 16。",
+      "cards": [
+        {
+          "title": "DPI 是飲食比例，不是介入量",
+          "question": "DPI 高 10 個百分點就代表把某一種食物加量會讓空腹血糖降 6.5 mg/dL 嗎？為什麼？",
+          "answer": "不代表。DPI 是六種食物能量占總能量的比例，可能由不同食物組合達成；研究是橫斷面觀察，約 −6.5 mg/dL 是模型關聯換算，不是介入效果。",
+          "tags": [
+            "type-2-diabetes",
+            "dietary-patterns",
+            "phytochemicals",
+            "causal-inference"
+          ]
+        },
+        {
+          "title": "199 人主模型代表什麼",
+          "question": "為什麼主模型 199 人，而不是全部 340 人？這會讓讀者注意什麼？",
+          "answer": "340 人中只有 216 人有空腹血糖，還有部分共變項缺失，所以完整調整空腹血糖模型剩 199 人。缺失可能造成選樣偏差；多重插補只能在其假設下檢查敏感度。",
+          "tags": [
+            "type-2-diabetes",
+            "missing-data",
+            "study-design"
+          ]
+        },
+        {
+          "title": "空腹血糖與 HbA1c 不一致",
+          "question": "本文的空腹血糖與 HbA1c 結果是否一致？如何說才精確？",
+          "answer": "不一致：空腹血糖主模型每高 1 個 DPI 百分點低 0.652 mg/dL（95% CI −1.177 至 −0.127；p=0.015）；HbA1c fully adjusted 模型不顯著（p=0.598）。不能概括成「整體血糖控制都改善」。",
+          "tags": [
+            "type-2-diabetes",
+            "fasting-glucose",
+            "HbA1c",
+            "outcomes"
+          ]
+        },
+        {
+          "title": "不能把 DPI 關聯歸給單一食物",
+          "question": "六種 DPI 食物群中，哪一組已被本文證明是關聯來源？",
+          "answer": "沒有任何一組被證明。六組探索結果經 FDR 校正後都不顯著；同時調整六組的模型也沒有顯著單一群組。DPI 整體關聯不能直接歸功於某一食物。",
+          "tags": [
+            "type-2-diabetes",
+            "dietary-patterns",
+            "multiple-testing"
+          ]
+        },
+        {
+          "title": "研究不能支持臨床 DPI 目標",
+          "question": "可以用這篇文章設定 DPI 臨床目標或調整降糖藥嗎？下一步研究需要什麼？",
+          "answer": "不可以；沒有 DPI 介入、因果估計或可用的 MCID。作者建議前瞻性研究與隨機試驗，確認提高富含植化素食物的攝取是否會持續改善血糖指標。",
+          "tags": [
+            "type-2-diabetes",
+            "clinical-application",
+            "evidence-limitations"
+          ]
+        }
+      ],
+      "completedAt": "2026-10-17T03:10:44.556Z"
     }
   ]
 }
