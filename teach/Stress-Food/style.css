@@ -405,21 +405,29 @@ h2 {
 .site-footer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
   color: var(--muted);
-  padding: 0 4px 6px;
-  font-size: 0.9rem;
-  font-weight: 800;
+  padding: 24px 16px 12px;
+  margin-top: 24px;
+  border-top: 1px solid rgba(20,40,43,0.08);
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.8;
 }
 
 .site-footer a {
   color: var(--teal-dark);
   text-decoration: none;
+  font-weight: 800;
+  transition: color .15s;
 }
 
 .site-footer a:hover {
   text-decoration: underline;
+  color: var(--amber-dark, #b45309);
 }
 
 #roundLog {

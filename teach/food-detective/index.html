@@ -18,10 +18,6 @@
   <meta property="og:site_name" content="Kat Chang 凱特營養師">
   <meta property="og:locale" content="zh_TW">
 
-  <!-- 引入 PDF 轉換套件 -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  
   <!-- 引入本教具六大類題庫資料 -->
   <script src="food-data.js"></script>
 
@@ -810,18 +806,75 @@
       width: 210mm;
     }
 
-    /* 列印設定 */
+    /* 頁尾樣式 */
+    .tool-footer {
+      text-align: center;
+      padding: 32px 20px 48px;
+      margin-top: 40px;
+      color: var(--ink-3, #6F8D93);
+      font-size: 14.5px;
+      font-weight: 700;
+      border-top: 1px solid var(--line-soft, #E2ECEB);
+      line-height: 1.8;
+    }
+    .tool-footer a {
+      color: var(--secondary-deep, #0F5B43);
+      text-decoration: none;
+      font-weight: 800;
+      transition: color .15s;
+    }
+    .tool-footer a:hover {
+      color: var(--primary, #FF6B35);
+      text-decoration: underline;
+    }
+
+    /* 列印設定：嚴格單頁 A4，徹底杜絕最後一頁多印空白頁 */
     @media print {
-      .no-print { display: none !important; }
-      body { background: white !important; margin: 0 !important; padding: 0 !important; }
-      .sheet-scaler { transform: none !important; height: auto !important; margin: 0 !important; }
-      .sheet {
-        box-shadow: none !important;
-        page-break-after: always !important;
-        padding: 10mm 14mm !important;
+      @page {
+        size: A4 portrait;
+        margin: 8mm 10mm;
+      }
+      .no-print, #hidden-capture, #msgToast, .exit-fs-float { display: none !important; }
+      html, body {
+        background: white !important;
+        margin: 0 !important;
+        padding: 0 !important;
         width: 100% !important;
         height: auto !important;
-        min-height: 275mm !important;
+      }
+      .preview-container {
+        display: block !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 100% !important;
+      }
+      .sheet-scaler {
+        transform: none !important;
+        height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        page-break-after: always !important;
+        page-break-inside: avoid !important;
+        break-after: page !important;
+        break-inside: avoid !important;
+      }
+      .sheet-scaler:last-child {
+        page-break-after: auto !important;
+        break-after: auto !important;
+      }
+      .sheet {
+        box-shadow: none !important;
+        border: none !important;
+        margin: 0 auto !important;
+        padding: 4mm 8mm !important;
+        width: 100% !important;
+        max-width: 190mm !important;
+        height: 270mm !important;
+        max-height: 270mm !important;
+        box-sizing: border-box !important;
+        overflow: hidden !important;
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
       }
     }
 
@@ -1012,19 +1065,25 @@
         </div>
       </div>
 
-      <div class="control-btns">
-        <button class="btn btn-primary" onclick="generateWorksheet()">✨ 產生學習單</button>
-        <button class="btn btn-dark" onclick="window.print()">🖨️ 直接列印 A4</button>
-        <button class="btn btn-amber" id="pdfBtn" onclick="downloadWorksheetPDF()">📱 下載高畫質 PDF</button>
+      <div class="control-btns" style="align-items: center; gap: 14px; flex-wrap: wrap;">
+        <button class="btn btn-primary" onclick="generateWorksheet()">✨ 換一組學習單</button>
+        <button class="btn btn-secondary" style="font-size: 17px; padding: 13px 32px;" onclick="window.print()">🖨️ 直接列印 / 另存為 A4 PDF</button>
+        <span style="font-size: 13.5px; color: var(--ink-2); font-weight: 700;">
+          💡 提示：在列印視窗中「目的地」選擇「另存為 PDF」，即可一鍵匯出高畫質向量 PDF，零延遲不卡頓！
+        </span>
       </div>
     </div>
   </div>
+
+  <!-- 頁尾 -->
+  <footer class="tool-footer no-print">
+    @2026 Kat Chang 凱特營養師｜中高齡營養專家 ｜ <a href="https://594katchang-source.github.io/sitemap.html">網站地圖</a> ｜ <a href="https://594katchang-source.github.io/teach/">返回教具總覽</a>
+  </footer>
 
 </div>
 
 <!-- A4 預覽渲染區 -->
 <div class="preview-container" id="worksheetOutput" style="display: none;"></div>
-<div id="hidden-capture"></div>
 
 <script>
   // ==========================================
@@ -1747,71 +1806,7 @@
     });
   }
 
-  async function downloadWorksheetPDF() {
-    const { jsPDF } = window.jspdf;
-    const btn = document.getElementById('pdfBtn');
-    const sheets = document.querySelectorAll('.sheet');
-    const hidden = document.getElementById('hidden-capture');
 
-    if (sheets.length === 0) {
-      showToast('請先產生學習單後再下載！');
-      return;
-    }
-
-    btn.disabled = true;
-    btn.innerText = '⏳ 正在快取高畫質向量圖示...';
-
-    try {
-      // 1. 抓取所有圖片 URL 並預載轉換為 Base64 Data URI (同源資料，零丟失)
-      const allImgs = Array.from(document.querySelectorAll('.sheet .food-icon-img'));
-      const uniqueSrcs = [...new Set(allImgs.map(img => img.src).filter(Boolean))];
-      await Promise.all(uniqueSrcs.map(src => getSvgDataUri(src)));
-
-      const pdf = new jsPDF('p', 'mm', 'a4');
-      for (let i = 0; i < sheets.length; i++) {
-        btn.innerText = `⏳ 正在轉檔第 ${i + 1}/${sheets.length} 頁...`;
-        const clone = sheets[i].cloneNode(true);
-        clone.style.transform = 'none';
-
-        // 2. 將 clone 內的所有 img src 替換為完全同源的 Data URI
-        const cloneImgs = Array.from(clone.querySelectorAll('.food-icon-img'));
-        cloneImgs.forEach(img => {
-          if (img.src && svgDataUriCache[img.src]) {
-            img.src = svgDataUriCache[img.src];
-          }
-        });
-
-        hidden.appendChild(clone);
-
-        // 3. 等待圖片解碼以確保 canvas 100% 完整繪出
-        await Promise.all(cloneImgs.map(img => {
-          if (img.decode) return img.decode().catch(() => {});
-          return Promise.resolve();
-        }));
-
-        // 4. html2canvas 高解析度渲染
-        const canvas = await html2canvas(clone, { 
-          scale: 2, 
-          useCORS: true, 
-          allowTaint: false,
-          logging: false 
-        });
-        hidden.removeChild(clone);
-
-        const imgData = canvas.toDataURL('image/jpeg', 0.90);
-        if (i > 0) pdf.addPage();
-        pdf.addImage(imgData, 'JPEG', 0, 0, 210, 297);
-      }
-      pdf.save('飲食小偵探_食物分類大挑戰.pdf');
-      showToast('✅ PDF 下載完成！');
-    } catch (err) {
-      console.error(err);
-      showToast('轉換 PDF 失敗，建議直接使用「直接列印 A4」。');
-    } finally {
-      btn.disabled = false;
-      btn.innerText = '📱 下載高畫質 PDF';
-    }
-  }
 
   // 工具函式：Fisher-Yates 陣列洗牌
   function shuffle(array) {

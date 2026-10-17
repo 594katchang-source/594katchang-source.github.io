@@ -917,6 +917,27 @@ input[type=range] {
   .fys-dots { display: none; }
   .nut-grid { grid-template-columns: 1fr; gap: 4px; }
 }
+
+.tool-footer {
+  text-align: center;
+  padding: 32px 20px 48px;
+  margin-top: 36px;
+  color: var(--ink-3, #6F8D93);
+  font-size: 14.5px;
+  font-weight: 700;
+  border-top: 1px solid var(--line-soft, #E2ECEB);
+  line-height: 1.8;
+}
+.tool-footer a {
+  color: var(--secondary-deep, #13776C);
+  text-decoration: none;
+  font-weight: 800;
+  transition: color .15s;
+}
+.tool-footer a:hover {
+  color: var(--primary, #FF6B35);
+  text-decoration: underline;
+}
 </style>
 </head>
 <body>
@@ -1042,6 +1063,10 @@ input[type=range] {
       <p class="note" id="previewNote"></p>
     </main>
   </div>
+
+  <footer class="tool-footer no-print">
+    @2026 Kat Chang 凱特營養師｜中高齡營養專家 ｜ <a href="https://594katchang-source.github.io/sitemap.html">網站地圖</a> ｜ <a href="https://594katchang-source.github.io/teach/">返回教具總覽</a>
+  </footer>
 </div>
 
 <!-- 全螢幕播放器容器 -->

@@ -102,7 +102,7 @@ const FOOD_DATABASE = [
   {
     "id": 5,
     "name": "乳酪絲",
-    "icon": "🥛",
+    "icon": "🧀",
     "category": "dairy",
     "categoryName": "乳品類",
     "categoryIcon": "🥛",
@@ -198,7 +198,7 @@ const FOOD_DATABASE = [
   {
     "id": 13,
     "name": "小魚干",
-    "icon": "🥩",
+    "icon": "🐟",
     "category": "protein",
     "categoryName": "豆魚蛋肉類",
     "categoryIcon": "🥩",
@@ -210,7 +210,7 @@ const FOOD_DATABASE = [
   {
     "id": 14,
     "name": "蝦皮",
-    "icon": "🥩",
+    "icon": "🦐",
     "category": "protein",
     "categoryName": "豆魚蛋肉類",
     "categoryIcon": "🥩",
@@ -222,7 +222,7 @@ const FOOD_DATABASE = [
   {
     "id": 15,
     "name": "魚脯",
-    "icon": "🥩",
+    "icon": "🐟",
     "category": "protein",
     "categoryName": "豆魚蛋肉類",
     "categoryIcon": "🥩",
@@ -234,7 +234,7 @@ const FOOD_DATABASE = [
   {
     "id": 16,
     "name": "鰹魚",
-    "icon": "🥩",
+    "icon": "🐟",
     "category": "protein",
     "categoryName": "豆魚蛋肉類",
     "categoryIcon": "🥩",
@@ -318,7 +318,7 @@ const FOOD_DATABASE = [
   {
     "id": 23,
     "name": "章魚",
-    "icon": "🐙",
+    "icon": "🐟",
     "category": "protein",
     "categoryName": "豆魚蛋肉類",
     "categoryIcon": "🥩",
@@ -330,7 +330,7 @@ const FOOD_DATABASE = [
   {
     "id": 24,
     "name": "魚丸(不包肉)",
-    "icon": "🍢",
+    "icon": "🐟",
     "category": "protein",
     "categoryName": "豆魚蛋肉類",
     "categoryIcon": "🥩",
@@ -366,7 +366,7 @@ const FOOD_DATABASE = [
   {
     "id": 27,
     "name": "白海參",
-    "icon": "🥩",
+    "icon": "🥒",
     "category": "protein",
     "categoryName": "豆魚蛋肉類",
     "categoryIcon": "🥩",
@@ -486,7 +486,7 @@ const FOOD_DATABASE = [
   {
     "id": 37,
     "name": "雞肫",
-    "icon": "🥩",
+    "icon": "🍗",
     "category": "protein",
     "categoryName": "豆魚蛋肉類",
     "categoryIcon": "🥩",
@@ -522,7 +522,7 @@ const FOOD_DATABASE = [
   {
     "id": 40,
     "name": "雞肝",
-    "icon": "🥩",
+    "icon": "🍗",
     "category": "protein",
     "categoryName": "豆魚蛋肉類",
     "categoryIcon": "🥩",
@@ -666,7 +666,7 @@ const FOOD_DATABASE = [
   {
     "id": 52,
     "name": "麵腸",
-    "icon": "🥩",
+    "icon": "🍜",
     "category": "protein",
     "categoryName": "豆魚蛋肉類",
     "categoryIcon": "🥩",
@@ -678,7 +678,7 @@ const FOOD_DATABASE = [
   {
     "id": 53,
     "name": "麵丸",
-    "icon": "🥩",
+    "icon": "🍜",
     "category": "protein",
     "categoryName": "豆魚蛋肉類",
     "categoryIcon": "🥩",
@@ -690,7 +690,7 @@ const FOOD_DATABASE = [
   {
     "id": 54,
     "name": "烤麩",
-    "icon": "🥩",
+    "icon": "🥟",
     "category": "protein",
     "categoryName": "豆魚蛋肉類",
     "categoryIcon": "🥩",
@@ -714,7 +714,7 @@ const FOOD_DATABASE = [
   {
     "id": 56,
     "name": "烏魚",
-    "icon": "🥩",
+    "icon": "🐟",
     "category": "protein",
     "categoryName": "豆魚蛋肉類",
     "categoryIcon": "🥩",
@@ -738,7 +738,7 @@ const FOOD_DATABASE = [
   {
     "id": 58,
     "name": "鹹醞魚",
-    "icon": "🥩",
+    "icon": "🐟",
     "category": "protein",
     "categoryName": "豆魚蛋肉類",
     "categoryIcon": "🥩",
@@ -762,7 +762,7 @@ const FOOD_DATABASE = [
   {
     "id": 60,
     "name": "魚肉鬆",
-    "icon": "🥩",
+    "icon": "🐟",
     "category": "protein",
     "categoryName": "豆魚蛋肉類",
     "categoryIcon": "🥩",
@@ -786,7 +786,7 @@ const FOOD_DATABASE = [
   {
     "id": 62,
     "name": "比目魚",
-    "icon": "🥩",
+    "icon": "🐟",
     "category": "protein",
     "categoryName": "豆魚蛋肉類",
     "categoryIcon": "🥩",
@@ -834,7 +834,7 @@ const FOOD_DATABASE = [
   {
     "id": 66,
     "name": "魚丸(包肉)",
-    "icon": "🍢",
+    "icon": "🐟",
     "category": "protein",
     "categoryName": "豆魚蛋肉類",
     "categoryIcon": "🥩",
@@ -978,7 +978,7 @@ const FOOD_DATABASE = [
   {
     "id": 78,
     "name": "雞爪",
-    "icon": "🥩",
+    "icon": "🍗",
     "category": "protein",
     "categoryName": "豆魚蛋肉類",
     "categoryIcon": "🥩",
@@ -990,7 +990,7 @@ const FOOD_DATABASE = [
   {
     "id": 79,
     "name": "鴨賞",
-    "icon": "🥩",
+    "icon": "🍗",
     "category": "protein",
     "categoryName": "豆魚蛋肉類",
     "categoryIcon": "🥩",
@@ -1086,7 +1086,7 @@ const FOOD_DATABASE = [
   {
     "id": 87,
     "name": "油豆腐",
-    "icon": "🧊",
+    "icon": "🫙",
     "category": "protein",
     "categoryName": "豆魚蛋肉類",
     "categoryIcon": "🥩",
@@ -1194,7 +1194,7 @@ const FOOD_DATABASE = [
   {
     "id": 96,
     "name": "素油雞",
-    "icon": "🥩",
+    "icon": "🫙",
     "category": "protein",
     "categoryName": "豆魚蛋肉類",
     "categoryIcon": "🥩",
@@ -1218,7 +1218,7 @@ const FOOD_DATABASE = [
   {
     "id": 98,
     "name": "秋刀魚",
-    "icon": "🥩",
+    "icon": "🐟",
     "category": "protein",
     "categoryName": "豆魚蛋肉類",
     "categoryIcon": "🥩",
@@ -1254,7 +1254,7 @@ const FOOD_DATABASE = [
   {
     "id": 101,
     "name": "雞心",
-    "icon": "🥩",
+    "icon": "🍗",
     "category": "protein",
     "categoryName": "豆魚蛋肉類",
     "categoryIcon": "🥩",
@@ -1266,7 +1266,7 @@ const FOOD_DATABASE = [
   {
     "id": 102,
     "name": "素雞",
-    "icon": "🥩",
+    "icon": "🍗",
     "category": "protein",
     "categoryName": "豆魚蛋肉類",
     "categoryIcon": "🥩",
@@ -1278,7 +1278,7 @@ const FOOD_DATABASE = [
   {
     "id": 103,
     "name": "素魚",
-    "icon": "🥩",
+    "icon": "🐟",
     "category": "protein",
     "categoryName": "豆魚蛋肉類",
     "categoryIcon": "🥩",
@@ -1290,7 +1290,7 @@ const FOOD_DATABASE = [
   {
     "id": 104,
     "name": "素雞塊",
-    "icon": "🥩",
+    "icon": "🍗",
     "category": "protein",
     "categoryName": "豆魚蛋肉類",
     "categoryIcon": "🥩",
@@ -1314,7 +1314,7 @@ const FOOD_DATABASE = [
   {
     "id": 106,
     "name": "麵筋泡",
-    "icon": "🥩",
+    "icon": "🍜",
     "category": "protein",
     "categoryName": "豆魚蛋肉類",
     "categoryIcon": "🥩",
@@ -1542,7 +1542,7 @@ const FOOD_DATABASE = [
   {
     "id": 125,
     "name": "粥(稠)",
-    "icon": "🍚",
+    "icon": "🥣",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -1578,7 +1578,7 @@ const FOOD_DATABASE = [
   {
     "id": 128,
     "name": "蘿蔔糕",
-    "icon": "⚪",
+    "icon": "🍘",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -1626,7 +1626,7 @@ const FOOD_DATABASE = [
   {
     "id": 132,
     "name": "油條",
-    "icon": "🥖",
+    "icon": "🫙",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -1722,7 +1722,7 @@ const FOOD_DATABASE = [
   {
     "id": 140,
     "name": "大麥",
-    "icon": "🍚",
+    "icon": "🥣",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -1734,7 +1734,7 @@ const FOOD_DATABASE = [
   {
     "id": 141,
     "name": "小麥",
-    "icon": "🍚",
+    "icon": "🥣",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -1746,7 +1746,7 @@ const FOOD_DATABASE = [
   {
     "id": 142,
     "name": "蕎麥",
-    "icon": "🍚",
+    "icon": "🥣",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -1758,7 +1758,7 @@ const FOOD_DATABASE = [
   {
     "id": 143,
     "name": "麥粉",
-    "icon": "🍚",
+    "icon": "🥣",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -1782,7 +1782,7 @@ const FOOD_DATABASE = [
   {
     "id": 145,
     "name": "麵粉",
-    "icon": "🍚",
+    "icon": "🍜",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -1842,7 +1842,7 @@ const FOOD_DATABASE = [
   {
     "id": 150,
     "name": "油麵",
-    "icon": "🍚",
+    "icon": "🫙",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -1854,7 +1854,7 @@ const FOOD_DATABASE = [
   {
     "id": 151,
     "name": "鍋燒麵(熟)",
-    "icon": "🍚",
+    "icon": "🍜",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -1866,7 +1866,7 @@ const FOOD_DATABASE = [
   {
     "id": 152,
     "name": "通心粉(乾)",
-    "icon": "🍚",
+    "icon": "🥩",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -1878,7 +1878,7 @@ const FOOD_DATABASE = [
   {
     "id": 153,
     "name": "義大利麵(乾)",
-    "icon": "🍝",
+    "icon": "🍜",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -1926,7 +1926,7 @@ const FOOD_DATABASE = [
   {
     "id": 157,
     "name": "餛飩皮",
-    "icon": "🍚",
+    "icon": "🥟",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -1938,7 +1938,7 @@ const FOOD_DATABASE = [
   {
     "id": 158,
     "name": "春捲皮",
-    "icon": "🍚",
+    "icon": "🫓",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -1998,7 +1998,7 @@ const FOOD_DATABASE = [
   {
     "id": 163,
     "name": "餐包",
-    "icon": "🍚",
+    "icon": "🥐",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -2010,7 +2010,7 @@ const FOOD_DATABASE = [
   {
     "id": 164,
     "name": "漢堡麵包",
-    "icon": "🍚",
+    "icon": "🥐",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -2022,7 +2022,7 @@ const FOOD_DATABASE = [
   {
     "id": 165,
     "name": "菠蘿麵包",
-    "icon": "🍚",
+    "icon": "🥐",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -2034,7 +2034,7 @@ const FOOD_DATABASE = [
   {
     "id": 166,
     "name": "奶酥麵包",
-    "icon": "🍚",
+    "icon": "🥐",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -2058,7 +2058,7 @@ const FOOD_DATABASE = [
   {
     "id": 168,
     "name": "玉米或玉米粒",
-    "icon": "🍚",
+    "icon": "🌽",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -2130,7 +2130,7 @@ const FOOD_DATABASE = [
   {
     "id": 174,
     "name": "豌豆仁",
-    "icon": "🍚",
+    "icon": "🫛",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -2142,7 +2142,7 @@ const FOOD_DATABASE = [
   {
     "id": 175,
     "name": "皇帝豆",
-    "icon": "🍚",
+    "icon": "🫛",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -2202,7 +2202,7 @@ const FOOD_DATABASE = [
   {
     "id": 180,
     "name": "刀豆",
-    "icon": "🍚",
+    "icon": "🫘",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -2250,7 +2250,7 @@ const FOOD_DATABASE = [
   {
     "id": 184,
     "name": "西谷米(粉圓)",
-    "icon": "🍚",
+    "icon": "🍡",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -2262,7 +2262,7 @@ const FOOD_DATABASE = [
   {
     "id": 185,
     "name": "米苔目(濕)",
-    "icon": "🍚",
+    "icon": "🍜",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -2274,7 +2274,7 @@ const FOOD_DATABASE = [
   {
     "id": 186,
     "name": "米粉(乾)",
-    "icon": "🍚",
+    "icon": "🍜",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -2286,7 +2286,7 @@ const FOOD_DATABASE = [
   {
     "id": 187,
     "name": "米粉(濕)",
-    "icon": "🍚",
+    "icon": "🍜",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -2298,7 +2298,7 @@ const FOOD_DATABASE = [
   {
     "id": 188,
     "name": "芋圓",
-    "icon": "🍚",
+    "icon": "🍡",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -2322,7 +2322,7 @@ const FOOD_DATABASE = [
   {
     "id": 190,
     "name": "河粉(濕)",
-    "icon": "🍚",
+    "icon": "🫓",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -2334,7 +2334,7 @@ const FOOD_DATABASE = [
   {
     "id": 191,
     "name": "越南春捲皮(乾)",
-    "icon": "🍚",
+    "icon": "🫓",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -2346,7 +2346,7 @@ const FOOD_DATABASE = [
   {
     "id": 192,
     "name": "蛋餅皮",
-    "icon": "🍚",
+    "icon": "🫓",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -2358,7 +2358,7 @@ const FOOD_DATABASE = [
   {
     "id": 193,
     "name": "蔥油餅皮(冷凍)",
-    "icon": "🍚",
+    "icon": "🫓",
     "category": "grains",
     "categoryName": "全榖雜糧類",
     "categoryIcon": "🌾",
@@ -2658,7 +2658,7 @@ const FOOD_DATABASE = [
   {
     "id": 218,
     "name": "蘿蔔",
-    "icon": "⚪",
+    "icon": "🥕",
     "category": "vegetables",
     "categoryName": "蔬菜類",
     "categoryIcon": "🥬",
@@ -2982,7 +2982,7 @@ const FOOD_DATABASE = [
   {
     "id": 245,
     "name": "半天筍",
-    "icon": "🥬",
+    "icon": "🎍",
     "category": "vegetables",
     "categoryName": "蔬菜類",
     "categoryIcon": "🥬",
@@ -3102,7 +3102,7 @@ const FOOD_DATABASE = [
   {
     "id": 255,
     "name": "柳松菇",
-    "icon": "🥬",
+    "icon": "🍄",
     "category": "vegetables",
     "categoryName": "蔬菜類",
     "categoryIcon": "🥬",
@@ -3126,7 +3126,7 @@ const FOOD_DATABASE = [
   {
     "id": 257,
     "name": "猴頭菇",
-    "icon": "🥬",
+    "icon": "🍄",
     "category": "vegetables",
     "categoryName": "蔬菜類",
     "categoryIcon": "🥬",
@@ -3282,7 +3282,7 @@ const FOOD_DATABASE = [
   {
     "id": 270,
     "name": "油柑(金棗)",
-    "icon": "🍎",
+    "icon": "🍊",
     "category": "fruits",
     "categoryName": "水果類",
     "categoryIcon": "🍎",
@@ -3558,7 +3558,7 @@ const FOOD_DATABASE = [
   {
     "id": 293,
     "name": "粗梨",
-    "icon": "🍎",
+    "icon": "🍐",
     "category": "fruits",
     "categoryName": "水果類",
     "categoryIcon": "🍎",
@@ -3630,7 +3630,7 @@ const FOOD_DATABASE = [
   {
     "id": 299,
     "name": "黑棗梅(新鮮)",
-    "icon": "🫒",
+    "icon": "🫘",
     "category": "fruits",
     "categoryName": "水果類",
     "categoryIcon": "🍎",
@@ -3666,7 +3666,7 @@ const FOOD_DATABASE = [
   {
     "id": 302,
     "name": "紅棗",
-    "icon": "🫒",
+    "icon": "🫘",
     "category": "fruits",
     "categoryName": "水果類",
     "categoryIcon": "🍎",
@@ -3678,7 +3678,7 @@ const FOOD_DATABASE = [
   {
     "id": 303,
     "name": "黑棗",
-    "icon": "🫒",
+    "icon": "🫘",
     "category": "fruits",
     "categoryName": "水果類",
     "categoryIcon": "🍎",
@@ -3702,7 +3702,7 @@ const FOOD_DATABASE = [
   {
     "id": 305,
     "name": "柿餅",
-    "icon": "🍎",
+    "icon": "🍅",
     "category": "fruits",
     "categoryName": "水果類",
     "categoryIcon": "🍎",
@@ -3714,7 +3714,7 @@ const FOOD_DATABASE = [
   {
     "id": 306,
     "name": "紅柿",
-    "icon": "🍎",
+    "icon": "🍅",
     "category": "fruits",
     "categoryName": "水果類",
     "categoryIcon": "🍎",
@@ -3774,7 +3774,7 @@ const FOOD_DATABASE = [
   {
     "id": 311,
     "name": "紅毛丹",
-    "icon": "🍎",
+    "icon": "🔴",
     "category": "fruits",
     "categoryName": "水果類",
     "categoryIcon": "🍎",
@@ -3810,7 +3810,7 @@ const FOOD_DATABASE = [
   {
     "id": 314,
     "name": "龍眼",
-    "icon": "🍎",
+    "icon": "🟤",
     "category": "fruits",
     "categoryName": "水果類",
     "categoryIcon": "🍎",
@@ -3834,7 +3834,7 @@ const FOOD_DATABASE = [
   {
     "id": 316,
     "name": "火龍果",
-    "icon": "🐉",
+    "icon": "🌺",
     "category": "fruits",
     "categoryName": "水果類",
     "categoryIcon": "🍎",
@@ -3942,7 +3942,7 @@ const FOOD_DATABASE = [
   {
     "id": 325,
     "name": "椰棗",
-    "icon": "🍎",
+    "icon": "🍏",
     "category": "fruits",
     "categoryName": "水果類",
     "categoryIcon": "🍎",
@@ -4002,7 +4002,7 @@ const FOOD_DATABASE = [
   {
     "id": 330,
     "name": "蔓越莓乾",
-    "icon": "🍒",
+    "icon": "🍎",
     "category": "fruits",
     "categoryName": "水果類",
     "categoryIcon": "🍎",
@@ -4026,7 +4026,7 @@ const FOOD_DATABASE = [
   {
     "id": 332,
     "name": "龍眼干",
-    "icon": "🍎",
+    "icon": "🟤",
     "category": "fruits",
     "categoryName": "水果類",
     "categoryIcon": "🍎",
@@ -4038,7 +4038,7 @@ const FOOD_DATABASE = [
   {
     "id": 333,
     "name": "黑棗梅(乾)",
-    "icon": "🫒",
+    "icon": "🫘",
     "category": "fruits",
     "categoryName": "水果類",
     "categoryIcon": "🍎",
@@ -4062,7 +4062,7 @@ const FOOD_DATABASE = [
   {
     "id": 335,
     "name": "大豆油",
-    "icon": "🥜",
+    "icon": "🫙",
     "category": "oils",
     "categoryName": "油脂與堅果種子類",
     "categoryIcon": "🥜",
@@ -4074,7 +4074,7 @@ const FOOD_DATABASE = [
   {
     "id": 336,
     "name": "玉米油",
-    "icon": "🍚",
+    "icon": "🫙",
     "category": "oils",
     "categoryName": "油脂與堅果種子類",
     "categoryIcon": "🥜",
@@ -4098,7 +4098,7 @@ const FOOD_DATABASE = [
   {
     "id": 338,
     "name": "紅花子油",
-    "icon": "🥜",
+    "icon": "🫙",
     "category": "oils",
     "categoryName": "油脂與堅果種子類",
     "categoryIcon": "🥜",
@@ -4110,7 +4110,7 @@ const FOOD_DATABASE = [
   {
     "id": 339,
     "name": "葵花子油",
-    "icon": "🥜",
+    "icon": "🌻",
     "category": "oils",
     "categoryName": "油脂與堅果種子類",
     "categoryIcon": "🥜",
@@ -4122,7 +4122,7 @@ const FOOD_DATABASE = [
   {
     "id": 340,
     "name": "麻油",
-    "icon": "🥜",
+    "icon": "🫙",
     "category": "oils",
     "categoryName": "油脂與堅果種子類",
     "categoryIcon": "🥜",
@@ -4134,7 +4134,7 @@ const FOOD_DATABASE = [
   {
     "id": 341,
     "name": "椰子油",
-    "icon": "🥜",
+    "icon": "🥥",
     "category": "oils",
     "categoryName": "油脂與堅果種子類",
     "categoryIcon": "🥜",
@@ -4146,7 +4146,7 @@ const FOOD_DATABASE = [
   {
     "id": 342,
     "name": "棕櫚油",
-    "icon": "🥜",
+    "icon": "🫙",
     "category": "oils",
     "categoryName": "油脂與堅果種子類",
     "categoryIcon": "🥜",
@@ -4182,7 +4182,7 @@ const FOOD_DATABASE = [
   {
     "id": 345,
     "name": "椰漿",
-    "icon": "🥜",
+    "icon": "🥥",
     "category": "oils",
     "categoryName": "油脂與堅果種子類",
     "categoryIcon": "🥜",
@@ -4194,7 +4194,7 @@ const FOOD_DATABASE = [
   {
     "id": 346,
     "name": "椰奶",
-    "icon": "🥜",
+    "icon": "🥥",
     "category": "oils",
     "categoryName": "油脂與堅果種子類",
     "categoryIcon": "🥜",
@@ -4206,7 +4206,7 @@ const FOOD_DATABASE = [
   {
     "id": 347,
     "name": "牛油",
-    "icon": "🥜",
+    "icon": "🧈",
     "category": "oils",
     "categoryName": "油脂與堅果種子類",
     "categoryIcon": "🥜",
@@ -4218,7 +4218,7 @@ const FOOD_DATABASE = [
   {
     "id": 348,
     "name": "豬油",
-    "icon": "🥜",
+    "icon": "🧈",
     "category": "oils",
     "categoryName": "油脂與堅果種子類",
     "categoryIcon": "🥜",
@@ -4230,7 +4230,7 @@ const FOOD_DATABASE = [
   {
     "id": 349,
     "name": "雞油",
-    "icon": "🥜",
+    "icon": "🧈",
     "category": "oils",
     "categoryName": "油脂與堅果種子類",
     "categoryIcon": "🥜",
@@ -4254,7 +4254,7 @@ const FOOD_DATABASE = [
   {
     "id": 351,
     "name": "瑪琪琳",
-    "icon": "🥜",
+    "icon": "🧈",
     "category": "oils",
     "categoryName": "油脂與堅果種子類",
     "categoryIcon": "🥜",
@@ -4266,7 +4266,7 @@ const FOOD_DATABASE = [
   {
     "id": 352,
     "name": "酥油",
-    "icon": "🥜",
+    "icon": "🧈",
     "category": "oils",
     "categoryName": "油脂與堅果種子類",
     "categoryIcon": "🥜",
@@ -4278,7 +4278,7 @@ const FOOD_DATABASE = [
   {
     "id": 353,
     "name": "蛋黃醬",
-    "icon": "🥜",
+    "icon": "🥣",
     "category": "oils",
     "categoryName": "油脂與堅果種子類",
     "categoryIcon": "🥜",
@@ -4289,30 +4289,6 @@ const FOOD_DATABASE = [
   },
   {
     "id": 354,
-    "name": "沙拉醬(法國",
-    "icon": "🥜",
-    "category": "oils",
-    "categoryName": "油脂與堅果種子類",
-    "categoryIcon": "🥜",
-    "portion": "2茶匙 10g",
-    "trafficLight": "green",
-    "trafficReason": "天然未精製原態食物，建議天天足量攝取",
-    "note": ""
-  },
-  {
-    "id": 355,
-    "name": "義大利式)",
-    "icon": "🥜",
-    "category": "oils",
-    "categoryName": "油脂與堅果種子類",
-    "categoryIcon": "🥜",
-    "portion": "2茶匙 10g",
-    "trafficLight": "green",
-    "trafficReason": "天然未精製原態食物，建議天天足量攝取",
-    "note": ""
-  },
-  {
-    "id": 356,
     "name": "花生醬",
     "icon": "🥜",
     "category": "oils",
@@ -4324,9 +4300,9 @@ const FOOD_DATABASE = [
     "note": ""
   },
   {
-    "id": 357,
+    "id": 355,
     "name": "鮮奶油",
-    "icon": "🥜",
+    "icon": "🧈",
     "category": "oils",
     "categoryName": "油脂與堅果種子類",
     "categoryIcon": "🥜",
@@ -4336,7 +4312,7 @@ const FOOD_DATABASE = [
     "note": ""
   },
   {
-    "id": 358,
+    "id": 356,
     "name": "加州酪梨",
     "icon": "🥑",
     "category": "oils",
@@ -4348,9 +4324,9 @@ const FOOD_DATABASE = [
     "note": "+3g碳水"
   },
   {
-    "id": 359,
+    "id": 357,
     "name": "瓜子",
-    "icon": "🥜",
+    "icon": "🌻",
     "category": "oils",
     "categoryName": "油脂與堅果種子類",
     "categoryIcon": "🥜",
@@ -4360,7 +4336,7 @@ const FOOD_DATABASE = [
     "note": "含蛋白質4g"
   },
   {
-    "id": 360,
+    "id": 358,
     "name": "南瓜子",
     "icon": "🎃",
     "category": "oils",
@@ -4372,9 +4348,9 @@ const FOOD_DATABASE = [
     "note": "含蛋白質2g"
   },
   {
-    "id": 361,
+    "id": 359,
     "name": "葵花子",
-    "icon": "🥜",
+    "icon": "🌻",
     "category": "oils",
     "categoryName": "油脂與堅果種子類",
     "categoryIcon": "🥜",
@@ -4384,7 +4360,7 @@ const FOOD_DATABASE = [
     "note": "含蛋白質2g"
   },
   {
-    "id": 362,
+    "id": 360,
     "name": "各式花生仁",
     "icon": "🥜",
     "category": "oils",
@@ -4396,7 +4372,7 @@ const FOOD_DATABASE = [
     "note": "含蛋白質4g"
   },
   {
-    "id": 363,
+    "id": 361,
     "name": "花生粉",
     "icon": "🥜",
     "category": "oils",
@@ -4408,9 +4384,9 @@ const FOOD_DATABASE = [
     "note": "含蛋白質4g"
   },
   {
-    "id": 364,
+    "id": 362,
     "name": "黑(白)芝麻",
-    "icon": "🥜",
+    "icon": "🫙",
     "category": "oils",
     "categoryName": "油脂與堅果種子類",
     "categoryIcon": "🥜",
@@ -4420,7 +4396,7 @@ const FOOD_DATABASE = [
     "note": "含蛋白質1g"
   },
   {
-    "id": 365,
+    "id": 363,
     "name": "杏仁果",
     "icon": "🌰",
     "category": "oils",
@@ -4432,7 +4408,7 @@ const FOOD_DATABASE = [
     "note": "含蛋白質2g"
   },
   {
-    "id": 366,
+    "id": 364,
     "name": "腰果",
     "icon": "🌰",
     "category": "oils",
@@ -4444,7 +4420,7 @@ const FOOD_DATABASE = [
     "note": "含蛋白質2g"
   },
   {
-    "id": 367,
+    "id": 365,
     "name": "開心果",
     "icon": "🌰",
     "category": "oils",
@@ -4456,7 +4432,7 @@ const FOOD_DATABASE = [
     "note": "含蛋白質2g"
   },
   {
-    "id": 368,
+    "id": 366,
     "name": "核桃仁",
     "icon": "🌰",
     "category": "oils",
