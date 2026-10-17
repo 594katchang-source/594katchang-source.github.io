@@ -678,13 +678,88 @@
       margin-top: 2px;
     }
     .sheet-food-cat {
-      background: #f1f5f9;
-      color: #475569;
+      background: #e0f2fe;
+      color: #0369a1;
+      border: 1px solid #bae6fd;
       border-radius: 4px;
       padding: 1px 6px;
       font-weight: 800;
-      font-size: 9pt;
+      font-size: 8.5pt;
       margin-top: 2px;
+      white-space: nowrap;
+    }
+    .sheet-food-portion {
+      color: #64748b;
+      font-size: 8pt;
+      font-weight: 700;
+      margin-top: 2px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 95%;
+    }
+
+    /* 全螢幕大螢幕投影模式樣式 */
+    body.is-fullscreen {
+      background: #eef5f3;
+      overflow-y: auto;
+    }
+    body.is-fullscreen .nav-bar,
+    body.is-fullscreen .tab-switch {
+      display: none !important;
+    }
+    body.is-fullscreen .wrap {
+      max-width: 100% !important;
+      padding: 12px 20px 40px !important;
+    }
+    body.is-fullscreen .masthead {
+      padding: 14px 20px !important;
+      margin-bottom: 14px !important;
+    }
+    body.is-fullscreen .game-grid {
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)) !important;
+      gap: 20px !important;
+    }
+    body.is-fullscreen .card-item {
+      padding: 16px 12px !important;
+      border-width: 4px !important;
+    }
+    body.is-fullscreen .food-icon-img {
+      width: clamp(68px, 6.5vw, 92px) !important;
+      height: clamp(68px, 6.5vw, 92px) !important;
+    }
+    body.is-fullscreen .card-name {
+      font-size: clamp(20px, 2.2vw, 26px) !important;
+    }
+    body.is-fullscreen .card-portion {
+      font-size: 14px !important;
+    }
+    .exit-fs-float {
+      position: fixed;
+      top: 14px;
+      right: 18px;
+      z-index: 99999;
+      background: rgba(15, 91, 67, 0.92);
+      color: #fff;
+      border: 2px solid #fff;
+      border-radius: 999px;
+      padding: 8px 18px;
+      font-weight: 800;
+      font-size: 14px;
+      cursor: pointer;
+      display: none;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+      backdrop-filter: blur(8px);
+      transition: all .2s;
+    }
+    .exit-fs-float:hover {
+      background: #ff6b35;
+      transform: scale(1.05);
+    }
+    body.is-fullscreen .exit-fs-float {
+      display: flex;
+      align-items: center;
+      gap: 6px;
     }
     .sheet-ans-mark {
       position: absolute;
@@ -773,9 +848,8 @@
     }
   </style>
 </head>
-<body>
-
 <div id="msgToast"></div>
+<button class="exit-fs-float" id="exitFsBtn" onclick="toggleFullscreen()">🗗 退出全螢幕投影</button>
 
 <div class="wrap no-print">
   
@@ -835,9 +909,12 @@
           </select>
         </div>
 
-        <div class="control-item" style="justify-content: flex-end;">
-          <button class="btn btn-primary" onclick="initGame()">
-            ✨ 換一局全新題目
+        <div class="control-item" style="justify-content: flex-end; flex-direction: row; gap: 8px; align-items: flex-end;">
+          <button class="btn btn-primary" style="flex: 1;" onclick="initGame()">
+            ✨ 換一局題目
+          </button>
+          <button class="btn btn-outline" id="fsToggleBtn" style="flex: 1;" onclick="toggleFullscreen()">
+            🖥️ 全螢幕投影
           </button>
         </div>
       </div>
@@ -987,6 +1064,58 @@
     return `https://cdn.jsdelivr.net/gh/jdecked/twemoji@latest/assets/svg/${hex}.svg`;
   }
 
+  // 快取 Base64 Data URI，徹底解決 html2canvas 下載 PDF 時跨域圖示消失問題
+  const svgDataUriCache = {};
+  async function getSvgDataUri(url) {
+    if (!url) return '';
+    if (svgDataUriCache[url]) return svgDataUriCache[url];
+    try {
+      const res = await fetch(url);
+      if (!res.ok) throw new Error('fetch error');
+      const text = await res.text();
+      const base64 = btoa(unescape(encodeURIComponent(text)));
+      const dataUri = `data:image/svg+xml;base64,${base64}`;
+      svgDataUriCache[url] = dataUri;
+      return dataUri;
+    } catch (e) {
+      return url;
+    }
+  }
+
+  // 全螢幕投影切換控制
+  function toggleFullscreen() {
+    const isFs = !!(document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement);
+    if (!isFs) {
+      const docEl = document.documentElement;
+      const rfs = docEl.requestFullscreen || docEl.webkitRequestFullscreen || docEl.mozRequestFullScreen || docEl.msRequestFullscreen;
+      if (rfs) {
+        rfs.call(docEl).catch(err => {
+          showToast('無法進入全螢幕：' + err.message);
+        });
+      }
+    } else {
+      const efs = document.exitFullscreen || document.webkitExitFullscreen || document.mozCancelFullScreen || document.msExitFullscreen;
+      if (efs) {
+        efs.call(document);
+      }
+    }
+  }
+
+  function handleFullscreenChange() {
+    const isFs = !!(document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement);
+    const fsToggleBtn = document.getElementById('fsToggleBtn');
+    if (isFs) {
+      document.body.classList.add('is-fullscreen');
+      if (fsToggleBtn) fsToggleBtn.innerText = '🗗 退出全螢幕';
+    } else {
+      document.body.classList.remove('is-fullscreen');
+      if (fsToggleBtn) fsToggleBtn.innerText = '🖥️ 全螢幕投影';
+    }
+  }
+  document.addEventListener('fullscreenchange', handleFullscreenChange);
+  document.addEventListener('webkitfullscreenchange', handleFullscreenChange);
+  document.addEventListener('mozfullscreenchange', handleFullscreenChange);
+
   function switchMode(mode) {
     currentMode = mode;
     const tabGameBtn = document.getElementById('tabGameBtn');
@@ -1002,6 +1131,10 @@
       modePrint.style.display = 'none';
       worksheetOutput.style.display = 'none';
     } else {
+      // 若目前在全螢幕投影，切換至學習單列印時退出全螢幕
+      if (document.fullscreenElement && document.exitFullscreen) {
+        document.exitFullscreen().catch(() => {});
+      }
       tabPrintBtn.classList.add('active');
       tabGameBtn.classList.remove('active');
       modeGame.style.display = 'none';
@@ -1545,12 +1678,17 @@
         <span class="fallback-emoji">${item.icon}</span>
       ` : `<span class="fallback-emoji" style="display:block;">${item.icon}</span>`;
 
+      // 防洩題修正：題目卷不印分類，解答卷才顯示分類標籤
+      const subInfoHTML = isAns 
+        ? `<div class="sheet-food-cat">${item.categoryName}</div>`
+        : `<div class="sheet-food-portion">${item.portion || '&nbsp;'}</div>`;
+
       return `
         <div class="sheet-food-item ${highlightClass}">
           ${markBadge}
           ${iconHTML}
           <div class="sheet-food-name">${item.name}</div>
-          <div class="sheet-food-cat">${item.categoryName}</div>
+          ${subInfoHTML}
         </div>
       `;
     }).join('');
@@ -1621,20 +1759,46 @@
     }
 
     btn.disabled = true;
-    btn.innerText = '⏳ 正在轉檔 PDF...';
+    btn.innerText = '⏳ 正在快取高畫質向量圖示...';
 
     try {
+      // 1. 抓取所有圖片 URL 並預載轉換為 Base64 Data URI (同源資料，零丟失)
+      const allImgs = Array.from(document.querySelectorAll('.sheet .food-icon-img'));
+      const uniqueSrcs = [...new Set(allImgs.map(img => img.src).filter(Boolean))];
+      await Promise.all(uniqueSrcs.map(src => getSvgDataUri(src)));
+
       const pdf = new jsPDF('p', 'mm', 'a4');
       for (let i = 0; i < sheets.length; i++) {
-        btn.innerText = `⏳ 轉換中 (${i + 1}/${sheets.length} 頁)...`;
+        btn.innerText = `⏳ 正在轉檔第 ${i + 1}/${sheets.length} 頁...`;
         const clone = sheets[i].cloneNode(true);
         clone.style.transform = 'none';
+
+        // 2. 將 clone 內的所有 img src 替換為完全同源的 Data URI
+        const cloneImgs = Array.from(clone.querySelectorAll('.food-icon-img'));
+        cloneImgs.forEach(img => {
+          if (img.src && svgDataUriCache[img.src]) {
+            img.src = svgDataUriCache[img.src];
+          }
+        });
+
         hidden.appendChild(clone);
 
-        const canvas = await html2canvas(clone, { scale: 2, useCORS: true, allowTaint: false });
+        // 3. 等待圖片解碼以確保 canvas 100% 完整繪出
+        await Promise.all(cloneImgs.map(img => {
+          if (img.decode) return img.decode().catch(() => {});
+          return Promise.resolve();
+        }));
+
+        // 4. html2canvas 高解析度渲染
+        const canvas = await html2canvas(clone, { 
+          scale: 2, 
+          useCORS: true, 
+          allowTaint: false,
+          logging: false 
+        });
         hidden.removeChild(clone);
 
-        const imgData = canvas.toDataURL('image/jpeg', 0.88);
+        const imgData = canvas.toDataURL('image/jpeg', 0.90);
         if (i > 0) pdf.addPage();
         pdf.addImage(imgData, 'JPEG', 0, 0, 210, 297);
       }
