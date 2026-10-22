@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T06:21:26.632Z",
+  "generatedAt": "2026-10-22T06:25:36.507Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -102383,6 +102383,62 @@
       "content": "---\ntags:\n  - source/journal\n  - med/nutrition\ncitekey: \"\"\ndoi: \"10.1093/crocol/otag104\"\nzotero: \"\"\njournal: \"Crohn's & Colitis 360\"\nyear: 2026\nauthors: \"Emre Kiliç; Ole Thorlacius-Ussing; Sabrina Just Kousgaard\"\nstudy_type: \"cross-sectional\"\npmid: \"42899292\"\npmcid: \"PMC13680099\"\nreview_depth: \"quick\"\n---\n\n> [!info] 品質快照\n> **設計**：橫斷面比較｜**n**：142（慢性囊炎 CP 30、正常囊袋功能 NP 30、健康對照 HC 82）｜**RoB**（NOS／橫斷研究領域）：🔴嚴重\n> **GRADE**：Very low（CP 與 NP 的精製穀物攝取差異；單篇觀察研究）｜**Registration**：橫斷研究；全文未報告研究註冊\n> **一句話 verdict**：可作為飲食假說線索，不能證明特定食物造成囊炎；小樣本、回憶式 FFQ、CP/NP 基線差異與多重比較限制可信度。\n\n# Key Points\n\n## Summary\n\n> ✅ Full text reviewed（PMC HTML；DOI／題名完全匹配；CC BY 4.0）\n\n- 研究比較有迴腸袋肛門吻合術（IPAA）的慢性囊炎患者、囊袋功能正常患者與健康對照。CP 相較 NP 回報較多精製穀物（每週平均差 3.0 份，95% CI 0.1–5.9，p=.045）及巧克力／糖果（2.5 份，95% CI 0.6–4.4，p=.011）。這是飲食差異的觀察，不是飲食介入效果。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：這篇發現，慢性囊炎組在問卷中回報較多精製穀物與部分甜食；研究只能指出一起出現，無法判斷飲食造成發炎，或症狀改變了飲食。\n> - **為什麼做**：IPAA 後囊炎常見，飲食可能影響症狀，但目前飲食建議與研究證據有限；作者想比較不同囊袋狀態的飲食型態。\n> - **主體（觀察性研究）**：CP 組為 30 位符合慢性／反覆囊炎條件的 IPAA 患者；NP 組為 30 位囊袋功能正常患者；HC 組為 82 位保有完整結腸的健康對照。以回憶前 12 個月飲食的 FFQ 計算每週份數。CP 對 NP：精製穀物 7.6 vs 4.6 份／週（差 3.0，95% CI 0.1–5.9，p=.045），巧克力／糖果差 2.5 份／週（95% CI 0.6–4.4，p=.011）。CP 對 HC：甜食差 5.5、精製穀物差 3.8、脆餅差 5.0 份／週；作者提出加工穀物與高 FODMAP 食物可能影響症狀／腸道環境，這些是背景推論，並非本研究測出的機轉或因果。\n> - **所以呢**：結果適合用來設計後續追蹤或介入研究，不能單憑此文要求患者全面停吃澱粉、蔬果或 FODMAP 食物。最重要限制是橫斷設計、飲食回憶與組間人口學差異。\n\n## Clinical Application\n\n- **適用情境：**IPAA 後慢性囊炎的成人飲食評估與研究假說；本研究不評估治療方案。\n- **臨床可用性：**可詢問患者症狀、排便型態、食物耐受與飲食變化；若個別食物與症狀有明確時間關聯，再由熟悉 IBD/IPAA 的營養師協助有目標地評估與調整。\n- **注意：**研究沒有測試限制精製穀物、糖、FODMAP 或特定飲食型態是否改善囊炎。不要將組間飲食差異寫成病因或直接轉成普遍禁食清單。低 FODMAP 若因個別症狀考慮，須是短期、目標明確並安排再引入，而非由本研究結果推導。\n- **外部效度：**樣本來自丹麥單一醫院，且只納入潰瘍性結腸炎術後 IPAA；不宜直接推論至其他手術／疾病族群或台灣患者的治療效果。\n\n# Paper Details\n\n## Methods\n\n- **設計／期間：**單中心橫斷面比較，2017 年 11 月至 2022 年 10 月收案；未隨機分派、未介入飲食。\n- **族群：**CP 30 人、NP 30 人、HC 82 人。CP 與 NP 均為潰瘍性結腸炎接受 IPAA 的成人；CP 依慢性／反覆囊炎及近期治療條件界定。NP 以低 cPDAI、排便次數及無近期抗生素治療等條件界定；HC 保有完整結腸且無相關腸道疾病。\n- **暴露測量：**經驗證的食物頻率問卷回憶過去 12 個月，按 10 類食物換算 servings/week。問卷中的份量為自陳估計。\n- **統計：**比較兩組平均攝取差，以 10,000 次 bootstrap 的 unpaired t-test 計算平均差與 95% CI；p<.05 為名目門檻。作者另計算 Bonferroni 門檻約 .0025，但未套用，理由是小樣本與避免過高第二類錯誤。全文未見預先指定主要結果或樣本數估算說明。\n\n## Critical Appraisal\n\n| 領域（NOS／橫斷研究適用面向） | 判定 | 理由 |\n|---|---|---|\n| 混雜（confounding） | 🔴 高疑慮 | CP 與 NP 的性別、年齡、教育程度有顯著差異（Table 1）；主要結果為未調整的組間比較。疾病症狀也可能改變飲食，存在反向因果。 |\n| 選樣 | 🟡 有疑慮 | IPAA 患者來自單一轉診醫院；HC 有完整結腸，與手術患者的族群和生理背景不同。 |\n| 暴露分類 | 🟡 有疑慮 | 使用經驗證 FFQ 是優點，但單次回想 12 個月，且 servings 與頻率估計可能有回憶及份量分類誤差。 |\n| 缺失資料 | ⚪ 未充分報告 | 未找到各食物項目的缺失比例與其處理方式；不據此假設資料完整。 |\n| 結果測量 | 🟢 相對較好 | 以臨床囊炎指標與明確族群條件區分 CP／NP；但健康對照不是 IPAA 對照。 |\n| 選擇性報告 | 🟡 不確定 | 全文未報告註冊或預先指定主要結果；比較多種食物，且未採用所計算的 Bonferroni 門檻。 |\n\n- **整體偏差風險：**高。主要方向是觀察到的飲食差異可能由症狀、人口學差異或其他生活型態因素造成；橫斷資料無法建立先後順序。依因果評讀的「target trial／明確介入」思路，本研究比較的是既有飲食狀態，並未估計可執行飲食改變的因果效果。\n- **統計與臨床意義：**作者未指定主要飲食結果；CP vs NP 的精製穀物 p=.045、巧克力／糖果 p=.011，均未達作者計算的約 .0025 Bonferroni 門檻。CP vs HC 的甜食 p=.001 與脆餅 p<.001 低於該門檻；精製穀物 p=.006、巧克力／糖果 p=.007 則未達。多項比較增加偶然陽性的可能。研究沒有症狀改善的介入結果，食物份數沒有可直接套用的臨床重要差異門檻。\n- **GRADE：**以觀察性證據低起始；混雜／偏差嚴重降一級，樣本小且部分 CI 寬／結果靠近門檻，精確度嚴重再降一級，計算結果為 **Very low**。單一研究無法估計跨研究不一致，不另行扣分；未見足以升級的大效果、劑量反應或反向混雜證據。\n- **Spin／推論：**摘要及結論都保留「association」並指出需介入研究確認因果，與其結果相稱；不支持「某類食物造成囊炎」的說法。\n- **資金／利益衝突：**Svend Andersen Foundation 與 Louis-Hansen Foundation 支持；作者聲明無利益衝突。資料可向通訊作者申請。\n- 🟢 **優點：**CP／NP 定義清楚、採用驗證過的 FFQ，並同時呈現健康對照及平均差、95% CI。\n- 🔴 **主要限制：**小型單中心樣本、組間人口學不平衡、12 個月回憶誤差、未調整混雜及多重比較；無法推斷因果或效果。\n- 🟡 **需注意：**作者討論中的 FODMAP、加工食品與微生物機轉來自外部研究與生物合理性，非本研究測得的中介機轉。\n\n## Key Findings\n\n| 比較 | 結果（每週份數平均差） | 解讀 |\n|---|---|---|\n| CP vs NP | 精製穀物 +3.0（95% CI 0.1–5.9，p=.045）；巧克力／糖果 +2.5（0.6–4.4，p=.011） | 名目顯著；兩項均未達作者計算的多重比較門檻約 .0025。 |\n| CP vs HC | 甜食 +5.5（2.1–8.8，p=.001）；精製穀物 +3.8（1.1–6.6，p=.006）；脆餅 +5.0（2.2–7.9，p<.001）；巧克力／糖果 +2.6（0.7–4.5，p=.007） | 甜食與脆餅低於 .0025；但健康對照與 IPAA 患者背景不同，且仍非因果比較。 |\n| 基線差異 | CP vs NP：女性 67% vs 33%；平均年齡 49.1 vs 58.6 歲；高等教育 82.8% vs 50% | 可能影響飲食差異；主分析未作調整。 |\n\n## Resource\n\n### Source\n\n- [PMC 全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13680099/)（DOI／題名比對、CC BY 4.0；來源 SHA-256：`4aae79b4e515f9f178b497d9a72b842309d6f5e9c662030155c635f37c37ef3f`）\n- [Oxford Academic 期刊文章](https://academic.oup.com/crohnscolitis360/article/doi/10.1093/crocol/otag104/8834148)\n- [DOI](https://doi.org/10.1093/crocol/otag104)｜[PubMed](https://pubmed.ncbi.nlm.nih.gov/42899292/)",
       "cards": [],
       "completedAt": "2026-10-22T06:18:32.913Z"
+    },
+    {
+      "id": "doi:10.1093/crocol/otag104:digest",
+      "paperId": "doi:10.1093/crocol/otag104",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Dietary intake in patients with ileal pouch-anal anastomosis: a cross-sectional comparative study.",
+      "authors": "Emre Kiliç, Ole Thorlacius-Ussing, Sabrina Just Kousgaard",
+      "journal": "Crohn&#x27;s & Colitis 360",
+      "year": "2026",
+      "doi": "10.1093/crocol/otag104",
+      "abstract": "Ileal pouch-anal anastomosis (IPAA) is associated with good long-term outcomes, yet pouchitis remains a common complication. Although antibiotics are first-line therapy, recurrent disease often leads to repeated use with declining efficacy. Dietary interventions have shown promise, but evidence and consensus remain limited. The aim of this study was to compare dietary intake between IPAA patients with chronic pouchitis, IPAA patients with a normally functioning pouch, and healthy controls. This cross-sectional study recruited participants between November 2017 and October 2022. Participants were divided into 3 groups: patients with chronic pouchitis, patients with a normally functioning pouch, and healthy controls with an intact colon. Dietary intake over the previous 12 months was assessed using a food frequency questionnaire. Foods were categorized into groups and reported as servings per week. The study included 30 participants with chronic pouchitis, 30 with a normally functioning pouch, and 82 healthy controls. Compared with the normal pouch function group, participants in the chronic pouchitis group consumed significantly more refined grains (mean difference [MD] 3.0; P = .045) and chocolate and candy (MD 2.5; P = .011). Compared with healthy controls, the chronic pouchitis group had a higher intake of sweets (MD 5.5; P = .001), refined grains (MD 3.8; P = .006), crispbread (MD 5.0; P < .001), and chocolate and candy (MD 2.6; P = .007). Dietary intake was generally similar between groups, but patients with chronic pouchitis reported higher consumption of starchy and sugar-rich foods. This dietary pattern may be associated with pouchitis, highlighting the need for interventional studies to assess causality.",
+      "legalFullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13680099/",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42899292/",
+      "category": "recommended",
+      "tags": [
+        "design:consensus",
+        "guideline and consensus",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "IPAA飲食與慢性囊炎-內容整理",
+      "content": "---\ntags:\n  - research/digest\n  - nutrition\n  - inflammatory-bowel-disease\ncitekey: \"Kilic2026\"\ndoi: \"10.1093/crocol/otag104\"\naliases:\n  - \"Dietary intake in patients with ileal pouch-anal anastomosis: a cross-sectional comparative study\"\nreview_depth: \"worker-batch\"\n---\n\n> [!summary] 30 秒層｜先抓住全篇\n> 這是一項橫斷面飲食比較：慢性囊炎組回報較多精製穀物及部分甜食，但不能據此判定飲食造成囊炎。\n> - 研究納入 30 位慢性囊炎（CP）、30 位囊袋功能正常（NP）及 82 位健康對照（HC）。\n> - 飲食以回憶過去 12 個月的食物頻率問卷評估，數字是每週份數。\n> - CP vs NP：精製穀物差 +3.0 份／週、巧克力／糖果差 +2.5 份／週；多重比較校正後未達門檻。\n> - CP vs HC：甜食差 +5.5、脆餅差 +5.0 份／週；對照組沒有 IPAA，不能當作疾病因果差異。\n> **品質提示：**同篇另有《Kilic2026 - IPAA飲食與慢性囊炎》評讀；此筆記整理內容，不取代可信度判斷。\n\n# 內容整理（快速吸收）\n\n## 5 分鐘層｜依序吸收\n\n**要點：**先掌握研究為什麼做、如何比較，再看實際數值、圖表意義、臨床界線及可自我測驗的概念。\n\n## 研究問題／背景\n\n**要點：**IPAA 後的囊炎常見，但飲食證據不足；作者先比較不同囊袋狀態患者的飲食，並未測試飲食治療。\n\n- **IPAA** 是迴腸袋肛門吻合術，常用於潰瘍性結腸炎手術後重建腸道連續性。\n- 慢性或反覆囊炎可能需要多次抗生素治療；患者常關心飲食是否會影響症狀，但目前缺乏足夠共識。\n- 研究問題：CP、NP、以及保有完整結腸的 HC，過去一年的食物攝取是否不同？\n\n## 方法\n\n**要點：**研究在丹麥單一醫院收案，以一次性問卷比較既有飲食，沒有介入、隨機分派或追蹤飲食改變。\n\n- **設計與期間：**橫斷面比較；2017 年 11 月至 2022 年 10 月收案。\n- **三組：**CP 30 人；NP 30 人；HC 82 人。IPAA 組納入潰瘍性結腸炎成人。CP 依慢性／反覆囊炎及近期治療條件界定；NP 需囊袋功能良好、低 cPDAI、排便次數符合條件且未近期使用抗生素。HC 保有完整結腸且無相關腸道疾病。\n- **飲食測量：**使用經驗證 food-frequency questionnaire（FFQ），回憶前 12 個月，食物分成 10 類，以 servings/week 表示。\n- **分析：**以 10,000 次 bootstrap 的 unpaired t-test 比較平均攝取差，呈現平均差與 95% CI；作者計算多重比較門檻約 p=.0025，但沒有套用。\n\n## 主要發現\n\n**要點：**CP 組相對 NP 組只有兩項差異達名目 p<.05；相對 HC 的甜食與脆餅差異較明顯，但不代表飲食引發囊炎。\n\n| 比較 | 食物類別 | CP 組 vs 對照組（份／週） | 平均差（95% CI） | p 值 |\n|---|---|---:|---:|---:|\n| CP vs NP | 精製穀物 | 7.6 vs 4.6 | +3.0（0.1–5.9） | .045 |\n| CP vs NP | 巧克力／糖果 | 5.3 vs 2.8 | +2.5（0.6–4.4） | .011 |\n| CP vs HC | 甜食 | 11.2 vs 5.7 | +5.5（2.1–8.8） | .001 |\n| CP vs HC | 精製穀物 | 7.6 vs 3.7 | +3.8（1.1–6.6） | .006 |\n| CP vs HC | 脆餅 | 9.1 vs 4.1 | +5.0（2.2–7.9） | <.001 |\n| CP vs HC | 巧克力／糖果 | 5.3 vs 2.7 | +2.6（0.7–4.5） | .007 |\n\n- p≈.0025 的 Bonferroni 門檻下，CP vs NP 的上述兩項都未達門檻；CP vs HC 的甜食與脆餅達到，精製穀物與巧克力／糖果未達。這是針對作者所列多重比較門檻的解讀，不是新分析。\n- 其餘大多數食物類別組間相近；蔬菜、脆餅、汽水或起司的部分比較僅呈趨勢，不能說成確定差異。\n\n## 重要圖表重述\n\n**要點：**三張表分別說明樣本背景、CP 對 NP、CP 對 HC；Table 1 顯示 CP 與 NP 並非人口學完全相同。\n\n- **Table 1（族群背景）：**CP vs NP 女性比例 67% vs 33%，平均年齡 49.1 vs 58.6 歲，高等教育比例 82.8% vs 50%；作者指出性別、年齡與教育有顯著差異。這些差異可能與飲食型態相關。\n- **Table 2（CP vs NP）：**精製穀物與巧克力／糖果有名目顯著差異；其餘類別大致相近。兩組都接受過 IPAA，較貼近囊袋功能的比較。\n- **Table 3（CP vs HC）：**CP 的甜食、精製穀物、脆餅與巧克力／糖果較多；但 HC 保有完整結腸，且人口與手術背景不同，不能把這組差異直接解釋成囊炎原因。\n\n## 臨床意義／怎麼用\n\n**要點：**把結果當成了解患者飲食與症狀的提問線索，不轉成普遍禁食規則。\n\n- 研究沒有測試減少甜食、精製穀物、澱粉或 FODMAP 是否改善 pouchitis，也沒有症狀改善、復發或治療效果的介入數據。\n- 作者討論加工食品、發酵性碳水與微生物環境等可能機轉；這些是引用既有文獻所提出的解釋，不是本研究直接測量的機轉。\n- 對個別患者，可記錄食物、症狀與排便變化，先確認營養充足及可耐受性，再由熟悉 IBD/IPAA 的營養師評估是否做有限且可回復的調整。\n- 不應因這篇研究而一律限制蔬果、全穀或澱粉；橫斷資料無法排除症狀反過來改變飲食的情形。\n\n## 與既有認知的對照\n\n**要點：**本機已合併筆記中找到 1 篇其他潰瘍性結腸炎飲食相關文章（DOI 10.3390/nu18172822 的 review 與 digest 各一列），主題為果膠／高嶺土，不是 IPAA 或囊炎飲食；目前未找到可直接對照本篇族群的既有筆記。\n\n- 搜尋來源：2026-10-22 14:20 Asia/Taipei 的 `available-site-notes.json`（2,539 列）；依題名、摘要及內容搜尋 pouchitis／IPAA／ileal pouch，另排除本篇 DOI。\n- **知識差異：**兩篇研究問題與族群不同，不能合併成同一項飲食建議；未找到直接的 IPAA 囊炎舊筆記，因此沒有可標為「前版→更新」的項目。\n\n## 概念／名詞整理\n\n**要點：**讀懂本篇最重要的是分清手術族群、囊炎分組及「每週份數」所表示的自陳飲食。\n\n- **IPAA：**ileal pouch-anal anastomosis，迴腸袋肛門吻合術。\n- **Pouchitis／囊炎：**術後迴腸袋發炎；本篇的 CP 組按慢性／反覆與治療條件界定。\n- **CP／NP／HC：**chronic pouchitis／normal pouch function／healthy controls；HC 不等於另一組沒有囊炎的 IPAA 患者。\n- **cPDAI：**clinical pouchitis disease activity index，臨床囊炎疾病活動指標之一。\n- **FFQ：**food-frequency questionnaire，靠受試者回想一段期間的飲食頻率；可比較群體型態，但容易有回憶偏差。\n- **反向因果：**症狀可能先改變患者選食，因此觀察到飲食不同，不能確定是飲食先造成症狀。\n\n## 自我測驗\n\n> [!question]- Q1：為什麼 CP 組吃得較多的食物不能直接說是囊炎病因？\n> 研究在同一時點比較疾病分組與過去一年飲食，沒有先後順序或飲食介入。症狀可能改變選食，且 CP 與 NP 的年齡、性別、教育也不同，因此只能說觀察到關聯。\n\n> [!question]- Q2：CP 與 NP 的主要差異是什麼？多重比較後應如何解讀？\n> CP 每週精製穀物比 NP 多 3.0 份（95% CI 0.1–5.9，p=.045），巧克力／糖果多 2.5 份（0.6–4.4，p=.011）。兩者都未達作者計算但未採用的約 .0025 校正門檻，應視為探索性線索。\n\n> [!question]- Q3：為什麼 Table 3 的 HC 比較不等於「沒有囊炎的 IPAA 對照」？\n> HC 保有完整結腸，並未接受 IPAA；手術與腸道結構不同。疾病族群差異可能與手術、族群背景或症狀有關，不能單獨歸因於囊炎。\n\n## Reference\n\n- Emre Kiliç, Ole Thorlacius-Ussing, Sabrina Just Kousgaard. “Dietary intake in patients with ileal pouch-anal anastomosis: a cross-sectional comparative study.” *Crohn's & Colitis 360*. 2026;8(4):otag104. [doi:10.1093/crocol/otag104](https://doi.org/10.1093/crocol/otag104)；[PMC 全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13680099/)。",
+      "cards": [
+        {
+          "title": "飲食差異與囊炎因果",
+          "question": "為什麼這項研究不能判定精製穀物或甜食造成慢性囊炎？",
+          "answer": "這是橫斷面比較，沒有先後順序或飲食介入；症狀可能反過來改變選食。CP 與 NP 的年齡、性別、教育也不同，未調整混雜，因此結果只能支持關聯假說。",
+          "tags": [
+            "nutrition",
+            "inflammatory-bowel-disease",
+            "IPAA"
+          ]
+        },
+        {
+          "title": "CP 與 NP 的飲食結果",
+          "question": "CP 相較 NP 哪兩項食物攝取較高？多重比較校正如何改變解讀？",
+          "answer": "精製穀物平均多 3.0 份／週（95% CI 0.1–5.9，p=.045），巧克力／糖果多 2.5 份／週（0.6–4.4，p=.011）。兩者都未達作者計算但未採用的約 p=.0025 校正門檻，宜視為探索性結果。",
+          "tags": [
+            "nutrition",
+            "inflammatory-bowel-disease",
+            "statistics"
+          ]
+        },
+        {
+          "title": "健康對照的比較界線",
+          "question": "為什麼 CP 與健康對照的飲食差異，不能直接轉成 IPAA 患者的囊炎飲食禁令？",
+          "answer": "健康對照保有完整結腸，不是接受 IPAA 但沒有囊炎的患者。手術、腸道結構與族群背景都不同；而且研究沒有測試飲食限制是否能改善囊炎。",
+          "tags": [
+            "nutrition",
+            "inflammatory-bowel-disease",
+            "IPAA"
+          ]
+        }
+      ],
+      "completedAt": "2026-10-22T06:24:18.391Z"
     }
   ]
 }
