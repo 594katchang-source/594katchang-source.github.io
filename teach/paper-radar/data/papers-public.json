@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T08:27:46.111Z",
+  "generatedAt": "2026-10-22T08:31:53.896Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -102565,6 +102565,72 @@
       "content": "---\ntags:\n  - source/journal\ncitekey: \"Jiang2026\"\ndoi: \"10.1097/MD.0000000000051136\"\nzotero: \"\"\njournal: \"Medicine (Baltimore)\"\nyear: 2026\nauthors: \"Wei Jiang; Jun Luo; Chenguang Wu; Yan An; Yinzhong Dai; Junwei Shi; Chengying Lan; Jinfeng Qi; Shimei Hua; Huihui Liu\"\nstudy_type: \"systematic review and Bayesian network meta-analysis\"\npmid: \"42888555\"\nreview_depth: \"quick\"\nlicense: \"CC BY-NC 4.0; attribution required; noncommercial use only\"\n---\n\n> [!info] 品質快照\n> **設計**：系統性回顧與 Bayesian network meta-analysis｜**研究數／樣本**：31 項 RCT、2,604 人｜**研究族群**：中國原發性肝癌患者\n> **AMSTAR-2 快速評估**：整體信心極低（本篇評讀者判斷，非作者評分）；搜尋補充資料、排除全文清單、偏差如何影響合併結果及網絡一致性檢查有重要缺口\n> **GRADE（ORR）**：極低確定性（高起始，偏差風險、結果不一致、精確度及發表偏差各降一級；此為本次逐 outcome 快速評估）\n> **註冊**：PROSPERO CRD420251019361；註冊是否早於研究開始未核實\n> **一句話 verdict**：三種中藥製劑合併 TACE 的腫瘤反應率可能較高，但研究方法與統計報告不足、存活及功能結果沒有顯著改善；不能據此認定延壽或改善臨床狀態，也不是營養治療證據。\n\n# Key Points\n\n## Summary\n\n> ✅ 已按全文 HTML 逐段閱讀主文、方法、結果、討論、限制、結論與參考文獻；完整主文身份、DOI 及版本與目標文章相符。本文引用的補充檔 S001.docx 與圖表影像未獨立取回檢視。\n\n這篇系統性回顧納入 31 項中國 RCT，共 2,604 名原發性肝癌患者，比較 TACE 單獨治療與加用斑蝥、槐耳或金龍膠囊。合併分析顯示三種組合的客觀緩解率（ORR）有統計訊號；疾病控制率（DCR）、存活、KPS 功能狀態及多數其他結果則未呈現明確差異。小型試驗、隨機化與盲法報告不足、網絡分析診斷缺漏和部分效應值標示疑問，使療效確定性很低（Results、Discussion、Tables/Figures）。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：加入三種中藥之一後，影像腫瘤縮小／反應率看起來較高，但「反應率」不等於活得更久、生活功能變好或副作用較少；目前結果不足以證明整體臨床獲益。\n> - **為什麼做**：作者想比較三種中國傳統藥品加在 TACE 上的效果，並用網絡統合分析把直接與間接比較放在同一框架（Introduction、Methods）。\n> - **主體**：31 項 RCT、2,604 人；比較 TACE 單用與斑蝥、槐耳、金龍膠囊合併 TACE。主要結果是腫瘤反應率；另看疾病控制、存活、免疫指標、肝功能、生活功能及不良事件（Methods、Results）。\n> - **所以呢**：結果可作為腫瘤治療研究線索，不能當作營養介入或自行使用中藥的依據。若病人考慮這類療法，需由腫瘤治療團隊審核產品、成分、肝功能與藥物交互作用。\n\n## Clinical Application\n\n- **適用範圍：**這是肝癌腫瘤治療研究，不是飲食、營養補充或營養照護介入；對一般成人營養照護沒有可直接採用的處方建議。\n- **不應推論：**ORR 的統計差異不證明延長存活、改善生活品質或患者重要結局。本文沒有建立任何營養處方或臨床營養照護流程。\n- **臨床安全：**斑蝥、槐耳及金龍製劑不是可互換的單一營養成分。本文沒有提供可供營養師自行開立的標準劑量；勿由此評讀推導劑量、療程或與抗癌藥併用方案。肝癌、TACE、肝功能變化及併用藥物情境應由腫瘤科／藥師核對產品來源、肝毒性及交互作用。\n- **實務溝通：**可說「這篇分析看到腫瘤反應率訊號，但確定性很低，存活與功能結果未證實獲益」，不要簡化成「中藥有效」或「比較安全」。\n\n# Paper Details\n\n## Methods\n\n- **研究設計：**系統性回顧與 Bayesian network meta-analysis；納入 31 項兩組 RCT，研究年份約 2000–2023，單項樣本約 19–116 人；研究對象均來自中國。文中列 30 篇中文研究、1 篇英文研究（Study characteristics）。\n- **比較與結局：**TACE 單用為對照；三種加用藥為斑蝥（Compound Banmao）、槐耳（Huaier）及金龍（Jinlong）。結果包括 ORR、DCR、存活、免疫指標、AFP、KPS、肝功能與不良事件（Methods、Results）。\n- **搜尋與註冊：**Cochrane Library、Embase、PubMed、Web of Science、VIP、CNKI、Wanfang，搜尋至 2025-01-10；作者稱不限制語言並聯絡灰色文獻來源。註冊號 PROSPERO CRD420251019361。主文未列各資料庫逐一完整策略；策略指向補充檔 S001.docx，本次未取得補件核對。\n- **分析方法：**文中描述 Bayesian random-effects MCMC 網絡模型，使用網絡圖、森林圖、排序機率及漏斗圖。主文未提供足以核對的異質性數值、transitivity／consistency 診斷或敏感度分析報告；不能僅憑網絡排序假設直接比較可信。\n- **研究偏差：**31 項中 11 項提及隨機數表，1 項明確簡單隨機；其餘多只寫「隨機」。僅 1 項報告密封信封分配隱蔽；沒有試驗報告受試者、執行者或結果評估者盲法（Risk of bias）。\n\n## Key Findings\n\n| Outcome | 研究數 | 報告結果 | 解讀限制 |\n|---|---:|---|---|\n| ORR | 28 | 斑蝥 OR 1.50（95% CrI 1.08–2.08）；槐耳 OR 1.47（1.05–2.05）；金龍 OR 1.30（1.02–1.65）。排序機率：斑蝥 60.8% 第一、槐耳 53.9% 第二。 | 影像反應是替代性結果；沒有絕對事件數、臨床重要差異門檻或可直接轉成患者獲益的估計。GRADE 快速判定極低。 |\n| DCR | 26 | 三個比較的 CrI 均含無效值 1。 | 未顯示明確差異。 |\n| 存活 | 4 | 6 個月、1 年、2 年、3 年分析皆未達統計顯著。 | 研究少，不能據此證實相同或排除重要效應。 |\n| 免疫指標 | 10 | CD4/CD8 比值 MD 0.21（0.18–0.43）未跨 0；CD3 MD 11.78（−3.84–27.41）、CD4 MD 7.33（−1.19–15.82）跨 0。 | 文中摘要性敘述稱多項免疫指標改善，與部分區間跨無效值不一致。 |\n| KPS、肝功能 | KPS 5；肝功能研究數依指標而異 | KPS 區間跨 0；ALT/AST 多數不顯著，肝功能結果不一致。 | 不能說已改善一般功能或肝功能。 |\n| 不良事件 | 依事件不同 | 部分免疫／胃腸事件效應值以負數呈現，卻標為 OR。 | OR 不會小於 0；可能報的是 log OR 或標示錯誤，需原始分析釐清，不能據此下安全性結論。 |\n| AFP | 8 | 槐耳的報告變化量為 218.86（119.89–315.81）。 | 組別方向／正負變化解釋不清，不能直接寫成下降幅度。 |\n\n## Critical Appraisal\n\n### 設計適配與主要推論風險\n\n- **AMSTAR-2 快速檢視：整體信心極低（critical low）。**此為本篇評讀者的結構化判斷，不是作者評分。關鍵疑慮包括：預註冊時間與方案核對不足；完整逐資料庫策略依賴未取回的補充檔；沒有可能符合條件但排除的全文及理由清單；納入研究偏差如何影響各合併結果交代不足；主文未提供網絡 transitivity／consistency 與敏感度分析證據；部分結果表述與數值不一致。\n- **隨機與盲法：**大多數試驗未說明隨機序列方法，分配隱蔽僅一項明確報告，也沒有盲法。腫瘤反應、KPS 及主觀不良事件可能受測量／執行偏差影響。\n- **統合分析可核對性：**網絡統合分析依賴可比族群、共介入與試驗設計。主文沒有充分報告異質性與一致性診斷，亦未見敏感度分析；這使治療排序與間接比較的穩健性難以判斷。\n- **結果與結論落差：**存活、KPS 與大部分肝功能結果未顯著，但討論／結論仍以廣泛的臨床療效、功能或安全性改善措辭總結。論證檢查指出兩個缺口：以 ORR 替代硬結局、以及用次要結果支持廣泛優效主張。這些是推論警示，不是獨立證明作者有意誤導。\n- **效應尺度疑問：**部分不良事件報告「負的 OR」；OR 本身不能為負。免疫指標以及 AFP 的方向／組別定義也需要對照原始資料或補充表。本文已讀主文，但補件未取回，因此保留為待釐清而不自行修正數字。\n- **GRADE（ORR）：**高起始後，偏差風險、不一致、精確度與發表偏差各降一級；間接性未降級，最終極低確定性。降級理由包括隨機／盲法資訊不足、未提供異質性與網絡一致性診斷、事件絕對數和臨床重要門檻缺失，以及 31 項中 30 項為中文的小型試驗。這是對 ORR 的快速評估，不代表每個其他 outcome 都已完成正式 GRADE。\n- **PRISMA 2020 報告缺口：**逐項核對表在本輪私人 evidence 目錄。高優先缺口：完整逐庫策略及補充檔未核對（7）；網絡異質性／探索／敏感度分析（13d–f、20b–d）；排除全文理由（16b）；偏差及 certainty 的逐結果呈現（20a、22）；方案位置與修訂（24b–c）；資料／程式所在位置（27）。主文提及 PRISMA 流程與註冊，但圖像、補件與方案未獨立查驗，相關項目以部分或未確認呈現。依 [官方 PRISMA 2020 checklist](https://www.prisma-statement.org/prisma-2020-checklist)；此為報告完整度核對，不等於方法學品質量表。\n- **作者承認的限制：**作者提到納入研究品質不高、樣本偏小、研究集中中國且研究時期跨度大；並呼籲更大型、多中心、高品質試驗（Discussion）。\n- **另需注意：**本文聚焦腫瘤反應、存活等結果，不評估營養照護。不同中藥製劑與 TACE 的共介入、患者基線與試驗年代可能差異很大；不能把三個排序機率當作可靠的臨床排名。\n\n## 逐段閱讀路徑\n\n- **Abstract／Introduction：**交代原發性肝癌及 TACE 背景與比較目標；摘要的廣泛療效語句需以各 outcome 結果表校正。\n- **Methods：**逐項閱讀搜尋來源、日期、資格標準、結局、偏差評估及網絡統合分析；補充策略與完整方案未獨立取得。\n- **Results：**依研究流程、研究特性、偏差圖與每個 outcome 分析閱讀；特別核對存活、KPS 與不良事件數值。\n- **Discussion／Limitations：**對照作者解讀和實際 CrI；作者承認研究小、品質及地域限制，但網絡一致性和 review-process 限制仍需更清楚報告。\n- **Conclusion／References：**結論措辭不應超過 ORR 訊號；檢視參考文獻區及聲明。全文稱資料在本文／補充資料，未指定分析資料與程式的可定位 repository。\n\n# Resource\n\n## Source\n\n- [PubMed（PMID 42888555）](https://pubmed.ncbi.nlm.nih.gov/42888555/)\n- [PMC 全文（PMCID PMC13681163）](https://pmc.ncbi.nlm.nih.gov/articles/PMC13681163/)\n- [DOI／出版社版本](https://doi.org/10.1097/MD.0000000000051136)\n- [Creative Commons CC BY-NC 4.0 授權](https://creativecommons.org/licenses/by-nc/4.0/deed.zh-hant)\n- [本輪 PRISMA 逐項核對表](../evidence/prisma-2020-review-10.1097-md-0000000000051136.md)（私人工作證據）\n\n## 發布與來源註記\n\n本文全文標示 CC BY-NC 4.0。本評讀依全文改寫整理，公開時須保留作者／來源／DOI 與授權標示，且限非商業用途；來源全文、PDF、私人審核資料與執行憑證不在公開筆記內。筆記只作研究解讀，不替代原文，也不將結果轉成營養治療建議。\n\n## 本機相關筆記檢索範圍\n\n本輪可用的 `available-site-notes.json` 於 2026-10-22 08:08Z 產生，共 2,544 rows；沒有找到此 DOI 的既有筆記，索引內有肝癌／癌症營養相關項目。這不是全 vault 即時檢索：skill 設定的 `Papers/`、`Medicine/` 資料夾不存在，本輪未能確認它們的完整內容；因此不宣稱已搜尋整個 vault。",
       "cards": [],
       "completedAt": "2026-10-22T08:26:06.873Z"
+    },
+    {
+      "id": "doi:10.1097/md.0000000000051136:digest",
+      "paperId": "doi:10.1097/md.0000000000051136",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Three traditional Chinese patent medicines combined with transarterial chemoembolization for primary liver cancer: A systematic review and Bayesian network meta-analysis.",
+      "authors": "Wei Jiang, Jun Luo, Chenguang Wu, Yan An, Yinzhong Dai, Junwei Shi, Chengying Lan, Jinfeng Qi, Shimei Hua, Huihui Liu",
+      "journal": "Medicine",
+      "year": "2026",
+      "doi": "10.1097/MD.0000000000051136",
+      "abstract": "To evaluate the objective response rate (ORR) and disease control rate of 3 Chinese herbal medicines (Compound Banmao Capsule, Huaier Granule, and Jinlong Capsule) combined with transarterial chemoembolization (TACE) for primary liver cancer using Bayesian network meta-analysis. We systematically searched randomized controlled trials (RCTs) across the Cochrane Library, Embase, PubMed, Web of Science, VIP Database for Chinese Technical Periodicals, China National Knowledge Infrastructure, and Wanfang databases from their inception to January 10, 2025. Two researchers independently screened the literature, extracted data, and assessed study quality using predefined inclusion and exclusion criteria. A Bayesian network meta-analysis was performed using RStudio to synthesize and hierarchically rank interventions by effect size in the included RCTs. This review was registered with PROSPERO (CRD420251019361). Thirty-one RCTs involving 2604 patients with primary liver cancer were included. The network meta-analysis showed that, compared with TACE alone: Compound Banmao Capsule ranked highest for ORR (OR = 1.50, 95% CI: 1.08, 2.08), followed by Huaier Granule (OR = 1.47, 95% CI: 1.05, 2.05) and Jinlong Capsule (OR = 1.30, 95% CI: 1.02, 1.65). For disease control rate, the ranking was Compound Banmao Capsule (OR = 1.21, 95% CI: 0.76, 1.93), Jinlong Capsule (OR = 1.17, 95% CI: 0.85, 1.59), and Huaier Granule (OR = 1.12, 95% CI: 0.66, 1.91). For ORR, the combination of the 3 Chinese herbal medicines with TACE showed superior efficacy to TACE monotherapy, with Compound Banmao Capsule demonstrating the greatest therapeutic potential among the interventions evaluated.",
+      "legalFullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13681163/",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42888555/",
+      "category": "recommended",
+      "tags": [
+        "design:randomized controlled",
+        "evidence literacy",
+        "herbs phytochemicals supplements",
+        "human clinical population"
+      ],
+      "noteTitle": "肝癌中藥合併TACE研究內容整理",
+      "content": "---\ntags:\n  - research/digest\n  - med/oncology\ncitekey: \"Jiang2026\"\ndoi: \"10.1097/MD.0000000000051136\"\naliases:\n  - \"Three traditional Chinese patent medicines combined with transarterial chemoembolization for primary liver cancer: A systematic review and Bayesian network meta-analysis\"\n---\n\n> [!summary] 30 秒層｜一句話 + 重點；5 分鐘層看各節要點\n> **一句話：**31 項 RCT（2,604 人）的網絡統合分析看到三種中藥加 TACE 的腫瘤反應率訊號；這還不能證明患者活得更久、功能變好或治療更安全。\n> - ORR：斑蝥 OR 1.50（95% CrI 1.08–2.08）、槐耳 1.47（1.05–2.05）、金龍 1.30（1.02–1.65）。\n> - DCR 的區間都跨無效值；6 個月到 3 年存活分析也未見顯著差異。\n> - 31 項試驗多為小型，隨機化細節、分配隱蔽、盲法與網絡一致性資料不足。\n> - 這是肝癌腫瘤治療研究，不是營養介入或營養處方證據。\n> **品質 → 見配對評讀筆記：[[Jiang2026 - TCM Plus TACE for Primary Liver Cancer]]**\n\n# 內容整理（快速吸收）\n\n## 研究問題 / 背景\n\n**要點**：作者想比較三種傳統中藥製劑加在 TACE 上，對原發性肝癌患者的腫瘤反應及其他臨床結果有何差異。\n\n- **研究問題**：在原發性肝癌接受經動脈化學栓塞（TACE）的患者中，加入 Compound Banmao（斑蝥）、Huaier（槐耳）或 Jinlong（中文音譯金龍製劑）是否比 TACE 單獨治療改善結果？\n- **為什麼做**：文章指出相關臨床試驗分散，直接比較有限，因此用網絡統合分析整理三種加用療法。\n- **讀者先抓住界線**：主要有利訊號是影像腫瘤反應率。腫瘤縮小／反應不是存活或生活功能本身；要分別看每個 outcome，不能把一個替代指標推成整體治療有效。\n\n## 方法\n\n**要點**：回顧納入 31 項兩組 RCT、2,604 人；搜尋至 2025-01-10，使用 Bayesian 隨機效應網絡模型，但主文可核對的模型診斷資訊不完整。\n\n- **研究與人群**：31 項中國研究、共 2,604 人，試驗年代約 2000–2023；30 項中文、1 項英文。單項研究約 19–116 人。\n- **比較組**：TACE 單獨治療；TACE 加斑蝥（8 項）、槐耳（10 項）或金龍（13 項）。\n- **搜尋來源**：Cochrane Library、Embase、PubMed、Web of Science、VIP、CNKI、Wanfang；搜尋到 2025-01-10。作者稱未設語言限制，並提及灰色文獻聯絡。完整逐資料庫策略指向補件 S001.docx，本次未單獨取得。\n- **結局**：ORR、DCR、不同時間點存活、免疫指標、AFP、KPS、肝功能與不良事件。\n- **統計**：作者描述 Bayesian random-effects MCMC 網絡分析，並引用網絡圖、森林圖、排序機率與漏斗圖。主文沒有提供足夠的異質性、transitivity／consistency 診斷或敏感度分析資料，讀者難以完整判斷直接與間接比較是否可比、排名是否穩健。\n- **註冊**：PROSPERO CRD420251019361；本文未清楚呈現註冊日期與研究啟動先後，本次未查驗註冊頁的版本時間。\n\n## 主要發現\n\n**要點**：三種加用療法的 ORR 都有統計訊號，但 DCR、存活及 KPS 沒有明確改善；數字方向或效應尺度有幾處需回查補件。\n\n| 結果 | 研究數 | 本文報告 | 怎麼讀 |\n|---|---:|---|---|\n| 客觀緩解率 ORR | 28 | 斑蝥 OR 1.50（95% CrI 1.08–2.08）；槐耳 OR 1.47（1.05–2.05）；金龍 OR 1.30（1.02–1.65） | 三個區間均略高於 1，但沒有絕對事件數或臨床重要差異門檻；臨床重要性無法從這些相對效果直接換算。 |\n| ORR 排名 | 同網絡模型 | 斑蝥排名第一機率 60.8%；槐耳第二 53.9% | 排名機率不是「有 60.8% 患者獲益」；也不代表斑蝥已被可靠證明優於另兩種療法。 |\n| 疾病控制率 DCR | 26 | 各組 CrI 均包含 OR 無效值 1 | 沒有明確差異訊號。 |\n| 存活 | 4 | 6 個月、1 年、2 年、3 年皆未達統計顯著 | 證據稀少；未顯著不代表已證明療法等效。 |\n| 免疫指標 | 10 | CD3 MD 11.78（−3.84 至 27.41）、CD4 MD 7.33（−1.19 至 15.82）均跨 0；CD4/CD8 MD 0.21（0.18 至 0.43）未跨 0 | 只有部分指標呈統計訊號；與文中較廣泛的「免疫改善」摘要須區分。 |\n| KPS／肝功能 | KPS 5；肝功能按指標不同 | KPS 區間跨 0；ALT／AST 多數未顯著，其他肝功能結果不一 | 未建立患者功能或肝功能改善。 |\n| 不良事件 | 依事件不同 | 部分免疫、胃腸道結果出現負值但欄位標為 OR | OR 不可能小於 0；可能是 log OR 或標示錯誤。未釐清前不可由此稱更安全。 |\n| AFP | 8 | 槐耳組報告 218.86（119.89–315.81） | 變化方向及比較組別方向在主文不清楚，不能直接寫成 AFP 下降。 |\n\n- **整體閱讀結論**：文章的主要訊號在 ORR；存活、患者功能及安全性證據不能支持同等強度的臨床結論。研究小、報告不全和網絡分析資料缺口，使結果仍需大型、設計更好的試驗確認。\n\n## 臨床意義 / 怎麼用\n\n**要點**：把文章當作腫瘤治療研究線索，不要把 ORR 訊號改寫成營養建議、延壽結論或自我用藥理由。\n\n- 對營養與健康專業人員，這篇沒有測試飲食、營養補充、營養照護流程或營養狀態結果。\n- 病人詢問時可說明：研究看到腫瘤反應率訊號，但確定性很低，且尚未證明存活或功能獲益；不宜只看排名就選用某一製劑。\n- 斑蝥、槐耳、金龍是不同製劑，不是可互換的營養素。本文不能提供一致的安全劑量或療程。任何併用應由腫瘤科／藥師評估產品品質、肝功能、抗癌療程與交互作用；不要自行加用或停用抗癌治療。\n- **⚠️ 補充（一般安全原則，非本文試驗結果）**：癌症患者使用草藥或複方前，應把產品完整名稱、成分、來源與使用量交給腫瘤治療團隊核對，以免與治療產生交互作用或延誤標準治療。\n\n## 重要圖表重述\n\n**要點**：本文以研究流程、偏差圖、網絡圖、各結局森林圖與排序圖呈現結果；本次依全文文字和圖表標題重述，沒有另行檢視圖像本身。\n\n- **PRISMA 流程圖**：主文報告 1,330 筆紀錄與 31 項納入研究；逐篇排除全文及理由未在主文列成可核對清單。\n- **研究特性／偏差圖**：31 項研究的隨機方法與盲法報告不足；主文說明多數研究只描述「隨機」，僅一項分配隱蔽可確認。\n- **網絡／森林圖**：各治療在不同 outcome 的直接和間接連線及相對效果；應與 CrI 是否跨無效值一起讀，而不要只讀排名。\n- **排序圖**：斑蝥 ORR 排名第一機率 60.8%，槐耳 53.9% 為第二；排名不是個人療效機率，也不取代存活、功能和安全性比較。\n- **漏斗圖**：文中對 ORR／DCR 提到漏斗圖大致對稱；小型研究數量與方法限制讓這不能排除小型研究效應或發表偏差。\n\n## 與既有認知的對照\n\n**要點**：目前僅能比對本機既有網站筆記索引，不能聲稱完成整個 vault 搜尋或確認相關筆記的正文內容。\n\n- skill 設定的 `Papers/`、`Medicine/` 路徑在本機不存在；本次沒有可用的 `vault_search` 工具。\n- 先前可用的 `available-site-notes.json` 快照（2026-10-22 08:08Z、2,544 rows）沒有本 DOI，但索引中有肝癌／癌症營養相關條目。由於該索引早於本輪新合併且未取得相關筆記正文，此處不推定它們與本研究矛盾或已被更新。\n- **知識差異待補**：需在 `Papers/`、`Medicine/` 可用並能讀取筆記正文後，再整理「舊認知 → 本篇」；目前狀態是未完成比對，不是「vault 無相關筆記」。\n\n## 概念 / 名詞整理\n\n**要點**：理解本篇要分清腫瘤反應、疾病控制、存活及功能結果，並知道網絡排名和效果確定性回答不同問題。\n\n- **TACE（經動脈化學栓塞）**：從供應腫瘤的動脈給予治療並阻斷局部血流；本篇所有比較均以 TACE 為共同治療背景。\n- **ORR（客觀緩解率）**：依腫瘤反應標準分類為完全／部分反應的患者比例。它可呈現影像反應，不直接等於活得更久或生活品質改善。\n- **DCR（疾病控制率）**：依研究定義合併反應與疾病穩定等狀態；需要看原研究採用的評估標準及時間點。\n- **Bayesian network meta-analysis**：在不同試驗直接比較不完整時，結合直接和間接證據估計多種療法；可靠性仰賴治療、族群與試驗在網絡中的可比性及一致性檢查。\n- **CrI（可信區間）**：Bayesian 模型下參數的後驗可信範圍；若 OR 的區間包含 1，資料未呈現清楚的方向差異訊號。\n- **KPS（Karnofsky Performance Status）**：描述患者功能狀態的量表；本篇的 KPS 合併結果沒有顯著改善。\n- **OR 與 log OR**：odds ratio 必須為正值；負數可能表示實際報告的是對數尺度或欄位標示有誤，需核對統計表與原始資料。\n\n## 自我測驗\n\n**要點**：先試著用 outcome 與研究限制解釋結果，再展開答案核對。\n\n> [!question]- Q1：ORR 三種藥都出現有利訊號，為什麼還不能說它們延長存活？\n> ORR 是腫瘤反應的替代指標，不等於患者活得更久。本文存活分析僅 4 項研究，6 個月、1 年、2 年和 3 年皆未達統計顯著；因此存活獲益尚未證實。\n\n> [!question]- Q2：如果只能帶走一個療效結論，應如何描述 ORR 數字及把握度？\n> 28 項研究的 ORR 相對效果為斑蝥 OR 1.50（95% CrI 1.08–2.08）、槐耳 1.47（1.05–2.05）、金龍 1.30（1.02–1.65）。但絕對事件數及臨床重要門檻缺失，偏差與網絡診斷也有疑慮；本次 GRADE 快速評估為極低確定性。\n\n> [!question]- Q3：斑蝥 ORR 排名第一機率 60.8%，是否表示個別病人有 60.8% 機率獲益？\n> 不是。60.8% 是模型排序中「斑蝥居第一」的機率，不是治療成功率或個人效益機率。間接比較還要求試驗彼此可比，而主文未充分呈現網絡一致性與敏感度檢查。\n\n> [!question]- Q4：本文部分不良事件以負數列出、欄位卻寫 OR，讀者應怎麼處理？\n> OR 不會是負數，可能是 log OR 被標成 OR，也可能是報表錯誤。未核對原分析或補充資料前，不能把數字換算後宣稱某治療更安全；先將安全性結論標為不確定。\n\n# Reference\n\n- Jiang W, Luo J, Wu C, et al. *Three traditional Chinese patent medicines combined with transarterial chemoembolization for primary liver cancer: A systematic review and Bayesian network meta-analysis.* **Medicine (Baltimore)**. 2026;105(42):e51136. doi:10.1097/MD.0000000000051136. PMID: 42888555; PMCID: PMC13681163.\n- 本筆記依 PMC 全文改寫整理，CC BY-NC 4.0：須標示原作者／來源與授權，限非商業用途。",
+      "cards": [
+        {
+          "title": "腫瘤反應率不等於臨床獲益",
+          "question": "ORR 三種藥都出現有利訊號，為什麼還不能說它們延長存活？",
+          "answer": "ORR 是腫瘤反應的替代指標，不等於患者活得更久。本文存活分析僅 4 項研究，6 個月、1 年、2 年和 3 年皆未達統計顯著；因此存活獲益尚未證實。",
+          "tags": [
+            "肝癌",
+            "TACE",
+            "替代指標"
+          ]
+        },
+        {
+          "title": "ORR 效果與確定性",
+          "question": "如果只能帶走一個療效結論，應如何描述 ORR 數字及把握度？",
+          "answer": "28 項研究的 ORR 相對效果為斑蝥 OR 1.50（95% CrI 1.08–2.08）、槐耳 1.47（1.05–2.05）、金龍 1.30（1.02–1.65）。絕對事件數與臨床重要門檻缺失，偏差及網絡診斷有疑慮；本次 GRADE 快速評估為極低確定性。",
+          "tags": [
+            "肝癌",
+            "TACE",
+            "GRADE"
+          ]
+        },
+        {
+          "title": "解讀網絡排名",
+          "question": "斑蝥 ORR 排名第一機率 60.8%，是否表示個別病人有 60.8% 機率獲益？",
+          "answer": "不是。60.8% 是模型排序中斑蝥居第一的機率，不是治療成功率或個人效益機率。間接比較還要求試驗彼此可比，而主文未充分呈現網絡一致性與敏感度檢查。",
+          "tags": [
+            "肝癌",
+            "網絡統合分析",
+            "統計解讀"
+          ]
+        },
+        {
+          "title": "負值不良事件效果怎麼看",
+          "question": "本文部分不良事件以負數列出、欄位卻寫 OR，讀者應怎麼處理？",
+          "answer": "OR 不會是負數，可能是 log OR 被標成 OR，也可能是報表錯誤。未核對原分析或補充資料前，不能把數字換算後宣稱某治療更安全；應保留不確定性。",
+          "tags": [
+            "肝癌",
+            "不良事件",
+            "統計解讀"
+          ]
+        }
+      ],
+      "completedAt": "2026-10-22T08:30:31.531Z"
     }
   ]
 }
