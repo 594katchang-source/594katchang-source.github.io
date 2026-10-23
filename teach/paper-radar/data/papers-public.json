@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T06:30:01.552Z",
+  "generatedAt": "2026-10-23T06:34:35.564Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -103346,6 +103346,81 @@
       "content": "---\ntags:\n  - source/journal\n  - research/review\n  - med/nutrition\ncitekey: Khatib2026\ndoi: \"10.1038/s41467-026-77928-9\"\nzotero: null\njournal: \"Nature Communications\"\nyear: 2026\nauthors: \"Khatib L, Oles R, Hernández A, Myers T, Zhao J, Kumar M, Laroya A, Tolosa-Enguis V, Matsunami N, Suzuki D, Chiba N, Gilbert K, Das P, Sanders J, Patel L, Litwin N, Nowinski B, Birmingham A, Farmer S, Brennan C, Bryant M, Tribelhorn C, Sanders-Bodai K, Cowart C, Nizet O, Diaz E, Veiga P, Shetty S, Knol J, Lay C, Koutnikova H, Chaumont S, Tap J, Cotillard A, Derrien M, Laiola M, González A, Tovar AR, Torres N, Sanz Y, Yamada T, McDonald D, Song SJ, Bartko A, Knight R\"\nstudy_type: \"multi-country cross-sectional observational study\"\npmid: null\nreview_depth: quick\n---\n\n> [!info] 品質快照\n> **設計**：五國橫斷面觀察研究｜**分析樣本**：1,976人（美國411、墨西哥397、西班牙450、英國308、日本410）｜**偏倚風險**：嚴重疑慮，主要來自跨國 FFQ 測量差異、殘餘混雜與志願者樣本選擇。\n> **GRADE**：飲食品質與菌相組成的關聯為 Very low ⊕◯◯◯（本篇關聯證據的保守評級，不代表介入療效等級）｜**Registration**：本文未提供可核對的試驗註冊；此為非介入觀察研究。\n> **一句話 verdict**：研究清楚顯示五國飲食與菌相特徵不同、HEI-菌相訊號跨國泛化有限；但橫斷面關聯、問卷及族群差異不能證明飲食造成菌相變化，也不能形成個人化營養處方。\n\n# Key Points\n\n## Summary\n\n> ✅ Full text reviewed\n\n- 研究整合五個工業化國家 1,976 名成人的自陳飲食／生活型態資料與糞便 shotgun metagenomics，分析國家差異及菌相與飲食特徵的關聯。\n- 國家是菌相分群的重要來源；調整年齡、性別、BMI、化妝品使用及定序深度後，country 解釋菌相差異的 R² 為 0.28。全樣本 sCCA 的關聯強度（metadata r=0.70、營養素 r=0.83、食物 r=0.72）主要由國家間異質性帶動。\n- 沒有任何 HEI-2015 組成在五國都與菌相一致相關；在一國訓練的 Elastic Net 模型跨國測試時表現下降。多數關聯具國別差異，少數 OGU 跨國重疊。\n- 這是橫斷面關聯研究，沒有飲食介入或臨床健康結局；不能據此判定某飲食改變菌相、改善疾病或值得依菌相開立個人化處方。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：研究者把五國成人的飲食問卷和腸道菌資料放在一起比較，看到飲食與菌相的統計關聯常隨國家改變，跨國預測能力有限。\n> - **為什麼做**：過去不同國家的菌相研究常用不同收樣、定序與分析方法，難以分辨差異是生物現象還是技術造成；這項研究嘗試以較一致的收樣與定序流程比較五國。\n> - **族群與資料**：美國 411 人、墨西哥 397 人、西班牙 450 人、英國 308 人、日本 410 人，合計 1,976 人；平均 45.5 歲、75% 女性。受試者使用各國不同的 FFQ，回想期間在部分國家為 3 個月，在西班牙與日本為 1 年。\n> - **主要觀察**：菌相整體組成依國家分群；用所有國家合併資料時，菌相與飲食的 sCCA 關聯數值偏強，但作者指出主要由國家間差異驅動。各國分開分析後，HEI-2015 沒有在五國都呈現相同菌相關聯；跨國模型預測也變差。\n> - **所以呢**：研究提醒研究者不能假設同一個菌相標記可代表所有文化中的健康飲食；目前結果也不能告訴臨床人員該替個人增加或減少哪一種食物。仍需在不同族群做飲食介入並觀察健康結果。\n\n## Clinical Application\n\n- **適用情境：**作為跨文化菌相研究與精準營養假說的背景資料，不是臨床診斷或飲食處方試驗。\n- **目前可用的結論：**設計飲食－菌相研究或演算法時，應預先檢驗地區可移植性；單一國家的模型或菌種關聯不能直接套用到台灣個人。\n- **不能推論：**研究未證明特定飲食能改變菌相或改善代謝、發炎、症狀、疾病、生活品質等病人重要結果。微生物組成沒有本文可用的臨床 MCID。\n- **在地適用性：**未納入台灣；樣本來自 Microsetta Initiative，女性約 75%、平均年齡 45.5 歲，且作者指出樣本可能偏向飲食品質較高者。不能直接代表台灣臨床患者或一般人口。\n\n# Paper Details\n\n## Methods\n\n- **設計與時間：**多國橫斷面觀察研究；樣本收集日期為 2019-11-12 至 2023-05-11，沒有追蹤或重複測量（Methods，PDF pp. 8–9）。\n- **樣本：**Microsetta Initiative 招募五國成人。起始 2,747 個樣本，經低覆蓋、資料缺失、無效問卷／共變數與定序 QC 等處理後，分析 1,976 人與 3,375 個 operational genomic units（OGUs）。墨西哥另有 58 個樣本因低讀數後重定序造成的技術偏差排除（Results，PDF pp. 2–3；Methods，PDF p. 9）。\n- **飲食評估：**美國及英國用 VioScreen、墨西哥用其改版、西班牙用 PREDIMED FFQ、日本用 JPHC-NEXT FFQ；墨西哥／美國／英國回憶前三個月，西班牙／日本回憶前一年。不同問卷經食物群和營養素對應後整合；飲食量依總熱量標準化。HEI-2015 以 FPED 對應食物計算（Methods，PDF pp. 8–9）。\n- **菌相與基因組：**糞便樣本進行 shotgun metagenomic sequencing，使用 Qiita／WoL2 等流程建立 OGU 特徵；MAG 以組裝、分箱與基因組品質篩選形成物種群集（Methods，PDF pp. 8–10）。\n- **統計：**PCA/RPCA 與 PERMANOVA 描述國別分群；sCCA 評估菌相與 metadata／營養素／食物的共變；BIRDMAn 分析 OGU 關聯；Elastic Net 以 5-fold CV 並跨國測試 HEI 預測；Mash 距離與 pyseer 評估基因組國別差異。多個步驟使用 FDR 校正（Methods，PDF pp. 9–10）。\n- **方法報告待核對：**基因組距離方法段寫 PERMANOVA 使用 9,999 次置換，但同段工具參數 `--perms 999`；Fig. 4 圖說也寫 999 次。本文未釐清實際採用次數，限制精確重現該分析（PDF pp. 6、10）。\n\n## Critical Appraisal\n\n| 面向 | 判定 | 理由 |\n|---|---|---|\n| 樣本選擇 | 有疑慮 | Microsetta 志願參與者不是各國具代表性的機率樣本；75% 女性，作者也提醒樣本可能偏向飲食品質較高。 |\n| 混雜與可比性 | 嚴重疑慮 | 國家同時代表飲食文化、生活型態、社經背景、宿主族群及研究場域；模型調整部分共變數仍無法排除未量測因素。全樣本 sCCA 又主要由國家間差異驅動。 |\n| 飲食測量 | 嚴重疑慮 | 使用不同國家問卷與不同回憶期間，並將食物映射至共同群組及 HEI-2015；測量誤差可能造成差異或遮蔽差異。 |\n| 菌相測量 | 有疑慮 | 研究採標準化定序與分析流程，但作者無法排除殘餘技術差異，並說明沒有 mock-community controls。 |\n| 缺失與選擇 | 有疑慮 | 從 2,747 個起始樣本篩至 1,976；墨西哥 58 個樣本因重定序技術偏差移除。選入分析的機制可能影響族群組成。 |\n| 結果解讀／臨床性 | 高度間接 | 結局是菌相、OGU 與基因組特徵，未直接測量疾病、症狀或功能改善；橫斷面資料無法確認時間順序或因果。 |\n\n- **MCID／統計：**沒有病人重要臨床量表，因此不適用 MCID。關聯 p 值或菌相分群不能代替臨床效果量；解讀時應優先看跨國差異、模型可移植性與測量來源。\n- **GRADE：**針對「飲食品質與菌相組成關聯」而非介入療效，觀察性證據起始 Low；因跨國殘餘混雜、飲食問卷不可完全比對及技術偏差風險下調一級，計算結果 Very low。GRADE 腳本未產生警告。\n- **Spin／推論檢查：**若把本文關聯轉述成「菌相導向飲食能改善臨床營養結果」，會同時跨越觀察關聯至因果、菌相替代指標至臨床結局兩個推論缺口。`argdown_lint.py` 對此過度主張回報兩項旗標；本文不採用該結論。\n- **資助／COI：**研究由 Danone Nutricia Research 等支持；多位作者是 Danone Research & Innovation 員工，另有作者申報公司顧問、股權、專利或相關職務。作者聲明公司未控制研究詮釋、寫作或出版（PDF p. 12）。宜將其視為需透明納入解讀的利益關係，不單憑此判定研究無效。\n- **整體判讀：**資料量及跨國標準化設計有助描繪研究假說；但問卷和族群差異、跨斷面設計及無臨床結果，使其主要價值是提出可驗證的族群差異假說，而不是支持現行精準營養處方。\n\n## Key Findings\n\n- 五國樣本的菌相、飲食及 metadata 均呈國別分群；控制年齡、性別、BMI、化妝品使用與定序深度後，country 解釋菌相差異 R²=0.28；其餘列出的單一共變數 R² 為 0.001–0.006（Results，PDF pp. 2–3）。\n- 合併五國 sCCA：菌相與 metadata r=0.70、營養素 r=0.83、食物 r=0.72；作者指出關聯主要由國家間異質性驅動（Results，PDF pp. 3–4）。\n- HEI 總分及組成依國家不同；沒有單一 HEI 組成在所有五國都與菌相顯著相關，跨國 Elastic Net 預測表現較國內測試下降。48 個 OGU 被報告為五國都與 HEI 相關，但仍不等於可用的臨床標記（Results，PDF p. 4）。\n- 日本的三個 B. subtilis OGU 幾乎限於日本樣本，且與 natto 攝取相關（r=0.59，P=4.9×10⁻³⁹）；這是觀察性關聯，不能推斷吃 natto 導致該菌增加（Results，PDF p. 5）。\n- 在至少有 30 個 MAG 的 73 個物種中，35 個物種的基因組距離依國家呈 FDR 校正後差異；跨國營養與菌群路徑訊號可能同時受物種譜系、宿主及環境因素影響（Results，PDF pp. 5–7）。\n\n# Resource\n\n## Vault Integration\n\n- 本次新增一筆快速評讀；未執行 Zotero vault 搜尋或作者／期刊深度背景查核（focused-quick 範圍）。\n\n## Source\n\n- [出版社全文與同行評閱資訊](https://doi.org/10.1038/s41467-026-77928-9)\n- DOI：10.1038/s41467-026-77928-9；原始 PDF 透過 Unpaywall 路徑取得，DOI／標題與 Nature Communications 出版社文章頁相符；PDF 13 頁，主文與 Methods、Results、Discussion 均可讀。\n- 全文來源與首／中／末頁核對收據：`[local path removed]`。",
       "cards": [],
       "completedAt": "2026-10-23T06:27:50Z"
+    },
+    {
+      "id": "doi:10.1038/s41467-026-77928-9:digest",
+      "paperId": "doi:10.1038/s41467-026-77928-9",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Five-country analysis of geographic and dietary drivers of gut microbiome composition and genomic variation.",
+      "authors": "Khatib L, Oles R, Hernández A, Myers T, Zhao J, Kumar M, Laroya A, Tolosa-Enguis V, Matsunami N, Suzuki D, Chiba N, Gilbert K, Das P, Sanders J, Patel L, Litwin N, Nowinski B, Birmingham A, Farmer S, Brennan C, Bryant M, Tribelhorn C, Sanders-Bodai K, Cowart C, Nizet O, Diaz E, Veiga P, Shetty S, Knol J, Lay C, Koutnikova H, Chaumont S, Tap J, Cotillard A, Derrien M, Laiola M, González A, Tovar A, Torres N, Sanz Y, Yamada T, McDonald D, Song S, Bartko A, Knight R",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.1038/s41467-026-77928-9",
+      "abstract": "Human diet and lifestyle vary widely across cultures, shaping global diversity in gut microbiome composition and function. However, comparable cross-population studies have been limited by methodological heterogeneity. The Human Diets and Microbiome Initiative (THDMI) integrates standardized recruitment, dietary assessment, and shotgun metagenomics across 1,976 participants from the United States, United Kingdom, Spain, Mexico, and Japan to disentangle biological from technical variation. We observed pronounced geographic differences in nutrient intake, food consumption, and microbial composition, with both shared and country-specific features linked to diet. Sparse canonical correlation and machine-learning analyses revealed that microbiome-diet associations were largely population-specific, with limited cross-country generalization. Strain-level analyses further uncovered significant genomic differentiation of gut microbes, consistent with localized dietary and ecological differences. Together, these results show that while core microbial responses to healthy eating exist, the structure and function of the human gut microbiome varies strongly with culture, geography, and long-term dietary practices.",
+      "legalFullTextUrl": "https://www.nature.com/articles/s41467-026-77928-9_reference.pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42907460/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "human clinical population",
+        "precision nutrition"
+      ],
+      "noteTitle": "五國飲食與腸道菌相 - 快速內容整理",
+      "content": "---\ntags:\n  - research/digest\n  - med/nutrition\n  - gut-microbiome\n  - precision-nutrition\ncitekey: Khatib2026\ndoi: \"10.1038/s41467-026-77928-9\"\nzotero: null\njournal: \"Nature Communications\"\nyear: 2026\nauthors: \"Khatib L et al.\"\nreview_depth: digest\n---\n\n> [!summary] 30 秒層：一句話 + 重點\n> **一句話：** 五國成人資料顯示飲食特徵與腸道菌相的關聯會隨地區改變；合併國家分析的關聯主要被國家間差異帶動，跨國預測能力有限。\n> - 最終分析 1,976 人：美國 411、墨西哥 397、西班牙 450、英國 308、日本 410；平均 45.5 歲、75% 女性。\n> - 調整部分人口與定序差異後，國家與菌相分群仍有關（country R²=0.28）；全樣本菌相與 metadata／營養素／食物的 sCCA 分別 r=0.70／0.83／0.72，但作者指出主要由國家間異質性驅動。\n> - HEI-2015 沒有任何單一組成在五國都與菌相一致相關；跨國測試的 Elastic Net 表現下降。\n> - 研究是橫斷面關聯，沒有飲食介入或病人重要結局；不能把菌相關聯當成因果或處方依據。\n> **品質 →** 見同篇 [Khatib2026 - 五國飲食與腸道菌相] 評讀。\n\n# 5 分鐘層\n\n## 研究問題與背景\n\n**要點：** 作者以較一致的收樣、定序與分析，比較五個工業化國家的飲食、生活型態與菌相差異，並檢查飲食－菌相關聯能否跨國重現。\n\n- 不同地區的飲食文化與生活型態不同；過去跨研究比較常受採樣、萃取、定序、FFQ 與分析流程差異干擾。\n- THDMI 以五國成人資料描述人群與菌相差異，並檢視宿主／飲食關聯是共同或族群特異（Introduction，PDF pp. 1–2）。\n- 這是描述與關聯研究，不是測試「某種飲食能否治療疾病」的臨床試驗。\n\n## 方法\n\n**要點：** 研究將五國一次性飲食問卷、生活型態資料與糞便 shotgun metagenomics 連結，再用多種統計方法找國別差異與菌相關聯。\n\n| 項目 | 本文內容 |\n|---|---|\n| 設計 | 多國橫斷面觀察研究；樣本收集日期為 2019-11-12 至 2023-05-11，沒有追蹤。 |\n| 族群 | 最終 1,976 人：美國 411、墨西哥 397、西班牙 450、英國 308、日本 410；平均 45.5 歲、75% 女性。 |\n| 飲食 | 各國使用不同 FFQ；美國、英國、墨西哥回憶前 3 個月，西班牙、日本回憶前 1 年。將食物群與營養素映射整併後，再依熱量標準化；HEI 使用 HEI-2015。 |\n| 菌相 | 糞便 shotgun metagenomics；初始 2,747 個樣本經 QC 後保留 1,976 人與 3,375 個 operational genomic units（OGUs）。 |\n| 分析 | PCA/RPCA、PERMANOVA、sCCA、BIRDMAn、Elastic Net、MAG 距離與基因組關聯分析；多個步驟使用 FDR 校正。 |\n\n**解讀時記住：** 各國問卷工具、回憶期間與營養資料庫不完全相同；國家還同時代表飲食文化、社會背景、族群、環境與研究場域，統計調整不能把這些差異完全拆開。\n\n## 主要發現\n\n**要點：** 整體菌相具有明顯國別結構；部分飲食－菌相訊號在國內較能看見，但不少關聯及模型在跨國時不能直接移植。\n\n| 發現 | 原文數字 | 怎麼理解 |\n|---|---:|---|\n| 國家與菌相分群 | 調整 age、sex、BMI、化妝品使用與定序深度後，country R²=0.28；列出的單一共變數 R²=0.001–0.006。 | 國家是重要分群來源，但不能解讀成國家本身造成菌相差異。 |\n| 全樣本 sCCA | 菌相與 metadata r=0.70、營養素 r=0.83、食物 r=0.72；均 P<0.0001。 | 作者指出整體相關主要由國家間異質性驅動，不等於每個國家內都有同樣關係。 |\n| HEI-2015 | 沒有任何 HEI 組成在五國都與菌相一致相關；HEI 總分在國家間不同（F=204.69，P<0.0001）。 | 不支持將一種固定菌相組合當成跨國通用飲食品質標記。 |\n| 跨國預測 | 一國訓練的 Elastic Net 模型移到其他國家時，RMSE 與 R² 表現下降。 | 模型可能學到地區特有特徵，需要在目標族群重新驗證。 |\n| 共同 OGU | 48 個 OGU 被報告與五國 HEI 總分皆有關聯。 | 有少數重疊訊號，但未驗證臨床用途。 |\n| 日本 B. subtilis | 三個 OGU 幾乎只在日本常見；與 natto 攝取 r=0.59，P=4.9×10⁻³⁹。 | 是同時觀察到的關聯，不能推論吃 natto 會造成該菌增加。 |\n| 物種基因組差異 | 有至少 30 個 MAG 的 73 個物種中，35 個呈 FDR 校正後的國別基因組距離差異。 | 顯示菌株與基因特徵也有地理結構，不是營養治療效果。 |\n\n## 重要圖表重述\n\n**要點：** Fig. 1–4 從人群差異、整體關聯、飲食品質預測一路到菌株基因組差異；圖表提供的是橫斷面資料的關聯地圖。\n\n- **Fig. 1、Table 1（PDF pp. 2–3）：** 五國人口組成、問卷飲食及菌相特徵不同；PCA/RPCA 顯示依國家分群。\n- **Fig. 2（PDF pp. 3–4）：** sCCA 呈現菌相與 metadata、營養素及食物共變；整體相關受到國別分群影響，各國主要特徵不完全相同。\n- **Fig. 3（PDF pp. 4–5）：** 各國 HEI 分數不同；HEI 與菌相關聯及 Elastic Net 預測具有國別差異。\n- **Fig. 4（PDF pp. 6–7）：** MAG 物種有國別基因組差異，也展示營養素與菌群功能訊號；作者提醒不能只由橫斷面關聯歸因於飲食。\n\n## 與既有認知的對照\n\n**要點：** 本機已保存的同主題筆記也把族群差異與臨床可用性分開；這篇增加五國直接比較，仍未把菌相關聯驗證成治療工具。\n\n- 本機筆記〈肥胖腸道菌相的介入前異質性與基線剖析框架〉提醒飲食、藥物、族群、糞便特徵與實驗流程都會改變介入前菌相；本篇顯示飲食－菌相模型跨國表現下降。兩者共同支持先檢查目標族群可移植性，再談精準營養。\n- 本機筆記〈高齡精準營養演算法與健康表型的內容整理〉指出演算法示範不等於預測力或臨床效用驗證；本篇同樣只提供關聯及模型表現，不證明依菌相調整飲食可改善健康。\n- 本機筆記〈行星健康飲食、腸道菌相與健康老化〉整理飲食－菌相機轉與人體證據限制；本篇補充跨地區差異，但沒有建立可直接用於台灣個人的飲食門檻。\n- 比對來源為 2026-10-23 06:29:46 UTC 的 `available-site-notes.json`（2,561 列）；排除本文後，標題／摘要關鍵詞檢索得 193 筆候選，檢視以上相關筆記。這是指定本機可讀筆記快照，不代表搜尋私人站完整資料庫。\n\n## 概念／名詞整理\n\n**要點：** 文章用多變量統計與微生物基因組尺度描述資料；相關、分群與預測效能都不是介入效果。\n\n- **OGU（operational genomic unit）：** 將讀序比對到的參考微生物基因組作為特徵；不同 OGU 不必然就是不同物種或可確定的菌株。\n- **sCCA：** 尋找兩組多變量資料中共同變動的線性組合；本文用來找菌相與飲食／metadata 關聯，不代表因果。\n- **PERMANOVA：** 用距離矩陣檢驗群組組成是否不同；本文用來檢查菌相是否依國家分群。\n- **HEI-2015：** 依食物與營養素組成形成的飲食品質分數；本文按國家計算並檢查菌相關聯。\n- **MAG（metagenome-assembled genome）：** 從定序資料組裝出的微生物基因組，用來分析物種與基因層級差異。\n- **BIRDMAn：** 本文採用的微生物差異關聯方法，用於評估特徵與宿主／飲食變數的關係。\n\n## 臨床意義／怎麼用\n\n**要點：** 將研究用於提出族群可移植性的問題，不用來替個人診斷或開立菌相導向飲食處方。\n\n- 若建立飲食－菌相模型，應在目標地區驗證，並記錄問卷回溯期間、飲食資料處理、抗生素／補充品及定序流程。\n- 研究沒有台灣樣本，也沒有疾病改善、症狀、生活品質或營養狀態等臨床結果；不能把某 OGU、相關係數或模型預測當作個人治療指標。\n- 文章提及 folate、fatty acid 等基因功能關聯，但它們是路徑／基因訊號，未證明補充某營養素或改變飲食會改善菌相或健康結果。\n\n## 自我測驗\n\n> [!question]- Q1：為什麼全樣本 sCCA 的高相關不能代表五國都有相同的飲食－菌相關係？\n> 作者指出整體關聯主要由國家間異質性帶動。分國分析後特徵重疊有限，且沒有 HEI 組成在五國都呈一致關聯。\n\n> [!question]- Q2：country R²=0.28 能否解讀為國家造成 28% 菌相變化？\n> 不能。它表示該模型中，國家分組解釋菌相差異的比例；國家也代表文化、生活、社會與技術背景，橫斷面資料不能分離因果。\n\n> [!question]- Q3：日本 natto 攝取與 B. subtilis 的 r=0.59 證明 natto 能增加該菌嗎？\n> 不能。這是觀察性相關；沒有隨機分派 natto 的介入比較，其他飲食、生活、人口與環境因素也可能同時相關。\n\n> [!question]- Q4：為何各國 FFQ 的回憶期間要放進解讀？\n> 美國、英國、墨西哥問前 3 個月，西班牙、日本問前 1 年，且工具不同。整併食物群不能完全消除不同時間窗與問卷的測量誤差。\n\n> [!question]- Q5：35 個物種有國別基因組差異，能否直接推導個人化營養治療？\n> 不能。這些是橫斷面菌株／基因組差異；本文未測飲食治療能否改變訊號，也沒有病人重要健康結果。\n\n## Reference\n\n- Khatib L, et al. Five-country analysis of geographic and dietary drivers of gut microbiome composition and genomic variation. *Nature Communications*. 2026. [DOI 10.1038/s41467-026-77928-9](https://doi.org/10.1038/s41467-026-77928-9).\n- 主要結果與圖表：Results、Fig. 1–4，PDF pp. 2–7；方法、問卷與統計流程，PDF pp. 8–10；限制與因果界線，Discussion，PDF pp. 7–8。\n- 全文取得、SHA、逐段閱讀大綱、首／中／末頁視覺核對：見本輪 `evidence/pdf-crosscheck-khatib2026.json` 與 `process/outline-khatib2026-five-country-microbiome.md`。",
+      "cards": [
+        {
+          "title": "國家與菌相差異代表什麼？",
+          "question": "country R²=0.28 能否解讀為國家造成 28% 的菌相變化？",
+          "answer": "不能。它表示在該模型中，國家分組解釋菌相差異的比例；國家也同時代表文化、生活、社會與技術背景，橫斷面資料不能分離因果。",
+          "tags": [
+            "gut-microbiome",
+            "PERMANOVA",
+            "causality"
+          ]
+        },
+        {
+          "title": "整體相關為何不能套用各國？",
+          "question": "為什麼全樣本 sCCA 的高相關不能代表五國內都有相同飲食－菌相關係？",
+          "answer": "作者指出整體關聯主要由國家間異質性帶動。分國分析後特徵重疊有限，且沒有 HEI 組成在五國都與菌相一致相關。",
+          "tags": [
+            "sCCA",
+            "population-specific",
+            "generalizability"
+          ]
+        },
+        {
+          "title": "Natto 關聯能否作因果解讀？",
+          "question": "日本 natto 攝取與 B. subtilis 的 r=0.59 能否證明 natto 會增加該菌？",
+          "answer": "不能。這是觀察性相關；沒有隨機分派 natto 的介入比較，其他飲食、生活、人口與環境因素也可能同時相關。",
+          "tags": [
+            "Bacillus-subtilis",
+            "natto",
+            "association"
+          ]
+        },
+        {
+          "title": "FFQ 回憶期間的跨國差異",
+          "question": "各國 FFQ 的回憶期間不同，會怎麼影響跨國比較？",
+          "answer": "美國、英國、墨西哥問前 3 個月，西班牙、日本問前 1 年，且工具不同。整併食物群不能完全消除不同時間窗與問卷的測量誤差。",
+          "tags": [
+            "FFQ",
+            "measurement",
+            "cross-country"
+          ]
+        },
+        {
+          "title": "基因組差異等於營養療效嗎？",
+          "question": "35 個物種呈國別基因組差異，能否直接推導個人化營養治療？",
+          "answer": "不能。這些是橫斷面菌株／基因組差異；本文沒有測試飲食治療能否改變基因訊號，也沒有病人重要健康結果。",
+          "tags": [
+            "MAG",
+            "genomics",
+            "clinical-translation"
+          ]
+        }
+      ],
+      "completedAt": "2026-10-23T06:33:24Z"
     }
   ]
 }
