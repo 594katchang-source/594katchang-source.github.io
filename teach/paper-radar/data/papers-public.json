@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T06:56:03.116Z",
+  "generatedAt": "2026-10-23T07:03:34.529Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -103446,6 +103446,82 @@
       "content": "---\ntags:\n  - source/journal\ncitekey: null\ndoi: \"10.1136/bmjopen-2026-127985\"\nzotero: null\njournal: \"BMJ Open\"\nyear: 2026\nauthors: \"Reignier J, Benguerfi S, Corbin E, Maugars D, Thibault R, Jirka A, Cattagni T, Nordez A, Argaud L, Badie J, Bertrand M, Beurton A, Boiffier M, Botoc N, Bourel C, Bourion A, Chermak A, Darmon M, Debarre M, Delbove A, Desgrouas M, Devaquet J, Galerneau L, Georges Q, Guillotin V, Guérin L, Henry C, Herbrecht J, Jaber S, La Combe B, Lainé L, Lambiotte F, Landais M, Maizel J, Malaquin S, Maldiney T, Maxime V, Mercier E, Merdji H, Mira J, Morawiec E, Muller D, Nigeon O, Noel T, Pierrot M, Piton G, Plantefeve G, Quenot J, Rigaud J, Rougon M, Saccheri C, Sboui G, Silva D, Souweine B, Tadie J, Tamion F, Thiery G, Vanderlinden T, Vinatier I, Souron R, Le Gouge A\"\nstudy_type: \"RCT protocol\"\npmid: \"42901551\"\nreview_depth: \"quick\"\n---\n\n> [!info] 品質快照\n> **設計**：多中心 RCT 計畫｜**n**：目標 830（每組 415）｜**RoB 2**：🟡計畫顯示部分疑慮；尚無試驗結果可判定實際偏差\n> **GRADE**：不適用（尚無效果估計）｜**Registration**：本文列 NCT06581939；登錄歷史與最終報告一致性尚未核實\n> **一句話 verdict**：試驗設計與介入交代清楚，但開放標籤、常規照護差異及多項追蹤資料仍需留意；本文不是療效結果，不能判定方案有效或安全。\n\n# Key Points\n\n## Summary\n\n> ✅ Full text reviewed\n\nNUTRIREA-4 是一項計畫中的 830 人隨機試驗，評估從 ICU 延續至返家 12 週的個別化營養與活動復健是否改善 6 個月步行功能；文章未提供任何組間療效結果。樣本數計算使用 6MWD 組間差 ==30 m== 作為最小臨床重要差異，這是設計假設，不是觀察到的效果。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：研究團隊正在測試，將營養支持與循序活動復健一路接到返家後，能不能幫助嚴重 ICU 病人恢復活動能力。\n> - **為什麼做**：重症存活者可能長期肌力與活動受限；先前單獨做營養或復健，沒有穩定證明可改善長期恢復，研究者因此設計整合、跨住院與居家階段的方案。\n> - **主體**：目標收案 830 位在 52 家法國 ICU 接受侵入性機械通氣及升壓藥治療休克的成人。實驗組接受個別化營養、物理治療和活動訓練，從 ICU 早期持續至返家 12 週；對照組住院時依各院常規、返家後依原醫療照護。主要比較是隨機後 6 個月的 6 分鐘步行距離，由不知道分組的評估人員測量。**目前沒有兩組實際數值或效果差異**；本文只提供設計與統計計畫。\n> - **所以呢**：這項研究值得追蹤，但現在不能說方案改善步行、減少死亡或安全。文中的熱量與蛋白質目標屬試驗方案，不能直接當成個別 ICU 病人的營養處方。\n\n## Clinical Application\n\n- **適用範圍**：成人重症照護研究；目前不能據此改變臨床治療或對患者承諾療效。\n- **方案內容**：試驗急性期指定 6 kcal/kg/day、蛋白質 0.2–0.4 g/kg/day；恢復期及一般病房目標另有分期設定，且依臨床狀態、體重規則、耐受及攝取調整。這些數值僅描述研究介入，不是普遍處方。\n- **安全與執行**：復健需依耐受漸進；呼吸、循環、神經或症狀不穩定時暫停。本文是計畫書，尚未提供不良事件率或方案安全性結果。\n- **外部適用性**：限於法國 ICU 的特定成人重症族群；多項排除條件限制外推至病前行走能力差、特定認知／神經問題或難以完成追蹤者。\n\n# Paper Details\n\n## Methods\n\n- **研究設計／地點**：務實型、多中心、平行組、1:1 隨機、開放標籤、評估者盲性的優效性 RCT；52 家法國 ICU。按中心分層，由安全中央網路系統執行電腦隨機。（Methods and analysis—Trial design／Study setting／Randomisation）\n- **族群**：年滿 18 歲；近期開始侵入性機械通氣及因休克使用升壓藥，並預期隨機後仍需通氣至少 48 小時。另要求能依法國規定同意參與。排除條件包含長期特殊營養需求、病前不能行走、特定神經／認知病況及難以完成返家追蹤等。（Study population）\n- **實驗組—營養**：以 BMI <30 kg/m² 的實際體重估算需求；肥胖者以 BMI 30 kg/m² 對應體重計算。急性期（最初 7 天，或至拔管及升壓支持停止）目標為 6 kcal/kg/day、蛋白質 0.2–0.4 g/kg/day；恢復期 20–30 kcal/kg/day、蛋白質 1.0–1.3 g/kg/day；一般病房 25–35 kcal/kg/day、蛋白質 1.2–1.5 g/kg/day。目標供應至少為估計需求 75%，依情況選擇腸道／靜脈營養；恢復口服時評估吞嚥、偏好與攝取。返家後營養師透過網路平台追蹤 12 週。（Interventions—The nutrition programme）\n- **實驗組—活動**：ICU 起依意識、肌力、活動能力與耐受，由被動活動漸進至主動訓練、坐起、站立、平衡、腳踏車及步行；每週五個工作日，出現呼吸、循環、神經或症狀不穩時暫停。返家後 12 週包含監督式肌力與循環訓練及逐步增加的步行。（Interventions—The physical rehabilitation programme）\n- **對照組**：住院期間依地方營養與復健常規；出院後由原照護者決定營養支持與活動安排。（Control group）\n- **主要結果**：隨機後 6 個月，由盲性醫師／研究護理師按 ATS 指引測量 6MWD（公尺）。研究設計以 30 m 為最小臨床重要組間差、SD 150 m、alpha 5%、beta 20% 計算樣本數，共 830 人。（Study outcomes—Primary outcome／Sample size）\n- **其他結果**：肌力與肌肉量、站立／行走恢復、身體活動、熱量與蛋白質攝取、體重、呼吸器天數、感染、住院與死亡、血糖及生活品質；另設 PTSD 與生物標記附屬研究。（Study outcomes）\n- **統計**：無中期分析；依原隨機組分析。隨機後 6 個月內死亡者的 6MWD 設為 0；缺失資料採多重插補。主要結果使用 Wilcoxon 檢定；其他結果依性質使用 Wilcoxon、競爭風險、聯合模型或卡方檢定。（Statistical analysis）\n- **執行進度**：本文報告收案始於 2024-12-14；截至 2026-08-31 累計 628 人，預估 2027 年 6 月完成招募、2028 年 6 月完成最後追蹤。（Trial status）\n\n## Critical Appraisal\n\n### RoB 2（依 RCT 設計逐 domain；本篇為 protocol，以下評的是預定設計，不是已完成試驗的實際偏差）\n\n| Domain | 判定 | 理由 |\n|---|---|---|\n| 隨機化過程 | 🟢 計畫較低疑慮 | 文中規劃中央安全網路系統電腦隨機、1:1 分派並按中心分層；尚無執行資料供查核隱蔽是否落實。 |\n| 偏離預定介入 | 🟡 部分疑慮 | 患者與團隊無法盲化，對照為各院常規；共介入、遵從及污染程度需看結果報告。 |\n| 缺失結果資料 | 🟡 部分疑慮 | 計畫使用 ITT 與多重插補，但尚無失訪／缺失比例與插補模型細節。 |\n| 結果測量 | 🟡 部分疑慮 | 主要 6MWD 由盲性評估者測量；患者自陳結果仍可能受未盲化影響。 |\n| 選擇性報告 | 🟡 尚待核對 | 本文有列登錄號與預定結果；未取得可比對的登錄歷史及正式結果報告，無法判定是否選擇性報告。 |\n\n**整體判讀**：計畫設計本身呈現部分疑慮；由於尚未完成試驗，不能對實際 RoB 2 作最終評級。\n\n### 統計、MCID 與推論檢查\n\n- 30 m 是樣本數計算的 MCID 假設；尚無主要結果數值、組間差、95% CI 或 p 值可與 MCID 對照。\n- 死亡以 0 m 納入 6MWD，使主要估計同時反映死亡與倖存者步行功能；解讀時需連同死亡率及存活者功能結果檢視。\n- 多項次要結果涉及多次比較；本文未說明如何控制多重比較。後續解讀應以預先註冊與統計分析計畫為準。\n- 本文聲明 NCT06581939；ClinicalTrials.gov 詳細頁可定位，但本次瀏覽器擷取未提供該筆登錄內容，故未完成 primary-outcome history 的直接比對。本文的研究目標與登錄詳情一致性保留待核，不標成已確認無 outcome switching。\n- 本篇是試驗計畫，沒有觀察到的療效結果或因果結論；`argdown_lint.py` 不適用。GRADE 亦不適用，因沒有實際效果估計可分級；未執行 grade_judge.py。\n\n### 作者承認的限制、優點與風險\n\n- 🟢 52 家 ICU 的務實型設計、中央隨機、主要結果盲性評估；介入內容涵蓋跨 ICU、病房與返家恢復階段。\n- 🔴 作者明確承認患者及照護團隊不能盲化。對照組依地方常規，可能有照護差異；整合介入也無法分辨營養、運動及照護協調各自效果。\n- 🟡 對多項次要結果的多重比較控制、缺失資料模型細節，本文未報告；須查閱正式統計分析計畫及後續結果論文。\n- 🟡 本文稱不預期發生不良事件，且未規劃資料監測委員會；安全性仍需由後續試驗實際報告核驗。\n- **Funding/COI**：法國衛生部 PHRC 2022-0056 資助；Nantes University Hospital 為試驗贊助者。本文說明資助方不負責設計、收集、分析、解讀或投稿決定。\n\n## Key Findings\n\n- **沒有已觀察到的主要或次要結果**；不能推論介入有效、無效或安全。\n- 本文刊載時仍在收案：截至 2026-08-31 納入 628/830 人，這是進度數字，不是結果樣本分析。\n- Quick review 範圍：完成全文、方法、統計假設、RoB 2 計畫層級判讀、臨床界線及試驗登錄核對嘗試。期刊指標、作者背景、引用影響及廣泛參考文獻查核依 focused-quick 模式略過；這不是已完成深度評讀。\n\n## 逐節核讀與來源位置\n\n逐節大綱與全篇主要段落摘要另存於 [`outline-nutrirea4.md`](D:/@Codex/論文讀書小站/work/20261023T035817Z-worker-trigger/process/outline-nutrirea4.md)。原始 HTML 身分匹配 DOI 與完整題名；來源 bytes、source SHA、擷取文字字數與 SHA、首／中／末檢查及全文章節核對收據位於本輪 evidence。主要依據原文 Abstract、Study population、Interventions、Study outcomes、Randomisation、Blinding、Sample size、Statistical analysis、Trial status、Ethics and dissemination。\n\n## Resource\n\n### Source\n\n- [DOI](https://doi.org/10.1136/bmjopen-2026-127985)\n- [PubMed record](https://pubmed.ncbi.nlm.nih.gov/42901551/)\n- [ClinicalTrials.gov registration](https://clinicaltrials.gov/study/NCT06581939)（本次工具無法擷取登錄欄位，未據此宣稱 outcome 已核對）\n- 全文來源檔：`[local path removed]`（PMCID PMC13684217；HTML 內授權為 CC BY-NC 4.0）",
       "cards": [],
       "completedAt": "2026-10-23T06:52:41.169Z"
+    },
+    {
+      "id": "doi:10.1136/bmjopen-2026-127985:digest",
+      "paperId": "doi:10.1136/bmjopen-2026-127985",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Impact of an early extended rehabilitation programme combining individually tailored nutrition and physical activity on patient outcomes after invasive mechanical ventilation and vasopressor therapy in the ICU: design and conduct of a multicentre, randomised, controlled, open-label, assessor-blinded trial (NUTRIREA-4).",
+      "authors": "Jean Reignier, Soraya Benguerfi, Emeline Corbin, Diane Maugars, Ronan Thibault, Adam Jirka, Thomas Cattagni, Antoine Nordez, Laurent Argaud, Julio Badie, Maxime Bertrand, Alexandra Beurton, Matthieu Boiffier, Nicolae-Vlad Botoc, Claire Bourel, Anne-Astrid Bourion, Akli Chermak, Michael Darmon, Matthieu Debarre, Agathe Delbove, Maxime Desgrouas, Jérôme Devaquet, Louis-Marie Galerneau, Quentin Georges, Vivien Guillotin, Laurent Guérin, Christophe Henry, Jean-Etienne Herbrecht, Samir Jaber, Béatrice La Combe, Laurent Lainé, Fabien Lambiotte, Mickael Landais, Julien Maizel, Stéphanie Malaquin, Thomas Maldiney, Virginie Maxime, Emmanuelle Mercier, Hamid Merdji, Jean-Paul Mira, Elise Morawiec, Damien Muller, Olivier Nigeon, Thibaut Noel, Marc Pierrot, Gael Piton, Gaetan Plantefeve, Jean-Pierre Quenot, Jean Philippe Rigaud, Marion Rougon, Clément Saccheri, Ghada Sboui, Daniel Silva, Bertrand Souweine, Jean Marc Tadie, Fabienne Tamion, Guillaume Thiery, Thierry Vanderlinden, Isabelle Vinatier,",
+      "journal": "BMJ Open",
+      "year": "2026",
+      "doi": "10.1136/bmjopen-2026-127985",
+      "abstract": "Survivors of severe critical illness often experience long-lasting physical, quality of life and psychological impairments. Intensive care unit (ICU)-acquired weakness develops early and is associated with prolonged mechanical ventilation, delayed functional recovery, impaired quality of life and greater healthcare utilisation. Nutritional support and early mobilisation are considered key components of ICU care. However, trials have evaluated either nutritional or physical rehabilitation strategies and have not consistently demonstrated long-term benefits. A strong physiological rationale exists for combining nutritional therapy and structured physical rehabilitation. Moreover, most interventions were limited to the ICU stay. The NUTRIREA-4 trial will assess whether an individualised, integrated rehabilitation strategy of nutritional support, physiotherapy and adapted physical activity initiated early in the ICU and continued throughout and after the hospital stay improves long-term physical performance and recovery. NUTRIREA-4 is the first large-scale multicentre randomised controlled trial evaluating such a comprehensive approach in survivors of severe critical illness. NUTRIREA-4 is a randomised controlled, multicentre, open-label trial comparing two parallel groups of patients receiving invasive mechanical ventilation and vasopressor therapy for shock and randomised to either an individualised rehabilitation programme or usual care. The rehabilitation programme combines goal-directed nutritional support, physiotherapy and adapted physical activity delivered from ICU admission to 12 weeks after the return home. We will include 830 patients in 52 French ICUs. The primary endpoint is the 6-minute walk distance measured by blinded assessors 6 months after randomisation. Secondary outcomes include muscle strength, physical activity, nutritional intake, ICU-acquired infections, quality of life, mortality and psychological recovery. The NUTRIREA-4 trial has been approved by the appropriate ethics committee. Patients are included after informed consent according to French law. The results will be published in international peer-reviewed journals and presented at conferences. NCT06581939.",
+      "legalFullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13684217/",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42901551/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "design:randomised controlled",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "NUTRIREA-4 ICU 復健試驗計畫內容整理",
+      "content": "---\ntags:\n  - research/digest\n  - med/nutrition\ncitekey: Reignier2026NUTRIREA4\ndoi: \"10.1136/bmjopen-2026-127985\"\nzotero: null\njournal: \"BMJ Open\"\nyear: 2026\nauthors: \"Reignier J et al.\"\nstudy_type: \"RCT protocol\"\nreview_depth: digest\n---\n\n> [!summary] 30 秒層：一句話 + 重點\n> **一句話：** NUTRIREA-4 正在測試，從 ICU 早期開始、延續到返家 12 週的個別化營養與活動復健，能否改善嚴重重症患者 6 個月後的步行功能。\n> - 計畫在法國 52 家 ICU 收案 830 人；本文發表時截至 2026-08-31 已收 628 人。\n> - 實驗組把分期營養、物理治療與居家活動接在一起；對照組採各院常規照護。\n> - 主要結果預定為隨機後 6 個月的 6 分鐘步行距離（6MWD）；樣本數計算將 30 m 當作最小臨床重要差異。\n> - 文章是研究計畫，沒有任何組間療效或安全性結果；30 m 是設計假設，不是觀察效果。\n> **品質 →** 已另篇完成 focused-quick 評讀，見 [[Reignier2026 - NUTRIREA-4 ICU 復健試驗計畫]]。\n\n# 5 分鐘層\n\n## 研究問題 / 背景\n\n**要點：** ICU 存活者的功能復原可能延續數月；本文要補上過去只測營養或只測復健、且介入時間常局限於 ICU 的缺口。\n\n- ICU 後可能出現肌肉流失、ICU-acquired weakness、活動能力下降、生活品質變差及心理困擾。\n- 作者認為營養不足可能限制運動復健效果，而單獨補營養或單獨活動都未穩定顯示長期改善，因此設計整合且跨 ICU、病房與返家階段的方案。\n- 研究假說是早期開始的營養、物理治療與活動方案，持續到返家後，可能改善 6 個月身體表現；本文尚未檢驗假說是否成立。（Abstract—Introduction；Introduction—Background and rationale／Hypothesis／Objectives）\n\n## 方法\n\n**要點：** 這是一項務實型、多中心、平行組 RCT 計畫；介入與對照照護時間跨度不同，主要由盲性評估者在 6 個月測量步行距離。\n\n- **設計與地點：** 法國 52 家 ICU，目標收案 830 位成人；中央網路系統以 1:1 分派並按中心分層。患者與照護團隊知道分組，但主要結果評估者盲性。（Trial design／Study setting／Randomisation／Blinding）\n- **對象：** 因休克使用升壓藥、近期開始侵入性機械通氣，且預期仍需通氣至少 48 小時的成人；需符合其他同意與追蹤條件。多種神經、認知、社會與病前行走條件列為排除。（Study population）\n- **實驗組—營養：** 以 BMI <30 kg/m² 者實際體重、肥胖者 BMI 30 對應體重計算。急性期（最初 7 日或拔管且停升壓支持前）計畫供應 ==6 kcal/kg/day、蛋白質 0.2–0.4 g/kg/day==；恢復期 ==20–30 kcal/kg/day、蛋白質 1.0–1.3 g/kg/day==；病房期 ==25–35 kcal/kg/day、蛋白質 1.2–1.5 g/kg/day==。目標至少供應估計需求 75%，依臨床狀況與耐受決定腸道／靜脈營養及口服調整。（Interventions—The nutrition programme）\n- **實驗組—活動與返家追蹤：** ICU 由被動關節活動逐步進至主動訓練、坐起、站立、平衡、腳踏車與步行；每週五個工作日，出現臨床不穩時暫停。返家後持續 12 週，包含監督式肌力、循環訓練與漸進步行；營養師以網路平台追蹤攝取與飲食。（Interventions—The physical rehabilitation programme）\n- **對照組：** 住院時依各院常規提供營養與復健；返家後由原照護團隊決定安排。（Control group）\n- **結果與分析：** 主要結果為隨機後 6 個月依 ATS 指引測量的 6MWD。計畫每組 415 人，以 30 m 組間差、SD 150 m、alpha 5%、beta 20% 計算樣本數；無中期分析。依原分派組分析，6 個月前死亡者的 6MWD 記 0，缺值採多重插補。（Study outcomes—Primary outcome／Sample size／Statistical analysis）\n\n## 主要發現\n\n**要點：** 本文報告研究設計及進度，沒有療效結果；目前可以吸收的是「研究會怎麼回答問題」，不能說這種照護已改善病人功能。\n\n| 本文呈現的數字 | 代表什麼 | 不是什麼 |\n|---|---|---|\n| 830 人、52 家 ICU | 預定總收案及試驗場域。 | 不是已分析的樣本數。 |\n| 628 人（截至 2026-08-31） | 試驗進行中的收案進度。 | 不是介入完成者或結果分析人數。 |\n| 6MWD 於隨機後 6 個月測量 | 預先指定的主要結果與時間點。 | 不是已觀察的功能改善。 |\n| 30 m、SD 150 m、alpha 5%、beta 20% | 樣本數計算的假設。 | 不是組間實際差異或信賴區間。 |\n| 2027 年 6 月預計完成招募；2028 年 6 月預計最後追蹤 | 本文刊載時的預定進度。 | 不是目前更新後的實際完成日期。 |\n\n- 主要研究結果、次要結果、效果量、95% CI、p 值及實際不良事件率均尚未出現在這篇 protocol。（Trial status／Study outcomes）\n\n## 重要圖表重述\n\n**要點：** 圖 1 呈現實驗組和常規照護的跨階段照護方案；圖 2 呈現從篩選、隨機到 6 個月評估的試驗流程。\n\n- **Figure 1（Trial intervention and usual care）：** 依圖說與正文，重點是實驗組把分期營養、復健與返家後活動連起來，對照組使用地方常規；本文以文字提供方案細節。\n- **Figure 2（Trial diagram）：** 依圖說，呈現受試者篩選、分組和主要追蹤節點；此處依圖說與正文重述，未另外把原圖重製成新的流程圖。\n\n## 與既有認知的對照\n\n**要點：** 既有本機筆記談到重症分階段營養及 ICU 轉出後供應落差；NUTRIREA-4 把跨階段營養與活動整合成一項隨機試驗計畫，但還沒有結果回答是否有效。\n\n- 本機〈重症急性期到出 ICU 後的分階段營養治療全文內容整理〉（DOI: 10.3390/nu18172840；敘述性回顧）主張按代謝階段重新評估，並提醒其框架未經前瞻驗證。NUTRIREA-4 將急性、恢復、病房營養目標與活動方案具體寫入 RCT 計畫；這只代表提出可測試介入，尚未證明該方案有效。\n- 本機〈ICU轉出營養供應與交班：三中心研究內容整理〉（DOI: 10.1016/j.clnesp.2026.105068；103 人回溯研究）報告 ICU 到病房供應與交班遵循之間有觀察到的關聯，但不能推論因果。NUTRIREA-4 的隨機設計改以 6 個月功能為主要結果，問題層次不同，也尚無結果可比較。\n- 對照來源：本機 `available-site-notes.json`，產生時間 2026-10-23 06:55:50 UTC、2,563 筆；按重症營養、post-ICU 與交班關鍵詞查找，閱讀上述兩份 digest 內容。這是當時可讀筆記快照，不代表檢索私人站全部文獻。\n\n## 概念／名詞整理\n\n**要點：** 先分清楚試驗方案、統計假設與實際結果，便不會把研究計畫中的數字當成病人已獲得的效益。\n\n- **6MWD／6MWT：** 6 分鐘步行距離／測試；本文用作 6 個月主要結果。\n- **MCID：** 最小臨床重要差異。本文以 30 m 供樣本數計算；試驗尚未公布實際組間差異。\n- **Usual care：** 對照組照護按參與 ICU 與原醫療團隊的地方常規進行，並非一套全國一致的營養／復健方案。\n- **ITT（意向治療）：** 隨機分派後按原組別分析；本文計畫將隨機後 6 個月內死亡者的 6MWD 記為 0。\n- **分期營養：** 試驗把營養目標依急性、恢復及病房階段設定；這些是方案的一部分，不是通用個人處方。\n\n## 臨床意義／怎麼用\n\n**要點：** 本文可用來理解一項大型 ICU 後復原試驗的設計，不適合直接拿來替患者調整營養目標或承諾復健成效。\n\n- 營養和活動需跨 ICU、病房與返家階段銜接，這是研究要檢驗的照護模型。\n- 個別患者的能量／蛋白質需求仍需由照護團隊依疾病階段、器官功能、體重計算、餵食途徑與耐受判斷；本文中的數值只描述實驗組方案。\n- 後續結果應同時看 6MWD、死亡率、肌力、感染、營養攝取、不良事件、失訪及方案遵從，不能只看單一指標。\n- 族群限於法國嚴重 ICU 成人；不宜直接外推至一般病房、兒少、病前不能行走或排除條件中的族群。\n\n## 自我測驗\n\n**要點：** 用主動回想確認能否說明試驗介入、對照與結論界線。\n\n> [!question]- Q1：NUTRIREA-4 的主要比較是什麼？\n> 比較個別化營養、物理治療與活動復健從 ICU 延伸到返家 12 週的方案，與住院依地方常規、返家依原照護的安排；主要結果是隨機後 6 個月的 6 分鐘步行距離。\n\n> [!question]- Q2：目前能否說這套方案讓患者多走 30 公尺？\n> 不能。30 m 是樣本數計算採用的最小臨床重要差異，不是已觀察到的組間效果；本文沒有結果數值、95% CI 或 p 值。\n\n> [!question]- Q3：對照組的「常規照護」代表什麼？\n> 住院時按各參與 ICU 的地方營養和復健常規；返家後交由原照護團隊安排。不是所有中心都執行相同的對照 protocol。\n\n> [!question]- Q4：為何要把死亡率與 6MWD 一起看？\n> 試驗計畫把 6 個月內死亡者的 6MWD 記為 0，使主要結果的解讀同時受死亡與存活者步行能力影響；後續應一起查看死亡及存活者功能資料。\n\n> [!question]- Q5：文中的營養目標可直接套用到每位 ICU 病人嗎？\n> 不能。它們是特定研究介入、依階段與體重規則設計的方案，不是通用處方；個別支持仍需照護團隊評估。\n\n## Reference\n\n**要點：** 以下來源指向試驗計畫本身；數字依其 Methods、Study outcomes 與 Trial status 章節記錄。\n\n- Reignier J, et al. *Impact of an early extended rehabilitation programme combining individually tailored nutrition and physical activity on patient outcomes after invasive mechanical ventilation and vasopressor therapy in the ICU: design and conduct of a multicentre, randomised, controlled, open-label, assessor-blinded trial (NUTRIREA-4).* BMJ Open. 2026;16:e127985. [DOI: 10.1136/bmjopen-2026-127985](https://doi.org/10.1136/bmjopen-2026-127985).\n- 原文位置：Abstract；Methods and analysis—Study population、Interventions、Study outcomes、Randomisation、Blinding、Sample size、Statistical analysis；Trial status；Ethics and dissemination。\n- 全文來源為 PMCID PMC13684217 的完整 PMC HTML。全文核讀結構見本輪 `outline-nutrirea4.md`，來源身份與 SHA／首中末核對見 `html-crosscheck-nutrirea4.json`。",
+      "cards": [
+        {
+          "title": "NUTRIREA-4測試什麼照護方案？",
+          "question": "NUTRIREA-4 的實驗組和對照組差在哪裡，主要要比較什麼？",
+          "answer": "實驗組從 ICU 早期開始個別化營養、物理治療與活動，延伸到返家後 12 週；對照組住院時採各院常規，返家後依原照護安排。主要結果是隨機後 6 個月的 6 分鐘步行距離。",
+          "tags": [
+            "critical-care",
+            "nutrition",
+            "rehabilitation"
+          ]
+        },
+        {
+          "title": "30公尺代表實際改善嗎？",
+          "question": "本文的 30 m 能否說成患者已多走 30 公尺？",
+          "answer": "不能。30 m 是樣本數計算用的最小臨床重要差異假設；本文是試驗計畫，未報告實際 6MWD 組間差、信賴區間或 p 值。",
+          "tags": [
+            "6MWD",
+            "MCID",
+            "trial-protocol"
+          ]
+        },
+        {
+          "title": "死亡如何計入主要結果？",
+          "question": "研究計畫為何把隨機後 6 個月內死亡者的 6MWD 記為 0？解讀時要注意什麼？",
+          "answer": "這是預先指定的處理方式，讓死亡者在功能結果中落在最差值；因此 6MWD 的組間結果會同時受到死亡與存活者步行能力影響。應連同死亡率與存活者功能資料一起看。",
+          "tags": [
+            "6MWD",
+            "mortality",
+            "outcome-interpretation"
+          ]
+        },
+        {
+          "title": "試驗進度等於療效嗎？",
+          "question": "截至 2026-08-31 納入 628 人，是否表示方案已證明有效？",
+          "answer": "不是。628 人是招募進度，不是療效分析。本文仍在描述研究計畫；沒有已公布的組間功能、死亡、安全性或其他結果。",
+          "tags": [
+            "trial-protocol",
+            "enrollment",
+            "evidence-interpretation"
+          ]
+        },
+        {
+          "title": "營養數值可直接當處方嗎？",
+          "question": "試驗計畫中的急性期 6 kcal/kg/day 和蛋白質 0.2–0.4 g/kg/day，能否直接套用於每位 ICU 病人？",
+          "answer": "不能。這是特定研究介入、依病程階段與體重規則設計的方案，不是通用處方。個別營養支持仍需照護團隊依病況、器官功能、耐受與臨床目標評估。",
+          "tags": [
+            "critical-care",
+            "nutrition",
+            "clinical-boundary"
+          ]
+        }
+      ],
+      "completedAt": "2026-10-23T07:00:55.318Z"
     }
   ]
 }
