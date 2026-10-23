@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T10:02:56.820Z",
+  "generatedAt": "2026-10-23T04:30:41.744Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -102811,6 +102811,31 @@
         }
       ],
       "completedAt": "2026-10-22T10:01:40.847Z"
+    },
+    {
+      "id": "doi:10.32687/0869-866x-2026-34-s2-1162-1168:review",
+      "paperId": "doi:10.32687/0869-866x-2026-34-s2-1162-1168",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "[Medical, social, and economic conditionality of the population's microelement status in the context of the obesity epidemic].",
+      "authors": "Shvets Y",
+      "journal": "Obesity and metabolism (PubMed)",
+      "year": "2026",
+      "doi": "10.32687/0869-866X-2026-34-s2-1162-1168",
+      "abstract": "The obesity epidemic is a complex medical and social problem. A decrease in the purchasing power of the population provokes an increase in the consumption of cheap ultra-processed food. This leads to the paradox of «hidden hunger», when excessive caloric intake is combined with a pronounced deficiency of micronutrients. To assess the medical, social, and economic conditionality of the population's microelement status in the context of the growing obesity epidemic. The empirical base consisted of federal statistics data (Rosstat), the results of regional epidemiological monitoring (Tula region), and an array of laboratory S-values for 2019-2022. The relationship between economic markers and microelement status was assessed using Spearman's rank correlation coefficient. The analysis showed a steady decrease in the population's provision with selenium, zinc, and iron. Spearman's correlation analysis revealed a strong positive relationship between income levels and copper consumption (0.8…1.0) and a negative dependence for toxicants. The growth of inflationary pressure and the increase in the share of food expenses to 36.6% force vulnerable social groups to switch to cheap energy sources to the detriment of micronutrient density. The social gradient of obesity dictates the need to revise preventive approaches. Economic pressure acts as the primary driver of nutritional imbalance. the work relies on an indirect assessment of patients' incomes and has a risk of sample selection bias, while the short time interval of observations gives the identified correlations an exploratory nature. The integration of microelement screening into the state monitoring system will allow detecting hidden nutritional deficiencies at early stages. Preventive work should be based on targeted support for socially vulnerable groups.",
+      "legalFullTextUrl": "https://doi.org/10.32687/0869-866x-2026-34-s2-1162-1168",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42904727/",
+      "category": "recommended",
+      "tags": [
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "obesity and metabolism",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "經濟壓力與微量元素狀態",
+      "content": "---\ntags:\n  - source/journal\n  - med/nutrition\ncitekey: \"Shvets2026\"\ndoi: \"10.32687/0869-866X-2026-34-s2-1162-1168\"\nzotero: \"\"\njournal: \"Problems of Social Hygiene, Public Health and History of Medicine\"\nyear: 2026\nauthors: \"Shvets Yu. Yu.\"\nstudy_type: \"生態式次級資料分析與短期時間序列分析\"\npmid: \"42904727\"\nreview_depth: \"quick\"\n---\n\n> [!info] 品質快照\n> **設計**：多來源彙總資料的生態式探索分析，另以 2019–2022 年四個年度點做時間序列分析｜**n**：個人樣本數未報告；模型時間點 4 個｜**RoB**（觀察性研究領域評讀，非正式量表總分）：🔴高\n> **GRADE**：不適用（單篇、非介入式生態分析，無可評的臨床介入證據體）｜**Registration**：不適用；文中未報告研究註冊\n> **一句話 verdict**：提出經濟條件與微量元素狀態可能相關的假說，但樣本、檢驗方法與模型細節不足；四個年度點不能支撐作者的因果結論。\n\n# Key Points\n\n## Summary\n\n> ✅ 已讀核驗全文（俄文正文與英文摘要；7 頁）。首頁 DOI／題名、印刷頁 1165 的表 1–3，以及末頁參考文獻已與原 PDF 對照。\n\n作者把俄羅斯官方統計、圖拉州 2025 年監測與 2019–2022 年實驗室微量元素資料放在一起，探索收入、物價與微量元素指標的關聯。表 3 報告 Se、Zn、Fe 的收入彈性為負，Cu 為正；但個人樣本數、實驗室流程、S 值定義與完整模型資料未交代，無法獨立重算。四個年度點的關聯不能證明經濟壓力造成營養失衡，更不能直接形成個人篩檢門檻。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽（繁體中文白話）\n> - **一句話**：這篇文章想知道收入與食物價格是否和人口的微量元素指標一起變動。\n> - **為什麼做**：作者認為預算有限時，人們可能買較便宜、熱量較高但營養密度較低的食物，因而同時出現熱量過多與微量營養不足。\n> - **主體**：作者使用全國與圖拉州資料、2019–2022 年實驗室 S 值，報告 Se、Zn、Fe 隨收入變化的負彈性（Se −0.62、Zn −0.48、Fe −0.71），Cu 則為 +0.54。這些是作者報告的彙總關聯；文章沒有交代每筆資料來自多少人，也未完整說明統計模型。\n> - **所以呢**：結果適合作為後續研究假說，不能證明收入造成個人缺乏，也不能把文中的 27,400 盧布門檻當作臨床標準。\n\n# Paper Details\n\n## Methods\n\n- **研究問題**：評估社會與經濟條件和人口肥胖、飲食結構及微量元素狀態的關聯。作者另提出將微量元素監測納入公共衛生監測的政策建議。\n- **資料來源**：文中列出 Rosstat／Rospotrebnadzor 彙總統計、圖拉州 2025 年區域監測、2019–2022 年實驗室 S 值，以及 2019–2025 年俄語文獻整理。各資料集的納入方式與彼此連結方式未完整交代（PDF 頁 1163–1164）。\n- **樣本**：個人樣本數、年齡性別分布、納入排除條件及每年檢驗人數均未報告。作者承認資料來自實驗室診斷服務，可能有選樣偏差；個人收入未直接測量。\n- **統計方法**：正文提到描述性／比較分析、Spearman 等級相關、Shapiro–Wilk 常態檢定，使用 Excel 與 SPSS 27.0，顯著水準 p<0.05。英文摘要另提 lag=1 線性迴歸、彈性係數、Granger 因果檢定與 Bonferroni 校正；正文後段報告最小平方法及 Newey–West 修正，但未完整給出模型規格、比較次數、調整後 p 值或原始資料。\n- **時間序列**：表 3 以 2019–2022 年 4 個年度點估計收入彈性；作者明確承認時間點少，結果具探索性（PDF 頁 1165–1166）。\n\n## Critical Appraisal\n\n| 領域 | 判定 | 原文依據與理由 |\n|---|---|---|\n| 選樣與代表性 | 🔴 高疑慮 | 以實驗室診斷服務資料推估人口狀態，但未提供樣本數、抽樣框或納入條件；作者也承認選樣偏差風險（PDF 頁 1162、1166）。 |\n| 暴露／混雜 | 🔴 高疑慮 | 個人收入未直接量測，且以總體收入／物價和實驗室指標做彙總比較；未充分交代年齡、性別、疾病、飲食及地區等混雜控制。存在生態謬誤風險。 |\n| 結果測量 | 🔴 資訊不足 | 文章未定義「S 值」、說明檢驗儀器／方法、單位、參考區間或品質控制，無法判斷不同年度與來源是否可比。 |\n| 統計分析 | 🔴 高疑慮 | 四個年度點不足以穩健估計 lag 模型、彈性或方向性因果；正文模型細節不完整，表 1 也沒有可核對的肥胖盛行率數字。 |\n| 選擇性報告 | 🟡 不明 | 未提供研究計畫或完整資料表；表 2 對部分元素只列方向或成組描述。快速評讀未做逐條引用查核。 |\n\n- **效果與數值**：表 3 作者報告收入彈性：Se −0.62（95% CI −0.89 至 −0.35，p<0.01）、Zn −0.48（−0.70 至 −0.26，p=0.02）、Fe −0.71（−1.02 至 −0.40，p<0.01）、Cu +0.54（0.31 至 0.77，p=0.01）、Pb −0.83（−1.15 至 −0.51，p<0.01）。這些數字在此僅按原文轉錄，未能用未提供的原始資料重算（PDF 頁 1165）。\n- **因果／推論落差**：作者以四點時間序列報告收入 → Fe 的 Granger F(1,1)=18.3、p=0.04，反向 p=0.52，並據此寫成經濟限制先於微量元素不足。Granger 時序預測不等於介入因果；四點資料更無法可靠排除共同趨勢或其他混雜。`argdown_lint.py` 對本文因果主張回報 `association_to_causation`，支持前提均屬觀察性關聯，沒有介入證據。\n- **主要推論缺口**：文中提出月收入低於 27,400 盧布時 Fe 低於常模的機率由 0.21 升至 0.63（OR=5.2，95% CI 2.8–9.6），但未交代樣本數、事件數、分位數切點選擇、模型係數或外部驗證；不能當作有效風險門檻。\n- **MCID／GRADE**：研究未測量臨床症狀或介入效益，微量元素彙總指標沒有可用的 MCID；此單篇生態分析不適合給臨床問題的 GRADE 等級。\n- **註冊與資助**：非試驗研究；文中未報註冊。作者稱研究由莫斯科市衛生部轄下研究機構的國家任務資助，並聲明無相關利益衝突（PDF 頁 1163）。\n\n## Clinical Application\n\n- **適應症／Protocol**：無臨床介入或可採用的個人處置 protocol。這篇文章不足以單獨支持全人口微量元素篩檢方案。\n- **禁忌／注意**：不要把作者提出的 27,400 盧布（2022 年價格）門檻套用到台灣或個別病人；它不是經外部驗證的臨床切點。\n- **實務提示**：可把「經濟可負擔性可能影響飲食品質」當作衛教與服務設計時的待驗證假說；若要做個人評估，需回到個人飲食、病史及經核驗的實驗室檢驗，本文不能替代這些資料。\n- **在地適用性**：俄羅斯總體資料與圖拉州監測無法直接外推至台灣高齡營養或疾病營養個案；本文未提供足以比較兩地的個人層級資料。\n\n## Key Findings\n\n1. 表 1 只有全國與圖拉州肥胖趨勢的文字描述，沒有盛行率數字、樣本數或比較統計（PDF 頁 1165）。\n2. 表 2 報告 Cu 與收入正向、Pb/V 與收入負向；Fe 的收入相關係數列為 −0.8 至 −1.0。不同元素的係數與不確定性未完整列出（PDF 頁 1165）。\n3. 表 3 報告 Se、Zn、Fe 的收入彈性為負、Cu 為正；作者推測價格替代可解釋此結果，但未提供個人飲食資料以直接驗證中介機制（PDF 頁 1165–1166）。\n4. 作者報告 2024 年第一季食品支出占總消費支出 36.6%，前一年同期 34.8%；此為官方統計轉述，不是本研究個人層級飲食測量（PDF 頁 1164）。\n\n## Source\n\n- [DOI](https://doi.org/10.32687/0869-866X-2026-34-s2-1162-1168)\n- [PubMed PMID 42904727](https://pubmed.ncbi.nlm.nih.gov/42904727/)\n- 核對位置：摘要與身份（期刊頁 1162／PDF p.1）；資料來源與方法（期刊頁 1163–1164／PDF pp.2–3）；表 1–3（期刊頁 1165／PDF p.4）；時間序列、限制與結論（期刊頁 1166–1167／PDF pp.5–6）；參考文獻（期刊頁 1167–1168／PDF pp.6–7）。",
+      "cards": [],
+      "completedAt": "2026-10-23T04:29:21.2179108Z"
     }
   ]
 }
