@@ -2,6 +2,7 @@
   "use strict";
 
   const PAGE_SIZE = 50;
+  const ARTICLE_PAGES = { "10.1016/j.obpill.2026.100283": "./papers/oma-cps-2026.html" };
   const linkParams = new URLSearchParams(window.location?.search || "");
   const state = { items: [], query: (linkParams.get("q") || "").slice(0, 500), kind: "all", page: 1, openNotes: linkParams.get("open") === "notes" };
   const EXACT_ENGLISH_SEARCH_TERMS = new Set([
@@ -161,7 +162,10 @@
         groups.set(key, { ...item, results: [item] });
       }
     }
-    return [...groups.values()];
+    return [...groups.values()].sort((a, b) => {
+      const latest = (item) => Math.max(0, ...item.results.map((result) => Date.parse(result.completedAt || "") || 0));
+      return latest(b) - latest(a) || String(a.title || "").localeCompare(String(b.title || ""));
+    });
   }
 
   function resultItems(item) {
@@ -365,9 +369,12 @@
   }
 
   function filteredItems() {
-    const terms = expandSearchTerms(state.query);
+    const doiMatch = String(state.query || "").match(/10\.\d{4,9}\/[^\s<>"?#]+/iu);
+    const exactDoi = doiMatch ? doiMatch[0].replace(/[.,;]+$/u, "").toLowerCase() : "";
+    const terms = exactDoi ? [] : expandSearchTerms(state.query);
     return state.items.filter((item) => {
       if (state.kind !== "all" && !resultItems(item).some((result) => result.kind === state.kind)) return false;
+      if (exactDoi) return String(item.doi || "").trim().toLowerCase() === exactDoi;
       const searchable = itemText(item);
       const sourceSearchable = itemSourceText(item);
       return !terms.length || terms.some((term) => {
@@ -425,6 +432,8 @@
     const fullTextLink = link("合法全文", item.legalFullTextUrl);
     const sourceLink = link("來源頁面", item.sourceUrl);
     const doiLink = item.doi ? `<a class="paper-link" href="https://doi.org/${encodeURIComponent(item.doi)}" target="_blank" rel="noopener noreferrer">DOI</a>` : "";
+    const articlePath = ARTICLE_PAGES[String(item.doi || "").trim().toLowerCase()];
+    const articleLink = articlePath ? link("開啟完整筆記頁", articlePath) : "";
     const resultSections = results.map((result) => renderResult(result, displayTitle)).join("");
     return `
       <article class="paper-card">
@@ -440,7 +449,7 @@
         <div class="paper-meta"><span>${escapeHtml(displayJournal)}</span><span>${escapeHtml(item.year || "年份未提供")}</span><span>${escapeHtml(item.doi || "DOI 未提供")}</span></div>
         ${item.abstract ? `<details class="paper-section paper-abstract-section"><summary><span class="paper-note-summary-title">查看摘要</span><span>Abstract</span></summary><p class="paper-abstract"><span class="paper-language-label">Abstract</span>${escapeHtml(item.abstract)}</p></details>` : ""}
         ${tags}
-        <div class="paper-links">${fullTextLink}${sourceLink}${doiLink}</div>
+        <div class="paper-links">${articleLink}${fullTextLink}${sourceLink}${doiLink}</div>
         ${resultSections}
       </article>`;
   }
