@@ -2,7 +2,8 @@
   "use strict";
 
   const PAGE_SIZE = 50;
-  const state = { items: [], query: "", kind: "all", page: 1 };
+  const linkParams = new URLSearchParams(window.location?.search || "");
+  const state = { items: [], query: (linkParams.get("q") || "").slice(0, 500), kind: "all", page: 1, openNotes: linkParams.get("open") === "notes" };
   const EXACT_ENGLISH_SEARCH_TERMS = new Set([
     "cat", "cats", "feline", "felines", "ragdoll", "dog", "dogs", "canine",
     "pet", "pets", "companion animal", "veterinary", "veterinarian", "livestock",
@@ -21,6 +22,8 @@
     reviewCount: document.querySelector("#review-count"),
     digestCount: document.querySelector("#digest-count"),
   };
+
+  elements.query.value = state.query;
 
   const SEARCH_GROUPS = [
     ["肥胖", "obesity", "obesity management", "obesity metabolism"],
@@ -403,7 +406,7 @@
   function renderResult(result, sourceTitle) {
     const noteBody = stripFrontMatter(result.content);
     return `
-        <details class="paper-section paper-note-section">
+        <details class="paper-section paper-note-section" ${state.openNotes ? "open" : ""}>
           <summary><span class="paper-note-summary-title">${escapeHtml(readingSummaryLabel(result, sourceTitle))}</span><span>${escapeHtml(formatDate(result.completedAt))}</span></summary>
           <div class="paper-note">${escapeHtml(noteBody || "目前沒有可顯示的中文筆記內容。")}</div>
           ${renderCards(result.cards)}
