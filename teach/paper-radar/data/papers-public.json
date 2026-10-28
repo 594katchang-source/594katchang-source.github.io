@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T11:16:14.234Z",
+  "generatedAt": "2026-10-28T11:28:30.236Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -106479,6 +106479,32 @@
         }
       ],
       "completedAt": "2026-10-28T11:13:10.495Z"
+    },
+    {
+      "id": "doi:10.3390/foods15203703:review",
+      "paperId": "doi:10.3390/foods15203703",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Ethnobotanical Knowledge, Cultural Resilience, and the Sustainability of Canthium lallanii in Eshowe, South Africa.",
+      "authors": "Msomi B, Sangcozi K, Ntuli N, Nkosi N, Mbhele Z",
+      "journal": "Nutrition guidelines and consensus (PubMed)",
+      "year": "2026",
+      "doi": "10.3390/foods15203703",
+      "abstract": "Traditional food knowledge is a cornerstone of community resilience, cultural identity, and food security, yet it is increasingly threatened worldwide by habitat loss, land-use change, and urbanization, which both clears wild food habitats and draws younger generations away from the land-based practices through which such knowledge is learned and transmitted. Canthium lallanii R.Kr.Singh (syn. Canthium spinosum (Klotzsch ex Eckl. & Zeyh) Kuntze) is an underutilized indigenous fruit plant whose fruit is consumed as a snack and whose various parts are used in folk medicine, construction, and craft-making. However, it is still harvested exclusively from the wild and is vulnerable to local extinction. This study investigated the ethnobotanical uses of C. lallanii among three rural communities in Eshowe, South Africa, to document how traditional plant knowledge continues to underpin household nutrition, income generation, and cultural practice in the face of mounting environmental and social pressure. Data were collected through structured interviews with 100 randomly selected homesteads. The frequency index (FI), relative frequency of citation (RFC), use value (UV), and informant consensus factor (ICF) were calculated, and thematic analysis was used to interpret qualitative responses. Results showed that C. lallanii fruit is universally recognized and consumed as a snack (FI = 100%) and used to flavour traditional beer, while the plant is also drawn upon to treat conditions such as stomachache, pimples or acne, diabetes, and toothache, and for body-cleansing practices. Informant consensus was high for food (ICF = 0.99) and material uses (ICF = 0.91) but low for medicinal uses (ICF = 0.20), indicating that medicinal knowledge is held by only a few individuals. The branches and stems of the species support firewood, homestead construction, fencing, kraals, and craft production, activities that generate supplementary household income. Participants identified climate change, overharvesting, urbanization, deforestation, and the natural ageing of remaining stands as converging threats to the species' survival. In response, community members articulated locally grounded conservation strategies, such as domestication, homestead cultivation, and the deliberate transmission of knowledge to younger generations. These strategies reflect community-driven efforts toward local control over food resources and long-term resource autonomy, consistent with food sovereignty principles. The findings highlight the value of documenting such knowledge before it is lost, and contribute case-based, empirical evidence to wider debates on how traditional plant-based food systems sustain autonomy, dignity, and cultural continuity for rural communities facing environmental and social change.",
+      "legalFullTextUrl": "https://doi.org/10.3390/foods15203703",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42940340/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "design:consensus",
+        "guideline and consensus",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "Eshowe 原生果實知識與保育評讀",
+      "content": "# 論文品質評讀：Eshowe 原生果實知識調查\n\n## 品質快照\n\n- **研究問題**：記錄南非 Eshowe 三個農村社群對 *Canthium lallanii* 的食用、其他用途、季節可得性及保育知識。\n- **設計／對象**：描述性民族植物學訪談；100 戶，受訪者於 2025 年 1–4 月接受 isiZulu 結構式訪談。無對照組、介入或臨床結局。\n- **分析**：FI、RFC、UV、ICF 加主題分析；屬用途報告整理，不能解讀為營養或醫療效果大小。\n- **主要結果**：果實普遍被報告為零食（FI 100%）；果實加入傳統啤酒只由 1/100 受訪者提及；食物用途 ICF 0.99、材料用途 0.91、醫療用途 0.20。醫療項目僅 1–2 位受訪者提及，不構成療效證據。原文 Abstract、Results §3.2、Discussion §4.2。\n- **整體判讀**：對地方用途與知識保存有描述性價值；對一般人群營養、臨床介入、疾病治療或食品安全的直接證據不足。\n\n## Critical Appraisal／方法與偏差\n\n| 面向 | 評讀 | 依據 |\n|---|---|---|\n| 取樣與外部效度 | 文中報告在三個 Eshowe 農村社群訪談 100 戶並稱隨機選戶；仍是單一地理區域的家庭樣本。文章未提供足以建立更廣人口代表性的多地抽樣或外部驗證，不能推廣至南非所有社群或其他物種。 | Methods §§2.1–2.2；Limitations §4.6 |\n| 測量與回憶 | 結構式訪談與自由回憶可記錄在地知識，但答案可能受回憶、社會期許及低顯著用途漏報影響；作者亦明確承認此類限制。 | Methods §2.2；Limitations §4.6 |\n| 指標解讀 | FI、RFC、UV、ICF 衡量被提及及受訪者間共識；特別是高 ICF 不代表食物營養品質或療效。小量民俗醫療報告尤其不能被轉寫成有效治療。 | Methods §2.3；Results §3.2；Limitations §4.6 |\n| 混雜與因果 | 研究為橫斷式回溯訪談，沒有追蹤或比較組；氣候、過度採收、都市化、砍伐與植株老化為受訪者報告的威脅，不是研究直接驗證的因果效應。 | Results §3.4、Figure 6；Discussion §4.4 |\n| 營養／臨床測量 | 沒有膳食攝取量、果實營養組成、人體生物標記、健康結果或介入。作者也未測量 *C. lallanii* 果實或其加入飲品後的化學／發酵變化。 | Methods §§2.2–2.3；Discussion §§4.2、4.6 |\n| 藥理及安全 | 糖尿病、胃痛、痘疹、牙痛等用途是少數受訪者的民俗報告；沒有藥理、毒理或臨床試驗，不能推薦作治療，也不能據此宣稱安全。 | Results §3.2；Discussion §§4.2、4.6 |\n\n## 白話導讀\n\n這篇研究問的是「當地家庭怎麼認識和使用這種野生果樹」，不是「吃它能不能改善健康」。訪問到的家庭普遍把果實當零食；材料用途也常見。傳統啤酒及藥用用途則只由少數人提及。作者把地方知識和生計、文化傳承、物種保育連在一起，提出在地培育及向年輕世代傳承等方向。\n\n作者提出的健康用途仍是受訪者回報。研究沒有測定果實的營養成分或人體效果，也沒有驗證藥用做法；因此不能從這篇文章推論降血糖、治療胃痛或其他疾病效益。\n\n## Clinical Application／臨床與營養應用界線\n\n- **可用於**：作為文化敏感的飲食訪談背景，提醒營養照護者詢問個案的地方食物、季節性食物取得與家庭知識；作為社區食物系統／保育個案閱讀。\n- **不可用於**：估算營養素、建議食用份量、宣稱疾病預防／治療、替代藥物，或推論藥用安全性。本文沒有相應測量。\n- **下一步研究**：若要建立食品營養證據，需對果實作成分與食品安全分析；若要驗證發酵用途，須直接檢測加入果實前後的發酵品質；若要支持醫療主張，需先有標準化安全性／藥理資料，再進入合宜的人體研究。這些是研究建議，不是本文已完成的工作。\n\n## 關鍵限制\n\n1. 三個社群、100 戶的地方性描述研究，外部效度有限。\n2. 自陳與回憶可能帶來偏差；低頻用途可能因自由回憶而漏報。\n3. 未測量營養組成、實際攝取量、發酵產物、藥理效果或臨床結局。\n4. 作者提出的環境威脅與保育方案主要反映社群觀點，不能等同長期生態監測或介入成效。\n\n## 來源位置\n\n- 原文 DOI：[10.3390/foods15203703](https://doi.org/10.3390/foods15203703)\n- 核心結果：Abstract；Results §§3.1–3.4；Discussion §§4.1–4.6；Conclusions §5。\n- 逐段閱讀及原始影像核對：本資料夾 `evidence/review-reading-outline.md`（首／中／末影像 p.1、p.11、p.21）。\n- 原文頁 1：題名／DOI／CC BY；頁 11：Figure 6 與 Discussion；頁 21：參考文獻／Publisher’s Note。",
+      "cards": [],
+      "completedAt": "2026-10-28T11:25:33.128Z"
     }
   ]
 }
