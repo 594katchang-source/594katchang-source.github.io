@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T04:28:41.558Z",
+  "generatedAt": "2026-10-28T04:35:45.418Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -105211,6 +105211,81 @@
       "content": "---\ntags:\n  - source/journal\ncitekey: \"Baek2026KHEI\"\ndoi: \"10.3390/nu18203356\"\nzotero: \"\"\njournal: \"Nutrients\"\nyear: 2026\nauthors: \"Baek SU; Yoon JH\"\nstudy_type: \"cross-sectional\"\nreview_depth: \"quick\"\n---\n\n> [!info] 品質快照\n> **設計**：橫斷面分析｜**樣本**：KNHANES 2022–2024 成人 14,050 人｜**偏倚風險**（cross-sectional、NOS-informed）：🟡中偏高\n> **GRADE**：Very low（較高 KHEI 與高 hs-CRP 的關聯；觀察性起始 Low，偏倚風險嚴重降一級，依 grade_judge.py 計算）\n> **登錄**：n.a.／本文未報告預先註冊｜**一句話 verdict**：代表性樣本中，高 KHEI 與較低 hs-CRP 勝算相關；橫斷面、單日飲食回憶、反向因果可能及排除門檻文字不一致，使因果推論很弱。\n\n# Key Points\n\n## Summary\n\n> ✅ 已核驗並閱讀完整 PDF；研究報告的是觀察性關聯。\n\n- 在韓國 KNHANES 成人樣本中，KHEI 分數較高者的 hs-CRP 分類勝算較低。全調整後，Q4 對 Q1 的高 hs-CRP OR 為 ==0.68（95% CI 0.53–0.87）==；每增加 10 分 KHEI，OR 為 ==0.88（0.82–0.94）==。[Table 2，PDF pp.6–7]\n- 高 KHEI 組並非只在健康狀況上更好：其年齡較大，糖尿病、高血壓與高血脂比例也較高；疾病後改變飲食的反向因果仍可能存在。[Table 1，PDF pp.5–6；Discussion，p.10]\n- 研究沒有飲食介入、時間先後或心血管事件資料；這些估計不能解讀成改善飲食會使個人的 hs-CRP 下降或事件減少。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：在韓國成人的同一時期資料中，整體飲食品質分數較高，和較低的高敏感度 C 反應蛋白分類勝算相關。\n> - **為什麼做**：作者希望補上韓國飲食指引指標 KHEI 與發炎指標之間的研究資料。\n> - **主體**：研究把 14,050 位成人依 KHEI 分成四組；hs-CRP <1 mg/L 為低、1 至 <3 為中間、≥3 為高。Q4 相對 Q1 的高 hs-CRP 勝算較低（OR 0.68，95% CI 0.53–0.87）；每 10 分 KHEI 的估計 OR 為 0.88（0.82–0.94）。研究同一時間量測飲食與 hs-CRP，不能確定是飲食品質影響發炎，還是健康狀況改變了飲食。\n> - **所以呢**：結果支持飲食品質與發炎標記值得繼續研究；它不是飲食處方或因果效果證明。單次 24 小時回憶、疾病後改變飲食、未測量的藥物／環境因素都可能影響結果。\n\n## Clinical Application\n\n- **可用情境：**可作為討論整體飲食品質與發炎指標的觀察性背景，不應依此研究單獨改變治療、設定 hs-CRP 目標或宣稱預防心血管事件。\n- **個別食物／構面：**總蔬菜、不含泡菜與醃菜的蔬菜、新鮮水果分數與高 hs-CRP 呈反向關聯；項目分析未校正多重比較，屬探索性，不代表單一食物有已證實的獨立療效。[Table 4，PDF pp.8–9]\n- **台灣適用性：**樣本來自韓國成人，使用韓國 KHEI 與韓國飲食指引；可供假說參考，不能直接等同台灣飲食評估或台灣臨床族群的效果。\n- **臨床意義：**本文沒有病人重要臨床結局，也未設定 hs-CRP 最小臨床重要差異（MCID）；統計關聯不等於可感知的個人健康改善。\n\n# Paper Details\n\n## Methods\n\n- **設計／族群：**KNHANES 第九週期 2022–2024 橫斷面分析。起始 17,262 人；排除 826 位 hs-CRP ≥10 mg/L 個案及 2,386 位缺少關注變項者，納入 14,050 人。[Methods、Figure 1，PDF pp.2–3]\n- **暴露：**KHEI 0–100 分，14 項、涵蓋 adequacy、moderation 與 energy balance 三構面；以前一日 24 小時飲食回憶計算。四分位界值依加權分布設定：Q1 <49.30、Q2 49.30–57.74、Q3 57.75–67.97、Q4 >67.97。[Methods，PDF pp.2–3]\n- **結果：**血清 hs-CRP，依 <1、1 至 <3、≥3 mg/L 分成低、中間、高；低於 0.2 mg/L 的值以 LOD/√2 處理。[Methods，PDF p.3]\n- **統計：**多項 logistic regression 比較 hs-CRP 分類；線性模型分析 log hs-CRP；restricted cubic spline 使用四個節點。模型納入調查權重、分層與 PSU，合併三個年度時權重除以 3。缺值另以 20 組 chained-equations multiple imputation 做敏感度分析。[Methods，PDF pp.4–5]\n- **主要調整：**性別、年齡、收入、教育、婚姻、吸菸、身體活動與酒精。作者把 BMI、糖尿病、高血壓及高血脂視為可能中介，放在額外模型。[Methods，PDF p.4]\n- **樣本數計算：**全文未報告事前樣本數或檢定力計算。\n\n## Key Findings\n\n| 分析 | 全調整估計 | 解讀 |\n|---|---:|---|\n| 高 hs-CRP：Q4 vs Q1 | OR 0.68（0.53–0.87）；趨勢 p=.012 | 較高 KHEI 與較低勝算相關，並非風險降低 32% 的因果效果。 |\n| 高 hs-CRP：KHEI 每 +10 分 | OR 0.88（0.82–0.94） | 連續分數關聯；不能直接轉成個人治療效果。 |\n| 中間 hs-CRP：Q4 vs Q1 | OR 0.75（0.64–0.87）；趨勢 p=.002 | 分類模型估計。 |\n| 連續 hs-CRP：Q4 vs Q1 | −14.74%（−19.74 至 −9.44） | log hs-CRP 線性模型轉換的相對差異。 |\n| KHEI 每 +10 分之連續 hs-CRP | −3.93%（−5.32 至 −2.53） | 仍是橫斷面估計。 |\n| spline 非線性檢定 | p=.418 | 未見明確非線性證據。 |\n\nhs-CRP 低／中／高的整體加權比例為 74.47%／18.75%／6.78%。Q1 至 Q4 的高 hs-CRP 加權比例為 8.45%／6.83%／6.12%／5.73%。[Table 1，PDF pp.5–6]\n\n## Critical Appraisal\n\n採用適用於病因型橫斷面研究的 Newcastle–Ottawa 式領域評估，不以一個數字分數替代各項判斷。GRADE 的五個降級領域另依 paper-review 計算器執行，並非同一工具。\n\n| 領域 | 判斷 | 理由 |\n|---|---|---|\n| 抽樣與選擇 | 🟢／🟡 | KNHANES 為全國複層機率抽樣，分析使用調查權重；但缺值排除 2,386 人，代表性仍受可用資料影響。 |\n| 混雜 | 🔴 | 控制多項社經與行為因子；仍可能有藥物、職業／環境暴露與疾病嚴重度等殘餘混雜。Q4 年齡與慢性病較多，反向因果尤其值得注意。 |\n| 暴露測量 | 🟡 | KHEI 依標準化 14 項規則計分，但單次 24 小時回憶不能穩定代表長期攝取。 |\n| 結果測量 | 🟢／🟡 | hs-CRP 由實驗室檢測且有清楚分界；單一發炎標記不能代表臨床病程或病人重要結果。 |\n| 缺失與選擇性報告 | 🟡 | 使用多重插補並做敏感度分析；未見預先註冊分析計畫，且個別項目多重檢定未校正。 |\n\n- **主要因果限制：**飲食與 hs-CRP 同期測量，不能確立時間順序。高 KHEI 組慢性病較多，健康狀況促使飲食改變是可能的反向因果，不應由迴歸調整後仍顯著就排除。\n- **測量限制：**單日飲食回憶可能造成暴露錯分；以 hs-CRP 分類並排除極高值也可能影響適用範圍。\n- **門檻文字不一致：**Methods p.2 與 Figure 1（p.3）稱排除 hs-CRP ≥10 mg/L；Methods p.4 描述納入被排除者的敏感度分析時寫 >10.00 mg/L。保留為原文不一致，無法據此判斷是否影響估計。\n- **多重比較／spin：**摘要與結論的主張維持「associated」語氣，與橫斷面設計相稱。表 4 是多個單項的探索性分析且未校正多重比較；肉魚蛋豆項目之 OR 0.98、95% CI 0.95–1.00 為邊界值，不宜稱為確證效果。\n- **機轉：**抗氧化物、ROS、NF-κB 與 IL-6 是作者提出的可能途徑；研究未直接測量，僅能視為假說。\n- **GRADE：**觀察性起始 Low；risk of bias 評為 serious，計算後主要關聯為 ==Very low==。不將此單篇結果升級為飲食建議的確證度。\n- **統計檢查：**paper-review 的 grade_judge.py exit 0，FINAL CERTAINTY=Very low；argdown_lint.py exit 0，未發現本文摘要性「相關」結論超出其觀察性結果。兩者收據輸入位於本輪 evidence。\n- **資金／利益衝突：**KOSHA 與 National Bio Bigdata Project 資助；作者聲明無利益衝突。論文說明使用 GPT-5.6 Luna 協助文法校對，作者監督並對稿件負責。[PDF p.11]\n\n## Resource\n\n### Source\n\n- Baek SU, Yoon JH. *Nutrients*. 2026;18:3356. [DOI: 10.3390/nu18203356](https://doi.org/10.3390/nu18203356)\n- 全文核對位置：研究流程 Figure 1（PDF p.3）；樣本分布 Table 1（pp.5–6）；主要估計 Tables 2–3（pp.6–8）；項目分析 Table 4（pp.8–9）；限制與結論（p.10）。\n- 本輪未確認 Zotero citekey／PMID，因此不附 Zotero 或 PubMed 連結。\n\n### 執行範圍\n\nfocused-quick；已完成全文身份與可讀性核驗、研究方法／主要數值／偏倚與因果限制評估、GRADE 計算及推論落差檢查。未執行期刊指標、作者背景、逐條參考文獻核實、引用影響力或社群查核。",
       "cards": [],
       "completedAt": "2026-10-28T04:23:07.597Z"
+    },
+    {
+      "id": "doi:10.3390/nu18203356:digest",
+      "paperId": "doi:10.3390/nu18203356",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Association Between the Korean Healthy Eating Index and High-Sensitivity C-Reactive Protein: A Nationally Representative Study in South Korea, 2022-2024.",
+      "authors": "Baek S, Yoon J",
+      "journal": "Nutrients (PubMed)",
+      "year": "2026",
+      "doi": "10.3390/nu18203356",
+      "abstract": "Background: Maintaining favorable dietary quality may play an important role in disease prevention, and the mitigation of inflammation is considered a key mechanism. Although the association between dietary quality and inflammation has been reported, evidence from South Korea remains limited. Therefore, this study examined the association between the Korean Healthy Eating Index (KHEI) and high-sensitivity C-reactive protein (hs-CRP) levels. Methods: We analyzed a nationally representative sample of 14,050 adults in South Korea. The 14-item KHEI was measured on a scale of 0 to 100, with higher scores indicating better dietary quality, and was categorized into quartiles (Q1-Q4). Serum hs-CRP levels (mg/L) were categorized into low (<1), intermediate (1-<3), and high (≥3) categories. Multinomial logistic regressions were employed to determine the association of KHEI with hs-CRP levels, with the low hs-CRP group as the reference category. Odds ratios (ORs) with 95% confidence intervals (CIs) were estimated. Results: In the overall sample, 74.47%, 18.75%, and 6.78% of participants were classified as having low, intermediate, and high hs-CRP levels, respectively. Compared with the lowest KHEI quartile (Q1), participants in Q2, Q3, and Q4 had adjusted ORs (95% CIs) of 0.98 (0.85-1.14), 0.91 (0.78-1.05), and 0.75 (0.64-0.87), respectively, for intermediate hs-CRP levels. For high hs-CRP levels, participants in Q2, Q3, and Q4 had ORs (95% CIs) of 0.81 (0.65-1.01), 0.74 (0.58-0.93), and 0.68 (0.53-0.87), respectively, compared with Q1. Conclusions: Higher KHEI scores was associated with lower odds of having high hs-CRP levels. Prospective studies are needed to analyze the temporal relationship.",
+      "legalFullTextUrl": "https://doi.org/10.3390/nu18203356",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42942927/",
+      "category": "recommended",
+      "tags": [
+        "health promotion and lifestyle",
+        "human clinical population",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "韓國健康飲食品質與 hs-CRP 內容整理",
+      "content": "---\ntags: [research/digest, nutrition, inflammation]\ncitekey: Baek2026KHEIhsCRP\ndoi: 10.3390/nu18203356\naliases:\n  - Association Between the Korean Healthy Eating Index and High-Sensitivity C-Reactive Protein\n---\n\n> [!summary] 30 秒層｜一句話 + 重點\n> 韓國全國性橫斷面資料顯示，較高的韓國健康飲食指數（KHEI）與較低的高 hs-CRP 分類勝算相關；研究沒有證明飲食改善會造成 hs-CRP 下降。\n> - 14,050 名韓國成人；KHEI 由前一日 24 小時飲食回憶計算，hs-CRP 分成低、中、高三類。\n> - 全調整後，KHEI 第四四分位相較第一四分位，高 hs-CRP 對低 hs-CRP 的 OR 為 0.68（95% CI 0.53–0.87）。\n> - 每增加 10 分 KHEI，該分類 OR 為 0.88（0.82–0.94）；連續 hs-CRP 的相對變化為 −3.93%（−5.32 至 −2.53）。\n> - 橫斷面設計、單日飲食回憶、反向因果及未測量混雜限制解讀；個別飲食項目分析屬探索性。\n> 品質 → 見上方品質快照。\n\n## 5 分鐘層：全文導航\n\n**要點**：研究以韓國全國調查比較 KHEI 與 hs-CRP，發現兩者呈反向關聯，但設計與測量限制不支持因果結論。\n\n- 研究問題：韓國成人整體飲食品質是否與 hs-CRP 有關？\n- 研究方法：KNHANES 2022–2024 橫斷面樣本 14,050 人；以單日 24 小時飲食回憶計算 KHEI。\n- 主要結果：Q4 對 Q1 的高 vs 低 hs-CRP OR 0.68（0.53–0.87）；每 10 分 KHEI 的 OR 0.88（0.82–0.94）。\n- 解讀界線：可能反向因果、單次飲食回憶、殘餘混雜；個別 KHEI 項目屬探索性。\n- 下文依序提供方法、各項估計、圖表重述、臨床解讀、限制、概念與自我測驗。\n## 研究問題 / 背景\n\n**要點**：作者要補足韓國成人整體飲食品質與系統性發炎指標之間的本地人口證據。\n\n- KHEI 是依韓國飲食指引建立的整體飲食品質指數；作者指出，既有飲食品質指數與 hs-CRP 等發炎標記的關聯多來自其他族群，韓國人口資料有限。\n- 研究問題：韓國成人的 KHEI 分數是否與血清高敏感度 C 反應蛋白（hs-CRP）分類及連續數值相關？作者預期分數愈高，hs-CRP 愈低。\n- 背景中提到的抗氧化物、飽和脂肪、添加糖與其他發炎指標，屬研究動機及既有文獻脈絡，不是本研究直接測得的作用機轉。[PDF pp.1–2]\n\n## 方法\n\n**要點**：研究把同一時期測得的飲食品質與血液 hs-CRP 作比較，採複層抽樣加權的橫斷面分析。\n\n- **設計與樣本：**KNHANES 2022–2024 第九週期的全國多階段群集機率樣本。17,262 位成年人參與健康與營養調查；主要分析排除 hs-CRP ≥10 mg/L 的 826 人，再排除關注變項缺失的 2,386 人，最後納入 14,050 人。[Figure 1，PDF p.3]\n- **KHEI：**14 個項目、總分 0–100，分為三構面：\n  - 適足性 8 項：早餐、混合穀類、總水果、新鮮水果、總蔬菜、不含泡菜與醃漬蔬菜的蔬菜、肉魚蛋豆、乳品。\n  - 節制性 3 項：飽和脂肪酸、鈉、添加糖。\n  - 能量平衡 3 項：碳水化合物供能比例、脂肪供能比例、總能量。\n  飲食以調查前一天的 24 小時回憶評分。加權四分位為 Q1 <49.30、Q2 49.30–57.74、Q3 57.75–67.97、Q4 >67.97。[Methods 2.2，PDF pp.2–3]\n- **hs-CRP：**血液樣本於中央實驗室以免疫比濁法測定；檢測極限為 0.2 mg/L，低於極限者以 LOD/√2 處理。分類為低 <1、中間 1 至 <3、高 ≥3 mg/L。[Methods 2.3，PDF p.3]\n- **模型：**多項 logistic regression 以低 hs-CRP 為參照結果；另以 log hs-CRP 作線性回歸，並用四節點 restricted cubic spline 檢查非線性。主要全調整模型控制性別、年齡、收入、教育、婚姻、吸菸、身體活動與飲酒；納入複層調查權重、分層及 PSU。[Methods 2.4–2.5，PDF pp.4–5]\n- **可能中介因子：**BMI、糖尿病、高血壓與高血脂被作者視為可能位於飲食與 hs-CRP 之間的中介，未放進主要模型；另以額外模型調整它們，降低主要模型過度調整的疑慮。[Methods 2.4、2.5，PDF pp.4–5]\n- **敏感度分析：**以 chained equations 進行 20 組多重插補；另納入高 hs-CRP 個案及額外調整心代謝因子，作者稱結果相近。[Methods 2.5、Results，PDF pp.4–6]\n- **原文門檻差異：**主要樣本流程與 Figure 1 寫排除 hs-CRP ≥10 mg/L；Methods p.4 描述敏感度分析納入原排除者時寫 >10.00 mg/L。本文未提供足以判定兩種門檻差異影響的說明。[Methods 2.1、2.5，PDF pp.2、4；Figure 1，p.3]\n\n## 主要發現\n\n**要點**：整體 KHEI 愈高時，高 hs-CRP 對低 hs-CRP 的調整後勝算較低；此為觀察性關聯。\n\n| 結果 | 全調整估計 | 怎麼讀 |\n|---|---:|---|\n| 全體 hs-CRP 低／中／高比例 | 74.47%／18.75%／6.78% | 調查加權比例；Table 1，PDF pp.5–6 |\n| Q4 對 Q1：高 vs 低 hs-CRP | OR 0.68（0.53–0.87）；趨勢 p=.012 | 低 hs-CRP 為參照結果；不是「風險下降 32%」或介入效果 |\n| KHEI 每增加 10 分：高 vs 低 hs-CRP | OR 0.88（0.82–0.94） | 分數每增加 10 分的分類勝算關聯 |\n| Q4 對 Q1：中間 vs 低 hs-CRP | OR 0.75（0.64–0.87）；趨勢 p=.002 | 中間分類與低分類的相對勝算 |\n| KHEI 每增加 10 分：中間 vs 低 hs-CRP | OR 0.92（0.89–0.96） | 分類模型的連續分數估計 |\n| Q4 對 Q1：連續 hs-CRP | −14.74%（−19.74 至 −9.44） | log hs-CRP 線性模型轉換出的相對差異 |\n| KHEI 每增加 10 分：連續 hs-CRP | −3.93%（−5.32 至 −2.53） | 同一模型的每 10 分估計 |\n| spline 非線性檢定 | p=.418 | 未見足夠證據支持非線性形狀，不等同證明關係完全線性 |\n\n- **高 hs-CRP 比例：**Q1 至 Q4 依序為 8.45%、6.83%、6.12%、5.73%。這是各 KHEI 組的加權比例，與迴歸模型中的 OR 是不同指標。[Table 1，PDF pp.5–6]\n- **個別項目：**全調整模型中，總蔬菜分數 OR 0.91（0.86–0.96）、不含泡菜與醃漬蔬菜的蔬菜分數 0.92（0.87–0.97）、新鮮水果分數 0.96（0.92–0.99）；肉魚蛋豆為 0.98（0.95–1.00，邊界估計）。這些是多項目分析，作者未校正多重比較，且各 KHEI 項目彼此相關，應視為探索性訊號，不可拆解成單一食物的療效。[Table 4，PDF pp.8–9]\n- **群組背景：**Q4 平均年齡 58.45 歲，Q1 為 38.89 歲；Q4 的糖尿病、高血壓及高血脂比例也較高。這些差異提醒我們：飲食可能因既有疾病而改變，未必代表飲食先於發炎狀態。[Table 1，PDF pp.5–6]\n\n## 重要圖表重述\n\n**要點**：流程圖與主要表格共同呈現樣本篩選、分布及模型估計；個別項目表不能取代整體指數結果。\n\n- **Figure 1，PDF p.3：**17,262 人起始，排除 826 位 hs-CRP ≥10 mg/L 後為 16,436 人，再排除 2,386 位資料缺漏，納入 14,050 人。流程數字相加相符。\n- **Table 1，PDF pp.5–6：**列出 KHEI 四分位人口特徵與加權 hs-CRP 分布；較高 KHEI 組年齡較高、女性較多、慢性病比例亦較高。\n- **Table 2，PDF pp.6–7：**多項 logistic regression 的主要分類關聯；全調整後 Q4 對 Q1 的高 vs 低 hs-CRP OR 為 0.68。\n- **Table 3 與 Figure 2，PDF pp.7–8：**連續 hs-CRP 的全調整 Q4 對 Q1 相對變化為 −14.74%；spline 非線性 p=.418。\n- **Table 4，PDF pp.8–9：**各 KHEI 項目與 hs-CRP 分類的探索性估計，蔬菜／水果項目呈反向關聯；未校正多重比較。\n\n## 臨床意義 / 怎麼用\n\n**要點**：這篇可作為整體飲食品質與發炎標記的觀察性背景，不能單獨支持治療調整或因果衛教。\n\n- 可用於說明：整體飲食品質分數與 hs-CRP 在韓國成人資料中呈反向關聯，值得進一步縱向或介入研究。\n- 不宜用 OR 0.68 說成「提高 KHEI 會使發炎降低 32%」；OR 是分類勝算比，不是絕對風險差，也不是個人介入效果。\n- 本研究未測量飲食介入、時間先後、心血管事件或其他病人重要結局；沒有設定 hs-CRP 的最小臨床重要差異，也不能由此研究訂定 hs-CRP 治療目標。\n- 樣本來自韓國成人，採韓國飲食指引與 KHEI；可供台灣臨床討論假說，不能直接視為台灣飲食工具或台灣病人效果。\n- 作者提出水果蔬菜中的抗氧化成分可能涉及氧化壓力、Nrf2、NF-κB 或 IL-6 路徑；本文未測量這些機轉，應標示為作者依既有文獻提出的假說。[Discussion，PDF pp.9–10]\n\n## 限制與解讀邊界\n\n**要點**：時間順序、飲食測量及殘餘混雜是解讀主關聯的核心限制，個別項目結果還受多重比較影響。\n\n- **不能建立因果順序：**KHEI 與 hs-CRP 同期測量；較高 KHEI 組年齡較大且慢性病更多，健康狀況可能促使飲食改變，存在反向因果可能。[Discussion，PDF p.10]\n- **飲食測量：**單次 24 小時回憶不能完整代表長期飲食品質，且可能有回憶偏差；受訓營養師協助訪問，但不能消除此限制。\n- **結果範圍：**只分析 hs-CRP，沒有 IL-1β、TNF-α 等其他發炎標記，也沒有臨床事件。\n- **未測量混雜：**作者指出抗發炎藥物、職業與環境暴露等資料不足；這些因素可能與飲食及健康狀況相關。\n- **探索性分析：**KHEI 個別項目彼此相關，未做多重比較校正，偶然顯著的可能性存在。\n- **特殊值處理：**排除極高 hs-CRP 值以降低急性感染等影響，但方法章節的 ≥10 與 >10 門檻文字不一致；影響大小未知。[Discussion，PDF p.10]\n\n## 與既有認知的對照\n\n**要點**：本文作者將結果放在既有 HEI 與發炎指標觀察研究脈絡中；本 Worker 執行環境沒有可定位的個人 vault 搜尋工具或 vault 根目錄，不能聲稱已完成 vault_search。\n\n- 作者引用的既有研究曾報告 HEI 與 hs-CRP、IL-1β、IL-6 或其他系統性發炎指標的反向關聯；本文將證據延伸到以韓國飲食指引建立的 KHEI。[Introduction、Discussion，PDF pp.2、9]\n- **本篇新增的脈絡：**韓國全國性成人樣本中，整體 KHEI 與 hs-CRP 分類及連續值的關聯；它不是新的因果證據。\n- **vault 對照狀態：**未能查詢個人 Papers／Medicine 筆記；此處不推定「沒有相關既有筆記」。\n\n## 概念 / 名詞整理\n\n**要點**：理解這篇的核心是分清飲食指數、發炎分類與勝算比各自代表什麼。\n\n- **KHEI：**以 14 個飲食行為與營養項目組成的韓國整體飲食品質分數；分數較高表示更符合該指數設定的飲食建議，不代表每個營養素都達標。\n- **hs-CRP：**高敏感度 C 反應蛋白檢測，可測得較低濃度的血液 CRP；本文把它分為低、中、高三級，也另分析連續值。\n- **OR（勝算比）：**兩組結果勝算的比值。OR 0.68 不是「個人發生機率下降 32%」，更不是干預造成的下降。\n- **複層抽樣權重：**KNHANES 使用群集、分層與抽樣權重；分析納入權重、分層及 PSU，以處理調查設計。\n- **中介與混雜：**作者把 BMI、糖尿病、高血壓及高血脂視為可能的中介，因此先不在主模型控制，再於額外模型加入；模型選擇會影響估計所代表的問題。\n- **LOD：**檢測極限。低於 0.2 mg/L 的數值以 LOD/√2 代入，是本文處理低於檢測能力數值的方法。\n\n## 自我測驗\n\n**要點**：先回答研究設計、效應量與適用界線，再核對折疊答案。\n\n> [!question]- Q1：為什麼這篇的 OR 0.68 不能說成「提高飲食品質能讓 hs-CRP 風險下降 32%」？\n> 因為這是同一時期觀察到的分類勝算比，沒有介入或時間順序，不能確定因果方向。它比較的是 Q4 與 Q1 的高 vs 低 hs-CRP 勝算；不是絕對風險差，也不是個人治療效果。\n\n> [!question]- Q2：研究為什麼把 BMI、糖尿病、高血壓與高血脂放在額外模型，而非主要模型？\n> 作者認為這些心代謝因子可能是飲食影響 hs-CRP 的中介；若主模型一開始控制，可能過度調整。額外模型再加入它們，估計結果相近，但不能因此證明中介關係。\n\n> [!question]- Q3：高 KHEI 組同時年齡較高、慢性病更多，對結果有什麼解讀影響？\n> 既有疾病可能促使受試者改善飲食，造成反向因果；橫斷面資料無法確認飲食改變發生在 hs-CRP 變化之前。這些組間差異也提醒仍可能有殘餘混雜。\n\n> [!question]- Q4：個別蔬菜項目與高 hs-CRP 的 OR 看起來較低，為什麼不能直接變成單一食物建議？\n> 作者把個別項目分析列為探索性；項目彼此相關且沒有校正多重比較，可能出現偶然關聯。這些估計也不是單一食物介入效果。\n\n> [!question]- Q5：spline 非線性檢定 p=.418 可以得出什麼結論，不能得出什麼結論？\n> 研究沒有找到足夠證據支持 KHEI 與 log hs-CRP 的關係呈非線性；p=.418 不等於證明關係必然是直線，也不代表已證明因果關係。\n\n## Reference\n\n**要點**：本文直接來源為 Baek 與 Yoon 於 2026 年發表的 KNHANES 橫斷面研究。\n\n- Baek S, Yoon J. Association Between the Korean Healthy Eating Index and High-Sensitivity C-Reactive Protein: A Nationally Representative Study in South Korea, 2022–2024. Nutrients. 2026;18:3356. DOI: [10.3390/nu18203356](https://doi.org/10.3390/nu18203356).\n- 來源位置：研究設計與樣本 Figure 1（PDF p.3）；主要分類估計 Table 2（pp.6–7）；連續 hs-CRP Table 3、Figure 2（pp.7–8）；項目估計 Table 4（pp.8–9）；作者限制與結論（p.10）。\n- 原文依據：合法全文 PDF，13 頁、原生文字可讀；DOI 與英文題名匹配。本篇摘要以本文為來源，未加入外部機轉證據或額外臨床建議。\n- 執行範圍：paper-digest worker-batch；完整全文內容整理與 5 張理解型自我測驗卡。Config 中 review_site.push_script 為空；依 Worker 模式由 Sites 儲存卡片。",
+      "cards": [
+        {
+          "title": "橫斷面不能定因果",
+          "question": "為什麼這篇的 OR 0.68 不能說成提高 KHEI 能讓 hs-CRP 風險下降 32%？",
+          "answer": "這是同一時期觀察到的高 vs 低 hs-CRP 勝算比，沒有介入或時間順序，不能確認因果方向。OR 也不是絕對風險差或個人治療效果。",
+          "tags": [
+            "營養流行病學",
+            "因果推論",
+            "hs-CRP"
+          ]
+        },
+        {
+          "title": "分清可能中介",
+          "question": "作者為什麼把 BMI、糖尿病、高血壓與高血脂放在額外模型？",
+          "answer": "作者認為它們可能位於飲食與 hs-CRP 的因果路徑上，因此若在主要模型一開始控制，可能過度調整；額外模型才加入它們。",
+          "tags": [
+            "中介",
+            "混雜",
+            "統計模型"
+          ]
+        },
+        {
+          "title": "辨認反向因果",
+          "question": "高 KHEI 組年齡較大且慢性病更多，為何這會限制因果解讀？",
+          "answer": "慢性病可能促使受試者改變飲食，而不是飲食先造成較低 hs-CRP。橫斷面資料沒有時間順序，無法排除這種反向因果。",
+          "tags": [
+            "反向因果",
+            "橫斷面研究",
+            "營養流行病學"
+          ]
+        },
+        {
+          "title": "小心探索性結果",
+          "question": "為什麼 Table 4 的蔬菜與水果項目不能直接當成單一食物療效證據？",
+          "answer": "個別項目彼此相關，作者也未校正多重比較，因此估計屬探索性，可能有偶然發現。研究沒有測試單一食物介入。",
+          "tags": [
+            "多重比較",
+            "食物項目",
+            "研究限制"
+          ]
+        },
+        {
+          "title": "讀懂非線性檢定",
+          "question": "spline 非線性檢定 p=.418 表示什麼？",
+          "answer": "研究沒有找到足夠證據支持關係呈非線性；這不等於證明關係必為直線，更不表示已證明因果。",
+          "tags": [
+            "restricted cubic spline",
+            "hs-CRP",
+            "統計解讀"
+          ]
+        }
+      ],
+      "completedAt": "2026-10-28T04:33:10.319Z"
     }
   ]
 }
