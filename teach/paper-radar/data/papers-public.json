@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T11:02:15.648Z",
+  "generatedAt": "2026-10-29T11:09:29.085Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -107084,6 +107084,31 @@
         }
       ],
       "completedAt": "2026-10-29T11:01:43.475Z"
+    },
+    {
+      "id": "doi:10.3390/jcm15208164:review",
+      "paperId": "doi:10.3390/jcm15208164",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Identifying High-Yield Groups for the Detection of Low Serum Magnesium in Diabetes: A Nationally Representative Study of Korean Adults.",
+      "authors": "Hansol Chung",
+      "journal": "Journal of Clinical Medicine",
+      "year": "2026",
+      "doi": "10.3390/jcm15208164",
+      "abstract": "Background/Objectives: Diabetes predisposes to magnesium deficiency, yet serum magnesium is not routinely measured. Using an unselected national sample, I sought a practical criterion for predicting which adults with diabetes are more likely to have low serum magnesium (<0.75 mmol/L) and examined clinical correlates. Methods: I analyzed 5798 adults aged ≥19 years from the 2024 Korea National Health and Nutrition Examination Survey using survey-weighted methods. Diagnostic yield was the proportion tested with low serum magnesium. Criteria combining guideline-based glycated hemoglobin (HbA1c) and estimated glomerular filtration rate (eGFR) thresholds were compared by diagnostic yield and Youden index. Results: Low serum magnesium occurred in 10.7% of adults with diabetes versus 2.4% without diabetes; those with diabetes accounted for 41.0% of all cases. Among criteria with a Youden index of at least 0.20, HbA1c ≥8% or eGFR <60 mL/min/1.73 m2 required the fewest tests and had the highest diagnostic yield (21.7%). This group comprised 17.6% of adults with diabetes but 35.7% of cases. Low serum magnesium was associated with HbA1c ≥8% (odds ratio 3.10; 95% confidence interval 1.64-5.84) and albuminuria (2.10; 1.17-3.75), largely consistently across sensitivity analyses. Exploratory analyses also identified associations with depressive symptoms and fatigue. Dietary magnesium density did not differ by magnesium status. Conclusions: Testing adults with diabetes who had HbA1c ≥8% or eGFR <60 mL/min/1.73 m2 identified low serum magnesium about twice as efficiently as testing all adults with diabetes.",
+      "legalFullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13706576/",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42941677/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "design:guideline",
+        "guideline and consensus",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "糖尿病低血鎂：檢出效率提高，仍會漏掉哪些人？",
+      "content": "---\ntags: [source/journal, 糖尿病, 血鎂, 定向檢驗]\ncitekey: Chung2026Magnesium\ndoi: 10.3390/jcm15208164\njournal: Journal of Clinical Medicine\nyear: 2026\nstudy_type: cross-sectional survey\nreview_depth: quick\n---\n\n> [!info] 品質快照\n> **設計／樣本**：2024韓國KNHANES橫斷次級分析；5,798成人，959名糖尿病者，非篩檢介入試驗。\n> **主要結果**：糖尿病者低血鎂10.7%；HbA1c≥8%或eGFR<60者21.7%，但僅涵蓋糖尿病低血鎂個案35.7%。\n> **偏差與驗證**：有複雜抽樣權重；門檻選擇同資料評估，無外部驗證，單次四捨五入血鎂與藥物細項欠缺。\n> **GRADE**：本資料外推「檢驗／補充改善併發症」為Very low；這不是對本地盛行率估計的通盤否定，也不是正式診斷準確度GRADE。\n> **Verdict**：提供值得驗證的高檢出群組，不能當成已建立的篩檢指南或排除低風險者的規則。\n\n# Key Points\n\n## Summary\n\n\t- 以血鎂記錄值≤1.8 mg/dL作主要低值定義，對應名目0.75 mmol/L；檢驗只到0.1 mg/dL，不能假裝有精密連續門檻。（§2.2）\n\t- 定向群組占糖尿病者17.6%，檢出率21.7%（95% CI15.1–30.2），對照全部糖尿病者10.7%（8.7–13.1）。（表2）\n\t- 提高每次檢驗效率與發現全部個案不同：只用這條規則會未涵蓋64.3%的糖尿病低血鎂個案；未符合者仍有8.3%低血鎂。（表2、§3.2；64.3%=100−35.7，本文計算）\n\t- 未做篩檢後治療、臨床結局或成本效益試驗；HbA1c／白蛋白尿關聯不能直接推出補鎂療效。（§4.4–4.5）\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> 如果資源只能優先檢驗一小群糖尿病成人，哪些人比較容易驗到低血鎂？作者用既有國家調查找到血糖較高或腎功能較低的群組，每驗一次找到個案的比例約增為兩倍。但選小群組就會漏掉其他地方的個案；找到低值後怎麼處理、是否改善健康，並沒有在這份調查驗證。\n\n## 全文結構與逐段群落落點\n\n| 位置 | 核心問題／內容 | 核對重點 |\n| --- | --- | --- |\n| Introduction | 鎂、糖尿病與現有臨床選擇偏差 | 背景機制不是本研究實測因果 |\n| §2.1–2.3 | 抽樣、排除、血鎂／糖尿病／eGFR定義 | 排孕婦；959+4655+184=5798 |\n| §2.4–2.6 | 六個結果、單日飲食與共變項 | 疲倦是PHQ-9題目，非完全獨立結果 |\n| §2.7 | 權重、domain分析、FDR、敏感度與模型 | 族群估計有權重；模型刻意未加權 |\n| §3.1／表1 | 糖尿病基線與營養攝取 | 總鎂較低，但能量校正差異不明顯 |\n| §3.2／表2、圖2 | 盛行率、群組與檢出效率 | 分母是全成人還是糖尿病者須分開 |\n| §3.3–3.5／表3、圖3 | 關聯、敏感度、模型與門檻 | 心情／疲倦探索性；模型鑑別有限 |\n| §4.1–4.5 | 外部對照、機制、實務與限制 | 橫斷、檢驗離散、藥物、外驗不足 |\n| Conclusion／文末 | 初步提案、公開資料、無外部經費 | 非已確立篩檢法；附件未獨立核驗 |\n\n## 方法：做得好的部分與會限制推論的部分\n\n\t- KNHANES為非機構成人的分層多階段叢集機率抽樣。6,033名≥19歲者排16孕婦、219無血鎂者，餘5,798；959糖尿病、4,655非糖尿病、184糖狀態未定。（§2.1）\n\t- 盛行率與關聯納入權重、分層及叢集，子群用domain分析；飲食用合併調查權重，不把未加權n當全國比例。（§2.7）\n\t- 低血鎂同時對應血糖、UACR、PHQ-9、疲倦、握力、心肌梗塞／心絞痛。對每個暴露定義下六結果作Benjamini–Hochberg FDR；不是整個研究所有選擇都受此校正。（§2.4、2.7）\n\t- 飲食只有一次24小時回憶，無法精準代表個人習慣。沒有尿鎂，不能實證判定每人是腎流失還是攝取問題。（§2.5、4.3）\n\t- 模型894人complete-case，98低血鎂；所有候選一起放入、線性項、500次bootstrap內部校正。未加權模型意在個人鑑別，但不能由此保證跨族群校準。（§2.7）\n\n## 主要數據與臨床意思\n\n| 指標 | 實際結果 | 能說與不能說 |\n| --- | --- | --- |\n| 糖尿病者低血鎂 | 10.7%（8.7–13.1） | 此定義／調查族群的估計，不等於全身鎂缺乏率 |\n| 非糖尿病者 | 2.4%（2.0–3.0） | 描述差異，不證明糖尿病單一造成 |\n| 建議定向群組 | 171人；21.7%（15.1–30.2） | 每次檢驗檢出比例較高，不是治療成功率 |\n| 符合群組／個案涵蓋 | 糖尿病者17.6%；其中個案35.7% | 優先檢驗可行性假說，不能排除其他人 |\n| 未符合群組 | 8.3%（6.4–10.8） | 低風險不是無個案 |\n| 低血鎂與HbA1c≥8% | 調整OR3.10（1.64–5.84）；q=.003 | 同時關聯，OR不是風險比或治療效應 |\n| 與白蛋白尿 | OR2.10（1.17–3.75）；q=.023 | 調整另含HbA1c，仍有殘餘混雜 |\n| 情緒／疲倦 | OR3.15（1.36–7.29）／2.19（1.16–4.11） | 病例少、量表重疊、部分敏感度失顯著 |\n| 模型 | 校正AUC .62→.64→.67；M3校準斜率.80 | 不能作成熟臨床預測工具 |\n\n數據來自表1–3、§3.2–3.5；本文未重新執行個人資料分析。表2「所有個案占比14.6%」是全成人分母，「35.7%」才是糖尿病低血鎂個案分母，不是互相矛盾。\n\n## Critical Appraisal／品質評讀\n\n### 依橫斷／預測特性作領域檢查\n\n\t- **代表性與量測優點**：全國概率樣本、非因已臨床檢驗才入樣，降低單院選擇偏差；常規HbA1c／肌酸酐可用性比依賴回憶的病史高。\n\t- **選擇與缺失**：219血鎂缺失、184糖狀態不明、各結果可用85.3–96.2%，無顯著缺失組差不等於已證明缺失隨機。模型另排65人，選擇偏差仍可能。（§2.1、2.7）\n\t- **定義與誤分**：單次血鎂、肌酸酐；血鎂四捨五入，不能精準分開0.75附近。血清鎂不等於體內總量，無血清白蛋白。單次低eGFR不能叫確診慢性腎臟病，作者也避免此稱法。（§2.2–2.3、4.5）\n\t- **混雜／反向因果**：缺利尿劑、PPI、特定降糖藥；用是否降壓藥代理不能等同特定藥物調整。高血糖可能導致腎流失，低鎂又可能影響胰島素，橫斷不能定方向。\n\t- **門檻選擇**：比較多個HbA1c／eGFR門檻後，先限制Youden≥.20，再偏好較少檢驗且yield高者；不是唯一統計最優。HbA1c≥7.5%或低eGFR的Youden .220高於所選.203，但檢驗23.5% vs17.6%、yield19.6% vs21.7%，屬取捨。（§3.5）\n\t- **驗證與臨床效用**：500bootstrap用於迴歸模型，不能把它當成定向規則已外部驗證。缺淨效益／決策曲線、檢驗與後續處理傷害、成本與長期結果；不報已驗證的篩檢效益。\n\t- **次要結果**：35例憂鬱症狀且與疲倦重疊，較簡調整及排嚴重白蛋白尿後q值不再都<.05；不能用兩項當獨立重複證據。（§3.3–3.4）\n\n### 營養與門檻的解讀\n\n\t- 低血鎂者原始飲食鎂302 vs348 mg/day，同時熱量1661 vs1918 kcal/day；密度186.5 vs190.9 mg/1000kcal，p=.66。校正年齡、性別與能量差−6.6 mg/day（−40.0至26.8），p=.70。（表1）\n\t- 這不是「飲食鎂不重要」或「一定都是腎流失」；一次回憶、測量誤差與未測尿鎂限制解讀。\n\t- 名目門檻從.75改.85 mmol/L，糖尿病低值比例10.7%→42.9%；較嚴≤1.7 mg/dL則5.0%。不同閾值會改變臨床問題，不可挑較高盛行率宣稱發現更嚴重疾病。（§3.4、4.2）\n\n### 引文風險核對、GRADE與推論\n\n\t- 定向核對原第49筆[Diabetologia交叉試驗](https://link.springer.com/article/10.1007/s00125-023-06029-9)的原作者方法／結果：14名使用胰島素的成人、6週補充，血鎂上升但鉗夾M值未顯著改善（p=.108）。這支持「血鎂變化不保證代謝改善」的界線；小樣本也不能證明所有補充情境均無效。本輪只作風險導向核對，不宣稱完成全部54筆引文精讀。\n\t- 對由這份橫斷資料外推的「檢驗／補充改善HbA1c或併發症」，按觀察起始Low，偏差−1、間接性−1，其他域無已證實額外降級、無升級；grade_judge實算為Very low。這個評分對象是因果外推，不是把盛行率或診斷準確度全部套同一GRADE。\n\t- argument lint實際標出association→causation及surrogate→hard-endpoint兩種跳躍；原作者結論已說初步提案，這裡防讀者過度延伸，不把較強命題硬加給作者。\n\t- 沒有可算本研究治療NNT的介入與對照，也沒有療效MCID；不從OR3.10或檢出率兩倍補出療效數字。\n\n## Clinical Application／臨床應用\n\n\t- 適合當作與醫療團隊討論「誰值得優先檢查」的研究線索，尤其既有HbA1c與腎功能資訊可用時；不是新台灣指南。\n\t- 未符合條件者仍有低值，症狀、用藥、其他電解質與個別病況不能被規則排除。先分清檢驗決策、低值原因、是否補充及監測。\n\t- 腎功能異常也會影響處理安全；本研究沒有比較補充劑量，不在本評讀提供補鎂處方。\n\n## Reference與核驗限制\n\n\t- Chung H. 2026, Journal of Clinical Medicine，[10.3390/jcm15208164](https://doi.org/10.3390/jcm15208164)，完整[PMC主文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13706576/)，CC BY。已讀全文各節、表1–3、圖說與54筆書目；HTML DOI／原題與主文結構通過。\n\t- 附件S1–S3出版社入口工具不可達、PMC附件快取未命中，尚未獨立核驗；正文所報敏感度／模型數字只標為正文報告，不假裝已對照附件。沒有改工具重打已拒的出版社路徑。\n\t- 作者單一署名Hansol Chung，文末自述無利益衝突、無外部經費；本輪未查完整履歷、最新IF／Q值、所有引用與更正紀錄，未重跑公開KNHANES資料。",
+      "cards": [],
+      "completedAt": "2026-10-29T11:08:37.684Z"
     }
   ]
 }
