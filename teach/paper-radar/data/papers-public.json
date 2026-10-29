@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T11:28:30.236Z",
+  "generatedAt": "2026-10-29T04:34:26.486Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -106505,6 +106505,78 @@
       "content": "# 論文品質評讀：Eshowe 原生果實知識調查\n\n## 品質快照\n\n- **研究問題**：記錄南非 Eshowe 三個農村社群對 *Canthium lallanii* 的食用、其他用途、季節可得性及保育知識。\n- **設計／對象**：描述性民族植物學訪談；100 戶，受訪者於 2025 年 1–4 月接受 isiZulu 結構式訪談。無對照組、介入或臨床結局。\n- **分析**：FI、RFC、UV、ICF 加主題分析；屬用途報告整理，不能解讀為營養或醫療效果大小。\n- **主要結果**：果實普遍被報告為零食（FI 100%）；果實加入傳統啤酒只由 1/100 受訪者提及；食物用途 ICF 0.99、材料用途 0.91、醫療用途 0.20。醫療項目僅 1–2 位受訪者提及，不構成療效證據。原文 Abstract、Results §3.2、Discussion §4.2。\n- **整體判讀**：對地方用途與知識保存有描述性價值；對一般人群營養、臨床介入、疾病治療或食品安全的直接證據不足。\n\n## Critical Appraisal／方法與偏差\n\n| 面向 | 評讀 | 依據 |\n|---|---|---|\n| 取樣與外部效度 | 文中報告在三個 Eshowe 農村社群訪談 100 戶並稱隨機選戶；仍是單一地理區域的家庭樣本。文章未提供足以建立更廣人口代表性的多地抽樣或外部驗證，不能推廣至南非所有社群或其他物種。 | Methods §§2.1–2.2；Limitations §4.6 |\n| 測量與回憶 | 結構式訪談與自由回憶可記錄在地知識，但答案可能受回憶、社會期許及低顯著用途漏報影響；作者亦明確承認此類限制。 | Methods §2.2；Limitations §4.6 |\n| 指標解讀 | FI、RFC、UV、ICF 衡量被提及及受訪者間共識；特別是高 ICF 不代表食物營養品質或療效。小量民俗醫療報告尤其不能被轉寫成有效治療。 | Methods §2.3；Results §3.2；Limitations §4.6 |\n| 混雜與因果 | 研究為橫斷式回溯訪談，沒有追蹤或比較組；氣候、過度採收、都市化、砍伐與植株老化為受訪者報告的威脅，不是研究直接驗證的因果效應。 | Results §3.4、Figure 6；Discussion §4.4 |\n| 營養／臨床測量 | 沒有膳食攝取量、果實營養組成、人體生物標記、健康結果或介入。作者也未測量 *C. lallanii* 果實或其加入飲品後的化學／發酵變化。 | Methods §§2.2–2.3；Discussion §§4.2、4.6 |\n| 藥理及安全 | 糖尿病、胃痛、痘疹、牙痛等用途是少數受訪者的民俗報告；沒有藥理、毒理或臨床試驗，不能推薦作治療，也不能據此宣稱安全。 | Results §3.2；Discussion §§4.2、4.6 |\n\n## 白話導讀\n\n這篇研究問的是「當地家庭怎麼認識和使用這種野生果樹」，不是「吃它能不能改善健康」。訪問到的家庭普遍把果實當零食；材料用途也常見。傳統啤酒及藥用用途則只由少數人提及。作者把地方知識和生計、文化傳承、物種保育連在一起，提出在地培育及向年輕世代傳承等方向。\n\n作者提出的健康用途仍是受訪者回報。研究沒有測定果實的營養成分或人體效果，也沒有驗證藥用做法；因此不能從這篇文章推論降血糖、治療胃痛或其他疾病效益。\n\n## Clinical Application／臨床與營養應用界線\n\n- **可用於**：作為文化敏感的飲食訪談背景，提醒營養照護者詢問個案的地方食物、季節性食物取得與家庭知識；作為社區食物系統／保育個案閱讀。\n- **不可用於**：估算營養素、建議食用份量、宣稱疾病預防／治療、替代藥物，或推論藥用安全性。本文沒有相應測量。\n- **下一步研究**：若要建立食品營養證據，需對果實作成分與食品安全分析；若要驗證發酵用途，須直接檢測加入果實前後的發酵品質；若要支持醫療主張，需先有標準化安全性／藥理資料，再進入合宜的人體研究。這些是研究建議，不是本文已完成的工作。\n\n## 關鍵限制\n\n1. 三個社群、100 戶的地方性描述研究，外部效度有限。\n2. 自陳與回憶可能帶來偏差；低頻用途可能因自由回憶而漏報。\n3. 未測量營養組成、實際攝取量、發酵產物、藥理效果或臨床結局。\n4. 作者提出的環境威脅與保育方案主要反映社群觀點，不能等同長期生態監測或介入成效。\n\n## 來源位置\n\n- 原文 DOI：[10.3390/foods15203703](https://doi.org/10.3390/foods15203703)\n- 核心結果：Abstract；Results §§3.1–3.4；Discussion §§4.1–4.6；Conclusions §5。\n- 逐段閱讀及原始影像核對：本資料夾 `evidence/review-reading-outline.md`（首／中／末影像 p.1、p.11、p.21）。\n- 原文頁 1：題名／DOI／CC BY；頁 11：Figure 6 與 Discussion；頁 21：參考文獻／Publisher’s Note。",
       "cards": [],
       "completedAt": "2026-10-28T11:25:33.128Z"
+    },
+    {
+      "id": "doi:10.3390/foods15203703:digest",
+      "paperId": "doi:10.3390/foods15203703",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Ethnobotanical Knowledge, Cultural Resilience, and the Sustainability of Canthium lallanii in Eshowe, South Africa.",
+      "authors": "Msomi B, Sangcozi K, Ntuli N, Nkosi N, Mbhele Z",
+      "journal": "Nutrition guidelines and consensus (PubMed)",
+      "year": "2026",
+      "doi": "10.3390/foods15203703",
+      "abstract": "Traditional food knowledge is a cornerstone of community resilience, cultural identity, and food security, yet it is increasingly threatened worldwide by habitat loss, land-use change, and urbanization, which both clears wild food habitats and draws younger generations away from the land-based practices through which such knowledge is learned and transmitted. Canthium lallanii R.Kr.Singh (syn. Canthium spinosum (Klotzsch ex Eckl. & Zeyh) Kuntze) is an underutilized indigenous fruit plant whose fruit is consumed as a snack and whose various parts are used in folk medicine, construction, and craft-making. However, it is still harvested exclusively from the wild and is vulnerable to local extinction. This study investigated the ethnobotanical uses of C. lallanii among three rural communities in Eshowe, South Africa, to document how traditional plant knowledge continues to underpin household nutrition, income generation, and cultural practice in the face of mounting environmental and social pressure. Data were collected through structured interviews with 100 randomly selected homesteads. The frequency index (FI), relative frequency of citation (RFC), use value (UV), and informant consensus factor (ICF) were calculated, and thematic analysis was used to interpret qualitative responses. Results showed that C. lallanii fruit is universally recognized and consumed as a snack (FI = 100%) and used to flavour traditional beer, while the plant is also drawn upon to treat conditions such as stomachache, pimples or acne, diabetes, and toothache, and for body-cleansing practices. Informant consensus was high for food (ICF = 0.99) and material uses (ICF = 0.91) but low for medicinal uses (ICF = 0.20), indicating that medicinal knowledge is held by only a few individuals. The branches and stems of the species support firewood, homestead construction, fencing, kraals, and craft production, activities that generate supplementary household income. Participants identified climate change, overharvesting, urbanization, deforestation, and the natural ageing of remaining stands as converging threats to the species' survival. In response, community members articulated locally grounded conservation strategies, such as domestication, homestead cultivation, and the deliberate transmission of knowledge to younger generations. These strategies reflect community-driven efforts toward local control over food resources and long-term resource autonomy, consistent with food sovereignty principles. The findings highlight the value of documenting such knowledge before it is lost, and contribute case-based, empirical evidence to wider debates on how traditional plant-based food systems sustain autonomy, dignity, and cultural continuity for rural communities facing environmental and social change.",
+      "legalFullTextUrl": "https://doi.org/10.3390/foods15203703",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42940340/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "design:consensus",
+        "guideline and consensus",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "南非野生果樹的食用知識、社區生計與保育",
+      "content": "---\ntags: [research/digest, 食物文化, 食物主權, 民族植物學]\ncitekey: Msomi2026Canthium\ndoi: 10.3390/foods15203703\naliases: [Ethnobotanical Knowledge, Cultural Resilience, and the Sustainability of Canthium lallanii in Eshowe, South Africa]\n---\n\n# 南非野生果樹的食用知識、社區生計與保育\n\n> [!summary] 30 秒層：一株野生果樹同時承載食物、材料與文化知識，保育需要社區參與。\n> - 南非 Eshowe 三個相鄰社區的 100 戶訪談中，所有受訪者都提到食用 Canthium lallanii 果實；這是使用知識與實務的描述，沒有量測營養攝取改善。\n> - 184 次用途報告涵蓋 15 種用途；食物 101 次、材料 77 次、藥用 6 次。用途報告可由同一人重複貢獻到不同用途，不能當成 184 名受訪者。\n> - 食物與材料用途的共識指標 ICF 分別為 0.99、0.91；藥用為 0.20，各藥用用途僅 1–2 人提及，沒有臨床療效驗證。\n> - 社區提出家戶栽種、減少野採壓力、長者教學與知識紀錄；文章未驗證這些保育策略的介入效果。\n> - 本節為內容整理；需可信度判斷請參閱同篇獨立的品質評讀。\n\n## 5 分鐘層：全文地圖\n\n**要點**：原文從知識流失問題出發，以訪談描述用途，再討論季節、生計與地方自主保育。\n\n| 原文位置 | 這一段主要在說什麼 |\n| --- | --- |\n| 摘要與第 1 節，p.1–3 | 野生食物不只提供食材，也連結文化、收入與土地；本物種缺乏專門量化調查。 |\n| 第 2.1 節，p.3–4 | 介紹 Eshowe 三個社區及其生態、人口與土地生計背景。 |\n| 第 2.2 節，p.4–5 | 隨機選取 100 戶，以 isiZulu 訪談，採開放式自由回憶紀錄用途。 |\n| 第 2.3 節，p.5–6 | FI/RFC 看單項用途普及度；UV 看每人平均用途數；改編 ICF 看用途類別內的集中程度。 |\n| 第 3.1 節，p.6 | 受訪者女性 54%、男性 46%；性別與世代的知識承載途徑可能不同。 |\n| 第 3.2 節，p.6–9 | 果實食用普遍，材料用途多元，藥用知識少數人持有。 |\n| 第 3.3 節，p.9 | 果實、枝條、莖最常被利用；不同部位可重疊計入。 |\n| 第 3.4 節，p.9–11 | 果實以夏季供應為主；居民觀察到雨量、採集與棲地變化，提出保育與傳承方法。 |\n| 第 4.1–4.2 節，p.11–13 | 將性別分工、收入與釀造習俗放入既有文獻；清楚承認藥效與發酵機轉尚待驗證。 |\n| 第 4.3–4.4 節，p.13–14 | 多部位利用與季節食物資源相連；作者以食物主權解讀社區的保育提案。 |\n| 第 4.5 節與表 3，p.14–16 | 比較不同文化及近緣物種的文獻紀錄；資料不可作量化跨族群比較。 |\n| 第 4.6 節，p.17 | 地理集中、自陳偏差、自由回憶遺漏及缺乏成分、藥理、族群再生驗證限制推論。 |\n| 第 5 節，p.17–18 | 建議地方繁殖支援、學校與長者傳承、區域協同保育。 |\n| 文末資訊與參考文獻，p.18–21 | 交代倫理與資料取得限制；引用植物誌、民族植物調查、指標方法及發酵背景。 |\n\n## 研究問題 / 背景\n\n**要點**：這項調查要保存與描述地方植物知識，沒有檢驗吃這種果實能否治療疾病或改善營養狀態。\n\n\t- C. lallanii 的地方名稱為 umBhembethu，屬 Rubiaceae。原文說明舊文獻常用 C. spinosum，2024 年因命名問題改用現名；不同物種及近緣物種的成分證據不能直接互換。（第 1 節，p.2–3）\n\t- 研究的五個問題包括：食物、藥用、材料用途有多普遍；哪些部位由誰利用；居民如何理解資源減少；社區提出何種保育與知識傳承方法；與其他文化紀錄有何相似和差異。（第 1 節，p.3）\n\t- 作者認為都市化有兩條影響路徑：開發直接清除野生棲地；年輕人離開土地與長者共同實作的機會下降，使口傳知識更難延續。這是文章用以組織討論的社會生態框架。（第 1 節，p.2）\n\n## 方法\n\n**要點**：研究在單一地理群聚內，以 100 戶的自陳用途和主題分析描述地方實務。\n\n| 項目 | 實際做法與判讀 |\n| --- | --- |\n| 地點 | 南非 KwaZulu-Natal 的 Eshowe：Imbizo、Maqeleni、UMlalazi 三社區。（2.1，p.3–4） |\n| 時間與樣本 | 2025 年 1–4 月；100 個隨機選取家戶，結果以 100 位參與者呈現。家戶如何形成抽樣框的細節未在主文充分展開。（2.2，p.4–5） |\n| 訪談 | 先取得領導同意及受訪者知情同意，以 isiZulu 訪問。七部分涵蓋人口、用途、藥用／食物製備、生計、保育及補充資訊。（2.2，p.5） |\n| 自由回憶 | 不提供預設用途清單；請受訪者自己列出知道的用途，再描述部位及使用方式。此設計不等於所有少見用途都能被回憶起來。（2.2、4.6） |\n| 定性與定量 | 訪談編碼後作主題分析；FI、RFC、UV、ICF 為描述性指標。未提供治療效應量、信賴區間或介入比較的 p 值；本研究沒有這類試驗結果。（2.3，p.5–6） |\n\n### 四個指標怎麼讀\n\n\t- **FI = 提到某用途的人數 / 100 × 100%**。RFC 是相同比率的小數形式，即 FI/100；兩者不是兩份獨立證據。\n\t- **UV = 所有用途報告次數 / 受訪者數**。一位受訪者可貢獻多項用途，所以總 UV 可以超過 1；不能把它解釋成營養效益分數。\n\t- **ICF = (Nur − Nt)/(Nur − 1)**，Nur 是某類別用途報告數，Nt 在本研究改為該類別的不同用途數，並非物種數。單一物種研究採此改編定義，應按原定義解讀。\n\t- 作者未計算需要多物種排名的 RI、ROP；因缺乏列舉先後順序，未計算自由列舉顯著性；沒有可比的其他社區量化資料，也不能計算有意義的 Jaccard 用途相似度。（2.3，p.5–6）\n\n## 主要發現\n\n**要點**：最普遍的是吃果實，其次是燃料等材料使用；藥用屬極少數報告。\n\n### 用途與數量\n\n| 用途／指標 | 實際結果 | 來源與含義 |\n| --- | ---: | --- |\n| 直接吃成熟果實 | FI 100%，RFC 1.00 | 全部 100 人提到；沒有食用克數、頻率長期追蹤或營養素攝取資料。表 1，p.8 |\n| 果肉用於傳統啤酒 | FI 1% | 個別受訪者報告，不能說全社區普遍採用。表 1 |\n| 藥用：糖尿病相關傳統使用 | FI 2% | 葉／果實用途自陳；無血糖、藥效或安全性試驗。表 1、4.2 |\n| 藥用：清潔、痤瘡、胃痛、牙痛 | 各 FI 1% | 各單一用途報告，不能加成「有效治療」證據。表 1 |\n| 薪材 | FI 46% | 物種也是家庭能源資源；少數家戶認為不適合薪材，但未交代原因。3.2，p.8–9 |\n| 棍杖／住宅／畜欄／木器 | FI 8%／6%／5%／5% | 多元材料與生計用途。表 1 |\n| 圍籬／彈弓／掃把柄 | FI 4%／2%／1% | 各用途可重疊於同一人。表 1 |\n| 食物類 | 101 次報告、2 用途；UV 1.01；ICF 0.99 | 多數報告集中於直接食用。表 2，p.9 |\n| 藥用類 | 6 次報告、5 用途；UV 0.06；ICF 0.20 | 五種用途各只有一兩次報告。表 2 |\n| 材料類 | 77 次報告、8 用途；UV 0.77；ICF 0.91 | 多數材料報告集中於薪材等常見用途。表 2 |\n| 合計 | 184 次、15 用途；UV 1.84 | 每位受訪者平均 1.84 項用途報告，不是 184 位受訪者。表 2 |\n\n### 部位、季節與生計\n\n\t- 果實被利用的比例為 100%，枝條 73%，莖 57%，葉與根各 3%；這是部位使用比例，不等於每種材料用途的 FI，且不同部位可重疊。（3.3、圖 4，p.9–10）\n\t- 成熟時果色轉為黃褐色；居民描述直接吃果實、去籽，或少量用果肉改變傳統啤酒風味。這些是調查到的做法，本研究未量測加工後的營養、微生物或酒精變化。（3.2，p.6–7）\n\t- 文中描述路邊與市場小包或小杯販售，支持有補充收入用途；沒有量測家戶年度收入、淨利或減貧效應，因此不能推估經濟效益規模。（3.2、4.2）\n\t- 果實以夏季供應為主，受訪者將年際收成差異連結到降雨。氣候變化、過度採集、都市化、棲地破壞、森林砍伐與植株老化被視為威脅；這些是居民觀察，沒有生態族群追蹤或各原因的因果歸因。（3.4、圖 5–6）\n\n### 討論中的機轉與跨文化比較\n\n\t- 作者以傳統穀物啤酒文獻推測果肉可能帶入糖、有機酸、香氣成分及表面微生物，影響酵母利用、酸度與風味。但 C. lallanii 果實的成分、添加果肉後的 pH、菌相演替及感官差異都未實測。（4.2，p.12）\n\t- 同屬其他物種的抗氧化、植物化學或藥理結果僅是討論背景，不能轉移為本物種或人體療效。尤其糖尿病用途須先進行藥理與安全性驗證。（4.2，p.12–13）\n\t- 跨文化文獻較一致的核心是吃鮮果、葉用於腸胃不適；Eshowe 的啤酒調味、若干根部用途與材料用途屬此前少有紀錄的內容。「未找到紀錄」不等於其他文化不存在該用途。（4.5、表 3，p.14–16）\n\t- 作者用食物主權理解居民提出的家戶栽種、避免過採、長者傳承、社群媒體與口述紀錄，以及植物園／苗圃教育。這些是社區提案及作者解讀，未經介入成效驗證。（3.4、4.4、5）\n\n## 重要圖表重述\n\n**要點**：圖表分別呈現地點、受訪者、用途及居民觀察；表 1–2 是數量判讀的核心。\n\n| 圖表 | 應帶走的訊息 |\n| --- | --- |\n| 圖 1，p.4 | 標示三個研究社區的地理位置，支持研究僅限相鄰地理群聚的理解。 |\n| 圖 2，p.6 | 呈現性別與年齡組成；女性略多，青年組男性較多。不能據此認定女性一定具有更多知識或建立因果。 |\n| 圖 3，p.7 | 展示植株、未熟及成熟果實，協助辨識作者描述的形態；不作為讀者自行辨識採食安全的保證。 |\n| 表 1，p.8 | 逐項列食物、藥用、材料用途、部位及 FI；「用過／知道」不能改寫成療效。 |\n| 表 2，p.9 | 將用途報告聚合為 UV 與改編 ICF；每類指標分母與用途數不同。 |\n| 圖 4–5，p.10 | 呈現部位使用及消費季節／頻率。本文整理採正文已明列的比例，不從圖形估算缺少的精確數值。 |\n| 圖 6，p.11 | 氣候變化是居民最常提到的供應變化原因；這是認知與經驗，不是量測後的氣候歸因。 |\n| 表 3，p.16 | 分開同物種、近緣物種與文化／地區的既有紀錄；不可把不同分類群混為一種藥理證據。 |\n\n## 臨床意義 / 怎麼用\n\n**要點**：可用於文化敏感的食物資源訪談與社區營養教育，不能據此制定草藥治療或營養補充處方。\n\n\t- 進行飲食評估時，地方野生食物、季節取得、燃料與家庭收入可能共同影響食物選擇；文章提供可供詢問的面向，而非對台灣民眾直接適用的介入效果。（依第 1、3、4 節整理）\n\t- 食品「普遍食用」、「被當成藥使用」與「具成分或臨床效果證據」是不同層次。本研究只記錄前兩者，沒有營養組成、劑量、毒理或藥物交互作用驗證。（4.2、4.6）\n\t- 文中居民提及刺可能有危險液體，作者未提供毒理驗證；應保留為未核實的地方安全觀察，不可改寫成已知毒性或自行排除風險。（3.3）\n\t- 藥用 FI 僅 1–2% 不代表可以忽略其文化價值，也不代表療效弱到某個百分比；它衡量的是用途被提到的比例。自由回憶可能漏掉較不顯著的知識。（4.2、4.6）\n\t- 社區方案可把保育與傳承連在一起：支援家戶繁殖、長者帶領實作與口述紀錄，維持社區對知識的主導權；成效仍需後續評估。（第 5 節，p.17–18）\n\n## 研究限制與下一個問題\n\n**要點**：這是地方性描述證據；量化營養、療效、保育與收入效果都還需要另行研究。\n\n\t- 樣本來自三個相鄰社區，不能代表此物種全部分布地區。自陳可能受回憶與社會期許影響；自由回憶可能低估少見用途。（4.6，p.17）\n\t- 未測量果實或添加果肉啤酒的營養與植物化學組成，亦未做飲食量、身體狀態或臨床結局評估。不能把「100% 提到吃果實」當成已解決營養不足。（4.6）\n\t- 沒有其他社區相同量化資料，跨文化比較僅能作質性對照；生態保育現況沒有族群數量與再生調查的直接驗證。（4.5–4.6）\n\t- 作者建議成分分析、控制釀造試驗、藥理驗證、植株族群與再生調查，以及由長者和青年共同設計的知識傳承工具。（4.6）\n\t- 作者聲明無外部經費、無利益衝突；倫理核准與同意已記載。原始訪談因隱私未公開，去識別資料須向作者合理申請；這些聲明不替代結果的獨立再現。（p.18）\n\n## 與既有認知的對照\n\n**要點**：已搜尋本工作區設定對應的 Papers／Medicine 路徑及筆記檔路徑，未找到可供逐項對照的既有 vault 筆記。\n\n\t- 本次不虛構既有筆記或建立未核對的雙向連結。作者引用的其他植物成分與藥理研究只作本篇討論背景，未在此次 digest 當成獨立讀過的臨床證據。\n\n## 概念 / 名詞整理\n\n**要點**：把「知識被多少人報告」與「健康效果多大」分開，才能正確閱讀本篇。\n\n\t- **民族植物學**：研究人與植物在食物、醫療、文化及生態管理中的互動；本篇以用途訪談呈現。（第 1 節）\n\t- **食物主權**：地方社群對食物系統、資源與文化實務的主導能力；本篇用來理解自發保育與傳承，並未量測一個主權分數。（第 1、4.4 節）\n\t- **自由回憶**：受訪者自行說出已知用途；可避免清單提示，也可能遺漏不常想到的用途。（2.2、4.6）\n\t- **UV 與 ICF**：前者描述每人的用途報告量，後者在本篇改編定義下描述同類用途的報告集中程度；均不是營養品質、療效或安全性分數。（2.3）\n\t- **馴化／家戶栽種**：將依賴野採的植物納入管理與繁殖；本篇把它列為居民建議的減壓途徑，未證明栽培技術或保育效果。（3.4、4.4）\n\n## 自我測驗\n\n**要點**：先回答，再展開核對理由。\n\n> [!question]- Q1：100% 受訪者提到吃果實，可以說它已證明改善營養狀態嗎？\n> 不可以。這是 100 戶地方訪談中的用途頻率；沒有攝取量、營養成分、對照組或健康結局。它支持文化與食物資源重要性，不能估計營養介入效果。（表 1、4.6）\n\n> [!question]- Q2：為什麼 100 位受訪者可以有 184 次用途報告？\n> 同一人可以列出多種不同用途。總 UV=184/100=1.84，表示平均用途報告數；不能把 184 當成人數，也不能把不同部位百分比相加。（2.3、表 2）\n\n> [!question]- Q3：藥用 ICF=0.20 可以用來判定藥效或排除文化價值嗎？\n> 都不可以。6 次報告分散於 5 種用途，表示知識在此樣本中少數人持有；自由回憶也可能漏報。藥理、毒理與人體療效仍待驗證。（表 2、4.2、4.6）\n\n> [!question]- Q4：果肉可能影響傳統啤酒發酵，哪些部分仍是假說？\n> 作者推測糖、酸、香氣物質與果面微生物可能改變發酵；本物種成分及添加後的 pH、菌相與感官差異沒有量測，不能借其他物種結果當本篇實證。（4.2）\n\n> [!question]- Q5：為什麼只把植物種進植物園，仍未涵蓋本篇提出的完整保育方向？\n> 植株與口傳知識都面臨流失。居民同時提出家戶繁殖、控制採集與棲地破壞、長者教學及數位／口述紀錄，且主張社區參與決策；各策略效果尚待評估。（3.4、4.4、第 5 節）\n\n## Reference\n\n**要點**：以上研究結果均來自這篇全文；以下列出文章與其關鍵背景引用的位置，未將引用文獻當成另行完成的閱讀。\n\n\t- Msomi BN, Sangcozi K, Ntuli NR, Nkosi NN, Mbhele Z. 2026. Foods 15:3703. [原文 DOI](https://doi.org/10.3390/foods15203703)。全文 p.1–21。\n\t- 原文參考文獻 37–40：民族植物學量化指標；方法說明位於 p.5–6。\n\t- 原文參考文獻 15、17、19、70：同物種與近緣物種的跨文化用途紀錄，對應表 3。\n\t- 原文參考文獻 53、56–58：傳統啤酒及 Canthium 屬背景，僅支持作者討論脈絡，不是本研究實測的發酵或臨床療效。",
+      "cards": [
+        {
+          "title": "南非野生果樹的食用知識、社區生計與保育",
+          "question": "100% 受訪者提到吃果實，可以說它已證明改善營養狀態嗎？",
+          "answer": "不可以。這是 100 戶地方訪談中的用途頻率；沒有攝取量、營養成分、對照組或健康結局。它支持文化與食物資源重要性，不能估計營養介入效果。（表 1、4.6）",
+          "tags": [
+            "ethnobotany",
+            "food-sovereignty"
+          ]
+        },
+        {
+          "title": "南非野生果樹的食用知識、社區生計與保育",
+          "question": "為什麼 100 位受訪者可以有 184 次用途報告？",
+          "answer": "同一人可以列出多種不同用途。總 UV=184/100=1.84，表示平均用途報告數；不能把 184 當成人數，也不能把不同部位百分比相加。（2.3、表 2）",
+          "tags": [
+            "ethnobotany",
+            "food-sovereignty"
+          ]
+        },
+        {
+          "title": "南非野生果樹的食用知識、社區生計與保育",
+          "question": "藥用 ICF=0.20 可以用來判定藥效或排除文化價值嗎？",
+          "answer": "都不可以。6 次報告分散於 5 種用途，表示知識在此樣本中少數人持有；自由回憶也可能漏報。藥理、毒理與人體療效仍待驗證。（表 2、4.2、4.6）",
+          "tags": [
+            "ethnobotany",
+            "food-sovereignty"
+          ]
+        },
+        {
+          "title": "南非野生果樹的食用知識、社區生計與保育",
+          "question": "果肉可能影響傳統啤酒發酵，哪些部分仍是假說？",
+          "answer": "作者推測糖、酸、香氣物質與果面微生物可能改變發酵；本物種成分及添加後的 pH、菌相與感官差異沒有量測，不能借其他物種結果當本篇實證。（4.2）",
+          "tags": [
+            "ethnobotany",
+            "food-sovereignty"
+          ]
+        },
+        {
+          "title": "南非野生果樹的食用知識、社區生計與保育",
+          "question": "為什麼只把植物種進植物園，仍未涵蓋本篇提出的完整保育方向？",
+          "answer": "植株與口傳知識都面臨流失。居民同時提出家戶繁殖、控制採集與棲地破壞、長者教學及數位／口述紀錄，且主張社區參與決策；各策略效果尚待評估。（3.4、4.4、第 5 節）",
+          "tags": [
+            "ethnobotany",
+            "food-sovereignty"
+          ]
+        }
+      ],
+      "completedAt": "2026-10-29T04:33:21.876Z"
     }
   ]
 }
