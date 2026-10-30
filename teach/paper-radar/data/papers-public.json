@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T18:41:13.366Z",
+  "generatedAt": "2026-10-30T18:47:48.087Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -108267,6 +108267,76 @@
       "content": "---\ntitle: \"Prognostic Factors and a Polymetastasis-Free Survival Nomogram in Oligometastatic Head and Neck Squamous Cell Carcinoma Treated with Local Ablative Therapy\"\ndoi: \"10.3390/curroncol33100585\"\nkind: \"review\"\nreview_depth: \"quick\"\nstudy_type: \"retrospective cohort and prognostic model\"\nlanguage: \"zh-TW\"\nsource_sha256: \"8e685a5f1c3c5b60b7207da88f1041be2e83c473188468e1a253008f36988763\"\n---\n\n# 評讀：頭頸癌寡轉移病人的預後模型與白蛋白訊號\n\n## 品質快照（Quality snapshot）\n\n| 面向 | 本次判讀 |\n|---|---|\n| 設計／樣本 | 韓國單中心回溯性隊列；93 名已對所有轉移處接受局部治療的頭頸部鱗狀細胞癌病人，沒有未接受局部治療的對照組（§2.1）。 |\n| 預後模型 | 以 56 個 PMFS 事件建立 4 項變數模型；1,000 次 bootstrap 校正後 C-index 0.66，沒有外部驗證（§3.6）。 |\n| 偏倚 | PROBAST 概念：選入已受治療者、變數篩選及較小樣本可能產生選擇和過度擬合風險；預測結果不等於治療效益。 |\n| GRADE／註冊 | 未針對明確營養介入及對照形成可評分的整體證據；不把單一預後模型硬算成治療 GRADE。本文未報告註冊。 |\n| 一句判斷 | 白蛋白與部分結局有關聯，但白蛋白受疾病與發炎影響；此研究不能證明提高白蛋白或增加營養即可延長存活，也不能證明局部治療優於其他方案。 |\n\n## Summary\n\n已閱讀身份符合的 PMC 完整主文 HTML、表1–4、圖1–3圖說及聲明。研究只觀察接受局部治療的病人，建立的是此選定族群的探索性預後模型；它不能估計治療帶來的額外好處。\n\n## 一、全文結構與逐段閱讀紀錄\n\n括號中的 block 編號為本次 HTML 依序抽取位置，不是印刷頁碼。\n\n| 位置 | 該段重點 |\n|---|---|\n| 簡要摘要 19、摘要 22 | 交代局部治療後選定隊列、預後關聯與探索模型；摘要中的 OS 白蛋白結果須對照分組分析。 |\n| §1 24 | 少轉移狀態與局部治療背景，不同腫瘤的證據並不一致。 |\n| §1 25 | 頭頸癌的轉移情境、病毒與原發部位異質。 |\n| §1 26–27 | 提出身體組成及營養／發炎指標與癌症特徵可能影響預後，限定本隊列研究目的。 |\n| §2.1 30 | 2006–2025 年單中心，至多 5 處／3 個器官，所有轉移處皆接受局部治療；排除治療後追蹤少於 3 個月者，最後 93 人。 |\n| §2.2 32 | 局部及全身治療由臨床醫師選擇，定期追蹤並記錄 CTCAE 不良事件；非隨機分派。 |\n| §2.3 34 | 在 T12 CT 計算肌肉指數，計算 PNI、NLR、SII，以及兩時間點的每月變化率。 |\n| §2.4 36–38 | 定義 OS、PFS、PMFS、轉為多處轉移及死亡競爭事件；單變項 p <0.10 篩選、AIC 後退法與 1,000 次 bootstrap；分析起點為少轉移診斷。 |\n| §3.1 41、表1、46–47 | 中位年齡、癌別、轉移負荷及治療分布；肌肉／實驗室與變化率資料有缺漏。 |\n| §3.2 49、圖1–2 | 回報 OS、PFS、PMFS 和多處轉移的累積發生；死亡作競爭事件。 |\n| §3.3 55、表2 | 64 人進展，首次失敗主要為遠處轉移；部分病人接受再次局部治療。 |\n| §3.4 61 | 9 人治療部位局部失敗；不同治療在時代及病灶大小上不同，不能直接比較誰較好。 |\n| §3.5 63、表3 66–67 | 全隊列 PFS 與白蛋白相關；全隊列 OS 的白蛋白單變項 CI 跨 1，未保留於最終模型。 |\n| §3.5 68、表4 71–72 | 異時性轉移子組的 OS 與白蛋白、部分發炎指標結果；模型病例因缺值而少於 81 人。 |\n| §3.6 74、圖3 | 4 項癌症特徵構成 PMFS 模型，校正後 C-index 0.66；沒有把白蛋白或肌肉量納入最終圖表。 |\n| §4 78–82 | 回顧選定族群、遠端進展、局部控制與不同病灶特徵；治療效果不能單憑本隊列證實。 |\n| §4 83–84 | 將身體組成和血液指標視作宿主狀態線索；白蛋白 PFS 關聯及發炎指標不確定性。 |\n| §4 85 | 作者提出模型但承認判別能力中等、需要外部驗證。 |\n| §4 86 | 作者列回溯設計、無未治療對照、治療時代、樣本小、缺值及 T12 肌肉切點驗證不足等限制。 |\n| §5 88 | 結論重申選定族群和模型需外部驗證；不可推成營養或治療的因果效果。 |\n| 聲明 90–104 | 列補充表圖；倫理審查核准並免個別同意；資料可在限制下向作者申請；作者聲明無利益衝突、無外部經費。 |\n\n## 白話導讀\n\n> **一句話：**這篇研究描述少數癌症轉移處都已接受局部治療的病人，哪些特徵與後續結果有關。\n>\n> **為什麼做：**頭頸癌少轉移病人的病程差異大，作者想找出病灶特徵與身體狀態是否有助預測進展（§1）。\n>\n> **研究了誰：**93 名在韓國單一中心接受局部治療的病人，大多只有單一、肺部轉移；並沒有另外一組未接受局部治療者（§2.1、表1）。\n>\n> **看到什麼：**中位追蹤 28.2 個月，3 年 OS 67.2%；全隊列中較高白蛋白與較低的進展或死亡風險相關，但 OS 的白蛋白結果依分析組別不同。四項腫瘤特徵預測 PMFS 的校正 C-index 為 0.66（§3、表3–4）。\n>\n> **所以呢：**這是選定族群的預後關聯與初步模型。病人能否因治療或營養介入而得到額外好處，需要不同設計；模型也需外部驗證後才考慮臨床應用（§4）。\n\n## Methods 與關鍵結果\n\n- **納入條件：**病理確認 HNSCC、至多 5 個轉移病灶且不超過 3 個器官，並對全部轉移處接受局部治療；既有多轉移史、未完成局部治療或治療後追蹤少於 3 個月者排除（§2.1）。\n- **比較與分母：**沒有隨機化和未治療對照；這是一組接受不同方式局部治療的選定病人。93 人中 77 人（82.8%）只有一處轉移，65 人（69.9%）僅肺轉移，76 人（81.7%）為男性（表1）。\n- **時間與結局：**由少轉移診斷起算。中位 OS 57.8 個月、PFS 13.6 個月、PMFS 51.7 個月；3 年 OS、PFS、PMFS 分別 67.2%、30.0%、51.7%。PMFS 包含多處轉移或死亡，死亡也作為特定事件的競爭風險（§2.4、§3.2）。\n- **白蛋白：**全隊列 PFS 模型中每增加 1 g/dL，HR 0.42（95% CI 0.18–0.98；89 個完整病例）；全隊列 OS 單變項 HR 0.56（0.23–1.37），未進最終模型。異時性子組 OS 多變項 HR 0.36（0.14–0.96；71 個完整病例）（表3–4）。這些都是關聯、單位需保留且不能當作增加白蛋白的介入效果。\n- **模型：**HPV 陽性口咽原發、肺以外轉移、至少 2 處轉移及最大病灶直徑，估計 1–3 年 PMFS；56 個事件，1,000 次 bootstrap 校正 C-index 0.66（§3.6、圖3）。內部校正不等於外部驗證。\n\n## Critical Appraisal\n\n### 預後模型的 PROBAST 面向\n\n| 領域 | 判讀 |\n|---|---|\n| 參與者 | 🔴 選入已接受全部轉移處局部治療且滿足追蹤條件者；結果只描述該選定群體，不能外推所有頭頸癌轉移病人。 |\n| 預測因子 | 🟡 四項癌症特徵可取得，但口咽 HPV 未知者歸入非陽性；T12 肌肉判定與切點在此癌別驗證較少。 |\n| 結局 | 🟡 OS、PFS、PMFS 定義清楚；PMFS 是進展或死亡的複合結局，預測 PMFS 不能直接當作預測單一轉移事件。 |\n| 分析 | 🔴 單中心 93 人、56 個 PMFS 事件、資料驅動選變數及 AIC 淘汰，可能造成過度擬合；雖做 bootstrap 校正，未做外部驗證，模型不能據此決定治療。 |\n\n**因果與統計：**（1）「依適應症選擇治療」及選入已接受治療者造成混雜與選擇偏倚；沒有未接受局部治療組，不能計算其相對效益。（2）分析從少轉移診斷起算，而納入要求後續接受治療及治療後至少 3 個月追蹤；時間零點與存活至納入條件的關係可能引入存活者選擇或 immortal time 問題，實際偏差大小無法由文中判定。（3）白蛋白是預後標記，可能反映發炎、疾病或體液狀態；**prediction ≠ prevention**，不能將其關聯轉為提升白蛋白會延長存活。（4）OS 白蛋白顯著關聯出現在異時性子組，摘要未清楚標出分組；全隊列 OS 信賴區間跨 1，應明確區分表3與表4。各項近門檻及多重探索結果不宜作確定結論。\n\n對「局部治療使本隊列生存改善」的假設性因果論點，以 `argdown_lint.py` 輸入單組觀察資料及治療選擇限制，得到 `association_to_causation` 警示；這是對可見結果可能被過度解讀的檢查，不是假裝本文有隨機對照。作者在 §4 承認沒有比較組。\n\n## Clinical Application\n\n- 這篇屬高度專科癌症預後研究；對營養照護的可用訊息是：低白蛋白可能提示需連同發炎、病程與身體狀態進一步評估，而不是單獨診斷營養不良或以白蛋白作營養治療目標。\n- 肌肉評估以 T12 影像及研究特定切點進行；不能將影像低肌肉量直接等同完整肌少症診斷，也沒有證明單憑此模型可選擇治療。\n- 病人的飲食攝取、症狀、體重與功能仍需個別營養評估；本文並未測試營養處方，不提供有效劑量或介入效果。\n- 台灣病人與此單中心、以男性及肺單一轉移為主的樣本是否可直接對應尚未驗證；癌症治療選擇應由相關專科評估。\n\n## Resource\n\nShin YS, et al. *Prognostic Factors and a Polymetastasis-Free Survival Nomogram in Oligometastatic Head and Neck Squamous Cell Carcinoma Treated with Local Ablative Therapy.* Current Oncology. 2026;33:585. [DOI](https://doi.org/10.3390/curroncol33100585)；[PMC 全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13703399/)。全文為 CC BY HTML，SHA-256 `8e685a5f1c3c5b60b7207da88f1041be2e83c473188468e1a253008f36988763`。本次已閱讀主文、四表及三圖說；補充表 S1–S5 的存在依全文報告，未宣稱逐項獨立核驗。快速評讀未做作者引用計量、期刊排名或完整引文分析；個人 vault 搜尋未執行。",
       "cards": [],
       "completedAt": "2026-10-30T18:37:35.706Z"
+    },
+    {
+      "id": "doi:10.3390/curroncol33100585:digest",
+      "paperId": "doi:10.3390/curroncol33100585",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Prognostic Factors and a Polymetastasis-Free Survival Nomogram in Oligometastatic Head and Neck Squamous Cell Carcinoma Treated with Local Ablative Therapy.",
+      "authors": "Young Seob Shin, Si Yeol Song, Seung Hoon Han, Minsu Kwon, Yoon Se Lee, Young Ho Jung, Seung-Ho Choi, Seyoung Seo, Sung-Bae Kim, Sang-wook Lee",
+      "journal": "Current Oncology",
+      "year": "2026",
+      "doi": "10.3390/curroncol33100585",
+      "abstract": "Evidence supporting metastasis-directed local ablative therapy (LAT) in head and neck squamous cell carcinoma (HNSCC) with oligometastatic disease (OMD) is limited. We retrospectively reviewed 93 patients with HNSCC who developed OMD and received LAT to all metastatic sites between 2006 and 2025. Clinical variables, sarcopenia, nutritional status, and inflammatory indices were evaluated as potential predictors of overall survival (OS), progression-free survival (PFS), polymetastasis-free survival (PMFS), and polymetastatic conversion (PC). An exploratory prognostic nomogram for PMFS was developed to inform treatment decision-making. After a median follow-up of 28.2 months, the 3-year OS and PMFS rates were 67.2% and 51.7%, respectively. Local failure occurred in 9 patients, while disease progression was predominantly distant. An HPV-positive oropharyngeal primary tumor was associated with improved OS and PMFS, whereas non-lung metastatic sites were adverse prognostic factors for PFS, and having two or more metastases was adverse for PC. Lower serum albumin levels correlated with worse OS and PFS, and an increasing systemic immune-inflammation index (SII) showed borderline significance for OS and PMFS. A PMFS nomogram based on four clinical parameters achieved an optimism-corrected concordance index of 0.66. Long-term survival and high local control were observed in this selected cohort of HNSCC patients with OMD treated with LAT. Tumor type, metastatic site, tumor burden, and host nutritional and inflammatory indices were associated with survival and progression to PC.",
+      "legalFullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13703399/",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42930152/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "頭頸癌寡轉移：局部治療隊列的預後線索",
+      "content": "---\ntitle: \"Prognostic Factors and a Polymetastasis-Free Survival Nomogram in Oligometastatic Head and Neck Squamous Cell Carcinoma Treated with Local Ablative Therapy\"\ndoi: \"10.3390/curroncol33100585\"\nkind: \"digest\"\nmode: \"worker-batch\"\nlanguage: \"zh-TW\"\nsource_sha256: \"8e685a5f1c3c5b60b7207da88f1041be2e83c473188468e1a253008f36988763\"\n---\n\n> [!summary] 30 秒層：這是接受局部治療者的預後研究，不是治療效果比較\n> - 單一醫學中心回顧 93 位頭頸部鱗狀細胞癌寡轉移患者；所有納入者都接受全部轉移灶的局部消融治療。\n> - 追蹤中位數 28.2 個月；三年 OS 67.2%、PFS 30.0%、PMFS 51.7%。\n> - 全體多變項分析中，白蛋白每增加 1 g/dL 與較低 PFS 事件風險相關（HR 0.42，95% CI 0.18–0.98）；這是預後關聯，不代表補白蛋白或營養介入能改善存活。\n> - PMFS 預測模型只做內部 bootstrap 校正，校正後 C-index 0.66，尚待外部驗證。\n> - 品質與方法判讀見同篇獨立評讀；本篇整理全文內容。\n\n# 頭頸癌寡轉移：局部治療隊列的預後線索\n\n## 5 分鐘層\n\n**要點：**先看研究對象是誰，再把預後關聯、競爭風險及模型表現分開讀。\n\n1. **研究問題：**在已接受所有轉移灶局部治療的寡轉移頭頸癌患者中，哪些腫瘤、宿主與血液指標和存活、疾病進展或多發轉移有關（§1、§2.1）。\n2. **研究設計：**單中心回溯性隊列，共 93 人；沒有未接受局部治療的比較組，因此不能估計局部治療造成的額外存活效益（§2.1、§4）。\n3. **整體結果：**中位 OS 57.8 個月、PFS 13.6 個月、PMFS 51.7 個月；遠端進展比局部治療區失敗常見（§3.2–3.4）。\n4. **營養與宿主指標：**全體多變項 PFS 模型中白蛋白仍與結果相關；OS 的白蛋白關聯主要出現在 81 人的 metachronous 子群，不能寫成全體 OS 結果（§3.5、表3–4）。\n5. **模型用途：**四項腫瘤／轉移特徵的探索性 PMFS nomogram 校正後 C-index 0.66；它預測的是已接受局部治療者的結果，沒有驗證「誰會因治療而受益」（§3.6、圖3、§4）。\n\n## 研究問題／背景\n\n**要點：**作者想描述已選擇局部消融治療的寡轉移患者之預後差異，並提出探索性預測工具。\n\n- 寡轉移疾病（OMD）介於局限疾病與廣泛轉移之間；本文依共識定義，最多五個轉移病灶、最多三個器官。研究問題不是比較局部治療與不治療，而是在「已治療」族群內找預後因子（§1、§2.1）。\n- 研究納入頭頸部鱗狀細胞癌（HNSCC）患者，所有轉移灶都接受局部消融治療（LAT）；作者評估腫瘤特徵、體組成、營養與發炎指標（§2.1–2.3）。\n- 需要分清預後與療效：一個指標可以和結果相關，但不因此證明改變該指標會改變疾病走向；此研究也沒有未接受 LAT 的對照組（§2.4、§4）。\n\n## 方法\n\n**要點：**這是 2006–2025 年單一中心的回溯性隊列，分析從寡轉移診斷時計算的多種時間結局。\n\n- **地點與期間：**韓國 Asan Medical Center；2006 年 1 月至 2025 年 9 月回溯納入（§2.1）。\n- **族群：**93 位病理證實 HNSCC 患者，符合 OMD 定義，且所有轉移病灶均接受 LAT。排除局部治療後追蹤不足三個月或未治療全部轉移灶者（§2.1）。\n- **治療型態：**SBRT 41 人、手術切除 34 人、傳統放射治療 13 人、射頻消融 5 人；28 人在某一時點接受全身治療，其餘 65 人只接受 LAT（§3.1）。治療由醫師依患者及疾病特徵選擇，非隨機分派。\n- **營養／宿主測量：**在胸部 CT 的 T12 單一切面測骨骼肌；並計算白蛋白、PNI、NLR、SII 等指標。T12 肌肉量及肌少症切點在此族群的驗證有限（§2.3、§4）。\n- **主要時間起點與結局：**OS 為主要結局；OS、PFS、PMFS 自 OMD 診斷時計算。PMFS 定義為至多發轉移轉換或任何原因死亡的時間，先發生者為事件。多發轉移轉換為超過五個病灶或超過三個器官（§2.4）。\n- **統計：**Kaplan–Meier 與 Cox 模型用於 OS、PFS、PMFS；多發轉移轉換等競爭風險結局使用 Fine–Gray 模型。nomogram 以 1,000 次 bootstrap 做內部校正（§2.4）。\n\n## 主要發現\n\n**要點：**結果描述的是一群經選擇且已接受 LAT 的患者；三個存活指標與轉移轉換並非同一結局。\n\n| 結局／分析 | 文中數值 | 怎麼讀 |\n|---|---:|---|\n| 追蹤與死亡 | 追蹤中位數 28.2 個月；93 人中 51 人死亡 | 隨訪長度不一致；存活估計仍受選擇與回溯設計限制（§3.2）。 |\n| OS | 中位數 57.8 個月；三年 OS 67.2% | HPV 陽性口咽原發與較佳 OS 相關（全體 HR 0.23，95% CI 0.05–0.95）；不能解讀為 LAT 造成的存活效益（§3.2、§3.5）。 |\n| PFS | 中位數 13.6 個月；三年 PFS 30.0% | 全體多變項模型中，非肺部轉移 HR 1.78（95% CI 1.06–2.99）；白蛋白每增加 1 g/dL HR 0.42（95% CI 0.18–0.98，p=0.046），模型 89 人（§3.5、表3、§3.5 註）。 |\n| PMFS | 中位數 51.7 個月；三年 PMFS 51.7% | 結局包含多發轉移轉換或死亡，故不同於單純腫瘤進展或 OS（§2.4、§3.2）。 |\n| 多發轉移轉換 | 39 人發生；死亡作競爭事件時，三年累積發生率 37.2% | 全體 Fine–Gray 模型中，至少兩個病灶 sHR 2.51（95% CI 1.22–5.16），非肺部位置 sHR 2.25（95% CI 1.09–4.65）（§3.2、§3.5）。 |\n| 局部控制與進展 | 9/93 人有治療區局部失敗；64 人有任何疾病進展，57 人曾出現遠端轉移 | 遠端進展常見；SBRT 表面局部控制較高，但治療時代與病灶大小不同，不能直接比較療法優劣（§3.3–3.4、§4）。 |\n| Metachronous 子群 | 81 人 | 白蛋白與 OS 相關（HR 0.36，95% CI 0.14–0.96，p=0.042），也與 PFS 相關（HR 0.25，95% CI 0.10–0.64，p=0.004）。這些是子群分析，不是全體 OS 的多變項結論（§3.5、表4）。 |\n| PMFS nomogram | 93 人、56 個 PMFS 事件；四個變項；bootstrap 1,000 次；校正後 C-index 0.66 | 變項為 HPV 陽性口咽原發、非肺部轉移、至少兩個轉移病灶、最大轉移灶直徑。屬中等判別的探索模型，尚無外部驗證（§3.6、圖3、§4）。 |\n\n**白蛋白結果的邊界：**全體資料支持的是白蛋白與 PFS 的統計關聯；全體 OS 中白蛋白未達顯著（表3：HR 0.56，95% CI 0.23–1.37，p=0.205）。OS 關聯出現在 metachronous 子群（表4）。本文沒有測試補充白蛋白或營養介入，也不能由這些關聯推論營養處置的因果效果。\n\n## 臨床意義／怎麼用\n\n**要點：**把本文用作理解預後線索與研究方法的材料，不把它當成局部治療或營養介入的比較試驗。\n\n- 臨床營養讀者可注意白蛋白作為宿主狀態相關指標的研究訊號，但解讀要放回疾病、發炎、治療選擇與整體臨床狀況；單一化驗值不能單獨診斷營養不良，也不證明提高白蛋白能延長存活（§2.3、§3.5、§4）。\n- 對個別患者是否做手術、放療、消融或全身治療，本文無法估計治療間的比較效益；不能以這個 nomogram 單獨決定治療（§2.4、§4）。\n- 作者報告 LAT 後遠端進展較多、局部失敗較少；這有助於提出後續研究問題，不代表對所有 OMD 患者重複局部治療都有效（§3.3–3.4）。\n- 模型只有內部驗證且 C-index 0.66，應先外部驗證、檢查校準與不同腫瘤亞型的適用性（§3.6、§4）。\n- 本文屬高度專科腫瘤預後研究；內容整理不構成疾病治療處方或個案建議。\n\n## 重要圖表重述\n\n**要點：**圖表分別呈現族群組成、存活／復發模式、預後模型；補充資料未包含在本次主文閱讀範圍。\n\n- **表1：**呈現 93 位患者的基線人口學、腫瘤與轉移特徵；多數是 metachronous、單一病灶且肺部轉移（§3.1、表1）。\n- **圖1：**展示全體 OS、PFS、PMFS 的 Kaplan–Meier 曲線；PMFS 的事件定義另含死亡（§3.2、圖1）。\n- **表2：**整理疾病進展首次位置及後續模式；遠端轉移是常見失敗模式（§3.3、表2）。\n- **圖2：**以競爭風險方式展示多發轉移轉換與局部失敗累積發生率（§3.2–3.4、圖2）。\n- **表3–4：**表3為全體預後因子分析；表4為 81 人 metachronous 子群，兩表不能混為同一族群（§3.5、表3–4）。\n- **圖3：**展示四變項 PMFS nomogram 與二年預測校準圖，校正後 C-index 0.66（§3.6、圖3）。\n- 作者列出的 Supplementary Tables S1–S5 與 Figure S1 未在此次主文核讀，不將其內容當成本摘要已核實資訊。\n\n## 概念／名詞整理\n\n**要點：**區分「存活」、「一般進展」與「越過寡轉移界線」三種問題。\n\n- **LAT（局部消融治療）：**本文指對全部可見轉移灶使用 SBRT、手術、傳統放射治療或射頻消融。\n- **OS（overall survival）：**從 OMD 診斷至任何原因死亡。\n- **PFS（progression-free survival）：**從 OMD 診斷至文中定義的疾病進展或死亡事件；與 PMFS 定義不同。\n- **PMFS（polymetastasis-free survival）：**從 OMD 診斷至多發轉移轉換或任何原因死亡；本文把轉換定義為超過五個病灶或超過三個器官。\n- **Fine–Gray sHR：**在競爭風險下比較事件累積發生關聯；死亡可阻止患者後續觀察到轉移轉換，故須與一般 Cox HR 分開讀。\n- **C-index：**衡量模型排序患者風險的區分能力；0.66 不代表 66% 的患者能得到正確治療，也不表示模型已臨床驗證。\n- **預後因子與治療預測因子：**預後因子與結局相關；治療預測因子需證明不同特徵患者對不同療法有不同相對效果。本文沒有治療對照，無法估計後者。\n\n## 與既有認知的對照\n\n**要點：**研究本身強調預後關聯不等於 LAT 的增量治療效果。\n\n本文內部的重點是：局部失敗較少與較長存活可同時出現在這個被挑選接受 LAT 的隊列，但沒有未治療比較組，不能分離治療效應與患者選擇。白蛋白與 PFS 的關聯也不能直接轉成補充白蛋白／營養治療的效果主張（§4）。個人知識庫搜尋工具未在本次執行環境提供，且設定只列相對資料夾名稱；本次沒有核實既有個人筆記，故不宣稱「vault 無相關筆記」。\n\n## 自我測驗\n\n**要點：**用五題練習區分研究族群、結局、預後關聯與治療因果。\n\n> [!question]- Q1：為什麼本研究不能證明 LAT 讓患者多活得更久？\n> 因為 93 位納入者都接受了 LAT，沒有未接受 LAT 的比較組；回溯性選擇也可能讓病灶較少、位置較有利或病程較慢者更容易接受治療（§2.1、§4）。\n\n> [!question]- Q2：PMFS 和 PFS 有什麼差別？\n> 本文 PMFS 是到多發轉移轉換或任何原因死亡；轉換指超過五個病灶或超過三個器官。PFS 是另一個疾病進展相關結局，不能把兩者的中位數當成相同事件（§2.4）。\n\n> [!question]- Q3：全體患者白蛋白 HR 0.42 可以如何表述？\n> 在全體多變項 PFS 模型中，白蛋白每增加 1 g/dL 與較低 PFS 事件風險相關（HR 0.42，95% CI 0.18–0.98）；它不是補充白蛋白的治療效果。全體 OS 的白蛋白結果未達顯著（表3）。\n\n> [!question]- Q4：四變項 nomogram 的 C-index 0.66 能支持什麼，不能支持什麼？\n> 它提供內部 bootstrap 校正後的中等區分能力線索；尚未外部驗證，也不能說明哪種治療能使個別患者受益（§3.6、§4）。\n\n> [!question]- Q5：為何不能把 metachronous 子群的白蛋白與 OS 關聯寫成全體研究結論？\n> 該結果來自 81 人子群；全體 OS 中白蛋白 HR 0.56、95% CI 0.23–1.37，未達統計顯著。必須同時交代分析族群與結局（表3–4）。\n\n## Reference\n\n**要點：**以上依 DOI 對應的開放取用主文 HTML 整理，未包含未讀補充資料。\n\nShin YS, Song SY, Han SH, et al. *Prognostic Factors and a Polymetastasis-Free Survival Nomogram in Oligometastatic Head and Neck Squamous Cell Carcinoma Treated with Local Ablative Therapy.* Current Oncology. 2026;33(10):585. [DOI](https://doi.org/10.3390/curroncol33100585)；[PMC 全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13703399/)。主文為 CC BY 開放取用 HTML；本次核驗來源 SHA-256 `8e685a5f1c3c5b60b7207da88f1041be2e83c473188468e1a253008f36988763`。",
+      "cards": [
+        {
+          "title": "局部治療與預後因果",
+          "question": "為什麼本研究不能證明局部消融治療使患者活得更久？",
+          "answer": "所有 93 位患者都接受局部治療，沒有未治療比較組；回溯性選擇也可能偏向病灶較少或預後較佳者。",
+          "tags": [
+            "oncology",
+            "causal-inference"
+          ]
+        },
+        {
+          "title": "讀懂 PMFS",
+          "question": "本文的 PMFS 事件是什麼，為何不能直接等同 PFS？",
+          "answer": "PMFS 從寡轉移診斷算到超過五個病灶、超過三個器官，或任何原因死亡；它的事件組成與 PFS 不同。",
+          "tags": [
+            "PMFS",
+            "clinical-outcomes"
+          ]
+        },
+        {
+          "title": "白蛋白與 PFS",
+          "question": "全體患者白蛋白 HR 0.42 的結果應如何解讀？",
+          "answer": "多變項 PFS 模型中，每增加 1 g/dL 白蛋白與較低事件風險相關（95% CI 0.18–0.98）；這是預後關聯，不是補充白蛋白的療效。",
+          "tags": [
+            "albumin",
+            "prognosis"
+          ]
+        },
+        {
+          "title": "Nomogram 的界線",
+          "question": "四變項 nomogram 的 C-index 0.66 可以告訴臨床什麼？",
+          "answer": "它提供內部驗證的中等風險排序能力線索；未外部驗證，也不會告訴我們某患者是否會因局部治療而受益。",
+          "tags": [
+            "nomogram",
+            "validation"
+          ]
+        },
+        {
+          "title": "子群結果不能外推",
+          "question": "為何不能把白蛋白與 OS 的顯著結果說成全體患者的結果？",
+          "answer": "顯著關聯來自 81 人 metachronous 子群；全體 OS 的估計未達顯著，報告時需保留分析族群及結局。",
+          "tags": [
+            "subgroup-analysis",
+            "interpretation"
+          ]
+        }
+      ],
+      "completedAt": "2026-10-30T18:47:22.154Z"
     }
   ]
 }
