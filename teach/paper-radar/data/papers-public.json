@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T16:16:53.772Z",
+  "generatedAt": "2026-10-30T03:29:34.291Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -107484,6 +107484,32 @@
         }
       ],
       "completedAt": "2026-10-29T16:12:18.558Z"
+    },
+    {
+      "id": "doi:10.3390/nu18203428:review",
+      "paperId": "doi:10.3390/nu18203428",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Nutrition Literacy in Relation to Nutritional Status Among Community-Dwelling Older Adults in Istanbul, Türkiye: A Hierarchical Regression Analysis.",
+      "authors": "Altınok Ö, Sevdin S, Tarakçı Filiz N, Yalçın Çeliktaş B, Garipağaoğlu M",
+      "journal": "Nutrients",
+      "year": "2026",
+      "doi": "10.3390/nu18203428",
+      "abstract": "Background/Objectives: Although nutritional status is central to healthy aging, little is known about how it relates to nutrition literacy in community-dwelling older adults. We examined this association and whether it persisted after sequential adjustment for sociodemographic, health-related, and anthropometric characteristics. Methods: This cross-sectional study included 306 community-dwelling adults aged ≥65 years in Istanbul, Türkiye. Nutritional status and nutrition literacy were assessed using the Mini Nutritional Assessment-Short Form (MNA-SF) and the Evaluation Instrument of Nutrition Literacy on Adults, respectively. Sociodemographic, perceived health- and nutrition-related, and anthropometric data were collected. Group comparisons, Pearson correlations, and a three-block hierarchical multiple regression analysis were performed. Results: Overall, 4.2% of participants were malnourished and 38.9% were at risk of malnutrition; 8.5% had inadequate and 66.7% had adequate nutrition literacy. Nutrition literacy was weakly and positively correlated with waist-to-hip ratio, mid-upper arm circumference, and calf circumference. Nutrition literacy was positively associated with MNA-SF scores across all hierarchical models, and the final model explained 28.8% of the variance. Sex, employment status, perceived diet quality, calf circumference, and waist circumference were also associated with MNA-SF scores in the final model. However, after additional adjustment for age group and marital status, the association between nutrition literacy and MNA-SF scores was no longer statistically significant. Conclusions: Nutrition literacy was modestly and positively associated with nutritional status after sequential adjustment, but not after additional adjustment for age group and marital status. Given the cross-sectional design, the direction of this association cannot be established, and no inferences regarding interventions can be drawn. Longitudinal studies are needed to clarify its temporal nature and underlying mechanisms.",
+      "legalFullTextUrl": "https://doi.org/10.3390/nu18203428",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42942999/",
+      "category": "recommended",
+      "tags": [
+        "adult clinical practice gaps",
+        "aging frailty sarcopenia",
+        "design:longitudinal",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "本研究為探索性橫斷面觀察研究，依Newcastle–Ottawa觀察性病的品質評讀",
+      "content": "---\ntags:\n  - source/journal\n  - med/geriatrics\ndoi: \"10.3390/nu18203428\"\njournal: \"Nutrients\"\nyear: 2026\nauthors: \"Öykü Altınok; Sezen Sevdin; Nadide Gizem Tarakçı Filiz; Bahar Yalçın Çeliktaş; Muazzez Garipağaoğlu\"\nstudy_type: \"cross-sectional\"\nreview_depth: \"quick\"\n---\n\n> [!info] 品質快照\n> **設計**：橫斷面｜**n**：306；主迴歸304｜**RoB**（Newcastle–Ottawa導向、未計星數）：🔴高（因果判讀）\n> **GRADE**：極低（單篇觀察性關聯）｜**Registration**：不適用\n> **一句話 verdict**：可作假說生成；營養素養係數小，追加年齡/婚姻調整後不顯著，不能推論介入效果。\n\n# Key Points\n\n## Summary\n\n> ✅ 已讀經SHA核對的完整16頁PDF，原始文字含Introduction、Methods、Results、Discussion及Conclusion。\n\n- 在伊斯坦堡306位社區高齡者中，營養素養與MNA-SF分數呈小幅正相關；但在追加年齡及婚姻狀態後，關聯不再顯著。這是橫斷面關聯，不是營養教育有效的證據。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：營養素養較高的人，這批樣本的MNA-SF平均分數稍高；把年齡與婚姻狀況也納入後，這個差異不足以排除偶然。\n> - **為什麼做**：研究者想知道營養知識/技能是否與高齡者的營養狀態相關，且這種關聯是否能在考慮人口、健康與體位資料後保留。\n> - **研究怎麼做**：研究對象是住在社區、年滿65歲的伊斯坦堡居民，採滾雪球收案。作者用35題EINLA評估營養素養，以MNA-SF評估營養風險，再逐層加入人口、健康及體位變項。本文沒有介入組或對照組。\n> - **看到什麼**：主迴歸304人中，EINLA每高1分，MNA-SF估計多0.039分（95% CI 0.002–0.077；p=.041）；約每10分多0.39分。當模型再加入年齡組與婚姻狀態，係數降到不顯著（β=.075；p=.229）。\n> - **所以呢**：研究提示這些量表分數有關聯，但無法判斷是營養素養影響營養狀態、營養狀態影響資訊處理，或共同因素造成。作者也沒有證明營養教育能改善MNA-SF；樣本及量表效度限制使外推需要謹慎。段落與頁碼地圖見 [全文結構與逐段閱讀地圖](source-outline.md)。\n\n## Clinical Application\n\n- **適用情境：**社區高齡營養風險的研究討論與服務設計假說；不是介入試驗，不能據此量化營養教育效果或替個人診斷。\n- **可採用的做法：**若在台灣社區營養服務評估營養風險，MNA-SF可作為篩檢的一部分，異常結果仍需由營養專業人員結合病史、體重變化、攝取量、功能與完整評估；不應僅依本研究的相關係數調整處方。\n- **注意事項：**EINLA原驗證對象是18–64歲，研究樣本為≥65歲；在高齡者使用前應先確認適用性。研究未測客觀食物攝取，亦未測教育介入。\n- **在地適用性：**單一土耳其都會區的滾雪球樣本，不足以代表台灣高齡者或不同照護場域；台灣團隊若要驗證，可優先檢查量表效度、年齡混雜與營養風險分層。\n\n# Paper Details\n\n## Methods\n\n- **設計/族群：**橫斷面研究；2025年12月至2026年3月於伊斯坦堡招募306位社區居住、≥65歲成人。不能理解/完成問卷者不納入；文中無正式認知篩檢，並排除妨礙參與的視聽問題。滾雪球抽樣可能漏掉較孤立或功能較差者。\n- **分析樣本：**兩筆自評飲食品質資料缺失後，主迴歸採listwise deletion，n=304。G*Power先驗設定f²=.05、α=.05、power=.95、22個預測變項，最低樣本263。\n- **暴露/主要解釋變項：**EINLA，35題、五領域、總分0–35；不足0–11、邊緣12–23、足夠24–35；樣本內Cronbach α=.895。作者援引的原量表驗證涵蓋18–64歲，未見本研究樣本中的高齡建構/效標效度驗證。\n- **結果：**MNA-SF 0–14；不良營養狀態0–7、風險8–11、正常12–14。主要版本以BMI計分；CC替代與移除體位題列入敏感度分析。\n- **調整項：**模型1僅營養素養；模型2加選定人口及健康變項；模型3再加MUAC、CC、腰圍與WHR分類（表格展開為五個指標變項）。另以CC版量表、移除量表體位題，以及加年齡組/婚姻狀態進行敏感度分析。\n- **統計：**SPSS 27；t檢定、ANOVA/Welch、Pearson相關與階層多元迴歸；VIF<10。未校正多重比較，且沒有post-hoc配對檢定；表1組間差異須視為探索性。\n\n## Key Findings\n\n| 結果 | 數值 | 解讀 |\n|---|---:|---|\n| 營養不良 / 營養不良風險 | 4.2% / 38.9% | 合計43.1%（依報告比例相加），是篩檢分類，不是臨床診斷盛行率 |\n| EINLA不足 / 足夠 | 8.5% / 66.7% | 不足與足夠分級間的中間比例不在此重算 |\n| 與腰圍的相關 | r=−.075, p=.190 | 未達統計顯著 |\n| 與WHR / MUAC / CC的相關 | r=.140 / .160 / .266 | p=.014 / .005 / <.001；弱正相關，不代表因果或保護作用 |\n| 模型R²（1 / 2 / 3） | .056 / .176 / .288 | 最終調整R²=.232；區塊增加解釋量不表示模型是因果路徑 |\n| 最終模型EINLA係數 | B=.039，95% CI .002–.077，p=.041，β=.126 | 每10分EINLA差異約0.39個MNA-SF分數；效應小且CI下界靠近零 |\n| 加年齡組與婚姻狀態 | β=.075，B的95% CI −.015–.062，p=.229 | 關聯未保留統計顯著性；主模型估計對調整設定敏感 |\n| BMI版對CC版MNA-SF | r=.882；分類一致86.6%，κ=.746 | 互換版本的分類並非完全一致；補充表S2原表本次未取得 |\n\n## Critical Appraisal\n\n本研究為探索性橫斷面觀察研究，依Newcastle–Ottawa觀察性病因研究方向逐領域評估；未套用正式總星數，避免把不完全適用的橫斷面版本偽裝成量表分數。\n\n| 領域 | 判定 | 證據與限制 |\n|---|---|---|\n| 混雜 | 🔴 高風險 | 主模型未納入年齡與婚姻；加入兩者後主關聯不顯著，顯示剩餘混雜/模型選擇會左右結論。 |\n| 選樣 | 🔴 高風險 | 單一都會區滾雪球抽樣，且需能理解問卷；機構/住院及部分感官受限者排除，社交孤立/低功能者可能不足。 |\n| 暴露測量 | 🟡 有疑慮 | EINLA原驗證年齡18–64歲；α=.895僅表示樣本內題目一致性，不證明適用於≥65歲。 |\n| 結果測量 | 🟡 有疑慮 | MNA-SF是篩檢工具；總分含BMI題。模型另納入多種體位指標，可能有構念重疊。 |\n| 缺失資料 | 🟢 低疑慮 | 304/306進入迴歸，缺兩筆單題資料；但只報listwise deletion，未提供缺失機制分析。 |\n| 選擇性報告 | 🟡 不明 | 未見預先登錄/分析計畫可供比對；單篇文章不能完整判定未報結果。 |\n| 整體偏差 | 🔴 高（因果解讀） | 估計可視為關聯訊號；不宜視為營養素養對營養狀態的獨立因果效果。 |\n\n**統計與臨床意義：**主模型p=.041，但效應很小，且CI下界僅略高於零。本次以MNA-SF、MCID/minimal important change等詞定向查找，未找到可直接套用於本研究橫斷面分數關聯的已驗證MNA-SF MCID；因此不宣稱0.39分已達或未達一個確定閾值。MNA-SF最初是營養不良篩檢工具，其分類切點不等於變化量MCID。[MNA-SF原始開發研究](https://pubmed.ncbi.nlm.nih.gov/11382797/)；[MNA官方工具說明](https://www.mna-elderly.com/development-and-validation)。\n\n**因果與推論檢查：**橫斷面資料無時間順序，可能有反向因果與共同原因；階層區塊不是中介分析。作者結論本身保留關聯措辭與年齡調整後不顯著，`argdown_lint.py` 對本研究結論圖回報 clean（0 flags）；這只表示所列前提與保守主張型態相符，不會消除偏差風險。\n\n**GRADE（單篇主要關聯估計）：**由觀察性證據起始 low；偏差風險、間接性與不精確性各降一級，跨研究不一致性及出版偏差因只有單篇而無法估計，未將「無法估計」寫成已排除。`grade_judge.py` 實算為 **very low（極低）**。評級明細與輸入留在同資料夾 `grade_input.json`、`grade_result.json`。\n\n**Funding/COI/登錄：**作者聲明無外部資助、無利益衝突；倫理核准 Fenerbahçe University No. 114.2025fbu（2025-11-18）。非試驗，臨床試驗登錄不適用。原始資料僅可向作者申請。本文提到補充表S1/S2，但附件未包含於本次可核驗全文，因此不引用附件未見內容。\n\n**優點：**研究人員直接標準化量測；報告多層模型及替代量表敏感度分析；摘要與主文都承認追加年齡/婚姻後不顯著與非因果限制。\n\n**主要限制：**單城市、便利滾雪球樣本；高齡素養量表效度未建立；沒有客觀飲食攝取、正式認知評估或縱向時序；主模型的年齡/婚姻調整敏感性；MNA-SF與體位變項重疊；表1未控制多重比較。研究結果不應外推為「提高營養素養可改善營養狀態」。\n\n## Resource\n\n- [原文 DOI](https://doi.org/10.3390/nu18203428)（Nutrients 2026;18(20):3428；16頁；PDF首頁標示CC BY）\n- [全文結構與逐段閱讀地圖](source-outline.md)\n- PDF/文字SHA、首中末視覺抽驗圖片及摘要：見本輪 `evidence/source-visual-10.3390-nu18203428/`。\n- Quick/Worker review；未執行期刊指標、作者背景、廣泛引用查核或附件下載。",
+      "cards": [],
+      "completedAt": "2026-10-30T03:26:32.521Z"
     }
   ]
 }
