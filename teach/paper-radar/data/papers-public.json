@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T04:46:50.023Z",
+  "generatedAt": "2026-10-30T04:52:38.434Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -107602,6 +107602,82 @@
       "content": "---\ntags:\n  - source/journal\ncitekey: null\ndoi: \"10.3389/fnut.2026.1913858\"\nzotero: null\njournal: \"Frontiers in Nutrition\"\nyear: 2026\nauthors: \"Victoria Lambert; Leonela Tantucci; Dafne Cabrera; Marina L. Fernández; Silvia G. Correa; María D. Román; Domingo C. Balderramo; Pablo A. Romagnoli\"\nstudy_type: \"cross-sectional\"\npmid: null\nreview_depth: \"quick\"\n---\n\n> [!info] 品質快照\n> **設計**：單中心觀察性橫斷面研究｜**n**：39（健康對照14、UC 15、CD 10）｜**RoB**（橫斷面研究適用的 Newcastle–Ottawa 領域核對）：整體嚴重疑慮\n> **GRADE**：Very low（飲食纖維／色胺酸食物來源關聯；觀察性起始等級，依腳本降級）｜**Registration**：不適用於試驗註冊；本文未報告預先登錄\n> **一句話 verdict**：可作為阿根廷單一中心的探索性描述；所有主要飲食差異經 FDR 校正後未達顯著，不能推論飲食改變造成 IBD 或疾病活動。\n\n# Dietary intake and nutritional profiles characterize patients with Inflammatory Bowel Disease from Argentina\n\n## Summary\n\n> ✅ Full text reviewed（11頁；身份、PDF與抽取文字 SHA-256 均核對）\n\n- 本研究比較阿根廷科爾多瓦一間醫院的成人 IBD 患者與當地健康對照。整體能量、蛋白質、碳水化合物、脂肪、總飲食色胺酸及血漿色胺酸沒有顯著組間差異。\n- UC 組膳食纖維低於健康組的事後比較為 p=.033，但該數值是 Table 2 註明的兩組比較，FDR 後 q=.19。色胺酸食物來源比例的若干差異也沒有通過 FDR。\n- 活動型 CD 的三酸甘油脂訊號來自 n=4 子組，且 Discussion 與 Table 3 註腳的兩個事後 p 值不一致。這個結果不宜作為疾病活動造成血脂變化的證據。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽（繁體中文白話）\n> - **一句話**：作者用一個小型、單中心樣本，觀察 IBD 患者和附近健康者吃的食物種類與營養指標是否不同。\n> - **為什麼做**：作者想知道纖維及色胺酸來自哪些食物，是否隨 UC、CD 表型或活動度改變。\n> - **主體**：14名健康者、15名 UC 患者、10名 CD 患者各記錄連續7天飲食；總熱量、三大營養素及總色胺酸沒有顯著差異。UC 組纖維較低、部分食物來源比例不同，但多重比較校正後都不顯著；疾病活動子組最小只有4人。\n> - **所以呢**：研究適合提出下一步問題，不能證明哪種飲食造成 IBD、造成發炎或改善緩解，也不能據此要求患者限制或增加特定食物。\n\n## Paper details\n\n- **研究問題**：健康對照、UC、CD 的飲食攝取、食物群頻率、纖維、色胺酸來源與血漿營養指標有何差異？疾病活動度是否伴隨不同飲食型態？\n- **研究設計**：觀察性橫斷面研究；科爾多瓦 Hospital Privado Universitario de Córdoba 單中心招募；成人（>18歲）。\n- **受試者**：健康 n=14、UC n=15、CD n=10。健康對照來自同地區社區。UC 與 CD 的活動度使用 Mayo score 與 Harvey–Bradshaw Index。\n- **飲食測量**：由營養師提供標準說明，受試者做前瞻7日飲食紀錄；使用 Nutrio V2.1 估算攝取並以 Willett residual method 做能量校正。\n- **檢體與分析**：血漿色胺酸以 HPLC 測量；血脂依院內常規檢驗。依分布使用 one-way ANOVA/Tukey 或 Kruskal–Wallis/Dunn；關聯使用 Spearman。纖維、色胺酸來源比例及飲食－血漿色胺酸關聯採 Benjamini–Hochberg FDR。活動度分層、食物群與血脂分析被列為探索性。\n- **研究時間**：收到 2026-06-19，修訂 2026-09-21，接受 2026-09-28，出版 2026-10-14（PDF p.1）。\n\n## Key findings\n\n### 樣本與營養狀態（PDF pp.3–4, Table 1）\n\n- 共39人。年齡中位數：健康39.5歲、UC 36歲、CD 38.5歲；性別及 BMI 營養狀態分類的組間檢定未顯著。小樣本的「未顯著」不代表群體等同。\n- UC 中緩解6人（40%）、輕度活動7人（46.67%）、中度2人（13.33%）；CD 中緩解6人（60%）、輕度活動2人（20%）、中度2人（20%）。\n- 治療組合有差異：UC 全數使用 mesalazine；CD 中較常見 adalimumab。治療異質性可能影響飲食或吸收，未作正式調整。\n\n### 飲食、纖維與色胺酸（PDF pp.4–6, Figures 1–2, Tables 2–3）\n\n- **總能量與巨量營養素**：健康組、UC、CD 的總能量分別為 1944.8、1672.1、1538.6 kcal/day，整體 p=.090。蛋白質、碳水化合物、脂肪比較亦未達統計顯著；這不是等效性檢定，也不能排除有意義差異。\n- **纖維**：健康組中位數 12.8 g/day [IQR 8.76–16.2]；UC 7.11 [5.51–9.78]；CD 8.60 [5.51–12.8]。Table 2 顯示 p=.033†，表註說這是健康組對 UC 的 Bonferroni-adjusted Dunn 事後比較，不是整體三組 p 值；FDR 後 q=.19，故不能視為校正後顯著差異。\n- **食物群頻率／份量**：起司的每週頻率在 UC 與 CD 均低於健康組（p=.017、.012）；全穀與熱飲頻率在 UC 低於健康組（p=.010、.003）。起司重量在 CD 較低（p=.045），全穀重量在 UC 較低（p=.010）。多為探索性比較。\n- **色胺酸**：總攝取量（mg/day）與血漿濃度（論文報告 g/dL）未見顯著組間或活動度差異。UC 中來自全穀的比例較低、肉類比例較高；CD 中來自起司的比例較低，均是未校正比較，FDR 後未保留顯著性。\n- **色胺酸與血漿關聯**：健康組有單一未校正負相關（r=−0.4681, p=.0469）；UC/CD 未見顯著相關；FDR 後也未顯著。不能解讀為 IBD 已造成色胺酸恆定失調。\n- **疾病活動子組**：UC 緩解 n=6、活動 n=9；CD 緩解 n=6、活動 n=4。Figure 1–2 的食物群差異均應視為描述性發現，不足以支持疾病分期飲食處方。\n\n### 三酸甘油脂的數值不一致（PDF pp.5, 7, Table 3 / Discussion）\n\n- Table 3 的 CD 活動組 n=4，三酸甘油脂 208.5±113.8 mg/dL；健康對照 n=14 為 107.0±37.5；CD 緩解 n=6 為 91.3±19.9。\n- Table 3 註腳列活動組對健康組 p=.023、活動組對緩解組 p=.021（Tukey HSD）；Discussion 則列 p=.0322 與 p=.0230。本文內部報告不一致，需回查原始分析輸出，不能自行選一組 p 值。\n- Table 3 的三酸甘油脂列只列兩個事後比較值（p=.023、.021）；註腳明示這不是整體三組檢定，因此該列未提供可獨立辨識的整體 p 值。活動組樣本極小、未調整 BMI；CD 的 overweight 比例為50%，健康組為21.43%，故不能把差異歸因於發炎。\n\n## Critical Appraisal\n\n### 研究偏差與限制\n\n| 領域（橫斷面研究適用的 Newcastle–Ottawa 領域核對） | 判定 | 依據 |\n|---|---|---|\n| 樣本選取與代表性 | 高疑慮 | 單中心、樣本僅39人；IBD 來自醫院，外推至阿根廷各地或其他族群有限。 |\n| 混雜控制 | 高疑慮 | 未作年齡、性別、BMI、治療類別的多變項調整；不顯著的基線比較不能取代調整。 |\n| 飲食暴露測量 | 有疑慮 | 前瞻7日紀錄與標準指導是優點，但仍依受試者記錄；食物紀錄可能有漏記或分類誤差。 |\n| 臨床活動度與檢驗 | 有疑慮 | Mayo/HBI 為有效臨床指數，但未用 fecal calprotectin 或 CRP 確認；血脂活動度分析未調整 BMI。 |\n| 統計精確度與多重比較 | 高疑慮 | 小樣本、子組 n=4、比較數多；主要飲食訊號 FDR 後不顯著，部分子組分析未作 FDR。 |\n\n### 統計、因果與 GRADE\n\n- **樣本數與精確度**：未報告樣本數估算；研究只有39人，部分活動度子組 n=4。本文未提供主要飲食差異的信賴區間或臨床重要差異門檻，因此 p 值無法說明估計穩定性或臨床重要性。\n- **多重比較**：纖維的 p=.033 是健康組對 UC 的事後比較，FDR q=.19；作者明確指出纖維、色胺酸來源及飲食－血漿相關沒有在 FDR 後保留顯著性。食品群和疾病活動度結果應定位為探索性。\n- **MCID／登錄**：本研究沒有患者重要臨床結局或介入量表，MCID 不適用；試驗註冊不適用，本文未提及預先註冊。\n- **因果推論**：argdown_lint.py 對「食物群選擇驅動營養差異／影響病程」的因果解讀標出 association-to-causation gap。作者在 Discussion 中也說微生物、indole metabolites、AhR 未測量，因果方向不能由橫斷面資料判定。\n- **GRADE**：依 `grade_judge.py` 對單一觀察性關聯作保守確定性估計，起始 Low；risk of bias 降1級、indirectness降1級、imprecision降2級；計算結果 **Very low**。單一研究無法評估跨研究不一致性或 publication bias；此分級不代表臨床效果已證實。\n- **研究優點**：7日飲食紀錄採前瞻方式；同區域健康對照；色胺酸以 HPLC 測定；使用經驗證的臨床活動度指數；作者採用 FDR 並充分承認小樣本和機轉資料缺失。\n\n### Funding / COI / AI\n\n- **Funding**：作者列出 UNC 臨床免疫學專科、阿根廷 National Agency for the Promotion of Research, Technological Development and Innovation Fellowship [PICT2018-02589] 及 Fundación para el Progreso y la Medicina（PDF p.9）。\n- **COI**：作者聲明無可能構成利益衝突的商業或財務關係（PDF p.9）。\n- **Generative AI**：作者揭露 Claude Sonnet 4.6 協助英文稿件的清晰度與文法修訂，並稱作者已審閱（PDF p.10）。\n\n## Clinical Application\n\n- 這篇研究本身**不支持**對所有 IBD 患者限制乳品、麩質、纖維或全穀，也不支持以纖維攝取量或血脂作為本文提出的治療目標。\n- 可以把它當作營養評估的討論提示：記錄食物來源、飲食自我限制及疾病活動，而非只看總熱量或三大營養素；個別患者的狹窄、症狀及營養風險需由臨床團隊評估。\n- 若要提出飲食介入建議，仍需依更完整的臨床指引與個別病況，不由這個小型橫斷面研究單獨決定。\n\n## Review scope\n\n本次依 Paper Radar `focused-quick` 模式執行。已完成全文識別、Critical Appraisal、GRADE 與因果推論檢查；期刊／作者深度查核、廣泛引用影響分析及逐條參考文獻核對依 quick 模式略過。\n\n## Source\n\n- [Publisher full text](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1913858/full)\n- [DOI](https://doi.org/10.3389/fnut.2026.1913858)\n- 關鍵定位：研究設計與摘要（PDF p.1）；方法（pp.2–3）；Table 1（p.3）；Figure 1（p.4）；Tables 2–3（p.5）；Figure 2（p.6）；Discussion 的 TG p 值及限制（pp.7–9）；結論（p.9）。\n- 全文來源核驗收據保存在本次 Worker 的 `source-qa-10.3389-fnut.2026.1913858.json`；全文段落地圖在 `reading-map-10.3389-fnut.2026.1913858.md`。\n- Paper PDF source SHA-256：`e9e8dc60518ac77ebe1f615d544b0ad0b64d875cda8d8131b7da479a01e2702f`；抽取文字 SHA-256：`b870afb154ea33221f7ed255e1f8e2330e61cf70547b5dddbc5cf340c211f87e`。\n- Zotero/BibTeX citekey 與 PMID 未出現在目前 Worker metadata；未自行補造。",
       "cards": [],
       "completedAt": "2026-10-30T04:44:19.000Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1913858:digest",
+      "paperId": "doi:10.3389/fnut.2026.1913858",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Dietary intake and nutritional profiles characterize patients with Inflammatory Bowel Disease from Argentina.",
+      "authors": "Lambert V, Tantucci L, Cabrera D, Fernández M, Correa S, Román M, Balderramo D, Romagnoli P",
+      "journal": "Frontiers in Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fnut.2026.1913858",
+      "abstract": "Diet is increasingly recognized as a modifiable determinant of Inflammatory Bowel Disease (IBD) onset and progression, including patients with Ulcerative Colitis (UC) and Crohn's Disease (CD); however, comprehensive nutritional characterization of these populations in Latin America remains scarce. To evaluate dietary intake and nutritional profiles among healthy individuals and IBD patients, focusing on fiber intake and the food-source distribution of dietary tryptophan, and to assess differences according to disease phenotype and activity. An observational cross-sectional study recruited 14 healthy individuals, 15 UC patients, and 10 CD patients at the Hospital Privado Universitario de Córdoba, Argentina. Dietary intake was assessed using a prospective seven-day food record analyzed with Nutrio V2.1 software and energy-adjusted by the Willett residual method. Plasma tryptophan was measured by validated HPLC and disease activity by the Mayo score (UC) or the Harvey-Bradshaw index (CD). No significant differences were observed in total energy, macronutrient, or tryptophan intake between groups. In univariate exploratory analyses, weekly consumption frequency was lower than in healthy individuals for cheese in both UC (p = 0.017) and CD (p = 0.012), and for whole cereals (p = 0.010) and hot beverages (p = 0.003) in UC. The relative contribution of specific food groups to total dietary tryptophan also differed, being lower for cheese in CD (p = 0.037) and for whole cereals in UC (p = 0.008), and higher for meat in UC (p = 0.031). Dietary fiber intake was lower in UC than in healthy individuals (p = 0.033). A negative dietary-plasma tryptophan correlation was identified exclusively in the healthy group (r = -0.4681, p = 0.0469). None of these differences remained significant after FDR correction for multiple testing. Disease-activity subgroup analyses were based on small sample sizes (n as low as 4) and should be interpreted as descriptive observations only. These hypothesis-generating findings suggest that tryptophan food-source distribution and fiber intake, rather than caloric or macronutrient deficits, may represent candidate nutritional distinctions in IBD patients; however, as none withstood correction for multiple testing, confirmation in larger prospective studies is required before any clinical implications can be drawn.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1913858/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42952716/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "clinical nutrition technology",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "阿根廷 IBD 飲食與營養特徵",
+      "content": "---\ntitle: 阿根廷 IBD 飲食與營養特徵\nauthors: Lambert V; Tantucci L; Cabrera D; Fernández ML; Correa SG; Román MD; Balderramo DC; Romagnoli PA\nyear: 2026\njournal: Frontiers in Nutrition\nvolume: 13\narticle: 1913858\ndoi: 10.3389/fnut.2026.1913858\ncitekey: Lambert2026\ntags:\n  - research/digest\n  - inflammatory-bowel-disease\n  - clinical-nutrition\n  - dietary-fiber\n  - tryptophan\n---\n\n> [!summary] 30 秒層\n> 阿根廷單中心小型橫斷面研究提出 IBD 患者的食物來源組成可能不同，但主要飲食訊號經多重比較校正後均未保留。\n> - 39 人：健康對照 14、潰瘍性結腸炎（UC）15、克隆氏症（CD）10。\n> - 三組總能量、巨量營養素、總色胺酸與血漿色胺酸沒有顯著組間差異。\n> - UC 組纖維攝取低於健康組的事後比較 p=.033，但 FDR q=.19；不能視為確認差異。\n> - 食物群與色胺酸來源比例的若干未校正差異，以及疾病活動度子組結果，都屬探索性。\n> - 品質評讀另見同 DOI 評讀；本篇整理說明內容，不把相關性解讀為因果。\n>\n> [!note] 來源界線\n> 依全文整理；數字與定位見各節及文末來源。所有假說機轉均與本研究直接測量結果分開。\n\n## 5 分鐘層\r\n\r\n**要點**：先看研究問題與方法，再讀主要數值、校正結果、臨床邊界和研究限制；每節首句可快速重建全文脈絡。\r\n\r\n## 研究問題 / 背景\n\n**要點**：研究想知道阿根廷成人 IBD 患者的飲食、膳食纖維及色胺酸食物來源，是否不同於同地區健康者，並描述 UC、CD 及活動度間的差異。\n\n- 作者指出，IBD 與飲食、腸道菌相及免疫反應可能相關，但患者改變飲食也可能是為了應對症狀，方向性不明。\n- 本文聚焦兩項飲食特徵：纖維攝取，以及飲食色胺酸來自乳品、全穀、肉類等食物群的相對比例。\n- 研究假設是 IBD 患者的飲食輪廓不同，且 UC 與 CD 的來源分布可能不一樣；研究設計只能觀察同一時點的差異，不能判斷飲食變化發生在疾病活動之前或之後。（Introduction，p.2）\n\n## 方法\n\n**要點**：單中心觀察性橫斷面研究，以 7 日前瞻飲食紀錄搭配臨床活動指標、HPLC 血漿色胺酸及院內血脂檢驗。\n\n- **對象與地點**：阿根廷 Córdoba 的 Hospital Privado Universitario de Córdoba；成人 39 人，健康對照 14 人、UC 15 人、CD 10 人。研究排除妊娠、近期長療程抗生素、近期腹部手術及活動性腫瘤。（Methods 2.1，p.2–3）\n- **飲食測量**：受試者在營養師標準說明後完成連續 7 日食物與飲品紀錄。Nutrio V2.1 用於估計攝取量；飲食變數以 Willett residual method 進行總能量校正。（Methods 2.3，p.3）\n- **臨床與生化測量**：UC 以 Mayo score、CD 以 Harvey–Bradshaw Index 評定活動度；血漿色胺酸以 HPLC 測量，血脂由院內常規檢驗。（Methods 2.2、2.4，p.3）\n- **統計**：依分布採 ANOVA/Tukey 或 Kruskal–Wallis/Dunn，色胺酸攝取與血漿濃度用 Spearman 相關。纖維、色胺酸來源比例及飲食－血漿相關採 Benjamini–Hochberg FDR；活動度、個別食物群和血脂分析被列為次要或探索性比較。（Methods 2.5，p.3）\n- **不能外推的設計界線**：橫斷面、單中心、小樣本，尤其 CD 活動組只有 4 人；沒有足夠樣本作年齡、性別、BMI 或治療類別的多變項調整。（Methods 2.1–2.5；Discussion，p.8–9）\n\n## 主要發現\n\n**要點**：總熱量與主要營養素沒有顯著組間差異；部分食物群、纖維及色胺酸來源比例出現未校正訊號，但主要目標差異未通過 FDR。\n\n| 指標 | 健康對照（n=14） | UC（n=15） | CD（n=10） | 研究中的比較與解讀 |\n|---|---:|---:|---:|---|\n| 總能量，kcal/day | 1944.8 ± 505.4 | 1672.1 ± 442.8 | 1538.6 ± 318.5 | 三組 p=.090，未達顯著 |\n| 蛋白質，g/day | 61.4 [58.7–66.9] | 64.8 [62.9–78.9] | 61.4 [60.2–71.0] | p=.380，未達顯著 |\n| 碳水化合物，g/day | 188.1 ± 57.3 | 151.5 ± 57.6 | 140.4 ± 44.3 | p=.093，未達顯著 |\n| 脂肪，g/day | 98.6 ± 24.4 | 87.5 ± 23.1 | 82.0 ± 22.1 | p=.229，未達顯著 |\n| 飲食色胺酸，mg/day | 755.7 [698.5–826.0] | 832.0 [738.6–870.2] | 819.6 [791.9–864.3] | p=.203，未達顯著 |\n| 血漿色胺酸，g/dL | 0.0115 ± 0.0019 | 0.0111 ± 0.0017 | 0.0122 ± 0.0029 | p=.454，未達顯著 |\n| 膳食纖維，g/day | 12.8 [8.76–16.2] | 7.11 [5.51–9.78] | 8.60 [5.51–12.8] | 健康組 vs UC 事後比較 p=.033；FDR q=.19，不是校正後顯著差異 |\n\n數值取自 Table 2（p.5）。表中纖維的 p=.033 是健康組與 UC 的事後比較，不是三組整體比較；論文指出校正後 q=.19。\n\n- **食物群攝取**：每週起司食用頻率在 UC 與 CD 均低於健康組（p=.017、p=.012）；UC 的全穀與熱飲頻率也較低（p=.010、p=.003）。以每日克數比較時，CD 起司較低（p=.045），UC 全穀較低（p=.010）。（Results 3.2，Figure 1，p.4–5）\n- **色胺酸來源比例**：CD 起司來源比例較低（p=.037）、UC 全穀來源比例較低（p=.008）、UC 肉類來源比例較高（p=.031）；三者經 FDR 後均未保留顯著性。（Results 3.3，Figure 2，p.6）\n- **飲食與血漿色胺酸**：健康組觀察到負相關 r=−0.4681、p=.0469；UC 與 CD 沒有顯著相關。這是小樣本的一項邊緣關聯，FDR 後不顯著，不足以證明色胺酸恆定機轉在 IBD 中受損。（Results 3.3，Figure 2，p.6）\n- **活動度子組**：多項食物群比較來自很小的子組，最小 n=4，應視為描述資料。CD 活動組三酸甘油脂 208.5 ± 113.8 mg/dL（n=4），高於健康對照 107.0 ± 37.5（n=14）及 CD 緩解組 91.3 ± 19.9（n=6）；BMI、治療等混雜未調整。Table 3 註列事後 p=.023 與 .021，Discussion 則寫 .0322 與 .0230；原文數字不一致，不能擇一當作確定結果。（Table 3，p.5；Results 3.4，p.6–7）\n- **主要圖表**：Figure 1 比較不同食物群的食用頻率、每日克數及活動度子組；Table 2 列整體飲食、生化值；Table 3 列活動度分層值；Figure 2 比較色胺酸食物來源比例與飲食－血漿關聯。圖中部分來源比例的精確數值未以表格列出，因此本整理只描述論文文字明確報告的方向與 p 值，不從圖形估讀百分比。（p.4–7）\n\n## 臨床意義 / 怎麼用\n\n**要點**：本文支持把食物來源與纖維納入營養評估的研究問題，但沒有提供可直接採用的處方、因果證據或治療效果。\n\n- 若患者有食物限制，可個別詢問限制原因、飲食可接受度、營養完整性及疾病相關風險；研究沒有測試重新引入某類食物的效果。\n- 作者提出質地調整（例如烹煮或處理蔬菜）可能有助特定狹窄患者攝取纖維，但這是討論中的實務建議，並非本研究驗證的介入。臨床仍需按狹窄、症狀與醫療團隊評估個別化處理。（Discussion，p.8）\n- 不宜把 UC 纖維數值、CD 活動組血脂或任何未校正 p 值轉成個人目標值；本文無法證明低纖維導致疾病、全穀改善病程或三酸甘油脂升高由發炎造成。\n\n## 重要圖表重述\n\n**要點**：表格提供數值與小樣本背景，圖示提供食物群比較；作者的結論仍以探索性觀察為限。\n\n- **Table 1（p.3–4）**：各組年齡、性別與 BMI 分類未見顯著差異；但 CD 組過重比例 50%，健康組 21.43%，樣本數不足以排除混雜。UC 中 46.67% 為輕度活動、40% 緩解；CD 中 60% 緩解。\n- **Figure 1（p.4–5）**：健康者與 IBD 組在起司、全穀及 UC 熱飲等比較呈現頻率或攝取量差異；疾病活動度分層差異基於小子組。\n- **Table 2（p.5）**：整體巨量營養素、總色胺酸及血漿色胺酸沒有顯著差異。纖維事後比較的未校正 p=.033，FDR q=.19。\n- **Table 3（p.5）**：UC/CD 活動度分層；最小組別 CD active n=4。三酸甘油脂比較在表註與正文的事後 p 值不一致。\n- **Figure 2（p.6–7）**：色胺酸來源比例的個別比較及一項健康組相關呈現未校正訊號；FDR 後不顯著。\n\n## 與既有認知的對照\n\n**要點**：這份執行環境沒有可解析的個人 vault 根目錄，因此本次無法完成知識庫搜尋或確認是否已有相關筆記。\n\n- 技能設定中的 Papers/ 與 Medicine/ 是相對路徑；未設定可確認的 vault 絕對路徑，本機專案也沒有 Papers/ 目錄。\n- 因此既有筆記對照為「未核」，不推定為沒有相關既有認知；目前不建立「舊認知 → 本篇」的比較結論。\n\n## 概念 / 名詞整理\n\n**要點**：本文區分「總量」與「食物來源比例」，並將色胺酸－菌相－AhR路徑列為待測機轉，不是觀察到的臨床效果。\n\n- **IBD**：發炎性腸道疾病總稱；本文納入 UC 與 CD。\n- **色胺酸來源比例**：各食物群對飲食總色胺酸攝取的相對貢獻；它不同於總色胺酸量、吸收量或血漿濃度。\n- **Willett residual method**：在統計分析中校正總能量攝取的飲食估計方法；不是改變受試者實際飲食。\n- **FDR（false discovery rate）**：多重檢定時控制假發現率的統計校正。本文主要纖維、來源比例與相關分析經 FDR 後均未達門檻。\n- **腸道菌相／吲哚／AhR**：作者提出的候選路徑；研究未測菌相、吲哚代謝物或 AhR 活化，因此不構成本研究結果。\n\n## 自我測驗\n\n**要點**：先用研究設計與校正結果判斷結論強度，再回想它能支持的臨床問題。\n\n> [!question]- Q1：為什麼本文不能判定低纖維是 IBD 的原因？\n> 研究是單中心橫斷面研究，只觀察同一時點的飲食與疾病狀態，不能確認時間順序或因果；樣本只有 39 人，纖維比較經 FDR 校正後 q=.19。\n>\n> [!question]- Q2：作者報告 UC 組纖維較低時，應如何解讀 p=.033 與 q=.19？\n> p=.033 是健康組與 UC 的未校正事後比較；多重比較校正後 q=.19，未保留統計顯著性，因此應稱探索性訊號，不能稱已確認差異。\n>\n> [!question]- Q3：若飲食總色胺酸沒有組間差異，來源比例的差異代表什麼、不代表什麼？\n> 它表示各食物群對總攝取的相對貢獻可能不同，不代表總量、吸收、生物可用率或血漿濃度已證實不同；來源比例比較也未通過 FDR。\n>\n> [!question]- Q4：為什麼 CD 活動組三酸甘油脂結果不能直接歸因於腸道發炎？\n> 活動組只有 4 人，BMI 與治療未作多變項調整；CD 組過重比例為 50%，可能混雜血脂。且 Table 3 與 Discussion 的事後 p 值不一致。\n>\n> [!question]- Q5：本文最穩妥的營養實務應用是什麼？\n> 在個別營養評估中詢問食物群限制、纖維來源與症狀背景，按臨床情況協作評估；本文沒有測試飲食介入，不能據此開出全體患者通用的全穀、纖維或色胺酸處方。\n\n## Reference\n\n**要點**：以下列出本文及作者在飲食、纖維與色胺酸論述中援引的代表文獻；引用關係依本文參考文獻表整理，本次未另行查核各外部來源全文。\n\n- Lambert V, et al. 2026. *Dietary intake and nutritional profiles characterize patients with Inflammatory Bowel Disease from Argentina.* Frontiers in Nutrition 13:1913858. DOI: [10.3389/fnut.2026.1913858](https://doi.org/10.3389/fnut.2026.1913858). 本文來源定位：Abstract p.1–2；Methods 2.1–2.5 p.2–3；Results 3.1–3.4 p.3–7；Discussion p.7–9；Conclusion p.9；Tables 1–3 p.3–5；Figures 1–2 p.4–7.\n- Lewis JD, et al. 2021. Specific carbohydrate diet compared with Mediterranean diet in adults with Crohn’s disease. DOI: [10.1053/j.gastro.2021.05.047](https://doi.org/10.1053/j.gastro.2021.05.047)（本文 Ref. 9）。\n- Hashash JG, et al. 2024. AGA clinical practice update on diet and nutritional therapies in patients with IBD. DOI: [10.1053/j.gastro.2023.11.303](https://doi.org/10.1053/j.gastro.2023.11.303)（本文 Ref. 20）。\n- Svolos V, et al. 2025. ECCO consensus on dietary management of IBD. DOI: [10.1093/ecco-jcc/jjaf122](https://doi.org/10.1093/ecco-jcc/jjaf122)（本文 Ref. 50）。",
+      "cards": [
+        {
+          "title": "FDR與飲食差異",
+          "question": "為什麼UC組纖維較低的p=.033不能視為已確認差異？",
+          "answer": "p=.033是健康組與UC的未校正事後比較；FDR校正後q=.19，未保留統計顯著性。",
+          "tags": [
+            "IBD",
+            "膳食纖維",
+            "統計判讀"
+          ]
+        },
+        {
+          "title": "總量與來源比例",
+          "question": "飲食總色胺酸相近時，食物來源比例差異可以推論到哪裡？",
+          "answer": "只能說各食物群相對貢獻可能不同；不能據此推論吸收、生物可用率、血漿濃度或臨床效果。相關來源比例比較也未通過FDR。",
+          "tags": [
+            "IBD",
+            "色胺酸",
+            "飲食評估"
+          ]
+        },
+        {
+          "title": "橫斷面因果界線",
+          "question": "這項橫斷面研究為什麼無法判斷飲食改變是病因還是症狀反應？",
+          "answer": "飲食與疾病狀態在同一期間觀察，無法確定時間順序；小樣本與未調整混雜也限制因果解讀。",
+          "tags": [
+            "IBD",
+            "研究設計",
+            "因果推論"
+          ]
+        },
+        {
+          "title": "CD活動與三酸甘油脂",
+          "question": "CD活動組三酸甘油脂較高的觀察，為什麼不能直接歸因於發炎？",
+          "answer": "活動組僅4人，BMI與治療未作多變項調整；CD組過重比例50%可能混雜。此外，表註和討論的事後p值不一致。",
+          "tags": [
+            "IBD",
+            "血脂",
+            "混雜因子"
+          ]
+        },
+        {
+          "title": "營養實務應用",
+          "question": "根據本文，最合理的臨床營養應用是什麼，哪些做法超出證據？",
+          "answer": "可個別詢問食物群限制、纖維來源及症狀背景；研究未測試介入，不能據此訂出通用的全穀、纖維或色胺酸處方。",
+          "tags": [
+            "IBD",
+            "臨床營養",
+            "證據應用"
+          ]
+        }
+      ],
+      "completedAt": "2026-10-30T04:50:43.340Z"
     }
   ]
 }
