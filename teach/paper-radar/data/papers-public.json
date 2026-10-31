@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T05:27:39.074Z",
+  "generatedAt": "2026-10-31T05:38:52.831Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -108465,6 +108465,77 @@
       "content": "---\ntags:\n  - source/journal\ncitekey: \"PMID42958206\"\ndoi: \"10.1186/s12906-026-05494-0\"\nzotero: null\njournal: \"BMC Complementary Medicine and Therapies\"\nyear: 2026\nauthors: \"Mayuree Tangkiatkumjai, Narisa Kamkaen, Duangkamol Pakdeesattayapong, Nidchakarn Namthongbai, Wannisa Theantawee, Phantipa Sakthong\"\nstudy_type: \"mixed-methods criteria development and expert validation\"\npmid: \"42958206\"\nreview_depth: \"quick\"\n---\n\n> [!info] 品質快照\n> **設計**：混合方法之草藥證據評估標準建立與專家驗證｜**樣本**：內容效度 6 位專家；信度測試每一類標準由 2 位評估者評 3 種藥材／產品｜**RoB**：不是療效研究；未套用療效研究 RoB 工具，方法可信度受小樣本與目的性抽樣限制\n> **GRADE**：不適用（未估計患者療效）｜**試驗註冊**：不適用｜**一句話 verdict**：初步內容效度與評估者一致性達作者設定門檻，但信度樣本極小、尚待外部試辦；不能據此判定任何特定草藥有效或安全。\n\n# Key Points\n\n## Summary\n\n> ✅ 已核讀可讀全文（PDF 14 頁）\n\n這篇研究為泰國草擬「傳統草藥」及「由傳統使用發展的草藥產品」納入國家基本藥品名單（NLEM）的證據評估標準。研究包含三階段：修訂既有標準、專家內容／表面效度檢視、評估者間信度測試。內容效度平均 IOC 分別為 ==0.93 與 0.74==；兩類標準的 Cohen's kappa 分別為 ==0.74 與 0.71==。這是標準工具的初步建立與驗證，沒有測試患者療效或任何一種草藥的臨床安全性。（摘要；pp. 2–5、7、10）\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：作者提出一套把傳統使用紀錄、臨床研究、效果是否一致、臨床意義、泰國產品可取得性及安全資料放在一起評估的草藥遴選標準。\n> - **為什麼做**：泰國 NLEM 以專家共識遴選草藥，但缺少一致的療效與安全證據判準；對傳統藥材而言，長期使用紀錄可能是可用證據之一。（p. 2）\n> - **主體**：作者先從 WHO、EMA、澳洲 TGA、NHMRC 等既有框架修訂準則，再由 6 位相關領域專家評內容效度，最後以每類 3 種藥材／產品測兩位評估者的一致性。最終療效面有 6 項、安全面有 7 類資料；候選藥材須 6 項療效條件全數達接受，且至少 2 項安全證據達接受。（pp. 3–7）\n> - **所以呢**：IOC 與 kappa 結果支持這套標準可作為初步討論工具；但小型信度測試無法穩定代表不同專家或不同草藥。研究沒有驗證標準能否預測真實世界療效／傷害，也不是台灣的用藥指引。（pp. 10–13）\n\n## Clinical Application\n\n- **適用情境：**了解泰國 NLEM 草藥遴選如何結合療效、安全、傳統使用與產品可取得性；可供政策或證據整理時參考，不是病人治療方案。\n- **不要外推：**研究沒有比較某一草藥與對照治療，也沒有提供病人結果；不能把文中的「候選標準」解讀為某種草藥已證實有效或安全。\n- **台灣適用性：**有限。標準明確納入「在泰國可取得的產品」、泰國傳統藥典與 NLEM 流程；需先確認台灣法規、產品規格與臨床照護情境，不能直接套用。（pp. 6、11–13）\n\n# Paper Details\n\n## Methods\n\n- **研究期間與設計：**2023–2024 年進行的混合方法標準開發研究，共三步：依既有框架修訂、測內容與表面效度、測評估者間信度。（p. 2）\n- **本次評讀範圍：**依 Worker focused-quick 完成論文識別、全文重點、方法評讀與白話導讀；期刊指標、作者履歷、出版時間軸、逐篇參考文獻查核、引用影響及社群討論屬 deep review，這次未執行，不代表已確認無異常。\n- **標準來源：**2009 年 NHMRC 證據分級、WHO 傳統／草藥指引、EMA 傳統草藥文件、澳洲 TGA 證據指引及相關證據決策框架；再依泰國 NLEM 的實際遴選需求調整。（pp. 2–4）\n- **內容效度：**目的性招募 6 位至少有 10 年相關經驗、參與泰國 NLEM 草藥工作小組的專家，傳統藥材及草藥產品兩組各 3 位。IOC >0.5 定義為可接受；之後以工作小組／小組討論修訂並檢視表面效度。（p. 5）\n- **信度：**兩位專家評 3 種傳統藥材，另兩位專家評 3 種傳統使用衍生產品；以 kappa 評估，作者預設 >0.6 可接受。E8 同時參與兩類信度評估，且曾參與效度工作。（pp. 5、10）\n- **統計：**回報 IOC 平均值與 kappa 點估計；未見信賴區間或樣本數推估。質性討論如何編碼／分析亦未充分交代。（pp. 5、7、10）\n\n## Critical Appraisal\n\n### 方法與結果可信度\n\n| 面向 | 判讀 | 原文依據與解讀 |\n|---|---|---|\n| 內容效度 | 🟢 初步支持 | 傳統藥材 IOC 0.93、草藥產品 0.74；均高於作者採用的 >0.5 門檻。後者較低，且均值不呈現個別項目差異。（pp. 5、7） |\n| 表面效度與修訂 | 🟡 有納入使用者意見 | 工作小組指出定義含糊，促成「臨床意義」、安全資料、專家判斷及傳統使用文件等修訂；但討論紀錄的分析方式與飽和度未清楚報告。（pp. 7–10） |\n| 評估者一致性 | 🟡 初步達門檻，精確度不明 | kappa 0.74、0.71，依文中引用的分級屬良好一致性且高於作者 >0.6 門檻；然而每類僅 2 位評估者及 3 個案例，且沒有信賴區間，估計可能不穩。（pp. 5、10） |\n| 抽樣與外部效度 | 🔴 受限 | 專家由 NLEM 工作小組目的性選取；作者承認可能有選擇偏差。泰國政策、藥典與產品可取得性是標準核心，對其他國家可移植性有限。（pp. 5、13） |\n| 標準的實際效用 | 🟡 尚未證實 | 文中未報告以已知接受／拒絕案例驗證分類準確度，也未試辦後觀察遴選決策、病人結果或不良反應。作者建議後續試辦。（pp. 10、13） |\n\n### 統計、GRADE 與偏差\n\n- 本研究評估的是標準工具，不是草藥介入的療效試驗；沒有主要臨床 outcome、效應量或 MCID 可供比較，GRADE 不適用。\n- IOC 與 kappa 只提供點估計，沒有信賴區間；以極少評估者／案例解讀一致性時須保留不確定性。\n- **資助：**泰國 FDA 草藥產品部門資助。作者表示資助者未參與研究設計、資料蒐集、分析或論文撰寫。（p. 13）\n- **利益衝突：**作者聲明無競爭利益。多位專家及作者與 NLEM 草藥政策工作組有關聯；這是研究情境，不能單獨推定不當偏差，但外部獨立驗證仍重要。（pp. 5、14）\n- **作者承認的限制：**不適用於新活性成分或新劑型；不評估產品品質；未納入成本效益；目的性抽樣可能有偏差；信度樣本僅兩位評估者與每組三個產品；跨國一般化有限，需更大樣本及試辦。（p. 13）\n- **額外方法疑慮：**「臨床意義」「合理應用」及安全面「專家判斷」含情境性判斷；現有小樣本尚不能證明不同評估團隊能穩定套用這些定義。（pp. 6、10–11）\n\n## Key Findings\n\n1. **療效面六項：**證據層級、臨床／人本結果、證據一致性、臨床意義、泰國產品可取得性、合理應用。（pp. 6、8）\n2. **安全面七類：**上市後不良反應監測、草藥專論／泰國傳統藥典、系統性回顧或統合分析、臨床或實務試驗、觀察研究、病例報告、臨床前研究。上市後監測項內另列不同患者數量及監測來源門檻。（pp. 4、7）\n3. 傳統民間藥方的表格採連續使用至少 15 年為接受條件；由傳統使用發展的產品通常須有臨床研究證據。一般「傳統使用」定義為逾 10 年，與民間藥方的 15 年門檻不同。（pp. 2、6、11）\n4. 民間藥方文件還須有至少 400 名使用者的系統性紀錄，並經泰國 NLEM 草藥小組核可。（p. 11）\n5. 全部六項療效條件達接受，且至少兩項安全條件達接受，才是 NLEM 潛在候選；嚴重不良事件可能進入效益風險權衡與專家判斷，而非自動視為「安全」。（pp. 4、7）\n6. 內容效度及信度結果達研究者預設門檻，但研究仍屬初步工具驗證；不是對草藥效益／安全本身的證明。（pp. 5、10、13）\n\n## 全文結構與逐頁核讀\n\n- **p. 1，摘要：**交代泰國 NLEM 遴選缺乏統一療效／安全判準；說明研究目的、三階段方法、六項療效與七類安全證據，並報告 IOC 0.93／0.74、kappa 0.74／0.71 及三種決策類別。\n- **p. 2，背景與方法起點：**先述泰國草藥政策、名單用途與擴增目標，再說明現行遴選標準缺少證據門檻；引用傳統使用與國際監管依據，提出研究目的，接著定義混合方法與三步驟。\n- **pp. 3–4，標準修訂：**逐項說明療效證據來源、臨床結果、證據一致性、臨床意義、產品可取得性及應用情境；再定義接受／補資料／拒絕與 CTCAE 安全分級，列出候選門檻與安全來源。Table 1 提供原始證據決策框架。\n- **p. 5，效度與信度方法：**列出專家資格、目的性抽樣、IOC 門檻、表面效度討論，以及每類兩位評估者評三個案例的信度設計；同頁開始呈現最終標準及專家對用詞的意見。\n- **pp. 6–8，最終判準：**Tables 3–5 分列傳統藥方療效門檻、兩類標準共用的安全分級、由傳統使用發展產品的療效門檻；另列臨床研究所引用的 RoB 工具、IOC 結果與專家修訂建議。\n- **pp. 9–10，效度回饋與信度結果：**呈現對橫斷研究、病例系列、專家意見、定義清晰度及實用性的意見；說明一致性、臨床意義、合理應用、安全專家判斷及臨床前安全資料的調整；回報 kappa 0.74／0.71 並指出小型測試與理解差異。\n- **pp. 11–12，討論與操作定義：**說明此工具在泰國 NLEM 的用途，將傳統使用證據與科學證據結合，並對照 WHO 等框架；Table 7 定義 10 年傳統使用、400 名患者文件、臨床意義及專家判斷。\n- **p. 13，風險平衡、優勢與限制：**建議依疾病嚴重性與族群脆弱度提高證據要求；列出長期使用紀錄的優勢及新成分／新劑型、產品品質、成本效益、目的性抽樣、信度樣本及跨國外推等限制，並建議試辦。\n- **p. 14，結論與聲明：**重申三類決策用途；列倫理審查、知情同意、作者及機構資訊、收稿／接受日期、資助與利益衝突，再列參考文獻。Quick review 未逐篇核對參考文獻。\n\n# Resource\n\n## Vault Integration\n\n- 本次 Worker 使用 focused-quick 模式，沒有連接 Zotero vault；citekey 欄以可核對 PMID 作本地識別，Zotero 條目連結未驗證。\n- 未建立或更新獨立疾病／營養主題筆記。\n\n## Source\n\n- **全文來源：**Springer PDF（[合法來源檔案頁](https://link.springer.com/content/pdf/10.1186/s12906-026-05494-0.pdf)），DOI 與題名身份相符；14 頁、1,506,304 bytes；身份檢核頁面 5 頁，全文抽取檢視 14/14 頁，原生文字 67,552 字元、未用 OCR。取得路徑為 Springer 一個來源，沒有拒絕來源；原始 PDF SHA-256 `bd34853c510f9648d40bb669793a57f02ca0484dac424c1a62e03b800b9177b1`，抽取文字 SHA-256 `5562290a91fc07ffce5d77481092373143286a1393bc616323b10d6c96496b26`。\n- [DOI／出版者頁](https://doi.org/10.1186/s12906-026-05494-0)\n- [PubMed PMID 42958206](https://pubmed.ncbi.nlm.nih.gov/42958206/)\n- 全文定位：摘要 p. 1；研究背景與方法 pp. 2–5；結果與標準表格 pp. 5–11；討論與限制 pp. 11–13；結論及聲明 pp. 13–14。",
       "cards": [],
       "completedAt": "2026-10-31T05:24:50.7760886Z"
+    },
+    {
+      "id": "doi:10.1186/s12906-026-05494-0:digest",
+      "paperId": "doi:10.1186/s12906-026-05494-0",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Developing evidence-based criteria for selecting herbal medicines for the national list of essential medicines.",
+      "authors": "Tangkiatkumjai M, Kamkaen N, Pakdeesattayapong D, Namthongbai N, Theantawee W, Sakthong P",
+      "journal": "BMC Complementary Medicine and Therapies",
+      "year": "2026",
+      "doi": "10.1186/s12906-026-05494-0",
+      "abstract": "The National List of Essential Medicines in Thailand selects herbal medicines through a consensus-based process, in which experts independently assess the evidence. However, there is a lack of standardised criteria for evaluating the evidence of efficacy and safety. This study aimed to develop two sets of modified criteria-one for traditional medicines and another for herbal medicines derived from traditional use-focusing on evidence-based efficacy and safety. A mixed-methods study was conducted. The criteria were modified for decision-making regarding herbal medicines based on evidence and the 2009 National Health and Medical Research Council guidelines. They were also aligned with the World Health Organisation guidelines for assessing herbal medicines, the European Medicines Agency regulations on traditional herbal medicines, the Australian guidelines for levels and kinds of evidence to support claims for therapeutics goods, and the standards of the National Center for Complementary and Alternative Medicine. Content and face validity were assessed, and interrater reliability was tested. The efficacy criteria consist of six aspects: levels of evidence, study outcomes, consistency of the evidence, clinical significance, availability of herbal products in Thailand, and rational application of herbal medicine. The safety criteria include seven components: adverse effects of herbal medicines from post-marketing surveillance; safety information from herbal monographs or the National Thai Traditional Medicine Formulary; meta-analyses or systematic reviews; clinical trials or pragmatic trials; observational studies; case reports; and preclinical studies. Each component of the efficacy and safety criteria consists of three decision-making levels: accepted, requires more information, and rejected/expert judgment. The mean item-objective congruence for the criteria for traditional medicines and herbal products was 0.93 and 0.74, respectively. The kappa coefficients of interrater agreement were 0.74 and 0.71. The criteria clearly identified traditional and herbal medicines into three categories: 1) fully accepted for herbal medicines with robust evidence of efficacy and safety; 2) herbal medicines requiring additional information to prove their efficacy or safety; and 3) rejected herbal medicines lacking evidence of efficacy or safety.",
+      "legalFullTextUrl": "https://doi.org/10.1186/s12906-026-05494-0",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42958206/",
+      "category": "recommended",
+      "tags": [
+        "design:consensus",
+        "guideline and consensus",
+        "herbs phytochemicals supplements",
+        "safety and interaction"
+      ],
+      "noteTitle": "1. **先區分產品類型與使用歷史的內容整理",
+      "content": "---\ntags:\n  - research/digest\n  - 草藥與補充品\ncitekey: \"PMID42958206\"\ndoi: \"10.1186/s12906-026-05494-0\"\njournal: \"BMC Complementary Medicine and Therapies\"\nyear: 2026\nauthors: \"Mayuree Tangkiatkumjai, Narisa Kamkaen, Duangkamol Pakdeesattayapong, Nidchakarn Namthongbai, Wannisa Theantawee, Phantipa Sakthong\"\nstudy_type: \"mixed-methods criteria development and expert validation\"\nreview_depth: \"worker-batch\"\n---\n\n> [!summary] 30 秒層：一句話 + 重點\n> **一句話：**這篇研究為泰國國家基本藥品名單（NLEM）建立草藥療效與安全證據的分層評估標準。\n> - 評估標準分成 **6 項療效面向**與 **7 類安全證據**。\n> - 候選條件是六項療效全數達「接受」，並至少有兩項安全證據達「接受」。\n> - 內容效度平均 IOC 為 ==0.93、0.74==；兩類標準的評估者 kappa 為 ==0.74、0.71==。\n> - 傳統使用紀錄可作其中一類證據；高風險疾病、脆弱族群或重大安全疑慮仍需較強證據。\n> **品質評讀已完成：**見同 DOI 的 review 評讀。\n\n> **5 分鐘層：**以下依序說明標準用途、評估流程、驗證結果、限制、圖表與核心名詞。\n\n## 全文地圖\n\n**要點：**全文先說明泰國 NLEM 草藥遴選缺口，再交代準則如何修訂、專家如何驗證，最後討論用途與限制。\n\n- **背景（pp. 2–3）：**泰國政策與既有草藥證據評估框架；提出標準化需求。\n- **標準開發（pp. 3–5）：**依既有準則改寫，建立效度與信度檢核流程。\n- **標準內容及結果（pp. 5–11）：**列出療效、安全的評分項目、操作定義及驗證結果。\n- **討論（pp. 11–13）：**解釋如何平衡傳統使用和科學證據，並列研究限制。\n- **結論與聲明（pp. 13–14）：**重申工具用途，提供倫理、資助與利益衝突資訊。\n\n## 這個方法是什麼／解決什麼問題\n\n**要點：**研究要讓專家用共同架構判斷傳統草藥與草藥產品是否有足夠證據納入泰國 NLEM，而不是替特定草藥做療效試驗。\n\n- 泰國 NLEM 由專家共識遴選草藥；研究指出既有流程缺少統一的療效與安全證據門檻。（p. 2）\n- 作者提出兩套相關標準：一套評估傳統草藥療法，另一套評估由傳統使用發展的草藥產品。（pp. 2、5–6）\n- 標準目的在整理「證據有多少、結果是否臨床相關、產品是否可取得、風險如何」；研究本身沒有測量病人療效或不良事件。（pp. 3–4、13）\n- 研究設計為 2023–2024 年的混合方法標準開發：修訂既有準則、進行內容／表面效度檢視，再測評估者間一致性。（pp. 2、5）\n\n## Step-by-step protocol\n\n**要點：**依藥材類別先選對證據路徑，再分別檢視療效六面向、安全七類資料，最後按明確的接受門檻分類。\n\n1. **先區分產品類型與使用歷史。**一般傳統使用定義為使用超過 10 年；傳統民間藥方的表格另以連續使用至少 15 年作為一項療效證據條件。民間藥方文件還要求至少 400 名使用者的系統性紀錄，並經泰國 NLEM 草藥小組核可。（pp. 2、6、11）\n2. **評療效證據層級。**傳統藥方可考慮藥典、草藥專論、泰國傳統藥典及長期使用文件；兩類標準也看系統性回顧／統合分析、RCT、非隨機臨床試驗、觀察研究、調查／橫斷研究、病例報告及專家文件。（pp. 3、6、8）\n3. **補看療效是否對應實際健康結果。**六項包括：證據層級、臨床或人本結果、證據一致性、臨床意義、產品在泰國的可取得性、合理應用。主觀症狀宜有至少兩種標準化測量；只有較遠端 biomarker、缺少臨床結果或研究結果互相矛盾時，支持度會下降。（pp. 6、8、10–11）\n4. **檢視安全七類證據。**上市後不良反應監測、草藥專論／泰國傳統藥典、系統性回顧或統合分析、臨床／實務試驗、觀察研究、病例報告、臨床前研究。上市後資料可來自超過 1,000 人的安全報告、泰國健康產品監測中心，或傳統執業者對超過 400 人、至少五年紀錄的回顧。（pp. 4、7）\n5. **按資料與傷害程度分級。**文中用 CTCAE v5.0 描述不良事件：第 1 級屬輕度、第 2 級需更多監測資料；第 3 級以上進入專家判斷與效益／風險權衡，可能要求專科監督。（pp. 4、7、11）\n6. **整合分類。**每項準則分為接受、需要更多資訊、拒絕；安全項目另有專家判斷。研究提出的 NLEM 潛在候選需六項療效全數接受，並至少兩項安全證據接受。（p. 4）\n\n### 兩類療效證據門檻如何不同\n\n- **傳統草藥療法：**多了傳統藥典與長期使用紀錄路徑；民間使用連續至少 15 年為接受，11–14 年需更多資訊，少於 10 年列拒絕。表格沒有清楚交代剛好 10 年的分級。（p. 6）\n- **由傳統使用發展的草藥產品：**療效證據主要依循循證研究層級；除了證據品質，也要求研究產品能對應泰國實際可取得的草藥產品。（pp. 6、8）\n- **兩類共通項目：**臨床結果、研究一致性、臨床意義、產品可取得性及合理應用；安全評估架構共用。（pp. 6–8）\n\n## 研究怎麼驗證這套標準\n\n**要點：**六位專家提供內容效度意見；每類標準只用兩位評估者及三種案例測一致性，故結果屬初步驗證。\n\n- 內容效度專家共 6 位，兩類工作小組各 3 位，皆至少有 10 年相關經驗。IOC >0.5 是作者採用的可接受門檻。（p. 5）\n- 平均 IOC：傳統草藥標準 ==0.93==；草藥產品標準 ==0.74==。（p. 7）\n- 信度測試：兩位專家評估三種傳統藥材，另兩位評估三種草藥產品。Kappa 分別為 ==0.74== 與 ==0.71==；作者將 0.61–0.80 視為良好一致性。（pp. 5、10）\n- 專家回饋促成準則修訂，包括讓「臨床意義」更清楚、加入臨床前安全資料、補足民間使用文件定義，並把安全面的拒絕改為效益／風險權衡下的「專家判斷」。（pp. 7–10）\n- 研究未提供 kappa 信賴區間；作者指出評估者與案例數有限，建議擴大樣本並先試辦。（p. 13）\n\n## 適用時機與限制\n\n**要點：**這是一套泰國藥品名單的證據整理工具，可協助分類送審資料；不能直接當作台灣用藥規範或個別草藥的療效證明。\n\n- **可參考：**比較傳統使用紀錄、臨床研究、上市後監測和臨床前安全資料在政策遴選中的角色。（pp. 6–8）\n- **應隨風險提高證據要求：**輕微疾病且風險低，可考慮較低階證據；癌症等嚴重疾病、脆弱族群或曾出現嚴重不良反應，應要求更強科學證據並隨新安全訊號重新評估。（p. 13）\n- **不能由本文推出：**任何一種草藥已證實有效、安全、與藥物無交互作用，或適用於特定病人；研究沒有比較病人介入結果。（pp. 2、13）\n- **作者列出的範圍：**不評估新活性成分或新劑型、不檢驗產品品質，也未把成本效益納入準則；標準對其他國家的一般化有限，尚需試辦。（p. 13）\n- **解讀數字時：**IOC 和 kappa 是準則一致性／評估者一致性的指標，不是草藥療效或病人安全程度。（pp. 5、7、10）\n\n## 重要圖表重述\n\n**要點：**圖表把標準開發流程、候選門檻、兩類療效差異及安全判斷操作化；以下為文字重述，不重製原圖表。\n\n- **Figure 1（p. 4）：**標準由既有框架修訂，再經內容／表面效度與信度檢驗。\n- **Figure 2（pp. 9–10）：**把療效及安全證據導入三類決策，並以六項療效與至少兩項安全條件界定潛在候選。\n- **Tables 3、5（pp. 6、8）：**分別列傳統療法與傳統使用衍生產品的療效證據門檻；前者容納長期使用紀錄，後者較依賴研究證據。\n- **Table 4（p. 7）：**共用安全資料來源，將不良事件與臨床前毒性依 CTCAE／監測資料分成接受、補資料或專家判斷。\n- **Tables 6、7（pp. 9、11）：**整理兩類標準的共通點及差異，並界定使用年限、民間藥方文件、臨床意義和安全判斷等名詞。\n\n## 與既有認知的對照\n\n**要點：**本文把傳統使用紀錄納入證據架構，同時保留風險分層與臨床研究要求；目前未能連接個人 vault 搜尋既有筆記。\n\n- 作者以 WHO、EMA、澳洲 TGA、2009 年 NHMRC 等框架為修訂來源，再依泰國 NLEM 的政策與產品可取得性調整。（pp. 2–4、11–12）\n- 泰國政策背景與國際框架差異不能直接視為台灣制度差異的完整比較；本文不是台灣法規分析。（pp. 11–13）\n- vault_search 未連接，本次無法核實哪些個人既有筆記需更新。\n\n## 概念／名詞整理\n\n**要點：**理解 IOC、kappa、CTCAE 及兩種草藥類別，才能不把工具驗證數字誤讀成療效證據。\n\n- **IOC（Item-Objective Congruence）：**專家判斷條目與研究目的是否相符；本研究用於內容效度，門檻 >0.5。（p. 5）\n- **Kappa：**評估兩位評估者分類一致性的統計量；本文報告 0.74、0.71，不代表病人療效大小。（p. 10）\n- **CTCAE v5.0：**本文用來描述不良事件嚴重度；第 1–2 級為輕至中度，第 3 級以上作為專家判斷與風險權衡的重要訊號。（pp. 4、7）\n- **傳統藥方 vs. 傳統使用衍生產品：**前者可用有系統的長期使用紀錄作部分療效證據；後者的療效標準主要由臨床研究與其他循證資料支撐。（pp. 6、8）\n- **候選門檻：**六項療效全數接受，並至少兩項安全證據接受；仍是送入遴選考量的門檻，不是核准或臨床推薦。（p. 4）\n\n## 自我測驗\n\n**要點：**用情境題練習區分「標準有一致性」與「草藥有療效」兩種不同結論。\n\n> [!question]- Q1：兩類標準的 IOC 和 kappa 分別回答什麼問題？\n> IOC 評估專家認為條目是否符合評估目的；kappa 評估兩位評估者是否做出相近分類。它們驗證的是標準工具，不是某種草藥的臨床效果。（pp. 5、7、10）\n\n> [!question]- Q2：一種草藥有多年傳統使用紀錄，是否就達到本文的 NLEM 潛在候選條件？\n> 不足以單獨判定。工具同時要求六項療效條件全數接受，並至少兩項安全證據接受；傳統使用紀錄只是療效證據路徑之一。（p. 4）\n\n> [!question]- Q3：哪些情境應要求更強的草藥證據？\n> 用於嚴重疾病、脆弱族群或出現嚴重不良反應時，作者建議採更強科學證據並重新評估安全性；低風險小病的證據要求才可能較低。（p. 13）\n\n> [!question]- Q4：為什麼 kappa 約 0.7 仍不能說這套工具已在各地穩定可用？\n> 每類信度只由兩位專家評三種案例，且沒有信賴區間；專家數少、案例少、泰國制度脈絡特殊，還需要更多樣本與試辦。（p. 13）\n\n> [!question]- Q5：傳統草藥與由傳統使用發展的草藥產品，在療效證據路徑上有何主要差別？\n> 傳統草藥可把藥典或有系統的長期使用紀錄納入；衍生產品的療效標準較著重臨床研究與循證資料。兩者仍都需檢視安全資料。（pp. 6–8）\n\n## Reference\n\n**要點：**本文以既有傳統醫藥、證據分級與安全監測框架為依據，具體引文仍需回到原始來源逐篇核對。\n\n- Tangkiatkumjai M, et al. Developing evidence-based criteria for selecting herbal medicines for the national list of essential medicines. BMC Complementary Medicine and Therapies. 2026;26:326. [DOI](https://doi.org/10.1186/s12906-026-05494-0)\n- 文中重要框架來源包括 WHO 草藥評估與傳統醫學研究方法指引、澳洲 TGA 證據指引、EMA 傳統草藥文件及 NHMRC 2009 證據分級。（pp. 2–4、14）",
+      "cards": [
+        {
+          "title": "草藥納入 NLEM 的雙重門檻",
+          "question": "泰國 NLEM 草藥潛在候選需要通過哪兩個整體門檻？",
+          "answer": "六項療效條件都要達到接受，並至少有兩項安全證據達到接受。這代表單靠傳統使用年限或單一安全資料，不能替代完整的兩面向評估。",
+          "tags": [
+            "草藥",
+            "證據評估"
+          ]
+        },
+        {
+          "title": "傳統使用年限如何區分",
+          "question": "本文的一般傳統使用定義，和民間藥方表格的年限門檻有什麼差別？",
+          "answer": "一般傳統使用定義為超過 10 年；民間藥方療效表格另將連續使用至少 15 年列為接受，11–14 年列需更多資訊，少於 10 年列拒絕。表格未清楚說明剛好 10 年的分類。",
+          "tags": [
+            "草藥",
+            "傳統使用"
+          ]
+        },
+        {
+          "title": "IOC 與 Kappa 看什麼",
+          "question": "研究中的 IOC 與 kappa 各自評估什麼？為什麼它們不能證明草藥有效？",
+          "answer": "IOC 反映專家認為條目是否符合評估目的；kappa 反映評估者分類的一致性。它們驗證的是評估工具，不是病人療效或安全性；研究回報 IOC 0.93／0.74、kappa 0.74／0.71。",
+          "tags": [
+            "研究方法",
+            "信度"
+          ]
+        },
+        {
+          "title": "高風險用途要更強證據",
+          "question": "依作者討論，哪些草藥使用情境應要求更強科學證據？",
+          "answer": "若用於嚴重疾病、脆弱族群，或有嚴重不良反應疑慮，應提高療效與安全證據要求，並在新安全訊號出現時重新評估。低風險小病才可能考慮較低階證據。",
+          "tags": [
+            "風險分層",
+            "安全"
+          ]
+        },
+        {
+          "title": "嚴重不良反應怎麼判讀",
+          "question": "若安全資料報告 CTCAE 第 3 級以上不良事件，本文建議如何處理？",
+          "answer": "歸入安全面的專家判斷，評估效益是否大於風險及是否需專科監督；不應直接把這類報告當成『安全條件已通過』。",
+          "tags": [
+            "CTCAE",
+            "安全評估"
+          ]
+        }
+      ],
+      "completedAt": "2026-10-31T05:34:25.0421872Z"
     }
   ]
 }
