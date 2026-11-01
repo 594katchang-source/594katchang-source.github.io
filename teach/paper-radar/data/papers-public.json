@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-01T10:40:33.152Z",
+  "generatedAt": "2026-11-01T10:44:02.622Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -109154,6 +109154,83 @@
       "content": "---\ntags:\n  - source/journal\ncitekey: \"\"\ndoi: \"10.1002/cdt3.70075\"\nzotero: \"\"\njournal: \"Chronic Diseases and Translational Medicine\"\nyear: 2026\nauthors: \"Altje Suwardi Abram; Andina Setyawati; Andi Masyitha Irwan\"\nstudy_type: \"single-blind quasi-experimental controlled pretest-posttest study\"\npmid: \"42959413\"\nreview_depth: \"quick\"\n---\n\n> [!info] 品質快照\n> **設計**：單盲、非隨機準實驗對照前後測｜**n**：102（每組51）｜**ROBINS-I（定性）**：整體嚴重疑慮，主要來自可預測分組、基線不平衡與探索性子組分析  \n> **GRADE**：Very low ⊕◯◯◯（總膽固醇及可採取臨床行動的效益；計算收據見 `grade-input.json` 與執行結果）｜**註冊**：文章報告 NCT07268781；本次未核對官方登錄內容與預先指定 outcome   \n> **一句話 verdict**：未調整結果中，介入組總膽固醇與 LDL-C 上升；僅未預先指定的非 statin 子組調整後總膽固醇較低，現有資料不足以確立降脂效益。\n\n# Key Points\n\n## Summary\n\n> ✅ Full text reviewed\n\n- 這項印尼社區健康中心的 28 天研究納入 102 名成人糖尿病患者，比較含 *Piper crocatum* 萃取物與未加萃取物的 Golden Rice 餅乾；分組採抽籤決定順序後交替分派，非正式隨機分派。\n- 介入組總膽固醇由 191.98 增至 200.27 mg/dL（變化 +8.29，組內 p=.024），LDL-C 由 122.12 增至 128.86 mg/dL（+6.75，p=.007）。對照組總膽固醇下降 6.47 mg/dL。\n- 未調整組間總膽固醇差（control − intervention）為 −14.76 mg/dL（95% CI −24.22 至 −5.31；p=.003），代表介入組相對多上升約 14.76 mg/dL。\n- 只有 86 名未使用 statin 者的探索性調整分析，總膽固醇呈現介入組較低的差異 −12.55 mg/dL（95% CI −22.74 至 −2.36；p=.016）；LDL-C、HDL-C、三酸甘油酯均未見顯著調整後差異。\n- 作者稱此調整分析為探索性、假說生成；未測心血管事件，未重測體重／BMI，也未確認餅乾實際取代日常零食或最終烘焙品的營養等同性。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：研究想知道加了紅米與紅 betel（*Piper crocatum*）萃取物的餅乾，連吃 28 天後會不會改變成人糖尿病患者的血脂。\n> - **為什麼做**：作者以 Golden Rice 的 β-carotene 與植物多酚的生物活性作為食品介入理由；這些機轉在本研究沒有直接測量。\n> - **主體**：102 人分成兩組，各 51 人。兩組各吃每天兩片、每片約 20 g／51 kcal 的相似餅乾；介入餅乾含 20% Golden Rice 粉與 10% *P. crocatum* 萃取物。28 天後，介入組總膽固醇平均增加 8.29、LDL-C 增加 6.75 mg/dL；對照組總膽固醇下降 6.47 mg/dL。未調整組間總膽固醇變化差為 −14.76 mg/dL（以 control−intervention 計），方向不利於介入組。研究另將未用 statin 的 86 人做探索性調整，這時總膽固醇差異反轉為介入組較低 12.55 mg/dL；其他三種血脂沒有顯著調整差異。\n> - **所以呢**：這個結果不是已證實的降脂療法。分組可預測、起始血脂與飲食攝取不平衡、調整子組非預先指定，而且沒有心血管事件或長期追蹤；不應把單一子組的調整值當成餅乾能降低心血管風險的證據。\n\n## Clinical Application\n\n- **適用情境：**單一印尼社區照護場域、18–59 歲糖尿病成人的短期功能性餅乾研究；受試者多為女性，基線平均 BMI 約 23.6–25.2 kg/m²。\n- **實務界線：**本文不能支持將餅乾當作糖尿病或血脂異常治療，也不能取代既有降脂藥物或個別化營養照護。未調整總膽固醇與 LDL-C 的變化方向，不應被調整子組結果掩蓋。\n- **可帶走的問題：**若討論食品型介入，先問餅乾是替代原點心還是額外增加熱量；研究鼓勵替代，但未能確認每位參與者實際做到。最終烘焙品也未直接驗證多酚含量及兩組完整營養等同性。\n- **安全：**研究期間記錄 4 件輕微不適（介入組 1 件胃部不適；對照組 3 件搔癢、胃部不適或暈眩），未報告可歸因於餅乾的嚴重事件。短期、102 人不足以確立較長期安全性。\n- **外部效度：**產品配方與印尼在地食材、單一場域及多數女性族群限制外推；本研究未測體重變化、長期血脂或心血管結局。\n\n# Paper Details\n\n## Methods\n\n- **設計與場域：**單盲、準實驗、對照組前後測；2025 年 9–12 月於印尼 Donggala Regency 的一所社區健康中心收案。102 人完成 28 天追蹤，每組 51 人。\n- **分派：**先抽出受試者編號決定第一位，再依序交替放入介入與對照組；沒有正式隨機序列或分派隱蔽，後續分組可預測。\n- **族群：**18–59 歲、病歷確認糖尿病者；排除孕期／哺乳、嚴重共病、近月高劑量草本／抗氧化補充品及餅乾成分過敏等情況。\n- **介入／對照：**每日兩片餅乾、每片約 20 g／51 kcal，連續 28 天。介入餅乾含 20% Golden Rice 粉、10% *P. crocatum* 乙醇萃取物；每片估計 2 g 萃取物、90 mg GAE，兩片約 180 mg GAE／日。對照餅乾未加活性萃取物，但研究未直接確認兩產品完整營養等同性。\n- **共同照護：**參與者可繼續原處方糖尿病與降脂藥物；日常飲食未固定。研究建議餅乾盡量作為點心替代，但不能確保完全替代。\n- **測量與分析：**空腹 8–12 小時後測總膽固醇、LDL-C、HDL-C、三酸甘油酯；基線及第 28 天各測一次。使用組內配對檢定、組間變化比較；另對 86 名非 statin 使用者做 ANCOVA，調整相應基線血脂、年齡、BMI、糖尿病年數及碳水／蛋白質攝取。\n- **樣本數：**以有限母群估算得至少 93 人並加約 10% 至 102 人；不是根據組間治療效果、變異或主要 outcome 的統計檢定力計算。\n- **結果層級：**論文列出四項血脂指標，但方法未明確指定唯一主要 outcome。非 statin 限定的調整分析未說明為事前指定，作者亦稱其為探索性。\n\n## Critical Appraisal\n\n### 設計相符的偏倚風險\n\n| ROBINS-I 領域（定性） | 判定 | 證據與限制 |\n|---|---|---|\n| 混雜 | 🔴 嚴重 | 交替分派可預測，且基線總膽固醇、LDL-C、碳水與蛋白質攝取不平衡；未測量或未調整的生活型態差異仍可能影響血脂。 |\n| 受試者選擇 | 🟡 中度疑慮 | 來自單一社區健康中心及特定常住人口；外推性有限。文章稱 102 人完成，但未提供充分的收案流程圖。 |\n| 介入分類 | 🟡 中度疑慮 | 餅乾配方與對照具體，但最終烘焙品的多酚含量及兩組完整營養等同性沒有直接檢驗。 |\n| 偏離預定介入 | 🟡 中度疑慮 | 有飲食日誌、每週追蹤及回收餅乾；但日常飲食、點心替代與藥物依從性未能完整控制。 |\n| 缺失資料 | 🟢 較低疑慮 | 文中稱 102 人完成並報告兩組結果；缺失資料處理細節未充分說明。 |\n| 結果測量 | 🟢 較低疑慮 | 空腹血脂為客觀檢驗，使用自動生化分析儀及認證實驗室；實驗室是否盲化未報告。 |\n| 選擇性報告 | 🔴 嚴重疑慮 | 四項血脂未清楚列出唯一主要 outcome；非 statin 調整分析未明示事前預先指定，也未獨立比對試驗註冊紀錄。 |\n\n**整體判斷：嚴重偏倚疑慮。** 以上為依 ROBINS-I 領域整理的定性評讀，未計算或宣稱正式工具總分。\n\n### 統計、臨床意義與推論\n\n- **總膽固醇未調整結果：**介入組 191.98→200.27 mg/dL，變化 +8.29（組內 p=.024）；對照組 223.47→217.00，變化 −6.47（p=.029）。原文定義組間差為 control−intervention，得 −14.76 mg/dL（95% CI −24.22 至 −5.31；p=.003），即介入組相對上升較多。\n- **LDL-C：**介入組 122.12→128.86 mg/dL，+6.75（組內 p=.007）；對照組 140.63→139.92，−0.71（p=.870）。組間變化差 −7.45（p=.086），未達顯著。\n- **HDL-C／三酸甘油酯：**HDL-C 介入組 −0.59、對照組 −1.63 mg/dL，組間 p=.517；三酸甘油酯分別 +4.94 與 +3.78 mg/dL，組間 p=.926。\n- **調整後子組：**非 statin 參與者 n=86。介入−對照總膽固醇 adjusted mean difference −12.55 mg/dL（95% CI −22.74 至 −2.36；p=.016；partial η²=.072）；LDL-C −0.77（−8.53 至 6.98；p=.843）、HDL-C +1.12（−2.15 至 4.40；p=.497）、三酸甘油酯 −3.12（−32.57 至 26.33；p=.834）。此為未預先指定的探索性分析，與未調整總膽固醇差的方向相反。\n- **組內與組間不可混讀：**一組內顯著、另一組不顯著，不能代替直接組間比較；本研究的主要解讀應看組間估計及其方向、區間和分析族群。\n- **臨床顯著性：**論文未提供預先指定的最小臨床重要差異；沒有心血管事件或其他病人重要結果。因此 p=.016 不能單獨證明病人可感知或具預防效益的改善。\n- **多重分析與樣本數：**多項血脂、組內／組間檢定及非 statin 子組分析均涉及多重比較；文中未報告多重性校正。樣本數公式不是治療效果的 power 設計；無法由現有摘要表格計算 fragility index。\n- **Spin／結論對照：**作者在摘要與結論中把調整後結果標為 limited、exploratory、hypothesis-generating，沒有宣稱已證實療效；但讀者若只記住子組的總膽固醇 p 值，會忽略介入組未調整總膽固醇與 LDL-C 上升、其餘調整 outcome 不顯著的全貌。\n- **Argument lint：**以作者保留限制的結論執行 `argdown_lint.py`，結果 clean、flags=0；這不消除上述設計、選擇性分析或外推限制。輸入與輸出收據分別為 `argmap.json`、`argdown-result.json`。\n- **註冊／選擇性報告：**文章列出 ClinicalTrials.gov NCT07268781，但本次沒有核對官方紀錄的時間戳或預先指定 outcome，故 outcome concordance 未確認，不推定已發生 outcome switching。\n- **GRADE：**以 observational starting level `low` 評估總膽固醇調整子組對臨床可採取效益的確定性；risk of bias、indirectness、imprecision 各降一級，得到 **Very low ⊕◯◯◯**。單一研究無法評估一致性；偏倚也無法因資料不足斷言不存在。\n- **資金／利益衝突：**作者稱無資金、無利益衝突。作者聲明使用 ChatGPT 協助英文潤飾、清晰度與段落組織，未用於生成資料、統計分析或臨床決策；由作者負最終責任。\n\n### 🟢 優點 / 🔴 風險 / 🟡 待確認\n\n- 🟢 介入與對照、餅乾攝取量、追蹤期及空腹檢驗程序有描述；使用多項血脂而非只報單一指標。\n- 🟢 研究報告實際組內與組間數值，並揭露調整分析的探索性質及未調整結果方向。\n- 🔴 可預測的交替分組與起始血脂／飲食差異削弱可比性；調整子組結果與未調整比較方向相反。\n- 🔴 沒有明確主要 outcome／效果量 power 設計、長期追蹤或心血管臨床結果；最終餅乾成分沒有完整分析。\n- 🟡 官方登錄 outcome、實驗室盲化、餅乾組成等同性、點心替代率與藥物依從性未在本次獨立確認。\n\n## Key Findings\n\n| Outcome | 介入組（n=51）變化 | 對照組（n=51）變化 | 組間／調整結果 |\n|---|---:|---:|---|\n| 總膽固醇 | +8.29 mg/dL；p=.024 | −6.47 mg/dL；p=.029 | 未調整 control−intervention −14.76（95% CI −24.22 至 −5.31）；p=.003。非 statin 子組調整後 intervention−control −12.55（−22.74 至 −2.36）；p=.016 |\n| LDL-C | +6.75 mg/dL；p=.007 | −0.71 mg/dL；p=.870 | 未調整組間差 −7.45；p=.086。非 statin 調整後 −0.77（−8.53 至 6.98）；p=.843 |\n| HDL-C | −0.59 mg/dL；p=.597 | −1.63 mg/dL；p=.092 | 未調整組間 p=.517；調整後 +1.12（−2.15 至 4.40）；p=.497 |\n| 三酸甘油酯 | +4.94 mg/dL | +3.78 mg/dL | 未調整組間 p=.926；調整後 −3.12（−32.57 至 26.33）；p=.834 |\n\n## Vault Integration\n\n- 本機 `available-site-notes.json`（2026-11-01 10:29:18Z，2,683 note rows）未找到同 DOI 或 *Piper crocatum*／Golden Rice 餅乾的既有筆記。索引有其他功能性食品主題，但為 PCOS 或術後照護，不能作為本研究的直接結果比較。\n- 未建立獨立 vault daily note；本篇由 Worker 的本機完成帳、公開索引及逐份 publisher 管線保存。\n\n## Source\n\n- **全文：**PMC 完整 HTML，DOI／題名核對一致；203,731 bytes，來源 HTML 抽取 52,964 字元，含 Introduction、Methods、Results、Discussion、Conclusion 及圖表文字。來源頁明示 CC BY-NC 4.0；本文為繁體中文原創評讀，未複製圖表或整篇翻譯。\n- **來源與身份：**[PMC 完整文章](https://pmc.ncbi.nlm.nih.gov/articles/PMC13717313/)｜[DOI](https://doi.org/10.1002/cdt3.70075)｜PMID 42959413｜*Chronic Diseases and Translational Medicine* 頁面列作者、日期與試驗登錄。\n- **實際全文下載路徑：**PMC article HTML（一次取得的本機 SHA 與結構驗證收據：`evidence/fulltext-verification-10.1002-cdt3.70075-20261101.json`）。本輪 provider 回報 PMC OA service、Semantic Scholar、CORE 的 429 冷卻；PMC 文章 HTML 仍成功取得。Wiley PDF 同輪被標記已嘗試而未重打；一個 PMC PDF 候選及 PMC 表格／參考文章頁因身份不符而拒收。\n- **全文限制：**來源快取 metadata 的 license 欄未填；本次於相同快取 HTML 內核對到 CC BY-NC 4.0 授權文字與連結。來源只作本機閱讀，未公開全文或 PDF。\n- **範圍：**本次為 Worker focused-quick；作者背景、期刊指標、廣泛引用查核略過。ClinicalTrials.gov 登錄內容與研究註冊 outcome 對照未核驗。",
       "cards": [],
       "completedAt": "2026-11-01T10:37:10.169Z"
+    },
+    {
+      "id": "doi:10.1002/cdt3.70075:digest",
+      "paperId": "doi:10.1002/cdt3.70075",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Short-Term Effects of Golden Rice Cookies Enriched With Piper crocatum Extract on Lipid Profiles in Adults With Diabetes: A Quasi-Experimental Study.",
+      "authors": "Altje Suwardi Abram, Andina Setyawati, Andi Masyitha Irwan",
+      "journal": "Chronic Diseases and Translational Medicine",
+      "year": "2026",
+      "doi": "10.1002/cdt3.70075",
+      "abstract": "Diabetes mellitus (DM) commonly coexists with dyslipidemia and elevated cardiovascular risk. Food-based interventions containing antioxidants and polyphenols may support lipid metabolism. This study evaluated the short-term effects of Golden Rice cookies enriched with active Piper crocatum extract on lipid profiles in adults with DM. This quasi-experimental pretest-posttest control group study included 102 adults with DM assigned in a 1:1 ratio to the intervention or control group. The intervention group received Golden Rice cookies enriched with P. crocatum extract, while the control group received similar cookies without the extract for 28 days. Total cholesterol, low-density lipoprotein cholesterol (LDL-C), high-density lipoprotein cholesterol (HDL-C), and triglycerides were measured before and after the intervention. Bivariate analyses were performed in the full sample, whereas analysis of covariance was performed among non-statin participants, adjusting for baseline lipid values, age, body mass index, diabetes duration, carbohydrate intake, and protein intake. In the unadjusted analysis, total cholesterol and LDL-C increased significantly in the intervention group, whereas total cholesterol decreased significantly in the control group. Between-group analysis showed a significant difference only in total cholesterol. Among non-statin participants, an exploratory adjusted analysis showed a significant between-group difference in total cholesterol (p = 0.016; adjusted mean difference = -12.55 mg/dL; 95% confidence interval [CI] = -22.74 to -2.36). No significant adjusted differences were observed for LDL-C, HDL-C, or triglycerides. A 28-day intervention with Golden Rice cookies enriched with active P. crocatum extract was associated with a limited exploratory adjusted between-group difference in total cholesterol among non-statin adults with DM. These preliminary findings require confirmation in longer randomized controlled trials with stronger dietary control and mechanistic biomarker assessment. ClinicalTrials.gov number: NCT07268781.",
+      "legalFullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13717313/",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42959413/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "design:randomized controlled",
+        "human clinical population",
+        "precision nutrition",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "Golden Rice餅乾內容整理",
+      "content": "---\ntags:\n  - research/digest\n  - nutrition/diabetes\n  - functional-food\ncitekey: \"Abram2026-GoldenRice-Pcrocatum\"\ndoi: \"10.1002/cdt3.70075\"\naliases:\n  - Short-Term Effects of Golden Rice Cookies Enriched With Piper crocatum Extract on Lipid Profiles in Adults With Diabetes: A Quasi-Experimental Study\n---\n\n> [!summary] 30 秒層｜一句話 + 重點\n> **一句話：**這項 28 天準實驗沒有顯示 Golden Rice／*Piper crocatum* 餅乾能穩定改善血脂；未調整結果中介入組總膽固醇與 LDL-C 上升，唯一較有利的總膽固醇結果來自未預先指定的探索性子組分析。\n> - 102 名成人糖尿病患者，每組 51 人；採可預測的交替分組，不是正式隨機分派。\n> - 介入組總膽固醇 +8.29、LDL-C +6.75 mg/dL；未調整組間總膽固醇差（control−intervention）−14.76 mg/dL（95% CI −24.22 至 −5.31）。\n> - 86 名未使用 statin 者的探索性調整分析，總膽固醇差（intervention−control）−12.55 mg/dL；其他三種血脂沒有顯著調整差異。\n> - 只追蹤 28 天，沒有心血管事件、體重追蹤或確認餅乾是否實際取代原點心。\n> **品質：**可信度與限制詳見同篇品質評讀 [[Abram2026 - Golden Rice Cookies and Lipids]]。\n\n## 5 分鐘層｜全文骨架\n\n**要點：**先看準實驗如何分組、餅乾介入如何安排，再讀四項血脂的前後差與探索性子組，最後回到短期研究的臨床界線。\n\n- **背景與方法：**印尼單一社區健康中心納入 102 名成人糖尿病患者；交替分組，每組 51 人，每天兩片餅乾 28 天。\n- **結果：**未調整全樣本中介入組總膽固醇與 LDL-C 上升；86 名未使用 statin 者的探索性調整結果只在總膽固醇呈較低差異。\n- **解讀：**分派可預測、基線有差異、子組分析屬探索性；沒有長期追蹤或心血管事件，不能據此確立臨床療效。\n\n## 研究問題 / 背景\n\n**要點：**作者想測試富含 β-carotene 的 Golden Rice 粉與 *Piper crocatum* 萃取物做成餅乾後，是否能改變成人糖尿病患者的血脂；研究沒有直接測量作者提出的生物機轉。\n\n- 研究場域為印尼 Donggala Regency 一所社區健康中心。作者以 Golden Rice 的 β-carotene 與植物多酚作為食品設計理由。\n- 問題聚焦於 28 天攝取前後的總膽固醇、LDL-C、HDL-C 與三酸甘油酯變化。\n- 研究沒有測心血管事件、糖尿病併發症或長期臨床結果，因此血脂變化不能直接等同心血管效益。\n\n## 方法\n\n**要點：**這是單盲、對照組前後測準實驗；介入與對照各 51 人，每天兩片餅乾共 28 天，原藥物與日常飲食仍持續。\n\n- **族群與分派：**102 名 18–59 歲成人糖尿病患者完成追蹤。作者先以抽籤決定起始順序，再交替分派；分組可預測，沒有正式隨機序列或分派隱蔽。\n- **介入：**每天兩片、每片約 20 g／51 kcal。介入餅乾含 20% Golden Rice 粉與 10% *P. crocatum* 乙醇萃取物；每片估計 2 g 萃取物與 90 mg GAE，兩片約 180 mg GAE／日。\n- **對照與共同照護：**對照餅乾未添加該萃取物。兩組可持續原糖尿病及降脂藥物；作者建議餅乾取代點心，但研究未確認每人實際替代情況，也未直接檢驗兩種最終烘焙品的完整營養等同性。\n- **測量：**空腹 8–12 小時後於基線及第 28 天測四項血脂；未重測體重或 BMI。另對 86 名未使用 statin 者進行調整分析，納入基線血脂、年齡、BMI、糖尿病年數及碳水化合物／蛋白質攝取。\n- **解讀界線：**樣本數估算不是以治療效果的統計檢定力設計；文章沒有明確指定唯一主要 outcome。作者稱非 statin 子組分析屬探索性、假說生成。\n\n## 主要發現\n\n**要點：**未調整比較中，介入組總膽固醇與 LDL-C 上升；探索性子組調整後只有總膽固醇較低，方向與未調整總膽固醇比較相反，需並列理解。\n\n| 指標 | 介入組（n=51）基線→第28天 | 對照組（n=51）基線→第28天 | 組間／調整結果 |\n|---|---:|---:|---|\n| 總膽固醇 | 191.98→200.27；+8.29 mg/dL（組內 p=.024） | 223.47→217.00；−6.47 mg/dL（組內 p=.029） | 未調整 control−intervention −14.76 mg/dL（95% CI −24.22 至 −5.31；p=.003），方向表示介入組相對多上升。非 statin 子組 intervention−control −12.55 mg/dL（−22.74 至 −2.36；p=.016）。 |\n| LDL-C | 122.12→128.86；+6.75 mg/dL（p=.007） | 140.63→139.92；−0.71 mg/dL（p=.870） | 未調整組間差 −7.45 mg/dL（p=.086）；非 statin 調整差 −0.77 mg/dL（−8.53 至 6.98；p=.843）。 |\n| HDL-C | −0.59 mg/dL | −1.63 mg/dL | 未調整組間 p=.517；非 statin 調整差 +1.12 mg/dL（−2.15 至 4.40；p=.497）。 |\n| 三酸甘油酯 | +4.94 mg/dL | +3.78 mg/dL | 未調整組間 p=.926；非 statin 調整差 −3.12 mg/dL（−32.57 至 26.33；p=.834）。 |\n\n- **子組方向要分清：**未調整總膽固醇差採 control−intervention；調整分析採 intervention−control。調整後的 −12.55 mg/dL 表示該子組介入組較低，不能與未調整的 −14.76 直接當成同一方向。\n- **不良事件：**研究記錄 4 件輕微不適：介入組 1 件胃部不適；對照組 3 件搔癢、胃部不適或暈眩。未報告嚴重事件，但 28 天及 102 人不足以確認長期安全性。\n- **臨床意義：**未提供血脂變化的最小臨床重要差異，且無病人重要心血管結局；統計顯著本身不證明臨床效益。\n\n## 臨床意義 / 怎麼用\n\n**要點：**此研究只能作為短期食品介入的初步訊號，不能據此建議餅乾治療糖尿病或血脂異常，也不能替代既有藥物與個別化營養照護。\n\n- 和個案討論類似產品時，可先確認它是替代既有點心還是額外增加熱量；本研究沒有核實實際替代率。\n- 讀結果時先看直接組間差、區間與分析族群；不能以「一組顯著、另一組不顯著」代替組間比較。\n- 可預測分組及基線總膽固醇、LDL-C、碳水與蛋白質攝取差異，可能影響組間可比性；探索性子組結果不應蓋過未調整全樣本結果。\n- 外推受到單一場域、28 天追蹤、未確認餅乾營養等同性、未測體重及缺少臨床事件限制。\n\n## 重要圖表重述\n\n**要點：**文中的流程與表格共同呈現 102 人兩組配置、起始差異、四項血脂前後值及未使用 statin 子組的調整估計；需把基線表與變化表一起讀。\n\n- **研究流程圖：**說明 102 名完成者分為介入與對照各 51 人；不能由完成樣本推斷未報告的招募者特徵。\n- **基線特徵表：**介入組起始總膽固醇、LDL-C、碳水與蛋白質攝取較低，表示起點並不完全平衡。\n- **血脂前後比較表：**列出總膽固醇、LDL-C、HDL-C 與三酸甘油酯基線及第 28 天結果；介入組前兩項上升。\n- **調整分析表：**針對 86 名未使用 statin 者報告 ANCOVA 估計；總膽固醇方向較有利，其他三項未顯著。它是探索性子組結果。\n\n## 與既有認知的對照\n\n**要點：**本機筆記搜尋只找到同 DOI 的品質評讀，沒有其他 Golden Rice／*P. crocatum* 血脂內容可作直接對照；本整理補上全文內容架構，不重複評讀結論。\n\n- 已查詢本輪可用筆記索引 `available-site-notes.json`（2684 列；2026-11-01T10:40Z），找到同篇品質評讀 [[Abram2026 - Golden Rice Cookies and Lipids]]，未找到其他直接相關筆記。\n- 同篇品質評讀把總膽固醇子組的臨床效益確定性評為 Very low；本篇整理其餘設計、介入與四項血脂結果，供快速回想。\n\n## 概念 / 名詞整理\n\n**要點：**理解分派方式、比較方向與萃取物標示，能避免把單一探索性結果誤讀成療效證據。\n\n- **準實驗：**研究者比較介入與對照，但分派程序不具正式隨機化保障；本研究交替放入兩組，後續分組可被預測。\n- **Golden Rice：**論文所用富含 β-carotene 的稻米原料；本研究評估的是加入餅乾配方，不是一般飲食中單獨食用米飯的效果。\n- ***Piper crocatum*：**論文所用植物萃取物。作者報告每片估計 90 mg GAE；GAE 是以沒食子酸當量表達的多酚含量估計，不代表已證實的臨床劑量或生體可用率。\n- **組間變化差：**兩組改變量相減；解讀前必須確認相減順序。本研究未調整結果用 control−intervention，子組調整結果用 intervention−control。\n- **探索性子組分析：**在部分參與者中另做分析，若未事先指定，結果較容易受到偶然發現及多重比較影響，需由後續研究確認。\n\n## 自我測驗\n\n**要點：**先回想分派、結果方向及外推限制，再看答案；不要只背 p 值。\n\n> [!question]- Q1：為何此研究不能視為正式隨機試驗？\n> 研究先抽籤決定起始順序，再交替分派，後續分組可預測。它沒有正式隨機序列與分派隱蔽的保障，因此基線不平衡可能影響比較。\n\n> [!question]- Q2：未調整總膽固醇結果應如何解讀？\n> 介入組增加 8.29 mg/dL、對照組下降 6.47 mg/dL；control−intervention 的組間變化差是 −14.76 mg/dL。這表示介入組相對上升較多，與「餅乾降低總膽固醇」不同。\n\n> [!question]- Q3：非 statin 子組的 −12.55 mg/dL 能證明什麼？\n> 它是 86 人的探索性調整結果，表示該模型中介入組總膽固醇較低；不能單獨證明因果或臨床效益，因為分析未確認事前指定，且方向與全樣本未調整結果相反。\n\n> [!question]- Q4：如果要把研究轉成營養諮詢，最重要的限制為何？\n> 研究只有 28 天、沒有心血管事件或體重追蹤，也未確認餅乾是否取代原點心及兩組烘焙品營養等同性。不能把它當成治療建議或替代既有照護。\n\n> [!question]- Q5：GAE 數字可以直接當成有效的臨床多酚劑量嗎？\n> 不可以。文章以 GAE 表示估計多酚量，但未證明最終烘焙品的實際含量、生體可用率或臨床劑量反應；它不是已確立的治療劑量。\n\n## Reference\n\n**要點：**本文數據與主張來自該研究完整 PMC HTML；評讀細節請回看同篇品質筆記。\n\n- Abram AS, Setyawati A, Irwan AM. 2026. *Chronic Diseases and Translational Medicine*. DOI: [10.1002/cdt3.70075](https://doi.org/10.1002/cdt3.70075). [PMC 完整文章](https://pmc.ncbi.nlm.nih.gov/articles/PMC13717313/).\n- 全文格式為完整 HTML，快取來源 SHA-256：`af9c1c33bccf072684a4cd7d9cf456501e25e0c97289a456fded107462152da1`；題名與 DOI 精確匹配。HTML 授權段落顯示 CC BY-NC 4.0；此整理為原創繁體中文摘要，未重製來源圖表或翻譯全文。",
+      "cards": [
+        {
+          "title": "準實驗的分派限制",
+          "question": "為何這項研究不能視為正式隨機試驗？",
+          "answer": "先抽籤決定起始順序後交替分派，後續分組可預測。沒有正式隨機序列與分派隱蔽，基線不平衡可能影響比較。",
+          "tags": [
+            "糖尿病",
+            "功能性食品",
+            "研究判讀"
+          ]
+        },
+        {
+          "title": "看懂總膽固醇組間差",
+          "question": "介入組總膽固醇增加、對照組下降時，control−intervention 的 −14.76 mg/dL 代表什麼？",
+          "answer": "這個相減順序表示介入組相對多上升約 14.76 mg/dL。它不支持把未調整全樣本結果解讀成介入組降膽固醇。",
+          "tags": [
+            "血脂",
+            "統計判讀",
+            "糖尿病"
+          ]
+        },
+        {
+          "title": "探索性子組的界線",
+          "question": "非 statin 子組的調整後總膽固醇結果為何不能單獨證明療效？",
+          "answer": "這是 86 人的探索性分析，文章未確認事前指定，而且方向與未調整全樣本結果相反。需後續研究確認，不能直接推論因果或臨床效益。",
+          "tags": [
+            "子組分析",
+            "臨床營養",
+            "研究判讀"
+          ]
+        },
+        {
+          "title": "把結果放回照護情境",
+          "question": "研究中哪些條件限制把餅乾結果轉成糖尿病營養建議？",
+          "answer": "追蹤僅 28 天，沒有心血管事件或體重追蹤，也未確認點心替代率及餅乾營養等同性。它不能替代藥物或個別化營養照護。",
+          "tags": [
+            "糖尿病",
+            "營養照護",
+            "臨床應用"
+          ]
+        },
+        {
+          "title": "GAE 不是治療劑量",
+          "question": "文中每片餅乾的 GAE 數字可以當成已證實的臨床有效劑量嗎？",
+          "answer": "不可以。GAE 是多酚含量的估計表達，研究沒有確認最終烘焙品實際含量、生體可用率或臨床劑量反應。",
+          "tags": [
+            "多酚",
+            "功能性食品",
+            "臨床營養"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-01T10:42:33.931Z"
     }
   ]
 }
