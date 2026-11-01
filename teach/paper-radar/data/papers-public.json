@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-01T10:58:11.616Z",
+  "generatedAt": "2026-11-01T11:20:39.906Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -109338,6 +109338,32 @@
         }
       ],
       "completedAt": "2026-11-01T10:55:03.253Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1915953:review",
+      "paperId": "doi:10.3389/fnut.2026.1915953",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "The associations between healthful and unhealthful plant-based dietary patterns and all-cause mortality among older Chinese adults with data-adapted early-stage cardiovascular-kidney-metabolic syndrome (stages 0-2): a prospective cohort study from the CLHLS.",
+      "authors": "Zhang S, Tang E, Jiang Y, Zhu K, Zhuang X, Wang H, He X, Lu Y, Zhang Q, Li X, Song J",
+      "journal": "Frontiers in Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fnut.2026.1915953",
+      "abstract": "To examine the associations of the overall plant-based diet index (PDI), healthful plant-based diet index (hPDI), and unhealthful plant-based diet index (uPDI) with all-cause mortality in older Chinese adults with data-adapted early-stage cardiovascular-kidney-metabolic (CKM) syndrome (stages 0-2). We analyzed data from 5,872 participants aged ≥65 years from the 2008 wave of the China Longitudinal Healthy Longevity Survey (CLHLS) with data-adapted CKM stages 0-2 and no prevalent cardiovascular disease. Dietary intake was assessed using a validated food frequency questionnaire. Mortality was ascertained through March 2019. Cox proportional hazards models and restricted cubic spline analyses were used. During a median follow-up of 108 months, 2,870 deaths occurred. In multivariable-adjusted models, each 1-point increase in hPDI was associated with a 1.1% lower mortality risk (HR = 0.989, 95% CI: 0.982-0.995; p < 0.001), whereas each 1-point increase in uPDI was associated with a 1.2% higher mortality risk (HR = 1.012, 95% CI: 1.006-1.019; p < 0.001). Compared with the lowest quartile, the highest hPDI quartile had a 13.2% lower mortality risk (HR = 0.868, 95% CI: 0.783-0.961), and the highest uPDI quartile had a 19.2% higher risk (HR = 1.192, 95% CI: 1.060-1.340). Stratified estimates suggested numerically stronger associations in CKM stages 1-2 than in stage 0; however, formal interaction tests did not reach statistical significance (p = 0.062 for hPDI and p = 0.824 for uPDI), indicating limited evidence of effect modification. Higher adherence to a healthful plant-based diet was associated with lower all-cause mortality, whereas higher adherence to an unhealthful plant-based diet was associated with higher mortality among older Chinese adults with data-adapted early-stage CKM syndrome. The overall PDI was not independently associated with mortality after adjustment, underscoring that plant-based dietary quality, rather than plant-based eating per se, is the relevant exposure.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1915953/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42965082/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "design:prospective cohort",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "safety and interaction"
+      ],
+      "noteTitle": "植物性飲食品質與早期CKM-品質評讀",
+      "content": "---\ntags:\n  - source/journal\ncitekey: \"\"\ndoi: \"10.3389/fnut.2026.1915953\"\nzotero: \"\"\njournal: \"Frontiers in Nutrition\"\nyear: 2026\nauthors: \"Shipeng Zhang, Enjie Tang, Yanjie Jiang, Kun Zhu, Xiulian Zhuang, Hanyu Wang, Xingyi He, Yan Lu, Qinxiu Zhang, Xueying Li, Jiaqing Song\"\nstudy_type: \"prospective cohort\"\npmid: \"\"\nreview_depth: \"quick\"\n---\n\n> [!info] 品質快照\n> **設計**：前瞻性世代研究｜**n**：5,872（死亡 2,870）｜**ROBINS-I**：整體嚴重疑慮（殘餘混雜與選樣）\n> **GRADE**：Very low（全因死亡；觀察性證據起始 Low，偏差風險及間接性各降一級）｜**Registration**：不適用（非試驗）\n> **一句話 verdict**：健康植物性飲食分數與較低死亡率、非健康植物性飲食分數與較高死亡率有關；不能由此推論因果或直接外推至台灣所有長者。\n\n# Key Points\n\n## Summary\n\n> ✅ 已核對 14 頁全文\n\n- 在中國 65 歲以上、依可取得資料定義為早期 CKM stages 0–2、且基線沒有心血管疾病的長者中，較高 hPDI 與較低全因死亡率相關；較高 uPDI 與較高死亡率相關。\n- 調整後每增加 1 分：hPDI HR 0.989（95% CI 0.982–0.995）；uPDI HR 1.012（95% CI 1.006–1.019）。最高對最低四分位：hPDI HR 0.868（0.783–0.961），uPDI HR 1.192（1.060–1.340）。整體 PDI 調整後無顯著關聯。\n- 這些是長期觀察關聯，不是飲食介入的因果效果，也不能換算成個人的絕對風險降低或 NNT。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽（繁體中文白話）\n> - **一句話**：這項長期追蹤研究發現，植物性食物「品質」比單看植物性飲食比例更能區分死亡風險。\n> - **為什麼做**：研究者想知道，在已經有早期心腎代謝風險、但尚無已知心血管疾病的中國長者中，健康與不健康植物性飲食分數是否和之後的全因死亡有關。\n> - **主體**：研究比較基線飲食分數，而不是分派菜單。hPDI 將全穀、蔬果、豆類、堅果、茶等健康植物食物計正分，並反向計入較不健康植物食物與動物食物；uPDI 則把精製穀物、糖、醃製蔬菜等計正分。追蹤中位數 108 個月，5,872 人有 2,870 人死亡。調整人口與生活型態因素後，hPDI 每高 1 分的 HR 為 0.989，uPDI 每高 1 分的 HR 為 1.012；整體 PDI 的調整後關聯接近無差異。CKM 分層的交互作用檢定未達顯著，不能說某個 CKM stage 一定獲益更多。\n> - **所以呢**：研究支持把植物食物品質列為後續研究與照護討論重點，並不證明改變飲食可降低死亡；一次飲食頻率問卷、缺少生化 CKM 指標及大量排除個案，都限制結果的可信度與外推。\n\n## Clinical Application\n\n- **可能適用情境：**作為高齡營養諮詢中討論植物食物品質的觀察性證據；研究對象為中國 65 歲以上、無基線心血管疾病者。\n- **可帶入的訊息：**全穀、蔬果、豆類、堅果等健康植物食物，與精製穀物、糖及醃製植物食物應分開看待；研究不支持把所有植物性飲食合併成單一「越多越好」指標。\n- **不可直接推論：**研究沒有隨機分派飲食，不能宣稱 hPDI 造成死亡下降；也沒有提供台灣族群的絕對風險、原因別死亡或個人化效果。\n- **外部效度：**中國長者、特定飲食文化及資料適應版 CKM 定義，不等同台灣長者或完整生化 CKM 分期；個別照護仍需考慮營養狀態、共病、功能與飲食可行性。\n\n# Paper Details\n\n## Methods\n\n- **設計與來源：**CLHLS 2008 波次的前瞻性世代分析，死亡追蹤至 2019 年 3 月。16,954 人進入初始篩選；排除未滿 65 歲 396 人、缺少 CKM 所需診斷資料 9,295 人、缺少追蹤 166 人、基線心臟病或腦心血管病 1,225 人後，分析 5,872 人。stage 0/1/2 分別 3,736/811/1,325 人。〔全文 pp. 3–6〕\n- **族群與暴露：**以一次面訪 FFQ 的 16 組食物頻率（每組 1–5 分）建立 PDI、hPDI、uPDI，分數範圍 16–80；沒有份量或總熱量資料。〔pp. 3–5〕\n- **CKM 分期：**以 BMI、腰圍及醫師診斷的高血壓、糖尿病、血脂異常、慢性腎炎作資料適應分類；缺少肌酸酐、尿白蛋白、血脂及血糖等完整生化資料。〔pp. 3–4〕\n- **結果與模型：**主要結果為全因死亡；Cox 比例風險模型，調整年齡、性別、族群、婚姻、教育、吸菸、飲酒、收入、運動、職業、睡眠時數及睡眠品質。另做四節點限制立方樣條、預先規劃的次群分析與多種敏感度分析；共變項以 chained equations 多重插補 m=5。〔pp. 5–6〕\n\n## Critical Appraisal\n\n| ROBINS-I 領域 | 判定 | 依據 |\n|---|---|---|\n| 混雜 | 嚴重疑慮 | 未量測衰弱、ADL／功能、認知、用藥及總熱量；作者也承認殘餘混雜。 |\n| 參與者選取 | 嚴重疑慮 | 9,295 人因診斷資料缺漏被排除；排除者更老且 hPDI 較低、uPDI 較高。IPSW 後方向相同但估計向無效值衰減。 |\n| 暴露分類 | 嚴重疑慮 | 飲食只在基線以自陳頻率測量一次，沒有份量；近九年飲食改變可能造成錯分。 |\n| 偏離與缺失 | 中度疑慮 | 暴露無重複測量；部分共變項插補，但主要診斷缺漏造成大量排除。 |\n| 結果測量 | 低至中度疑慮 | 全因死亡通常較客觀；死亡資料有時取自親屬或居委會，且沒有死因。 |\n| 選擇性報告 | 尚不清楚 | 目前全文未提供可核對的事前分析註冊；不能據此斷言有選擇性報告。 |\n\n- **統計與解讀：**主分析事件數充足，主要 HR 的信賴區間未跨 1；但 HR 是相對關聯，研究未提供飲食介入的絕對風險差或 NNT。對觀察性研究不適用 RCT 的 MCID 判讀；臨床重要性仍不能只由 p 值判定。\n- **CKM 次群與 spin：**stage 1–2 的分層估計看似較強，但 hPDI 交互作用 p=0.062、uPDI p=0.824，均未達顯著。作者結論使用「associated with」，與觀察設計相符；本文討論的機轉僅是合理假說。論證檢查器對描述性關聯主張無落差旗標。\n- **敏感度分析：**排除前三年死亡、基線癌症、嚴格素食者及以血脂異常／慢性腎炎單獨定義 stage 2 者後，方向大致一致；延伸調整慢性病後也相近。這降低部分疑慮，不能消除未測量混雜或選樣偏差。〔pp. 6, 10〕\n- **GRADE（全因死亡）：**起始 Low；ROB serious（−1）、indirectness serious（−1：單一中國高齡樣本與資料適應 CKM），其餘未再降級；由 `grade_judge.py` 確定為 **Very low**。單一研究無法評估跨研究不一致或出版偏差。\n- **作者聲明：**未獲研究或出版經費，聲明無商業／財務利益衝突；倫理審查為北京大學倫理委員會 IRB00001052-13074。〔p. 13〕\n- **Quick 範圍：**未執行作者背景、期刊指標、引用脈絡與廣泛參考文獻逐篇查核；非本次 worker-batch focused-quick 必做範圍。\n\n## Key Findings\n\n| 暴露 | 調整後結果 | 解讀 |\n|---|---|---|\n| hPDI，每 1 分 | HR 0.989（95% CI 0.982–0.995；p<0.001） | 與較低全因死亡率相關。 |\n| hPDI，Q4 vs Q1 | HR 0.868（0.783–0.961；p=0.007）；趨勢 p=0.020 | 最高四分位估計約低 13.2%，屬觀察關聯。 |\n| uPDI，每 1 分 | HR 1.012（1.006–1.019；p<0.001） | 與較高全因死亡率相關。 |\n| uPDI，Q4 vs Q1 | HR 1.192（1.060–1.340；p=0.003）；趨勢 p=0.006 | 最高四分位估計約高 19.2%，屬觀察關聯。 |\n| 整體 PDI | 每 1 分 HR 1.001（0.994–1.007；p=0.798）；Q4 vs Q1 HR 1.067（0.956–1.191） | 多變項調整後無顯著關聯。 |\n\n研究未取得死因，因此不能判斷心血管或腎臟死亡；基線飲食只測一次，也不能代表追蹤期間的飲食變化。〔pp. 6, 8–12〕\n\n# Resource\n\n## Source\n\n- [DOI / 期刊全文](https://doi.org/10.3389/fnut.2026.1915953)\n- 本機全文核驗：Unpaywall 路徑；PDF 14 頁，原文檔 SHA-256 `0e511d04e34bffea84309bc62d14cb17ffcae823dd1ab5bf0bb8bf31dac4d592`；可讀文字 67,171 字元，包含 introduction、methods、results、discussion、conclusion、references，無替代字元；全文未公開附加於此筆記。\n- DOI 身份與題名相符；取得與解析收據見原 runDir 的 active claim 與 PaperFetch execution receipt。",
+      "cards": [],
+      "completedAt": "2026-11-01T11:18:07.702Z"
     }
   ]
 }
