@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T04:18:28.663Z",
+  "generatedAt": "2026-11-04T04:29:55.540Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -109558,6 +109558,72 @@
       "content": "---\ntags:\n  - source/journal\n  - med/clinical-nutrition\ncitekey: \"doi-10.3389-fnut-2026-1937525\"\ndoi: \"10.3389/fnut.2026.1937525\"\nzotero: \"\"\njournal: \"Frontiers in Nutrition\"\nyear: 2026\nauthors: \"Tambaro F, Imbimbo G, Coletti D, De Tullio R, Belloni E, Nigri G, Costelli P, Muscaritoli M, Molfino A\"\nstudy_type: \"single-center observational cross-sectional study\"\npmid: null\nreview_depth: \"quick\"\n---\n\n> [!info] 品質快照\n> **設計**：單中心橫斷觀察研究｜**樣本**：胃腸道癌症患者 28 人、非癌症對照 10 人\n> **偏差風險**（橫斷研究適用的 Newcastle–Ottawa 概念域）：高；小樣本、選樣與混雜控制是主要問題\n> **GRADE**（LCN2 與 6 個月體重下降的關聯）：Very low ⊕◯◯◯（技能內計算器；低起始，風險偏差、間接性、精確度各降一級）\n> **登錄**：不適用於介入試驗；研究未報告預先登錄\n> **一句話判讀**：LCN2 與發炎及部分惡病質特徵呈關聯，但資料只支持假說生成，不能證明因果、診斷效能或臨床效益。\n\n# Key Points\n\n## Summary\n\n> ✅ 已讀並核對 11 頁全文\n\n- 在 28 位未治療胃腸道癌症患者中，循環 LCN2 與 IL-6、IL-8、IL-15、TNF-α 呈正相關，與 IL-10、IL-18 呈負相關；與 6 個月體重下降的調整後關聯為 OR 1.043／每增加 1 ng/mL（95% CI 1.006–1.082，p=0.023）。\n- 樣本以大腸直腸癌為主（24/28，86%）；對照年齡較低，體重變化為自述，肌肉量分析只有 25 人。\n- 多重比較未校正，許多分層結果樣本很小；未提供多數組間效應量與信賴區間。LCN2 的診斷門檻、敏感度、特異度、預測校準及臨床效益均未建立。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：這篇研究發現，胃腸道癌症患者的血中 LCN2 與發炎指標，以及體重下降、低肌肉量等部分營養惡化特徵同時出現。\n> - **為什麼做**：作者想知道 LCN2 是否能連結癌症惡病質中的發炎與營養／肌肉變化，並作為候選血液指標。\n> - **主體**：研究比較 28 位尚未接受治療的胃腸道癌症患者與 10 位非癌症對照。癌症組有 16/28 人（57%）自述近 6 個月體重下降，14/28 人（50%）FAACT 分數符合食慾不振。癌症組 LCN2 高於對照（p<0.001）；在癌症組內，LCN2 與 IL-6（rho=0.862）、IL-8（rho=0.789）、IL-15（rho=0.540）、TNF-α（rho=0.670）正相關，與 IL-10（rho=−0.908）及 IL-18（rho=−0.559）負相關。體重下降患者的 LCN2 高於體重穩定患者（p=0.031）；調整年齡、性別與 CRP 後，每 1 ng/mL LCN2 對應體重下降 OR 1.043（95% CI 1.006–1.082，p=0.023）。這是觀察到的關聯，不是每組的絕對風險或因果效應。\n> - **所以呢**：目前不能用 LCN2 取代營養評估，也不能據此判斷治療或預後。結果需由更大、具代表性且追蹤時間明確的研究驗證。\n\n## Clinical Application\n\n- **適應情境：** 目前只適合作為研究假說；論文沒有建立可用於個人病人的 LCN2 臨床切點或預測模型。\n- **實務判斷：** 不因這篇研究改變癌症營養照護。仍依病人體重軌跡、攝取量、症狀、身體組成與整體臨床狀況評估；LCN2 不應單獨用來診斷惡病質。\n- **外部效度：** 對象是義大利單中心、初診且預定接受腫瘤切除的患者；86% 為大腸直腸癌。結果不能直接外推至不可手術、已治療、不同癌別或台灣族群。\n- **在地適用性：** 沒有比較台灣族群、照護流程或健保決策；本文不支持任何給付或處置建議。\n\n# Paper Details\n\n## Methods\n\n- **研究設計與收案：** 義大利 Sapienza University 單中心橫斷觀察研究。連續收納年滿 18 歲、近 4 週確診、尚未接受癌症治療且安排手術切除者；排除多種會影響營養或發炎的急慢性疾病及不適合手術的晚期患者。另收 10 位因非惡性原因接受選擇性手術、無癌症或發炎疾病史者作對照。\n- **族群：** 癌症組 28 人，24 人大腸直腸癌、3 人胃癌、1 人胰臟癌；16 人為 I–II 期、12 人為 III–IV 期。中位年齡 69.5 歲（IQR 53.5–78.75），男性 19 人（68%）。對照中位年齡 48.0 歲（39.0–77.0），男性 5 人（50%）。\n- **營養／肌肉評估：** 體重下降以收案前 6 個月自述記錄。食慾不振以義大利版 FAACT 12 題總分 ≤30 定義。以常規腹部 CT 的 L3 切面計算 SMA 與 L3-SMI；低肌肉量使用本研究內部性別切點：男性 47.89、女性 39.14 cm²/m²。CT 缺資料 3 人，因此身體組成分析 n=25。\n- **生物檢體：** LCN2 以 ELISA 測量，血清稀釋 1:20、重複測量，檢測下限 79 pg/mL；IL-6、IL-8、IL-10、IL-15、IL-18、TNF-α 以 xMAP 多重分析，皆重複測量。\n- **統計：** 依分布使用 t 檢定／單因子 ANOVA 或 Mann–Whitney U／Kruskal–Wallis；以 Spearman rho 評估相關。作者明確指出探索性分析未作多重比較校正。另以體重下降為依變項，將 LCN2、年齡、性別、CRP 放入多變項 logistic regression；雙尾 p<0.05。\n\n## Critical Appraisal\n\n| 領域 | 判定 | 證據與影響 |\n|---|---|---|\n| 選樣 | 🔴 高風險 | 單中心且只收可手術、未治療患者；排除不適合手術的晚期病例，可能造成選樣偏差。癌症組 86% 是大腸直腸癌。 |\n| 可比較性／混雜 | 🔴 高風險 | 對照中位年齡 48 歲，癌症組 69.5 歲，並非年齡配對；小樣本下未顯著不代表可比。年齡、病況與其他混雜仍可能影響組間比較。體重下降的回歸只調整年齡、性別、CRP，其他分析未調整。 |\n| 暴露與結果測量 | 🟡 有疑慮 | LCN2、細胞激素及 CT 有明確測量程序；但近半年體重變化為自述，低肌肉量採內部切點，未用外部族群驗證。 |\n| 樣本與缺失 | 🔴 高風險 | 癌症 28 人、對照 10 人，分層後每組常只有 8–16 人；CT 有 3 人缺失。樣本不足以穩定估計多個分層與回歸係數。 |\n| 統計與選擇性報告 | 🔴 高風險 | 多種細胞激素、表型及分層反覆檢定且未作多重比較校正；p=0.046、0.028 等結果容易受偶然誤差影響。未報告預先登錄或預先指定主要結果。 |\n\n**整體偏差風險：高。** 以上為依橫斷病因研究的 Newcastle–Ottawa 概念域作的快速評讀，不代表作者曾使用該工具。\n\n**統計與推論：** 主要發現多以 p 值與相關係數呈現；多數組間比較沒有報告效應量及信賴區間，難以判斷差異幅度。多變項模型有 16 個體重下降事件、4 個預測變項，約 4 個事件／變項，係數可能不穩。這是依樣本與模型規格作的風險判斷。LCN2 沒有本文驗證的 MCID 或臨床切點；研究也未報 ROC、敏感度、特異度或校準，因此統計顯著不能解讀為診斷效能。\n\n**因果／spin：** 橫斷設計無法確定 LCN2、發炎與營養惡化的時間先後。作者主要使用「相關」和「可能是標記」的表述；目前沒有資料證明 LCN2 造成食慾不振、體重下降或肌肉流失。\n\n**GRADE（體重下降關聯）：** 低起始（觀察性研究）；風險偏差、間接性、精確度各降一級；不一致性與出版偏差未額外降級。技能內 grade_judge.py 計算結果為 **Very low**。單篇小型橫斷研究不足以作穩定臨床推論。\n\n**Funding／COI：** 研究由 PRIN 2022、Sapienza University of Rome 及 Sapienza Starting Grant 支持。作者聲明沒有可能構成利益衝突的商業或財務關係；DC、GN、PC、MM、AM 同時是 Frontiers 編輯委員，作者稱此事未影響審查與決定。論文聲明未使用生成式 AI 撰寫。\n\n## Key Findings\n\n| 比較／分析 | 結果 |\n|---|---|\n| 癌症組 vs 對照 | LCN2 較高（p<0.001）；IL-6、IL-8、IL-15、TNF-α 較高；IL-10、IL-18 無顯著組間差異。 |\n| 癌症組 LCN2 與細胞激素 | IL-6 rho=0.862、IL-8 rho=0.789、IL-15 rho=0.540、TNF-α rho=0.670 均為正相關；IL-10 rho=−0.908、IL-18 rho=−0.559 為負相關。 |\n| 食慾不振 | FAACT≤30 為 14/28（50%）；食慾不振組 LCN2 高於對照（p=0.003），但癌症患者中食慾不振與否的差異不顯著。 |\n| 體重下降 | 16/28（57%）自述近 6 個月體重下降；其 LCN2 高於體重穩定者（p=0.031）及對照（p<0.001）。 |\n| 組合表型 | 食慾不振且體重下降組 n=11，高於無食慾不振且體重穩定組 n=9（p=0.046）。 |\n| 肌肉量 | CT 可分析 25 人；低肌肉量 n=12、高肌肉量 n=13。低肌肉量患者 LCN2 高於對照（p=0.007）；低肌肉量合併體重下降 n=9，高於高肌肉量且體重穩定 n=8（p=0.028）。低肌肉量合併食慾不振與高肌肉量且無食慾不振之間未見顯著差異。 |\n| 調整後關聯 | LCN2 每增加 1 ng/mL，體重下降 OR 1.043（95% CI 1.006–1.082，p=0.023）；年齡、CRP、性別在同一模型中未達顯著。 |\n\n## 範圍與未做項目\n\n本次為 Paper Radar focused-quick，已完成全文、方法、主要數值、偏差評讀、GRADE 與臨床適用性。未進行作者背景、期刊指標／撤稿查核、廣泛引用脈絡或逐條參考文獻真偽核對；參考文獻僅依全文作段落閱讀索引。Zotero 本機 API 的唯讀查詢遭連線拒絕，因此未填 Zotero citation key；這不影響全文評讀或 DOI 身份核對。\n\n# Resource\n\n## Source\n\n- [Frontiers 官方全文與文章資料](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1937525/full)\n- [DOI](https://doi.org/10.3389/fnut.2026.1937525)\n- 全文 PDF 首頁標示 Creative Commons Attribution License（CC BY）；官方頁面亦列出相同授權。\n- 全文位置：PDF 第 1–11 頁；表 1 第 4 頁、圖 1 第 5 頁、圖 2 第 6 頁、圖 3／表 2 第 7 頁、圖 4／表 3 第 8 頁。逐段閱讀索引與首／中／末頁核對收據保存在本次 Worker 的本機 evidence。",
       "cards": [],
       "completedAt": "2026-11-04T04:13:10.271Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1937525:digest",
+      "paperId": "doi:10.3389/fnut.2026.1937525",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Circulating lipocalin-2 is associated with systemic inflammation and cachexia-related features in patients with gastrointestinal cancer.",
+      "authors": "Tambaro F, Imbimbo G, Coletti D, De Tullio R, Belloni E, Nigri G, Costelli P, Muscaritoli M, Molfino A",
+      "journal": "Frontiers in Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fnut.2026.1937525",
+      "abstract": "Cancer-associated anorexia (AN) and cachexia are frequent and debilitating complications of cancer, driven by systemic inflammation and metabolic dysregulation. Lipocalin 2 (LCN2) has been implicated in immune-metabolic integration and central appetite control, however data in cancer patients are limited. This study aimed to assess circulating LCN2 in patients with gastrointestinal cancers (GI-CP) and to evaluate its association with AN, levels of systemic inflammatory cytokines (IL-6, -8, -10, -15, -18, and TNF-α), body weight change, and level of muscularity. Twenty-eight GI-CP naïve to treatment and 10 controls were enrolled. AN was diagnosed in 50% of GI-CP by the Functional Assessment of Anorexia/Cachexia Therapy (FAACT) score ( ≤ 30). Serum LCN2 concentrations were measured by ELISA, and cytokines were quantified using xMAP assay. Clinical, nutritional, and body composition parameters assessed by CT-scan were collected, and association(s) between LCN2 and inflammatory markers were analyzed. In GI-CP, predominantly represented by colorectal cancer, LCN2, IL-6, IL-8, IL-15, and TNF-α were higher than controls (p < 0.05). In GI-CP, LCN2 showed positive correlations with IL-6 (rho = 0.862; p < 0.001) and IL-8 (rho = 0.789; p < 0.001). LCN2 levels were higher in GI-CP with AN vs. control (p = 0.003), but not between anorexic vs. non-anorexic GI-CP, and in GI-CP with body weight loss compared to those with weight-stable (p = 0.031) and vs. controls (p < 0.001). LCN2 was higher in GI-CP with AN and body weight loss compared to those without AN and body weight stable (p = 0.046) and in GI-CP with low muscle mass and body weight loss compared with those with body weight stable and high muscularity (p = 0.028). Overall, these findings suggest that LCN2 may reflect the combined burden of inflammation and cachexia-related features in GI cancer.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1937525/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42973537/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "胃腸道癌症 LCN2、發炎與惡病質線索",
+      "content": "---\ntags:\n  - research/digest\n  - med/clinical-nutrition\n  - cancer/cachexia\ncitekey: \"doi-10.3389-fnut-2026-1937525\"\ndoi: \"10.3389/fnut.2026.1937525\"\naliases:\n  - \"Circulating lipocalin-2 is associated with systemic inflammation and cachexia-related features in patients with gastrointestinal cancer\"\nstudy_type: \"single-center observational cross-sectional study\"\nsource_review: \"同 DOI 品質評讀，2026-11-04\"\n---\n\n> [!summary] 30 秒層｜一句話 + 重點\n> **一句話：** 這項小型橫斷研究發現，胃腸道癌症患者的循環 lipocalin-2（LCN2）與多種發炎指標及部分體重、肌肉惡化表型同時相關；它目前是研究線索，不能當作診斷工具。\n> - 癌症組 28 人、對照 10 人；癌症組中 24 人（86%）為大腸直腸癌。\n> - 癌症組 LCN2 高於對照（p<0.001）；與 IL-6、IL-8、IL-15、TNF-α 正相關，與 IL-10、IL-18 負相關。\n> - 16/28 人（57%）自述近 6 個月體重下降；調整後 LCN2 每增加 1 ng/mL，體重下降 OR 1.043（95% CI 1.006–1.082）。\n> - 分層樣本很小，多重比較未校正；研究沒有建立 LCN2 臨床切點、敏感度或特異度。\n> **品質 → 見同 DOI 品質評讀筆記的品質快照。**\n\n## 5 分鐘層｜全文地圖\n\n**要點**：本篇依研究動機、樣本與量測、關聯結果、臨床界線及圖表證據逐層閱讀。\n\n- **研究問題：** LCN2 是否和胃腸道癌症患者的發炎及惡病質相關表型共現。\n- **研究設計：** 單中心橫斷研究，28 位癌症患者與 10 位對照；量測血液、FAACT、六個月體重變化及 CT 肌肉量。\n- **主要發現：** LCN2 與多種細胞激素相關，並在體重下降及部分低肌肉組合中較高；調整後 OR 為 1.043。\n- **解讀邊界：** 小型探索資料、未校正多重比較、缺少診斷表現與因果證據。\n- **圖表路徑：** 表 1 描述族群；圖 1–2 呈現組間差異與相關；圖 3–4、表 2–3 呈現表型分層與回歸。\n\n## 研究問題 / 背景\n\n**要點**： 作者想知道循環 LCN2 是否伴隨胃腸道癌症患者的全身發炎、食慾不振、體重下降及低肌肉量等惡病質相關特徵。\n\n- LCN2 被作者視為連結免疫發炎與代謝／食慾調節的候選指標；研究問題是觀察其在癌症患者中的濃度及與上述表型、細胞激素的關聯。\n- 本文量測的是同一收案時點的指標與既往六個月體重變化；設計可描述共現關聯，無法確立先後或因果。\n\n## 方法\n\n**要點**： 義大利單中心橫斷觀察研究，比較 28 位未治療胃腸道癌症患者與 10 位非癌症對照，並以血液檢測、問卷與 CT 分層。\n\n- 癌症組為年滿 18 歲、近期確診且尚未接受治療、預定接受手術者：大腸直腸癌 24 人、胃癌 3 人、胰臟癌 1 人；I–II 期 16 人、III–IV 期 12 人。\n- 對照為 10 位因非惡性原因接受選擇性手術者；癌症組中位年齡 69.5 歲，對照 48.0 歲，兩組年齡分布不同。\n- 食慾不振以 FAACT 12 題總分 ≤30 定義；近 6 個月非自願體重下降由患者自述。腹部 CT 的 L3 肌肉指數分析有 25 人，3 人缺 CT 資料；低肌肉量使用本文的性別切點。\n- LCN2 以 ELISA 測量，六種細胞激素（IL-6、IL-8、IL-10、IL-15、IL-18、TNF-α）以 xMAP 測量。以 Spearman 相關分析關聯，另以 logistic regression 分析體重下降，調整年齡、性別與 CRP。\n\n## 主要發現\n\n**要點**： LCN2 的組間差異與細胞激素相關方向清楚，但小樣本分層和未校正的多重檢定，使數值應視為探索性結果。\n\n| 分析 | 全文結果 | 怎麼讀 |\n|---|---|---|\n| 癌症組 vs 對照 | LCN2 較高，p<0.001；IL-6、IL-8、IL-15、TNF-α 較高（各 p<0.05）；IL-10、IL-18 組間差異不顯著 | 是組間觀察值，不代表可用於個人診斷 |\n| 癌症組 LCN2 與細胞激素 | IL-6 rho=0.862、IL-8 rho=0.789、IL-15 rho=0.540、TNF-α rho=0.670；IL-10 rho=−0.908、IL-18 rho=−0.559（上述相關均 p<0.01） | 正負方向依本文相關分析；不能推成 LCN2 導致發炎變化 |\n| 食慾與體重表型 | 14/28 人 FAACT≤30；16/28 人自述體重下降。厭食組 LCN2 高於對照（p=0.003），但癌症組厭食 vs 非厭食並無顯著差異；體重下降 vs 穩定 p=0.031 | 「厭食組 vs 對照」不等於「厭食 vs 非厭食」 |\n| 組合表型 | 厭食且體重下降 n=11，高於無厭食且體重穩定 n=9（p=0.046）；低肌肉量且體重下降 n=9，高於高肌肉量且體重穩定 n=8（p=0.028） | 小分組結果容易不穩定，不能當作已驗證分類器 |\n| 調整後模型 | LCN2 每增加 1 ng/mL，體重下降 OR 1.043（95% CI 1.006–1.082，p=0.023）；模型調整年齡、性別、CRP | 是勝算比，不是風險增加 4.3 個百分點；本文沒有提供可用切點 |\n| 肌肉量 | CT 可分析 25 人；低肌肉量組 LCN2 高於對照（p=0.007）。低肌肉量且厭食 vs 高肌肉量且無厭食，差異不顯著 | 不顯著不能解讀為兩組相同 |\n\n## 臨床意義 / 怎麼用\n\n**要點**： 本文可用來形成後續研究問題，不能據此新增臨床檢驗、診斷門檻或營養處方。\n\n- 對癌症營養照護，仍需依體重趨勢、攝取量、症狀、功能與身體組成作整體評估；本研究沒有證明 LCN2 可替代任何一項評估。\n- 研究對象為單中心、未治療且預定手術的患者，且 86% 是大腸直腸癌；不能直接外推至已治療、不可手術、其他癌別或台灣族群。\n- 16 個體重下降事件支撐包含 LCN2、年齡、性別、CRP 的模型；結果仍可能不穩。作者指出探索性分析沒有多重比較校正，且多數分組差異缺少效應量與信賴區間。\n- LCN2 與發炎或營養惡化同時出現，不證明 LCN2 造成食慾下降、體重減輕或肌肉流失，也沒有證明量測它能改善病人結果。\n\n## 重要圖表重述\n\n**要點**： 圖表由組間比較、相關散點、營養表型分層一路連到調整模型；其中未見診斷準確度分析。\n\n- 表 1（PDF 第 4 頁）：列出癌症與對照的人口學、臨床及實驗室資料；年齡中位數分別為 69.5 與 48.0 歲，提示兩組不可簡單視為年齡相同。\n- 圖 1（第 5 頁）：比較 LCN2 與六種細胞激素；LCN2、IL-6、IL-8、IL-15、TNF-α 較高，IL-10、IL-18 無顯著差異。\n- 圖 2（第 6 頁）：六張散點圖呈現 LCN2 與細胞激素的正負相關；數值見上方表格，圖形不能決定因果方向。\n- 圖 3／表 2（第 7 頁）：依食慾不振、六個月體重變化及組合表型呈現 LCN2 分布與細胞激素相關；其中癌症組的厭食／非厭食比較並不顯著。\n- 圖 4／表 3（第 8 頁）：比較低／高肌肉量組合並列 logistic regression；低肌肉量與體重下降組合 p=0.028，調整後 LCN2 OR=1.043。圖表未提供個人診斷切點或敏感度／特異度。\n\n## 與既有認知的對照\n\n**要點**： 同一 DOI 的品質評讀與本篇內容整理一致：LCN2 目前是相關性研究線索，不支持個人診斷或改變營養照護。\n\n- 本輪同 DOI 品質評讀指出橫斷設計、選樣、小樣本和未校正多重檢定限制；本篇整理補上各主題與圖表數值，未增加外部事實。\n- 本次沒有可核驗的既有 vault 索引可供全文比對，因此不判定 Papers／Medicine 知識庫有無其他相關筆記。\n\n## 概念 / 名詞整理\n\n**要點**： LCN2 是本文量測的候選循環標記；體重下降、厭食與低肌肉量是分開測量的表型，不是彼此可互換的診斷。\n\n- **LCN2（lipocalin-2）：** 本研究以 ELISA 測得的血清蛋白，作者探討它是否和發炎及惡病質相關特徵共現。\n- **FAACT≤30：** 本文以 FAACT 12 題總分不高於 30 分界定厭食；這是研究操作定義。\n- **體重下降：** 受試者自述收案前六個月的非自願下降；不是前瞻連續量測。\n- **L3-SMI／低肌肉量：** 以腹部 CT 的 L3 肌肉面積除以身高平方計算；本文低肌肉量採用研究內性別切點，CT 分析只有 25 人。\n- **橫斷關聯：** 指同一研究時段觀察到的共同變化；此設計無法確定時間順序或因果。\n\n## 自我測驗\n\n> [!question]- Q1：LCN2 每增加 1 ng/mL 的 OR 1.043，應如何解讀？\n> 在本研究調整年齡、性別與 CRP 的 logistic model 中，LCN2 每增加 1 ng/mL，體重下降的勝算比為 1.043。它不是增加 4.3 個百分點，也不是已驗證的個人預測值；研究未提供臨床切點。\n\n> [!question]- Q2：為什麼不能說「厭食患者的 LCN2 一定較高」？\n> 癌症組厭食與非厭食患者之間沒有顯著差異；顯著的是厭食癌症患者相較對照，以及其他指定分層。組別比較不能互相替代。\n\n> [!question]- Q3：這篇研究能證明 LCN2 造成惡病質嗎？\n> 不能。研究是橫斷觀察設計，無法確定 LCN2、發炎、食慾和體重變化的先後，也沒有介入 LCN2 或驗證因果機制。\n\n> [!question]- Q4：臨床上讀到這些結果後，最穩妥的做法是什麼？\n> 把它視為形成研究假說的生物標記線索，不以 LCN2 取代體重、攝取、症狀或身體組成評估，也不依本文新增檢驗門檻或處方。\n\n## Reference\n\n**要點**： 本篇數值、樣本與圖表說明均依下列原始全文；未在本整理加入外部證據。\n\n- Tambaro F, Imbimbo G, Coletti D, et al. Circulating lipocalin-2 is associated with systemic inflammation and cachexia-related features in patients with gastrointestinal cancer. Frontiers in Nutrition. 2026. DOI: 10.3389/fnut.2026.1937525.\n- 原文頁碼：研究對象與表 1 第 3–4 頁；圖 1 第 5 頁；圖 2 第 6 頁；圖 3／表 2 第 7 頁；圖 4／表 3 第 8 頁；討論與限制第 9–10 頁。\n- [Frontiers 官方全文與文章資料](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1937525/full)｜[DOI](https://doi.org/10.3389/fnut.2026.1937525)",
+      "cards": [
+        {
+          "title": "LCN2關聯與勝算比",
+          "question": "LCN2 每增加 1 ng/mL 的 OR 1.043 應如何解讀？",
+          "answer": "這是本研究調整年齡、性別與 CRP 後的體重下降勝算比，不是增加 4.3 個百分點。研究未提供可用於個人判斷的診斷切點。",
+          "tags": [
+            "clinical nutrition",
+            "cancer cachexia",
+            "lipocalin-2"
+          ]
+        },
+        {
+          "title": "區分組別比較",
+          "question": "為什麼厭食患者與對照的顯著差異，不能改寫成厭食與非厭食癌症患者有差異？",
+          "answer": "這是不同的組別比較。本文指出厭食與非厭食癌症患者間的 LCN2 差異不顯著；厭食癌症患者高於對照不能代替該比較。",
+          "tags": [
+            "clinical nutrition",
+            "cancer cachexia",
+            "study interpretation"
+          ]
+        },
+        {
+          "title": "橫斷設計的因果界線",
+          "question": "這項橫斷研究為何不能證明 LCN2 導致體重下降或低肌肉量？",
+          "answer": "各指標在同一研究時段觀察，時間順序不明；研究沒有操弄 LCN2，也未驗證因果路徑。因此結果支持的是相關線索。",
+          "tags": [
+            "clinical nutrition",
+            "cancer cachexia",
+            "causality"
+          ]
+        },
+        {
+          "title": "臨床使用界線",
+          "question": "依本文結果，LCN2 能取代癌症患者的營養評估或作為臨床診斷門檻嗎？",
+          "answer": "不能。本文是小型探索性橫斷研究，未建立診斷切點、敏感度、特異度或臨床效益；仍需依體重軌跡、攝取、症狀與身體組成整體評估。",
+          "tags": [
+            "clinical nutrition",
+            "cancer cachexia",
+            "clinical application"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-04T04:25:13.058Z"
     }
   ]
 }
