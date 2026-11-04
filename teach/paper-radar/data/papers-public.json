@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T10:27:08.155Z",
+  "generatedAt": "2026-11-04T10:35:18.751Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -109927,7 +109927,7 @@
       "evidenceScope": "full_text",
       "title": "Integrated Analysis between Older Adults' Experiences of Frailty and Korean News Media's Frailty Discourse.",
       "authors": "Seo S, Lee G, Park K",
-      "journal": "Aging, frailty and sarcopenia (PubMed)",
+      "journal": "Public Health Weekly Report",
       "year": "2026",
       "doi": "10.56786/PHWR.2026.19.41suppl.2",
       "abstract": "Objectives: This study compared older adults' frailty perceptions with Korean news media's social discourse on frailty, examining the resulting implications for community-based frailty policies in super-aged regions. Methods: Using a mixed-methods design, the study conducted focus group interviews in June 2026 with nine community-dwelling adults aged 70-78 years, and the data were analyzed thematically. Quantitatively, 369 frailty-related news articles published from 2023 to June 2026 were analyzed using Term Frequency-Inverse Document Frequency and Latent Dirichlet Allocation topic modeling. Text mining was conducted according to the actors represented, including health institutions, community-based organizations, and others. Qualitative and quantitative findings were subsequently compared and integrated. Results: Older adults viewed frailty as a multidimensional, mutually reinforcing trajectory encompassing physical, cognitive, psychological, and social decline and perceived social isolation and loneliness as major drivers of frailty. News coverage involving health institutions primarily focused on sarcopenia prevention, protein and nutritional management, and disease monitoring, whereas community-oriented coverage more frequently addressed everyday support, including meal programs at senior centers. Both datasets emphasized physical function, exercise and nutrition, social isolation, and community-based prevention. Particularly, the news coverage emphasized systems and technologies, whereas older adults were increasingly concerned about independence, cognitive function, motivation, social participation, and becoming a burden on their families. Conclusions: Frailty should be communicated as a condition that is preventable, delayable, and potentially improvable. Community-based programs should integrate functional assessments alongside multidomain interventions addressing physical activity, nutrition, cognitive and psychological health, and social participation.",
