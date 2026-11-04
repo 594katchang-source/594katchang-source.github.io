@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T07:43:14.580Z",
+  "generatedAt": "2026-11-04T08:00:20.894Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -109847,6 +109847,78 @@
       "content": "---\ntags: []\ncitekey: \"\"\ndoi: \"10.1007/s11914-026-00995-w\"\nzotero: \"\"\njournal: \"Current Osteoporosis Reports\"\nyear: 2026\nauthors: \"Deeptha Sukumar; E. A. Alsayed\"\nstudy_type: \"narrative review\"\npmid: \"\"\nreview_depth: \"quick\"\n---\n\n> [!info] 品質快照\n> **設計**：敘述性回顧｜**n**：表 1 摘要 6 項研究；族群重疊與樣本不可直接加總｜**偏倚評讀**：SANRA 9/12（本次單人快速評讀；不作切點判定）\n> **GRADE**：探索性評估 Very low（觀察性、異質且非系統性綜整；不是作者正式 GRADE）｜**Registration**：n.a.（敘述性回顧）\n> **一句話 verdict**：可作為飲食品質與骨健康的背景整理；目前結果混合且多為觀察關聯，不能據此宣稱提高 HEI 會改善骨質或預防骨折。\n\n# Key Points\n\n## Summary\n\n> ✅ 已閱讀與核對完整 8 頁全文；來源身分與可讀性收據另由本輪 execution manifest 記錄。\n\n- 這篇敘述性回顧整理超重／肥胖族群的 Healthy Eating Index（HEI）與骨健康研究。較高 HEI 在部分研究與較高 TBS、BMD、較低骨質疏鬆風險或較高 serum 25-hydroxyvitamin D 相關，但亦有無關聯結果；沒有統合效應值，也沒有證明提高 HEI 可造成骨骼改善。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：飲食品質較佳可能與部分骨骼指標較好同時出現，但這篇回顧不能證明飲食品質改善會帶來骨骼改善。\n> - **為什麼做**：肥胖者常有較高 BMD，骨微結構與骨強度卻未必較好；作者想整理 HEI 是否與這種「骨密度不等於骨品質」的現象有關（pp. 1–2）。\n> - **主體**：① HEI-2020 以 13 個項目衡量飲食品質（9 個充足性、4 個限制性；p. 2）；② 蛋白質、全穀、乳品、蔬果及鈉、飽和脂肪、添加糖等可能透過營養供應、發炎或礦物質代謝影響骨骼（pp. 2–3）；③ 6 項主要研究中，較高 HEI 與 TBS、部分部位 BMD、骨質疏鬆風險或 s25OHD 的有利關聯出現在不同族群，但部分肥胖／糖尿病亞組及 BMD 分析為無關聯（pp. 3–5）；④ 作者指出現有證據主要是橫斷面研究，建議以前瞻研究與介入研究補足（pp. 5–6）。\n> - **所以呢**：可以把整體飲食品質視為值得研究的可調整因素，但目前不應把提高 HEI 當作已證實能增加 BMD、改善骨微結構或預防骨折的治療方式。研究主要報告關聯，且未提供可供臨床量化的合併效果值。\n\n## Clinical Application\n\n- **可用情境：**作為超重／肥胖與骨健康交會的背景閱讀，提醒專業人員不要只以 BMD 推斷骨骼強度。\n- **實務界線：**本文沒有測試 HEI 改善方案，未給可採用的 HEI 目標分數、飲食處方或骨折風險降低幅度；不能由此計算個人效益。\n- **在地適用性：**HEI-2020 對齊美國 2020–2025 Dietary Guidelines，部分資料來自美國 NHANES，另含伊朗等族群。臺灣臨床可參考其「整體飲食品質」研究問題，但量表分數與族群結果不能直接視為臺灣效度或療效證據。\n- **營養照護使用：**如需採取飲食介入，仍須另依個案營養評估與臺灣適用指引決定；這篇回顧本身不提供足以指定劑量或效果的證據。\n\n# Paper Details\n\n## 全文結構與逐段重點\n\n| 全文位置 | 段落／區塊重點 | 原文依據 |\n|---|---|---|\n| 摘要 | 交代肥胖與骨品質的複雜關係、HEI 研究目的、目前正向關聯與橫斷面限制。 | p. 1, Abstract |\n| 引言 | 說明較高體重雖常伴較高 BMD，但脂肪、發炎及內分泌因素可能損及骨微結構；提出研究問題。 | pp. 1–2, Introduction |\n| HEI 說明 | HEI-2020 對齊美國飲食指南，以 13 項與 0–100 分評量整體飲食品質。 | p. 2, What is the Healthy Eating Index? |\n| 飲食品質與體重 | 引用隊列與前瞻研究，整理飲食品質與 BMI／體重變化的觀察性關聯。 | p. 2, Dietary Quality in Obesity |\n| 飲食因素與骨骼機轉 | 分別整理充足性食物群與限制性成分的可能關係；涵蓋蛋白質、全穀、乳品、蔬果、鈉、飽和脂肪、添加糖及精製穀物。 | pp. 2–3, Dietary Factors and Bone Health—Mechanisms |\n| 回顧方法 | 列出五個資料庫、搜尋截止日、關鍵詞、納入類型與手動追溯參考文獻；未提供可重現的逐庫完整策略或篩選流程。 | p. 3, Relationship of HEI with Bone Quality in Obesity |\n| TBS 與 BMD 結果 | 整理 TBS、骨質疏鬆、BMD 與不同族群研究；部分為正向關聯，也報告肥胖／T2D 子組或 BMD 的無關聯。 | pp. 3–5, HEI and TBS / Bone Density / Other Studies; Table 1; Fig. 1 |\n| 結論與研究缺口 | 認為整體飲食品質可能重要，但承認證據以觀察研究為主，要求前瞻與介入研究。 | pp. 5–6, Conclusions |\n| 關鍵參考文獻與聲明 | 列關鍵參考文獻、作者貢獻、資料可得性、利益衝突、AI 聲明與 CC BY 4.0 授權。 | pp. 6–8, Key References / Declarations |\n\n### 方法\n\n- **研究類型：**敘述性回顧，非系統性回顧或統合分析。\n- **搜尋：**PubMed/MEDLINE、Cochrane Library、CINAHL、Scopus、Web of Science；截至 2026-06-15。全文列出搜尋詞 “Healthy Eating Index” AND “Bone” AND “Obesity” OR “HEI” AND “Obesity” AND “Bone”，並手動查看納入文章參考文獻（p. 3）。\n- **納入條件：**原始研究、系統性回顧、統合分析或讀者投書；報告 HEI 與骨健康結果；英文且可取得全文。研究摘要可納入 BMD、骨質疏鬆、骨折風險及 BMI／體重結果。\n- **樣本：**表 1 摘要 6 項研究，單項樣本從 122 到 7,007 不等。回顧未報告去重後總人數，且研究族群與分析子組不同，因此不加總成單一 n。\n- **統計方法：**本文未進行統合分析；沒有預先指定主要結果、合併效應值、信賴區間、異質性統計或樣本數計算。本文所引主要數值為各研究樣本與 HEI 分數，並非本回顧計算的效果值。\n- **註冊／流程：**全文未報告回顧註冊、完整逐庫搜尋式、研究篩選數、雙人篩選或納入研究偏倚評估。\n\n## Key Findings\n\n- **HEI–TBS：**一項美國成人分析納入 7,007 人（3,449 男、3,558 女；平均年齡 47.19 歲、平均 BMI 28.17 kg/m²）。平均 HEI-2020 為 50.86；最高與最低 tertile 平均 HEI 分別為 64.54 與 38.79。較高 HEI 與較高 TBS 相關，關聯在肥胖男性最強；回顧未列 TBS 組間差、95% CI 或可供臨床解讀的絕對差（p. 3）。\n- **停經後婦女：**NHANES 研究納入 3,421 人，平均年齡 62.63 歲，38.9% 為肥胖，平均 HEI-2015 為 57.72。高 HEI 與較低骨質疏鬆風險相關，但與低 BMD 無顯著關聯；原文未提供此肥胖子群的獨立結果（pp. 3–4）。\n- **其他婦女研究：**伊朗婦女研究（n=416；平均 BMI 27.1 kg/m²）及停經後病例對照研究（131 位骨質疏鬆個案、131 位對照；平均 BMI 29.5 kg/m²）報告 HEI 與部分部位 BMD／骨質疏鬆風險的正向關聯；兩者均不能直接代表肥胖者中的因果效果（p. 4）。\n- **青年與代謝表型：**青年研究（n=415；平均年齡 18.5 歲）在全體看到 HEI 與 aBMD Z-score 的正向關聯，但只看肥胖與 T2D 組時沒有顯著關聯。成人研究（n=122）中 HEI 與 s25OHD 的正向關聯只出現在 MUO 組，未與 BMD 或其他骨代謝指標相關（pp. 4–5）。\n- **整體證據：**結果包含正向及無關聯發現，結局包含 TBS、BMD、骨質疏鬆風險及 s25OHD，族群、HEI 版本與研究設計不一；沒有共同效應量或可比較的精確度資訊。\n\n## Critical Appraisal\n\n### 敘述性回顧評讀（SANRA 與選擇性報告）\n\n| SANRA 項目 | 評分 | 依據 |\n|---|---:|---|\n| 主題重要性 | 2/2 | 清楚說明肥胖與骨品質問題及其臨床意義（pp. 1–2）。 |\n| 研究目的 | 2/2 | 明確聚焦 HEI 與超重／肥胖族群骨健康（p. 2）。 |\n| 文獻搜尋描述 | 1/2 | 有資料庫、日期、關鍵詞與納入條件；缺完整可重現策略及篩選流程（p. 3）。 |\n| 參考文獻 | 2/2 | 主要論點與研究表格均有文獻標示（pp. 2–8）。 |\n| 科學推理 | 1/2 | 主要論點可追溯，但結論的「consistently associated」強於文內混合、含 null 的結果（pp. 4–6）。 |\n| 相關結果呈現 | 1/2 | 有族群、HEI 與結局整理表；多數效果量、CI、精確 p 值及研究偏倚未呈現（pp. 3–5）。 |\n| **合計** | **9/12** | 快速評讀分數僅描述本文報告品質；不以未確認的分數門檻判為高／低品質。 |\n\n- **選擇性報告檢查：**作者有納入數項 null 發現，包括低 BMD 無關聯、青年肥胖／T2D 子組無關聯、HEI 與 BMD 無關聯；這些結果降低「只挑正向研究」的疑慮。不過結論仍稱較高 HEI「consistently」對應較佳骨骼結果，和這些 null 結果及族群差異不完全相稱。\n- **主要結果與統計：**本文沒有單一預先指定主要 outcome，也未報告本回顧的 pooled estimate、CI 或 p 值。不同骨指標的 MCID 不適用於此非介入性敘述回顧；無法由本文量化臨床重要差異、multiplicity、fragility 或效果精確度。\n- **因果與論證檢查：**作者建議把提升飲食品質納入肥胖管理以改善骨品質／降低骨質疏鬆與骨折風險，但支撐資料主要是觀察性關聯，包含 TBS、BMD 等替代指標，沒有測試提高 HEI 的介入。`argdown_lint.py` 對「提高 HEI 會改善骨品質並降低骨質疏鬆／骨折風險」標記 association-to-causation 及 surrogate-to-hard-endpoint 兩個推論缺口；結果收據與輸入另存本資料夾。\n- **探索性 GRADE：**以「超重／肥胖族群中 HEI 與骨骼結果的關聯」作為回顧者的概括性問題，起始等級為 observational low；偏倚、不一致性、間接性、精確度及出版偏差均下修一級，`grade_judge.py` 計算為 **Very low**。此為快速、探索性套用，本文不是系統性證據分級，亦未提供足以逐研究核驗上述各域的資料；不應視為正式 GRADE 結論或作者評級。\n- **註冊／選擇偏差：**敘述性回顧不適用試驗註冊比對。英文與全文可得性條件可能漏掉其他證據；沒有灰色文獻搜尋或正式出版偏差分析。\n- **利益衝突／資助：**作者聲明無 competing interests（p. 7）；全文未見資助來源或資助者角色說明。作者表示生成式 AI 僅用於協助改寫部分文字，科學內容由作者提出與核實（p. 7）。\n- **優點：**問題明確；納入多個資料庫；分開呈現 HEI 的飲食組成與不同骨骼指標；明確承認現有證據以觀察性研究為主，並提出需要前瞻與介入研究。\n- **限制：**搜尋與篩選不可完全重現；沒有 study-level risk-of-bias 評估或統合分析；族群與結果異質；多項研究並非肥胖族群專屬；原文報告的效果量與不確定性不足以支持臨床效益大小判斷。\n\n# Resource\n\n## Vault Integration\n\n- 相關 vault 筆記：本次未能透過 vault search 工具核實；不推定已有或沒有相關筆記。\n- Zotero citekey／本機 note link：未包含在本次 active metadata，故不填造連結。\n\n## Source\n\n- [DOI／出版社全文頁](https://doi.org/10.1007/s11914-026-00995-w)\n- 全文身分與可讀性：本輪 Worker 收據核對 DOI／題名相符、8 頁均可讀，原生 PDF 文字 37,004 字元，SHA-256 與 execution manifest 登錄一致；未附原文 PDF 或全文副本於公開成果。",
       "cards": [],
       "completedAt": "2026-11-04T07:32:41.194Z"
+    },
+    {
+      "id": "doi:10.1007/s11914-026-00995-w:digest",
+      "paperId": "doi:10.1007/s11914-026-00995-w",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Healthy Eating Index and Bone in Obesity.",
+      "authors": "Sukumar D, Alsayed E",
+      "journal": "Current Osteoporosis Reports",
+      "year": "2026",
+      "doi": "10.1007/s11914-026-00995-w",
+      "abstract": "Individuals living with overweight or obesity have a higher bone mineral density, however bone quality may be compromised, leading to an increased susceptibility to fractures and impaired skeletal integrity. Nutrition is a potentially modifiable factor that may influence both body weight and bone metabolism through effects on inflammation, body composition, and metabolic regulation. In particular, dietary quality indices such as the Healthy Eating Index (HEI) provide a comprehensive assessment of adherence to dietary guidelines and may offer insight into how overall eating patterns influence bone quality among individuals with excess body weight. In this review, we have summarized the impact of dietary quality using the HEI on bone health in individuals who are living with overweight or obesity. Recent studies show a positive relationship of high HEI with bone parameters in overweight and obese individuals. Specifically, studies report on a higher Trabecular bone score (TBS), lumbar and femoral neck BMD, lower osteoporosis risk and higher serum 25 hydroxy vitamin D levels in populations with a higher HEI. Currently studies assessing impact of HEI on bone health in obesity are cross sectional in nature. Future studies should assess the impact of increasing HEI on bone health in a prospective design and the impact of weight loss and increasing HEI on bone quality in individuals living with overweight and obesity.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42975791/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "nutrition and dietary pattern",
+        "obesity and metabolism",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "HEI與肥胖骨骼健康｜內容整理",
+      "content": "---\ntitle: HEI與肥胖骨骼健康｜內容整理\nauthors: Sukumar D, Alsayed E\njournal: Current Osteoporosis Reports\nyear: 2026\ndoi: 10.1007/s11914-026-00995-w\nkind: digest\ntags: [research/digest, 骨骼健康, 飲食品質, obesity]\nsource_text_sha256: d94d7b7923d9f56bc2dcfc209c9d12c76e5437e00537bc459dc69565cb8ef0bd\n---\n\n> [!summary] 30 秒層｜一句話 + 重點\n> 在超重或肥胖族群中，較高 Healthy Eating Index（HEI）在部分研究與較佳的骨骼指標同時出現；目前整理的研究以橫斷面觀察為主，不能證明提高 HEI 會改善骨密度、骨品質或預防骨折。\n> - 文章是敘述性回顧，表 1 整理 6 項研究；沒有統合分析或共同效果量。\n> - 研究涵蓋 TBS、BMD、骨質疏鬆風險、aBMD 與血清 25-hydroxyvitamin D，結果依族群與結局而異。\n> - 全體青年樣本中曾見 HEI 與 aBMD Z-score 正相關，但只看肥胖與第二型糖尿病組時沒有顯著關聯。\n> - 作者建議以未來前瞻與介入研究確認方向；本文沒有可直接套用的 HEI 治療目標或飲食處方。\n> 品質 → 見同 DOI 的品質評讀。\n\n## 全文地圖｜5 分鐘層\n\n**要點**：文章先交代肥胖與骨品質的問題，再說明 HEI 和飲食可能影響骨骼的路徑，接著整理六項研究，最後主張以縱向與介入研究補足因果證據。\n\n- 摘要與引言（PDF pp. 1–2）：說明較高體重常伴較高 BMD，但骨品質與骨強度未必同步改善；提出 HEI 與骨健康的回顧目的。\n- HEI 與體重／飲食品質（p. 2）：說明 HEI 衡量整體飲食型態，並整理飲食品質與體重、肥胖的研究脈絡。\n- 飲食因素與骨骼機轉（pp. 2–3）：討論蛋白質、全穀、乳品、蔬果，以及鈉、飽和脂肪、添加糖、精製穀物等因素可能涉及的營養、發炎與代謝路徑。\n- 回顧方法（p. 3）：列出資料庫、搜尋日期與條件，並以人工追查參考文獻補充研究。\n- HEI 與骨骼結果（pp. 3–5）：按 TBS、BMD、骨質疏鬆風險及其他骨骼指標整理六項研究，呈現正向與無關聯發現。\n- 結論與研究方向（pp. 5–6）：作者認為飲食品質可能值得進一步研究，但目前資料主要是橫斷面研究，需前瞻與介入設計。\n- 關鍵文獻與聲明（pp. 6–8）：列出參考文獻及作者聲明。\n\n## 各主題重點\n\n**要點**：HEI 是整體飲食品質指標；六項研究提供不同骨骼結果的觀察線索，不能把它們合併成單一療效估計。\n\n### HEI 衡量的是飲食型態\n\n**要點**：HEI 依飲食對飲食指引的符合程度評分，聚焦食物組合，不等於單一營養素、補充品或骨質疏鬆治療。\n\n- 文中介紹的 HEI-2020 依美國 2020–2025 飲食指引評估整體飲食品質，包含 13 個成分：9 個充足性項目與 4 個限制性項目，總分 0–100（PDF p. 2）。\n- 研究使用 HEI-2005、HEI-2015 或 HEI-2020。版本、族群與研究設計不同，分數不宜直接當成跨研究完全相同的暴露尺度。\n- 作者把飲食品質視為可能同時牽涉體重組成、發炎及骨代謝的可調整因素；這是研究問題與生物學脈絡，並非本文已驗證的介入效果。\n\n### 六項研究與主要結果\n\n**要點**：不同研究在骨骼結局與族群上並不一致；可讀出關聯方向，不能從回顧中推算改善幅度。\n\n| 研究與族群 | HEI 與骨骼指標的報告 | 閱讀時要保留的條件 |\n|---|---|---|\n| Yu 與 Liu，2026；美國成人，n=7,007 | HEI-2020 平均 50.86±0.35；較高 HEI 與較高 TBS 正相關，肥胖男性的關聯最強。 | 觀察性分析；本文未提供可供臨床量化的合併效果值（PDF p. 3；Table 1）。 |\n| Wang 等，2024；停經後女性，n=3,421 | HEI-2015 平均 57.72±13.0；較高 HEI 分位與較低骨質疏鬆風險相關，與 BMD 無顯著關聯。 | 38.9% 受試者有肥胖；回顧指出沒有單獨報告該子群的 HEI 貢獻（pp. 3–4；Table 1）。 |\n| Babazadeh-Anvigh 等，2020；伊朗女性，n=416 | 前停經者中，較高 HEI 與較高股骨頸 BMD、較低腰椎骨質疏鬆風險相關；停經後女性則與較高腰椎及股骨頸 BMD、較低股骨頸骨質疏鬆風險相關。 | 平均 BMI 約 27 kg/m²；族群整體在過重範圍，但沒有專屬過重子群估計（p. 4；Table 1）。 |\n| Ghadiri 等，2023；停經後女性病例對照 | 內文描述 131 位骨質疏鬆病例及 131 位健康對照；最高 HEI 分位與較高股骨及腰椎 BMD 同時出現。 | 平均 BMI 約 29.5 kg/m²；病例對照關聯不能解讀為飲食造成 BMD 差異（p. 4；Table 1）。 |\n| Kindler 等，2021；青年，n=415（其中肥胖 128 人） | 全體中 HEI 與全身 aBMD Z-score 正相關；全穀及空熱量分數也與 aBMD Z-score 正相關。 | 僅分析肥胖與第二型糖尿病組時，HEI 與 aBMD Z-score 為無顯著關聯（p. 4；Table 1）。 |\n| Suhett 等，2023；過重或肥胖成人，n=122 | HEI-2015 平均 54.42±16.25；HEI 與 s25OHD 的正向關聯出現在代謝不健康肥胖（MUO）組。 | 這個結果不是骨密度或骨折結果；不能把 s25OHD 關聯轉成骨骼臨床效益（pp. 4–5；Table 1）。 |\n\n- 六項研究的樣本及分析子群不同，回顧未給去重後總人數，不應相加成一個總樣本量。\n- 本文沒有統合分析、共同效應量、信賴區間或可比較的精確度估計。表中的分數和研究樣本數是原研究資料，不是本回顧計算出的療效。\n- 結果涵蓋微結構、骨密度、骨質疏鬆風險及維生素 D 等不同指標；這些結局不可互換，也沒有直接證明骨折下降。\n\n### 飲食與骨骼的可能連結\n\n**要點**：作者整理飲食成分可能透過營養供應、身體組成、發炎或代謝環境與骨骼相關；文中路徑用來解釋研究問題，不是各自經本文試驗確認的機轉。\n\n- 蛋白質、全穀、乳品、蔬菜與水果是文中討論的飲食品質面向；可能關聯到營養素供應、整體飲食型態與骨代謝環境（PDF pp. 2–3）。\n- 鈉、飽和脂肪、添加糖與精製穀物等限制性項目，則被放在骨骼代謝、體重或發炎背景中討論。作者同時引用相互不同的研究，不能只挑單一成分概括整體效果。\n- 文中也整理飲食品質與肥胖的關係；若體重、脂肪分布或代謝表型同時影響飲食分數及骨骼指標，觀察到的關聯可能包含這些路徑。\n\n## 機轉白話講解\n\n**要點**：把 HEI 想成一張「整體餐桌」評分表，而不是一種治療；餐桌型態可能和骨骼環境同時變動，但本文沒有證明改變評分就會改變骨骼。\n\n可以把骨骼想成持續更新的建築。飲食中的不同食物群提供不同材料，身體組成、發炎與代謝狀態則像施工環境。HEI 把食物組合放在一起描述，所以研究者可以問「整體飲食較符合指引的人，骨骼指標是否也不同」。但如果研究只是同一時間觀察兩者，就不能確認是飲食改變了骨骼、健康狀況改變了飲食，還是其他因素同時影響兩者。這個比喻只解釋本文問題，不代表作者做了介入或證實了因果鏈。\n\n## 臨床意義 / 怎麼用\n\n**要點**：可將這篇當作飲食品質與骨健康交會處的背景閱讀；目前不足以從中開立 HEI 分數目標、預防骨折的處方或個別骨質治療。\n\n- 對營養實務的可用訊息是：整體飲食型態值得和骨健康一起研究，不能只盯單一營養素。但本文沒有測試改善 HEI 的飲食方案。\n- 不把 HEI 某個分數當成骨鬆篩檢或治療門檻；文章沒有提供經驗證的骨骼用 HEI 臨界值。\n- 不把較高 TBS、BMD 或較低骨質疏鬆風險的觀察關聯說成「提高 HEI 可預防骨折」；回顧沒有介入試驗或骨折效果估計。\n- 個別患者的骨骼評估與飲食照護仍須依適用的臨床指引、疾病狀況及營養評估處理；這篇敘述性回顧本身不提供個人化處方。\n\n## 重要圖表重述\n\n**要點**：Table 1 集中呈現六項研究的族群、HEI 版本和骨骼結果；Figure 1 以圖示整理 HEI 與不同骨骼參數的文獻關係，並不是統合分析圖。\n\n- **Table 1（PDF pp. 4–5）**：逐項摘要六項研究，列出受試者、HEI 版本／平均分數、骨骼變項和主要發現。這張表最適合核對本篇結論的研究來源。\n- **Figure 1（PDF p. 5）**：圖說指出它整理 HEI 與過重／肥胖族群骨骼參數的關係，涵蓋 BMD、aBMD、TBS 及 s25OHD，引用研究 [30–35]。圖示是文獻關係整理，不代表 pooled estimate 或因果路徑已經驗證。\n\n## 與既有認知的對照\n\n**要點**：本次本機筆記索引未找到同時聚焦 HEI 與骨健康的直接前作；這只代表目前可查筆記沒有命中，不表示整個知識庫或文獻中不存在相關資料。\n\n- 本篇自身的增量是把不同 HEI 版本與 TBS、BMD、骨質疏鬆風險、aBMD 和 s25OHD 六類研究線索集中整理。\n- 與本文內部結果相比，需保留「部分正向、部分無關聯」的並存狀態；尤其青年肥胖／第二型糖尿病子群的 null 結果，以及王等研究中 HEI 與 BMD 無關聯，不能被一句「結果一致有利」蓋過。\n\n## 概念 / 名詞整理\n\n**要點**：理解各指標所代表的骨骼層面，才能避免把結構、密度、風險與營養生化指標混為一談。\n\n- **HEI（Healthy Eating Index）**：衡量整體飲食型態符合飲食指引程度的分數；本文涉及 HEI-2005、HEI-2015、HEI-2020。\n- **BMD（bone mineral density）**：骨礦物質密度；是骨骼指標之一，不等同骨品質或實際骨折事件。\n- **aBMD（areal BMD）**：面積骨密度；青年研究以全身 aBMD Z-score 報告與 HEI 的關聯。\n- **TBS（trabecular bone score）**：由影像資料推得、反映骨小樑微結構特徵的指標；它不是直接觀察到的骨折結果。\n- **s25OHD**：血清 25-hydroxyvitamin D；屬維生素 D 狀態的生化指標，不可替代骨密度或骨折結局。\n- **MHO / MUO**：代謝健康／代謝不健康肥胖表型；本文一項研究只在 MUO 組觀察到 HEI 與 s25OHD 的正向關聯。\n- **橫斷面研究**：在特定時間點觀察暴露與結果的關係；可描述相關，不足以確定先後順序或因果效果。\n\n## 自我測驗\n\n**要點**：以下題目練習把整體飲食品質、不同骨骼指標與研究設計連在一起，而不是只背結論。\n\n> [!question]- Q1：HEI 和一種營養素攝取量有什麼不同？\n> HEI 依整體飲食型態對飲食指引的符合程度計分，納入多種充足性及限制性項目；它不是單一營養素、補充劑或骨質疏鬆療法。\n\n> [!question]- Q2：為什麼這篇回顧不能說「提高 HEI 會改善骨質」？\n> 表 1 的研究主要是觀察性／橫斷面資料，回顧沒有測試飲食介入，也沒有統合共同效果量。關聯可能受族群、身體組成或其他因素影響。\n\n> [!question]- Q3：青年研究的結果應如何完整表述？\n> 全體 415 名青年中，HEI 與全身 aBMD Z-score 正相關；但只看肥胖及第二型糖尿病組時，HEI 與 aBMD Z-score 沒有顯著關聯，因此不能忽略子群差異。\n\n> [!question]- Q4：TBS、BMD、骨質疏鬆風險和 s25OHD 可以互相替代嗎？\n> 不可以。它們分別描述微結構、骨密度、疾病風險與維生素 D 生化狀態；某一指標的關聯不代表其他指標或骨折也改善。\n\n> [!question]- Q5：為什麼不把六項研究的樣本數加起來當成總 n？\n> 研究族群、設計、分析子群與結局不同，部分大型資料也可能有重疊；敘述性回顧沒有提供去重後共同總人數或合併分析。\n\n## Reference\n\n**要點**：以下定位以本文全文及表圖為主；研究細節可依原文 References 中的編號 [30–35] 回查。\n\n- Sukumar D, Alsayed EA. *Healthy Eating Index and Bone in Obesity.* Current Osteoporosis Reports. 2026;24:48. DOI: [10.1007/s11914-026-00995-w](https://doi.org/10.1007/s11914-026-00995-w). 出版社全文：[Springer Nature](https://link.springer.com/article/10.1007/s11914-026-00995-w).\n- 六項核心研究：Yu & Liu [30]（p. 8）；Wang et al. [31]（p. 8）；Babazadeh-Anvigh et al. [32]（p. 8）；Ghadiri et al. [33]（p. 8）；Kindler et al. [34]（p. 8）；Suhett et al. [35]（p. 8）。本文內文與 Table 1 的定位：研究方法 p. 3、各研究結果 pp. 3–5、Table 1 pp. 4–5、Figure 1 p. 5、結論 pp. 5–6。\n- 全文身分／可讀性：本輪核對 DOI 與題名相符，PDF 8 頁、8 頁均有可讀主文；文章解讀依原文頁碼標註。此整理為繁體中文摘要與教學式重組，未附原文 PDF 或全文副本。",
+      "cards": [
+        {
+          "title": "HEI衡量什麼？",
+          "question": "HEI和只看一種營養素有何不同？",
+          "answer": "HEI依整體飲食型態對飲食指引的符合程度計分。本文介紹的HEI-2020含13個成分：9個充足性項目與4個限制性項目；它不是補充品或骨質疏鬆治療。",
+          "tags": [
+            "飲食品質",
+            "骨骼健康"
+          ]
+        },
+        {
+          "title": "觀察關聯的界線",
+          "question": "為什麼回顧不能得出「提高HEI會改善骨質」？",
+          "answer": "整理的研究以觀察性資料為主，沒有測試提高HEI的介入，也沒有共同效果量。飲食、身體組成、健康狀況等可能同時影響HEI與骨骼指標，不能由相關推成因果。",
+          "tags": [
+            "研究設計",
+            "因果推論"
+          ]
+        },
+        {
+          "title": "青年樣本與子群",
+          "question": "青年研究的正向結果，為何不能直接套用到肥胖與第二型糖尿病青年？",
+          "answer": "全體415名青年中，HEI與全身aBMD Z-score正相關；但只分析肥胖與第二型糖尿病組時沒有顯著關聯。整體結果不代表每一子群都呈現相同關係。",
+          "tags": [
+            "骨密度",
+            "族群差異"
+          ]
+        },
+        {
+          "title": "分清骨骼指標",
+          "question": "TBS、BMD、骨質疏鬆風險與s25OHD為何不能互相替代？",
+          "answer": "它們測量不同面向：TBS反映骨小樑微結構特徵，BMD是骨礦物質密度，骨質疏鬆風險是疾病風險，而s25OHD是維生素D狀態的生化指標。一個指標的關聯不能代表骨折或其他指標也改善。",
+          "tags": [
+            "TBS",
+            "BMD",
+            "s25OHD"
+          ]
+        },
+        {
+          "title": "不要合併六項n",
+          "question": "為什麼不能把表1六項研究的樣本數直接加成一個總n？",
+          "answer": "研究的資料來源、設計、族群、子群與結果不同，可能存在族群重疊；作者沒有提供去重後總人數或統合分析。因此應逐研究呈現樣本，不能自行合併。",
+          "tags": [
+            "敘述性回顧",
+            "樣本數"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-04T07:56:21.361Z"
     }
   ]
 }
