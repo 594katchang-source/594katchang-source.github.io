@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T10:41:24.742Z",
+  "generatedAt": "2026-11-05T10:56:43.121Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -110124,6 +110124,84 @@
       "content": "---\ntitle: \"韓國社區整合照護中的以人為本營養評估與照護：從政策到餐桌\"\ndoi: \"10.5720/kjcn.2026.00346\"\nauthors: \"Kirang Kim; Ji-Yun Hwang\"\njournal: \"Korean Journal of Community Nutrition\"\nyear: 2026\nvolume: \"31(5)\"\npages: \"375-392\"\nreview_depth: quick\nfull_text_verified: true\n---\n\n# 品質快照\n\n| 項目 | 評讀 |\n|---|---|\n| 研究類型 | 敘述性文獻回顧與政策綜合，提出社區營養照護概念框架。 |\n| 研究問題 | 韓國社區整合照護如何把營養評估連到服務、追蹤與實際飲食。 |\n| 資料來源 | PubMed、Korea Citation Index、Google Scholar 與官方政策資料；搜尋至 2026-08-17，納入 2006 年起資料及必要基礎文獻。作者稱實質綜合 53 項來源，SANRA 方法文獻另列，參考文獻共 54 筆。 (PDF pp. 3-4) |\n| 研究對象與樣本 | 本文沒有招募個人受試者或新收集資料；文中群體數據來自被引用研究。 |\n| 統計與效果量 | 沒有統合分析、效果量或介入組比較；本文提出的框架沒有經實地試驗或成效驗證。 |\n| 整體判讀 | 對政策與服務流程設計有參考價值；不能據此判定此框架可改善營養或健康結果。 |\n\n# 白話導讀\n\n作者把韓國整合照護中「辨識營養問題」與「有人負責把服務送到、追蹤是否真的被使用」之間的落差整理出來，並提出共同篩檢、按需要加做模組、依原因媒合服務、追蹤交付與結果的概念路徑；這是待驗證的政策與服務模型，不是已證實有效的臨床介入。 (PDF pp. 5-6, 11-15)\r\n\r\n白話來說，政策列出營養要被看見，但個案仍可能卡在沒有人負責轉介、服務沒送到，或送到後沒人確認是否吃得到。本文建議把這些環節接起來；目前還不知道照這套做是否一定能改善健康。\n\n# 全文結構與逐頁閱讀索引\n\n1. **PDF p. 1：** 書目資料、摘要與研究目的、方法、主要政策發現及作者結論。摘要已稱框架需經實證驗證。\n2. **PDF p. 2：** 韓國高齡化、整合照護政策背景，並說明高齡者及身心障礙者在營養、進食與服務可近性上的差異。\n3. **PDF p. 3：** 界定政策轉化問題與研究提問，交代敘述性政策綜合的搜尋來源、主題和時間範圍。\n4. **PDF p. 4：** 說明納入與排除原則、雙人討論及綜合方式；指出搜尋非全面性，未做正式品質或偏倚風險評估，並引入現有評估工具。\n5. **PDF p. 5：** 描述整合照護法規中的營養切入點與執行責任缺口，包括辨識、轉介、服務執行及追蹤。\n6. **PDF p. 6：** 以表 1 對照政策流程階段、目前功能與可加入的營養照護行動，屬作者提出的操作化建議。\n7. **PDF p. 7：** 彙整高齡者營養風險、衰弱工具差異與身心障礙者的異質需要；診斷名稱不能單獨代表照護需要。\n8. **PDF p. 8：** 說明社區營養及社會福利機構的營養師、供餐和管理基礎，也指出既有服務未必覆蓋所有社區個案。\n9. **PDF p. 9：** 比較營養不良、衰弱、肌少症及進食障礙工具的用途，強調工具的族群與用途限制不可忽略。\n10. **PDF p. 10：** 表 2 彙整代表性工具及可能模組角色；這些工具互補，不能當作可互換的分數。\n11. **PDF p. 11：** 提出「From Policy to Fork」照護路徑，把政策辨識連到評估、服務媒合與實際飲食。\n12. **PDF p. 12：** 說明共同核心篩檢、觸發式深入評估、營養師或跨專業團隊介入，以及照護計畫追蹤。\n13. **PDF p. 13：** 討論數位支援、服務可及性與資料治理；數位工具應輔助流程，不能取代營養師判斷，也不能把缺資料視為沒有問題。\n14. **PDF p. 14：** 整理地方責任、專業人力、轉介服務地圖與個人、服務及系統層級的評估方向。\n15. **PDF p. 15：** 作者列出優勢與限制，重申政策綜合尚未實證驗證，並列資助及利益衝突聲明。\n16. **PDF p. 16：** 參考文獻，涵蓋法規、WHO 指引、評估工具及社區研究。\n17. **PDF p. 17：** 參考文獻，延伸到身心障礙、營養服務、衰弱及照護實作研究。\n18. **PDF p. 18：** 參考文獻末頁；全篇共列 54 筆，與方法段所述 53 項實質來源及另列 SANRA 文獻相符。\n\n# 研究方法與主要發現\n\n## 方法\n\n這是敘述性回顧與政策文件綜合，不是系統性回顧或臨床試驗。作者搜尋韓國與國際文獻、官方法規和執行資料，主題涵蓋整合照護、健康老化、身心障礙、營養不良與衰弱、吞嚥與進食、供餐基礎設施及執行科學。搜尋採目的性而非全面性；兩位作者討論至共識，但未提供可重現的完整檢索式、篩選流程圖或正式偏倚風險評估。 (PDF pp. 3-4)\n\n本文沒有自己的受試者樣本、對照組或統計檢定。文中用來說明營養風險的數據來自不同的引用研究，工具、族群與研究設計各異，不應合併解讀成本文估計的盛行率或介入效果。 (PDF pp. 7-10)\n\n## 主要發現\n\n- 韓國 2026 年社區整合照護提供把營養納入評估和到宅服務的政策基礎，但營養在地方照護路徑中的責任歸屬、跨服務轉介與後續確認仍不夠明確。 (PDF pp. 2, 5-6)\n- 高齡者與身心障礙者的營養風險可能來自疾病、功能、口腔與吞嚥、感官、溝通、食物取得、備餐能力及社會支持等不同原因；只看體重或近期攝取可能漏掉進食障礙。 (PDF pp. 7-9)\n- MNA-SF、MUST、NRS-2002、GLIM、SARC-F、KFI-PC、K-DRACE 等工具涵蓋不同用途與族群，不能互換。作者在其目標性搜尋中未找到一個涵蓋高齡及成人身心障礙、營養風險與進食功能的韓國整合工具；這是本次綜合所辨識的缺口，不代表證明該工具不存在。 (PDF pp. 9-10)\n- 作者提出共同核心篩檢、按風險啟動模組、依問題原因媒合服務，並追蹤「建議、實際提供、使用情形、結果」的閉環。這是概念模型與政策建議，尚無本研究提供的效果估計。 (PDF pp. 11-14)\n\n# 品質評讀\n\n## 優點\n\n1. 問題設定貼近服務現場：不把營養照護縮減為衛教或送餐，而是追問誰辨識、誰轉介、服務是否到位，以及個案是否實際吃得到、吃得下並能持續。 (PDF pp. 5-6, 11-12)\n2. 對評估工具的定位相對謹慎，提醒篩檢、診斷、功能與進食評估各有用途；也指出身心障礙者不能只以高齡工具或單一體重指標概括。 (PDF pp. 9-10)\n3. 作者把框架明確稱為概念性模型並承認需要實證驗證，結論沒有把政策建議包裝成已證實療效。 (PDF pp. 1, 15)\n\n## 重要限制與偏差風險\n\n1. **搜尋可重現性有限：** 作者說明資料庫、來源類型、時間範圍和主題，但搜尋是目的性、非全面性；欠缺完整檢索式及逐階段篩選數，無法確認是否漏掉相反或不支持框架的研究。 (PDF pp. 3-4)\n2. **證據品質未分層：** 作者未做正式品質評估或偏倚風險分析。因此政策文件、工具驗證研究、觀察研究與服務案例在論述中不能視為同等強度。 (PDF p. 4)\n3. **框架未驗證：** 沒有前瞻實施、對照或結果資料證明它能提高服務涵蓋、攝取、營養狀態或健康結果。閉環指標是建議，不是驗證過的成效門檻。 (PDF pp. 11-15)\n4. **外推受限：** 法規、地方政府角色、服務與文化背景以韓國為主；在台灣應先對照本地法規、轉介資源、營養師人力及服務支付方式，不能直接照搬其法定流程。 (PDF pp. 2, 5, 14-15)\n\n作者明確承認回顧是目標性而非全面性、未做正式品質或偏倚風險評估、代表性工具清單並不完整、框架尚無實證驗證，且政策內容是特定時間點的整理。本文提到 SANRA 作為方法參照，但沒有報告量化 SANRA 分數；本 focused-quick 評讀不另造分數。 (PDF pp. 4, 15)\n\n# 臨床與實務應用\n\n- **可以借用的設計問題：** 每個營養風險訊號是否連到一位負責者、一項可取得的服務和一次回訪？回訪要分辨「有建議」「有送達」「個案有使用」及「結果有改變」，四者不能混為一談。\n- **評估時保持分層：** 簡短篩檢用來觸發後續評估，不等於診斷；依個案的疾病、吞嚥、口腔、感官、溝通、移動、備餐及食物可近性選擇深入評估。\n- **台灣應用的邊界：** 本文可作流程設計與研究假說的參考，不是個人治療指引，也沒有提供可直接套用的台灣法規解讀、服務門檻或處方。\n- **下一步研究：** 先與長者、身心障礙者、照顧者、營養師及地方服務共同設計模組，再驗證可用性、辨識效度、轉介完成率、服務可近性與飲食結果，並檢查不同障礙與社經群體的公平性。\n\n# Checklist\n\n- **研究方法：** 敘述性文獻回顧與政策綜合，目的性搜尋，非系統性回顧。 (PDF pp. 3-4)\n- **樣本量：** 本文無個人受試者樣本；實質綜合 53 項來源。 (PDF p. 4)\n- **統計方法：** 無統合分析或本文新收集資料的統計檢定。\n- **主要發現：** 政策已有營養切入點但責任與服務閉環不足；作者提出共同核心、觸發模組、原因導向服務和追蹤架構。 (PDF pp. 5-14)\n- **作者承認的限制：** 目的性搜尋、未作正式品質/偏倚評估、代表工具非完整清單、框架未經實證驗證及韓國政策時間限制。 (PDF p. 15)\n- **GRADE/MCID：** 不適用於此未進行效果量合併、亦未評估介入效益的敘述性政策綜合；不可把本文當作療效證據。\n\n# 來源定位\n\nKim K, Hwang J. Embedding person-centered nutrition assessment and care in Korea’s Community Integrated Care for older adults and persons with disabilities: “From Policy to Fork”: a narrative review. *Korean Journal of Community Nutrition*. 2026;31(5):375-392. doi:10.5720/kjcn.2026.00346. 主要來源定位均標示 PDF 頁碼；首頁可核對題名、期刊、卷期、頁碼及 DOI，PDF p. 1 顯示 CC BY-NC 4.0 授權聲明。本文未獨立核實全部參考文獻。",
       "cards": [],
       "completedAt": "2026-11-05T10:30:44.053Z"
+    },
+    {
+      "id": "doi:10.5720/kjcn.2026.00346:digest",
+      "paperId": "doi:10.5720/kjcn.2026.00346",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Embedding person-centered nutrition assessment and care in Korea's Community Integrated Care for older adults and persons with disabilities: 'From Policy to Fork': a narrative review.",
+      "authors": "Kim K, Hwang J",
+      "journal": "Korean Journal of Community Nutrition",
+      "year": "2026",
+      "doi": "10.5720/kjcn.2026.00346",
+      "abstract": "This narrative review examined how person-centered nutrition assessment and care could be embedded in Korea's Community Integrated Care system for older adults and persons with disabilities and proposed a 'From Policy to Fork' framework linking statutory assessment, service action, coordinated follow-up, and actual food intake. This narrative review and conceptual policy synthesis drew on Korean laws and implementation documents, international guidelines, literature on assessment-tool development and validation, and Korean community nutrition studies identified through PubMed, the Korea Citation Index, Google Scholar, and official repositories through August 2026. The synthesis focused on integrated care, healthy aging and disability equity, malnutrition and frailty assessment, eating and feeding barriers, foodservice infrastructure, digital health, and implementation science. Korea's 2026 Community Integrated Care framework creates an explicit statutory basis for considering nutritional status and a policy pathway for the phased expansion of home-visit nutrition. However, nutrition remains inadequately operationalized as an accountable, cross-cutting function across municipal care pathways, particularly for persons with disabilities. Existing validated instruments cover complementary domains but do not constitute a unified cross-sector assessment framework spanning aging and disability. A staged architecture is therefore proposed: a brief common core screen; triggered modules for malnutrition, frailty, sarcopenia, dysphagia, sensory or mealtime behavior, communication, and environmental barriers; cause-based service matching; and closed-loop monitoring of recommendation, delivery, use, and outcome, with revision of the care plan where indicated. In this architecture, assessment links statutory recognition of nutritional status to accountable service action. Nutrition could function as a core operational domain of community integrated care rather than solely as nutrition education or meal delivery. Existing dietitian-led foodservice infrastructure and standard nutrition-management algorithms provide a foundation, but field-validated assessment modules, explicit accountability, service maps, and human-governed digital tools may need to be developed and evaluated. The proposed 'From Policy to Fork' framework is offered as a conceptual model requiring empirical validation, with the ultimate goal of enabling safe, adequate, culturally appropriate, and sustained eating.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42978349/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "dietitian clinical nutrition",
+        "guideline and consensus",
+        "health promotion and lifestyle",
+        "nutrition and dietary pattern",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "韓國社區整合照護營養照護：從政策到進食",
+      "content": "---\ncitekey: \"Kim2026FromPolicyToFork\"\ndoi: \"10.5720/kjcn.2026.00346\"\ntitle: \"韓國社區整合照護營養照護：從政策到進食\"\naliases:\n  - \"Embedding person-centered nutrition assessment and care in Korea's Community Integrated Care\"\ntags:\n  - research/digest\n  - community-nutrition\n  - nutrition-assessment\n  - aging\n  - disability\n---\n\n> [!summary] 30 秒層\n> 韓國的社區整合照護政策已留下營養評估與到宅服務入口，但需要把風險辨識、負責者、可取得服務和回訪串起來，才能知道個案是否真的得到並使用照護。作者提出「核心篩檢 → 觸發模組 → 原因導向服務 → 閉環追蹤」的概念路徑；本文沒有測試此路徑是否改善健康結果。\n>\n> - 韓國 65 歲以上人口於 2024 年 12 月達 20.0%；這是政策背景數字。 (PDF p. 2)\n> - 一項引用的社區研究納入 1,125 位 70–84 歲成人，其中 9.6% 營養不良或有營養不良風險；衰弱估計也會因工具不同而變化。 (PDF p. 7)\n> - 篩檢、診斷、衰弱、肌少症與吞嚥評估工具用途不同，不能把分數互換。 (PDF pp. 9-10)\n> - **品質 → 同篇已有獨立全文評讀；此整理著重作者內容與概念。**\n\n## 5 分鐘層：全文地圖\n\n**要點**：全文由政策背景開始，接著辨識不同族群的營養與進食風險、檢視現有工具與服務，再提出一條由政策辨識走到實際進食的概念照護路徑。\n\n- **政策問題與研究方法 (PDF pp. 2-4)：** 韓國社區整合照護如何把營養從法規文字轉成有人負責的服務。\n- **政策入口與照護障礙 (PDF pp. 5-8)：** 五個政策階段、營養風險的個人差異，以及目前社區營養與供餐基礎。\n- **工具與評估缺口 (PDF pp. 9-10)：** 代表性營養、衰弱、肌少症、進食與吞嚥工具，各自適用族群及其限制。\n- **From Policy to Fork 路徑 (PDF pp. 11-14)：** 核心篩檢、觸發式深入評估、原因導向服務、閉環追蹤與評估指標。\n- **限制與後續工作 (PDF p. 15)：** 搜尋與證據評估不完整，框架尚待共同設計和實地驗證。\n\n## 各主題重點\n\n**要點**：作者的主張不是再加一張篩檢表，而是讓每一個風險訊號都能連到適合的評估、負責者、服務與回訪。\n\n### 1. 政策已有入口，但營養責任仍可能中斷\n\n- 作者以韓國 2026 年社區整合照護政策為背景，指出營養狀態已可進入政策評估與照護安排；但法規入口不等於地方服務已能穩定接手。 (PDF pp. 2, 5)\n- 文中整理五個政策切入點：申請／辨識、整合評估、支持計畫、服務提供、監測。營養照護需要在每個階段指派工作，例如辨識、原因評估、計畫列入營養目標、完成轉介，再確認服務是否提供。 (PDF pp. 5-6)\n- 作者引述的執行指引包括會議後一個月內檢視，以及其後每三個月定期監測的安排。這是本文整理的韓國政策背景，不是台灣個案應直接套用的時程。 (PDF p. 5)\n- 年齡不同不應自動決定是否有服務：文章指出未滿 65 歲的身心障礙服務包未明列營養項目，但這不能證明當地完全沒有可用營養服務。 (PDF p. 5)\n\n### 2. 營養與進食風險來自多個層面\n\n- 作者引用的韓國人口資料顯示，2024 年 12 月 65 歲以上人口占 20.0%；此數字用來交代政策背景，並非本文的研究結果。 (PDF p. 2)\n- 一項被引用的社區研究納入 1,125 位 70–84 歲成人，9.6% 被判為營養不良或有風險；另一組衰弱估計依評估工具不同，介於 2.5% 至 12.4%。這些是不同研究／工具下的資料，不應合併成本文的新盛行率估計。 (PDF p. 7)\n- 需要考慮的原因不只有食量或體重，也包括疾病、食慾、活動與移動、口腔與吞嚥、感官和溝通、購買與取得食物、備餐能力、社會支持及照顧者協助。身心障礙者的需要差異大，單一介入容易漏接真正障礙。 (PDF pp. 7-8)\n- 簡單說，個案可能「有營養風險」，也可能是「想吃但取得不到」、「有食物但吃不安全」或「服務沒有接到」。這些狀況需要不同的下一步評估和協助。 (PDF pp. 7-8)\n\n### 3. 工具各有用途，模組需依問題選擇\n\n- **MNA-SF**：短版老年營養風險篩檢；陽性後仍需再評估，不能直接當診斷。 (PDF pp. 4, 9)\n- **MUST**：成人營養不良風險篩檢工具，涵蓋成人照護情境；引用驗證研究的場域會影響可外推範圍。 (PDF p. 9)\n- **NRS-2002**：主要為住院病人營養風險篩檢而設，不能因為名稱相近就與社區篩檢互換。 (PDF p. 9)\n- **GLIM**：在篩檢陽性後使用的營養不良診斷框架，需合併表型與病因條件，不是簡短風險篩檢。 (PDF p. 9)\n- **SARC-F、KFI-PC**：聚焦肌少症相關功能風險或多面向衰弱；範圍與功能評估不同於單純營養篩檢。 (PDF pp. 9-10)\n- **K-DRACE**：韓國社區吞嚥風險評估相關工具；文章指出 2025 年一項標準化研究納入 489 位 65 歲以上社區成人。 (PDF p. 9)\n- **BAMBI、SSP、MCH-FS**：兒童進食行為、感官或餵食問題的工具，在本文僅作為評估構面的例子，不是成人身心障礙者的日常評估工具。 (PDF pp. 9-10)\n- 作者在其目標性搜尋中未辨識到一個同時涵蓋高齡、成人身心障礙、營養風險與進食功能的韓國整合工具；這是這篇敘述性綜合所辨識的缺口，不等於證明世界上不存在此工具。 (PDF p. 9)\n\n### 4. 社區服務與供餐基礎能支援照護，但覆蓋有限\n\n- 韓國的社會福利供餐管理支援中心可為已登記機構提供營養師及供餐管理支援；作者指出這種基礎不代表所有社區個案都已被服務涵蓋。 (PDF p. 8)\n- 既有標準化演算法可協助一致管理，但不能取代專業判斷；營養處置仍需對應實際原因，例如疾病、吞嚥、活動、食物可近性或備餐障礙。 (PDF pp. 8-9)\n- 作者提到客製化中央廚房等方案作為可能的服務支援，但文章沒有提供其對營養或臨床結果的比較成效。 (PDF p. 8)\n\n### 5. 「From Policy to Fork」是一條待驗證的服務路徑\n\n- 作者提出先用簡短共同核心篩檢，再依訊號啟動營養不良、衰弱／肌少症、吞嚥、感官／進食行為、溝通或環境障礙模組。現有工具可保留在適合的族群與用途，但需要評估是否能改變轉介或照護決策。 (PDF pp. 11-12)\n- 評估後需把個人目標和負責者寫進照護計畫，並建立可實際使用的服務地圖；只有篩檢，卻沒有可接手的服務，價值有限。 (PDF pp. 12-14)\n- 作者建議追蹤四個不同環節：提出建議、服務實際提供、個案是否使用、結果是否改變。若資料未回報，不能把「沒有資料」解讀為「沒有問題」。 (PDF pp. 12-13)\n- 數位平台可以協助資訊流動與流程標準化，但作者主張由人員治理，營養師保留臨床責任；AI 或系統不能替代專業評估。 (PDF p. 13)\n\n### 6. 落地需同時看人、服務與系統\n\n- 作者把後續工作分為責任與人力、共同資料集、服務連結、結果與政策回饋。地方需要能取得營養師意見的機制，並讓轉介、服務使用、再評估責任明確。 (PDF pp. 13-14)\n- 評估指標可分三層：個人層看攝取、營養狀態、進食安全、功能與生活品質；服務層看服務觸及、營養師審查、轉介完成、等待時間、再評估及照顧者負擔；系統層看涵蓋率、公平觸及、採用、執行與維持。這些是作者列出的示例方向，並非驗證過的服務品質門檻。 (PDF p. 14)\n- 作者承認搜尋是目的性而非全面性，沒有正式證據品質或偏倚風險評估，也沒有驗證框架的研究；政策、工具和服務安排均以韓國為主。 (PDF p. 15)\n\n## 機轉白話講解\n\n**要點**：篩檢像門鈴，只提示「可能需要進一步看」，不會自動指出原因，更不會自動把服務送到個案手上。\n\n1. **先聽見訊號：** 短篩檢找出需要關注的人，但陽性不是診斷。 (PDF pp. 9, 11)\n2. **再找出卡點：** 依個案情況檢查疾病、功能、吞嚥、感官、溝通、食物取得和備餐環境；問題不同，評估模組也不同。 (PDF pp. 7-10)\n3. **把原因連到服務：** 服務計畫要指定誰負責、可取得哪種服務，以及何時確認完成。 (PDF pp. 11-14)\n4. **確認實際發生：** 「建議過」不代表「服務送達」；「送達」也不代表「個案使用」或「結果改善」。需逐段追蹤，必要時改計畫。 (PDF pp. 12-14)\n\n## 重要圖表重述\n\n**要點**：三張表分別回答「政策流程在哪裡接營養」、「各工具能做什麼」和「怎麼評估執行」。\n\n- **表 1 (PDF p. 6)：** 把五個政策階段和可加入的營養行動並列，重點是讓責任與後續處置不要停在辨識。\n- **表 2 (PDF p. 10)：** 對照代表性營養、衰弱、肌少症、進食與吞嚥工具的族群、用途和可能模組角色；可見工具不是一個總分可以互換。\n- **表 3 (PDF p. 14)：** 列出責任／人力、資料集、服務連結、結果與政策等實作優先項目，並提供個人、服務與系統層級的示例指標。\n\n## 與既有認知的對照\n\n**要點**：本文增添的是政策到服務的連接框架；目前可用的個人 Papers/Medicine 筆記範圍未能核實，因此不聲稱它取代或修正了哪一篇既有筆記。\n\n- 本 Worker 設定沒有映射可搜尋的本機文獻 vault；因此本次無法完成 vault_search，也不能推斷使用者沒有相關筆記。\n- 就本文本身而言，可帶走的觀念差異是：把「營養評估」視為要連到負責者、轉介和實際使用的流程，而不只是一個篩檢分數或一場衛教。這是作者提出的執行框架，成效仍待驗證。 (PDF pp. 11-15)\n\n## 概念 / 名詞整理\n\n**要點**：把篩檢、診斷、深入評估與服務追蹤分開，避免用一種工具回答所有問題。\n\n- **共同核心篩檢：** 所有人先用較簡短且共通的入口辨識可能風險；用途是分流，不是完整診斷。 (PDF pp. 11-12)\n- **觸發式模組：** 當篩檢或情境指出特定需要，再選擇營養不良、衰弱、吞嚥、感官／行為、溝通或環境評估。 (PDF pp. 9-12)\n- **原因導向服務媒合：** 依造成營養或進食問題的原因連到相對應服務，而不是對不同人一律安排同一介入。 (PDF pp. 7-8, 12)\n- **閉環追蹤：** 確認建議、交付、使用、結果四個環節；未完成或結果不足時，回到照護計畫調整。 (PDF pp. 12-14)\n- **RE-AIM：** 作者把它作為檢視執行與政策結果的框架參考，並非本研究已完成的成效分析。 (PDF p. 14)\n\n## 臨床意義 / 怎麼用\n\n**要點**：可把本文用在跨專業流程設計與研究問題，不可直接當成個人營養處方或台灣法規指引。\n\n- 規劃服務時，逐項問：誰解讀風險？誰負責營養目標？轉介到哪裡？誰追蹤服務有沒有完成？誰確認個案是否能取得並使用服務？ (PDF pp. 5-6, 12-14)\n- 個案評估不應只靠體重或攝取量；依疾病、吞嚥與口腔、功能、感官、溝通、食物可近性和備餐環境選擇後續評估。短篩檢不能替代完整評估。 (PDF pp. 7-10)\n- 在台灣使用前，先核對本地法規、服務資源、營養師可近性、人力與支付方式；韓國的法定時程和服務結構不能直接移植。 (PDF pp. 2, 5, 14-15)\n- 研究者可優先驗證工具在不同年齡與障礙情況下是否可理解、可使用、能改善轉介完成或飲食安全，再評估營養狀態與生活品質；本文沒有提供現成的有效門檻。 (PDF pp. 9-15)\n\n## 自我測驗\n\n**要點**：用情境回想服務流程，比只背工具名稱更能掌握本文。\n\n> [!question]- Q1：為什麼短版營養篩檢陽性不能直接當成營養不良診斷？\n> 篩檢是分流訊號，需依用途使用診斷或深入評估工具，再判斷原因並安排服務。文章指出 MNA-SF、MUST、NRS-2002 與 GLIM 的目標和場域不同，不能互換。 (PDF p. 9)\n\n> [!question]- Q2：個案被辨識出風險後，服務閉環還要確認哪四件事？\n> 是否提出建議、服務是否實際提供、個案是否使用，以及攝取／營養狀態／功能等結果是否改變。任一環節不明，都不能當作完整照護。 (PDF pp. 12-14)\n\n> [!question]- Q3：為什麼對高齡者或身心障礙者只看體重和近期食量可能不夠？\n> 因為問題也可能在吞嚥、口腔、感官、溝通、移動、食物取得、備餐或照顧支持；需要依卡點啟動不同評估與服務。 (PDF pp. 7-10)\n\n> [!question]- Q4：文章引用的 9.6% 和 2.5%–12.4% 分別說明什麼，為什麼不能合併？\n> 9.6% 是一項 1,125 位、70–84 歲社區成人研究中的營養不良或風險比例；2.5%–12.4% 是衰弱盛行估計隨工具而異。兩者不是同一指標，也不是本文統合出的數字。 (PDF p. 7)\n\n> [!question]- Q5：作者提出的 From Policy to Fork 框架目前能支持什麼結論，不能支持什麼結論？\n> 它可作為社區營養照護流程設計的概念架構；本文未做實地介入或成效驗證，因此不能據此宣稱改善營養、吞嚥安全或健康結果。 (PDF pp. 11-15)\n\n## Reference\n\nKim K, Hwang J. Embedding person-centered nutrition assessment and care in Korea’s Community Integrated Care for older adults and persons with disabilities: “From Policy to Fork”: a narrative review. *Korean Journal of Community Nutrition*. 2026;31(5):375-392. doi:10.5720/kjcn.2026.00346.",
+      "cards": [
+        {
+          "title": "篩檢不是診斷",
+          "question": "為什麼短版篩檢陽性後仍要做深入評估？",
+          "answer": "篩檢只提示需要再看，不能確認營養不良或進食問題的原因。工具用途不同：GLIM屬診斷框架；MNA-SF、MUST、NRS-2002等需依目標族群與場域使用。 (PDF p. 9)",
+          "tags": [
+            "community-nutrition",
+            "nutrition-assessment",
+            "study-interpretation"
+          ]
+        },
+        {
+          "title": "照護閉環四步",
+          "question": "怎樣判斷風險辨識後的營養照護是否真的完成閉環？",
+          "answer": "分開核對：提出建議、服務已提供、個案有使用、結果有追蹤。只有完成建議或轉介，不能等同個案已取得服務或健康結果已改善。 (PDF pp. 12-14)",
+          "tags": [
+            "care-coordination",
+            "implementation",
+            "nutrition-care"
+          ]
+        },
+        {
+          "title": "模組要對應原因",
+          "question": "身心障礙者的營養風險為什麼不宜只用一個體重或食量指標處理？",
+          "answer": "風險可能涉及吞嚥、感官、溝通、移動、食物取得、備餐及支持環境。先找到實際卡點，再選合適評估模組與服務，比所有人套用同一方案更符合本文建議。 (PDF pp. 7-10)",
+          "tags": [
+            "disability",
+            "nutrition-assessment",
+            "person-centered-care"
+          ]
+        },
+        {
+          "title": "兩個數字不同義",
+          "question": "9.6% 與 2.5%–12.4% 在文章中各代表什麼？",
+          "answer": "9.6%來自一項1,125位70–84歲社區成人研究的營養不良或風險比例；2.5%–12.4%是衰弱估計依評估工具而變。族群指標與測量不同，不能合併成同一結果。 (PDF p. 7)",
+          "tags": [
+            "nutrition-risk",
+            "frailty",
+            "measurement"
+          ]
+        },
+        {
+          "title": "概念模型尚待驗證",
+          "question": "From Policy to Fork 可以支持什麼實務用途，又缺少什麼證據？",
+          "answer": "它可供設計政策到服務的流程與研究假說；文章沒有實地比較或結果驗證，不能宣稱框架已改善營養、吞嚥安全或健康結果。 (PDF pp. 11-15)",
+          "tags": [
+            "narrative-review",
+            "evidence-appraisal",
+            "implementation"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-05T10:51:50.456Z"
     }
   ]
 }
