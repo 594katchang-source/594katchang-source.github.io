@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-07T07:48:48.847Z",
+  "generatedAt": "2026-11-07T08:09:53.225Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -110976,6 +110976,84 @@
       "content": "---\ntags:\n  - source/journal\ndoi: \"10.3389/fnut.2026.1956118\"\njournal: \"Frontiers in Nutrition\"\nyear: 2026\nauthors: \"Ming Gong, Haiying Gao, Huiying Yu, Wenlong Wu, Xue Gao, Yingzhen Bu, Xiangpeng Kong, Xin Zhao\"\nstudy_type: \"Prospective cohort\"\nreview_depth: \"focused-quick\"\n---\n\n> [!info] 品質快照\n> **設計**：前瞻性世代研究｜**n**：10,087 名基線無高血壓成人｜**RoB**（Newcastle–Ottawa／病因型世代研究）：🟡 中等；飲食暴露測量及殘餘混雜仍可能影響估計\n> **GRADE**：Very Low（總芳香族胺基酸、苯丙胺酸與色胺酸的發病關聯；單一觀察性研究）｜**Registration**：n.a.（非試驗）\n> **一句話 verdict**：較高的苯丙胺酸與色胺酸攝取和後續高血壓有小幅關聯，但研究沒有測試飲食介入；總芳香族胺基酸的結果對省份調整敏感。\n\n# Key Points\n\n## Summary\n\n> ✅ Full text reviewed — 已閱讀身份匹配、合法公開且可讀的全文（12 頁）\n\n- 在中國健康與營養調查的 10,087 名成人中，較高的總芳香族胺基酸（AAA）攝取與新發高血壓呈小幅正相關；苯丙胺酸（Phe）及色胺酸（Trp）的關聯較穩定，酪胺酸（Tyr）未見明確關聯。\n- 最重要限制：這是飲食觀察研究，不能證明增加 Phe／Trp 會造成高血壓，也不能據此建議限制含這些胺基酸的食物。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：研究者追蹤中國成人的飲食與血壓，發現較高 Phe、Trp 攝取者後續較常出現高血壓；但總 AAA 的關聯較弱，且無法排除整體飲食與地區差異造成的混雜。\n> - **為什麼做**：過去研究對蛋白質與高血壓的關聯不一致，作者希望拆開看 Phe、Tyr、Trp，以及植物／動物來源是否呈現不同關係。\n> - **研究怎麼做**：用基線飲食的三日回憶及家戶食物秤重估算胺基酸攝取，追蹤後續血壓、醫師診斷或降壓藥使用；以 Cox 模型估計不同攝取量的高血壓發生率差異。\n> - **所以呢**：本文提供的是觀察性風險關聯，不是胺基酸補充或飲食替代試驗。臨床仍應評估整體飲食品質、鈉、鉀、體重及個別疾病狀況，不應把 Phe／Trp 單獨當成已證實的致病目標。\n\n## Clinical Application\n\n- **適應症／可回答的問題：**中國一般成人的膳食 AAA 攝取與後續新發高血壓是否相關。\n- **不能回答：**減少 Phe／Trp、改變植物／動物蛋白比例，或使用胺基酸補充品是否能預防／治療高血壓；研究沒有指定介入或替代量。\n- **實務判讀：**資料是以中國 1997–2011 年飲食與食物供應背景建立，植物來源以穀物貢獻為主，不能把「植物來源」等同於高蔬果、豆類或高纖的健康飲食型態。台灣臨床外推須考量食物來源與整體飲食差異。\n- **安全界線：**不根據此研究限制一般含蛋白質食物，也不把動物來源模型中的反向關聯解讀為保護效果。\n\n# Paper Details\n\n## Methods\n\n- **設計與族群：**CHNS 前瞻性世代資料。納入 1997、2000、2004、2006、2009、2011 波次作飲食暴露；追蹤高血壓至 2015。最終 10,087 名基線沒有高血壓的成人；平均年齡 42.6 歲（SD 14.1），女性 54.3%。其中 6,252 人（62.0%）有至少兩次符合條件的飲食評估，平均 2.81 次。\n- **飲食暴露：**連續 3 日 24 小時飲食回憶，加上同期家戶食物秤重／庫存法；按各波次中國食物成分表估算 Phe、Tyr、Trp，以每 1,000 kcal 的克數表達。總 AAA 為三者合計。主要分析使用基線暴露，另以累積平均攝取作敏感度分析。\n- **食物來源：**植物來源含穀物／全穀、豆類、堅果種子、蔬果、薯類與澱粉；動物來源含紅肉／加工肉、禽、魚海鮮、內臟、蛋、乳品；混合菜餚另列。\n- **結果：**新發高血壓定義為追蹤期間首次出現收縮壓 ≥140 mmHg、舒張壓 ≥90 mmHg、自述醫師診斷或使用降壓藥；血壓以標準化坐姿測量的三次讀數平均。共 95,153 人年及 3,531 例，粗發生率 37.1/1,000 人年。\n- **統計：**含家戶隨機截距的混合效應 Cox 模型。預先指定的 Model 3 調整人口社會因素、既往疾病、吸菸／飲酒、基線收縮壓、BMI、腹部肥胖、活動量、總熱量、鈉與鉀；缺失基線共變項以 20 次多重插補處理並按 Rubin 法合併。以 Schoenfeld 殘差檢查比例風險假設；以限制立方樣條評估劑量反應。\n- **樣本數／登錄：**全文未報告此資料庫次級分析的事前樣本數計算；試驗註冊不適用。\n\n## Key Findings\n\n| 暴露 | Model 3：最高 vs 最低四分位 | 解讀 |\n|---|---:|---|\n| 總 AAA | HR 1.16（95% CI 1.03–1.31）；趨勢 p=.006；每 SD HR 1.05（1.00–1.09） | 小幅正相關；額外調整省份後 HR 1.10（0.97–1.24），不再明確。 |\n| Phe | HR 1.26（1.11–1.44）；趨勢 p<.001；每 SD HR 1.08（1.04–1.14） | 正相關在累積平均與多項敏感度分析中維持。 |\n| Trp | HR 1.29（1.14–1.46）；趨勢 p<.001；每 SD HR 1.08（1.03–1.13） | 正相關在累積平均與多項敏感度分析中維持。 |\n| Tyr | 四分位與連續模型皆未見明確關聯 | 不支持把所有芳香族胺基酸視為同一方向。 |\n\n劑量反應樣條對總 AAA、Phe、Trp 顯示近似線性型態；Tyr 未見清楚趨勢。研究有多項暴露、來源及次群分析，未見多重比較校正報告；次群結果應視為探索性。［PDF pp.5–8，Fig. 2–3；Discussion p.8］\n\n### 食物來源分析\n\n- 穀物是總 AAA 的最大單一來源，約占 46.1%；植物食物合計占總 AAA 73.5%、Phe 73.9%、Tyr 74.3%、Trp 70.0%。［PDF pp.6–7，Fig. 4］\n- 互相調整的每 SD 模型：植物來源總 AAA HR 1.03（0.99–1.07），動物來源總 AAA HR 0.92（0.88–0.97）；植物 Phe 1.06（1.01–1.10）、動物 Phe 0.93（0.88–0.98）；植物 Tyr 0.99（0.95–1.02）、動物 Tyr 0.92（0.87–0.97）；植物 Trp 1.08（1.03–1.12）、動物 Trp 0.93（0.89–0.98）。這些是多變項模型的關聯，不是食物來源替代試驗，也不能由動物來源的反向關聯推論保護性。\n- 作者沒有估算「以某種動物來源等量取代植物來源」的效果；也指出植物來源可能主要反映穀物型態，未充分區分穀物精製程度、纖維或整體飲食品質。［PDF pp.6–7、10，Table 1］\n\n## Critical Appraisal\n\n### 偏差風險（Newcastle–Ottawa：病因型世代研究）\n\n| 領域 | 判定 | 依據 |\n|---|---|---|\n| 族群選取 | 🟡 | 大型多波次社區世代、基線排除高血壓；但分析受可用飲食紀錄與後續追蹤條件限制。 |\n| 暴露分類 | 🟡 | 三日回憶加家戶秤重、採食物成分表是優點；仍有短期飲食代表性及資料庫估值誤差，補充品未納入。 |\n| 結果測量 | 🟢 | 有標準化血壓測量，也納入診斷及用藥資訊；仍混合客觀量測與自述來源。 |\n| 混雜控制 | 🔴 | 調整多項人口與臨床因子，並做蛋白質／省份等敏感度分析；未完全掌握家族史及整體飲食品質。總 AAA 對省份調整敏感。 |\n| 缺失／追蹤 | 🟡 | 對缺失基線共變項做 20 次插補；只有 62% 有至少兩次符合條件的飲食評估，飲食暴露誤差仍可能存在。 |\n| 整體判斷 | 🟡 中等 | 大型前瞻設計與標準化測量提升可信度，但混雜及飲食分類誤差不允許因果結論。 |\n\n### 統計、因果與結論\n\n- **效應量：**Phe、Trp 的每 SD HR 約 1.08，表示相對瞬時風險的關聯幅度小；沒有用個人基線風險計算絕對風險差。HR 不等於個體可避免風險。\n- **MCID：**對觀察性暴露－發病關聯沒有適用的量表 MCID；不以 p 值取代臨床效益判斷。\n- **時間先後與反向因果：**飲食在事件前測量，降低明顯反向因果可能；仍不能排除未測混雜、飲食改變或選擇進入分析造成的偏差。\n- **目標試驗與一致性：**「高 Phe／Trp 攝取」包含多種食物組合，沒有明確、可重複的指定飲食介入或等量替代對照。研究也未估算改變某類食物後的反事實效果。\n- **劑量反應與混雜：**趨勢及樣條提供一致性線索，但不能排除共同飲食型態或地區因素。總 AAA 在省份調整後變弱，是需重視的區域混雜訊號。\n- **次群與多重分析：**農村／教育程度等次群差異為探索性；暴露、來源與次群分析眾多，未見多重比較校正報告，不宜據此制定族群分流規則。\n- **Argdown 因果檢查：**把結果改寫成「較高 Phe／Trp 攝取造成高血壓」會從單一觀察研究的 association 跳到 causal claim。確定性檢查已標出此推論缺口；本文只能支持關聯，不支持因果或營養處方。\n- **GRADE（工具計算）：**三個主要關聯均從觀察性證據 Low 起始。Phe、Trp 因殘餘混雜／飲食誤差降一級，計為 **Very Low**；總 AAA 另因估計小且省份調整後 CI 跨越無效值，再降一級，計為 **Very Low**。單一研究無法估計發表偏差，未據此額外扣分。\n- **資金／利益衝突：**國家自然科學基金一般項目 82370438；作者聲明無商業或財務利益衝突，並聲明未使用生成式 AI。［PDF p.11］\n\n## 作者限制與本次補充判讀\n\n作者指出飲食成分估算誤差、未納入補充品、重複飲食資料比例有限、尾端攝取估計不穩、MI／中風自述、缺乏血中胺基酸及微生物代謝物、未正式測試來源替代、未分析纖維等植物食物品質、未量家族史，以及殘餘混雜與地區可推廣性限制。［PDF pp.9–10］\n\n補充判讀：本文的「植物來源」以穀類為大宗，且作者沒有把精製穀物、膳食纖維及總飲食品質充分拆開。不能將結果套成「植物性飲食會升高血壓」或「動物性胺基酸具保護作用」。\n\n## 與既有認知的對照\n\n作者指出既往蛋白質／高血壓研究的族群、飲食測量與共變項調整方式不同；本研究新增的是中國成人中 Phe、Trp 與食物來源的前瞻關聯。此快速評讀未做獨立引用脈絡／scite 分類，因此不把「一致」解讀成跨研究已重複證實。［PDF pp.8–10］\n\n## 全文位置索引\n\n| 原文段落／圖表 | 本筆記位置 |\n|---|---|\n| Abstract，PDF p.1 | Summary、主要 HR 與 province 敏感度 |\n| Introduction，PDF pp.1–2 | 研究問題與背景 |\n| Methods 2.1–2.5，PDF pp.2–5 | 族群、暴露、結果與 Cox 模型 |\n| Results 3.1–3.5，PDF pp.5–8 | 樣本、主要估計、來源與敏感度分析 |\n| Figures 1–5、Table 1，PDF pp.2、5–8 | 流程圖、森林圖、劑量反應、來源比例及來源模型 |\n| Discussion 4.1–4.3，PDF pp.8–10 | 機轉假說、可推廣性及限制 |\n| Funding／COI／AI，PDF p.11 | 資助及作者聲明 |\n\n## Reference\n\n- Gong M, Gao H, Yu H, Wu W, Gao X, Bu Y, Kong X, Zhao X. Dietary aromatic amino acids, their food sources, and incident hypertension in Chinese adults: a prospective cohort study. *Frontiers in Nutrition*. 2026. DOI: [10.3389/fnut.2026.1956118](https://doi.org/10.3389/fnut.2026.1956118).\n- 全文來源：Frontiers in Nutrition PDF（經原 Worker 驗證；12 頁；PDF SHA-256 `74158162ab34e784ca909c610b112b43f8f76e7c93de69c4a188e349c5850621`）。",
       "cards": [],
       "completedAt": "2026-11-07T07:42:57.945Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1956118:digest",
+      "paperId": "doi:10.3389/fnut.2026.1956118",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Dietary aromatic amino acids, their food sources, and incident hypertension in Chinese adults: a prospective cohort study.",
+      "authors": "Gong M, Gao H, Yu H, Wu W, Gao X, Bu Y, Kong X, Zhao X",
+      "journal": "Frontiers in Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fnut.2026.1956118",
+      "abstract": "Prospective evidence linking dietary aromatic amino acids (AAAs), including phenylalanine (Phe), tyrosine (Tyr), and tryptophan (Trp), to incident hypertension currently remains limited, particularly regarding their individual components and food sources. Herein, we examined the association between dietary AAAs, their food sources, and incident hypertension among Chinese adults. Using the China Health and Nutrition Survey database, this prospective cohort study collected data from 10,087 adults without hypertension at baseline. Baseline dietary intake was assessed using three consecutive 24-h dietary recalls, combined with household food weighing; the energy-adjusted AAA intake was expressed in g/1,000 kcal. Incident hypertension was defined as measured blood pressure, physician diagnosis, or use of antihypertensive medication. Mixed-effects Cox proportional hazards models with household identifiers as random intercepts were used to estimate hazard ratios (HRs) and 95% confidence intervals (CIs). Dose-response, food-source-specific, subgroup, and sensitivity analyses were performed. During the 95,153 person-years of follow-up, 3,531 participants developed hypertension. In fully adjusted models, the highest quartile of total AAA intake was associated with a modestly higher risk of incident hypertension compared with the lowest quartile (HR, 1.16; 95% CI, 1.03-1.31; P for trend = 0.006). Positive associations were more consistent for Phe (HR for Q4 vs. Q1, 1.26; 95% CI, 1.11-1.44) and Trp (HR, 1.29; 95% CI, 1.14-1.46) individually, while Tyr intake showed no significant association with hypertension. Dose-response analyses indicated approximately linear positive associations for total AAA, Phe, and Trp. The association for total AAA was attenuated following additional adjustment for baseline province (HR for Q4 vs. Q1, 1.10; 95% CI, 0.97-1.24), while the positive associations for Phe and Trp persisted. Cereals were the predominant contributors to AAA intake, and plant-derived Phe and Trp were positively associated with the risk of hypertension. Higher dietary intakes of Phe and Trp showed consistent positive associations with incident hypertension, while Tyr showed no clear association. The modest association for total AAA was attenuated after adjusting for baseline province and should therefore be interpreted cautiously in relation to potential regional confounding factors. These findings support the component-specific interpretation of dietary AAAs and consideration of their regional and food source contexts.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1956118/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42991794/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "design:prospective cohort",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "膳食芳香族胺基酸與高血壓整理",
+      "content": "---\ntags:\n  - research/digest\n  - chronic-disease-nutrition\n  - hypertension\ncitekey: \"Gong2026DietaryAromaticAminoAcids\"\ndoi: \"10.3389/fnut.2026.1956118\"\naliases:\n  - \"Dietary aromatic amino acids, their food sources, and incident hypertension in Chinese adults: a prospective cohort study\"\n---\n\n> [!summary] 30 秒層\n> 中國成人世代中，較高 Phe 與 Trp 攝取和新發高血壓有小幅正相關；研究沒有測試改變飲食能否預防高血壓。\n> - 10,087 名基線無高血壓成人，追蹤 95,153 人年、記錄 3,531 例新發高血壓。\n> - 最高 vs 最低攝取四分位：Phe HR 1.26、Trp HR 1.29；Tyr 沒有明確關聯。\n> - 總 AAA 的 HR 1.16；加入省份後降為 1.10（95% CI 0.97–1.24），顯示地區差異可能混雜結果。\n> - 穀物是最大單一來源；植物來源比例高，不代表「健康植物性飲食」或食物替代效果。\n> 品質：同 DOI 的獨立「品質評讀」已在公開頁；本整理只說明內容。\n\n**5 分鐘層：**只讀各節的「要點」行，可快速還原全文主線；想了解數字、方法與限制時，再讀下方完整內容。\n\n## 研究問題／背景\n\n**要點**：作者把芳香族胺基酸拆成 Phe、Tyr、Trp，並比較植物、動物及混合食物來源，補足既往研究較少分項分析的缺口。\n\n- 芳香族胺基酸（AAA）包含苯丙胺酸（Phe）、酪胺酸（Tyr）與色胺酸（Trp）。蛋白質來源與高血壓的既有研究結果不一，作者關心這三者是否方向相同，以及食物來源是否改變觀察到的關聯。［PDF pp.1–2］\n- 作者背景引用包括：Teymoori 等人探討膳食 AAA 與高血壓（2018；DOI 10.1016/j.jash.2017.11.004）、Izadi 等人的膳食胺基酸系統性回顧與統合分析（2025；DOI 10.1186/s12889-025-25411-3），以及 Mahbub 等人分析血漿支鏈／芳香族胺基酸與高血壓（2020；DOI 10.3390/nu12123791）。以上只列本文所引文獻，未在本次另行核查原研究。［PDF p.11］\n\n## 方法\n\n**要點**：研究以 CHNS 前瞻追蹤，先量飲食，再觀察高血壓發生；主要暴露是基線攝取量，累積平均攝取只作敏感度分析。\n\n- **族群與期間：**納入 1997、2000、2004、2006、2009、2011 波次的中國健康與營養調查（CHNS）飲食資料，追蹤至 2015。分析 10,087 名基線沒有高血壓的成人；平均年齡 42.6 歲（SD 14.1），女性 54.3%。6,252 人（62.0%）有至少兩次合格飲食評估。［PDF pp.2、5］\n- **飲食怎麼量：**連續 3 日 24 小時飲食回憶，加上同期家戶食物秤重／庫存法；以各波次中國食物成分表估算 Phe、Tyr、Trp，按每 1,000 kcal 表達。［PDF pp.3–4］\n- **高血壓怎麼判定：**追蹤期間首次出現收縮壓 ≥140 mmHg、舒張壓 ≥90 mmHg、自述醫師診斷或使用降壓藥。共 95,153 人年、3,531 例；粗發生率 37.1/1,000 人年。［PDF p.4–5］\n- **統計方法：**以含家戶隨機截距的混合效應 Cox 模型估計 HR。預先指定 Model 3 調整人口社會條件、共病、吸菸飲酒、基線收縮壓、BMI、腹部肥胖、活動量、總熱量、鈉及鉀；缺失共變項以 20 次多重插補處理。［PDF pp.4–5］\n\n## 主要發現\n\n**要點**：Phe、Trp 的正相關比總 AAA 更穩定；Tyr 沒有明確訊號，總 AAA 在加入省份後減弱。\n\n| 暴露 | Model 3 最高 vs 最低四分位 | 每 SD 結果／補充 |\n|---|---:|---|\n| 總 AAA | HR 1.16（95% CI 1.03–1.31），趨勢 p=.006 | 每 SD HR 1.05（1.00–1.09）；加入基線省份後 HR 1.10（0.97–1.24） |\n| Phe | HR 1.26（1.11–1.44），趨勢 p<.001 | 每 SD HR 1.08（1.04–1.14）；累積平均及多項敏感度分析方向相近 |\n| Trp | HR 1.29（1.14–1.46），趨勢 p<.001 | 每 SD HR 1.08（1.03–1.13）；累積平均及多項敏感度分析方向相近 |\n| Tyr | 未見明確關聯 | 四分位與連續模型皆無清楚訊號 |\n\n- 限制立方樣條對總 AAA、Phe、Trp 顯示近似線性關聯，Tyr 則無明顯趨勢。這是劑量反應線索，不能單獨證明因果。［PDF pp.5–8，Figs. 2–3］\n- 高血壓 3,531 例提供了較多事件資訊，但總 AAA 的結果對省份調整敏感；Phe、Trp 的估計則在多數敏感度分析中維持正向。［PDF pp.5、7–8］\n\n### 食物來源一起看\n\n- 穀物是總 AAA 最大單一來源，約占 46.1%。植物來源合計占總 AAA 73.5%、Phe 73.9%、Tyr 74.3%、Trp 70.0%。［PDF pp.6–7，Fig. 4］\n- 互相調整來源模型的每 SD HR：植物 AAA 1.03（0.99–1.07），動物 AAA 0.92（0.88–0.97）；植物 Phe 1.06（1.01–1.10）、植物 Trp 1.08（1.03–1.12）。動物來源部分模型呈反向關聯，但不能因此稱為保護效果。［PDF pp.6–7，Table 1］\n- 作者沒有估算「以某種動物來源食物等量替代植物來源」的效果；植物來源主要由穀物構成，也未充分拆解穀物精製程度、纖維與整體飲食品質。［PDF pp.9–10］\n\n## 臨床意義／怎麼用\n\n**要點**：這篇提供飲食暴露與高血壓的觀察關聯，沒有給出可直接採用的 Phe／Trp 限制或食物替代處方。\n\n- 不把 Phe 或 Trp 當成已證實的高血壓病因，也不因本研究限制一般含蛋白質食物。\n- 不把「植物來源」等同於蔬果、豆類、堅果或高纖飲食；本文的植物來源以穀物為主。\n- 若用於台灣成人營養照護，應回到整體飲食型態、鈉、鉀、體重與個人共病背景；本文的中國地區食物來源與社經條件未必能直接移植。\n- **因果界線：**飲食暴露在事件前測得，降低明顯反向因果疑慮；但未隨機分派飲食、未指定替代方案，仍可能受整體飲食與地區混雜影響。［PDF pp.8–10］\n\n## 重要圖表重述\n\n**要點**：圖 2–4 展示主要關聯、劑量反應與來源比例；圖 5 的次群結果屬探索性。\n\n- **Figure 1，PDF p.2：**說明由 CHNS 參與者篩至 10,087 名分析對象的流程。\n- **Figure 2，PDF p.5：**呈現總 AAA 與三種胺基酸的四分位及連續 HR；Phe、Trp 的正向估計較清楚。\n- **Figure 3，PDF p.6：**樣條曲線呈現總 AAA、Phe、Trp 的近似線性趨勢，Tyr 未見相同模式。\n- **Figure 4 與 Table 1，PDF pp.6–7：**列出主要食物群來源占比與植物／動物來源互相調整模型。\n- **Figure 5，PDF pp.7–8：**顯示次群估計；作者提醒這些差異應謹慎解讀，不作確證性分流。\n\n## 與既有認知的對照\n\n**要點**：本地筆記已提醒亞洲飲食與 plant-based 不是單一暴露；本研究把這項提醒具體延伸到 AAA 的穀物來源與高血壓關聯。\n\n- 搜尋時間 2026-11-07 15:47（Asia/Taipei），Paper Radar `available-site-notes.json` 有 2,722 筆。以 DOI、題名、`aromatic amino acid`、`phenylalanine`、`tryptophan`、`hypertension` 搜尋，排除本 DOI 後，找到一篇相關背景整理：Kim，*Precision nutrition in Asian populations*（2026；DOI 10.1017/jns.2026.10110）。該筆記提醒需拆解 staple food、加工程度、烹調方式與纖維，不能把亞洲飲食或 plant-based 當成單一型態。\n- 目前索引未找到另一篇直接比較「膳食 Phe／Trp 與中國成人新發高血壓」的既有筆記。這是對本地已發布筆記索引的搜尋結果，不代表所有未索引筆記都不存在。\n- 本篇新增的具體訊息是：植物來源 AAA 以穀物為主；來源模型的方向不同，卻未測試等量食物替代。因此應延續前述食物型態判讀，不將來源係數翻成植物／動物飲食建議。\n\n## 概念／名詞整理\n\n**要點**：讀這篇時要分清胺基酸種類、食物來源、能量調整與 HR；它們回答的是不同層次的問題。\n\n- **AAA：**芳香族胺基酸總量；本文把 Phe、Tyr、Trp 加總。\n- **Phe／Tyr／Trp：**苯丙胺酸、酪胺酸、色胺酸；本研究的高血壓關聯並非三者一致。\n- **g/1,000 kcal：**以能量調整的攝取量，較能比較不同總熱量攝取者；不代表實際處方劑量。\n- **HR：**追蹤期間瞬時發生率比；HR 1.26 不是「個人多 26 個百分點」或因果效果。\n- **累積平均攝取：**把可取得的重複飲食評估納入敏感度分析；主要模型仍使用基線攝取。\n- **植物／動物來源模型：**按來源拆分胺基酸攝取的統計關聯；除非直接建模指定替代，不能等同食物交換試驗。\n\n## 自我測驗\n\n**要點**：先解釋觀察結果為何不能直接變成限制飲食的臨床指令。\n\n> [!question]- Q1：為什麼 Phe、Trp 的 HR 高於 1，還不能建議個案限制含這些胺基酸的食物？\n> 這是觀察性世代研究，飲食沒有隨機分派，也沒有測試限制 Phe／Trp 後的血壓變化。整體飲食、食物加工與地區差異仍可能混雜結果；HR 是關聯，不是介入效益。\n\n> [!question]- Q2：總 AAA、Phe、Trp、Tyr 的結果有何差異？\n> 最高 vs 最低四分位 HR 分別為總 AAA 1.16、Phe 1.26、Trp 1.29；Tyr 沒有明確關聯。總 AAA 加入省份後 HR 降至 1.10，95% CI 0.97–1.24，顯示此結果對地區調整敏感。\n\n> [!question]- Q3：為什麼「植物來源 AAA」不能直接解讀成健康 plant-based 飲食的效果？\n> 植物來源 AAA 主要由穀物構成；穀物約占總 AAA 46.1%。研究沒有充分拆解精製程度、纖維與整體食物組合，也沒有估算等量食物替代。\n\n> [!question]- Q4：這篇研究如何測量飲食，又有多少人有重複飲食評估？\n> 以連續 3 日 24 小時飲食回憶搭配家戶食物秤重／庫存法；6,252/10,087 人（62.0%）至少有兩次合格飲食評估。主要分析仍用基線攝取，累積平均作敏感度分析。\n\n> [!question]- Q5：營養師可以從這篇帶走什麼實務做法？\n> 可把胺基酸與食物來源視為值得追蹤的研究訊號；目前不據此限制 Phe／Trp。臨床仍以整體飲食品質、鈉鉀、體重及個人病況評估，並注意中國與台灣食物來源背景不同。\n\n## Reference\n\n**要點**：文章結論應與原始隊列及其引用的研究背景分開閱讀。\n\n- Gong M, Gao H, Yu H, Wu W, Gao X, Bu Y, Kong X, Zhao X. Dietary aromatic amino acids, their food sources, and incident hypertension in Chinese adults: a prospective cohort study. *Frontiers in Nutrition*. 2026. DOI: [10.3389/fnut.2026.1956118](https://doi.org/10.3389/fnut.2026.1956118).\n- 文章背景引用：Teymoori et al. 2018, DOI [10.1016/j.jash.2017.11.004](https://doi.org/10.1016/j.jash.2017.11.004)；Izadi et al. 2025, DOI [10.1186/s12889-025-25411-3](https://doi.org/10.1186/s12889-025-25411-3)；Mahbub et al. 2020, DOI [10.3390/nu12123791](https://doi.org/10.3390/nu12123791)。此處只轉錄本文書目資料，未另行評讀這些研究。\n- 全文來源：經原 Worker 驗證的 12 頁 Frontiers PDF；來源 SHA-256 `74158162ab34e784ca909c610b112b43f8f76e7c93de69c4a188e349c5850621`；抽文 SHA-256 `4e41204669062b156186c327e47423c59c3115db2071416401f6348455b5410f`。",
+      "cards": [
+        {
+          "title": "為什麼不能直接限制 Phe／Trp？",
+          "question": "為什麼 Phe、Trp 的 HR 高於 1，還不能建議個案限制含這些胺基酸的食物？",
+          "answer": "這是觀察性世代研究，飲食沒有隨機分派，也沒有測試限制 Phe／Trp 後的血壓變化。整體飲食、食物加工與地區差異仍可能混雜結果；HR 是關聯，不是介入效益。",
+          "tags": [
+            "高血壓",
+            "膳食胺基酸",
+            "因果推論"
+          ]
+        },
+        {
+          "title": "四種 AAA 結果有何不同？",
+          "question": "總 AAA、Phe、Trp、Tyr 的高血壓結果有何差異？",
+          "answer": "最高 vs 最低四分位 HR：總 AAA 1.16、Phe 1.26、Trp 1.29；Tyr 沒有明確關聯。總 AAA 加入省份後 HR 降至 1.10（95% CI 0.97–1.24），顯示其結果對地區調整敏感。",
+          "tags": [
+            "高血壓",
+            "Phe",
+            "Trp",
+            "Tyr"
+          ]
+        },
+        {
+          "title": "植物來源不等於健康飲食型態",
+          "question": "為什麼「植物來源 AAA」不能直接解讀成健康 plant-based 飲食的效果？",
+          "answer": "植物來源 AAA 主要由穀物構成，穀物約占總 AAA 46.1%。研究沒有充分拆解穀物精製程度、纖維與整體食物組合，也沒有估算等量食物替代。",
+          "tags": [
+            "食物來源",
+            "穀物",
+            "飲食品質"
+          ]
+        },
+        {
+          "title": "飲食資料重複測量的意義",
+          "question": "研究如何測量飲食？重複測量比例對結果解讀有什麼提醒？",
+          "answer": "研究用連續 3 日 24 小時飲食回憶搭配家戶秤重；6,252/10,087 人（62.0%）至少有兩次合格飲食評估。主要分析仍用基線攝取，累積平均才是敏感度分析。",
+          "tags": [
+            "飲食評估",
+            "世代研究",
+            "測量誤差"
+          ]
+        },
+        {
+          "title": "營養照護可以帶走什麼？",
+          "question": "營養師可以從這篇研究採取什麼實務行動，又有哪些行動不受它支持？",
+          "answer": "可把胺基酸與食物來源視為待驗證的研究訊號；目前不據此限制 Phe／Trp。實務仍評估整體飲食品質、鈉鉀、體重及個人病況，並考慮中國與台灣飲食來源差異。",
+          "tags": [
+            "臨床營養",
+            "高血壓",
+            "實務應用"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-07T08:06:11.932Z"
     }
   ]
 }
