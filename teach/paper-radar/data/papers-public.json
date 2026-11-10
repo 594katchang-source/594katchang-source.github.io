@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T13:06:22.138Z",
+  "generatedAt": "2026-11-10T13:19:48.040Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -111643,6 +111643,80 @@
       "content": "---\r\ntags:\r\n  - source/journal\r\n  - med/nutrition\r\ncitekey: \"Manneville2026\"\r\nzotero: \"\"\r\njournal: \"Internet Interventions\"\r\nyear: 2026\r\nauthors: \"Florian Manneville, Johanne Langlois, Philip Böhme, Mélanie Béguinet, Willy Ngueyon Sime, Elisabeth Spitz, Serge Briançon, Edith Lecomte, Abdou Y. Omorou\"\r\nstudy_type: \"RCT\"\r\npmid: \"42997840\"\r\ndoi: \"10.1016/j.invent.2026.101019\"\r\nreview_depth: \"quick\"\r\n---\r\n\r\n> [!info] 品質快照\r\n> **設計**：個人隨機、開放標籤、優越性 RCT｜**隨機分派**：129 人（HeC 65、標準照護 64）；T1 完成 100 人｜**主要分析**：完成個案 85 人\r\n> **RoB 2**：整體高風險，主要來自失訪／缺失資料與未盲測量；隨機化細節亦有些疑慮\r\n> **GRADE**：Low（主要行為複合結果；risk of bias 與 imprecision 各降一級，依技能內 grade_judge.py 計算）\r\n> **試驗登錄**：文章列 NCT05399407；未能讀取官方登錄的歷史版本，無法確認預先登錄 outcome 是否與本文複合主要結果一致\r\n> **一句話 verdict**：多專業個人化線上教練可能改善年輕成人的飲食行為複合指標；估計不精確、失訪多，尚不能證明體重或長期臨床效益。\r\n\r\n# Key Points\r\n\r\n## Summary\r\n\r\n> ✅ 已逐段讀取 PMC 完整 HTML 主文：摘要、引言、方法、結果與表 1–5、討論、限制、結論及參考文獻。未讀 Supplementary Material 1。\r\n\r\n- 法國 PRALIMAP-CINeCO 試驗比較健康電子教練（HeC）與標準照護，在 6–12 個月評估年輕成人的飲食、活動／久坐及飲食自我調節。主要複合結果在 HeC 完成個案為 20/43（46.5%），標準照護 9/42（21.4%）；OR 3.2（95% CI 1.2–8.2），p=.01。這是「至少兩個行為領域達預設改善門檻」的 odds，不是減重成功率或風險比。\r\n\r\n## 白話導讀\r\n\r\n> [!abstract] 整篇講給你聽\r\n> - **一句話**：把個人化線上教材和營養師、心理師、適應體育專業人員的遠距諮詢放在一起，可能幫部分年輕成人改善飲食與久坐行為。\r\n> - **為什麼做**：作者認為單靠一般建議未必能同時處理飲食、活動、久坐和自我調節；年輕成人相關多面向教練試驗有限。\r\n> - **主體**：129 人隨機分派，65 人到 HeC、64 人到標準照護；29 人未完成 T1。可用於主要複合結果的完整資料為 HeC 43 人、標準照護 42 人。達到至少兩項行為改善門檻者為 46.5% 對 21.4%，OR 3.2（95% CI 1.2–8.2）。差異主要來自飲食改善；久坐門檻結果較邊界，身體活動及自我調節沒有明確組間差異。\r\n> - **所以呢**：這個方案有作為年輕成人行為支持選項的訊號，但不能據此說它會減重、改善疾病或已適合大規模推行。樣本小、失訪且分析為完成個案，信心偏低。\r\n\r\n# Paper Details\r\n\r\n## Methods\r\n\r\n- **族群**：法國居住、BMI >25 kg/m²、無持續相關醫療管理的年輕成人；大學志願者另須年滿 18 歲。平均年齡 24.5±5.1 歲，69% 女性，基線平均 BMI 31.5±5.2 kg/m²。含曾參加 PRALIMAP-INÈS 的參與者及洛林大學志願者。\r\n- **介入**：線上平台有 12 個模組、80 多項非同步活動；先依問卷和共同教育評估擬定個人計畫，搭配營養師、心理師、適應體育專業人員定期 teleconsultation。實際接觸劑量／忠實度未評估，諮詢次數未在主文報告。\r\n- **對照**：收到檢查結果摘要，受邀找家庭醫師討論；沒有研究團隊安排的介入，允許自行尋求一般照護，另有電話提醒。\r\n- **主要結果定義**：三個二元領域中至少兩個改善：飲食（10 食物群至少 5 群達每週一份的方向性改變）、活動／久坐（4 個領域至少 2 個達門檻）、飲食自我調節（6 策略至少 3 個增加 10/100 分）。這些是研究者設定的複合門檻，非已證實的病人重要臨床終點。\r\n- **隨機與統計**：生物統計師以 minimization 隨機分派，依原 PRALIMAP-INÈS 組別分層；受試者無法盲測。主要二元結果用 logistic regression；連續次要結果用 linear regression。方法稱依原分派組分析，但明確採 complete-case、未插補缺失值，因此不是有完整缺失資料處理的 full ITT。\r\n- **樣本數**：原估 384 人（每組 192），目標 power 80%、單側 α=.05；實際隨機 129 人，T1 有 100 人。研究者報告身體活動差異的估計 power 僅 33%。\r\n\r\n## Key Findings\r\n\r\n| 結果 | HeC | 標準照護 | 組間估計 |\r\n|---|---:|---:|---|\r\n| 主要複合結果（至少 2/3 領域改善） | 20/43（46.5%） | 9/42（21.4%） | OR 3.2（1.2–8.2），p=.01 |\r\n| 飲食：至少一半食物群改善 | 20/43（46.5%） | 7/42（16.7%） | OR 4.3（1.6–11.9），p=.003 |\r\n| 水果與蔬菜攝取改變 | +3.2 份/週 | −1.7 份/週 | 差 +5.0（0.8–9.1），p=.02 |\r\n| 久坐時間改變 | −91.6 分鐘/日 | −18.1 分鐘/日 | 差 −73.5（−151.4 至 4.3），p=.06 |\r\n| 久坐減少至少 60 分鐘/日 | 34/37（91.9%） | 29/39（74.4%） | OR 3.7（1.0–14.3），p=.04 |\r\n| 活動／久坐領域複合改善 | 27/38（71.1%） | 20/40（50.0%） | OR 2.5（1.0–6.3），p=.06 |\r\n| 飲食自我調節至少一半策略改善 | 13/37（35.1%） | 13/33（39.4%） | OR 0.8（0.3–2.2），p=.71 |\r\n\r\n- 表 2–5 的各結果可用人數不一；表中二元結果以各自有資料者為分母。主要結果 85 人不是全部 100 位 T1 參與者。\r\n- BMI 在標準照護組下降較多，組間差約 1.2 kg/m²（95% CI 0.3–2.1）；主文未提供該補充表的詳細數值。飲食疾患、焦慮、憂鬱及 SF-12 身體健康分數未見明確組間差異；心理健康分數差 +3.8（−0.2 至 7.7），未達統計顯著。\r\n- 主文討論稱水果與「豆類」攝取增加，但表 3 對應的是水果與蔬菜；以表格數值呈現並標記此處文字不一致，不把 legumes 當成已核實的表格結果。\r\n\r\n## Critical Appraisal\r\n\r\n### RoB 2（本次聚焦快速評讀）\r\n\r\n| 領域 | 判讀 | 依據 |\r\n|---|---|---|\r\n| 隨機化流程 | 有些疑慮 | 說明由生物統計師以 minimization 分派並分層，但未充分交代分派隱蔽；基線 BMI 標準照護 32.5、HeC 30.4 kg/m²。 |\r\n| 偏離預定介入 | 有些疑慮 | 受試者知道分組，HeC 多專業支持與標準照護接觸強度不同；未量化實際介入劑量。 |\r\n| 缺失結果資料 | 高風險 | 129 人隨機後 29 人未完成 T1（22.5%）；採 complete-case、無插補，且各 outcome 可用人數進一步下降。結果段稱失訪者較可能單身，限制段卻稱較可能有伴侶，本文內部描述不一致。 |\r\n| 結果測量 | 高風險 | 主要行為結果由未盲測參與者自填問卷取得，容易受回憶及期待影響；BMI／腰圍則在醫療訪視測量。 |\r\n| 選擇性報告 | 有些疑慮 | 本文列出 NCT05399407，但本次未取得官方 registry history 以比較預先指定 outcome；次級 mirror 顯示的舊登錄 outcome 清單與本文複合主要結果不完全相同，需原始歷史紀錄確認，不能據此直接判定 outcome switching。另測量多個次要 outcome，未見多重比較校正說明。 |\r\n\r\n**整體偏差風險：高**，尤其主要結果依賴自填行為與不完整追蹤。優點是採隨機比較、量測多個實務相關行為領域，並明確提供缺失數與信賴區間。\r\n\r\n### 統計、臨床意義與推論\r\n\r\n- **效應解讀**：主要 OR 3.2 的信賴區間很寬；可說觀察到較高 odds，不能說每個接受者都更可能改善，也不能解讀為減重效果。\r\n- **臨床重要性**：主要 outcome 是門檻組成的行為複合結果，沒有已驗證的整體 MCID。久坐二元門檻剛達顯著但 CI 下限 1.0、估計不精確；連續組間差異未達顯著。飲食自我調節 +10 分門檻是作者在缺乏該量表 MCID 時採用的操作定義。\r\n- **BMI 與其他健康結果**：BMI 反而在對照組下降較多，故本文不能支持 HeC 減重優於標準照護。研究未證實長期體重、代謝或疾病結果。\r\n- **多重比較**：次要結果包含許多食物群、活動域及量表，未說明校正多重檢定；個別 p<.05 結果宜視為探索性訊號。\r\n- **資助／利益衝突**：IReSP 資助（grant 18II076）；作者聲明無已知可能影響本文的財務或個人利益。\r\n- **登錄與選擇性報告**：本文寫有 NCT05399407。ClinicalTrials.gov 官方頁面及 API 本次無法讀出可比對的歷史 outcome；Syfrah 的非官方登錄鏡像列有 BMI、飲食、活動、自我調節等 outcome，與本文複合主要 outcome 有差異。這只是需追查的登錄差異線索，不是已證實的改換主要 outcome。\r\n- **論證檢查**：以主文主要 outcome 作為 direct RCT 證據輸入 argdown_lint.py，未偵測 association→causation、只靠次要結果或「多次證實」推論跳躍。作者對「可規模化」的說法仍是未來應用可能性，研究沒有測試實際規模化或成本效益。\r\n- **GRADE**：主要行為複合結果由 high 起始；risk of bias 降一級、imprecision 降一級，計算結果 **Low ⊕⊕◯◯**。單一試驗不能評估一致性；此等級不代表體重或長期臨床效益的確定性。\r\n\r\n## Clinical Application\r\n\r\n- 可把此類個人化線上活動加專業遠距支持視為年輕成人營養行為介入的候選補充形式，重點應放在飲食目標與持續追蹤。\r\n- 不應以此研究取代完整肥胖醫療營養照護，或據此承諾減重；其 BMI 結果未偏向 HeC，自我調節與活動結果也不明確。\r\n- 研究對象主要是法國年輕成人，部分由大學招募；外推到台灣成人、較高齡者、共病族群或不同數位可近性人群前，需先確認適用性、服務人力、數位識讀與實際參與量。\r\n- 若在實務中試用，建議同時記錄實際接觸劑量、飲食與活動客觀指標、體重／腰圍及追蹤流失，避免只依一個複合問卷分數判斷成效。\r\n\r\n## Resource\r\n\r\n- 試驗登錄：NCT05399407（本文所列；[ClinicalTrials.gov 官方頁](https://clinicaltrials.gov/study/NCT05399407) 本次只回傳頁面外框，API 無法讀取；[Syfrah 非官方鏡像](https://www.syfrah.com/trial/NCT05399407) 提供一份 2023-10 更新的 outcome 摘要，但不能取代官方歷史版本）。\r\n- 研究資料：作者表示可合理要求取得。\r\n\r\n## Source\r\n\r\n- Manneville F, et al. *Effectiveness of a personalized e-coaching intervention on nutritional behavior and eating self-regulation among adults with overweight or obesity: The PRALIMAP-CINeCO randomized trial.* Internet Interventions. 2026;46:101019. DOI: [10.1016/j.invent.2026.101019](https://doi.org/10.1016/j.invent.2026.101019); PMID [42997840](https://pubmed.ncbi.nlm.nih.gov/42997840/); [PMC full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC13742595/).\r\n- 本次核對到 PMC HTML 顯示 Creative Commons Attribution 4.0（CC BY 4.0）。文章來源與 DOI／英文題名精確匹配；本機來源 SHA-256：e62d344b320658bf287eb47afbbae6d2b55a2958040c3bfae8bd94cde1e373bb。公開成果僅放原創評讀，不附原文全文。\r\n- 章節定位：方法 §§2.1–2.8；結果 §§3.1–3.4、表 1–5；討論 §§4.1–4.2；主要數字分別對照摘要、表 2–5。論文未報告的資訊已明確標出，不以摘要或資料庫補成全文內容。",
       "cards": [],
       "completedAt": "2026-11-10T13:01:49.000Z"
+    },
+    {
+      "id": "doi:10.1016/j.invent.2026.101019:digest",
+      "paperId": "doi:10.1016/j.invent.2026.101019",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Effectiveness of a personalized e-coaching intervention on nutritional behavior and eating self-regulation among adults with overweight or obesity: The PRALIMAP-CINeCO randomized trial.",
+      "authors": "Florian Manneville, Johanne Langlois, Philip Böhme, Mélanie Béguinet, Willy Ngueyon Sime, Elisabeth Spitz, Serge Briançon, Edith Lecomte, Abdou Y Omorou",
+      "journal": "Internet Interventions",
+      "year": "2026",
+      "doi": "10.1016/j.invent.2026.101019",
+      "abstract": "Interventions targeting eating behavior, physical activity, sedentary behavior, and eating self-regulation demonstrate promise for improving weight loss and preventing weight gain. Multifaceted health e-coaching could enhance the effectiveness of such interventions; however, there is limited empirical evidence of its effectiveness. To evaluate the effectiveness of a health e-coaching (HeC) intervention compared to standard care (SC) on changes in eating behavior, physical activity, sedentary behavior, and eating self-regulation among young adults with overweight or obesity. The primary outcome of this randomized trial included improvement in at least two of three components: eating behavior; physical activity and sedentary behavior; and eating self-regulation strategies. The HeC intervention consisted of (1) online asynchronous individual activities and (2) teleconsultations with health professionals. Comparisons between groups were conducted on an intention-to-treat basis by using logistic regression models. A total of 100 young adults were followed up at the end of the intervention (49 in the HeC group and 51 in the SC group). At baseline, the mean age was 24.5 ± 5.1 years, and 69% of the participants were women. Intention-to-treat analysis revealed that participants in the HeC group were 3.2 times (95% confidence interval [1.2; 8.2]) more likely to achieve the primary outcome than participants in the SC group. The e-coaching intervention was effective at improving nutritional behaviors among young adults who were with overweight or obesity. This study provides valuable insights for the future implementation of scalable e-coaching programs in real-world settings.Trial Registration: NCT05399407.",
+      "legalFullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13742595/",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42997840/",
+      "category": "recommended",
+      "tags": [
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "PRALIMAP-CINeCO 快速內容整理",
+      "content": "---\r\ntags:\r\n  - research/digest\r\n  - med/nutrition\r\ncitekey: \"Manneville2026\"\r\ndoi: \"10.1016/j.invent.2026.101019\"\r\naliases:\r\n  - \"Effectiveness of a personalized e-coaching intervention on nutritional behavior and eating self-regulation among adults with overweight or obesity: The PRALIMAP-CINeCO randomized trial\"\r\n---\r\n\r\n> [!summary] 30 秒層｜個人化電子教練與年輕成人行為\r\n> 線上個人化活動加上專業人員遠距諮詢，可能改善年輕成人的飲食行為；本試驗的整體行為複合結果在 HeC 組較常達標，但樣本小且失訪多。\r\n> - 主要結果：至少 2/3 行為領域改善，HeC 46.5%（20/43）對標準照護 21.4%（9/42），OR 3.2（95% CI 1.2–8.2）。\r\n> - 飲食：至少一半食物群改善 46.5% 對 16.7%；水果與蔬菜改變的組間差為 +5.0 份/週。\r\n> - 久坐：HeC 組內平均下降 91.6 分鐘/日；組間連續差異未達顯著，只有「減少至少 60 分鐘/日」的二分結果達 p=.04。\r\n> - 活動量與飲食自我調節沒有明確組間差異；BMI 在標準照護組下降較多。\r\n> 品質 → 同篇另有獨立品質評讀；此為內容整理，非新的可信度判定。\r\n\r\n以下各節構成 **5 分鐘層**：先掃讀每節「要點」，再讀完整數據與解釋。\r\n\r\n## 研究問題 / 背景\r\n\r\n**要點**：研究者想知道，多領域個人化電子教練是否比一般照護更能幫助超重或肥胖的年輕成人改善飲食、活動／久坐與飲食自我調節。\r\n\r\n- 作者指出年輕成人正經歷自主生活與習慣轉變，飲食、身體活動、久坐和自我調節都可能影響體重管理。\r\n- 既有數位健康研究多著重減重或單一行為；作者認為結合多種線上活動與專業支持、並專門研究年輕成人的證據仍有限。\r\n- 本文同時觀察 BMI、腰圍、飲食疾患、焦慮、憂鬱與生活品質，但核心主要結果是行為領域的複合門檻。\r\n\r\n## 方法\r\n\r\n**要點**：129 人隨機接受多專業電子教練或標準照護；主要結果以可取得的 T1 完整資料分析，追蹤約 6–12 個月。\r\n\r\n- **設計與地點**：法國 PRALIMAP-CINeCO 個人隨機優越性試驗，2023–2024 年進行。受試者居住法國、BMI >25 kg/m²；大學志願者另須年滿 18 歲。平均年齡 24.5±5.1 歲，69% 女性，平均 BMI 31.5±5.2 kg/m²。\r\n- **人數與追蹤**：129 人隨機分派（HeC 65、標準照護 64）；29 人未完成 T1，最後 100 人完成追蹤。主要複合結果資料為 HeC 43 人、標準照護 42 人。\r\n- **HeC 介入**：先以問卷和共同教育評估了解個人需要，再由參與者與一位聯絡專業人員共同調整計畫。專業人員包括營養師、心理師及適應體育專業人員；線上平台含 12 個模組、80 多項活動，例如教學影片、遊戲、測驗、自我評估、目標設定和規劃。介入實際接觸量與忠實度未評估。\r\n- **標準照護**：參與者收到檢查結果摘要並受邀找家庭醫師討論；沒有研究團隊安排的課程，但可自行尋求一般照護，並接到電話提醒。\r\n- **主要複合結果**：三個領域至少兩個改善即算達標：\r\n  1. 飲食：10 個食物群中至少 5 群達到每週至少一份的方向性改變。\r\n  2. 活動／久坐：工作、休閒、交通活動量與坐姿時間 4 個領域至少 2 個達門檻。\r\n  3. 飲食自我調節：6 個策略至少 3 個分數增加 10/100 分。\r\n- **分析方式**：二元結果用 logistic regression，連續次要結果用 linear regression。作者稱依原隨機組別分析，但方法採 complete-case，未插補缺失值；各 outcome 的可用樣本也不相同。\r\n- **樣本規劃**：原先預估需 384 人（每組 192）以達 80% power；實際隨機 129 人。作者估計身體活動差異的 power 為 33%。\r\n\r\n## 主要發現\r\n\r\n**要點**：整體複合結果與飲食指標偏向 HeC；活動和飲食自我調節證據較弱，體重結果沒有偏向 HeC。\r\n\r\n| 指標 | HeC | 標準照護 | 組間結果 |\r\n|---|---:|---:|---|\r\n| 至少 2/3 行為領域改善 | 20/43（46.5%） | 9/42（21.4%） | OR 3.2（1.2–8.2），p=.01 |\r\n| 至少一半食物群改善 | 20/43（46.5%） | 7/42（16.7%） | OR 4.3（1.6–11.9），p=.003 |\r\n| 水果與蔬菜每週份數改變 | +3.2 | −1.7 | 差 +5.0（0.8–9.1），p=.02 |\r\n| 坐姿時間連續改變 | −91.6 分鐘/日 | −18.1 分鐘/日 | 差 −73.5（−151.4 至 4.3），p=.06 |\r\n| 坐姿時間減少至少 60 分鐘/日 | 34/37（91.9%） | 29/39（74.4%） | OR 3.7（1.0–14.3），p=.04 |\r\n| 活動／久坐 4 領域至少 2 領域改善 | 27/38（71.1%） | 20/40（50.0%） | OR 2.5（1.0–6.3），p=.06 |\r\n| 至少一半自我調節策略改善 | 13/37（35.1%） | 13/33（39.4%） | OR 0.8（0.3–2.2），p=.71 |\r\n\r\n- 飲食方面，表 3 顯示 HeC 組蔬菜攝取平均增加約 3.0 份/週；水果與蔬菜合計在 HeC 組增加、標準照護組下降。討論文字提到 fruit and legumes，但表格標示 fruit and vegetables，兩者不一致；上表採表格數值。\r\n- 久坐方面，HeC 組內平均下降 91.6 分鐘/日，不等於組間差異已確定；連續結果 p=.06。以減少至少 60 分鐘/日作二元門檻時 p=.04，信賴區間仍寬且下限為 1.0。\r\n- BMI 在標準照護組下降較多，主文報告組間差約 1.2 kg/m²（95% CI 0.3–2.1）。飲食疾患、焦慮、憂鬱及 SF-12 身體健康分數沒有明確組間差異；心理健康分數差異亦未達顯著。\r\n- 主要 outcome 是行為門檻複合指標，不是減重、糖尿病或其他疾病結果；研究沒有證明長期體重或代謝效益。\r\n\r\n## 重要圖表重述\r\n\r\n**要點**：圖 2 說明從 520 位合格者到 129 位隨機分派、100 位完成追蹤的流失；表 2 顯示主要結果差異由飲食改善較能解釋。\r\n\r\n- **圖 1**：呈現電子教練線上平台；方法另說明 12 模組、80 多種活動與個人化專業諮詢如何組合。\r\n- **圖 2（CONSORT）**：520 人符合資格，391 人未納入（主要是 289 人不願參加醫療訪視）；129 人隨機分派，29 人失訪，100 人完成 T1。\r\n- **表 1**：完成研究者平均年齡 24.5 歲、69% 女性；HeC 基線 BMI 30.4，標準照護 32.5 kg/m²。\r\n- **表 2**：主要複合結果 HeC 46.5%、標準照護 21.4%；飲食改善達標差異較明確，活動／久坐及自我調節不明確。\r\n- **表 3**：多個食物群逐項比較；水果、蔬菜與甜食等有較有利於 HeC 的結果，但需留意同時檢定很多次要指標。\r\n- **表 4**：身體活動各領域沒有明確差異；久坐時間的連續組間估計未達顯著，二分門檻結果較邊界。\r\n- **表 5**：六項飲食自我調節策略的改變均未形成清楚的組間差異。\r\n- BMI、腰圍及心理健康結果詳見補充表；本次只讀主文，未核對 Supplementary Material 1 及補充表原檔。\r\n\r\n## 臨床意義 / 怎麼用\r\n\r\n**要點**：若用於實務，較適合視為年輕成人飲食行為支持的候選補充方案；不要用它承諾減重或取代完整照護。\r\n\r\n- 方案將個人需求評估、數位活動與專業人員支持結合，適合進一步測試能否融入年輕成人服務。\r\n- 本試驗最清楚的訊號在飲食行為；活動、自我調節、BMI 與長期健康結果不支持強結論。\r\n- 試驗對象主要來自法國，部分為大學志願者；移用到台灣、較高齡或共病族群前，需評估數位可近性、服務人力與文化適配。\r\n- 若實施，應記錄介入劑量、實際參與、追蹤流失、體重／腰圍與行為結果，不只看單一複合問卷門檻。\r\n\r\n## 與既有認知的對照\r\n\r\n**要點**：本次可連到同篇已完成的品質評讀；無法確認其他個人 vault 筆記是否已有相關內容。\r\n\r\n- 同篇品質評讀指出主要結果的完成個案分母為 85，不能把它寫成 100 人全數納入主要分析。\r\n- 本執行環境沒有可用的 vault_search 工具；未對個人 vault 做完整查詢，因此不標示「vault 無相關筆記」。\r\n\r\n## 概念 / 名詞整理\r\n\r\n**要點**：要看懂結果，先分清複合行為門檻、勝算比和完成個案分析。\r\n\r\n- **Health e-coaching（HeC）**：以線上非同步活動加遠距專業支持的個人化健康教練方案。\r\n- **複合結果**：多個不同領域組成一個主要結果；本研究是三個行為領域中至少兩個改善。單一複合結果不能說明每個領域都有效。\r\n- **Odds ratio（OR；名詞補充）**：比較兩組達標的勝算，不等於 risk ratio，也不是「每個人改善機率增加 3.2 倍」。\r\n- **Complete-case analysis（名詞補充）**：只納入基線和追蹤都有該項結果資料的人；不同 outcome 的分母會變，且若失訪與結果有關，估計可能偏移。\r\n- **T0 / T1**：介入前基線與介入後追蹤測量；本文追蹤間隔約 6–12 個月。\r\n\r\n## 自我測驗\r\n\r\n**要點**：以下問題用來練習解讀複合結果、分項數據、缺失資料與實務外推。\r\n\r\n> [!question]- Q1：主要結果的 3.2 應如何解讀？它代表 HeC 讓每個人減重的機率增加 3.2 倍嗎？\r\n> 不是。3.2 是主要複合行為結果的勝算比（OR）；HeC 46.5%、標準照護 21.4% 達標，且結果只涵蓋行為門檻，不是減重成功率。\r\n\r\n> [!question]- Q2：為什麼不能說 HeC 同時改善了飲食、活動和自我調節？\r\n> 主要複合結果只要求三個領域中至少兩個改善；分項結果中，飲食較清楚，活動／久坐 p=.06、自我調節 p=.71，沒有明確差異。\r\n\r\n> [!question]- Q3：久坐的結果為什麼需要同時看連續值和二分門檻？\r\n> HeC 組內平均下降 91.6 分鐘/日，但組間連續差異的 CI 跨過 0、p=.06；只有「至少減少 60 分鐘」的門檻比較 p=.04，且 CI 寬、下限 1.0，不能把其中一種結果寫成全面確定效果。\r\n\r\n> [!question]- Q4：這篇試驗的人數和「意向治療」有哪些閱讀重點？\r\n> 隨機分派 129 人，29 人未完成 T1；主要結果只有 85 人有完整資料。作者稱按原分組分析，但採 complete-case 且未插補，因此要把隨機分派人數、完成追蹤人數與各結果分母分開看。\r\n\r\n> [!question]- Q5：這篇結果可以支持直接承諾減重或大規模推行嗎？\r\n> 不可以。BMI 在標準照護組下降較多，研究未證明長期體重／代謝效益，也未測試規模化成本或持續性；目前較適合視為年輕成人飲食行為支持的研究訊號。\r\n\r\n## Reference\r\n\r\n**要點**：本文 DOI、PubMed 紀錄與可合法閱讀的 PMC 主文如下。\r\n\r\n- Manneville F, et al. 2026. *Effectiveness of a personalized e-coaching intervention on nutritional behavior and eating self-regulation among adults with overweight or obesity: The PRALIMAP-CINeCO randomized trial.* Internet Interventions. 46:101019. DOI: [10.1016/j.invent.2026.101019](https://doi.org/10.1016/j.invent.2026.101019); PMID [42997840](https://pubmed.ncbi.nlm.nih.gov/42997840/).\r\n- Full text: [PMC13742595](https://pmc.ncbi.nlm.nih.gov/articles/PMC13742595/), CC BY 4.0.\r\n- 完整主文章節與表 1–5 已讀；未讀 Supplementary Material 1 及補充表原檔。",
+      "cards": [
+        {
+          "title": "讀懂主要複合結果",
+          "question": "HeC 組的 OR 3.2 表示什麼？為什麼不能把它說成減重機率增加 3.2 倍？",
+          "answer": "OR 比較的是達到主要行為複合門檻的勝算；HeC 46.5%（20/43）、標準照護 21.4%（9/42），OR 3.2（95% CI 1.2–8.2）。該結果不是風險比，也不是減重結果。",
+          "tags": [
+            "nutrition",
+            "obesity",
+            "statistics"
+          ]
+        },
+        {
+          "title": "區分三個行為領域",
+          "question": "為什麼主要複合結果達顯著，仍不能說飲食、活動、自我調節全部都有效？",
+          "answer": "複合 outcome 只要求三領域中任兩領域改善。分項結果較明確的是飲食；活動／久坐 p=.06、自我調節 p=.71，不能把複合效果套到每個分項。",
+          "tags": [
+            "nutrition",
+            "behavior-change",
+            "trial"
+          ]
+        },
+        {
+          "title": "久坐結果的兩種呈現",
+          "question": "HeC 組久坐平均下降 91.6 分鐘/日，為何還不能說組間差異確定？",
+          "answer": "這是 HeC 組內改變；組間連續估計差 −73.5 分鐘/日，95% CI −151.4 至 4.3、p=.06，未達顯著。只有至少減少 60 分鐘/日的二元門檻 p=.04，且估計不精確。",
+          "tags": [
+            "sedentary-behavior",
+            "statistics"
+          ]
+        },
+        {
+          "title": "理解完整個案分析",
+          "question": "隨機 129 人、完成追蹤 100 人、主要分析 85 人，三個數字各代表什麼？",
+          "answer": "129 是隨機分派數，100 是完成 T1 人數，85 是有主要複合結果完整資料的人數。作者稱依原分組分析，但使用 complete-case、未插補缺失值；不能把主要結果稱為 129 人全數有結果資料的完整 ITT。",
+          "tags": [
+            "clinical-trial",
+            "missing-data",
+            "methods"
+          ]
+        },
+        {
+          "title": "界定臨床可用範圍",
+          "question": "這項試驗結果能否用來承諾患者減重或直接擴大成大規模服務？",
+          "answer": "不能。BMI 在標準照護組下降較多，研究未證明長期體重或代謝效益，也未評估規模化成本和可持續性；較適合作為年輕成人飲食行為支持的研究訊號。",
+          "tags": [
+            "obesity",
+            "clinical-application",
+            "evidence"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-10T13:12:16.069Z"
     }
   ]
 }
