@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T09:13:22.627Z",
+  "generatedAt": "2026-11-11T10:15:10.259Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -112241,6 +112241,84 @@
         }
       ],
       "completedAt": "2026-11-11T09:11:21.854Z"
+    },
+    {
+      "id": "doi:10.3389/fmicb.2026.1877366:digest",
+      "paperId": "doi:10.3389/fmicb.2026.1877366",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Effects of probiotic or synbiotic supplementation on glycolipid metabolism in patients with coronary heart disease: a systematic review and meta-analysis.",
+      "authors": "Bai Y, Yu Y, Huang X, Yang X, Yu R, Xiang Q",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fmicb.2026.1877366",
+      "abstract": "This systematic review and meta-analysis, combined with trial sequential analysis (TSA), evaluated the effects of probiotic/synbiotic supplementation on glycolipid metabolism in patients with coronary heart disease (CHD). Randomized controlled trials published up to May 1, 2026, were systematically searched across major databases, including PubMed, Embase, Cochrane Library, Web of Science, MEDLINE, and ClinicalTrials.gov. Pooled analyses were performed using Review Manager 5.3, and TSA was conducted to assess the conclusiveness of evidence. Mean difference (MD) and risk ratio (RR) were calculated for continuous and dichotomous outcomes, respectively. Six trials involving 296 participants were included. Probiotic/synbiotic supplementation was associated with a reduction in fasting blood glucose (FBG) (MD - 19.25 mg/dL, 95% CI -32.28 to -6.22, p = 0.004) and an increase in high-density lipoprotein cholesterol (HDL-C) (MD 3.70 mg/dL, 95% CI 1.65 to 5.74, p = 0.0004) based on four studies involving 192 participants. No significant effects were observed on low-density lipoprotein cholesterol, very low-density lipoprotein cholesterol, total cholesterol, triglycerides, insulin, homeostasis model assessment of insulin resistance, quantitative insulin sensitivity check index, systolic blood pressure, or diastolic blood pressure (p ≥ 0.05). Although adverse event rates did not differ significantly (p ≥ 0.05), safety evidence was limited by few events and a wide confidence interval. TSA showed that the cumulative evidence for both HDL-C and FBG did not cross the prespecified monitoring boundaries or reach the required information sizes. The certainty of evidence for all outcomes was rated as low or very low. Probiotic/synbiotic supplementation may be associated with increased HDL-C and reduced FBG levels in patients with CHD. However, given the negative TSA findings, low certainty of evidence, and lack of hard cardiovascular outcomes, changes in HDL-C and FBG cannot be regarded as direct evidence of cardiovascular benefit. Furthermore, generalizability is limited, as five of the six studies were conducted in Iran and only one in China, which may limit applicability to populations with different dietary patterns, microbiome profiles, ethnic backgrounds, or healthcare systems. The substantial heterogeneity in probiotic strains, formulations, doses, and treatment durations also limits generalization to probiotics or synbiotics as a whole. https://www.crd.york.ac.uk/PROSPERO/view/CRD420251178187; identifier: CRD420251178187.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2026.1877366/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42997375/",
+      "category": "recommended",
+      "tags": [
+        "design:randomized controlled",
+        "evidence literacy",
+        "human clinical population",
+        "precision nutrition",
+        "safety and interaction",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "冠心病益生菌／合生元的血脂與血糖效果：系統性回顧與統合分析",
+      "content": "---\ntags: [research/digest, clinical-nutrition, cardiovascular-disease, probiotics, meta-analysis]\ncitekey: Bai2026CHDProbiotics\ndoi: 10.3389/fmicb.2026.1877366\naliases: [\"Effects of probiotic or synbiotic supplementation on glycolipid metabolism in patients with coronary heart disease\"]\n---\n\n> [!summary] 30 秒層\n> 本篇納入 6 項 RCT、296 位冠心病（CHD）患者；益生菌／合生元與 HDL-C 上升 3.70 mg/dL、空腹血糖（FBG）下降 19.25 mg/dL 有統計關聯，但兩者 TSA 都未達所需資訊量／監測界線，GRADE 均為低確定性。沒有研究評估心肌梗塞、心血管死亡等硬終點，因此不能把生物標記變化當成預防心血管事件的證據。\n> - HDL-C：4 項試驗、192 人，MD +3.70 mg/dL（95% CI 1.65–5.74，p=0.0004）；與參考 MCID 3.86 mg/dL 接近但略低，且 MCID 並非 CHD 專屬。\n> - FBG：4 項試驗、192 人，MD −19.25 mg/dL（95% CI −32.28 至 −6.22，p=0.004）；低於文中引用的參考 MCID 28.82 mg/dL。\n> - LDL-C 未達統計顯著且異質性高（5 項、252 人；MD −9.50 mg/dL，95% CI −19.17 至 0.17；I²=67%）；敏感度分析顯示不穩健。\n> - 6 項試驗涵蓋不同菌株、配方、劑量與 8–24 週療程；5 項在伊朗、1 項在中國，不能推廣成所有益生菌／合生元的共同效果。\n> 品質評讀另篇已完成；本篇只整理研究內容，不重複品質評分。\r\n\r\n## 5 分鐘層\r\n**要點**：以下分段依序重建全文脈絡，先讀每節要點，再看完整細節與數據。\r\n\n\n## 全文地圖\n**要點**：作者由 CHD 與腸道菌相的研究背景出發，報告檢索及納入方法，再依血脂、血糖、血壓與安全性呈現統合結果，最後以亞組、敏感度、TSA、GRADE 說明結果的不確定性。\n\n- 摘要與引言：提出益生菌／合生元可能影響腸道菌相及糖脂代謝，但既有統合分析有共同營養素介入或納入急性心肌梗塞試驗等差異（§1，頁 1–2）。\n- 方法：依 PRISMA、預先登錄 PROSPERO；設定 CHD、益生菌／合生元、安慰劑與 RCT 條件，使用 RoB 2、隨機效應統合、敏感度分析、探索性亞組、TSA 與 GRADE（§2，頁 2–4）。\n- 結果：6 項 RCT 共 296 人；分別呈現脂質、糖代謝、血壓與不良事件結果（§3.1–3.4，頁 4–8）。\n- 穩健度：LDL-C 的異質性與單一研究影響明顯；亞組僅供產生假設。HDL-C 與 FBG 的 TSA 均未達預設資訊量（§3.5–3.7，頁 9–11）。\n- 討論與結論：統計差異不等同臨床心血管獲益；證據量、外部效度、介入差異、追蹤時間與安全資料均不足（§4–5，頁 11–16）。\n\n## 各主題重點\n**要點**：主要訊號只有 HDL-C 與 FBG 的平均值改善；其他代謝、血壓及安全性估計未能排除無效或重要傷害，且整體確定性低或極低。\n\n### 研究問題與納入範圍\n作者檢驗在既有 CHD 標準治療上加用益生菌或合生元，是否改變血脂、血糖、血壓及不良事件；對照組為安慰劑加相同標準治療。預先排除新診斷心肌梗塞、重複／撤稿、無全文或資料不完整及明顯統計錯誤的研究（§1–2.1，頁 2–3）。本文沒有評估心肌梗塞、心血管死亡或主要心血管事件作為療效終點。\n\n### 搜尋與方法\n- 6 個來源：PubMed、Embase、Cochrane Library、Web of Science、MEDLINE、ClinicalTrials.gov；已發表研究搜尋至 2026-05-01，無語言限制，另檢查相關文獻參考資料（§2.2，頁 3）。\n- 兩位研究者獨立篩選與擷取資料，分歧討論或由第三人處理；使用 Cochrane RoB 2 五領域評估偏倚（§2.3–2.5，頁 3）。\n- 連續結果以 MD、二元結果以 RR 和 95% CI；採隨機效應模型，異質性以 Q 與 I² 衡量。做逐一排除研究的敏感度分析；LDL-C 另按國家、年齡、介入型態、菌株、劑量與療程做探索性亞組（§2.6，頁 3–4）。\n- TSA 使用雙側 α=0.05、檢定力 80% 及 O’Brien–Fleming 型監測界線；GRADE 評估偏倚、不一致性、間接性、不精確性與出版偏倚。每個結果少於 10 項研究，依預設方法不做漏斗圖／Egger 檢定（§2.6–2.8，頁 4）。\n\n### 納入研究與介入\n- 篩選流程：2,657 筆記錄，去除 1,042 筆重複後篩選 1,615 筆；排除 1,568 筆題名／摘要不符，評估全文後再排除 41 項，最後納入 6 項 RCT（§3.1，頁 4）。\n- 296 位參與者，平均年齡 59.6 歲、女性 31.3%、平均 BMI 28.3 kg/m²；5 項在伊朗，1 項在中國。兩項納入 T2DM 患者，另有一項專收過重／肥胖者（§3.2，頁 4–5）。\n- 4 項使用單一菌株（主要為 Lactobacillus rhamnosus 或 Bifidobacterium lactis），2 項用多菌株組合；劑量 1.6×10⁹ 至 3×10¹⁰ CFU/日，療程 8–24 週。兩項合生元另含 inulin。各研究背景治療包括抗血小板藥、statin 與飲食管理；部分 T2DM 試驗使用 insulin。原文未充分列出併用藥物名稱、劑量與方案（表 1，頁 6）。\n\n### 風險偏倚概況\n5 項研究整體為「有一些疑慮」，主要涉及隨機程序細節、缺失資料或選擇性報告資訊不足；Sun et al. (2022) 因退出率超過 20%、缺失結果可能影響估計而判整體高風險。所有研究為安慰劑平行設計並報告受試者及研究人員盲法；生化結果測量偏倚均判低（§3.3，頁 5–6；圖 2）。\n\n### 統合結果\n| 結果 | 研究數／人數 | 合併估計（益生菌／合生元相對安慰劑） | 解讀 |\n|---|---:|---|---|\n| LDL-C | 5／252 | MD −9.50 mg/dL（95% CI −19.17 至 0.17），p=0.05；I²=67% | 未達統計顯著，異質性高，且敏感度分析不穩健 |\n| VLDL-C | 2／120 | MD −0.93 mg/dL（−5.70 至 3.84），p=0.70；I²=0% | 未顯著 |\n| HDL-C | 4／192 | MD +3.70 mg/dL（1.65 至 5.74），p=0.0004；I²=0% | 平均值上升；TSA 未達界線／資訊量，GRADE 低 |\n| 總膽固醇（TC） | 4／192 | MD −1.94 mg/dL（−12.41 至 8.52），p=0.72；I²=0% | 未顯著 |\n| 三酸甘油酯（TG） | 4／192 | MD −10.22 mg/dL（−31.19 至 10.75），p=0.34；I²=0% | 未顯著 |\n| 空腹血糖（FBG） | 4／192 | MD −19.25 mg/dL（−32.28 至 −6.22），p=0.004；I²=0% | 平均值下降；TSA 未達界線／資訊量，GRADE 低 |\n| Insulin | 2／120 | MD −2.60 μIU/mL（−5.43 至 0.22），p=0.07；I²=0% | 未顯著 |\n| HOMA-IR | 2／120 | MD −0.31（−1.46 至 0.84），p=0.60；I²=0% | 未顯著 |\n| QUICKI | 2／120 | MD 0.00（−0.01 至 0.01），p=1.00；I²=0% | 未顯著 |\n| 收縮壓（SBP） | 3／132 | MD −4.25 mmHg（−9.63 至 1.12），p=0.12；I²=0% | 未顯著 |\n| 舒張壓（DBP） | 3／132 | MD −2.40 mmHg（−6.26 至 1.47），p=0.22；I²=0% | 未顯著 |\n| 不良事件率（AER） | 2／104 | RR 2.00（0.20 至 20.49），p=0.56；I²=0% | 介入組 3.8%（2 例）、安慰劑 1.9%（1 例）；區間極寬，不能據此判定安全 |\n\n來源：脂質／糖代謝 §3.4.1–3.4.2（頁 6–7；圖 3–4）；血壓／安全 §3.4.3–3.4.4（頁 8；圖 5–6）。\n\n### LDL-C 亞組及敏感度\nLDL-C 總分析 I²=67%。中國單一試驗的估計為 −18.95 mg/dL（95% CI −22.75 至 −15.15），伊朗 4 項為 −4.21（−11.73 至 3.31）；單菌株、純益生菌與 24 週亞組也出現顯著結果。但這些差異分別受單一研究、僅 2 項研究或小亞組限制；年齡與劑量未顯示亞組差異，作者將所有亞組視為探索性、假設生成（§3.5，頁 9–10；表 2）。\n\n逐一排除試驗後，排除 Sun et al. 可使 LDL-C 的 I² 從 67% 降至 0%；排除 Tajabadi-Ebrahimi et al. 時，LDL-C 變為顯著（MD −12.28 mg/dL，95% CI −21.91 至 −2.66，p=0.01）。因此 LDL-C 結果被判不穩健。HDL-C 與 FBG 方向／顯著性在逐一排除分析中大致維持，但不會消除 TSA 未達資訊量及 GRADE 低確定性的問題（§3.6，頁 10；表 3）。\n\n### TSA、GRADE 與臨床幅度\n- HDL-C 的 TSA 假設效果為 MD 1.28 mg/dL、變異數 52.17，所需資訊量（RIS）1,000 人；FBG 假設效果 11.18 mg/dL、變異數 120.98，RIS 533 人。累積資料均未達 RIS，累積 Z 曲線均未跨過預設監測界線（§3.7，頁 10–11；圖 7）。\n- GRADE：LDL-C、AER 為極低；VLDL-C、HDL-C、TC、TG、FBG、insulin、HOMA-IR、QUICKI、SBP、DBP 為低確定性（§3.9，頁 11；表 4）。少於 10 項研究，因此沒有評估出版偏倚；這代表無法檢驗，不代表已排除偏倚。\n- 文中以非 CHD 專屬的 cardiometabolic-risk-factor 文獻作幅度參考：HDL-C 的 +3.70 mg/dL 略低於 3.86 mg/dL，FBG 的 −19.25 mg/dL 未達 28.82 mg/dL。這些不是已驗證的 CHD 專屬 MCID，也不是針對益生菌介入制定（§4.3，頁 15）。\n\n### 作者提出的解釋與前景\n作者指出，與部分先前統合分析的差異可能來自是否納入急性心肌梗塞患者，或是否把維生素 D／硒等微量營養素與益生菌共同介入；這些是可能解釋，本文資料不能確認因果。未來需更大規模、多中心、族群多元且較長期的 RCT，標準化菌株／配方／劑量、完整報告併用治療與安全性，並納入臨床心血管終點（§4.2–4.4，頁 12–16）。\n\n## 機轉白話講解\n**要點**：腸道菌相影響代謝與發炎是本文的研究背景假說；這 6 項試驗的統合結果本身沒有證明特定菌株如何作用，也沒有證明菌相變化能降低心肌梗塞或死亡。\n\n可把作者提出的路徑想成「腸道微生物—代謝訊號—血糖／血脂—動脈粥樣硬化」：腸道菌相失衡可能改變 p-cresol sulfate、phenylacetylglutamine 等代謝物及發炎訊號，進而與宿主糖脂代謝相關；益生菌或合生元因此被假設可能調節這些環節（§1，頁 2；§4.1，頁 11–12）。但本篇統合的是血中生化指標，沒有直接證實上述中介路徑。此處是整理作者背景模型，不是臨床效果已確立。\n\n## 臨床意義 / 怎麼用\n**要點**：可把本文當成證據不確定性的整理，不能據此承諾益生菌／合生元會改善冠心病預後，或取代標準藥物與飲食照護。\n\n- 對成人 CHD 營養照護：如討論益生菌／合生元，應說明研究只提供小型試驗的 HDL-C／FBG 生化訊號，GRADE 低且 TSA 不足；不要宣稱已證實降低 LDL-C、血壓、心肌梗塞或死亡風險。\n- 不應由「不良事件差異未顯著」推論已證實安全：只有 2 項研究、3 件事件，且未完整交代事件類型、嚴重度、因果性與監測方法（§3.4.4，頁 8；§4.2，頁 14）。\n- 不能把不同菌株、單菌／多菌、益生菌／合生元、劑量或療程互換；多數療程僅 8–12 週，長期效果未知（§3.2，頁 5–6；§4.4，頁 15–16）。\n- 讀者可記住：統計顯著的平均變化是「待確認的代謝訊號」，不是已證實的心血管臨床效益；標準 CHD 治療仍是兩組共同背景，本文沒有測試停用或替代治療。\n\n## 重要圖表重述\n**要點**：圖表共同呈現研究量少、兩項正向代謝估計仍不充分，以及 LDL-C 結果受異質性／單一研究影響。\n\n- 圖 1（頁 4）：從 2,657 筆搜尋記錄經重複去除、標題摘要與全文篩選後，留下 6 項研究。\n- 表 1（頁 6）：各試驗的國家、族群、菌株、劑量與療程差異大；可用來理解合併估計不是單一固定產品效果。\n- 圖 2（頁 5–6）：5 項整體有一些偏倚疑慮，Sun 2022 因缺失資料被判高風險。\n- 圖 3–6（頁 7–8）：HDL-C、FBG 的合併信賴區間未跨無效值；其餘大多跨無效值；LDL-C 的異質性高，AER 信賴區間非常寬。\n- 表 2–3（頁 9–10）：LDL-C 的亞組有顯著差異，但小亞組與單一研究使其只能產生假設；敏感度表將 LDL-C 列為不穩健。\n- 圖 7（頁 11）：HDL-C 與 FBG 累積資料均未達所需資訊量／監測界線。\n- 表 4（頁 14）：除 LDL-C、AER 為極低外，其他結果均低確定性。\n\n## 與既有認知的對照\n**要點**：本篇與已完成的同 DOI 品質評讀互補；可核對的同篇成果不等於主題知識庫搜尋。\n\n本次可確認同 DOI 已有獨立品質評讀，摘要／內容整理不重複其 RoB、GRADE 與方法品質判斷。執行環境未提供可搜尋的營養知識 vault 或 vault_search 入口，因此跨筆記的舊認知比對尚未核實；本文明確的增量是把 HDL-C／FBG 顯著結果與 TSA 未達界線、低確定性、非 CHD 專屬參考 MCID、沒有硬終點一併閱讀，避免只摘錄顯著數值。\n\n## 概念 / 名詞整理\n**要點**：解讀本篇要同時看合併估計、異質性、累積資訊量與證據確定性，不能只看 p 值。\n\n- CHD：冠狀動脈粥樣硬化造成的慢性缺血性疾病。\n- Probiotic / synbiotic：益生菌為活微生物介入；合生元為益生菌與支持其作用的益生元組合。本研究統合多種產品，不代表所有配方相同。\n- MD：平均差；本篇負值通常表示介入組測量值較低，HDL-C 正值表示較高。\n- RR：風險比；AER 的 RR 2.00 點估計偏向介入組事件較多，但 95% CI 0.20–20.49 極寬且跨 1，估計高度不確定。\n- I²：研究間觀察到的差異中，與異質性相關的比例指標；LDL-C 為 67%。\n- TSA / RIS：試驗序列分析／所需資訊量，用來評估累積證據是否足夠並控制隨機錯誤；未達門檻表示證據不足，並非證明效果不存在。\n- GRADE：將整體證據確定性分為高、中、低、極低；低／極低代表真實效果可能與目前估計有重要差異。\n- MCID：最小臨床重要差異；文中採用的 3.86 mg/dL（HDL-C）與 28.82 mg/dL（FBG）不是 CHD 專屬驗證門檻。\n- HOMA-IR、QUICKI：胰島素阻抗／敏感性的估算指標；本文合併結果未顯示顯著差異。\n\n## 自我測驗\n**要點**：先解釋研究設計及其限制，再用臨床決策語言說明數值的界線。\n\n> [!question]- Q1：本文中 HDL-C 與 FBG 的統計顯著結果，為何仍不足以證明益生菌能改善 CHD 預後？\n> 兩項均只有 4 項試驗、192 人，TSA 未達監測界線或所需資訊量，GRADE 為低；研究也未測量心肌梗塞、心血管死亡等硬終點。\n\n> [!question]- Q2：LDL-C 的總合併估計與敏感度分析如何改變解讀？\n> 總估計 MD −9.50 mg/dL，95% CI −19.17 至 0.17、I²=67%，未達統計顯著；排除不同單篇試驗會改變異質性或顯著性，因此作者判為不穩健。\n\n> [!question]- Q3：AER 的 p=0.56 是否代表介入已證實安全？為什麼？\n> 否。只有 2 項試驗、2 對 1 件事件，RR 2.00 的 95% CI 為 0.20–20.49；原研究也缺少事件類型、嚴重度、因果性和監測方式，安全性仍不確定。\n\n> [!question]- Q4：為何不能把 LDL-C 的中國、單菌株或 24 週亞組結果直接當作可用的配方建議？\n> 多數顯著分組只有一項或少數研究，亞組分析是探索性且統計力有限；國家、菌株、療程等因素彼此可能混雜，需直接比較且充分規模的試驗確認。\n\n> [!question]- Q5：若在 CHD 營養諮詢中被問到益生菌，本文支持怎樣的說法？\n> 可說目前小型試驗顯示 HDL-C／FBG 可能有變化，但確定性低且未證明心血管事件效益；不同菌株與劑量不能互換，不能以此替代標準 CHD 治療。\n\n## Reference\n**要點**：以下 DOI 是本文及內文關鍵方法／臨床幅度來源的可追溯入口。\n\n- Bai Y, Yu Y, Huang X, Yang X, Yu R, Xiang Q. Effects of probiotic or synbiotic supplementation on glycolipid metabolism in patients with coronary heart disease: a systematic review and meta-analysis. Frontiers in Microbiology. 2026;17:1877366. doi:10.3389/fmicb.2026.1877366. [本文 DOI](https://doi.org/10.3389/fmicb.2026.1877366)。PROSPERO：CRD420251178187。\n- Kiani S, Naghshi S, Saghafi-Asl M. 2024. 本文用於 HDL-C／FBG 臨床幅度參考值的來源，研究族群並非 CHD 專屬；doi:10.1016/j.ctim.2024.103086。\n- Page MJ et al. PRISMA 2020 statement. BMJ. 2021;372:n71. doi:10.1136/bmj.n71。",
+      "cards": [
+        {
+          "title": "顯著生化變化不等於心血管獲益",
+          "question": "本文中 HDL-C 與 FBG 的統計顯著結果，為何仍不足以證明益生菌能改善冠心病預後？",
+          "answer": "兩項均只有 4 項試驗、192 人，TSA 未達監測界線或所需資訊量，GRADE 為低；研究也未測量心肌梗塞、心血管死亡等硬終點。",
+          "tags": [
+            "coronary-heart-disease",
+            "probiotics",
+            "evidence-literacy"
+          ]
+        },
+        {
+          "title": "LDL-C 結果為何不穩健",
+          "question": "LDL-C 的總合併估計與敏感度分析如何改變解讀？",
+          "answer": "總估計 MD −9.50 mg/dL，95% CI −19.17 至 0.17、I²=67%，未達統計顯著；排除不同單篇試驗會改變異質性或顯著性，因此作者判為不穩健。",
+          "tags": [
+            "coronary-heart-disease",
+            "meta-analysis",
+            "heterogeneity"
+          ]
+        },
+        {
+          "title": "不顯著不能證明已知安全",
+          "question": "AER 的 p=0.56 是否代表介入已證實安全？為什麼？",
+          "answer": "否。只有 2 項試驗、2 對 1 件事件，RR 2.00 的 95% CI 為 0.20–20.49；原研究也缺少事件類型、嚴重度、因果性和監測方式，安全性仍不確定。",
+          "tags": [
+            "coronary-heart-disease",
+            "safety",
+            "evidence-literacy"
+          ]
+        },
+        {
+          "title": "亞組分析不能直接變成處方",
+          "question": "為何不能把 LDL-C 的中國、單菌株或 24 週亞組結果直接當作可用配方建議？",
+          "answer": "多數顯著分組只有一項或少數研究，亞組分析是探索性且統計力有限；國家、菌株、療程等因素彼此可能混雜，需直接比較且充分規模的試驗確認。",
+          "tags": [
+            "probiotics",
+            "subgroup-analysis",
+            "clinical-nutrition"
+          ]
+        },
+        {
+          "title": "臨床溝通的證據界線",
+          "question": "若在 CHD 營養諮詢中被問到益生菌，本文支持怎樣的說法？",
+          "answer": "可說目前小型試驗顯示 HDL-C／FBG 可能有變化，但確定性低且未證明心血管事件效益；不同菌株與劑量不能互換，不能以此替代標準 CHD 治療。",
+          "tags": [
+            "coronary-heart-disease",
+            "clinical-nutrition",
+            "shared-decision-making"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-11T10:12:04.364Z"
     }
   ]
 }
