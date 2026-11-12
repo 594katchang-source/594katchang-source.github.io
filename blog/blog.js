@@ -16,7 +16,7 @@ function categoryName(post){const value=String(post.category||'').trim();return 
 function postMeta(post){return [post.date,post.category?categoryName(post):''].filter(Boolean).join('｜')}
 function searchValue(post){return [post.title,post.excerpt,post.body,post.category,...(Array.isArray(post.keywords)?post.keywords:[])].map(value=>stripHtml(value||'')).join(' ').toLocaleLowerCase()}
 function imageSrc(post){const raw=String(post.image||'').trim();if(!raw)return'images/default.svg';if(/^https?:\/\//i.test(raw)||raw.startsWith('/'))return safeUrl(raw,'src')||'images/default.svg';if(raw.startsWith('blog/images/'))return raw.replace(/^blog\//,'');if(raw.startsWith('images/'))return raw;return `images/${encodeURIComponent(raw).replace(/%2F/g,'/')}`}
-function card(post){return `<a class="post-card" href="post.html?id=${encodeURIComponent(post.id)}"><img class="post-thumb" src="${escapeHtml(imageSrc(post))}" alt=""><div><div class="post-meta">${escapeHtml(postMeta(post))}</div><h3>${escapeHtml(post.title||'')}</h3><p>${escapeHtml(summary(post))}</p><div class="keywords">${keywords(post).map(k=>`<span>${escapeHtml(k)}</span>`).join('')}</div></div></a>`}
+function card(post){return `<a class="post-card" href="${encodeURIComponent(post.id)}.html"><img class="post-thumb" src="${escapeHtml(imageSrc(post))}" alt=""><div><div class="post-meta">${escapeHtml(postMeta(post))}</div><h3>${escapeHtml(post.title||'')}</h3><p>${escapeHtml(summary(post))}</p><div class="keywords">${keywords(post).map(k=>`<span>${escapeHtml(k)}</span>`).join('')}</div></div></a>`}
 function renderDirectory(posts){
   const list=document.querySelector('#posts');
   const search=document.querySelector('#post-search');
@@ -77,7 +77,7 @@ function renderRelatedPosts(currentPost, allPosts) {
       <h2 style="font-size:1.4rem;color:var(--green-dark);margin-bottom:20px;">💡 延伸閱讀・精選衛教文章</h2>
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;">
         ${candidates.map(p => `
-          <a class="service-card" href="post.html?id=${encodeURIComponent(p.id)}" style="display:block;text-decoration:none;padding:18px;border-radius:18px;">
+          <a class="service-card" href="${encodeURIComponent(p.id)}.html" style="display:block;text-decoration:none;padding:18px;border-radius:18px;">
             <div style="font-size:1rem;color:var(--muted);margin-bottom:6px;">${escapeHtml(p.date || '')}</div>
             <h3 style="font-size:1.15rem;line-height:1.4;margin-bottom:8px;color:var(--ink);">${escapeHtml(p.title || '')}</h3>
             <p style="font-size:1rem;color:var(--muted);margin:0;line-height:1.6;">${escapeHtml(summary(p))}</p>

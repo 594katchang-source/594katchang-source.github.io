@@ -1,6 +1,42 @@
 # Kat Chang site 工作日誌
 
-## 2026-10-15｜全新旗艦教具「智慧餐食與份數分配器 (	each/meal-planner/)」上線、三大肉類脂肪方案連動、2~6餐分配與一鍵生成循環示範菜單
+## 2026-11-12｜10 月全月行銷結算、11 月 GSC 數據覆核與兩大行銷扭轉戰術全面部署（反哺 class.html 與專文 SSG 靜態化）
+
+### 任務背景與 GSC 數據審查成果
+
+1. **10 月份完整全月行銷指標結算**：
+   - 官方 GSC API 數據涵蓋 10/01～10/31 完整 31 天（點擊 4 次、曝光 25 次、CTR 16.00%、平均排名 3.88 名）。
+   - **檢驗重點 1（class.html 排名）**：由 10.82 名躍升至 **6.60 名**（大幅進步 4.22 名，卡在第 6.6 名未達前 5 名）。
+   - **檢驗重點 2（CTR 達 28.42%+）**：首頁達 25.00%，但全站平均為 16.00%（未達標）。
+   - **檢驗重點 3（曝光與點擊翻倍）**：未達標（新教具集中上線使 Google 爬蟲預算處於探索沙盒期）。
+   - **檢驗重點 4（Ch 1 專文痛點標題點擊破冰）**：整月僅獲 1 次曝光，維持 0 點擊（動態參數 post.html?id=... 嚴重限制長尾分發）。
+2. **11 月最新即時走勢（11/01～11/10）重磅突破**：
+   - 互動教具總目錄 `https://594katchang-source.github.io/teach/` 首次進入搜尋曝光，官方平均排名 **第 1.00 名（Google SERP 榜首）**！
+
+### 兩大扭轉戰術全面落地部署
+
+1. **戰術一：借力 `teach/` 第 1 名光環，全站 65 條強內鏈全面反哺 `class.html`**：
+   - `teach/index.html` 頂部加入深綠／金黃高對比旗艦橫幅，精準導流至 `class.html`。
+   - 三大影片資料庫（料理、運動、活動資料庫）頂部加入專屬講座橫幅，彈窗（Modal）加入「💡 單位授課邀約」專屬邀請條。
+   - 主打教具（`daily-needs`、`food-exchange`）於結果與速查區下方加入實體講座導流卡。
+   - 經 `verify_links.py` 實測：全站連結至 `class.html` 之獨立檔案達 **27 個**，內鏈總數激增至 **65 條**！
+2. **戰術二：衛教專文靜態化 (SSG) 自動化部署，徹底破除 1 次曝光瓶頸**：
+   - 建立 `generate_static_posts.py`，一鍵編譯輸出 12 篇獨立實體 HTML（如 `blog/2026-08-14-food-choices-human-health-guide.html`）。
+   - 每個 HTML 具備專屬 Title, Description, Keywords, Canonical, Open Graph, Twitter Cards, Schema.org `BlogPosting` 與 `BreadcrumbList`。
+   - 正文 100% 預渲染，免執行 JavaScript 即可被爬蟲完整索引 11,000+ 字長尾詞。
+   - `blog/post.html` 加入即時轉址，無縫相容舊網址；`blog/blog.js` 卡片與延伸閱讀直接鏈結至實體 HTML。
+3. **全站 SEO & GEO 自動同步維護**：
+   - 升級 `tools/sync_seo_and_geo.py`，全站 Sitemaps（29 個 URL，lastmod 全面更新至 2026-11-12）、`sitemap.html`、`llms.txt`、`llms-full.txt` 與 `robots.txt` 100% 同步。
+
+### 驗證
+
+- 本地與遠端同步：已透過 `git fetch` 檢測並合併 GitHub 遠端 Paper Radar 數據更新（Fast-forward to `9ea0162`），無衝突。
+- `tools/sync_seo_and_geo.py` 退出碼 0，Sitemaps 29 個 URL 結構完好。
+- 12 篇靜態文章檔案均已實體驗證（檔案大小 10KB~21KB，各頁均含 Schema 與 class 鏈結）。
+
+---
+
+## 2026-10-15｜全新旗艦教具「智慧餐食與份數分配器 (teach/meal-planner/)」上線、三大肉類脂肪方案連動、2~6餐分配與一鍵生成循環示範菜單
 
 ### 任務
 

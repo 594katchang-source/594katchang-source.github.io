@@ -70,7 +70,7 @@ pages_info = [
         "items": [
             {
                 "title": f"衛教：{p['title']}",
-                "url": f"{BASE_URL}/blog/post.html?id={urllib.parse.quote(p['id'])}",
+                "url": f"{BASE_URL}/blog/{urllib.parse.quote(p['id'])}.html",
                 "desc": f"【{p.get('date', TODAY)}】{p.get('excerpt', '')[:85]}...",
                 "priority": "0.8",
                 "changefreq": "monthly"
@@ -242,7 +242,7 @@ Kat Chang 張雁雲營養師是食品營養博士（高齡健康組）、美國�
 
 """
 for p in posts:
-    p_url = f"{BASE_URL}/blog/post.html?id={urllib.parse.quote(p['id'])}"
+    p_url = f"{BASE_URL}/blog/{urllib.parse.quote(p['id'])}.html"
     llms_txt_content += f"- {p['title']} ({p.get('date', TODAY)})：{p_url}\n"
 
 llms_txt_content += f"""
@@ -310,7 +310,7 @@ llms_full_content = f"""# Kat Chang 凱特營養師 - 完整知識庫與實證�
 
 """
 for p in posts:
-    p_url = f"{BASE_URL}/blog/post.html?id={urllib.parse.quote(p['id'])}"
+    p_url = f"{BASE_URL}/blog/{urllib.parse.quote(p['id'])}.html"
     llms_full_content += f"""### 文章：{p['title']}
 - **發布日期**：{p.get('date', TODAY)}
 - **原文網址**：{p_url}
@@ -442,7 +442,7 @@ if bp.exists():
     bc = bp.read_text(encoding="utf-8")
     fallback = '\n      <!-- SEO Pre-rendered Crawler Article Index -->\n      <noscript>\n        <div class="seo-fallback-articles" style="margin-top:20px;padding:20px;background:#fff;border-radius:16px;">\n          <h3>文章索引清單</h3>\n          <ul>\n'
     for p in posts:
-        fallback += f'            <li><a href="{BASE_URL}/blog/post.html?id={urllib.parse.quote(p["id"])}">{p["title"]}</a></li>\n'
+        fallback += f'            <li><a href="{BASE_URL}/blog/{urllib.parse.quote(p["id"])}.html">{p["title"]}</a></li>\n'
     fallback += '          </ul>\n        </div>\n      </noscript>\n'
     
     if "<!-- SEO Pre-rendered Crawler Article Index -->" in bc:
