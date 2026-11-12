@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T09:18:43.687Z",
+  "generatedAt": "2026-11-12T11:19:11.552Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -112743,6 +112743,33 @@
         }
       ],
       "completedAt": "2026-11-12T09:16:36.945Z"
+    },
+    {
+      "id": "doi:10.1007/s13340-026-00948-9:review",
+      "paperId": "doi:10.1007/s13340-026-00948-9",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Evidence generation for diabetes prevention and treatment through the integration of clinical medicine, nutritional epidemiology, and behavioral science.",
+      "authors": "Baden, Megu Y.",
+      "journal": "Diabetology International",
+      "year": "2027",
+      "doi": "10.1007/s13340-026-00948-9",
+      "abstract": "Diet and other lifestyle factors are central to diabetes prevention and management. Effective dietary and lifestyle support requires consideration of differences in pathophysiology, food culture, and living circumstances. This narrative review summarizes our research integrating clinical medicine, nutritional epidemiology, and behavioral science, with a particular focus on diet quality. Analyses of large US cohorts showed that higher-quality plant-based diets were associated with lower risks of stroke and mortality. In longitudinal biomarker analyses, increases in healthful plant-based diet scores were associated with favorable changes in high-sensitivity C-reactive protein, whereas increases in unhealthful plant-based diet scores were associated with unfavorable changes in inflammatory biomarkers. Metabolite profiles related to healthful plant-based diets were also associated with lower type 2 diabetes risk. Building on earlier work on adiponectin and type 1 diabetes, our studies in Japan showed that even small weight changes were associated with type 2 diabetes risk, depending on age and baseline body mass index. Visceral fat correlated with ectopic fat, and fast eating and eating late at night were associated with greater pancreatic fat deposition. In older adults, lower sweet taste sensitivity was associated with frailty and poorer mental health-related quality of life. These findings suggest that diet quality and lifestyle should be assessed together with each person's metabolic characteristics and living circumstances. Intervention and implementation studies based on this largely observational evidence are the next step toward individualized diabetes prevention and care.",
+      "legalFullTextUrl": "https://link.springer.com/article/10.1007/s13340-026-00948-9",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43011226/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "chronic disease nutrition",
+        "design:longitudinal",
+        "nutrition and dietary pattern",
+        "precision nutrition",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "糖尿病飲食照護：飲食品質、脂肪分布與生活情境的證據界線",
+      "content": "---\ndoi: \"10.1007/s13340-026-00948-9\"\njournal: \"Diabetology International\"\nyear: 2027\nauthors: \"Megu Y. Baden\"\nstudy_type: \"narrative review\"\nreview_depth: \"quick\"\nmode: \"focused-quick\"\ncitekey: \"\"\npmid: \"\"\nzotero: \"\"\n---\n# 糖尿病飲食照護：把飲食品質、脂肪分布與生活情境一起評估\n\n> [!info] 品質快照\n> **設計**：作者研究系列的敘述性綜論／獲獎演講整理；沒有新的合併樣本數。\n> **RoB**：以 SANRA 與選文偏差檢查；文獻搜尋未報告、主要介紹作者自身研究，完整性有疑慮。\n> **GRADE**：不適用於這篇非系統性綜論的整體結論；未逐篇核對原始研究，不能替引用研究給正式 outcome GRADE。\n> **Registration**：不適用。**一句話 verdict**：適合整理營養評估問題，不足以單獨證明某種飲食或進食習慣能預防糖尿病。\n\n## Summary\n✅ Full text reviewed。使用正式 Worker 已驗證的出版社 HTML，涵蓋 Introduction 至 Conclusions、References、資助與利益衝突。DOI／題名皆精確匹配，CC BY 4.0 metadata 已核對。本文不是新的 RCT 或系統性回顧，沒有新的共同樣本數或 pooled estimate。\n\n## 全文結構與逐段閱讀\n段號沿本次從原始 HTML 抽出的 h2/h3/p 索引；排除推薦卡片與導覽。\n- §Introduction，p13：用 DPP 隨機試驗引入生活介入與糖尿病預防；p14：說明東亞較低 BMI 即出現代謝風險與情境差異；p15：界定這是作者既有美日研究的敘述性整理。\n- §Diet quality，p17：介紹美國 NHS、NHS II、HPFS 及重複飲食測量；p18：解釋 hPDI 與 uPDI 都可降低動物性食物分數，卻依植物食物品質給出相反方向。p19/Fig.1 圖說整理中風、死亡、發炎與代謝體結果。\n- §Plant-based diet，p21：較高 hPDI 與較低中風風險相關，uPDI 結果未顯著；p22：16年飲食分數變動與死亡率相關，不能由此直接推為改變分數的治療效果。\n- §Inflammatory biomarkers，p24：831名女性的重複血液樣本顯示飲食品質與發炎指標變動相關；p25：10,684人的代謝體分數與糖尿病風險相關，尚不等同可用臨床檢驗。\n- §Healthy dietary patterns，p27：119,315人的四種飲食指標皆與較低死亡率相關，提示可容納不同文化飲食型態。\n- §Sleep trajectories，p29：60,068名女性的睡眠軌跡與糖尿病相關，BMI調整使關聯減弱。\n- §Clinical studies / Adiponectin，p32：日本健檢資料連結 adiponectin 與代謝異常／血壓；p33：另述第一型糖尿病與細胞研究，不能當作成人飲食介入成效。\n- §Weight change，p35：41,539人的體重變化與糖尿病風險依 BMI、年齡而異；p36：84人的 CT 研究連結內臟脂肪與異位脂肪。\n- §Eating behaviors，p38：185人與99人的小型觀察研究連結餐次、吃太快、晚吃與胰臟脂肪；p39：70位高齡者的味覺與衰弱／生活品質相關。\n- §Conclusions，p41：作者主張整合飲食品質及個人情境；p42：明確承認多為觀察性證據，需介入與實作研究。\n- References p44–83：20筆引用已逐項掃讀書目；本次 quick 未另開各篇全文查核。Acknowledgements p86、COI p100、贊助角色 p104 與日期 p111–115 均讀取。\n\n## 白話導讀\n> [!abstract] 整篇講給你聽\n> **一句話**：問病人「吃不吃植物性食物」還不夠，也要問吃的是豆類全穀，還是精製點心與含糖飲料。\n> **為什麼做**：同樣體重或 BMI 的人，脂肪分布、代謝特性、飲食文化與生活作息可能不同。\n> **主題一／飲食品質**：大型追蹤研究支持把植物食物的品質分開看；這仍是關聯，不能把分數換算成個人風險保證。\n> **主題二／生物標記**：發炎指標與代謝體有相關訊號，但本文沒有提供足以採用新檢驗的外部驗證或決策效益。\n> **主題三／日本臨床觀察**：體重變化、異位脂肪與進食習慣提供評估方向；樣本及設計不足以推出固定餐次或用餐時間處方。\n> **主題四／高齡照護**：味覺變化可以提醒進一步問食慾與進食障礙，不能單憑味覺診斷衰弱。\n> **所以呢**：可據此改善問診內容，但實際介入仍需結合病人的營養狀態、既有指引與偏好。\n\n## Clinical Application\n- **適用情境**：成人糖尿病預防或慢性病營養評估；本文支持提出更完整的問題，沒有提供新的標準化治療方案。\n- **實務做法**：在植物性食物之外，分別記錄全穀／豆類／蔬果與精製零食／含糖飲料；補問睡眠、餐次、進食速度及晚間進食情境。屬本次評讀的實務延伸，非本文證實有效的整套介入。\n- **安全邊界**：不能由觀察性餐次結果要求所有人增加或減少餐次；不能由體重變動關聯要求高齡或低 BMI 者減重。75歲以上次群未見顯著關聯，也不證明完全無效。\n- **在地適用性**：日本資料與台灣有部分情境可比，但來源不同、樣本選擇與飲食型態仍限制外推；美國護士／健康專業人員隊列也非台灣一般族群。\n- **Protocol／劑量／MCID**：本文沒有可直接採用的介入頻率、營養劑量、絕對風險差或 MCID；不補造數值。\n\n## Methods\n- 單一作者將本人參與的美國營養流行病學與日本臨床研究串聯，源自日本糖尿病學會獲獎演講。\n- 未報告文獻資料庫、搜尋日期、納排條件、重複篩選、品質評估或系統性合併方法；不能稱為 SR/MA。\n- 各引用研究的樣本與統計不同，存在重複隊列，不可將人數直接加總。\n- 本文未提供新的樣本數推估、介入分組或 ITT 分析；這些 RCT 檢查不適用於綜論本身。\n\n## Key Findings\n所有數值均為本文轉述的既有研究，未在本次 quick 獨立重算。\n| 來源段落 | 指標與結果 | 解讀邊界 |\n|---|---|---|\n| p21；ref4 | 209,508人，hPDI最高對最低五分位中風 HR 0.90，95% CI 0.83–0.98；uPDI HR 1.05，0.96–1.15 | uPDI CI跨1；沒有提供本次可計算NNT的絕對事件率 |\n| p22；ref5 | 75,314人，每增加10分hPDI，死亡 HR 0.84，0.82–0.87；uPDI HR 1.20，1.16–1.24 | 飲食改變與死亡的觀察性關聯，不等同介入風險降低 |\n| p24；ref6 | 831名女性，hPDI增加10分與hsCRP相對變化低17.8%相關，95% CI −26.3%至−8.4% | 不是hsCRP降低17.8個百分點；hPDI與IL-6關聯未顯著 |\n| p25；ref7 | 10,684人，hPDI代謝體分數每1 SD，T2D HR 0.77，0.71–0.84；uPDI HR 1.03，0.95–1.11 | 代謝體替代指標與風險關聯，非飲食介入效果 |\n| p29；ref9 | 60,068名女性，睡眠減少軌跡於BMI調整後 HR 1.24，1.03–1.50 | 部分關聯經BMI調整減弱；可能混雜或中介，本文不足判定 |\n| p35；ref15 | 41,539人，依年齡／基線BMI分層；75歲以上未見顯著關聯 | 次群不顯著不等同次群間差異已證實 |\n| p38–39；refs18–20 | 185人與99人的胰臟脂肪研究；70位高齡者平均82歲的味覺研究 | 不能從小型觀察結果推出餐次或味覺介入療效 |\n\n## Critical Appraisal\n### SANRA 與選文偏差檢查\n| Domain | 判定 | 理由 |\n|---|---|---|\n| 主題重要性 | 🟢 | 將飲食品質、代謝及生活情境連結到糖尿病照護，動機清楚（p13–15） |\n| 具體目的 | 🟢 | 明確整理作者研究並討論個人化照護方向（p15） |\n| 文獻搜尋描述 | 🔴 | 沒有可重現搜尋策略、選文標準或搜尋截止日 |\n| 引用關鍵主張 | 🟢 | 主要人數與效應值附近均有對應引用；但本次未獨立驗證原始研究 |\n| 科學推論與矛盾證據 | 🟡 | 承認觀察性限制與未顯著結果；主軸為作者自身研究，外部反證未系統整理 |\n| 資料呈現與終點 | 🟡 | 提供多個HR/CI及圖說，但未系統列出絕對風險、各研究RoB或所有分析 |\n整體：具有教學整合價值，但文獻選擇偏差與證據完整性疑慮，不能給等同系統性回顧的確定性。\n\n### 統計、Spin 與推論界線\n- HR不是絕對風險降低，也不是RR的直接同義詞；本篇沒有各比較的基準絕對風險，不能算NNT。\n- 發炎或代謝體是不同層級指標，不可直接當成病人重要終點的介入成效。\n- 不顯著的uPDI中風、uPDI代謝體與糖尿病、hPDI與IL-6，以及75歲以上分層結果均保留，不只摘錄正向結果。\n- 作者結論明確指出需介入研究；若改寫成「植物性飲食造成風險下降」「少吃一餐造成胰臟脂肪增加」，會超出本文證據。\n- MCID、fragility index、ITT及試驗註冊：對這篇敘述性綜論不適用；未替20篇不同原始研究補造檢查結果。\n- GRADE：沒有系統性界定的單一outcome證據體與逐篇RoB，故不給正式整體GRADE，未執行不適用的grade_judge運算。不能把這點寫成高／低證據已算出。\n\n### Funding／COI 與限制\n- 作者屬Kubara Honke Group資助的endowed department；部分研究由KAKENHI、AMED及基金會支持。演講贊助商Sanofi聲明未參與研究內容與稿件準備（p86、100、104）。\n- 作者承認殘餘混雜、測量誤差及外部適用性限制（p42）。\n- 本次補充限制：自選本人研究、重複隊列、缺少正式搜尋與納入品質評估；未量化跨研究異質性或發表偏差。\n- 未把細胞／免疫治療相關段落當作成人營養介入證據。\n\n## Source 與驗證\n- [出版社全文](https://link.springer.com/article/10.1007/s13340-026-00948-9)；[DOI](https://doi.org/10.1007/s13340-026-00948-9)\n- 原文首次公開2026-11-10；卷年2027，兩者分開記錄。\n- 全文讀取、段落索引、首項Introduction／中項biomarkers／末項Conclusions與COI均以同一Worker source.html核對。\n- Quick模式未執行作者h-index、期刊指標、引用影響力、外部撤稿搜尋、逐引用Crossref查核及原始研究全文查核；不將未查寫成無問題。\n- 本文為原創品質評讀與教學表達，未重製原文全文或圖表。公開只含此評讀。",
+      "cards": [],
+      "completedAt": "2026-11-12T11:17:24.843Z"
     }
   ]
 }
