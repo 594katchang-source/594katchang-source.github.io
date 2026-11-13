@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T08:10:57.253Z",
+  "generatedAt": "2026-11-13T08:17:16.623Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -113068,6 +113068,75 @@
       "content": "---\ndoi: \"10.15430/jcp.26.050\"\ntitle: \"Dietary Regulation of the Tumor Immune Microenvironment in Cancer Immunotherapy.\"\nauthors: \"Xiancai Zhong; Hongmin Wu; Hye-Kyung Na\"\njournal: \"Journal of Cancer Prevention\"\nyear: 2026\npmid: \"42996510\"\nstudy_type: \"narrative review\"\nreview_depth: \"quick\"\ncitekey: \"Zhong2026DietTIME\"\nzotero: \"\"\n---\n\n> [!info] 品質快照\n> **設計**：敘述性回顧，整合細胞、動物及人體研究；不是系統性回顧、統合分析或臨床試驗。\n> **n**：沒有本篇新收案或可計算的合併樣本；文末154筆參考文獻不等於154項合格臨床試驗。\n> **品質工具（SANRA）**：主題與論證清楚，主動呈現相反結果；檢索與選文透明度不足，不能確認證據完整性。\n> **GRADE**：不適用整篇單一分級。各飲食／補充品、癌別及終點差異大，本文沒有建立可供逐終點評級的系統性證據體；不硬套GRADE腳本產生虛假整體等級。\n> **Registration**：敘述性回顧，未提供預先方案；不誤稱為未登錄RCT。\n> **一句話判讀**：值得用來理解「飲食如何可能影響腫瘤免疫」，不足以開立「飲食已能提高免疫治療療效」的處方。\n\n# Key Points\n\n## Summary\n\n✅ 依序閱讀19頁合法PDF，包含主文、Figure1、Table1兩頁、結論、資助／利益衝突及文末參考文獻。以下頁碼為PDF原頁，括號另附期刊頁時會明示。\n\n- 主張沿著三條路徑建立：直接影響免疫細胞、改變全身代謝、改變腸道菌與代謝物（pp.4–5）。這是合理的研究架構，尚不是人體治療效果證明。\n- 腫瘤細胞和T細胞都需要葡萄糖與胺基酸；==「減少腫瘤可用養分」不能直接推成「讓病人少吃」==（pp.7、9）。\n- 人體觀察包括膳食纖維、維生素D及==91名接受ICB病人的地中海飲食世代研究==。本文沒有提供足以重建這些效果的完整效應值、95%CI與調整模型（Table1、pp.8–9、12）。\n- 作者明確指出：本文回顧的飲食介入，尚未確立為改善癌症免疫治療結果的有效策略（pp.13–14）。「未確立」不是「已證明無效」。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> **一句話**：飲食可能改變腫瘤周圍的免疫環境，但同一營養素可能同時影響腫瘤與免疫細胞，不能只看一個機轉就決定補或限。\n>\n> **為什麼做**：免疫治療並非每位病人都有效。作者想整理飲食、營養代謝與免疫治療反應之間可能的連結。\n>\n> **免疫屏障**：T細胞進不去或耗竭、免疫抑制細胞與訊號、缺氧及養分競爭、腸道菌相，是四組問題（pp.2–4）。\n>\n> **巨量營養素**：葡萄糖同時支持腫瘤與T細胞；纖維與SCFAs作用依細胞類型改變；脂肪代謝可能支持T細胞，也可能造成脂質過氧化；胺基酸局部競爭不等於飲食限制（pp.7–9）。\n>\n> **維生素、微量礦物質與植化素**：維生素D有人體觀察資料；A、C、鋅、硒及多酚多來自機轉研究。高劑量、純化物或特殊製劑，不等於普通食物攝取（pp.9–12）。\n>\n> **飲食型態**：地中海飲食目前是觀察性關聯；生酮與模擬斷食主要提供動物或轉譯線索，不能直接當免疫治療的常規加成療法（pp.12–13）。\n>\n> **所以呢**：這篇最適合協助營養師辨識宣稱跨越了哪一層證據。面對體重下降、食慾差或腸胃毒性的病人，不能為了未確立的抗腫瘤飲食效果犧牲營養狀態（pp.13–14）。\n\n## Clinical Application\n\n- **適用情境**：接受癌症免疫治療者的營養討論與研究判讀。不是特定癌別的實證營養處方指引。\n- **可以帶走的做法**：問清楚目前飲食、體重／攝取變化及補充品；說明觀察性關聯、免疫標記與臨床終點的差別。此為評讀者依本文限制提出的諮詢框架，不冒稱本文試驗過此流程。\n- **本文不能支持的處方**：沒有通用的限醣、限蛋白、生酮、斷食、維生素D或多酚治療劑量與療程；不從動物、細胞或藥理劑量換算成人食物用量。\n- **重要注意**：限制性飲食的體重、營養狀態與治療耐受風險需與癌症照護團隊評估。純化EGCG不等於綠茶；高劑量ascorbate不等於多吃含維生素C食物；細胞免疫變化不等於延長存活。\n- **在地適用性**：人體飲食型態資料主要來自黑色素瘤與特定ICB情境。不能直接外推所有台灣癌別、治療組合或營養不良病人。本文沒有台灣給付問題，本次不另查給付。\n\n# Paper Details\n\n## Methods\n\n作者從TIME屏障切入，依巨量營養素、微量營養素、食物活性成分及飲食型態分組，逐項比較機轉、動物及部分人體研究。Figure1提供三路徑概念架構，Table1將研究模型、免疫效應與免疫治療結果分欄，這有助避免把不同層級混在一起。\n\n全文未報告資料庫、完整檢索式、檢索截止日期、納入／排除規則、雙人篩選、研究流向或逐研究偏差評估。沒有統合效應、I²或發表偏差分析。這些不是證明作者沒有閱讀，而是讀者無法據此重現選文或判斷遺漏了什麼；也不應套用AMSTAR-2或PRISMA給它假裝系統性回顧的分數。\n\n## Key Findings：依全文結構逐段重點\n\n| 章節與位置 | 本段重點與證據界線 |\n|---|---|\n| Introduction，pp.1–2 | 全身營養狀態與局部TIME可能相連；本文旨在建立機轉與轉譯架構。 |\n| T-cell exclusion/exhaustion，p.2 | 有T細胞不等於有持續功能；空間進入、分化與代謝皆重要。 |\n| Suppressive signaling，pp.2–3 | Tregs、TAMs、MDSCs藉訊號、細胞激素與代謝物抑制效應細胞。 |\n| Hypoxia/nutrient competition，p.3 | 缺氧、葡萄糖／胺基酸競爭及乳酸形成限制；並非營養素一律有害。 |\n| Microbiota與dietary routes，pp.4–5 | 直接、全身代謝與菌相三路徑；病人菌相關聯與小鼠移植結果需分開。 |\n| Carbohydrates，pp.4、7 | 葡萄糖不足可能同時削弱T細胞；工程化T細胞研究不是飲食試驗。 |\n| Fiber/SCFAs，pp.7–8 | 有人體PFS關聯，也有不同細胞作用方向與多小鼠模型不一致結果。 |\n| Lipids/SPMs，pp.8–9 | 抗發炎、炎症消退與抗腫瘤免疫不是同義詞；efferocytosis有時促進免疫逃脫。 |\n| Amino acids，p.9 | Arg、Trp、Met、Gln的局部代謝可影響T細胞；不可直接推出限制或補充某胺基酸。 |\n| Vitamins/minerals，pp.9–10 | D的人體資料為觀察性；其他多為前臨床，缺直接可行臨床介入證據。 |\n| Curcumin，pp.10–11 | 有病人細胞／免疫比例變化，未等同改善免疫治療臨床結果。 |\n| Resveratrol，p.11 | 可增加也可減少PD-L1，且表面量、總量與功能不能混為一談。 |\n| EGCG，pp.11–12 | 純化物的前臨床作用不等於喝綠茶可改善免疫治療。 |\n| Mediterranean diet，p.12 | 91人世代研究的治療前習慣飲食關聯，不是診斷後改吃即可增加療效的因果證明。 |\n| Ketogenic diet，pp.12–13 | 小鼠3HB／GPR109A機轉值得研究，尚不足常規用於病人。 |\n| Fasting/FMD，p.13 | 有人體可行性與免疫標記結果，但改善ICB反應未確立，營養風險不可略過。 |\n| Conclusion，pp.13–14 | 強調證據不均、混雜、食物／製劑暴露差異、方向衝突與營養安全，提出前瞻試驗需求。 |\n| 文末，pp.14–19 | 資助與編輯角色揭露；154筆引用已掃讀，focused-quick未做全部原研究語義查核。 |\n\n## Critical Appraisal\n\n| SANRA面向 | 判定 | 全文依據 |\n|---|---|---|\n| 主題重要性 | 🟢 清楚 | ICB抗性與飲食可調整性連結，pp.1–2。 |\n| 具體目的 | 🟢 清楚 | 分組整合機轉、前臨床與人體證據，p.2。 |\n| 文獻搜尋描述 | 🔴 未報告 | 沒有可重現的檢索方法與篩選資訊。 |\n| 引用與關鍵陳述對應 | 🟡 有引用但未全面核實 | Table1和各段有來源編號；本次未逐篇驗證154筆原研究，不能當成皆已查核。 |\n| 科學推理與相反證據 | 🟢 有節制 | SCFAs、脂質、resveratrol均列相反或情境依賴結果，pp.8–11。 |\n| 結果資料呈現 | 🟡 方法學層級清楚，量化不足 | 表格有模型／族群與結果層級，但人體效應值、CI、樣本細節不完整；無法依本文單獨重算。 |\n\n**整體品質判斷**：敘事與證據層級辨識有用；因選文程序不透明，完整性與選擇性引用風險仍未解決。不把SANRA當因果偏差工具或臨床療效等級，也未自行編造0–12總分。\n\n**統計與MCID**：本篇沒有合併估計或自己的主要臨床終點，不適用ITT、fragility index、MCID或meta-analysis異質性重算。91名病人的研究沒有在此提供完整組間效應與CI，不能補寫HR、OR、P值或給出每多吃多少便改善多少的數字。\n\n**Spin／論證**：摘要使用潛力與未來研究語氣，結論更明確否定「已確立飲食改善療效」的說法。把這個有限主張以association、mechanistic、surrogate三類前提交由argdown_lint.py檢查；乾淨結果只代表這張論證圖未觸發既定規則，不是證明臨床有效。若把同樣前提改說成延長存活，就跨越了本文證據。\n\n**GRADE適用性**：不對「所有飲食改善所有癌症免疫治療」創造單一GRADE；若要形成臨床建議，需另建立特定PICO及完整系統性證據體再逐終點計算。本次未執行不適用的grade_judge，不把敘述性回顧包裝成Very low療效統合。\n\n**作者承認的限制**：前臨床與觀察資料多、殘餘混雜、飲食測量誤差、藥理濃度與食物暴露不等、吸收及代謝差異、不同癌別與病人狀態、限制飲食營養風險（pp.13–14）。評讀補充：缺搜尋截止與選文規則、人體結果量化不足，使讀者難以查出選擇性遺漏與效果精確度。\n\n**資助／COI**：韓國NRF政府研究資助RS-2025-16072749。Hye-Kyung Na為期刊Associate Editor，Xiancai Zhong為Editorial Board成員；聲明兩人未參與此稿審查、選審稿者或決策。這是已揭露的編輯關係，不是未證實的操控審稿指控（p.14）。\n\n# Resource\n\n## Source\n\n- [原論文DOI](https://doi.org/10.15430/JCP.26.050)\n- [PubMed](https://pubmed.ncbi.nlm.nih.gov/42996510/)\n- 合法出版社PDF19頁，來源DOI、題名與首頁CC BY-NC文字已核對。全文SHA-256：be2e084b95ae69af40ca083fcc369acc21f0fba33092ab9afa76f688ca8a38b4。\n- 首／中／末PDF原頁1、10、19已視覺核對；Table1等其餘資料依原PDF抽文逐頁閱讀。本次未宣稱19頁均完成視覺驗收。\n\npaper-review focused-quick實際閱讀。期刊指標、作者背景、廣泛引用查核依模式略過；出版社HTML工具開啟失敗，不當作來源不存在，也未反覆換路重打。本文為自行撰寫評論，不公開原PDF、原文圖表或全文翻譯。citekey僅作筆記識別，未假稱建立Zotero項目。",
       "cards": [],
       "completedAt": "2026-11-13T05:46:31.409Z"
+    },
+    {
+      "id": "doi:10.15430/jcp.26.050:digest",
+      "paperId": "doi:10.15430/jcp.26.050",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Dietary Regulation of the Tumor Immune Microenvironment in Cancer Immunotherapy.",
+      "authors": "Zhong X, Wu H, Na H",
+      "journal": "",
+      "year": "",
+      "doi": "10.15430/jcp.26.050",
+      "abstract": "Cancer progression is driven by complex interaction among malignant cells, stromal components, and tumor-infiltrating immune cells, which together define the tumor immune microenvironment (TIME). Tumor cells evade immune surveillance by impairing the cytotoxic CD8+ T-cell function and promoting immunosuppressive cell populations including regulatory T cells, tumor-associated macrophages, and myeloid-derived suppressor cells. Although immune checkpoint blockade and adoptive T-cell therapy have advanced cancer treatment, their clinical efficacy remains limited by therapeutic resistance, heterogenous responses, and treatment-related toxicities. Dietary factors have emerged as potential modulators of antitumor immunity through their effects on immune cell metabolism, inflammatory signaling, and the gut microbiota. In this review, we summarize the mechanisms underlying immunosuppression within the TIME and discuss how macronutrients, micronutrients, food-derived bioactive compounds, and dietary patterns regulate immune cell function and antitumor immune responses. We further highlight the potential of dietary modulation to improve immunotherapy outcomes while critically evaluating current preclinical and clinical evidence. Finally, we discuss the challenges associated with translating these findings into clinical practice, including bioavailability, context-dependent effects, and the need for well-designed clinical trials. A better understanding of diet-mediated immune regulation may provide new opportunities for developing complementary strategies to enhance cancer immunotherapy.",
+      "legalFullTextUrl": "https://www.jcpjournal.org/journal/download_pdf.php",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42996510/",
+      "category": "candidate",
+      "tags": [
+        "herbs phytochemicals supplements",
+        "safety and interaction"
+      ],
+      "noteTitle": "癌症免疫治療的飲食地圖：營養素、菌相、飲食型態與五個判讀問題",
+      "content": "---\ntags: [research/digest, 癌症營養, 免疫治療]\ncitekey: \"Zhong2026DietTIME\"\ndoi: \"10.15430/jcp.26.050\"\ntitle: \"Dietary Regulation of the Tumor Immune Microenvironment in Cancer Immunotherapy.\"\nauthors: \"Xiancai Zhong; Hongmin Wu; Hye-Kyung Na\"\njournal: \"Journal of Cancer Prevention\"\nyear: 2026\nmode: \"worker-batch\"\n---\n\n> [!summary] 30秒掌握\n> 飲食可能經由免疫細胞代謝、全身代謝及腸道菌影響癌症免疫治療，但機轉線索尚未形成可常規開立的療效處方。\n> - 四個屏障：T細胞進入／耗竭、免疫抑制訊號、缺氧與養分競爭、菌相影響。\n> - 葡萄糖與胺基酸也供應T細胞；限制病人攝取不必然對抗腫瘤有利。\n> - 人體例子含==91名接受ICB者的地中海飲食世代研究==，屬關聯，不是飲食隨機介入結果。\n> - 普通食物、純化物與高藥理劑量不等價；免疫標記變好不等於存活改善。\n> 品質 → 見同篇「飲食如何影響癌症免疫治療？機轉、人體關聯與處方界線」品質評讀。\n\n## 5分鐘層：全文地圖\n\n**要點**：作者先說明免疫治療屏障，再依營養來源逐一整理，最後討論轉譯與安全。\n\n| 區塊 | 讀這段要帶走什麼 | PDF頁 |\n|---|---|---|\n| Introduction | 為何全身營養可能連到腫瘤局部免疫 | 1–2 |\n| Barriers | 四種限制免疫治療的環境與細胞問題 | 2–4 |\n| Dietary modulators／Figure1 | 直接、全身與菌相三條介入路徑 | 4–5 |\n| Macronutrients／Table1 | 葡萄糖、纖維、脂肪與胺基酸，各有不同且可能相反的作用 | 6–9 |\n| Micronutrients | D、A、C、鋅及硒，人體與前臨床證據界線 | 9–10 |\n| Bioactive compounds | curcumin、resveratrol、EGCG及暴露／製劑限制 | 10–12 |\n| Dietary patterns | 地中海、生酮與模擬斷食的不同證據層級 | 12–13 |\n| Conclusion／disclosures | 混雜、暴露、個體差異、營養安全與未來試驗 | 13–14 |\n| References | 154筆背景與研究引用，並非154項臨床試驗 | 14–19 |\n\n本篇是敘述性回顧，沒有新收案、合併效應、總臨床樣本或完整系統性檢索程序。以下只重述本文已呈現的資料，不補造原研究的效應值或劑量。\n\n## 各主題重點\n\n**要點**：同一營養變化可能同時幫到或傷到不同免疫細胞，必須連同癌別、細胞、劑量與治療情境理解。\n\n### 1. 四種免疫治療屏障（pp.2–4）\n\n- **T-cell exclusion/exhaustion**：腫瘤的基質與血管可能阻礙T細胞進入；持續抗原刺激又可能使細胞耗竭。有細胞浸潤，仍不保證細胞能持續殺腫瘤。\n- **Suppressive signaling**：Tregs、TAMs及MDSCs可藉CTLA-4／PD-L1、IL-10／TGF-β、IL-2競爭與adenosine等抑制效應細胞。\n- **Hypoxia/nutrient competition**：局部缺氧、葡萄糖與胺基酸競爭、乳酸及酸化改變細胞功能。某些抑制性細胞反而較能適應這種環境。\n- **Microbiota**：菌相及代謝物可調節免疫反應。病人的菌相與療效相關，以及病人菌移植到小鼠後的結果，是兩種不同證據。\n\n### 2. 三條飲食作用路徑（pp.4–5）\n\n1. **直接路徑**：養分與代謝物影響免疫細胞內的mTOR、AMPK、核受體及相關訊號。\n2. **全身路徑**：飲食改變循環葡萄糖、insulin／IGF-1、脂質及發炎訊號，間接影響局部環境。\n3. **菌相路徑**：纖維等影響菌相與SCFAs、膽酸、色胺酸衍生物，連動免疫細胞。\n\n這些路徑互相重疊；圖中的箭頭表示可能機制，不能當成已確認的人體療效鏈。\n\n### 3. 葡萄糖：腫瘤與T細胞共同需要（pp.4、7）\n\n腫瘤可大量使用葡萄糖；T細胞活化、增生及產生效應細胞激素也需要代謝支持。作者討論GAPDH與IFNG mRNA、PEP與鈣訊號等機轉，說明葡萄糖不足如何限制T細胞。增加工程化T細胞的葡萄糖利用是前臨床策略，不等於讓病人多吃糖；腫瘤使用葡萄糖也不等於病人應限制所有醣類。\n\n### 4. 纖維與SCFAs：依細胞情境改變方向（pp.7–8）\n\n纖維與抗性澱粉經菌發酵可生成acetate、propionate與butyrate，作用涉及GPCR與HDAC。本文同時列出：butyrate可抑制人腸道CD4 T細胞活化、促進部分Treg分化，也可在某些實驗促進CD8 T細胞效應。\n\n在接受ICB的黑色素瘤病人，高纖維攝取與較長PFS有關，沒有補充probiotics者的關聯較明顯。但多小鼠模型研究也出現單獨纖維效果不一致；總飲食背景可能比一項成分更重要。這些資料不支持「補某種纖維一定提高免疫療效」。本文未提供可直接開立的通用攝取門檻。\n\n### 5. 脂肪、ω-3與炎症消退（pp.8–9）\n\n脂肪酸氧化可能在缺糖缺氧時維持部分T細胞功能；過多或氧化脂質也可能經CD36及ferroptosis傷害T細胞。ω-3衍生SPMs可協助炎症消退及清除碎片，但efferocytosis在某些既有腫瘤內也可能促進免疫抑制與抗性。==抗發炎不等於必然增強抗腫瘤免疫==，不能直接推成某魚油產品能提高ICB反應。\n\n### 6. 蛋白質與胺基酸（p.9）\n\n- **Arginine**不足可能影響T細胞存活與功能。\n- **Tryptophan**經IDO／TDO消耗，並產生kynurenine，可影響GCN2及AhR相關免疫訊號。\n- **Methionine**競爭可能影響T細胞表觀遺傳與STAT5。\n- **Glutamine**的藥理性阻斷在部分模型對腫瘤與T細胞產生不同代謝效果。\n\n作者特別提醒：局部胺基酸競爭與藥理阻斷，不能等同飲食蛋白質或單一胺基酸限制／補充。\n\n### 7. 維生素與微量礦物質（pp.9–10）\n\n| 成分 | 本文重點 | 不能直接推論 |\n|---|---|---|\n| Vitamin D | PROVIDENCE前瞻世代中補充與較好結果及較少甲狀腺免疫不良反應有關；另有小鼠菌相機轉 | 不等於隨機試驗已證實補充提高ICB療效 |\n| Vitamin A／RA | 影響T細胞存活、分化與遷移，也可支持Treg | 不等於多補維生素A必然有益 |\n| Vitamin C | 高藥理劑量在小鼠有免疫療法加成線索 | 不能把普通食物攝取、口服補充與高劑量藥理暴露視為相同 |\n| Zinc | 高鋅在部分小鼠促進Treg與腫瘤；鋅螯合在模型有不同效果 | 不代表病人應自行限鋅或使用螯合劑 |\n| Selenium | Selenoproteins／GPX4參與氧化還原與ferroptosis保護 | 不能由分子必要性推成高劑量補硒可改善治療 |\n\n### 8. 三類多酚（pp.10–12）\n\n- **Curcumin**：可影響T細胞、Treg及髓系細胞；有肺癌病人免疫比例及病人來源細胞資料，但尚未證明改善免疫治療臨床結果。純化／特殊製劑與薑黃食物不等價。\n- **Resveratrol**：可能改變PD-L1醣基化及細胞內運送；其他模型則增加PD-L1。總量、細胞表面量與真正免疫功能不同；不能只取一個方向下結論。\n- **EGCG**：有小鼠PD-L1／PD-1、CD8及MDSC線索；純化EGCG不等於喝綠茶。吸收、代謝物、配方與藥物交互作用皆妨礙直接轉譯。\n\n### 9. 三類飲食型態（pp.12–13）\n\n| 型態 | 主要資料 | 臨床界線 |\n|---|---|---|\n| 地中海飲食 | 荷蘭／英國==91名==接受ICB者，治療前習慣飲食較符合地中海型態，與反應率及12個月PFS有正關聯 | 沒有證明確診後改吃便增加療效；各成分貢獻與機轉也未在此世代直接證實 |\n| 生酮／3HB | 小鼠T細胞依賴的腫瘤控制與GPR109A訊號；加糖或阻斷受體可改變模型效果 | 尚不足支持病人常規使用；體重、營養與耐受需評估 |\n| Fasting-mimicking diet | 動物及部分病人可行性／代謝與免疫標記資料 | 免疫標記變化未建立為ICB臨床反應改善，不能忽略癌症營養惡化風險 |\n\n### 10. 結論與未來研究（pp.13–14）\n\n作者整理五項方向：前瞻飲食介入試驗、標準化量化飲食評估、藥物動力與組織暴露研究、整合菌相／代謝物／免疫標記、人體縱向或配對腫瘤取樣。未來研究需同時評估臨床結果、營養狀態及治療耐受；不是只有測一個細胞激素。\n\n## 機轉白話講解\n\n**要點**：同時問「餵到誰、經哪條路、量到什麼終點」，能避免從漂亮機轉跳到飲食處方。\n\n⚠️ 補充教學比喻：腫瘤環境像一個交通與糧食都受限的地區。腫瘤會搶資源，但負責防衛的T細胞也要能源。把整個地區的糧食切斷，未必只讓腫瘤挨餓；改變清運與發炎，也未必只幫防衛者。這個比喻協助理解本文的雙向作用，不是額外臨床證據。\n\n依本文可形成四層階梯：分子訊號改變 → 免疫細胞行為改變 → 動物腫瘤控制 → 病人反應／PFS／存活。每跨一層都要有相應研究，不能把第一層直接寫成第四層。這也解釋為何相同營養素在不同模型可能出現相反結果。\n\n## 重要圖表重述\n\n**要點**：Figure1是概念架構；Table1最重要的是把「免疫改變」和「免疫治療結果」分欄。\n\n- **Figure1，p.5／期刊p.199**：A圖將飲食輸入、三條路徑、四種TIME屏障及可能治療反應連起來；B圖展開代謝、表觀遺傳、GPCR、胺基酸及checkpoint訊號。沒有把箭頭當作各路徑均已在人類證實。\n- **Table1，pp.6–7／期刊pp.200–201**：列出各成分、模型或族群、免疫變化、治療結果及引用。它明示多項只有機轉或小鼠結果、病人只有關聯或免疫變化，不是所有成分均可提高臨床療效的排行榜。地中海飲食91人的資料位於第二頁。\n\n## 臨床意義 / 怎麼用\n\n**要點**：用本文解釋證據層級與不確定性，不能拿來設計未驗證的「餓腫瘤」飲食。\n\n本文未提供統一營養素劑量、斷食療程、癌別處方或補充品組合。營養師可據此和病人討論食物、補充品及研究宣稱的差異，但在食慾差、體重下降或治療腸胃不良反應情境，限制飲食的營養安全需優先評估。這是作者在結論強調的轉譯限制，不把一般飲食照護說成已證實提高免疫治療療效。\n\n## 與既有認知的對照\n\n**要點**：本篇修正的是「機轉合理就能開處方」的跳躍；既有vault內容尚未核對。\n\n本次工具未提供vault_search；僅在原輪results以「免疫治療／immunotherapy」搜尋，只有本篇配對品質評讀命中，這不等於全vault沒有相關筆記。本節不假造跨vault對照。本文自身的對照是：營養素支持免疫 → 仍可能同時支持腫瘤或抑制細胞；免疫標記改善 → 未必改善病人終點。\n\n## 概念 / 名詞整理\n\n**要點**：先分清環境、細胞、機轉與臨床結果四種名詞。\n\n| 名詞 | 本篇用法 |\n|---|---|\n| TIME | 腫瘤免疫微環境，著重免疫細胞及其交互作用；TME範圍更廣，亦含基質、血管等 |\n| ICB／ICI | 免疫checkpoint阻斷及其抑制劑，非所有癌症治療的統稱 |\n| Tregs／TAMs／MDSCs | 調節T細胞、腫瘤相關巨噬細胞、髓系抑制細胞；本篇討論其抑制情境 |\n| SCFAs／HDAC | 短鏈脂肪酸及組蛋白去乙醯化酶；代謝物可透過受體與表觀遺傳改變細胞 |\n| SPMs／efferocytosis | 促炎症消退介質／清除凋亡細胞；炎症消退與抗腫瘤效果不能畫等號 |\n| PD-L1 | Checkpoint相關配體；表面量、總蛋白量與生物功能不一定相同 |\n| PFS | 無惡化存活；免疫標記不是PFS或總存活的同義詞 |\n\n## 自我測驗\n\n**要點**：每題都檢查是否能說出「看似合理但尚不能推論」的那一步。\n\n> [!question]- Q1：腫瘤大量用糖，為何不能直接叫病人限醣以加強免疫治療？\n> T細胞也需要葡萄糖代謝維持增生與效應。局部競爭、細胞工程與整體飲食限制不同；本文未建立限醣提高病人免疫療效，還須考慮營養狀態。\n\n> [!question]- Q2：91人的地中海飲食研究可以證明確診後改吃就增加ICB療效嗎？\n> 不能。研究觀察治療前習慣飲食與結果的關聯，仍可能有生活型態、營養狀態及治療混雜；不是飲食分派試驗，也未拆出有效成分。\n\n> [!question]- Q3：抗發炎或炎症消退，為何不必然等於較強抗腫瘤免疫？\n> SPMs與清除細胞碎片可降低發炎，但部分腫瘤中的efferocytosis也可能促進免疫抑制。需看細胞、癌別及治療情境，不能只看「抗發炎」標籤。\n\n> [!question]- Q4：小鼠高劑量維生素C或純化EGCG有免疫效果，為何不能換成食物份量？\n> 藥理濃度、製劑、吸收與代謝物和普通食物暴露不同；本文沒有證明普通攝取能產生同樣組織濃度或臨床療效，也沒有可換算的通用處方。\n\n> [!question]- Q5：試驗只看到CD8浸潤增加，就能說斷食改善免疫治療反應嗎？\n> 不能。免疫標記是中間層，需另驗證病人反應、PFS等結果及營養安全。作者明確說FMD的ICB臨床效益尚未確立。\n\n## Reference\n\n**要點**：整理依同篇19頁全文，沒有用摘要代替，也未將引用原研究當作本次皆已獨立查核。\n\n- Zhong X, Wu H, Na HK. 2026. Journal of Cancer Prevention 31:195–213. [DOI](https://doi.org/10.15430/JCP.26.050)；[PubMed](https://pubmed.ncbi.nlm.nih.gov/42996510/)。\n- 本文關鍵引用：Spencer等纖維／probiotics研究[83]、Roichman等多模型纖維研究[84]、PROVIDENCE[112]、Bolte等地中海飲食世代[150]、Ferrere等生酮模型[151]、Vernieri等FMD研究[154]；編號與論點取自本文，focused-quick未另讀全部原研究。\n- 正式出版社合法PDF、首頁CC BY-NC，SHA-256 be2e084b95ae69af40ca083fcc369acc21f0fba33092ab9afa76f688ca8a38b4。本文為原創教學整理，不公開PDF、原圖或全文翻譯。\n- 模式paper-digest worker-batch；5張理解卡由同篇全文產生，交原Worker儲存，未推送已退休的本機閱讀站或假稱已建立Zotero資料。",
+      "cards": [
+        {
+          "title": "腫瘤用糖不等於病人限醣",
+          "question": "腫瘤大量用糖，為何不能直接叫病人限醣以加強免疫治療？",
+          "answer": "T細胞也需要葡萄糖代謝維持增生與效應。局部競爭、細胞工程與整體飲食限制不同；本文未建立限醣提高病人免疫療效，還須考慮營養狀態。",
+          "tags": [
+            "癌症營養",
+            "營養競爭"
+          ]
+        },
+        {
+          "title": "91人關聯的界線",
+          "question": "91人的地中海飲食研究可以證明確診後改吃就增加ICB療效嗎？",
+          "answer": "不能。研究觀察治療前習慣飲食與結果的關聯，仍可能有生活型態、營養狀態及治療混雜；不是飲食分派試驗，也未拆出有效成分。",
+          "tags": [
+            "地中海飲食",
+            "觀察性研究"
+          ]
+        },
+        {
+          "title": "抗發炎不是抗腫瘤保證",
+          "question": "抗發炎或炎症消退，為何不必然等於較強抗腫瘤免疫？",
+          "answer": "SPMs與清除細胞碎片可降低發炎，但部分腫瘤中的efferocytosis也可能促進免疫抑制。需看細胞、癌別及治療情境，不能只看抗發炎標籤。",
+          "tags": [
+            "SPMs",
+            "腫瘤免疫"
+          ]
+        },
+        {
+          "title": "藥理濃度不是食物份量",
+          "question": "小鼠高劑量維生素C或純化EGCG有免疫效果，為何不能換成食物份量？",
+          "answer": "藥理濃度、製劑、吸收與代謝物和普通食物暴露不同；本文沒有證明普通攝取能產生同樣組織濃度或臨床療效，也沒有可換算的通用處方。",
+          "tags": [
+            "植化素",
+            "轉譯界線"
+          ]
+        },
+        {
+          "title": "免疫標記不是PFS",
+          "question": "試驗只看到CD8浸潤增加，就能說斷食改善免疫治療反應嗎？",
+          "answer": "不能。免疫標記是中間層，需另驗證病人反應、PFS等結果及營養安全。作者明確說FMD的ICB臨床效益尚未確立。",
+          "tags": [
+            "模擬斷食",
+            "替代終點"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-13T08:15:59.170Z"
     }
   ]
 }
