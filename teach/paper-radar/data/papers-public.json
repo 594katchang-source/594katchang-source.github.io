@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T09:35:45.889Z",
+  "generatedAt": "2026-11-13T14:07:41.989Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -113325,6 +113325,83 @@
         }
       ],
       "completedAt": "2026-11-13T09:35:15.471Z"
+    },
+    {
+      "id": "doi:10.2147/ijwh.s638511:digest",
+      "paperId": "doi:10.2147/ijwh.s638511",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Higher Adherence to a Sulfur Microbial Diet is Associated with Reduced Osteoarthritis Risk in Women.",
+      "authors": "Zhang L, Zhou L",
+      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "year": "2026",
+      "doi": "10.2147/IJWH.S638511",
+      "abstract": "Osteoarthritis ranks among the top contributors to disability among women, and accumulating research suggests that dietary factors and the gut microbiota play a role in its development. The sulfur microbial diet (SMD), a dietary pattern originally derived from its association with sulfur-metabolizing gut bacteria, has been associated with inflammatory bowel disorders, yet whether it correlates with osteoarthritis remains unclear. We performed a prospective cohort study enrolling 114,831 female participants who were free of osteoarthritis at study baseline. SMD scores were calculated using online 24-hour dietary recall data and categorized into quartiles for statistical analysis. New-onset osteoarthritis was identified through linked health records. Progressive-adjusted Cox proportional-hazards models were used to estimate hazard ratios (HRs) and 95% confidence intervals (CIs); we also carried out restricted cubic splines, sensitivity analyses, qualitative exploratory biomarker analysis, and subgroup analyses. Relative to women in the lowest SMD quartile, those in the top SMD quartile exhibited a markedly reduced risk of developing new-onset osteoarthritis in the fully adjusted model (HR 0.75, 95% CI 0.60-0.95; P = 0.018), with a significant linear trend (P for trend = 0.019). In the original cohort, this relationship remained stable after removing early events and individuals with metabolic disorders. Although inverse associations appeared stronger among younger women, never-smokers, and women consuming alcohol fewer than three times per week, none of the corresponding interaction tests was statistically significant, providing no formal evidence of effect modification. The exploratory biomarker analysis was hypothesis-generating and did not quantify a causal pathway. Additional reviewer-requested analyses in a separate sample did not reproduce the significant highest-versus-lowest quartile association and showed a shallow U-shaped spline pattern. Higher adherence to the sulfur microbial diet was associated with a moderately lower risk of new-onset osteoarthritis among women. This unexpected inverse association differs from previous findings concerning gastrointestinal outcomes. Given the observational design, these findings do not establish causality and should be considered hypothesis-generating. The SMD may represent a modifiable dietary feature worthy of further investigation for female OA primary prevention, but the present findings do not support specific dietary recommendations.",
+      "legalFullTextUrl": "https://www.dovepress.com/article/download/121831",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43005355/",
+      "category": "recommended",
+      "tags": [
+        "design:prospective cohort",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "precision nutrition",
+        "safety and interaction"
+      ],
+      "noteTitle": "女性硫微生物飲食與骨關節炎風險：全文內容整理",
+      "content": "---\ncitekey: ZhangZhou2026SulfurMicrobialDietOA\ndoi: 10.2147/IJWH.S638511\naliases:\n  - Higher Adherence to a Sulfur Microbial Diet is Associated with Reduced Osteoarthritis Risk in Women\ntags: [research/digest, nutrition-epidemiology, osteoarthritis, microbiome, women]\n---\n\n> [!summary] 30 秒層｜一句話 + 重點\n> 這項英國女性前瞻性隊列研究發現，最高硫微生物飲食（SMD）四分位相較最低四分位的骨關節炎風險較低，但每增加 1 SD 的連續分數沒有顯著關聯；研究沒有測量腸道菌或硫化氫，不能據此建議採用或避免某種飲食。\n> - 114,831 名女性；以 Oxford WebQ 飲食回憶計算 SMD，並以醫療紀錄追蹤新發骨關節炎。\n> - 完全調整後 Q4 vs Q1：HR 0.75（95% CI 0.60–0.95；P=0.018）；每 1 SD：HR 0.96（0.88–1.04；P=0.319）。\n> - RCS 圖呈淺 U 型，報告非線性 P=0.0098；但討論段又稱原始 RCS 沒有顯著非線性，全文說法不一致。\n> 品質評讀 → 見同題品質評讀結果；本篇整理著重研究內容。\n\n## 5 分鐘層｜研究問題 / 背景\n**要點**：作者想知道以飲食型態推估的 SMD 分數，是否與女性新發骨關節炎（OA）相關；這是探索飲食—菌相—關節關係，不是直接測量硫暴露或菌相。\n\n- OA 具有關節、代謝與發炎等多面向，作者以可能的腸—關節軸作為研究背景。\n- SMD 原本是依飲食與硫代謝腸菌的統計關聯建立。分數不是膳食硫含量、腸道硫代謝菌數或氫硫酸（H₂S）濃度。\n- 既有 SMD 研究主要討論腸道／大腸癌前病變；本研究把問題延伸到女性 OA。機轉在本文仍是假說。\n\n## 方法\n**要點**：研究以 UK Biobank 女性資料做前瞻性隊列分析，使用最後一組有效飲食回憶固定暴露分數，再以登錄資料辨認 OA；設計可呈現時間先後，但無法證明因果。\n\n- **資料與族群**：UK Biobank，2006–2010 年於英格蘭、蘇格蘭與威爾斯 22 個中心招募約 50 萬名 40–69 歲社區成人。本分析限女性，排除基線已有 OA、飲食資料不完整及不合理能量回報者，最後納入 114,831 人。\n- **飲食暴露**：Oxford WebQ 線上 24 小時飲食回憶，最多可填 5 次。八個食物群依既有回歸係數加權形成 SMD；例子包括加工肉類正向、蔬菜與豆類負向。多次有效紀錄取平均後計算分數，使用最後一組有效紀錄作暴露時間點；一份有效紀錄即可納入。本文主文未列八項的完整係數表。\n- **結果**：以住院、基層醫療與死亡登錄中的 ICD-10 OA 診斷辨認新發 OA；追蹤由最後一次有效飲食評估開始。主文沒有清楚提供 OA 事件總數或中位追蹤年數，也無法區分影像病灶位置或嚴重度。\n- **統計**：Cox 比例風險模型依序調整。Model 1：年齡、族裔；Model 2 再加 BMI、社經剝奪、教育、收入、就業、吸菸、飲酒、活動量、糖尿病、心血管疾病、高血壓；Model 3 再加降壓藥、降脂藥、胰島素及總能量。缺失共變數以 chained-equations 多重插補處理。另做限制立方樣條（RCS）、敏感度及次群組分析。\n\n## 主要發現\n**要點**：最高四分位的比較在完全調整後仍達統計顯著，但連續每 SD 分數不顯著；不應把兩個不同模型的結果合併說成一致的線性保護效果。\n\n| 分析 | 文中結果 | 怎麼讀 |\n|---|---|---|\n| Q4 vs Q1，Model 1 | HR 0.74（0.59–0.92），P=0.008 | 只調整年齡、族裔。 |\n| Q4 vs Q1，Model 2 | HR 0.80（0.64–1.01），P=0.058 | 加入主要人口、生活型態與疾病共變數後，信賴區間包含 1。 |\n| Q4 vs Q1，Model 3 | HR 0.75（0.60–0.95），P=0.018 | 完全調整後，最高組相較最低組的關聯仍顯著。 |\n| Q2 / Q3 vs Q1，Model 3 | Q2 HR 0.90（0.73–1.11），P=0.313；Q3 HR 0.87（0.70–1.07），P=0.196 | 中間兩組沒有顯著差異。 |\n| 每增加 1 SD 的 SMD | HR 0.96（0.88–1.04），P=0.319 | 連續尺度沒有顯著關聯。 |\n| 四分位趨勢 | P for trend=0.019 | 以各四分位中位數當連續值的趨勢檢定；不等於每 SD 模型顯著。 |\n| RCS | overall P=0.0219；nonlinearity P=0.0098 | 圖形在中位數附近最低、兩端略高，呈淺 U 型；兩端區間較寬。 |\n\n### 基線與敏感度\n**要點**：高 SMD 組基線特徵並不相同，尤其 BMI 較高而回報能量較低；自陳飲食、殘餘混雜及暴露誤差都需要放在解讀中。\n\n- Q4 與 Q1 平均年齡約 54.73 vs 56.06 歲；BMI 27.41 vs 26.05 kg/m²；目前吸菸 8.95% vs 5.23%；糖尿病 3.74% vs 2.39%；高血壓 22.88% vs 20.00%。\n- 回報總能量 Q4 7,585 vs Q1 8,958 kJ/day。作者提醒，這可能涉及短期回憶或低報，不能直接解讀為較低的習慣性能量需求。\n- 原始隊列排除前兩年新發 OA 後：HR 0.73（0.56–0.93），P=0.013；排除基線糖尿病與高血壓後：HR 0.72（0.56–0.92），P=0.009。\n- 作者另做一組「審稿人要求」的不同樣本分析：七項敏感度分析均未顯示 Q4 vs Q1 顯著；作者指出樣本選取、暴露映射不同，且有比例風險假設偏離及一個共病限制模型不穩定。這組結果與原始主分析分開報告，不能冒充原始隊列的直接重複驗證。\n\n## 重要圖表重述\n**要點**：表格、森林圖與樣條圖一起顯示「最高與最低組的比較」和「整體連續曲線」不是同一個結論。\n\n- **表 1（PDF p.5）**：Q4 較年輕但 BMI、吸菸、糖尿病、高血壓及相關用藥比例較高；回報能量較低。\n- **表 2／圖 1（PDF p.6）**：三組調整模型的 Q4 點估計均低於 1；Model 2 的信賴區間跨過 1，Model 3 的 Q4 比較未跨 1。每 SD 點估計接近 1 且信賴區間跨 1。\n- **圖 2（PDF p.7）**：以 SMD 中位數約 −1.18 為參考，曲線淺 U 型，兩端不確定性較大；不能從圖上讀出經驗證的臨床切點。\n- **表 3（PDF p.8）**：只列出探索時考量的 BMI、血糖、HDL、總膽固醇、三酸甘油酯、SBP、DBP、CRP 及所屬領域，沒有呈現這些指標對 OA 的量化效果、媒介比例或因果路徑。\n- **全文需回查的統計規格**：方法段列 RCS 五個 knots（第 5、27.5、50、72.5、95 百分位）；結果段卻寫三個 knots（第 10、50、90 百分位）。另外結果段報告非線性 P=0.0098，討論段又說原始 RCS 沒有顯著非線性。解讀時保留這兩處文字不一致，不自行替作者校正。\n\n## 臨床意義 / 怎麼用\n**要點**：這篇適合當作飲食型態與女性關節健康的研究訊號，不足以支持任何「硫微生物飲食」處方。\n\n- 不能建議病人為降低 OA 風險而提高或降低 SMD、加工肉、蔬菜或豆類攝取；本研究是觀察性關聯，沒有測得腸菌或 H₂S，也沒有建立 OA 預防切點。\n- SMD 是食物群加權分數，不等同於硫攝取量或某個菌相。文中所述 H₂S 在不同濃度與情境可能有不同生物效應，只是作者提出的可能背景，並未在本研究驗證。\n- 次群組中白人、從未吸菸者及每週飲酒少於三次者出現較低點估計，但年齡、族裔、吸菸及飲酒的交互作用檢定均不顯著；不能因此指定受益族群。\n- 本研究主題是女性 OA，不能外推到男性、其他族群或不同 OA 部位。本文的登錄診斷也不等同於影像或症狀嚴重度。\n\n## 與既有認知的對照\n**要點**：同題已有品質評讀；本機成果庫另找到一篇類風濕性關節炎復健／營養試行研究，但疾病、介入與設計不同，不能互相佐證 SMD 與 OA 的關聯。\n\n- 本輪成果庫的相關搜尋沒有找到可直接比較 SMD 與 OA 的既有內容筆記；個人 vault search 工具未提供，因此不宣稱完成個人 vault 全面比對。\n- 本文引用的 SMD 前期研究討論腸道相關結局；本文自身也強調，消化道的既有訊號不能直接推定到關節結局。\n- 來源提示：Nguyen 等人提出 SMD 與早發大腸癌前病變的研究；Wang 等人研究 SMD 與大腸直腸癌；兩者均不是 OA 介入試驗。\n\n## 概念 / 名詞整理\n**要點**：先分清暴露分數、群組比較、趨勢檢定與曲線檢定，才不會把不同統計問題混成「分數越高一定越好」。\n\n- **SMD**：依食物群權重計算的飲食型態分數；較高代表更符合原先與硫代謝菌相關的飲食型態。\n- **Q1–Q4**：依樣本分數分成四組；Q1 為最低組、Q4 為最高組。\n- **HR**：追蹤期間某組發生 OA 的相對瞬時風險估計；觀察性研究中的 HR 不是個人絕對風險，也不是因果效果。\n- **RCS**：用平滑曲線檢視暴露與結果是否可能非線性；本文圖形兩端的信賴區間較寬，且全文對 knots 與非線性結果有內部不一致。\n- **H₂S**：氫硫酸／硫化氫相關微生物代謝物；本文沒有直接測量。\n- **MICE**：以多重插補鏈式方程式處理共變數缺失，再依 Rubin rules 合併估計。\n\n## 自我測驗\n**要點**：用以下問題回想「分數含義、主要模型、曲線與臨床界線」。\n\n> [!question]- Q1：SMD 分數在本文代表什麼？它沒有直接測到哪些東西？\n> SMD 是由八個食物群的既有權重加總而成的飲食型態分數。它不是膳食硫量、硫代謝菌數或 H₂S 濃度；這些生物指標在本研究沒有直接測量。\n\n> [!question]- Q2：為什麼不能把本文總結成「SMD 越高，OA 風險就越低」？\n> Model 3 的 Q4 vs Q1 HR 為 0.75（0.60–0.95），但每 SD 的 HR 為 0.96（0.88–1.04；P=0.319）。趨勢檢定和連續尺度結果不相同，RCS 又呈淺 U 型；研究也不能證明因果。\n\n> [!question]- Q3：本文的 RCS 結果有哪些可回查之處？\n> 結果報 overall P=0.0219、nonlinearity P=0.0098，但討論又說原始 RCS 沒有顯著非線性；方法列五個 knots，結果則寫三個 knots。需回查作者分析或補充資料，不能自行選一種說法當定論。\n\n> [!question]- Q4：次群組點估計較低，是否代表這些女性特別受益？\n> 不能。年齡、族裔、吸菸及飲酒的 interaction P 值分別為 0.198、0.421、0.933、0.673，均不顯著；作者把差異視為探索性訊號。\n\n> [!question]- Q5：營養照護可直接依這篇改變飲食建議嗎？\n> 不可以。觀察性關聯沒有建立因果或臨床切點，且未測量菌相／H₂S；作者明確表示目前不支持具體飲食建議。\n\n## Reference\n**要點**：本文是 2026 年女性前瞻性隊列研究；下列前期文獻是作者用來交代 SMD 與可能機轉的來源，不等於本研究直接驗證。\n\n- Zhang L, Zhou L. Higher Adherence to a Sulfur Microbial Diet is Associated with Reduced Osteoarthritis Risk in Women. International Journal of Women’s Health. 2026;18:638511. DOI: 10.2147/IJWH.S638511.\n- Nguyen LH, et al. The sulfur microbial diet is associated with increased risk of early-onset colorectal cancer precursors. Gastroenterology. 2021;161(5):1423–1432.e4.\n- Wang Y, et al. Association between the sulfur microbial diet and risk of colorectal cancer. JAMA Network Open. 2021;4(11):e2134308. DOI: 10.1001/jamanetworkopen.2021.34308.\n- Nasi S, et al. The protective role of the 3-MST–hydrogen sulfide pathway against experimental osteoarthritis. Arthritis Research & Therapy. 2020;22(1):49.\n\n來源核對：已讀完 12 頁 PDF，PDF 首頁主文 DOI／題名匹配；source PDF SHA-256 06c447260a7f372ed424ce1da99c3e4b3dc602154a97b65007b531cdf0c74341，全文抽取 SHA-256 c0bc6708586d3bdd23a1a243bbb26cebb01bdc7663e77d03727360183cf9ad51。首、中、末頁及含表／圖頁已渲染抽查；圖表位置與數值可讀。",
+      "cards": [
+        {
+          "title": "SMD分數代表什麼",
+          "question": "本文的硫微生物飲食分數代表什麼？它沒有直接測量哪些生物暴露？",
+          "answer": "它是依八個食物群的既有權重加總而成的飲食型態分數，原先依飲食與硫代謝菌的統計關聯建立。它不等於膳食硫量、菌相或H₂S濃度；本研究沒有直接測量這些項目。",
+          "tags": [
+            "飲食型態",
+            "腸道菌相",
+            "研究方法"
+          ]
+        },
+        {
+          "title": "分組與連續結果",
+          "question": "為什麼不能把本文簡化成SMD分數越高，OA風險就越低？",
+          "answer": "Model 3的Q4對Q1 HR為0.75（95% CI 0.60–0.95），但每增加1 SD的HR為0.96（0.88–1.04；P=0.319）。四分位趨勢、連續尺度與RCS回答的是不同問題；研究也不能證明因果。",
+          "tags": [
+            "統計解讀",
+            "骨關節炎",
+            "因果推論"
+          ]
+        },
+        {
+          "title": "RCS回查",
+          "question": "本文的RCS報告有哪些內部不一致，解讀時要如何處理？",
+          "answer": "結果報overall P=0.0219與nonlinearity P=0.0098，討論卻說原始RCS沒有顯著非線性；方法列五個knots，結果又寫三個knots。應保留差異並回查作者或補充資料，不自行替作者校正。",
+          "tags": [
+            "RCS",
+            "研究結果",
+            "全文核對"
+          ]
+        },
+        {
+          "title": "次群組不可過度解讀",
+          "question": "白人、從未吸菸者與較少飲酒者的點估計較低，是否證明有特定受益族群？",
+          "answer": "沒有。年齡、族裔、吸菸及飲酒交互作用檢定皆不顯著，P值依序為0.198、0.421、0.933、0.673；次群組差異只能視為探索性。",
+          "tags": [
+            "次群組",
+            "交互作用",
+            "統計解讀"
+          ]
+        },
+        {
+          "title": "臨床建議界線",
+          "question": "營養照護可直接依這篇研究建議病人調整SMD嗎？為什麼？",
+          "answer": "不可以。這是觀察性關聯，未證明因果、未建立OA預防切點，也沒有測量腸道菌或H₂S；作者明確表示目前不支持具體飲食建議。",
+          "tags": [
+            "臨床應用",
+            "研究限制",
+            "骨關節炎"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-13T14:05:33.141Z"
     }
   ]
 }
