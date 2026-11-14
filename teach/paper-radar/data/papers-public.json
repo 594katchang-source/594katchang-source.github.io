@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-14T07:55:40.781Z",
+  "generatedAt": "2026-11-14T08:03:53.075Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -113789,6 +113789,70 @@
       "content": "---\ndoi: 10.3389/fnut.2026.1928327\npmid: 42947791\njournal: Frontiers in Nutrition\nyear: 2026\nauthors: Esra Irmak; Nevin Sanlier\nstudy_type: cross-sectional\nreview_depth: focused-quick\n---\n\n> [!info] 品質快照\n> **設計**：土耳其安卡拉單中心橫斷面研究｜**樣本**：247 位 19–40 歲、依 2003 Rotterdam criteria 診斷 PMOS 的女性\n> **主要訊號**：BMI、身體意象困擾與憂鬱症狀和較差的 PMOS 特異性生活品質同時相關；飲食品質指標未呈現獨立關聯\n> **一句話判讀**：本研究支持在 PMOS 評估中同時注意心理、身體意象與人體測量面向，但無法證明因果，也不能據此判定飲食品質不重要。\n\n# Key Points\n\n## Summary\n\n> ✅ 已依核驗全文閱讀摘要、引言、方法、結果、討論、結論、表格、圖與限制；逐段閱讀地圖見本輪 evidence。\n\n- 研究於 2022 年 7–12 月在土耳其安卡拉一所教學研究醫院進行，招募 247 位 19–40 歲女性。採單中心橫斷面設計，沒有對照組。\n- 生活品質以 PCOSQ-50 評估，分數越高代表 PMOS 特異性生活品質較佳；身體形象困擾用 BSQ-34，憂鬱症狀用 BDI，飲食以單次 24 小時回憶估算 HEI-2010、CQI、DII。\n- PCOSQ-50 總分與 BSQ-34、BDI、BMI 呈負相關；BMI 與 BSQ-34、BDI 呈正相關。這些是同一時間點的關聯，不能推定先後或因果。\n- 多變項模型中，較高 BMI 與較低生活品質、較高身體形象困擾及較高 BDI 分數相關；年齡層、婚姻狀態與診斷年數也和部分結果相關。CQI、DII、HEI-2010 未獨立關聯三項心理社會結果。\n- 樣本平均 HEI-2010 為 50.0；52.6% 被分類為飲食品質差。一次 24 小時回憶不能可靠代表日常飲食，無顯著關聯也不等於飲食對健康沒有作用。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **研究在問什麼**：在被診斷為 PMOS 的成年女性中，生活品質、身體形象、憂鬱症狀、體位與飲食指標彼此如何一起變動？\n> - **怎麼做**：研究者在單一醫院一次收集 247 人的問卷、人體測量與一次 24 小時飲食回憶，再以群組比較、相關分析與多元線性迴歸分析。\n> - **看到什麼**：BMI 越高者平均有較多身體形象困擾與憂鬱症狀，生活品質分數也較低；身體形象困擾、憂鬱症狀與生活品質彼此相關。三項飲食指標沒有在調整後模型中顯示獨立關聯。\n> - **能怎麼用**：結果支持評估時不要只看體重或飲食，也要關注心理困擾與身體意象；它不是飲食介入試驗，也沒有證明減重或改變飲食會改善生活品質或憂鬱症狀。\n\n## Methods\n\n- **研究設計與地點：**單中心橫斷面研究，資料於 2022 年 7–12 月收集；發表於 2026 年。研究地點為土耳其安卡拉一所教學研究醫院門診（全文 pp. 2–3，Methods 2.1）。\n- **參與者：**247 位 19–40 歲女性，依 2003 Rotterdam criteria 診斷 PMOS，並自願參加。排除懷孕或哺乳者，以及目前需藥物治療的已診斷精神疾病者。沒有未患 PMOS 的對照組（p. 2，Methods 2.1）。\n- **人體測量：**以非伸縮軟尺量腰、臀、頸及上臂圍；體脂與去脂體重以生物電阻分析估算（pp. 2–3，Methods 2.2）。\n- **主要量表：**PCOSQ-50 回顧前四週特異性生活品質，總分 50–250、越高越好；BSQ-34 分數越高表示身體形象困擾越多；BDI 0–63 分，作者依既定分數範圍分為最低、輕度、中度與重度憂鬱症狀。這些量表分數不是精神疾病診斷（p. 3，Methods 2.3）。本研究內部信度：PCOSQ-50 總量表 α=.91、BSQ-34 α=.92、BDI α=.82。\n- **飲食評估：**單次 24 小時飲食回憶，使用常見土耳其食物照片協助估份量，BeBiS 軟體估算營養素；HEI-2010 衡量整體飲食、CQI 衡量碳水化合物品質、DII 衡量飲食發炎潛勢（p. 3，Methods 2.4）。作者沒有提供重複回憶以估計個人平日攝取。\n- **統計方法：**使用卡方、獨立樣本 t 檢定、單因子 ANOVA/Tukey、Pearson 相關及三個多元線性迴歸模型；依變項為 PCOSQ-50、BSQ-34、BDI，納入年齡層、婚姻、運動、共病、BMI、確診年數、CQI、DII、HEI-2010（pp. 3–4，Methods 2.5）。作者檢查線性、同質變異、殘差、影響值及共線性，並報告未調整 PCOSQ-50 總分與各分域的多重比較。\n\n## Key Findings\n\n| 原文位置／結果 | 原文數值 | 判讀 |\n|---|---:|---|\n| 結果；表 1（pp. 4–5） | 平均年齡 25.9±5.0 歲；BMI 26.4±6.31 kg/m²；BMI 正常 128、過重 62、肥胖 57 人 | 受試者為成年女性門診樣本，不代表所有年齡、社區或較嚴重心理疾病族群。 |\n| 表 1（p. 5） | PCOSQ-50 166.5±26.62；BSQ-34 83.5±25.88；BDI 10.6±5.18 | 量表平均值是樣本描述；BDI 為症狀量表，不等於憂鬱症盛行率。 |\n| 表 1（p. 5） | HEI-2010 50.0±14.96；差 130/247（52.6%）、普通 111（45.0%）、良好 6（2.4%） | 反映本樣本單次回憶所估飲食品質；不是長期飲食的精確分類。 |\n| 結果／圖 1（p. 4、圖見 p. 8） | PCOSQ-50 與 BSQ-34 r=−.342、BDI r=−.393、BMI r=−.198；各 p≤.002 | 身體形象困擾、憂鬱症狀與 BMI 越高，生活品質分數越低；相關不建立因果。 |\n| 結果／圖 1（p. 4、圖見 p. 8） | BSQ-34 與 BDI r=.551、BMI r=.705；BDI 與 BMI r=.393；均 p<.001 | BMI 與心理量表分數相關，但可能有共同原因或雙向關係。 |\n| 多變項模型，PCOSQ-50（表 5，p. 9） | 調整 R²=.38；BMI 每增加 1 kg/m²，分數 B=−1.418（95% CI −1.866 至 −.969）；診斷年數 B=−.798；年齡 25–40 歲 B=+7.089；已婚 B=+30.186 | 關聯保留在該模型中；年齡層及婚姻的差異不應解讀為介入效果。 |\n| 多變項模型，BSQ-34（表 5，p. 9） | 調整 R²=.50；BMI B=+2.869（95% CI 2.478–3.260）；共病 B=−5.537（95% CI −10.580 至 −.494） | BMI 是較強的模型關聯；共病估計方向需審慎解讀，研究未提供足以說明此反向關聯的機制。 |\n| 多變項模型，BDI（表 5，p. 9） | 調整 R²=.11；BMI B=+.284（95% CI .180–.389）；年齡 25–40 歲 B=−1.903（95% CI −3.284 至 −.521） | 模型解釋度有限；BMI 與年齡層為獨立相關項，不代表因果。 |\n| 多變項模型（表 5，p. 9） | CQI、DII、HEI-2010 對三個依變項的係數皆未達 p<.05 | 在此樣本與量測方式下沒有檢出獨立關聯；不構成飲食無效或不重要的證據。 |\n\n## Critical Appraisal\n\n### 偏差風險判讀（橫斷面分析研究）\n\n| 面向 | 判定 | 證據與理由 |\n|---|---|---|\n| 族群及情境 | 🟡 有疑慮 | 單中心、門診、自願參加，僅 19–40 歲；排除需藥物治療的精神疾病患者，可能低估較嚴重心理負擔（p. 2，Methods 2.1）。 |\n| 暴露與結果測量 | 🟡 有疑慮 | 人體測量與量表有明確工具；飲食只用單次 24 小時回憶。生活品質、身體形象與憂鬱均由自陳量表取得，可能有共同方法及回憶偏差（p. 3，Methods 2.2–2.4）。 |\n| 混雜控制 | 🔴 重要疑慮 | 模型調整數個社會及臨床變項，但未見對疾病表型、症狀嚴重度、治療、心理社會支持、收入等可能混雜因子完整控制；橫斷面資料也不能確立時間順序（p. 3，Methods 2.5）。 |\n| 統計與多重檢定 | 🟡 有疑慮 | 模型檢查與共線性報告完整；但多個量表分域、分組及相關分析未作多重比較修正，增加偶然顯著的可能（p. 4，Methods 2.5）。 |\n| 外部效度 | 🔴 重要限制 | 土耳其單一門診樣本、無對照組，排除了部分較嚴重心理疾病者；結果不宜直接外推至其他國家、年齡或治療情境。 |\n| **整體** | **🔴 橫斷面關聯的因果把握低** | 對 BMI、心理量表及生活品質之間的關聯可作假說生成；不能由此推定方向或治療效益。飲食無顯著結果尤其受單次飲食回憶限制。 |\n\n### 結果解讀與臨床界線\n\n- **無時間順序：**體位、憂鬱、身體形象及生活品質同時測量，不能判定 BMI 變化造成心理結果，或心理狀態反過來影響飲食與體位。\n- **飲食測量不代表習慣：**單次 24 小時回憶容易受日間變異與回憶誤差影響；因此 HEI、CQI、DII 的無顯著結果可能反映測量精度或檢定力不足，不應寫成「飲食和心理沒有關係」。\n- **多重比較：**作者明確說明 PCOSQ-50 總分及分域分析未調整多重檢定（Methods 2.5）；分域結果宜視為探索性訊號。\n- **分數門檻的文字歧義：**HEI-2010 方法文字把「80 以上」列為良好、又把「51–80」列為普通，分數 80 同時落入兩類。表 1 有分類人數，但正文沒有澄清如何處理邊界值（Methods 2.4；Table 1）。\n- **診斷與量表：**BDI 分級代表憂鬱症狀程度，不是臨床診斷；PCOSQ-50 雖採疾病特異性量表，作者使用 PMOS 新稱，量表名仍為 PCOSQ-50。\n- **臨床應用：**本文支持將心理 wellbeing、身體意象與營養／人體測量一併納入完整評估的方向；沒有測試任何飲食、體重或心理介入，故不支持特定處方或因果承諾。\n- **確定性：**本次 focused-quick 評讀不作正式 GRADE 分級。就因果效應而言，橫斷面單中心設計、殘餘混雜及單次飲食測量限制很大；適合視為低確定性關聯證據。\n\n## Strengths and Limitations\n\n**優點：**同一樣本同時評估 PMOS 特異性生活品質、身體形象、憂鬱症狀、人體測量與三類飲食品質指標；報告多元模型與診斷檢查；全文明列研究倫理、知情同意與量表信度。\n\n**作者承認的限制（p. 10，Strengths and limitations）：**橫斷面設計不能推論因果；單一中心且沒有對照組；排除目前需藥物治療的精神疾病者；單次 24 小時飲食回憶可能不能代表平日攝取且受日間變化和回憶偏差影響；PCOSQ-50 總分及各分域多重比較沒有校正。\n\n**另需注意：**模型只控制列出的變項；PMOS 表型、治療及其他心理社會因子仍可能混雜。HEI-2010「80 分」分類文字有重疊。作者未公開去識別資料，理由為人類受試者倫理及隱私限制（p. 11）。\n\n## Resource and Sources\n\n- [PubMed 紀錄 PMID 42947791](https://pubmed.ncbi.nlm.nih.gov/42947791/)：核對題名、作者、DOI 與摘要研究設計／樣本。\n- [DOI／Frontiers in Nutrition 全文頁](https://doi.org/10.3389/fnut.2026.1928327)：原文定位入口。\n- 本輪全文收據：`active-job.json` 的 fullTextFetch 記錄 DOI 相符、全文 13 頁、原生文字 61,852 字元，Introduction、Methods、Results、Discussion、Conclusion 均找到；PDF SHA-256 `e785dbb1e6ae404ca73f129c84fca1eb5319dd20bd9dee1361dbea3a17a7b23d`。\n- 逐段閱讀地圖：本輪 `evidence/reading-map-10.3389-fnut.2026.1928327-20261114.md`。\n- 快速評讀範圍：已讀全文、表 1–5、圖 1、作者限制與文末聲明；未逐條外查參考文獻、作者背景或期刊指標，故未宣稱完成廣泛引用網絡／作者查核。",
       "cards": [],
       "completedAt": "2026-11-14T07:51:37.096Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1928327:digest",
+      "paperId": "doi:10.3389/fnut.2026.1928327",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Associations among quality of life, depressive symptoms, body shape concerns, anthropometric characteristics, and diet quality in women with PMOS: a cross-sectional study.",
+      "authors": "Irmak E, Sanlier N",
+      "journal": "",
+      "year": "",
+      "doi": "10.3389/fnut.2026.1928327",
+      "abstract": "Polyendocrine metabolic ovarian syndrome (PMOS) is a prevalent endocrine disorder associated with impaired quality of life, body image dissatisfaction, and psychological distress. This study aimed to evaluate the associations between quality of life, depression, body shape concern, and diet quality among women with PMOS. This cross-sectional study was conducted between July and December 2022 at a training and research hospital in Ankara, Türkiye, and included 247 women aged 19-40 years diagnosed with PMOS according to the Rotterdam criteria (2003). Participants were assessed using anthropometric measurements, Polycystic Ovary Syndrome Questionnaire (PCOSQ-50), Body Shape Questionnaire (BSQ-34), Beck Depression Inventory (BDI), Healthy Eating Index (HEI-2010), Carbohydrate Quality Index (CQI), and Dietary Inflammatory Index (DII). Group comparisons, correlation analyses, and multiple linear regression analyses were performed to examine associations among the study variables. Participants with minimal depressive symptoms reported significantly higher quality of life scores compared to those with mild or moderate-to-severe depression (p < 0.001). Higher BMI was associated with greater body shape concern (p < 0.001), and greater body shape concern was associated with lower PCOSQ-50 scores (p < 0.001). Significant negative correlations were observed between PCOSQ-50 scores and BSQ-34, BDI, and BMI (p < 0.05). These findings demonstrate significant associations among quality of life, depressive symptoms, body shape concerns, and BMI in women with PMOS and underscore the importance of considering psychosocial and anthropometric factors alongside dietary characteristics in the comprehensive assessment of women with PMOS.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1928327/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42947791/",
+      "category": "candidate",
+      "tags": [
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "PMOS 女性生活品質、心理狀態與飲食品質（內容整理）",
+      "content": "---\ntitle: PMOS 女性生活品質、心理狀態與飲食品質（內容整理）\ncitekey: Irmak2026PMOSQoL\ndoi: 10.3389/fnut.2026.1928327\npmid: 42947791\naliases:\n  - Associations among quality of life, depressive symptoms, body shape concerns, anthropometric characteristics, and diet quality in women with PMOS: a cross-sectional study\ntags:\n  - research/digest\n  - PMOS\n  - 生活品質\n  - 身體意象\n  - 飲食品質\n---\n\n> [!summary] 30 秒層\n> **一句話：**這項 247 人橫斷面研究發現，較高 BMI、身體形象困擾及憂鬱症狀與較差的 PMOS 特異性生活品質同時相關；三項飲食指標在調整後模型中沒有獨立關聯。\n> - 樣本是土耳其安卡拉單一醫院的 19–40 歲 PMOS 女性；一次收集量表、人體測量及一日飲食回憶（方法 2.1–2.5）。\n> - PCOSQ-50 與 BSQ-34、BDI、BMI 的相關係數依序為 −.342、−.393、−.198；BSQ-34 與 BMI 的相關為 .705（結果；Figure 1）。\n> - BMI 在多變項模型中與較低 PCOSQ-50、較高 BSQ-34 與 BDI 分數相關；這些仍是同一時間點的觀察關聯（Table 5）。\n> - HEI-2010 平均 50.0，52.6% 被分類為飲食品質差；單次回憶不足以代表平常攝取（Table 1；作者限制）。\n>\n> **5 分鐘層：**先讀下方研究問題、主要發現與限制，可掌握研究設計、數值和臨床解讀界線。\n> 品質評讀 → 見同 DOI 的 review 成果；本頁整理研究內容。\n\n# PMOS 女性生活品質、心理狀態與飲食品質\n\n## 研究問題與背景\n\n**要點：作者把患者中心結果與三種飲食品質面向放在同一研究中，補足過去較常聚焦代謝、生殖或體位的研究角度。**\n\n- 作者描述 PMOS 可能伴隨心理、身體形象及生活品質負擔，但這些因素可能共存，不代表彼此已被證明有單向因果（Introduction，p. 2）。\n- 研究同時看整體飲食品質 HEI-2010、碳水品質 CQI 與飲食發炎潛勢 DII，並和生活品質、身體形象及憂鬱症狀比較（Introduction，p. 2；Methods 2.4）。\n- 研究問題是這些量表、人體測量及飲食指標在 PMOS 女性中如何相關；不是飲食介入試驗，也沒有測試改變飲食後的結果（Introduction，p. 2；Methods 2.1）。\n\n## 方法\n\n**要點：247 位女性在單一時間點受測；飲食只用一次 24 小時回憶，因果方向無法判定。**\n\n- **設計與樣本：**2022 年 7–12 月在土耳其安卡拉一所教學研究醫院招募 247 位 19–40 歲女性，依 2003 Rotterdam criteria 診斷 PMOS；排除懷孕／哺乳及需藥物治療的精神疾病者（Methods 2.1，p. 2）。\n- **生活品質與心理量表：**PCOSQ-50 越高代表疾病特異性生活品質越佳；BSQ-34 越高代表身體形象困擾越多；BDI 是憂鬱症狀量表，分數不是精神疾病診斷（Methods 2.3，p. 3）。\n- **飲食指標：**單次 24 小時飲食回憶配合食物照片與 BeBiS 軟體，計算 HEI-2010、CQI、DII（Methods 2.4，p. 3）。\n- **分析：**使用群組比較、Pearson 相關，以及以 PCOSQ-50、BSQ-34、BDI 為依變項的多元線性迴歸；模型納入年齡層、婚姻、運動、共病、BMI、確診年數及三種飲食指標（Methods 2.5，pp. 3–4）。\n\n## 主要發現\n\n**要點：心理社會量表與 BMI 的關聯較清楚；飲食指標沒有在迴歸模型中顯示獨立關聯。**\n\n| 結果 | 數值 | 怎麼讀 | 位置 |\n|---|---:|---|---|\n| 樣本概況 | n=247；平均 25.9±5.0 歲；BMI 平均 26.4±6.31 kg/m² | 安卡拉單中心成年門診樣本，無未患 PMOS 對照組 | Results；Table 1，pp. 4–5 |\n| 生活品質與身體形象／憂鬱 | PCOSQ-50 vs BSQ-34 r=−.342；vs BDI r=−.393 | 困擾分數越高，生活品質分數越低；不能判定方向 | Results；Figure 1，pp. 4、8 |\n| BMI 與心理量表 | BMI vs BSQ-34 r=.705；BMI vs BDI r=.393 | BMI 與身體形象困擾、憂鬱症狀分數同時相關 | Results；Figure 1，pp. 4、8 |\n| BMI 與生活品質 | BMI vs PCOSQ-50 r=−.198；p=.002 | 負相關幅度較小，不能當作個人預測或因果效果 | Results；Figure 1，p. 4 |\n| PCOSQ-50 迴歸 | 調整 R²=.38；BMI B=−1.418；已婚 B=+30.186；診斷年數 B=−.798 | 模型中有多個相關因子；係數是調整後關聯，不是介入效應 | Table 5，p. 9 |\n| BSQ-34 迴歸 | 調整 R²=.50；BMI B=+2.869；共病 B=−5.537 | BMI 為強相關項；共病的反向係數需審慎解讀 | Table 5，p. 9 |\n| BDI 迴歸 | 調整 R²=.11；BMI B=+.284；25–40 歲相較 19–24 歲 B=−1.903 | 模型解釋度有限；不要將年齡差異寫成治療效果 | Table 5，p. 9 |\n| 飲食品質 | HEI-2010 平均 50.0；差 52.6%、普通 45.0%、良好 2.4% | 來自單次回憶的樣本分類，不保證代表慣常飲食 | Table 1，p. 5 |\n| 飲食指標與心理結果 | CQI、DII、HEI-2010 在三個迴歸模型皆未達顯著 | 不能由「未檢出」推成飲食品質沒有影響 | Table 5，p. 9；Discussion，p. 10 |\n\n**相關係數提醒：**r 描述兩變項在這個樣本中一起變動的程度；橫斷面相關不能指出先後，也沒有排除所有共同原因。\n\n## 如何讀這篇研究\n\n**要點：這篇支持全面評估的想法，不提供特定飲食處方或減重因果證據。**\n\n- BMI 與生活品質、身體形象及 BDI 的關聯在調整後仍存在；但樣本、量測與設計不足以說「BMI 造成心理困擾」（Results；Discussion，pp. 4、9–10）。\n- PCOSQ-50 依憂鬱程度及身體形象困擾分組後，多個領域分數不同；研究者沒有作多重比較修正，分域結果宜視為探索訊號（Methods 2.5，p. 4；Tables 3–4，pp. 7–8）。\n- HEI-2010、CQI、DII 均依一日飲食回憶計算。日間變異與回憶誤差可能使個人飲食排序不穩，因而限制「無關聯」的解讀（Methods 2.4，p. 3；Limitations，p. 10）。\n- **HEI 分類邊界：**方法文字把 ≥80 列為良好、51–80 列為普通，80 分有重疊；作者未在正文說明邊界如何處理（Methods 2.4，p. 3）。\n- 作者結論是將心理 wellbeing、身體意象、人體測量與營養特徵一併納入評估；本文沒有測試任何心理、體重或飲食介入（Conclusion，p. 11）。\n\n## 限制與研究尚未回答的問題\n\n**要點：此研究描述同時存在的關聯，沒有建立因果或效果。**\n\n- 單中心橫斷面研究、無對照組，不能推論因果或確認先後順序（Limitations，p. 10）。\n- 排除目前需藥物治療的精神疾病者，可能較少納入心理狀況較嚴重的患者（Methods 2.1，p. 2；Limitations，p. 10）。\n- 單次 24 小時飲食回憶可能不能代表長期飲食，並受日間變化及回憶偏差影響（Limitations，p. 10）。\n- PCOSQ-50 總分及各領域同時比較、未校正多重檢定，可能增加偶然顯著發現（Methods 2.5，p. 4）。\n- 作者未公開受試者資料，理由是倫理及隱私限制（Data availability，p. 11）。\n\n## 名詞快記\n\n- **PCOSQ-50：**PMOS/PCOS 特異性生活品質量表；本文總分越高代表較佳生活品質（Methods 2.3，p. 3）。\n- **BSQ-34：**身體形象困擾量表；分數較高代表困擾較多（Methods 2.3，p. 3）。\n- **BDI：**憂鬱症狀自陳量表；量表分級不等於臨床診斷（Methods 2.3，p. 3）。\n- **HEI-2010／CQI／DII：**分別衡量整體飲食品質、碳水化合物品質、飲食發炎潛勢（Methods 2.4，p. 3）。\n\n## 自我測驗\n\n**要點：檢查是否能分清「相關」與「因果」，以及未顯著與無效果。**\n\n> [!question]- Q1：PCOSQ-50 與 BDI 呈負相關，能否說憂鬱症狀造成生活品質降低？\n> 不能。兩者在同一時間點測量，可能互相影響，也可能受 BMI、疾病表型或其他因素共同影響；研究沒有建立時間順序。\n\n> [!question]- Q2：飲食品質指標未與心理結果獨立相關，是否代表飲食在 PMOS 照護中不重要？\n> 不能。飲食只用一次 24 小時回憶估算，可能不能代表平常攝取；未檢出關聯不等於已證明沒有影響。\n\n> [!question]- Q3：BDI 分數較高是否等同臨床憂鬱症診斷？\n> 不是。BDI 是憂鬱症狀量表；診斷需依完整臨床評估，不能由這篇研究的量表分級取代。\n\n> [!question]- Q4：本文可支持營養師直接要求患者減重以改善生活品質嗎？\n> 不可由此研究作此因果承諾。本文是橫斷面關聯研究，未測試減重或飲食介入；可用來提醒評估心理 wellbeing、身體意象、營養與人體測量的多面向狀況。\n\n## 來源\n\n- [PubMed PMID 42947791](https://pubmed.ncbi.nlm.nih.gov/42947791/)\n- [DOI／Frontiers in Nutrition 全文頁](https://doi.org/10.3389/fnut.2026.1928327)\n- 全文定位：本文各段已標 PDF 頁碼、方法節、表格或圖；全文核驗收據與逐段閱讀地圖存於本輪 evidence。",
+      "cards": [
+        {
+          "title": "橫斷面關聯與因果",
+          "question": "PCOSQ-50 與 BDI 呈負相關，能否說憂鬱症狀造成生活品質降低？",
+          "answer": "不能。兩者在同一時間點測量，可能互相影響，也可能受 BMI、疾病表型或其他因素共同影響；研究沒有建立時間順序。",
+          "tags": [
+            "PMOS",
+            "生活品質",
+            "因果推論"
+          ]
+        },
+        {
+          "title": "飲食指標未顯著",
+          "question": "飲食品質指標未與心理結果獨立相關，是否代表飲食在 PMOS 照護中不重要？",
+          "answer": "不能。飲食只用一次 24 小時回憶估算，可能不能代表平常攝取；未檢出關聯不等於已證明沒有影響。",
+          "tags": [
+            "PMOS",
+            "飲食品質",
+            "統計判讀"
+          ]
+        },
+        {
+          "title": "BDI 分數的意義",
+          "question": "BDI 分數較高是否等同臨床憂鬱症診斷？",
+          "answer": "不是。BDI 是憂鬱症狀量表；診斷需依完整臨床評估，不能由這篇研究的量表分級取代。",
+          "tags": [
+            "PMOS",
+            "憂鬱症狀",
+            "量表"
+          ]
+        },
+        {
+          "title": "避免因果承諾",
+          "question": "本文可支持營養師直接要求患者減重以改善生活品質嗎？",
+          "answer": "不可由此研究作此因果承諾。本文是橫斷面關聯研究，未測試減重或飲食介入；可用來提醒評估心理 wellbeing、身體意象、營養與人體測量的多面向狀況。",
+          "tags": [
+            "PMOS",
+            "臨床應用",
+            "因果推論"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-14T08:01:39.540Z"
     }
   ]
 }
