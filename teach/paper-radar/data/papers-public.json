@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-14T08:57:38.407Z",
+  "generatedAt": "2026-11-14T09:14:29.732Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -113877,6 +113877,81 @@
       "content": "---\ntags:\n  - research/review\n  - clinical-nutrition\n  - diet-quality\n  - multimorbidity\ncitekey: Wang2026DietQualityMultimorbidity\ndoi: \"10.1186/s12889-026-28757-4\"\nzotero: null\njournal: \"BMC Public Health\"\nyear: 2026\nauthors: \"Wang W, Zhu F, Liu L, Song Q, Shan R, Hao Y, Meng F, Sun C\"\nstudy_type: \"prospective_cohort_multistate\"\npmid: \"42958149\"\nreview_depth: \"focused-quick\"\n---\n\n# Key Points\n\n## Summary\n\n> ✅ 已閱讀並核對全文（17 頁；PDF DOI／題名相符，原生文字層 17/17 頁可讀，69,745 字元；PDF SHA-256：0ce5a8c4d85b955e73418333db365694b20b5989eddd1ebf4ee575dc3b270156）。首頁、圖表頁與末頁亦已渲染檢視。\n\n> [!info] 品質快照\n> **設計／樣本**：UK Biobank 前瞻性世代、多狀態模型；隊列列 148,858 人，平均年齡描述段落另寫 n=134,928；中位追蹤 12.5 年。\n> **偏差風險**：有疑慮；依選擇、暴露測量、混雜、缺漏與結果分類快速評讀，非正式量表總分。\n> **GRADE**：很低（觀察性證據起始 Low；首次 NCD 後至多病共存的主要估計，因偏差風險與族群間接性各降一級；grade_judge.py 計算結果）。\n> **登錄**：不適用於非試驗世代研究；本文未據此確認研究計畫是否預先登錄。\n> **一句話判讀**：較高飲食品質與較低疾病進展風險有關，但外推、時間起點及報告數字需釐清；研究不能證明改善飲食可預防疾病。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：在英國大型隊列中，較高飲食品質分數和較低的首次慢性病及後續多病共存風險同時出現。\n> - **為什麼做**：作者想補上過去較少分析從健康到首次疾病、再到多病共存及死亡整段歷程的研究缺口。\n> - **主體—分組**：研究者將入組時沒有癌症、心血管疾病、慢性呼吸疾病及第二型糖尿病的人，依 AHEI-2010、HEI-2015、aMED、DASH 分數分成四分位；另分析癌症、CRD、CVD、T2D 等首次疾病路徑。\n> - **主體—結果**：追蹤中 28,340 人出現首次 NCD，4,019 人進展到多病共存。DASH 最高相對最低四分位，首次 NCD 的 HR 為 0.87（95% CI 0.84–0.90），首次 NCD 到多病共存的 HR 為 0.75（0.69–0.82）；AHEI 與基線至死亡的 HR 為 0.68（0.56–0.81）。這些是調整後關聯，不是飲食介入效果。\n> - **主體—推測機轉**：作者討論蔬果、全穀、堅果豆類可能經代謝或發炎途徑與較佳疾病軌跡相關；本文沒有直接測量或驗證這些機轉。\n> - **所以呢**：可視為整體飲食品質與較佳疾病軌跡相符的隊列證據；不能把 HR 解讀成個人風險一定下降相同比例，也不能宣稱飲食分數可預防慢性病。\n> - **限制**：UK Biobank 平均年齡約 55 歲、95.4% 白人，並非典型台灣高齡照護樣本；重要人數在摘要、方法和結果間有差異。\n\n## 方法與證據範圍\n\n- **設計**：在基線無癌症、心血管疾病、慢性呼吸疾病及 T2D 的 UK Biobank 參與者中，評估飲食品質與「無病 → 首次 NCD → 多病共存 → 死亡」轉移的關聯。前瞻性觀察世代，不是飲食介入試驗。[PDF pp.1–3]\n- **樣本與飲食測量**：摘要及流程列 148,858 人；描述性結果稱平均年齡分析 n=134,928。Oxford WebQ 24 小時飲食回憶於 2011–2012 年最多填答五次，39.4% 僅提供一次。四指數為 AHEI-2010、HEI-2015、aMED、DASH；食物成分另分三分位。[PDF pp.2, 5]\n- **結果定義**：多病共存為癌症、CVD、CRD、T2D 四類中至少兩類；CRD 包括氣喘與 COPD，CVD 包括缺血性心臟病、心衰竭與中風。使用醫療紀錄、住院、癌症及死亡登記資料。[PDF pp.2–4]\n- **統計方法**：Cox 比例風險與多狀態模型；年齡作主要時間尺度並按五歲年齡層及評估中心分層。調整性別、族群、Townsend deprivation、抽菸、活動、教育、收入與職業；部分指數及食物模型加調酒精頻率。22,307 人若干共變項缺漏以獨立類別處理。另做限制立方樣條、比例風險檢查、敏感度及分層分析，使用 Benjamini–Hochberg 控制多重比較 FDR；R 3.6.3。[PDF pp.3–5]\n- **追蹤與事件**：中位追蹤 12.5 年；結果段落報告 28,340 人有首次 NCD、4,019 人有多病共存、4,857 人死亡。平均年齡 55.4 歲，男性約 44.8%，白人 95.4%。[PDF p.5]\n- **資金與利益衝突**：作者聲明中國國家自然科學基金資助，並聲明無利益衝突；作者稱資助者未參與設計、分析、撰寫或投稿決策。[PDF pp.16–17]\n\n## 主要結果\n\n| 轉移／分析 | 報告結果 | 判讀邊界 |\n|---|---|---|\n| 無病至首次 NCD | DASH 最高對最低四分位 HR 0.87（0.84–0.90） | 調整後觀察性關聯；不能說高 DASH 直接防止疾病。 |\n| 首次 NCD 至多病共存 | DASH HR 0.75（0.69–0.82） | 以已出現首病者為條件；估計可能受疾病種類、存活與追蹤選擇影響。 |\n| 基線至死亡 | AHEI HR 0.68（0.56–0.81）；DASH HR 0.75（0.63–0.90） | 多指數方向相近，仍不能轉成個人因果效應。 |\n| 特定首次疾病 | DASH 與 T2D、CRD 轉移呈較強反向關聯；癌症轉移未見明顯關聯 | 各疾病路徑事件數不同；不能推廣到所有慢性病。 |\n| 食物成分 | 較高蔬果、全穀、堅果／豆類與部分轉移風險較低相關；含糖飲料、鈉、紅／加工肉與部分首次疾病風險較高相關 | 多個成分與轉移比較增加偶然發現風險；有 FDR 校正，但飲食回憶仍可能有誤差。 |\n| 子組 | 男性、BMI<25、曾／目前抽菸者若干關聯較強 | 探索性分層；不應據此訂定不同族群的處方效果。 |\n\n## Critical Appraisal／品質評讀\n\n### 世代研究偏差檢視\n\n| 領域 | 判讀 | 理由 |\n|---|---|---|\n| 選擇／代表性 | 有疑慮 | UK Biobank 參與者非全人口代表；平均年齡約 55 歲且 95.4% 白人，外推至台灣高齡臨床族群有限。 |\n| 暴露分類 | 有疑慮 | 24 小時回憶可能受回憶與報告誤差影響；近四成僅一次回憶。回憶期與文中「入組」起算時間需釐清。 |\n| 混雜 | 有疑慮 | 已調整多個社會與健康行為因子，但殘餘混雜仍可能影響飲食品質和疾病風險的關聯。 |\n| 缺漏資料 | 有疑慮 | 22,307 人若干共變項缺漏以「缺漏」類別保留，不等同恢復真實混雜值，也可能留下偏差。 |\n| 結果測量 | 尚可但有定義限制 | 使用多來源醫療與登記資料；多病共存只涵蓋四類疾病，未代表完整共病負擔。 |\n| 選擇性報告／多重分析 | 有疑慮 | 分析包含多指數、多疾病轉移、食物成分與子組；有 FDR 校正，次群與單項成分仍應視為探索性。 |\n\n### 推論落差：關聯不能證明預防效果\n\n- **資料可支持**：四個飲食品質指數在此隊列中與部分疾病轉移呈統計關聯。[PDF pp.6–9]\n- **不能由此證明**：刻意提高分數會按 HR 幅度降低疾病或死亡，或指定食物成分能預防多病共存。研究沒有隨機介入比較，且可能有殘餘混雜。\n- 已對作者預防性措辭建立 argument map 並執行 argdown_lint.py。結果標記 association-to-causation 落差；本文因此分開陳述因果與觀察性解讀。\n\n### 報告數字與時間定義需作者釐清\n\n1. 摘要報告死亡 4,815 人；結果段落報告 4,857 人。[PDF p.1 vs p.5]\n2. 方法稱 531 人因同日診斷無法排序而排除於疾病別分析；結果稱排除 655 人。[PDF p.4 vs p.5]\n3. 隊列摘要與流程列 148,858 人；結果的平均年齡描述卻以 134,928 人為分母，未說明人數差異原因。[PDF pp.1, 5]\n4. 飲食回憶於 2011–2012 年收集，而風險追蹤文字寫自 enrollment 起算；暴露測量、分析 baseline 與追蹤起點先後需更清楚。這是待釐清的時間定義，不據此斷定偏差方向。[PDF pp.2–5]\n\n### GRADE、臨床重要性與限制\n\n- **GRADE**：首次 NCD 後發展多病共存的關聯由 Low 起始；risk of bias 與 indirectness 各降一級，輔助計算為 Very low。異質性及出版偏差無法由單篇研究估計；計算不降級不表示已排除。\n- **臨床重要性**：HR 是相對瞬時風險比，不等同絕對風險降低；本文未提供可直接用於台灣照護決策的介入效應或個人化絕對效益。MCID／RCT fragility index 不適用。\n- **主要外推限制**：研究不是專門的高齡照護隊列；平均年齡約 55 歲、族群組成高度偏白人，不能直接轉成台灣長者的量化風險預測。\n- **本次範圍**：focused-quick；沒有做作者履歷、期刊指標、逐條參考文獻驗真或外部引文／社群討論掃描，不能把這些寫成已完成。\n\n## Clinical Application／臨床應用\n\n可將較佳整體飲食品質視為與較佳疾病軌跡相符的公共衛生訊號，並依既有飲食指引提供個別化營養照護。這篇研究不能單獨證明指定飲食分數、食物成分或一項飲食處方能預防疾病，也不能用其 HR 計算個別病人的預期效益。與台灣高齡者照護相關的應用仍需結合既有指引、營養狀態、疾病與偏好，避免把探索性子組差異當成處方依據。\n\n## Full-text Reading Map／全文結構核對\n\n| 全文位置 | 段落／章節重點 |\n|---|---|\n| PDF p.1，摘要 | 研究目的、隊列、四種飲食品質分數、多狀態分析及主要 HR；摘要死亡數與正文不同。 |\n| PDF pp.1–2，Introduction | 飲食品質與單一疾病既有研究、多病共存及疾病發展軌跡的研究缺口。 |\n| PDF pp.2–3，Study population／diet assessment | UK Biobank、基線排除條件、Oxford WebQ 回憶資料與四個指數計分方式。 |\n| PDF pp.3–4，Outcome definition | 首次 NCD、多病共存、疾病別轉移及死亡定義；同日診斷排序處理與排除。 |\n| PDF pp.4–5，Statistical analysis | Cox／多狀態模型、時間尺度、共變項、缺漏處理、敏感度分析、子組及 FDR。 |\n| PDF p.5，Descriptive results | 樣本年齡、族群、追蹤時間、首次疾病、多病共存和死亡；描述年齡樣本分母未與隊列總數對上。 |\n| PDF pp.6–7，主要模型結果 | 四種指數與首次疾病、多病共存、死亡及疾病別轉移關聯；部分結果非線性。 |\n| PDF pp.8–9，表格／圖形結果 | 各分位 HR、信賴區間、食物成分及子組分析；需與多重比較及估計邊界一併解讀。 |\n| PDF pp.10–14，Discussion | 與既有飲食研究比較，討論癌症、CVD、T2D、CRD 路徑及可能機轉；多為推測而非直接驗證。 |\n| PDF pp.14–16，限制與結論 | 族群、飲食回憶、殘餘混雜、疾病範圍與同日排序限制；結論仍屬觀察性關聯。 |\n| PDF pp.16–17，聲明與參考資料 | 核對資助、利益衝突、作者資訊與參考文獻頁；本次未逐條查驗引用。 |\n\n全文按頁序讀完摘要、引言、方法、各結果、討論、限制、結論、聲明與參考文獻；首頁、圖表中段及末頁與文字抽取互核。\n\n## Source／全文與身份\n\n- Wang W, Zhu F, Liu L, Song Q, Shan R, Hao Y, Meng F, Sun C. *Associations of key diet-quality indexes with trajectory of multimorbidity: a prospective study in the UK Biobank.* BMC Public Health. 2026;26:3112. DOI: [10.1186/s12889-026-28757-4](https://doi.org/10.1186/s12889-026-28757-4). PMID: 42958149.\n- Springer 官方全文來源：[文章 PDF](https://link.springer.com/content/pdf/10.1186/s12889-026-28757-4.pdf)。首頁標示 CC BY-NC-ND 4.0；此筆記為原創評讀，不包含 PDF 或全文副本。\n- 核驗收據：本輪 active job 為 [local path removed] [local path removed] SHA 記錄於 active job。",
       "cards": [],
       "completedAt": "2026-11-14T08:44:53.198Z"
+    },
+    {
+      "id": "doi:10.1186/s12889-026-28757-4:digest",
+      "paperId": "doi:10.1186/s12889-026-28757-4",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Associations of key diet-quality indexes with trajectory of multimorbidity: a prospective study in the UK Biobank.",
+      "authors": "Wang W, Zhu F, Liu L, Song Q, Shan R, Hao Y, Meng F, Sun C",
+      "journal": "BMC Public Health",
+      "year": "2026",
+      "doi": "10.1186/s12889-026-28757-4",
+      "abstract": "Dietary patterns have been associated with the morbidity and mortality of individual non-communicable diseases(NCDs). However, the impacts of baseline dietary patterns among the initially healthy population on the progression from healthy to first non-communicable disease (FNCD), subsequently to multimorbidity, and further to death remain unclear. One hundred forty eight thousand eight hundred fifty eight participants free of cancer, cardiovascular disease(CVD), chronic respiratory disease(CRD), and type 2 diabetes(T2D) in the subsample of UK Biobank with 24 h recall data were included in our research. Multimorbidity was defined as the coexistence of at least two diagnoses of cancer, CVD, CRD, and T2D. Health outcome data was acquired from primary care data, inpatient hospital records, cancer registries and death registries. Multi-state model was used to analyze the impacts of four diet-quality indexes and key food components on the whole trajectory of multimorbidity. During a median follow-up of 12.5 years, 28,340 participants experienced at least one NCDs, 4,019 developed multimorbidity, and 4,815 dead. Four diet-quality indexes at baseline were all inversely associated with the risks of transitions from healthy to FNCD, from FNCD to multimorbidity, and from healthy to death, but not transitions from FNCD and multimorbidity to death. The HRs (95% CIs) across extreme quartiles of DASH index were 0.87(0.84-0.90) and 0.75(0.69-0.82) for transitions from healthy to FNCD and subsequent to multimorbidity. For transition from healthy to death, the HR (95% CIs) across extreme quartiles of DASH was 0.75(0.63-0.90). High fruits, vegetables, and whole grain were associated with lower risks of transitions from baseline to FNCD and subsequent to multimorbidity. But sugar sweetened beverage was associated with higher risks of these transitions. Furthermore, males, normal-weight and previous/current smoking participants appeared to derive the greater benefit from high diet-quality indexes, although the associations remained statistically significant in females, overweight/obesity and never smoking individuals. Our study indicated that healthy dietary patterns at baseline were associated with lower risks of progression from healthy to FNCD, subsequently to multimorbidity, and from baseline to death. These findings emphasize the critical role of maintaining a high-quality diet before NCD onset, as it may further contribute to preventing multimorbidity development.",
+      "legalFullTextUrl": "https://doi.org/10.1186/s12889-026-28757-4",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42958149/",
+      "category": "candidate",
+      "tags": [
+        "chronic disease nutrition",
+        "human clinical population",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "Wang2026 飲食品質指數與多重慢性病軌跡｜全文內容整理",
+      "content": "---\ntags:\n  - research/digest\n  - clinical-nutrition\n  - diet-quality\n  - multimorbidity\ncitekey: Wang2026DietQualityMultimorbidity\ndoi: \"10.1186/s12889-026-28757-4\"\naliases:\n  - \"Associations of key diet-quality indexes with trajectory of multimorbidity: a prospective study in the UK Biobank\"\njournal: \"BMC Public Health\"\nyear: 2026\nstudy_type: \"prospective cohort, multistate analysis\"\n---\n\n> [!summary] 30 秒層｜一句話 + 重點\n> 這項 UK Biobank 前瞻性隊列顯示，四種飲食品質分數較高與部分慢性病進展路徑的較低風險相關；研究沒有測試飲食介入，因此不能證明提高分數會預防疾病。\n>\n> - 中位追蹤 12.5 年，結果段落報告 28,340 人出現首次 NCD、4,019 人進展至多病共存。\n> - DASH 最高對最低四分位：無病至首次 NCD HR 0.87（95% CI 0.84–0.90）；首次 NCD 至多病共存 HR 0.75（0.69–0.82）。\n> - 基線飲食品質與從健康狀態到死亡相關；在合併轉移分析中，首次 NCD／多病共存後到死亡的關聯未達顯著。\n> - 飲食回憶於 2011–2012 年取得，近四成樣本只回憶一次；隊列樣本年數在文章段落間不一致。\n> 品質評讀 → 同 DOI 另有全文品質評讀：[開啟本篇 review 與 digest](https://594katchang-source.github.io/teach/paper-radar/?q=10.1186%2Fs12889-026-28757-4&open=notes)\n\n**5 分鐘層｜**先讀各節要點即可掌握全文，再展開下方表格與解說.\r\n## 研究問題／背景\n\n**要點**：作者把問題從「飲食與某一疾病是否相關」擴大到「飲食品質如何與健康、首個慢性病、多病共存及死亡的連續狀態相連」。\n\n過去飲食研究常各自分析癌症、心血管疾病、慢性呼吸疾病或第二型糖尿病。本文要補充的是多病共存的整段發展路徑：基線沒有四類 NCD，之後出現第一種疾病，再出現第二種以上疾病，最後可能死亡。研究觀察四個飲食品質分數與這些轉移的關聯。[PDF pp.1–2]\n\n## 方法\n\n**要點**：這是大型前瞻性觀察世代研究；飲食分數來自多次 24 小時回憶，分析用 Cox 與多狀態模型追蹤疾病轉移。\n\n- **研究對象**：UK Biobank 中基線沒有癌症、CVD、CRD、T2D 的參與者。摘要及流程列 148,858 人；描述性結果的平均年齡段落另列 n=134,928，文章未解釋兩個分母差異。[PDF pp.1, 5]\n- **族群**：描述樣本平均年齡 55.4 歲，約 44.8% 男性、95.4% 白人。這不是專為台灣高齡者招募的隊列。[PDF p.5]\n- **飲食資料**：Oxford WebQ 24 小時回憶於 2011–2012 年最多填答五次，研究者平均各次攝取資料；39.4% 只提供一次回憶。[PDF pp.2, 5]\n- **四個飲食品質分數**：AHEI-2010、HEI-2015、aMED、DASH。研究也分析水果、蔬菜、全穀、堅果／豆類、含糖飲料、鈉、紅肉／加工肉等成分。[PDF pp.2–3]\n- **疾病狀態**：多病共存定義為癌症、CVD、CRD、T2D 四類疾病中至少兩類。疾病資料來自初級照護、住院、癌症及死亡登記等資料源。[PDF pp.2–4]\n- **分析**：以 Cox 比例風險及多狀態模型估計不同狀態轉移；年齡作主要時間尺度，依年齡層和評估中心分層。模型調整人口特性、剝奪指數、抽菸、活動、教育、收入、職業等因素，部分模型再調酒精。用限制立方樣條檢查非線性、進行敏感度和子組分析，並以 Benjamini–Hochberg 方法控制多重比較 FDR。[PDF pp.3–5]\n- **追蹤起點需留意**：飲食回憶在 2011–2012 年收集，但方法將風險時間描述為從 enrollment 起算；暴露評估與追蹤起點的先後關係需參照作者完整分析設定。[PDF pp.2–5]\n\n## 主要發現\n\n**要點**：較高飲食品質與較低的首次疾病及首次疾病後多病共存風險相關；死亡關聯會隨轉移路徑而不同。\n\n| 分析路徑／發現 | 文章報告 | 讀法 |\n|---|---|---|\n| 基線無四類疾病 → 首次 NCD | DASH 最高對最低四分位 HR 0.87（95% CI 0.84–0.90） | 最高分組的調整後瞬時風險較低；是觀察性關聯。 |\n| 首次 NCD → 多病共存 | DASH HR 0.75（0.69–0.82） | 在已出現第一種疾病的人中，較高 DASH 分數與較低的後續轉移風險相關。 |\n| 基線無病 → 死亡 | AHEI HR 0.68（0.56–0.81）；DASH HR 0.75（0.63–0.90） | 飲食品質分數與從基線狀態到死亡的路徑相關。 |\n| 首次 NCD／多病共存 → 死亡 | 合併路徑分析中，四種飲食品質分數未呈顯著關聯 | 不能把「基線到死亡」結果推廣為每一疾病階段後都能降低死亡風險。 |\n| 特定首發疾病 | DASH 對 T2D、CRD 路徑呈較強反向關聯；癌症路徑未見明顯關聯 | 各病種結果不同，不能概括為所有 NCD 都有相同關聯。 |\n| 食物成分 | 蔬果、全穀、堅果／豆類與部分轉移風險較低相關；含糖飲料、鈉、紅肉／加工肉與部分首發疾病風險較高相關 | 多項成分分析經 FDR 校正，仍應讀作隊列中的關聯訊號。 |\n| 子組分析 | 男性、BMI<25、曾／目前抽菸者在若干路徑上的關聯較強 | 分層結果屬探索性，不能推成各族群的飲食治療效果。 |\n\nHR（hazard ratio）比較的是模型中的相對瞬時風險，不是絕對風險差，也不能解讀成飲食介入後會得到相同幅度的降低。本文主要結果未提供可直接套用到個人或台灣長者的預測風險。[PDF pp.6–9]\n\n## 重要圖表重述\n\n**要點**：圖 1、圖 2 交代參與者如何經過不同疾病狀態；圖 3、圖 4 呈現分組 HR 與劑量反應型態。\n\n- **Figure 1**：展示「基線無病 → 首次 NCD → 多病共存 → 死亡」的合併狀態流向及各狀態人數。[PDF p.4]\n- **Figure 2**：把首次 NCD 拆分成癌症、CRD、CVD、T2D，再連到多病共存與死亡；同日多重診斷的排除數在方法和結果段落不一致。[PDF pp.4–5]\n- **Figure 3**：按飲食品質指數四分位呈現各轉移 HR，方便比較四種指數與不同路徑的結果。[PDF pp.6–7]\n- **Figure 4**：以曲線呈現飲食品質指數與不同疾病轉移的暴露—反應形狀；不能單憑曲線建立飲食造成結果的因果關係。[PDF pp.7–8]\n- **Table 1**：列出依首發疾病拆分的飲食品質指數 HR。[PDF pp.8–10]\n- **Table 2**：列出各食物成分分組與各疾病轉移的 HR。[PDF pp.14–16]\n\n## 與既有認知的對照\n\n**要點**：本篇補上多病共存的多狀態分析；它與其他飲食品質研究問題相近，但暴露定義、族群及結果不同，不能互相當成重複驗證。\n\n既有公開閱讀筆記索引中可找到幾個相關研究：衣索比亞第 2 型糖尿病成人飲食品質與過重／肥胖的單院橫斷研究（392 人），以及迦納成人可持續飲食分數與新發心代謝結果的前瞻性研究。前者看同一時間的體重分類，後者看永續飲食分數與不同新發疾病；都不是本篇 UK Biobank 四指數、多狀態疾病進展問題。本篇增添的是疾病路徑視角，沒有取代上述不同問題的結果。\n\n## 概念／名詞整理\n\n**要點**：讀懂本文要先區分四種「飲食品質分數」、首次疾病與多病共存，以及不同疾病階段的轉移。\n\n- **AHEI-2010**：Alternate Healthy Eating Index；研究所用的健康飲食品質指數之一。\n- **HEI-2015**：Healthy Eating Index；另一套飲食品質評分。\n- **aMED**：alternate Mediterranean diet score；以地中海飲食相關食物模式計分。\n- **DASH**：Dietary Approaches to Stop Hypertension index；本文用作飲食品質分數之一。\n- **FNCD**：first non-communicable disease，即原先無四類疾病者出現的第一種 NCD。\n- **多病共存**：本文限定為癌症、CVD、CRD、T2D 四類中至少兩種，不代表所有共病。\n- **多狀態模型**：把每個人的健康狀態及後續轉移分開分析，因此「健康到死亡」與「首病後到死亡」是不同估計問題。\n- **FDR**：false discovery rate；作者用 Benjamini–Hochberg 程序調整大量比較的顯著性判斷。[PDF pp.2–5]\n\n## 臨床意義／怎麼用\n\n**要點**：把結果當作整體飲食品質與疾病軌跡相關的研究訊號，不將其改寫成已證實的預防療效。\n\n對營養照護與衛教而言，本文可以作為「飲食品質可能與長期疾病路徑相關」的隊列例子。作者的資料不是飲食介入試驗，樣本也不是專門的高齡照護族群；因此不能把 HR 當作個人治療效果，不能依探索性子組結果指定不同族群處方。實務照護仍需依既有指引及個別營養、疾病、功能與偏好決定。[PDF pp.5–16]\n\n## 自我測驗\n\n**要點**：回答時先說明研究能支持哪種關聯，再指出不能跨越到哪一種因果或臨床結論。\n\n> [!question]- Q1：這篇研究為何能分析「健康 → 首次疾病 → 多病共存」，但不能證明提高飲食品質可以預防疾病？\n> 它使用前瞻性隊列與多狀態模型觀察狀態轉移，但沒有隨機分派飲食介入。HR 描述調整後關聯，仍可能受混雜、測量誤差與族群選擇影響。\n\n> [!question]- Q2：DASH 分數的兩個主要 HR 各對應哪一段轉移？\n> 最高對最低四分位，無病至首次 NCD 的 HR 是 0.87（95% CI 0.84–0.90）；首次 NCD 至多病共存是 0.75（0.69–0.82）。它們不是絕對風險差，也不是介入效果。\n\n> [!question]- Q3：為什麼不能把「較佳飲食品質與基線到死亡相關」簡化成「每個病程階段後死亡風險都降低」？\n> 合併分析沒有發現四種指數與首次 NCD／多病共存後到死亡的顯著關聯；不同起始狀態是不同轉移。病種細分結果也不應取代整體路徑結果。\n\n> [!question]- Q4：讀這篇飲食回憶資料時，應注意哪兩個暴露測量限制？\n> 飲食回憶最多五次，但 39.4% 只回憶一次；單日回憶可能無法穩定代表長期飲食。暴露在 2011–2012 年測量，而風險追蹤文字提到從 enrollment 起算，時間先後應留意。\n\n> [!question]- Q5：這個樣本對台灣高齡營養照護的直接適用性如何？\n> 平均年齡約 55 歲、95.4% 為白人，並非專門的台灣長者隊列。因此可用來理解研究假說與疾病轉移分析，不能直接套用為台灣高齡者的量化風險或飲食處方效果。\n\n## Reference\r\n\r\n**要點**：以下資訊可回查本篇原始論文與合法全文來源。\n\n- Wang W, Zhu F, Liu L, Song Q, Shan R, Hao Y, Meng F, Sun C. *Associations of key diet-quality indexes with trajectory of multimorbidity: a prospective study in the UK Biobank.* BMC Public Health. 2026;26:3112. DOI: [10.1186/s12889-026-28757-4](https://doi.org/10.1186/s12889-026-28757-4). PMID: 42958149.\n- Springer 官方來源：[PDF 全文](https://link.springer.com/content/pdf/10.1186/s12889-026-28757-4.pdf)。首頁標示 CC BY-NC-ND 4.0；本整理採原創結構與解讀，不含原文全文、PDF、複製圖表或整篇翻譯。\n- 配對的全文品質評讀：[同 DOI 評讀頁](https://594katchang-source.github.io/teach/paper-radar/?q=10.1186%2Fs12889-026-28757-4&open=notes)。",
+      "cards": [
+        {
+          "title": "多狀態隊列讀法",
+          "question": "為什麼研究以多狀態模型分析飲食品質，而不能把整段病程視為單一結果？",
+          "answer": "研究分別估計無病到首次 NCD、首次 NCD 到多病共存、不同病程到死亡等轉移。每一段的起始狀態與風險集不同，合併成單一結果會遮蔽哪些階段呈現關聯。",
+          "tags": [
+            "飲食品質",
+            "多病共存",
+            "研究設計"
+          ]
+        },
+        {
+          "title": "解讀兩個 DASH 數值",
+          "question": "DASH 最高對最低四分位的 HR 0.87 與 0.75 分別對應什麼？",
+          "answer": "0.87 對應基線無四類疾病到首次 NCD；0.75 對應已有首次 NCD 到多病共存。它們是模型的相對瞬時風險估計，不是絕對風險降低，也不是飲食介入效果。",
+          "tags": [
+            "DASH",
+            "HR",
+            "疾病進展"
+          ]
+        },
+        {
+          "title": "死亡路徑不能混讀",
+          "question": "為什麼「基線到死亡」與「首次 NCD 後到死亡」不能互相替代？",
+          "answer": "它們是不同疾病狀態起點的轉移。本文報告基線到死亡與較佳飲食品質相關，但合併的首次 NCD／多病共存後到死亡路徑沒有相同的整體顯著關聯；需逐段讀估計。",
+          "tags": [
+            "多狀態模型",
+            "死亡",
+            "結果解讀"
+          ]
+        },
+        {
+          "title": "觀察性關聯的界線",
+          "question": "這篇研究能否證明提高 DASH 分數會預防多病共存？還缺少什麼證據？",
+          "answer": "不能。前瞻性隊列能建立追蹤與關聯，但沒有隨機飲食介入，仍可能受混雜與飲食測量誤差影響。要估計改變飲食的因果效果，需要設計能比較介入策略的研究。",
+          "tags": [
+            "因果推論",
+            "飲食介入",
+            "多病共存"
+          ]
+        },
+        {
+          "title": "評估外推到台灣長者",
+          "question": "把這篇結果用於台灣高齡照護時，先看哪兩項族群差異？",
+          "answer": "研究平均年齡約 55 歲且 95.4% 為白人，並非專為台灣高齡者設計。可作為研究假說與病程分析的參考，不應直接套用其 HR 作個人風險或處方效益。",
+          "tags": [
+            "外推性",
+            "高齡營養",
+            "台灣照護"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-14T09:06:38.584Z"
     }
   ]
 }
