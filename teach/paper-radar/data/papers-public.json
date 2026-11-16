@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T11:14:00.935Z",
+  "generatedAt": "2026-11-16T11:49:38.044Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -114353,6 +114353,31 @@
         }
       ],
       "completedAt": "2026-11-15T11:11:10.089Z"
+    },
+    {
+      "id": "doi:10.1002/agm2.70119:review",
+      "paperId": "doi:10.1002/agm2.70119",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Advances in HFpEF Research Based on Characteristics of Older Adults.",
+      "authors": "Rui Li, Rosnani hashim",
+      "journal": "Aging Medicine",
+      "year": "2026",
+      "doi": "10.1002/agm2.70119",
+      "abstract": "Heart failure with preserved ejection fraction (HFpEF) is the most common heart failure phenotype in older adults, associated with significant functional impairment and poor prognosis. Increasing evidence suggests that HFpEF should be considered a systemic, age-related syndrome, rather than an isolated cardiac disease. This review summarizes recent advances in the epidemiology, pathophysiology, and cellular mechanisms of HFpEF, with a particular focus on the frailty-sarcopenia-malnutrition triad. Age-related inflammation, mitochondrial dysfunction, and anabolism resistance interact with the hemodynamic abnormalities specific to HFpEF, leading to decreased exercise tolerance and functional decline. Frailty, muscle loss, and malnutrition often coexist in elderly patients with HFpEF and synergistically exacerbate clinical outcomes. Exercise-based cardiac rehabilitation and narrative lifestyle interventions are effective strategies for addressing these geriatric syndromes, and this review will address these issues. This article is a narrative review synthesizing current evidence on geriatric vulnerability phenotypes and rehabilitation-based interventions in older adults with HFpEF.",
+      "legalFullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13765549/",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43032838/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "chronic disease nutrition",
+        "health promotion and lifestyle",
+        "human clinical population"
+      ],
+      "noteTitle": "設計：敘述性回顧｜n：不適用｜RoB（SANRA）：7/12，方法透明度的品質評讀",
+      "content": "---\ndoi: \"10.1002/agm2.70119\"\npmid: \"43032838\"\npmcid: \"PMC13765549\"\njournal: \"Aging Medicine\"\nyear: 2026\nauthors: \"Rui Li; Rosnani Hashim\"\nstudy_type: \"narrative review\"\nreview_depth: \"quick\"\n---\n\n> [!info] 品質快照\n> **設計**：敘述性回顧｜**n**：不適用｜**RoB**（SANRA）：7/12，方法透明度與證據呈現有明顯缺口\n> **GRADE**：不適用（非系統性回顧或統合分析）｜**Registration**：不適用\n> **一句話 verdict**：可作為高齡 HFpEF 的跨器官照護概念圖；不能當作 HFpEF 特異性運動或營養處方的效果證明。\n\n# Key Points\n\n## Summary\n\n> ✅ Full text reviewed\n\n作者將高齡 HFpEF 描述為心臟、血管、骨骼肌、代謝與營養互相影響的老年症候群，並以「衰弱－肌少症－營養不良」連結活動耐受度、功能下降與預後。本文的搜尋與選文不是系統性流程，部分介入效果來自一般心衰竭或高齡族群，不能直接推成 HFpEF 專屬療效。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：高齡 HFpEF 的呼吸喘、疲累與活動力下降，可能同時牽涉心臟儲備、血管、骨骼肌與營養狀態。\n> - **為什麼做**：作者整理近年 HFpEF、衰弱、肌少症、營養不良及心臟復健研究，想把這些常一起出現的問題放進同一個照護架構。\n> - **主體**：本文是敘述性回顧。作者提出慢性發炎、粒線體功能、神經荷爾蒙與代謝變化可能讓心臟功能受限與肌肉流失彼此加重；引用的隊列與復健研究顯示這些表現與住院、死亡、體能及生活品質有關。這些資料來自不同研究與族群，本文沒有統合效應量。\n> - **所以呢**：可提醒照護團隊同步評估衰弱、肌力／活動功能與營養風險，並依個別狀況評估心臟復健及營養支持；本文沒有提供可直接照抄的運動強度、蛋白質目標或營養處方，也未證明組合介入能降低 HFpEF 事件。\n\n## Methods\n\n- **設計與搜尋**：作者稱為敘述性文獻回顧；搜尋 PubMed、Web of Science、Embase，收錄至 2025-10-31 的英文文章。列出的搜尋詞為 HFpEF、frailty、sarcopenia、malnutrition、exercise、cardiac rehabilitation。納入原始研究、系統性回顧與臨床指引（主文 §1，段落 1）。\n- **選文限制**：作者說明依主題相關性選文，非系統性回顧，證據偏示例性而非完整；可能有選擇偏差（§1，段落 2；§5，段落 1）。本文沒有提供可重現的完整搜尋式、篩選流程、納入研究總數或統合分析。\n- **研究對象與介入**：本文不是單一臨床試驗，沒有自己的受試者數、對照組、主要結局或樣本數計算。運動與營養效果來自不同原始研究、回顧與心衰竭族群；本文未形成 HFpEF 專屬介入比較。\n\n## Key Findings\n\n1. **疾病概念與活動受限**：作者以 LVEF ≥50% 描述 HFpEF，並將運動不耐視為多因素表現，涉及心臟儲備、周邊血管、通氣／氣體交換、肺血管與骨骼肌（§1.1–1.5）。\n2. **衰弱－肌少症－營養不良**：回顧指出肌少症在心衰竭研究中的估計比例約 18%–35%；另一個老年 HFpEF 隊列中約 40% 被判定營養不良。診斷工具及研究族群不同，這些數字不可視為同一盛行率估計（§1.6）。\n3. **肌少症與心血管結局**：作者引用一項約 7,499 人、追蹤 2 年的中國隊列，肌少症狀態惡化與新發 CVD 相關（HR 1.30，95% CI 1.06–1.59）；狀態改善也與較低風險相關（HR 0.61，95% CI 0.37–0.99）。這是觀察性關聯，不能據此宣稱逆轉肌少症會造成風險下降（§2.2）。\n4. **營養風險與結局**：作者報告一個 231 名 HFpEF 合併營養不良患者的 6 個月研究中，62 人住院（26.8%）、4 人死亡（1.7%）；營養不良與死亡／住院複合結局相關（HR 1.94，95% CI 1.17–3.20，p=0.01）（§2.3.2）。\n5. **復健與運動**：作者引用一項 93 個 RCT、28,523 人、平均年齡 74.2 歲的統合研究，並報告長期運動未增加死亡或運動相關不良事件；這不是本文自身試驗，且涵蓋一般臨床／高齡族群，不能單獨證明 HFpEF 專屬效益（§3.1）。\n6. **營養介入**：作者概述口服營養補充及運動－營養合併研究；本文未列出可直接採用的能量、蛋白質、補充品劑量、運動強度或監測方案（§3.3）。\n7. **整合架構**：圖 1 將心臟功能、肌肉流失、代謝失衡及功能能力畫成互相影響的循環（§4，圖 1）。這是作者的概念框架，不是已驗證的因果模型。\n\n## Clinical Application\n\n- **可用之處**：在高齡 HFpEF 評估中，不只記錄心臟症狀，也留意衰弱、肌力／活動能力與營養風險；水腫或液體滯留可能遮蔽體重變化，作者提醒這會延後辨認營養不良（§2.3.1）。\n- **介入邊界**：本文支持進一步評估個別化心臟復健及營養支持的合理性，但沒有提供 HFpEF 專屬處方劑量。實際運動與飲食安排仍需依臨床評估，不從本文外推蛋白質克數或訓練強度。\n- **適用性**：文章主題聚焦高齡 HFpEF，但支持介入的研究橫跨一般心衰竭、衰弱老人與其他高齡成人；對台灣患者的效果與安全性，本文沒有直接比較資料。\n\n## Critical Appraisal\n\n### SANRA（敘述性回顧）逐項評讀\n\n| 項目 | 分數 | 依據 |\n|---|---:|---|\n| 主題重要性 | 2/2 | 清楚連結高齡 HFpEF 與功能、肌肉及營養問題。 |\n| 研究目的 | 1/2 | 主題範圍可辨識，但未提出明確、可回答的核心問題。 |\n| 文獻搜尋描述 | 1/2 | 列出三個資料庫、語言、截止日與搜尋詞；未給完整搜尋式與篩選流程。 |\n| 引用品質與相關性 | 1/2 | 有引用流行病學、隊列與介入回顧；快速評讀未逐筆核對原始引用。 |\n| 科學推理 | 1/2 | 跨器官機轉框架有可理解性，但若干因果語句強於本文呈現的研究設計。 |\n| 證據呈現 | 1/2 | 有部分樣本與效果數字，但沒有研究特徵表、證據分級或效應量統合；若干數字的結局對應不清。 |\n| **總分** | **7/12** | **方法透明度與結果呈現有限；適合提出假說與評估面向，不宜當作療效確證。** |\n\n### 統計、偏差與推論\n\n- **選擇偏差**：作者自行指出非系統性選文及可能的選擇偏差；缺乏完整策略與研究流程，讀者無法判斷是否漏掉相反結果（§1、§5）。\n- **因果推論**：隊列中的肌少症變化、營養風險與心血管結局是關聯資料；本文部分文字把「可能可修正」推近「降低風險」，但無本文自身的因果試驗支持（§2.2、§2.3）。\n- **論證檢查**：`argdown_lint.py`（`argmap-10.1002-agm2.70119.json`）exit 1，標記 `association_to_causation`（P2）；觀察性結局關聯不足以證明運動／營養方案造成 HFpEF 功能或預後改善。\n- **數字報告疑點**：§2.3.2 將 1,677 人研究描述為「隨機、雙盲」，但段落沒有交代隨機介入或對照內容；並連列多個 HR，未逐一清楚對應結局。快速評讀未核對該原始研究，這些描述應視為待查，不當成確證。\n- **外推性**：§3 的運動安全性及生活品質證據含一般老年或心衰竭族群；文中未充分區分 HFpEF 專屬資料與混合族群資料。\n- **MCID／註冊／GRADE**：本文沒有單一主要結局或臨床試驗註冊可供核對；GRADE 不適用。本文未提供直接比較 HFpEF 運動／營養方案的合併效應量。\n\n### 本次逐段掃讀索引\n\n主文 HTML 由前至後編號，共讀到 100 個結構項目、64 個正文段落；下列位置以 PMC 主文段落順序標記：\n\n- 摘要與方法聲明：Abstract；§1 段落 1–2。\n- 疾病背景與多系統機轉：§1.1–1.6（流行病學、症狀、生理機轉、運動不耐及三聯徵）。\n- 三聯徵機轉及臨床關聯：§2.1–2.3（衰弱、肌少症、營養不良及各小節）。\n- 介入證據：§3、§3.1–3.3（心臟復健、運動、運動與營養）。\n- 概念模型與作者承認限制：§4、圖 1、§5；另讀作者貢獻、資助、利益衝突及資料可用性聲明。\n- 參考文獻未逐筆做 CrossRef 或原始研究核對；quick 模式不包含廣泛引用查核。\n\n# Resource\n\n## Source\n\n- [PMC 全文（PMCID: PMC13765549）](https://pmc.ncbi.nlm.nih.gov/articles/PMC13765549/)\n- [PubMed 記錄（PMID: 43032838）](https://pubmed.ncbi.nlm.nih.gov/43032838/)\n- [DOI](https://doi.org/10.1002/agm2.70119)\n- 全文來源：PMC article HTML，`pmc-article-html`；本地來源檔 SHA-256：`82639e7e28d2aee93d1f57825ccfa4447979bcf812caf00a8f1e5d11998143b6`。HTML 本文 DOI 與題名相符；包含摘要、方法、結果敘述、討論／結論等主文段落。\n- 權利資訊：PMC HTML 的 Copyright and License 區塊標示 CC BY-NC-ND 4.0；快取 `metadata.json` 的 license 欄為空，故以來源 HTML 文字補記。本文為原創評讀，不附全文、圖表或長段原文。\n- Zotero/BibTeX citekey 未出現在本輪可用 metadata，因此不虛構 citekey 或 Zotero item link。\n\n## Daily Note Entry\n\n- [x] **Advances in HFpEF Research Based on Characteristics of Older Adults** — *Aging Medicine* → 本輪 Paper Radar 評讀\n  - 📎 DOI `10.1002/agm2.70119`｜narrative review｜樣本數不適用\n  - 🔑 可用作跨器官評估框架；不能當成 HFpEF 專屬運動／營養處方的療效證明。",
+      "cards": [],
+      "completedAt": "2026-11-16T11:46:15.0258558+00:00"
     }
   ]
 }
