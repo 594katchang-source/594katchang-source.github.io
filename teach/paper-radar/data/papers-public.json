@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T09:28:51.236Z",
+  "generatedAt": "2026-11-17T11:03:39.356Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -114725,6 +114725,71 @@
         }
       ],
       "completedAt": "2026-11-17T09:22:34.600Z"
+    },
+    {
+      "id": "doi:10.2152/jmi.73.338:digest",
+      "paperId": "doi:10.2152/jmi.73.338",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Clinical relevance of a simple miso soup-based taste assessment using a visual analogue scale in hospitalized patients:an exploratory study.",
+      "authors": "Ishikawa Y, Tsutsumi R, Yasui-Yamada S, Izumi-Mishima Y, Hoshikawa T, Sakaue H, Nomura K",
+      "journal": "Nutrition open-access records (PubMed / PMC route)",
+      "year": "2026",
+      "doi": "10.2152/jmi.73.338",
+      "abstract": "Taste impairment in hospitalized patients may reduce intake and quality of life, but electrogustometry and filter-paper disk tests are impractical for routine care. We evaluated a simple miso soup-based saltiness assessment using a visual analogue scale (VAS). Healthy volunteers and inpatients rated miso soup adjusted to 0.6%, 0.8%, and 1.0% NaCl on a 10-cm VAS. In mentally stable healthy subjects, we examined the distribution of 0.8% VAS scores. In inpatients, test-retest reliability for 0.8% miso soup was assessed with intraclass correlation coefficients (ICCs). Criterion-related validity was assessed using a hospital meal preference survey, and concurrent validity was examined in a Nutrition Support Team cohort (n=53). In 81 mentally stable healthy subjects, 0.8% VAS scores were normally distributed. Reliability was high (ICC = 0.96, 95% CI 0.94-0.98). Inpatients reporting hospital meals as \"bland\" had lower VAS scores than those reporting meals as \"just right\" (p<0.01). Seven of 53 patients (13%) were classified as having impaired taste, and lower serum albumin was the only independent factor associated with impaired taste perception. A miso soup VAS is simple, reproducible, and demonstrates clinically relevant associations ; validation against standardized taste tests and larger multicenter studies are warranted. J. Med. Invest. 73 : 338-343, August, 2026.",
+      "legalFullTextUrl": "https://www.jstage.jst.go.jp/article/jmi/73/3.4/73_338/_pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43014762/",
+      "category": "recommended",
+      "tags": [
+        "dietitian clinical nutrition",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "住院病人味覺評估：味噌湯 VAS 初探",
+      "content": "---\ntags: [research/digest, clinical-nutrition, taste-assessment, hospital]\ncitekey: Ishikawa2026MisoVAS\ndoi: 10.2152/jmi.73.338\naliases:\n  - Clinical relevance of a simple miso soup-based taste assessment using a visual analogue scale in hospitalized patients: an exploratory study\n---\n\n> [!summary] 30 秒掌握\n> 本研究初步顯示，以固定鹽度味噌湯搭配 0–100 VAS，可重複測量住院者的主觀鹹味感受，且與住院餐點「太淡」的感受有關；它仍是探索性篩檢方法，尚非味覺障礙診斷。\n> - 0.8% NaCl 味噌湯在 81 名心理狀態穩定的健康志願者中呈常態分布（Shapiro–Wilk p=0.50）。\n> - 17 名住院者同日重測 ICC=0.96（95% CI 0.94–0.98）；認為配菜「剛好」者 VAS 高於「太淡」者。\n> - 53 名營養支持團隊（NST）患者中，7 人（13%）落在研究定義的味覺受損範圍；血清白蛋白是唯一獨立相關因子。\n> - 參考範圍來自較年輕健康志願者，未按年齡分層，也未與標準化味覺檢查直接比對。\n> 品質 → 見同 DOI 已完成的「Ishikawa 2026｜味噌湯鹹味 VAS 的住院病人初步評估與效度限制」品質快照；本筆只做內容整理\n\n## 全文地圖\r\n\r\n**5 分鐘層要點**：本文先確認適合做參考的鹽度與重測一致性，再檢視與餐點偏好及營養指標的關聯，最後指出它尚未達到診斷工具的驗證程度。\r\n\r\n**要點**：全文依序交代研究缺口、三個健康／住院子群的測量設計、結果及外推限制。\r\n\r\n- **背景與研究目的（p.338）**：住院者的味覺感受可能影響食慾、餐點接受度與營養照護；作者提出以熟悉的味噌湯和視覺類比量表（VAS）做床邊鹹味評估。\n- **方法（p.338–340）**：健康志願者建立參考分布；住院者子群用於重測可靠度、餐點偏好關聯與 NST 病人的初步臨床關聯分析。\n- **結果（p.340–342）**：0.8% 鹽度符合常態分布；重測高度一致；偏好調味「剛好」與較高 VAS 有關；NST 子群中 13% 落在研究定義的異常範圍。\n- **討論與限制（p.342–343）**：作者將此法定位為務實的主觀篩檢候選工具，並提醒單中心、小樣本、橫斷面、參考群年齡不匹配及未做標準味覺檢查等限制。\n\n## 研究問題 / 背景\n\n**要點**：研究想知道熟悉的味噌湯能否成為可在病房操作的鹹味感受評估媒介，並檢查其分布、重測一致性及與臨床餐點感受的關聯。\n\n- 作者指出，既有濾紙圓片法和電味覺檢查需要專用工具或訓練，較難常規床邊使用；飲食攝取除了營養處方，也受感官與餐點接受度影響（p.338）。\n- 味噌湯是日本常見食物，作者推論熟悉的食物基質可能較貼近實際進食情境；這是方法設計理由，並非本研究已證明跨文化通用（p.338、342）。\n- 研究目的分為三部分：建立健康受試者各鹽度 VAS 分布、檢查 0.8% 味噌湯 VAS 的重測可靠度與餐點偏好關聯、探索 NST 患者中味覺分類與臨床營養指標的關係（p.338–340）。\n\n## 方法\n\n**要點**：單中心探索性觀察研究，使用同一種即溶味噌湯、三種 NaCl 濃度與主觀 VAS；不同住院子群負責不同效度問題，不能把各組人數合併當成單一樣本。\n\n| 子群 | 來源與納入 | 用途 |\n|---|---|---|\n| 健康志願者 | 2022 年 3–6 月招募醫院共同醫療人員；101 人入組，HADS 任一分量表 ≥11 的 20 人不納入參考分布，最終 81 人 | 評估 0.6%、0.8%、1.0% NaCl 的 VAS 分布，建立研究內參考範圍 |\n| 餐點偏好住院者 | 24 人受邀、17 人完成（回覆率 70.8%）；中位年齡 75 歲 | 比較餐點調味評價與 0.8% 味噌湯 VAS；同日重測 |\n| NST 住院者 | 2022 年 10–11 月由 NST 評估且可吃一般餐者 53 人；無法口服營養或接受治療飲食者排除 | 探索研究定義的味覺受損與營養／臨床因子的關聯 |\n\n**測量流程**（p.339–340）：每包味噌含 14 g 味噌、1.57 g NaCl；加 80°C 熱水，分別調成 1.0%（140 mL）、0.8%（175 mL）、0.6%（233 mL）。每種取 40 mL、約 60°C，以編碼紙杯提供。受試者用 10 cm 單極 VAS 評分，端點為「沒有鹹味」到「有生以來最強鹹味」；三種試飲順序由受試者自行決定。\n\n**住院者測量**（p.340）：17 人在 10:00 與 15:00 對 0.8% 樣品評分；餐點偏好問卷於 13:00 填寫，詢問配菜味道是「太濃、剛好、太淡」，與上午 VAS 比較。NST 分析將 0.8% VAS 超出健康參考組平均值 ±2 SD 定義為「研究分類的味覺受損」，不是臨床診斷；主觀味覺症狀僅作補充資訊。\n\n**統計方法**（p.340）：常態性用 Shapiro–Wilk 檢定；依資料分布用 t 檢定、Mann–Whitney U、Kruskal–Wallis 或 χ² 檢定，三組比較用 ANOVA；多變項 logistic regression 探索獨立相關因子，顯著水準 p<0.05。受損組僅 7 人，最終模型限納年齡與白蛋白以降低過度配適風險；多重比較使用 Holm–Bonferroni 校正，Benjamini–Hochberg 校正結果方向相近。\n\n## 主要發現\n\n**要點**：本研究最扎實的訊號是 0.8% 測量的同日重測一致性；與餐點偏好和白蛋白的關聯屬小型探索資料，不能推論因果或診斷準確度。\n\n| 問題 | 實際結果 | 解讀邊界 |\n|---|---|---|\n| 健康參考分布（81 人，p.340） | 0.8% VAS 符合常態分布（p=0.50）；1.0% 和 0.6% 未符合（分別 p=0.04、0.02） | 研究因此選 0.8% 作後續主要條件；不代表此鹽度適用所有飲食文化或族群 |\n| 重測可靠度（17 人，p.341） | 上午平均 57±14、下午 58±14；ICC=0.96（95% CI 0.94–0.98） | 支持這個流程在當日兩次測量間有高一致性；樣本仍小 |\n| 餐點偏好關聯（17 人，p.341） | 評為「剛好」者 n=9，中位 VAS 66 [51–74]；評為「太淡」者 n=8，49 [39–52]；p<0.01 | 顯示與主觀餐點調味感受相關，不等於客觀味覺閾值效度已確立 |\n| NST 子群分類（53 人，p.341） | 7 人（13%）超出研究參考範圍；其中 4 人也自述味覺症狀 | 此比例是本樣本按研究界線分類，不能直接當成一般住院族群盛行率 |\n| 臨床因子（53 人，p.341–342） | 受損組白蛋白 2.3±0.5 g/dL，正常組 3.1±0.5；校正後 p=0.006；含年齡與白蛋白模型中白蛋白 OR=0.01（95% CI 0.00–0.33），p=0.009，年齡不顯著 | 相關方向不代表白蛋白造成味覺改變；CI 四捨五入且受損事件僅 7 例，估計不穩定 |\n| 其他指標（p.341） | 血紅素未通過多重比較校正，淋巴球與 CRP 未見顯著差異 | 不應把未顯著解讀為排除關聯；檢定力有限 |\n\n## 臨床意義 / 怎麼用\n\n**要點**：可以把 0.8% 味噌湯 VAS 視為「詢問患者鹹味感受」的可行性線索，與餐點接受度、攝取情況和完整營養評估一起看；不能單靠分數診斷味覺障礙或調整鹽量。\n\n- 若患者反覆表示住院餐點太淡，本文提供一個簡單、可重複的主觀量測範例；需保留患者偏好與實際攝取量等情境資訊（p.341–343）。\n- 不宜將本研究的平均 ±2 SD 直接當跨年齡、跨國或跨產品的臨床切點；作者明確指出參考組較年輕且未年齡分層（p.340、342）。\n- 本文沒有建立最低臨床重要差異（MCID），也沒有與標準化味覺檢查直接比對；微小分數變化是否能改變飲食處置尚不清楚（p.342）。\n- 實務上應避免由低白蛋白反推味覺受損，亦不可用增加鹽分作為預設處理。是否調整餐點仍需結合疾病、處方、攝取量、患者回饋與臨床團隊判斷；本篇沒有測試介入策略效果。\n\n## 機轉白話講解\n\n**要點**：白蛋白與味覺之間在本文是觀察到的關聯；作者提出鋅運輸可能是解釋之一，但研究沒有測量鋅，不能把假說當作已證實機轉。\n\n可把白蛋白想成血液中能攜帶部分鋅的「運輸車」：若白蛋白偏低，可能同時反映疾病或營養狀態，也可能伴隨鋅可用性改變；而鋅不足曾被文獻連結到味覺異常。這條路徑在本研究未被直接測量，藥物、嗅覺與其他疾病因素也可能參與，因此目前只能作為待驗證假說（p.342–343）。\n\n## 重要圖表重述\n\n**要點**：圖表逐步回答「參考分布是否合適、患者感受是否相符、測量能否重複、NST 子群如何分布」，沒有一張圖可單獨證明診斷效能。\n\n- **Table 1（p.340）**：101 名健康受試者按 HADS 分穩定 81 人與不穩定 20 人，列出年齡、性別及三種鹽度 VAS；兩組差異未顯著。\n- **Figure 1（p.340）**：三種濃度直方圖；只有 0.8% 的 VAS 分布通過常態性檢定。\n- **Table 2 / Figure 2（p.341–342）**：餐點偏好子群共 17 人；圖 2 顯示「剛好」組 VAS 高於「太淡」組，未有人選「太濃」。\n- **Figure 3（p.342）**：上午和下午測量的散佈圖，呈高度一致，ICC 0.96。\n- **Table 3（p.341）**：NST 病人正常與研究分類受損兩組的人口學與檢驗值；白蛋白差異最明確，表格同列校正後及多變項估計。\n- **Figure 4（p.342）**：按入院科別列出 NST 病人的 VAS 分布；樣本依內科 29、外科 8、其他 16 分組，屬描述性呈現。\n\n## 與既有認知的對照\n\n**要點**：本文沿用既有味覺測試與 VAS 的研究脈絡，新增的是熟悉食物基質的病房可行性探索；它沒有證明味噌湯 VAS 可取代標準味覺檢查。\n\n- 作者回顧濾紙圓片法、電味覺檢查及標準 NaCl 水溶液測試，指出工具可用但床邊流程或情境貼近度有限（p.338、342）。\n- 本文用日本常見味噌湯提高情境熟悉度；作者也明確要求未來比較其他食物或水溶液，以驗證跨文化可推廣性（p.342）。\n- Worker 批次模式略過 vault 搜尋及每日筆記整合；本節只對照本文內文引用與作者自己的討論，不宣稱已完成個人知識庫比對。\n\n## 概念 / 名詞整理\n\n**要點**：分清主觀鹹味評分、重測可靠度、效度關聯和研究分類，才能避免把這個簡便流程說成診斷工具。\n\n- **VAS（visual analogue scale）**：受試者在連續線段上標出感受強度；本文以 0–100 表達鹹味主觀感受。\n- **ICC（intraclass correlation coefficient）**：描述重複測量的一致程度；本文同日兩次 0.8% 評分 ICC=0.96。\n- **Criterion-related validity（效標關聯效度）**：比較測量結果是否與相關外部指標同向；本文比較 VAS 和住院餐點調味感受，但未用標準味覺檢查作效標。\n- **研究定義的味覺受損**：0.8% VAS 超出本研究健康參考群平均值 ±2 SD；不是臨床確診，也不是普遍適用切點。\n- **HADS**：焦慮與憂鬱自評量表；任一分量表 ≥11 者不納入健康參考分布，以減少情緒對主觀評分的干擾。\n- **MCID（minimal clinically important difference）**：患者或臨床上有意義的最小變化；本文未建立這個值。\n\n## 自我測驗\r\n\r\n**要點**：以下問題檢查研究用途、參考界線與因果限制，不只背誦數值。\r\n\r\n> [!question]- Q1：為什麼作者選 0.8% 味噌湯作後續主要測量，而不是只選最淡或最鹹的樣品？\n> 在 81 名心理狀態穩定的健康志願者中，0.8% 評分符合常態分布（p=0.50），而 0.6% 與 1.0% 未符合；它也接近研究醫院日常供應的味噌湯鹽度。這是研究內選擇，不代表所有族群的最佳濃度。\n\n> [!question]- Q2：這篇研究提供哪些理由支持可行性？哪些部分仍不足以支持診斷？\n> 17 人同日重測 ICC=0.96，且 VAS 與餐點「太淡／剛好」評價有關，支持流程可重複並與患者感受相關。但未與標準化味覺檢查比對，樣本小且參考值未按年齡分層，因此不能診斷味覺障礙。\n\n> [!question]- Q3：NST 組 13% 的「味覺受損」應如何解讀？\n> 這是 53 人中 7 人依健康志願者平均值 ±2 SD 的研究界線落在範圍外；它不是一般住院病人的盛行率，也不是臨床確診。參考組較年輕且未做年齡分層，應保守解讀。\n\n> [!question]- Q4：白蛋白結果是否證明營養不良造成味覺受損？\n> 否。研究是橫斷面觀察，白蛋白可能受發炎和疾病嚴重度影響；研究沒有測量鋅、未充分控制藥物與嗅覺，也無法判斷時間或因果方向。白蛋白與味覺的機轉仍待驗證。\n\n## Reference\r\n\r\n**要點**：本文主文頁碼與 DOI 是本份內容整理的首要可追溯來源。\r\n\r\n- Ishikawa Y, Tsutsumi R, Yasui-Yamada S, et al. Clinical relevance of a simple miso soup-based taste assessment using a visual analogue scale in hospitalized patients: an exploratory study. *The Journal of Medical Investigation*. 2026;73:338–343. doi:[10.2152/jmi.73.338](https://doi.org/10.2152/jmi.73.338). 本文內容與數值依已核驗全文 p.338–343 整理；頁碼標註見各節。\n- 重要方法脈絡：Tomita H, Ikeda M, Okuda Y. *Basis and practice of clinical taste examinations*. 1986（本文 ref. 5，p.343）；Wewers ME, Lowe NK. *A critical review of visual analogue scales in the measurement of clinical phenomena*. 1990（本文 ref. 6，p.343）；Jaeschke R, Singer J, Guyatt GH. *Ascertaining the minimal clinically important difference*. 1989（本文 ref. 16，p.343）。",
+      "cards": [
+        {
+          "title": "味噌湯 VAS 可回答什麼",
+          "question": "這項味噌湯 VAS 研究支持哪些用途，哪些用途仍不適合？",
+          "answer": "同日重測 ICC=0.96，且分數與住院餐點「太淡／剛好」感受相關，可作主觀鹹味感受的探索性篩檢線索。未與標準化味覺檢查比對、參考範圍未按年齡分層，不能作味覺障礙診斷。",
+          "tags": [
+            "clinical-nutrition",
+            "taste-assessment",
+            "validity"
+          ]
+        },
+        {
+          "title": "研究中的味覺受損定義",
+          "question": "本文的「味覺受損」如何定義，為何不能視為臨床確診？",
+          "answer": "以 0.8% 味噌湯 VAS 超出健康參考組平均值 ±2 SD 分類。參考組較年輕且未按年齡分層，且未用標準化味覺檢查驗證，所以只是本研究的篩檢參考分類。",
+          "tags": [
+            "taste-assessment",
+            "screening",
+            "limitations"
+          ]
+        },
+        {
+          "title": "白蛋白與味覺關聯的界線",
+          "question": "如何解讀白蛋白是 NST 組唯一獨立相關因子？",
+          "answer": "53 人中只有 7 人落在研究受損範圍，橫斷面模型顯示白蛋白與分類相關，但不表示因果。發炎、疾病嚴重度、藥物、嗅覺及未測量的鋅都可能影響觀察結果；鋅相關機轉只是作者提出的假說。",
+          "tags": [
+            "clinical-nutrition",
+            "albumin",
+            "causality"
+          ]
+        },
+        {
+          "title": "0.8% 的選擇理由",
+          "question": "為什麼本研究採 0.8% 味噌湯作主要評估條件？",
+          "answer": "81 名心理狀態穩定的健康志願者中，0.8% VAS 符合常態分布（Shapiro–Wilk p=0.50）；0.6% 與 1.0% 分布未符合（p=0.02、0.04）。作者也指出 0.8% 接近研究醫院日常味噌湯鹽度。",
+          "tags": [
+            "taste-assessment",
+            "methods",
+            "VAS"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-17T10:55:48.729Z"
     }
   ]
 }
