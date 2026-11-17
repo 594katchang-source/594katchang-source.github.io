@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T07:30:17.944Z",
+  "generatedAt": "2026-11-17T08:17:43.330Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -114537,6 +114537,33 @@
         }
       ],
       "completedAt": "2026-11-17T07:28:21.514Z"
+    },
+    {
+      "id": "doi:10.3390/nu18213605:review",
+      "paperId": "doi:10.3390/nu18213605",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Changes in Eating Competence and Its Association with Dietary and Clinical Outcomes in Brazilian Older Adults with Type 2 Diabetes or Prediabetes Attending a Public Health Service.",
+      "authors": "Dusi R, Trombini R, Funghetto S, Stival M, Nakano E, Chaves C, Zandonadi R",
+      "journal": "Nutrients",
+      "year": "2026",
+      "doi": "10.3390/nu18213605",
+      "abstract": "Background/Objectives: This prospective, longitudinal, quasi-experimental study evaluated changes in eating competence (EatC) and its association with nutritional risk, dietary markers, and clinical outcomes, including body mass index (BMI), body fat percentage, and glycated hemoglobin (HbA1c), in Brazilian older adults with type 2 diabetes (T2DM) or prediabetes. Methods: Thirty-three older adults (87.9% female, predominantly inactive, regarding occupational status, and with low educational level) participated in a 12-month food and nutrition education (FNE) program at a public Primary Health Care unit in Ceilândia, Distrito Federal, Brazil. EatC was assessed using the validated ecSI2.0™BR; nutritional risk was measured by the Determine Your Nutritional Health (DNH) Checklist; and dietary intake was characterized using VIGITEL markers. Body composition was measured by bioelectrical impedance and HbA1c using standardized methods. Results: At baseline, regarding occupational status, active participants had significantly higher total EatC scores than inactive participants (p = 0.021). After 12 months, body fat percentage decreased significantly (p = 0.011), whereas BMI and HbA1c remained stable. Total EatC scores and its domains did not change significantly and most participants were already competent eaters at baseline (84.8%). However, variation in specific EatC domains was associated with important outcomes. Variation in food acceptance was negatively correlated with DNH variation (r = -0.417, p = 0.016), indicating an association between increased food acceptance and reduced nutritional risk. Variation in internal regulation was positively correlated with DNH variation (r = 0.492, p = 0.004). Variation in contextual skills was negatively associated with variation in body fat percentage (r = -0.412, p = 0.019). Additionally, variation in soda or artificial juice consumption was positively associated with variation in nutritional risk (r = 0.503, p = 0.003). Conclusions: Improvements in contextual skills and food acceptance were associated with better clinical and nutritional outcomes in older adults with T2DM or prediabetes. Public health interventions should prioritize meal planning, food preparation, and contextual skills as factors potentially associated with nutritional risk.",
+      "legalFullTextUrl": "https://doi.org/10.3390/nu18213605",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43030232/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "clinical nutrition technology",
+        "design:longitudinal",
+        "health promotion and lifestyle",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "巴西基層照護老年糖尿病族群的食物勝任力：12 個月追蹤研究",
+      "content": "---\ntags:\n  - source/journal\ncitekey: null\ndoi: \"10.3390/nu18213605\"\nzotero: null\njournal: \"Nutrients\"\nyear: 2026\nauthors: \"Dusi et al.\"\nstudy_type: \"single-group quasi-experimental pre-post\"\npmid: null\nreview_depth: \"quick\"\n---\n\n> [!info] 品質快照\n> **設計**：單組、12 個月前後測準實驗｜**n**：33（38 納入，5 人未完成）\n> **RoB（ROBINS-I）**：🔴 高；無對照、混雜未控制、complete-case\n> **GRADE**：Very low ⊕◯◯◯（主要結果：總 EatC 分數變化）｜**註冊**：本文未報告試驗註冊或分析計畫\n> **一句話 verdict**：體脂率在追蹤期間下降，但主要 EatC、BMI、HbA1c 均無顯著改變；無對照且多項相關分析，使因果與臨床意義的可信度很低。\n\n# Key Points\n\n## Summary\n\n> ✅ 已核對合法全文並逐頁讀完\n>\n> 在巴西單一公立基層照護中心的 33 位老年第二型糖尿病或糖尿病前期參與者中，12 個月飲食教育後，總 EatC 由 37.94 升至 38.79（p=.434），HbA1c 維持 6.09%，BMI 28.42 降至 28.32 kg/m²；體脂率由 39.85% 降至 38.47%（p=.011），但單組前後測不能證明變化由介入造成（全文第 8–9 頁，表 2）。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：這項研究追蹤老年糖尿病或糖尿病前期成人一年，發現總食物勝任力沒有顯著改變，少數特定分數與營養風險或體脂變化相關。\n> - **為什麼做**：作者希望了解以自主、彈性和生活技巧為主的飲食教育，是否能貼近巴西長者的生活並與飲食、營養風險及健康指標一起改善（第 2–3 頁）。\n> - **主體**：同一組 33 人（19 人第二型糖尿病、14 人糖尿病前期）接受四次團體教育會談，基線到第 12 個月比較。EatC 總分 37.94→38.79，未達統計顯著；BMI 28.42→28.32、HbA1c 6.09%→6.09%，也未顯著改變。體脂率 39.85%→38.47%（差 −1.38 個百分點；p=.011）。沒有另一組未介入者可比較（第 4–9 頁）。\n> - **作者推測**：食物接受度增加與營養風險下降、情境技巧增加與體脂下降相關；作者猜測規律餐次與備餐規劃可能有幫助。這些是關聯與機轉假說，不是因果證明（第 10–16 頁）。\n> - **所以呢**：餐食規劃與備餐技巧可作後續研究的介入方向；目前不能說這套課程造成體脂下降，也不能說它改善 HbA1c 或整體飲食品質。\n\n## Clinical Application\n\n- **適用議題：** 老年第二型糖尿病或糖尿病前期之食物勝任力與基層飲食教育。\n- **研究方案：** 12 個月安排四次營養師帶領的團體會談，使用家用量匙量杯與教材；討論份量、餐食組合、加工辨識、標示閱讀、採買、備餐與自主選擇（第 4、6 頁）。\n- **實務提醒：** 這是研究介入的描述，不是可直接採用的個人處方。研究排除了胰島素使用者、部分糖尿病併發症及其他高複雜度情況。\n- **在地適用性：** 餐食規劃和備餐主題可供台灣社區衛教設計參考；但巴西單一單位、小樣本、以女性為主，未證明在台灣或其他高齡糖尿病族群能得到相同效果。\n- **給付/自費：** 本研究未評估給付、成本或服務可近性。\n\n# Paper Details\n\n## Methods\n\n- **設計與場域：** 前瞻性縱向單組前後測準實驗研究；2024 年 9 月至 2025 年 9 月，在巴西 Ceilândia 一間公立基層照護單位執行（第 3 頁，§2.1–2.2）。\n- **對象：** 從 187 筆潛在對象紀錄電話篩選，38 人納入，33 人完成兩次評估。納入年齡 60–79 歲、第二型糖尿病或糖尿病前期、識字、可使用 WhatsApp 且日常活動具一定自主性。排除胰島素使用、糖尿病慢性併發症、行動限制、中重度認知障礙及第三期高血壓等（第 5–6 頁，§2.3、圖 1）。\n- **介入：** 基線後約每 90 天一次團體會談，共四次；由營養師帶領，護理師及營養系學生支援。內容包括家用份量、餐食組合、加工與標示、正念飲食、採買、備餐與冷凍保存（第 4、6 頁，§2.2、圖 1）。\n- **測量：** 主要結果為 16 題巴西版 ecSI2.0™BR，範圍 0–48 分，≥32 分為 EatC 分類門檻。其他指標包括 DNH 營養風險、VIGITEL 自陳飲食標記、BMI、InBody 270 體脂率與 NGSP 認證法 HbA1c（第 5–7 頁，§2.4）。\n- **分析：** 依分布使用獨立或配對 t 檢定、McNemar、Wilcoxon、Pearson/Spearman 相關；顯著門檻 p<.05。分析變化值為第 12 個月減基線（第 7、10–12 頁，§2.5、表 5–8）。\n- **樣本數與追蹤：** 未報告事前樣本數估算。38 人中 5 人未完成追蹤，最終採 33 人 complete-case 分析；未報告失訪者與完成者的基線比較（第 5、7 頁）。\n\n## Critical Appraisal\n\n### ROBINS-I：非隨機介入研究偏差評估\n\n| 領域 | 判定 | 理由 |\n|---|---|---|\n| 混雜 | 🔴 嚴重 | 沒有未介入對照組；自然時間趨勢、其他照護、藥物或生活改變無法分離，且未記錄降糖治療變動。 |\n| 收案選擇 | 🔴 嚴重 | 需電話聯絡、識字、手機及一定自主能力；187 人中只有 38 人納入，可能形成可近性與參與意願選擇偏差。 |\n| 介入分類 | 🟢 低 | 研究說明四次會談的大致時間、主題與帶領人員。 |\n| 偏離預定介入 | 🟡 有疑慮 | 未充分報告各場出席率、實際接受劑量或介入忠實度。 |\n| 缺失資料 | 🔴 嚴重 | 5/38（13.2%）未完成，採完成個案分析，未報告失訪原因以外的偏差檢查或補值分析。 |\n| 結果測量 | 🟡 有疑慮 | HbA1c 與體脂有標準化測量；EatC 和飲食標記為自陳，未報告結果評估盲化。 |\n| 選擇性報告 | 🔴 嚴重 | 未報告試驗註冊、預先分析計畫或樣本數估算；分析多項相關，難排除選擇性呈現。 |\n| **整體** | **🔴 高** | **無對照造成主要因果偏差；失訪及多重探索性分析再降低可信度。** |\n\n### 統計、臨床意義與推論檢查\n\n- **主要結果：** EatC 總分增加 0.85 分（37.94→38.79；p=.434），未達顯著。≥32 分是分類門檻，並非變化的 MCID；本文未提供 EatC 變化的 MCID 或信賴區間。\n- **其他結果：** 體脂率平均下降 1.38 個百分點（p=.011；n=32），但無對照組及變化值信賴區間。BMI、HbA1c、DNH 與飲食標記未顯著改變（第 8–12 頁，表 2–8）。統計顯著不等同介入因果或已證實臨床重要。\n- **多重性與精確度：** 研究進行多項領域、飲食、營養風險與臨床指標相關分析；未報告多重比較校正。樣本小且未報告主要變化的信賴區間，顯著相關可能是偶然，作者亦將它們定位為探索性結果（第 16 頁，§4.6）。\n- **Argdown 推論檢查：** 腳本因「介入改善結果」這個因果版本缺乏因果比較而標記 association-to-causation。作者結論較審慎，但「中心假說部分獲支持」應搭配主要 EatC、BMI、HbA1c 均未顯著，以及無對照的限制一併閱讀。\n- **GRADE（主要結果：總 EatC 變化）：** 起始低；偏差風險非常嚴重（−2）、間接性嚴重（−1）、不精確嚴重（−1），不一致與出版偏差未另降級；未列升級條件。依 grade_judge.py 計算為 **Very low ⊕◯◯◯**。這是對此單一研究估計確定性的評級，不是臨床建議強度。\n\n### Funding / COI\n\n研究由 CAPES 博士獎學金及 FAPDF 支持；作者聲明無利益衝突。本文未說明資助方是否參與研究設計或分析（第 17 頁）。\n\n## Review Scope\n\n本次為 Paper Radar 的 focused-quick 評讀：已讀全文並完成設計對應偏差評估、GRADE 及推論檢查。作者背景、期刊指標、引用影響及逐條參考文獻查核依 quick/worker-batch 範圍略過。\n\n# Resource\n\n## Source\n\n- 正式全文：MDPI 發布 PDF，20 頁；第 1 頁標示 CC BY 開放授權，文中 DOI 與身份相符。\n- DOI: [10.3390/nu18213605](https://doi.org/10.3390/nu18213605)\n- 官方 PDF: [Nutrients 18(21), 3605](https://mdpi-res.com/d_attachment/nutrients/nutrients-18-03605/article_deploy/nutrients-18-03605.pdf)\n- 全文 PDF SHA-256：58e1b8efd137759340d401505c50209ae17f0340db83ccbe886302994817b26b\n- 全文文字 SHA-256：5fcfe62656298636d7d3be48237248aebc91f1bcc36a6eec9fa535d1481b4ae9\n- 唯讀來源核驗：PDF 簽章、20 頁及第 1–20 頁本文/結論/參考文獻文字均核對；完整身份收據保存在本輪本機 evidence，未將原文全文加入公開內容。",
+      "cards": [],
+      "completedAt": "2026-11-17T08:15:10.842Z"
     }
   ]
 }
