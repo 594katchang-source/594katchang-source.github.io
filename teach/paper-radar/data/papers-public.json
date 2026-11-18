@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T15:15:27.067Z",
+  "generatedAt": "2026-11-18T15:21:45.895Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -115900,6 +115900,35 @@
         }
       ],
       "completedAt": "2026-11-18T15:15:00.538Z"
+    },
+    {
+      "id": "doi:10.3390/nu18213683:review",
+      "paperId": "doi:10.3390/nu18213683",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Beyond Weight Loss: A Body Composition-Guided Nutrition Framework for Functional Recovery in Heart Failure with Obesity.",
+      "authors": "Angosta A, Meraz R, Raymond S, Song J, Han H, Evangelista L",
+      "journal": "Nutrients",
+      "year": "2026",
+      "doi": "10.3390/nu18213683",
+      "abstract": "Heart failure (HF) and obesity commonly occur together and can worsen symptoms, physical function, and quality of life. Although weight loss may benefit selected patients with HF and obesity, body weight alone does not show whether patients are losing fat, muscle, fluid, or a combination of these. This narrative review summarizes selected evidence on nutrition therapy, weight loss, body composition, and functional outcomes in adults with HF, including studies of high-protein diets, nutritional supplements, calorie restriction, Mediterranean-style diets, and obesity pharmacotherapy. Across studies, body composition and functional outcomes have not been measured consistently, making it difficult to determine whether weight loss is associated with meaningful functional improvement. Building on this evidence and findings from the Pro-HEART trial, we propose a body composition-guided nutrition framework that considers changes in fat and lean mass alongside physical function and quality of life. The framework is conceptual and has not yet been validated. Future studies should examine whether nutrition and weight loss interventions can reduce excess fat, preserve muscle, and improve functional and patient-centered outcomes in patients with HF and obesity.",
+      "legalFullTextUrl": "https://doi.org/10.3390/nu18213683",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43030310/",
+      "category": "candidate",
+      "tags": [
+        "chronic disease nutrition",
+        "clinical nutrition technology",
+        "human clinical population",
+        "neg:drug or surgery only",
+        "nutrition and dietary pattern",
+        "obesity and metabolism",
+        "protein and micronutrients",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "心衰竭合併肥胖：身體組成導向框架的證據與界限",
+      "content": "---\ndoi: \"10.3390/nu18213683\"\njournal: \"Nutrients\"\nyear: 2026\nstudy_type: \"narrative review\"\nreview_depth: \"quick\"\n---\n# 心衰竭合併肥胖：身體組成導向框架的證據與界限\n> [!info] 品質快照\n> 11頁敘述性回顧及未驗證概念框架；無新收案、無新統合分析。適合整理評估問題，不能視為框架已改善功能或住院的試驗證據。\n\n## 全文結構與閱讀範圍\n依序讀完p1–11：p1摘要與背景；p2方法及證據定位；p3–4 Table1各研究；p4–5體重的限制；p5–6營養與藥物研究；p6證據缺口；p7身體組成及保肌；p8 Figure1概念框架；p9未來試驗及結論；p10作者／經費／COI；p10–11共25筆參考資料。首項身份、中項p6跨族群比較、末項p10–11聲明及參考資料均核對。\n\n## Summary\nAngosta等主張同時評估脂肪、肌肉、液體與實際功能。這是建立在既有高蛋白系統性回顧與選擇性相關研究的敘述統整，沒有新的系統搜尋或完整偏差風險評估。作者明說Figure1尚未經測試或驗證（p8–9）。\n\n## 白話導讀\n> [!abstract] 一句話\n> 心衰竭病人的體重下降，可能是利尿、減脂或掉肌肉，不能只看磅秤就判定營養治療成功。\n>\n> 為什麼做：肥胖、營養不良、衰弱與水分變化可同時存在，單看BMI容易混淆治療目標。\n>\n> 得到什麼：提出以身體組成為中間評估、以步行、力量、症狀、生活品質為重要結果的研究框架。\n>\n> 所以呢：這是值得檢驗的照護思考方向，並非已證明任何減重或蛋白處方適用所有HF患者。\n\n## Clinical Application\n- 先區分穩定肥胖HFpEF與住院營養不良、晚期HF、惡病質；後者可能首重避免進一步耗損，而非減重（p4–8）。\n- 日常體重仍有監測液體功能；BIA受水分影響，腰圍不是肌肉量，DXA的瘦體組織也不等同肌力。需合併力量與功能評估（p7）。\n- 蛋白、熱量、活動及補充品應依腎功能、透析、營養狀態與安全活動能力個別決定；本文未建立統一g/kg處方（p7–8）。\n- 不把營養不良住院試驗的死亡率下降解讀為鼓勵這群人減重，也不把semaglutide試驗解讀為保肌效果已證實。\n\n## Methods\n敘述性回顧與概念統整，無新參與者或個人資料分析。承接作者既有高蛋白介入系統性回顧（10試驗、1080人，本文p5轉述），另選營養、身體組成、HFpEF減重及共識來源。未提供可重現的新資料庫搜尋、選文流程、雙人篩選或完整研究品質表。Table1排除共識、回顧與指引，以免和原始試驗混計；Pro-HEART設計與結果不重算兩個試驗（p4註）。以下數字均為本回顧轉述，未獨立取得所有引用原始試驗。\n\n## Key Findings\n| 證據 | 本文報告 | 正確界限／位置 |\n|---|---|---|\n| Pro-HEART，HF＋糖尿病＋過重／肥胖76人 | 3個月高／標準蛋白熱量限制，體重−3.6／−2.9kg；HbA1c−0.7／−0.1百分點，p.002 | 減重相近，未證實組成介導功能；p3、5 |\n| Kitzman，穩定肥胖HFpEF100人 | 20週熱量限制、運動及合併，peakVO2分別改善約1.3、1.2、2.5mL/kg/min | 隨機分派支持特定介入，組成相關不等於中介因果；p3、5 |\n| PICNIC，營養不良住院HF120人 | 12月死亡20.3%／47.5%；再住院10.2%／36.1% | 個別營養支持，非肥胖減重研究；Table1、p5 |\n| EFFORT HF亞組645人 | 30日死亡8.4%／14.8%；調整OR.44，95%CI.26–.75 | 亞組、營養風險族群，不能外推減重效益；p5 |\n| 乳清分離蛋白試驗 | 33人隨機、25人完成，30g/day、12週；肌肉量＋0.6±0.7kg，握力未顯著改善 | Table1的25是完成者，不能當隨機總數；p5–6 |\n| 小型營養合併介入38人 | 介入組瘦體組織＋1.2kg，p.03 | 地中海飲食、維生素D及口服營養品，不能拆成單一蛋白效果；p6 |\n| STEP-HFpEF／DM | 529／616人、52週；體重−13.3%對−2.6%、−9.8%對−3.4%；步行組間差＋20.3／14.3m | 功能及體重結果不能證明脂肪／肌肉中介或保肌；p4、6 |\n\n## Critical Appraisal\n以SANRA適用領域作質性檢核，不虛構量化總分：臨床重要性及目標清楚；敘述證據有引用且承認研究層級；搜尋透明度不足；跨族群、共同介入及選擇結果使整體效應不可合併；核心框架沒有直接驗證。Table1把原始試驗與觀察研究標示分開是優點，仍未完整呈現每個估計CI或各試驗偏差風險。\n\n### 統計與因果\n無新統計檢定、無合併效應，不應從各試驗不同p值排名介入。原試驗隨機化不等同身體組成中介變數隨機化；減脂、肌肉、水分、疾病嚴重度與活動可共同變動。需要時序明確、控制中介—結果混雜且預先設定的分析或試驗來檢驗框架。用每公斤體重表示VO2也須注意體重本身參與分母，不能單憑此數字推斷肌肉功能改善。敘述證據的RCT、亞組、觀察預後及共識不可合為相同因果權重。\n\n### GRADE與spin\n本篇提出概念框架，沒有單一可合併PICO效應；整篇GRADE、ARR、NNT、fragility index不適用，未執行grade_judge以免假精確。作者在p8–9明確說框架尚未驗證，沒有將概念直接包裝成確定療效。若要決定具體治療，仍須逐一閱讀對應原始試驗及其風險，不能借框架替各介入評為高確定性。\n\n### 限制、經費與COI\n本文可能受選文及作者自身Pro-HEART研究脈絡影響；未提供完整系統搜尋與獨立評讀。無新經費，所討論Pro-HEART由NHLBI支持；作者聲明無COI（p10）。無新數據，沒有新倫理同意要求。Quick模式未獨立查核全部25引用、期刊指標、作者資料與撤稿狀態，不能稱已全面外部核實。\n\n## Resource\nAngosta AD et al. Beyond Weight Loss: A Body Composition-Guided Nutrition Framework for Functional Recovery in Heart Failure with Obesity. Nutrients2026;18:3683. https://doi.org/10.3390/nu18213683 。已核驗CC BY全文11頁。source SHA256 96785b890b821cb5e303379c3ccdae7d986a17cfea07da3006597e3ac5b45f63；text SHA256 5d28382ed67ca554d171072e5c0f8ffacee7e2c2fbb66bdae7160f9f54121801。本筆記為原創評析，不重製原圖或全文。",
+      "cards": [],
+      "completedAt": "2026-11-18T15:21:21.712Z"
     }
   ]
 }
