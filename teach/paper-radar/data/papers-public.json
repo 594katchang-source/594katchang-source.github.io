@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T15:07:33.963Z",
+  "generatedAt": "2026-11-18T15:12:34.880Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -115815,6 +115815,30 @@
         }
       ],
       "completedAt": "2026-11-18T15:07:07.892Z"
+    },
+    {
+      "id": "doi:10.3390/nu18213544:review",
+      "paperId": "doi:10.3390/nu18213544",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Adherence to a Mediterranean Diet and Lifestyle and Associations with Global Endometriosis Symptoms: A Cross-Sectional Analysis of Australian Women.",
+      "authors": "Harris C, Villani A, Scannell N, Wilson N, Mantzioris E",
+      "journal": "Nutrients",
+      "year": "2026",
+      "doi": "10.3390/nu18213544",
+      "abstract": "Adherence to a Mediterranean diet (MedDiet) has been shown to improve women's reproductive health. However, there is a lack of evidence on the potential efficacy in attenuating the intensity of global symptoms related to endometriosis. This was a cross-sectional analysis investigating the association between MedDiet (and associated lifestyle) adherence and intensity of global endometriosis symptoms in Australian women. Adherence to a MedDiet (and associated lifestyle) was assessed using the Mediterranean Diet Adherence Screener (MEDAS) and MEDiterranean LIFEstyle Index (MEDLIFE), and the impact of endometriosis symptoms was assessed using the Endometriosis Impact Questionnaire (EIQ-63). A total of n = 103 participants (29.7 ± 8.6 years; BMI: 27.1 ± 6.8 kg/m2) were included in the final analyses. Participants reported moderate MEDLIFE adherence scores (12.1 ± 3.2) and low-to-moderate adherence to a MedDiet (5.6 ± 2.0). Few participants achieved normative serve size criteria for core dietary constituents of a MedDiet, including legumes (n = 14, 16.7%), fruit (n = 11, 13.1%), fish and seafood (n = 9, 10.7%), nuts (n = 15, 17.9%) and olive oil (n = 2, 2.4%). MEDLIFE index or MEDAS adherence were not associated with global impact symptoms of endometriosis. Despite the null findings, these results provide an important contribution to the existing literature, highlighting the importance of diet quality on women's health more broadly. Exploration of these findings using well-controlled longitudinal analyses and robust clinical trials is needed to discover causal relationships.",
+      "legalFullTextUrl": "https://doi.org/10.3390/nu18213544",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43030173/",
+      "category": "candidate",
+      "tags": [
+        "design:longitudinal",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "地中海飲食與子宮內膜異位症：橫斷研究品質評讀",
+      "content": "---\ndoi: \"10.3390/nu18213544\"\njournal: \"Nutrients\"\nyear: 2026\nstudy_type: \"cross-sectional\"\nreview_depth: \"quick\"\n---\n# 地中海飲食與子宮內膜異位症：小樣本無關聯結果的正確解讀\n> [!info] 品質快照\n> 成人女性線上橫斷問卷103人；平均29.7±8.6歲。質性Newcastle–Ottawa領域整體高偏差風險。針對用來判斷飲食治療症狀的確定性，grade_judge.py實算Very low。不能由無顯著關聯證明療效不存在。\n\n## 全文結構與閱讀範圍\n已依序閱讀合法CC BY PDF13頁：p1摘要及背景；p2–3症狀、飲食脈絡與設計；p4 MEDAS／MEDLIFE與EIQ量表；p5統計及收案；p5–6Table1；p7Table2飲食項目；p8Table3及討論；p9相關飲食研究與理論；p10限制、結論及經費；p11–13共55筆參考資料。沒有把背景引用的臨床研究當成本研究介入。\n\n## Summary\nHarris等在澳洲103名自報醫療診斷endometriosis成年女性，以MEDAS／MEDLIFE與EIQ-63評估關聯。整體MedDiet遵從5.6±2.0，範圍2–11，多低至中等；未觀察到飲食／生活遵從與全球或各向度影響有顯著關聯。Table3全球影響標準化beta −0.069、列出95%CI −0.050至0.027、p0.560（p8），beta與CI的尺度未清楚對齊，不能將CI當每一分飲食造成的症狀改變量。\n\n## 白話導讀\n> [!abstract] 一句話\n> 這個小型線上問卷沒有看見地中海飲食遵從分數與整體內膜異位症生活影響的關聯，但它沒有真的分派飲食或追蹤治療前後。\n>\n> 為什麼做：飲食自我管理很常見，卻缺少對疼痛以外社交、心理、工作與生活負擔的資料。\n>\n> 族群與結果：103位成人女性，自報醫療診斷，2025/4/29至2026/1/1從社群與患者團體招募。平均病程5.0±4.7年，EIQ全球中位49.2、IQR20.7，心理與社交向度負擔較高。大多人的飲食遵從不高，沒有足夠高遵從者比較。\n>\n> 所以呢：未發現關聯不是飲食已證明無效，也不是可以宣稱抗發炎機轉就能改善症狀；仍需前瞻介入及更完整混雜控制。\n\n## Clinical Application\n- 可用來討論成人endometriosis病人的整體生活影響與飲食評估；本研究沒有孕產或兒少介入，背景提到生育議題不能當孕產樣本。\n- 沒有固定熱量、食材克數或療程，不可從此篇制定治療處方或補充劑劑量。\n- 診斷與飲食、症狀皆自報；不能取代醫療診斷或把所有腹痛歸於飲食。一般營養照護價值與這篇未證實的特定症狀效益要分開。\n- MEDAS的紅酒項目是評分內容，不代表本筆記建議飲酒；EVOO機轉討論不能當作和ibuprofen等效的療效證明。\n- 台灣外推須注意澳洲社群招募、英文問卷、年輕且高教育者占多數。未給生化發炎或病灶變化，沒有治療MCID／ARR／NNT可算。\n\n## Methods\n成人≥18、永久居澳、自報醫療診斷且能獨立完成英文線上問卷；使用社群平台與支援團體自願招募。155項問卷約20–25分鐘，沒有時間限制。以一次連結及IP／郵遞區號篩核避免重複及不合資格，並非機率抽樣（p3–4）。\n14項MEDAS二分0／1；MEDLIFE含活動、休息、社交、飲食習慣等。主文寫28項MEDLIFE、合併分母27，Table1另列生活區塊6.6±1.8與合併12.2±3.2；摘要／正文又為12.1±3.2，版本／計分細節不完全一致（p4、p6–7）。MEDAS高>10、中6–9、低<5的原文界線未交代5、10怎樣分類，不能自行補齊。\nEIQ-63含身體、心理、社交、親密／性、生育、工作財務、教育、生活8向度；回憶過去12月、1–5年、>5年，各量尺0–100再平均，分數高代表影響大（p4–5）。當下飲食分數與多年症狀回憶的時間不匹配，是重要限制。\n線性迴歸先檢驗共線與同質變異，未調整及四個調整模型，列年齡、BMI、吸菸與active years為共變數。SPSS31，p<0.05（p5）。沒有可追溯預註冊、樣本數／power目標，且Table3未逐模型明列；用藥、心理共病、疾病嚴重度與其他飲食因素未完整調整。\n\n## Key Findings\n| 描述／結果 | 數字 | 位置 |\n|---|---|---|\n| 年齡／BMI | 29.7±8.6歲；BMI27.1±6.8（正文亦有6.7） | Table1 p5–6 |\n| MEDAS | 5.6±2.0，range2–11 | p7 |\n| EIQ global | median49.2、IQR20.7 | Table1 p6 |\n| 社交／心理／身體EIQ | 69.8／69.3／64.7中位 | Table1 |\n| 全球影響迴歸 | beta−0.069，CI−0.050至0.027，p0.560 | Table3 p8 |\n| 社交影響迴歸 | beta−0.208，CI−0.049至−0.004，p0.089 | Table3：CI不跨0但p>0.05，報告不一致 |\n| 處方藥／補充品使用 | 80人77.7%；55人Table1為53.4% | p5–6 |\n| 食物達標，以Table2為準 | 豆14人13.6%、果11人10.7%、魚9人8.7%、堅果15人14.6%、油量2人1.9% | p7 |\n\n同樣人數的食物百分比，摘要／p7正文／p9討論各有不同版本；不把其中看似最合理者當「更正」，只保留Table2明確分母103及位置。全球beta為標準化數字，但CI較像另一尺度，需作者釐清，不自行換算臨床效益。\n\n## Critical Appraisal\n| 領域 | 判定 | 理由 |\n|---|---|---|\n| 選樣 | 高風險 | 社群／患者團體自願參與，不能代表全體患者或無網路者 |\n| 診斷／暴露量測 | 高風險 | 自報醫療診斷與飲食生活分數，缺客觀驗證及完整能量營養素攝取 |\n| 時間序／反向因果 | 高風險 | 可能因症狀改飲食；當下暴露對多年症狀回憶，不能確定先後 |\n| 可比性 | 高風險 | 多數用藥且焦慮／憂鬱常見，只有少量共變數；病灶與治療未充分控制 |\n| 結果量測 | 有疑慮 | 已驗證EIQ是優點，但長期回憶與多向度平均可能掩蓋差異 |\n| 精確度／選擇報告 | 高風險 | n103、高遵從者少，尺度／百分比分母與CI-p不一致，未完整列各調整模型 |\n\n### 統計與因果\ncausal-appraisal的reverse causation、selection與time-zero一致性原則適用。疼痛或心理影響會改變進食、活動、社群參與，故方向不明。範圍受限的MEDAS不能很好測出高遵從與低遵從的差異，無顯著結果不代表排除臨床有意義作用。無對照介入，不能求ITT／per-protocol或fragility index；未提供有效治療差CI與MCID，不能說「效益小到不重要」。\nTable3社交CI與p矛盾，不可挑CI說顯著，也不可忽略報告品質。多向度、回憶期及模型帶來多重比較，未見校正；但本次不以孤立趨勢打造正向發現。\n\n### GRADE與spin\ngrade_judge.py以觀察性low起始，bias serious、indirectness serious、imprecision serious，結果Very low；單篇不一致與發表偏差不可評不額外降級。此等級是將該關聯拿來回答「地中海飲食是否改善症狀」的確定性，不是對一般飲食健康價值的評分。本文雖承認小樣本／高遵從者少，仍以null結果支持更廣泛女性健康／營養治療考量，屬背景推論，非本數據驗證。機轉引用或其他疾病研究不能填補此篇的療效缺口。\n\n### 經費／COI／限制\nUniversity of the Sunshine Coast School of Health支持，無外部計畫經費；作者聲明無競爭利益（p10）。資料可合理申請；原登錄或原始資料未獨立重分析。作者承認社群偏選、年輕高教育、自報、無高遵從及缺完整飲食量測。Quick模式未做引用存在性／作者／期刊及撤稿深查，不稱全部已核實。\n\n## Resource\nHarris C et al. Nutrients2026;18:3544. https://doi.org/10.3390/nu18213544 。合法CC BY PDF13頁；source SHA256 c157757e8602811e2b30501481d33bc91de49c376f5f0070a41885338a207104；text SHA256 5688b78be01a5f6fc1b10afc2369e442c175d468a3423cd4e0b79508b523a491。首p1身份、中p7–8表2／3、末p10結論及p13參考資料已對照。本文是原創批判評讀，不重製全文或圖表。",
+      "cards": [],
+      "completedAt": "2026-11-18T15:12:09.214Z"
     }
   ]
 }
