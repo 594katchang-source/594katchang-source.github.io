@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T05:39:04.131Z",
+  "generatedAt": "2026-11-18T06:34:32.342Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -114911,6 +114911,73 @@
         }
       ],
       "completedAt": "2026-11-18T05:32:11.000Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1969222:digest",
+      "paperId": "doi:10.3389/fnut.2026.1969222",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Combined exercise and dietary interventions for body composition in adults with overweight or obesity: a comparator-stratified systematic review and meta-analysis of randomized trials.",
+      "authors": "Li Q, Chen Z, Xu G, Zhang J",
+      "journal": "Frontiers in Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fnut.2026.1969222",
+      "abstract": "This study aimed to evaluate the effects of combined exercise-dietary interventions on body weight (BW), body mass index (BMI), fat-free mass (FFM), and fat mass percentage (FM%) in adults with overweight or obesity compared with randomized comparators. PubMed, Embase, Web of Science, and the Cochrane Library were searched on 28 September 2026. Twenty-three reports representing 21 unique parent trials were included. Post-intervention arm data were synthesized as comparator-specific mean differences using restricted maximum likelihood random-effects models with truncated Hartung-Knapp confidence intervals, Tau-squared, and 95% prediction intervals. Cross-comparator and hierarchical parent-trial models were used as sensitivity analyses. Risk of bias was assessed using the revised Cochrane Risk of Bias tool for randomized trials (RoB 2), and certainty of evidence was evaluated using the Grading of Recommendations Assessment, Development, and Evaluation (GRADE) approach. The BW analysis included 1,303 participant observations. Against dietary-only controls, combined interventions reduced BW by -4.49 kg (95% confidence interval -8.05 to -0.92), and reduced BMI by -1.50 kg m-2 (-2.67 to -0.34), but both prediction intervals crossed the null. Exercise-only comparisons were imprecise, while active dietary and exercise comparisons and minimal guidance comparisons each relied on one report. No comparator stratum showed reliable improvement in FFM or FM%. Cross-comparator sensitivity estimates favored combined interventions for BW and BMI, but every prediction interval crossed the null. Certainty of the estimates was very low for all outcomes. Combined interventions may reduce BW and BMI compared with trial-specific comparators in comparisons with dietary-only controls, but heterogeneity and sparse strata limit certainty. The evidence did not establish FFM preservation, the superiority of one dietary intervention type, or clinical importance. https://www.crd.york.ac.uk/PROSPERO/, identifer CRD420251174901.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1969222/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43016422/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "design:systematic review",
+        "evidence literacy",
+        "human clinical population",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "合併運動與飲食介入：讀懂對照組與體組成結果",
+      "content": "---\ntitle: \"合併運動與飲食介入：讀懂對照組與體組成結果\"\ncitekey: \"digest-10.3389-fnut.2026.1969222-20261118\"\ndoi: \"10.3389/fnut.2026.1969222\"\ntags: [research/digest, obesity, exercise, diet, body-composition, evidence-literacy]\n---\n\n> [!summary] 30 秒層｜一句話 + 重點\n> 這篇系統性回顧按隨機試驗的對照組分開估算「運動合併飲食」效果；與單純飲食相比，體重與 BMI 的平均差較低，但高度異質且預測區間跨零，不能保證新情境有同樣效果，也沒有證明保留 FFM。\n> - 23 篇報告來自 21 個母試驗；體重分析的 1,303 是報告層級參與者觀察值，不是整體去重後人數。\n> - 對單純飲食的平均差：體重 −4.49 kg、BMI −1.50 kg/m²；兩者 95% prediction interval 都跨零。\n> - FFM、FM% 均沒有可靠改善證據；FFM 也不等於純骨骼肌。\n> - 作者將四項結果的 GRADE 確定性都評為極低；補充表未在本次全文檢視中取得。\n> - 品質判讀 → 同 DOI 的品質評讀已另行公開；此篇著重解讀結果與概念。\n\n# 合併運動與飲食介入：讀懂對照組與體組成結果\n\n## 5 分鐘層\n\n**要點：**本文的核心不是「組合方案一定比較好」，而是不同對照組回答不同問題；各比較的結果高度不一致，應以對照組、預測區間和證據確定性一起解讀。\n\n- **與單純飲食比較：**估計在飲食介入上增加運動的差異。體重平均差 −4.49 kg、BMI −1.50 kg/m²，但各自預測區間跨零，表示新情境的效果可能沒有下降，甚至方向相反。\n- **與單純運動比較：**估計在運動上增加飲食處方的差異。體重與 BMI 的估計不精確，信賴區間均跨零。\n- **其餘比較：**主動飲食加運動對另一種主動方案、或對最低指引的結果各僅一篇報告，不能當作穩健的合併效果。\n- **體組成：**FFM 與 FM% 的比較沒有可靠改善證據。FFM 包含水分、骨骼、器官與肌肉，不是直接等同骨骼肌。\n- **確定性與臨床意義：**GRADE 全部為極低；作者沒有預先定義最小臨床重要差異，也沒有用本研究證明共病、功能或生活品質改善。\n\n## 全文地圖\n\n**要點：**全文依序說明研究問題、納入和分析規則、四類體組成結果、敏感度分析與外推限制。\n\n- Abstract（PDF 第 1 頁）：交代四個結果、搜尋方法、主要效果及低確定性。\n- Introduction（第 2 頁 §1）：說明飲食、運動及各種飲食／運動方式不能視為同一介入，並解釋比較組決定估計問題。\n- Materials and methods（第 2–3 頁 §2.1–2.6）：前瞻註冊、四庫搜尋、PICOS、末次測量資料、報告與母試驗對照、RoB 2、GRADE 和統計分析。\n- Results（第 3–7 頁 §3.1–3.5）：選文流程、研究層級觀察值、偏差與確定性、體重／BMI／FFM／FM% 分層估計、敏感度及小型研究偏差檢查。\n- Discussion（第 7–9 頁 §4–4.1）：解讀效果跨情境的不確定性，說明 FFM 與肌肉的差異、臨床意義缺口、優點、限制與未來試驗方向。\n- Conclusion and statements（第 9–10 頁 §5）：重申可能的體重及 BMI 平均差，及 FFM、FM%、方案排名與臨床重要性尚未證實；並列資料、作者、經費、利益衝突與 AI 使用聲明。\n- References（第 10–11 頁）：列出 57 筆引文。本次未逐篇核對引用文獻原文。\n\n## 各主題重點\n\n**要點：**下面按原文段落順序整理研究主張；百分數、效果值與研究數是作者報告的結果，不是個人預測。\n\n### 1. 問題與比較組的意義\n\n作者指出肥胖涉及生物、行為、環境及社會因素；飲食和活動策略可能互補，但熱量限制、限時進食、不同禁食方式，以及有氧、阻力或間歇運動並非可互換的介入。方案的增量效果也取決於採用哪一種對照（PDF 第 2 頁 §1）。\n\n- 合併方案對「單純飲食」回答的是：在飲食方案上增加運動，差多少。\n- 合併方案對「單純運動」回答的是：在運動上增加飲食處方，差多少。\n- 對「最低指引」回答的是整套方案相對少量介入的效果。\n- 主動方案互相比較回答的是兩套不同方案之差。\n- 因此把所有對照混成一個平均數，只能做敏感度摘要，不能說成對某一共同標準照護的效果。\n\n### 2. 登錄、搜尋、納入與資料單位\n\n研究依 PRISMA 2020 報告，登錄 PROSPERO CRD420251174901。比較組分層、自然單位重算、母試驗映射、prediction intervals、meta-regression 和 GRADE 等是在登錄後增加，作者提醒需審慎解讀（PDF 第 2 頁 §2.1）。\n\n- 兩名審查者搜尋 PubMed、Embase、Cochrane Library、Web of Science 至 2026-09-28，另做引用追查；沒有在搜尋階段限制語言（第 2 頁 §2.2）。\n- 共 16,531 筆紀錄，去除 11,652 筆重複後篩選 4,879 筆標題／摘要；195 篇全文評估，172 篇排除：設計不符 59、族群不符 78、資料不足 23、沒有合格對照 12（第 4 頁 §3.1）。\n- 納入 23 篇報告、21 個獨立母試驗。兩組 companion reports 各自提供合格結果，但同一批參與者可能出現在多篇報告，因此觀察值不是全體去重人數（第 3–4 頁 §2.4、§3.1）。\n- 分析數量是：體重 1,303、BMI 1,145、FFM 845、FM% 602 個報告層級參與者觀察值。各結果分母不同。\n- 對象為年滿 18 歲的過重或肥胖者；介入需同時包含結構化運動與飲食策略；納入隨機平行組或合格交叉試驗（第 2–3 頁 §2.3）。\n\n### 3. 資料擷取、偏差與統計方法\n\n兩名審查者重新擷取各組末次測量的樣本數、平均值與標準差；主分析只用 endpoint values，不把變化值和末次測量值混合。每份報告、每項結果最多選一個符合排序的比較；另以母試驗階層模型處理重複報告依賴（PDF 第 3 頁 §2.4）。\n\n- 效果量為平均差：合併介入組末次測量減比較組末次測量。體重、BMI、FM% 的負值代表合併組較低；FFM 的正值才代表合併組較高（第 3 頁 §2.6）。\n- 採 REML 隨機效應和截尾 Hartung–Knapp 信賴區間；報告數達三篇以上時計算 95% prediction interval；單篇類別只報單篇估計，不稱為 pooled effect（第 3 頁 §2.6）。\n- 用 τ²、I²、比較組 moderator test、cross-comparator sensitivity、母試驗階層模型、leave-one-out，以及可用時的 funnel plot／Egger test（第 3 頁 §2.6）。\n- 原始試驗以 RoB 2 五領域判斷，結果確定性以 GRADE 逐 outcome／comparison 評估。多數 RoB 2 為 some concerns，常見原因是分派隱蔽、介入依從性與偏離、失訪資訊或預先分析計畫不完整（第 3–4 頁 §2.5、§3.2）。\n- GRADE 對四項結果均為 very low；作者列出的整體理由包括偏差風險、不一致、比較層級的不精確與跨比較摘要的間接性（第 4 頁 §3.2）。\n\n### 4. 體重與 BMI\n\n| 結果／比較 | 報告數 | 平均差（95% CI） | I² | 95% prediction interval |\n|---|---:|---:|---:|---:|\n| 體重：對單純飲食 | 16 | −4.49 kg（−8.05 至 −0.92） | 90.11% | −16.83 至 7.85 kg |\n| 體重：對單純運動 | 5 | −3.42 kg（−9.50 至 2.66） | 75.71% | −17.71 至 10.87 kg |\n| 體重：對主動飲食＋運動 | 1 | −5.10 kg（−14.94 至 4.74） | 不適用 | 不適用 |\n| 體重：對最低指引 | 1 | −1.20 kg（−10.42 至 8.02） | 不適用 | 不適用 |\n| BMI：對單純飲食 | 12 | −1.50 kg/m²（−2.67 至 −0.34） | 87.29% | −5.12 至 2.11 kg/m² |\n| BMI：對單純運動 | 4 | −0.97 kg/m²（−5.28 至 3.35） | 94.93% | −13.45 至 11.52 kg/m² |\n| BMI：對主動飲食＋運動 | 1 | −0.60 kg/m²（−2.69 至 1.49） | 不適用 | 不適用 |\n| BMI：對最低指引 | 1 | −0.80 kg/m²（−3.07 至 1.47） | 不適用 | 不適用 |\n\n來源：PDF 第 4–5 頁 §3.3.1–3.3.2。對單純飲食比較的平均差 CI 未跨零，但 prediction interval 跨零且 I² 很高；平均效果不代表每個新場景都會重現。跨比較組差異檢定未顯著：體重 p=0.906、BMI p=0.851。\n\n### 5. FFM 與 FM%\n\n| 結果／比較 | 報告數 | 平均差（95% CI） | I² | 95% prediction interval |\n|---|---:|---:|---:|---:|\n| FFM：對單純飲食 | 12 | −0.53 kg（−2.03 至 0.97） | 75.42% | −4.75 至 3.69 kg |\n| FFM：對單純運動 | 2 | −1.79 kg（−18.49 至 14.92） | — | — |\n| FFM：對主動飲食＋運動 | 1 | −3.80 kg（−10.50 至 2.90） | — | — |\n| FM%：對單純飲食 | 8 | −1.40 個百分點（−4.15 至 1.35） | 93.67% | −9.34 至 6.55 個百分點 |\n| FM%：對單純運動 | 2 | 2.02 個百分點（−21.70 至 25.73） | — | — |\n| FM%：對最低指引 | 1 | −1.60 個百分點（−5.84 至 2.64） | — | — |\n\n來源：PDF 第 5–6 頁 §3.3.3–3.3.4。FFM 所有信賴區間均跨零；負平均差是較低 FFM，不能說成保存或增加。FFM 含骨骼肌、器官、骨骼與水分，會受水合狀態及測量法影響；它不能直接替代肌肉量（第 7 頁 §4）。比較組 moderator test：FFM p=0.480、FM% p=0.267。\n\n### 6. 敏感度、偏差檢查與討論\n\n- 跨比較組敏感度估計：體重 −4.13 kg、BMI −1.26 kg/m²、FFM −0.73 kg、FM% −0.83 個百分點；各項 prediction interval 都跨零，作者沒有把它解讀成共同對照效果（PDF 第 6 頁 §3.4）。\n- 母試驗階層模型估計方向相近：體重 −4.39 kg（95% CI −7.02 至 −1.76）、BMI −1.38 kg/m²（−2.33 至 −0.43）、FFM −0.87 kg（−2.10 至 0.36）、FM% −0.93 個百分點（−3.04 至 1.19）。未知的試驗內取樣相關仍不能完全排除（第 6 頁 §3.4；第 8–9 頁 §4.1）。\n- Leave-one-out 未指出單篇報告足以完全解釋發現；FFM 和 FM% 推論仍不穩健。Egger test 對體重、BMI、FFM、FM% 均未顯著，但研究數少且異質，不顯著不等於已排除報告偏差（第 6–7 頁 §3.4–3.5）。\n- 作者指出體重與 BMI 以自然單位較容易理解，但沒有預先設定最小臨床重要差異；結果也沒有證明共病、功能或生活品質改變（第 8 頁 §4）。\n- 研究間飲食方式或年齡的差別屬 study-level subgroup／ecological analysis，可能受族群、對照、運動強度、測量法及偶然因素混雜；不能用它們替不同飲食方式排名（第 6、8 頁 §3.3、§4）。\n- 未來試驗應使用清楚且可比較的對照、同時報末次測量和變化值、標準化體組成測量、公開 protocol／analysis plan，並記錄依從性及直接比較飲食策略（第 9 頁 §4.1）。\n\n## 機轉白話講解\n\n**要點：**這篇的效果數字是「兩個隨機分派組在研究結束時的平均差」，不是每個人減掉的公斤數，也不是一項直接比較所有方案的總排名。\n\n- **對照組像問題句的後半句：**「合併方案比單純飲食」只告訴我們在該類試驗裡加上運動的差異；「比單純運動」則問加上飲食處方後差多少。兩種問題不能合併成一個不帶對照的結論。\n- **CI 與 prediction interval 不同：**信賴區間描述平均效果估計的不確定性；prediction interval 描述新的相似研究可能得到的效果範圍。平均差的 CI 沒跨零，不代表新場景一定有效；這裡體重與 BMI 的 prediction interval 都跨零。\n- **I² 高表示結果不一致：**飲食對照組的體重 I² 約 90%、BMI 約 87%。相同分層內，研究仍可能因飲食內容、運動、依從性、族群、期間及量測法不同而差異很大。\n- **FFM 不是一塊單獨的肌肉：**FFM 包含水、器官、骨與肌肉。體組成估計受水分和工具影響；本文無法據此聲稱肌肉被保留。\n- **研究數也影響把握：**主動方案與最低指引的部分結果只有一篇報告；一篇報告不提供跨研究重現性的合併估計。\n\n## 臨床意義 / 怎麼用\n\n**要點：**可把本文用來提醒自己分辨對照組與證據不確定性；它沒有建立個人減重預測或一套已驗證的處方。\n\n- 引用 −4.49 kg 或 −1.50 kg/m² 時，同句交代比較對象是單純飲食，並說明高度異質與 prediction interval 跨零。\n- 不把 23 篇報告、21 個母試驗、或各 outcome 的 participant observations 當成 23 個獨立試驗或整體不重複人數。\n- 不把 FFM 寫成骨骼肌，不宣稱運動合併飲食已證明保留瘦體重；也不把同一篇的 average endpoint difference 轉成每個人的預期減重量。\n- 不用 study-level subgroup 去判定連續熱量限制、限時進食或禁食哪個最好。\n- 本文未定義最小臨床重要差異，也未證明病人導向結果；個別營養與運動處方仍需依人與臨床情境評估，本文本身不是治療指引。\n\n## 重要圖表重述\n\n**要點：**主文圖表先呈現選文與四項 comparator-stratified meta-analysis；補充圖表的細項未在本次核對。\n\n- **Figure 1（PDF 第 4 頁）：**PRISMA 選文流程；23 篇報告、21 個母試驗進入定量合成。\n- **Figure 2（第 4–5 頁）：**按比較組呈現體重平均差；飲食對照組估計較低，但研究間異質和 prediction interval 都需一併看。\n- **Figure 3（第 5 頁）：**BMI 按比較組分層；飲食對照平均差 CI 未跨零，prediction interval 仍跨零。\n- **Figure 4（第 6–7 頁）：**FFM 各比較估計不精確，沒有可靠改善訊號。\n- **Figure 5（第 7–8 頁）：**FM% 的區間寬、研究差異高，未建立可靠減少。\n- 作者另提 Supplementary Tables S1–S5、Figures S1–S7；本次只核對主文 PDF，未取得附錄內容，故不補寫研究特徵細表、逐篇 RoB/GRADE 表或 subgroup 數字。\n\n## 與既有認知的對照\n\n**要點：**同 DOI 的品質評讀已先公開；本篇整理加深了「對照組與 prediction interval 如何限制結論」的解讀，不重複作第二次品質評級。\n\n- 既有公開品質評讀也指出，23 篇報告來自 21 個母試驗、飲食對照組的體重與 BMI 平均差有利，但 prediction intervals 跨零、整體 GRADE 極低。\n- 本次新 digest 把四種 comparator 解讀、各 outcome 的分母及 FFM 不等同骨骼肌的理由整理成可複習的框架。\n- 公開筆記索引另有 10.3390/nu18121905 的重症肥胖／婦科癌症營養回顧，但它是另一族群與敘述性回顧，沒有本篇的 comparator-stratified RCT meta-analysis；不把其營養支持內容當成同一問題的數值證據。\n- 本次個人 vault 搜尋服務未連線；以上只依可讀的公開筆記索引和同 DOI 評讀，不推論未查詢的私人筆記不存在。\n\n## 概念 / 名詞整理\n\n- **Comparator（比較組）：**隨機試驗中用來對照介入的組別；它決定平均差實際回答哪個因果問題。\n- **Mean difference（平均差）：**本文以合併組 endpoint 減比較組 endpoint 計算；體重/BMI/FM% 負值較低，FFM 正值較高。\n- **Prediction interval：**根據研究間差異，估計新的相似研究可能落入的效果範圍；不同於只描述合併平均值精度的 CI。\n- **I² / τ²：**分別概括研究間觀察差異中異質性的比例及隨機效應模型的研究間變異量；不能單獨判定差異的來源。\n- **FFM：**無脂肪體重，包含肌肉、骨、器官與水等非脂肪組織；不能和骨骼肌畫等號。\n- **FM%：**脂肪量占總體重的百分比；百分點差不等於公斤差。\n- **報告／母試驗／participant observation：**一個試驗可產生多篇報告；同一人也可能在不同 companion report 中再次出現，因此 report-level observation 不是全體不重複人數。\n\n## 自我測驗\n\n1. **問：**合併運動＋飲食與單純飲食相比，主要回答什麼？  \n   **答：**在飲食介入上增加運動後的差異，不是對所有體重管理方式的總排名。\n\n2. **問：**為什麼 −4.49 kg 的平均差不能直接當成新個案的預期減重？  \n   **答：**這是對單純飲食比較中的研究末次測量平均差；研究間異質高，95% prediction interval 為 −16.83 至 7.85 kg，跨過零。\n\n3. **問：**本文的 FFM 結果能否證明肌肉保存？  \n   **答：**不能。FFM 不只包含骨骼肌，且比較估計信賴區間跨零；作者未發現可靠的 FFM 改善證據。\n\n4. **問：**1,303 代表全體有 1,303 位不重複參與者嗎？  \n   **答：**不能這樣說。它是體重分析的 participant observations；同一母試驗的 companion reports 可能重複參與者。\n\n5. **問：**Egger test 未達顯著是否排除出版偏差？  \n   **答：**否。作者指出異質而且研究數有限，檢定力低；報告偏差仍未排除。\n\n## Reference\n\nLi Q, Chen Z, Xu G, Zhang JJ. Combined exercise and dietary interventions for body composition in adults with overweight or obesity: a comparator-stratified systematic review and meta-analysis of randomized trials. Frontiers in Nutrition. 2026;13:1969222. Published 2026-10-28. doi:10.3389/fnut.2026.1969222.\n\n- 全文來源：Frontiers in Nutrition，PDF，第 1–11 頁；本機身份核對為 DOI 與首頁可見英文題名完全匹配。\n- 全文 SHA-256：06fd809074b23b5bd8753261f91cba91bcaf06f289a4988faaf974004ea36667。\n- 全文文字 SHA-256：f0f8459449307225d4325fd1d5e86cecf7af7853b7cbf33029b5ea835fe82373。\n- 檢視範圍：主文 PDF 11 頁（Introduction 至 Conclusion、聲明及參考文獻）；Supplementary Tables/Figures 未取得，已在相關段落標示。\n- 本文報告生成式 AI 曾用於英文語言編修及文句清晰度改善（PDF 第 9–10 頁聲明）；不代表研究分析由 AI 產生。",
+      "cards": [
+        {
+          "title": "比較組在問什麼",
+          "question": "合併運動加飲食分別對單純飲食、單純運動與最低指引，估計的是同一個效果嗎？",
+          "answer": "不是。對單純飲食估計加上運動的差異；對單純運動估計加上飲食的差異；對最低指引估計整套方案相對少量介入的差異。",
+          "tags": [
+            "obesity",
+            "comparators",
+            "evidence-literacy"
+          ]
+        },
+        {
+          "title": "平均差與預測區間",
+          "question": "為什麼對單純飲食的體重平均差 −4.49 kg，不能直接當成下一個新情境的預期減重？",
+          "answer": "異質性高（I² 90.11%），95% prediction interval 為 −16.83 至 7.85 kg、跨過零。平均差描述合併結果，不保證新場景方向與幅度相同。",
+          "tags": [
+            "meta-analysis",
+            "prediction-interval",
+            "body-weight"
+          ]
+        },
+        {
+          "title": "FFM 是否代表肌肉",
+          "question": "本文的 FFM 結果能否證明合併方案保留骨骼肌？",
+          "answer": "不能。FFM 包含肌肉、骨、器官與水分；估計不精確且信賴區間跨零，作者沒有發現可靠的 FFM 改善證據。",
+          "tags": [
+            "ffm",
+            "body-composition",
+            "evidence-literacy"
+          ]
+        },
+        {
+          "title": "觀察值不是去重人數",
+          "question": "體重分析的 1,303 個 participant observations 是否代表 1,303 位全體不重複參與者？",
+          "answer": "不是。研究納入 23 篇報告、21 個母試驗；companion reports 可能包含重複參與者，因此 1,303 是報告層級觀察值。",
+          "tags": [
+            "study-units",
+            "meta-analysis",
+            "methods"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-18T06:19:47.682Z"
     }
   ]
 }
