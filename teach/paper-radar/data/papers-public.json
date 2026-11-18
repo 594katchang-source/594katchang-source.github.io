@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T14:50:31.532Z",
+  "generatedAt": "2026-11-18T14:57:48.046Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -115643,6 +115643,32 @@
         }
       ],
       "completedAt": "2026-11-18T14:47:42.293Z"
+    },
+    {
+      "id": "doi:10.1038/s41430-026-01845-9:review",
+      "paperId": "doi:10.1038/s41430-026-01845-9",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "A 6-month randomized clinical trial to test the effect of different dietary interventions on abdominal fat components and cardiometabolic profile in overweight adults.",
+      "authors": "Rodrigues I, Arcoverde G, do Nascimento C, da Silva N, Diniz A, Fernández-Real J, Pinho C, Sobral Filho D",
+      "journal": "",
+      "year": "",
+      "doi": "10.1038/s41430-026-01845-9",
+      "abstract": "Abdominal obesity is strongly associated with cardiometabolic risk and can be modified through nutritional interventions, yet there is still no consensus on the dietary strategy capable of producing the best outcomes. This study examined the effects of different dietary interventions, with macronutrient management, on abdominal fat components and cardiometabolic parameters in overweight adults. A randomized clinical trial was conducted with three individualized dietary interventions involving caloric restriction combined with balanced macronutrient management (BALANCED), carbohydrate reduction (LOWCARB), and fat reduction (LOWFAT), in addition to a control group that received qualitative and group-based counseling (CONTROL). Participants were followed for six months, with assessments at baseline, three, and six months. Visceral adipose tissue (VAT) and subcutaneous adipose tissue (SAT) were evaluated by ultrasound, along with body weight, biochemical parameters, and blood pressure. Body weight and VAT decreased significantly over time, with no significant time × group interactions, indicating comparable trajectories across the intervention groups. The average weight reduction was ~3%. Significant changes over time were also observed for total cholesterol, glucose, HbA1c, and blood pressure, with no significant time × group interactions for cardiometabolic parameters. After six months of dietary intervention, without changes in physical activity level, modest but significant reductions in body weight and VAT were observed over time, with no significant differences in their trajectories among the intervention groups. No evidence of a differential effect of macronutrient composition on these outcomes was observed.",
+      "legalFullTextUrl": "https://doi.org/10.1038/s41430-026-01845-9",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43039960/",
+      "category": "recommended",
+      "tags": [
+        "design:consensus",
+        "guideline and consensus",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "六個月四組飲食隨機試驗：腹部脂肪與代謝品質評讀",
+      "content": "---\ndoi: \"10.1038/s41430-026-01845-9\"\njournal: \"European Journal of Clinical Nutrition\"\nyear: 2026\nstudy_type: \"RCT\"\nreview_depth: \"quick\"\n---\n# 六個月四組飲食試驗：未見差異不等於等效\n> [!info] 品質快照\n> 隨機試驗141人；縱向分析101人。RoB2整體高風險；GRADE Very low（針對組間VAT差異結論，grade_judge.py實算）。關鍵限制：失訪／完整個案分析、處方與實際攝取分離不足，且沒有等效性設計。\n\n## 全文結構與閱讀範圍\n已讀合法CC BY 4.0 PDF12頁：p1摘要／背景，p2設計及流程，p3收案、樣本數、隨機及處方，p4追蹤／量測與Table1，p5統計與Table2，p6飲食遵從及Table3，p7結果、Figure3/4，p8討論與Table4，p9代謝Table5，p10限制、結論與資料，p11參考／COI，p12授權。依段落順序整理如下，未做註冊原檔或外部參考資料深查。\n\n## Summary\n這個巴西單中心試驗比較均衡、低碳、低脂熱量限制與主動團體諮詢，六個月體重與超音波VAT整體隨時間下降，但time×group未達顯著。VAT交互作用p=0.098、體重p=0.588（Table3 p6）。這支持「此試驗未偵測到不同軌跡」，不證明三種巨量營養素比例生理作用相同。\n\n## 白話導讀\n> [!abstract] 一句話\n> 四組都有接受營養照護，實際吃法逐漸接近，最後未證明哪一組腹部內臟脂肪下降較多。\n>\n> 為什麼做：希望知道同樣限制熱量時，改變碳水或脂肪比例能否讓腹部脂肪與代謝指標改善更多。\n>\n> 各組：BALANCED處方20 kcal/kg/day、碳水55–60%、蛋白15–20%、脂肪30%；LOWCARB碳水35%、脂肪45%、蛋白20%；LOWFAT脂肪20%、碳水65%、蛋白15%；CONTROL接受依巴西與WHO原則的團體定性指導。未提供餐點，每月追蹤六個月。\n>\n> 結果：體重均數由82.6降到80.5、83.8到81.1、88.5到85.3、86.2到83.6 kg；VAT由7.9到7.4、7.4到6.7、6.5到5.4、7.3到6.7 cm（順序同四組，p6）。各組變化不是已證明彼此顯著不同。\n>\n> 所以呢：臨床上值得注意實際遵從與照護，但這份資料不足以宣稱低脂勝出、低碳無效、或四種策略等效。\n\n## Clinical Application\n- 適用於理解一般門診過重成人營養照護的可行性；樣本多女性、平均約54歲，約75%有高血壓（p6）。\n- 處方是研究設定，不是給所有人的20 kcal/kg通用建議；須按個別病況、需求及可行性調整。\n- 六個月實際碳水比例為53.5%、47.0%、48.0%、50.1%；LOWCARB未達35%，LOWFAT脂肪31.5%未達20%（p5 Table2）。研究更接近「處方策略在真實遵從下」的比較，不能代表嚴格達標的低碳對低脂。\n- 六個月≥5%減重者30.7%，各組無顯著差異；整體平均約3%低於作者預定5%成功門檻。沒有病人重要事件、絕對效益CI或NNT可計。\n- 台灣外推須注意食物環境、社經條件及醫療照護差異。未提供DXA/BIA的總脂肪與瘦體重，不能推論保肌效果。\n\n## Methods\n單中心RCT（巴西東北公立大學醫院），成人≥20歲；一般成人BMI≥25，高齡≥60歲BMI≥27。排除影響腹部測量疾病、嚴重疾病、減重藥／荷爾蒙、素食等，並非兒少或孕產介入。登錄NCT06320782，原登錄內容與日期本次未獨立核對，不能宣稱與預註冊完全一致（p2–3）。\nSAS產生1:1:1:1序列，文章寫盲化分配，但未詳述分配隱藏工具與執行者。飲食無法完全盲化。超音波在正常吐氣、平躺、至少空腹4h量VAT/SAT；三次平均，差>0.1cm加測。T3/T6測量者對基線資料盲化，但不能推定對組別盲化；VAT評估者間ICC>0.97（p4、p6）。\n原計畫每組至少22，預估失訪40%後作者寫提高到31；若以22保留60%反推，需約37，文中增額計法未充分交代。主文又報163招募、21排除、141隨機，文字算術差1人；不補造原因（p3、p5）。最後101人有基線及六個月VAT，重複測量依可用資料，未插補，不是完整隨機141人的ITT。\n常態資料重複量數ANOVA，球形假設違反用Greenhouse–Geisser；非正態用rank-based longitudinal approach，檢驗time、group、time×group，事後Holm調整（p5）。Table2與Table4另有Bonferroni及非參數檢定，不能混用它們的p值代替主模型。\n\n## Key Findings\n| 結果，四組順序均衡／低碳／低脂／控制 | 基線 → 六個月 | 主模型time×group |\n|---|---|---:|\n| 體重kg，mean±SD | 82.6±9.9→80.5±9.2；83.8±14.0→81.1±13.7；88.5±11.5→85.3±12.2；86.2±13.9→83.6±14.3 | 0.588 |\n| VAT cm，mean±SD | 7.9±2.6→7.4±2.9；7.4±2.6→6.7±2.7；6.5±2.2→5.4±2.0；7.3±3.6→6.7±3.4 | 0.098 |\n| SAT cm，mean±SD | 2.7±1.1→2.5±1.1；2.7±1.2→2.6±1.1；2.5±1.2→2.5±1.0；2.6±1.2→2.6±1.1 | 0.054 |\n| HbA1c %，中位數 | 6.0→6.0；5.7→5.6；6.7→5.7；8.1→7.4 | 0.103 |\n\nTable3 p6提供前3項。體重與VAT time p<0.001；SAT time p0.561。IPAQ time p0.969，沒有偵測到活動改變，不代表客觀活動量完全相等。\nTable5 p9 HbA1c有group主效應p0.008，但基線LOWCARB為5.7、CONTROL為8.1，且交互作用p0.103；不能把跨時間平均組差當「低碳治療降糖優於控制」。血脂LDL、HDL、TG time均未顯著。總膽固醇、血糖在T3較低但T6未顯著異於T0/T3；DBP整體time顯著，Holm後兩兩比較皆未顯著。\nTable4 p8的T3–T6 VAT百分比組差p0.017，T0–T6 p0.055；屬不同時間區段及分析，不能取前者宣稱主要六個月VAT組別效應顯著。\n\n## Critical Appraisal\n| RoB2領域 | 判定 | 依據 |\n|---|---|---|\n| 隨機化 | 有疑慮 | SAS隨機與盲化分配有描述，細節有限；小樣本仍有基線不平衡 |\n| 偏離預定介入 | 高風險 | 各組實際攝取未達預定比例，且沒有141人ITT估計；未盲化與自行飲食執行 |\n| 缺失結果 | 高風險 | 141隨機僅101分析；未插補；失訪與遵從困難有關，失訪比例組間p不顯著不能證明無偏差 |\n| 結果量測 | 有疑慮 | 超音波標準化／三測／良好ICC有優點，但只寫對基線盲化，非明確組別盲化；飲食靠回憶 |\n| 選擇性報告 | 有疑慮 | 登錄與分析計畫未獨立比對，多時間段與模型；p值報告無interaction效應CI |\n\n### 統計與spin\n平均變化的組間差與95%CI未完整提供，不能靠p>0.05推定MCID已被排除。研究非等效試驗，沒有事前等效界線。作者p10也明確提醒未顯著不代表等效，這點正確；p8把未顯著說成沒有哪組更優的語句仍須保守閱讀。事後power74%不會證明樣本足以排除臨床差異，重點應是效應CI。成效可描述為整體時間關聯，但沒有未介入組，也不能把所有時間改善全歸因特定處方。\n\n### GRADE\n以安裝grade_judge.py計算主要「組間VAT軌跡差異」確定性Very low。起始high；risk_of_bias very_serious（失訪、完整個案與處方分離不足），imprecision serious（101人、未提供交互作用CI及等效界線）；單篇inconsistency與publication_bias不能估計，不額外降級；對實際門診處方策略direct，indirectness未降級。這不是判定營養照護無價值，而是本試驗不足以確證各比例優劣或等效。\n\n### 限制、經費與利益衝突\n作者承認回憶／少報、依從、樣本power、性別未分層、種族社經不平衡、未完整體組成、場域及失訪限制（p8–10）。CAPES支持APC，作者聲明無競爭利益（p11）；未獨立稽核。Table2若干SD看似異常（如1512.8±3794.0 kcal），本次不自行更正。圖號敘述與圖題也有交叉混淆，以可見圖題為準。Quick模式未做作者／期刊／引用與撤稿深查。\n\n## Resource\nRodrigues IG et al. European Journal of Clinical Nutrition, 2026. DOI https://doi.org/10.1038/s41430-026-01845-9 。合法CC BY4.0 PDF12頁，source SHA256 7ef8f108f600d0dda436835fb55c878c5adb6b0302750e0127eb419903898f6d；text SHA256 0449c096b50d1954d65542e9c072241375dfc3a5e65075cf718b7e4774829f78。首p1 DOI／題名、中p6主結果、末p10結論／p12權利已對照。本文為原創評讀，沒有重製原圖表或全文翻譯。",
+      "cards": [],
+      "completedAt": "2026-11-18T14:57:10.656Z"
     }
   ]
 }
