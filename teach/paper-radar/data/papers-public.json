@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T15:21:45.895Z",
+  "generatedAt": "2026-11-18T15:24:51.034Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -115929,6 +115929,72 @@
       "content": "---\ndoi: \"10.3390/nu18213683\"\njournal: \"Nutrients\"\nyear: 2026\nstudy_type: \"narrative review\"\nreview_depth: \"quick\"\n---\n# 心衰竭合併肥胖：身體組成導向框架的證據與界限\n> [!info] 品質快照\n> 11頁敘述性回顧及未驗證概念框架；無新收案、無新統合分析。適合整理評估問題，不能視為框架已改善功能或住院的試驗證據。\n\n## 全文結構與閱讀範圍\n依序讀完p1–11：p1摘要與背景；p2方法及證據定位；p3–4 Table1各研究；p4–5體重的限制；p5–6營養與藥物研究；p6證據缺口；p7身體組成及保肌；p8 Figure1概念框架；p9未來試驗及結論；p10作者／經費／COI；p10–11共25筆參考資料。首項身份、中項p6跨族群比較、末項p10–11聲明及參考資料均核對。\n\n## Summary\nAngosta等主張同時評估脂肪、肌肉、液體與實際功能。這是建立在既有高蛋白系統性回顧與選擇性相關研究的敘述統整，沒有新的系統搜尋或完整偏差風險評估。作者明說Figure1尚未經測試或驗證（p8–9）。\n\n## 白話導讀\n> [!abstract] 一句話\n> 心衰竭病人的體重下降，可能是利尿、減脂或掉肌肉，不能只看磅秤就判定營養治療成功。\n>\n> 為什麼做：肥胖、營養不良、衰弱與水分變化可同時存在，單看BMI容易混淆治療目標。\n>\n> 得到什麼：提出以身體組成為中間評估、以步行、力量、症狀、生活品質為重要結果的研究框架。\n>\n> 所以呢：這是值得檢驗的照護思考方向，並非已證明任何減重或蛋白處方適用所有HF患者。\n\n## Clinical Application\n- 先區分穩定肥胖HFpEF與住院營養不良、晚期HF、惡病質；後者可能首重避免進一步耗損，而非減重（p4–8）。\n- 日常體重仍有監測液體功能；BIA受水分影響，腰圍不是肌肉量，DXA的瘦體組織也不等同肌力。需合併力量與功能評估（p7）。\n- 蛋白、熱量、活動及補充品應依腎功能、透析、營養狀態與安全活動能力個別決定；本文未建立統一g/kg處方（p7–8）。\n- 不把營養不良住院試驗的死亡率下降解讀為鼓勵這群人減重，也不把semaglutide試驗解讀為保肌效果已證實。\n\n## Methods\n敘述性回顧與概念統整，無新參與者或個人資料分析。承接作者既有高蛋白介入系統性回顧（10試驗、1080人，本文p5轉述），另選營養、身體組成、HFpEF減重及共識來源。未提供可重現的新資料庫搜尋、選文流程、雙人篩選或完整研究品質表。Table1排除共識、回顧與指引，以免和原始試驗混計；Pro-HEART設計與結果不重算兩個試驗（p4註）。以下數字均為本回顧轉述，未獨立取得所有引用原始試驗。\n\n## Key Findings\n| 證據 | 本文報告 | 正確界限／位置 |\n|---|---|---|\n| Pro-HEART，HF＋糖尿病＋過重／肥胖76人 | 3個月高／標準蛋白熱量限制，體重−3.6／−2.9kg；HbA1c−0.7／−0.1百分點，p.002 | 減重相近，未證實組成介導功能；p3、5 |\n| Kitzman，穩定肥胖HFpEF100人 | 20週熱量限制、運動及合併，peakVO2分別改善約1.3、1.2、2.5mL/kg/min | 隨機分派支持特定介入，組成相關不等於中介因果；p3、5 |\n| PICNIC，營養不良住院HF120人 | 12月死亡20.3%／47.5%；再住院10.2%／36.1% | 個別營養支持，非肥胖減重研究；Table1、p5 |\n| EFFORT HF亞組645人 | 30日死亡8.4%／14.8%；調整OR.44，95%CI.26–.75 | 亞組、營養風險族群，不能外推減重效益；p5 |\n| 乳清分離蛋白試驗 | 33人隨機、25人完成，30g/day、12週；肌肉量＋0.6±0.7kg，握力未顯著改善 | Table1的25是完成者，不能當隨機總數；p5–6 |\n| 小型營養合併介入38人 | 介入組瘦體組織＋1.2kg，p.03 | 地中海飲食、維生素D及口服營養品，不能拆成單一蛋白效果；p6 |\n| STEP-HFpEF／DM | 529／616人、52週；體重−13.3%對−2.6%、−9.8%對−3.4%；步行組間差＋20.3／14.3m | 功能及體重結果不能證明脂肪／肌肉中介或保肌；p4、6 |\n\n## Critical Appraisal\n以SANRA適用領域作質性檢核，不虛構量化總分：臨床重要性及目標清楚；敘述證據有引用且承認研究層級；搜尋透明度不足；跨族群、共同介入及選擇結果使整體效應不可合併；核心框架沒有直接驗證。Table1把原始試驗與觀察研究標示分開是優點，仍未完整呈現每個估計CI或各試驗偏差風險。\n\n### 統計與因果\n無新統計檢定、無合併效應，不應從各試驗不同p值排名介入。原試驗隨機化不等同身體組成中介變數隨機化；減脂、肌肉、水分、疾病嚴重度與活動可共同變動。需要時序明確、控制中介—結果混雜且預先設定的分析或試驗來檢驗框架。用每公斤體重表示VO2也須注意體重本身參與分母，不能單憑此數字推斷肌肉功能改善。敘述證據的RCT、亞組、觀察預後及共識不可合為相同因果權重。\n\n### GRADE與spin\n本篇提出概念框架，沒有單一可合併PICO效應；整篇GRADE、ARR、NNT、fragility index不適用，未執行grade_judge以免假精確。作者在p8–9明確說框架尚未驗證，沒有將概念直接包裝成確定療效。若要決定具體治療，仍須逐一閱讀對應原始試驗及其風險，不能借框架替各介入評為高確定性。\n\n### 限制、經費與COI\n本文可能受選文及作者自身Pro-HEART研究脈絡影響；未提供完整系統搜尋與獨立評讀。無新經費，所討論Pro-HEART由NHLBI支持；作者聲明無COI（p10）。無新數據，沒有新倫理同意要求。Quick模式未獨立查核全部25引用、期刊指標、作者資料與撤稿狀態，不能稱已全面外部核實。\n\n## Resource\nAngosta AD et al. Beyond Weight Loss: A Body Composition-Guided Nutrition Framework for Functional Recovery in Heart Failure with Obesity. Nutrients2026;18:3683. https://doi.org/10.3390/nu18213683 。已核驗CC BY全文11頁。source SHA256 96785b890b821cb5e303379c3ccdae7d986a17cfea07da3006597e3ac5b45f63；text SHA256 5d28382ed67ca554d171072e5c0f8ffacee7e2c2fbb66bdae7160f9f54121801。本筆記為原創評析，不重製原圖或全文。",
       "cards": [],
       "completedAt": "2026-11-18T15:21:21.712Z"
+    },
+    {
+      "id": "doi:10.3390/nu18213683:digest",
+      "paperId": "doi:10.3390/nu18213683",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Beyond Weight Loss: A Body Composition-Guided Nutrition Framework for Functional Recovery in Heart Failure with Obesity.",
+      "authors": "Angosta A, Meraz R, Raymond S, Song J, Han H, Evangelista L",
+      "journal": "Nutrients",
+      "year": "2026",
+      "doi": "10.3390/nu18213683",
+      "abstract": "Heart failure (HF) and obesity commonly occur together and can worsen symptoms, physical function, and quality of life. Although weight loss may benefit selected patients with HF and obesity, body weight alone does not show whether patients are losing fat, muscle, fluid, or a combination of these. This narrative review summarizes selected evidence on nutrition therapy, weight loss, body composition, and functional outcomes in adults with HF, including studies of high-protein diets, nutritional supplements, calorie restriction, Mediterranean-style diets, and obesity pharmacotherapy. Across studies, body composition and functional outcomes have not been measured consistently, making it difficult to determine whether weight loss is associated with meaningful functional improvement. Building on this evidence and findings from the Pro-HEART trial, we propose a body composition-guided nutrition framework that considers changes in fat and lean mass alongside physical function and quality of life. The framework is conceptual and has not yet been validated. Future studies should examine whether nutrition and weight loss interventions can reduce excess fat, preserve muscle, and improve functional and patient-centered outcomes in patients with HF and obesity.",
+      "legalFullTextUrl": "https://doi.org/10.3390/nu18213683",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43030310/",
+      "category": "candidate",
+      "tags": [
+        "chronic disease nutrition",
+        "clinical nutrition technology",
+        "human clinical population",
+        "neg:drug or surgery only",
+        "nutrition and dietary pattern",
+        "obesity and metabolism",
+        "protein and micronutrients",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "心衰竭與肥胖：看懂減去的是脂肪、肌肉還是水分",
+      "content": "---\ntags: [research/digest, heart-failure, body-composition]\ncitekey: Angosta2026HFComposition\ndoi: 10.3390/nu18213683\naliases: [\"Beyond Weight Loss: A Body Composition-Guided Nutrition Framework for Functional Recovery in Heart Failure with Obesity\"]\n---\n> [!summary] 30 秒層｜一句話＋重點\n> **一句話**：心衰竭合併肥胖的營養目標，應問減少什麼組織及功能是否改善，而非只問少了幾公斤。\n> - 體重受脂肪、肌肉與液體影響；利尿造成的下降不等於減脂。\n> - 穩定肥胖HFpEF與住院營養不良／惡病質不能用同一減重目標。\n> - 蛋白與活動可能有助維持肌肉，但劑量、安全性與腎功能須個別評估。\n> - 本篇是敘述回顧；身體組成導向框架尚未驗證，沒有新試驗。\n> 品質未評讀（內容整理）；需可信度判斷 → 同篇品質評讀。\n\n## 全文地圖（5 分鐘層）\n**要點**：本文由「體重不足以代表健康改變」走向可檢驗的功能導向研究框架。\n- p1–2背景與方法：肥胖悖論、營養與功能問題，敘述統整而非新系統搜尋。\n- p3–4 Table1：分列營養、組成與藥物研究，避免重複計算同一Pro-HEART試驗。\n- p4–5第3節：體重、BMI與意圖性／非意圖性下降。\n- p5–6第4–5節：不同研究結果與尚缺的組成—功能連結。\n- p7第6–7節：量測、保肌及個別營養。\n- p8第8節Figure1：提出尚未驗證框架。\n- p9第9–10節：未來試驗與結論；p10–11經費、COI及25筆參考資料。\n\n## 各主題重點\n**要點**：看似相同的體重下降，臨床意義可能完全不同。\n### 1. 體重、BMI與液體\n心衰竭液體可快速變動。利尿、低食慾／惡病質、脂肪下降都能造成體重變輕。BMI也無法分辨肌肉與脂肪。同BMI的人可有不同肌力、耐力與日常活動能力。每日量體重仍有監測液體的價值，不能因此取消，只是營養成果需加上其他維度（p4–5）。\n### 2. 營養研究回答不同問題\n| 本文引用 | 人數與結果 | 應怎麼理解 |\n|---|---|---|\n| Pro-HEART | 76人；3個月體重−3.6對−2.9kg，高蛋白HbA1c−0.7對−0.1百分點 | 代謝結果與減重不同，未證實組成導致功能改善 |\n| Kitzman | 100人、20週；熱量限制／運動／合併peakVO2改善1.3／1.2／2.5mL/kg/min | 特定穩定肥胖HFpEF族群，不代表所有HF |\n| PICNIC | 營養不良住院120人，12月死亡20.3%對47.5% | 營養支持證據，不能變成鼓勵減重 |\n| EFFORT HF亞組 | 645人，30日死亡8.4%對14.8%，調整OR.44，CI.26–.75 | 住院營養風險亞組，族群與目的須保留 |\n| 乳清試驗 | 33人隨機、25完成；30g/day12週，肌肉量＋0.6±0.7kg，握力無顯著改善 | 肌肉量與力量不必同步；不是本文建議統一服用量 |\n| 合併補充試驗 | 38人，介入組瘦體組織＋1.2kg，p.03 | 同有飲食、維生素D及營養品，不能歸於單一成分 |\n\n數字是本文Table1及p5–6轉述，未獨立讀回所有原試驗，不是新統合分析。\n### 3. 藥物減重與保肌是兩個問題\nSTEP-HFpEF529人與DM試驗616人皆52週；semaglutide與安慰劑體重變化分別−13.3%／−2.6%、−9.8%／−3.4%，六分鐘步行組間差＋20.3／＋14.3m。本文指出，這些結果沒有確立減的是多少脂肪或肌肉，也沒有證明身體組成中介關係（p4、6）。\n### 4. 怎麼量身體組成與功能\nDXA估計脂肪、瘦體組織；BIA方便但受液體影響；腰圍反映中央脂肪，不能代表肌肉。需配合握力、步速、椅站、六分鐘步行、peakVO2、症狀、生活品質及日常能力。單一量測沒有涵蓋全部（p7、9）。\n### 5. 保肌要和病人狀態對上\n年齡、腎功能／透析、衰弱、營養不良、HF嚴重度及病人目標共同影響蛋白與體重策略。蛋白不保證單獨維持功能；活動、阻力訓練或心臟復健須在可安全參與時安排。限制鈉／水、糖尿病飲食、熱量與蛋白目標可能互相增加負擔，實際可遵行性也重要（p7–8）。\n\n## 機轉白話講解\n**要點**：磅秤像總重量計，不能告訴你貨物的組成。\n把脂肪、肌肉、液體想成三種不同貨物（教學比喻）。總重量下降，可能是多餘液體減少、脂肪減少，也可能是有用的肌肉耗損。要知道這次改變對病人是否有利，還得看能否走得更遠、是否更有力及症狀有沒有改善。作者認為身體組成可能幫助解釋功能差異，但這條因果路徑仍待測試，不能把合理機轉當成已驗證療效。\n\n## 臨床意義 / 怎麼用\n**要點**：先辨識營養風險與病人目標，再決定需要減脂、保肌或避免繼續消耗。\n- 評估意圖性與非意圖性下降，以及近期利尿、食慾與液體狀況。\n- 穩定肥胖HFpEF可能有減脂與功能目標；晚期HF、惡病質或營養不良可先處理不足。\n- 追蹤體重、組成、力量與功能的組合；不把BIA一次變化當成真正肌肉增減。\n- 本文沒有可直接套用的蛋白g/kg、熱量、鈉水或藥物處方；不從引用試驗劑量推成所有患者建議。\n\n## 重要圖表重述\n**要點**：Table1是研究地圖，Figure1是待驗證假說地圖。\nTable1把原始營養、觀察組成研究及藥物試驗分區，列族群、介入、結果與限制；不同族群與結果不能合算共同效應。Figure1由HF與肥胖相關問題，連到營養、活動、行為及適用藥物，再以組成改變連到功能與生活品質；連線表示研究方向，並不是已證實的中介因果。此處以自有文字說明，不重製圖。\n\n## 與既有認知的對照\n**要點**：既有Pro-HEART筆記也提醒不能把時間內改變直接歸因飲食。\n已搜尋本輪既有筆記，找到《Evangelista2026-ProHEART飲食體重管理與心室變化-內容整理》（DOI10.3390/nu18193238）。它是92人次級分析，15月LVEDD資料僅31人，無非減重對照。本篇提供更廣的組成／功能框架，但沒有替該分析補上因果對照，也不是同一報告或相同分析人數。未另啟退休本機站或複製vault。\n\n## 概念 / 名詞整理\n**要點**：瘦體組織、肌力與肌少症互相關聯，不能互相代替。\n- HFpEF：保留射出分率心衰竭，仍可有運動限制與症狀。\n- Sarcopenic obesity：肥胖合併肌少問題，需兼顧力量／功能與組成。\n- Lean mass：非脂肪組織估計，受量測與水分影響，不直接等於肌肉力量。\n- Mediation：想解釋介入如何透過中間變數影響結果；同時變好不等於已證實中介。\n\n## 自我測驗\n**要點**：用下列問題檢查能否把病人狀態與證據對上。\n> [!question]- Q1：利尿後體重下降能當營養減脂成功嗎？\n> 不能；下降可能主要是液體，需另看組成、力量、功能與營養攝取。\n\n> [!question]- Q2：PICNIC結果能支持營養不良住院HF患者減重嗎？\n> 不能；研究是營養支持，族群及目的不是意圖性減重。\n\n> [!question]- Q3：肌肉量增加但握力沒改善代表什麼？\n> 組成和功能不一定同步；乳清試驗的25位完成者呈現這種情況，不能只用肌肉量宣布功能恢復。\n\n> [!question]- Q4：本文框架已經證明保肌能改善住院率嗎？\n> 尚未；作者明說框架未驗證，需前瞻研究測試組成與臨床功能間的關係。\n\n## Reference\n**要點**：內容來自已驗證同一份11頁全文，引用試驗保留轉述層級。\nAngosta AD et al. Nutrients2026;18:3683. https://doi.org/10.3390/nu18213683 。Table1及第3–10節、p10經費與無COI聲明；核心引用Pro-HEART、Kitzman2016、PICNIC、EFFORT、STEP-HFpEF。source SHA256 96785b890b821cb5e303379c3ccdae7d986a17cfea07da3006597e3ac5b45f63；text SHA256 5d28382ed67ca554d171072e5c0f8ffacee7e2c2fbb66bdae7160f9f54121801。首／中／末已核對；本文為原創知識整理。",
+      "cards": [
+        {
+          "title": "心衰竭與身體組成",
+          "question": "利尿後體重下降能當營養減脂成功嗎？",
+          "answer": "不能；下降可能主要是液體，需另看組成、力量、功能與營養攝取。",
+          "tags": [
+            "nutrition",
+            "heart-failure"
+          ]
+        },
+        {
+          "title": "心衰竭與身體組成",
+          "question": "PICNIC結果能支持營養不良住院HF患者減重嗎？",
+          "answer": "不能；研究是營養支持，族群及目的不是意圖性減重。",
+          "tags": [
+            "nutrition",
+            "heart-failure"
+          ]
+        },
+        {
+          "title": "心衰竭與身體組成",
+          "question": "肌肉量增加但握力沒改善代表什麼？",
+          "answer": "組成和功能不一定同步；乳清試驗25位完成者呈現此情況，不能只用肌肉量宣布功能恢復。",
+          "tags": [
+            "nutrition",
+            "heart-failure"
+          ]
+        },
+        {
+          "title": "心衰竭與身體組成",
+          "question": "本文框架已證明保肌能改善住院率嗎？",
+          "answer": "尚未；作者明說框架未驗證，需前瞻研究測試組成與功能間的關係。",
+          "tags": [
+            "nutrition",
+            "heart-failure"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-18T15:24:24.955Z"
     }
   ]
 }
