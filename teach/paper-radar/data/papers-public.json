@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T15:28:04.597Z",
+  "generatedAt": "2026-11-18T15:30:30.033Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -116023,6 +116023,71 @@
       "content": "---\ndoi: \"10.3389/fnut.2026.1977025\"\njournal: \"Frontiers in Nutrition\"\nyear: 2026\nstudy_type: \"randomized crossover trial protocol\"\nreview_depth: \"quick\"\n---\n# BARITONE：飲食生物標記交叉試驗計畫的設計與驗證界限\n> [!info] 品質快照\n> 11頁研究計畫，尚無介入效應或生物標記預測表現結果。目標70人、預期60完成；不能寫成70人已完成有效性試驗。適合方法學學習，尚不能用於臨床驗血推估攝食量。\n\n## 全文結構與閱讀範圍\n已逐頁讀完：p1身份／摘要；p2飲食誤差與研究目的、設計；p3招募及Figure1；p4資格、隨機、食物控制及Figure2；p5餐食交付、遵從及Table1–2；p6採樣、品質與代謝平台；p7結局、配對分析、缺失資料；p8巢狀交叉驗證、獨立樣本、樣本數；p9討論及Figure3；p10限制、倫理與經費；p11聲明及19筆參考文獻。首p1 DOI、中p5–7餐食／分析、末p10–11限制及引用均已對照。\n\n## Summary\nOberrauter等在瑞典設計BARITONE：較大篩檢橫斷樣本結合成人三期隨機交叉試驗，每期1週肉／魚／植物蛋白飲食，中間各1週回復慣常飲食。主要目標是辨識與驗證血漿代謝模式，尿液與脂質為次要方向；這篇沒有新發現的代謝物效應、模型RMSE或R2結果（p1–8）。\n\n## 白話導讀\n> [!abstract] 一句話\n> 研究打算用已知供餐建立代謝訊號，再看能不能推回日常攝食；現在交付的是計畫，尚不是可靠的飲食檢測工具。\n>\n> 為什麼做：食物日誌有回報誤差，而許多食物群還缺經驗證標記。\n>\n> 怎麼做：同一人輪流吃三類蛋白來源，食物與蔬果量盡量一致，重複取得空腹血尿。\n>\n> 注意：同一受試者的不同週不是獨立的人；同人篩檢樣本也不能叫外部驗證。\n\n## Clinical Application\n- 可用來教飲食量測、生物標記模型、交叉試驗與資料洩漏防護，不能當成肉、魚或植物飲食孰優的疾病預防結果。\n- 健康18–65歲、BMI18.5–30、自願且能吃全部三餐型的瑞典成人；不直接外推高齡、糖尿病、腎病、孕產或其他飲食文化。\n- Table1是預定供餐量，非實際攝入或治療建議；350g/day蔬果基準與表中361–364g/day計畫平均須分開，不自行合併成精確劑量。\n- 空腹點尿受濃度與採樣時點影響，血漿和尿液應互補，不能互換。\n\n## Methods\n預篩合格候選287人，篩檢總樣本規劃100–200人；從高與低蔬果攝食者擇70人，預期60完成。高>500、低<200g/day，依FFQ篩選，再用7日秤重日誌描述；目標性別均衡。招募始於2025秋，原文另說招至70人，但本文無實際完成流程或結局（p3–4、8）。\n外部人員以Excel電腦隨機安排順序，原文1:1:1，沒有完整呈現三種飲食六個可能排列及隱藏分派方法；參與者與工作人員無法盲化。三期1週，中間1週洗脫。每日3正餐2點心；早餐點心相同、午晚餐替換蛋白來源，配方與產品替代記錄，原料並非同批且無化學成分檢測（p4–5、10）。\n主要血漿代謝模式期末差；尿代謝與血漿脂質次要。篩檢加各期前後最多7次血尿。GC–TOF–MS及UHPLC–QTOF–MS；隨機上機順序、內標、空白與混合QC。PCA探索；OPLS-HDA整體區分不處理同人依賴，作者明定僅探索；介入推論依配對OPLS-EP、多重比較調整與participant／period混合模型。999次permutation、同人樣本固定同fold。缺失結局不插補，依特定比較完整資料分析，仍可能偏於可完成者（p6–8）。\nElastic net直接從代謝特徵建模，重複巢狀participant-level交叉驗證；轉換、尺度、缺值與特徵處理在訓練fold內擬合。外圈保留者評RMSE／MAE／R2；最後全資料模型的訓練表現不當驗證。鎖定模型先套同人篩檢資料（非獨立），再約30位未進介入者及計畫VOV外部樣本；皆未報結果（p8）。\n\n## Key Findings\n| 計畫數字 | 意義與位置 |\n|---|---|\n| 70目標／60預期完成 | 探索可行性取樣，非依指定主要效應與power計算；p8 |\n| 3×1週，兩次1週洗脫 | 短期近期攝食訊號；無長期疾病效果；p2–4 |\n| 能量level1／2目標2151／2701kcal，±5% | 依個別估計需求選level；表中計畫平均2096–2117／2652–2681kcal；p4–5 |\n| 蛋白肉／魚／素level1為94／94／88g；level2為125／124／116g | 並非精確等蛋白，模式可能含食物矩陣及用量差異；Table1 |\n| 蔬果標準350g/day，表中361–364 | 預期變化相對350計算，而非量測每人實際攝食；p7 |\n| 高遵從 | 指定蛋白≥90%、無額外相關蛋白、週體重絕對變化<2%；蔬果≥90%、額外≤35g/day；p8 |\n| 約30位額外篩檢驗證 | 小型同來源獨立人樣本，CI仍需報；外部VOV尚為計畫；p8 |\n\n以上是設計，不是已觀察主要結果；沒有治療效應CI、ARR、NNT或MCID可計算。\n\n## Critical Appraisal\n採SPIRIT計畫完整性／交叉設計與預測模型原則作質性評讀，不以尚無結果套用完整RoB2或PROBAST總分。\n- 隨機及分派：電腦隨機且外部人員執行是優點；隱藏、完整順序與平衡細節未呈現。\n- 交叉與洗脫：同人比較降低個人差異；1週洗脫充分性尚未驗證，前期飲食可能殘留。探索洗脫模式並不等於排除carryover。\n- 遵從與缺失：供餐、食譜、偏離紀錄有利；自由生活、自報與complete-case可能引入偏差。沒有結果不能判實際脫落方向。\n- 蔬果方向：不是隨機高／低量分派，而是慣常量不同者進入共同供餐量；迴歸均數、習慣及其他個體差異不能由蛋白來源隨機化消除。\n- 模型：巢狀同人fold與訓練內前處理避免洩漏是明確優點；約60人對大量特徵仍容易不穩定，需外部鎖模驗證。用供餐量當標籤未完全反映實吃、產品與烹調差異。\n- 註冊：文章寫2025-06-26 NCT07128940；未外查registry版本，不能聲稱註冊與發表完全一致或前瞻性已驗證。倫理日期2025-09-10由本文轉述。\n\n### 統計與因果／GRADE\n「可區分供餐模式」≠「準確估計日常克數」≠「改善健康」。同一人被留到不同fold會洩漏，本計畫明確避免；同人篩檢評估仍不是獨立驗證。350基準百分差定義為100×(350−慣常量)/350，不能誤寫成相對原攝食量百分比。沒有生物標記效能或臨床效應，GRADE不適用，未執行grade_judge製造等級。對未來成果的確信口吻仍須以實際模型表現驗證，不能因有交叉設計便稱臨床標記已有效。\n\n### 經費／COI／限制\n作者聲明無該工作或發表財務支持、無商業財務衝突，ChatGPT用於語言編輯（p10）；非據此判斷研究無偏差。主要限制是自選樣本、同來源篩檢驗證、短介入、供餐化學組成未測、未呈現實際結果。Quick模式未外部驗證全部引用、補充表、註冊史及作者期刊資料。\n\n## Resource\nOberrauter L-M, Lindqvist HM, Winkvist A. Front Nutr2026;13:1977025. https://doi.org/10.3389/fnut.2026.1977025 。CC BY、11頁合法全文。source SHA256 217ae3f8716be2f1600fc92adec9a5975d619c6533d145d5407c6c1b03ef30ca；text SHA256 cb0aa5a0d38ed0f509a84b96c8e9c9460e1ea9a0bbe5763a53a6be99a36aa089。本文為原創批判評析，不重製全文／圖表。",
       "cards": [],
       "completedAt": "2026-11-18T15:27:38.110Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1977025:digest",
+      "paperId": "doi:10.3389/fnut.2026.1977025",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Biomarker patterns reflecting habitual food intake: the BARITONE sample and randomized controlled crossover trial protocol.",
+      "authors": "Oberrauter L, Lindqvist H, Winkvist A",
+      "journal": "",
+      "year": "",
+      "doi": "10.3389/fnut.2026.1977025",
+      "abstract": "Accurate assessment of dietary intake remains a major challenge in nutrition research and limits the ability to study diet-disease relationships. Most epidemiological studies rely on self-reported dietary data that are subject to measurement errors. Metabolomics has emerged as a promising approach for identifying objective biomarkers of dietary intake. However, validated biomarkers for current intake are still lacking for several key food groups, including different protein sources and vegetables, fruits, and berries. The objective of this study is to identify and validate metabolomic biomarker patterns reflecting intake of these food groups as well as to identify groups of individuals with different responses to the trial foods. The BARITONE project consists of two parts. First, individuals were recruited to a screening session. Second, from this larger sample, a subset of participants with high and low, respectively, intake of vegetables, fruit and berries were selected for participation in a randomized controlled three-period crossover dietary intervention trial. In the trial, participants consumed three dietary patterns differing in primary protein source (meat-based, fish-based, and plant-based) during three 1-week intervention periods separated by 1-week washout periods. Fasting blood and urine samples were collected at screening and pre- and post- each intervention week. Habitual dietary intake was assessed using 7-day weighed food diaries collected at screening and during both washout periods. Metabolomic profiling will be applied to identify biomarker patterns associated with the source of protein as well as changes in intake of vegetables, fruit and berries. These patterns of metabolites will be confirmed in the data on habitual dietary intake from the screening sample. This study provides a framework for identifying and validating metabolomic biomarker patterns of present dietary intake by combining controlled and observational data. The findings may contribute to improved dietary assessment and support future research on diet-health relationships. NCT07128940.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1977025/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43023104/",
+      "category": "candidate",
+      "tags": [
+        "clinical nutrition technology",
+        "design:randomized controlled",
+        "human clinical population",
+        "neg:protocol only",
+        "nutrition and dietary pattern",
+        "precision nutrition",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "BARITONE：從供餐代謝訊號到日常飲食標記的研究計畫",
+      "content": "---\ntags: [research/digest, dietary-biomarkers, metabolomics]\ncitekey: Oberrauter2026BARITONE\ndoi: 10.3389/fnut.2026.1977025\naliases: [\"Biomarker patterns reflecting habitual food intake: the BARITONE sample and randomized controlled crossover trial protocol\"]\n---\n> [!summary] 30 秒層｜一句話＋重點\n> **一句話**：BARITONE打算先從肉、魚、植物蛋白供餐辨識代謝訊號，再測試能否反映日常攝食；本文是計畫，還沒有驗證結果。\n> - 目標70人、預期60完成；每種飲食1週，中間各1週洗脫。\n> - 較大的篩檢樣本規劃100–200人，結合7日秤重日誌、空腹血尿與體組成。\n> - 預測模型把同人的所有樣本放同fold，並在訓練內處理特徵，減少資料洩漏。\n> - 同一人的篩檢資料不是獨立驗證；另約30人與外部VOV驗證皆尚待結果。\n> 品質未評讀（內容整理）；需可信度判斷 → 同篇品質評讀。\n\n## 全文地圖（5 分鐘層）\n**要點**：由攝食誤差出發，連結供餐、代謝量測、建模與不同層級驗證。\n- p1–2背景與目的：尋找蛋白來源與蔬果／莓果攝取的代謝物模式，以及不同反應型態。\n- p3–4設計、招募及隨機：篩檢橫斷樣本＋三期交叉試驗。\n- p4–5食物控制：餐型、能量、供餐、食譜與偏離紀錄，Table1–2。\n- p6採樣與平台：血尿、日誌、身體組成與代謝體品質控管。\n- p7–8統計：探索區分、配對介入分析、elastic net巢狀交叉驗證、獨立與外部驗證。\n- p9–10優點、限制、倫理、經費；p11參考資料及補充材料入口。\n\n## 各主題重點\n**要點**：研究要辨認吃了什麼，並非比較三種飲食誰能治療疾病。\n### 1. 為何不能只靠一個代謝物\n血尿訊號同時反映食物、身體代謝、腸道微生物與個人差異。單一標記未必代表一整類蛋白或蔬果，組合模式可能較合適，但還要檢查合理性、時間、劑量反應、穩健性及不同情境表現（p2）。\n### 2. 誰進入研究\n瑞典自認健康18–65歲、BMI18.5–30、懂瑞典語且願吃全部三餐型的成人；排除孕哺、重大疾病、糖尿病／IBD／甲狀腺低下／乳糜瀉等、影響代謝用藥及相關食物不耐受。287位預篩合格受邀，較大樣本目標100–200；交叉試驗70目標、60預期完成，重視性別平衡及高低蔬果攝取（p3–4、8）。\n高攝取>500、低<200g/day由FFQ辨識；篩檢與洗脫各7日秤重日誌再描述習慣。這些是篩選門檻，不是一般健康建議。\n### 3. 每週吃什麼、如何維持一致\n三期各1週肉、魚、素食蛋白，電腦隨機順序，中間各1週回慣常飲食。3正餐＋2點心；早餐點心相同，午晚餐替換蛋白來源。食物、食譜與數量提供，自家烹調，產品替代留紀錄，食物並非同生產批（p4–5）。\n| 設計項目 | 原文數字與意義 |\n|---|---|\n| 兩能量level目標 | 2151／2701kcal/day±5%，依個別需求選，不是每個人固定處方 |\n| Table1計畫平均能量 | level1肉／魚／素2096／2100／2117；level2 2663／2652／2681kcal |\n| Table1計畫蛋白 | level1 94／94／88g；level2 125／124／116g，未完全等量 |\n| 蔬果莓果 | 文中標準約350g/day；Table1各餐型計畫361–364g/day，保留兩者層級 |\n| 蛋白高遵從 | 吃≥90%指定來源、無額外相關蛋白、單週絕對體重變化<2% |\n| 蔬果高遵從 | 吃≥90%供應量、額外≤35g/day |\n\n吃不完時優先主要蛋白與蔬果，再調整醣類以飽足與穩重；需記錄沒吃的量與額外食物。慣常補充品允許，但肌酸單水合物禁止，以免影響蛋白／胺基酸代謝訊號（p5–6）。這些是本試驗操作規則，不轉成臨床建議。\n### 4. 採樣與品質\n篩檢及三期前後最多7次空腹血尿。血檢與健康篩選、BIA、腰臀圍；糞便用16S全基因定序探索微生物。血尿先−20°C、24小時內轉−80°C；點尿冷藏不超過2小時後離心分裝（p6）。\n代謝平台GC–TOF–MS、UHPLC–QTOF–MS；脂質另分析。LC約1600非靶向及300靶向、GC約80暫定註解特徵是平台規模，不是已驗證有效標記數。隨機分析順序、內標、空白與混合QC／稀釋系列用來監控品質（p6）。\n### 5. 探索、推論與預測分開\n主要結局為三期末血漿代謝模式；尿及脂質次要。OPLS-HDA整體區分不處理同人依賴，只作探索；介入推論依配對OPLS-EP、多重比較及participant／period混合模型。PCA探索與999 permutation等評模型穩健性。缺失結局不插補，只納入相應比較完整資料，並按隨機分派而非遵從分組（p7）。\n蔬果預期變化以100×(350−慣常量)/350計；≥30%、≤−30%與中間類別。注意分母350是供餐基準，並非個人原攝取量。連續模型另用介入前7日平均與350之差。高低習慣量不是另一個隨機分派試驗。\n### 6. 如何避免模型偷看答案\nElastic net由代謝特徵直接選擇，不先依整批資料的顯著性篩選。同人的樣本放同fold，內圈調參、外圈保留者評RMSE／MAE／R2。尺度、轉換、補特徵缺值等都在對應訓練內擬合。全資料最後模型的訓練表現不當驗證結果（p8）。\n驗證順序是：介入內巢狀交叉驗證 → 同一介入者的篩檢資料探索（非獨立） → 約30位未進介入的篩檢者（小型獨立人樣本） → 計畫VOV外部樣本。後兩者尤其要確認量測平台相容及鎖定模型不重新估參數。本文尚無上述效能結果。\n\n## 機轉白話講解\n**要點**：想從身體的「代謝收據」反推飲食，先要確認收據不是只認得熟悉的人。\n教學比喻：同一人不同週的樣本很像同一張臉換衣服；若訓練與測試都看到這個人，模型可能認人而非認食物。因此同人全部樣本放同fold。即使同人篩檢表現好，也只能說在熟悉個體的日常情境可行；換到新的人、不同食品和平台仍需驗證。比喻僅用來解釋原文設計，非額外研究結果。\n\n## 臨床意義 / 怎麼用\n**要點**：目前適合學習量測與驗證設計，不能開立飲食生物標記檢驗處方。\n- 區分供餐量、實吃量、日誌參考量與預測值；其中任何一者都不是完美真值。\n- 短期近期攝食訊號不等於多年慣常攝食或疾病風險。\n- 模型效能需看新人的誤差、CI與泛化，不能只看探索分群圖好看。\n- 高齡、慢性病、非瑞典飲食與不同烹調方式的適用性尚待外驗。\n\n## 重要圖表重述\n**要點**：三張圖分別呈現時間表、選樣流程及模型驗證層級。\nFigure1列篩檢、三介入及洗脫前後採樣；Figure2把較大篩檢樣本與介入子群分開，並非完成成效流程；Figure3串接探索、模型開發、內部與獨立／外部驗證。Table1為計畫平均營養量，Table2示範同早餐點心、午晚餐替換牛肉／魚／大豆與天貝，不是所有餐食實際攝入結果。未重製原圖。\n\n## 與既有認知的對照\n**要點**：飲食推估分數與客觀生物標記仍須分清楚。\n已搜尋既有筆記，今日《digest-10.3346-jkms.2026.41.e257-20261118》提醒DII是一次24h回憶計算的飲食發炎潛勢，沒有實測CRP。BARITONE則規劃量測代謝訊號，但仍需要用有誤差的日誌及供餐量驗證。兩者都不能直接等同已證實疾病因果效果。未宣稱已有同主題外部vault綜述。\n\n## 概念 / 名詞整理\n**要點**：辨識飲食模式、預測克數與證明健康效益是不同任務。\n- Metabolomics：測量小分子代謝訊號，受食物、宿主與微生物影響。\n- Crossover：每人依序接受多條件，可降低個體差異但須考慮期別／殘留。\n- Nested CV：內圈調參，外圈評未見個體，前處理也要留在訓練內。\n- Metabotype：依反應模式探索分群，本文以PCA及階層群集規劃，不是已確立病人分類。\n\n## 自我測驗\n**要點**：四題檢查有沒有把計畫、樣本與驗證層級混在一起。\n> [!question]- Q1：70人代表已完成有效性試驗嗎？\n> 不代表；是目標收案，預期60完成，本文沒有實際效能結果。\n\n> [!question]- Q2：同一人不同週能分到不同交叉驗證fold嗎？\n> 不應如此；會把個人訊號洩漏到測試，本文設計同人全部樣本固定同fold。\n\n> [!question]- Q3：同介入者的篩檢樣本可稱獨立驗證嗎？\n> 不能；同人參與模型開發。約30位未進介入者較獨立，但仍同來源小樣本；另規劃VOV外驗。\n\n> [!question]- Q4：供餐模式能區分就可用來判斷飲食健康效果嗎？\n> 不能；辨識模式、估攝食克數、疾病效益是不同問題，本計畫尚未報效能或疾病結果。\n\n## Reference\n**要點**：全文11頁、CC BY，數字標示為計畫而非完成結果。\nOberrauter L-M, Lindqvist HM, Winkvist A. Front Nutr2026;13:1977025. https://doi.org/10.3389/fnut.2026.1977025 。p4–8主要方法，p10限制、倫理與無財務／COI聲明；NCT07128940為文章所列，未外查版本。source SHA256 217ae3f8716be2f1600fc92adec9a5975d619c6533d145d5407c6c1b03ef30ca；text SHA256 cb0aa5a0d38ed0f509a84b96c8e9c9460e1ea9a0bbe5763a53a6be99a36aa089。首／中／末已對照，為原創整理。",
+      "cards": [
+        {
+          "title": "BARITONE飲食生物標記",
+          "question": "70人代表已完成有效性試驗嗎？",
+          "answer": "不代表；是目標收案，預期60完成，本文沒有實際效能結果。",
+          "tags": [
+            "nutrition",
+            "metabolomics"
+          ]
+        },
+        {
+          "title": "BARITONE飲食生物標記",
+          "question": "同一人不同週能分到不同交叉驗證fold嗎？",
+          "answer": "不應如此；會洩漏個人訊號到測試，本文將同人全部樣本固定同fold。",
+          "tags": [
+            "nutrition",
+            "metabolomics"
+          ]
+        },
+        {
+          "title": "BARITONE飲食生物標記",
+          "question": "同介入者篩檢樣本可稱獨立驗證嗎？",
+          "answer": "不能；同人參與模型開發。另約30位未進介入者是小型同來源驗證，仍需VOV外驗。",
+          "tags": [
+            "nutrition",
+            "metabolomics"
+          ]
+        },
+        {
+          "title": "BARITONE飲食生物標記",
+          "question": "區分供餐模式就能證明飲食健康效果嗎？",
+          "answer": "不能；辨識模式、估攝食克數與疾病效益不同，本文尚無效能或疾病結果。",
+          "tags": [
+            "nutrition",
+            "metabolomics"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-18T15:30:10.287Z"
     }
   ]
 }
