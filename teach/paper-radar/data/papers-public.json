@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T11:28:43.825Z",
+  "generatedAt": "2026-11-18T14:43:38.256Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -115560,6 +115560,29 @@
         }
       ],
       "completedAt": "2026-11-18T11:25:48.062Z"
+    },
+    {
+      "id": "doi:10.3390/nu18203308:review",
+      "paperId": "doi:10.3390/nu18203308",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Dietary Polyphenol Intake Inversely Associates with Fibrosis Scores in Individuals with MASLD.",
+      "authors": "Bonfiglio C, Pastore M, Siani M, Donghia R, Musumeci M, Galvano F, Giannelli G, Salomone F",
+      "journal": "Nutrients",
+      "year": "2026",
+      "doi": "10.3390/nu18203308",
+      "abstract": "Background & aims. Plant-based dietary patterns, such as the Mediterranean diet, are considered protective against MASLD. The Mediterranean diet is rich in polyphenols (PP), plant-derived metabolites that exhibit anti-fibrotic effects in experimental models. This study aimed to evaluate the association between dietary polyphenol intake and fibrosis scores in patients with MASLD. Methods. The study population comprised two retrospective cohorts, MICOL and NUTRIHEP, from southern Italy. Polyphenol intake was assessed using the EPIC food frequency questionnaire, and the food content of polyphenols was quantified using Phenol-Explorer. Liver fibrosis severity was assessed by MAF-5 and FIB-4. Results. In a multivariable regression analysis adjusted for several potential confounders, comparing 381 patients with MAF-5 1, consumption of total PP above the median (382.0-1356.8 mg/day) was associated with lower odds of high MAF-5 (OR 0.49; 95% CI 0.25-0.94; p = 0.031). Regarding PP subclasses, individuals with higher intakes of anthocyanins (15.00-252.00 mg/day) and stilbenes (0.04-0.55 mg/day) had lower odds of MAF-5 > 1 (OR 0.52; 95% CI 0.27-0.99; p = 0.045 and OR 0.49; 95% CI 0.27-0.92; p = 0.025, respectively). Considering PP sources, total flavonoid intake from fruit (≥60 mg/day) was associated with reduced high MAF-5 odds (OR 0.49; 95% CI: 0.24-0.99; p = 0.045), driven by fruit-derived anthocyanins (OR 0.52; 95% CI: 0.28-0.97; p = 0.04). A higher intake of PP from extra virgin olive oil was also associated with a 50% reduction in the odds of MAF-5 > 1 (OR 0.50; 95% CI: 0.26-0.96; p = 0.037). Conclusions. In this exploratory study, a higher dietary polyphenol intake may protect against fibrosis in patients with MASLD.",
+      "legalFullTextUrl": "https://doi.org/10.3390/nu18203308",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42942879/",
+      "category": "candidate",
+      "tags": [
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "膳食多酚與MASLD纖維化分數：橫斷研究品質評讀",
+      "content": "---\ndoi: \"10.3390/nu18203308\"\npmid: \"42942879\"\njournal: \"Nutrients\"\nyear: 2026\nstudy_type: \"cross-sectional\"\nreview_depth: \"quick\"\n---\n# 膳食多酚與 MASLD 纖維化分數：關聯研究的證據邊界\n\n> [!info] 品質快照\n> 設計：義大利兩世代資料的橫斷分析。MASLD 721人；主要MAF-5極端組比較475人。偏差風險高；GRADE Very low（以安裝grade_judge.py實算）。關鍵問題是橫斷時間序、替代終點、排除中間組，以及多重探索性比較。\n\n## 全文結構與閱讀範圍\n已依序閱讀合法CC BY PDF共16頁：首頁題名與摘要（p1）；背景及兩世代來源（p2）；資料收集、分數與暴露（p3）；共變數及分析（p4–5）；樣本流程與Table 1（p5–7）；總多酚與Table 2（p7–8）；水果來源與Table 3（p9）；橄欖油與Table 4及敏感度結果描述（p9–10）；無顯著結果Table 5與討論（p11）；機轉推論及限制（p12–13）；結論、經費、倫理、資料與利益衝突（p13–14）；參考資料（p14–16）。補充圖S1/S2及表S1–S9原檔未獨立取得，以下不把主文轉述視為已查補充表。\n\n## Summary\n南義大利MASLD受試者中，較高膳食多酚攝取與較低的高MAF-5分數勝算相關。總多酚高組382.00–1356.82 mg/day相對低組70.26–381.99，調整OR 0.487（95% CI 0.253–0.938，p=0.031；Table 2 p8）。這不是多酚介入試驗，也未量到肝纖維化進展下降或病人重要終點改善。\n\n## 白話導讀\n> [!abstract] 一句話\n> 吃得較多多酚的人，在同一時點較少落入高肝纖維化風險分數組，但不能據此說多酚把肝纖維化治好了。\n>\n> 為什麼做：多酚的實驗機轉不少，作者希望補上MASLD人群中飲食與纖維化風險指標的資料。\n>\n> 主體：使用MICOL與NUTRIHEP既有資料，FFQ回想日常飲食，再以Phenol-Explorer估算各食物多酚。MAF-5低組381人、高組94人，中間組排除；FIB-4另比較438與99人。高總多酚、花青素與stilbenes組的高MAF-5勝算較低，但不是所有多酚分類都顯著，完整分組敏感度分析也只部分支持主要結果（p10–11）。\n>\n> 所以呢：適合用來形成飲食研究假說；不能直接制定抗纖維化多酚劑量，更不能用OR換算個人治療效益。\n\n## Clinical Application\n- 適用討論：成人MASLD飲食照護的證據閱讀，理解食物型態與代謝風險之關聯；不是補充劑處方依據。\n- 本文沒有隨機分派、固定飲食處方或療程；中位數分組僅是本樣本分析切點，不是建議攝取量。\n- 不以多酚補充品、紅酒或大量果汁取代完整營養評估；論文未比較上述產品的療效與安全性。\n- 外部效度：兩組都來自南義大利，與台灣食物成分、烹調及飲食習慣可能不同。不能把估計mg/day直接移植為本地治療門檻。\n- 沒有臨床事件的絕對風險差，也沒有介入時間，因此ARR、NNT及治療MCID不可計算。\n\n## Methods\n這是橫斷研究，不因資料來源是追蹤世代就變成此次分析的前瞻性因果證據。NUTRIHEP原始抽樣成人18歲以上；MICOL原始30歲以上，本次取2017–2020追蹤（p2–3）。相同人員與程序量測人體、血液與超音波；EPIC FFQ自填並可由工作人員協助。多酚估算納入食物烹調保留係數，isoflavonoids因樣本攝取少而排除（p3–4）。\nMAF-5分類<0、0–1、>1；FIB-4分類<1.30、1.30–2.67、>2.67，主要模型剔除中間類別。MAF-5並非組織切片；包含腰圍、BMI、其交互作用、糖尿病、AST與血小板。FIB-4則含年齡；高分不等於已確認嚴重纖維化（p3）。\n統計以Kruskal–Wallis與χ²比較、logistic regression估OR及95%CI，LASSO選變數、VIF>5剔除，雙尾p<0.05。調整年齡、性別、吸菸、部分代謝血液指標、能量、rMED與社經因素；特定分數的組成變數因共線性未加入（p4–5）。未見樣本數設計估算或明確註冊資訊，不能判定事前主要比較與選擇性報告完全可排除。\n\n## Key Findings\n| 分析 | 結果 | 位置 |\n|---|---|---|\n| 總多酚高對低中位數組 | OR 0.487，95%CI 0.253–0.938，p0.031 | Table 2 p8 |\n| 總flavonoids | OR 0.515，0.269–0.985，p0.045 | Table 2 p8 |\n| 花青素15.00–252.00對0–14.99 mg/day | OR 0.521，0.279–0.973，p0.041 | Table 2 p8 |\n| Stilbenes高對低組 | OR 0.493，0.265–0.915，p0.025 | Table 2 p8 |\n| 水果總flavonoids高對低組 | OR 0.486，0.239–0.985，p0.045 | Table 3 p9 |\n| EVOO各分類主要表列結果 | OR 0.503，0.263–0.959，p0.037 | Table 4 p10 |\n| 蔬菜flavonoids／豆類non-flavonoids | OR 1.274／1.370，CI跨1，無顯著 | Table 5 p11 |\n\n作者p10描述完整分類與連續分數的敏感度分析只部分一致；不能只留下主要顯著數字。Table 4同一食物多個高度相關成分呈現相同OR，不能當成多個獨立複現。\n\n## Critical Appraisal\n依橫斷病因關聯設計採Newcastle–Ottawa概念領域作質性評估，不虛構正式總分。\n| 領域 | 判定 | 原因 |\n|---|---|---|\n| 選樣與代表性 | 高風險 | 只選兩地MASLD且剔除中間分數；比較的是分數兩端，不能代表全體MASLD |\n| 暴露量測 | 有疑慮 | 回憶型FFQ與國際食物資料庫；個別食物品種、烹調及生物利用率有誤差 |\n| 共變數與可比性 | 高風險 | physical activity未納入，仍可能有健康使用者混雜；LASSO預測選變數不等於因果混雜控制 |\n| 時間序 | 高風險 | 飲食與分數同時觀察，疾病後改飲食的反向因果無法排除 |\n| 結果量測 | 有疑慮 | MAF-5/FIB-4是非侵入分數，不能代替實際進展、肝硬化或死亡 |\n| 缺失與報告一致性 | 有疑慮 | Table1分母與若干主文敘述不一致；未獨立核對補充原檔 |\n| 多重比較／選擇性報告 | 高風險 | 多個食物、成分、終點，p值多接近0.05，未報多重校正；敏感度只部分支持 |\n\n### 數字與敘述不一致\np5敘述2427來源受試者，扣139與567後不能直接得到721；可能有其他流程排除，未從這段文字補造原因。p6男性比例敘述高組3.83%，Table1 p7為63.83%，本評讀採明確表格數字並標示原文不一致。p9對其他水果類別的p值敘述與Table3亦不一致。p10文字給lignans OR0.355，但Table4列0.503；主文不能自洽，無法決定何者正確。這些問題降低可重現性，不能默默修成作者「應該」的數字。\n\n### 因果與統計解讀\n應用causal-appraisal的時間序、confounding、selection與surrogate原則：沒有隨機介入、無法確認暴露先於病程，且排除中間分數可能影響比較分布。MAF-5含肥胖與糖尿病成分，飲食與分數關聯不必然代表實際纖維化因果效應。OR接近0.5不能自動稱發病風險少一半，也不能給定一個NNТ。作者提出抗氧化、肝星狀細胞及腸肝軸為inference，本研究未直接檢驗這些機轉。\n\n### GRADE與spin\ngrade_judge.py實算Very low：觀察性起始low；risk_of_bias serious、indirectness serious、imprecision serious；inconsistency單篇不可評、publication_bias未能量化，均未額外降級。不因OR<0.5升級，因已有降級且這是OR不是治療RR。這是針對飲食改變能否降低纖維化的應用確定性，不是推翻觀察到的統計關聯。\n論文結論使用可能保護或確認保護作用的語氣超過橫斷證據；應改為假說生成的相關性描述。主要結局是分數替代終點，臨床benefit推論有缺口；非顯著分類不能被描述為已證實保護。\n\n### Funding與COI\n作者報告Ricerca Corrente 2026、Italian Ministry of Health支持，聲明無利益衝突；這些是原文聲明而非獨立查核（p13–14）。資料聲明列Figshare DOI 10.6084/m9.figshare.33033545，本次未重分析原資料。Quick模式未做作者、期刊指標、引用或撤稿外部深查，不將未查寫成無問題。\n\n## Resource\n原文：Bonfiglio C et al. Nutrients 2026;18:3308. https://doi.org/10.3390/nu18203308 。來源為身份及可讀性已核驗的合法CC BY PDF，16頁主文含參考資料；source SHA256 2dbca85fe3aadbd2efaa156d44ff63b6eb7e8a33e609cbb7aa9f0c0717b717a2。首項p1身份、中項p8 Table2總多酚OR、末項p13結論及p16參考資料已對照。本筆記是原創批判性表達，未重製原圖表或逐段翻譯。",
+      "cards": [],
+      "completedAt": "2026-11-18T14:42:32.112Z"
     }
   ]
 }
