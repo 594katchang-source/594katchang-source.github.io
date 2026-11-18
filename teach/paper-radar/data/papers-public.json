@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T05:21:22.742Z",
+  "generatedAt": "2026-11-18T05:39:04.131Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -114843,6 +114843,74 @@
       "content": "---\ntags:\n  - source/journal\ndoi: \"10.1002/ncp.70174\"\npmid: \"42663498\"\njournal: \"Nutrition in Clinical Practice\"\nyear: 2026\nauthors: \"K Georg Kreymann, Geraldine de Heer, Arved Weimann\"\nstudy_type: \"概念提案／非系統性臨床論述；非原始臨床試驗\"\nreview_depth: \"quick\"\n---\n\n> [!info] 品質快照\n> **設計**：以生理原理提出重症肥胖患者能量與蛋白質計算框架；沒有介入組、對照組或臨床結果。正文所述 1,420 人是用來推估 FFM 的健康成人資料，不是本篇收案數。\n> **偏倚／確定性**：不適用臨床試驗 RoB 或 GRADE；提案的臨床效益尚未驗證。SANRA 角度：研究目的、背景和論證有交代，也有引用，但未報告可重現的文獻檢索方法，證據選取可能不完整。\n> **註冊**：臨床試驗註冊不適用。**一句話判讀**：可作為待驗證的計算假說；不能當成已證實的 ICU 處方標準。\n\n# Key Points\n\n## Summary\n\n> ✅ 已核讀 PMC 收錄的完整 HTML 主文，含摘要、正文、表 1–5、圖說、作者／利益衝突、補充資料說明與 40 筆參考文獻。來源 DOI、題名相符；快取來源 SHA-256：fbd3734d06dcaa6c3ddbbe8079a9599f2f00a4bb3333a2b5ceb8a522631027c7。主文顯示 CC BY 4.0 授權。\n>\n> 這是一篇**提案論述**，不是比較試驗。作者建議以 BMI 22 的標準體重（SBW22 = 22 × 身高²，身高以公尺計）作為能量計算基準，目標為 SBW22 × 24 kcal/day；另以測量到的無脂肪體重（FFM）計算蛋白質，無法測量時才依 BMI 與性別表格估算。作者主張依病人臨床狀態調整急性期與恢復期供給，並明言需要臨床試驗驗證（Introduction ¶3；Energy Target ¶7–14；Protein Target ¶20–24；Conclusion ¶1）。\n>\n> 本文沒有重症患者樣本、預先設定的臨床結果或治療效果估計。1,420 人是引用的健康成人 DEXA 資料，用於推算 FFM 平均值；不能當成本篇試驗的 n（Protein Target ¶6–10）。作者亦指出重症肥胖的能量／蛋白建議尚無臨床試驗驗證（Abstract；Discussion ¶15）。\n>\n> **所以呢：** 這套方法可供研究設計或討論，不足以證明能改善存活、感染、肌肉流失或功能；不可把推算公式直接視為經驗證的個人化營養處方。\n\n## 白話導讀\n\n> **一句話：** 作者提出「能量看標準體重、蛋白質看無脂肪體重」的重症肥胖營養計算方式，但目前仍是待驗證提案。\n>\n> **為什麼做：** 作者認為現有指引有分歧，且不少建議依實際或理想體重計算，可能造成不同 BMI 與性別患者的能量／蛋白質落差。\n>\n> **主體：** 能量先以 SBW22 × 24 kcal/day 設定，再依病況調整係數；蛋白質依測得 FFM 計算。若量不到 FFM，作者以 1,420 名健康成人的平均資料建立 BMI／性別換算表。\n>\n> **所以呢：** 算式清楚、容易操作，但 FFM 估算不能反映每位病人的肌少性肥胖、肌肉量或液體狀態；整體策略沒有 ICU 臨床試驗驗證。\n\n## Clinical Application\n\n- **適用情境：** 僅限作者提出的重症肥胖營養研究框架；文章沒有提供一套經臨床試驗確認的 bedside protocol。\n- **能量框架：** 以 SBW22 × 24 kcal/day 作起點；作者示範可將係數改為 12（目標 50%）、17（70%）或 29（120%），但主張按病人臨床狀態調整，不按 ICU 固定日數切換（Energy Target ¶10–14）。\n- **蛋白質框架：** 優先測量 FFM，再使用每公斤 FFM 劑量；作者要求依疾病階段調整。無法測量時才用表格估算，並提醒疑似肌少性肥胖時應下修估算係數（Protein Target ¶22–24；Discussion ¶10）。\n- **實務限制：** BIA 受液體變化影響；CT 不應只為測肌肉而增加輻射；超音波仍在研究；一般成人平均值可能不適用於肌少性肥胖或高肌肉量者（Protein Target ¶4–6、¶23；Discussion ¶8–10）。\n- **在地適用性：** 文中未報告臺灣重症族群驗證；FFM 換算資料來自健康 Caucasian、Hispanic 與 Afro-American 成人，外推至 ICU 患者或其他族群仍有不確定性。\n\n# Paper Details\n\n## 全文結構與逐段重點\n\n以下依 PMC HTML 的正文段落順序標記；HTML 無印刷頁碼，故以章節、段落、表／圖定位。\n\n- **Abstract：** 概括指南分歧、SBW22 能量框架、FFM 蛋白框架與作者要求臨床試驗驗證。\n- **Introduction ¶1：** 肥胖普遍率增加，作者據此說明重症肥胖營養照護已成 ICU 常規議題。\n- **Introduction ¶2：** 專家指出 ICU 肥胖營養照護仍有知識缺口；既有指引彼此不一且證據品質低。\n- **Introduction ¶3：** 能量與蛋白質目標仍有爭議；本文要提出參考參數，並不處理重症不同階段的完整供給策略。\n- **Standard Body Weight ¶1：** 多數指引用 IBW 或 ABW 計算，但公式根據未充分說明。\n- **Standard Body Weight ¶2：** 作者以 BMI 22 定義 SBW22，提出公式 SBW22 = 22 × 身高²。\n- **Standard Body Weight ¶3：** 本文報告 SBW22 與 Peterson 公式比較 p=0.34，並把資料放在附錄。\n- **Energy Target ¶1：** 指引建議間接熱量測定；急性期內生底物生成讓外加能量不等於總消耗。\n- **Energy Target ¶2：** 床邊尚不能直接量化內生能量，作者認為只知道 REE 不足以決定應扣除多少外加熱量。\n- **Energy Target ¶3：** 作者回顧傳統低熱量餵食觀點，並引出未測 REE 時的替代估算方式。\n- **Energy Target ¶4–6；Table 1；Figure 1：** 對照 ASPEN、DGEM、ESPEN 等指引的 REE 比例或體重公式。\n- **Energy Target ¶7–9：** 作者把急性期目標拆為相對瘦體重的低餵養程度，以及配合疾病階段調整。\n- **Energy Target ¶10：** 提出能量目標 SBW22 × 24 kcal/day。\n- **Energy Target ¶11：** 相對以實際體重完整餵養，提案在 BMI 30 時約減少 9%，BMI 60 時約減少 46%。\n- **Energy Target ¶12–13；Figure 1：** 以 1.85 m 男性示意，並比較 SBW22 與 ASPEN／DGEM 的體重算法。\n- **Energy Target ¶14：** 提議依臨床狀態調整係數，不以 ICU 第幾天固定切換。\n- **Protein Target ¶1–3；Table 2：** 回顧指引以 IBW 或其他體重基準的蛋白建議，並轉向 ESPEN 的 FFM 參考概念。\n- **Protein Target ¶4：** 列出 DEXA、L3 CT、股四頭肌超音波與 BIA 等 FFM 測量方式。\n- **Protein Target ¶5：** 指出既有 BMI 推估公式可能樣本小或在肥胖者不準。\n- **Protein Target ¶6–10；Table 3；Figure 2：** 以 1,420 名健康成人資料推估 BMI／性別的 FFM；BMI 22 時女性約 70%、男性約 85%，BMI 60 時分別約 41% 與 52%。\n- **Protein Target ¶12–13；Table 4：** 說明只按體重給蛋白會使男女每公斤 FFM 劑量不同，並舉不同體重劑量作比較。\n- **Protein Target ¶14–19；Table 4–5：** 列出 BW 與 FFM 劑量換算表；表格推算基礎指定為 BMI 22。\n- **Protein Target ¶20–21；Figure 3：** 比較 ASPEN／DGEM 依體重公式與按 FFM 劑量的蛋白供給曲線。\n- **Protein Target ¶22：** 提供估算例：BMI 45、體重 115 kg 女性，以 FFM/BW 約 0.5 得估計 FFM 57.5 kg；按 1.5 g/kg FFM 約 87 g/day。\n- **Protein Target ¶23：** 平均值無法涵蓋肌少性肥胖或高肌肉量，作者仍偏好實測 FFM。\n- **Protein Target ¶24：** 作者主張蛋白目標也要隨急性期與合成恢復期調整。\n- **Discussion ¶1–2：** 重申 SBW22 與 FFM 框架，並說 SBW22 方便計算但未證明優於其他體重公式。\n- **Discussion ¶3–4：** 指出低熱量高蛋白概念有非重症試驗背景；ICU 肥胖應用仍依賴指引與專家推論。\n- **Discussion ¶5：** 重述能量低餵養幅度隨 BMI 從 30 至 60 漸增的提案。\n- **Discussion ¶6–7：** 說明以 FFM 為蛋白參數的理由及 FFM 與全身蛋白的關聯主張。\n- **Discussion ¶8–10：** 討論各 FFM 測量工具限制、BIA 對液體狀態的敏感性，以及以健康平均值估算的例外。\n- **Discussion ¶11–14：** 提出按 FFM 給蛋白可能解決性別差異、區分正常／高蛋白劑量；援引 PRECISE 試驗作背景，但非本篇試驗資料。\n- **Discussion ¶15：** 作者承認缺乏驗證本提案的臨床試驗是主要限制，且未來研究需隨病況調整供給。\n- **Conclusion ¶1：** 重申重複測量 FFM 的用途、健康成人資料估算法及 SBW22/FFM 框架，並要求臨床試驗驗證。\n- **作者貢獻／利益衝突／補充資料／致謝：** 列出作者分工；A. Weimann 披露演講費、顧問酬金及研究補助；補充資料有一份 DOCX；致謝記載 Projekt DEAL 開放取用資助。\n- **References：** 40 筆。Quick review 未逐篇核查引用真實性或作者對引用的轉述。\n\n## Methods\n\n- **設計：** 非系統性概念提案；沒有 ICU 受試者收案、介入、對照組或臨床追蹤。\n- **資料基礎：** 作者將 1,420 名健康成人的身體組成資料整理成 FFM 平均估值；此資料不是本篇新收案，且正文提醒個人差異可能偏離平均值。\n- **統計：** 正文只提 SBW22 與 Peterson 公式的 paired t-test p=0.34；未提供正文中的等效界值或臨床結果。作者指向 Supporting File 1 的附錄比較，但本次未取得補充 DOCX，故未獨立核對該比較資料。\n- **樣本量／主要結果／註冊：** 無本篇臨床樣本量、臨床主要結果或試驗註冊；均不適用。\n\n## Critical Appraisal\n\n| 面向 | 判讀 | 依據 |\n|---|---|---|\n| 研究設計與偏倚 | 不適用臨床試驗 RoB；臨床效益未驗證 | 本文提出算式與生理理由，沒有介入比較或病人結果 |\n| 論述完整性 | 目的明確，但文獻搜尋與選取方法未描述 | Introduction、Discussion 有背景與引用，沒有可重現搜尋方法 |\n| 數值比較 | p=0.34 不能單獨證明兩公式等效 | 正文沒有等效／非劣界值；被引用的補充比較未能核讀 |\n| 外推性 | 需謹慎 | FFM 推估依健康成人平均值，可能不適用 ICU 液體變化、肌少性肥胖與高肌肉量 |\n| GRADE／MCID／註冊 | 不適用或不可估 | 沒有本篇臨床比較結果、病人重要 outcome 或臨床試驗 |\n\n- **主要限制：** 缺乏 ICU 臨床試驗驗證；FFM 估算依健康成人平均資料；測量方法在重症病人有液體、輻射或可行性限制；正文未描述系統性檢索；附錄比較細節本次未核對。\n- **利益衝突：** A. Weimann 披露 Abbott、Baxter、B. Braun、Fresenius Kabi、Longevist Science for Life、Seca 的演講費／顧問酬金／研究補助；K. G. Kreymann 與 G. de Heer 聲明無利益衝突（Conflict of Interest Statement）。\n- **論證落點：** 作者的結論是此框架應被臨床試驗評估，沒有把本篇說成已證明改善臨床結果；本文的核心價值是可檢驗的劑量參數提案，而非效果證據。\n\n## Key Findings\n\n1. **能量參數：** SBW22 = 22 × 身高²；建議起始目標 SBW22 × 24 kcal/day。作者列出 BMI 30 約 9%、BMI 60 約 46% 的相對低餵養幅度（Energy Target ¶10–11）。\n2. **蛋白參數：** 優先以實測 FFM 作基準；不能測量時才用性別／BMI 平均比值估算（Protein Target ¶20–23）。\n3. **估算例：** 作者表列一位 BMI 45、115 kg 女性，估算 FFM 57.5 kg，建議值約 87 g/day（Protein Target ¶22）。\n4. **驗證狀態：** 作者明言 ICU 肥胖病人尚缺驗證該方法的臨床試驗（Abstract；Discussion ¶15；Conclusion ¶1）。\n\n# Resource\n\n## Source\n\n- [DOI](https://doi.org/10.1002/ncp.70174)\n- [PubMed PMID 42663498](https://pubmed.ncbi.nlm.nih.gov/42663498/)\n- [PMC 完整 HTML](https://pmc.ncbi.nlm.nih.gov/articles/PMC13772218/)\n- 全文取得：PMC article HTML；文章頁列出 CC BY 4.0；正文身份核對與快取 SHA 見同輪 active job／verified-fulltext-cache 收據。\n- 補充檔：PMC HTML 連結 NCP-41-1780-s001.docx；網頁工具無法取回，本次未核對 Appendix 1 數值。此限制不影響已核讀主文，但使 p=0.34 的比較無法獨立複算。",
       "cards": [],
       "completedAt": "2026-11-18T05:16:58.000Z"
+    },
+    {
+      "id": "doi:10.1002/ncp.70174:digest",
+      "paperId": "doi:10.1002/ncp.70174",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "A proposal for individualized administration of energy and protein in the critically ill with obesity.",
+      "authors": "K Georg Kreymann, Geraldine de Heer, Arved Weimann",
+      "journal": "Nutrition in Clinical Practice",
+      "year": "2026",
+      "doi": "10.1002/ncp.70174",
+      "abstract": "The increasing prevalence of obesity has transformed intensive care and nutritional therapy of patients with obesity from a specialized problem to standard care. The dilemma in providing nutrition to critically ill patients with obesity is that current and historical nutritional guideline recommendations are based on expert opinion, are divergent, and are sometimes contradictory. None has been evaluated in a clinical trial. All but one are based on body weight, which results in a sex difference in the protein dose per fat free mass (FFM). We propose a standardized body weight (SBW22) to determine energy delivery, but to measure FFM as the reference parameter for protein administration. In case FFM cannot be measured, we describe an estimation based on measurements of 1420 healthy humans. While energy delivery based on SBW22 will result in a progressive hypoalimentation (based on calories/kg body weight) with increasing body mass index (BMI), a protein dose based on FFM will ensure an equal protein delivery over a broad range of BMI for both sexes. We propose this simple and physiological approach that should be evaluated in a clinical trial.",
+      "legalFullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13772218/",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42663498/",
+      "category": "recommended",
+      "tags": [
+        "design:guideline",
+        "guideline and consensus",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "obesity and metabolism",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "重症肥胖營養目標：SBW22 與 FFM 的提案 — 全文內容整理",
+      "content": "---\ntitle: \"重症肥胖營養目標：SBW22 與 FFM 的提案\"\ncitekey: \"digest-10.1002-ncp.70174-20261118\"\ndoi: \"10.1002/ncp.70174\"\ntags: [research/digest, critical-care-nutrition, obesity, protein, energy-targets]\n---\n\n> [!summary] 30 秒層｜一句話 + 重點\n> 作者提出重症肥胖患者以標準體重估算能量、以無脂肪體重估算蛋白質的框架；它是待臨床試驗驗證的提案，不是已證實的 ICU 處方。\n> - SBW22 = BMI 22 × 身高²；作者提議能量目標以 SBW22 × 24 kcal/kg/day 起算。\n> - 以實際體重完整餵養作比較，文中估計 BMI 30 時能量差約 9%，BMI 60 時約 46%。\n> - 蛋白質先看實測 FFM；無法測量時才依性別、BMI 表格估算。\n> - FFM 換算表來自 1,420 名健康成人資料，並非 ICU 肥胖患者試驗。\n> - 品質 → 見同 DOI 的獨立品質評讀。\n\n# 重症肥胖患者的能量與蛋白質目標\n\n## 5 分鐘層\n\n**要點：**全文由「BMI 22 標準體重」推導能量目標，再以 FFM 作蛋白質參考；方法簡單，但臨床效果尚未驗證。\n\n- **能量：**SBW22 = 22 × 身高（m）²；目標公式為 SBW22 × 24 kcal/kg/day。作者把 24 視為可依臨床狀態調整的係數。\n- **隨 BMI 改變：**相較每公斤實際體重完整餵養，文中提出 BMI 30 時約少 9%、BMI 60 時約少 46% 的漸進式低餵養幅度。\n- **蛋白質：**依測得 FFM 設定每公斤 FFM 劑量；文章沒有用臨床試驗證明一個適用所有人的固定劑量。\n- **量不到 FFM 時：**使用文章由 1,420 名健康成人整理出的性別與 BMI 換算值估算，但平均值可能不適用肌少性肥胖或高肌肉量個體。\n- **如何調整：**作者主張依病況與急性／合成恢復階段調整，不以 ICU 固定第幾天作切換規則。\n- **閱讀落點：**這是把能量與蛋白質分別連到不同身體參數的研究提案；作者明言需要臨床試驗。\n\n## 全文地圖\n\n**要點：**文章先定義能量計算用的 SBW22，再分別整理能量低餵養與 FFM 蛋白質估算，最後指出未驗證的限制。\n\n- Abstract：摘要問題、公式與需要臨床試驗驗證的結論。\n- Introduction：指南分歧、證據低品質與本文範圍。\n- Standard Body Weight：以 BMI 22 定義 SBW22。\n- Energy Target：急性期內生底物、既有指引與 SBW22 能量公式。\n- Protein Target：FFM 測量、健康成人估算表、性別差異與劑量例子。\n- Discussion：測量方法限制、提案的可能用途及缺少臨床驗證。\n- Conclusion：建議以臨床試驗評估此框架。\n\n## 各主題重點\n\n**要點：**各段主張與數值如下；下列數字均是本文提出或引用的資料，不代表療效結果。\n\n### 1. 問題與範圍\n\n重症肥胖營養照護的能量與蛋白目標仍有爭論，作者說既有指南建議不一、支持證據品質偏低。本文只提出計算參數；不涵蓋重症不同階段完整的供給策略（Introduction ¶2–3）。\n\n### 2. SBW22 與能量公式\n\n- 作者把 BMI 22 對應的體重稱為標準體重 SBW22：SBW22（kg）= 22 × 身高（m）²。它是方便使用的參考點，不宣稱是人人最佳體重（Standard Body Weight ¶2）。\n- 能量目標提案：SBW22（kg）× 24 kcal/kg/day（Energy Target ¶10）。\n- 作者估計，與按實際體重完整餵養相比，BMI 30 的差距約 9%，BMI 60 約 46%；這是公式推算，不是病人臨床結果（Energy Target ¶11）。\n- 作者舉例，若臨床目標為 50%、70%、120%，係數可分別改為 12、17、29；調整依病人臨床狀態，而非固定住 ICU 天數（Energy Target ¶14）。\n\n### 3. 蛋白質與 FFM\n\n- 作者建議用 FFM 作蛋白質劑量的參考，因為依總體重給相同劑量，男女換算成每公斤 FFM 後可能不同（Protein Target ¶1、¶12–13）。\n- 能測量時可考慮 DEXA、L3 層面 CT 肌肉量、股四頭肌超音波或 BIA；每種方法都有重症情境限制（Protein Target ¶4；Discussion ¶8–9）。\n- 若不能實測，作者以 1,420 名健康 Caucasian、Hispanic 與 Afro-American 成人的身體組成資料整理 BMI／性別換算值。BMI 22 時 FFM 約占女性體重 70%、男性 85%；BMI 60 時分別約 41% 與 52%（Protein Target ¶6–10；Table 3；Figure 2）。\n- 文中例子：BMI 45、115 kg 女性依表以 0.5 估算，FFM 約 57.5 kg；若採示範劑量 1.5 g/kg FFM，約 87 g/day。這是計算示例，不是本文用試驗確立的通用處方（Protein Target ¶22）。\n- 作者強調平均估算可能偏離肌少性肥胖或高肌肉量者，並偏好實測 FFM（Protein Target ¶23；Discussion ¶10）。\n\n### 4. 依病程調整與驗證狀態\n\n作者提出急性期依內生能量產生與高蛋白分解情況調低外加能量／蛋白，合成恢復期可提高；但本文沒有測試這種調整能否改善病人結果。主要缺口是缺少驗證此公式的 ICU 臨床試驗（Energy Target ¶1–2、¶14；Protein Target ¶24；Discussion ¶15）。\n\n## 機轉白話講解\n\n**要點：**作者想把「能量需要」與「蛋白質所對應的身體組成」分開計算；這是生理推論形成的公式，仍須臨床研究驗證。\n\n- **為什麼不都用實際體重：**實際體重包含脂肪與無脂肪組織。BMI 越高時，體重增加不等於 FFM 按相同比例增加；若能量與蛋白都照每公斤總體重等比例給，可能產生作者所描述的劑量落差。\n- **SBW22 的角色：**作者以固定 BMI 22 的身高換算值當能量參考，讓公式容易計算。可把它理解成「先選一個共同的參考體重，再按病況調整係數」，不是把病人目標體重訂成 BMI 22。\n- **FFM 的角色：**FFM 是作者用來代表需要蛋白質的身體區室；脂肪量增加不代表蛋白需求等比例上升。\n- **急性期的內生能量：**作者指出疾病壓力會促使身體由肝醣、糖質新生、脂解與肌肉蛋白分解等途徑產生能量，因此間接熱量測得的 REE 不會自動回答「外加營養要給多少」。\n- **限制：**以上是文章的生理論述；本文未在 ICU 肥胖患者中比較公式或測量其療效，也未證明某個係數適合所有病人。\n\n## 臨床意義 / 怎麼用\n\n**要點：**可用於理解研究設計和討論公式；目前不能把提案當成已驗證的營養處方。\n\n- 評讀任何引用時，先辨明 SBW22 與 FFM 公式是作者提案，而不是本篇試驗結果。\n- 作者建議量不到 FFM 時才用平均值估算；BIA 易受液體變化影響，肌少性肥胖或高肌肉量也會使平均值偏離個人。\n- 間接熱量測定可提供 REE；作者認為急性期還須考量內生能量與臨床狀態。本文沒有提供可供所有患者直接照用的扣除量。\n- 文章未報告臺灣 ICU 肥胖族群驗證，也沒有證明此法可改善存活、感染、功能或肌肉保留。\n\n## 重要圖表重述\n\n**要點：**表格比較現有指引與作者的體重／FFM 換算，圖示呈現隨 BMI 變化的計算曲線。\n\n- **Table 1：**列出 ASPEN、DGEM、ESPEN 的能量參考方式；包括測得 REE 的比例、實際體重或理想體重計算。各版方法並不一致。\n- **Figure 1：**以 1.85 m 男性示意，對照指引公式與 SBW22 公式；作者方案的相對低餵養幅度隨 BMI 增加。\n- **Table 2：**整理 ASPEN、DGEM、ESPEN 的蛋白質建議，參考基準包含實際體重、理想體重、尿氮流失或瘦體組織。\n- **Table 3／Figure 2：**呈現女性與男性的 FFM 百分比如何隨 BMI 上升而下降；兩性曲線不同。\n- **Table 4–5：**提供按 BMI 22 假設換算的 BW 與 FFM 劑量對照表。\n- **Figure 3：**比較 ASPEN／DGEM 體重公式與按 FFM 劑量表示的蛋白供給曲線。\n- **Supporting File 1：**正文指向一份附錄 DOCX 存放 SBW22 與 Peterson 公式比較；本摘要未呈現附錄中的細項數據。\n\n## 與既有認知的對照\n\n**要點：**本輪同 DOI 已另有品質評讀；知識整理補足提案公式、各表圖與測量限制。未找到其他直接討論此 SBW22／FFM 框架的既有筆記。\n\n- 本輪配對的品質評讀指出，本文是未經 ICU 臨床試驗驗證的提案；本篇摘要則聚焦於作者如何建立公式與估算表。\n- 本次可搜尋的公開閱讀筆記中，未找到直接討論 SBW22 或重症肥胖 FFM 劑量的前置筆記。個人 vault 搜尋服務未連線，因此不把「未搜尋的私人筆記」說成不存在。\n\n## 概念 / 名詞整理\n\n**要點：**記住各縮寫的參考對象，避免把計算公式誤當臨床效果。\n\n- **SBW22：**對應 BMI 22 的身高換算體重；本篇用於能量目標。\n- **ABW / BW：**實際體重；指引表中常作為能量或蛋白質計算基準。\n- **IBW：**理想體重；部分指引用來估算肥胖患者的供給。\n- **REE：**靜息能量消耗；作者指出急性期的內生底物生成使外加能量目標不能只看 REE。\n- **FFM：**無脂肪體重；作者建議作為蛋白劑量參考。表格估值為健康成人平均，不等於患者實測。\n- **BIA：**生物電阻抗分析；可估算身體組成，但需考慮重症病人的水分變化。\n\n## 自我測驗\n\n> [!question]- Q1：SBW22 是什麼？作者用它回答哪個營養問題？\n> SBW22 是 BMI 22 對應的身高換算體重，公式為 22 × 身高（m）²。作者把它用在能量目標的參考值；它不是人人都應達到的理想體重。\n\n> [!question]- Q2：作者為什麼主張蛋白質依 FFM，而不是只按實際體重？\n> 體重中脂肪與 FFM 的比例會隨 BMI、性別而變。相同的每公斤 BW 劑量，換算成每公斤 FFM 後可能不同；作者因此建議以 FFM 作參考。\n\n> [!question]- Q3：量不到 FFM 時，文章如何估算？哪類患者要特別小心？\n> 作者用 1,420 名健康成人資料建立性別與 BMI 換算表，將體重乘上 FFM/BW 比值。肌少性肥胖、高肌肉量或液體狀態特殊者可能偏離平均值，作者仍建議優先實測。\n\n> [!question]- Q4：本文的 SBW22／FFM 公式已證明能改善 ICU 患者結果嗎？\n> 沒有。這是一篇計算框架提案，沒有 ICU 患者介入比較；作者明確指出需要臨床試驗驗證。\n\n## Reference\n\nKreymann KG, de Heer G, Weimann A. A proposal for individualized administration of energy and protein in the critically ill with obesity. Nutrition in Clinical Practice. 2026;41(6):1780. DOI: 10.1002/ncp.70174. PMID: 42663498.\n\n- [DOI](https://doi.org/10.1002/ncp.70174) · [PMC 完整 HTML](https://pmc.ncbi.nlm.nih.gov/articles/PMC13772218/)\n- 正文身份核對：DOI、題名相符；PMC HTML，CC BY 4.0；來源 SHA-256：fbd3734d06dcaa6c3ddbbe8079a9599f2f00a4bb3333a2b5ceb8a522631027c7。\n- 本文列 40 筆參考文獻；digest 未逐篇獨立核對引用。",
+      "cards": [
+        {
+          "title": "SBW22 能量公式",
+          "question": "SBW22 如何計算？作者用它設定哪種營養目標，並如何因應不同病況？",
+          "answer": "SBW22 = 22 × 身高（m）²。作者以 SBW22 × 24 kcal/kg/day 作能量參考，並主張按臨床狀態調整係數；這是待試驗驗證的提案。",
+          "tags": [
+            "critical-care-nutrition",
+            "energy-targets",
+            "obesity"
+          ]
+        },
+        {
+          "title": "蛋白質為何看 FFM",
+          "question": "作者為何建議用 FFM 作蛋白質參考，而不只按實際體重？",
+          "answer": "BMI 與性別會影響 FFM 占體重的比例。只按 BW 給相同劑量，換算成每公斤 FFM 後可能不同；作者因此建議優先使用實測 FFM。",
+          "tags": [
+            "critical-care-nutrition",
+            "protein",
+            "ffm"
+          ]
+        },
+        {
+          "title": "量不到 FFM 怎麼辦",
+          "question": "量不到 FFM 時，本文提出什麼估算法？哪些情況可能讓估算偏離個人？",
+          "answer": "用健康成人資料按性別與 BMI 估計 FFM/BW，再乘上實際體重。原資料為 1,420 名健康成人；肌少性肥胖、高肌肉量或液體變化會使平均值不一定適用。",
+          "tags": [
+            "critical-care-nutrition",
+            "ffm",
+            "obesity"
+          ]
+        },
+        {
+          "title": "提案的驗證界線",
+          "question": "本文是否證明 SBW22／FFM 公式改善 ICU 患者結果？閱讀時應如何表述？",
+          "answer": "沒有。這是一篇計算框架提案，沒有 ICU 患者介入比較；應表述為待研究驗證的方法，而非已證實的處方。",
+          "tags": [
+            "critical-care-nutrition",
+            "evidence-literacy",
+            "study-design"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-18T05:32:11.000Z"
     }
   ]
 }
