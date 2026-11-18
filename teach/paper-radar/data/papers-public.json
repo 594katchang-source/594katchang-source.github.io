@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T15:30:30.033Z",
+  "generatedAt": "2026-11-18T15:33:50.353Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -116088,6 +116088,30 @@
         }
       ],
       "completedAt": "2026-11-18T15:30:10.287Z"
+    },
+    {
+      "id": "doi:10.3390/nu18213675:review",
+      "paperId": "doi:10.3390/nu18213675",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Changes in Eating Behavior and Food Preferences After Semaglutide or Tirzepatide Initiation: A Prospective Observational Pilot Study.",
+      "authors": "Camajani E, Frigerio F, Quattrini C, Franzese V, Armani A, Gorini S, Filardi T, Feraco A, Caprio M, Lombardo M",
+      "journal": "Nutrients",
+      "year": "2026",
+      "doi": "10.3390/nu18213675",
+      "abstract": "This pilot study evaluated changes in eating behavior, appetite, and dietary habits during semaglutide or tirzepatide treatment in adults with obesity. In this prospective observational study, 38 non-diabetic adults with obesity (mean age 56.1 ± 11.3 years; 73.7% female; BMI 32.7 ± 4.5 kg/m2) initiating semaglutide (n = 21) or tirzepatide (n = 17) were assessed at baseline and after 3 months. Clinical parameters and self-reported eating behaviors were evaluated using standardized measurements and a study-specific questionnaire. Mean body weight decreased by 7.2 ± 4.9 kg (p < 0.001), and systolic blood pressure decreased by 6.1 ± 6.3 mm Hg (p < 0.001). Cravings for sweet and savory foods, difficulty resisting hunger between meals, and daily meal frequency decreased, whereas perceived meal-induced satiety increased (all p ≤ 0.005). A substantial reduction in meal portion size was reported by 84.2% of participants. Reported food-group consumption changed, but improved overall dietary quality was not established. Over 3 months, incretin-based treatment was accompanied by weight loss and changes in self-reported eating behavior. The observational design, absence of a control group, and unvalidated questionnaire limit interpretation. Larger controlled studies using validated measures are warranted.",
+      "legalFullTextUrl": "https://doi.org/10.3390/nu18213675",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43030302/",
+      "category": "candidate",
+      "tags": [
+        "human clinical population",
+        "obesity and metabolism",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "腸泌素用藥與飲食行為：38人先導研究能說到哪裡",
+      "content": "---\ndoi: \"10.3390/nu18213675\"\njournal: \"Nutrients\"\nyear: 2026\nstudy_type: \"prospective observational pilot\"\nreview_depth: \"quick\"\n---\n# 腸泌素用藥與飲食行為：38人先導研究能說到哪裡\n> [!info] 品質快照\n> 非糖尿病成人38人、3個月無對照前後觀察；沒有隨機分藥，問卷未正式驗證。能描述伴隨治療的變化，不能證明藥物單獨造成、飲食品質改善或兩藥等效。因果臨床問題GRADE實算Very low。\n\n## 全文結構與閱讀範圍\n已讀完14頁：p1摘要；p1–2背景與目的；p2–4設計、資格、量測、問卷與統計；p5 Table1及劑量缺值；p6 Table2及Table3；p7食物偏好Table4；p8 Figure1–2；p9相關Figure3；p10 Table5及討論；p11飲食與機轉限制；p12限制、結論及Table6；p13經費、倫理、COI；p13–14共26筆參考文獻。首項身份、中項p6–8配對數字、末項p12–14限制與引用均核對。\n\n## Summary\nCamajani等前瞻追蹤開始semaglutide21人或tirzepatide17人、完成基線及3月評估的38名非糖尿病肥胖成人。平均56.1±11.3歲、女性28人73.7%、BMI32.7±4.5。體重平均下降7.2±4.9kg，甜鹹渴望與抵抗飢餓困難降低、餐中飽足感增加；自報份量下降不等於實測熱量或營養品質改善（p4–12）。\n\n## 白話導讀\n> [!abstract] 一句話\n> 這38位有回診的用藥者，3個月後說自己較不餓、吃得較少，但研究無法拆出藥物、生活改變、期待與選樣各自的作用。\n>\n> 為什麼做：臨床不只關心體重，也要了解食慾、份量、食物偏好與不適。\n>\n> 主要結果：體重91.1至83.9kg；甜渴望5.2至3.3、鹹6.9至4.6；32人84.2%自報份量明顯縮小。\n>\n> 怎麼用：問得更細並監測營養，不從這篇判定兩藥一樣有效或不適與減重無關。\n\n## Clinical Application\n- 診間可分別詢問飢餓、甜鹹渴望、飽足、份量、食物種類及噁心；這些是不同向度，不能互相代替。\n- 食量縮小可能影響蛋白、纖維、液體與微量營養攝取，但本篇未量測攝取克數、缺乏或肌肉量，不能宣稱這38人已發生或已避免營養不良。\n- 不建議依此篇改藥／劑量或以「無顯著藥間差」選藥；兩組起始BMI明顯不同且處方非隨機。\n- p值與統計變化不代表已知臨床重要性；未驗證量尺無既定MCID可用。\n\n## Methods\n納入≥18歲、BMI≥30或≥27伴體重共病、初次使用相關腸泌素且完成兩次評估者；排除孕哺、嚴重認知精神障礙、減重手術與不適用治療的重度GI疾病（p3）。同日基線問卷與首次用藥，時點清楚；只分析完成者，未在主文完整列起始招募及失訪分母，補充FigureS1未獨立讀取。\n處方及加量依臨床與耐受性，沒有未用藥對照、隨機或盲法。體重標準化量測，血壓休息5分鐘後兩次平均。0–10自編修正版問卷、未心理計量驗證；食物群常吃YES／NO，非完整攝食量。無筆數／藥局紀錄等量化遵從。3月劑量僅23/38有資料，未做劑量反應分析（p3–5）。\nShapiro–Wilk、配對t檢定比較前後，Welch檢定兩藥變化、Fisher類別比較、Pearson相關，雙尾p<.05，jamovi2.7。大量探索結局與相關未見多重比較校正；沒有預先樣本數／power或藥間等效界線（p4）。\n\n## Key Findings\n| 38人配對變化 | 基線→3月；平均變化±SD | 位置 |\n|---|---|---|\n| 體重 | 91.1→83.9kg；−7.2±4.9，p<.001 | Table2 p6 |\n| 收縮／舒張壓 | 137.4→131.3，−6.1±6.3mmHg p<.001；85.6→83.6，−2.0±5.9 p.042 | Table2 |\n| 餐次 | 4.3→3.6；−0.7±1.4次/day，p.005 | Table2 |\n| 甜／鹹渴望 | 5.2→3.3，−1.9±2.7；6.9→4.6，−2.3±2.7，均p<.001 | Table2 |\n| 抵抗飢餓困難／餐中飽足 | 5.9→3.1，−2.8±2.9 p<.001；6.0→7.5，＋1.5±2.9 p.003 | Table2 |\n| 飲水 | 1.4→1.6L/day，列平均個別差＋.1±.6、p.201 | 四捨五入平均不必直接等於個別差；Table2 |\n| 偏好及份量 | 25無改、10偏鹹、3偏甜；32/38份量減少評分≥7 | Table4 p7；主觀閾值 |\n| 食物群常吃比例 | 加工肉−13.2、鮮起司−7.9；生菜／堅果乾果＋7.9、豆／魚／白肉＋5.3百分點 | Figure1 p7–8，非克數或相對百分比 |\n| 飢餓困難改善與減重 | r.403 p.012 | 同時變化相關，非中介證明；p9 |\n| 噁心或味覺改變 | 4.8±3.0；21/38評分≥5；與減重r−.148 p.376 | 無顯著不排除影響；Table5 |\n| 兩藥體重變化 | −7.2±4.5 vs−7.3±5.5kg，p.924 | 非等效試驗；Table3 |\n\n體重變化SD不是治療效應CI；未計虛構ARR／NNT。BMI兩藥基線30.5±3.4與35.4±4.2，p<.001，臨床指派混雜不可忽略（Table1）。\n\n## Critical Appraisal\n質性Newcastle–Ottawa相關領域：選樣高風險（只完成回診者、單一小型臨床樣本）；可比性高風險（無對照、處方混雜、未調整用藥生活因素）；暴露有疑慮（劑量缺15人、遵從未量化）；結果高風險（未驗證問卷、期待與回報偏差）；精確度高風險（38人、藥間21/17、無等效設計）；選擇報告有疑慮（多重探索、未外查註冊）。體重血壓較標準化、前瞻同日基線是優點，不能補上反事實對照。\n\n### 統計與因果\n時間先後支持「治療期間發生」，不等於排除飲食諮詢、回歸均數、同時生活改變與只納完成者的選擇。兩藥非隨機且基線BMI不同，無顯著差不是等效。r.403不能證實飢餓控制中介減重；噁心r−.148無顯著也不能證明GI不適沒有作用。食物群比例不提供總能量、營養素或整體品質量尺；用Fisher處理同人前後比例也不利用配對轉移資訊，未提供完整轉移表供McNemar重算。\n\n### GRADE、spin與工具\ngrade_judge.py以觀察low起始，偏差very serious、間接與不精確serious，實算Very low；單篇不一致及發表偏差不可評未另降。此等級針對把前後變化用於因果療效判斷，不否定其他RCT證據。argdown_lint檢驗「藥物單獨改善整體品質」的推論，不能由無對照自報支持。作者正文多已限制用語，但Table6仍留Central Mechanism、Spontaneous Dietary Improvement及Comparable Drug Efficacy標題；表內文字有澄清，不應只摘標題當證據（p12）。\n\n### 經費／COI／待核\nItalian Ministry of Health Ricerca Corrente支持；聲明無COI（p13）。倫理GLP1-TASTE422/SR/25、2025-11-05；本文列NCT07229170、2025-11-10，未外查registry版本。未獨立取得補充流程、原數據或完整引用；quick模式不稱期刊、作者、撤稿與引用已全部外部查證。\n\n## Resource\nCamajani E et al. Nutrients2026;18:3675. https://doi.org/10.3390/nu18213675 。已核驗CC BY全文14頁。source SHA256 f190b24743a28c243a8154475e2a3d1f59766adf03ff82afe7b6eccb5054348d；text SHA256 2511b770e40d6a38a36d8b0ec2ad64baa72b7d3b5cf85eb1a4674d266976502a。原創評析，未公開PDF、全文或私人紀錄。",
+      "cards": [],
+      "completedAt": "2026-11-18T15:33:28.708Z"
     }
   ]
 }
