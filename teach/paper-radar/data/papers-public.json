@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T15:33:50.353Z",
+  "generatedAt": "2026-11-18T15:36:21.188Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -116112,6 +116112,67 @@
       "content": "---\ndoi: \"10.3390/nu18213675\"\njournal: \"Nutrients\"\nyear: 2026\nstudy_type: \"prospective observational pilot\"\nreview_depth: \"quick\"\n---\n# 腸泌素用藥與飲食行為：38人先導研究能說到哪裡\n> [!info] 品質快照\n> 非糖尿病成人38人、3個月無對照前後觀察；沒有隨機分藥，問卷未正式驗證。能描述伴隨治療的變化，不能證明藥物單獨造成、飲食品質改善或兩藥等效。因果臨床問題GRADE實算Very low。\n\n## 全文結構與閱讀範圍\n已讀完14頁：p1摘要；p1–2背景與目的；p2–4設計、資格、量測、問卷與統計；p5 Table1及劑量缺值；p6 Table2及Table3；p7食物偏好Table4；p8 Figure1–2；p9相關Figure3；p10 Table5及討論；p11飲食與機轉限制；p12限制、結論及Table6；p13經費、倫理、COI；p13–14共26筆參考文獻。首項身份、中項p6–8配對數字、末項p12–14限制與引用均核對。\n\n## Summary\nCamajani等前瞻追蹤開始semaglutide21人或tirzepatide17人、完成基線及3月評估的38名非糖尿病肥胖成人。平均56.1±11.3歲、女性28人73.7%、BMI32.7±4.5。體重平均下降7.2±4.9kg，甜鹹渴望與抵抗飢餓困難降低、餐中飽足感增加；自報份量下降不等於實測熱量或營養品質改善（p4–12）。\n\n## 白話導讀\n> [!abstract] 一句話\n> 這38位有回診的用藥者，3個月後說自己較不餓、吃得較少，但研究無法拆出藥物、生活改變、期待與選樣各自的作用。\n>\n> 為什麼做：臨床不只關心體重，也要了解食慾、份量、食物偏好與不適。\n>\n> 主要結果：體重91.1至83.9kg；甜渴望5.2至3.3、鹹6.9至4.6；32人84.2%自報份量明顯縮小。\n>\n> 怎麼用：問得更細並監測營養，不從這篇判定兩藥一樣有效或不適與減重無關。\n\n## Clinical Application\n- 診間可分別詢問飢餓、甜鹹渴望、飽足、份量、食物種類及噁心；這些是不同向度，不能互相代替。\n- 食量縮小可能影響蛋白、纖維、液體與微量營養攝取，但本篇未量測攝取克數、缺乏或肌肉量，不能宣稱這38人已發生或已避免營養不良。\n- 不建議依此篇改藥／劑量或以「無顯著藥間差」選藥；兩組起始BMI明顯不同且處方非隨機。\n- p值與統計變化不代表已知臨床重要性；未驗證量尺無既定MCID可用。\n\n## Methods\n納入≥18歲、BMI≥30或≥27伴體重共病、初次使用相關腸泌素且完成兩次評估者；排除孕哺、嚴重認知精神障礙、減重手術與不適用治療的重度GI疾病（p3）。同日基線問卷與首次用藥，時點清楚；只分析完成者，未在主文完整列起始招募及失訪分母，補充FigureS1未獨立讀取。\n處方及加量依臨床與耐受性，沒有未用藥對照、隨機或盲法。體重標準化量測，血壓休息5分鐘後兩次平均。0–10自編修正版問卷、未心理計量驗證；食物群常吃YES／NO，非完整攝食量。無筆數／藥局紀錄等量化遵從。3月劑量僅23/38有資料，未做劑量反應分析（p3–5）。\nShapiro–Wilk、配對t檢定比較前後，Welch檢定兩藥變化、Fisher類別比較、Pearson相關，雙尾p<.05，jamovi2.7。大量探索結局與相關未見多重比較校正；沒有預先樣本數／power或藥間等效界線（p4）。\n\n## Key Findings\n| 38人配對變化 | 基線→3月；平均變化±SD | 位置 |\n|---|---|---|\n| 體重 | 91.1→83.9kg；−7.2±4.9，p<.001 | Table2 p6 |\n| 收縮／舒張壓 | 137.4→131.3，−6.1±6.3mmHg p<.001；85.6→83.6，−2.0±5.9 p.042 | Table2 |\n| 餐次 | 4.3→3.6；−0.7±1.4次/day，p.005 | Table2 |\n| 甜／鹹渴望 | 5.2→3.3，−1.9±2.7；6.9→4.6，−2.3±2.7，均p<.001 | Table2 |\n| 抵抗飢餓困難／餐中飽足 | 5.9→3.1，−2.8±2.9 p<.001；6.0→7.5，＋1.5±2.9 p.003 | Table2 |\n| 飲水 | 1.4→1.6L/day，列平均個別差＋.1±.6、p.201 | 四捨五入平均不必直接等於個別差；Table2 |\n| 偏好及份量 | 25無改、10偏鹹、3偏甜；32/38份量減少評分≥7 | Table4 p7；主觀閾值 |\n| 食物群常吃比例 | 加工肉−13.2、鮮起司−7.9；生菜／堅果乾果＋7.9、豆／魚／白肉＋5.3百分點 | Figure1 p7–8，非克數或相對百分比 |\n| 飢餓困難改善與減重 | r.403 p.012 | 同時變化相關，非中介證明；p9 |\n| 噁心或味覺改變 | 4.8±3.0；21/38評分≥5；與減重r−.148 p.376 | 無顯著不排除影響；Table5 |\n| 兩藥體重變化 | −7.2±4.5 vs−7.3±5.5kg，p.924 | 非等效試驗；Table3 |\n\n體重變化SD不是治療效應CI；未計虛構ARR／NNT。BMI兩藥基線30.5±3.4與35.4±4.2，p<.001，臨床指派混雜不可忽略（Table1）。\n\n## Critical Appraisal\n質性Newcastle–Ottawa相關領域：選樣高風險（只完成回診者、單一小型臨床樣本）；可比性高風險（無對照、處方混雜、未調整用藥生活因素）；暴露有疑慮（劑量缺15人、遵從未量化）；結果高風險（未驗證問卷、期待與回報偏差）；精確度高風險（38人、藥間21/17、無等效設計）；選擇報告有疑慮（多重探索、未外查註冊）。體重血壓較標準化、前瞻同日基線是優點，不能補上反事實對照。\n\n### 統計與因果\n時間先後支持「治療期間發生」，不等於排除飲食諮詢、回歸均數、同時生活改變與只納完成者的選擇。兩藥非隨機且基線BMI不同，無顯著差不是等效。r.403不能證實飢餓控制中介減重；噁心r−.148無顯著也不能證明GI不適沒有作用。食物群比例不提供總能量、營養素或整體品質量尺；用Fisher處理同人前後比例也不利用配對轉移資訊，未提供完整轉移表供McNemar重算。\n\n### GRADE、spin與工具\ngrade_judge.py以觀察low起始，偏差very serious、間接與不精確serious，實算Very low；單篇不一致及發表偏差不可評未另降。此等級針對把前後變化用於因果療效判斷，不否定其他RCT證據。argdown_lint檢驗「藥物單獨改善整體品質」的推論，不能由無對照自報支持。作者正文多已限制用語，但Table6仍留Central Mechanism、Spontaneous Dietary Improvement及Comparable Drug Efficacy標題；表內文字有澄清，不應只摘標題當證據（p12）。\n\n### 經費／COI／待核\nItalian Ministry of Health Ricerca Corrente支持；聲明無COI（p13）。倫理GLP1-TASTE422/SR/25、2025-11-05；本文列NCT07229170、2025-11-10，未外查registry版本。未獨立取得補充流程、原數據或完整引用；quick模式不稱期刊、作者、撤稿與引用已全部外部查證。\n\n## Resource\nCamajani E et al. Nutrients2026;18:3675. https://doi.org/10.3390/nu18213675 。已核驗CC BY全文14頁。source SHA256 f190b24743a28c243a8154475e2a3d1f59766adf03ff82afe7b6eccb5054348d；text SHA256 2511b770e40d6a38a36d8b0ec2ad64baa72b7d3b5cf85eb1a4674d266976502a。原創評析，未公開PDF、全文或私人紀錄。",
       "cards": [],
       "completedAt": "2026-11-18T15:33:28.708Z"
+    },
+    {
+      "id": "doi:10.3390/nu18213675:digest",
+      "paperId": "doi:10.3390/nu18213675",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Changes in Eating Behavior and Food Preferences After Semaglutide or Tirzepatide Initiation: A Prospective Observational Pilot Study.",
+      "authors": "Camajani E, Frigerio F, Quattrini C, Franzese V, Armani A, Gorini S, Filardi T, Feraco A, Caprio M, Lombardo M",
+      "journal": "Nutrients",
+      "year": "2026",
+      "doi": "10.3390/nu18213675",
+      "abstract": "This pilot study evaluated changes in eating behavior, appetite, and dietary habits during semaglutide or tirzepatide treatment in adults with obesity. In this prospective observational study, 38 non-diabetic adults with obesity (mean age 56.1 ± 11.3 years; 73.7% female; BMI 32.7 ± 4.5 kg/m2) initiating semaglutide (n = 21) or tirzepatide (n = 17) were assessed at baseline and after 3 months. Clinical parameters and self-reported eating behaviors were evaluated using standardized measurements and a study-specific questionnaire. Mean body weight decreased by 7.2 ± 4.9 kg (p < 0.001), and systolic blood pressure decreased by 6.1 ± 6.3 mm Hg (p < 0.001). Cravings for sweet and savory foods, difficulty resisting hunger between meals, and daily meal frequency decreased, whereas perceived meal-induced satiety increased (all p ≤ 0.005). A substantial reduction in meal portion size was reported by 84.2% of participants. Reported food-group consumption changed, but improved overall dietary quality was not established. Over 3 months, incretin-based treatment was accompanied by weight loss and changes in self-reported eating behavior. The observational design, absence of a control group, and unvalidated questionnaire limit interpretation. Larger controlled studies using validated measures are warranted.",
+      "legalFullTextUrl": "https://doi.org/10.3390/nu18213675",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43030302/",
+      "category": "candidate",
+      "tags": [
+        "human clinical population",
+        "obesity and metabolism",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "腸泌素治療後吃得較少：食慾、份量與品質要分開看",
+      "content": "---\ntags: [research/digest, obesity, incretin, eating-behavior]\ncitekey: Camajani2026IncretinEating\ndoi: 10.3390/nu18213675\n---\n> [!summary] 30 秒層｜一句話＋重點\n> **一句話**：38位開始semaglutide或tirzepatide的成人，3個月後體重與自報飢餓／渴望下降，但未證實飲食品質改善或兩藥等效。\n> - 前後體重91.1→83.9kg，平均−7.2±4.9kg；無未用藥對照。\n> - 甜、鹹渴望與抵抗飢餓困難減少，餐中飽足增加。\n> - 32/38人84.2%自報份量明顯縮小，這不是量測熱量或營養素結果。\n> - 問卷未驗證、樣本小、處方非隨機，只能作探索性描述。\n> 品質未評讀（內容整理）；需可信度判斷 → 同篇品質評讀。\n\n## 研究問題 / 背景（5 分鐘層）\n**要點**：作者想了解臨床用藥期間的食慾與選食變化，而不只關心體重。\nGLP-1與GIP相關治療可能影響飽足、胃排空與獎賞途徑，但此研究沒有量測神經機轉。背景引用實驗與RCT作理由，不能當成本樣本已驗證機轉（p1–2）。本文的問題是治療前後的日常食慾、甜鹹渴望、份量、食物群與不適如何變動。\n\n## 方法\n**要點**：這是38名完成兩次評估者的前瞻觀察，沒有隨機分派或未用藥對照。\n- 平均56.1±11.3歲、28名女性73.7%、非糖尿病；BMI32.7±4.5。\n- 初次使用腸泌素藥物，semaglutide21人、tirzepatide17人；醫師依臨床選擇與耐受性加量，非研究分派。\n- ≥18歲，BMI≥30或≥27伴共病；排除孕哺、先前減重手術、妨礙問卷的嚴重認知精神問題及不適合治療的GI疾病。\n- 基線問卷與首次給藥同日；3月再量體重血壓及問卷。血壓休息5分鐘後兩次平均。\n- 修正版自編問卷未正式驗證，食慾項目0–10、食物群常吃YES／NO；無實測總熱量或完整品質分數。\n- 劑量僅23/38有3月資料，無劑量反應分析；藥物遵從未用筆數／藥局等量化。\n- 前後配對t、藥間Welch、類別Fisher與Pearson相關，p<.05；多重探索未見校正（p2–5）。\n\n## 主要發現\n**要點**：自報食慾與客觀體重有變化，但變化來源、品質與藥間差仍不確定。\n| 項目 | 基線→3月／變化 | 來源 |\n|---|---|---|\n| 體重／BMI | 91.1→83.9kg，−7.2±4.9kg；BMI−2.6±1.6 | Table2 p6，均p<.001 |\n| 血壓 | SBP−6.1±6.3，p<.001；DBP−2.0±5.9mmHg，p.042 | Table2 |\n| 餐次 | 4.3→3.6次/day，−.7±1.4，p.005 | Table2 |\n| 甜／鹹渴望 | 5.2→3.3，−1.9±2.7；6.9→4.6，−2.3±2.7，均p<.001 | Table2 |\n| 抵抗飢餓困難 | 5.9→3.1，−2.8±2.9，p<.001 | Table2 |\n| 餐中飽足 | 6.0→7.5，＋1.5±2.9，p.003 | Table2 |\n| 飲水 | 1.4→1.6L/day，個別差平均＋.1±.6，p.201 | 四捨五入後平均與差不必恰等；Table2 |\n| 份量縮小 | 32/38人84.2%評≥7/10 | 主觀「明顯」閾值，Table4 |\n| 口味偏好 | 25無改、10偏鹹、3偏甜 | Table4 p7 |\n| 噁心或味覺改變 | 平均4.8±3.0；21/38評≥5 | Table5 p10 |\n\n### 食物群與相關\n常吃加工肉比例−13.2、鮮起司−7.9、生菜與堅果乾果各＋7.9、豆／魚／白肉各＋5.3**百分點**，不是實吃克數或相對百分比。作者也明說未建立整體品質或營養足夠改善（Figure1、p7–8、11）。\n飢餓控制改善與減重相關r.403、p.012；噁心／味覺分數與減重r−.148、p.376。前者不證明中介，後者不證明GI不適無作用（p9–11）。\n### 兩藥比較\nsemaglutide與tirzepatide平均體重變化−7.2±4.5與−7.3±5.5kg，p.924；甜鹹渴望等亦無顯著藥間差。但起始BMI30.5與35.4、p<.001，非隨機且各21／17人，不能稱等效（Table1、3；p12）。\n\n## 機轉白話講解\n**要點**：覺得較不餓、實際吃較少、食物變健康，是三個不同問題。\n可以把問卷想成「感覺儀表」：它能記錄自己覺得容易飽或不想吃甜，不能直接量出今天蛋白、纖維與微量營養素足不足。體重下降也沒有告訴我們脂肪與肌肉比例。本文沒有測中樞獎賞、實吃總能量或中介因果，因此只能說這些變化一起出現，不能確定每一條原因。\n\n## 臨床意義 / 怎麼用\n**要點**：用藥期間仍應逐項問食慾、食物種類、份量與不適，避免只追體重。\n- 份量縮小不保證營養密度夠；作者提出監測蛋白、纖維、液體與微量營養的實務理由，但未在本樣本證明缺乏或保肌效果。\n- 食慾改善與GI不適可並存；沒有顯著相關不能忽略個別患者症狀。\n- 不依這篇開出固定劑量或改藥，也不從3個月資料承諾長期效果。\n- 不把食物群方向稱為「自然變健康」，需實際攝取及完整量測。\n\n## 重要圖表重述\n**要點**：表與圖多是同一組38人的不同呈現，不可重算成多個獨立研究。\nTable1基線、Table2前後、Table3藥間變化；Table4偏好與份量，Table5不適與食物愉悅，Table6以限制文字整理結論。Figure1是食物群YES比例差、Figure2重呈食慾分數（誤差棒SD非CI）、Figure3是同時變化相關及趨勢線。未重製原圖。補充S1流程未獨立取得，主文未完整交代所有起始及失訪分母。\n\n## 與既有認知的對照\n**要點**：已保存的心衰竭身體組成筆記也強調體重不是全部。\n已搜尋本輪《nu18213683-digest-overtime》（DOI10.3390/nu18213683）：它提出減脂、肌肉與液體需分開，框架未驗證。本篇38人研究則連組成都未量，不能補上保肌結論。兩篇族群與設計不同，只能作概念對照，不合併療效。\n\n## 概念 / 名詞整理\n**要點**：關聯、無顯著差與等效不可互換。\n- Prospective observational：先定基線後追蹤，但沒有研究隨機分派。\n- Paired change：同一人前後差，不能直接等於藥物對照效應。\n- Unvalidated questionnaire：這版本未證明量測可靠性及有效性，分數應探索性解讀。\n- Equivalence：需要預設可接受差與充分精確度；p>.05本身不成立。\n\n## 自我測驗\n**要點**：四題練習把結果與限制一起帶走。\n> [!question]- Q1：84.2%份量明顯縮小能證明營養變好嗎？\n> 不能；它是主觀份量分數≥7，不是完整飲食品質、熱量或營養素量測。\n\n> [!question]- Q2：兩藥體重差p.924代表等效嗎？\n> 不代表；非隨機、小樣本、起始BMI不同且無等效界線。\n\n> [!question]- Q3：飢餓改善與減重r.403能證明中介嗎？\n> 不能；同時變化可能受共同因素影響，沒有中介識別分析。\n\n> [!question]- Q4：噁心與減重無顯著相關就不需注意GI不適嗎？\n> 仍需注意；樣本小且量測粗，無顯著不排除個別影響。\n\n## Reference\n**要點**：內容依14頁合法全文；結果與作者引用的外部機轉分開。\nCamajani E et al. Nutrients2026;18:3675. https://doi.org/10.3390/nu18213675 。主要Table1–6、Figure1–3及p12限制。Italian Ministry of Health支持，無COI聲明p13；引用未逐筆外查。source SHA256 f190b24743a28c243a8154475e2a3d1f59766adf03ff82afe7b6eccb5054348d；text SHA256 2511b770e40d6a38a36d8b0ec2ad64baa72b7d3b5cf85eb1a4674d266976502a。首／中／末對照，原創整理。",
+      "cards": [
+        {
+          "title": "腸泌素與飲食行為",
+          "question": "84.2%份量縮小能證明營養變好嗎？",
+          "answer": "不能；是自報份量分數≥7，未量完整品質、熱量或營養素。",
+          "tags": [
+            "nutrition",
+            "incretin"
+          ]
+        },
+        {
+          "title": "腸泌素與飲食行為",
+          "question": "兩藥體重差p.924代表等效嗎？",
+          "answer": "不代表；非隨機、小樣本、起始BMI不同且無等效界線。",
+          "tags": [
+            "nutrition",
+            "incretin"
+          ]
+        },
+        {
+          "title": "腸泌素與飲食行為",
+          "question": "飢餓改善與減重r.403能證明中介嗎？",
+          "answer": "不能；同時變化受共同因素影響，未做可識別的中介分析。",
+          "tags": [
+            "nutrition",
+            "incretin"
+          ]
+        },
+        {
+          "title": "腸泌素與飲食行為",
+          "question": "噁心與減重無顯著相關就能忽略GI不適嗎？",
+          "answer": "不能；樣本小、量測粗，無顯著不排除個別影響。",
+          "tags": [
+            "nutrition",
+            "incretin"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-18T15:36:00.575Z"
     }
   ]
 }
