@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T14:30:32.383Z",
+  "generatedAt": "2026-11-19T14:34:18.321Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -116678,6 +116678,76 @@
       "content": "---\ncitekey: \"Zhang2026CDED\"\ndoi: \"10.3390/nu18213656\"\npmid: \"43030283\"\njournal: \"Nutrients\"\nyear: 2026\nauthors: \"Jia Zhang; Xi Yuan; Qingying Luo\"\nstudy_type: \"systematic review and stratified synthesis\"\nreview_depth: \"quick\"\n---\n\n> [!info] 品質快照\n> **設計／n**：7份研究報告，2個open-label RCT共85位分析對象、5個無對照研究；可能隊列重疊，不能加總為獨立病人人數。\n> **RoB／AMSTAR-2**：兩個RCT的主觀HBI結局均高偏差風險；回顧方法分領域評讀，搜尋附件與原註冊未獨立核對，不給未完成的正式總評級。\n> **GRADE**：加PEN之第6週症狀緩解 Very low；CDED對MD之第12／24週症狀緩解 Low，均由grade_judge.py依領域重算。不是整篇或所有結局一律Low。\n> **Registration**：作者報告PROSPERO CRD420261381711、2026/4/28註冊；本次官方記錄工具無法開啟，原註冊一致性未核實。已揭露活動範圍與探索分析偏離。\n> **一句話**：這篇最有用的是把比較對象、時間和分母拆開；小型未盲法試驗的症狀優勢，不能升格為黏膜癒合或替代藥物的證明。\n\n## 全文結構與逐節閱讀\n\n1. Abstract／Introduction（pp1–2）：成人治療背景不同於兒童；要分開PEN的增量效果、不同飲食的比較，以及症狀與客觀發炎。動物添加物機轉僅背景。\n2. §2.1（p2）：六資料庫，2014/1/1–2026/9/2；原單臂pooling在修訂中改為逐研究描述，探索分析未預註冊。\n3. §2.2／Table1（pp2–4）：成人資料需可分離；原HBI5–8目標擴至試驗HBI5–14／5–16，不能仍宣稱只代表原窄範圍。背景藥物、PEN比例和病程各異。\n4. §2.3（p4）：雙人篩選／擷取；不聯絡作者，保留modified ITT、available case、baseline-active與adherent分母差異。\n5. §2.4（pp4–5）：第6週clinical remission為主，12週為次；HBI<5、CDAI<150與更嚴格HBI≤3分開。治療中24／52週緩解不是停飲食後持續緩解。\n6. §2.5／Table2（pp5–6）：RCT用RoB2、無對照用JBI case-series checklist；GRADE按比較／時間評估，無對照比例不作療效GRADE。\n7. §2.6（p6）：RR為log-Wald、RD為Wald；單臂逐篇Clopper–Pearson CI，不合併，無I²、meta-regression或發表偏差檢定。\n8. §3.1／Tables1、3／Figures1–2（pp6–8）：479筆、去重186、293篩選、13全文、7納入。Tel Aviv報告可能共享病人，不當獨立複驗。\n9. §3.2–3.3／Figure3（pp9–10）：open-label HBI高RoB；PEN第6週無確定增益，MD第12／24週來自同一試驗的次要時間點，非兩項獨立試驗。\n10. §3.4／Figures4–5（pp10–12）：30/48並非30/152；23/30與23/32是同一研究的不同缺失假設；Dileo22/36與22/22不得交換。\n11. §3.5（p12）：CRP／FCP下降未一致證實組間優勢；內視鏡結果不能補成CDED對MD的證據。\n12. §3.6（pp12–13）：Pasta5/24不耐退出；Dileo14/36早期退出，22名完成者未報嚴重介入事件不能代表所有開始者耐受良好。\n13. §4.1–4.2（pp13–14）：HBI改善可能含發炎以外症狀及期待效應；Pasta兩組部分營養風險者都使用PEN，並非純粹CDED無PEN比較。\n14. §4.3–4.4／Conclusion（pp14–15）：作者承認小樣本、選擇／缺失、隊列重疊、搜尋詞限制及窄人口外推不足；未確立客觀發炎控制、營養充分性及停治療後持續效果。\n15. 聲明／References（pp15–18）：無外部經費、無利益衝突聲明，31項引文；附件S1–S11、DataS1、CodeS1未在本次另下載核驗。未把引文當已獨立讀過原試驗。\n\n## Summary\n\n✅ Full text reviewed：完整18頁PDF分批讀取；首頁DOI／題名與末頁一致，Tables1–3、Figures1–5圖說及限制／聲明已讀。主文來源SHA保存在本輪取得收據。\n\n|問題／研究人口|結果|該如何讀|位置|\n|---|---|---|---|\n|Yanai，成人18–55歲、biologic-naïve、HBI5–14；加PEN對CDED單獨，第6週|13/19 vs12/21；RR1.20（95%CI0.74–1.94）；RD+11.3百分點（−18.5至41.0）|40名modified ITT，不是44名完整隨機群；不能說兩法等效或PEN無用|Table1／2、§3.3|\n|Pasta，成人18–80歲、HBI5–16，可保留既有背景治療；CDED對MD，第12週|17/24 vs8/21；RR1.86（1.02–3.40）；RD+32.7百分點（5.1–60.3）|1試驗45人，次要時間點；早期5名CDED退出，分母沿用原報24／21|Table2、§3.3|\n|同一Pasta試驗，第24週|19/24 vs9/21；RR1.85（1.08–3.15）；RD+36.3百分點（9.6–63.0）|治療持續中的當次緩解；不能當另一次獨立複驗或停治療後維持|Table2、§3.3|\n|Fliss-Isakov，48名baseline HBI≥5子群|30/48=62.5%（exact CI47.4–76.0）|152名曾接受指導→96名確定開始並回診→72名active→48名clinical-active；是選擇子群描述|§3.4、Figure4|\n|Szczubełek，baseline32人|available case23/30=76.7%（57.7–90.1）；缺失算失敗23/32=71.9%（53.3–86.3）|不可挑較好看的分母當全部病人的成功率|§3.4|\n|Dileo，臨床或客觀活動，未要求人人baseline HBI升高|6週ITT22/36=61.1%，而遵從者22/22；52週14/36|前者是該混合活動群的緩解狀態，不是所有人從臨床活動轉緩解|§3.4|\n\n上述皆為回顧擷取值；本次用事件／分母獨立重算RCT的RR、log-Wald CI及RD，可核對到表列四捨五入。沒有pooled effect、沒有I²；不可另算一個七研究共同成功率。未獨立重建原試驗個人資料。\n\n## 白話導讀\n\n> [!abstract] 一句話：成人CDED有症狀緩解訊號，但「加配方有沒有更好」、「比另一飲食好不好」是不同問題。\n> **為什麼做**：過去常把兒童、成人及單臂研究混在一起；這篇專門拆成人的治療問題。\n> **主要結局**：第6週加PEN是13/19對12/21，CI容許明顯利或害；不能把不顯著說成沒差。另一45人試驗第12週CDED17/24對MD8/21，但它不是第6週主要問題。\n> **其他結局**：12／24週都來自同一Pasta試驗；單臂比例隨分母選擇而變，缺乏對照就無法扣除背景藥物、自然波動或選擇效應。CRP、FCP與內視鏡的比較優勢尚未確立。\n> **所以呢**：可作專業團隊討論飲食策略的證據整理；症狀變好仍要確認發炎、體重與營養狀態，不能只靠症狀指數宣告疾病控制。\n\n## Clinical Application\n\n- 適用性限回顧所納入成人、非手術性／非急性阻塞等情境；兒童研究僅背景或可分離成人子群，不外推兒少療效。對嚴重疾病、嚴重營養不良、孕期及未納入的病況沒有直接保證。\n- CDED、CDED+PEN、對照MD與營養風險導向PEN需分開。Yanai最初PEN1000 kcal/day、之後600 kcal/day；其他研究可為50%→25%能量或風險導向10–20%，不是可互換的單一標準處方（Table1）。本文不足以寫完整食物允許表或替個別病人開固定配方。\n- 臨床共同監測症狀、客觀發炎、體重／體組成、總攝取與限制負擔；限制飲食伴體重下降不必然代表改善。Pasta與Dileo的退出提醒「有成效」和「能持續執行」都需討論。\n- 台灣應由熟悉IBD的營養與醫療團隊個別評估食物可近性、文化調整與營養風險；這篇沒有本地成本／給付或長期安全資料，不另推估。\n\n## Methods\n\nPICO為成人CD、CDED±PEN，與CDED單獨／MD或無平行對照相比；主結局第6週症狀緩解，後續時間與客觀結局分開。兩人獨立篩選、擷取、RoB，第三人協調；未聯絡研究者，未可分離的人口資料不進量化。2014起始年有介入發展理由，但adult／design搜尋詞可能漏掉混合年齡或索引不佳研究。每比較只有一試驗，避免跨問題合併是優點，而非「沒有異質性」的證明（§2）。\n\n## Critical Appraisal\n\n|AMSTAR-2重要領域|判定|理由／限制|\n|---|---|---|\n|事前方案與偏離|🟡|有註冊號且主文坦承擴大HBI與探索分析；原註冊歷史本次無法開啟，不能確認前瞻一致。|\n|搜尋充分性|🟡|六資料庫與截止日清楚；S1完整策略未獨立讀取，trial registries／灰色文獻搜尋未由主文確認。|\n|雙人篩選、擷取及排除理由|🟡|雙人流程及6份全文排除有主文描述，逐篇S7未核驗。|\n|納入研究RoB|🟢／🟡|RCT用RoB2、單臂用JBI且不把Yes總數當因果證據；主文指出HBI未盲法高風險，詳細附件domain未逐一原稿核驗。|\n|合成方法|🟢|不同比較／時間／分母分開，不把描述比例和RCT直接排名；Wald近似在小樣本仍需審慎。|\n|偏差對結論影響|🟢|明確把symptoms與objective inflammation、修改ITT與遵從者、持續治療與停治療後分開。|\n|發表偏差與異質性|🟡|每比較n=1無法檢定；不能當作不存在，也不能僅因未檢定自動GRADE扣分。|\n|經費與原研究利益來源|🟡|回顧本身報無外部經費／COI；納入每項原研究經費未在本次完整獨立核對。|\n\n不計AMSTAR總分；附件與註冊核實不全，保留分領域判定，不能宣稱完整正式AMSTAR-2已通過。原研究沒有盲法的症狀量表可能受期待影響，背景治療與缺失亦限制推論。主文已處理的重要限制包括possible overlap，故不報「7篇、總共多少獨立病人」的假精確總數。\n\n**PRISMA 2020實際27項核對**：主文可核對1題名、2摘要、3理由、4目的、5資格、6來源、8篩選、9擷取、10資料項、11RoB、12效果、13合成、15certainty、16選文流程、17特徵、18RoB結果、19個別結果、20合成結果、22certainty結果、23討論、25支持、26COI。保留部分核驗：7完整策略／限制在S1，14與21 reporting-bias assessment只有無法正式檢定的說明，24註冊與修改無法對原記錄核實，27資料／程式可得性是已報連結、未實際下載重建。這是主文報告完整性核對，不冒充附件／原研究稽核；其餘子項亦不因主文有章節就全部自動合格。\n\n**統計、MCID與spin**：本文未提供緩解率差的預設MCID；不能自訂門檻。RR跨1不等於等效；MD第12週CI下界接近1，樣本小且屬次要時間點，不能以單一p<.05作穩健療效結論。沒有重建原RCT的multiplicity方案／fragility index，明確列未核；不把本回顧註冊等同原試驗註冊。作者摘要與結論對低／極低certainty及客觀指標限制大致相稱。argdown_lint.py對本評讀的保守結論通過；其標記由本task依全文判讀。\n\n**GRADE逐結局重算**：RCT起點High；risk_of_bias serious（−1）；inconsistency與publication_bias不可判定，未僅因一試驗扣分；indirectness對實際較寬納入人口不扣分，但不可外推為只適用HBI5–8。PEN第6週imprecision very serious（−2）→Very low；MD第12／24週imprecision serious（−1）→Low。各有原輸入與grade_judge輸出。若問窄HBI5–8或黏膜癒合，應另評間接性或判證據不足，不借用這三個等級。無對照比例不給因果療效GRADE。\n\n## Resource\n\n- [DOI與全文入口](https://doi.org/10.3390/nu18213656)、[PubMed](https://pubmed.ncbi.nlm.nih.gov/43030283/)、[PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC13765171/)。\n- 首p1身份／摘要、中p9–10 Table2／RCT結果、末pp15–18結論／聲明／引文已核對。未重製原圖或翻譯全文；此為原創評讀。\n- focused-quick已完成全文與方法評讀；作者h-index、期刊IF、引文影響及廣泛原參考文獻語義查核依批次模式延後。撤稿／更正搜尋本次未見明確通知，並非保證永久無更正；PROSPERO官方記錄本次無法存取，未以搜尋片段當原記錄。",
       "cards": [],
       "completedAt": "2026-11-19T14:29:24.867Z"
+    },
+    {
+      "id": "doi:10.3390/nu18213656:digest",
+      "paperId": "doi:10.3390/nu18213656",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Crohn's Disease Exclusion Diet for Remission Induction in Adults: A Systematic Review and Stratified Synthesis.",
+      "authors": "Zhang J, Yuan X, Luo Q",
+      "journal": "Nutrients",
+      "year": "2026",
+      "doi": "10.3390/nu18213656",
+      "abstract": "Background/Objectives: The Crohn's disease exclusion diet (CDED) offers a structured nutritional strategy for adults with Crohn's disease. We evaluated remission outcomes by comparator, assessment time, and analysis population to clarify its clinical interpretation. Methods: Six databases were searched from January 2014 to 2 September 2026. Week-6 clinical remission was primary; later assessments were secondary. Randomized comparisons were analyzed separately by comparator and time point. Uncontrolled proportions were reported individually using exact binomial confidence intervals. Risk of bias and certainty were assessed using design-specific tools. The protocol was registered in PROSPERO (CRD420261381711), with broader activity-range inclusion and exploratory analyses reported as deviations. Results: Seven studies comprised two randomized trials and five uncontrolled studies. At week 6, remission occurred in 13/19 participants receiving CDED plus partial enteral nutrition versus 12/21 receiving CDED alone (risk ratio 1.20, 95% confidence interval 0.74-1.94). A separate trial favored CDED over a Mediterranean diet at week 12 (17/24 versus 8/21; 1.86, 1.02-3.40). Comparative certainty was very low or low. Descriptive, exploratory uncontrolled week-6 remission proportions in clinically active populations were 30/48 (62.5%) and 23/30 (76.7%). Objective inflammatory outcomes were inconsistently assessed and showed no consistent comparative advantage accompanying symptomatic remission. Conclusions: Adult evidence identifies a symptomatic remission signal that differs by comparator and assessment time. Comparative biochemical or endoscopic superiority remains unestablished. This synthesis clarifies the population and treatment question represented by each estimate. Trials should assess inflammatory control, nutritional adequacy, adherence, and longer-term outcomes during treatment and after cessation.",
+      "legalFullTextUrl": "https://doi.org/10.3390/nu18213656",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43030283/",
+      "category": "candidate",
+      "tags": [
+        "design:systematic review",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "成人克隆氏症排除飲食：全文內容整理與五張理解卡",
+      "content": "---\ntags: [research/digest, nutrition, IBD]\ncitekey: \"Zhang2026CDED\"\ndoi: \"10.3390/nu18213656\"\njournal: \"Nutrients\"\nyear: 2026\n---\n\n> [!summary] 30秒：成人CDED的緩解數字，必須先問「比誰、何時、分母是誰」。\n> - 7份報告：2個open-label RCT、5個無對照研究；兩RCT共85名分析對象，其他報告可能重疊，不報全體獨立人數。\n> - 第6週加PEN：13/19對12/21，RR1.20（95%CI0.74–1.94），增量效益未確立。\n> - 第12週CDED對MD：17/24對8/21，RR1.86（1.02–3.40），只有一個45人試驗；24週仍是同一試驗。\n> - 症狀改善不等於客觀發炎或內視鏡緩解；退出、營養負擔及持續性也重要。\n> 品質判斷 → 見同DOI之全文品質評讀；本份是內容整理，不另以摘要取代評讀。\n\n## 全文地圖與5分鐘掃讀\n**要點**：先把不同問題拆開，再看每個數字到底描述誰。\n\n- Introduction（pp1–2）：成人與兒童的病程、治療與營養需求不同，需成人資料。\n- Methods（pp2–6）：六資料庫、明確主結局，按比較、時間、人口分層，不做共同統合。\n- Results（pp6–13）：先列兩RCT，再逐篇無對照分母，最後客觀發炎、遵從與安全。\n- Discussion／Conclusion（pp13–15）：限制外推，讓症狀、發炎、營養充分性與能否持續一起看。\n- 聲明／引文（pp15–18）：31項引文，無外部經費／COI；附件資料未在本次獨立重建。\n\n## 研究問題與方法\n**要點**：它是成人系統性回顧與分層綜整，不是證明CDED總療效的一個大型統合分析。\n\n搜尋PubMed、Embase/Ovid、Cochrane Library、Web of Science、Scopus、CNKI，2014/1/1–2026/9/2。479筆→去重186→293篩選→13份全文→7份納入。兩人篩選／擷取並按設計評RoB。PROSPERO為作者報告CRD420261381711；原註冊的獨立核驗限制放在評讀。\n\n主結局是第6週clinical remission；12週為後續，24／52週是治療持續中的結果，不能自動改稱停治療後維持。最初HBI5–8成人目標，因現有RCT較寬HBI範圍而保留全試驗，已列方案偏離。兒童混合研究必須能抽出成人資料才進成人量化。無對照研究用個別exact binomial CI，未做pooled proportion或I²（§2）。\n\n## 三種治療問題與數字\n**要點**：加PEN、選CDED而非MD、開始CDED後的個別群體經驗，回答不同事情。\n\n|問題|人口／比較／時間|數值|不能多說的一步|\n|---|---|---|---|\n|PEN增量效果|Yanai，18–55歲biologic-naïve、HBI5–14，CDED+PEN對CDED，第6週|13/19 vs12/21；RR1.20（0.74–1.94）；RD+11.3百分點（−18.5至41.0）|不是證明等效，也不是證明PEN沒用|\n|另一飲食比較|Pasta，18–80歲、HBI5–16，可有穩定背景治療，CDED對MD，第12週|17/24 vs8/21；RR1.86（1.02–3.40）；RD+32.7百分點（5.1–60.3）|次要時間點、小樣本，兩組皆有人用風險導向PEN|\n|同一試驗延後觀察|Pasta，第24週|19/24 vs9/21；RR1.85（1.08–3.15）；RD+36.3百分點（9.6–63.0）|不是另一獨立試驗，不是停飲食後維持|\n\nTable1／2與§3.3：Yanai44隨機、40納入modified ITT（至少48小時治療），不能寫全44人的完整ITT。Pasta早期5/24因不耐退出，回顧保留原allocation分母，不另作缺失插補。不同比較不相互借對照。\n\n## 無對照研究：緩解率先讀分母\n**要點**：接受指導、確定開始、完成追蹤、原本臨床活動、持續遵從，並不是同一群人。\n\n|報告|分母與結果|理解重點|\n|---|---|---|\n|Fliss-Isakov|152接受指導→96確定開始且回診→72因active disease治療→48 baseline HBI≥5；30/48=62.5%（CI47.4–76.0）|不能宣稱所有152人有62.5%緩解|\n|Szczubełek|32 baseline；第6週23/30=76.7%（57.7–90.1）；兩缺失算失敗為23/32=71.9%（53.3–86.3）|是同一研究的兩種假設，不是兩項獨立證據|\n|Dileo|6週ITT22/36=61.1%（43.5–76.9），遵從者22/22；52週14/36=38.9%|入組容許客觀活動而不必人人臨床HBI升高；是緩解狀態，不是統一baseline-active的誘導成功率|\n|Sigall-Boneh|可分離成人13人，9/13=69.2%，HBI≤3|較嚴定義及治療背景，不與HBI<5混合|\n|Meir|40名>60歲，16 active、24已緩解|沒有相容的誘導n/N，不能硬補成功率|\n\n資料位置§3.4、Table3、Figures4–5。背景藥物、選擇與自然變動無法由單臂比例扣除；可能共享中心／年代的報告不應加成獨立病人人數。\n\n## 症狀之外：發炎、遵從與安全\n**要點**：HBI改善與病人感受重要，但仍需客觀結果及能否持續執行。\n\n- §3.5：Yanai第12週CRP中位數PEN組15.8→7.4 mg/L、CDED組12.1→6.1；FCP229→104.1與294.5→97.3 µg/g。檢測樣本較小，這些組內描述不是組間優勢。\n- Pasta FCP在baseline／12／24週：CDED273／263／231，MD200／269／252 µg/g；CRP沒有清楚一致組間模式。症狀緩解優勢未同時確立客觀發炎優勢。\n- Yanai24週內視鏡緩解8/19對6/21；不能搬去回答CDED對MD。混合年齡的再檢查子群亦只作背景。\n- §3.6：Pasta5/24早期不耐退出，BMI25.8→24.5 kg/m²；下降要連同肌肉／脂肪與營養風險看，不自動當好消息。\n- Dileo36人中14人都在前6週退出；原因含噁心、腹脹、排便增加、限制負擔、PEN接受性和實務困難。22名完成者未報嚴重介入相關事件，不等於36人都耐受良好。Fliss-Isakov的56/152未回診，連是否開始治療亦未確定。\n\n## 臨床意義與怎麼用\n**要點**：把飲食策略、客觀發炎與營養追蹤放在同一個個別照護計畫。\n\nTable1不同PEN交付並不一致：Yanai最初1000 kcal/day、之後600 kcal/day；Szczubełek與Dileo可為50%能量後25%；Pasta則僅風險者10–20%。這些是研究描述，不能抽成對所有成人的固定處方。\n\n作者建議未來試驗同時測量症狀、CRP／FCP／內視鏡、能量與營養素、體組成、依從、退出原因及停治療後復發。嚴重病況、急性阻塞／手術、孕期、嚴重營養不良等未涵蓋情境不能外推。台灣落地需IBD醫療／營養團隊協作，本文沒提供完整食物菜單或本地成本效果（§4）。\n\n## 重要圖表重述\n**要點**：圖表主要在教你追蹤比較和分母，不是在建立共同成功率。\n\n- Table1：人口、藥物與PEN差異；Table2：三個比較時間的RR／RD與certainty；Table3：哪些資料用於哪個問題。\n- Figure1：選文流程479→7；Figure2：RCT與無對照的證據地圖；Figure3：單一試驗各時間RR，沒有跨試驗共同菱形效果。\n- Figure4：Fliss-Isakov的152→96→72→48分母鏈；Figure5：無對照研究的個別比例與CI，不能用橫向比較排飲食療效名次。未重製原圖（pp7–11）。\n\n## 與既有認知的對照\n**要點**：這篇新增的是比較、時間及分母的精確定位，不是宣稱推翻所有IBD飲食知識。\n\n本次沒有vault_search工具；已查既有本機available-site-notes的papers題名索引，找到Crohn營養評估（10.1371/journal.pone.0352372）、IBD營養共識（10.1590/S0004-2803.24612026-042）、成人IBD飲食scoping review（10.1177/17562848261479366）。本輪未重讀其內容，不能聲稱逐句更新／矛盾已核實；僅作相鄰閱讀入口。本文對以往單一成人整體比例的拆解依§4.2所述，未把外部舊回顧視為本輪獨立驗證。\n\n## 概念與名詞整理\n**要點**：先分清結局和分析人口，數字才有意義。\n\n- CDED：結構化的Crohn排除飲食；PEN：配方提供部分能量，非全部營養。\n- HBI／CDAI：症狀相關活動指標；clinical remission與CRP／FCP生化改善、內視鏡緩解分別判讀。\n- ITT／modified ITT／available case／adherent：納入分析的規則不同；缺失與停止治療會改變分母。\n- 誘導、維持、治療中某時點緩解、停治療後維持：需不同起始狀態與追蹤設計；不能只因時間較久就互換。\n- RR的CI跨1代表結果不精確；不是等效證明。RD以百分點表達，與相對百分比不同（§2–4）。\n\n## 自我測驗\n**要點**：用五個問題檢查自己有沒有把數字推得太遠。\n\n> [!question]- Q1：為什麼PEN第6週與CDED對MD第12週不能合成一個療效？\n> 它們比較對象、人口與時間不同；前者問加PEN的增量，後者問飲食策略。13/19對12/21和17/24對8/21不共用同一對照問題。\n\n> [!question]- Q2：30/48的62.5%能向全部152名接受指導者保證嗎？\n> 不能。48人是有baseline臨床活動的特定追蹤子群；從指導到啟動／回診已經發生選擇，不能把其比例搬給全體。\n\n> [!question]- Q3：Dileo22/22表示所有病人都成功嗎？\n> 不是。它是遵從者分母，原始36人的6週ITT是22/36；也未要求人人baseline臨床活動，所以不能全部稱為誘導成功。\n\n> [!question]- Q4：症狀緩解和CRP／FCP下降就證明CDED優於MD的黏膜癒合嗎？\n> 沒有。症狀與發炎結局不同，組內下降也不是組間優勢；本回顧沒有確立一致生化／內視鏡比較優勢。\n\n> [!question]- Q5：24週結果較好是否代表停飲食仍維持？\n> 不是。Pasta24週仍在持續飲食治療中，也來自同一試驗；停治療後持續緩解要另外追蹤。\n\n## Reference\n**要點**：內容來自這份已核驗的完整主文，原始試驗引文未另當已讀全文。\n\nZhang J, Yuan X, Luo Q. 2026. Nutrients18:3656。[DOI](https://doi.org/10.3390/nu18213656)、[PubMed](https://pubmed.ncbi.nlm.nih.gov/43030283/)。關鍵原試驗為本文refs15 Yanai2022、16 Pasta2025；其餘無對照見refs13、17–20。首p1、中pp9–10、末pp15–18核對；全部18頁主文分批讀取，沿用原合法PDF／文字SHA。",
+      "cards": [
+        {
+          "title": "成人CDED分母與比較",
+          "question": "為什麼兩個RCT不能合成一個共同療效？",
+          "answer": "PEN第6週比較加配方與否；MD第12週比較不同飲食。比較、人口與時間不同，作者沒有共同pooling。",
+          "tags": [
+            "nutrition",
+            "IBD"
+          ]
+        },
+        {
+          "title": "成人CDED分母與比較",
+          "question": "62.5%能套給全部152名接受指導者嗎？",
+          "answer": "不能；30/48是特定baseline HBI≥5追蹤子群，152→96→72→48間有選擇。",
+          "tags": [
+            "nutrition",
+            "IBD"
+          ]
+        },
+        {
+          "title": "成人CDED分母與比較",
+          "question": "22/22可以說所有開始CDED者都緩解嗎？",
+          "answer": "不能；這是遵從者，36名全體的6週ITT為22/36，且baseline未必人人有臨床活動。",
+          "tags": [
+            "nutrition",
+            "IBD"
+          ]
+        },
+        {
+          "title": "成人CDED分母與比較",
+          "question": "症狀改善能等同客觀發炎或黏膜癒合優勢嗎？",
+          "answer": "不能；HBI、CRP/FCP與內視鏡是不同結局，作者未確立一致的客觀比較優勢。",
+          "tags": [
+            "nutrition",
+            "IBD"
+          ]
+        },
+        {
+          "title": "成人CDED分母與比較",
+          "question": "24週緩解能證明停止飲食後仍維持嗎？",
+          "answer": "不能；它是同一Pasta試驗持續治療中的時間點，停治療後維持需另行追蹤。",
+          "tags": [
+            "nutrition",
+            "IBD"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-19T14:33:36.815Z"
     }
   ]
 }
