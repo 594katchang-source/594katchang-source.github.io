@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T13:42:27.404Z",
+  "generatedAt": "2026-11-19T13:45:52.518Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -116387,6 +116387,77 @@
       "content": "---\ndoi: \"10.1186/s12883-026-05621-x\"\njournal: \"BMC Neurology\"\nyear: 2026\nauthors: \"Sofia Håglin; Mona Edström; Lennart Bäckman; Lena Håglin\"\nstudy_type: \"cross-sectional\"\nreview_depth: \"quick\"\n---\n\n> [!info] 品質快照\n> 設計：新診斷、未用藥PD的橫斷面分析，111／150人完整身體測量。改編Newcastle–Ottawa領域：偏差風險高；沒有計總分。GRADE主要關聯Very low，不能視為預測模型已驗證。研究未報告預先註冊分析計畫。\n> 一句話：肌肉量、圍度與握力／起身困難有關，但26%完整個案排除與高齡重症缺失，以及模型間BMI方向變動，限制因果和臨床判別主張。\n\n## 全文結構及逐節重點\n\n1. p1–2摘要／Introduction：PD營養狀態與動作、疲勞、握力可能不同；目標比較四個症狀群的體組成。\n2. p2–3 Study population／Figure1：2004–2009瑞典Västerbotten疑似巴金森症轉介；兩位專科診斷並追蹤再評估。PD150人，111完成測量，39缺一項以上排除。次發性巴金森症與基線失智排除。\n3. p3–4 Assessments：UPDRS起身與步態0對1–4二分；FSS≥36為疲勞；握力以男性37、女性21 kgf區分；這是本文研究界值，不是台灣肌少症診斷標準。\n4. p4 Anthropometry／BIS／MNA：單一受訓測量者量圍度與皮褶；多頻BIS估FFMI、ICWI為肌肉代理；MNA評營養風險。右手握力測兩次3–5秒，營養師測量獨立於UPDRS評分。\n5. p4–7 Statistics／Results：非正態以中位數(IQR)、Mann–Whitney與Spearman；多模型邏輯斯迴歸調整年齡性別，完整個案無插補。\n6. p7–9 Discussion／Figure2：起身困難與低握力較偏肌肉儲備低，疲勞型態不同；機轉尚不明，需要縱向研究。\n7. p9–10 Conclusion／聲明：承認小樣本及橫斷面；基金支持、作者無利益衝突，原始資料受倫理限制。\n8. p10–12參考文獻：61項引文，quick模式未逐篇驗證；未把背景引用當本研究療效證據。\n\n## Summary\n\n✅ Full text reviewed：12頁PDF主文、Tables1–5、圖說與末頁聲明／文獻均已分批閱讀；數字按表格與結果段核對。研究不是前瞻性預測驗證，雖母隊列為prospective，這篇只分析基線。\n\n|主要比較|較差功能／高疲勞|對照|位置|\n|---|---|---|---|\n|起身困難 vs 正常|24人|87人|Table2|\n|FFMI kg/m²|13.9(2.3)|15.8(3.1)|p=.005|\n|ICWI L/m²|5.2(1.2)|6.4(.7)|p<.001|\n|體脂%|42.5(7.2)|40.2(9.8)|p=.024|\n|高 vs 低FSS|27人|79人|Table3，分母106|\n|BMI kg/m²|27.9(3.8)|25.4(5.7)|p=.039|\n|低 vs 高HGS|66人|43人|Table3，分母109|\n|MUAC cm|30.0(4.0)|32.0(4.0)|p=.007|\n|ICWI L/m²|5.7(1.7)|6.4(1.6)|p=.004|\n|FFMI kg/m²|14.9(3.08)|16.0(3.2)|p=.036|\n\n括號是IQR不是標準差。全體中位年齡70.7(13.4)，男性66、女性45。排除39人較年長（78.6 vs70.7）且UPDRS較高：II10 vs8、III32 vs25，均p=.002（p5）。不是隨機缺失的充分證據，反而顯示選擇性排除風險。\n\nTable5每個模型含不同體測組合及年齡性別：BMI+ICWI模型中，起身困難BMI OR1.37（CI1.09–1.72，p=.007）、ICWI OR.10（CI.03–.35，p<.001）；但BMI+Calf-C時BMI OR1.03、p=.765，BMI+FM%時OR.908、p=.215。不是所有模型都一致支持BMI與起身困難正關聯。高FSS在BMI+TSF模型BMI OR1.29（CI1.06–1.58，p=.013）；低握力在BMI+MUAC模型，BMI OR1.29（1.020–1.619，p=.034）、MUAC OR.64（.461–.888，p=.008）；BMI+AMA模型AMA OR.65（.48–.88，p=.006）。各OR是模型條件關聯，不是改善體組成的介入效果。\n\n## 白話導讀\n\n> [!abstract] 一句話：BMI相近也可能有不同肌肉與功能表現，圍度和握力可補足營養評估。\n> 為什麼做：PD初診前已有非動作症狀；研究者想知道疲勞、握力弱、步態與起身困難是否對應相同身體型態。\n> 主體：111名未開始抗PD用藥者。起身困難組ICWI與FFMI較低，低握力組上臂與小腿圍較小；高疲勞組BMI和小腿圍反較大，不能把疲勞當成肌肉無力的同義詞。模型結果依共同調整的體組成改變，不能只挑最大OR。\n> 所以呢：可把BMI、MNA、圍度、握力及功能合看；不能只靠圍度診斷肌少症或預測病程，也未證明補蛋白會改善PD症狀。\n\n## Critical Appraisal\n\n|領域|判定|原因|\n|---|---|---|\n|選擇|高風險|地域轉介完整性是優點，但26%因缺資料排除且更老更重；不能稱無選擇偏差|\n|混雜|高風險|年齡性別已調整，活動、飲食、疾病嚴重度等未充分調整；體測變項同模型可能共線與抑制效應|\n|暴露測量|有疑慮|訓練測量者是優點；BIS／FFMI／ICWI是代理，水合狀態與方程假設影響估計|\n|結局測量|有疑慮|UPDRS與JAMAR是優點；單側握力、二分界值失資訊，FSS自陳並非肌力|\n|缺失|高風險|111完整體測仍有FSS106、HGS109，個別模型分母未清楚列；無插補|\n|選擇報告|有疑慮|多結果、多體測、多模型，未見多重性校正與預註冊|\n\n因果檢查：同時測量可能症狀造成活動／營養變化，無時間先後；完整個案選擇可能由年齡與病況共同決定；體組成彼此連結，調整不是自動得到總因果效應。沒有追蹤風險期間，immortal-time不適用。小樣本起身事件24人，多參數模型與寬CI提高不穩定風險。未給AUC、敏感度特異度、校準或外部驗證，所以「predict/discriminate」只支持樣本內關聯，尚非可部署預測工具。\n\nGRADE：觀察性起始Low；risk_of_bias serious（缺失與殘餘混雜）、imprecision serious（小樣本、模型不穩），其他域單篇不能充分評估而不額外降級。無升級；grade_judge實算Very low。MCID未設，沒有功能變化或介入，因此NNT／ARR不適用。\n\n## Inference and consistency check\n\n表4年齡與起身相關顯示.306，但結果文字寫.507；步態相關文字符號與表格也不一致。Table2步態性別數字加總不等該列n；小腿／上臂模型單位標mm而方法cm。這些不一致保留，不能自行更正或從中推精確診斷界值。主結論縮為「同時關聯與評估互補」，argdown一般性結論檢查通過；對縱向預測或營養介入因果不作延伸。\n\n## Clinical Application\n\n新診斷未用藥PD的營養評估可同時看體重變化、MNA、上臂／小腿圍、握力與起身困難，尤其BMI正常仍可能低肌肉代理值。FSS高不代表握力低，應分開問疲勞和測功能。本文男性37／女性21 kgf是所選研究分組，不替代本地肌少症標準；瑞典2004–2009初診資料也不能直接推及台灣晚期或已用藥患者。飲食／運動處置需依獨立證據與個別臨床評估。\n\n## Limitations\n\n作者承認樣本小、橫斷面。另有缺失選擇、完整個案分母不同、多模型共線風險、二分連續測量及表文矛盾。沒有做作者／期刊指標、廣泛引用及勘誤查核，不能寫成沒有更正或無爭議。\n\n## Resource\n\nHåglin等，BMC Neurology 2026;26:751。DOI：https://doi.org/10.1186/s12883-026-05621-x 。來源為合法CC BY4.0完整PDF，12頁；Worker保存來源SHA與抽文SHA。首p1研究身份及OR、中p6–7表3–5結果、末p10–12限制／聲明與文獻核對；不一致已列明，不冒充零誤差。",
       "cards": [],
       "completedAt": "2026-11-19T13:41:42.545Z"
+    },
+    {
+      "id": "doi:10.1186/s12883-026-05621-x:digest",
+      "paperId": "doi:10.1186/s12883-026-05621-x",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Anthropometry with a nutritional focus on motor function, hand-grip strength and subjectively assessed fatigue at diagnosis in Parkinson´s disease.",
+      "authors": "Håglin S, Edström M, Bäckman L, Håglin L",
+      "journal": "BMC Neurology",
+      "year": "2026",
+      "doi": "10.1186/s12883-026-05621-x",
+      "abstract": "Altered anthropometry and nutritional status are associated with motor- and non-motor symptoms in patients with Parkinson´s disease (PD). To investigate if anthropometry can discriminate between low and high levels of motor symptoms, hand grip strength (HGS) and fatigue. Cross-sectional study including baseline data on newly diagnosed patients with PD prior to start of anti-Parkinson medication. Assessments of body composition, risk for malnutrition, fatigue severity scale (FSS) and motor symptoms using Unified Parkinson´s Disease Rating Scale (UPDRS III), including gait performance and ability to arise from chair and HGS were performed at diagnosis. Clinical characteristics and anthropometrical variables were compared between patients with or without motor symptoms and low or high level of fatigue or HGS. Logistic regression was used to examine the association between anthropometry and the odds of having motor difficulties or fatigue. Increased body mass index (BMI) was associated with difficulty arising from chair (OR 1.37, 95% CI 1.09, 1.72, p = 0.007). In addition, these patients had low intracellular water index, (5.2 (1.2) vs. 6.4 (0.7) p < 0.001) and fat free mass index (13.9 (2.3) vs. 15.8 (3.1), p = 0.005) and higher fat mass % (42.5 (7.2) vs. 40.2 (9.8), p = 0.024) compared with patients without difficulty. Patients with high FSS had higher UPDRS II (10 (4) vs. 8 (5), p < 0.001), higher BMI (27.9 (3.8) vs. 25.4 (5.7), p = 0.039) and larger calf circumference​ (37.5 (5.0) vs. 35.8 (4.1)), p = 0.045) than patients with low FSS. Low HGS was associated with low mid upper arm circumference (30.0 (4.0) vs. 32.0 (4.0), p < 0.007) and low calf circumference (35.5 (4.4) vs. 37.0 (4.8), p = 0.049), low fat free mass index (14.9 (3.1) vs. 16.0 (3.2)), intracellular water index (5.7 (1.7) vs. 6.4 (1.6), p = 0.004) and arm muscle area (25.5 (3.5) vs. 26.7 (4.3), p = 0.047) as compared with patients with high HGS. Anthropometry could be used to discriminate between level of motor function, HGS and perceived fatigue at diagnosis of PD. The amount of muscle mass and BMI were important when evaluating the clinical condition in patients with difficulty arising from chair or having low HGS as compared with normal function.",
+      "legalFullTextUrl": "https://link.springer.com/content/pdf/10.1186/s12883-026-05621-x.pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43046154/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "巴金森病初診體測、握力與疲勞：內容整理與理解卡",
+      "content": "---\ndoi: \"10.1186/s12883-026-05621-x\"\ncitekey: \"Haglin2026PD\"\ntags: [research/digest, nutrition, parkinson]\nmode: worker-batch\n---\n\n> [!summary] 30秒層\n> PD初診時，圍度、體組成與握力提供BMI以外的資訊；疲勞與肌力弱需要分開評估。\n> - 150名PD患者中111名有完整體測，39名因缺值排除；排除者較老且症狀更重。\n> - 起身困難24人，ICWI及FFMI低於87名正常者。\n> - 低握力66人，較高握力43人上臂圍、小腿圍與肌肉代理值低。\n> - 高疲勞27人，BMI反而較高；FSS樣本分母106。\n> 品質判斷另見同DOI品質評讀；本篇是內容整理。\n\n## 5分鐘層：全文地圖\n**要點**：把動作、疲勞與握力各自分組，再比較體組成，不能用BMI一項包辦。\n\np1–2摘要及背景交代營養與動作／非動作異質性；p2–3研究來源和Figure1；p3–4疾病、FSS、握力、體測、BIS與MNA；p4–7統計和Tables1–5；p7–9討論及Figure2；p10結論、經費、倫理、利益；p10–12共61項文獻。所有主文分批閱讀，首p1、中央p6–7、末p10–12核對；表文矛盾不自行修正。\n\n## 研究問題 / 背景\n**要點**：PD的疲勞不一定來自周邊肌力不足，營養與功能評估要分辨不同問題。\n\n作者研究初診、未用抗PD藥物者，詢問人體測量是否能區分起身／步態困難、疲勞程度、握力高低。背景連結肌肉儲備、營養風險與動作症狀，但本文不測營養介入療效，也不建立病程先後（Introduction）。\n\n## 方法\n**要點**：母隊列雖前瞻性，本篇分析基線橫斷面，111名完整體測個案。\n\n瑞典NYPUM在2004–2009年轉介疑似巴金森症，兩位專科醫師獨立診斷並逐年再評估，PD150人，111人完成全部體測；39人缺一項以上排除。排除已治療、次發性及基線失智。完整體測組中位年齡70.7(IQR13.4)，男性66、女性45；被排除者年齡78.6(IQR14.8)且UPDRS更高（p2–5）。\n\n- 動作：UPDRS-III起身與步態0=正常、1–4=困難。\n- FSS九題總分9–63；≥36分為高疲勞。\n- JAMAR右手握力兩次3–5秒；男性<37、女性<21 kgf分為低握力。此為本文研究門檻，不是台灣肌少症診斷標準。\n- 右側上臂圍MUAC、小腿最大圍Calf-C、四處皮褶、估算上臂肌面積AMA；BIS估去脂質量／身高平方FFMI及細胞內水／身高平方ICWI，作肌肉代理。\n- MNA評營養風險；體測由營養師完成、獨立於UPDRS評分。\n- 非正態用中位數(IQR)、Mann–Whitney、Spearman；邏輯斯模型按不同體測配對並調整年齡性別，完整個案無插補。\n\n## 主要發現\n**要點**：起身困難和低握力多與低肌肉代理值相關，疲勞呈另一種型態。\n\n|比較|症狀組|對照組|結果與位置|\n|---|---|---|---|\n|起身困難／正常|24|87|Table2|\n|FFMI kg/m²|13.9(2.3)|15.8(3.1)|p=.005|\n|ICWI L/m²|5.2(1.2)|6.4(.7)|p<.001|\n|體脂%|42.5(7.2)|40.2(9.8)|p=.024|\n|高FSS／低FSS|27|79|Table3|\n|BMI kg/m²|27.9(3.8)|25.4(5.7)|p=.039|\n|小腿圍cm|37.5(5.0)|35.8(4.1)|p=.045|\n|UPDRS-II|10(4)|8(5)|p<.001|\n|低HGS／高HGS|66|43|Table3|\n|上臂圍cm|30(4)|32(4)|p=.007|\n|小腿圍cm|35.5(4.4)|37(4.8)|p=.049|\n|FFMI kg/m²|14.9(3.08)|16(3.2)|p=.036|\n|ICWI L/m²|5.7(1.7)|6.4(1.6)|p=.004|\n\n括號皆IQR，不是SD。FSS／HGS各有不同有效分母，不能全寫111。步態困難67人、正常44人；其小腿圍35.5與37.0 cm、p=.050，年齡72.4與65.6、p=.003（Table2）。\n\nTable5按模型呈條件關聯：BMI+ICWI模型的起身困難BMI OR1.37（CI1.09–1.72），ICWI OR.10（.03–.35）；換BMI+Calf-C模型，BMI OR1.03，p=.765；換BMI+FM%，BMI OR.908，p=.215。高FSS在BMI+TSF模型BMI OR1.29（1.06–1.58），p=.013。低握力在BMI+MUAC模型MUAC OR.64（.461–.888），p=.008；BMI+AMA模型AMA OR.65（.48–.88），p=.006。這些不是營養介入效果或已外部驗證預測。\n\nMNA與MUAC、ICWI、FFMI等有相關，作者將其視為營養及功能評估互補資訊（Figure2）。本文無隨訪事件、無營養介入、沒有改善症狀的因果效果。\n\n## 重要圖表重述\n**要點**：Figure1解釋人數流失；Tables1–5比圖示更適合核對實際估計。\n\nFigure1呈轉介、診斷、排除與完整測量。Table1為人口與體組成；Table2為步態／起身；Table3為疲勞／握力；Table4相關；Table5不同組合的迴歸。Figure2以示意連線整理MUAC／Calf-C與營養、肌肉及功能，不代表因果路徑。Table4與文字的年齡／起身相關值、步態符號有矛盾，Table2性別加總與列n、Table5圍度mm／方法cm也不一致；未取得作者原始資料，不能替作者改值。\n\n## 臨床意義 / 怎麼用\n**要點**：BMI、營養風險、圍度、握力、起身與疲勞應合看，研究門檻不能直接轉為處方。\n\n可提醒初診PD營養評估納入體重變化、MNA、MUAC、Calf-C及功能。BMI正常不保證肌肉儲備足夠；疲勞與測得握力不同。不能依此研究推論補蛋白、補水或減脂會改善PD，也不能以圍度單獨診斷肌少症。晚期、已用藥、其他族群適用性未確立。\n\n## 限制與作者聲明\n**要點**：完整個案排除偏向較老重症者，限制推廣及方向推論。\n\n作者承認小樣本、橫斷面；另有39/150缺失選擇、不同有效分母、多次比較／模型不穩、代理測量水合假設與二分連續變數。文末基金支持來自Promobilia、Swedish Parkinson Foundation及NEURO Sweden，作者稱基金未參與研究決策；無利益衝突聲明，資料因隱私受限。未查作者背景或外部勘誤，不能說無更正。\n\n## 與既有認知的對照\n**要點**：同DOI已完成品質評讀提醒「關聯」與「可用預測」之間尚有距離。\n\n本輪檢索／讀取同run Haglin2026-PD-review.md，沿用同一來源SHA。品質評讀指出BMI的模型依賴與缺失選擇，補足本文使用predict字眼的限制；未對未取得的外部vault筆記聲稱更新。\n\n## 概念 / 名詞整理\n**要點**：肌肉量代理、肌力、主觀疲勞是不同面向。\n\nFFMI是去脂質量指數；ICWI是細胞內水指數，受方程與水合影響。MUAC包含肌肉及脂肪，不能等同純肌肉量。HGS測握力；FSS測主觀疲勞對生活影響。OR是條件勝算關聯，不是未來發生風險或介入因果效果。\n\n## 自我測驗\n**要點**：先問分母、測量意義與推論範圍。\n\n> [!question]- Q1：為什麼不能把本篇叫前瞻性預測研究？\n> 雖母隊列有追蹤，本篇只分析初診基線；未給外部驗證、AUC或校準。\n\n> [!question]- Q2：39名缺測者為何影響解讀？\n> 佔150人的26%，較老且症狀重；完整個案可能低估最脆弱者的問題。\n\n> [!question]- Q3：BMI正常可排除低肌肉量嗎？\n> 不能；起身困難者FFMI13.9、ICWI5.2，均低於對照，但BMI粗比較不顯著。\n\n> [!question]- Q4：疲勞高等同握力弱嗎？\n> 不等同；高FSS組BMI及小腿圍較高，低握力組圍度與肌肉代理值較低。\n\n> [!question]- Q5：男性37／女性21 kgf能當所有人肌少症診斷值嗎？\n> 不能，那是本篇研究分組界值，不能替代本地診斷共識。\n\n## Reference\n**要點**：來源是本篇完整PDF與圖表，沒有重製原圖。\n\nHåglin等，BMC Neurology 2026;26:751，doi:10.1186/s12883-026-05621-x。https://doi.org/10.1186/s12883-026-05621-x 。12頁主文／聲明／參考文獻完整分批讀取；首p1、中p6–7、末p10–12核對。61項外部引用未逐篇核驗。",
+      "cards": [
+        {
+          "title": "PD營養功能理解",
+          "question": "本篇為何不是前瞻性預測驗證？",
+          "answer": "分析基線橫斷面，未給外部驗證、AUC或校準。",
+          "tags": [
+            "nutrition",
+            "PD"
+          ]
+        },
+        {
+          "title": "PD營養功能理解",
+          "question": "39名缺測者排除為何重要？",
+          "answer": "佔26%，較老且症狀更重，完整個案可能產生選擇偏差。",
+          "tags": [
+            "nutrition",
+            "PD"
+          ]
+        },
+        {
+          "title": "PD營養功能理解",
+          "question": "BMI正常能排除低肌肉儲備嗎？",
+          "answer": "不能，FFMI、ICWI與握力提供不同資訊。",
+          "tags": [
+            "nutrition",
+            "PD"
+          ]
+        },
+        {
+          "title": "PD營養功能理解",
+          "question": "FSS高等同握力低嗎？",
+          "answer": "不等同，主觀疲勞與客觀握力有不同體測關聯。",
+          "tags": [
+            "nutrition",
+            "PD"
+          ]
+        },
+        {
+          "title": "PD營養功能理解",
+          "question": "研究握力界值可直接套用診斷嗎？",
+          "answer": "不能，男性37女性21 kgf僅本篇分組界值。",
+          "tags": [
+            "nutrition",
+            "PD"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-19T13:45:10.684Z"
     }
   ]
 }
