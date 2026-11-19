@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T13:50:10.180Z",
+  "generatedAt": "2026-11-19T13:53:26.599Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -116483,6 +116483,77 @@
       "content": "---\ndoi: \"10.1177/22799036261495165\"\npmid: \"43048605\"\njournal: \"Journal of Public Health Research\"\nyear: 2026\nauthors: \"Mardiana Mardiana; Oktia Woro Kasmini Handayani; Eko Farida; Intan Zainafree; Safrina Oksidriyani; Safira Chairani Dimarti; Farida Dwi Rokhmah\"\nstudy_type: \"cross-sectional\"\nreview_depth: \"quick\"\n---\n\n> [!info] 品質快照\n> 兩據點橫斷面、立意抽樣71人（166名登錄者的42.8%）；改編Newcastle–Ottawa：高偏差風險。主要飲食－代謝關聯GRADE Very low。無前瞻分析註冊可供核對。\n> 結論：未檢出飲食品質／遵從與代謝關聯，不表示飲食無效；藥物未測、短期回溯與小樣本限制很大。\n\n## 全文結構與逐節閱讀\n\n1. Abstract／What this article adds：明確報未顯著及不能排除飲食重要性。\n2. Introduction五段：糖尿病與Prolanis背景、飲食管理障礙、AHEI/PDAQ、在地研究缺口、研究假說。\n3. Method／Sampling：2024年10–12月印尼Semarang兩基層中心，立意納入≥60歲、T2DM、Prolanis活動者；166登錄中71納入，95排除原因未逐項記錄。\n4. 各測量小節：標準人體測量及Omron BIA；PDAQ近7天九題；AHEI兩個非連續24小時回憶日；GPAQ身體活動；單次抽血HbA1c/FPG/血脂。\n5. Statistical Analysis：Pearson或Spearman、多個代謝結局backward stepwise，年齡性別與體測、血壓、活動等候選。小樣本資料驅動模型明確標探索；無多重比較校正。\n6. Results Tables1–3：人口與分數、飲食相關均弱且CI跨0、探索模型非飲食變數。\n7. Discussion：和既有文獻差異、臀圍敏感度分析與未測機轉、藥物及病程等混雜、樣本與測量限制。\n8. Conclusion／聲明／文獻：不將null當無效果；印尼研究資助、無利益衝突、資料受倫理限制。補充計分／STROBE兩檔未另取得，18項引文未逐篇核驗。\n\n## Summary\n\n✅ Full text reviewed：PMC主文52263字元、83段、有Methods／Results／Discussion，DOI精確匹配。全文以HTML節名定位，非只有摘要；source SHA由原acquisition保留。\n\n|指標|本研究數值|位置|\n|---|---|---|\n|人數／女性|71／43(60.6%)|Table1|\n|年齡|62.2±7.6歲|Table1|\n|AHEI／PDAQ|55.7±10.7／33.7±8.5|Table1|\n|HbA1c|7.5(IQR3.9)%|Table1|\n|FPG|116(IQR91)mg/dL|Table1|\n|總膽固醇／LDL|214.7±44.0／137.1±38.9 mg/dL|Table1|\n|AHEI與HbA1c|r−.03，CI−.26至.21，p=.81|Table2|\n|PDAQ與HbA1c|r−.14，CI−.36至.09，p=.24|Table2|\n|AHEI／PDAQ與FPG|r−.03／−.13，p=.78／.27|Table2|\n\n兩個飲食分數與所有代謝標記均p>.05；相關範圍−.15至.10。文中估71人80%power僅可偵測約|r|≥.33，不足排除小且可能重要的關聯。HbA1c反映較長期間而PDAQ7天、AHEI兩天，有暴露－結局時間尺度不匹配。\n\n最終stepwise未保留飲食變數，不代表飲食效應經充分估計為0。HbA1c最終模型R²=.207，年齡B−.084（CI−.153至−.015）、臀圍B−.104（−.161至−.047）；其他模型R²=.049–.134。臀圍與BMI同放時臀圍B−.159、BMI B+.173，顯示條件估計依模型而變；VIF<2不能證明因果或沒有模型選擇偏差（Table3、Discussion）。\n\n## 白話導讀\n\n> [!abstract] 一句話：這份小型印尼糖尿病門診資料沒有找到明確飲食－血糖／血脂關聯，研究本身不足以否定飲食照護。\n> 為什麼做：Prolanis慢性病計畫希望改善自我照護，研究者想同時看飲食品質和遵從性。\n> 主體：71名≥60歲T2DM者，沒有隨機分組或介入對照。AHEI平均55.7、PDAQ33.7；與HbA1c的相關CI皆跨0。藥物、病程與社經未系統紀錄，兩天飲食資料也不能代表長期習慣。\n> 所以呢：可作在地描述與後續研究假說，不能因此停止營養治療、把臀圍增加當降糖方法，或說臨床指標比飲食更重要。\n\n## Critical Appraisal\n\n|領域|判定|依據|\n|---|---|---|\n|選擇|高風險|兩中心立意樣本，僅42.8%登錄者，95人排除原因未逐項保存|\n|混雜|高風險|降糖藥、胰島素、statin、病程、吸菸等未測，治療可強烈影響結局|\n|暴露測量|有疑慮|PDAQ翻譯但本樣本未評信度；改編AHEI未在此族群大型驗證，兩日回憶有誤差|\n|結局|較佳但有疑慮|同一認證實驗室、技師盲於飲食；未報獨立CV及單次測量誤差|\n|分析／報告|高風險|71人多候選、多結局、stepwise／無多重性校正，未完整列飲食調整後係數及CI|\n\n因果評讀：嚴重病況／治療可能促使改變飲食（反向因果、confounding by indication），入Prolanis且可完成測量也可能造成選擇；一次測量無時間先後。不是immortal-time問題；不應把R²／VIF當因果驗證。年齡≥60但平均62.2、SD7.6需原始分布核對，不能自行改納入年齡；原始資料未公開取得。\n\nGRADE：描述性觀察關聯起始Low，偏差風險serious（未測用藥／選樣）、不精確serious（CI跨0且小樣本），無升級；單篇無法評跨研究不一致／出版偏差，不額外降級。grade_judge實算Very low。MCID未定、非介入，ARR/NNT不適用。未顯著不是等效；步驟淘汰不能取代預設調整模型。\n\n## Inference / spin check\n\n作者結論已明確警示不能否定飲食；本評讀general結論由association支持，argdown檢查通過。臀腿脂肪保護機轉來自外部文獻，本研究沒有直接量胰島素敏感性或脂肪分布，不能寫成機轉證實。沒有外部引用、期刊與作者深入查核，未做勘誤搜尋，不宣稱無更正。\n\n## Clinical Application\n\n維持個別化營養評估；用反覆飲食紀錄並同時核對藥物、病程、依從、活動、社經，才較能理解血糖與血脂。這篇不提供新治療劑量或飲食介入效果，不能據null結果降低飲食照護的重要性。\n\n## Limitations\n\n作者承認小樣本、橫斷面、兩日回憶誤差、用藥與其他重要混雜缺失、Prolanis適用性與stepwise不穩。補充計分表／STROBE未獨立核驗，完整調整飲食估計未列；無法重算原始模型。\n\n## Resource\n\nMardiana等，Journal of Public Health Research 2026;15(4)，DOI：https://doi.org/10.1177/22799036261495165 。PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC13776049/ 。原HTML CC BY-NC4.0，本文為自寫品質評論，不轉載全文／原圖。首Abstract身份與71人、中Tables1–3數字、末限制與聲明核對；完整主文來源與SHA保留。",
       "cards": [],
       "completedAt": "2026-11-19T13:49:30.315Z"
+    },
+    {
+      "id": "doi:10.1177/22799036261495165:digest",
+      "paperId": "doi:10.1177/22799036261495165",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Associations of diet quality and dietary adherence with metabolic control in adults with type 2 diabetes: A cross-sectional analysis.",
+      "authors": "Mardiana Mardiana, Oktia Woro Kasmini Handayani, Eko Farida, Intan Zainafree, Safrina Oksidriyani, Safira Chairani Dimarti, Farida Dwi Rokhmah",
+      "journal": "Journal of Public Health Research",
+      "year": "2026",
+      "doi": "10.1177/22799036261495165",
+      "abstract": "This study examined whether diet quality and dietary adherence were associated with metabolic biomarkers among older adults with type 2 diabetes mellitus (T2DM) enrolled in Indonesia's Prolanis programme, after accounting for measured anthropometric and demographic covariates. A cross-sectional study included 71 purposively sampled adults aged ≥60 years with T2DM at two primary healthcare centres in Semarang, Indonesia (October-December 2024). Diet quality and dietary adherence were assessed using a modified Alternative Healthy Eating Index 2010 (AHEI-2010) and the Perceived Dietary Adherence Questionnaire (PDAQ). Outcomes included HbA1c, fasting plasma glucose, and lipid parameters. Exploratory backward stepwise linear regression models included the dietary variables and measured demographic, anthropometric, blood pressure, and physical activity covariates. The study did not detect statistically significant associations between diet quality or dietary adherence and any metabolic biomarker (all p > 0.05). In exploratory models, age and hip circumference were inversely associated with HbA1c (R2 = 0.207). Other retained variables were age for fasting plasma glucose (R2 = 0.062), BMI for total cholesterol (R2 = 0.049), sex for HDL cholesterol (R2 = 0.132), waist-to-hip ratio and physical activity for triglycerides (R2 = 0.078), and systolic blood pressure and physical activity for the cholesterol/HDL ratio (R2 = 0.134). All variance inflation factors were below 2.0. In this Prolanis-based cross-sectional sample, the study did not detect associations between diet quality or dietary adherence and glycaemic or lipid biomarkers after adjustment for measured covariates. This finding should not be interpreted as evidence that dietary factors are unimportant. The modest sample, cross-sectional dietary assessment, measurement error, and unmeasured treatment-related confounding may have limited the ability to detect associations.",
+      "legalFullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13776049/",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43048605/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "clinical nutrition technology",
+        "nutrition and dietary pattern",
+        "precision nutrition"
+      ],
+      "noteTitle": "印尼高齡糖尿病飲食與代謝：內容整理與理解卡",
+      "content": "---\ndoi: \"10.1177/22799036261495165\"\ncitekey: \"Mardiana2026Diet\"\ntags: [research/digest, diabetes, nutrition]\nmode: worker-batch\n---\n\n> [!summary] 30秒層\n> 印尼71名T2DM高齡者的飲食分數與代謝標記未見明確相關，但研究不能否定飲食照護。\n> - 166名Prolanis登錄者中71名符合條件納入；立意樣本。\n> - AHEI55.7±10.7，PDAQ33.7±8.5；HbA1c7.5(IQR3.9)% 。\n> - 與HbA1c相關：AHEI r−.03、PDAQ r−.14，CI皆跨0。\n> - 藥物、病程與社經未系統記錄；兩天飲食回憶不能代表全部長期暴露。\n> 品質判斷另見同DOI品質評讀；此為內容整理。\n\n## 5分鐘層／全文地圖\n**要點**：方法重點是兩種飲食工具、單次生化及探索性迴歸；null結果需配合限制讀。\n\nAbstract及What this article adds先警示不否定飲食；Introduction五段鋪陳Prolanis背景與研究缺口；Method依抽樣、體測、PDAQ、AHEI、GPAQ、生化、統計分節；Results Tables1–3報數字；Discussion談臀圍敏感度、未測機轉、混雜及樣本限制；Conclusion及聲明保留不確定；18項參考文獻與兩份補充檔入口，補充檔未獨立取得。\n\n## 研究問題 / 背景\n**要點**：同一群印尼慢病計畫參與者，飲食品質與近一週遵從性是否對應血糖、血脂？\n\nProlanis為基層慢性病管理，飲食照護是背景核心。研究假說為較高飲食分數有較佳代謝表現；這是橫斷面關聯分析，沒有營養介入、隨機分派、前後追蹤或療效比較（Introduction）。\n\n## 方法\n**要點**：2024年10–12月兩據點，≥60歲T2DM、可完成訪談及測量者。\n\nSemarang的Bulu Lor與UNNES中心166名登錄者中71納入（42.8%），95人的個別排除原因未系統記錄。採立意抽樣，研究族群為Prolanis活動成員，不代表全部糖尿病患者（Sampling method）。\n\nPDAQ九題問近7天，0–63分，0–31低遵從、32–63高遵從；翻譯為印尼文，本樣本未獨立測內部一致性。改編AHEI-2010有11成分，每項0–10、總分0–110，≥80視為好；依印尼參照調整部分切點，以一個平日和一個週末日的非連續24小時回憶平均換算。它與PDAQ的時間尺度及概念不同，不可互換。\n\n訓練人員量BMI、腰臀圍與Omron BIA；GPAQ換MET-min/week。空腹8–10小時，單一認證實驗室測HbA1c（HPLC）、FPG、血脂；技師不知飲食資料，未報獨立分析CV（Measurement小節）。\n\n依常態性用Pearson或Spearman；各代謝結局線性迴歸，飲食分數及年齡、性別、體測、血壓、活動為候選，backward stepwise依p值淘汰。作者明確標探索／可能過擬合；未作多重性校正。VIF<2指保留變數未見明顯共線，不代表因果成立。\n\n## 主要發現\n**要點**：飲食相關均弱且區間不精確，最終模型選出的非飲食因子也只是假說。\n\n|項目|數值|位置|\n|---|---|---|\n|女性／男性|43／28|Table1|\n|年齡|62.2±7.6歲|Table1|\n|BMI|25.8(IQR4.6)|Table1|\n|AHEI／PDAQ|55.7±10.7／33.7±8.5|Table1|\n|HbA1c|7.5(IQR3.9)%|Table1|\n|FPG|116(IQR91)mg/dL|Table1|\n|總膽固醇／HDL／LDL|214.7±44.0／44.1±9.9／137.1±38.9 mg/dL|Table1|\n|TG|137(IQR86)mg/dL|Table1|\n|AHEI－HbA1c|r−.03，CI−.26至.21，p=.81|Table2|\n|PDAQ－HbA1c|r−.14，CI−.36至.09，p=.24|Table2|\n|AHEI－FPG|r−.03，CI−.27至.21，p=.78|Table2|\n|PDAQ－FPG|r−.13，CI−.36至.10，p=.27|Table2|\n|AHEI－LDL|r.10，CI−.14至.32，p=.41|Table2|\n|PDAQ－LDL|r−.002，CI−.24至.23，p=.99|Table2|\n\n其餘飲食－血脂相關也均p>.05，全部相關範圍−.15至.10。作者估n71在80%power／雙側α.05約能偵測|r|≥.33；小相關難被檢出，不能把CI跨0說成不存在關係。\n\nTable3最終探索模型：HbA1c R²=.207，年齡B−.084（CI−.153至−.015，p=.020）及臀圍B−.104（−.161至−.047，p=.001）；FPG年齡B−2.056（−3.975至−.137），R²=.062；總膽固醇BMI B−2.770（−5.132至−.408），R²=.049；HDL女性編碼B7.768（3.224至12.312），R²=.132；TG保留WHR及活動，R²=.078；Chol/HDL保留SBP及活動，R²=.134。這些模型的飲食變數被淘汰，不能因此說非飲食較重要。\n\n敏感度分析Model C同入臀圍、BMI、WHR，臀圍B−.159（−.233至−.084）、BMI B+.173（.018至.329）、WHR淘汰；模型間一致／低VIF不能排除樣本偶然與選模偏差（Discussion）。\n\n## 重要圖表重述\n**要點**：Figure1交代樣本、Table1描述人群、Table2是主飲食問題，Table3是探索。\n\nFigure1列166到71流程，但95人個別原因不完整。Table1不要把中位數IQR當平均SD；HbA1c NGSP與IFCC是同一測量不同單位，不能算兩個獨立結局。Table2每個飲食分數與各標記列r、CI、p，全部跨0。Table3不是預設全部調整係數表，只列選模保留變項；未提供可重算原始資料。\n\n## 臨床意義 / 怎麼用\n**要點**：結果支持改進測量與完整照護研究，不能用來撤除飲食管理。\n\n可在門診把飲食回憶、遵從、用藥／病程及活動一起核對；血糖與血脂受多因素影響。兩天攝取與近7天遵從未必對應HbA1c較長的時間窗。臀圍的負向關聯不是「增加臀圍降糖」建議，也沒有顯示活動提高會有害；模型可能受未測因素與選樣影響。\n\n## 限制與研究聲明\n**要點**：小樣本、橫斷面、測量誤差、藥物缺失都能遮蔽真實關聯。\n\n作者承認藥物（降糖、胰島素、statin等）、病程、吸菸／社經等未測；PDAQ在本樣本未測信度，改編AHEI未在該高齡T2DM族群大型驗證；兩次回憶有日內變異。未校正多重比較、stepwise易不穩。資料受倫理限制，研究獲印尼DRTPM資助，作者稱資助者未干預及無利益衝突（末段聲明）。\n\n## 與既有認知的對照\n**要點**：同DOI品質評讀強調null不等於無效，與本內容整理一致。\n\n本輪已檢索／讀取同run Mardiana2026-review.md，沿用相同HTML SHA。品質評讀保留藥物混雜、時間尺度與選模限制；沒有從未取得外部vault推論任何已更新知識。\n\n## 概念 / 名詞整理\n**要點**：不同工具與模型指標的意義要分清。\n\nAHEI評飲食品質；PDAQ評自覺遵從；HbA1c反映糖化狀態。r是線性／秩相關，CI跨0不是等效。R²是模型樣本內解釋變異，不是治療效果或因果比例。VIF低不能排除未測混雜、選模偏差與逆因果。\n\n## 自我測驗\n**要點**：用「未檢出」與「排除效果」的差異檢查理解。\n\n> [!question]- Q1：p>.05可以說營養治療無效嗎？\n> 不能，這是小型橫斷面、非介入，CI寬且藥物等混雜未測。\n\n> [!question]- Q2：兩次飲食回憶為什麼可能削弱關聯？\n> 日間變異與回憶誤差，且未充分捕捉與HbA1c對應的長期攝取。\n\n> [!question]- Q3：VIF<2代表模型因果可信嗎？\n> 不代表，只是保留變數的共線診斷，不能補上藥物缺失或逆因果。\n\n> [!question]- Q4：飲食變數被stepwise淘汰有何意思？\n> 只是在這批資料和選模規則下未保留，不是效應已充分證明為零。\n\n> [!question]- Q5：臀圍負相關可以變成降糖處方嗎？\n> 不能，可能模型／選樣效應，未測脂肪機轉且無介入。\n\n## Reference\n**要點**：所有數字來自本篇主文、Table1–3及Discussion，沒有重製原圖。\n\nMardiana等，J Public Health Res 2026;15(4)，doi:10.1177/22799036261495165。https://pmc.ncbi.nlm.nih.gov/articles/PMC13776049/ 。CC BY-NC4.0來源，本文為原創知識整理；首摘要、中Table1–3、末限制與聲明核對，補充兩檔未另核驗。",
+      "cards": [
+        {
+          "title": "飲食null結果理解",
+          "question": "p>.05可以說營養治療無效嗎？",
+          "answer": "不能，非介入且CI寬、未測藥物等混雜。",
+          "tags": [
+            "nutrition",
+            "T2DM"
+          ]
+        },
+        {
+          "title": "飲食null結果理解",
+          "question": "兩次飲食回憶有何限制？",
+          "answer": "日間變異和回憶誤差，未必對應HbA1c長期暴露。",
+          "tags": [
+            "nutrition",
+            "T2DM"
+          ]
+        },
+        {
+          "title": "飲食null結果理解",
+          "question": "VIF低是否代表因果可信？",
+          "answer": "否，只評共線，不能排除未測混雜與選模偏差。",
+          "tags": [
+            "nutrition",
+            "T2DM"
+          ]
+        },
+        {
+          "title": "飲食null結果理解",
+          "question": "stepwise淘汰飲食分數代表甚麼？",
+          "answer": "僅該樣本規則下未保留，不是證明效應為零。",
+          "tags": [
+            "nutrition",
+            "T2DM"
+          ]
+        },
+        {
+          "title": "飲食null結果理解",
+          "question": "臀圍負相關能轉成治療建議嗎？",
+          "answer": "不能，未測機轉與介入，屬探索性關聯。",
+          "tags": [
+            "nutrition",
+            "T2DM"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-19T13:52:48.512Z"
     }
   ]
 }
