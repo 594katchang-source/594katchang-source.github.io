@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T13:53:26.599Z",
+  "generatedAt": "2026-11-19T13:57:40.206Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -116554,6 +116554,33 @@
         }
       ],
       "completedAt": "2026-11-19T13:52:48.512Z"
+    },
+    {
+      "id": "doi:10.3390/jcm15218637:review",
+      "paperId": "doi:10.3390/jcm15218637",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Clinical Assessment and Exercise Rehabilitation of Sarcopenia in Cardiovascular Disease.",
+      "authors": "Soon Il Jeong, Un Hyo Baek, Hyun Seok Bang, Dae Yun Seo",
+      "journal": "Journal of Clinical Medicine",
+      "year": "2026",
+      "doi": "10.3390/jcm15218637",
+      "abstract": "Sarcopenia complicates cardiovascular disease, but diagnostic definitions and outcome selection can substantially alter the interpretation of exercise rehabilitation. This critical review examines how these differences affect the translation of muscle biology into clinical assessment and treatment, with heart failure as the principal clinical setting. Targeted literature retrieval prioritized recent consensus statements, clinical studies, and intervention trials, while experimental evidence was considered separately. Human biopsy studies associate inflammatory and mitochondrial abnormalities with muscle dysfunction; causal manipulation of muscle-derived signaling remains predominantly experimental. European and Asian consensus frameworks differ in their thresholds and the diagnostic role of physical performance. These distinctions matter because trials frequently enroll patients with frailty or exercise intolerance without confirming sarcopenia. Resistance and combined interventions improve selected measures of strength or physical performance, whereas muscle quantity, diagnostic status, and clinical events may respond differently. A small coronary artery disease trial provides direct, short-term evidence in confirmed sarcopenia, but durability remains uncertain. Rehabilitation should therefore link an explicit diagnostic framework to individualized exercise, nutritional assessment, and repeated measurement of the intended outcomes. Future trials should establish whether improvements in defining muscle components persist and translate into sustained independence and fewer clinical events.",
+      "legalFullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13763716/",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43030779/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "chronic disease nutrition",
+        "design:consensus",
+        "guideline and consensus",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "心血管疾病肌少症評估與復健：全文品質評讀",
+      "content": "---\ndoi: \"10.3390/jcm15218637\"\npmid: \"43030779\"\njournal: \"Journal of Clinical Medicine\"\nyear: 2026\nauthors: \"Soon Il Jeong; Un Hyo Baek; Hyun Seok Bang; Dae Yun Seo\"\nstudy_type: \"narrative critical review\"\nreview_depth: \"quick\"\n---\n\n> [!info] 品質快照\n> 敘述性關鍵回顧，117項參考文獻；不是系統性回顧、沒有新病人樣本或統合效果。SANRA領域定性評讀：主題、目標、證據分層較清楚，搜尋完整性與正式偏差評估有限，未計總分。\n> GRADE：未評級；本文未對各結局建立系統性證據體，不能給整篇High／Low作療效保證。作者提出流程尚未前瞻驗證。\n\n## 全文結構與逐節閱讀\n\n1. Introduction及Scope：以心衰為主，區分確診肌少症與衰弱／運動不耐，診斷框架與結局決定可推論範圍。2026/10/27更新PubMed，限2021–2026英文、五類定向查詢，保留較早基礎文獻；非窮盡，無正式RoB／GRADE。\n2. §2.1：人體炎症轉錄與動物萎縮、纖維化分開；§2.2粒線體與運動能力關聯，訓練分子改變不必然中介功能；§2.3 SIRT3／LOXL2、musclin等的治療操弄多為動物。\n3. §3.1及Table1：GLIS概念、EWGSOP2與AWGS操作標準不同，不能互換；共同隊列後續報告不能算獨立複驗。§3.2 BIA／DXA、CT／超音波及水合狀態；§3.3循環標記僅輔助，診斷／預後／反應監測各異。\n4. §4.1–4.3及Table2：有氧、阻力、多成分試驗按確診條件與結局分開；短期功能改善不等於肌肉量保留或事件降低。\n5. §4.4：營養風險治療與肌少症不同；蛋白／HMB及減重證據多間接，不建立通用補充品處方。§4.5：完成劑量、衰弱、交通／認知障礙及遠距可近性；出席關聯不能當隨機劑量反應。\n6. §5.1–5.3：作者整合照護與12週再評僅實務提案；未確立最佳週期。未來研究需同一診斷、持續追蹤、區分營養與運動貢獻；作者承認單資料庫英文選擇、無系統評級與共享隊列。\n7. §6與聲明／References：重申肌力、量、功能、事件分別測量；無外部經費；一位作者任專刊Guest Editor；使用ChatGPT-6協助語言／文獻整理／圖設計並由作者負責。117項引文未逐一原文核驗，補充S1/S2未另取得。\n\n## Summary\n\n✅ Full text reviewed：完整PMC HTML已分批逐節閱讀，主文含Tables1–2與Figures1–3圖說、限制及聲明；原source SHA保留。不是從摘要生成；未把表列的外部研究視為本輪已讀原始試驗。\n\n|回顧所報試驗|人口與比較|數值／解讀|位置|\n|---|---|---|---|\n|CAD pilot|40名≥60歲、低肌量+低握力，12週阻力對常規|SPPB g=.637、HGS g=.552；未見肌量顯著效益，結束後3月組間功能益處未證明|§4.2、Table2|\n|Brubaker|88名穩定肥胖HFpEF，20週熱量限制+有氧±阻力|膝伸6.4 Nm（CI−.1至12.9，p=.053）；單位肌面積力量+.07（.00–.13）；肌量差−.1kg（−1.0至.8），兩組肌量均降|§4.2|\n|REHAB-HF|349名急性HF住院長者，多成分對常規|3月SPPB +1.5（.9–2.0）；未顯著減6月再住院／死亡，沒量肌肉量|§4.3|\n|OptimEx|180名穩定HFpEF，間歇／持續訓練對建議|3月peak VO2 +1.5（.4–2.7）／+2.0（.9–3.1）mL/kg/min，點估低於預設MCID2.5；12月組間不顯著|§4.1|\n|CICU trial|120人，早期復健對常規|SPPB中位差1（0–2），p=.16；6月再住院HR1.00（.51–1.99），不是等效|§4.3|\n|EFFORT-HF|645名營養風險住院HF，個別營養對標準餐|30日死亡8.4% vs14.8%，調整OR.44（.26–.75）；非單獨蛋白效果、非運動試驗、未要求肌少症|§4.4|\n\n上述數字是本回顧轉述，並非本輪獨立原試驗重算。不同人口、比較、時間、mean／median估計不能直接排名或合併。CAD標準化效應不能直接判SPPB是否超過1分MCID。REHAB-HF多篇次分析是同一試驗；OptimEx biopsy是母試驗子研究，不是獨立複驗。\n\n## 白話導讀\n\n> [!abstract] 一句話：心血管復健可改善某些功能，但肌力變好不保證肌肉增加、肌少症消失或住院死亡減少。\n> 為什麼做：研究常用不同肌少症診斷，甚至只納入衰弱或運動不耐，卻把結果推到所有肌少症患者。\n> 主體：機轉分人體關聯與動物操弄；診斷分概念與操作框架；介入分直接確診和間接族群；營養分補足缺乏與減重保肌。人體有氧能力改善、阻力力量改善與營養事件效果，回答各自問題。\n> 所以呢：用明確框架、同一測量方法、水合與穩定狀態做前後追蹤。文中12週再評和整合流程是作者提案，不能當已驗證完整照護策略。\n\n## Critical Appraisal\n\n|SANRA領域|定性判斷|依據|\n|---|---|---|\n|重要性／目標|較清楚|聚焦診斷、納入族群及結局間錯置|\n|搜尋說明|部分充分|列PubMed更新日期、英文時間窗與五題；非全面搜尋，完整策略在未另取得的S1|\n|引用對位|部分可追溯|表列試驗與段落引用具體；未獨立核驗117來源，不能判整體引用準確|\n|科學推理|較好|人體／動物、觀察／介入、確診／間接、共同隊列及維持效果均分辨|\n|數據呈現|較具體|有CI、MCID與中性結果；表2含不同估計量與人口，不能形成直接比較|\n|選擇與反證|仍有限|承認無系統RoB與certainty，選文權重／未納入負向研究不可完全核對|\n\n不套AMSTAR-2或PRISMA當作本文自稱系統回顧；其方法明言非系統。GRADE未計算，因無本篇系統性分結局證據體；被引乳清回顧的low／very low是原作者評級，不等於此回顧已正式評級。敘述性材料可教概念，但不足單獨建立新處方或比較排名。\n\n## Inference and spin check\n\n本文最有價值的推理是避免跨層級：小鼠musclin治療不等於人類療效；SPPB改善不等於肌肉量恢復；VO2改善不等於死亡下降；出席率關聯有健康選擇。以general結論「功能結局與診斷恢復分開」建立argdown，模型為間接／次分析前提，沒有宣稱硬事件療效。生物標記AUC約.7亦受低盛行率與參照定義影響，不能取代完整診斷。\n\n## Clinical Application\n\n可將本文用於團隊討論：先寫使用的診斷框架及每個需量成分，記錄心血管穩定／充血狀態，再設定力量、肌量、功能或營養風險各自目標。BIA／DXA受水合影響，去充血後體重／瘦體重變化不自動視為真正增減肌。文中阻力20–30%1RM起始、12週／20週例子屬特定試驗人口，不能直接套急性HF或重度衰弱；處方需專業評估。本文未建立補充品通用劑量，也未驗證減重藥保肌。\n\n## Limitations\n\n單資料庫、英文及定向選文有漏查與選擇偏差；無正式RoB／GRADE／統合。多研究來自共同隊列，診斷與結局異質，多數非明確肌少症患者。完整流程與時間點尚未前瞻驗證。補充S1/S2未核對，未進行外部期刊／作者／勘誤查核，不寫成無更正。作者公開AI協助及Guest Editor角色需保留透明，不能單因其存在判定研究不實。\n\n## Resource\n\nJeong等，J Clin Med 2026;15(21):8637，doi:10.3390/jcm15218637；PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC13763716/ 。CC BY完整HTML；首摘要／Scope、中Tables1–2與§4、末§5.3／6／利益聲明核對；本文為自寫評讀，未重製原圖或全文。",
+      "cards": [],
+      "completedAt": "2026-11-19T13:57:03.651Z"
     }
   ]
 }
