@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T13:33:50.723Z",
+  "generatedAt": "2026-11-19T13:38:14.883Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -116293,6 +116293,75 @@
       "content": "---\ndoi: \"10.3389/fnut.2026.1932350\"\npmid: \"43048110\"\njournal: \"Frontiers in Nutrition\"\nyear: 2026\nauthors: \"Perna B; Gonçalves C; Brito-Costa A; Policarpo S\"\nstudy_type: \"cross-sectional\"\nreview_depth: \"quick\"\n---\n\n> [!info] 品質快照\n> 設計：單中心橫斷面研究；135名成人。改編 Newcastle–Ottawa 領域評讀：整體偏差風險高，未計總分。GRADE：Very low（主要飲酒與臨床肥胖關聯；grade_judge.py 實算）。非介入試驗；未報告前瞻性分析計畫。\n> 一句話：調整後未檢出獨立關聯，不能證明飲酒沒有風險，也不能用粗關聯推論因果。\n\n# Key Points\n\n## 全文結構與逐節閱讀\n\n1. 第1節（p2–3）：從肥胖、飲酒與肝臟風險背景，提出臨床／臨床前期肥胖的生活行為比較問題；背景文獻不是本研究直接測量結果。\n2. 第2.1–2.3節（p3）：葡萄牙 Médio Tejo 肥胖門診首次就診成人，連續篩檢、自願同意；排除孕婦及無法完成知情同意等情形。\n3. 第2.4.1節（p3–4）：BIA與身體測量，醫師依病歷器官功能障礙或年齡校正日常功能限制分類；並未系統收集全部器官生化指標。\n4. 第2.4.1.2節（p4）：營養師訪談86項FFQ，以食物／營養素每千大卡密度計算13項HEI。\n5. 第2.4.1.3節（p4）：FFQ換算飲酒克數；AUDIT-C達門檻才續全量AUDIT；其危險飲酒分類與飲酒克數是不同測量。\n6. 第2.4.2節（p4–5）：常態性檢查、兩組比較、Spearman/Pearson相關，線性與邏輯斯迴歸校正年齡、性別、BMI。\n7. 第3.1節／Tables1–5（p5–8）：飲酒者65人；粗相關及飲酒者組內差異，經校正後未達顯著。\n8. 第3.2節／Tables5–8與Figure1（p7–11）：兩組HEI相近；蛋白質按目前體重或熱量百分比有小差異，按理想體重不顯著。\n9. 第4節（p7、9–12）：作者把粗關聯與調整後結果分開；討論營養與飲酒篩檢，部分機轉來自外部文獻而非本研究。\n10. 第4.1節（p12）：承認自陳、橫斷面、殘餘混雜、器官功能資料不全、自願參與與單中心限制。\n11. 聲明／參考文獻（p12–14）：資料因隱私限制；有倫理同意；作者聲明無研究經費與商業財務利益衝突。62項參考文獻未逐篇驗證，quick模式不作廣泛引用查核。\n\n## Summary\n\n✅ Full text reviewed：主文、Tables1–8、Figure1所在頁與聲明／參考文獻已逐段閱讀抽文；未另取得補充FFQ檔。全文PDF身份DOI匹配、14/14頁原生文字可讀。\n\n- 共135人，女性93人（68.9%），平均51±14歲、BMI38.2±5.6。臨床前期肥胖48人，臨床肥胖87人；組別平均年齡44與56歲，BMI36.8與39.0，顯示比較時需重視混雜（Tables1–2）。\n- 65人自陳飲酒，12人超過研究預設參照值；18.5%分母為飲酒者，8.9%分母為全體135人（p5–6）。這些參照值不能當成安全飲酒保證。\n- 飲酒者中，臨床前期 vs 臨床肥胖飲酒中位數1.9 vs 11.1 g/day，p=.004；含不飲酒者時兩組中位數皆0、p=.827（Table5）。不能省略分母而說全部臨床肥胖患者飲酒較多。\n- 校正年齡、性別、BMI後，飲酒與臨床肥胖OR=.990，95%CI .969–1.011，p=.345；腰臀比標準化β=.116（CI −.044至.277），p=.154；體脂β=−.013（CI −.133至.107），p=.833（p5–6）。文章未充分清楚交代迴歸分析樣本分母與缺值處理，亦應核對CI是否與標準化係數同尺度。\n- HEI平均49.3 vs49.5，p=.949；能量中位數2205 vs2174 kcal，p=.836；纖維16.7 vs17.0 g，p=.927（Tables5、7）。差異不顯著不能視為等效。\n- 蛋白質目前體重校正1.0 vs.9 g/kg，p=.046；理想體重校正皆1.6，p=.092；熱量百分比18.5 vs17.2，p=.020。多重比較且未見校正／預設主要結局，屬探索結果（Table6）。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> 一句話：這個肥胖門診樣本中，兩組飲食品質差不多；原本看似飲酒較多的差異，加入年齡、性別與BMI後不再明確。\n> 為什麼做：新分類按器官功能與日常活動受損區分臨床與臨床前期肥胖，研究者想知道兩組是否有不同飲食或飲酒樣貌。\n> 主體：48名臨床前期者對87名臨床肥胖者。飲酒者組內1.9與11.1 g/day的粗差異不能取代調整後OR及其跨1區間。HEI約49分且組間接近；兩組全穀、鈉等組成分數仍有改善空間。作者推測生活型態與代謝風險可能相互影響，這是文獻背景與推論，本研究未驗證介入機轉。\n> 所以呢：可提醒門診同步問飲食與飲酒，但不能用這份橫斷面研究判定戒酒或增加蛋白質的治療效果，更不能說前期肥胖沒有照護需要。\n\n## Critical Appraisal\n\n|領域（改編Newcastle–Ottawa）|判定|依據|\n|---|---|---|\n|選擇|高風險|單中心首次就診、自願參與；拒參分母與納入期間未清楚報告，無法代表社區|\n|混雜|高風險|調整年齡性別BMI，但活動量、社經、心理、藥物等未充分處理；BMI可能同時位於飲酒到體組成路徑，需DAG確認目標估計量|\n|暴露測量|有疑慮|FFQ回溯與飲酒自陳，回憶及社會期許偏差；驗證問卷不能消除此誤差|\n|結局分類|有疑慮|醫師標準清單與BIA，器官生化資訊不完整；病歷可得性可能造成分類誤差|\n|缺失資料|有疑慮|未充分說明各迴歸樣本數、缺值及完整個案策略|\n|選擇性報告|有疑慮|無可比對預設分析計畫，眾多營養素比較無清楚多重性控制|\n\n因果檢查：橫斷面時間順序不明，可能反向因果（已知疾病後改變飲酒／飲食）；進入專門門診可能受症狀、行為與社經共同影響，存在選擇／collider可能；BMI調整不能自動視為去除全部混雜。沒有追蹤時間，因此不是immortal-time問題。\n\nGRADE主要關聯起始Low，偏差風險serious−1、不精確serious−1，最後Very low。單篇無法評估跨研究不一致及出版偏差，不是已證明兩者不存在。無升級。MCID未預設；無介入／時間追蹤，ARR、NNT不適用。效應區間跨無效值，也沒有等效界值，不能宣稱兩組等效。\n\n## Inference and spin check\n\n主結論保留「在此樣本、調整後未檢出」範圍；argdown_lint以general結論及association前提實跑通過。討論把omega-6比例連到發炎等機轉，本文沒有直接測量；其參考文獻55題名是全穀與餐後血糖，與omega脂肪酸敘述主題不符，屬引用對位警訊，未取得該文全文故不判定內容已誤引。不要將此段作處方依據。Table7綠葉菜豆類中位數3.4與3.5，文字稱臨床組較低、Table8分類C/D，存在呈現不一致；應回原計分／原始資料釐清。\n\n## Clinical Application\n\n可將營養品質與飲酒篩檢整合成人肥胖門診初評；評估全穀、纖維、鈉、飲酒情境與功能限制，不以肥胖類型替代完整評估。本研究不能建立酒精安全上限、蛋白質療效、減重處方或MASLD肝病因果；未直接測量MASLD結局。研究內20/30 g參照分類不等於個人安全飲酒建議。\n\n## Limitations\n\n作者承認回憶及社會期許偏差、橫斷面、殘餘混雜、器官功能資料不全及單中心。另需注意多重比較、缺少清楚主要結局與分析分母、等效未檢驗、BMI可能過度調整、HEI是飲食品質工具而非臨床事件。未作期刊指標、作者背景、引用影響或完整勘誤搜尋，不能宣稱沒有更正。\n\n## Resource\n\nDOI：https://doi.org/10.3389/fnut.2026.1932350\nPubMed：https://pubmed.ncbi.nlm.nih.gov/43048110/\n合法來源：https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1932350/pdf\n主文來源：14頁PDF，精確DOI、來源SHA與抽文SHA由Worker acquisition記錄。核對首項p1樣本135與OR；中項p7–9飲食品質與Tables5–7；末項p12限制與利益聲明，數值／意義一致。補充FFQ未另行核驗。",
       "cards": [],
       "completedAt": "2026-11-19T13:32:06.325Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1932350:digest",
+      "paperId": "doi:10.3389/fnut.2026.1932350",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Alcohol consumption and dietary quality among adults with clinical and preclinical obesity attending a specialized obesity clinic in Portugal: a cross-sectional study.",
+      "authors": "Perna B, Gonçalves C, Brito-Costa A, Policarpo S",
+      "journal": "",
+      "year": "",
+      "doi": "10.3389/fnut.2026.1932350",
+      "abstract": "The Lancet Commission recently proposed diagnostic criteria distinguishing clinical from preclinical obesity according to the presence of obesity-related organ dysfunction and/or limitations in activities of daily living. Evidence on alcohol consumption and dietary quality across these newly proposed obesity phenotypes remains limited. We aimed to compare alcohol consumption and dietary quality between adults with clinical and preclinical obesity and to explore associations between alcohol intake and body composition. Dietary intake was assessed using a validated food frequency questionnaire, and dietary quality was evaluated using the Healthy Eating Index (HEI). Alcohol consumption was additionally assessed with the Alcohol Use Disorders Identification Test (AUDIT). Among 135 adults attending an obesity clinic, 64.4% had clinical obesity and almost half reported alcohol consumption; among consumers, 18.5% exceeded recommended intake levels. Alcohol intake was higher in individuals with clinical than preclinical obesity in unadjusted analyses (median 11.1 vs. 1.9 g/day; p = 0.004), but the association was not significant after adjustment for age, sex, and BMI (adjusted OR = 0.990; 95% CI: 0.969-1.011; p = 0.345). Similarly, alcohol intake was positively correlated with waist-to-hip ratio (Spearman's ρ = 0.450; p < 0.001) and body fat percentage (ρ = 0.410; p < 0.001) in unadjusted analyses. However, these associations were not significant after adjustment for age, sex, and BMI (waist-to-hip ratio: standardized β = 0.116, p = 0.154; body fat percentage: standardized β = -0.013, p = 0.833). Dietary quality did not differ significantly between obesity phenotypes. Overall, differences in alcohol consumption and dietary quality between clinical and preclinical obesity were not evident after accounting for demographic and anthropometric characteristics, underscoring the importance of these factors when examining lifestyle characteristics across the newly proposed obesity phenotypes.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1932350/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43048110/",
+      "category": "candidate",
+      "tags": [
+        "clinical nutrition technology",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "葡萄牙肥胖門診飲酒與飲食品質：內容整理與理解卡",
+      "content": "---\ndoi: \"10.3389/fnut.2026.1932350\"\ncitekey: \"Perna2026ObesityAlcohol\"\ntags: [research/digest, nutrition, obesity]\nmode: worker-batch\n---\n\n> [!summary] 30秒掌握\n> 葡萄牙肥胖門診135人中，臨床與臨床前期肥胖者的整體飲食品質相近；飲酒粗差異在調整後未明確保留。\n> - 臨床前期48人、臨床肥胖87人；平均年齡分別44與56歲。\n> - 飲酒者65人，12人超研究參照值：飲酒者的18.5%，全體的8.9%。\n> - 飲酒者組內中位數1.9與11.1 g/day；調整年齡、性別、BMI後OR .990，CI .969–1.011。\n> - HEI平均49.3與49.5，p=.949，不能把不顯著解讀為已證明等效。\n> 品質判斷另見同DOI品質評讀；本篇為內容整理。\n\n## 全文地圖\n**要點**：依背景、分類測量、飲酒結果、飲食結果與限制逐節讀。\n\n第1節p2–3說明新肥胖分類與飲酒／飲食問題；第2節p3–5交代首次就診成人、BIA／病歷分類、FFQ與HEI、AUDIT及統計；第3.1節p5–8報飲酒；第3.2節p7–9報營養素及HEI；第4節p9–12討論臨床意義與限制；p12–14是資料、倫理、經費、利益及文獻。以下每項以主文頁碼與表格核對；未另下載補充FFQ。\n\n## 研究問題 / 背景\n**要點**：新分類重視器官或日常功能，研究者比較兩種肥胖狀態的飲酒與飲食品質。\n\n臨床肥胖指過多脂肪並伴肥胖相關器官功能障礙和／或年齡校正日常活動限制；臨床前期肥胖的功能仍保留。本文不是追蹤疾病進展，也沒有飲食或戒酒介入。背景的肝病、發炎與減重手術機轉來自其他文獻，不是本文直接驗證的結果（第1節）。\n\n## 方法\n**要點**：單中心、首次就診、自願參與的橫斷面研究，同時測量行為與肥胖狀態。\n\n研究地點為葡萄牙Médio Tejo專門肥胖門診，納入18歲以上成人；排除孕婦、無法知情同意等情形。135人中女性93人，年齡51±14歲，BMI38.2±5.6。醫師用病歷及標準清單判斷器官／活動限制，BIA與人體測量評估體組成（p3–4、Tables1–2）。\n\n營養師訪談86項FFQ，按標準份量與頻率換算，再以每千大卡密度計算13項HEI；飲酒克數也從FFQ估算。AUDIT-C男性≥5、女性≥4才續其餘7題；本文用AUDIT分辨風險、用FFQ量化克數，不能混為一個指標。飲酒超標以本文採用的女性20、男性30 g/day參照分類；不是個人的安全飲酒保證（p4）。\n\n分析用兩組t／Mann–Whitney、相關及多變量線性／邏輯斯迴歸，調整年齡、性別、BMI；多項營養素比較為探索性，沒有可核對的預設主要分析計畫（p4–5）。\n\n## 主要發現\n**要點**：粗差異、調整結果和分母必須一起看。\n\n|項目|臨床前期|臨床肥胖|比較／位置|\n|---|---:|---:|---|\n|人數|48|87|Table1|\n|年齡平均|44歲|56歲|Table2|\n|BMI平均|36.8|39.0|Table2|\n|飲酒者組內飲酒中位數|1.9 g/day|11.1 g/day|p=.004，Table5|\n|全體飲酒中位數|0|0|p=.827，Table5|\n|能量中位數|2205 kcal|2174 kcal|p=.836，Table5|\n|纖維中位數|16.7 g|17.0 g|p=.927，Table5|\n|蛋白質／目前體重中位數|1.0 g/kg|.9 g/kg|p=.046，Table6|\n|蛋白質／理想體重中位數|1.6 g/kg|1.6 g/kg|p=.092，Table6|\n|蛋白質熱量比平均|18.5%|17.2%|p=.020，Table6|\n|HEI總分平均|49.3|49.5|p=.949，Table7|\n\n65人（48.1%）飲酒，70人不飲酒；12人超參照值。全體AUDIT低風險／不飲酒124人、風險9人、有害1人、可能依賴1人；後兩類太少，未作可靠推論比較（Tables1、3）。男性飲酒較常見，年齡、性別與BMI分布可能影響粗比較（p5）。\n\n未調整飲酒與腰臀比ρ=.450、體脂ρ=.410，皆p<.001。調整後腰臀比標準化β=.116（95%CI −.044至.277），p=.154；體脂β=−.013（CI −.133至.107），p=.833。飲酒與臨床肥胖調整OR=.990（CI .969–1.011），p=.345。這是未檢出獨立關聯，不是飲酒無害證據（p5–6）。\n\n蛋白質與體重校正肌肉量相關ρ=.182、p=.034，屬小幅橫斷面關聯，不證明增加蛋白質能改善肌肉。HEI兩組全穀中位分皆0、鈉分皆0；作者指出全穀、乳品及多項限制組成可改善（Tables7–8）。本文無臨床事件追蹤、無治療劑量效果或NNT。\n\n## 重要圖表重述\n**要點**：表格把樣本分布、飲酒分母與營養素結果分開，Figure1呈現HEI輪廓。\n\n- Tables1–2：全體人口與分組特徵，臨床組更年長、BMI較高。\n- Table3：飲酒者與AUDIT分層；平均與中位數不同，重度飲酒可影響平均。\n- Table4：男性各類酒精飲品攝取較常見。\n- Table5：同時列「飲酒者」及全體的飲酒比較，這是讀懂結果最重要的分母。\n- Table6：蛋白質因體重分母不同而呈不同顯著性；不把g/kg目前體重當理想體重。\n- Table7：兩組HEI總分及各成分；Figure1雷達圖視覺呈現相近輪廓，本整理依表格數字而非從圖片估值。\n- Table8：作者以字母分級呈現弱項；綠葉菜豆類分類與Table7中位數／文字方向不完全一致，不能從此宣稱臨床組必然較低。\n\n## 臨床意義 / 怎麼用\n**要點**：完整問飲食、飲酒與功能，肥胖分類不能替代個別評估。\n\n作者支持在肥胖門診整合飲酒與營養篩檢；兩組都可有不佳飲食品質。問飲酒時分清不飲酒者、飲酒者、克數與AUDIT風險；飲食評估分辨蛋白質分母及全穀、纖維、鈉等組成。本文未直接測量MASLD結局，不能推論飲酒導致本樣本肝病，也未證明飲酒、蛋白質介入可逆轉肥胖表型。\n\n## 作者限制與解讀邊界\n**要點**：同時測量無法決定先後，調整後不顯著也不能視為等效。\n\np12承認FFQ回憶與社會期許偏差、可能低報飲酒、殘餘混雜、器官生化資料不完整、自願參與與單中心。未控制全部活動量、社經、心理、藥物。沒有縱向資料；BMI校正是否過度調整需因果模型判定。文末聲明無研究經費／商業利益衝突，資料受隱私限制。\n\n## 與既有認知的對照\n**要點**：同DOI品質評讀保留調整前後差異；沒有建立更廣泛知識庫更新。\n\n本輪已檢索並讀取同run的Perna2026-alcohol-obesity-review.md，兩份沿用同一全文SHA。對照顯示HEI不顯著與飲酒調整後結果不能改寫為「兩組相同」或「飲酒沒有影響」。未對未取得的外部vault內容作推論。\n\n## 概念 / 名詞整理\n**要點**：分類、量化與統計估計各回答不同問題。\n\n臨床肥胖：脂肪過多且器官／活動受損；前期：功能仍保留。FFQ估習慣攝取；HEI評飲食品質密度；AUDIT篩飲酒風險。OR是勝算比，不是風險比；β代表模型內關聯；CI跨無效值表示目前估計不夠排除無關聯，不是證明等效。\n\n## 自我測驗\n**要點**：用分母、混雜及推論範圍自我檢查。\n\n> [!question]- Q1：為什麼不能說全體18.5%飲酒超標？\n> 12人除65名飲酒者是18.5%；全體135人中是8.9%。\n\n> [!question]- Q2：1.9與11.1 g/day可證明飲酒導致臨床肥胖嗎？\n> 不能，這是飲酒者組內未調整比較；調整OR .990、CI .969–1.011且橫斷面無時間順序。\n\n> [!question]- Q3：HEI p=.949等於兩組等效嗎？\n> 不等於。研究未設等效界值；樣本135人，未顯著只是未檢出差異。\n\n> [!question]- Q4：蛋白質g/kg的分母為什麼重要？\n> 用目前體重1.0/.9有p=.046，理想體重皆1.6、p=.092；分母改變比較，不能移植成處方。\n\n> [!question]- Q5：可以依此研究宣稱飲酒導致MASLD嗎？\n> 不能，本文未直接測量該肝病結局，討論肝病機轉是外部背景。\n\n## Reference\n**要點**：所有數字來自本篇主文與表格，來源不含私人資料。\n\nPerna等，2026，Frontiers in Nutrition，doi:10.3389/fnut.2026.1932350。全文：https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1932350/pdf 。首p1、中央p7–9、末p12–14已核對身份、結果與限制；補充FFQ未另核驗。\r\n\n## 5 分鐘複習路線\n**要點**：依各節要點掃讀，再用五張理解卡檢查分母、混雜、等效與因果邊界。",
+      "cards": [
+        {
+          "title": "肥胖飲酒研究理解",
+          "question": "為什麼不能說全體18.5%飲酒超標？",
+          "answer": "12人除65名飲酒者是18.5%；全體135人中是8.9%。",
+          "tags": [
+            "nutrition",
+            "obesity"
+          ]
+        },
+        {
+          "title": "肥胖飲酒研究理解",
+          "question": "飲酒粗差異可證明因果嗎？",
+          "answer": "不能。調整OR .990、CI .969–1.011，橫斷面沒有時間先後。",
+          "tags": [
+            "nutrition",
+            "obesity"
+          ]
+        },
+        {
+          "title": "肥胖飲酒研究理解",
+          "question": "HEI p=.949可證明等效嗎？",
+          "answer": "不能；未設等效界值，未顯著不等於兩組等效。",
+          "tags": [
+            "nutrition",
+            "obesity"
+          ]
+        },
+        {
+          "title": "肥胖飲酒研究理解",
+          "question": "蛋白質g/kg分母為何重要？",
+          "answer": "目前體重比較p=.046，理想體重p=.092；不同分母不可直接互換。",
+          "tags": [
+            "nutrition",
+            "obesity"
+          ]
+        },
+        {
+          "title": "肥胖飲酒研究理解",
+          "question": "本文可以證明飲酒導致MASLD嗎？",
+          "answer": "不能，未直接測量MASLD結局。",
+          "tags": [
+            "nutrition",
+            "obesity"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-19T13:37:29.172Z"
     }
   ]
 }
