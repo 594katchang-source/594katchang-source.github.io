@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T14:13:08.212Z",
+  "generatedAt": "2026-11-21T14:16:02.614Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -117732,6 +117732,76 @@
       "content": "---\ndoi: \"10.1002/jcsm.70417\"\njournal: \"Journal of Cachexia, Sarcopenia and Muscle\"\nyear: 2026\nauthors: \"Alfonso Vidal-Casariego et al.\"\nstudy_type: \"post hoc observational comparative cohort\"\nreview_depth: \"quick\"\nmode: \"focused-quick\"\n---\n\n# 抗發炎複方營養補充品：肌肉改善與死亡訊號必須一起看\n\n> [!info] 品質快照\n> **設計／n**：西班牙AFEDIN前瞻門診世代的post hoc比較，266人、21–95歲，複方ONS165人、一般ONS101人，12週。**RoB**：ROBINS-I各域快評，指徵混雜、缺值及非盲測量有重大疑慮。**GRADE**：對主要SMI問題，grade_judge.py由Low扣偏差very serious及不精確serious，最終Very low。**註冊**：未見本次post hoc比較的預註冊，原世代倫理核准不等同預設試驗方案。**一句話**：不能只引用肌肉／生活品質改善而漏掉19對5死亡，也不能把死亡關聯直接說成產品致死。\n\n## 全文結構與按序段意索引\n\n已讀PMC完整HTML的引言、方法、13項結果、全部表1–8、討論、聲明及33條參考書目；下列是自行重組段意，非全文翻譯。首（DOI／授權及§2.1）、中（表4–6）及末（安全討論／資助）已回原HTML核對。補充表S1未獨立取得，相關調整值依主文§3.10–3.13，不聲稱已查補充原表。\n\n- **引言各段**：先定義營養不良與FFM；再談發炎及GLIM；第三主題是病理機轉與結果負擔；第四談EPA/DHA與EVOO機轉；第五指出多模式聯用缺口；末段提出複方ONS與一般ONS比較。\n- **§2設計段**：原AFEDIN是觀察世代，本篇是限制在使用ONS者的事後分析；把BIA的SMI列為主要關注，而非聲稱前瞻隨機試驗主要終點。\n- **§2.1三段／表2**：>18歲、GLIM及CRP>3 mg/L；排除孕哺、重度肝腎病、短預期壽命與部分近期治療；266人、疾病多元但癌症佔兩組約七成。結果段確認年齡21–95歲；方法要求MUST≥2，表2卻僅148/165及89/101達標，納入規則有待釐清。\n- **§2.2／表1**：醫師自行選產品及份量；實驗複方與多種商用一般ONS比較，兩組均營養諮詢與Vivi-Frail活動。不是同配方僅移除橄欖油的對照；每100 mL的成分與個人實際劑量要分開。\n- **§2.3按段**：基線／12週臨床與體組成；50 kHz BIA及專用方程；股直肌超音波三次平均；TUG、15秒椅立及握力；血液發炎；24小時回憶；EQ-5D-5L與EQ VAS。\n- **§2.4各段**：描述與未調整比較；ANCOVA；PS/IPTW及平衡檢查；Firth死亡模型；限制基線VAS50–70的敏感度。所有多變量採complete case。\n- **§2.5**：倫理PI23/3024（2023-04-13），非RCT註冊證據。\n- **§3.1–3.3／表2–3**：基線、GLIM改善與體重；平均體重、BMI、各Δ及不同可用樣本不宜直接混算。\n- **§3.4／表4–5**：FFM及SMI變化較佳；附肢肌量、相角、多數超音波及水分指標無顯著組差。\n- **§3.5／表6**：椅立變化較佳，TUG變化p=.122，握力變化p=.624；不能以末次TUG組差代替變化效果。\n- **§3.6／表7**：VAS起點較低後改善；EQ-5D指數起點及末次仍較低，表列Δ與各訪視平均不易相扣，需配對樣本說明，不能私自修表。\n- **§3.7／表8**：CRP等兩組均下降，但無顯著組間抗發炎差異。\n- **§3.8**：能量／蛋白兩組上升而變化無顯著組差；EPA/DHA攝取差較大。\n- **§3.9–3.10**：24死亡與住院；ANCOVA部分有利、握力無差。\n- **§3.11**：PS261人、257共同支持；測得平衡好；IPTW後SMI及肌圍CI跨零，其他部分維持。\n- **§3.12**：死亡Firth模型256人、僅18事件，OR3.35且寬；與全組24死亡並非相同完整樣本。\n- **§3.13**：VAS50–70子群107人結果相近，僅減少部分回歸平均疑慮。\n- **討論各段**：先綜合益處與安全訊號；比較既有癌症試驗及機轉；談不同omega-3形式與組合；VAS回歸平均；專段討論死亡且承認未測混雜同樣影響益處；最後列非隨機、短期、劑量及不良反應未系統記錄、完整案例等限制，結論定位為假說。\n- **文末**：NutriMed資助、作者無COI聲明、S1、AI語言協助、資料可向作者請求；未將廠商資助等同已證實偏造，也不忽略其角色。\n\n# Key Points\n\n## Summary\n\n✅ Full text reviewed。複方組有部分較有利的肌肉及VAS關聯，但有較多死亡且CRP沒有顯著組差。原文在摘要已交代兩面結果，最重要的是不能只挑「抗發炎」產品名稱或正向結局。\n\n| 結果 | 複方對一般ONS | 位置 |\n|---|---|---|\n| FFM未調整Δ | +1.20 vs −0.85 kg，p=.022 | 表4 |\n| SMI未調整Δ | +0.12 vs −0.21 kg/m²，p=.022 | 表4 |\n| SMI ANCOVA | +0.10 kg/m²（95%CI .01–.19），p=.035 | §3.10 |\n| SMI IPTW | +0.10（−.003–.199），p=.056 | §3.11 |\n| FFM IPTW | +2.03 kg（.23–3.83），p=.027 | §3.11 |\n| 椅立ANCOVA | +0.86次（.14–1.58），p=.020 | §3.10 |\n| 握力ANCOVA | −1.03 kg（−2.47–.41），p=.160 | §3.10 |\n| VAS ANCOVA | +12.85分（5.61–20.08） | §3.10 |\n| 12週死亡 | 19/165（11.5%）vs5/101（4.95%），粗OR2.50（.90–6.92） | §3.9 |\n| 死亡調整 | OR3.35，profile-likelihood CI1.06–13.81；Wald p=.051 | §3.12 |\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> **一句話**：這是醫師自行選配方的病人比較，不是隨機試驗。\n> **為什麼做**：發炎相關營養不良會掉肌肉，研究想知道富EPA、DHA和特級初榨橄欖油的配方是否有額外關聯。\n> **複方組**：165人使用特定高能量／高蛋白多成分ONS；**一般組**101人使用不同商用一般ONS。兩組都做營養諮詢與活動。\n> **有利部分**：FFM、椅立與VAS部分調整結果較佳；主要SMI在IPTW後CI跨零，握力沒差。\n> **不利／未支持部分**：19對5死亡，CRP無組差；實際個人喝多少與不良反應未系統記錄。\n> **所以呢**：值得做更好的安全性隨機試驗，不能據此推薦所有營養不良者改這款產品，也不能確定產品造成死亡。\n\n## Clinical Application\n\n適用於理解成人發炎相關DRM的多模式照護，尤其本樣本多癌症且為門診，不能等同所有住院重症／透析病人。應一起評估營養攝取、功能、疾病治療、症狀與追蹤；本篇不提供可直接照用的最佳劑量。\n\n表1**每100 mL**為200 kcal、蛋白10 g、leucine1.6 g、EPA+DHA750 mg、EVOO4.15 g；這不是每日劑量。作者說一般處方一至兩瓶200 mL，但未系統記錄每人實際處方／喝下量，不能自行換算成所有受試者每日實收值。也不能拆成單一橄欖油、魚油或leucine的獨立療效。\n\n# Paper Details\n\n## Methods\n\n前瞻世代事後分析、非隨機非盲；12週；多中心；實際年齡21–95歲。常規處方決定組別。ANCOVA調基線結果、年齡、性別、GLIM、CRP及主要診斷；PS僅年齡、性別、GLIM、CRP、癌症，IPTW看已測平衡；Firth死亡模型用癌症二分類節制變項。沒有把倫理核准、產品名稱或PS平衡視為隨機化。\n\n## Critical Appraisal\n\n| ROBINS-I域 | 判定 | 原文與影響 |\n|---|---|---|\n| 混雜 | 🔴 | 指徵混雜：疾病分期、療程、功能及醫師預後判斷未完整測得；同時影響益處與死亡。 |\n| 選入分析 | 🔴 | 僅ONS使用者、post hoc、完整案例；死亡／失訪造成12週功能可測者的存活者選擇。 |\n| 介入分類 | 🟡 | 產品分類清楚，但一般ONS異質、個人實收量不明，不能做等能等蛋白或成分拆解。 |\n| 偏離照護 | 🟡 | 兩組都有諮詢／活動，實際依從及共介入未客觀量化。 |\n| 缺資料 | 🔴 | 原24死亡、死亡調整模型僅18事件；完整樣本縮減，不能假設隨機缺失。每終點配對n需補。 |\n| 結果測量 | 🟡 | BIA受水分與專用方程影響、超音波操作者及非盲、自陳VAS；死亡較客觀但資料稀少。 |\n| 選擇報告 | 🟡 | 多結局及post hoc分析，無本比較預註冊；主要SMI對分析方法敏感，不能以顯著FFM替代。 |\n\n**因果與安全**：依causal-appraisal的confounding by indication、selection/collider、time-zero與survivor bias觀點，基線開始12週追蹤本身清楚，但對死亡後無法測肌肉者的處理未解決。IPTW不是把未測腫瘤分期或處方理由平衡掉。不能只用混雜解釋死亡、卻把相同設計的益處當因果；作者已明確承認這點。\n\n**統計**：主要SMI IPTW CI跨零；TUG變化未顯著；握力無差。死亡CI下限>1但Wald p=.051是不同推論方法（profile-likelihood CI vs Wald）並非必然算錯，安全訊號仍須報告且極不精確。18事件多變量模型雖Firth有助偏誤／分離，不補出資訊。無隨機分派，fragility index不作RCT解讀。未有可用一致絕對效果及因果前提，不算NNT／NNH。\n\n**MCID**：主文未提供本族群SMI、15秒椅立及EQ VAS的預設MCID；定點檢索未核實同族群合適原始門檻，不借用COPD、骨科或一般族群的數字判定「臨床顯著」。VAS平均差看似較大仍有基線差、回歸平均及選樣限制；50–70分子群敏感度不能排除全部偏差。\n\n**一致性待釐清**：MUST納入條件與表2比例不一致；表7 TTO兩訪視均值略增卻列負Δ，可能涉及不同可用／配對樣本或報告問題，無原碼與配對n不能斷定哪項錯，更不能私改成差值。表3–8也不能以兩訪視平均直接代替原配對變化。\n\n**Spin／GRADE**：作者摘要定位假說、同時報死亡；argdown_lint.py以這個保守結論為general，clean。正文「抗發炎」機轉仍未由本組CRP差證實。GRADE對主要SMI：觀察起點Low，偏差very serious −2、不精確serious −1，腳本Very low；無升級，不把別篇RCT等級借來。本評讀未完整重查全部33篇引用、作者背景、IF或引文網絡，屬focused-quick；補充S1未獨立驗證。\n\n**Funding／COI**：NutriMed Clinical Nutrition S.L.資助，亦為研究複方供應商；作者宣告無COI並稱資助者未參與設計等。這是須揭露的利益結構，不自動等同造假或療效無效。不能以無COI聲明省略資助。\n\n## Key Findings\n\n重要陰性結果是血液發炎標記、握力及部分超音波／附肢肌量沒有組差。正向結果與死亡必須同列，且SMI結果對加權方法敏感。原死亡兩組比例差約6.6百分點僅為描述，不能當可歸因傷害。\n\n# Resource\n\n## Vault Integration\n\n本工作區沒有可用的Papers／Medicine或vault_search回應，未比對既有筆記；不表示沒有相關內容。原成果帳保存本篇，不建立另一套筆記庫。\n\n## Source\n\n- [完整PMC主文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13771626/)，§2.1–2.4、§3.1–3.13、表1–8及討論安全段。\n- [DOI](https://doi.org/10.1002/jcsm.70417)；2026-11-15已公開、12月卷期，不把卷期月份當身份錯配。\n- 來源HTML SHA-256 c9ec1db58aa5c72d6f7e21ca67ae006a7e7926e46081ca83bd77ed3fa9b3ad78，CC BY4.0；首／中／末原文核對完成。完整主文已讀，補充S1僅依主文報值且限制明列。",
       "cards": [],
       "completedAt": "2026-11-21T14:12:37.215Z"
+    },
+    {
+      "id": "doi:10.1002/jcsm.70417:digest",
+      "paperId": "doi:10.1002/jcsm.70417",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Effectiveness of a Nutritional Supplement With Anti-Inflammatory Compounds and Olive Oil in Malnourished Patients.",
+      "authors": "Alfonso Vidal‐Casariego, Juan José López Gómez, José Manuel García Almeida, Isabel Vegas Aguilar, Juan Manuel Guardia Baena, Cristina Tejera Pérez, Samara Palma Milla, Patricia Mezerhane Ricciardi, Agustín Ramos Prol, Pedro Pablo García Luna, Beatriz Mantiñán Gil, Natalia C Iglesias Hernández, Luis M Luengo Pérez, Daniel de Luis Román",
+      "journal": "Journal of Cachexia, Sarcopenia and Muscle",
+      "year": "2026",
+      "doi": "10.1002/jcsm.70417",
+      "abstract": "Disease-related malnutrition (DRM) with systemic inflammation is associated with poor clinical outcomes and muscle mass loss. This study in a real-world clinical practice examined whether an oral nutritional supplement (ONS) enriched with anti-inflammatory compounds-eicosapentaenoic acid (EPA), docosahexaenoic acid (DHA) and extra-virgin olive oil (EVOO)-was associated with improvements in nutritional status, muscle mass and functional performance in patients with inflammation-related DRM. In this 12-week prospective multicenter cohort study, adults diagnosed with DRM and elevated C-reactive protein (CRP > 3 mg/L) received either an anti-inflammatory ONS or standard ONS, both combined with dietary counselling and a structured physical activity programme. Outcomes included anthropometry, body composition (bioimpedance and ultrasound), muscle function, inflammatory markers and quality of life. Of 266 participants (mean age 66.6 ± 12.9 years; 61.7% male), those receiving the anti-inflammatory ONS (n = 165) achieved significantly greater increases in fat-free mass (Δ +1.20 vs. -0.85 kg; p = 0.022), skeletal muscle index (Δ +0.12 vs. -0.21 kg/m2; p = 0.022) and rectus femoris circumference by ultrasound (Δ +0.43 vs. -0.13 cm; p = 0.042) compared with controls (n = 101). Functional improvements were also superior: Chair stand repetitions increased significantly (Δ +0.90 vs. +0.03 times; p = 0.025), with a trend toward reduced Timed Up and Go time. Quality of life improved significantly across physical and mental domains in the anti-inflammatory group (e.g. Δ +11.1 vs. -10.8; p < 0.001). After adjustment for baseline values, age, sex, GLIM severity, CRP and primary diagnosis, differences remained significant for SMI (0.10 kg/m2; 95% CI, 0.01-0.19), fat-free mass, muscle circumference, chair stand and EQ VAS (12.85 points; 95% CI, 5.61-20.08), but not for handgrip strength. Twelve-week mortality was higher with the anti-inflammatory ONS (11.5% vs. 4.95%; adjusted OR, 3.35; 95% CI, 1.06-13.81). In this post hoc analysis, the use of an ONS enriched with EPA, DHA and EVOO, combined with physical activity and dietary counselling, was associated with greater gains in muscle mass, lower-limb strength and quality of life in patients with inflammation-associated DRM, but also with higher short-term mortality. Because residual confounding cannot be excluded, these findings are hypothesis-generating; randomized controlled trials with prespecified safety outcomes are needed.",
+      "legalFullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13771626/",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43036224/",
+      "category": "recommended",
+      "tags": [
+        "adult clinical practice gaps",
+        "clinical nutrition technology",
+        "design:randomized controlled",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "protein and micronutrients",
+        "safety and interaction"
+      ],
+      "noteTitle": "發炎相關營養不良的複方ONS：讀懂肌肉、生活品質與安全性",
+      "content": "---\ndoi: \"10.1002/jcsm.70417\"\njournal: \"Journal of Cachexia, Sarcopenia and Muscle\"\nyear: 2026\nstudy_type: \"post hoc observational cohort\"\nmode: \"worker-batch\"\ntags: [research/digest, malnutrition, ONS]\n---\n\n> [!summary] 30 秒層\n> **一句話**：發炎相關營養不良成人使用EPA、DHA及橄欖油複方ONS，部分肌肉與生活品質指標較佳，但死亡較多，兩面都不能當成已證實的因果效果。\n> - 266名門診成人、21–95歲、追蹤12週；165人複方、101人一般ONS，非隨機。\n> - 兩組均有營養諮詢與活動；複方實收量未系統記錄。\n> - 主要SMI調整差0.10 kg/m²，IPTW後CI跨零；握力沒差。\n> - 19/165對5/101死亡；調整OR3.35、CI1.06–13.81，僅18完整案例事件，不能只看好處。\n> - 品質指標：同篇另有完整品質評讀；本整理描述內容，可信度與偏差請見評讀。\n\n# 5 分鐘層與完整層\n\n## 研究問題 / 背景\n**要點**：營養不良合併發炎會影響肌肉，作者想知道複方ONS在多模式照護中是否有額外關聯。\n\n引言依序談營養不良、發炎與GLIM、代謝負擔、omega-3與EVOO機轉，再提出真實世界比較。EPA/DHA可能影響炎症訊號，EVOO含酚類；這些是背景合理性，不代表本研究已證實某條機轉。\n\n## 方法\n**要點**：這是AFEDIN世代的事後比較，醫師自行處方，不能當成分派相同照護的RCT。\n\n- **對象**：成人DRM、CRP>3 mg/L，要求GLIM表型加發炎病因；排除孕哺、部分重度器官病、短預期壽命與近期會影響炎症的治療。實際年齡21–95歲，多數癌症（複方72.1%、一般68.2%）。\n- **分組**：複方165人使用特定產品；一般101人使用不同傳統商用配方，不是同產品僅去掉橄欖油。\n- **共同照護**：營養諮詢與依Vivi-Frail指導的活動。基線與12週評估，實際活動依從未客觀量化。\n- **測量**：BIA的SMI與FFM、股直肌超音波、15秒椅立、TUG、握力、發炎血液、24小時回憶、EQ-5D-5L與EQ VAS。\n- **分析**：ANCOVA調基線結果與臨床變項；PS/IPTW平衡已測共變項；Firth處理少事件死亡模型；基線VAS50–70的子群看回歸平均。多變量採完整案例。\n\n### 配方濃度與實收量\n\n| 表1每100 mL | 數值 |\n|---|---|\n| 熱量 | 200 kcal |\n| 蛋白質 | 10 g |\n| Leucine | 1.6 g |\n| EPA+DHA | 750 mg |\n| EVOO | 4.15 g |\n| 膳食纖維 | 1.8 g |\n\n這是配方濃度，不是人人每日劑量。文末說一般處方一至兩瓶200 mL，但每人實際處方與喝下量未系統保存；因此不能把濃度換算成所有人已收到的日量，也不能判斷劑量反應。\n\n## 主要發現\n**要點**：體組成、功能、主觀生活品質及死亡的結論不同，應分開讀。\n\n| 結果 | 複方組／一般組或調整差 | 位置 |\n|---|---|---|\n| FFM變化 | +1.20／−0.85 kg，p=.022 | 表4 |\n| SMI變化 | +.12／−.21 kg/m²，p=.022 | 表4 |\n| 股直肌周長變化 | +.43／−.13 cm，p=.042 | 表5 |\n| 15秒椅立變化 | +.90／+.03次，p=.025 | 表6 |\n| TUG變化 | −1.47／−.67秒，p=.122 | 表6 |\n| 握力變化 | +.66／+.84 kg，p=.624 | 表6 |\n| VAS變化 | +11.1／−10.8分，p<.001 | 表7 |\n| CRP變化 | −17.12／−14.51 mg/L，p=.616 | 表8 |\n| 死亡 | 19/165（11.5%）／5/101（4.95%） | §3.9 |\n| 住院 | 11.5%／8.9%，p=.544 | §3.9 |\n\n### 調整與加權後還剩哪些結果？\n\nANCOVA的SMI差+.10（CI.01–.19）kg/m²、FFM+2.12（.45–3.79）kg、肌圍+.54（.08–1.01）cm、椅立+.86（.14–1.58）次、VAS+12.85（5.61–20.08）分；握力−1.03（−2.47–.41）kg無差（§3.10）。\n\nIPTW後FFM+2.03（.23–3.83）kg、VAS+13.16（5.55–20.76）分等仍有訊號，但SMI+.10（−.003–.199）、肌圍+.50（−.020–1.011）的CI跨零（§3.11）。「數值方向近似」不能改寫為「所有主要結果穩健顯著」。\n\n### 安全與死亡如何讀？\n\n粗死亡OR2.50（.90–6.92），p=.080；Firth調整OR3.35，profile-likelihood CI1.06–13.81，Wald p=.051。這兩種推論方法不同，不能單憑CI與p看起來不一致就稱計算錯誤。調整模型只有256人、18死亡，與全體24死亡不同，估計很不精確（§3.9／3.12）。不能說產品致死，也不能因粗p>.05就宣稱安全。\n\n### 飲食與機轉\n\n能量／蛋白攝取兩組均增加，變化無顯著組差。複方EPA由.17到1.60 g/day、DHA由.21到1.04；一般EPA .10到.18、DHA .12到.18（§3.8，回憶法估計）。CRP等未有組間顯著差，因此本研究沒有直接建立「透過降低全身發炎改善肌肉」的機制鏈。\n\n## 臨床意義 / 怎麼用\n**要點**：用來理解多模式營養照護與研究限制，不把單一產品名當成抗發炎療效保證。\n\n作者結論是產生假說、需隨機試驗與預設安全終點。醫師處方可能依疾病嚴重度、癌症治療或預後，這些同時影響肌肉、VAS及死亡；不能只用混雜解釋不利結果，卻把有利結果全當因果。\n\nVAS起點較差者有較多改善空間。作者限制基線50–70的107人仍得到+12.50（3.48–21.52）分，但這僅減少部分回歸平均疑慮。本文沒有提供本族群MCID，不自行以其他疾病門檻說達臨床重要改善。\n\n## 重要圖表重述\n**要點**：先分清配方濃度、不同分析樣本及各個測量結果。\n\n- **表1**：每100 mL產品組成；非個人實際日量。\n- **表2**：兩組臨床特性；方法要求MUST≥2卻表列約89%達標，原文需要解釋。\n- **表3**：體重、BMI、小腿圍；訪視平均及配對變化可能來自不同可用樣本，不自行相減修表。\n- **表4**：BIA；部分FFM／SMI較佳，多數其他體組成／水分／相角無差。\n- **表5**：超音波肌圍有差，面積／其他直徑無差，不能說超音波全面證實肌肉生長。\n- **表6**：椅立較佳；TUG變化、握力無差。\n- **表7**：VAS與EQ-5D指數不同；TTO各訪視均值與所列負Δ需配對樣本說明，不能把兩量表混用。\n- **表8**：血液發炎指標沒有顯著組差。\n- **S1**：調整、加權與敏感度值在主文§3.10–3.13有報；本次未獨立取得補充表，不假稱已驗證S1原檔。\n\n## 與既有認知的對照\n**要點**：沒有可用既有筆記庫查詢回應，因此不虛構知識更新。\n\n未取得Papers／Medicine與vault_search結果，不能核對舊筆記，也不代表沒有相關筆記。本文修正的常見直覺是：產品含潛在抗發炎成分，不等於本比較已量到額外抗發炎效果；肌肉或VAS訊號不能抵銷安全性觀察。\n\n## 概念 / 名詞整理\n**要點**：SMI、功能、生活品質、死亡與發炎是不同層次的結局。\n\n- **DRM／GLIM**：疾病相關營養不良；以表型加病因確認，而非單看CRP。\n- **FFM／SMI**：體組成推估；BIA亦受水分與方程影響，不等同直接測全部肌纖維。\n- **IPTW**：依已測處方機率加權，不會自動補足未測疾病分期或預後判斷。\n- **Firth logistic**：少事件時減少部分估計偏誤，不能增加死亡資訊量。\n- **指徵混雜**：病情影響選配方，同時影響結果；**存活者選擇**：能活到12週並完成測量者可能不同。\n- **VAS／EQ-5D index**：前者自評健康0–100，後者健康狀態的效用計分，變化不可互換。\n\n## 自我測驗\n**要點**：測試能否同時讀懂效益、暴露與安全限制。\n\n> [!question]- Q1：SMI ANCOVA p=.035，但IPTW p=.056，應怎麼報？\n> 估計方向近似，但IPTW CI跨零，主要結果對方法有不確定性；不能說所有分析均穩健顯著。\n\n> [!question]- Q2：每100 mL有750 mg EPA+DHA，能直接當每日實收劑量嗎？\n> 不能。個人處方與喝下量沒有系統記錄，濃度不是日量，也無法拆出單一成分效果。\n\n> [!question]- Q3：肌肉改善、死亡較多，能只把死亡歸因病情嗎？\n> 不能選擇性處理混雜。非隨機處方的未測混雜同時影響有利與不利結局；需安全性隨機試驗。\n\n> [!question]- Q4：粗死亡p=.080，是否表示產品安全？\n> 不是。19對5死亡，調整OR3.35且CI很寬；不顯著不代表等效或安全，亦不能直接斷言因果傷害。\n\n> [!question]- Q5：為何含抗發炎成分仍不能說本研究證實抗發炎機制？\n> CRP等沒有顯著組間差異；機轉合理性、產品組成與人體臨床中介證明是不同證據。\n\n## Reference\n**要點**：全部數值依本篇完整主文及其表1–8，未用摘要代替主文。\n\nVidal-Casariego等，2026，Journal of Cachexia, Sarcopenia and Muscle 17:e70417。[DOI](https://doi.org/10.1002/jcsm.70417)、[PMC主文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13771626/)。已按序讀§1–4、§3.1–3.13、表1–8、討論安全段與聲明／書目；首、中、末核對原HTML。來源SHA-256 c9ec1db58aa5c72d6f7e21ca67ae006a7e7926e46081ca83bd77ed3fa9b3ad78，CC BY4.0。NutriMed資助且作者宣告無COI；資助角色已揭露。補充S1未獨立驗證。",
+      "cards": [
+        {
+          "title": "主要結果不確定",
+          "question": "SMI ANCOVA p=.035，但IPTW p=.056，應怎麼報？",
+          "answer": "估計方向近似，但IPTW CI跨零；主要結果對分析方法仍有不確定性，不能說所有分析均穩健顯著。",
+          "tags": [
+            "malnutrition",
+            "statistics"
+          ]
+        },
+        {
+          "title": "濃度不是日量",
+          "question": "每100 mL有750 mg EPA+DHA，能直接當每日實收劑量嗎？",
+          "answer": "不能。個人處方與喝下量沒有系統記錄，配方濃度不是日量，也無法拆出單一成分效果。",
+          "tags": [
+            "ONS"
+          ]
+        },
+        {
+          "title": "混雜須雙向看",
+          "question": "肌肉改善、死亡較多，能只把死亡歸因病情嗎？",
+          "answer": "不能選擇性處理混雜。非隨機處方的未測混雜同時影響有利及不利結局，需要安全性隨機試驗確認。",
+          "tags": [
+            "causality"
+          ]
+        },
+        {
+          "title": "不顯著不是安全",
+          "question": "粗死亡p=.080，是否表示產品安全？",
+          "answer": "不是。19對5死亡，調整OR3.35且CI很寬；不顯著不代表等效或安全，也不能直接斷言因果傷害。",
+          "tags": [
+            "safety"
+          ]
+        },
+        {
+          "title": "機轉未證實",
+          "question": "為何含抗發炎成分仍不能說本研究證實抗發炎機制？",
+          "answer": "CRP等沒有顯著組間差異；機轉合理性、產品成分與人體臨床中介證明屬不同證據。",
+          "tags": [
+            "inflammation"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-21T14:15:45.048Z"
     }
   ]
 }
