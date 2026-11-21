@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T10:09:55.909Z",
+  "generatedAt": "2026-11-21T10:12:32.074Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -117637,6 +117637,73 @@
       "content": "---\ndoi: \"10.1002/fsn3.72429\"\njournal: \"Food Science & Nutrition\"\nyear: 2026\nauthors: \"Haixin Lyu, Haiyan Chen, Zegeng Zhan, Yangyang Qin, Lifang Mao, Meiyan Guo, Yaxian Mo, Tianran Shen\"\nstudy_type: \"observational cohort; NHANES linked mortality\"\nreview_depth: \"quick\"\nmode: \"focused-quick\"\n---\n\n# 脂肪肝飲食與死亡：抗氧化關聯不能證明抵消酒精傷害\n\n> [!info] 品質快照\n> **設計／n**：NHANES 2005–2018基線飲食與截至2019年底的死亡連結，3048名成人；MASLD 2146、MetALD 902；死亡248與58人。**RoB**：依Newcastle–Ottawa相關域評讀，混雜、分類及選樣疑慮高。**GRADE**：限定本文全因死亡關聯問題，grade_judge.py計算Very low；不是飲食介入療效分級。**註冊**：主文未見本次分析預註冊。**一句話**：可提出飲食品質的研究假說，不能說抗氧化食物或補充品能抵消飲酒傷害，亦不能說改善飲食勝過減酒。\n\n## 全文結構與按序段意索引\n\n已從本地身份與SHA相符的PMC HTML讀完主文1–5節、表1–2、圖說、聲明及參考書目；另目視圖1及圖3。以下是自行撰寫的段意索引，非逐句翻譯。補充DOCX路由回200但內容為1816-byte HTML，未取得有效補充檔；因此S1–S3及S1–S6僅讀主文的引用與說明，未獨立重核。\n\n- **引言第1段**：說明MASLD新名稱、MetALD與治療／飲食需求。\n- **引言第2段**：串接發炎、氧化壓力、DII、CDAI、DAQS與既有研究缺口。\n- **引言第3段**：指出酒精與飲食品質共同作用尚未明；列出飲酒觀察研究及其爭議。\n- **引言第4段**：提出獨立關聯、聯合分組與中介三個目標。\n- **2.1兩段**：介紹NHANES與倫理；由70190人排除不符與缺資料者至3048人。圖1逐級40401、12208、10289、3048，最終兩型2146／902相加相符。\n- **2.2各段**：FLI替代影像、選用≥30及五項代謝條件；排除高飲酒量與病毒性肝炎；再列MASLD／MetALD飲酒界線及簡稱。MASLD段的低飲酒量卻寫男性>30、女性>20 g/day，與MetALD段重疊，是未釐清的原文不一致。\n- **2.3**：定義全因／心血管死亡與檢查日至2019年底的時間起點。\n- **2.4–2.7**：24小時回憶；DII用28/45項、兩次回憶；CDAI六營養素標準化；DAQS六項各依2/3 RDI給0或1分，分0–2、3–4、5–6。DAQS為固定分數組，不能把所有組都當真正等人數三分位。\n- **2.8–2.9**：炎症與血球比值、共變項及FIB-4；原文BMI及FIB-4分類符號存在疑義，不能照抄成臨床診斷標準。\n- **2.10按段**：軟體、複雜抽樣與缺值處理；KM／log-rank；三層加權Cox；三節點RCS；疾病型別×飲食六組聯合分析；bootstrap中介、分層及高血壓／FIB-4敏感度分析。\n- **3.1／表1**：兩型年齡、性別、肝酵素與飲食品質不同；表內大型人數是加權人口數，不是實際收案數。\n- **3.2／表2、圖2**：全因死亡、各指標與兩型的模型差別；MetALD抗氧化指標CI跨無差異。\n- **3.3**：心血管死亡多數比較不顯著；主文報總體DAQS高組HR0.42，但補充原表未能重核。\n- **3.4／圖3**：六組共同參照，不能當成型別內比較，更不是改變飲酒／飲食的試驗。\n- **3.5／圖4**：MASLD血小板／PHR有間接效應、負中介比例與抑制；MetALD未顯著。\n- **3.6兩段**：分層、交互作用與敏感度摘要；未取得補充表故不聲稱全部驗證。\n- **討論第1段**：概述結果並把關聯延伸到救命生活介入，語氣超出研究設計。\n- **討論第2段**：比對先前研究、猜測MetALD飲酒異質與事件不足；同段先稱兩型保護，後承認MetALD未顯著，須以表2為準。\n- **討論第3段**：以較年輕、飲食品質、健康習慣等解釋聯合分析，這些也是殘餘混雜的可能來源。\n- **討論第4段**：以不一致中介談機制，仍需時序及無未測混雜假設。\n- **討論第5段**：承認回憶、分類修改、缺成分、死亡編碼及58事件限制。\n- **討論末段／第5節**：提出飲食例子及存活主張；「強於酒精限制」與「抵消酒害」未由此設計證明。\n- **文末**：作者分工、四項研究資助、倫理、無利益衝突聲明、補充檔列表與資料來源；作者承認Gemini協助摘要與討論重整，並稱已人工審核。這不代替對方法／表格的實際核查。\n\n# Key Points\n\n## Summary\n\n✅ Full text reviewed。本文測量的是**基線飲食分數與後續死亡的關聯**。DII高代表較促發炎；CDAI／DAQS高代表攝取面向較佳，不是直接量到人體抗氧化作用，也不是補充劑試驗。\n\n| 全調整模型3，T3對T1 | MASLD HR（95% CI） | MetALD HR（95% CI） |\n|---|---|---|\n| DII | 1.97（1.12–3.47） | 3.91（1.46–10.49） |\n| CDAI | 0.50（0.28–0.89） | 0.23（0.05–1.16） |\n| DAQS | 0.47（0.24–0.93） | 0.60（0.26–1.39） |\n\n來源：表2。MetALD後兩項均未達統計顯著，不能寫「已證明保護」。MetALD DII中組HR4.95（1.87–13.15）高於高組3.91，亦非簡單單調劑量反應。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> **一句話**：吃得不同的人，之後死亡率也不同，但不能據此知道把同一個人的飲食改好會延命多少。\n> **為什麼做**：脂肪肝合併代謝問題者的飲食與飲酒常交織，需要辨別兩者。\n> **MASLD組**：2146人、248死亡；高DII較高死亡hazard，高CDAI／DAQS較低，數值見上表。\n> **MetALD組**：902人、58死亡；高DII關聯很寬，高抗氧化分數的CI跨無差異，證據不精確。\n> **聯合組**：圖3的MetALD＋高DAQS HR0.188，是相對「MASLD＋低DAQS」；不是MetALD高低DAQS的直接比較，也不是飲酒比戒酒安全。\n> **作者推測**：發炎與血小板可能參與，但同時點指標及負中介比例未證實機制。\n> **所以呢**：用來提醒檢查飲食整體品質，不能用來告訴病人靠抗氧化食物／膠囊便可放心喝酒。\n\n## Clinical Application\n\n- **適用問題**：成人脂肪肝照護中的飲食評估與研究判讀；實際肝病診斷、酒精風險與營養治療仍須個別評估。\n- **Protocol**：本文沒有分派飲食、補充劑、劑量或療程，不能從DAQS直接開處方。\n- **實務**：詢問食物種類、飲酒量與過往停酒原因，避免把病後改食或停酒者與原本健康低飲酒者混為一談。以食物模式討論飲食品質，不能把六項營養素變成高劑量補充品清單。\n- **外推台灣**：美國調查、修改FLI及省略亞洲BMI條件，並非台灣影像確診族群；不直接移用風險值或診斷界線。\n\n# Paper Details\n\n## Methods\n\n納入≥20歲、排除孕婦及病毒性肝炎等，FLI≥30加至少一項代謝條件；無本次肝臟影像或組織診斷。兩次24小時回憶估基線暴露，檢查日至2019-12-31追蹤。模型3調年齡、性別、族群、收入、BMI、吸菸、久坐、能量、補充劑、癌症、糖尿病、ALT、AST、尿酸及高脂血症。缺值以平均／眾數插補。主文未提供可重核的本分析預設樣本數／功效計算、完整程式與比例風險診斷結果；不能假設未報告就一定沒做。\n\n## Critical Appraisal\n\n| Newcastle–Ottawa相關域 | 判定 | 依據與影響 |\n|---|---|---|\n| 選樣與代表性 | 🔴 | 70190至3048、多重缺資料與FLI篩選；複雜加權不能自動消除排除造成的選擇偏差。 |\n| 暴露分類 | 🔴 | 短期自陳飲食與酒精，不代表長期改變；DII缺17項；MASLD飲酒符號與低飲酒文字衝突，未核原碼。 |\n| 可比性／混雜 | 🔴 | 有多變量調整，但疾病嚴重度、社經／健康行為、酒精歷史及病後改食／停酒仍可能混雜；FLI成分亦連結代謝與飲食。 |\n| 結果測量 | 🟡 | 死亡連結較自陳飲食客觀；心血管死亡細分類與作者稱缺碼限制仍在。 |\n| 時間與追蹤 | 🟡 | 檢查起算避免把暴露安排到未來；不同調查波次追蹤長短不一，主文未報中位追蹤，不能自行估。 |\n| 缺值／分析報告 | 🔴 | 平均插補不反映插補不確定性；「minimal (>1%)」描述矛盾，多重比較與模型選擇增加偶然發現風險；補充未取回。 |\n\n**因果防線**：疾病可先改變飲食或飲酒（reverse causation／sick-quitter）；限制在既有SLD且資料完整者可能引入selection／collider bias。同期飲食和血球無法確認中介時序，亦未證明所有暴露–中介–死亡混雜已控制。未見明確的早期死亡排除或重複長期飲食敏感度，不把「調整許多變項」等同因果。\n\n**統計與臨床意義**：HR不是風險比、絕對下降或延命年數；未有同一時間點可比絕對風險，不能算NNT。死亡不需量表MCID，但需絕對效益、害處及因果可識別性；本文不足。聯合分析換參照組不能把型別內未顯著結果變成飲食療效；更不能以兩個HR大小直接宣稱飲食優於限酒。MetALD僅58事件而模型共變項多，CI寬及穩定性值得警惕，未據此虛構精確EPV。\n\n**原文內部不一致**：2.2低飲酒的>符號、2.9「BMI>18.5為過輕」、FIB-4「>1.3為輕度」又1.3–2.67中度、2.10「minimal (>1%)」均保留為原文待釐清，不私自改成作者實際程式。表1方法稱SD，但0.52等數值是否SE未由原碼確認；不把它當個人分布SD。\n\n**定點引用核對**：原始FLI研究（Bedogni 2006，DOI 10.1186/1471-230X-6-33）官方主文確認<30排除、≥60較可確認；本研究採≥30是刻意擴大敏感度，30–59不能當影像確診。原文引述AUC0.85而原始摘要0.84、正文模型0.85，來源表述需分清，非核心結論推翻。另原文代謝條件旁引Kendel Jovanovic 2020的肥胖抗發炎飲食試驗，並非新的MASLD共識，引用匹配有疑點；2024指引PMC頁只回browser check，未宣稱已讀其完整建議。未做所有參考文獻／作者／期刊指標深查，符合focused-quick範圍。\n\n**Spin**：摘要與結論從觀察關聯跳到飲食改善存活及抵消酒精傷害；argdown_lint.py對作者論證回`association_to_causation`，不是全文失敗。表2的MetALD抗氧化CI及參照組必須一併呈現。\n\n**GRADE**：觀察性起點Low，偏差serious -1、不精確serious -1；其他域未額外扣，不等於證明沒有問題；無升級。腳本最終Very low。較大HR不能在混雜扣分後升級，也不能把這個確定性套到所有既有MASLD飲食證據。\n\n**Funding／COI**：文末列中國國自然82204028、廣州2025A04J5225、深圳BAGZL2024188及廣東藥科大學XKPYMS20260821，作者宣告無利益衝突；未見商業補充品試驗介入。\n\n## Key Findings\n\n全體DII高對低HR2.04（1.28–3.27）、CDAI0.44（0.26–0.74）、DAQS0.57（0.35–0.92）；這與各型別估計不可互換（表2）。圖3的MASLD高DAQS全因HR0.380（0.193–0.747）、MetALD高DAQS0.188（0.077–0.461）共用MASLD低DAQS參照；相應心血管MASLD0.309（0.092–1.044）跨無差異，不能稱已證實保護。\n\n3.5的DII經PHR／血小板中介比例−16.9%／−17.9%，作者已承認為不一致中介／抑制而非一般部分中介；不能轉成「可預防多少死亡」。\n\n# Resource\n\n## Vault Integration\n\n本工作區未提供可用的Papers／Medicine筆記庫搜尋結果，因此未核對既有知識連結，不表示沒有相關筆記。按原成果帳保存本篇，未自行建立另一套筆記庫。\n\n## Source\n\n- [本文DOI](https://doi.org/10.1002/fsn3.72429)\n- [PMC完整主文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13643365/)，§2.1–2.10、表1–2、圖1／3、§3–5及聲明。\n- [原始FLI研究](https://link.springer.com/article/10.1186/1471-230X-6-33)，Results與Discussion。\n- 主文HTML SHA-256：e3a62cf7cca9119be7294d51e3a70d130951603a88f94415b3cdd767d8bd06dc。首（識別／授權／2.1）、中（表2）、末（結論／資助）已回原HTML核對；圖1及圖3目視一致。全文為CC BY 4.0。補充檔未核驗的限制已明列，不以HTTP200當取得。",
       "cards": [],
       "completedAt": "2026-11-21T10:09:16.409Z"
+    },
+    {
+      "id": "doi:10.1002/fsn3.72429:digest",
+      "paperId": "doi:10.1002/fsn3.72429",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Differential Associations of Dietary Inflammatory Index and Dietary Antioxidant Indices With Mortality Risk From MASLD/MetALD: Results From a Large Population-Based Study.",
+      "authors": "Haixin Lyu, Haiyan Chen, Zegeng Zhan, Yangyang Qin, Lifang Mao, Meiyan Guo, Yaxian Mo, Tianran Shen",
+      "journal": "Food Science & Nutrition",
+      "year": "2026",
+      "doi": "10.1002/fsn3.72429",
+      "abstract": "Metabolic dysfunction-associated steatotic liver disease (MASLD) and its subtype, metabolic dysfunction and alcohol-associated liver disease (MetALD), represent escalating global health challenges. Despite the central role of dietary intervention in current guidelines, evidence remains limited regarding the synergistic impact of anti-inflammatory and antioxidant diets on the survival benefits of steatotic liver disease (SLD) populations, particularly those with moderate alcohol consumption. This study aims to elucidate the associations between dietary inflammatory/antioxidant quality and mortality across SLD subtypes, and provide insights into dietary recommendations for this patient group. Data from 3048 individuals (2146 MASLD, 902 MetALD) who participated in the 2005-2018 National Health and Nutrition Examination Survey were analyzed. Weighted Cox regression analysis was used to estimate the hazard ratios (HRs) and 95% confidence intervals (CIs) for mortality risk assessment. The mediation effects of inflammation-related indicators were explored by mediation analysis. During the follow-up period, a total of 306 deaths were documented. In MASLD patients, higher DII (T3) correlated with increased all-cause mortality (HR = 1.97, 95% CI: 1.12-3.47, p = 0.019). Both CDAI and DAQS showed negative associations, with HRs of 0.50 (0.28-0.89) and 0.47 (0.24-0.93) for T3, respectively (both p < 0.05). In MetALD patients, higher DII was associated with increased mortality risk (T2 HR = 4.95, T3 HR = 3.91, both p < 0.05). Joint analysis suggested that higher dietary antioxidant quality was associated with lower mortality risks across SLD subtypes compared with the MASLD group with low dietary antioxidant quality. Mediation analysis suggested that inflammation-related markers (platelets and PHR) may be involved in the associations between dietary indices and mortality in MASLD patients, whereas no statistically significant mediation effects were observed in the MetALD subgroup. Our findings show the key role of dietary quality in reducing mortality among patients with SLD, suggesting that anti-inflammatory and antioxidant-rich diets can improve long-term survival across the SLD spectrum. The findings of this study are expected to provide a new perspective on dietary interventions as a complement to current international guidelines for MASLD/MetALD.",
+      "legalFullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13643365/",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42846764/",
+      "category": "candidate",
+      "tags": [
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "脂肪肝飲食研究整理：讀懂三種分數、死亡關聯與共同參照組",
+      "content": "---\ndoi: \"10.1002/fsn3.72429\"\njournal: \"Food Science & Nutrition\"\nyear: 2026\nstudy_type: \"observational cohort\"\nmode: \"worker-batch\"\ntags: [research/digest, nutrition, MASLD]\n---\n\n> [!summary] 30 秒層\n> **一句話**：3048名美國成人的飲食分數與後續死亡有關聯，但「吃得抗氧化」不等於已證明能抵消酒精傷害。\n> - MASLD 2146人、死亡248人；MetALD 902人、死亡58人。\n> - DII越高代表較促發炎；CDAI與DAQS越高代表較佳的六項抗氧化營養素攝取面向。\n> - MASLD高DII HR1.97、高CDAI0.50、高DAQS0.47；MetALD兩個抗氧化估計CI均跨1。\n> - 聯合分析的MetALD高DAQS HR0.188以「MASLD低DAQS」為參照，不能當飲食介入的降低81.2%效果。\n> - 品質指標：另有同篇完整評讀；此處整理內容，判斷確定性與偏差請見品質評讀。\n\n# 5 分鐘層與完整層\n\n## 研究問題 / 背景\n**要點**：作者想知道發炎傾向、抗氧化攝取與MASLD／MetALD死亡是否有不同關聯。\n\n依引言四段，研究從脂肪肝新命名與照護需求，走到發炎／氧化壓力，再談酒精與飲食交織的缺口，最後提出獨立關聯、聯合組別及炎症指標中介三問題。這些問題有營養照護意義，但研究不是隨機飲食試驗。\n\n## 方法\n**要點**：NHANES基線兩次24小時回憶，連結後續死亡，並用多變量加權Cox作比較。\n\n| 項目 | 本文實際做法 |\n|---|---|\n| 資料 | NHANES 2005–2018，追蹤至2019-12-31 |\n| 對象 | ≥20歲，排除孕婦、病毒性肝炎、高飲酒及所需資料不足等；最後3048人 |\n| 肝脂肪 | FLI≥30，無本次影像／組織確認；另需至少一項代謝風險 |\n| 型別 | 作者定義MASLD與MetALD，後者男性30–60、女性20–50 g/day酒精；MASLD低飲酒段卻用>符號，與另一段重疊，未釐清原碼 |\n| 飲食 | 兩次24小時回憶，不是長期反覆追蹤飲食變化 |\n| 結果 | 全因死亡、心血管死亡 |\n| 分析 | 三層調整Cox、RCS、六組聯合分析、bootstrap中介、分層與敏感度 |\n\n模型3包含年齡、性別、族群、收入、BMI、吸菸、久坐、總能量、補充劑、癌症、糖尿病、ALT、AST、尿酸及高脂血症（§2.10）。未報可用中位追蹤年數，不自行估算。\n\n### 三個指標如何看\n\n- **DII**：以飲食成分的發炎效應加權；本次可用28/45成分。低分較抗發炎，高分較促發炎，按T1–T3比較。\n- **CDAI**：維生素A、C、E、鋅、硒及類胡蘿蔔素六項合成，反映相對攝取面向，不是量測血中抗氧化能力。\n- **DAQS**：六項每項若攝取≥2/3 RDI得1分、否則0分，總0–6；本文分0–2、3–4、5–6。這是研究計分法，不是臨床補充劑處方或新的建議劑量。\n\n## 主要發現\n**要點**：MASLD的方向較清楚；MetALD事件少，不能把未顯著抗氧化估計寫成確立保護。\n\n| 型別／高對低組，模型3 | HR（95% CI） | p | 讀法 |\n|---|---|---|---|\n| 全體DII | 2.04（1.28–3.27） | .003 | 較高死亡hazard關聯 |\n| 全體CDAI | 0.44（0.26–0.74） | .003 | 較低死亡hazard關聯 |\n| 全體DAQS | 0.57（0.35–0.92） | .021 | 較低死亡hazard關聯 |\n| MASLD DII | 1.97（1.12–3.47） | .019 | 248死亡中的估計 |\n| MASLD CDAI | 0.50（0.28–0.89） | .019 | 非介入降低50% |\n| MASLD DAQS | 0.47（0.24–0.93） | .031 | 非絕對風險下降53百分點 |\n| MetALD DII | 3.91（1.46–10.49） | .007 | 很寬；中組4.95反而更高 |\n| MetALD CDAI | 0.23（0.05–1.16） | .074 | CI跨1，未確立方向／幅度 |\n| MetALD DAQS | 0.60（0.26–1.39） | .229 | CI跨1，未確立保護 |\n\n數值出自表2，不混用模型1或聯合分析。表1顯示MetALD較年輕、平均飲食分數較佳，兩型本來就不相同。\n\n### 聯合分析為何看起來更有利？\n\n圖3改以「MASLD＋最差飲食品質」為每一指標的共同參照。全因死亡DAQS比較為MASLD高組HR0.380（0.193–0.747）、MetALD高組0.188（0.077–0.461）；這同時換了肝病／飲酒型別與飲食組，不能替代表2的型別內比較，也不能證明飲酒較安全。心血管死亡的MASLD高DAQS0.309（0.092–1.044）仍跨1（圖3B）。\n\n### 中介與分層\n\n§3.5中MASLD的DII經PHR／血小板比例為−16.9%／−17.9%；作者稱不一致中介或抑制，而非一般部分中介。MetALD沒有顯著中介。§3.6報FIB-4等分層與敏感度方向，但未取得有效補充檔，不能把主文摘要當成已核對全部原表。\n\n## 臨床意義 / 怎麼用\n**要點**：可用來練習整體飲食評估與風險溝通，不能轉成飲酒許可或補充品療效。\n\n作者討論全穀、蔬果與豆類等食物模式，並主張改善飲食品質；這是其由觀察資料作的臨床推論，不是本研究實測的分派療程。實務解讀應同時看既有肝病、酒精與疾病造成的飲食改變，不能承諾把分數提高就延命多少。\n\n本文沒有測試高劑量維生素、鋅、硒或類胡蘿蔔素補充療程。也沒有隨機比較「改飲食」與「減酒」；作者稱飲食品質保護強於限酒，超過這個設計能直接回答的問題。\n\n## 重要圖表重述\n**要點**：流程、分組及參照方式，比單獨背一個HR更重要。\n\n- **圖1**：70190→40401→12208→10289→3048；最後2146＋902相符，並揭示大量排除。\n- **表1**：兩型基線不同，大型人數欄是加權人口而非真實收案數；實際樣本仍3048。\n- **表2**：三模型、三指標、不同型別。MetALD僅58死亡，CI很寬。\n- **圖2**：RCS顯示估計曲線與CI，不表示每一段都顯著或因果。\n- **圖3**：六組共用較差飲食MASLD參照；本整理已實際目視圖中文字與區間。\n- **圖4**：血小板及PHR的探索性中介；負比例不等於負死亡事件或已證實機制。\n- **補充S圖／表**：主文說明含生存、CVD、分層、敏感度及中介；下載路由雖200卻為HTML而非DOCX，未假稱讀完補充內容。\n\n## 與既有認知的對照\n**要點**：沒有可搜尋的既有筆記庫回應，因此不虛構知識差異。\n\n本工作區未有可用vault_search與Papers／Medicine查詢結果，無法核對既有筆記；不等於沒有相關筆記。就本文而言，最需修正的直覺是「高抗氧化分數者死亡較少」不能直接改寫為「抗氧化營養素可抵酒害」。\n\n## 概念 / 名詞整理\n**要點**：飲食分數、疾病分類、hazard與中介，各自回答不同問題。\n\n- **MASLD／MetALD**：本文依代謝風險、FLI與酒精量分類，非隨機分派組。\n- **FLI**：由BMI、腰圍、三酸甘油脂與GGT組成的替代指標；本文刻意選較低≥30，不是影像確診。\n- **HR**：隨時間的hazard比較，不能當絕對風險差、NNT或延命年數。\n- **共同參照組**：每組HR都與同一基準比；兩個HR不同不自動等於兩組之間有顯著差異。\n- **不一致中介／抑制**：間接與直接路徑方向不同，不能套一般「解釋多少百分比」的簡化故事。\n\n## 自我測驗\n**要點**：先回答，再展開答案，練習辨認不能推出的臨床結論。\n\n> [!question]- Q1：MetALD高CDAI HR0.23，能說已證實降低77%死亡嗎？\n> 不能。95%CI0.05–1.16跨1，且為觀察性hazard關聯；不是分派飲食後的因果效果或絕對風險差。\n\n> [!question]- Q2：圖3 MetALD高DAQS HR0.188，為何不等於該型高低飲食比較？\n> 參照是MASLD低DAQS，兩者同時改變疾病／飲酒型別與飲食組。型別內比較應讀表2，且仍有混雜。\n\n> [!question]- Q3：DAQS六項達2/3 RDI就得分，是否代表應開六種高劑量補充品？\n> 不是。這是兩次飲食回憶的研究計分法，沒有分派補充劑、劑量、療程或安全性比較。\n\n> [!question]- Q4：負的血小板中介比例代表什麼？\n> 作者稱不一致中介或抑制，不能當成已證實有某百分比死亡可由該路徑預防；同期指標亦未確認時序與因果假設。\n\n> [!question]- Q5：為何這篇不能證明改飲食比減酒重要？\n> 沒有隨機分派兩種策略、也未有同一因果對照；分組、基線健康及行為不同。不能靠聯合組HR大小得出策略優劣。\n\n## Reference\n**要點**：主文、表2及圖3為上述數值與解讀的主要依據。\n\nLyu等，2026，Food Science & Nutrition 14:e72429；[DOI](https://doi.org/10.1002/fsn3.72429)、[PMC完整主文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13643365/)。依§1、§2.1–2.10、§3.1–3.6、§4–5、表1–2及圖1–4重組；已讀文末聲明與參考書目。首、中、末原文識別／表2／結論聲明核對一致。來源HTML SHA-256 e3a62cf7cca9119be7294d51e3a70d130951603a88f94415b3cdd767d8bd06dc，CC BY 4.0；補充檔限制如上，不用摘要代替主文。",
+      "cards": [
+        {
+          "title": "CI與因果",
+          "question": "MetALD高CDAI HR0.23，能說已證實降低77%死亡嗎？",
+          "answer": "不能。95%CI0.05–1.16跨1；而且是基線飲食與死亡的觀察性hazard關聯，不是飲食介入因果效果或絕對風險差。",
+          "tags": [
+            "MASLD",
+            "evidence"
+          ]
+        },
+        {
+          "title": "共同參照",
+          "question": "圖3 MetALD高DAQS HR0.188，為何不等於該型高低飲食比較？",
+          "answer": "參照是MASLD低DAQS，同時改變疾病／飲酒型別與飲食組；型別內估計應讀表2，仍不能消除混雜。",
+          "tags": [
+            "MASLD",
+            "statistics"
+          ]
+        },
+        {
+          "title": "分數不是處方",
+          "question": "DAQS六項達2/3 RDI就得分，是否代表應開六種高劑量補充品？",
+          "answer": "不是。這是兩次飲食回憶的研究計分法，沒有分派補充劑、劑量、療程或安全性比較。",
+          "tags": [
+            "nutrition"
+          ]
+        },
+        {
+          "title": "不一致中介",
+          "question": "負的血小板中介比例代表什麼？",
+          "answer": "作者稱不一致中介或抑制；不能解讀為某百分比死亡已證實可預防。同期指標也未確認因果時序與無未測混雜假設。",
+          "tags": [
+            "causality"
+          ]
+        },
+        {
+          "title": "策略不能比大小",
+          "question": "為何這篇不能證明改飲食比減酒重要？",
+          "answer": "沒有隨機分派兩策略，也未有同一因果對照；基線健康、行為與型別不同，不能靠聯合組HR大小推出策略優劣。",
+          "tags": [
+            "MASLD",
+            "causality"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-21T10:12:13.874Z"
     }
   ]
 }
