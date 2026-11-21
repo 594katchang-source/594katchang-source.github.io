@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T04:25:03.987Z",
+  "generatedAt": "2026-11-21T04:29:22.004Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -116999,6 +116999,79 @@
       "content": "---\ndoi: \"10.1186/s12902-026-02506-5\"\npmid: \"43058677\"\njournal: \"BMC Endocrine Disorders\"\nyear: 2026\nstudy_type: \"cross-sectional\"\nreview_depth: \"quick\"\nmode: \"focused-quick\"\nauthors: \"Megren Hassain A. Fagihi, Alharbi Salem Hamad S., Aseel Awad Alsaidan, Salman Hamdan Alsaqri, Anas Omar, Ahmad Abdualrazag A. Albalawi, Faisal Almohaileb, Mirwais Ramozi\"\n---\n\n# MASLD生活型態分數評讀：部分指標相關，不能當治療成效或預測工具\n\n> [!info] 品質快照\n> **設計／n**：阿富汗Kabul門診橫斷研究，340位18–65歲、BMI≥30且有MASLD成人，四組各85人。**RoB**：Newcastle–Ottawa觀察研究領域評讀，整體偏高，未用任意總分。**GRADE**：對提高CHLS改善臨床預後的因果效果為Very low，由grade_judge.py計算。**註冊**：非介入試驗；原文列not applicable，未報告預註冊分析方案。**一句話**：有部分血糖及肝酵素關聯，但沒有驗證治療效果、肝纖維化改善或風險預測能力。\n\n## 全文結構與逐段導覽\n\n已讀12頁主文、圖表、聲明及參考文獻；首p1、中p6、末p12及結果表p7均目視核對。以下是自行撰寫的段意，不是逐句翻譯。\n\n- **引言前四段（p2）**：依序談肥胖、飲食與肝脂肪、氧化壓力、MASLD疾病背景；這些不是本研究實測機制。\n- **引言中段（p2–3）**：介紹綜合生活型態分數及既有生活型態研究，指出現有MASLD生化資料缺口。\n- **引言末段（p3）**：定義主要血糖／肝酵素問題，血脂、血壓等列次要。\n- **方法前兩段（p3–4）**：交代Kateb University相關門診、418人篩查後340人納入、MASLD與肥胖條件、超音波分級、排除疾病及部分藥物。\n- **測量兩節（p4）**：量身體尺寸與IPAQ-SF，並以103項FFQ估過去一年攝取，再換成HEI-2020。\n- **CHLS定義段（p4）**：飲食與活動四分位各1–4分、BMI四分位反向1–4分、未抽菸1分／抽菸0分，總分3–13。\n- **生化及統計段（p4–6）**：採血、血壓、ANOVA／Welch、ANCOVA、去BMI敏感度及MetS logistic模型；說明樣本量規劃。\n- **結果基線段（p6–7）**：教育、未抽菸與活動在高分組較高；這些既是背景，也部分是構成分數的成分。\n- **結果血糖與肝酵素段（p7）**：FBS、ALT、GGT有關聯，HbA1c非單調，AST調整後不顯著。\n- **結果敏感度與MetS段（p7）**：去BMI後HbA1c不再顯著；MetS是Q2/Q3顯著、Q4不顯著。\n- **討論各主題（p8–10）**：依序重述結果、血糖、HbA1c、肝酵素、血脂血壓未顯著、MetS非單調、BMI納入理由及其敏感度；背景引用有對應問題，不能全部照單全收。\n- **限制／結論（p10）**：承認橫斷、自陳、門診選樣及多重比較；要求前瞻、多中心驗證。\n- **聲明及參考文獻（p10–12）**：列Kateb University資助、無競爭利益聲明；只針對發現的引用風險作定點核對，未作全面深度引用審查。補充材料1、2未另取得，S1數字僅依主文報告，未獨立重算。\n\n## Summary\n\n✅ Full text reviewed：正式springer路徑PDF通過精確題名／DOI、可讀主文與來源hash核對，12頁完整閱讀。\n\n健康生活型態總分與FBS、ALT、GGT較低有關；但「每個指標都隨分數改善」不符合結果。最高分組HbA1c不是最低，MetS OR的CI跨1；研究不能估計生活型態介入的因果效果。（p7表2、圖3 p8）\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> **一句話**：作者把飲食、活動、BMI與抽菸合成CHLS，看看不同分數的肥胖MASLD門診成人，當下檢驗值是否不同。\n>\n> **為什麼做**：想從多種生活型態一起看代謝與肝臟生化表現，而非只看單一行為。\n>\n> **組別**：Q1–Q4各85人，是樣本內分數四分位，不是隨機介入。全部人都有肥胖，BMI部分仍按相對四分位計分，不是「正常體重」才給分。（p3–6）\n>\n> **實際結果**：Q1與Q4 FBS為105.31±13.23與94.05±32.67 mg/dL；ALT47.8±21.4與35.4±15.7 U/L；GGT52.4±29.7與37.5±19.6 U/L。這些是不同人的未調整組別均數，不能讀成同一人治療前後下降。（表2 p7）\n>\n> **不能省略的部分**：HbA1c Q1/Q2/Q3/Q4為5.85/5.47/5.68/5.70%，最低在Q2；去BMI後調整p=0.071。Q4相對Q1的MetS OR0.319（0.078–1.312）未顯著。（p7）\n>\n> **所以呢**：適合用來討論綜合評估的可能價值，不能用來保證肝病改善、替個人打預後分數或取代正式MASLD評估。\n\n## Methods\n\n2024年8月至2025年3月在Kabul相關胃腸與肥胖門診篩查418人，納入340位18–65歲、BMI≥30且確認MASLD成人。排除其他特定肝病、孕哺期及若干影響代謝／體重的藥物使用者；這會限制外推到常規用藥、多共病病人。（p3–4）\n\n飲食用過去一年FFQ衍生HEI-2020；活動用IPAQ-SF。CHLS總分3–13：HEI四分位1–4、活動四分位1–4、BMI反向四分位1–4、抽菸0／未抽菸1。各成分的權重並不相等，BMI是身體狀態而非行為。未完整報告實際CHLS四分位切點及整數同分如何分組，重建仍有缺口。（p4–6）\n\nANCOVA與logistic模型調整年齡、性別、教育、婚姻、就業、總熱量、疾病分級與血脂異常。樣本量根據作者假設f=0.20、power90%、α0.05的四組ANOVA，估309再擴至340；沒有原始計算檔，不能稱已獨立重算達標。（p6）\n\n## Key Findings\n\n- **主要生化**：FBS調整p=0.039、ALT0.018、GGT0.027。表內組別均數與p值應分開看：沒有提供完整調整後組間效應及95%CI，不能把均數差11.26 mg/dL直接當作已調整介入效果。（表2 p7；11.26為105.31−94.05的算術差）\n- **HbA1c**：整體調整p=0.012，但非單調，去BMI敏感度後p=0.071；這項訊號不穩定。（p7）\n- **沒有顯著的項目**：血壓、血脂、胰島素的調整分析均未達p<0.05；AST調整p=0.089。未顯著不等於已證明沒有差異。（表2 p7）\n- **MetS**：整體Wald p=0.013；相對Q1，Q2 OR0.247（0.064–0.949），Q3 0.164（0.042–0.636），Q4 0.319（0.078–1.312），依序p0.042、0.009、0.113。不能挑Q3說成最高分最佳，也不能把OR當成發病風險降低。（p7、圖3 p8）\n\n## Critical Appraisal\n\n| 觀察研究領域 | 判定及證據 |\n|---|---|\n| 選樣 | 🔴 單一地區門診且先限定肥胖／MASLD，容易反映就醫及疾病意識；不能代表所有社區MASLD成人。 |\n| 暴露測量 | 🟡 FFQ與活動自陳，且FFQ未專為肥胖／MASLD驗證。CHLS是樣本相對分數，不是可直接移植的標準。 |\n| 混雜 | 🔴 有社經與臨床調整，但疾病可能改變飲食和活動；殘餘混雜仍在。不能將調整後關聯當因果。 |\n| 結果測量 | 🟡 實驗室與超音波有標準化程序；生化代理指標不等同纖維化、肝硬化、住院或死亡。 |\n| 時間順序 | 🔴 橫斷面無法區分先有生活型態還是先有疾病後改變行為（reverse causation）。 |\n| 缺失／分析選擇 | 🟡 418篩查後340完整資料，排除原因混合；整數分數分成各85人的同分處理細節不足。 |\n| 選擇性報告與多重比較 | 🟡 有Bonferroni處理部分組間比較，但作者承認多個生化結局沒有整體校正。接近0.05的結果需保留不確定性。 |\n\n**因果教義**：限制於肥胖且已患MASLD的門診樣本，需注意selection/collider風險；這是可能風險，沒有原始DAG不能斷言已發生。BMI已納入暴露總分，若再任意調整BMI可能改變所估問題；作者做去BMI敏感度是有價值的，但HbA1c因此失去顯著性，不應概稱所有結果都穩健。\n\n**統計、MCID與spin**：沒有報告各主要生化指標預設MCID，也沒有調整後均數差的完整CI，不能僅由p值判定臨床受益。沒有隨機試驗，ITT、PP與fragility index不適用；OR不換算成ARR/NNT。argdown_lint.py對作者描述性、要求前瞻驗證的最終結論回clean；但「可辨識風險」尚未有辨別度、校準或外部驗證，不能當成已驗證預測工具。\n\n**可直接核對的呈現問題**：表1活動量由Q1的612增加至Q4的2617 MET-min/week，表下注記卻寫decreasing trend，方向與數列相反。（p6目視確認）這是文字／表格不一致，不據此推論資料造假。本文沒有提供原始資料與分析碼，未獨立重算ANOVA或ANCOVA；保留原表p值並明確限制，不宣稱全面數值重現。\n\n**定點引用檢查（非全面深度審查）**：討論p8將參考文獻28稱為Look AHEAD；但條目對應Johansen等人JAMA2017試驗，原JAMA文章將本身研究與Look AHEAD另行比較，顯示試驗身份對應錯誤。另參考文獻27條目題名為autoimmune hepatitis指引，卻用於MASLD相關論述；只確認書目領域不同，其精確引述支持範圍尚未完整核對，不能假裝已查完。這些問題降低背景論證的可信度，但不自動否定本篇所有觀察數值。\n\nCrossref兩個DOI入口本次工具不可達，未完成該獨立存在性gate；上述JAMA判斷基於可讀的原始出版社文章，未把Crossref未核實或EASL頁面403寫成查核通過。\n\n**GRADE**：觀察研究從low起始，偏差風險serious、對臨床預後的間接性serious、MetS估計與主要生化效果精確度serious，計算為Very low。單篇跨研究一致性與發表偏差無法判定；不因部分OR很小而升級，因為降級原因存在且CI很寬。\n\n**資助／COI**：作者感謝Kateb University Scientific Research Center資助，宣告無競爭利益；不能誤寫為無資助。（p10）期刊IF、作者履歷與全面撤稿／勘誤查核本次略過，沒有以「未查」冒充沒有問題。\n\n## Clinical Application\n\n可以拿本篇教導如何一起問飲食、活動、抽菸與體重狀態，以及為何分數不能取代病人本身的臨床資料。沒有充分證據直接採用CHLS切點替台灣患者風險分層，也不能從肝酵素較低推成逆轉纖維化或改善存活。對多共病、已接受降脂或體重管理藥物、年齡>65歲者外推尤其有限；本篇沒有驗證其治療方案、劑量或療程。背景藥物可用性敘述不作當代治療指引更新。\n\n## Source\n\n- [原始研究](https://doi.org/10.1186/s12902-026-02506-5)，BMC Endocrine Disorders 26:389，2026；[PubMed PMID43058677](https://pubmed.ncbi.nlm.nih.gov/43058677/)。方法p3–6、表1 p6、表2 p7、圖3 p8、限制及資助p10、引用條目p11–12。\n- 定點風險核對：[Johansen JAMA2017原文](https://jamanetwork.com/journals/jama/fullarticle/2648632)，DOI10.1001/jama.2017.10169；參考文獻27書目DOI10.1016/j.jhep.2025.03.017。完整引用查證尚未完成。\n- 原創品質評析，未重製來源圖表或逐句翻譯，未公開PDF／全文；來源CC BY-NC-ND 4.0不變，公開需另核對精確內容與原證據hash。",
       "cards": [],
       "completedAt": "2026-11-21T04:24:23.683Z"
+    },
+    {
+      "id": "doi:10.1186/s12902-026-02506-5:digest",
+      "paperId": "doi:10.1186/s12902-026-02506-5",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Beyond clinical outcomes: exploring the relationship between healthy lifestyle adherence and metabolic-hepatic biomarkers in obese individuals with metabolic dysfunction-associated steatotic liver disease (MASLD).",
+      "authors": "Fagihi M, S A, Alsaidan A, Alsaqri S, Omar A, Albalawi A, Almohaileb F, Ramozi M",
+      "journal": "BMC Endocrine Disorders",
+      "year": "2026",
+      "doi": "10.1186/s12902-026-02506-5",
+      "abstract": "Obesity is a major driver of metabolic dysfunction and is strongly associated with the development of metabolic dysfunction-associated steatotic liver disease (MASLD). However, early identification of individuals at increased metabolic and hepatic risk remains challenging. Composite lifestyle scoring provides a practical and integrative approach to capturing multiple modifiable health behaviors simultaneously. This study aimed to examine the association between a Composite Healthy Lifestyle Score (CHLS) and metabolic and hepatic biomarkers among obese adults with MASLD. This cross-sectional study included 340 obese adults aged 18-65 years with MASLD who were recruited from gastroenterology and obesity outpatient clinics. The CHLS was constructed based on four modifiable lifestyle factors: diet quality (Healthy Eating Index-2020), physical activity, smoking status, and body weight status. Participants were categorized into four CHLS quartiles. Anthropometric measurements, biochemical markers (fasting blood glucose, HbA1c, lipid profile, insulin concentrations, and liver enzymes), and blood pressure were assessed. Associations between CHLS and metabolic outcomes were evaluated using multivariable-adjusted models. Higher CHLS was significantly associated with lower fasting blood glucose (adjusted P = 0.039). HbA1c levels also differed significantly across CHLS quartiles after multivariable adjustment (adjusted P = 0.012), although the pattern was non-linear, with the lowest mean HbA1c observed in the second CHLS quartile rather than the highest. Significant inverse associations were also observed between CHLS and alanine aminotransferase (ALT) and gamma-glutamyl transferase (GGT) concentrations, indicating a more favorable hepatic biomarker profile among participants with greater adherence to healthy lifestyle behaviors. After adjustment for potential confounders, no significant differences were observed in lipid profile parameters or blood pressure across CHLS quartiles. Binary logistic regression analysis demonstrated a significant overall association between CHLS and metabolic syndrome (overall P = 0.013). Compared with the lowest CHLS category, participants in the second and third CHLS categories had significantly lower odds of metabolic syndrome, whereas the association for the highest CHLS category was not statistically significant. Greater adherence to healthy lifestyle behaviors, as reflected by a higher CHLS, was associated with lower fasting blood glucose levels and a more favorable hepatic biomarker profile among obese adults with MASLD. Although HbA1c differed significantly across CHLS categories, its relationship with CHLS was non-linear. No significant associations were observed for lipid profile parameters or blood pressure. Overall, CHLS may represent a practical tool for identifying individuals with less favorable metabolic and hepatic profiles and may support targeted preventive strategies in clinical practice and public health. Not applicable.",
+      "legalFullTextUrl": "https://doi.org/10.1186/s12902-026-02506-5",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43058677/",
+      "category": "recommended",
+      "tags": [
+        "health promotion and lifestyle",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "obesity and metabolism",
+        "precision nutrition",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "MASLD與生活型態總分：看懂血糖、肝酵素及非單調結果",
+      "content": "---\ndoi: \"10.1186/s12902-026-02506-5\"\npmid: \"43058677\"\njournal: \"BMC Endocrine Disorders\"\nyear: 2026\nmode: \"worker-batch\"\ntags: [research/digest, MASLD, lifestyle]\n---\n\n> [!summary] 30秒層：一句話與重點\n> 在340位肥胖MASLD門診成人中，綜合生活型態分數與部分生化表現有關，但不是越高分所有結果都越好。\n> - 四組各85人，沒有隨機介入或追蹤同一人改善。（p3、p6）\n> - FBS、ALT、GGT整體組別調整p分別0.039、0.018、0.027；不是每一對組別都已證實不同。（表2 p7）\n> - HbA1c最低在Q2；去除BMI後p=0.071，不能說訊號完全穩定。（p7）\n> - MetS的Q2/Q3較低勝算達顯著，Q4未顯著；OR不能當發病機率降低。（p7、圖3 p8）\n> - 肝酵素不等於纖維化或存活；本篇沒有驗證臨床預測工具。\n> 品質另有同篇獨立評讀；本整理負責理解內容，可信度與引用問題請搭配品質快照。\n\n# MASLD與生活型態總分：看懂血糖、肝酵素及非單調結果\n\n**5分鐘層**：只讀每節「要點」即可重建研究邏輯。**完整層**：再讀測量、數字與圖表解讀，最後用五題自測確認沒有把關聯讀成療效。\n\n## 全文地圖 / 研究問題\n**要點**：這是既有疾病人口的橫斷研究，探討生活型態綜合分數與同時期檢驗值，而非疾病預防試驗。\n\n已完整讀12頁主文與參考文獻，首p1、中p6、末p12及表2 p7已目視核對。引言先談肥胖、飲食、氧化壓力與MASLD，再引入CHLS及現有研究缺口；方法依人口、體位／活動、飲食、分數、生化與統計分段；結果依基線、生化、去BMI敏感度與MetS分組；討論再逐項解釋，末段承認限制與提出前瞻驗證需求。（p2–10）\n\n作者想將多種生活型態因素放在一起，而不是只問某一種食物。主要問題聚焦血糖與肝酵素；血脂、血壓等為其他觀察指標。背景提到的生理途徑與先前介入研究，不等於本篇已測到其因果鏈。\n\n## 方法：人、測量與分數\n**要點**：CHLS是這群人的相對排名總分，BMI也是成分，不能直接搬成所有人的健康處方。\n\n- **人口與場所**：2024年8月至2025年3月，阿富汗Kabul的Kateb University相關胃腸及肥胖門診，418人篩查後340人納入。年齡18–65、BMI≥30、確認MASLD；超音波分肝脂肪嚴重度。孕哺、特定其他肝病與若干影響代謝／體重的藥物使用者被排除。（p3–4）\n- **飲食**：103項FFQ估過去一年飲食，以HEI-2020評飲食品質；HEI有13成分，滿分100。（p4）\n- **活動與身體狀態**：IPAQ-SF估活動，另量體重、身高、腰圍與臀圍。（p4）\n- **CHLS怎麼算**：HEI四分位1–4分、活動四分位1–4分、BMI四分位反向1–4分、未抽菸1／抽菸0，總分3–13。全部人都有肥胖，低BMI四分位只是這群人中相對低，不等於正常體重。（p4、圖2 p5）\n- **生化與分析**：檢查血糖、HbA1c、血脂、胰島素、肝酵素及血壓；用ANOVA或Welch、ANCOVA和MetS logistic模型，調整人口、社經、熱量、疾病分級與血脂異常。另以去BMI分數重新分組。（p5–6）\n\n四個成分不是等權重：前三項各可相差3分，抽菸項只相差1分。主文未完整給出實際CHLS四分位切點與整數同分者處理方式，因此不能照筆記自行重建一個臨床版本。\n\n## 主要發現\n**要點**：部分生化指標較佳，HbA1c與MetS的結果卻不是單調改善。\n\n以下為自行挑選的事實與學習對照，不重製原表格。均數是不同組別的未調整mean±SD；右欄的調整p是整體組別檢定，不能解釋為Q1與Q4的調整後效果或同一人的前後變化。（表2 p7）\n\n| 問題 | Q1與Q4／其他重要數據 | 本篇可支持的讀法 |\n|---|---|---|\n| 空腹血糖 | 105.31±13.23 → 94.05±32.67 mg/dL；調整p=0.039 | 分數組別與血糖有關，箭頭只表組別排列，不代表介入下降。 |\n| ALT | 47.8±21.4 → 35.4±15.7 U/L；調整p=0.018 | 肝酵素關聯，沒有纖維化改善證據。 |\n| GGT | 52.4±29.7 → 37.5±19.6 U/L；調整p=0.027 | 同為生化代理指標，不能換成存活利益。 |\n| HbA1c | Q1/Q2/Q3/Q4為5.85/5.47/5.68/5.70%；調整p=0.012 | 最低值在Q2，並非分數越高越低。 |\n| AST及其他 | AST調整p=0.089；血脂、血壓、胰島素調整後均未顯著 | 保留未顯著結果，不把部分訊號包裝成全面改善。 |\n\n**去BMI敏感度**：主文報告FBS p=0.049、ALT0.029、GGT0.041仍顯著，HbA1c則p=0.071。結果不是全數不變；補充表S1未另取得，僅依正文描述，未獨立核算。（p7）\n\n**MetS勝算比較**：以Q1作參考，Q2 OR0.247（95%CI0.064–0.949）、Q3 0.164（0.042–0.636）、Q4 0.319（0.078–1.312）。整體Wald p=0.013，Q4個別p=0.113。整體檢定有訊號與最高組未顯著可以同時成立，不能任選一個數字代表所有組。（p7、圖3 p8）\n\n## 重要圖表重述\n**要點**：先問每張圖的功能，再決定它能回答哪一類問題。\n\n- **圖1 p3**：人數篩選流程；418到340，包含不符條件、拒絕或資料不完整者，並非追蹤流失率。\n- **圖2 p5**：CHLS組成，包含三個1–4分成分與一個0／1分成分；不能將總分誤認為單純飲食品質分數。\n- **表1 p6**：人口及臨床背景；活動量由612增加到2617 MET-min/week，表下注記卻寫下降趨勢，與數列方向相反。此為可見呈現不一致，不據此指控資料造假。\n- **表2 p7**：不同生化結果及未／已調整p值；要同時讀未顯著項目，且區分均數與調整分析。\n- **圖3 p8**：不同CHLS組的MetS OR及CI；最高組CI跨1，並不符合簡單的線性劑量說法。\n\n## 作者提出的可能解釋與限制\n**要點**：生物合理性可以提出假說，不能補足橫斷面缺失的時間順序。\n\n作者將飲食、活動、未抽菸與胰島素敏感性、肝脂肪及肝酵素連結；也認為血脂／血壓未顯著可能與樣本同質性、未測因素或行為持續時間有關。這些屬討論推論，不是已驗證的中介機轉。（p8–9）\n\n作者承認自陳誤差、門診選樣、橫斷設計及多個生化結局未整體校正。BMI屬身體狀態，納入「生活型態」分數有概念界線；去BMI後HbA1c訊號不穩定也說明不能只用「穩健」兩字帶過。沒有原始資料／分析碼可供本次重算，主文所列均數與p值均按原位置引用，不宣稱已再現全部統計。（p9–10）\n\n本task的品質評讀另記錄背景引用身份不一致：JAMA2017參考文獻28並非正文所稱的Look AHEAD試驗；這是定點原始來源核對，未完成全面引用查證。整理不把這些背景敘述擴寫成新治療建議。\n\n## 臨床意義 / 怎麼用\n**要點**：用來學習多面向問診與證據判讀，不直接採用CHLS作療效保證或風險分類。\n\n可以從飲食、活動、抽菸及體重狀態一起理解病人的背景，再分開看生化、影像與臨床結果。這篇沒有驗證CHLS的敏感度、特異度、校準、外部預測能力，亦未確認纖維化、肝硬化或死亡改善；不能用一個分數替代臨床評估。其單地區18–65歲門診樣本及藥物排除，也限制外推到台灣高齡、多共病、正接受降脂或體重管理藥物的人。（方法p3–4、限制p10）\n\n## 與既有認知的對照\n**要點**：同篇品質評讀可互相參照；跨vault的知識差異本次未確認。\n\n本環境未提供vault_search，不能說「找不到任何相關筆記」。同task前一篇DI-GM也是橫斷飲食／代謝關聯，兩者共同提醒：研究中的相對分數不是臨床介入處方。這是閱讀方法的對照，不合併兩篇資料計算效果，也不視為新的統合分析。\n\n## 概念 / 名詞整理\n**要點**：分清評分、檢定、關聯與代理終點，避免跨層推論。\n\n- **CHLS**：整體生活型態加身體狀態的相對分數，不是單獨飲食介入。\n- **四分位組**：樣本內分組，Q4不是對所有人通用的治療目標。\n- **整體p值**：檢查各組是否有差異，不能告訴每一組都顯著或單調改變。\n- **敏感度分析**：更換某個合理分析決策以看結果變化；部分訊號消失是重要資訊，不能省略。\n- **代理指標**：FBS或肝酵素可以提供生理資訊，但與肝病臨床預後是不同層級。\n\n## 自我測驗\n**要點**：用五個判斷確認自己沒有把研究讀成治療試驗。\n\n> [!question]- Q1：表中Q4空腹血糖比Q1低11.26 mg/dL，能說病人改善了11.26嗎？\n> 不行。這是不同組別的未調整均數差，非同一人前後變化、非隨機介入效果；調整整體p也不是該差值的調整後CI。\n\n> [!question]- Q2：為什麼HbA1c不能概括成高分最好？\n> 最低值在Q2，Q4並非最低；去BMI後p=0.071不再顯著。應保留非單調與敏感度差異。\n\n> [!question]- Q3：所有人都肥胖，CHLS的BMI分數還有差異嗎？\n> 有。它按這群人的BMI四分位反向計分，較低BMI組得較高分；相對較低不等於正常體重。\n\n> [!question]- Q4：整體MetS p=0.013，為何Q4仍不能說顯著較低？\n> 整體與個別比較回答不同問題；Q4 OR0.319的95%CI0.078–1.312跨1，個別p=0.113。不能用整體p替代該組結果。\n\n> [!question]- Q5：ALT與GGT較低能證明纖維化逆轉或存活改善嗎？\n> 不能。本篇只比較生化代理指標，沒有前瞻追蹤或這些臨床終點；仍需其他研究驗證。\n\n## Reference\n**要點**：主文結果與限制依頁碼回查；沒有公開PDF或原圖表副本。\n\n- Fagihi et al. 2026, BMC Endocrine Disorders 26:389：[DOI](https://doi.org/10.1186/s12902-026-02506-5)、[PubMed43058677](https://pubmed.ncbi.nlm.nih.gov/43058677/)。方法p3–6、表1 p6、表2 p7、圖3 p8、限制／聲明p10。\n- 原文列Kateb University相關資助及作者無競爭利益聲明；補充材料未獨立核算。（p10）\n- 本筆記與五卡為原創教學整理與判讀，非逐句翻譯或原圖表複製；來源CC BY-NC-ND 4.0不變。公開前依精確正文、卡片及來源hash另核對。",
+      "cards": [
+        {
+          "title": "組間差不是療效",
+          "question": "Q4空腹血糖比Q1低11.26 mg/dL，為什麼不能當作生活型態介入成效？",
+          "answer": "這是橫斷面不同人群的未調整均數差，沒有同一人前後追蹤或隨機介入；整體ANCOVA p=0.039也不是該差值的調整後效應或CI。（表2 p7）",
+          "tags": [
+            "MASLD",
+            "因果判讀"
+          ]
+        },
+        {
+          "title": "非單調結果",
+          "question": "這篇HbA1c能概括為CHLS越高越好嗎？",
+          "answer": "不能。Q1至Q4均數為5.85、5.47、5.68、5.70%，最低在Q2；去除BMI的敏感度分析調整p=0.071未顯著。要保留非單調與不穩定訊號。（p7）",
+          "tags": [
+            "HbA1c",
+            "敏感度分析"
+          ]
+        },
+        {
+          "title": "相對BMI分數",
+          "question": "所有受試者都肥胖，為何BMI仍能構成不同CHLS？",
+          "answer": "研究把BMI按樣本內四分位反向給1–4分，較低者得較高分；相對低BMI不代表正常體重。總分因此也不是純行為分數。（p4）",
+          "tags": [
+            "CHLS",
+            "評分"
+          ]
+        },
+        {
+          "title": "整體與個別檢定",
+          "question": "MetS整體p=0.013，是否表示最高分Q4也顯著較低？",
+          "answer": "不是。整體組別檢定與個別對照不同；Q4相對Q1 OR0.319，95%CI0.078–1.312跨1、p=0.113，未達顯著。（p7、圖3 p8）",
+          "tags": [
+            "統計",
+            "MetS"
+          ]
+        },
+        {
+          "title": "肝酵素的證據界線",
+          "question": "ALT與GGT較低，能推出纖維化逆轉或延長存活嗎？",
+          "answer": "不能。本篇比較的是生化代理指標，沒有這些臨床終點與前瞻介入資料；需另外研究驗證，不能用分數代替臨床預後評估。（p7、限制p10）",
+          "tags": [
+            "肝酵素",
+            "代理終點"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-21T04:28:46.385Z"
     }
   ]
 }
