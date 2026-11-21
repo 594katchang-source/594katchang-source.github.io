@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T04:55:48.127Z",
+  "generatedAt": "2026-11-21T04:59:38.313Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -117098,6 +117098,78 @@
       "content": "---\ndoi: \"10.3389/fnut.2026.1914318\"\npmid: \"43047496\"\njournal: \"Frontiers in Nutrition\"\nyear: 2026\nauthors: \"Ling Feng, Xiaoying Wei, Zhenwei Zhai, Yuan Zheng, Yanni Tan, Jingxia Sun, Wenxin Chu, Wensheng Lu\"\nstudy_type: \"ambispective cohort / prognostic marker comparison\"\nreview_depth: \"quick\"\nmode: \"focused-quick\"\n---\n\n# ICU出院CONUT與長期死亡：條件式族群、預測驗證與對數尺度陷阱\n\n> [!info] 品質快照\n> **設計／n**：廣西兩中心回溯加前瞻追蹤，461人，177死亡；先排除出院三個月內死亡／再敗血症者。**偏差風險**：預測目的以PROBAST四域評讀，整體高風險；另核對因果時間軸。**GRADE**：把預後關聯推廣至一般ICU出院敗血症生存者，Very low（grade_judge.py實算）；GRADE不取代PROBAST的模型判斷。**註冊**：主文未報告可核對的預註冊分析方案。**判斷**：有預後研究線索，但不足直接啟動CONUT導向營養療法；對數回歸數字不能當原始單位增減。\n\n## 全文結構與逐段導覽\n\n✅ Full text reviewed：正式unpaywall路徑PDF身份與可讀主文通過，17頁已完整讀取；首p1、中p9、末p17以及流程圖p4、Cox表p8與效能圖p13已目視核對。下列為原創段意與批判分析，不是全文翻譯或原圖表重製。\n\n- **引言三段（p2）**：由敗血症長期負擔，轉到營養／發炎及評估時點，最後提出CONUT與其他指標比較。作者對出院時發炎已不能解釋低白蛋白的強敘述，未由本研究的直接時序機制測量證實。\n- **設計／篩選（p2–3）**：620名成年ICU生存者，排除三個月內死亡／再發110人後510，再排除49人成461；這是有未來存活條件的樣本。\n- **偏差控制／定義（p3）**：宣告landmark、全620人及去篩選限制敏感度；主要死亡定義為出院三個月後，Cox主分析time zero為ICU出院。\n- **資料／統計（p3）**：出院前24小時採血；由病歷／死亡登記及電話追蹤死亡，並作Cox、RCS、線性回歸、ROC、DCA與多種效能指標。\n- **基線（p5–7）**：高CONUT組更老、疾病及發炎／器官功能異常較多；177人死亡，組別粗死亡比例遞增。\n- **存活與Cox（p5、表2 p8）**：原始HR3.393經年齡性別等調整後降至1.516；T2調整後未顯著。KM圖的0點另定在三個月landmark，與主Cox起點不能混用。\n- **亞組與RCS（p5、p8–9）**：性別有探索性互動訊號；未見非線性證據，不等於證明因果劑量律。\n- **標記回歸（p8–10、表3 p9）**：依變數取ln，β為每分CONUT對ln(marker)的關聯；後續把β乘3描述成原始指標增減，有尺度與分組單位問題。\n- **預測效能（p10–13）**：靜態／時間AUC、DCA、IDI、NRI、互調Cox、C-index與校準；各方法回答不同問題，不能把數量當作外部驗證。\n- **討論（p12–14）**：提出PICS及免疫營養機制並談臨床延伸，但沒有取得出院後營養／藥物介入或反覆標記軌跡。\n- **限制／結論（p14）**：作者承認兩中心、殘餘混雜與邊界估計，最終要求更多研究後才用於營養介入。\n- **聲明／參考文獻／詞彙（p14–17）**：倫理、資助、COI及詞彙已讀；focused-quick未逐篇重讀引用。S1/S2、補充圖S1未另取得，不能說敏感度結果已獨立驗證。\n\n## Summary\n\n高CONUT與較差長期存活相關，但結果屬選定的「先活過三個月且無再敗血症」人口。最高對最低組調整HR1.516（95%CI1.001–2.296），並非死亡機率增加51.6個百分點，也不是降低分數可減少死亡的介入證據。（表2 p8）\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> **一句話**：出院採血衍生的免疫營養分數，可能提供後續死亡的研究線索，但還不能當成已驗證的治療開關。\n>\n> **為什麼做**：作者希望補足ICU存活後的長期營養預後評估，並與BAR、NLR、PLR、LHR比較。\n>\n> **各組定義與結果**：CONUT0–3分162人，4–6分172人，7–12分127人；死亡39／64／74人，粗比例24.07%／37.21%／58.27%。這些是觀察到的組別比例，非調整後個人風險。（表1 p6）\n>\n> **調整之後**：T2對T1 HR1.204（0.806–1.799），未達顯著；T3對T1 HR1.516（1.001–2.296），邊界且不精確。不能只拿未調整HR3.393宣稱巨大效果。（表2 p8）\n>\n> **所以呢**：分數可以提示需要進一步評估，但本研究沒有證實按CONUT分數加營養可改善死亡，也沒有在其他醫療體系獨立驗證其效能。\n\n## Methods\n\nICU出院時間介於2017–2018年；正式標準化前瞻追蹤從2018-12-31至2022-12-31，較早死亡另以病歷及死亡登記雙來源核對。初始620人均≥18歲，最終中位年齡68（IQR58–76）；**題名雖說elderly，實際不是全體≥65歲專屬隊列**，文中另作≥65歲亞組。（p3、p5–6）\n\n死亡端點定義為出院三個月後，主要Cox起點為ICU出院；KM圖結果段卻明確以三個月landmark為圖上0點。讀圖月份須加三個月才是距ICU出院時間，不能把圖中起點當作原始出院時的全體人群。（p3、p5、圖1 p4）\n\nCONUT由白蛋白、淋巴球及總膽固醇分數相加。主要Model III調整年齡、性別、糖尿病、高血壓與心血管疾病；表1有SOFA、mGPS、CRP等疾病嚴重度差異，主模型未納入全部這些資訊。這限制「獨立營養訊號」的解讀，亦未證明相對常規完整臨床評估仍有足夠增量價值。（p3、表1 p6、表2 p8）\n\n## Key Findings\n\n1. **死亡關聯**：共177／461死亡，組別39／162、64／172、74／127；已按計數重算比例，與表1相符。粗比例不是固定36個月的個人存活預測，因為追蹤與設限不同。（p5–7）\n2. **調整估計**：T3對T1 HR從未調整3.393降至Model III的1.516；每一分組趨勢HR1.233（1.004–1.515），作者列p-trend0.036。CI接近1，應避免過度精確或治療式解讀。（表2 p8）\n3. **區辨度**：靜態CONUT AUC0.667（0.62–0.72），BAR0.656；時間依賴整體AUC約0.69與0.67。兩者在24／36月未有顯著差別，p分別0.878／0.687。不能說CONUT已全面優於BAR；AUC約0.67–0.69也不足保證個人分類準確。（p10–11）\n4. **增量價值**：結果段與圖8C顯示互調後CONUT與BAR均顯著（每SD HR1.41、1.19，BAR p=0.034），但討論p14寫成只有CONUT仍顯著、其他均不顯著，存在內部敘述不一致。以結果段／圖中實數為準，不將BAR訊號抹去。（p12–14）\n5. **對數尺度**：表3β是每分CONUT對ln(marker)的變化，β×3仍是對數尺度，不是原始單位。以作者所選3分差距作數學示範，BAR exp(3×0.0963)−1≈33.5%、NLR≈70.1%、PLR≈31.3%、LHR≈−11.8%；這是依模型換算的相對關聯，非來源直接報告、實測前後差或因果效果。也不能把固定3分等同任意兩個三分位組差。（表3 p9、正文p8–10；本task Python math.expm1重算）\n\n## Critical Appraisal\n\n主要目的含預測模型與標記效能比較，採**PROBAST**領域路由；同時檢查隊列的時間起點與混雜，不以單一泛用清單代替。\n\n| PROBAST領域 | 判定與理由 |\n|---|---|\n| Participants | 🔴 依未來三個月存活／無再發作選樣，加上疾病與資料完整條件；對所有ICU出院生存者適用性受限。 |\n| Predictors | 🟡 出院前24小時採血，時間明確且可取得；但CONUT與比較標記共用白蛋白／淋巴球，數學耦合不等於獨立營養生理機制。 |\n| Outcome | 🟡 全因死亡較客觀，較早死亡有雙來源確認，後續電話追蹤；然而端點限定三個月後，需與研究目標人口和時間軸一致解讀。 |\n| Analysis | 🔴 完整病例與同樣本多項效能評估；主文未見可核對的重抽樣樂觀校正、獨立驗證資料或完整可用的絕對風險方程。對時間依賴ROC及DeLong比較的設限處理細節不足。外部校準／臨床影響尚未驗證。 |\n\n**時間起點與因果教義**：此處最重要是time-zero alignment、conditioning on future survival與immortal-time／selection風險。三個月landmark可重新定義「存活至三個月者以後的風險」，卻不能自動恢復到「出院當下所有人的預後」。作者報告1／2／3月landmark、全620人Fine–Gray與移除篩選條件敏感度，但S1/S2本次未獨立核對；不能照抄「偏差均保守且已排除」為已驗證事實。早期死亡作競爭事件時，估計對象也需明確區分晚期死亡與真正全期間全因死亡。\n\n**統計與spin**：177事件對部分簡單模型有資訊，但不能只由事件數判定模型可靠。亞組性別交互作用p=0.034是探索訊號，多項比較可增加偶然顯著；不能直接給女性不同營養療程。HR不是RR，未提供可應用的個人基準風險，故不換算ARR/NNT。沒有經驗證的CONUT MCID或本篇介入劑量。DCA代表指定模型與閾值假設下的net benefit，不代表實際實施營養處置已降低死亡。\n\n表3ln(marker)的尺度錯讀與共享成分，另使「分數增加產生其他標記變化」超過關聯證據；argdown_lint.py對這個因果式說法標出association→causal缺口。作者最終結論有適當要求更多研究，這份評讀保留其審慎部分，而不把整篇一概判為無價值。\n\n**GRADE**：從觀察研究low起始，偏差風險、對一般出院生存者的間接性、主要調整估計不精確各serious，計算Very low。這評估關聯的推廣把握度，不是PROBAST評分的數值轉換，也不表示分數下降可治療死亡。跨研究一致性與發表偏差無法由單篇確認，沒有硬升級。\n\n**資助與利益衝突**：中國國家自然科學基金（82160052）資助；作者宣告無商業財務利益衝突。（p15）未做作者／期刊IF、全面引用與撤稿查核，不寫成已核實無問題。\n\n## Clinical Application\n\n可把CONUT當進一步營養與全身狀況評估的研究提示，並同時詢問進食、功能、體重變化與發炎／疾病狀況；本篇沒有證實CONUT可獨立診斷營養不良、取代完整評估、選擇營養配方或指定蛋白／熱量處方。出院後營養及藥物資料缺失，不能宣稱任何CONUT導向介入已有存活效益。台灣、其他感染來源、較年輕／極高齡、多共病與前三個月高風險者，均須另行驗證適用性。\n\n## Source\n\n- Feng et al. 2026, Frontiers in Nutrition 13:1914318：[DOI原始研究](https://doi.org/10.3389/fnut.2026.1914318)、[PubMed43047496](https://pubmed.ncbi.nlm.nih.gov/43047496/)。人口／時間定義p3、流程p4、基線p6–7、Cox表2 p8、ln回歸表3 p9、預測效能p10–13、限制p14、資助p15。\n- Python換算以表3原β為輸入，顯示為自行推導，不冒充原研究觀察值；沒有重製來源圖表或逐句翻譯。\n- 原來源CC BY；原創評讀仍依原skill、來源、結果與公開核驗gates保存，PDF／原文全文不公開。",
       "cards": [],
       "completedAt": "2026-11-21T04:55:15.459Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1914318:digest",
+      "paperId": "doi:10.3389/fnut.2026.1914318",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "CONUT score at ICU discharge predicts long-term all-cause mortality risk in elderly survivors of pneumonia-induced sepsis.",
+      "authors": "Feng L, Wei X, Zhai Z, Zheng Y, Tan Y, Sun J, Chu W, Lu W",
+      "journal": "Frontiers in Nutrition (PubMed)",
+      "year": "2026",
+      "doi": "10.3389/fnut.2026.1914318",
+      "abstract": "Although the Controlling Nutritional Status (CONUT) score has been confirmed to be associated with short-term mortality in intensive care unit (ICU) patients with sepsis, evidence on long-term post-ICU mortality remains limited. This study assessed its prognostic performance for long-term all-cause mortality in elderly survivors of pneumonia-induced sepsis and compared it with several immunoinflammatory nutritional indices. From the initial pool of 620 candidates, we screened 510 first-episode sepsis survivors with no sepsis recurrence more than 3 months after ICU discharge. We subsequently established a multicenter ambispective longitudinal cohort of 461 eligible participants for prospective follow-up, with a median follow-up period of 36 months. Using a complete-case approach with ICU discharge as time zero, we assessed the association between CONUT and mortality across the CONUT score tertiles: T1 (score 0-3, n = 162), T2 (4-6, n = 172), and T3 (7-12, n = 127). Sensitivity analyses were conducted to address selection, immortal-time, and landmark biases. Long-term risk of all-cause mortality increased stepwise across CONUT tertiles (24.07% vs. 37.21% vs. 58.27%; p < 0.0001). Kaplan-Meier analysis demonstrated significantly lower survival in patients with higher CONUT scores (log-rank, p < 0.0001). Multivariable Cox regression (Model III) revealed that one tertile increase in CONUT was associated with a 23.3% higher mortality risk (hazard ratio (HR) = 1.233, 95% confidence interval (CI) = 1.004-1.515; p for trend = 0.036), while the highest CONUT tertile carried a 51.6% increased mortality risk (HR = 1.516, 95% CI = 1.001-2.296; p = 0.039). Stratified analyses detected gender-related effect heterogeneity (p for interaction = 0.034). Restricted cubic spline (RCS) modeling confirmed a significant positive dose-response association between CONUT and mortality (p for overall < 0.001, p for nonlinear = 0.575). Multivariable linear regression evidenced that each one-tertile CONUT increase produced measurable changes in immunoinflammatory nutrition-derived indices (calculated as Model III |β| × tertile interval (3.0), with positive β values indicating increases and negative β values indicating reductions): blood urea nitrogen-to-albumin ratio (BAR) increase of 0.2889 (β = 0.0963), neutrophil-to-lymphocyte ratio (NLR) increase of 0.5313 (β = 0.1771), platelet-to-lymphocyte ratio (PLR) increase of 0.2721 (β = 0.0907), and lymphocyte to high-density lipoprotein ratio (LHR) reduction of 0.126 (β = -0.0420) (all p < 0.01). Time-dependent AUC analysis showed that CONUT prognostic discrimination was comparable to BAR and superior to NLR, PLR, and LHR over a median 36-month follow-up (DeLong test, all p for ΔAUC < 0.05). Decision curve analysis (DCA) illustrated that the CONUT model provided greater overall net benefit than the other markers. Time-dependent integrated discrimination improvement (IDI), time-dependent continuous net reclassification improvement (NRI), a mutually adjusted Cox model, a bidirectional incremental C-index, and calibration curve analyses indicated that CONUT was a core prognostic marker. BAR further improved prognostic performance when added to the CONUT-based model, whereas NLR, PLR, and LHR added little incremental predictive value. The bedside CONUT score measured at ICU discharge may be associated with long-term all-cause mortality risk in older sepsis survivors. Further research is required before these findings can inform nutritional interventions in routine clinical practice.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1914318/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43047496/",
+      "category": "recommended",
+      "tags": [
+        "adult clinical practice gaps",
+        "design:longitudinal",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "safety and interaction"
+      ],
+      "noteTitle": "CONUT出院預後研究怎麼讀：時間起點、標記尺度與預測效能",
+      "content": "---\ndoi: \"10.3389/fnut.2026.1914318\"\npmid: \"43047496\"\njournal: \"Frontiers in Nutrition\"\nyear: 2026\nmode: \"worker-batch\"\ntags: [research/digest, CONUT, critical-care-nutrition]\n---\n\n> [!summary] 30秒層：先抓證據界線\n> 出院CONUT與長期死亡有預後關聯，但研究先挑出三個月存活且無再敗血症者，不能直接當所有出院患者的治療工具。\n> - 461人、177死亡；CONUT三組粗死亡比例24.07%、37.21%、58.27%。（表1 p6）\n> - 最高對最低組充分調整HR1.516（95%CI1.001–2.296），不是死亡機率增加51.6個百分點。（表2 p8）\n> - CONUT靜態AUC0.667、BAR0.656；兩者時間AUC比較未顯著不同。（p10–11）\n> - 表3使用ln(marker)，β乘3仍是對數差，不能當原始單位增減。（p8–10）\n> - 本研究沒有證實CONUT導向營養介入可降低死亡；作者最終也要求更多研究。\n> 品質另有本篇獨立評讀；本整理用於理解內容，偏差與臨床採用請搭配品質快照。\n\n# CONUT出院預後研究怎麼讀：時間起點、標記尺度與預測效能\n\n**5分鐘層**：依序掃描每節「要點」，抓住人口、時間、指標、結果與應用限制。**完整層**：閱讀數據與圖表說明，再用五題自測檢查是否把關聯誤當介入成效。\n\n## 全文地圖 / 研究問題\n**要點**：作者比較出院時免疫營養標記的長期預後訊號，不是在比較營養治療方案。\n\n17頁已完整閱讀，包含引言、隊列篩選、時間定義、出院採血、統計、基線、Cox、亞組、RCS、標記回歸、ROC、DCA、增量效能、機制討論、限制、聲明、引用與詞彙。首p1、中p9、末p17及流程／關鍵效能圖已目視核對。引言三段依序由敗血症長期後果、營養與發炎及評估時間，收束到CONUT與四個比值指標比較；方法逐段交代條件式篩選及測量；結果由關聯轉到效能；討論提出PICS解釋，再承認尚不能指導營養介入。（p2–17）\n\n作者關心ICU存活後仍可能存在的免疫、發炎與營養問題。CONUT結合白蛋白、總膽固醇與淋巴球；其便捷性不表示它單獨就是完整營養不良診斷，更不等於已證明可以藉降低分數延長存活。\n\n## 方法：先畫出時間線\n**要點**：真正的研究人口，是先通過三個月存活與無再發作篩選的人。\n\n- **最初620人**：兩家廣西醫院，2017–2018年間ICU出院的首次肺炎敗血症生存者，納入年齡≥18歲。題名雖用elderly，最終中位年齡68（IQR58–76），並非全體≥65歲；另有年齡亞組。（p3、p5–6）\n- **三個月條件**：排除三個月內死亡或再敗血症110人後餘510，再排除特定疾病及資料不全49人成461。（圖1 p4）\n- **採血**：出院前24小時取白蛋白、總膽固醇、淋巴球與其他指標。CONUT為三項分數相加；各成分切點在補充圖S1，本次未另取得，不能從本文數據自行發明計分表。（p3）\n- **追蹤**：標準化前瞻電話追蹤自2018-12-31至2022-12-31，較早死亡以病歷與死亡登記核對。中位追蹤36個月；8人失聯、3人退出，其餘設限或死亡。（p3）\n- **起點**：主要Cox把ICU出院當time zero，但KM結果段說圖上0點是三個月landmark，圖上月份須再加三個月才是距出院時間。不能把兩個時間軸當成同一個。（p3、p5）\n\n作者報告1／2／3月landmark、全620人的Fine–Gray及移除篩選條件敏感度。S1/S2未獨立取得，這裡僅記其報告，不能說已核算其「偏差都保守」結論。\n\n## 指標與分析工具在做什麼\n**要點**：這些指標有共享成分，相關不一定代表不同生物路徑被因果驅動。\n\n- **CONUT**：白蛋白、淋巴球與總膽固醇的分數和；本研究三組0–3、4–6、7–12分。\n- **BAR**：BUN／白蛋白；**NLR**：嗜中性球／淋巴球；**PLR**：血小板／淋巴球；**LHR**：淋巴球／HDL。與CONUT共享白蛋白或淋巴球，解讀回歸時要記得數學連動。（定義p3）\n- **Cox／RCS**：看死亡hazard與關聯形狀；Model III調整年齡、性別、糖尿病、高血壓與心血管疾病。（表2 p8）\n- **標記回歸**：依變數先取自然對數，β代表每1分CONUT與ln(marker)的關聯，不是原始濃度差。（表3 p9）\n- **ROC／時間AUC／DCA／校準**：分別觀察區辨、時間相關區辨、閾值假設下效益與風險預測吻合；不能互相取代，也不能當成實際介入試驗。（p10–13）\n\n## 主要發現\n**要點**：粗比例差距很大，但調整後關聯明顯縮小；預測效能也不是完美。\n\n以下為自行選取的數字與讀法，不是原表格重製。\n\n| 學習問題 | 原研究數據 | 解讀界線 |\n|---|---|---|\n| 哪三組、死多少人？ | T1 39/162、T2 64/172、T3 74/127 | 粗比例24.07%、37.21%、58.27%；非調整後個人固定時間風險。 |\n| 中組調整後還顯著嗎？ | T2對T1 HR1.204（0.806–1.799），p=0.364 | 未顯著；不能說每一組都明確不同。 |\n| 高組關聯有多大？ | T3對T1由未調整HR3.393降為1.516（1.001–2.296） | 年齡等調整影響很大，最後CI接近1且較寬。 |\n| 是否有明顯彎曲或切點？ | RCS整體p<0.001，非線性p=0.575 | 未發現足夠非線性證據，未確立治療切點。 |\n| 區辨有多好？ | 靜態CONUT AUC0.667（0.62–0.72），BAR0.656 | 有限區辨力；AUC不是個人死亡機率，也不是準確率百分比。 |\n\n死亡比例已由原表人數核算吻合，177死亡也與39+64+74相符。（表1 p6、表2 p8、圖4 p9、ROC p10）\n\n**與BAR比較**：時間依賴整體AUC約CONUT0.69、BAR0.67，24／36月兩者比較p=0.878／0.687。不能說CONUT在所有比較都明顯勝過BAR。其他標記在部分時間點較弱，但多個時間點／比較也需要注意偶然顯著。（p10–11）\n\n**增量與校準**：結果段及圖8C互調後CONUT與BAR均有顯著關聯（每SD HR約1.41與1.19，BAR p=0.034）；BAR加入CONUT模型的C-index有增量。討論p14卻寫只有CONUT仍顯著、其他都不顯著，與上述數字不一致。應保留BAR結果，不只重述討論。（p12–14）\n\n## 對數尺度：這篇最值得學的數字判讀\n**要點**：ln模型中的差，不能直接當成原始單位的差。\n\n表3 Model III每1分CONUT的β為BAR0.0963、NLR0.1771、PLR0.0907、LHR−0.0420。作者把β乘3後描述為BAR增加0.2889等，但因依變數已取ln，這些仍是對數差。若只做**3個CONUT分數點差距的模型換算**，相對比例應用exp(3β)：BAR約+33.5%、NLR+70.1%、PLR+31.3%、LHR−11.8%。（表3 p9，Python math.expm1自行推導）\n\n這不是原研究直接觀察到的前後改變、不是原始單位增加，也不是介入效果。固定3分還不等於任意兩個三分位組的實際差距；組範圍本身不完全相同。數學耦合也使「CONUT造成這些指標改變」超過其關聯設計可支持範圍。\n\n## 重要圖表重述\n**要點**：流程圖決定適用人口，效能圖不等於治療證據。\n\n- **圖1 p4**：620→510→461，顯示三個月未來存活條件；先看這張圖才能知道預測對象是誰。\n- **表1 p6–7**：高分組較老、疾病嚴重度與發炎也不同；分數不只是飲食不足訊號。\n- **圖2 p7**：KM以三個月landmark作圖上起點，需與主Cox的出院起點分開。\n- **表2／圖3 p8**：調整後HR與探索性亞組；性別互動p=0.034不能直接變成性別專屬營養處方。\n- **圖4／表3 p9**：RCS沒有證實切點；ln回歸須保持尺度，不能照摘要當原始濃度差。\n- **圖5–6 p10–11**：靜態與時間AUC；部分時間點和BAR無顯著差別。\n- **圖7 p12**：DCA是在指定風險閾值下比較模型net benefit，不是實際營養治療的臨床成效。\n- **圖8 p13**：IDI、NRI、互調Cox、C-index與校準；結果不完全相同，不能只挑最有利的指標概稱全面優越。主文未明確提供可核對的獨立外部驗證流程。\n\n## 機轉白話與臨床意義 / 怎麼用\n**要點**：CONUT反映的是營養與疾病／發炎共同背景，不能單憑分數決定治療。\n\n作者用PICS（持續發炎、免疫抑制與分解代謝）解釋高CONUT和長期不良結局。這是生物合理性假說，本研究沒有出院後反覆標記、營養介入或藥物資料以證實路徑。白蛋白、膽固醇與淋巴球可能受多種疾病過程影響，不能把出院低值全部歸為營養儲備不足。（引言p2、討論p12–14、限制p14）\n\n可將本篇用作進一步評估的研究線索；不能依此指定營養品、蛋白／熱量劑量、免疫治療或死亡風險保證。研究沒有證實降低CONUT能減少死亡，也沒有確認在台灣、不同感染來源或出院前三個月高風險者的效能。作者最後也要求更多研究後才用於常規營養介入。（結論p14）\n\n## 與既有認知的對照\n**要點**：預後標記、營養診斷與介入成效是三個不同問題。\n\n本環境沒有vault_search工具，未核實跨vault知識差異，不能說沒有相關舊筆記。同task的兩篇代謝研究同樣提醒「有關聯≠治療有效」，但本篇有生存時間與設限，不能照搬橫斷研究的分析框架；三篇資料也未合併估效。\n\n## 概念 / 名詞整理\n**要點**：先認清時間、尺度與模型用途，才能解讀數字。\n\n- **landmark**：只對活到指定時間的人，從該時間再觀察後續；不等於所有原始出院者的風險。\n- **immortal-time／selection風險**：以未來存活作入選條件，再回推較早起點，需要清楚定義估計對象。\n- **HR**：hazard比，不是固定時間死亡率差；不能直接換成NNT。\n- **AUC與校準**：前者是區辨排序，後者看預測風險和觀察風險是否一致。\n- **ln(marker)**：模型預測的是對數量；回到原尺度的相對比要取指數。\n- **共享成分**：兩個指標使用同一生化項目時，相關可能部分來自公式本身，不能自動當作新機制。\n\n## 自我測驗\n**要點**：五個理解題比背一串預測指標更重要。\n\n> [!question]- Q1：能把本篇死亡比例當成所有ICU出院者的風險嗎？\n> 不能。研究先排除三個月內死亡／再敗血症者，且僅兩中心選定樣本；KM與主Cox起點也不同，須依時間與人口解讀。\n\n> [!question]- Q2：HR1.516是不是死亡機率增加51.6個百分點？\n> 不是。它是調整後hazard比，非絕對機率差，也不代表降低分數可減少同等死亡。\n\n> [!question]- Q3：BAR的β×3=0.2889為何不能說BAR增加0.2889原始單位？\n> 表3依變數是ln(BAR)，乘3後仍為對數差；若示範3分差距，exp(0.2889)−1約33.5%，是模型相對關聯而非實測介入改變。\n\n> [!question]- Q4：為什麼CONUT與NLR／BAR相關不一定是獨立新機制？\n> 指標共享淋巴球或白蛋白成分，可能有數學耦合；加上同時期觀察測量，不能推定CONUT造成其他指標變化。\n\n> [!question]- Q5：有ROC、DCA和校準曲線，是否代表已證實營養治療有效？\n> 沒有。這些是模型效能評估，不能取代外部驗證、臨床影響研究或營養介入試驗；本篇缺少出院後營養介入資料。\n\n## Reference\n**要點**：主文數字及自行推導需分開追溯。\n\n- Feng et al. 2026, Frontiers in Nutrition 13:1914318：[原始研究DOI](https://doi.org/10.3389/fnut.2026.1914318)、[PubMed43047496](https://pubmed.ncbi.nlm.nih.gov/43047496/)。方法／時間p3、流程p4、表1 p6–7、表2 p8、表3 p9、效能p10–13、限制p14、資助p15。\n- 國家自然科學基金82160052資助，作者宣告無商業財務衝突。補充材料S1/S2與計分補充圖未獨立核算。（p14–15）\n- ln尺度相對換算與死亡比例核算為本task自行推導，原輸入與計算收據保留；不是新增臨床試驗證據。原創整理與五卡不含PDF／原文全文公開副本。",
+      "cards": [
+        {
+          "title": "先看入選時間",
+          "question": "為什麼本篇不能直接估所有ICU出院者的死亡風險？",
+          "answer": "它先排除出院三個月內死亡或再敗血症者，再分析461人；這是條件式樣本。主Cox以出院為起點，KM圖卻以三個月landmark為圖上0點，必須分清。（p3–5）",
+          "tags": [
+            "CONUT",
+            "時間起點"
+          ]
+        },
+        {
+          "title": "HR不是機率差",
+          "question": "T3對T1 HR1.516可以說成死亡機率增加51.6個百分點嗎？",
+          "answer": "不可以。它是調整後hazard比，95%CI1.001–2.296且接近1；不是固定時間死亡率差，也不能說降低CONUT就會逆轉這個關聯。（表2 p8）",
+          "tags": [
+            "預後",
+            "HR"
+          ]
+        },
+        {
+          "title": "對數回歸尺度",
+          "question": "BAR的β×3=0.2889，為何不是增加0.2889個原始單位？",
+          "answer": "依變數先取ln(BAR)，乘3後仍是對數差。以3分CONUT差距示範，exp(0.2889)−1約33.5%，是自行換算的模型相對關聯，不是實測前後改變。（表3 p9）",
+          "tags": [
+            "ln模型",
+            "數值判讀"
+          ]
+        },
+        {
+          "title": "共享成分的陷阱",
+          "question": "CONUT和BAR／NLR相關，為什麼不必然代表新的因果機制？",
+          "answer": "CONUT與BAR共享白蛋白、與NLR等共享淋巴球成分；公式的數學耦合可造成部分相關，且本研究沒有介入證明因果。（定義p3、表3 p9）",
+          "tags": [
+            "營養指標",
+            "數學耦合"
+          ]
+        },
+        {
+          "title": "模型效能不是療效",
+          "question": "有AUC、DCA和校準曲線，是否代表CONUT導向營養治療已有效？",
+          "answer": "沒有。這些是模型區辨、閾值假設及預測吻合評估，不能代替外部驗證或介入試驗；本篇沒有出院後營養介入資料。（p10–14）",
+          "tags": [
+            "預測模型",
+            "臨床應用"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-21T04:58:56.565Z"
     }
   ]
 }
