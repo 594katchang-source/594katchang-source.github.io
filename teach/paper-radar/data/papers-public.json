@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T08:58:52.812Z",
+  "generatedAt": "2026-11-21T09:02:39.433Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -117195,6 +117195,77 @@
       "content": "---\ndoi: \"10.1186/s12877-026-08159-2\"\njournal: \"BMC Geriatrics\"\nyear: 2026\nstudy_type: \"psychometric cross-sectional validation\"\nreview_depth: \"quick\"\nmode: \"focused-quick\"\nauthors: \"Samira Hedayati, Reza Ghadimi, Yasin Jafari Rahim Abad, Fatemeh Ghaffari\"\n---\n\n# 護理營養照護量表評讀：信度可取，效度與性別比較仍有疑點\n\n> [!info] 品質快照\n> **設計／n**：伊朗單一大學醫院體系的量表文化調適與橫斷心理計量研究，716名護理師，重測30人。**RoB**：依測量屬性逐域評讀，報告完整性與構念效度有重要疑慮；不硬套介入研究的NOS或RoB 2。**GRADE**：一般介入效果GRADE不適用，沒有治療效果outcome；本篇以測量屬性判斷取代偽造整體等級。**註冊**：非介入試驗，未見預註冊分析方案。**一句話**：可作教育需求探索的研究工具，尚不足以憑分數判定實際照護品質、比較性別能力或預測病人改善。\n\n## 全文結構與逐段導覽\n\n已讀19頁PDF全部主文、表1–5、圖1–6、聲明與75條參考書目。首p1、中p10、末p19與p8、p12表格已目視核對；以下為自行撰寫的段意，不重製題項或原文翻譯。\n\n- **引言第1段（p2）**：提出高齡住院營養不良的問題。\n- **引言第2段（p2）**：說明護理師在辨識、進食協助及團隊溝通的位置。\n- **引言第3段（p2）**：以既有介入文獻論述測量行為的用途，並非本研究效果。\n- **引言第4段（p2）**：指出知識、工作負荷及組織支持可能使知行有落差。\n- **引言第5段及p3接續段**：區分知識、態度與自陳照護行為量表。\n- **引言其餘4段（p3）**：依序交代伊朗工具缺口、原量表三構面、文化移轉限制及研究目的。\n- **方法設計與工具兩節（p3）**：2025年研究、19題、三構面及各構面轉為0–100分。\n- **調適步驟1–2（p3–4）**：雙人正向翻譯後整合。\n- **步驟3–4（p4）**：盲式回譯與跨專業委員會審查。\n- **步驟5（p4–5）**：30人認知訪談、10名專家內容效度、用語調整；此處門檻需與結果比對。\n- **步驟6（p5）**：雙語樣本測試未執行，其他程序不能當作已完成。\n- **步驟7及招募（p5–6）**：分層隨機邀請800人、完成716人；線上必填避免缺項但不消除不回覆偏差。\n- **分析各節（p6–7）**：依序PAF／Promax EFA、GLASSO／Walktrap EGA、ML CFA、性別不變性、CR／AVE、隨機森林、內部一致性與重測、常態及離群值處理、軟體。\n- **結果背景與內容效度（p8）**：列樣本職務及訓練背景；S-CVI/Ave實際0.889，與前述0.90門檻不合。\n- **結果EFA及CFA（p9–10）**：支持三構面，列負荷量與適配度；未列各拆分樣本實際人數。\n- **結果EGA（p9–10、12圖5）**：三群網絡，但穩定性描述缺完整重抽樣細節。\n- **結果性別不變性（p10–12）**：只列configural／metric／scalar，表格的變化是相對基準而非逐層。\n- **結果隨機森林（p12–13）**：以題項／構面解釋量表總分的相對重要性，未量病人終點。\n- **討論前段（p13–14）**：解釋三構面與文化相似性，不能取代跨國直接不變性檢驗。\n- **討論中段（p14–15）**：談階層模型、信度、AVE不足的解釋及區辨效度；缺相關矩陣供重算。\n- **討論後段（p15–16）**：談網絡、性別及隨機森林；由量表預測轉稱照護有效性有推論過度。\n- **結論、優勢限制（p16）**：承認未雙語測試、單體系、自陳偏差，仍有未充分處理的統計報告問題。\n- **實務意涵（p16–17）**：提出教育與品質改善用途，屬待驗證的應用建議。\n- **聲明與文獻（p17–19）**：無資助及利益衝突自陳，資料需向作者索取；補充材料1未另取得，不能宣稱全部附件已審。\n\n## Summary\n\n✅ Full text reviewed。正式Springer來源PDF與DOI／題名相符，19頁主文可讀；來源SHA-256為34b4a883b3e4e322983acada3bc1ca902c3235d9528579c5ad944e2e1087747b。\n\n這篇測試波斯語版本能否一致地量到護理師自陳的營養照護行為。它沒有觀察病人營養改善，也沒有比較任何教育介入。三構面的初步結構與重測結果可參考，但內容效度、性別不變性及樣本報告有可直接核對的疑點。（p3–12）\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> **為什麼做**：想讓伊朗護理師有一套能用當地語言回答的營養照護行為問卷。\n>\n> **怎麼做**：翻譯、回譯、專家與小樣本審查，再請716人填答，將資料拆作探索與確認分析；另30人隔兩週重測。\n>\n> **找到什麼**：題目大致分成評估規劃、執行支持、計算能力三類；總量表α=0.860、ω=0.850，重測ICC=0.90。\n>\n> **不能怎麼讀**：穩定自評不等於真實能力，更不等於病人會少營養不良。作者的隨機森林是預測同一量表總分，沒有證明哪個照護行為改善病人最多。\n>\n> **可以怎麼用**：作團隊討論和教育需求探索的候選架構，配合實際照護紀錄；不能直接套成台灣護理師的考核或性別排名工具。\n\n## Methods\n\n醫院與高齡照護病房作分層，按符合資格護理師數分配邀請，宣稱用電腦亂數選取。800人受邀，716人完成，回覆率89.5%；未系統記錄拒絕或未完成原因。必填題目使完成者無缺值，不能解決未參與者偏差。文章後段又說刪除少數多變項離群值，未列刪除數及各分析實際n，不能把每項分析一律當716。（p5–7）\n\n19題每題1–5分，構面分數換成0–100；這是作答頻率分數，不是達標照護百分率。EFA採PAF及Promax，CFA採ML；文中說隨機拆分探索／確認樣本，未給兩組各n及分組基線。EGA以部分相關網絡尋群，與EFA是同類資料的不同分析，不是獨立外部驗證。（p3、6–7）\n\n重測30人、間隔兩週，報ICC與CI，但未交代ICC模型、單次或平均測量及一致性／絕對同意定義。未報測量誤差SEM、最小可偵測改變SDC、反應性或有意義改變門檻，不能用分數上升來判定教育真正有效。（p7、12）\n\n## Key Findings\n\n| 測量屬性 | 主文結果 | 解讀 |\n|---|---|---|\n| 內容效度 | I-CVI 0.80–1.00；S-CVI/Ave 0.889；S-CVI/UA 0.21 | Ave未達作者方法所訂≥0.90，不能照結論稱全部達標（p5、8） |\n| 結構 | KMO0.898；三構面解釋52.85%；表2為24.38+19.91+8.56 | 結構探索有支持；沒有外部新樣本複驗（p9–10） |\n| CFA | CFI0.967、TLI0.962、RMSEA0.037（90%CI0.026–0.047）、SRMR0.042 | 適配佳不代表每種效度均成立；一階／二階同適配也非兩份獨立證據（表3） |\n| 收斂效度 | AVE0.400、0.405、0.470；CR0.869、0.800、0.726 | AVE全部低於作者訂0.50，CR可接受無法自動消除此問題（表4） |\n| 內部一致性 | 三構面ω0.863／0.794／0.722；總ω0.850 | 非全部>0.85；與方法工具段宣稱不一致（p3、表4） |\n| 重測 | 構面ICC0.82／0.88／0.84；總0.90（95%CI0.87–0.93） | 初步穩定性可取，ICC規格及絕對誤差仍待補（表4） |\n\n性別表1為女性420、男性298，合計718，與總n716不符；41.3%也不能精確對上298/716。只指出原表矛盾，不能擅改男性為296。（p8，已目視確認）\n\n表5 configural CFI0.951、metric0.955、scalar0.945。作者表內ΔCFI0.006是scalar相對configural；實際逐層scalar相對metric下降0.010，恰在作者≤0.01門檻邊界，而非0.006。RMSEA由0.050到0.056，逐層變化0.006。strict階段方法提及但結果未列。不能從這份表保證所有性別比較都無測量偏差。（p7、11–12）\n\nEGA報維度數95%CI2.50–3.98，卻又說每次重抽樣均三維；欠重抽樣分布與算法說明，不能確認「每次完全一致」。（p10）\n\n## Critical Appraisal\n\n本研究屬測量工具調適，不是病因或介入效果研究；採測量屬性逐域判斷，沒有冒稱已完成完整COSMIN系統性評分。\n\n| 領域 | 判斷與依據 |\n|---|---|\n| 內容與跨文化效度 | 有前後翻譯、10專家與認知測試優點；雙語步驟6明確未做，內容效度門檻未全通過，不能稱七步全完成（p4–5、8、16） |\n| 結構效度 | 多種分析支持三構面，探索與確認分樣有優點；實際各n、刪離群值數、ordinal題目的估計敏感度未充分報告（p6–10） |\n| 內部一致性／重測 | 主要係數可接受；ICC模型不明，少量重測與未報SEM／SDC限制個人改變判讀（p7、12） |\n| 收斂／區辨效度 | AVE均未達預設門檻，區辨效度文字宣稱通過，但無構面相關矩陣／平方根AVE表可獨立核算（p12、15） |\n| 不變性 | 性別人數矛盾、逐層Δ值未正確呈現、strict未報；不能保證普遍公平，也非波斯語與其他語言直接不變性測試（p8、12） |\n| 效標、反應性及臨床效用 | 沒有實際觀察照護的效標、病人結果、教育介入前後有效性或MCID；總分不是照護成效百分比（p16–17） |\n| 隨機森林 | 構面／題項本身組成總分，預測總分存在部分與整體的數學關聯；沒有獨立病人終點。訓練測試比例、調參細節與測試誤差未充分列出，重要性不可當因果優先序（p7、12–13） |\n| 選樣與自陳 | 單體系、線上同意者、社會期許偏差；不能直接外推其他國家或用於人事考核（p16） |\n\n**統計與Spin**：不是RCT，ITT／fragility／治療NNT不適用。沒有臨床治療效果與可比MCID，不能補造。結果支持某些測量屬性，沒有支持「高分帶來較好病人預後」。論證檢查將延伸的病人效益主張設為hard_endpoint，前提標為single_study與association；argdown_lint.py回clean，現有規則未捕捉此種測量效度到臨床效用的跳躍。腳本通過不消除上述人工原文核對發現的問題，也不等於作者直接宣稱已量到病人效果。\n\n**作者已承認**：雙語測試不可行、單大學體系、社會期許偏差。**額外發現**：S-CVI/Ave未達門檻、AVE全低、性別n不一致、逐層不變性差值與strict缺漏、ICC規格、RF部分整體關聯及分析n不明。\n\n**Funding／COI**：p17作者聲明無財務資助、無競爭利益；未作外部獨立調查。倫理碼IR.MUBABOL.HRI.REC.1404.138；資料未公開。\n\n## 定點引用核對\n\n因全文出現書目與正文不一致，另核對兩項原始來源，非全面深度引用審查：\n\n- 原量表實際為Caruso等2025年文章；[原出版頁](https://www.mdpi.com/2039-4403/15/5/146)確認義大利開發、德語奧地利驗證、19題三構面，與本文參考17年份一致，但本文p3先寫2023。不能把這個年份錯誤默默合理化。\n- p4將Terwee2007配上[19]，參考19卻是Topf1986；[Terwee原研究書目](https://pubmed.ncbi.nlm.nih.gov/17161752/)確為2007年量測品質準則文章、DOI10.1016/j.jclinepi.2006.03.012。已確認指向不匹配，未逐條重審75篇或核對全部外部全文。原文參考25還混入無關西班牙文，屬編輯品質警訊，不足以單獨推定資料造假。\n\n期刊排名、IF、作者背景與引用影響力依focused-quick範圍未查，不填猜測值。\n\n## Clinical Application\n\n營養師與護理團隊可以借用「評估規劃、執行支持、計算能力」作討論框架，分開看哪種照護流程需要補強，再用篩檢紀錄、實際攝取監測及轉介流程確認。這是本評讀的工作建議，不是本研究驗證的介入。\n\n不要因計算構面RF重要性較低就減少計算訓練，也不要用問卷總分對不同性別排名。若要本土採用，先取得適當工具權利、做語言文化調適及外部驗證，補實際照護效標與改變門檻；本公開評讀沒有轉載原量表題項或製作其中文譯本。\n\n## Overall Judgment\n\n初步結構與信度有參考價值；內容、收斂、跨群公平性與實務效用仍需補證。適合當研究和教育需求探索的候選工具，不能當已成熟的人事考核或改善病人預後工具。\n\n## Source\n\n[Hedayati et al., BMC Geriatrics 2026;26:1459](https://doi.org/10.1186/s12877-026-08159-2)，主要依p3–12方法結果、p15–17討論限制與p18–19文獻。來源全文保留本機合法快取，公開僅提供自行原創評析，不附全文、圖表或19題譯本。",
       "cards": [],
       "completedAt": "2026-11-21T08:58:12.121Z"
+    },
+    {
+      "id": "doi:10.1186/s12877-026-08159-2:digest",
+      "paperId": "doi:10.1186/s12877-026-08159-2",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Cultural adaptation and psychometric evaluation of the Persian version of the Nursing Nutritional Care Behaviors Scale (NNCB- Scale) in Iranian nurses.",
+      "authors": "Hedayati S, Ghadimi R, Abad Y, Ghaffari F",
+      "journal": "BMC Geriatrics",
+      "year": "2026",
+      "doi": "10.1186/s12877-026-08159-2",
+      "abstract": "Nurses' nutritional care behaviors are essential for preventing malnutrition and improving health outcomes, particularly among hospitalized older adults. However, despite the growing need to evaluate these behaviors in Iranian healthcare settings, no culturally adapted and psychometrically validated Persian instrument is available for this purpose. This study aimed to culturally adapt and evaluate the psychometric properties of the Persian version of the Nursing Nutritional Care Behaviors Scale (NNCB-Scale) among Iranian nurses. This methodological study was conducted in Iran in 2025. The cultural adaptation process followed the seven-step guideline proposed by Sousa and Rojjanasrirat. Both qualitative and quantitative face and content validity were assessed by the target group and an expert panel. A total of 716 clinical nurses were recruited using stratified random sampling and were randomly divided into two subsamples for Exploratory Factor Analysis (EFA) and Confirmatory Factor Analysis (CFA). EFA was performed using Principal Axis Factoring with oblique rotation, and Exploratory Graph Analysis (EGA) was also applied to further explore the dimensional structure. CFA was conducted to evaluate the model fit. Convergent and discriminant validity were assessed using Composite Reliability (CR) and Average Variance Extracted (AVE), respectively. Reliability was examined through Cronbach's alpha (α), McDonald's omega (ω), and test-retest reliability using the Intraclass Correlation Coefficient (ICC). In addition, measurement invariance across gender was examined using multi‑group CFA, and a Random Forest model (RFM) was applied to determine the relative importance of dimensions and individual items. Assessment and Planning, Nutrition Care Implementation and Support, and Assessment and Calculation Skills, explaining 52.85% of the total variance. Exploratory graph analysis confirmed the stability of the identified structure, and confirmatory factor analysis supported good model fit. The Persian NNCB-Scale demonstrated satisfactory internal consistency, test-retest reliability, and convergent and discriminant validity. Measurement invariance across gender was established, indicating comparable performance in male and female nurses. Random Forest analysis identified Nutrition Care Assessment and Planning as the most influential dimension, with items R11 and R17 showing the highest relative importance. The Persian version of the NNCB-Scale demonstrated satisfactory validity and reliability, with a stable three-factor structure, supporting its use as a psychometrically sound instrument for assessing nurses' nutritional care behaviors. This culturally adapted instrument provides nurse educators, researchers, and healthcare managers with a standardized tool to identify educational needs, evaluate the effectiveness of nutrition-related interventions, and support quality improvement initiatives aimed at enhancing nutritional care for hospitalized older adults.",
+      "legalFullTextUrl": "https://doi.org/10.1186/s12877-026-08159-2",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43058519/",
+      "category": "recommended",
+      "tags": [
+        "design:guideline",
+        "dietitian clinical nutrition",
+        "guideline and consensus",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "看懂營養照護行為量表：結構、信度與臨床效用怎麼分",
+      "content": "---\ndoi: \"10.1186/s12877-026-08159-2\"\njournal: \"BMC Geriatrics\"\nyear: 2026\nmode: \"worker-batch\"\ntags: [research/digest, nutrition-care, psychometrics]\n---\n\n> [!summary] 30秒層：先分清三件事\n> 本篇把護理師的營養照護自陳行為量表調適成波斯語，初步支持三構面與重測穩定性；它沒有證實實際照護品質或病人預後改善。\n> - 800人受邀、716人完成，回覆率89.5%；另30人兩週重測。（p5–7）\n> - 三構面共19題：評估與規劃、執行與支持、評估計算技能；總ω0.850、總ICC0.90。（p3、表4）\n> - S-CVI/Ave0.889低於作者訂0.90，三個AVE均低於0.50；不能概括成各項效度都達標。（p5、8、12）\n> - RF的重要性是對量表總分的預測貢獻，不是改善病人結果的介入效果。\n> - 完整品質疑點另見本篇獨立評讀；這份整理教你分辨每個指標在回答什麼。\n\n# 看懂營養照護行為量表：結構、信度與臨床效用怎麼分\n\n**5分鐘層**：先讀各節要點與數字表，掌握研究目的、量表結構、信度、效度與用途。**完整層**：再讀流程、圖表與概念對照，最後用五題自測確認沒有把測量品質誤當臨床成效。\n\n## 全文地圖\n**要點**：這是一篇工具的文化調適與測量屬性研究。\n\n已讀19頁主文、五表六圖、聲明與參考文獻，並核對首p1、中p10、末p19及p8、p12表格。逐段脈絡為：引言先談高齡營養不良，再談護理角色、知行落差、既有工具不足與跨文化必要性；方法依序介紹量表、翻譯七步及各種測量分析；結果先列人員背景、內容效度，再列EFA／CFA／EGA、不變性及RF；討論逐項解釋結構、信度、文化與應用；結尾承認單體系、自陳及雙語測試缺口。補充材料1未另取得，沒有宣稱附件全讀。\n\n## 這個技術是什麼 / 解決什麼問題\n**要點**：問的是「護理師覺得自己多常做」，不是直接觀察「做得是否正確」。\n\n既有工具可能只測營養不良知識或營養照護態度；行為量表希望補上執行面。本文工具19題、每題1–5分，構面分數換算成0–100，方便不同題數的構面比較。分數不能讀成照護達標率，也沒有本文驗證的好壞切點。（p2–3）\n\n三構面涵蓋：辨識與整合營養風險、形成照護計畫；實際進食與餐食支持；證據與能量需求估算。本文公開整理不轉載19題，也不製作問卷中文版本，避免把解說誤當可直接施測的授權量表。\n\n## Step-by-step protocol\n**要點**：理解一套量表如何被調適，並看見哪一步未完成。\n\n| 階段 | 本篇執行 | 學習上的意義 |\n|---|---|---|\n| 正向翻譯與整合 | 兩名背景不同的譯者分別翻譯，再整合 | 顧專業語意，也顧日常理解（p3–4） |\n| 盲式回譯與委員會 | 另兩位譯者回譯，跨專業討論 | 找出概念漂移；不是只看字面相似（p4） |\n| 認知與內容檢視 | 30人試填，10專家審查 | 確認可理解、相關與必要，但指標仍需達門檻（p4–5） |\n| 雙語初步測試 | 第6步未做，因缺合適雙語護理樣本 | 不能把其他檢驗當這一步已完成（p5） |\n| 正式心理計量 | 716人資料拆為探索與確認樣本 | 避免只靠同一份探索結果自我確認；各組實際n未報（p5–6） |\n| 穩定性 | 30人隔兩週再填 | 測短期重測一致性，並非介入效果（p7） |\n\n上述是本研究的流程說明，不是已驗證可在任何國家照抄的本土化操作標準。本文資料來源單一大學體系，未做跨國直接測量不變性研究。\n\n## 方法與樣本\n**要點**：樣本量大有助估計，但不能消除選樣與自陳問題。\n\n研究於伊朗2025年完成；按醫院／病房分層、比例分配邀請並宣稱隨機選取。完成率716/800=89.5%；受邀不回覆原因未系統記錄。完成者線上問卷必填，未缺項，不等於沒有選擇偏差。分析另提移除少數離群值，未報移除人數及最後分析n。（p5–7）\n\n表1約三成有過正式營養訓練：218人／30.4%；498人／69.6%沒有。這是背景自報，不能從此研究斷言訓練造成能力差異。表內女性420、男性298合計718，與716矛盾，不能替作者猜改數字。（p8）\n\n## 主要發現：每個數字回答不同問題\n**要點**：結構、信度、效度與實用性須分開讀。\n\n| 問題 | 結果 | 不能由此推出 |\n|---|---|---|\n| 題目分成幾群？ | EFA三構面解釋52.85%；KMO0.898（p9–10） | 52.85%的病人獲益 |\n| 指定結構是否符合資料？ | CFA CFI0.967、TLI0.962、RMSEA0.037、SRMR0.042（表3） | 所有形式的效度都通過 |\n| 同構面題目一致嗎？ | ω為0.863／0.794／0.722，總0.850（表4） | 每題皆必要，或照護真的做對 |\n| 兩週後分數穩定嗎？ | 總ICC0.90（95%CI0.87–0.93），構面0.82–0.88（表4） | 分數增加必然是有意義改善 |\n| 內容涵蓋達標嗎？ | S-CVI/Ave0.889、UA0.21（p8） | 達到方法訂的Ave≥0.90 |\n| 題目共享足夠構面變異嗎？ | AVE0.400／0.405／0.470（表4） | 都超過預定0.50門檻 |\n\nEGA網絡也分出三群，提供另一種看題項關係的方法。可是它仍使用同類量表資料，不能把EFA、CFA與EGA當成三個獨立醫院都驗證過。EGA的「每次都三維」敘述與所列2.50–3.98區間需更多重抽樣細節釐清。（p9–10）\n\n## 性別不變性與隨機森林\n**要點**：相同題目跨群解讀相近，以及哪些題目容易預測總分，都是有限範圍的問題。\n\n不變性依序看configural（同結構）、metric（同負荷）、scalar（同截距）。表5的CFI為0.951、0.955、0.945；從metric到scalar是下降0.010，正好在作者門檻邊界。表格列0.006是相對最初configural，不是相鄰步驟。方法提strict但未列結果；配合性別人數矛盾，不能把「性別公平已完全確立」當定論。（p7、11–12）\n\nRF報評估規劃構面%IncMSE92.66，執行支持72.52，計算技能30.40；這是打亂特徵後模型預測誤差的相對變化指標，並非各構面對病人健康的效果百分比。因構面與題項本身組成總分，預測關係含有部分與整體的數學連結。不能因此判斷計算技能不重要或刪除訓練。（p7、12–13）\n\n## 重要圖表重述\n**要點**：圖表展示測量架構，不展示治療成果。\n\n- **圖1（p4）**：呈現調適步驟，需搭配正文確認雙語步驟沒有做。\n- **圖2與表2（p9–10）**：平行分析與題項負荷，說明三構面提取及變異分配24.38%、19.91%、8.56%。本整理不重製題項。\n- **圖3–4及表3（p10–11）**：一階／二階CFA的關係與相同適配數字；不等於兩套外部驗證。\n- **表1（p8）**：人員職務與背景；性別人數不加總是原表問題。\n- **表4（p12）**：將內部一致性、ICC、CR與AVE並排，最能看出信度達標不代表收斂效度也全達標。\n- **表5（p12）**：列三層不變性；其差值基準需看清。\n- **圖5（p12）**：題項部分相關網絡分群，不能讀作照護流程的因果箭頭。\n- **圖6（p13）**：RF構面與題項重要性，目標是量表行為總分，沒有病人結果。\n\n## 適用時機與限制 / 臨床意義\n**要點**：候選教育工具，還不是成熟的臨床成效或人事考核工具。\n\n作者希望量表用於教育需求、組織改善與研究。作者自己承認單體系、社會期許及未雙語檢驗；本次閱讀還發現內容／收斂門檻、分析n、性別人數與逐層比較的報告缺口。沒有病人照護的獨立效標，也沒有反應性、SDC或MCID。自陳穩定可能表示回答習慣穩定，不能直接證明現場行為正確。（p16–17）\n\n**本整理的應用建議**：可把三構面當團隊討論提綱，同時查看實際營養篩查、攝取監測及轉介紀錄。若要正式施測，先處理工具權利、當地文化與測量驗證；不要用本文結果替不同性別排名或直接決定職務能力。\n\n## 與既有認知的對照\n\n依安裝共享設定檢查Papers/與Medicine/，本工作區未有這兩個vault目錄，也沒有可用vault_search入口，無法核對既有知識庫；不能宣稱「vault沒有相關研究」。本篇獨立品質評讀可作配對閱讀，未以既有摘要代替本次全文。\n\n## 概念 / 名詞整理\n\n- **內容效度**：題目是否涵蓋要測的內容，不能用高α代替。\n- **EFA／CFA**：前者探索分群、後者檢驗指定架構；適配佳仍要問題目測到什麼。\n- **ω／α**：同一量表題目的一致性指標；不是臨床準確率。\n- **ICC**：重測分數的相對穩定性，需要模型規格；不等於個人最小有意義改變。\n- **AVE／CR**：分別看構面共享變異與組合信度；CR達標不自動使AVE達標。\n- **Measurement invariance**：比較群體時量尺是否可比，須逐層與適當群體資料支持。\n- **%IncMSE**：特徵被打亂後模型誤差相對增加，不是因果效果百分比。\n\n## 自我測驗\n\n> [!question]- Q1：兩週重測ICC很高，可以說照護品質很好嗎？\n> 不可以。它支持分數短期穩定，仍缺實際照護的獨立效標及病人結果；穩定回答不等於做得正確。\n\n> [!question]- Q2：CFA適配佳，為什麼仍要看AVE與內容效度？\n> 三者回答不同問題。架構能符合資料，不代表內容涵蓋充分或構面能解釋足夠題項變異；本篇Ave與AVE沒有全達自己的門檻。\n\n> [!question]- Q3：RF顯示計算構面重要性較低，應削減相關訓練嗎？\n> 不應。它預測同一量表總分，受題數、分布及部分整體關聯影響，沒有比較訓練對病人結果的效果。\n\n> [!question]- Q4：性別表有加總矛盾，應如何處理？\n> 保留原數字並標示未釐清，不能替作者更正；同時重看不變性的逐層差值與缺報階段，避免宣稱公平已全面證實。\n\n> [!question]- Q5：量表用於本土教育前後評估，還要補什麼？\n> 先取得適當權利並做本土文化與測量驗證，補實際照護效標、反應性、測量誤差及有意義改變標準，不能只憑前後分數差推定效果。\n\n## Reference\n\nHedayati et al. 2026, BMC Geriatrics 26:1459：[DOI10.1186/s12877-026-08159-2](https://doi.org/10.1186/s12877-026-08159-2)。主文p3–12支撐方法數據，p15–17支撐應用及限制。來源SHA-256：34b4a883b3e4e322983acada3bc1ca902c3235d9528579c5ad944e2e1087747b。公開僅有原創解說與自製理解題，沒有PDF、量表題項、圖表或逐句譯文。",
+      "cards": [
+        {
+          "title": "信度與照護品質",
+          "question": "兩週重測ICC很高，能證明護理營養照護品質很好嗎？",
+          "answer": "不能。ICC反映分數短期穩定，仍需獨立照護效標與病人結果，穩定自陳不等於行為正確。",
+          "tags": [
+            "psychometrics",
+            "nutrition-care"
+          ]
+        },
+        {
+          "title": "效度的不同面向",
+          "question": "為什麼CFA適配佳仍需看內容效度與AVE？",
+          "answer": "它們回答不同問題：架構符合資料不代表內容涵蓋充分或構面共享變異足夠；本篇內容效度Ave與三項AVE未全達作者預訂門檻。",
+          "tags": [
+            "validity",
+            "CFA"
+          ]
+        },
+        {
+          "title": "RF重要性不是介入效果",
+          "question": "計算構面RF重要性較低，能據此削減計算訓練嗎？",
+          "answer": "不能。RF預測的是同一量表總分，受題數、分布及部分整體關聯影響，沒有比較訓練對病人結果的因果效果。",
+          "tags": [
+            "random-forest",
+            "inference"
+          ]
+        },
+        {
+          "title": "性別比較的核對",
+          "question": "性別人數與總n不符時，如何處理量表公平性的結論？",
+          "answer": "保留原始矛盾，不猜改人數，重新核對逐層不變性差值與缺報階段；不能宣稱公平性已全面成立。",
+          "tags": [
+            "measurement-invariance",
+            "reporting"
+          ]
+        },
+        {
+          "title": "教育前後評估",
+          "question": "把量表用於本土教育前後比較，還需補哪些證據？",
+          "answer": "適當工具權利、本土文化與測量驗證、獨立實際照護效標、反應性、測量誤差及有意義改變標準；不能單憑分數上升推定教育有效。",
+          "tags": [
+            "responsiveness",
+            "clinical-use"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-21T09:01:48.450Z"
     }
   ]
 }
