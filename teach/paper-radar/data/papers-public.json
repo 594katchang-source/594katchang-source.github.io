@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T09:02:39.433Z",
+  "generatedAt": "2026-11-21T09:17:28.513Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -117266,6 +117266,76 @@
         }
       ],
       "completedAt": "2026-11-21T09:01:48.450Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.2006988:digest",
+      "paperId": "doi:10.3389/fnut.2026.2006988",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Dietary diversity, frailty transitions, and frailty-state life expectancy in Chinese older adults: a 10-year multistate analysis of the CLHLS.",
+      "authors": "Zhou L, Ke D, Liao S, Li J, Dong H",
+      "journal": "",
+      "year": "",
+      "doi": "10.3389/fnut.2026.2006988",
+      "abstract": "Dietary diversity has been linked to incident frailty, but it remains unclear whether it is associated with specific transitions along the frailty continuum and with the number of later-life years spent in healthier states. We examined dietary diversity in relation to frailty transitions and frailty-state life expectancy in Chinese older adults. We analyzed 2008-2018 data from the Chinese Longitudinal Healthy Longevity Survey. Frailty was classified as robust, prefrail, or frail using a graded deficit-accumulation frailty index (FI), and dietary diversity was assessed with a repeated 0-18 dietary diversity score (DDS). Multistate models estimated transition intensity ratios (IRs) with 95% confidence intervals (CIs) for transitions among frailty states and death, and a previous-wave analysis separated dietary assessment from subsequent transitions. Frailty-state life expectancy was estimated at ages 65, 70, 75, and 80 years. The primary analysis included 22,804 person-period observations from 13,427 individuals. In the previous-wave analysis, each 2-point higher DDS was associated with lower robust-to-prefrail transition intensity (IR 0.892, 95% CI 0.835-0.953), whereas the interval-start DDS estimate within the same 9,464 intervals was 0.982 (0.922-1.046). The lagged association was similar under FI threshold and dietary-component sensitivity analyses. Under model-standardized age-65 scenarios, DDS 11 versus DDS 7 corresponded to +0.45 robust years (95% uncertainty interval [UI] + 0.23 to +0.70), whereas the +0.23 non-frail and +0.20 total-year contrasts had UIs including zero. Life-expectancy contrasts depended on the fitted model and standardization assumptions. Higher DDS recorded at the preceding wave was associated with a lower subsequent intensity of early frailty deterioration. Model-standardized higher-DDS scenarios showed more years in the robust state; at age 65, uncertainty intervals for differences in total and non-frail years included zero. The observational results do not establish that dietary changes prevent frailty or preferentially affect deterioration over recovery.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.2006988/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43032136/",
+      "category": "candidate",
+      "tags": [
+        "aging frailty sarcopenia",
+        "clinical nutrition technology",
+        "design:longitudinal"
+      ],
+      "noteTitle": "飲食多樣性與衰弱轉變：看懂多狀態模型與健康餘命",
+      "content": "---\ndoi: \"10.3389/fnut.2026.2006988\"\njournal: \"Frontiers in Nutrition\"\nyear: 2026\nmode: \"worker-batch\"\ntags: [research/digest, dietary-diversity, frailty, healthy-aging]\n---\n\n> [!summary] 30秒層：飲食多樣性與哪一段衰弱轉變有關？\n> 前一波飲食多樣性較高，與之後由健壯轉成衰弱前期的強度較低相關；不是所有衰弱轉變都有相同訊號，也沒有證明改變飲食能延壽。\n> - 主分析13,427人、22,804筆人次區間；前一波分析9,464個區間，不是9,464個不同人。（p2–3）\n> - 前一波DDS每高2分，健壯→衰弱前期IR0.892（95%CI0.835–0.953）；同一批區間用期初DDS則0.982（0.922–1.046）。（p5–6）\n> - 65歲DDS11對7的模型情境多0.45個健壯年（95%UI0.23–0.70）；總餘命差0.20年（−0.15至0.54），包含零。（p7–8）\n> - 餘命情境使用期初DDS模型，不是直接把前一波的IR換算成年數。\n> - 飲食分數包括醃菜且沒有份量，不能把拉高分數直接當健康飲食處方。\n\n# 飲食多樣性與衰弱轉變：看懂多狀態模型與健康餘命\n\n**5分鐘層**：先讀每節要點與兩張結果表，抓住「何時量飲食、哪個狀態轉到哪裡、年數是怎麼估的」。**完整層**：再讀資料流、模型假設與圖表說明，最後用五題自測練習分辨關聯與介入效果。\n\n## 全文地圖 / 研究問題\n**要點**：衰弱可以惡化、改善或死亡，不能只問第一次變衰弱。\n\n已讀11頁主文、四表五圖、聲明與40條參考書目，首p1、中p6、末p11及關鍵表4 p7已目視核對。引言四段依序談衰弱可逆、營養的可能作用、飲食多樣性已有研究與轉變路徑缺口。方法各段依序交代資料區間、FI、DDS、共變數、轉移拓樸、前一波設計、餘命標準化與不確定性。結果由樣本背景走到觀察轉變、模型選擇、兩種飲食時間、敏感度及年數。討論逐段解釋與既有CLHLS研究差別、可能機制、情境年數、不能比較顯著性大小及限制。最後為結論、倫理、資助、AI使用聲明及文獻。（p2–11）\n\n## 方法：人數、人次與時間先分開\n**要點**：同一個人可貢獻多個區間；最後一波只作終點。\n\nCLHLS資料為2008、2011/12、2014、2018四波，產生2008–2011/12、2011/12–2014、2014–2018三個轉變區間。2018不是第四個區間的起點。重建資料有13,790人、24,501個有效區間；完整共變數主分析為13,427人、22,804個區間。（p2–3）\n\n表1只描述2008起始且共變數完整的13,303人，平均86.68±11.53歲，不等於全部13,427人的單一基線描述。其中3,622人65–79歲、1,148人65–69歲，因此65歲情境不全是沒有年輕老年樣本的憑空外推；但模型假設仍在。DDS高組更年輕、牙齒較多、經濟與活動條件較佳，不能把所有健康差異都歸給飲食。（p3–4）\n\n前一波分析把2008飲食對到2011/12–2014轉變、2011/12飲食對到2014–2018轉變；2008–2011/12沒有更早飲食可用而不納入。9,501個後兩期主分析區間中，9,464有前一波DDS。共變數仍在轉變期初測量，沒有整批跟著飲食往前移。（p3）\n\n## 怎麼量飲食與衰弱\n**要點**：DDS是攝取頻率構成的多樣性指標，FI是缺損累積狀態。\n\n**DDS0–18分**：九類食物為鮮果、鮮菜、豆類、醃菜、大蒜、茶、肉、魚、蛋。依原問卷頻率階級折成每項0／1／2分相加；沒有熱量、蛋白質或份量。低≤7、中8–10、高≥11用於描述；模型主要以每高2分表示。11不是臨床應追求的驗證切點。（p2–3）\n\n**FI**：38個組件涵蓋功能、感官、認知、心理、疾病與自評健康；嚴重疾病項最高占2單位，所以總容量39單位。缺此項分母應少2而非1；至少28單位可評估才計算。主門檻為健壯FI≤0.10、衰弱前期0.10<FI≤0.21、衰弱FI>0.21；不是另一套身體表型診斷。詳細重編碼在S5，本文未另取得附件，不宣稱已從原始資料重建FI。（p2）\n\n調整年齡、性別、居住地、農業職業、婚姻、收入、吸菸飲酒、運動、BMI、天然牙數、假牙及識字。認知已在FI內，不另外當共變數；代理填答、認知狀態與社會支持仍可能帶來殘餘測量誤差或混雜。（p3、9–10）\n\n## 多狀態模型在做什麼\n**要點**：同時估計不同出發狀態的變動速度，死亡是吸收狀態。\n\n主要七條路徑為健壯↔衰弱前期↔衰弱四條，以及三個存活狀態各自到死亡。資料可能看到健壯下一次直接變衰弱；主模型不設瞬間直接跳躍，而容許兩次訪視間經過未觀察到的衰弱前期。這不表示真實世界沒有快速惡化。（p3、圖2）\n\n七路徑模型AIC67843.0、BIC68686.7；容許直接跨狀態的九路徑模型分別67870.9、68955.5且收斂較不理想，所以作者保留前者。較佳配適不是馬可夫假設或所有未觀察歷程都已證實。（p5）\n\n**IR強度比**不是期間累積風險比或絕對機率差。前一波IR0.892可描述為每高2分與該路徑強度約低10.8%相關，不能說每100人少10.8人進入衰弱前期，更不能把分數提高視為已驗證治療。（表3）\n\n## 主要發現：哪些路徑有訊號\n**要點**：前一波DDS的主要清楚訊號在健壯→衰弱前期，並非改善每一條路徑。\n\n| 轉變路徑 | 期初DDS IR（95%CI），22,804區間 | 前一波DDS IR（95%CI），9,464區間 |\n|---|---|---|\n| 健壯→衰弱前期 | 1.003（0.959–1.049） | 0.892（0.835–0.953） |\n| 衰弱前期→健壯 | 1.053（0.983–1.127） | 1.014（0.913–1.126） |\n| 衰弱前期→衰弱 | 1.001（0.961–1.044） | 0.987（0.932–1.045） |\n| 衰弱→衰弱前期 | 1.006（0.940–1.077） | 1.056（0.960–1.162） |\n| 健壯→死亡 | 0.800（0.644–0.994） | 1.091（0.658–1.809） |\n| 衰弱前期→死亡 | 1.117（1.040–1.199） | 0.947（0.804–1.117） |\n| 衰弱→死亡 | 0.963（0.938–0.989） | 0.988（0.949–1.028） |\n\n全部是每高2分DDS並調整共變數的估計。（表3 p6）期初死亡路徑方向不一致，改用前一波後均無清楚訊號，不可只挑健壯或衰弱死亡那列宣傳保護作用。\n\n為分辨「少了第一期樣本」與「飲食時間不同」，作者在同9,464個區間另跑期初DDS，健壯→衰弱前期IR0.982（0.922–1.046）、p0.576；前一波為0.892、p<0.001。這顯示結果對測量時間敏感，不代表已排除反向因果。（p5–6）\n\n敏感度分析將FI衰弱門檻改0.25、提高FI完整性到80%、DDS拿掉醃菜，前一波健壯→衰弱前期IR依序0.891、0.885、0.909；排除起始FI0.09–0.10的497筆後為0.875（0.812–0.943）。二次項整體LRχ²9.12、7df、p0.244，未見強證據反對所用線性規格。這些是主文所報，S7–S9未獨立取得／重算，不稱原始分析已重現。（p7）\n\n## 餘命情境：多出的年數怎麼來\n**要點**：是模型標準化的狀態占用時間，不是飲食介入保證獲得的年數。\n\n主模型把DDS固定7、9、11（樣本P25／P50／P75），其他共變數固定分析均值，年齡隨投影增加至120歲。初始狀態分布由2008資料n16,467依年齡與DDS另估；並非人人從健壯起步。非衰弱年數=健壯+衰弱前期，不是只算完全健壯。（p3、表4）\n\n| 65歲情境 | 健壯年 | 衰弱前期年 | 衰弱年 | 非衰弱年 | 總餘命 |\n|---|---:|---:|---:|---:|---:|\n| DDS7 | 3.37 | 7.98 | 3.47 | 11.35 | 14.82 |\n| DDS9 | 3.61 | 7.88 | 3.46 | 11.49 | 14.95 |\n| DDS11 | 3.83 | 7.76 | 3.44 | 11.59 | 15.02 |\n\n表4 p7。DDS11對7的模型對比為健壯+0.45年（95%UI+0.23至+0.70）、非衰弱+0.23（−0.07至+0.55）、總+0.20（−0.15至+0.54）、衰弱前期−0.22（−0.47至+0.06）、衰弱−0.03（−0.21至+0.11）。單表顯示的四捨五入均數相減可能與未四捨五入對比差0.01，不另擅改作者對比。（p7–8）\n\n70、75、80歲的健壯年對比約+0.39、+0.33、+0.26；總餘命差約+0.22、+0.24、+0.25。各歲數精確區間在補充S2，本次未取得，不自行補造。（p8）\n\n95%UI來自500次轉移參數聯合抽樣，但沒有納入初始狀態模型的不確定性。餘命使用期初DDS七路徑模型，合併所有轉移及初始狀態；不能把0.45年全歸給前一波健壯→衰弱前期IR0.892。（p3、9）\n\n## 重要圖表重述\n**要點**：先看資料母數，再看模型，最後看區間是否跨零或1。\n\n- **圖1（p2）**：顯示人數與人次區間，最終13,427人不等於22,804人。\n- **表1（p4）**：2008期初完整組的高DDS伴隨較佳社經、牙齒及健康條件，是混雜脈絡。\n- **表2、圖2（p5）**：24,501個區間的觀察終點與七路徑拓樸。健壯起始5,286、衰弱前期11,868、衰弱7,347；觀察非相鄰終點不等於模型允許直接瞬間跳躍。\n- **表3、圖3（p6）**：兩種測量時間的轉移IR，能看見期初死亡關聯未在前一波重現。\n- **表4、圖4（p7–8）**：狀態占用年數與65歲對比；總年數及非衰弱年數UI跨零。\n- **圖5（p9）**：各起始年齡的情境差；誤差線仍以初始狀態模型固定為條件，不是完整因果不確定性。\n\n## 臨床意義 / 怎麼用\n**要點**：飲食多樣性可當需要進一步問診的線索，不是加分即延壽的處方。\n\n作者提出多樣性可能關乎蛋白質、微量營養素、肌肉、發炎與生理韌性，也可能反映食慾、牙齒、活動與生活能力；本文沒有逐一量測並驗證這些機轉。它的結論也明確拒絕從顯著與不顯著的p值，直接斷言對惡化的作用比恢復更強。（p8–10）\n\n⚠️ **本整理的實務延伸，非本研究介入結果**：對飲食種類少的長者，同時了解攝取份量、食慾、咀嚼吞嚥、購食與備餐支援，再連同營養與衰弱評估處理；不要鼓勵為了DDS分數多吃醃菜，或把0.45年當作能向個人承諾的效益。\n\n限制包括觀察混雜、反向因果、後期存活／回訪選擇、代理填答、未完整測社會支持、訪視間狀態變化未直接觀察及FI門檻誤分類。時間提前與敏感度分析減少部分疑慮，但不是隨機試驗。未見臨床介入MCID，也沒有個人預測工具的外部校準，不能拿平均情境當病人壽命計算器。（p9–10）\n\n## 與既有認知的對照\n\n共享設定的Papers/、Medicine/在本工作區不存在，且沒有可用vault_search工具，無法查驗個人既有筆記；不能說已證實沒有相關筆記。本篇相對作者所引既有「初發衰弱」研究，增加雙向轉變與狀態年數的描述，但仍保留觀察證據界線，不宣稱推翻既有介入研究。\n\n## 概念 / 名詞整理\n\n- **人次區間**：一人可有多次觀察，不是獨立人數。\n- **前一波DDS**：把飲食量測移到本次轉變區間之前，改善時間區隔但未消除混雜。\n- **FI缺損累積**：以可評估的缺損容量作分母，和衰弱表型不是同一量尺。\n- **多狀態／吸收狀態**：容許不同健康狀態間轉移；死亡後不再返回存活狀態。\n- **IR**：某條路徑的轉變強度比，不是絕對風險差。\n- **標準化情境餘命**：依固定DDS與共變數假設，整合未來各狀態占用年數。\n- **UI**：本研究的參數抽樣不確定區間，未包括全部初始狀態模型與因果不確定性。\n\n## 自我測驗\n\n> [!question]- Q1：22,804筆分析資料等於22,804位長者嗎？\n> 不等於。它是13,427人貢獻的人次區間，同一人可跨多期；表1又是特定2008起始完整組。\n\n> [!question]- Q2：前一波IR0.892可以說提高DDS使衰弱風險少10.8個百分點嗎？\n> 不可以。它是每高2分與健壯→衰弱前期強度約低10.8%相關，不是絕對機率差，也未證明改變飲食的因果效果。\n\n> [!question]- Q3：65歲多0.45健壯年，是否證明會多活0.45年？\n> 不是。健壯狀態年數與總餘命不同；總餘命對比0.20年的UI跨零。兩者都是模型情境，不是介入保證。\n\n> [!question]- Q4：為什麼不能把0.45年全歸給前一波的保護關聯？\n> 年數來自期初DDS模型、全部轉移與初始狀態分布，而非單獨使用前一波IR；它還固定DDS與其他共變數。\n\n> [!question]- Q5：可以為了提高DDS鼓勵多吃醃菜嗎？\n> 不可以。分數衡量頻率與多樣性，包括醃菜且不含份量或整體營養品質；臨床需另評攝取充足性與個別照護需求。\n\n## Reference\n\nZhou L, Ke D, Liao S, Li J, Dong H. 2026, Frontiers in Nutrition 13:2006988：[DOI10.3389/fnut.2026.2006988](https://doi.org/10.3389/fnut.2026.2006988)。方法p2–3、結果p4–8、討論限制p8–10。作者申報廣州市科技計畫2025A03J3892資助、無商業或財務利益衝突，並揭露ChatGPT用於語言及結構協助；不是本整理對原始分析的重現驗證。（p10）\n\n合法PDF來源SHA-256：2c840c48c12ed36a05e0c204ab54b66241d6df1e437603f7ae3e8c774ba1bc96；公開僅提供自行原創解說及理解卡，沒有上傳全文或圖表副本。",
+      "cards": [
+        {
+          "title": "人數與人次",
+          "question": "22,804筆分析資料等於22,804位長者嗎？",
+          "answer": "不是。這是13,427人提供的人次區間，同一人可貢獻多個轉變區間，表1又只描述特定2008起始完整組。",
+          "tags": [
+            "frailty",
+            "longitudinal-data"
+          ]
+        },
+        {
+          "title": "強度比與絕對風險",
+          "question": "前一波DDS的IR0.892能說增加飲食多樣性讓風險少10.8個百分點嗎？",
+          "answer": "不能。每高2分與健壯轉衰弱前期的轉變強度約低10.8%相關，不是絕對機率差，也未證明改變飲食的因果效果。",
+          "tags": [
+            "intensity-ratio",
+            "causality"
+          ]
+        },
+        {
+          "title": "健壯年與總餘命",
+          "question": "65歲情境多0.45健壯年，等於多活0.45年嗎？",
+          "answer": "不等於。健壯狀態占用時間與總餘命不同；總餘命對比0.20年的UI跨零，而且兩者均為模型情境而非介入保證。",
+          "tags": [
+            "life-expectancy",
+            "modeling"
+          ]
+        },
+        {
+          "title": "兩種模型問題",
+          "question": "為何不能把健壯年數差全歸給前一波DDS的IR？",
+          "answer": "餘命來自期初DDS模型、全部轉移路徑及初始狀態分布，並固定DDS與其他共變數，不是將前一波單一路徑IR直接換成年數。",
+          "tags": [
+            "multistate-model",
+            "interpretation"
+          ]
+        },
+        {
+          "title": "分數與飲食處方",
+          "question": "能為提高DDS而建議長者增加醃菜嗎？",
+          "answer": "不能。DDS含醃菜且只反映頻率與多樣性，沒有量到份量及完整營養品質；實務需另評攝取充足性、口腔功能與個別照護需求。",
+          "tags": [
+            "dietary-diversity",
+            "clinical-nutrition"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-21T09:16:46.120Z"
     }
   ]
 }
