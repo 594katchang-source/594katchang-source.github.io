@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T10:30:18.802Z",
+  "generatedAt": "2026-11-22T10:30:33.606Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -118004,8 +118004,8 @@
       "evidenceScope": "full_text",
       "title": "Dietary index for gut microbiota score and incident inflammatory bowel disease: a prospective cohort study in the UK Biobank.",
       "authors": "Zheng Y, Sun L, Sun Y, Shao Z, Liang W, Li C, Ye W, Song J",
-      "journal": "",
-      "year": "",
+      "journal": "Frontiers in Nutrition",
+      "year": "2026",
       "doi": "10.3389/fnut.2026.1938995",
       "abstract": "Dietary patterns may be associated with inflammatory bowel disease (IBD) development. These patterns have been proposed to affect gut microbial and immune-related processes. However, prospective evidence on the correlation between the dietary index for gut microbiota (DI-GM) and incident IBD remains limited. The associations of DI-GM with incident IBD, Crohn's disease (CD), and ulcerative colitis (UC) were investigated. This prospective cohort study included 198,204 participants from the UK Biobank. The DI-GM was constructed from dietary components selected on the basis of their reported associations with gut microbial features. Multivariable Cox proportional hazards models were used to estimate associations of DI-GM with incident IBD, CD, and UC. We performed restricted cubic splines, subgroup analyses, sensitivity analyses, as well as competing-risk analyses accounting for death. During a median follow-up of 9.46 years, 1,170 incident IBD cases were identified. In the fully adjusted model, each 1-point increment in DI-GM was associated with a lower hazard of IBD (hazard ratio [HR] = 0.948, 95% confidence interval [CI]: 0.914-0.983; p = 0.004). Analyses using quartiles and predefined DI-GM categories showed consistent inverse associations with significant dose-response trends. Restricted cubic splines suggested an approximately linear inverse association. In general, associations were consistent across subgroup and competing-risk analyses and most sensitivity analyses. Subtype-specific analyses displayed inverse associations with both CD and UC when DI-GM was modelled continuously, with more consistent categorical findings for UC. Higher DI-GM scores were correlated with a lower hazard of incident IBD in this large prospective cohort. The above-mentioned findings provide prospective epidemiological evidence for an association between DI-GM and IBD development but do not confirm causality or microbiota-mediated mechanisms.",
       "legalFullTextUrl": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1938995/pdf",
@@ -118028,8 +118028,8 @@
       "evidenceScope": "full_text",
       "title": "Dietary index for gut microbiota score and incident inflammatory bowel disease: a prospective cohort study in the UK Biobank.",
       "authors": "Zheng Y, Sun L, Sun Y, Shao Z, Liang W, Li C, Ye W, Song J",
-      "journal": "",
-      "year": "",
+      "journal": "Frontiers in Nutrition",
+      "year": "2026",
       "doi": "10.3389/fnut.2026.1938995",
       "abstract": "Dietary patterns may be associated with inflammatory bowel disease (IBD) development. These patterns have been proposed to affect gut microbial and immune-related processes. However, prospective evidence on the correlation between the dietary index for gut microbiota (DI-GM) and incident IBD remains limited. The associations of DI-GM with incident IBD, Crohn's disease (CD), and ulcerative colitis (UC) were investigated. This prospective cohort study included 198,204 participants from the UK Biobank. The DI-GM was constructed from dietary components selected on the basis of their reported associations with gut microbial features. Multivariable Cox proportional hazards models were used to estimate associations of DI-GM with incident IBD, CD, and UC. We performed restricted cubic splines, subgroup analyses, sensitivity analyses, as well as competing-risk analyses accounting for death. During a median follow-up of 9.46 years, 1,170 incident IBD cases were identified. In the fully adjusted model, each 1-point increment in DI-GM was associated with a lower hazard of IBD (hazard ratio [HR] = 0.948, 95% confidence interval [CI]: 0.914-0.983; p = 0.004). Analyses using quartiles and predefined DI-GM categories showed consistent inverse associations with significant dose-response trends. Restricted cubic splines suggested an approximately linear inverse association. In general, associations were consistent across subgroup and competing-risk analyses and most sensitivity analyses. Subtype-specific analyses displayed inverse associations with both CD and UC when DI-GM was modelled continuously, with more consistent categorical findings for UC. Higher DI-GM scores were correlated with a lower hazard of incident IBD in this large prospective cohort. The above-mentioned findings provide prospective epidemiological evidence for an association between DI-GM and IBD development but do not confirm causality or microbiota-mediated mechanisms.",
       "legalFullTextUrl": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1938995/pdf",
