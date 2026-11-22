@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T10:30:48.637Z",
+  "generatedAt": "2026-11-22T10:31:03.664Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -118190,7 +118190,7 @@
       "evidenceScope": "full_text",
       "title": "Dietary protein intake patterns, biological ageing, and risk of incident sarcopenic obesity in middle-aged and older adults: protein-source contributions and bidirectional associations in three national cohorts.",
       "authors": "Zhu H, Yao Z, Hu Q",
-      "journal": "Aging, frailty and sarcopenia (PubMed)",
+      "journal": "Frontiers in Nutrition",
       "year": "2026",
       "doi": "10.3389/fnut.2026.1999036",
       "abstract": "Dietary protein is recommended to prevent sarcopenia, yet most evidence concerns total protein quantity rather than protein source, and cohort data on sarcopenic obesity (SO) remain scarce. We analysed data from three national cohorts: CHARLS (n = 6,395; 2011-2015), ELSA (n = 4,880; 2012-2018), and HRS (n = 3,900; 2010-2018). SO was defined per the EWGSOP2 framework as low handgrip strength plus low appendicular lean mass with central obesity, consistent with the ESPEN/EASO definition of sarcopenic obesity. Hazard ratios (HRs) for incident SO per 1-SD increase in total, plant, animal, and dairy protein were estimated with multivariable Cox models fitted to multiply imputed covariate data. Protein x obesity interaction, isocaloric substitution, mediation by PhenoAge-based biological ageing, and bidirectional associations were examined. Among participants free of SO at baseline, 633 of 6,275 (10.1%), 344 of 4,822 (7.1%), and 269 of 3,836 (7.0%) developed SO in CHARLS, ELSA, and HRS, respectively. In fully adjusted models, total protein was inversely associated with SO in CHARLS [HR 0.91 (95% CI 0.84-0.98)] and ELSA [0.79 (0.71-0.88)] but not HRS [0.92 (0.82-1.04); pooled 0.87 (0.80-0.96)]. The association was attributable mainly to plant protein [CHARLS 0.90 (0.83-0.97), ELSA 0.82 (0.73-0.91), HRS 0.84 (0.74-0.95); pooled 0.86 (0.81-0.92), I 2 = 3%], whereas animal protein showed no independent association. The inverse association of plant protein was confined to participants with central obesity [stratified HRs 0.79-0.84 vs. 0.90-1.06; pooled interaction HR 0.75 (0.65-0.86)]. Isocaloric substitution of animal with plant protein was associated with lower SO risk [pooled HR per 5% energy 0.66 (0.54-0.81)]. Each 1-SD higher plant-protein density was associated with 0.81-0.88 years slower PhenoAge acceleration (all p < 0.001), and PhenoAge acceleration was independently associated with SO (HR per SD 1.15-1.24), with point estimates of 12-16% of the association mediated and wide 95% confidence intervals. Baseline SO predicted subsequent protein decline (-2.9 to -4.2 g/d, all p < 0.001). In three national cohorts, plant-source protein density, rather than total or animal protein, showed the most consistent inverse association with incident SO, particularly among participants with central obesity; a modest, imprecisely estimated fraction of this association may reflect slower biological ageing, and residual confounding by overall dietary pattern and lifestyle cannot be excluded. Reverse causation may partly operate, as baseline SO predicted subsequent protein decline.",
