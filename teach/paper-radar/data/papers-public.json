@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T10:46:23.579Z",
+  "generatedAt": "2026-11-23T10:48:07.244Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -118989,6 +118989,80 @@
       "content": "---\ntags:\n  - source/journal\ncitekey: \"Anderson2026ExcludeExpose\"\ndoi: \"10.1136/bmjopen-2026-126664\"\nzotero: \"\"\njournal: \"BMJ Open\"\nyear: 2026\nauthors: \"Jacqueline L Anderson; Brjánn Ljótsson; Helen Burton-Murray; Madeline L West; Chu K Yao; Chamara Basnayake; Lukas Van Oudenhove; Jessica R Biesiekierski\"\nstudy_type: \"Randomized controlled trial protocol; no results\"\nreview_depth: \"quick\"\nmode: \"focused-quick\"\n---\n\n> [!info] 品質快照\n> **設計／n**：兩組主動治療RCT方案，預計235名成人IBS，12週線上低FODMAP對E-CBT，之後3／6月追蹤；不是235人已完成。\n> **RoB 2**：僅判讀設計保護與缺口，尚無執行結果可給整體偏差等級；參與者／治療者不盲，自陳症狀可能受期待影響。\n> **GRADE**：無療效估計，**不適用／不可評估**；未跑療效GRADE計算，也不以預計隨機就給High。\n> **Registration**：NCT06940596官方API已核對，2025-04-23公開、主要GSRS-IBS每週至12週與主文一致；hasResults=false、無resultsSection。實際開始日期及隨機工具記載有差異，版本史待釐清。\n> **一句話verdict**：是有價值的機制／個人化治療設計，但尚未證明哪種治療優勝、等效，或哪類患者應選哪一組。\n\n# Key Points\n\n## Summary\n\n> ✅ Full text reviewed：讀完14頁主文、4表（含橫向Table 3續表）、2圖及52筆書目；原PDF p1、7、9、14目視核對。12份線上補充資料未逐份讀取，未稱完整SPIRIT／SAP稽核或52篇引用原文查核。\n\n- **主要目的不是單純比高下**：預先指定moderator與mediator，觀察GSRS-IBS每週變化；沒有事前假設兩組誰較好。（p2–3、10–11）\n- **低FODMAP不是永久全面禁食**：限制期約第3–6週、再引入第7–12週、後續個人化；E-CBT前4週自我觀察，第5週起暴露與減少避免行為。兩組都12週、約每週15分鐘專業支持與1–2小時參與投入。（p8–9、Table 4）\n- 臨床反應門檻預設GSRS-IBS減少≥30%、IBS-SSS減少≥50分，但只是未來反應率的判準，**不是已有多少人達標**。（p3、Table 2）\n- 兩組皆主動治療、無未治療對照；共同改善不能直接歸因治療。非顯著差也不自動證明等效，Bayesian null分析的先驗與等效界線需要SAP進一步核對。（p10、12）\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> **一句話**：一組學會找出自己不耐受的FODMAP，另一組學會減少對症狀的焦慮與逃避；研究要了解誰比較適合哪一種、改善可能經由什麼路徑。\n> **為什麼做**：飲食與腸腦行為治療都可能幫助IBS，但個人差異大，現在沒有可靠的一套分派規則。\n> **兩組怎麼做**：成人Rome IV IBS、IBS-SSS≥175，隨機進入12週線上課程；飲食組有營養師、E-CBT組有心理師，每週作業與非同步回饋，之後3及6月追蹤。\n> **會測什麼**：每週症狀、每兩週飲食與焦慮／避免行為，澳洲約100人另採糞便；比較治療、基線特徵與變化的關係。\n> **所以呢**：這篇提供研究藍圖，沒有治療效果、優勝組或個人化規則可立即採用；不要拿限制飲食與暴露的概念反差當「其中一種一定錯」。\n\n## 全文結構與逐段閱讀地圖\n\n|原PDF位置|依實際小標／段落群順序的摘記|\n|---|---|\n|p1–2摘要／Introduction|IBS差異性→飲食限制與減少避免的概念對比→既有預測／機制不足→本試驗目標。|\n|p2–3 Study hypotheses|主要無優勝假說；飲食攝取、腸胃焦慮／避免、偏好是moderator；相應變化是mediator。|\n|p3 Methods objectives|主GSRS-IBS斜率／週；次要反應、QoL等；確證與探索變數分開；235人兩國線上主動比較。|\n|p3–5 Participants|≥18、臨床Rome IV、IBS-SSS≥175；排除其他GI病、懷孕、活動飲食障礙／重度憂鬱；線上轉介與訪談確認、基線飲食／糞便。|\n|Tables 1–3 p4–7|結果、moderator／mediator、process變數及頻率；糞便僅澳洲子樣本；每週症狀、兩週媒介、末期與追蹤量測。|\n|p8 Randomisation／procedures|國別分層、block10、REDCap隱蔽、分析ID遮盲；週問卷／兩週飲食、100澳洲糞便與6月訪談規劃。|\n|p8 Interventions|匹配聯絡／投入、FODMAP三階段、E-CBT六步驟與week5暴露。|\n|p9 Therapist／adherence|2工作日回覆、至少各2位專業者、培訓／抽查；依從性、平台參與與Table 4明示不同判準。|\n|p9–10 Retention／deviations|中斷治療仍邀測量，撤回與資料保留；新治療的記錄／重大偏離與追蹤期處理。|\n|p10 Sample／population／missing|200可分析估計、15%失訪→235、最多285；ITT至少1結果；FIML依MAR，>20%缺失加MI敏感。|\n|p10–11 Analyses|成長形狀由AIC、mixed models、三向交互、latent growth／RI-CLPM、FDR分家族；飲食／菌相／質性。|\n|p11 Data／safety|REDCap／Canvas、安全監管、無期中療效分析、3週一次AE及追蹤。|\n|p12 Ethics／status／Discussion|2025年已開始、估2027招募完／2028研究完；版本日期矛盾、主動對照／未盲／自陳／澳洲偏重限制。|\n|p12–14文末|公部門／Rome經費、書籍版稅與Monash FODMAP資源利益；CC BY4.0、52書目。|\n\n## Clinical Application\n\n可用來理解**限制—再引入—個人化**與**避免行為的調整**如何分層，不提供對個別患者選療法的已驗證算法。高FODMAP或高焦慮將成為哪組較好反應的moderator，仍是假說；不能現在就按分數分派。\n\n研究排除活動飲食障礙與嚴重憂鬱，且有營養師／心理師支持，不能把自助禁食或自行暴露當相同介入。主文完整補充細節未全取得，不能給可直接操作的所有食物挑戰量或完整心理治療protocol；本文不是飲食／心理處方。\n\n# Paper Details\n\n## Methods\n\n澳洲與美國成人IBS，預計235人，1:1、12週；國別分層block10，未涉及介入提供的團隊成員生成序列並上傳REDCap，之後團隊不能預見分派。參與者、治療者與研究人員不盲，分析以不含組別的ID遮盲。約每週15分鐘專業支持，預期參與1–2小時；飲食組營養師、E-CBT組心理師，專業種類與特定期待仍可能影響結果。\n\n低FODMAP依從性：第3–6週至少2週達自陳≥50%，第6週日誌≤12g/day或較基線減≥30%；再引入第7–12週每週≥1食物挑戰。這是**依從定義，不是所有人的安全攝取上限**。E-CBT自我觀察每週≥1練習，暴露第5–12週中至少5週每週≥1次。（Table 4）\n\n主要GSRS-IBS每週量測至12週；事前moderator基線FODMAP、VSI、IBS-BRQ、偏好；mediator是FODMAP、焦慮與避免的重複變化。預期、可信度與治療聯盟在week2量測，做敏感校正。澳洲100人菌相屬探索，不代表全部235人或跨國代表性。\n\n估計200可分析，依既有153人E-CBT資料、1000次模擬，對兩組差d=.44有80% power；預留15%失訪招235、若達30%可最多285。**d=.44是可偵測差、不是觀察療效或等效界值**；菌相100人出於資源，無正式power。\n\n主／次mixed models，moderator用group×time×moderator；平行latent growth及RI-CLPM測路徑，後者探索且不直接比較跨組lag係數。FIML依MAR，缺失>20%依條件加MI敏感；MI仍不保證排除MNAR。成長形狀由合併組無條件模型AIC選擇，需透明記錄選擇。次要／moderation／mediation／菌相／飲食分家族做BH-FDR，主結果不做FDR。（p10–11）\n\n## Critical Appraisal\n\n|RoB 2面向|事前保護／缺口|本次能判到哪裡|\n|---|---|---|\n|Randomization|分層與REDCap隱蔽，序列上傳後不可預見|設計保護合理；實際執行與失衡未有資料。|\n|Deviations|主動比較、接觸時間匹配、記錄新治療、ITT與PP|無參與者／治療者盲；不能保證期待與依從相同。|\n|Missing outcome|中斷介入仍收結果，FIML／MI敏感|無實際失訪；MAR不可驗證，ITT至少一筆結果的操作需核對。|\n|Outcome measurement|用已發展量表、分析遮盲|症狀、飲食、媒介多自陳，知道療法可影響回報；飲食日誌不是完全客觀測量。|\n|Selection of result|登錄、預指定主／探索與FDR、計畫分享SAP|未讀完整SAP／12補充；Bayes先驗、等效界限與確證媒介標準仍需完整核對。|\n\n不對尚未完成的RCT給整體低風險或療效GRADE。對protocol的評讀是辨認設計風險，不能假裝審到實際偏差與選報。\n\n**因果與個人化**：治療有隨機，但mediator沒有被隨機操弄；縱向先後／RI-CLPM不能單獨排除mediator–outcome共同原因或測量誤差。week2期待與聯盟已在分派後，可能也是作用路徑；校正它們不能當無害的「消除非特異效果」，需清楚界定估計量。基線moderator三向交互與探索菌相訊號亦需外部驗證，不直接建臨床分類規則。\n\n**等效與臨床重要性**：沒有優勝假說、p≥.05不等於已證明等效；Bayes factor亦取決先驗與精確假說，不自動替代臨床可接受界線。主文MCIC為GSRS-IBS≥30%下降、IBS-SSS≥50分，會描述比例及CI；目前無實際組間差／CI、NNT、fragility或達標人數。無療效結果，本次未跑GRADE或argdown療效計算，避免替假資料分級。\n\n### 官方登錄與版本核對\n\n[NCT06940596官方API](https://clinicaltrials.gov/api/v2/studies/NCT06940596)本次HTTP200：235 estimated；GSRS-IBS每週baseline至12週主端點一致；3／6月次要與30%／50分反應門檻可對應；hasResults=false，無resultsSection。狀態RECRUITING，最後公開更新2026-05-06，不能當即時招募現況。\n\n- 首次提交2025-03-31、首次公開04-23，早於登錄actual start05-22與文中首consent05-30；支持公開在所列開始之前，**但兩個開始日期差8天需釐清**。\n- 官方隨機描述用randomization.com，主文用sealedenvelope.com；不憑差異指控錯誤分派，但需版本／實施核對。\n- 主文p2／p12上方V4寫06-04-26，版本史末列06-03-26；原PDF確有日期不一致，不猜哪個正確。\n- 預計完成2028-04與主文一致；沒有結果的官方欄位不能由計畫推成已完成。未逐歷史版本比對，不能保證所有預指定內容完全未改。\n\n**Funding／COI**：Rome Foundation、NHMRC APP2025943、獎學金支持；HBM及BL有書籍版稅，CKY所在Monash單位受益於FODMAP app／教材／課程。要揭露且留意治療開發者支持／偏好，不能據此推定結果不實。\n\n## Key Findings\n\n方案的價值在預先分開「哪類人」「哪種機制」「共同期待」及重複量測；真正限制是不能把主動對照的共同改善、媒介關聯或非顯著差變成特定療效、因果機轉或等效結論。後續要看實際結果與完整SAP，現在不推薦優勝療法。\n\n# Resource\n\n## Source\n\n- [正式全文](https://doi.org/10.1136/bmjopen-2026-126664)、[ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT06940596)。BMJ Open2026;16:e126664，首頁精確題名／DOI／引用與CC BY4.0核對；正式線上2026-11-11。\n- PDF SHA256 `a46881bb04ef28d4c1e35591a540aa4c7ba13e76b8c71fb854852479170158ed`；text SHA256 `4e3b5204f912eea17ba0026c8b1307e2ba8359c10f9f143ccc0e39fdb9ad6075`。位置按原14頁與實際小標，未猜方法節碼。\n- focused-quick未作作者履歷／IF／引用影響／社群掃描，未逐52篇原文查核；線上補充1–12與歷史版本未逐份讀，不冒稱完整SPIRIT或SAP驗收。",
       "cards": [],
       "completedAt": "2026-11-23T10:44:24.610Z"
+    },
+    {
+      "id": "doi:10.1136/bmjopen-2026-126664:digest",
+      "paperId": "doi:10.1136/bmjopen-2026-126664",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Exclude or expose in irritable bowel syndrome study: what works for whom and how? Protocol for a randomised controlled trial of internet-delivered FODMAP diet versus exposure-based cognitive behavioural therapy.",
+      "authors": "Anderson J, Ljótsson B, Burton-Murray H, West M, Yao C, Basnayake C, Van Oudenhove L, Biesiekierski J",
+      "journal": "BMJ Open",
+      "year": "2026",
+      "doi": "10.1136/bmjopen-2026-126664",
+      "abstract": "Irritable bowel syndrome (IBS) is a disorder of gut-brain interaction characterised by abdominal pain and altered bowel habits and is associated with reduced quality of life. Although several treatments are effective at the group level, treatment responses vary substantially between individuals, highlighting the need for personalised approaches. This trial investigates moderators and mediators of treatment response to two established IBS interventions to determine for whom treatments are most effective and how they exert their effects. This parallel-group randomised controlled trial will enrol 235 adults with IBS from community, primary and tertiary care across Australia and the US. Participants will be randomised to a 12 week online fermentable oligosaccharides, disaccharides, monosaccharides and polyols (FODMAP) diet intervention targeting reduction of fermentable carbohydrate intake or an exposure-based cognitive behavioural therapy (E-CBT) programme targeting symptom-related avoidance behaviours, each with therapist support (dietitian or psychologist, respectively). The primary objective is to assess moderators and mediators of treatment response on gastrointestinal symptom severity, measured using the Gastrointestinal Symptom Rating Scale (GSRS-IBS), assessed weekly from baseline to week 12. Pre-specified moderators and mediators include gastrointestinal-specific anxiety and avoidance behaviour and total FODMAP intake; treatment preference will also be examined as a moderator. Treatment expectancy and credibility and therapeutic alliance will be assessed as covariates accounting for non-specific treatment effects. Secondary outcomes, assessed at baseline, post-treatment (12 weeks) and 3- and 6-month post-intervention follow-up, include IBS-specific symptom severity (measured using the IBS-Symptom Severity Scale, IBS-SSS), IBS-related quality of life, eating-related symptoms, psychological symptoms, extraintestinal symptom distress, stool frequency and consistency and gut microbiome composition and function. We will also assess gastrointestinal symptom severity by the GSRS-IBS at 3- and 6-month follow-up to assess maintenance. Linear mixed-effects models will assess treatment effects and moderation. Latent growth curve modelling and time-lagged mixed-effects models will examine mediation. Ethical approval was obtained from the University of Melbourne Human Research Ethics Committee (Project ID: 31186). This manuscript is based on protocol V.4.0 (06–04-26). Recruitment is ongoing. Results will be disseminated via peer-reviewed publications and presentations at scientific meetings. NCT06940596.",
+      "legalFullTextUrl": "https://bmjopen.bmj.com/content/bmjopen/16/11/e126664.full.pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43015024/",
+      "category": "candidate",
+      "tags": [
+        "chronic disease nutrition",
+        "design:randomised controlled",
+        "dietitian clinical nutrition",
+        "human clinical population",
+        "neg:protocol only",
+        "precision nutrition",
+        "safety and interaction"
+      ],
+      "noteTitle": "IBS排除還是暴露：低FODMAP與E-CBT研究設計地圖",
+      "content": "---\ntags:\n  - research/digest\ncitekey: \"Anderson2026ExcludeExpose\"\ndoi: \"10.1136/bmjopen-2026-126664\"\njournal: \"BMJ Open\"\nyear: 2026\nstudy_type: \"Randomized trial protocol; no results\"\nmode: \"worker-batch\"\n---\n\n> [!summary] 30秒層：這份方案要研究IBS患者「誰適合哪種療法、如何改善」，還沒有治療比較結果。\n> - 預計235名成人，12週線上低FODMAP對暴露式E-CBT，都有專業支持。\n> - 主結果每週GSRS-IBS；基線攝取、腸胃焦慮／避免與偏好是預設moderator。\n> - 低FODMAP包含限制、再引入與個人化，不是永久禁食；E-CBT第5週起加暴露。\n> - 兩組主動治療，無未治療組；共同改善、非顯著差與媒介相關各有推論界線。\n> 品質 → 見同篇方案評讀；無療效結果，不給介入效果GRADE。\n\n## 5分鐘層：掌握研究問題\n**要點**：治療比較、誰反應較好與作用路徑，分成三個問題。\n\n1. 比較：兩組12週，線上課程＋營養師或心理師，每週專業支持約15分鐘、參與投入1–2小時。\n2. 誰：高FODMAP是否較適合飲食、高腸胃焦慮／避免是否較適合E-CBT、偏好是否改變反應，都是待測假說。\n3. 如何：攝取、焦慮與避免的重複變化，是否與症狀變化相連；不是已證實機轉。\n4. 結果：每週症狀追蹤至12週，之後3／6月維持與生活品質、飲食／心理等結果。\n5. 現況：官方NCT06940596無resultsSection；235為estimated，不能當已完成樣本。\n\n## 完整層／全文地圖\n**要點**：14頁是protocol，包括完整量測與分析規劃，而非結果報告。\n\np1–3背景、主假說與moderator／mediator；p3–7資格、招募及Tables 1–3；p8–9分派、兩介入、支持與Table 4依從；p10–11樣本、缺失與各類分析；p11–12安全／治理；p12狀態、版本與限制；p13–14授權與52筆書目。已完整讀主文、4表、2圖及書目，目視p1／7／9／14；線上補充1–12未逐份讀，未稱完整SAP／SPIRIT稽核。\n\n## 方法：對象與兩種方案\n**要點**：有明確成人IBS資格與專業支持，不等於一般民眾自行禁食或自行暴露。\n\n納入≥18歲、澳洲／美國居住、醫師確認Rome IV IBS，隨機前一週IBS-SSS≥175。排除其他GI病（如IBD／乳糜瀉）、懷孕、活動飲食障礙（EDE-Q8≥4）、嚴重憂鬱（PHQ-9>20）等；完整資格在未逐份讀取的補充資料。\n\n國別分層、block10、1:1，序列上傳REDCap後研究團隊不能預見；參與者／治療者不能盲，分析用不標組別ID。兩組Canvas序列課程、每週作業、2工作日內非同步回覆；各至少2位營養師／心理師與培訓抽查，減少單一治療者影響。\n\n|方案|實際安排|依從性判準（不是個人處方）|\n|---|---|---|\n|低FODMAP|早期準備，第3–6週限制，第7–12週再引入，後續個人化|限制至少2/4週自陳≥50%；第6週≤12g/day或基線減≥30%；再引入每週≥1食物挑戰。|\n|E-CBT|第1–4週自我觀察／心理教育，第5–12週暴露、減少控制與避免、回到原本避免的情境，最後鞏固|自我觀察每週≥1練習；暴露期至少5週每週≥1次。|\n\n≤12g/day與30%是試驗的依從評估，不是所有人的安全上限或應自行達到的目標。本文未提供所有食物挑戰劑量與完整心理治療步驟，不能據此自行拼接療程。\n\n## 量測：結果、誰與路徑\n**要點**：同一變數在基線與治療中，可能扮演不同角色。\n\n|角色|預設重點|頻率|\n|---|---|---|\n|主要症狀|GSRS-IBS總分，官方登錄13題、13–91分|基線至12週每週。|\n|Moderator|FODMAP攝取、VSI腸胃焦慮、IBS-BRQ避免、治療偏好|基線。|\n|Mediator|FODMAP攝取、腸胃焦慮與避免的改變|基線、每兩週、12週及追蹤。|\n|Process|期待／可信度、治療聯盟|week2，做敏感分析。|\n|次要|IBS-SSS、IBS-QOL、NIAS、食物恐懼、心理／腸外症狀、排便|基線、12週、後3／6月；GSRS亦追蹤維持。|\n|菌相探索|16S與shotgun的組成／功能|澳洲約100子樣本，非全部235人。|\n\n反應門檻是GSRS-IBS下降≥30%、IBS-SSS下降≥50分，未來描述比例與CI；目前沒有達標人數。飲食是3天日誌估算，含過量果糖、乳糖、fructans、GOS與polyols；並非不受回憶／記錄偏差的客觀量測。\n\n## 分析與樣本規劃\n**要點**：數字是規劃能力，不是已觀察效果。\n\n希望200可分析，預留15%失訪招235；若失訪較高，最多285（30%門檻）。用既有153人E-CBT週資料做1000次模擬，對d=.44組間變化有80% power；d=.44**不是本試驗效果、MCIC或等效界限**。菌相100人出於資源／可行性，沒有正式power。\n\n主結果mixed model看group×time，moderator加三向交互；latent growth與探索RI-CLPM看重複關係。成長形狀由合併資料的AIC選，未來需透明呈現。ITT要求至少一筆結果，另做預定依從PP；FIML依MAR，特定缺失>20%時加MI敏感。無法只靠插補保證不受MNAR影響。\n\n次要、moderation、mediation、菌相、飲食各家族BH-FDR，主端點不做FDR。無事前組間優勝假說，規劃Bayesian分析檢視null；非顯著或支持null不自動等於臨床等效，仍需先驗、假說與可接受差界線。\n\n## 重要圖表重述\n**要點**：圖表把構念、時程與依從定義分開，沒有結果曲線。\n\nFigure 1是假說模型；Figure 2是篩檢／分派／追蹤流程與警訊說明，不是已完成CONSORT人數。Table 1列主症狀、moderator、mediator與process；Table 2列次要與MCIC；Table 3跨p6–7橫向排，列每週／雙週與追蹤；Table 4列兩組各階段依從，前表已自行概括。\n\n## 臨床意義 / 怎麼用\n**要點**：先理解兩種路徑的差異，不提前生成個人化分派規則。\n\n低FODMAP透過識別個人耐受後放寬飲食；E-CBT透過減少症狀焦慮與避免而恢復活動。兩者目標可能互補，概念差異不代表一種一定錯。作者希望尋找誰適合哪種，但尚無可用分類器。\n\n兩主動組共同變好可能包含自然變化、期待與專業接觸，不能在沒有未治療對照時全歸於特定成分。mediator沒有隨機分配，時間先後不能單獨證明因果；week2期待／聯盟也可能是治療路徑，校正要有明確估計目的。\n\nAE規劃每3週與後3／6月追蹤，沒有實際傷害資料；活動飲食障礙被排除，不能把結果外推該族群。線上參與者與澳洲偏重、菌相僅部分樣本也限制可轉移性。\n\n## 與既有認知的對照\n**要點**：限制飲食有再引入，暴露治療也有專業與風險邊界。\n\n本次無可用個人vault_search，未宣稱個人知識庫比對完成。依本文概念：FODMAP限制→再引入與個人化；基線特徵相關→需正式交互及外部驗證；媒介改變較早→仍需排除共同原因；不顯著差→不等於等效。\n\n## 概念 / 名詞整理\n**要點**：Moderator問誰，mediator問路徑，兩者不能互換。\n\n|名詞|意義|\n|---|---|\n|Moderator|治療前特徵是否改變治療差異，例如基線避免高低。|\n|Mediator|治療中的變化是否參與效果路徑，例如焦慮下降；非直接因果證明。|\n|MCIC|預定有臨床意義改變的門檻，本篇尚無達標結果。|\n|MAR／FIML|在特定缺失假設下使用現有資料估計，不是缺失無偏的保證。|\n|主動對照|兩組皆有介入，能比相對表現，不能直接判無治療時會如何。|\n\n## 自我測驗\n**要點**：先確認方案與結果的區別。\n\n> [!question]- Q1：235人是否代表已有235人的療效結果？\n> 否。是目標樣本；官方API hasResults=false、無resultsSection。\n\n> [!question]- Q2：低FODMAP是否要12週一直嚴格限制？\n> 不是。準備後約第3–6週限制，第7–12週再引入，之後個人化；≤12g/day是試驗依從判準，不是普遍處方。\n\n> [!question]- Q3：d=.44是否為低FODMAP已勝過CBT的效果？\n> 否。是模擬中可偵測的組間差，用來說明power，不是觀察結果。\n\n> [!question]- Q4：兩組無顯著差是否證明等效？\n> 不自動成立。還需精確假說、先驗／等效界線與足夠精度，不能把p≥.05當等效。\n\n> [!question]- Q5：焦慮先下降、症狀後下降是否已證明機轉？\n> 不足。mediator未隨機，仍可能受共同原因與測量誤差影響；縱向分析提供較細的關係而非自動因果證明。\n\n## Reference\n**要點**：官方登錄與主文都有版本／時間差異，需保留不確定性。\n\nAnderson JL et al. BMJ Open2026;16:e126664. [DOI](https://doi.org/10.1136/bmjopen-2026-126664)／[官方NCT06940596](https://clinicaltrials.gov/study/NCT06940596)。首次公開2025-04-23；登錄actual start05-22而主文首consent05-30；隨機工具及主文V4日期亦有差，詳見評讀。登錄最後公開2026-05-06的RECRUITING不代表即時確認。\n\nCC BY4.0，PDF SHA256 `a46881bb04ef28d4c1e35591a540aa4c7ba13e76b8c71fb854852479170158ed`。Rome／NHMRC等支持，作者揭露書籍版稅及Monash FODMAP資源收益。卡片交Worker保存／公開，未另建本機閱讀站。",
+      "cards": [
+        {
+          "title": "目標樣本不是結果",
+          "question": "235人是否代表已有235人的療效結果？",
+          "answer": "否，是目標樣本；官方API hasResults=false，無resultsSection。",
+          "tags": [
+            "IBS",
+            "方案"
+          ]
+        },
+        {
+          "title": "FODMAP包含再引入",
+          "question": "低FODMAP是否要12週一直嚴格限制？",
+          "answer": "不是，準備後約第3–6週限制，第7–12週再引入，之後個人化；≤12g/day是試驗依從判準，不是普遍處方。",
+          "tags": [
+            "FODMAP",
+            "依從"
+          ]
+        },
+        {
+          "title": "Power不是觀察效果",
+          "question": "d=.44是否為低FODMAP已勝過CBT的效果？",
+          "answer": "否，是模擬可偵測的組間差，用來說明power，不是觀察結果。",
+          "tags": [
+            "統計",
+            "RCT"
+          ]
+        },
+        {
+          "title": "不顯著不自動等效",
+          "question": "兩組無顯著差是否證明等效？",
+          "answer": "不自動成立，還需精確假說、先驗／等效界線與足夠精度，不能把p≥.05當等效。",
+          "tags": [
+            "等效",
+            "推論"
+          ]
+        },
+        {
+          "title": "媒介未被隨機",
+          "question": "焦慮先下降、症狀後下降是否已證明機轉？",
+          "answer": "不足。mediator未隨機，仍可能有共同原因與測量誤差；縱向分析不是自動因果證明。",
+          "tags": [
+            "mediator",
+            "因果"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-23T10:47:35.736Z"
     }
   ]
 }
