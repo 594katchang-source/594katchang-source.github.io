@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T10:13:27.707Z",
+  "generatedAt": "2026-11-23T10:18:27.044Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -118687,7 +118687,7 @@
       "evidenceScope": "full_text",
       "title": "Evaluation and clinical translation of nanoprobiotic delivery systems.",
       "authors": "Liu L, Cui Z, Zheng Z, Wang G, Dong R, Li Q, Fu C, Zhang M, Wang D, Xu W, Lehto V, Xing Z, Liu J",
-      "journal": "Precision nutrition and biomarkers (PubMed)",
+      "journal": "期刊待核實",
       "year": "2026",
       "doi": "10.1016/j.biomaterials.2026.124563",
       "abstract": "Nanoprobiotic delivery systems have emerged as a promising strategy to improve probiotic stability, functionality, and therapeutic efficacy. In general, nanoprobiotics refer to probiotic formulations integrated with nanoscale or nanoengineered carriers to protect living microorganisms and enhance delivery efficiency. Compared with conventional formulations, these systems provide better stress resistance, improved colonization, and more controlled or targeted release, showing broad potential in functional foods, precision nutrition, and gastrointestinal disease intervention. Despite these advances, the clinical translation of nanoprobiotic delivery systems remains limited. One of the major barriers is the lack of a systematic and standardized evaluation framework that can connect material design with biological performance and translational feasibility. Current studies often focus on isolated indicators such as encapsulation efficiency or survival rate, whereas comprehensive assessment across in vitro, in vivo, and clinical levels is still insufficient and inconsistent. In this review, we propose a multilevel evaluation framework for nanoprobiotic delivery systems to support their rational development and clinical translation. Specifically, we summarize current strategies for nanoprobiotic design and then discuss key evaluation approaches, including static and dynamic in vitro digestion models, intestinal permeability and epithelial interaction studies, animal-based biodistribution and bioactivity assessment, and clinical trials with population-level follow-up. We further highlight major translational challenges, including biosafety, large-scale manufacturing, regulatory uncertainty, and long-term stability. Overall, this review aims to provide a structured framework for the standardized evaluation of nanoprobiotic delivery systems and to accelerate their translation from laboratory research to practical clinical and nutritional applications.",
@@ -118704,6 +118704,77 @@
       "content": "---\ntags:\n  - source/journal\ncitekey: \"Liu2026NanoprobioticEvaluation\"\ndoi: \"10.1016/j.biomaterials.2026.124563\"\nzotero: \"\"\njournal: \"Biomaterials\"\nyear: 2026\nauthors: \"Lizhi Liu; Zhengying Cui; Zihan Zheng; Gaoke Wang; Ruifang Dong; Qiaochu Li; Caili Fu; Mengxue Zhang; Dali Wang; Wujun Xu; Vesa-Pekka Lehto; Zhiqiang Xing; Jinyao Liu\"\nstudy_type: \"Narrative review\"\nreview_depth: \"quick\"\nmode: \"focused-quick\"\n---\n\n> [!info] 品質快照\n> **設計／n**：敘述性技術綜論；不是人體試驗或系統性統合分析。主文沒有整體人體樣本數，212筆書目不能當212項奈米益生菌臨床試驗。\n> **SANRA取向**：議題與目的清楚；搜尋／選文方法未交代，重要引文有錯接及間接例證混用，整體選擇性與論證可靠性風險高。這是敘述綜論判讀，不是RoB 2評分。\n> **GRADE**：不適用於此篇未組成可評估PICO、未合併患者效果的敘述綜論；未跑療效等級計算，不能把「沒人體證據」硬算成某個確定等級。\n> **Registration**：敘述綜論未報告註冊；不當成未註冊RCT。\n> **一句話verdict**：適合作為驗證技術的地圖；不足以支持奈米益生菌已優於一般產品改善患者症狀，且引用對應需逐項回查。\n\n# Key Points\n\n## Summary\n\n> ✅ Full text reviewed：逐段讀完66頁accepted manuscript，含全文、Figure 1–9圖說、Table 1及212筆書目；原PDF首頁p1、中段p33、書目p53及末頁p66目視核對。未聲稱逐一讀過212篇被引原文。\n\n- 核心問題是**如何評估**，而不是證明某款產品有效：由消化模擬、上皮屏障、動物分布／功能一路到人體、製造與長期安全。（§3–5）\n- **存活、停留、定殖、功能、患者獲益必須拆開**。qPCR會量到非活菌DNA；糞便回收不證明長期黏膜定殖；螢光不必然代表活菌；TEER、SCFA或細胞激素不是直接患者終點。（§3.1.3、3.2、3.3）\n- 人體段落混合一般益生菌與其他奈米藥物例子。Arioli是Enterolactis菌株通過消化道的研究；CRLX101是卵巢癌奈米藥物；ibuprofen lipoceramic是藥物製劑。這些可啟發設計，不能直接支持奈米益生菌的臨床優效。（p33–35、43）\n- 有可重現的**引用對應問題**：p13把ARCOL介紹標為[37]，但p53的[37]是親密伴侶暴力電子健康介入綜論；PDF目視及Crossref身份均確認。不是宣稱該被引研究不存在，也不是指控造假。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> **一句話**：替益生菌加上先進載體後，不能只看包住多少、經胃酸還剩多少，就說人體會更健康。\n> **為什麼做**：載體會同時改變菌的存活、釋放、黏附以及材料暴露，原來菌株的證據未必能完整借用。\n> **主體**：製備材料決定保護與釋放；消化模型篩選配方；細胞與動物觀察屏障、分布與作用；人體試驗才檢查適應症、真正健康效果及安全；製造、保存與長期追蹤決定能否落地。\n> **所以呢**：營養師可用這篇提出產品證據問題，但不能據此推薦奈米標籤產品優於一般益生菌。作者結論也承認臨床轉譯仍早、人體與長期安全資料不足。\n\n## 全文結構與逐段閱讀地圖\n\n|原稿位置|依原小標與段落群順序的閱讀摘記|\n|---|---|\n|p1–2首頁／摘要|題名、作者與機構；主張建立多層次評估框架，非新臨床療效資料。|\n|§1 p3–5|益生菌在加工與GIT損失、載體潛力及轉譯落差；提出評估需求。|\n|§2 p5–7|材料與製備／包埋策略需兼顧活性、釋放、穩定與用途；奈米結構、微膠囊與菌體不可混為相同尺寸。|\n|§3.1 p7–9|物化表徵與消化挑戰；不同菌株、孢子與厭氧菌須用相應活性方法。|\n|§3.1.1 p9–11|靜態模擬做初篩；文中存活百分比是體外結果。INFOGEST的歷史年份描述與所引2019方法不可不加核對混寫。|\n|§3.1.2.1 p11–13|IViDiS、DGM、HGS模擬上消化道；食物基質與機械力會改變結果，模擬抑菌不等於患者根除感染。|\n|§3.1.2.2 p13–15|ARCOL、TIM-1／2、EnteroMix觀察腸段／發酵與個人菌相反應；該段數個引文與描述不對應。|\n|§3.1.2.3 p15–19|SHIME、SIMGI、GITS、GIDS、DIDGI、ESIN、DHS-IV；許多展示是食品消化或藥物運輸，不能統稱奈米益生菌療效驗證。|\n|§3.1.2.4 p19–21|小型／特殊模型、RGM及嬰兒M.I.D.A.；複雜度、成本、通量與生理真實性取捨。嬰兒模型不是成人的替代資料。|\n|§3.1.3 p21–23|黏附與穿透有取捨；Caco-2、TEER、影像及緊密連結；須自由菌、空載體、死菌、完整配方對照。|\n|§3.2.1 p23–27|鼠、鼠病模與豬各有目的；炎症、菌相、代謝病模型是前臨床，物種差異不能省略。|\n|§3.2.2 p27–29|IVIS、BLI、MRI與離體組織定位互補；標記保留與活菌／載體完整性應分辨。|\n|§3.2.3 p29–31|菌量之外加代謝、免疫、屏障及疾病功能；不是任何單一指標改善就證明臨床有益。|\n|§3.3.1 p31–33|人體設計、菌株追蹤、培養與qPCR；一般菌株及封裝回收研究作範例，未提供目標奈米配方的統合效果。|\n|§3.3.2 p33–35|不良事件、病種終點、多組學；混用癌症奈米藥與一般益生菌安全性例證。|\n|§3.3.3 p35|長期追蹤與真實世界；產前／嬰幼兒延伸例不直接外推成人，ITT與PP差異提醒解讀風險。|\n|§4.1 p36–39|材料分布、代謝與清除受尺寸、表面、組成和途徑影響；泛論粒子尺寸不能直接套所有產品。|\n|§4.2 p39–41|氧化壓力、發炎、凋亡與粒線體等毒性；多為非目標材料或非口服模型，須保留情境。|\n|§4.3 p41–43|細胞／動物／臨床安全互補；ibuprofen人體AUC不能證實奈米益生菌安全。|\n|§5.1–5.4 p44–48|製造批次與成本、智能釋放、人體試驗／法規、長期生態與保存穩定；展望不是已達成成果。|\n|§6 p49|作者承認早期轉譯及資料不足，提出跨領域驗證方向。|\n|p50聲明|多項公部門與研究平台支持，也列Amway China合作計畫；作者稱無已知利益衝突，未詳細界定資助者角色。|\n|p51–64書目|212筆，涵蓋微生物、食品、藥物、毒理及不相干引用；未逐篇全文查核。|\n|Table 1 p65–66|19種代表模型的分類與用途比較，屬方法選擇表，沒有人體療效比較值。|\n\n## Clinical Application\n\n適用於評估產品宣稱或規劃研究。先要求**精確菌株、活菌／代謝物、材料組成與粒徑、劑量、期限末活性、實際適應症、比較組及患者終點**；本篇沒有足以制定臨床處方的統一菌株、劑量或療程。\n\n一般益生菌的安全經驗不能自動移植到新材料、改造菌或新的吸收／分布。文章未建立成人臨床營養病人的利益風險門檻，也未提供臺灣產品核准或給付資訊；本次不作產品／法規建議。\n\n# Paper Details\n\n## Methods\n\n敘述綜論，未報告可重現的資料庫、檢索字串、截止日期、雙人篩選、納排流程或逐研究RoB；沒有PRISMA式系統性搜尋宣稱，不硬套AMSTAR-2分數。未進行meta-analysis，沒有整體樣本數、合併效應、95% CI或I²。文中材料與技術範例異質，不能藉篇數推定一致性。\n\n## Critical Appraisal\n\n|SANRA相關面向|判定|依據|\n|---|---|---|\n|重要性與目的|🟢|加工存活到人體應用的評估缺口清楚，§1、3。|\n|文獻搜尋說明|🔴|全文未報告搜尋與選文流程，無法評估遺漏或選擇性。|\n|關鍵敘述引文|🔴|ARCOL[37]確定錯接；其他例子含間接／不相應題材，見下表。|\n|科學推理|🟡|有完整多層次框架及反例／毒性，但常把不同封裝尺寸、一般菌株與奈米藥物並置。|\n|結果與端點呈現|🟡|提供個別技術數字，沒有目標配方的人體相對效果或不確定區間。|\n|反向與限制證據|🟡|承認長期安全與臨床不足，也談毒性；沒有系統辨認陰性試驗的流程。|\n\n**整體**：技術地圖有用，作為臨床優效證據則不足；未把SANRA當已驗證療效的總分或統計工具。\n\n### 引用對應的針對性查核\n\n這是focused-quick中因實際風險加做的局部查核，不是212篇完整查核。\n\n|原稿位置|實際可核對內容|判讀及查核界線|\n|---|---|---|\n|p13 ARCOL標[37]；p53書目|Crossref DOI10.2196/22361、JMIR與PubMed確認題名是親密伴侶暴力電子健康介入綜論|**確定書目主題不支持該模型介紹**；原PDF目視也如此，不是OCR錯。|\n|p14 EnteroMix [50]、[51]；p54書目|[50]題名是lactose，[51]題名是polydextrose；內文依序談polydextrose與HMO|原稿內部對應疑慮；未取得兩篇全文，不宣稱完成外部語意核驗。|\n|p15 BB536搭arabinoxylan[56]；p54書目|引用題名寫arabinogalactan|原稿內部名稱不一致；不默默把兩種醣換成同物。|\n|p33 Arioli[140]|Crossref題名匹配；原文官方頁顯示飲用小瓶的open-label健康成人微生物回收研究|支持存活／排出，**不是本篇目標奈米配方的優效RCT或長期定殖證明**。|\n|p33 Mai[141]|Crossref題名匹配，PubMed摘要比較Probiotic Pearls及傳統膠囊、以糞便回收為結果|直接相關封裝概念，但不能單靠回收量當患者健康獲益。未取得原文全文，詳細16S宣稱仍未核驗。|\n|p34 [145]、p43 [3]|原稿書目分別明寫CRLX101 ovarian cancer及ibuprofen Phase I|可以是方法類比，不能作奈米益生菌直接臨床有效／安全證據。|\n|p40鐵奈米載體標[184]；p62–63書目|[184]是大鼠鼻內鐵氧化物暴露的蛋白體毒理題目|原稿內部引用不對應；未用此引文建立口服補鐵有效或無毒結論。|\n\n**統計／臨床重要性**：沒有可評估的主要患者療效估計，MCID、NNT、fragility、ITT完整性與多重比較不適用於整篇；不得捏造效應或CI。p33的==6.7 log CFU/g與停用後最多5天==是被引研究的糞便存活／排出敘述，不是納米配方組間療效，也不是永久定殖。其他段落的存活百分比與吸收倍數均須維持體外或其他物質情境。\n\n**推論跳躍**：以argdown_lint對「若把存活／吸收當患者獲益」作明確壓力測試，標記surrogate_to_hard_endpoint；這個強化主張不是作者逐字結論。作者p49其實承認早期轉譯、需更多人體試驗，應保留其限制而非指稱作者已證明療效。\n\n**Funding／COI**：p50列多項研究經費，包含Amway China與NUS Suzhou合作計畫；作者宣稱無已知競爭財務／個人利益。不能據資助推定結果操弄；但資助者實際參與未詳述，讀者應知道商業連結。\n\n**GRADE**：未形成針對某患者終點的可合併證據體，故不適用；不能以本篇提供正式臨床推薦強度。\n\n## Key Findings\n\n最有價值的是四組必要對照（自由菌、空載體、非活菌、完整配方）與多層端點設計。保護、黏附、黏液穿透與全身吸收有不同目標及風險；腸腔局部作用不一定越吸收越好。材料安全、菌株作用及製劑整體表現需各自驗證。（§3.1.3、4）\n\n# Resource\n\n## Source\n\n- [DOI](https://doi.org/10.1016/j.biomaterials.2026.124563)；[PubMed PMID42623997](https://pubmed.ncbi.nlm.nih.gov/42623997/)\n- [東芬蘭大學正式典藏](https://erepo.uef.fi/handle/123456789/39297)：本次閱讀acceptedVersion，典藏明示CC BY4.0／openAccess。線上2026年與期刊卷337、2027年2月編期須區分，未用DOI年份猜期刊日期。\n- [第37筆實際文章](https://www.jmir.org/2020/12/e22361/)、[Arioli原文](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2018.01720/full)、[Mai PubMed](https://pubmed.ncbi.nlm.nih.gov/27796434/)。\n- 原稿頁碼均指66頁accepted manuscript；排版與正式出版PDF可能不同。原稿SHA256：`8cbad4df51b0029e7c877cce85df22ce4f0ee78e726d328e5233440d1b6c2fb2`。\n- focused-quick按設計完成，未跑作者履歷、期刊排名／IF、廣泛引用影響與社群查核；未執行不寫成沒有問題。Worker負責合併及公開，未另推已退休本機閱讀站。",
       "cards": [],
       "completedAt": "2026-11-23T10:12:41.152Z"
+    },
+    {
+      "id": "doi:10.1016/j.biomaterials.2026.124563:digest",
+      "paperId": "doi:10.1016/j.biomaterials.2026.124563",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Evaluation and clinical translation of nanoprobiotic delivery systems.",
+      "authors": "Liu L, Cui Z, Zheng Z, Wang G, Dong R, Li Q, Fu C, Zhang M, Wang D, Xu W, Lehto V, Xing Z, Liu J",
+      "journal": "期刊待核實",
+      "year": "2026",
+      "doi": "10.1016/j.biomaterials.2026.124563",
+      "abstract": "Nanoprobiotic delivery systems have emerged as a promising strategy to improve probiotic stability, functionality, and therapeutic efficacy. In general, nanoprobiotics refer to probiotic formulations integrated with nanoscale or nanoengineered carriers to protect living microorganisms and enhance delivery efficiency. Compared with conventional formulations, these systems provide better stress resistance, improved colonization, and more controlled or targeted release, showing broad potential in functional foods, precision nutrition, and gastrointestinal disease intervention. Despite these advances, the clinical translation of nanoprobiotic delivery systems remains limited. One of the major barriers is the lack of a systematic and standardized evaluation framework that can connect material design with biological performance and translational feasibility. Current studies often focus on isolated indicators such as encapsulation efficiency or survival rate, whereas comprehensive assessment across in vitro, in vivo, and clinical levels is still insufficient and inconsistent. In this review, we propose a multilevel evaluation framework for nanoprobiotic delivery systems to support their rational development and clinical translation. Specifically, we summarize current strategies for nanoprobiotic design and then discuss key evaluation approaches, including static and dynamic in vitro digestion models, intestinal permeability and epithelial interaction studies, animal-based biodistribution and bioactivity assessment, and clinical trials with population-level follow-up. We further highlight major translational challenges, including biosafety, large-scale manufacturing, regulatory uncertainty, and long-term stability. Overall, this review aims to provide a structured framework for the standardized evaluation of nanoprobiotic delivery systems and to accelerate their translation from laboratory research to practical clinical and nutritional applications.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42623997/",
+      "category": "recommended",
+      "tags": [
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "precision nutrition",
+        "safety and interaction"
+      ],
+      "noteTitle": "奈米益生菌評估地圖：從存活、釋放到臨床與安全",
+      "content": "---\ntags:\n  - research/digest\ncitekey: \"Liu2026NanoprobioticEvaluation\"\ndoi: \"10.1016/j.biomaterials.2026.124563\"\njournal: \"Biomaterials\"\nyear: 2026\nstudy_type: \"Narrative review\"\nmode: \"worker-batch\"\n---\n\n> [!summary] 30 秒層：一句話＋重點\n> 奈米益生菌要一路證明「送得到、還有功能、對患者有益、長期可接受」，不能停在包埋率或體外活菌數。\n> - 消化模型用來篩選與解釋機制，細胞／動物與人體各回答不同問題。\n> - 自由菌、空載體、非活菌、完整配方四組對照，幫助分辨材料與菌的貢獻。\n> - 糞便回收、黏膜定殖、SCFA與疾病效果不可互相代替。\n> - 人體例證包含一般益生菌與其他奈米藥物；作者承認目標領域臨床與長期安全不足。\n> 品質判斷 → 同篇獨立品質評讀；本整理重述技術脈絡，不是產品推薦。\n\n## 5分鐘層：掌握評估順序\n**要點**：先看配方與目的，再看模型、功能、人體與安全。\n\n1. 製備：保護與釋放是否兼顧，菌體與材料尺寸是否分清。\n2. 體外：靜態初篩、動態模擬、上皮屏障各解答不同問題。\n3. 動物：分布與機轉之外，要追蹤功能，保留物種差異。\n4. 人體：同一配方是否改善患者終點，不能只報糞便回收。\n5. 落地：批次、保存、長期安全與成本決定可用性。\n\n## 完整層／全文地圖\n**要點**：本文是評估工具地圖，不是新的人體試驗或可直接採用的臨床指引。\n\n讀完66頁accepted manuscript：§1動機（p3–5）→§2製備／應用（p5–7）→§3體外、動物與人體評估（p7–35）→§4材料與生物安全（p36–43）→§5製造、智能設計、試驗及長期挑戰（p44–48）→§6結論（p49）；p50聲明，p51–64共212筆書目，p65–66 Table 1。頁碼依原稿，非正式排版頁碼。首頁、中段及末頁已目視核對，未逐篇讀完212篇引用原文。\n\n## 各主題重點\n**要點**：每種模型都應連到明確問題、對照與終點，不按技術越複雜就越可信來排序。\n\n### 1. 製備與材料先決定要驗證什麼（§1–2）\n\n加工、儲存、胃酸、膽鹽與酵素可能削弱菌的活性。載體的保護、定點釋放與黏附有潛力，但材料本身亦可能影響菌、腸屏障與宿主。應同時記錄粒徑／分布、表面電荷、形態、包埋率、負載、活性與釋放。**微米大小的菌體、奈米塗層、微膠囊及非活菌分泌物不是同一介入**；本文多種類型並置，讀者要保留差異。\n\n### 2. 靜態消化：適合初篩，不是完整人體（§3.1.1）\n\n依序模擬口腔、胃、腸條件，控制pH、溫度、酵素、膽鹽及時間，測自由菌與封裝菌的存活／釋放。文中例子包括L. plantarum體外存活==80.4%對25%==，以及L. rhamnosus配方包埋率==95.13%==、模擬3小時存活==83.6%==；是**個別體外配方的不同指標**，不是人體成功率、同一研究的組間效果或通用門檻（p9–10）。\n\n靜態模型較易標準化，但不能完整再現胃排空、流動、菌相與宿主反應。不同菌株、孢子、厭氧菌需適合的復甦／培養與功能方法，不能只用一種活菌檢測。\n\n### 3. 動態消化：依腸段與問題選工具（§3.1.2、Table 1）\n\n|類型／模型|主要問題|讀結果時的邊界|\n|---|---|---|\n|上GIT：IViDiS、DGM、HGS、TIM-1|胃腸壓力、機械攪動、基質、存活與釋放|尚未回答大腸菌相與患者療效。|\n|大腸／微環境：ARCOL、TIM-2、EnteroMix|發酵、SCFA、菌相與供體差異|無完整宿主免疫，離體供體反應不等同臨床。|\n|整合：SHIME、SIMGI、M-SHIME、GITS、GIDS、DIDGI、ESIN、DHS-IV|多腸段動態、黏液、吸收或細胞耦合|各裝置的實際模組不同，不把名稱相近當功能完全一致。|\n|特殊：engineered small intestine、miniaturized semi-dynamic、RGM、M.I.D.A.|局部吸收、低量篩選、粒子胃內命運、嬰兒消化|M.I.D.A.是嬰兒用途，不能代替成人模型。|\n\nTIM-1偏胃與小腸，TIM-2偏大腸；高上消化道存活不保證大腸持續定殖。含黏液的模型能補黏附與腔內懸浮菌之差異；供體相關反應提醒個人菌相差異。食物基質、空腹／進食、黏度與脂肪會改變運輸與釋放。複雜模型通常成本、操作及通量負擔較大，依研究問題取捨。\n\n本文亦引用macelignan、metformin與其他食品／藥物的模型示例。這些說明裝置能力，不能當作同樣已驗證活益生菌療效。\n\n### 4. 黏液、上皮與對照（§3.1.3）\n\n**黏得住與穿得過可能互相牽制**：強黏附可能延長停留，也可能停在外層黏液；高穿透可能接近細胞，也可能更快清除或造成非預期跨屏障。應分別測擴散、深度、停留、空間位置。\n\nCaco-2屏障、共軛焦與TEM觀察接觸／攝入；TEER與緊密連結蛋白補功能。細胞攝入多不等於送達更好，細胞內累積也可能增加壓力。作者建議四組：**自由菌、空載體、非活菌、完整配方**；配合活菌數、屏障、抗菌、發炎及代謝終點，區分菌、材料及組合的貢獻。非活菌上清載藥實驗不能改寫成活菌定殖實驗。\n\n### 5. 動物：分布、活性與疾病功能（§3.2）\n\n鼠類便於免疫／機制與病模；豬的消化生理較接近人，仍不是人體驗證。IBD、菌相失衡、肥胖／糖尿病等模型應貼合研究問題。本文提到微膠囊、表面修飾與靶向材料的改善，但不能把不同物種或配方視為可互換。\n\n- **去到哪裡**：IVIS螢光、BLI、MRI、組織與離體成像互補，檢查腸段、器官、停留與清除。\n- **是否活著／功能仍在**：影像標記可能與載體／菌分離；qPCR可能保留死菌DNA，需培養或活性方法共同判讀。\n- **有何作用**：菌相與strain追蹤、SCFA／代謝體、Treg／Th17與細胞激素、FITC-dextran通透性、緊密連結及病模表現。這些機轉與替代終點不能直接當患者症狀改善。\n\n### 6. 人體：要把送達連到真正臨床意義（§3.3）\n\n人體試驗應先定義配方、菌株、活菌劑量、適應症與對照，追蹤菌株存活／定殖、患者終點及不良事件。本文Arioli例子描述健康成人糞便中可培養菌及qPCR，停用後最多==5天==、約==6.7 log CFU/g==（p33）；這表示消化道存活與排出，不能稱永久定殖。\n\nMai封裝產品例子以糞便回收比較傳統膠囊；它提醒配方可影響回收，不提供本篇所有奈米製劑的臨床效果。CRLX101癌症奈米藥、ibuprofen載體及一般菌株安全研究都是**間接設計類比**。長期觀察可能找出短期看不到的風險，也需處理ITT與PP、不完整追蹤及族群差異；產前／兒童例子不外推成人。\n\n### 7. 安全：同時看材料、菌、劑量及途徑（§4）\n\n材料尺寸、組成、表面、疏水性及暴露途徑會改變吸收、分布、降解與排出。可降解與不可降解材料關注點不同：前者要看降解產物與清除，後者要看持續蓄積與長期毒性。\n\n文中討論氧化壓力、發炎、粒線體失能、凋亡、ferroptosis等，多取自其他材料、細胞或動物；不能由金屬奈米毒理推定所有益生菌載體都相同危險，也不能由某藥物耐受良好推定新載體無害。材料可能抑制有益菌，故宿主毒性與菌相影響都要看。經口局部作用若已足夠，增加跨上皮吸收未必是目標。\n\n### 8. 落地：製造與追蹤也是證據的一部分（§5–6）\n\n放大製造要維持批次一致、活性、載量、保存與運送穩定，並評估成本及接受度。AI、刺激反應、個人化與多組學是發展方向，非已證實臨床效益。食品應用、精準營養與疾病治療對終點及監管的要求不同。作者承認人體試驗不足、長期安全不明、體外與體內落差及法規不完整；本文未給可直接採用的地區法規清單或核准產品建議。\n\n## 機轉白話講解\n**要點**：包裝保護、目的地釋放與實際有益是三道不同問題。\n\n可把載體想成運送活菌的包裝：包得牢能抵抗前段環境，但若到了腸段仍打不開，菌可能無法發揮作用；如果包裝自己進入不預期組織，又可能增加風險。這是說明用的比喻，不是本文新實驗。驗證必須同時問包裝還在嗎、菌還活嗎、功能存在嗎、患者真的更好嗎。\n\n## 重要圖表重述\n**要點**：圖表整理路徑與工具，沒有把人體療效匯總成一張效果表。\n\n- Figure 1–2：從配方／遞送到多層次評估的總覽，閱讀時沿實際終點分層。\n- Figure 3–4：各種動態消化系統及示例；圖4亦含metformin等非益生菌藥物，勿把裝置展示當同介入結果。\n- Figure 5：微膠、追蹤影像、細菌標記與定位等例子；載體、菌及訊號三者要分辨。\n- Figure 6：疾病動物模型；不是成人適應症有效清單。\n- Figure 7：人體評估相關設計脈絡；須與§3.3的實際例證層級一起讀。\n- Figure 8：菌屬、功能與相容性考量；不能由菌屬推定所有菌株效果。\n- Figure 9：規模化、臨床、監管與安全挑戰。\n- Table 1（p65–66）：19種模型的分類／特性／用途，前述表格已用自行文字重組；不重製原圖。\n\n## 臨床意義 / 怎麼用\n**要點**：可當讀產品資料與研究計畫的提問清單，不能直接變成處方。\n\n問對方是否用相同菌株、相同材料與配方、相同劑量做過人體比較；端點是糞便回收，還是患者重視的症狀／功能？是否同時呈現不良事件、保存末期活性與長期資料？本篇沒有足夠證據提供統一劑量、療程、產品優先順序或臺灣核准資訊。\n\n## 與既有認知的對照\n**要點**：本文把「活菌數」的關注擴成「菌—材料—宿主」一起驗證。\n\n本次Worker未接可用的個人vault_search，未宣稱完成個人知識庫差異查核。就本文可見的概念對照：只看胃酸後CFU → 加看釋放、功能與病人結果；一般菌株安全史 → 另驗新材料與新分布；越穿透越好 → 依局部或全身作用目標衡量。\n\n## 概念 / 名詞整理\n**要點**：生物可及性、活性與臨床有效性不要用同一個詞含混帶過。\n\n|名詞|本文閱讀方式|\n|---|---|\n|Encapsulation efficiency|製備時被包入的比例，不是人體有效率。|\n|Bioaccessibility|消化後可被接觸／利用的程度，與實際全身bioavailability及健康效果有別。|\n|Mucoadhesion／mucus penetration|黏在黏液與穿過黏液；需依目標取捨。|\n|CFU／qPCR|培養出的活菌單位／目標DNA量；不必相等。|\n|TEER|上皮模型電阻，協助評估屏障，不是患者直接終點。|\n|Colonization|不僅某次糞便找到菌；須以時間、部位與活性等資料區分暫時通過。|\n\n## 自我測驗\n**要點**：先判斷每項資料回答哪一層問題，再決定能說到哪裡。\n\n> [!question]- Q1：包埋率95.13%可否說患者有95.13%機會獲益？\n> 不可。它是製備／包入比例；還要分別驗證消化存活、釋放、功能與人體效果。p9–10的數字是特定體外配方，不是臨床成功率。\n\n> [!question]- Q2：停用後5天糞便仍有活菌，能稱永久定殖嗎？\n> 不行。支持存活與排出／短期持續，尚不能區分穩定黏膜定殖與暫時通過；須縱向、菌株特異及活性等證據（§3.3.1）。\n\n> [!question]- Q3：為何要自由菌、空載體、非活菌、完整配方？\n> 分辨菌株、材料、非活菌成分與組合的作用，避免把材料造成的細胞反應全部歸於活菌功效（§3.1.3）。\n\n> [!question]- Q4：只做TIM-1是否足以宣稱改善大腸菌相與患者症狀？\n> 不足。它主要模擬胃與小腸的存活／運輸；大腸發酵需相應模型，患者症狀仍需人體試驗（§3.1.2、3.3）。\n\n> [!question]- Q5：奈米載體在某藥物人體試驗中安全，能直接套用益生菌嗎？\n> 不能。材料、配方、劑量、暴露途徑與生物作用不同，需驗證整個目標產品；間接例子只能提供設計啟發（§4）。\n\n## Reference\n**要點**：本整理依合法典藏接受稿；引用問題另在評讀明示，不把不確定資料改成確定事實。\n\nLiu et al., *Evaluation and clinical translation of nanoprobiotic delivery systems*, Biomaterials, DOI [10.1016/j.biomaterials.2026.124563](https://doi.org/10.1016/j.biomaterials.2026.124563)。[東芬蘭大學典藏](https://erepo.uef.fi/handle/123456789/39297)明示acceptedVersion／CC BY4.0／openAccess。線上2026年，卷337編期2027年，兩者分開記錄。\n\n關鍵脈絡是文中[13] INFOGEST、[140] Arioli存活回收及[141] Mai封裝回收。ARCOL介紹[37]在原稿對到不相關的電子健康研究，故本整理不藉該引文建立已驗證裝置描述；詳見同篇評讀。\n\n原PDF SHA256 `8cbad4df51b0029e7c877cce85df22ce4f0ee78e726d328e5233440d1b6c2fb2`；卡片由Worker同成果保存／公開，不重複推送舊本機站。",
+      "cards": [
+        {
+          "title": "包埋率不是臨床有效率",
+          "question": "包埋率95.13%可否說患者有95.13%機會獲益？",
+          "answer": "不可。包埋率是製備時被包入的比例；還需分別驗證消化存活、釋放、功能與患者結果。文中數字來自特定體外配方。",
+          "tags": [
+            "益生菌",
+            "終點判讀"
+          ]
+        },
+        {
+          "title": "回收不等於定殖",
+          "question": "停用後5天糞便仍有活菌，能稱永久定殖嗎？",
+          "answer": "不行。支持存活與排出／短期持續，不能證明穩定黏膜定殖；須縱向、菌株特異與活性等證據。",
+          "tags": [
+            "益生菌",
+            "定殖"
+          ]
+        },
+        {
+          "title": "四組對照分辨貢獻",
+          "question": "為何要自由菌、空載體、非活菌、完整配方？",
+          "answer": "分辨菌株、材料、非活菌成分及組合的作用，避免把材料造成的細胞反應全部歸於活菌。",
+          "tags": [
+            "益生菌",
+            "研究設計"
+          ]
+        },
+        {
+          "title": "模型回答有邊界",
+          "question": "只做TIM-1是否足以宣稱改善大腸菌相與患者症狀？",
+          "answer": "不足。TIM-1主要模擬胃與小腸的存活／運輸；大腸發酵需相應模型，患者症狀仍需人體試驗。",
+          "tags": [
+            "消化模型",
+            "外推"
+          ]
+        },
+        {
+          "title": "安全不能跨配方借用",
+          "question": "奈米載體在某藥物人體試驗中安全，能直接套用益生菌嗎？",
+          "answer": "不能。材料、配方、劑量、途徑與作用不同，應驗證目標產品整體；其他藥物例子只能啟發設計。",
+          "tags": [
+            "奈米載體",
+            "安全"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-23T10:17:07.698Z"
     }
   ]
 }
