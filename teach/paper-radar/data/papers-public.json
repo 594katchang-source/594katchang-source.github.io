@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T10:58:04.546Z",
+  "generatedAt": "2026-11-24T06:32:31.834Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -119155,6 +119155,32 @@
         }
       ],
       "completedAt": "2026-11-23T10:57:05.969Z"
+    },
+    {
+      "id": "doi:10.1007/s10597-026-01747-x:review",
+      "paperId": "doi:10.1007/s10597-026-01747-x",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Experiences and Perceptions Around Eating Among Older Adults Living with Serious Mental Illness: A Qualitative Analysis.",
+      "authors": "Hubbard E, Leutwyler H",
+      "journal": "期刊待核實",
+      "year": "2026",
+      "doi": "10.1007/s10597-026-01747-x",
+      "abstract": "People living with serious mental illness (SMI) have, on average, a life expectancy 10-20 years shorter than those without SMI and are at an increased risk for comorbid conditions such as metabolic syndrome (comprised of abdominal obesity, hypertension, impaired glucose tolerance, and hypertriglyceridemia), contributing to the risk of type 2 diabetes and cardiovascular disease. External circumstances such as precarious living environments and poor socioeconomic status influence access to healthy food, and psychiatric symptoms may further impede healthy eating habits. To better understand facilitators and barriers to healthy eating among community-dwelling older adults living with SMI, we report the results of a qualitative analysis. We interviewed 10 community-dwelling older adults living with SMI (mean age 64.57, SD 6.815, range 53-76). A qualitative analysis using constructivist grounded theory methodology was conducted to assess participants' experiences and perceptions around eating and access to food. Two main themes emerged in our analyses: 1. Formative Life Course Influences and 2. Current Contextual Influences. Participants indicated that the early home environment, work experience, and time spent in mental health programs can influence eating habits. Participants also described how contextual influences guided the types of food they consume. This contextual-based approach to nutrition often determined whether participants ate non-nutrient-dense foods. Among community-dwelling older adults living with SMI, eating behaviors reflected the cumulative influence of lifelong experiences together with current contextual barriers. These findings suggest opportunities for community mental health services to support healthy eating through nutrition education, cooking experiences, and improving access to affordable, healthy foods.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43056024/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "health promotion and lifestyle",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "高齡嚴重精神疾病者的飲食經驗：質性研究評讀",
+      "content": "---\ntags:\n  - source/journal\ncitekey: Hubbard2026EatingSMI\ndoi: \"10.1007/s10597-026-01747-x\"\njournal: \"Community Mental Health Journal\"\nyear: 2026\nauthors: \"Erin Hubbard; Heather Leutwyler\"\nstudy_type: \"Qualitative constructivist grounded theory\"\nreview_depth: \"quick\"\nmode: \"focused-quick\"\n---\n\n> [!info] 品質快照\n> **設計／人數**：美國單一城市地區10名受訪者，半結構訪談，建構主義紮根理論；並非介入試驗。\n> **可信度**：有受訪者原話、迭代分析與反身性，但便利取樣、單人初始編碼、部分既有研究關係及高度服務接觸限制轉移性；飽和的具體判斷歷程資訊有限。\n> **GRADE**：不適用本次質性經驗研究的介入效果分級；沒有治療效果估計或對照組。Registration：未報，質性訪談不是依此判定品質。\n> **結論**：飲食和一生經驗、食物可近性、健康、社交與經濟交織；可用來提出照護問題，不能證明某方案改善飲食或健康。\n\n# Key Points\n\n## Summary\n\n> ✅ Full text reviewed：12頁PDF逐頁閱讀，含Tables 1–3、Fig. 1與文末書目；PDF第1、6、12頁目視核對。快速評讀未逐篇驗證引文，亦未取得訪談逐字稿或補充訪綱。\n\n- 訪談10人，年齡53–76歲；摘要平均64.57、結果段寫64，原文不同，無個別年齡無法核算，不能自選其一當精確值。（p1、4）\n- 兩主題：成長／工作／住宿方案的生命歷程經驗，與目前食物可近性、身心狀況、社交、可負擔性。（p4–8、Table 3）\n- 9人曾有過渡住宿經驗，可能放大該服務觀點；不是全部重性精神疾病患者經驗，也不能由訪談推估障礙盛行率。（p4–5、10）\n- 模型為作者對敘事的詮釋，作者明示不代表因果；沒有比較介入前後或健康結局。（p8–9）\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> **問題**：年紀較長且有嚴重精神疾病的人，生活中怎麼取得食物、怎麼吃？\n> **做法**：訪談10人，再把敘述歸納為生命經驗和現實生活條件兩大主題。\n> **發現**：有些人說交通、費用、體力、情緒及一個人備餐都會影響選擇；也有人提到共餐或服務提供幫助。\n> **限制**：只有一個地區、參與者大多接觸服務，不能把個別說法當全部人的比例或療效。\n> **怎麼用**：營養會談可先問食物是否買得到、付得起、能否準備及本人喜好，再共同尋找適用資源。\n\n## 全文結構與逐段閱讀地圖\n\n|位置|內容與重點|\n|---|---|\n|p1–2 Background|說明精神疾病、食物安全和高齡的研究缺口，提出理解當事人經驗的目的。|\n|p2–3 Methods|建構主義紮根理論、兩種招募管道、同意與診斷資訊；半結構訪談及迭代編碼。|\n|p3–4 Methods／Tables 1–3|12人接觸、11人同意、10人完成；8次個人訪談及1次雙人訪談，12–45分鐘；反身性和人口資料。|\n|p4–5 Results|家庭、工作及過渡住宿對飲食與技能的受訪者敘述。|\n|p6–8 Results|食物可近性、身心健康、社交與可負擔性；作者以引文呈現不同情境。|\n|p8–9 Fig. 1|建構生命歷程與當下環境互動的詮釋模型，非因果圖的實證驗證。|\n|p9–10 Discussion|與既有文獻比較並提出社區支持可能性；一些較強推論需保留研究設計界線。|\n|p10–11 Limitations／Conclusion|單一都市、樣本及編碼限制；無資助、無利益衝突聲明及倫理資訊。|\n|p11–12 References|作者列參考文獻；快速模式未逐篇回查。|\n\n## Clinical Application\n\n對台灣照護可把研究當作提問框架：詢問購物交通、能站立或準備餐食的能力、食物費用、口味與獨居份量，以及社區資源是否真的能使用；尊重當事人選擇並結合在地資源。美國SNAP及當地服務制度不能直接套用台灣資格或補助；本研究也未測試這些做法的成效。不要把所有困難歸因個人意志或診斷。\n\n# Paper Details\n\n## Methods\n\n研究由先前研究名單及過渡住宿方案轉介招募，英文、18歲以上、SMI診斷及具知情同意能力為資格；實際完成10人，7男3女，7人白人，部分診斷可重疊。12人接觸、11人同意、1人追蹤流失。原文同一節既描述先前名單病歷確認，又稱診斷自述；不同管道及逐人核實方式未充分釐清。（p3–4、Tables 1–2）\n\n研究主任招募、訪談、逐字轉錄並進行初始編碼，第二研究者參與討論；採常比較、備忘錄、ATLAS.ti，作者稱資訊飽和。兩人訪談可能增加互相啟發，也可能影響揭露；此前認識研究者的參與者可能更信任或有所保留。文章敘述反身性，但未交代逐次飽和判定證據，不能把作者主張視作獨立驗證。（p3–4）\n\n## Critical Appraisal\n\n本研究是質性研究，以JBI質性研究檢核方向逐項判讀，非RCT的RoB 2；未把量化效果GRADE套到受訪者敘述。\n\n|面向|判讀|依據與限制|\n|---|---|---|\n|研究問題與方法一致性|較清楚|目的為探索經驗，半結構訪談及建構主義取徑可回答此問題。|\n|取樣及情境|有限|便利樣本、單一都市、僅英文；多數接觸住宿／精神健康服務，較難代表未接觸服務的人。|\n|資料收集與分析|部分清楚|訪談時長、逐字轉錄、初始編碼、備忘錄和團隊討論有描述；理論抽樣與逐次飽和的具體記錄不足。|\n|研究者位置與影響|有揭露仍需留意|研究者無SMI親身經驗、較年輕、部分與受訪者既有關係；單人初編碼可能影響解讀。|\n|資料與結論連結|可追溯但非因果|引文支持主題存在，卻無法確定代表性、方向或方案效果；雙人訪談的互動影響不能排除。|\n|倫理|有報告|大學IRB核准及書面同意；資料因敏感性不公開，未能獨立重做編碼。|\n\n**數字核對**：表1居住2+5+1+2=10，出生性別7+3=10；表2診斷可複選，不能相加成受試者數。摘要的64.57與結果的64存在差異，且若年齡按完整整數、10人平均精確至兩位，64.57亦需原始資料核對；不假定輸入單位或修正作者數據。無臨床效果、p值、信賴區間或MCID可計算；所引人數不是效果大小。（p1、4）\n\n**推論檢核**：作者圖說明示模型非因果；討論對住宿方案持久健康促進和政策效果的措辭較強，這份回溯、自述、無對照訪談只能提出可能機制與後續研究問題。沒有對照或追蹤，不可宣稱共餐、補助或營養教育造成改善。（p8–10）\n\n## Key Findings\n\n研究提供可用於設計以人為中心營養會談的具體情境，並提醒考量交通、價格和喜好；研究的貢獻是理解脈絡與產生假設，並非量化介入效果。\n\n# Resource\n\n## Source\n\n- Hubbard E, Leutwyler H. *Experiences and Perceptions Around Eating Among Older Adults Living with Serious Mental Illness: A Qualitative Analysis.* Community Mental Health Journal, online 2026-11-19. [DOI／出版者全文](https://doi.org/10.1007/s10597-026-01747-x)；全文聲明CC BY 4.0。\n- PDF SHA256 `9ff3cad6d7cc6f9f3049cff9fcd5a29577d77f17916cc8f3c22c4e88baaa87b5`；文字SHA256 `2cfaa7260ed9d2723a0813aafa1aee4c4a8771f54c5d3af5a87e405fab456190`。\n- focused-quick未做期刊排名、作者履歷、廣泛引文驗證或引用影響分析；未取得受訪者原始資料。",
+      "cards": [],
+      "completedAt": "2026-11-24T06:31:30.745Z"
     }
   ]
 }
