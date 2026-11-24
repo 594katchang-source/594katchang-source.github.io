@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T08:58:18.907Z",
+  "generatedAt": "2026-11-24T09:01:27.434Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -119468,6 +119468,79 @@
       "content": "---\ntags:\n  - source/journal\ncitekey: \"Alaofe2026OSanDiabe\"\ndoi: \"10.3389/fnut.2026.1954177\"\njournal: \"Frontiers in Nutrition\"\nyear: 2026\nauthors: \"Halimatou Alaofè; Yasmine Degbelo; Edward John Bedrick; Alfred Acakpo; Lionel Medenou; John Ehiri\"\nstudy_type: \"Single-arm mixed-method feasibility study\"\nreview_depth: \"quick\"\nmode: \"focused-quick\"\n---\n\n> [!info] 品質快照\n> **設計／n**：貝南都市門診36名第二型糖尿病成人，12週單組前後可行性與混合方法研究，30人完成追蹤；不是RCT。\n> **偏差**：作為療效估計有極高疑慮：沒有對照、原Phase Ib受試者再招募、完整案例和自報；兩項基線表格標準差與子集數學不相容，需作者澄清。\n> **GRADE**：沒有可估計的對照介入效果，不能給HbA1c療效GRADE；單組變化不是治療效果。Registration：本文未提供本階段明確登錄號；另一項同名後續隨機試驗不可直接視為此研究登錄。\n> **一句話verdict**：提供特定既有參與者中執行與滿意度資訊，但不能證明介入降低HbA1c、已具成本效益或適用所有病人。\n\n# Key Points\n\n## Summary\n\n> ✅ Full text reviewed：讀完13頁、Tables 1–3、Figures 1–2與49筆書目；PDF p1／7／9／13目視。補充檔未另下載、參考文獻未逐篇查原文；官方方案文章以網頁核對時序及計畫內容。\n\n- 42人篩檢、36人納入（36/42=85.7%），30/36完成12週追蹤（83.3%）；受試者皆來自先前Phase Ib，且有交通補助及小額誘因。（§2.2、3.1）\n- 34人參與團體課，出席平均7.2/8；原文未明確說明平均出席是否將2名未參加者計入，不能自動當36人平均。（§3.1）\n- 30名完成追蹤者滿意度平均4.87/5，不能當全部36人滿意；各項自報與受益者選擇偏差要注意。（§3.3、Table 2）\n- 30人配對HbA1c 7.53→6.95%，平均變化−0.58百分點（95% CI −1.12至−0.04）；無對照，不能歸因介入；Wilcoxon p=.0403不是平均差的檢定。（§2.6、3.6、Table 3）\n- Table 1完整36人HbA1c 7.67±0.64、腰圍95.81±7.81，Table 3稱相同基線30人子集7.53±1.74及95.60±10.95；兩項變異在所述子集與SD假設下不可能相容，原因不明。（p7、9）\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> **問題**：在貝南，結合當地食材與家庭支持的營養照護能否實際執行？\n> **做法**：36名先前參與方案設計的人接受12週、2次個別及8次團體課，30人完成追蹤。\n> **結果**：受訪完成者滿意，參與及執行指標大致達作者設定門檻；血糖與行為有前後變化。\n> **限制**：沒有對照組，先前參與者可能較有動機；血糖及腰圍基線表格存在需釐清的不一致。\n> **怎麼用**：可借鑑當地化飲食、份量工具和家庭／同儕支持的設計，但是否有效及成本可負擔仍需對照試驗。\n\n## 全文結構與逐段閱讀地圖\n\n|位置|內容|\n|---|---|\n|§1 p2|當地糖尿病營養照護與文化適配背景，ORBIT Phase IIa目標。|\n|§2.1–2.3 p2–4|單組設計、先前Phase Ib招募、家庭支持資格、兩次個別及八次團體課與文化適配。|\n|§2.4–2.6 p4–5|可行性門檻、滿意度、探索性結果、訪談及完整配對統計。|\n|§3.1–3.3 p5–8／Fig.2、Tables 1–2|招募、流失、出席、人口資料與完成者滿意度。|\n|§3.4–3.7 p7–10／Table 3|知識、活動、自我效能、臨床指標前後變化及五個質性主題。|\n|§4–5 p10–12|作者承認無對照、樣本選擇、短追蹤及未測成本等界線。|\n|p12–13|倫理、資助、利益與49筆書目；未逐篇查核。|\n\n## Clinical Application\n\n在類似環境設計糖尿病照護，可參考本研究如何使用當地食物、家庭份量工具、低識字圖像、個別目標與同儕支持；落地仍須考慮台灣可用人力、成本、文化與個人治療需求。此單組研究未證明上述元素或整套課程造成血糖改善，也未評估成本效益；不可把−0.58百分點當成介入療效或臨床處方。\n\n# Paper Details\n\n## Methods\n\n來自Phase Ib的52人中42人受聯絡與篩檢，36入組；40–65歲、糖尿病至少1年、HbA1c≥7%、有家庭支持者，排除嚴重併發症等。12週包含2次45–60分鐘居家營養諮詢及8次90–120分鐘社區團體課，6名營養專業人員執行，搭配當地食物、家庭用品份量、圖卡、家人、WhatsApp與交通補助。（§2.2–2.3）\n\n主要為招募、留存、出席、忠實度及滿意；次要探索糖尿病知識、飲食品質、活動、自我效能、血壓及HbA1c。僅完整配對30人分析，不補缺失；連續結果Wilcoxon、二元結果exact McNemar，探索性多重檢定未校正。（§2.4–2.6）\n\n## Critical Appraisal\n\n採無對照前後介入的ROBINS-I核心領域作結構化判讀；對療效比較不能把此設計當隨機試驗，對可行性則描述其自身樣本的指標。\n\n|面向|判斷|理由|\n|---|---|---|\n|混雜及時間趨勢|🔴極嚴重|無對照，回歸平均、其他照護、時間因素無法排除；不能辨識介入效果。|\n|選擇|🔴嚴重|僅既有Phase Ib人士、有家庭支持及門診招募，可能更熟悉、更有動機；交通誘因影響參與，不能推及一般患者。|\n|介入描述與執行|🟡部分清楚|2次個別、8次團體、培訓、材料與忠實度>85%有描述；忠實度分母與獨立核查細節有限。|\n|缺失|🟡疑慮|30/36追蹤，完整案例未補值；6人原因與工作／交通／旅行有關，結果可能非隨機缺失。|\n|結果測量|🔴疑慮|多項行為與滿意度自報；HbA1c及腰圍兩個基線表格標準差不相容，需澄清。|\n|選擇報告|🟡疑慮|多個探索次要結果未校正；作者說預設門檻，但所引公開方案較實際2024招募晚，且門檻／樣本數與本篇不同，無法由公開方案獨立證實預設。|\n\n### 主要數字及分母\n\n|面向|作者報告|界線|\n|---|---|---|\n|招募|36/42=85.7%（95% CI 71.5–94.6%）|分母為所有被篩檢者；其中2人不符合資格，不能稱36/42均為合格者。|\n|留存|30/36=83.3%（65.3–94.4%）|6人未完成，滿意度及配對結果只代表完成者。|\n|團課出席|平均7.2/8，作者稱90%|34/36有參加團課，平均是否含2位未參加者未明。|\n|忠實度|大於85%，門檻80%|依檢核表／觀察／紀錄；更精確分母及獨立性未明。|\n|滿意度|30完成者平均4.87±0.35/5|不是全36人；社會期許、受邀背景可能影響。|\n|HbA1c|30人7.53±1.74→6.95±1.17，平均差−0.58（95% CI −1.12至−0.04）|非對照效果；Wilcoxon p=.0403不檢定所報平均差；原基線變異與Table 1矛盾。|\n\n**基線變異矛盾的算術**：Table 1完整n=36 HbA1c SD=.64，總離均差平方和為35×.64²=14.336；Table 3明稱配對n=30為其基線子集，SD=1.74，子集內平方和為29×1.74²=87.8004。子集內平方和不能大於母集合總平方和；四捨五入不足解釋。腰圍同理，35×7.81²=2134.86，小於29×10.95²=3477.17。此判斷以兩表確為同一組基線且均為SD為前提；原文表註如此描述。原因可能為報表或其他未說明差異，不能自行改數據或指控造假。原PDF p7、p9與獨立算術收據保留。\n\n**公開方案與時序**：作者引用的[ORBIT方案](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1688980/full)於2026-03-06公開，描述Phase IIa未來進行、30人及指標>75%；本篇稱2024-09至10月招募、36人，並稱≥80%招募／留存、≥75%出席、≥80%忠實度與≥4滿意為預設門檻。公開方案晚於本篇招募且內容不同，不能獨立證實此版門檻在資料收集前已固定；可能另有未公開版本，尚未取得。另一項NCT07145684描述後續隨機試驗，不能直接當本單組研究的登錄。（§2.2、2.4）\n\n**因果與精度**：HbA1c前後信賴區間描述完成者配對變化，不提供與常規照護的差異。基線高值納入、其他治療、季節與選擇都可影響變化；未提供足夠資訊消除這些可能。無對照效果與可信精度，不計NNT或給療效GRADE；單一測量不足判定長期維持。研究未做成本／成本效益分析。（§2.6、4.2）\n\n**質性資料**：作者描述兩位研究者反身性主題分析，主題包括文化相關、同儕支持、自信、參與障礙與執行忠實度；未說明充分的非完成者回饋，不能把完成者滿意度等同所有人接受度。（§2.5、3.7）\n\n**資助／COI**：NIH Fogarty K01TW012422資助，作者稱無商業財務衝突；作者聲稱未使用生成式AI寫稿，圖像替代文字由期刊使用AI輔助。（p12）\n\n## Key Findings\n\n研究提供具有家庭與當地食物脈絡的可行性線索，適合用來設計後續對照試驗；基線表格不一致及方案時序須釐清，不能直接轉成降糖療效。\n\n# Resource\n\n## Source\n\n- Alaofè H et al. Front Nutr. 2026;13:1954177. [出版者全文](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1954177/full)／[DOI](https://doi.org/10.3389/fnut.2026.1954177)，PMID43017135，CC BY。\n- PDF SHA256 `ae6861207a405dd77de6484198a476af73cb5231b84edf74b8ce3001f4a89adc`；文字SHA256 `e83fffe91f4595843892d43eb48b52b0f47a481b95139b540eafb46c55e668c4`。\n- quick模式未逐篇核對49筆引用或重算個體資料；前述公開方案以出版社原頁核對，未取得可能更早的內部方案。",
       "cards": [],
       "completedAt": "2026-11-24T08:57:47.435Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1954177:digest",
+      "paperId": "doi:10.3389/fnut.2026.1954177",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Feasibility and acceptability of a culturally adapted medical nutrition therapy intervention for adults with type 2 diabetes in Benin: a single-arm mixed-method study.",
+      "authors": "Alaofè H, Degbelo Y, Bedrick E, Acakpo A, Medenou L, Ehiri J",
+      "journal": "Frontiers in Nutrition",
+      "year": "2026",
+      "doi": "10.3389/fnut.2026.1954177",
+      "abstract": "Medical nutrition therapy (MNT) is a cornerstone of type 2 diabetes (T2D) management, but access to culturally appropriate nutrition care remains limited in many low-resource settings. We evaluated the feasibility and acceptability of OSanDiaBé, a culturally adapted MNT intervention for adults with T2D in Cotonou, Benin, West Africa. Guided by the Obesity-Related Behavioral Intervention Trials (ORBIT) framework, we conducted an ORBIT Phase IIa single-arm, pre-post mixed-methods feasibility study among adults aged 40-65 years with T2D. The intervention combined two individualized nutrition counseling sessions with eight group sessions delivered by trained dietitians and nutritionists in community settings over 12 weeks. Primary outcomes were recruitment, retention, attendance, intervention fidelity, and acceptability. Secondary exploratory outcomes included diabetes knowledge, diet quality, physical activity, diabetes self-efficacy, anthropometry, blood pressure, and glycated hemoglobin (HbA1c). Quantitative data were analyzed descriptively and using paired comparisons, while qualitative data were analyzed using reflexive thematic analysis. Among 42 adults screened, 36 were enrolled (85.7%), and 30 completed the 12-week follow-up (83.3% retention). Mean attendance was 7.2 of 8 group sessions, and intervention fidelity exceeded 85%. The prespecified acceptability progression criterion was met, with a mean overall satisfaction rating of 4.87 ± 0.35, exceeding the prespecified threshold of ≥4.0. Exploratory improvements were observed in overall diabetes knowledge (50.0-83.3%), diet quality (+9.29 points), regular physical activity participation (26.7-86.7%), and diabetes self-efficacy (+15.45 points). Mean HbA1c decreased by 0.58 percentage points (95% CI -1.12 to -0.04), with modest reductions also observed in body weight and body mass index. Qualitative findings identified culturally tailored educational materials, practical tools, peer support, and community-based delivery as important factors supporting participant engagement and intervention acceptability. OSanDiaBé was feasible to implement and highly acceptable among adults with T2D in urban Benin. These findings support progression to a pilot randomized controlled trial to further evaluate the intervention and generate preliminary estimates to inform subsequent effectiveness, implementation, economic, and scalability research.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1954177/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43017135/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "design:randomized controlled",
+        "dietitian clinical nutrition",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "貝南糖尿病文化適配營養照護：全文整理",
+      "content": "---\ntags:\n  - research/digest\ncitekey: \"Alaofe2026OSanDiabe\"\ndoi: \"10.3389/fnut.2026.1954177\"\njournal: \"Frontiers in Nutrition\"\nyear: 2026\nstudy_type: \"Single-arm mixed-method feasibility study\"\nmode: \"worker-batch\"\n---\n\n> [!summary] 30秒層：貝南一項文化適配糖尿病營養照護在既有參與者中顯示可執行性，但沒有對照療效證據。\n> - 42人篩檢、36人納入、30人完成12週；兩次個別及八次團體課。\n> - 完成者滿意度4.87/5；平均團課7.2/8，平均分母是否含未出席者未明。\n> - 30人HbA1c平均前後−0.58百分點，無對照不能歸因介入。\n> - 兩表HbA1c及腰圍基線標準差與其子集的數學關係不相容，原因待釐清。\n> 品質 → 見同篇獨立評讀。\n\n## 5分鐘層：掌握研究全貌\n**要點**：研究焦點是可行性，不是確認降糖效果。\n\n1. Phase IIa在Cotonou招募曾參與前期方案設計、40–65歲且有家庭支持的T2D成人。\n2. 12週結合兩次45–60分鐘個別諮詢、八次90–120分鐘團課、當地飲食示例、家人與同儕支持。\n3. 36/42篩檢者入組、30/36完成；完成者的滿意度及參與結果不能直接代表所有患者。\n4. 知識、飲食品質與HbA1c出現前後變化，但無對照，可能受其他因素及選擇影響。\n5. 原文兩組基線表格標準差數學不相容；公開方案晚於研究招募且部分數值不同，不能獨立確認門檻是否預先固定。\n\n## 完整層／研究問題與全文地圖\n**要點**：從文化適配與研究方法到可行性、前後變化及限制。\n\n§1背景（p2）；§2設計、招募、介入與測量（p2–5）；§3招募、滿意、行為、臨床及質性結果（p5–10）；§4–5詮釋、限制與結論（p10–12）；資助與書目（p12–13）。全文13頁、3表2圖、49筆書目已讀，PDF p1／7／9／13目視；未下載補充檔或逐篇核對引用。（全文）\n\n## 方法：誰參加與課程內容\n**要點**：先前Phase Ib受試者、有家庭支持，限制結果外推。\n\n42名篩檢者中36納入；40–65歲、T2D至少1年、HbA1c≥7%，且須有家庭支持。嚴重認知障礙、晚期併發症等排除；36人平均年齡50.4歲，女性20人。研究不是從所有貝南糖尿病人口隨機抽樣。（§2.2、3.1–3.2）\n\n兩次45–60分鐘家中個別諮詢，八次90–120分鐘社區團體課，由6位受訓營養專業人員帶領。內容包括當地常見食物及傳統餐食、家庭餐具或手估份量、可負擔食譜、圖像教材、家庭／同儕支持及WhatsApp；參與者獲交通補助與小額誘因。（§2.3）\n\n## 可行性與接受度\n**要點**：報告顯示此特定樣本可以執行課程，但分母與選樣必須說清楚。\n\n|指標|作者報告|閱讀界線|\n|---|---|---|\n|篩檢與納入|36/42=85.7%，95% CI 71.5–94.6%|分母是被篩檢者，含2名不符合資格者。|\n|12週留存|30/36=83.3%，95% CI 65.3–94.4%|6人未完成，原因包括工作、交通或旅行。|\n|團課|34人參與；平均7.2/8，作者稱90%|平均是否包含2名沒參加者未明。|\n|忠實度|大於85%|檢核表、觀察及紀錄；更細分母和獨立性不明。|\n|滿意|30名完成者平均4.87±0.35/5|未取得6名未完成者同等評分；不能代表全體。|\n\n資料：§2.4、3.1–3.3、Table 2、Fig.2。作者說達預定門檻，但可公開核對的方案晚於研究招募且門檻不同，預設狀態未能獨立核實。\n\n## 探索性前後變化\n**要點**：以下是30名有配對資料者的變化，並非與常規照護比較的效果。\n\n|指標|基線→12週|作者報告的前後變化|\n|---|---|---|\n|飲食品質|69.07±8.52→78.36±10.03|+9.29分，95% CI 5.93–12.65。|\n|自我效能|50.34±11.65→65.79±7.32|+15.45分，95% CI 11.38–19.52。|\n|規律活動自報|8/30→26/30|+60百分點。|\n|體重|79.04±12.88→78.25±12.80 kg|作者報−0.80 kg，95% CI −1.58至−0.02。|\n|HbA1c|7.53±1.74→6.95±1.17%|−0.58百分點，95% CI −1.12至−0.04。|\n\nTable 3的連續變數p值是Wilcoxon符號等級檢定，不能直接當所報平均差的檢定；多個探索結果未校正，無對照、短追蹤及自報均限制解讀。（§2.6、3.4–3.6、Table 3）\n\n## 原表一致性與方案時序\n**要點**：需保留兩項數學矛盾，不能自行改數字。\n\nTable 1完整36人基線HbA1c SD=.64，Table 3稱同一基線的30人配對子集SD=1.74；按樣本SD，完整平方和35×.64²=14.336，子集內即29×1.74²=87.8004，子集不可能超過母集合。腰圍亦然：完整35×7.81²=2134.86，小於子集29×10.95²=3477.17。若兩表是同一基線與SD，如表註所述，無法同時成立；原因不明，不指控造假。（p7、p9、Tables 1、3）\n\n[作者公開方案](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1688980/full)2026-03-06發表，描述IIa將進行、目標30人及指標>75%；本篇稱2024年招募、36人與不同門檻。可能有未公開較早方案，但未取得，不能獨立驗證當初預設條件。不同的後續RCT登錄不自動代表本單組研究。（§2.2、2.4）\n\n## 質性主題與重要圖表\n**要點**：參與者重視在地實用性、同儕支持，也提到交通與時間等困難。\n\n五主題為文化與實用性、同儕凝聚、自我管理信心、執行障礙及忠實度觀察；研究者以反身性主題分析整合受訪者與帶領者回饋。Fig.1呈介入結構、Fig.2呈招募與流向；Table 1為36人基線、Table 2為30完成者滿意、Table 3為30人配對結果。（§3.7、Figures 1–2、Tables 1–3）\n\n## 臨床意義／怎麼用\n**要點**：可參考文化適配的設計元素，療效與成本仍待對照評估。\n\n依個人需求、在地食物與家庭條件設計諮詢、視覺教材與同儕活動是可探索方向；本篇未證明這些元素降低HbA1c，也未量家庭支出或成本效益。台灣的資源與人力需另行評估。（§4.1–4.2）\n\n## 與既有認知的對照\n**要點**：本次沒有可核對的知識庫搜尋結果。\n\n未執行vault搜尋，不宣稱既有筆記不存在。\n\n## 概念／名詞整理\n**要點**：可行性、滿意度與療效回答不同問題。\n\n- **可行性**：在給定情境能否招募、留存、執行及追蹤，不等於療效。（§2.4）\n- **完整配對分析**：只分析同時有基線與追蹤資料者，未完成者不在結果中。（§2.6）\n- **反身性主題分析**：研究者透過反覆編碼與反思整理參與經驗，不是測得因果效果。（§2.5）\n- **時間趨勢／回歸平均**：沒有對照組時可能影響前後結果，不能歸因方案。（§4.2）\n\n## 自我測驗\n**要點**：將實施指標和對照療效分清楚。\n\n> [!question]- Q1：36/42代表什麼，能否稱所有合格者招募率？\n> 是篩檢者中納入比例；42人包括2名不符合資格者，分母要明示。（§3.1）\n\n> [!question]- Q2：HbA1c平均下降0.58百分點是否證明介入效果？\n> 不能；這是30人的單組前後變化，沒有對照且原表基線變異有矛盾。（§3.6、Table 3）\n\n> [!question]- Q3：為什麼4.87/5不能代表全部36人的滿意度？\n> 該分數來自30名完成追蹤者；未完成者可能有不同經驗。（Table 2）\n\n> [!question]- Q4：此研究文化適配有哪些具體例子？\n> 當地常見食物、家庭用品估份量、低識字圖像、家庭與同儕支持等。（§2.3）\n\n> [!question]- Q5：為何公開方案不能單獨證實本次門檻預先固定？\n> 方案2026年公開、描述IIa將進行，本篇則稱2024招募且樣本與部分門檻不同；可能另有未公開早期版本。（方案§2.3、本篇§2.2、2.4）\n\n## Reference\n**要點**：本文、公開方案及原頁表格可供核對。\n\nAlaofè H et al. Front Nutr. 2026;13:1954177. [出版者全文](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1954177/full)／[DOI](https://doi.org/10.3389/fnut.2026.1954177)。PDF SHA256 `ae6861207a405dd77de6484198a476af73cb5231b84edf74b8ce3001f4a89adc`；文字SHA256 `e83fffe91f4595843892d43eb48b52b0f47a481b95139b540eafb46c55e668c4`。",
+      "cards": [
+        {
+          "title": "篩檢與合格分母",
+          "question": "36/42是什麼比例，可否稱所有合格者招募率？",
+          "answer": "是篩檢者中入組比例；42包含2位不符合資格者，分母須明示。",
+          "tags": [
+            "可行性",
+            "分母"
+          ]
+        },
+        {
+          "title": "前後變化與療效",
+          "question": "HbA1c前後下降0.58百分點是否證明介入療效？",
+          "answer": "不能，這是30人的單組前後變化，無對照且原表基線標準差有矛盾。",
+          "tags": [
+            "單組",
+            "因果"
+          ]
+        },
+        {
+          "title": "完成者滿意度",
+          "question": "4.87分滿意度是否代表全部36名參與者？",
+          "answer": "不是，評分來自完成追蹤的30人；未完成者可能有不同經驗。",
+          "tags": [
+            "滿意度",
+            "失訪"
+          ]
+        },
+        {
+          "title": "文化適配",
+          "question": "課程如何考量當地生活？",
+          "answer": "使用當地食材、家庭餐具估份量、圖像教材、家人和同儕支持，並考量可負擔性。",
+          "tags": [
+            "營養照護",
+            "文化"
+          ]
+        },
+        {
+          "title": "方案時序",
+          "question": "為何2026公開方案不能單獨證實2024研究門檻已預先固定？",
+          "answer": "公開方案晚於本篇招募且樣本及門檻不同；可能有未公開較早版本但目前未取得。",
+          "tags": [
+            "方案",
+            "研究透明度"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-24T09:00:46.893Z"
     }
   ]
 }
