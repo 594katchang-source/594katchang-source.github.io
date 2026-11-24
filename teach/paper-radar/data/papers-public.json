@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T08:44:45.458Z",
+  "generatedAt": "2026-11-24T08:47:28.000Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -119370,6 +119370,77 @@
       "content": "---\ntags:\n  - source/journal\ncitekey: \"Stahl2026Beans\"\ndoi: \"10.3390/nu18213553\"\njournal: \"Nutrients\"\nyear: 2026\nauthors: \"Alicia Stahl; Alyssa Chapleau; Sana Tasawar; Safa Shahid; Niels J Maywald; Nanette Stroebele-Benschop; Iris Joye; Dalia El Khoury\"\nstudy_type: \"Cross-sectional online survey\"\nreview_depth: \"quick\"\nmode: \"focused-quick\"\n---\n\n> [!info] 品質快照\n> **設計／n**：加拿大線上橫斷面問卷，528名自報乳糜瀉或非乳糜瀉麩質敏感成人；非介入研究。\n> **偏差**：自願網路招募、診斷與飲食自報、未正式驗證的頻率分數及缺失使選擇與測量偏差值得高度注意；分析只能描述關聯。\n> **GRADE**：本篇主要是描述及橫斷面關聯，沒有治療效果可做介入效果GRADE；不套用整體治療確定性。Registration：未報問卷預註冊，不憑此判為造假。\n> **一句話verdict**：問卷提供豆類使用與資訊需求線索，但不能證明教育會提高攝取，亦不代表所有加拿大患者。\n\n# Key Points\n\n## Summary\n\n> ✅ Full text reviewed：讀完22頁、Tables 1–2、Figures 1–6及46筆書目；原PDF第1／11／22頁目視核對。附表S1／S2未另下載，不聲稱重算完整模型或逐篇查核引用。\n\n- 565人參與，排除37後528完成：自報乳糜瀉490、非乳糜瀉麩質敏感38。女性443/485有效回應者（91.3%），不可把分母當全部528。（§3.1、Table 1）\n- 每日乾豆0.9%、罐豆0.4%，是兩個各自頻率題，不能相加稱每日任何豆類比例；頻率分數不是克數或份量。（§2.3、3.4）\n- 74.9%營養價值動機以471名至少報一項動機者為分母；40.2%長時間烹煮障礙以465名至少報一項障礙者為分母。（§3.4、Fig.3）\n- 自報診斷時缺鐵性貧血69%以419名至少報一項缺乏者為分母，不是全體528人的盛行率；症狀72.2%疲倦分母496。（Fig.2）\n- Model B完整資料415人；準備信心B=.246（95% CI .146–.345）和學習興趣B=.303（.176–.431）為調整後分數關聯，不是教育的因果效果。（§3.7）\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> **問題**：對需要無麩質飲食的成人，豆類有哪些吸引力與實際困難？\n> **做法**：透過線上問卷詢問診斷、飲食頻率、知識信心和動機障礙，沒有安排豆類或教學介入。\n> **發現**：不少人提到營養價值，也有人擔心烹調耗時、腸胃不適與交叉污染；較有準備信心的人在同一次調查也較常吃。\n> **限制**：同時測量、網路志願樣本及自報資料，不能知道先後或推到所有患者。\n> **怎麼用**：可依個人情況討論準備方式、耐受與避免污染，但是否能因教學而改善需試驗驗證。\n\n## 全文結構與逐段閱讀地圖\n\n|位置|內容|\n|---|---|\n|§1 p2–3|麩質相關疾病與飲食背景、豆類研究缺口。|\n|§2.1–2.3 p3–5|線上問卷、專家預審、頻率分數、兩個迴歸與敏感度分析。|\n|§3.1–3.3 p5–9|招募與人口特徵、自報診斷／症狀與飲食；Fig.1–2。|\n|§3.4–3.6 p9–12|乾豆與罐豆頻率、動機障礙、知識信心與資訊需求；Fig.3–4、Table 2。|\n|§3.7 p13–15|Model A/B、估計及探索比較；Fig.5–6；補充表與圖。|\n|§4–6 p16–20|作者詮釋、臨床建議、限制、結論及聲明。|\n|p20–22|46筆書目，未逐篇驗證。|\n\n## Clinical Application\n\n在個別營養會談中可詢問食物取得、烹調時間、豆類耐受、個人喜好及加工／儲存／烹調過程的麩質交叉污染疑慮；自然無麩質不等於每件加工品都沒有污染。根據本人診斷、標示與專業評估做選擇，不由此問卷開立豆類劑量或認定一定耐受。教育與食用後果需前瞻介入驗證；加拿大制度及自願標示現況不直接等同台灣。（§3.4、4、5）\n\n# Paper Details\n\n## Methods\n\n成人英文線上匿名調查，與Celiac Canada合作；自報CD或NCGS，診斷未獨立確認。565參與，1未同意、11未報符合診斷、25未完成，528納入。問卷經8位專家及20名研究生預審，但分數的心理計量性質未正式評估。（§2.1–2.2、3.1、5）\n\n乾豆與罐豆分別以從未1到每日6編碼，相加2–12，2–4低、5–6中、7–12高；所謂相對攝取百分比是分數線性換算，不是實際攝入量、熱量百分比或達標率。Model A（n389）納20項障礙／動機及人口調整；Model B（n415）納動機障礙數、興趣、知識信心與飲食頻率，均用HC3穩健標準誤及完整案例。（§2.3）\n\n## Critical Appraisal\n\n以橫斷面觀察研究的選擇、測量、混雜及統計面向作NOS精神的結構化判讀；不是介入ROBINS-I或RCT RoB 2。\n\n|面向|判讀|原因|\n|---|---|---|\n|選擇與代表性|🔴高疑慮|CCA與學術網路、自願上網、僅英文；有效回答者女性91.3%、高教育和高收入較多，無全體目標母體回應率。|\n|診斷及暴露測量|🟡疑慮|診斷、頻率、信心及症狀均自報；問卷預審但頻率分數及切點未正式驗證，未含豆製麵食等。|\n|混雜／時序|🔴高疑慮|同時測得知識信心與攝取，可能反向因果或共同原因；雖調人口資料，健康意識、耐受與飲食習慣等殘餘混雜仍可能。|\n|缺失與分析|🟡疑慮|528整體而Model A 389、B 415完整案例；未答不能等同沒有障礙。HC3與敏感度分析有助，但缺失不一定隨機。|\n|多重比較與模型|🟡疑慮|Model A 20項BH調整後均q≥.062；Model B序位敏感度方向一致但比例勝算假設Brant p=.010，不能視為完全驗證。|\n\n各百分比分母須跟隨原題：症狀496、缺乏419、動機471、障礙465，非總樣本盛行率。Table 1稱白人459/500且91.4%，但459÷500=91.8%，原表百分比不一致，未改作者數據。§3.4列315人動機多於障礙，§4.4寫328，彼此不一致；採明示位置並不自行推測正確數。其他各項可複選不宜加總。（Fig.2–3、Table 1、§3.4、4.4）\n\nModel A名目顯著的胃腸不適B=−.403、95% CI −.701至−.104等，20項調整後均未達顯著；不能只引用未校正p。Model B調整後準備信心B=.246（.146至.345），學習興趣B=.303（.176至.431）；這是1級問卷變化對2–12分的關聯，非份數／天差異或教育產生的增量。無臨床MCID、前後資料或介入效果，不能算NNT。24高影響點與1高槓桿點排除後作者稱方向相似，不能消除選擇、反向因果或未測量混雜。（§2.3、3.7）\n\n作者提出烹調教育可能提高攝取，合理作為未來試驗假說；本研究未測教學成效。argdown_lint實跑標示association_to_causation；不是對作者所有結論的否定。（§4–6）\n\n**資助／COI**：Guelph大學研究補助072065，作者宣稱無利益衝突；資料因隱私需向作者申請，未獨立重算。（p20）\n\n## Key Findings\n\n對話可從準備時間、喜好、腸胃耐受及污染疑慮開始；實務上有啟發，但本篇不能確立介入效益、患者母體比例或個人營養處方。\n\n# Resource\n\n## Source\n\n- Stahl A et al. Nutrients. 2026;18:3553. [出版者全文](https://www.mdpi.com/2072-6643/18/21/3553)／[DOI](https://doi.org/10.3390/nu18213553)，CC BY。\n- PDF SHA256 `9f840161f5d473e8c64261ff12162f30baa496882adb2c8bb5b52de9a81468d1`；文字SHA256 `cda2cc8c512ec86c4e87ab65f78c071b4b47ef4d63927027599f9c8918c4bd9f`。\n- focused-quick未作作者履歷、期刊排名、廣泛引文語意核對或補充表獨立重算。",
       "cards": [],
       "completedAt": "2026-11-24T08:44:15.619Z"
+    },
+    {
+      "id": "doi:10.3390/nu18213553:digest",
+      "paperId": "doi:10.3390/nu18213553",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Exploring Knowledge and Consumption of Beans Among Adults with Gluten-Related Disorders-A Cross Sectional Study in Canada.",
+      "authors": "Stahl A, Chapleau A, Tasawar S, Shahid S, Maywald N, Stroebele-Benschop N, Joye I, El Khoury D",
+      "journal": "Nutrients",
+      "year": "2026",
+      "doi": "10.3390/nu18213553",
+      "abstract": "Gluten-related disorders have been increasingly reported across all gender and age groups. In addition to their higher cost, gluten-free products are often higher in fat, sugar, and sodium. Despite the substantial nutritional benefits of beans, they remain insufficiently represented in gluten-free dietary patterns. In this study, our aim was to explore knowledge and consumption of beans among adults with gluten-related disorders, including celiac disease (CD) and non-celiac gluten sensitivity (NCGS). This study followed a cross-sectional, observational design. In collaboration with Celiac Canada, individuals with a diagnosis of CD or NCGS were recruited. Participants were asked to complete a Qualtrics-based questionnaire, exploring self-reported Diagnosis and Health Status, Eating Habits and Consumption of Beans, Knowledge, Determinants of Bean Consumption, Barriers and Drivers of Bean Consumption, and Demographics. Descriptive statistics as well as exploratory analyses and regression analyses were conducted, with statistical significance defined as p ≤ 0.05. A total of 528 participants, including 490 individuals with CD and 38 with NCGS, completed the survey. Several self-reported micronutrient deficiencies were mentioned at the time of diagnosis, with iron-deficiency anemia being the most prevalent (69.0%). In addition, the most frequently self-reported symptom was fatigue (72.2%), followed by flatulence and abdominal pain (71.2%). Most participants (96.4%) strongly agreed that following a gluten-free diet is essential for the management of their diagnosis. Although a high proportion of participants (88.6%) reported daily consumption of plant-based foods, only 0.9% of participants reported daily consumption of dry beans and 0.4% reported daily consumption of canned beans. The most frequently mentioned motivators were the nutritional value of beans (74.9%), whereas the most common barrier to bean consumption was the long cooking and soaking time (40.2%). In addition, potential cross-contamination with gluten was mentioned as another major concern to including beans in gluten-free diets. Despite participants' confidence in knowledge about beans and their nutritional value and health benefits, most participants (68.9%) agreed that knowing more about how to prepare beans would encourage them to consume them as part of their diets. Based on multivariable linear regression analysis, confidence in knowledge about bean preparation (p ≤ 0.001) and interest in learning more about them (p ≤ 0.001) were positively associated with increased bean consumption. Despite high interest in beans and strong confidence in bean-related knowledge among individuals with CD or NCGS, consumption remains relatively low. Educational resources focused on preparation, recipes, and gastrointestinal tolerance may help increase consumption. Future research should evaluate the tolerability and long-term health effects of bean consumption in CD and NCGS populations.",
+      "legalFullTextUrl": "https://doi.org/10.3390/nu18213553",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43030182/",
+      "category": "recommended",
+      "tags": [
+        "chronic disease nutrition",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "麩質相關疾病成人豆類攝取：全文整理",
+      "content": "---\ntags:\n  - research/digest\ncitekey: \"Stahl2026Beans\"\ndoi: \"10.3390/nu18213553\"\njournal: \"Nutrients\"\nyear: 2026\nstudy_type: \"Cross-sectional online survey\"\nmode: \"worker-batch\"\n---\n\n> [!summary] 30秒層：自報麩質相關疾病的問卷受訪者提到豆類營養價值，也面臨備餐時間和耐受等障礙。\n> - 線上樣本528人，490自報乳糜瀉、38自報非乳糜瀉麩質敏感；診斷未獨立核對。\n> - 乾豆與罐豆各自每日食用比例為0.9%及0.4%，不能直接相加。\n> - 在至少回答一項障礙者中，40.2%選烹煮／浸泡耗時；另有人關心腸胃不適及交叉污染。\n> - 準備信心與較高頻率分數有關，但問卷沒有測試教學是否造成改變。\n> 品質 → 見同篇獨立評讀。\n\n## 5分鐘層：掌握研究全貌\n**要點**：這是一次自報問卷，數字代表受訪者而非全部患者。\n\n1. Celiac Canada合作網路招募成人，565人參與，排除37後528人完成。\n2. 問卷問乾豆與罐豆頻率、飲食、知識信心、動機障礙與人口特徵；2項頻率合成2–12分。\n3. 營養價值是常見動機，耗時與不是習慣是常見障礙，也有人關心腸胃耐受和交叉污染。\n4. Model B中準備信心與學習興趣和較高頻率分數同時出現；無法判定因果先後。\n5. 試著把資訊需求轉成個人會談問題，但效果、最適份量與耐受仍需介入研究。\n\n## 完整層／研究問題與全文地圖\n**要點**：文章由問卷設計、描述結果、迴歸和討論組成。\n\n§1背景與缺口（p2–3）；§2問卷與統計（p3–5）；§3人口／症狀、飲食、頻率、障礙、知識及模型（p5–15）；§4討論（p16–19）；§5–6限制、結論與聲明（p19–20）；書目（p20–22）。已讀22頁、2表、6圖及46筆書目；原PDF p1／11／22目視，未逐篇核查引用或下載補充表重算。（全文）\n\n## 方法：對象、問卷與分數\n**要點**：診斷與飲食皆自報，頻率分數不是攝入克數。\n\n納入18歲以上、英文流利、自報乳糜瀉或非乳糜瀉麩質敏感者，網路匿名問卷經專家及研究生預審；最終528人，模型完整案例Model A 389人、Model B 415人。樣本多女性、白人及高教育者，不能直接代表患者母體。（§2.1–2.3、3.1）\n\n乾豆與罐豆各由從未1至每日6編碼，相加2–12；2–4低、5–6中、7–12高。相對消費百分比是該分數再轉換，不是份量、總熱量百分比或建議量達成率；研究未正式評估分數心理計量性質，也未納入部分豆製產品。（§2.3、5）\n\n## 主要發現：分母與豆類頻率\n**要點**：不同題目用不同有效回答分母，不能統統除以528。\n\n|題目|作者報告|適用分母或限制|\n|---|---|---|\n|診斷|乳糜瀉490、非乳糜瀉麩質敏感38|528名完成者，自報。|\n|每日乾豆／罐豆|0.9%／0.4%|兩個食物類型頻率，可能重疊，不可相加成任何豆類每日比例。|\n|低／中／高頻率分數|39.8%／47.9%／12.3%|依研究自訂2–12分分類，不是克數。|\n|疲倦／腹脹腹痛|72.2%／71.2%|496名至少報一項症狀者，可複選。|\n|診斷時缺鐵性貧血|69.0%|419名至少報一項缺乏者，自報，不是全部528人比例。|\n|營養價值動機|74.9%|471名至少選一項動機者。|\n|浸泡烹調耗時障礙|40.2%|465名至少選一項障礙者。|\n\n資料：§3.1–3.4、Fig.2–3。未回答與選擇沒有症狀／障礙不能可靠區分。（§2.3）\n\n## 動機、障礙與資訊需求\n**要點**：除了營養價值，實際烹調、耐受和安全選擇都是受訪者提到的議題。\n\n動機還包括素食選擇60.1%、成本52.4%；障礙還包括非飲食習慣38.7%、腸胃不適31.6%、不會烹調26.5%，各以相應至少一項回應者為分母。交叉污染為部分人的額外憂慮；本問卷並未量測食物中麩質。（§3.4、Fig.3）\n\n準備知識信心有56.7% somewhat／strongly agree（510個回答）；85.2%對豆類自然無麩質有信心（515個回答）。68.9%表示更多準備知識會鼓勵食用，但這是意向而非實際介入效果。偏好的資訊主題包括食譜、準備及腸胃不適。（§3.4–3.6、Table 2）\n\n## 關聯與統計界線\n**要點**：比較同一時間的自報信心和頻率，不知道哪個先發生。\n\nModel B完整案例415人，準備信心每升1級與豆類頻率分數高0.246分相關（95% CI 0.146–0.345），學習興趣為0.303分（0.176–0.431）；均為同一份問卷的調整後關聯，不能解讀為學做菜就一定增加這個分數。Model A的20項動機／障礙，BH校正後均q≥.062；未校正的個別p值屬探索性。（§2.3、3.7）\n\n作者報告序位回歸方向大致一致，但Brant檢定p=.010提示比例勝算可能不成立；高影響點敏感度分析不會消除選樣及時序限制。§3.4寫315人動機多於障礙，§4.4寫328，原文前後不一致，不擅自決定正確值。Table 1白人459/500卻標91.4%，算術為91.8%，保留原表差異。（§2.3、3.4、4.4、Table 1）\n\n## 重要圖表重述\n**要點**：圖表分別交代受試者、分母、動機與頻率關聯。\n\nFig.1受試流程；Fig.2症狀與自報缺乏；Fig.3動機／障礙；Fig.4資訊需求詞雲（頻率經log轉換）；Fig.5依興趣分組的相對頻率分數；Fig.6營養價值、腸胃不適與動機障礙分組比較。Table 1人口特徵、Table 2知識信心；附表S1／S2為迴歸，本文已引主要結果，未獨立重算。（§3、p5–15）\n\n## 臨床意義／怎麼用\n**要點**：問個人可行性和安全疑慮，比直接套用平均值更有幫助。\n\n可討論是否喜歡豆類、可用時間、腸胃耐受、份量及製備環境的麩質交叉污染；自然無麩質食材仍需看加工及接觸條件。本文沒有測教學效果或個別安全份量；加拿大標示制度不能直接視為台灣規定。（§3.4、4、5）\n\n## 與既有認知的對照\n**要點**：本次沒有可核對的知識庫搜尋結果。\n\n未執行vault搜尋，不宣稱既有筆記不存在。\n\n## 概念／名詞整理\n**要點**：自報、分數與因果效果各有不同意義。\n\n- **橫斷面問卷**：同一時點觀察特徵與行為，不能確立前後因果。（§2.1、5）\n- **完整案例**：分析只使用所需欄位完整者，若缺失與研究變項相關，仍可能有偏差。（§2.3）\n- **BH校正**：對一組多重檢定控制假發現率；本研究20個個別動機／障礙校正後均未達顯著。（§2.3、3.7）\n- **自報信心**：受訪者認為自己了解的程度，不等同客觀測驗成績。（Table 2）\n\n## 自我測驗\n**要點**：先辨認分母與研究設計，再解讀結論。\n\n> [!question]- Q1：自報缺鐵性貧血69%是全部528人的比例嗎？\n> 不是；分母是419名至少自報一種缺乏的受訪者。（Fig.2）\n\n> [!question]- Q2：乾豆0.9%及罐豆0.4%每日攝取可否相加成1.3%？\n> 不能；兩題可能由同一人重複報告，且是不同食物頻率。（§3.4）\n\n> [!question]- Q3：有準備信心者較常食豆，是否證明教學一定有效？\n> 不能；橫斷面同時測量，可能存在反向因果及共同因素，需介入研究。（§3.7、5）\n\n> [!question]- Q4：為何不能只報Model A單項名目p值？\n> 該模型20項多重比較經BH調整後均q≥.062；單項訊號應視為探索性。（§3.7）\n\n> [!question]- Q5：豆類自然無麩質是否保證所有製成品完全無污染？\n> 不保證；研究受訪者關心加工與處理的交叉污染，實際需核對產品及環境。（§3.4、4.2）\n\n## Reference\n**要點**：以身份匹配的全文與原表圖為依據。\n\nStahl A et al. Nutrients. 2026;18:3553. [出版者全文](https://www.mdpi.com/2072-6643/18/21/3553)／[DOI](https://doi.org/10.3390/nu18213553)。PDF SHA256 `9f840161f5d473e8c64261ff12162f30baa496882adb2c8bb5b52de9a81468d1`；文字SHA256 `cda2cc8c512ec86c4e87ab65f78c071b4b47ef4d63927027599f9c8918c4bd9f`。",
+      "cards": [
+        {
+          "title": "分母辨識",
+          "question": "自報缺鐵性貧血69%是全部528人的比例嗎？",
+          "answer": "不是，分母是419名至少自報一種缺乏者。",
+          "tags": [
+            "分母",
+            "問卷"
+          ]
+        },
+        {
+          "title": "頻率題不能相加",
+          "question": "乾豆每日0.9%和罐豆每日0.4%可直接相加嗎？",
+          "answer": "不可以，同一人可能同時在兩題作答，兩類可能重疊。",
+          "tags": [
+            "頻率",
+            "豆類"
+          ]
+        },
+        {
+          "title": "關聯與介入",
+          "question": "準備信心與攝取頻率相關，能證明教學會增加攝取嗎？",
+          "answer": "不能；橫斷面同時測量，可能反向因果或受共同因素影響。",
+          "tags": [
+            "橫斷面",
+            "因果"
+          ]
+        },
+        {
+          "title": "多重比較",
+          "question": "為何Model A的名目顯著結果要謹慎？",
+          "answer": "20項檢定BH調整後均q至少.062，單項訊號屬探索性。",
+          "tags": [
+            "多重比較",
+            "統計"
+          ]
+        },
+        {
+          "title": "自然無麩質與污染",
+          "question": "天然豆類無麩質是否保證任何豆製品都無交叉污染？",
+          "answer": "不保證，仍需依產品加工、處理環境與標示核對。",
+          "tags": [
+            "麩質",
+            "食品安全"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-24T08:46:59.107Z"
     }
   ]
 }
