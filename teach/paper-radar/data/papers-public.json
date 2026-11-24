@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T08:18:47.819Z",
+  "generatedAt": "2026-11-24T08:21:41.703Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -119276,6 +119276,75 @@
       "content": "---\ntags:\n  - source/journal\ncitekey: \"AlMalki2026Probiotics\"\ndoi: \"10.1097/MD.0000000000051573\"\njournal: \"Medicine\"\nyear: 2026\nauthors: \"Samira M AlMalki; Hanan A Alfawaz; Shaun Sabico; Abdullah M Alnaami; Noura M Alshiban; Syed D Hussain; Razi A Ibrahim; Nasser M Al-Daghri\"\nstudy_type: \"Randomized double-blind placebo-controlled trial\"\nreview_depth: \"quick\"\nmode: \"focused-quick\"\n---\n\n> [!info] 品質快照\n> **設計／n**：沙烏地阿拉伯單中心平行雙盲RCT，93名19–40歲、BMI 25–35成人；兩組均接受減熱量飲食建議，益生菌44、安慰劑49。\n> **偏差**：RoB 2整體高風險，主因追蹤流失37/93、兩組不均及LOCF；登錄與分析報告亦有限制。\n> **GRADE**：針對12週LPS組間變化，單試驗由High起，偏差及不精確各降1級，腳本算Low；不代表所有臨床結果或男性次組同等可信。\n> **Registration**：NCT05667038；官方首送2022-12-07、首登2022-12-28，實際開始2022-03-03，屬開始後登錄。登錄主要終點為腰圍，本文呈現生物標記，非本文已報腰圍療效。\n> **一句話verdict**：整體SOD與GPX1組內前後顯著不等於益生菌優於安慰劑；男性GPX1單一次組訊號只能作假說。\n\n# Key Points\n\n## Summary\n\n> ✅ Full text reviewed：身份匹配PMC完整HTML、Methods／Results／Discussion／Limitations、Tables 1–3及Figure 1；原流程圖圖片目視，正文首、中、末與表格核對。未逐一核驗參考文獻或取得原始資料重算模型。\n\n- 兩組皆接受每日減少300–500 kcal的個別化建議；每包3g含6株共30×10⁹ CFU，每日2包。每包與每日量要分開；這是研究操作不是個人處方。（§2.5）\n- 圖1：益生菌44人中3未接受介入，追蹤29；安慰劑49人追蹤27。共37/93未完成追蹤；LOCF填補，不等於完整實測結果。（§2.7、Fig.1）\n- Table 3整體時間×組別：LPS p=.56、SOD p=.56、GPX1 p=.21；益生菌組內SOD p=.02、GPX1 p=.01不能直接證明組間優勢。\n- 男性GPX1時間×組別p=.04是次組多重比較的探索訊號，未見效應差95% CI與臨床最小重要差異；不等於已證實臨床效益或性別交互作用。\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> **為什麼做**：研究者想了解多菌株益生菌加飲食建議，對超重成人血中內毒素和抗氧化相關指標有何影響。\n> **怎麼做**：93人分益生菌或外觀相同安慰劑，兩邊都獲飲食建議，追蹤12週。\n> **結果**：益生菌組某些指標前後變化有統計訊號，但安慰劑組也有變化；整體直接比較未顯著。\n> **要注意**：近四成人未完成追蹤，研究以最後觀測值補缺；男性次組發現可能受小樣本及多次分析影響。\n> **怎麼用**：不能憑此保證降內毒素、改善抗氧化臨床結局或降低心血管風險，也不能把結果推到其他菌株或族群。\n\n## 全文結構與逐段閱讀地圖\n\n|位置|內容|\n|---|---|\n|§1 Introduction|既有益生菌、氧化壓力及人群背景，提出沙烏地成人與性別差異研究問題。|\n|§2.1–2.4|單中心雙盲、招募資格、分層配對隨機及廠商編碼；登錄與倫理。|\n|§2.5–2.7／Fig.1|雙組減熱量、6菌株與安慰劑、血檢、腰圍樣本數計算、LOCF；流程圖列分配及退出。|\n|§3.1–3.3／Tables 1–3|人口及基線、全體與性別分層血液指標、組內和組間時間交互作用。|\n|§4 Discussion|作者解釋SOD／GPX1與機制、肝酵素及LPS，部分推論超過實測。|\n|§5–6／聲明|小樣本、飲食自報與流失限制；經費、產品提供與利益聲明。|\n|References|全文書目已掃讀，quick模式未逐篇核驗。|\n\n## Clinical Application\n\n本試驗只提供特定產品、飲食建議及12週生物標記資料。無臨床事件、體重或腰圍在本篇的組間效果可用以證明臨床利益；沒有嚴重不良事件報告不等於證明長期安全。對高齡、糖尿病、胃腸疾病、免疫功能受損者及其他菌株不可直接外推。營養照護宜依個人狀況討論，不以組內顯著替代安慰劑比較。\n\n# Paper Details\n\n## Methods\n\n114人篩選、排除21，93人隨機；益生菌44、安慰劑49。年齡19–40、BMI 25–35；排除糖尿病、部分重大疾病與消化系統疾病、抗生素／益生菌／益生元使用等。雙組飲食目標相同，3次非連續24小時回憶評估。（§2.2、2.5、Fig.1）\n\n每包3g含L. acidophilus BCMC12130、L. casei subsp. BCMC12313、L. lactis BCMC12451、B. bifidum BCMC02290、B. infantis BCMC02129、B. longum BCMC02120，標示每包合計30×10⁹ CFU，每天兩包；安慰劑相同載體但無活菌。研究未直接驗證個體腸道菌相機轉。（§2.5）\n\n依性別、年齡、BMI分塊配對，再由獨立藥局以Excel分配編碼；製造商盲碼並於結束後揭盲。37/93未完成追蹤，採LOCF；是否符合缺失隨機假設未證明。文中報重複量測ANOVA與Bonferroni，但未明確列全部校正家族、效應差及CI。（§2.3–2.7）\n\n## Critical Appraisal\n\n|RoB 2面向|判讀|理由|\n|---|---|---|\n|隨機化|一些疑慮|有獨立配對分配和盲碼，但Excel隨機序列生成、配置隱藏細節不完整；基線不顯著不能證明隨機完美。|\n|偏離預定介入|一些疑慮|產品外觀一致，兩組飲食監測相同；實際依從與共同介入落實細節有限。|\n|缺失結果|高風險|44人分配益生菌但僅29追蹤，49人分配安慰劑僅27追蹤；缺失與原因不平衡，LOCF不足以保證無偏。|\n|測量|一些疑慮|實驗室檢測較客觀但部分指標為log值；GPX1以ELISA定量，不能一律說測得酵素活性。|\n|選擇性報告|一些疑慮|登錄主要終點為腰圍，本文聚焦多個血液次要指標及性別分層；未取得完整預先分析計畫。|\n\n整體高風險由缺失資料驅動。登錄首送2022-12-07、首次公開2022-12-28，而登錄actual start 2022-03-03；作者把12月28日稱首次提交，與官方首送日期不同。這是開始後登錄；未憑此斷定造假或未經登錄。登錄列主要終點腰圍，本文未提供其結果；不因此單憑本文認定研究主要終點為陰性。[ClinicalTrials.gov官方資料](https://clinicaltrials.gov/study/NCT05667038)。\n\n### 結果與推論界線\n\n|指標|益生菌基線→12週|安慰劑基線→12週|時間×組別|\n|---|---|---|---|\n|LPS|2.89±0.51→2.94±0.41|2.84±0.43→2.93±0.39|p=.56|\n|SOD|0.06±0.10→0.19±0.29|0.11±0.14→0.19±0.31|p=.56|\n|GPX1|0.66±0.23→0.76±0.20|0.74±0.23→0.77±0.19|p=.21|\n\n以上取自Table 3的log-transformed mean±SD，不能把差值直接當原始單位的實際增量。研究未報相應組間效果差95% CI及MCID；不顯著不證明兩組等效，也不表示精確為零。男女分層男性GPX1交互p=.04，男性16對12、各端點多次比較；未提供治療×性別×時間的正式交互、精確差與CI，不能說男性確定比女性受益。作者討論男性GPX1組內p=.01，但Table 3及結果寫p=.03，應明示不一致，不擅自選值。\n\nFig.1追蹤：益生菌29/44、安慰劑27/49，兩組未完成15/44及22/49；研究稱37人withdraw，圖中3人為從未接受分配介入。兩組膨脹／腹瀉／絞痛的具體事件率未完整系統化，不能由「無顯著不良反應」推定無風險。基線Table 1高中益生菌組3人卻標260%，與3/44約6.8%不一致；不自行修正原表。\n\nLPS與酵素為替代指標，作者推及降低心血管風險及男性臨床受益，本文沒有測量臨床事件或驗證MCID；argdown_lint實跑標示surrogate_to_hard_endpoint及spin_secondary_or_subgroup。這是對作者推論的檢查，不代表已獨立驗證其他研究。機轉、延長時間才有效、腸道菌相改變均為假說。（§4–6）\n\n**GRADE**：本篇LPS組間變化由RCT High起，缺失與LOCF造成serious風險降1、單一小試驗且無CI／MCID造成serious不精確降1，grade_judge輸出Low。單一研究無法評估不一致或出版偏差，不擅加降級。對男性GPX1的多重次組訊號及心血管臨床結局不借用這個等級。\n\n**經費及利益**：作者報大學經費及無利益衝突；廠商提供產品與安慰劑，作者稱未參與設計、分析或發表決定。無原始數據，無法獨立驗證其分析。（文末聲明）\n\n## Key Findings\n\n雙盲及安慰劑對照有助控制期望影響，但大量不平衡流失與缺少組間效果精度限制可信度。正確閱讀應先看時間×組別，再看組內及次組；血中生物指標不能自動轉成臨床改善。\n\n# Resource\n\n## Source\n\n- AlMalki SM et al. Medicine. 2026;105(47):e51573. [PMC完整主文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13792661/)；[DOI](https://doi.org/10.1097/MD.0000000000051573)，PMID 43063067，CC BY-NC 4.0。\n- 全文HTML SHA256 `28ce649a20b916041a6f7cde5a47dc259bfcdbe9e78cda6e0a899707e4911d97`；Figure 1及試驗登錄核驗收據存原輪。\n- focused-quick未進行作者履歷、期刊排名、廣泛引文查核，未取得原始個體資料或預先統計計畫。",
       "cards": [],
       "completedAt": "2026-11-24T08:18:12.876Z"
+    },
+    {
+      "id": "doi:10.1097/md.0000000000051573:digest",
+      "paperId": "doi:10.1097/md.0000000000051573",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Effects of a 12-week multi-strain probiotics supplementation on circulating endotoxin and antioxidant enzymes among overweight/obese Saudi adults: Randomized, double-blind, placebo-controlled trial.",
+      "authors": "Samira M AlMalki, Hanan A Alfawaz, Shaun Sabico, Abdullah M Alnaami, Noura M Alshiban, Syed D Hussain, Razi A Ibrahim, Nasser M Al-Daghri",
+      "journal": "Medicine",
+      "year": "2026",
+      "doi": "10.1097/md.0000000000051573",
+      "abstract": "Several clinical trials have indicated the favorable effects of probiotics in lowering the risk of chronic diseases such as obesity; however, few of them have explored the potential in altering obesity-related biomarkers, and the present study aimed to fill this gap. A total of 93 overweight/obese adults (males and females, aged 19-40 years) were recruited at the clinical facility of King Saud University Medical City, Riyadh, Saudi Arabia, between March 2022 and January 2023 in a double-blind, placebo-controlled, randomized clinical trial. In this study, the subjects were randomly assigned to receive 30 × 109 colony-forming units HEXBIO® containing 3 Bifidobacterium and 3 Lactobacillus species (N = 44; 64% subjects) or a placebo containing the same excipients without the live bacterial strains (N = 49; 76% subjects); all subjects consumed the product twice daily for 3 months. At baseline, anthropometric measurements, the liver profile, and antioxidant enzymes did not differ significantly between the probiotic and placebo groups. Following the 12-week intervention, within-group analysis revealed significant increases in the levels of superoxide dismutase (0.06 ± 0.1 vs 0.19 ± 0.29 U/mL; P = .02) and glutathione peroxidase (GPX1; 0.66 ± 0.23 vs 0.76 ± 0.2; P = .01) among all probiotic-supplemented subjects. After stratification by sex, significant favorable changes in superoxide dismutase (0.03 ± 0.04 vs 0.29 ± 0.4; P = .05) and GPX1 (0.66 ± 0.26 vs 0.82 ± 0.18; P = .03) were observed only in the male probiotics group, and between-group comparisons showed a modest but clinically significant difference only in GPX1 in favor of the probiotics group (P = .04). These changes were not observed in females. No differences were observed in the levels of endotoxins and liver enzymes over time in both groups. The administration of multi-strain probiotic supplements for 3 months, along with dietary intervention, was associated with a modest favorable change in GPX1 levels in males, with no apparent changes in circulating endotoxins or liver enzymes. These findings suggest a potential sex-specific effect of probiotic supplementation on antioxidant defense. However, results should be interpreted cautiously given the modest effect. Adequately powered clinical trials are warranted to confirm these findings.",
+      "legalFullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13792661/",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43063067/",
+      "category": "candidate",
+      "tags": [
+        "human clinical population",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "多菌株益生菌與氧化壓力：全文整理",
+      "content": "---\ntags:\n  - research/digest\ncitekey: \"AlMalki2026Probiotics\"\ndoi: \"10.1097/MD.0000000000051573\"\njournal: \"Medicine\"\nyear: 2026\nstudy_type: \"Randomized double-blind placebo-controlled trial\"\nmode: \"worker-batch\"\n---\n\n> [!summary] 30秒層：12週多菌株益生菌試驗的整體血液指標組間變化沒有顯著差異。\n> - 93名超重或第一級肥胖成人，益生菌44人、安慰劑49人；兩組均有減熱量建議。\n> - 每包6株合計30×10⁹ CFU，每日2包；12週後實際追蹤29及27人。\n> - 全體LPS、SOD及GPX1時間×組別p=.56、.56、.21；組內前後顯著不等於組間顯著。\n> - 男性GPX1次組p=.04屬探索訊號；缺失多、無組間CI與臨床最小重要差異。\n> 品質 → 見同篇獨立品質評讀。\n\n## 5分鐘層：掌握研究全貌\n**要點**：比較益生菌加相同飲食建議與安慰劑加飲食建議，先看兩組變化差。\n\n1. 參與者19–40歲、BMI 25–35，單中心雙盲隨機分組；兩組均獲每日減少300–500 kcal的個人建議。\n2. 分配44對49，圖中3名益生菌組未接受分配介入，追蹤29對27，37/93未完成追蹤；以LOCF補缺。\n3. SOD及GPX1在益生菌組內前後有p=.02及.01，但全體對安慰劑的時間×組別p=.56及.21。\n4. LPS時間×組別p=.56；男性GPX1時間×組別p=.04是多重次組比較，無法單憑此確立性別差或臨床利益。\n5. 腰圍是登錄主要終點；本文報血液指標。未直接測心血管事件或菌相變化。\n\n## 完整層／研究問題與全文地圖\n**要點**：全文依背景、方法、結果、討論及限制說明本次生物標記分析。\n\n§1背景；§2.1–2.7設計、招募、盲法、隨機、飲食／產品、檢驗、統計；Fig.1受試者流向；§3及Tables 1–3基線與血液結果；§4機制與既有研究討論；§5–6限制及結論；文末經費、產品提供與書目。已讀PMC完整HTML與3表、1圖，首中末正文及原流程圖核對；未逐篇查參考文獻或取得個體數據。（全文）\n\n## 方法：誰、吃什麼、如何分析\n**要點**：每日兩包的每包菌量、共同飲食與分析人數不可混淆。\n\n114人篩選、21排除、93分配；年齡19–40歲、BMI 25–35，排除糖尿病、重大疾病與胃腸疾病、近期使用抗生素或相關補充品等。益生菌組44、安慰劑49，均接受飲食及維持活動建議。（§2.2、2.5、Fig.1）\n\n每日兩個3g包，每包6株合計30×10⁹ CFU：L. acidophilus BCMC12130、L. casei BCMC12313、L. lactis BCMC12451、B. bifidum BCMC02290、B. infantis BCMC02129、B. longum BCMC02120；兩次於第一餐及最後一餐前服用。安慰劑含相同賦形劑但無活菌。（§2.5）\n\n血液指標於基線及12週檢測；樣本數以腰圍設計，使用重複量測ANOVA、Bonferroni與最後觀察值前移（LOCF）。作者報37人未完成追蹤；Fig.1顯示益生菌29/44及安慰劑27/49追蹤。LOCF不是補出實際採血值。（§2.6–2.7、Fig.1）\n\n## 主要發現：先比較兩組變化\n**要點**：全體主要報告的血液指標沒有顯著時間×組別差異。\n\n|指標（Table 3標示log轉換平均±SD）|益生菌基線→12週|安慰劑基線→12週|時間×組別p|\n|---|---|---|---|\n|LPS|2.89±0.51→2.94±0.41|2.84±0.43→2.93±0.39|.56|\n|SOD|0.06±0.10→0.19±0.29|0.11±0.14→0.19±0.31|.56|\n|GPX1|0.66±0.23→0.76±0.20|0.74±0.23→0.77±0.19|.21|\n|ALT／AST|ALT 1.03→0.90；AST 1.32→1.25|ALT 1.00→0.98；AST 1.26→1.30|.11／.36|\n\n表列為log轉換數據，不能直接將表中相減稱原單位效果。組內SOD p=.02及GPX1 p=.01，不能由「一組顯著、另一組不顯著」推定兩組顯著不同；未報組間效應差95% CI。無顯著差異也不等於證明等效。（§3.3、Table 3）\n\n## 次組與作者的解釋\n**要點**：男性GPX1交互p=.04只能提出假說，沒有直接證明男性臨床獲益。\n\n男性益生菌16人、安慰劑12人；Table 3男性GPX1時間×組別p=.04，男性益生菌組內p=.03，但Discussion寫p=.01，存在報告不一致。未見正式治療×性別×時間比較，也未見效應差CI與臨床最小重要差異；在多個生物標記和分層比較中不能把一次p=.04當穩健結果。（Tables 1、3；§3.3、4）\n\n作者討論菌株可能的抗氧化或菌相機制，但本文未直接測菌相、腸道屏障或心血管事件；推論長期益處、適合的治療時間或機制仍待檢驗。（§4–6）\n\n## 重要圖表重述\n**要點**：圖1補上退出資料，表格讓組內與組間檢定分開。\n\nFig.1：114篩選、21排除、93分配；益生菌44中41接受分配、29追蹤，安慰劑49中49接受、27追蹤，分析標示44與49且以LOCF處理。Table 1人口資料、Table 2基線、Table 3各組前後與組別／時間交互。Table 1益生菌高中3人卻列260%，與3/44約6.8%不符，原表未修正。（Fig.1、Tables 1–3）\n\n## 登錄及研究限制\n**要點**：登錄主要終點是腰圍，且登錄發生於實際開始後。\n\n官方NCT05667038顯示實際開始2022-03-03、首次提交2022-12-07、首次公開2022-12-28；作者把12月28日稱首次提交，日期性質不同。官方登錄主要終點是組間腰圍差，本文報血液指標，不能推定腰圍結果。單中心、流失不平衡、LOCF、自報飲食、多次比較和缺少CI降低可解釋性。（§2.1、2.7；[官方登錄](https://clinicaltrials.gov/study/NCT05667038)）\n\n## 臨床意義／怎麼用\n**要點**：結果不支持保證此產品可降內毒素、降低心血管風險或適用所有人。\n\n這是特定菌株與12週、同時接受飲食建議的成年族群；不直接適用高齡、糖尿病、消化系統疾病或其他產品。未提供臨床結果、系統化完整不良事件及長期追蹤；不是個人補充處方。（§2、3、5）\n\n## 與既有認知的對照\n**要點**：本次沒有可核對的知識庫搜尋結果。\n\n未執行vault搜尋，不宣稱既有筆記不存在。\n\n## 概念／名詞整理\n**要點**：血中標記、分析方式與臨床效果是不同層次。\n\n- **LPS**：研究中檢測的血中內毒素指標；兩組時間變化差異未達顯著。（§2.6、Table 3）\n- **SOD／GPX1**：與氧化壓力相關的檢驗指標；GPX1以ELISA定量，不一律等於活性。（§2.6）\n- **LOCF**：用最後觀察數值代替缺失後續值；不保證能消除失訪偏差。（§2.7）\n- **時間×組別**：比較兩組隨時間的變化；不同於各組各自前後比較。（§2.7、Table 3）\n\n## 自我測驗\n**要點**：練習區分組內變化、直接比較和臨床推論。\n\n> [!question]- Q1：為什麼益生菌組內GPX1 p=.01不證明優於安慰劑？\n> 要看兩組變化的直接比較；全體時間×組別p=.21。（Table 3）\n\n> [!question]- Q2：37人未完成追蹤後採LOCF，是否等同完整測得93人的12週血樣？\n> 否；LOCF是用先前觀測值補缺，未完成者沒有因此產生實測血樣。（§2.7、Fig.1）\n\n> [!question]- Q3：男性GPX1 p=.04能證明男性一定比女性受益嗎？\n> 不能；樣本小、多指標分層，未見正式治療×性別×時間檢定及精確CI。（Table 3）\n\n> [!question]- Q4：登錄主要終點與本文血液結果有什麼關係？\n> 官方登錄主要終點是兩組腰圍差；本文報血液指標，不能據此推定腰圍結果。（登錄、§2.7）\n\n> [!question]- Q5：生物標記變化能否直接證明心血管風險下降？\n> 不能；本研究未測心血管事件，替代指標與病人實際結果不同。（§4–6）\n\n## Reference\n**要點**：以本文及官方登錄為依據，未逐篇驗證其引用。\n\nAlMalki SM et al. Medicine. 2026;105(47):e51573. [PMC完整主文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13792661/)；[DOI](https://doi.org/10.1097/MD.0000000000051573)。全文HTML SHA256 `28ce649a20b916041a6f7cde5a47dc259bfcdbe9e78cda6e0a899707e4911d97`。",
+      "cards": [
+        {
+          "title": "組內與組間",
+          "question": "益生菌組GPX1組內p=.01是否證明優於安慰劑？",
+          "answer": "否，應看兩組變化的直接比較；全體時間×組別p=.21。",
+          "tags": [
+            "RCT",
+            "組間比較"
+          ]
+        },
+        {
+          "title": "缺失資料",
+          "question": "LOCF是否等同所有93人完成12週採血？",
+          "answer": "否，37人未完成追蹤；LOCF以先前觀察值處理缺失，不能消除偏差。",
+          "tags": [
+            "失訪",
+            "LOCF"
+          ]
+        },
+        {
+          "title": "次組結果",
+          "question": "男性GPX1次組p=.04能證明男性一定較受益嗎？",
+          "answer": "不能；樣本小且多重比較，未見正式治療×性別×時間檢定與效果差CI。",
+          "tags": [
+            "次組",
+            "統計"
+          ]
+        },
+        {
+          "title": "登錄終點",
+          "question": "官方登錄的主要終點是什麼？",
+          "answer": "3個月兩組腰圍差；本篇報血液指標，不能推定腰圍結果。",
+          "tags": [
+            "登錄",
+            "終點"
+          ]
+        },
+        {
+          "title": "替代指標",
+          "question": "GPX1變化是否證明心血管風險下降？",
+          "answer": "不能，本試驗未測心血管事件，生物標記不等同臨床結果。",
+          "tags": [
+            "生物標記",
+            "臨床結果"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-24T08:21:05.742Z"
     }
   ]
 }
