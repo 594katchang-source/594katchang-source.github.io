@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T04:40:21.338Z",
+  "generatedAt": "2026-11-25T05:01:32.675Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -119645,8 +119645,8 @@
       "evidenceScope": "full_text",
       "title": "From research hotspots to translational gaps: a bibliometric analysis of pharmacological research in sarcopenia.",
       "authors": "Chen Y, Zhang H, Wu J, Chen F, Li C, Peng S, Luan Z, Wang S, Sun G",
-      "journal": "",
-      "year": "",
+      "journal": "Frontiers in Medicine",
+      "year": "2026",
       "doi": "10.3389/fmed.2026.1928185",
       "abstract": "Sarcopenia is a major geriatric syndrome associated with falls, disability, hospitalization, and mortality. Pharmacological candidates are increasingly studied for sarcopenia, including anabolic agents, hormonal therapies, metabolic drugs, and repurposed medications. However, it remains unclear whether increasing research activity has translated into treatment-ready evidence for older adults with sarcopenia. We conducted a multi-source analysis of sarcopenia pharmacotherapy from 1998 to 2026. Publications from the Web of Science Core Collection were analyzed to characterize research activity, with Scopus used to validate temporal and geographic patterns. PubMed randomized controlled trials were screened, and ClinicalTrials.gov interventional studies were classified. Evidence was compared across publications, RCTs, registrations, and AWGS 2025-aligned therapeutic categories. The analysis included 1,022 publications, 80 RCTs, and 311 registered studies. Publication output increased after 2010, but this growth was not matched by a pharmacological evidence base. Published RCTs were dominated by nutritional, vitamin D, exercise, and multicomponent interventions, whereas standalone drug trials remained uncommon. Trial-registration activity exceeded published RCT evidence for several emerging drug classes, particularly GLP-1 receptor agonist/SGLT2 inhibitor and ghrelin/GH-IGF-1 pathways. Drug-targeted studies showed incomplete and inconsistent assessment across muscle mass, muscle strength, and physical function, limiting comparison and clinical interpretation. Sarcopenia pharmacotherapy research has expanded rapidly, whereas published RCTs, registered studies, and guideline recommendations remain unevenly distributed across therapeutic classes. Future trials should evaluate candidate drugs as adjuncts to standardized exercise and nutritional care in populations with consensus-defined sarcopenia, while assessing muscle mass, strength, and physical function as complementary clinical outcomes.",
       "legalFullTextUrl": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1928185/pdf",
