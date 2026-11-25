@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T10:37:57.304Z",
+  "generatedAt": "2026-11-25T10:40:28.413Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -119847,6 +119847,69 @@
       "content": "---\ntags: [source/journal]\ncitekey: \"Chawatama2026RESETFeasibility\"\ndoi: \"10.7759/cureus.119903\"\njournal: \"Cureus\"\nyear: 2026\nstudy_type: \"Single-arm quality-improvement feasibility evaluation\"\nreview_depth: \"quick\"\nmode: \"focused-quick\"\n---\n\n> [!info] 品質快照\n> **設計／樣本**：2025 年倫敦兩行政區的單組前後品質改善可行性評估；149 人表達興趣、38 人開始、29 人完成四週，只有 21 人有可配對前後問卷。（Methods、Results，p2–6）\n> **核心內容**：課程包含一週營養教學及飲食選擇信心題，並結合活動、睡眠、壓力與社交；主要目的是服務可行性，不能分離營養成分效果。（Methods、Appendix A，p3–4、11–12）\n> **最大限制**：無對照、樣本小、即時自陳且量表未驗證；£133.72 僅直接支出，排除免費場地與約 48 小時志工臨床人力。（Results、Discussion，p8–11）\n> **一句話 verdict**：顯示在此地人力與場地條件下可辦四週團體課，不能證明飲食或整體生活型態介入有效。（Conclusion，p11）\n\n# Key Points\n\n## Summary\n\n> ✅ Full text reviewed：15 頁原 PDF 依序閱讀，含方法、圖1、表1–3、討論、附錄課綱與問卷、29筆參考文獻；p1、p8、p15 目視核對。未取得原始個人資料或獨立核實訓練名冊。\n\n- 79 名臨床人員參與訓練；38 名病人開始、29 名完成、126 人次課程；76% 是「開始者」完成率，非149名有興趣者的轉換率。（Results，p4–6）\n- 21 名配對答卷的「飲食選擇信心」5分制平均增加 0.48（95% CI 0.01–0.95）；未量測實際攝食、營養狀態或臨床成效。（Methods、表3，p4、8、11）\n- 同一配對樣本自陳達到有氧活動建議者由 4/21 到 9/21；無對照且短期自陳，不能歸因於課程。基線全體 8/38 不能與配對後 9/21 直接比較。（表1、Results，p7–9）\n- 直接成本 £133.72，約 £1.06／人次、£4.61／完成者；免費場地、捐贈物資、約48小時志工人力未納入，非完整成本效益。（表2、Discussion，p8、10）\n\n## 白話導讀\n\n這篇描述一個英國基層診所如何用醫師訓練、轉介與社區四週團體課支援多病共存者。課程有一週營養活動，參與者對飲食選擇的自評信心略增，但只有21人配對答卷，沒有量到實際飲食改變。它有助設計團體衛教流程，不能視為營養介入有效性試驗。（Methods、Results、Discussion）\n\n## 全文結構與逐段閱讀地圖\n\n|位置|每段重點|\n|---|---|\n|摘要／Introduction，p1–2|基層醫療缺可擴展生活型態支持；團體諮詢可整合醫師訓練與病人課程。|\n|Methods: setting、theory，p2–3|2025年6–7月單組服務評估；COM-B、目標設定及同儕支持為設計背景。|\n|Methods: intervention，p3|醫師活動訓練、多渠道轉介、四週 RESET 課，營養只佔其中一週。|\n|Methods: measures、analysis，p4|可行性、成本、七項未驗證自評題；21名配對樣本用平均差與 t 分布95% CI，無正式假設檢定。|\n|Results: flow，p4–6／圖1|79名受訓、149名有興趣、38名開始、29名完成、21名配對。|\n|Results: baseline，p6–7／表1|參與者多病共存與心血管代謝疾病常見；活動量低。|\n|Results: cost、self-report，p8–9／表2–3|直接成本、七自評領域及活動項目；飲食信心+0.48但未測實際飲食。|\n|Discussion／Conclusion，p9–11|強調可行性，承認無對照、選擇偏差、短期量測、成本低估與未測教育成果。|\n|Appendix A–D，p11–14|逐週課綱、前後問卷及報名表；營養週含均衡餐盤與標示閱讀。|\n|Disclosure／References，p14–15|無外部資助及商業利益的作者聲明、29項參考文獻。|\n\n## Clinical Application\n\n- 若借鏡團體營養衛教，可以採用課程設計元素：病人轉介、四週固定接觸、第二週的均衡餐盤與標示閱讀、課後書面材料需求。這是服務設計線索，不能保證本地相同保留率或成本。（Methods、Appendix A、Discussion）\n- 成效評估要另外測實際飲食、營養與臨床結果，並將人力、場地、轉介與行政成本納入；本研究沒有支持特定劑量或療效。（Methods、Discussion）\n\n# Paper Details\n\n## Methods\n\n- 納入兩倫敦行政區由 GP 轉介、具生活型態相關健康目標或長期疾病的成年人；由醫師判斷能安全參加，未用正式事前活動安全篩檢工具。四週課程每週一次、每次60–90分鐘。（Methods，p2–3）\n- 研究主要描述訓練參與、觸及、完成、126 人次、直接費用與回饋。七項5分自評題為研究自製，配對前後差用 t 分布95% CI；未做正式 p 值檢定。（Methods，p4）\n\n## Critical Appraisal\n\n|面向|判定|\n|---|---|\n|因果效度|單組前後無比較組，回歸均值、期待效應及參與者選擇可造成變化；不可歸因課程。（Discussion，p10）|\n|樣本與流失|149人有興趣但38人開始；29人完成、21人可配對，配對者可能較投入。（圖1、Discussion，p5–6、10）|\n|營養結果|只有飲食選擇「信心」，沒有攝食、體重、HbA1c等客觀前後結果，無法量化營養效果。（Methods、表3、Discussion，p4、8、11）|\n|量測|自製未驗證5分題和粗略活動自陳；兩人用相同自設代碼使一筆配對身份有不確定性。（Methods、Discussion，p4、10–11）|\n|成本與外推|免費場地、捐贈及約48小時志工人力排除；單一地區與支持條件限制擴展推估。（表2、Discussion，p8、10）|\n\n**GRADE／MCID**：本研究設計用於可行性，不提供對照介入效應；飲食或活動療效的 GRADE、NNT、MCID 不適用。95% CI 不消除無對照偏差。（Methods、Discussion）\n\n**資助與利益**：作者聲明無外部資助及相關財務關係；無獨立稽核。（Disclosures，p14）\n\n# Resource\n\n## Source\n\n- Chawatama E et al. Cureus. 2026;18(11):e119903. [DOI](https://doi.org/10.7759/cureus.119903)。首頁 p1 題名、DOI、期刊、年份與文章號目視核對。\n- 本機原 PDF 與文字來源均以 active-job 的 cache SHA 及正式執行收據核對，未在公開內容附原全文副本。",
       "cards": [],
       "completedAt": "2026-11-25T10:37:30.872Z"
+    },
+    {
+      "id": "doi:10.7759/cureus.119903:digest",
+      "paperId": "doi:10.7759/cureus.119903",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "General Practice Registrar-Led Community Lifestyle Medicine Group Consultations in Primary Care: A Quality Improvement Feasibility Evaluation.",
+      "authors": "Chawatama E, Raghvani T, Fowler S, Goolamallee T, Mukherjee B, Oguz M, Esalo S",
+      "journal": "期刊待核實",
+      "year": "2026",
+      "doi": "10.7759/cureus.119903",
+      "abstract": "Background Modifiable lifestyle behaviours are major drivers of chronic disease, particularly among older adults living with multimorbidity, yet scalable preventive models remain limited. Group consultations may offer a scalable route to preventive lifestyle support, but delivery depends on a primary-care workforce skilled in behaviour change and group facilitation. General practice (GP) registrar-led models that combine patient care with workforce development are not well described. Methods We conducted a single-arm, pre-post quality improvement feasibility evaluation of a GP-registrar-led programme across two north London boroughs in mid-2025. The intervention combined clinician physical activity training, multimodal recruitment through a GP, and a four-week community-based group consultation course (RESET) covering movement, nutrition, sleep, stress, habit formation, purpose, and social connection. Reach, baseline need, retention, direct cost, participant feedback, and exploratory pre-post self-reported outcomes were assessed descriptively. Results A total of 79 clinicians attended the training. Of the 149 patients who registered interest, 38 commenced the programme and 29 completed all four weeks (76% retention; 126 patient-sessions). Participants were older and high-need: mean age 64.1 years, 97% with at least one long-term condition, 68% multimorbid, 79% with a cardiometabolic condition, and only 21% meeting the aerobic activity guideline. Direct cost was £133.72 (£1.06 per patient-session; £4.61 per completer), excluding in-kind contributions. Among 21 matched respondents, self-rated scores improved across all seven domains, with the largest mean changes in exercising regularly (+0.81) and sleep-hygiene confidence (+0.62); self-reported aerobic-guideline attainment rose from 19% to 43% and strength or balance activity from 48% to 76%. Acceptability was high: 64% of post-course respondents definitely and a further 27% possibly wished to continue with an extended programme, and feedback highlighted the value of doctor-led delivery and peer support. Conclusions This GP-registrar-led lifestyle medicine group consultation model was feasible within routine primary care under supportive local conditions, reached a high-need multimorbid population, and produced encouraging short-term self-reported signals. Given the uncontrolled design, small matched sample, short follow-up, and reliance on self-reported outcomes, the findings indicate feasibility and promise rather than effectiveness. Longer-term, controlled, multi-site evaluation is needed to assess behavioural, clinical, economic, and educational outcomes.",
+      "legalFullTextUrl": "https://www.cureus.com/articles/513551-general-practice-registrar-led-community-lifestyle-medicine-group-consultations-in-primary-care-a-quality-improvement-feasibility-evaluation.pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43061686/",
+      "category": "recommended",
+      "tags": [
+        "design:guideline",
+        "guideline and consensus",
+        "health promotion and lifestyle",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "5 分鐘層：逐節掌握全文",
+      "content": "---\ntags: [research/digest, nutrition/education]\ncitekey: \"Chawatama2026RESETFeasibility\"\ndoi: \"10.7759/cureus.119903\"\nmode: \"worker-batch\"\n---\n\n> [!summary] 30 秒重點\n> 英國 GP 醫師培訓結合社區四週生活型態團體課可在特定條件下實施；這篇只支持初步可行性，不證明營養或整體課程有效。\n> - 149 人表達興趣、38 人開始、29 人完成，開始者保留率 76%；只有 21 人有配對前後問卷。（Results，p4–6）\n> - 第二週營養課含餐盤、標示閱讀與情緒性進食；未量實際飲食攝取。（Appendix A、Methods，p4、12）\n> - 飲食選擇信心自評平均增加 0.48／5 分（95% CI 0.01–0.95）；無對照，不能歸因課程。（表3，p8）\n> - £133.72 僅直接支出，排除免費場地和約48小時志工人力。（表2、Discussion，p8、10）\n> - 品質 → 見同篇品質評讀；即時自陳、未驗證題目與流失限制結論。（p10–11）\n\n# 5 分鐘層：逐節掌握全文\n\n## 研究問題 / 背景\n\n**要點**：作者測試的是 GP 醫師培訓與團體生活型態支持能否在基層醫療運作。（Introduction，p1–2）\n\n- 個別門診時間有限，生活型態支持需要重複接觸、實作、目標設定與同儕支持；研究同時有醫師訓練和病人課程兩個目的。（Introduction，p2）\n- 課程稱 RESET，涵蓋日常習慣、飲食、運動、睡眠、壓力與社交。營養不是唯一介入，也無法拆出其獨立作用。（Methods，p3）\n\n## 方法\n\n**要點**：2025年6–7月於倫敦兩行政區進行單組、無對照的品質改善可行性評估。（Methods，p2–4）\n\n- 先以四場 Moving Medicine 活動諮詢訓練支持臨床人員，再由 GP、健康教練、社會處方及簡訊等轉介，於社區場地辦四週課，每週60–90分鐘。（Methods，p3）\n- 四週依序為習慣基礎、營養、運動加睡眠壓力、目的與持續性。營養週教常見迷思、情緒性進食、標示閱讀與均衡餐盤，並有實作。（Appendix A，p11–12）\n- 主要記錄訓練人數、報名、開始、完成、成本與回饋；七項自製5分自評及兩項粗略活動自陳作探索性前後比較。只有21份前後問卷可配對；用配對差的 t 分布95% CI，未做正式 p 值檢定。（Methods，p4）\n\n## 主要發現\n\n**要點**：課程能辦完且參與者接受度高，前後信心變化僅是探索性自陳訊號。（Results，p4–9）\n\n|指標|數值|解讀|\n|---|---|---|\n|臨床訓練|79人參與四場|人數來自出席紀錄，未正式測後續諮詢能力。（p4、10）|\n|觸及與保留|149有興趣、38開始、29全程完成；126人次|76%是29/38，不是29/149。（圖1，p5–6）|\n|配對樣本|21人|小於38名基線問卷與29名完成者，可能偏向較投入者。（圖1、Discussion，p5–6、10）|\n|飲食選擇信心|3.43→3.90，平均差+0.48，95% CI 0.01–0.95|自製5分題，不是實際飲食品質或臨床效果。（表3，p8）|\n|規律運動能力自評|2.90→3.71，+0.81，95% CI 0.24–1.38|同為自陳，無對照不可歸因。（表3，p8）|\n|配對者自陳達有氧建議|4/21→9/21，即19%→43%|不能與全體基線8/38直接混用。（p8–9）|\n|直接支出|£133.72，£1.06／人次、£4.61／完成者|排除免費場地、捐贈與約48小時志工臨床時間。（表2、p10）|\n\n- 基線38人中37人自報至少一項長期病，26人多病共存，30人有心血管代謝相關狀況；年齡只在32人有資料，均數64.1歲。（表1，p6–7）\n- 課後22人回覆，64%表示一定、另27%表示可能想參加延長版；屬回覆者意願而非所有149人的接受度。（Results，p9）\n\n## 臨床意義 / 怎麼用\n\n**要點**：可參考轉介與團體課形式，營養成效要用另設計的對照與直接量測來驗證。（Discussion，p9–11）\n\n- 若要在營養衛教使用，值得保留餐盤和標示實作、書面講義、適合高齡者的活動退階選項及可信任的醫師轉介；這是服務設計啟發，未經本研究比較證實優於其他做法。（p9–10、Appendix A）\n- 未測飲食攝取、體重、腰圍、HbA1c、血脂或醫療利用，也沒有長期維持資料；不能聲稱改善疾病或減少用藥。（Discussion，p11）\n- 複製時須計入規劃、招募、人力、場地與行政成本；本文低直接支出不能推論低總成本或成本效益。（Discussion，p10）\n\n## 重要圖表重述\n\n**要點**：圖1是流向，表1是基線需要，表2是有限的直接支出，表3是探索性自評差。（p6–8）\n\n- 圖1把149名有興趣者一路分至38名開始、29名完成及21名可配對；這些分母各不同。（p6）\n- 表1記多病共存、用藥及活動情形；慢性病類別可重疊，不能相加成患者數。（p7）\n- 表2列£133.72消耗品與材料，未納入人力及場地。（p8）\n- 表3列七個5分題，飲食信心+0.48；整體健康、壓力管理與睡眠品質的CI跨0。（p8）\n\n## 與既有認知的對照\n\n**要點**：同篇品質評讀已指出可行性與療效不同；本輪沒有找到可核對的其他本機 vault 同概念筆記。\n\n- 評讀與整理均將營養結果限定為自評信心，不把它解釋成實際飲食改變。\n\n## 概念 / 名詞整理\n\n**要點**：可行性、保留率、配對問卷及直接成本各有獨立分母與用途。（Methods、Results）\n\n- **可行性**：能否招募、交付並保留參與者；不是健康療效。（p3–4、9）\n- **保留率**：本文29/38，僅在已開始者中計算。（圖1）\n- **配對問卷**：同一人前後都填且可用自設碼連結；本文21人，曾有兩人用相同碼造成一筆不確定性。（p4、10）\n- **直接成本**：實際付出的耗材費；排除捐贈、免費場地和志工時間。（表2）\n\n## 自我測驗\n\n> [!question]- Q1：飲食選擇信心+0.48能否證明營養介入有效？\n> 不能。它是21名配對者的自製5分自評題，無對照、沒有實際飲食或臨床結果，無法歸因營養週。（表3、Discussion）\n\n> [!question]- Q2：為何76%保留率不能套到149人？\n> 76%是29名完成者除以38名已開始者；149人只是表達興趣，兩者是不同流程分母。（圖1）\n\n> [!question]- Q3：£4.61／完成者能否代表完整服務成本？\n> 不能。它只分攤£133.72直接支出；免費場地、捐贈及約48小時志工臨床人力未計。（表2、Discussion）\n\n> [!question]- Q4：若下一步要判定是否真的改善營養健康，至少需補什麼？\n> 需對照組、較長追蹤、驗證量表及實際飲食或臨床結果，並完整核算人力與場地成本。（Discussion）\n\n## Reference\n\n**要點**：整理依同一篇15頁原 PDF，未使用摘要代替全文。（p1–15）\n\n- Chawatama E et al. *Cureus*. 2026;18(11):e119903. [DOI](https://doi.org/10.7759/cureus.119903)。首頁期刊、題名、DOI、出版年與文章號已目視核對；全文及文字SHA見本輪 active-job 與取得收據。",
+      "cards": [
+        {
+          "title": "營養信心與療效",
+          "question": "飲食選擇信心平均增加0.48，能否證明營養課有效？",
+          "answer": "不能。只有21人配對，題目未驗證，無對照且沒量實際飲食或臨床結果。",
+          "tags": [
+            "營養衛教",
+            "可行性"
+          ]
+        },
+        {
+          "title": "保留率分母",
+          "question": "為何76%保留率不能套用到149名表達興趣者？",
+          "answer": "76%是29名完成者除以38名已開始者；149名僅表達興趣，屬不同分母。",
+          "tags": [
+            "研究方法",
+            "衛教"
+          ]
+        },
+        {
+          "title": "團體課成本",
+          "question": "£4.61每完成者能否代表完整服務成本？",
+          "answer": "不能。只分攤£133.72直接支出；免費場地、捐贈及約48小時志工人力未計。",
+          "tags": [
+            "衛教",
+            "成本"
+          ]
+        },
+        {
+          "title": "下一步驗證",
+          "question": "若要判定團體課是否改善營養健康，下一研究至少需補什麼？",
+          "answer": "需要對照、較長追蹤、驗證量表與實際飲食或臨床結果，並完整核算人力與場地成本。",
+          "tags": [
+            "營養衛教",
+            "研究設計"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-25T10:40:02.119Z"
     }
   ]
 }
