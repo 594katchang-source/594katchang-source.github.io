@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T06:45:48.376Z",
+  "generatedAt": "2026-11-25T10:30:27.533Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -119754,6 +119754,73 @@
         }
       ],
       "completedAt": "2026-11-25T06:45:22.547Z"
+    },
+    {
+      "id": "doi:10.3389/fmed.2026.1928185:digest",
+      "paperId": "doi:10.3389/fmed.2026.1928185",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "From research hotspots to translational gaps: a bibliometric analysis of pharmacological research in sarcopenia.",
+      "authors": "Chen Y, Zhang H, Wu J, Chen F, Li C, Peng S, Luan Z, Wang S, Sun G",
+      "journal": "Frontiers in Medicine",
+      "year": "2026",
+      "doi": "10.3389/fmed.2026.1928185",
+      "abstract": "Sarcopenia is a major geriatric syndrome associated with falls, disability, hospitalization, and mortality. Pharmacological candidates are increasingly studied for sarcopenia, including anabolic agents, hormonal therapies, metabolic drugs, and repurposed medications. However, it remains unclear whether increasing research activity has translated into treatment-ready evidence for older adults with sarcopenia. We conducted a multi-source analysis of sarcopenia pharmacotherapy from 1998 to 2026. Publications from the Web of Science Core Collection were analyzed to characterize research activity, with Scopus used to validate temporal and geographic patterns. PubMed randomized controlled trials were screened, and ClinicalTrials.gov interventional studies were classified. Evidence was compared across publications, RCTs, registrations, and AWGS 2025-aligned therapeutic categories. The analysis included 1,022 publications, 80 RCTs, and 311 registered studies. Publication output increased after 2010, but this growth was not matched by a pharmacological evidence base. Published RCTs were dominated by nutritional, vitamin D, exercise, and multicomponent interventions, whereas standalone drug trials remained uncommon. Trial-registration activity exceeded published RCT evidence for several emerging drug classes, particularly GLP-1 receptor agonist/SGLT2 inhibitor and ghrelin/GH-IGF-1 pathways. Drug-targeted studies showed incomplete and inconsistent assessment across muscle mass, muscle strength, and physical function, limiting comparison and clinical interpretation. Sarcopenia pharmacotherapy research has expanded rapidly, whereas published RCTs, registered studies, and guideline recommendations remain unevenly distributed across therapeutic classes. Future trials should evaluate candidate drugs as adjuncts to standardized exercise and nutritional care in populations with consensus-defined sarcopenia, while assessing muscle mass, strength, and physical function as complementary clinical outcomes.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1928185/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43047534/",
+      "category": "candidate",
+      "tags": [
+        "aging frailty sarcopenia",
+        "design:randomized controlled",
+        "guideline and consensus",
+        "human clinical population",
+        "neg:drug or surgery only",
+        "nutrition and dietary pattern",
+        "protein and micronutrients",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "5 分鐘層：逐節掌握全文",
+      "content": "---\ntags: [research/digest, aging/sarcopenia]\ncitekey: \"Chen2026SarcopeniaBibliometric\"\ndoi: \"10.3389/fmed.2026.1928185\"\nmode: \"worker-batch\"\n---\n\n> [!summary] 30 秒重點\n> 肌少症藥物相關發文與登錄增長，尚未構成可直接採用的藥物療效證據；營養與運動仍是本文討論試驗設計時的基本背景。\n> - 書目計量納入 WoSCC 1,022 篇，另分析 PubMed 80 篇 RCT 與 ClinicalTrials.gov 311 筆介入研究登錄；三庫不是去重後的同一組研究。（§2.1、3.1）\n> - 表6把營養／蛋白映射至 44/80 篇 RCT、維生素D 36/80；類別可重疊，不是有效率。（§3.5、表6）\n> - 發文熱度、試驗登錄與可處方證據不能互換；本文沒有統合治療效果或不良事件。（§2、4.6）\n> - 品質 → 見同篇品質評讀；這是研究版圖，不是治療指引。\n\n# 5 分鐘層：逐節掌握全文\n\n## 研究問題 / 背景\n\n**要點**：作者想知道肌少症藥物研究的熱度是否轉為足夠的臨床證據。（§1）\n\n- 肌少症與跌倒、失能等不良結果相關。作者將營養和運動作為既有照護背景，檢視候選藥物研究、已刊 RCT 與試驗登錄的落差。（§1）\n\n## 方法\n\n**要點**：四個資料來源各有不同用途，作者做書目計量與描述性分類，沒有患者層級效果合併。（§2.1–2.3）\n\n- WoSCC 檢索 1998–2026 年英文研究，2026-05-02 擷取；Scopus 於 2026-05-14 交叉比對年度及地理趨勢。PubMed 篩已刊原始 RCT，ClinicalTrials.gov 於 2026-06-06 篩介入研究登錄。（§2.1）\n- RCT 介入類別與結果依題名／摘要關鍵詞編碼；登錄狀態只反映擷取當時資料，不證明研究完成或有效。（§2.2–2.3、4.6）\n\n## 主要發現\n\n**要點**：發文與登錄的增長，沒有對應到單一藥物可供處方的成熟 RCT 證據。（§3–4）\n\n|資料層|結果|正確解讀|\n|---|---|---|\n|WoSCC 發文|1,022 篇；Scopus 驗證集 1,733 篇，年度趨勢 Spearman ρ=0.972|兩庫趨勢相近，不代表試驗品質或治療效果。（§3.1）|\n|PubMed RCT|421 筆候選中保留 80 篇原始 RCT|各介入可重疊，未做偏差風險與效果統合。（§2.1、3.1、4.6）|\n|ClinicalTrials.gov|412 筆候選中保留 311 筆介入登錄|登錄不等於已有結果、發表或藥物核准。（§2.1、3.1）|\n|表6營養／蛋白|44/80 篇 RCT|主題映射，不是 44 篇證明有效。（§3.5、表6）|\n|表6維生素D|36/80 篇 RCT|與其他介入類別可重疊。（§3.5、表6）|\n|表6 GLP-1 RA／SGLT2i|1/80 篇 RCT|研究熱點不等於目前可用的肌少症治療。（§3.5、表6）|\n\n- 作者指出藥物試驗常未一致量測肌肉量、肌力與身體功能，造成跨研究比較與臨床解釋困難。（§3.5、4.3–4.5）\n\n## 臨床意義 / 怎麼用\n\n**要點**：用這篇找研究缺口與設計下一步試驗，不能據此開立藥物或改變營養補充劑量。（§4–5）\n\n- 評估任何候選治療應先核對肌少症診斷、標準化營養／運動背景照護，以及肌肉量、肌力與功能終點。（§4.3–5）\n- 表6的介入篇數不等於療效證據，也不能從登錄數推算未發表率；作者沒有估計臨床效果、NNT 或安全性。（§2.2、4.6）\n\n## 重要圖表重述\n\n**要點**：圖表依序呈現選文、發文網絡、關鍵詞與跨來源類別差異。（圖1–6、表1–6）\n\n- 圖1與表1：各來源檢索與篩選數量；不要跨庫加總成獨立研究數。（§3.1）\n- 圖2–5：發文增長、國家／機構與共引網絡；衡量研究活動，不衡量病人改善。（§3.1–3.3）\n- 圖6：關鍵詞與突現主題包含蛋白、阻力運動及代謝／藥物路徑；屬熱點辨識。（§3.4）\n- 表6：比較已刊 RCT、登錄與作者定義的治療類別；可重疊，且不是逐試驗療效摘要。（§3.5）\n\n## 與既有認知的對照\n\n**要點**：本輪可核對的同篇品質評讀指出，研究版圖與臨床療效是不同層級；未找到可核對的其他本機 vault 筆記。\n\n- 同篇評讀已核對表6類別重疊、RCT 依題名／摘要分類和跨庫未逐筆連結，本文沿用此邊界，不額外推斷治療成效。\n\n## 概念 / 名詞整理\n\n**要點**：辨識書目計量、RCT 與登錄各能回答的問題。（§2–4）\n\n- **書目計量**：分析發文量、合作與引文網絡，可看研究趨勢，不能證明介入有效。（§2.3）\n- **已刊 RCT**：隨機試驗報告；篇數本身不能代替完整方法、風險偏差與效果評估。（§2.1、4.6）\n- **試驗登錄**：計畫、狀態與設計紀錄；進行中或已登錄不代表有可用結果。（§2.1、3.5）\n- **複合介入**：營養、運動、藥物等同時出現時，不能只由標題分離單一成分效果。（§2.2、4.4）\n\n## 自我測驗\n\n> [!question]- Q1：WoSCC 1,022 篇和 311 筆試驗登錄能證明藥物治療成熟嗎？\n> 不能。前者是發文活動，後者是登錄狀態；本文沒有逐筆連結、偏差風險評估或合併臨床效果。（§2、4.6）\n\n> [!question]- Q2：表6的營養／蛋白 44 篇 RCT 可以怎樣用？\n> 可用來定位研究主題；類別可重疊且介入／結果依題名與摘要編碼，不能說 44 篇證明有效。（§2.2、3.5）\n\n> [!question]- Q3：未來候選藥物試驗至少要一致觀察哪三種結果？\n> 肌肉量、肌力與身體功能；並核對診斷族群及標準化營養／運動背景照護。（§4.3–5）\n\n> [!question]- Q4：為何登錄活動增加不能推算未發表試驗率？\n> 來源間未逐試驗連結，登錄可能尚未完成或仍在追蹤，不能把登錄數與 PubMed RCT 數直接相減。（§2.1、4.6）\n\n## Reference\n\n**要點**：本整理只根據同篇已核對的 15 頁原 PDF。（p1–15）\n\n- Chen Y et al. *Frontiers in Medicine*. 2026;13:1928185. [DOI](https://doi.org/10.3389/fmed.2026.1928185)。原 PDF SHA256 `88817640dbc5bcc451be64c8f7d96806862a9c094ce134cbb494ac527b7c19e1`；可讀文字 SHA256 `05f1ec7ccd1a1a625680625ae3e3c3825bec0f26b759cfa3da29ca31092bebef`。",
+      "cards": [
+        {
+          "title": "肌少症研究版圖",
+          "question": "1,022 篇發文和 311 筆試驗登錄能證明藥物治療成熟嗎？",
+          "answer": "不能。發文活動和登錄狀態不是患者療效；本文沒有逐筆連結或合併臨床效果。",
+          "tags": [
+            "肌少症",
+            "研究方法"
+          ]
+        },
+        {
+          "title": "營養RCT篇數",
+          "question": "表6營養／蛋白 44 篇 RCT 可以怎樣用？",
+          "answer": "可定位研究主題；介入類別重疊且多依題名／摘要分類，不能說44篇證明有效。",
+          "tags": [
+            "肌少症",
+            "營養",
+            "證據解讀"
+          ]
+        },
+        {
+          "title": "肌少症試驗終點",
+          "question": "未來候選藥物試驗應一致觀察哪三類結果？",
+          "answer": "肌肉量、肌力、身體功能；並核對診斷族群及標準化營養與運動背景照護。",
+          "tags": [
+            "肌少症",
+            "臨床試驗"
+          ]
+        },
+        {
+          "title": "登錄與發表",
+          "question": "為何登錄數與PubMed RCT數不能直接相減估計未發表率？",
+          "answer": "跨來源未逐試驗連結，登錄也可能尚未完成或沒有結果；兩者母群與時間不同。",
+          "tags": [
+            "肌少症",
+            "試驗登錄"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-25T10:29:51.254Z"
     }
   ]
 }
