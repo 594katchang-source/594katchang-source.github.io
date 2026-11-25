@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T10:40:28.413Z",
+  "generatedAt": "2026-11-25T10:43:49.241Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -119910,6 +119910,30 @@
         }
       ],
       "completedAt": "2026-11-25T10:40:02.119Z"
+    },
+    {
+      "id": "doi:10.3390/nu18213679:review",
+      "paperId": "doi:10.3390/nu18213679",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Genetic Variants, Lifestyle Factors and Changes in Body Fat Percentage in Young Adults: An Exploratory Prospective Study.",
+      "authors": "Egorova E, Valeeva E, Ahmetov I",
+      "journal": "Nutrients",
+      "year": "2026",
+      "doi": "10.3390/nu18213679",
+      "abstract": "Background/Objectives: We examined whether eight obesity-associated polymorphisms and four lifestyle exposures were associated with changes in body fat percentage (BF%) in young adults. Methods: Eighty-four young adults of European ancestry (82% women; age, 20.5 ± 2.6 years) from Kazan, Russia, underwent bioelectrical impedance analysis at baseline and follow-up, 1.9 ± 0.8 years apart. A subsample was genotyped for eight obesity-associated polymorphisms (ADCY3 rs11676272, RERE rs301806, FTO rs1421085, TNRC6B rs4821940, PATJ rs12140153, TFAP2B rs734597, MMS22L rs9385223, and SLC22A3 rs9364554). Dietary intake and sleep characteristics were assessed using questionnaires, including the Pittsburgh Sleep Quality Index (PSQI). Follow-up BF% was analyzed using ANCOVA adjusted for baseline BF%, follow-up duration, age and sex, with false discovery rate (FDR) correction for multiple testing. Results: Mean BF% increased by 1.61 ± 3.97 percentage points (pp) in men (p = 0.14) and by 0.25 ± 4.43 pp in women (p = 0.65), with wide inter-individual variation. Compared with participants in the bottom quartile (BF% change ≤ -2.45 pp), those in the top quartile (BF% gain ≥ 3.38 pp), i.e., those who gained more body fat, were more likely to carry the FTO rs1421085 T allele (p = 0.02; FDR q = 0.157), consumed fewer vegetables (p = 0.004; FDR q = 0.036), and had longer sleep duration (p = 0.028; FDR q = 0.126). Furthermore, poorer subjective sleep quality was associated with higher follow-up BF% in the whole cohort (β = 1.96 pp per PSQI point; 95% CI, 0.23-3.68; p = 0.027; FDR q = 0.11). Conclusions: Given the modest sample size and relatively short follow-up, few associations were detected, most of which did not remain significant after correction for multiple comparisons. Nevertheless, vegetable intake and sleep characteristics may be relevant to changes in adiposity during young adulthood.",
+      "legalFullTextUrl": "https://doi.org/10.3390/nu18213679",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43030306/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "human clinical population",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "設計／樣本：俄羅斯喀山 84 名年輕成人（69女、15男，平均20.5歲的品質評讀",
+      "content": "---\ntags: [source/journal]\ncitekey: \"Egorova2026BodyFatGenetics\"\ndoi: \"10.3390/nu18213679\"\njournal: \"Nutrients\"\nyear: 2026\nstudy_type: \"Exploratory prospective cohort\"\nreview_depth: \"quick\"\nmode: \"focused-quick\"\n---\n\n> [!info] 品質快照\n> **設計／樣本**：俄羅斯喀山 84 名年輕成人（69女、15男，平均20.5歲），兩次 BIA 量體脂，間隔1.9±0.8年；基因資料最多66人，各SNP實際36–65人。（§2.1–2.3、表1–2）\n> **營養結果**：主要基線調整模型中，蔬菜頻率 β 0.25體脂百分點／一級（95% CI −0.75–1.25，q=.83）、發酵乳 β −0.02（−0.67–0.63，q=.96），均無明確關聯。（§3.4、表3）\n> **探索性差異**：體脂變化最高與最低四分位的蔬菜頻率差未調整時 FDR q=.036，但校正基線體脂、年齡、性別、追蹤時間後 p=.18；不能當作蔬菜減脂證據。（§3.5–4，p7–9）\n> **一句話 verdict**：小樣本、單次粗略飲食頻率與多重比較只產生待驗證假說，沒有支持個人化基因飲食處方或蔬菜減脂效果。（§4–5）\n\n# Key Points\n\n## Summary\n\n> ✅ Full text reviewed：13頁原 PDF 含方法、表1–3、圖1、結果、討論、聲明與26項參考文獻按序讀完；p1、p6、p13目視核對。補充 File S1／表 S1–S10 未另取得，正文引用的補充數據未重新計算。\n\n- 全體平均體脂增加0.49±4.36百分點，配對 p=.31；34/84增加至少2百分點、25/84降低至少2百分點，平均掩蓋個體變異。（§3.1、表1）\n- 八個SNP在主要基線調整模型均未與追蹤體脂明確相關（q≥.59）；基因樣本不完整，且有基因資料者體脂變化與無資料者差異明顯，存在選擇問題。（§3.1–3.3、表3）\n- 主模型蔬菜與發酵乳頻率均不顯著；極端四分位未調整蔬菜差在基線調整後消失。主張「多吃蔬菜可減脂」超出本文。（§3.4–3.5、§4）\n- 主觀睡眠品質 β 1.96百分點／分，nominal p=.027但 FDR q=.11；未調整基線的變化模型較弱且不顯著。（§3.4、表3、§4）\n\n## 白話導讀\n\n作者追蹤一群年輕學生的體脂，檢視八種基因變異、兩種食物攝取頻率與睡眠。主要分析沒有找到通過多重比較校正的穩定關聯；看似較少吃蔬菜的增脂組，原本基線體脂也不同，調整後差異不明確。這篇適合教學「探索結果與正式結論」的差別，不能當個人化飲食建議的依據。（§3–5）\n\n## 全文結構與逐段閱讀地圖\n\n|位置|逐段要點|\n|---|---|\n|摘要／§1，p1–2|探索基因、蔬菜／發酵乳及睡眠與年輕成人體脂變化；強調基線體脂與回歸均值。|\n|§2.1–2.2，p2–3|84人兩次同機 BIA，標準化早晨空腹條件；無飲食或運動介入。|\n|§2.3–2.4，p3|八個SNP不同實測人數；飲食各用一題1–6級頻率，睡眠用PSQI。|\n|§2.5，p3–4|主要ANCOVA調基線體脂、追蹤時間、年齡、性別；FDR、多種穩健及變化分數敏感度分析。|\n|§3.1–3.2，p4–5|平均與個體體脂變化、表1基本資料、表2基因分布。|\n|§3.3，p5–7|基因主模型均未明確，TFAP2B未調整訊號在校正基線後消失。|\n|§3.4–3.5，p7–8|表3飲食與睡眠主模型；極端四分位的探索性蔬菜差在校正基線後不顯著。|\n|§4–5，p8–10|小樣本、基因缺漏、BIA及單題飲食誤差、未測混雜與多重比較限制。|\n|p10–13|補充資料清單、倫理／資助／COI聲明及26項參考文獻。|\n\n## Clinical Application\n\n- 不能據此設定蔬菜或發酵乳劑量、用八種基因檢測指定飲食，也不能說睡眠品質是已證實體脂變化因子。（§3–5）\n- 若設計後續研究，需擴大男女與族群、詳測飲食及活動、完整基因型、重複體脂量測並預先規劃多重比較。（§4–5）\n\n# Paper Details\n\n## Methods\n\n- 研究在喀山醫學大學生中納入兩次體組成測量者84人，基線年齡18–27歲；排除孕哺、專業運動及嚴重慢性疾病。沒有指定介入，追蹤1.9±0.8年。（§2.1）\n- 同一 Tanita MC-780 MA 作 BIA，早晨空腹、排尿後、限制先前運動／酒精／咖啡因；月經週期未記。蔬菜及發酵乳為作者自製單題頻率，非食物克數或營養素攝取。（§2.2、2.4）\n- 主要ANCOVA以追蹤體脂為結果，調基線體脂、追蹤時間、年齡和性別；基因與生活型態兩族測試分別BH-FDR，另做bootstrap、置換、LMM及極端四分位分析。（§2.5）\n\n## Critical Appraisal\n\n|面向|判定與理由|\n|---|---|\n|樣本與效能|84人且82%女性；各SNP只有36–65人，只能偵測相對大的變異解釋量，陰性不能排除小效果。（§3.3、4）|\n|選擇偏差|有基因資料66人與無基因資料18人追蹤體脂變化+1.35對−2.68百分點，p=.001。（§3.1）|\n|營養測量|蔬菜／發酵乳各單題頻率、一次量測且變異有限；未量份量、能量或其他飲食因素。（§2.4、4）|\n|混雜與測量|活動、能量攝取、社經、重大生活事件未評估；BIA受水分與生理狀態影響，月經週期未記。（§2.2、4）|\n|多重比較與基線|蔬菜極端組未調整 FDR q=.036，但校正基線後 p=.18；主模型無顯著飲食關聯。分組差也可能含回歸均值。（§3.4–3.5、4）|\n\n**GRADE／臨床重要性**：這是探索性觀察資料而非飲食介入效果；對「增加蔬菜能降低體脂」不能給出可信的效果結論。未提供劑量、MCID或NNT。（§2–5）\n\n**基因結果注意**：摘要的極端組 FTO T allele 提及與方法所稱的肥胖風險 C allele 是不同敘述，且該極端組訊號 q=.157、主模型不顯著；不要由此推導風險方向或基因飲食交互作用。（摘要、§2.3、3.3、3.5）\n\n**資助與COI**：作者聲明無外部資助、無利益衝突；未獨立稽核。（p11）\n\n# Resource\n\n## Source\n\n- Egorova ES et al. Nutrients. 2026;18:3679. [DOI](https://doi.org/10.3390/nu18213679)。首頁 p1 題名、DOI、期刊、年份與文章號已目視核對；原 PDF、文字與來源 SHA 由 active-job 與正式收據保存。",
+      "cards": [],
+      "completedAt": "2026-11-25T10:43:15.423Z"
     }
   ]
 }
