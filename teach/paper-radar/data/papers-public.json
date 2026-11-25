@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T06:42:32.966Z",
+  "generatedAt": "2026-11-25T06:45:48.376Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -119690,6 +119690,70 @@
       "content": "---\ntags: [source/journal]\ncitekey: \"Liu2026EDIPCognition\"\ndoi: \"10.3389/fnut.2026.1979010\"\njournal: \"Frontiers in Nutrition\"\nyear: 2026\nstudy_type: \"Prospective observational cohort, multistate analysis\"\nreview_depth: \"quick\"\nmode: \"focused-quick\"\n---\n\n> [!info] 品質快照\n> **設計／樣本**：美國 HRS/HCNS 前瞻性觀察資料；2013 年一次飲食調查，2014–2022 年認知追蹤。分析 4,997 名至少 60 歲且基線無失智者，21,197 筆狀態紀錄；這不是 21,197 名受試者。（§2、§3.1，p2–6）\n> **主要結果**：限制 EDIP 只作用於正常認知→認知受損的主模型，每升高 1 SD，轉移率 HR 1.074（95% CI 1.014–1.138）；允許 EDIP 與四種轉移均相關後，該 HR 1.029（0.963–1.099），不再顯著。（§3.2，p6–7）\n> **主要限制**：飲食僅測一次、觀察性殘餘混雜及逆向因果、認知為問卷分類、主結果依模型限制而變；未測本研究對象的發炎生物標記。（§4，p8–9）\n> **判讀**：可作飲食型態與認知狀態的假說線索，不足以證明促發炎飲食導致認知受損，亦不能推出治療目標或篩檢門檻。（§4，p8–9）\n\n# Key Points\n\n## Summary\n\n> ✅ Full text reviewed：10 頁原始 PDF 的摘要、方法、表1、圖1–3、結果、討論、聲明及參考文獻依序核對。補充表 S1–S12 未另取得；正文引用的補充數值以正文為準。\n\n- 4,997 人中基線正常認知 4,068 人、CIND 929 人；共有 1,615 筆相鄰觀察中的正常→受損轉移，不能當 1,615 位獨立新病例。（§3.1，p5–6）\n- 限制主模型的 4 年標準化「處於認知受損狀態」機率：EDIP −1 SD 17.0%、+1 SD 18.9%，差 1.87 個百分點（95% CI 0.48–3.42）；這是模型狀態占有率，不是飲食介入的風險差或可預防病例數。（§3.4，p7–8）\n- 四轉移擴展模型使焦點 HR 接近 1；作者也說主結果對暴露模型設定不穩健。四分位分析的區間寬且重疊，未證明單調劑量反應。（§3.2–3.3、§4，p6–8）\n\n## 白話導讀\n\n作者探討飲食的「經驗性發炎型態分數」（EDIP）是否與高齡者日後問卷認知分類變化相關。較高分數在預先限制的模型有小幅關聯，但放寬限制後關聯不明確。分數並非本研究測得的發炎指標，無法由此判斷改變飲食是否能預防失智。（摘要、§2、§4）\n\n## 全文結構與逐段閱讀地圖\n\n|位置|逐段要點|\n|---|---|\n|摘要／§1，p1–2|提出飲食發炎型態與認知轉移問題，區分既有研究與本研究。|\n|§2.1–2.2，p2–3|HRS/HCNS 來源、2013 飲食、2014–2022 認知與死亡追蹤；EDIP 的 18 食物群構成。|\n|§2.3，p3–4|問卷認知狀態與死亡、基線共變項、缺失值及分析族群。|\n|§2.4，p4–5|四轉移連續時間 Markov 模型、4 年分段強度、主模型限制、擴展模型和敏感度分析。|\n|§3.1，p5–6|樣本流向、表1基線不平衡、狀態紀錄及相鄰轉移數。|\n|§3.2–3.3，p6–7|主要及擴展模型 HR、其他敏感度分析、數值不穩定的兩年 landmark 模型。|\n|§3.4，p7–8|圖1的 2、4、8 年模型狀態占有率；不是因果風險。|\n|§4，p8–9|主結果依模型限制、殘餘混雜、飲食測量、逆向因果、認知分類及 Markov 假設的限制。|\n|聲明及參考文獻，p9–10|作者聲明無資助、無商業財務利益；書目為背景，不替代本研究實測。|\n\n## Clinical Application\n\n這項研究不能建立 EDIP 切點、認知篩檢規則、特定食物處方或介入效果。臨床談飲食與認知健康時，應將此結果稱為不穩健的觀察性關聯，避免說成已證明「抗發炎飲食能防失智」。（§4，p8–9）\n\n# Paper Details\n\n## Methods\n\n- 納入 HRS/HCNS 2013 資料中 2014 年至少 60 歲、無失智、完整 EDIP 與基線資料且至少兩筆狀態觀察者；8,035 名有連結資料者經條件篩至 4,997 人。2014 基線分類正常或 CIND，後續受損類別合併 CIND/失智。（§2、§3.1，p2–5）\n- 主要模型是連續時間多狀態 Markov 模型，辨識正常、受損、死亡的轉移；EDIP 只配置到正常→受損轉移。對照模型讓 EDIP 配置到四轉移，並做加權、截尾、基線認知調整、直接訪談及兩年 landmark 等檢查。（§2.4、§3.3，p4–7）\n- 以 HR、95% CI、p 值及模型標準化狀態機率報告；作者用 R 4.6.0 與 msm 1.8.2。無隨機分派或飲食介入，無直接量測個人發炎標記。（§2.4、§4，p5、8）\n\n## Critical Appraisal\n\n|面向|判定與來源|\n|---|---|\n|混雜|EDIP 四分位間教育、財富、BMI、活動量不平衡；基線調整不能排除未測或隨時間變化的混雜。（表1、§4，p4、8–9）|\n|暴露／結果|飲食只在 2013 年測一次；認知是問卷分類而非臨床裁定，受損→正常可反映測量波動。（§2、§4，p2–3、8）|\n|模型依賴|主 HR 1.074；放寬其他轉移的零係數限制後 1.029，CI 跨 1。主結果對設定不穩健。（§3.2、§4，p6–8）|\n|敏感度|部分限制主模型的分析方向一致，但沒有解除上述限制；兩年 landmark 出現極端基線死亡強度，作者警示數值不穩定。（§3.3，p6–7）|\n|外推|美國高齡樣本、完整案例及重複觀察的選擇，不能直接外推台灣或全部高齡人口。（§3.1、§4，p5、8）|\n\n**確定性與臨床意義**：這是觀察性、模型依賴的關聯，不是介入效果；因混雜、逆向因果、單次暴露及設定敏感，不能為「改變飲食可預防認知受損」給予有把握的 GRADE 效果結論。作者也未建立臨床重要差異、NNT 或食物劑量。（§4，p8–9）\n\n**資助與利益**：作者聲明未獲本研究及發表財務支持，且無可構成利益衝突的商業財務關係；這是作者聲明，未獨立稽核。（p9）\n\n# Resource\n\n## Source\n\n- Liu Z et al. Frontiers in Nutrition. 2026;13:1979010. [DOI](https://doi.org/10.3389/fnut.2026.1979010)。首頁題名、DOI、期刊與文章號以原 PDF p1 核對。\n- 原 PDF SHA256 `3555d63a50d37ea8fbf93184068417bc57527d79796a375f85cb8f70ecbed9bc`；可讀文字 SHA256 `71d2b5d2acd5254443f8fa99bad6b4f596570224858d128135cf352ccd592764`。",
       "cards": [],
       "completedAt": "2026-11-25T06:41:49.149Z"
+    },
+    {
+      "id": "doi:10.3389/fnut.2026.1979010:digest",
+      "paperId": "doi:10.3389/fnut.2026.1979010",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Empirical dietary inflammatory pattern and cognitive-state transitions in older US adults: a multistate cohort study.",
+      "authors": "Liu Z, Lei M, You H, Liu F, Li P, Zhang Q, Duan L, Wei J, Yang J",
+      "journal": "Frontiers in Nutrition",
+      "year": "2026",
+      "doi": "10.3389/fnut.2026.1979010",
+      "abstract": "Dietary inflammatory potential may be associated with cognitive aging, but evidence on cognitive-state transitions is limited. We examined the association of the empirical dietary inflammatory pattern (EDIP) with transitions from normal cognition to survey-classified cognitive impairment. We linked 2013 Health Care and Nutrition Study dietary data to 2014-2022 Health and Retirement Study cognitive classifications and mortality records for 4,997 adults aged 60 years or older without dementia at baseline. A piecewise continuous-time Markov model represented normal cognition, cognitive impairment, and death. The primary model assigned EDIP only to the normal-to-impairment transition; a key sensitivity analysis allowed EDIP associations with all four transitions. Across 21,197 state observations, 1,615 observed normal-to-impairment transitions occurred. The primary hazard ratio (HR) per 1-SD higher EDIP was 1.074 (95% confidence interval [CI], 1.014-1.138; p = 0.014). With EDIP assigned to all transitions, the corresponding HR was 1.029 (95% CI, 0.963-1.099; p = 0.401). Under the primary model, four-year standardized cognitive-impairment probabilities among 4,068 participants with normal cognition at baseline were 17.0% and 18.9% at EDIP values of -1 and +1 SD, respectively, a difference of 1.87 percentage points (95% CI, 0.48-3.42). The modest positive association in the restricted primary model was not robust to allowing EDIP associations with all transitions. Single dietary assessment, possible reverse causation, and survey-based outcome classification further limit interpretation. These findings do not establish a causal dietary effect, an inflammatory mechanism, or a clinically actionable benefit.",
+      "legalFullTextUrl": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1979010/pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43074921/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "human clinical population",
+        "nutrition and dietary pattern"
+      ],
+      "noteTitle": "5 分鐘層：逐節掌握全文",
+      "content": "---\ntags: [research/digest, nutrition/cognition]\ncitekey: \"Liu2026EDIPCognition\"\ndoi: \"10.3389/fnut.2026.1979010\"\naliases: [\"Empirical dietary inflammatory pattern and cognitive-state transitions in older US adults\"]\nmode: \"worker-batch\"\n---\n\n> [!summary] 30 秒重點\n> 一次測得的較高 EDIP（較促發炎的飲食型態）在限制模型中與日後問卷認知受損分類有小幅關聯；放寬模型限制後，證據不明確。\n> - 美國 4,997 名至少 60 歲、基線無失智者；2013 飲食資料連結 2014–2022 認知與死亡紀錄。（§2–3，p2–6）\n> - 限制主模型：每升高 1 SD，正常→受損轉移 HR 1.074（95% CI 1.014–1.138）。（§3.2，p6）\n> - 四轉移擴展模型：焦點 HR 1.029（0.963–1.099），CI 包含 1。（§3.2，p6–7）\n> - 4 年 17.0% 對 18.9% 是模型的受損狀態占有率，不是飲食介入後的風險。（§3.4，p7–8）\n> - 品質 → 見同篇品質評讀；不能把關聯當防失智的因果效果。（§4，p8–9）\n\n# 5 分鐘層：逐節掌握全文\n\n## 研究問題 / 背景\n\n**要點**：作者問的是 EDIP 與認知狀態轉移的關聯，並非測試抗發炎飲食療效。（§1，p2）\n\n- EDIP 以 18 類食物計算，源自其他研究中與發炎標記相關的飲食型態。本文沒有測量這批受試者的發炎標記，不能用 EDIP 代表其實際發炎程度。（§2、§4，p2–3、8）\n- 既有研究的飲食分數、認知終點與族群不同，作者用多狀態模型同時表示正常、受損、死亡。（§1、§2.4，p2、4–5）\n\n## 方法\n\n**要點**：2013 年單次飲食資料與 2014–2022 年反覆問卷認知分類連結，使用分段連續時間 Markov 模型。（§2，p2–5）\n\n- 8,035 名有 HRS/HCNS 連結資料者，經至少 60 歲、基線無失智、完整共變項及至少兩筆狀態紀錄等篩選，分析 4,997 人；基線正常 4,068 人、CIND 929 人。（§3.1，p5）\n- 認知受損是後續的 CIND 與失智問卷分類合併；死亡日期另作吸收狀態。正常、受損、死亡之間共四種可估轉移。（§2.3–2.4，p3–5）\n- 主模型把 EDIP 只指派給正常→受損；敏感度模型允許 EDIP 與四種轉移各自相關。兩者比較旨在檢查結果對限制條件的依賴。（§2.4，p5）\n\n## 主要發現\n\n**要點**：小幅正向關聯只在限制主模型明確；擴展模型的焦點估計接近零關聯。（§3.2–3.4，p6–8）\n\n|結果|數值|如何讀|\n|---|---|---|\n|主模型，正常→受損，每 1 SD EDIP|HR 1.074；95% CI 1.014–1.138；p=0.014|限制 EDIP 對其餘轉移的係數為 0。（§3.2，p6）|\n|擴展模型，同一焦點轉移|HR 1.029；95% CI 0.963–1.099；p=0.401|放寬其他轉移的零係數限制後，不再明確。（§3.2，p6–7）|\n|擴展模型，正常→死亡|HR 1.351；95% CI 1.150–1.588|為模型中的關聯，不證明飲食造成死亡。（§3.2，p6）|\n|4 年受損狀態占有率，−1 SD 對 +1 SD|17.0% 對 18.9%；差 1.87 百分點，95% CI 0.48–3.42|由限制主模型標準化預測，不是累積發病率或因果風險差。（§3.4，p7–8）|\n|探索性 Q4 對 Q1|HR 1.155；95% CI 1.001–1.332|四分位區間寬且重疊，沒有確認單調劑量反應。（§3.3，p7）|\n\n- 21,197 筆狀態紀錄包括 19,752 筆認知訪談紀錄與 1,445 筆死亡紀錄；1,615 筆正常→受損是相鄰觀察對，不代表獨立人數。（§3.1，p6）\n- 其他仍保留主模型限制的敏感度分析大致相近，但不能解決擴展模型的差異。兩年 landmark 分析雖方向相近，死亡基線強度數值不穩定。（§3.3，p6–7）\n\n## 臨床意義 / 怎麼用\n\n**要點**：此文提供值得再研究的關聯，無法支持 EDIP 切點、特定飲食處方或防失智效果。（§4，p8–9）\n\n- 不能把 1.87 百分點倒數成 NNT，因為它不是介入風險差；受損→正常也只是問卷分類回復，不等於臨床失智逆轉。（§3.4、§4，p8）\n- 單次飲食測量、社會與健康特徵的不平衡、逆向因果、問卷認知狀態及 Markov 假設均限制解釋；作者明示尚不能提出臨床或公共衛生建議。（§4，p8–9）\n\n## 重要圖表重述\n\n**要點**：表1顯示組間差異，圖1顯示模型預測，圖2顯示樣本與轉移，圖3顯示模型敏感度。（p4–7）\n\n- 表1：EDIP 高分組教育、財富、活動量較低，BMI 較高；這些差異提醒混雜可能。（p4）\n- 圖1：限制模型下 +1 SD 的受損狀態占有率略高；死亡機率差來自狀態分布，非直接估出的 EDIP 死亡係數。（p5、8）\n- 圖2：從 8,035 筆連結資料至 4,997 人分析樣本，並列狀態轉移對；同一人可貢獻多筆。（p6）\n- 圖3：將限制模型與擴展模型及各敏感度 HR 並列；焦點關聯對暴露指派設定敏感。（p7）\n\n## 與既有認知的對照\n\n**要點**：本輪沒有找到可核對的本機同概念 vault 筆記；不虛構舊筆記。（本機 vault 搜尋）\n\n- 同篇品質評讀已指出主結果依賴模型限制，與本文整理一致；沒有把作者引述的其他隊列當作本研究的新證據。\n\n## 概念 / 名詞整理\n\n**要點**：讀懂 EDIP、HR、狀態占有率與問卷認知分類，才能避免過度推論。（§2–4）\n\n- **EDIP**：依食物群估出的飲食型態分數；較高代表依既有模型較促發炎，不等於本研究受試者的血液發炎值。（§2、§4）\n- **轉移 HR**：在模型中由一狀態移至另一狀態的相對瞬時速率，不能直接當個人絕對風險。（§2.4、§3.2）\n- **狀態占有率**：指定時間處於某狀態的模型機率，與累積新病例或因果風險不同。（§2.4、§3.4）\n- **CIND**：問卷分類的認知受損但未達失智；本研究後續把它與失智合併為受損狀態。（§2.3）\n\n## 自我測驗\n\n> [!question]- Q1：主模型顯著，為何仍不能說 EDIP 穩定預測認知受損？\n> 主模型強制 EDIP 對另外三種轉移的係數為零；放寬後焦點 HR 從 1.074 變 1.029，95% CI 0.963–1.099。結果依模型設定而變。（§3.2、§4）\n\n> [!question]- Q2：17.0% 與 18.9% 可以換算 NNT 嗎？\n> 不可以。它們是限制模型對兩個 EDIP 分數情境的四年受損狀態占有率，不是隨機飲食介入的因果風險差。（§3.4、§4）\n\n> [!question]- Q3：受損後又分類正常，能否稱為失智逆轉？\n> 不能。認知狀態由問卷分類，可能受波動或測量誤差影響；作者明示不是臨床裁定失智的逆轉。（§3.1、§4）\n\n> [!question]- Q4：為何 EDIP 與發炎機制不能畫等號？\n> EDIP 源自其他研究中的飲食與生物標記關係，但本隊列沒有同步測發炎標記；社會、營養及血管途徑也可能解釋關聯。（§2、§4）\n\n## Reference\n\n**要點**：全文來源為 Liu 等人的 2026 年 Frontiers in Nutrition 原始研究。（p1）\n\n- Liu Z et al. *Frontiers in Nutrition*. 2026;13:1979010. [DOI](https://doi.org/10.3389/fnut.2026.1979010)。PDF SHA256 `3555d63a50d37ea8fbf93184068417bc57527d79796a375f85cb8f70ecbed9bc`；文字 SHA256 `71d2b5d2acd5254443f8fa99bad6b4f596570224858d128135cf352ccd592764`。",
+      "cards": [
+        {
+          "title": "EDIP與認知轉移",
+          "question": "主模型顯著，為何仍不能說 EDIP 穩定預測認知受損？",
+          "answer": "主模型強制 EDIP 對另外三種轉移的係數為零；放寬後焦點 HR 由 1.074 變 1.029，95% CI 0.963–1.099。結果依模型設定而變。",
+          "tags": [
+            "營養",
+            "認知",
+            "研究方法"
+          ]
+        },
+        {
+          "title": "狀態占有率",
+          "question": "4 年受損狀態占有率 17.0% 與 18.9% 可以換算 NNT 嗎？",
+          "answer": "不可以。它們是限制模型對兩個 EDIP 分數情境的狀態占有率，不是隨機飲食介入的因果風險差。",
+          "tags": [
+            "營養",
+            "認知",
+            "因果推論"
+          ]
+        },
+        {
+          "title": "認知分類回復",
+          "question": "受損後又分類正常，能否稱為失智逆轉？",
+          "answer": "不能。認知狀態由問卷分類，可能受波動或測量誤差影響；作者明示不是臨床裁定失智的逆轉。",
+          "tags": [
+            "認知",
+            "測量"
+          ]
+        },
+        {
+          "title": "EDIP與發炎",
+          "question": "為何 EDIP 與受試者的發炎機制不能畫等號？",
+          "answer": "EDIP 來自既有飲食與生物標記關係，但本隊列沒有同步測發炎標記；社會、營養及血管途徑也可能解釋關聯。",
+          "tags": [
+            "營養",
+            "發炎",
+            "機制"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-25T06:45:22.547Z"
     }
   ]
 }
