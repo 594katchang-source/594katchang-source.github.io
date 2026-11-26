@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T04:27:18.558Z",
+  "generatedAt": "2026-11-26T04:33:05.596Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -120023,6 +120023,68 @@
       "content": "---\ntags: [source/journal, nutrition/critical-care]\ncitekey: \"Marelli2026GutFailureMicronutrients\"\ndoi: \"10.3390/nu18213516\"\njournal: \"Nutrients\"\nyear: 2026\nauthors: \"Stefano Marelli; Alessandro Girombelli; Paolo Formenti; Francesco Vetrone\"\nstudy_type: \"Structured narrative review\"\nreview_depth: \"quick\"\nmode: \"focused-quick\"\n---\n\n> [!info] 品質快照\n> **設計／樣本**：結構化敘述性回顧；納入 202 筆文獻，其中 74 筆為 ICU 直接證據、100 筆為非 ICU 人類或混合證據、28 筆為前臨床證據；並非 202 名病人。（§2、§3，p3–6）\n> **偏差風險（SANRA 面向）**：🟡中等疑慮。三資料庫搜尋、雙人篩選、分層標示較透明；未註冊方案、未對納入研究做正式 RoB 或逐結果 certainty 評級，104／202 為敘述／專家回顧。（§2、§4，p3–5、26–27）\n> **GRADE／註冊**：不適用於此篇整體敘述性假說；作者未註冊回顧方案。Table 4 所列 RCT 結果也不能合併成此假說的 GRADE 等級。（§2.1、§2.3、Table 4）\n> **一句話判斷**：腸道失能作為補充反應修飾因子是值得測試的假說，尚無直接 ICU 試驗或可信的交互作用分析證實，不能據此改變微量營養素處方。（§3.5–5）\n\n# Key Points\n\n## Summary\n\n> ✅ 原始 40 頁 PDF 已逐節閱讀正文、方法、四張表、圖說、限制、附錄搜尋式與聲明；p1、p7–13、p21–22、p27、p30、p40 目視抽驗。補充 Table S1 未另取得，202 筆文獻的逐筆分類未獨立重算。\n\n- 作者把 ICU 微量營養素補充試驗的中性或有害結果，與腸道吸收、菌相、發炎重新分布、免疫反應之間的未測量連結，組成可檢驗的框架；這是**假說**，不是已證實的失敗根因。（摘要、§1、§3.5、§5）\n- 搜尋 MEDLINE、Embase、CENTRAL 至 2026-09-30，加參考文獻手查 143 筆；4,955 筆去重後篩 3,106 筆，502 篇全文評估，最後 202 筆。沒有預註冊、正式 RoB 或統合分析。（§2、Figure A1，p3–5、30–31）\n- Table 4 六項 ICU RCT（約 4,300 人，試驗間不可直接合併）未測腸道表型作治療交互作用。LOVIT 靜脈維生素 C 的第 28 天死亡或持續器官功能障礙為 44.5% 對 38.5%，RR 1.21（95% CI 1.04–1.40），提示傷害；靜脈試驗的無效不能歸咎於腸道吸收不足。（§3.5、Table 4，p20–22）\n- 臨床當下只可把血中微量營養素值連同 CRP／發炎背景解讀，記錄 AGI/GIDS 等腸道狀態，維持現行指引；不得用未驗證的 citrulline、I-FABP、zonulin 或菌相資料決定補充路徑。（§3.6–3.7、Table 3，p12–13、23–26）\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：重症患者常有偏低的微量營養素血值，但「補了卻未改善臨床結果」可能涉及腸道失能；作者提出研究問題，沒有證明答案。\n> - **為什麼做**：血值受發炎和營養狀態共同影響，過去試驗又幾乎沒有量測腸道功能，難以判斷誰真正吸收並利用了營養素。（§1、§3.1）\n> - **主體 1：證據基礎**：202 筆資料中約一半是敘述／專家回顧，真正有結果的 ICU 原始臨床研究僅 37 筆；作者用直接 ICU、間接人類及前臨床三層標示。（§2.2–2.3、§3，p4–6）\n> - **主體 2：腸道與營養素**：黏膜損傷可能減少吸收；菌相與膽酸影響部分維生素代謝；發炎能讓血中鋅、硒、鐵等下降，而不必然表示全身儲量不足。具體補充反應的 ICU 證據仍很少。（§3.2–3.3、Table 1–2）\n> - **主體 3：免疫與試驗**：維生素 A/D、鋅、硒及短鏈脂肪酸的免疫路徑多來自非 ICU 或前臨床研究。六項 ICU 補充試驗既有無效也有傷害訊號，沒有一項測試腸道失能是否改變治療效果。（§3.4–3.5、Table 4）\n> - **所以呢**：目前可更仔細紀錄腸道狀態與解讀血值；不應把菌相修復、改成靜脈補充或高劑量補充當成已證實療法。（§3.6–5）\n\n## 全文結構與逐節閱讀地圖\n\n|位置|重點與證據界線|\n|---|---|\n|摘要／§1，p1–3|提出低血值與試驗無效的落差；列出腸道失能可能影響吸收、組織利用與免疫反應，但直接修飾證據缺乏。|\n|§2.1–2.2，p3–4；Appendix A，p29–31|三資料庫 1990–2026 搜尋及參考清單手查；兩人重複篩選、第三人仲裁；流圖 4,955→3,106→502→202。|\n|§2.3–2.4，p4–5|敘述性分層而非正式 RoB／GRADE；作者揭露 AI 用於語言及製圖／檔案技術編輯，聲稱未代替搜尋、選文與判讀。|\n|§3.1，p5–10；Table 1，p7–9|血中營養素偏低與臨床事件關聯；補充試驗結果不一致；Table 1 逐營養素區分直接 ICU 與間接機轉。|\n|§3.2，p10–13；Table 2–3|AGI/GIDS 與腸道失能機制；腸道臨床分級、超音波、血液／糞便標記各量測不同面向，沒有可獨立決定吸收能力的單一標記。|\n|§3.3，p13–16；Figure 1|吸收與轉運、菌相、發炎重分布、膽酸循環；從非 ICU／前臨床機轉推及成人 ICU 時標為假說。|\n|§3.4，p16–19|鋅／硒、維生素 D/A、鐵／銅、短鏈脂肪酸及細菌移位的免疫路徑；觀察關聯不等於補充療效。|\n|§3.5，p20–22；Table 4|六項 ICU RCT 的路徑、主要終點與結果；沒有腸道表型交互作用，靜脈試驗不適用「吸收不良」單一解釋。|\n|§3.6–3.7，p23–26；Figure 2|提出腸道分層、菌相、時機／路徑、功能性終點及交互作用試驗；明示尚未驗證為臨床決策規則。|\n|§4–5，p26–28；p28–40|承認未註冊、選擇偏差、間接性、無直接修飾研究；附錄、聲明及 208 項參考文獻，逐篇原始文獻與補充 Table S1 未另核對。|\n\n## Clinical Application\n\n- 低血中鋅、硒、鐵、維生素 C/D 應連同發炎標記、臨床背景與可能缺乏證據解讀；不能由單次低值推論所有患者都要高劑量補充。（§3.3.3、§3.7.1）\n- AGI/GIDS 及床邊評估可用於記錄腸道問題、設計未來試驗；citrulline、I-FABP、zonulin 沒有驗證為補充途徑門檻。（Table 3、§3.6.1）\n- 維持現行重症營養照護指引。LOVIT 傷害訊號使高劑量靜脈維生素 C 尤須謹慎；本回顧不支持依腸道表型常規改成靜脈補充或投予益生菌／FMT。（Table 4、§3.6.2–3.7.1）\n\n# Paper Details\n\n## Methods\n\n此文是結構化敘述性回顧，不是 SR/MA，也不是新的病人介入試驗。MEDLINE、Embase、CENTRAL 及手查；英文全文可用性是納入條件。雙人篩選與第三人仲裁，Zotero 去重。202 筆中 74 筆直接 ICU、100 筆非 ICU 人類或混合、28 筆前臨床；104 筆敘述／專家回顧、33 筆觀察研究、15 筆 RCT、10 筆 SR/MA、6 筆指引／共識、31 筆實驗、3 筆其他。作者稱有結果的 ICU 原始臨床研究為 37 筆（14 RCT、23 觀察研究）。（§2–3，p3–6）\n\n## Main Findings and Statistical Limits\n\n本文沒有自身合併效果量、MCID 或新介入結果可計算。Table 4 是異質試驗的敘述，不等於腸道失能修飾效果。VITdAL-ICU 的嚴重缺乏次組屬假說訊號；VIOLET 血值改善未帶來 90 日死亡效益；CITRIS-ALI、VITAMINS 的預設主要結果沒有改善；REDOXS 抗氧化補充無死亡效益；LOVIT 主要複合結果較差。試驗、路徑與主要結果見 Table 4，p21–22。不能把紅氧化、菌相或營養生物標記的間接關聯代替病人重要結局。\n\n## Critical Appraisal（SANRA 面向）\n\n|面向|判斷|依據|\n|---|---|---|\n|重要性與目的|🟢|清楚指出低血值與陰性補充試驗的落差，提出可測交互作用。（§1）|\n|搜尋描述|🟡|列三庫、期間、關鍵字、雙人篩選及流程，但未註冊且非完整系統性搜尋。（§2、Appendix A）|\n|引用與證據層級|🟡|逐處區分 ICU、非 ICU、前臨床；202 筆中 104 筆為敘述／專家回顧，Supplementary Table S1 未另取得核查。（§2.3、§3、§4）|\n|科學推理與反例|🟢|作者明示靜脈試驗不能用腸道吸收不良解釋，並指出 LOVIT 傷害及其他可能原因。（§3.5、§4–5）|\n|逐研究品質與確定性|🔴|未正式評估納入研究 RoB、無逐結果 certainty，無直接修飾試驗；不能量化假說成立程度。（§2.3、§4）|\n\n**整體**：可作研究問題與生理框架的教學材料；不能用作已驗證的病床補充決策規則。作者自己的結論維持假說語氣，未把陰性試驗硬說成支持腸道失能。（§3.5、§4–5）\n\n## Limitations and Disclosure\n\n作者承認選擇偏差、證據異質、間接性及沒有直接交互作用研究。另須注意 202 筆紀錄逐筆分類在外部補充表 S1，本次未下載；Table 4 各試驗原始報告未逐份再核，故此處數值與敘述限於本篇回顧內的呈現。作者聲明無外部資助與利益衝突；AI 使用依 §2.4 揭露，未獨立驗證其工作分工。全文 p28 聲明、p29–31 附錄與參考文獻末頁已核對。\n\n## Resource\n\n- Marelli S, Girombelli A, Formenti P, Vetrone F. *Nutrients*. 2026;18:3516. [DOI](https://doi.org/10.3390/nu18213516)。原始 PDF 首頁題名、期刊、年份、文章號與 DOI 已目視核對；來源及文字 SHA 見本輪 active／execution evidence。",
       "cards": [],
       "completedAt": "2026-11-26T04:25:09.316Z"
+    },
+    {
+      "id": "doi:10.3390/nu18213516:digest",
+      "paperId": "doi:10.3390/nu18213516",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Gut Failure as a Potential Unmeasured Modifier of Micronutrient Response in Critical Illness: A Structured Narrative Review of Absorption, Metabolism, and Immune Function.",
+      "authors": "Marelli S, Girombelli A, Formenti P, Vetrone F",
+      "journal": "Nutrients",
+      "year": "2026",
+      "doi": "10.3390/nu18213516",
+      "abstract": "Micronutrient abnormalities are frequent in critically ill patients and are associated with organ dysfunction, infection, and adverse outcomes. Yet randomized controlled trials of supplementation have largely failed to demonstrate a consistent mortality or organ-failure benefit. One possible contributor to this translational gap is a systematically under-characterized variable: gut failure. In critical illness, the intestinal barrier is disrupted, epithelial cell mass is depleted, transporter expression is impaired, the intestinal microvasculature exhibits severe dysfunction, and the microbiome undergoes profound dysbiosis. These alterations may collectively impair the absorptive, metabolic, and immunological functions upon which micronutrient homeostasis depends. This structured narrative review (SANRA-guided; 202 records) first outlines the epidemiology of micronutrient deficiencies in the ICU and defines gut failure as a biological entity distinct from ileus. It then traces the mechanistic pathways by which a dysfunctional gut disrupts key micronutrients and links this gut-micronutrient axis to immune dysregulation. We critically appraise landmark ICU supplementation trials and examine whether the absence of gastrointestinal phenotyping, reliance on circulating surrogates of bioavailability, and neglect of microbiome-nutrient interactions may have contributed to heterogeneous or negative findings. Finally, we propose a hypothesis-generating, gut-integrated framework for future studies, comprising gut integrity stratification, microbiome phenotyping, phase-adapted timing and route selection, and microbiome restoration, to realign micronutrient interventions with the biology of the gut-microbiome-immune axis. Direct evidence that gut dysfunction modifies the response to supplementation is lacking.",
+      "legalFullTextUrl": "https://doi.org/10.3390/nu18213516",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43030145/",
+      "category": "recommended",
+      "tags": [
+        "design:randomized controlled",
+        "human clinical population",
+        "precision nutrition",
+        "protein and micronutrients"
+      ],
+      "noteTitle": "重症腸道失能與微量營養素反應假說的全文內容整理",
+      "content": "---\ntags: [research/digest, nutrition/critical-care]\ncitekey: \"Marelli2026GutFailureMicronutrients\"\ndoi: \"10.3390/nu18213516\"\nmode: \"worker-batch\"\n---\n\n> [!summary] 30 秒重點\n> 重症患者微量營養素血值偏低與補充試驗效果不佳之間，腸道失能可能是未測量的反應修飾因子，但目前**沒有直接證據**證明。（摘要、§3.5、§5）\n> - 結構化敘述回顧納入 202 筆紀錄：74 筆直接 ICU、100 筆非 ICU 人類或混合、28 筆前臨床；104 筆為敘述／專家回顧。（§2–3）\n> - 黏膜吸收、菌相代謝、發炎造成的血值重新分布，與免疫細胞利用是不同層次；血值改善不代表病人結果改善。（§3.1–3.4）\n> - 六項代表性 ICU RCT 都未把腸道表型列為治療交互作用；其中 LOVIT 的主要不良複合結果 44.5% 對 38.5%，RR 1.21（95% CI 1.04–1.40）。（Table 4，p21–22）\n> - 現階段可記錄 AGI/GIDS、審慎解讀血值與 CRP；不能依尚未驗證的腸道標記選擇微量營養素途徑或劑量。（§3.6–3.7）\n> - 品質 → 見同篇品質評讀；假說與臨床建議應分開。\n\n# 5 分鐘層：逐節掌握全文\n\n## 全文地圖\n\n**要點**：全文依「問題—方法—生理—試驗—未來研究」前進，沒有新的病人介入結果。\n\n|位置|重點|\n|---|---|\n|§1，p1–3|低血值和不佳試驗結果之間的落差，提出腸道假說。|\n|§2，p3–5；Appendix A|三資料庫、雙人篩選、證據層級與搜尋式；無正式 RoB 或 meta-analysis。|\n|§3.1–3.2，p5–13|ICU 營養素血值變化與 AGI/GIDS 腸道失能。|\n|§3.3–3.4，p13–19|吸收、菌相、發炎重新分布與免疫功能的可能路徑。|\n|§3.5，p20–22|六項 RCT 的主要結果與腸道資料缺口。|\n|§3.6–3.7，p23–26|提出未來試驗的腸道表型、時機、路徑與功能性終點。|\n|§4–5，p26–28|未註冊、間接證據及無直接修飾研究的限制；結論維持假說語氣。|\n\n## 各主題重點\n\n**要點**：作者把「給了多少」拆成「吸收、分布、組織利用、免疫回應」四個不同問題。\n\n### 1. 血值與補充反應\n\nICU 患者鋅、硒、維生素 C/D 等血中濃度可隨發炎下降；CRP 上升、金屬重新分布和結合蛋白變化會干擾血值的缺乏判讀。靜脈補充可繞過吸收，但仍不保證組織利用或病人重要結局改善。（§1、§3.1、§3.3.3、Table 1）\n\n### 2. 腸道失能\n\nAGI/GIDS 涵蓋腸道功能障礙，不等同單看胃殘餘量。休克缺血、發炎、抗生素、禁食、升壓藥和手術可共同影響黏膜、微循環與菌相。Table 2 整理這些因素；Table 3 指出床邊分級／超音波與 citrulline、I-FABP、LBP、糞便 calprotectin 各量測不同面向，沒有單一已驗證吸收標記，zonulin 檢測尤其有特異性疑慮。（§3.2、§3.6.1，p10–13、23）\n\n### 3. 吸收、菌相與膽酸\n\n黏膜萎縮或轉運蛋白異常可能降低鋅、鎂等攝取；膽酸與菌相改變可能影響脂溶性維生素。微生物對維生素 K、B12、葉酸及短鏈脂肪酸有不同作用，不能籠統說「菌多就吸收好」。這些機制大多來自非 ICU 或前臨床研究，定量影響 ICU 補充效果仍未知。（§3.3.1–3.3.4、Table 1）\n\n### 4. 免疫功能\n\n鋅／硒、維生素 A/D、鐵／銅和 butyrate 涉及免疫訊號；腸道屏障破壞與菌移位又可能影響免疫細胞回應。作者明確區分 ICU 的觀察關聯與尚未證實的「補充後因腸道失能而失效」因果鏈。（§3.4.1–3.4.6、Figure 1）\n\n### 5. 代表性 ICU 試驗\n\nREDOXS（N=1,223）抗氧化配方無死亡益處；VITdAL-ICU（隨機 N=492）整體住院天數及死亡未改善；CITRIS-ALI（N=167）預設器官衰竭／生物標記結果未改善；VIOLET（隨機 N=1,360）維生素 D 血值改善而 90 日死亡未改善；VITAMINS（N=216）無較多存活且不需升壓藥的時間；LOVIT（隨機 N=872）主要複合不良結果較多。這些是不同試驗，不能把數字相加成共同效果量。靜脈試驗的結果尤其不能歸因於腸道吸收不足。（§3.5、Table 4）\n\n### 6. 未來研究\n\n作者主張預先設定 AGI/GIDS 等腸道表型並檢驗 treatment-by-phenotype interaction，記錄補充途徑、時機、抗生素和灌食暴露，加入吸收動力學、同位素、免疫功能或組織層級終點。這些都是**待驗證的研究設計**，不是立即改變臨床處方。（§3.6–3.7）\n\n## 機轉白話講解\n\n**要點**：血液檢查只看到一個位置的濃度；補充後是否到達與作用於細胞，是另外的問題。\n\n同一位病人即使灌食量達標，也可能因腸道表面與轉運系統受損而吸收不足；若改用靜脈，能跳過腸道入口，卻無法保證發炎狀態下的組織分布和免疫細胞能正常回應。作者以此解釋為何要在未來試驗同時量測腸道狀態與功能性終點，但目前沒有直接證據證明這條因果鏈。（§3.1.2、§3.5–3.6）\n\n## 臨床意義 / 怎麼用\n\n**要點**：照護上可改善紀錄與解讀，不據此變更既有微量營養素指引。\n\n- 解讀低血值時連同 CRP 與臨床背景評估；不等同「低值就高劑量補」。（§3.7.1）\n- 以 AGI/GIDS 和床邊評估記錄腸道功能，作日後研究的分層變項；不能用 citrulline 或 I-FABP 當已驗證的路徑選擇門檻。（Table 3、§3.6.1）\n- LOVIT 的高劑量靜脈維生素 C 傷害訊號不可被腸道假說掩蓋；益生菌、FMT、直接 butyrate 等也尚未證實可改善微量營養素補充反應。（Table 4、§3.6.2–3.7.1）\n\n## 重要圖表重述\n\n**要點**：四張表／兩張圖各自承擔「營養素、腸道機制、測量工具、試驗結果、研究方案」的不同角色。\n\n- Table 1（p7–9）：逐營養素列吸收、疾病影響與直接 ICU 證據強度；不是治療指引。\n- Table 2（p11–12）：休克、發炎、抗生素、禁食、升壓藥與手術對腸道的合併影響。\n- Table 3（p12–13）：AGI/GIDS、超音波、血液和糞便標記各有侷限，沒有單一完整腸道功能指標。\n- Table 4（p21–22）：六項 RCT 的給藥途徑、主要終點與結果；全部缺腸道表型交互作用。\n- Figure 1（p14）：腸道—微量營養素—免疫軸是示意機制；Figure 2（p26）分開現可記錄事項與未來研究。\n- Figure A1（p30）：4,955 篇來源紀錄去重及篩選後留下 202 筆；不代表 202 項獨立 ICU 試驗。\n\n## 與既有認知的對照\n\n**要點**：既有本機可用筆記索引以相關詞檢索，未找到可明確逐句對照的獨立「腸道失能—微量營養素」主筆記；不把本篇評讀重算成外部佐證。\n\n## 概念 / 名詞整理\n\n**要點**：區分腸道分級、血值、有效暴露與真正的治療效果。\n\n- **AGI/GIDS**：重症腸道功能的臨床分級／分數，並非微量營養素吸收試驗。（§3.2、Table 3）\n- **Citrulline／I-FABP**：分別偏向腸上皮細胞量與急性損傷資訊，尚無可單獨指導補充途徑的 ICU 門檻。（Table 3、§3.6.1）\n- **Effect modification**：補充療效可能因腸道表型不同而變化，需在預設且有足夠檢力的交互作用研究中證實。（§3.5、§3.7.2）\n\n## 自我測驗\n\n**要點**：以下四題練習分辨可用結論與未證實假說。\n\n> [!question]- Q1：為何靜脈維生素 C 試驗無效，不能用「腸道吸收不足」直接解釋？\n> 靜脈給藥已繞過腸道吸收；若腸道仍有作用，只能是其他下游或間接機轉，且尚未直接測試。（§3.5、Table 4）\n\n> [!question]- Q2：為何低血中鋅或硒不等於已證實全身儲量不足？\n> 發炎可改變分布、結合與血中濃度，須結合 CRP 和臨床狀況判讀；單一血值不能等同功能性缺乏。（§3.3.3）\n\n> [!question]- Q3：為何 AGI/GIDS 可以用來記錄腸道問題，卻不能直接決定改走靜脈補充？\n> 它是臨床腸道功能分級，不直接測量每種微量營養素的吸收；路徑選擇門檻尚未驗證。（Table 3、§3.6.1）\n\n> [!question]- Q4：LOVIT 對「補充總是無害」有何提醒？\n> 高劑量靜脈維生素 C 組第 28 天死亡或持續器官障礙為 44.5%，安慰劑 38.5%，RR 1.21（95% CI 1.04–1.40）；不能用未證實的腸道假說遮蔽傷害。（Table 4）\n\n## Reference\n\n**要點**：本整理只依本篇 40 頁全文與其表圖；逐篇原始試驗及 Supplementary Table S1 未另查驗。\n\n- Marelli S, Girombelli A, Formenti P, Vetrone F. *Nutrients*. 2026;18:3516. [DOI](https://doi.org/10.3390/nu18213516)。",
+      "cards": [
+        {
+          "title": "靜脈試驗與腸道吸收",
+          "question": "為何靜脈維生素 C 試驗無效不能用腸道吸收不足直接解釋？",
+          "answer": "靜脈給藥繞過腸道吸收；任何腸道影響只能是其他間接或下游機轉，尚未被試驗直接檢驗。",
+          "tags": [
+            "重症營養",
+            "微量營養素"
+          ]
+        },
+        {
+          "title": "低血值的解讀",
+          "question": "為何低血中鋅或硒不等於確定全身儲量不足？",
+          "answer": "發炎造成重新分布並降低血中濃度，須結合 CRP 與臨床狀態，不能只看單次血值。",
+          "tags": [
+            "重症營養",
+            "微量營養素"
+          ]
+        },
+        {
+          "title": "腸道分級的用途",
+          "question": "AGI/GIDS 為何不能直接決定微量營養素改走靜脈補充？",
+          "answer": "它描述臨床腸道功能，沒有驗證為各種微量營養素吸收的路徑門檻。",
+          "tags": [
+            "重症營養",
+            "微量營養素"
+          ]
+        },
+        {
+          "title": "LOVIT 傷害訊號",
+          "question": "LOVIT 的主要結果提醒我們什麼？",
+          "answer": "高劑量靜脈維生素 C 組第 28 天死亡或持續器官障礙 44.5%，對照 38.5%，RR 1.21（95% CI 1.04–1.40）；補充並非必然無害。",
+          "tags": [
+            "重症營養",
+            "微量營養素"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-26T04:31:40.112Z"
     }
   ]
 }
