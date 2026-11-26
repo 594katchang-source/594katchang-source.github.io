@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T05:52:23.945Z",
+  "generatedAt": "2026-11-26T11:17:51.698Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -120174,6 +120174,33 @@
         }
       ],
       "completedAt": "2026-11-26T05:50:58.180Z"
+    },
+    {
+      "id": "doi:10.7759/cureus.118230:review",
+      "paperId": "doi:10.7759/cureus.118230",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Harnessing Neuroplasticity for Rehabilitation: The Combined Effects of Experiential Music, Intermittent Fasting, and Daily Cognitive-Mindfulness Practices.",
+      "authors": "Nistor A, Fotakopoulos G, Vasilopoulou M, Kavouridis V, Foroglou N",
+      "journal": "Cureus",
+      "year": "2026",
+      "doi": "10.7759/cureus.118230",
+      "abstract": "Neuroplasticity, the capacity of the central nervous system to reorganize its structure and function in response to experience, is the biological basis of recovery in neurorehabilitation. It has been hypothesized that combining several experience-dependent interventions may produce additive or synergistic benefits, but this hypothesis has rarely been tested directly. This narrative review, based on a structured search of PubMed/MEDLINE (Medical Literature Analysis and Retrieval System Online), Scopus, and the Cochrane Library, examines the individual and potential combined contributions of three non-pharmacological adjunctive interventions to rehabilitation in adults with acquired brain injury, principally stroke and traumatic brain injury (TBI): experiential music-based practice, intermittent fasting (IF), and daily cognitive-mindfulness training, defined here as mindfulness-based practice combined with structured cognitive training. Music-based interventions recruit distributed sensorimotor, limbic, reward, and executive networks, and randomized trials and meta-analyses in stroke and TBI report benefits for gait, upper-limb function, communication, cognition, and mood, with mostly low-to-moderate certainty of evidence. IF upregulates brain-derived neurotrophic factor (BDNF) signaling and synaptic plasticity in animal models, but human data are inconsistent, no trials exist in rehabilitation populations, and malnutrition and frailty raise safety concerns. Mindfulness-based practice has been associated with improved attentional and emotional regulation and with a moderate reduction of fatigue after stroke, TBI, and multiple sclerosis, whereas cognitive training has low-certainty evidence for short-term attentional benefits. Multidomain lifestyle trials support structured multidomain programs, but because they lack single-domain arms, they do not show that combined interventions outperform single interventions; factorial trials provide more direct, though limited, evidence of additive effects. We propose a tentative, hypothesis-generating model in which these interventions may converge on shared neurotrophic and network-level mechanisms, and we discuss timing, safety, treatment burden, and the factorial trial designs needed to test it. The available evidence is insufficient to support clinical recommendations for the combined use of these three interventions.",
+      "legalFullTextUrl": "https://www.cureus.com/articles/542408-harnessing-neuroplasticity-for-rehabilitation-the-combined-effects-of-experiential-music-intermittent-fasting-and-daily-cognitive-mindfulness-practices.pdf",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43061022/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "design:Cochrane",
+        "evidence literacy",
+        "human clinical population",
+        "safety and interaction",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "神經復健結合音樂、斷食與正念：敘述性回顧品質評讀",
+      "content": "---\ntags: [source/journal, nutrition/rehabilitation]\ncitekey: \"Nistor2026NeuroplasticityAdjuncts\"\ndoi: \"10.7759/cureus.118230\"\njournal: \"Cureus\"\nyear: 2026\nauthors: \"Agapios Nistor; George Fotakopoulos; Mary A. Vasilopoulou; Vasileios K. Kavouridis; Nikolaos Foroglou\"\nstudy_type: \"Narrative review\"\nreview_depth: \"quick\"\nmode: \"focused-quick\"\n---\n\n> [!info] 品質快照\n> **設計／族群**：敘述性回顧，目標為中風或創傷性腦傷後的成人復健；沒有本篇新收案或三介入聯合試驗。（p2–3、p8–11）\n> **證據分布**：音樂復健有部分中風／腦傷臨床試驗；正念及認知訓練資料較少；間歇性斷食主要是動物及其他族群間接資料，沒有神經復健族群試驗。（p4–8、Table 1）\n> **偏差風險**：🟡／🔴。描述三資料庫及手查，但以作者共識選文，未正式做逐研究 RoB、證據確定性或統合分析；數篇音樂研究出自作者群。（p2–3、p8–9）\n> **一句話判斷**：三介入共享神經可塑性路徑只是待驗證模型，不能據此在腦傷復健患者常規加入斷食；尤其營養不良、吞嚥障礙、肌少、虛弱與用降糖藥者有安全疑慮。（p5–6、p9–11）\n\n# Key Points\n\n## Summary\n\n> ✅ 原始 13 頁 Cureus PDF 已核對首頁 DOI、完整題名、期刊、CC BY 4.0 與正文；逐頁提取並閱讀 p1–11 的方法、主題、Table 1–2、限制、結論，p11–13 的聲明及參考文獻。自動標題擷取誤抓「Review began」，首頁目視文字確認精確題名；其 DOI 與來源 SHA 保留在取得收據。\n\n- 作者回顧體驗式音樂、間歇性斷食、正念與認知訓練，提出它們可能經 BDNF／TrkB 和腦網絡共同促進復健的模型，但沒有直接測試這種三合一方案。（p2–3、p9–11）\n- 音樂方面，一篇 Cochrane 回顧含 29 試驗、775 名腦傷者，步態等可能受益，但多數結果為低或極低確定性；節律性聽覺刺激對步速與步幅有中等確定性。不能把不同音樂方法視為同一療法。（p4–5、Table 1）\n- 斷食與 BDNF 的 16 項人體研究：5 項上升、5 項下降、6 項無顯著變化，均非神經復健族群；動物研究多在受傷前限制能量，不能外推到腦傷後斷食。（p5–6、Table 1）\n- 正念對中風／腦傷／多發性硬化疲勞的四項 RCT 統合，標準化效果量 −0.37（95% CI −0.58 至 −0.17），但試驗少且異質；認知訓練的分配性注意力即時改善證據為低確定性，長期功能未證實。（p6–7）\n- FINGER 和 US POINTER 的多領域方案相對比較組有小幅認知差異，沒有單領域對照組，因此不能推論三項介入相加，更不能推論交互作用／協同效益。（p8、Table 1）\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **問題**：音樂、斷食、正念與認知訓練可能一起幫助腦傷復健嗎？（p1–2）\n> - **方法**：作者查三個資料庫並參照既有研究，但這是敘述性整理，沒有新試驗也沒有正式合併效果。（p2–3）\n> - **分開看**：音樂的臨床證據最多；正念的疲勞結果有一些訊號；斷食在這個病人群沒有試驗，BDNF 人體結果互相矛盾。（p4–8）\n> - **最後判斷**：合併方案是研究假說。對剛中風、營養不良、吞嚥障礙或用胰島素者，不應為追求神經可塑性自行限制進食。（p5–6、p9–11）\n\n## 全文結構與逐節閱讀地圖\n\n|位置|讀到的內容與界線|\n|---|---|\n|p1–2，摘要／引言|定義三介入及目標族群；區分相加與協同，承認三項聯合沒有直接試驗。|\n|p2–3，搜尋策略|PubMed/MEDLINE、Scopus、Cochrane，2000–2026 年英文文獻，作者共識選文；未正式 RoB 或統合。|\n|p3–4，基礎與時機|神經網絡、BDNF 與早期可塑性；生物標記或影像變化不能代替功能恢復；早期能量限制尤其有風險。|\n|p4–5，音樂|區分聆聽、主動演奏、節律性聽覺刺激、旋律語調治療；臨床試驗與回顧多小且異質。|\n|p5–6，斷食|動物的受傷前保護與人的康復治療不同；16 項人體 BDNF 研究方向不一致，無神經復健 RCT；列營養及低血糖風險。|\n|p6–7，正念／認知，Table 1|正念對疲勞有有限訊號；認知訓練短期注意力資料有限；表列各類研究族群及限制。|\n|p7–9，批判討論|FINGER、US POINTER、SYNERGIC 不能證明此三介入協同；區分生物標記、影像、病人重要功能結果。|\n|p9–10，假說與 Table 2|提出臨床安全條件與 2×2×2 試驗設計；Table 2 是建議研究規格，非既成治療指引。|\n|p11–13，結論、聲明、參考|重申沒有三合一效果證據、斷食不可在復健族群常規應用；揭露未獲經費及無利益衝突。|\n\n## Clinical Application\n\n- 腦傷後的營養照護先評估攝取、吞嚥、體重、肌肉與藥物。本文不支持為提高 BDNF 在復健期常規斷食。（p5–6、p10–11）\n- 即便日後研究斷食，也應限醫療穩定、慢性期、有營養與血糖監測的受試者；急性及早期亞急性期營養不良風險高。（p4–6、Table 2）\n- 音樂與正念的可能用途須分具體技術和結果，不把「BDNF 上升」或 MRI 變化當作實際行走、認知或獨立生活改善。（p4–8）\n\n# Paper Details\n\n## Methods\n\n作者稱在三資料庫查 2000–2026 年英文文獻，優先選系統回顧、RCT 和較大控制研究，並納入機轉與間接族群資料；作者共識選文。文中未提供可重現的完整搜尋式、篩選流量圖、排除清單或預註冊，也沒有逐研究品質評估、正式證據確定性分級及 meta-analysis。（p2–3）\n\n## Main Findings and Statistical Limits\n\nTable 1 列的是不同設計、族群及終點的既有研究，不能加總為三介入的合併效果。FINGER：1,260 名高風險長者，多領域方案相對一般健康建議每年總認知分數變化差 0.022（95% CI 0.002–0.042）；US POINTER：2,111 名高風險長者，結構式相對自導式多領域方案每年差 0.029 SD（0.008–0.050）。兩者都不是腦傷復健三介入試驗，也沒有單領域臂。SYNERGIC 對輕度認知障礙長者的運動＋認知訓練相對運動單獨的 ADAS-Cog-13 差 −1.45 分（−2.70 至 −0.21），不能證明與斷食、音樂、正念之協同。作者也承認要證明協同須有顯著正向交互作用。（p7–9）\n\n## Critical Appraisal（SANRA 面向）\n\n|面向|判斷|依據|\n|---|---|---|\n|目的與重要性|🟢|明確提出三介入合併是否有超過單項效果的研究問題。（p1–2）|\n|搜尋描述|🟡|有資料庫、時間窗與選文原則，但缺完整搜尋式、流程與預註冊。（p2–3）|\n|證據引用與層級|🟡|多處區分動物、非復健人類與復健試驗；但沒有正式 RoB 或逐結果確定性。（p3–8）|\n|推理與反例|🟢／🟡|承認 FINGER／POINTER 不能證明協同、人體 BDNF 不一致、斷食可能傷害；神經網絡收斂仍屬跨研究推論。（p5–10）|\n|臨床結論|🟢|明示三介入模型不是臨床建議，斷食不應在復健族群常規使用。（p10–11）|\n\n## Limitations and Disclosure\n\n沒有直接三合一試驗或神經復健斷食試驗；音樂研究介入異質、部分來自作者群；生物標記與影像不足以證明功能改善。作者聲明無經費及利益衝突，使用 Grammarly 做語言檢查。本次沒有獨立核對每一篇被引文獻的原始試驗，數值歸屬於本文引述；不給整篇整體 GRADE 等級。（p8–11、Additional Information）\n\n## Resource\n\n- Nistor A, et al. *Cureus*. 2026;18(10):e118230. DOI: [10.7759/cureus.118230](https://doi.org/10.7759/cureus.118230). 首頁標示 CC BY 4.0；本文僅發表自寫分析，不公開原 PDF。",
+      "cards": [],
+      "completedAt": "2026-11-26T11:16:20.380Z"
     }
   ]
 }
