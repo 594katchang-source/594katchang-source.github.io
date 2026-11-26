@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T04:33:05.596Z",
+  "generatedAt": "2026-11-26T05:47:58.767Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -120085,6 +120085,31 @@
         }
       ],
       "completedAt": "2026-11-26T04:31:40.112Z"
+    },
+    {
+      "id": "doi:10.1002/oby.70322:review",
+      "paperId": "doi:10.1002/oby.70322",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Daily 16:8 Versus Weekly 5:2 Intermittent Fasting for Weight Loss and Metabolic Health: A Randomized Controlled Trial.",
+      "authors": "Hyunji Kim, WonYoung Yun, Jihye Han, YoonJu Song",
+      "journal": "Obesity (Silver Spring, Md.)",
+      "year": "2026",
+      "doi": "10.1002/oby.70322",
+      "abstract": "This study compared the effects of 16:8 and 5:2 intermittent fasting on body weight, metabolic outcomes, and temporal response patterns in adults with overweight or obesity. In this open-label randomized trial, 68 women with overweight or obesity were assigned to either a 16:8 regimen or a 5:2 regimen using a fasting-mimicking diet on fasting days for 4 weeks. Primary outcomes were changes in body weight and body composition; secondary outcomes included waist circumference, blood pressure, dietary intake, and glycemic metrics. Across both groups, body weight decreased by 2.7 kg (95% CI -2.9 to -2.4), fat mass by 1.7 kg (-1.9 to -1.5), and muscle mass by 0.6 kg (-0.7 to -0.4). Weight and fat mass reductions were greater over time in the 5:2 group than in the 16:8 group, whereas muscle mass changes were similar. Waist circumference and blood pressure decreased significantly, with no between-group differences. Both regimens reduced eating window duration, energy intake, mean and peak glucose levels, and time spent in hyperglycemia. Both regimens improved body weight and metabolic outcomes over 4 weeks. Despite similar overall effectiveness, the regimens exhibited distinct temporal response patterns, suggesting that temporal dynamics may inform individualized intermittent fasting strategies. Clinical Research Information Service (cris.nih.go.kr) identifier: KCT0010806.",
+      "legalFullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13802545/",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42950885/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "design:randomized controlled",
+        "human clinical population",
+        "obesity and metabolism"
+      ],
+      "noteTitle": "每日 16:8 與每週 5:2 斷食：四週隨機試驗品質評讀",
+      "content": "---\ntags: [source/journal, nutrition/weight-management]\ncitekey: \"Kim2026FastingRegimens\"\ndoi: \"10.1002/oby.70322\"\njournal: \"Obesity\"\nyear: 2026\nauthors: \"Hyunji Kim; WonYoung Yun; Jihye Han; YoonJu Song\"\nstudy_type: \"Open-label randomized controlled trial\"\nreview_depth: \"quick\"\nmode: \"focused-quick\"\n---\n\n> [!info] 品質快照\n> **設計／樣本**：韓國單中心、開放標籤、平行兩組隨機試驗；68 名過重或肥胖成年女性，16:8 組 35 人、5:2 組 33 人，介入四週，65 人完成；作者稱全部隨機者納入意向治療分析。（§2.1–2.3、§3.1、Figure 1）\n> **偏差風險**：🟡有疑慮。電腦產生分派序列且介入前隱藏，但參與者與研究人員無法盲化；飲食自報、體組成以生物電阻測量，研究人員提供個別諮詢和每週接觸；本文未交代遺漏資料的完整處理細節。（§2.1–2.7、§3.1）\n> **GRADE／註冊**：單一 RCT 不給整體 GRADE 確定性；本文載明 KCT0010806，但本次未獨立核對登錄時間及預設終點。（§2.1、§2.6）\n> **一句話判斷**：兩組四週皆減重；5:2 組在後期體重與脂肪量下降較多，但研究太短且飲食熱量也大幅下降，不能據此宣稱長期較優或有獨立於熱量赤字的斷食效果。（Table 2、§4–5）\n\n# Key Points\n\n## Summary\n\n> ✅ 已讀 PMC 身份匹配、具 CC BY 4.0 授權的完整 HTML 主文：摘要、引言、方法、結果、Table 1–4、圖說、討論、結論與聲明。補充 Table S1–S3、Figure S1–S2 未另取得，相關次分析僅按正文描述。（PMC13802545；主文 §1–5）\n\n- 80 人進入前導期，12 人隨機前退出；68 人分派，65 人完成四週。作者報稱全部 68 人納入意向治療分析。（§3.1、Figure 1）\n- 兩組合計第四週體重變化 −2.65 kg（95% CI −2.92 至 −2.37）；16:8 組 −2.19 kg、5:2 組 −3.13 kg，第四週組間變化檢定 p<0.001。組別×週次交互作用的體重 p=0.0046、脂肪量 p<0.001；肌肉量 p=0.9274。（§3.2、Table 2、Figure 2）\n- 兩組自報平均每日熱量各減約 533、548 kcal，組間 p=0.680；體重減少無法歸因於斷食時序本身。生物電阻所測肌肉量合計減約 0.58 kg，須避免把短期減重說成全為脂肪。（Table 2、Table 4）\n- CGM 平均血糖兩組分別降 3.8、4.3 mg/dL，組間 p=0.530；峰值與最低值的變化型態不同，但都是次要指標且觀測期僅最後兩週。（§2.4、Table 4）\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **問題**：每天限時吃八小時，與每週兩天吃約 800 kcal 的 5:2 方法，短期反應有何差異？（§1）\n> - **做法**：68 名韓國成年女性隨機分兩組，兩週前導期後做四週介入；兩組都接受營養諮詢及每週追蹤。（§2.1–2.3）\n> - **結果**：兩組都減重，5:2 組後兩週降得較快；兩組也都吃得比原先少約 500 多 kcal／日。（§3.2–3.3、Table 2、4）\n> - **怎麼用**：可與個案討論不同方式的可行性、蛋白質和肌肉量、進食時段及低血糖風險；本試驗不能證明長期維持、男性或糖尿病用藥者也有相同結果。（§2.2、§4–5）\n\n## 全文結構與逐節閱讀地圖\n\n|位置|逐節重點與證據界線|\n|---|---|\n|摘要與 §1|回顧斷食相對持續熱量限制的證據，指出直接比較 16:8 與 5:2 的時間軌跡資料不足；提出四週比較目的。|\n|§2.1–2.3|開放標籤、電腦分層隨機；納入成年女性、BMI≥23 或體脂≥28%；16:8 自選八小時進食窗，5:2 每週兩個非連續日吃約 800 kcal 商業餐包。|\n|§2.4–2.6|每週量體重、生物電阻體組成與血壓；CGM 量前導期及最後 14 天；飲食與進食時間由每日紀錄計算；主要終點為第四週體重百分比變化。|\n|§2.7|預估每組 29 人可偵測 1.5 kg 差，目標 66 人；線性混合模型比較週次、組別及交互作用，雙側 p<0.05。|\n|§3.1、Table 1、Figure 1|80 人入前導期、68 人隨機、65 人完成；基線平均 35.8 歲、BMI 26.8 kg/m²。|\n|§3.2、Table 2–3、Figure 2|兩組減重、脂肪量下降，5:2 後期幅度較大；腰圍和血壓下降但組間無顯著差。|\n|§3.3、Table 4|兩組進食窗和能量攝取都縮減；CGM 平均血糖下降，峰值／最低值與變異係數有不同型態；纖維資料在 5:2 斷食日缺失。|\n|§3.4–3.5|作者描述補充表中的斷食日分析；四週內未報嚴重不良事件。補充資料未另核對。|\n|§4–5|討論熱量赤字、諮詢與短期動機等可能因素；承認單一性別、小樣本、自報飲食、未量活動量、短追蹤等限制。|\n\n## Clinical Application\n\n- 對有減重需求、符合相近條件的女性，可說兩種方案在四週內均伴隨體重下降，但需先討論個人偏好、可持續性、飲食質量與足夠蛋白質；不能推薦 5:2 為所有人長期較佳。（§2.2–2.3、§4–5）\n- 5:2 的斷食日使用約 800 kcal、含蛋白飲的商業食品；它不是所有 5:2 作法的代表。兩組都受營養諮詢，且沒有純粹照常飲食的對照組。（§2.1、§2.3）\n- 糖尿病使用降糖藥者被排除；本研究不能取代對這類個案的藥物與低血糖評估。兩組 CGM 的 <70 mg/dL 時間略增，組間差異未顯著。（§2.2、Table 4）\n\n# Paper Details\n\n## Methods\n\n試驗於 2025-08-11 至 2025-12-16 在韓國天主教大學進行。兩週前導期取得飲食與 CGM 基線，之後分層電腦隨機 1:1 分派。16:8 組每天禁食 16 小時，5:2 組每週兩個非連續日吃約 800 kcal 餐包，其他五天未規定熱量。每週追蹤體組成與血壓；飲食由日記及照片供研究員檢視。主要終點為第四週體重百分比變化，本文表格另列 kg 變化；次要結果含腰圍、血壓、飲食、CGM。線性混合模型處理重複測量；未見長期追蹤。（§2.1–2.7）\n\n## Main Findings and Statistical Limits\n\nTable 2：第四週體重變化 16:8 為 −2.19 kg（95% CI −2.56 至 −1.81），5:2 為 −3.13 kg（−3.51 至 −2.75），組間 p<0.001；脂肪量分別 −1.23 與 −2.10 kg，組間 p<0.001。肌肉量分別 −0.56、−0.59 kg，組間 p=0.825。Figure 2 的組別×週次交互作用顯示不同時間軌跡，不等於證明長期結局。Table 3 第四週腰圍、收縮壓與舒張壓的組間 p 分別 0.720、0.312、0.935。Table 4 的自報能量攝取減少兩組接近，顯示時序、熱量赤字與共同諮詢的個別貢獻無法分離。多個次要終點有檢定，本文未見多重比較調整說明。（§2.7、§3.2–3.3、Table 2–4）\n\n## Critical Appraisal\n\n|面向|判斷|依據|\n|---|---|---|\n|隨機程序|🟢／🟡|電腦分派、以年齡/BMI/體脂分層且介入前隱藏；序列實際執行細節有限。（§2.2）|\n|偏離預定介入|🟡|開放標籤、兩組共同諮詢；5:2 若錯過斷食日可於同週改期。（§2.1、§2.3）|\n|缺失資料|🟡|68 人隨機、65 人完成，稱全部納入意向治療；未充分交代缺失值處理。（§3.1、Figure 1）|\n|結果測量|🟡|體重客觀，但體組成使用生物電阻、飲食自報；CGM 僅前導期與末兩週。（§2.4–2.5）|\n|選擇性報告|🟡|有註冊號，這次未獨立查登錄時間及原始預設終點；多項次要比較未說明多重校正。（§2.1、§2.6–2.7）|\n\n## Limitations and Disclosure\n\n限於韓國單中心、成年女性、增加脂肪量但代謝大致健康者，且排除使用降糖藥的糖尿病患者；四週無法判定長期依從性或復胖。體力活動未測，飲食紀錄可能低報；5:2 供應特定餐包且兩組均獲諮詢，無未介入對照。作者報無利益衝突，研究獲韓國 NRF 資助；補充 Table S1–S3/Figure S1–S2 未在本次獨立取得，相關次分析不得作較強結論。（§2、§4、Funding、Conflicts of Interest）\n\n## Resource\n\n- Kim H, Yun W, Han J, Song Y. *Obesity*. 2026;34(12):2220–2232. DOI: [10.1002/oby.70322](https://doi.org/10.1002/oby.70322). 完整合法主文：[PMC13802545](https://pmc.ncbi.nlm.nih.gov/articles/PMC13802545/)，CC BY 4.0。（PMC 文章首頁）\n- 本評讀僅提供自寫分析與必要短數據，未公開原文 HTML 或全文副本。",
+      "cards": [],
+      "completedAt": "2026-11-26T05:45:28.665Z"
     }
   ]
 }
