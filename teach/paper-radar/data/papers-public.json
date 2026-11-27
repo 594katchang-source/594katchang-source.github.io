@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T04:11:10.297Z",
+  "generatedAt": "2026-11-27T05:55:11.537Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -120362,6 +120362,31 @@
         }
       ],
       "completedAt": "2026-11-27T04:09:53.759Z"
+    },
+    {
+      "id": "doi:10.3389/fmicb.2026.1972983:review",
+      "paperId": "doi:10.3389/fmicb.2026.1972983",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "High-fiber diet altered gut microbiota, improved glycemic control, and reduced body weight in newly diagnosed type 2 diabetes and obesity.",
+      "authors": "Li Y, Liu Y, Chen Y, Xiang B, Fu H, Pan H, Xu T, Li Z, Zhang Y, Yuan H, Zhang C",
+      "journal": "Frontiers in Microbiology",
+      "year": "2026",
+      "doi": "10.3389/fmicb.2026.1972983",
+      "abstract": "Type 2 diabetes and obesity commonly coexist, making glycemia and body weight both central treatment goals. Few trials have directly compared a high-fiber dietary intervention with metformin. The factors associated with individual responses to high-fiber diet also remain unclear. In this single-center, open-label, head-to-head clinical trial, 48 adults with newly diagnosed type 2 diabetes and overweight or obesity were randomized to a high-fiber dietary intervention without glucose-lowering medication (n = 36) or metformin (n = 12) monotherapy for 84 days; 46 completed the trial. Clinical outcomes and 184 fecal samples were assessed longitudinally using shotgun metagenomic and metabolite profiling. At Day 84, the high-fiber group had greater reductions in glycated hemoglobin and body mass index and lower glycemic variability than the metformin group. The diet altered gut microbiota by Day 28, enriching genomes from Bifidobacterium and Lactobacillus and depleting genomes from Bilophila wadsworthia, but metformin produced little detectable microbiota change. These changes included increased acetate-production functions and decreased hydrogen sulfide-production functions; fecal hydrogen sulfide was lower at Days 28 and 56, although short-chain fatty acid concentrations did not differ between groups at matched time points. Within the high-fiber group, participants with increased fecal acetate (25 of 34) had larger glycated hemoglobin reductions at Days 28 and 56, and baseline microbial features differed between acetate-response subgroups. These findings support high-fiber diet as a non-pharmacologic strategy for diabesity, with baseline microbial features as candidate markers of response. Clinical trial registration: ChiCTR-INR-17011752.",
+      "legalFullTextUrl": "https://doi.org/10.3389/fmicb.2026.1972983",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42890753/",
+      "category": "candidate",
+      "tags": [
+        "chronic disease nutrition",
+        "human clinical population",
+        "obesity and metabolism",
+        "scope:clinical-nutrition-context"
+      ],
+      "noteTitle": "高纖飲食方案對比 metformin：新診斷糖尿病試驗品質評讀",
+      "content": "---\ntags: [source/journal, nutrition/diabetes]\ncitekey: \"Li2026HighFiberDiabesity\"\ndoi: \"10.3389/fmicb.2026.1972983\"\njournal: \"Frontiers in Microbiology\"\nyear: 2026\nauthors: \"Yan Li; Yalei Liu; Yiqi Chen; Baoyu Xiang; Huaqing Fu; Han Pan; Ting Xu; Zhaojie Li; Yajie Zhang; Huijuan Yuan; Chenhong Zhang\"\nstudy_type: \"Open-label randomised controlled trial\"\nreview_depth: \"quick\"\nmode: \"focused-quick\"\n---\n\n> [!info] 品質快照\n> **設計／族群**：中國單中心開放標籤隨機試驗，48 位新診斷 T2D 且 BMI≥24 kg/m² 的成人，高纖飲食方案 36 人、metformin 單藥 12 人；84 天完成 34 與 12 人。（p2–3、p6–7）\n> **兩項主要結果**：第 84 天經基線調整 HbA1c 6.32%（95% CI 6.11–6.53）對 6.74%（6.39–7.09），p=0.042；BMI 28.42（28.07–28.78）對 30.22（29.61–30.83）kg/m²，p<0.001。（p3、p7、Figure 1）\n> **偏差風險**：有疑慮至高；雖稱電腦隨機，分配隱藏未在本文說清，開放標籤且評估者未盲，對照僅 12 人；基線 BMI 與蛋白攝取已不同，介入組同時減少熱量與宏量營養素，無法分出纖維本身效果。（p2–3、p6–7）\n> **GRADE**：Low，限本篇 84 天「整套高纖飲食方案對 metformin」的 HbA1c 比較；單一小型開放試驗有偏差及不精確性，不是所有高纖飲食證據的總體分級。\n> **一句話結論**：本文支持短期整套飲食方案的訊號，尚不足以宣稱單靠纖維優於 metformin 或已證明菌相／乙酸是臨床改善的因果媒介。（p3、p7–14）\n\n# Key Points\n\n## Summary\n\n> ✅ 原始 16 頁 PDF 的首頁 DOI、完整題名、Frontiers 引用、CC BY 與主文相符；首、中、末頁影像抽驗，逐頁讀取 p1–16。原來源與文字 SHA 在 Worker 快取及取得收據。補充資料未另下載，本評讀不把補充表數值當獨立核實。\n\n- W 組接受 84 天高纖方案，含 Formula No. 11 與 No. 3，以及蔬菜、豆類、菇藻、果物和動物性食物的飲食指導；配方用量依個人調整，本文沒有可直接套用的統一克數。U 組接受臨床常規滴定的 metformin 單藥，沒有高纖方案。（p3 §2.1.5）\n- 84 天 HbA1c 的調整後組間差為約 −0.42 個百分點，BMI 差約 −1.80 kg/m²；這兩個差值由本文所列調整後平均數相減，原文未在該段給出差值 CI，不能以兩組 CI 代替差值 CI。（p7 §3.1）\n- 84 天空腹血糖、餐後試驗葡萄糖 AUC、HOMA-IR 與 TIR 並未顯示顯著組間差異；部分 CGM 波動指標、體脂與腰臀比有差異。單一或多項次要結果不能取代兩項主要結果。（p7 §3.1、Figure 1）\n- 184 份糞便樣本來自 46 人四個時點；W 組菌相從 Day 28 起改變，九個增加的關鍵 genome 分到 Bifidobacterium／Lactobacillus，兩個 Bilophila wadsworthia genome 減少。這是菌相關聯，不能直接推論臨床因果。（p7–9 §3.2）\n- 糞便 H₂S 在 Day 28、56 較低，Day 84 未見顯著組間差異；SCFA 濃度在相同時點組間未見顯著差異。乙酸上升者與 HbA1c 降較多的關係屬 W 組內探索性分析，乙酸未被證明是媒介。（p9–12 §3.3–3.5）\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：新診斷糖尿病且過重／肥胖的少量成人，接受 84 天整套高纖飲食方案者，HbA1c 與 BMI 比 metformin 單藥組低；研究同時看到菌相變化，但無法說改善由某一種菌或乙酸造成。\n> - **為什麼做**：研究者想比較飲食方案與 metformin，並探索個人菌相和發酵代謝物是否可解釋反應差異。（p2 §1）\n> - **兩組 protocol**：36 人分到兩種可調配方與完整飲食指導，不用降糖藥；12 人分到 metformin 單藥，不接受高纖介入。兩組追蹤 84 天；藥物劑量與纖維配方克數依個人調整，本文主文無固定共同劑量。（p2–3 §2.1）\n> - **主要結果**：第 84 天調整後 HbA1c 6.32% 對 6.74%（p=0.042），BMI 28.42 對 30.22 kg/m²（p<0.001）；另有 CGM、脂肪與菌相探索結果。（p7–12）\n> - **所以呢**：這是短期多成分飲食對照試驗，對照組很小、開放標籤且 W 組總熱量與宏量營養素攝取也較低；不能拿來停止必要藥物、指定通用配方或把菌相指標用於臨床選人。（p7、p14 §5）\n\n## Paper Details / Methods\n\n- 18–70 歲、新診斷 T2D、HbA1c 6.5 至 <9.0%、BMI≥24 kg/m²；兩週 run-in 後以 SAS RANBIN 產生電腦隨機序列，84 天於 Day 0/28/56/84 評估。排除嚴重器官病變、近期抗生素等，外推至高齡多病或正在多藥治療者有限。（p2–3 §2.1）\n- 兩項主要結果事後以 ANCOVA 對各自基線值調整；其他臨床指標、DEXA 脂肪量、CGM、菌相 shotgun metagenomics、糞便 SCFA／H₂S 為次要或探索性結果。本文未提供明確缺失資料插補方案或多重主要結果調整說明。（p3–6 §2.1.6、§2.8）\n- 試驗登錄號 ChiCTR-INR-17011752 在首頁與 p2 列出；本次未獨立讀取登錄原始版本，無法確認主要終點／時點是否與預先註冊完全一致。（p1–2、p14）\n\n## Critical Appraisal（RoB 2）\n\n| 面向 | 判斷 | 依據 |\n|---|---|---|\n| 隨機化過程 | 有疑慮 | 有電腦序列，未見分配隱藏細節；基線 BMI 與蛋白攝取已有差異。（p2–3、p7） |\n| 偏離預定介入 | 有疑慮 | 開放標籤且飲食與藥物組照護型態明顯不同；W 組熱量與多種營養素攝取較低，不能歸為纖維單效。（p3、p7） |\n| 缺失結果 | 有疑慮 | W 組 36 人有 2 人退出；本文的主要結果未見充分 ITT 與缺失敏感度分析。（p6–7） |\n| 結果量測 | HbA1c 較低疑慮；飲食與部分次要結果有疑慮 | HbA1c 是客觀化驗，但評估者未盲，飲食自報及其他指標更易受影響。（p3–6） |\n| 選擇性報告 | 有疑慮 | 登錄版本未獨立查核；多項次要與微生物檢定，部分校正僅用於相關分析。（p3、p6、p14） |\n\n組間 HbA1c p=0.042 在小型不等分組下較脆弱；本文主段未給組間差值 CI 或事前 MCID，無法確認臨床重要性。BMI 主要結果較強，但基線 BMI 不平衡且飲食組能量攝取較低。不能將體重與糖化血色素同時改善自動解讀成菌相介導；未量 GLP-1，糞便 SCFA 並非體內產生量的直接量測。（p7、p14）\n\n## Key Findings / Mechanism Boundaries\n\n- W 組菌相與預測功能有改變：增加部分 Bifidobacterium／Lactobacillus，降低 Bilophila；計算得到乙酸相關基因較多、H₂S 相關基因較少。這些是定序與功能註解，不等於實際體內代謝通量。（p8–10、Figure 2–4）\n- 糞便乙酸在 W 組 Day 56 相對自身基線上升；但各時點 W 與 U 組的 SCFA 濃度比較未達顯著。Day 84 H₂S 組間也未達顯著。（p9–11、Figure 3–4）\n- W 組 34 位完成者中，25 位至少一個追蹤時點乙酸上升，9 位沒有；兩個事後亞組的基線菌相不同、前者 Day 28/56 HbA1c 降幅較大。此分類用介入後資訊，樣本極小，僅能當候選預測訊號。（p6 §2.7、p11–12、p14 §5）\n\n## Clinical Application\n\n- 可向營養師展示完整飲食介入如何同時追蹤 HbA1c、BMI、實際攝取與腸胃耐受；配方克數需回到原方案與個別臨床評估，不能由本篇摘要臆測。（p3）\n- 不以 84 天試驗取代糖尿病用藥決策；研究對照組僅 12 人，未涵蓋長期心血管、低血糖、用藥中斷及多重共病結果。（p2–3、p14）\n- 尚不能用基線菌相、糞便乙酸或 H₂S 指標挑選患者；需要獨立前瞻性驗證與媒介分析。（p11–14）\n\n## Limitations and Disclosure\n\n單中心、兩組 36:12 不平衡、開放標籤、84 天短追蹤；W 組同時有多項飲食改變，不能分解纖維的單獨效應。metformin 菌相未顯著改變不代表藥物無菌相效應。作者明示未量 GLP-1，乙酸陰性亞組僅 9 人。資助來自 Central Plains Scholars；一位作者於投稿時為 Frontiers 編委，作者聲明其未影響審稿；另聲明使用 ChatGPT 5.6 Sol 潤飾語言。（p13–15）\n\n## Resource\n\n- Li Y, et al. *Frontiers in Microbiology*. 2026;17:1972983. DOI: [10.3389/fmicb.2026.1972983](https://doi.org/10.3389/fmicb.2026.1972983). 本文發表原創評讀，不公開原 PDF。",
+      "cards": [],
+      "completedAt": "2026-11-27T05:53:58.123Z"
     }
   ]
 }
