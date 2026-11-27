@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T04:06:36.250Z",
+  "generatedAt": "2026-11-27T04:11:10.297Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -120294,6 +120294,74 @@
       "content": "---\ntags: [source/journal, nutrition/obesity]\ncitekey: \"Macesic2026BodyComposition\"\ndoi: \"10.3390/sports14110473\"\njournal: \"Sports\"\nyear: 2026\nauthors: \"Marija Macesic; Filip Radovic; Janko Zekovic; Aleksandar Simic; Ognjan Skrobic; Bosko Stepanovic; Jelena Martinov Nestorov; Jelena Popovic; Marija Bursic-Vukadin; Andrija Djuranovic\"\nstudy_type: \"Prospective non-randomised cohort\"\nreview_depth: \"quick\"\nmode: \"focused-quick\"\n---\n\n> [!info] 品質快照\n> **設計／族群**：單中心、前瞻性非隨機隊列；70 位接受 liraglutide 及營養治療的成人，23 位自選參與監督式運動，47 位未參與。（§2.1、Table 1）\n> **主要判斷**：體重、脂肪量、去脂量及估計骨骼肌量的時間×組別交互作用均未達顯著；不能聲稱運動組的絕對軌跡較好。（§3、Table 2）\n> **偏差風險**：高；運動參與自選、兩組蛋白處方不同且實際攝取未量測，12 個月追蹤樣本稀少。（§2.1、§3–4）\n> **GRADE**：Very low，限本篇「運動組相對非運動組較能保存體組成」的因果問題；單篇觀察證據有嚴重混雜與不精確性，不代表所有相關研究的總體證據等級。\n> **一句話結論**：可作為營養與運動共同照護的假說來源，不能拆出運動的獨立療效。（§4–5）\n\n# Key Points\n\n## Summary\n\n> ✅ 已讀身份匹配的 PMC 完整 HTML：DOI、題名、摘要、§1–5、Table 1–6、圖說、聲明及參考文獻；來源 SHA 與取得收據保留在原 Worker。\n\n- 研究在 2022–2025 年納入 70 人；起初符合條件的 100 人中，30 人未開始藥物或沒有任何追蹤，未進分析。運動組 23 人、非運動組 47 人，組別並非隨機分派。（§2.1）\n- 兩組均接受營養師每週追蹤及 liraglutide；非運動組建議蛋白約 1.2 g/kg/day，運動組建議 1.4–2.0 g/kg/day，實際攝取及能量未系統量測。運動組處方每週監督式 2–3 次，含有氧與阻力訓練；實際依從及組外活動未完整量測。（§2.1–2.2）\n- 主要體組成的性別調整時間×組別 p 值：脂肪量 0.550、去脂量 0.370、估計骨骼肌量 0.763、體重 0.872；不能把組內隨時間變化解讀成組間療效。（§3、Table 2）\n- 探索性模型每多減重 1 kg，運動組與非運動組的脂肪減少斜率為 0.780 與 0.451 kg，差 0.328 kg（95% CI 0.146–0.511；交互作用 p=0.001）；去脂量差 −0.233 kg（p=0.004），估計骨骼肌量差 −0.125 kg（p=0.014）。（§3、Table 3）\n- 12 個月體重觀察只剩 12 與 5 人；脂肪量只剩 9 與 4 人，骨骼肌量只剩 9 與 3 人。每次追蹤的人不完全相同，不能從各時間點平均數推算個人長期維持或反彈。（§3、Table 2）\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：在共同接受 liraglutide 與營養治療的人當中，自選加入運動者的「每公斤減重包含多少脂肪與去脂量」呈現不同模式，但絕對體組成變化沒有明確組間差異。\n> - **為什麼做**：減重時同時可能減少肌肉相關量測；研究者想看有監督式運動及較高蛋白建議的照護組合是否伴隨不同體組成。（§1）\n> - **兩組怎麼分**：23 人自選運動組，47 人非運動組；兩組都有藥物與營養師照護，蛋白建議量也不同，因此並非只比較運動。（§2.1–2.2）\n> - **看到什麼**：主要絕對體組成軌跡沒有顯著組間差異；探索性減重組成斜率有差異，但此模型把相互關聯的總體重與組成變化放在一起。（§3、Table 2–3）\n> - **所以呢**：照護時應同時注意體重、營養攝取及體組成；這篇無法證明運動本身防止肌肉流失，亦未直接測量肌力或功能。（§4–5）\n\n## Clinical Application\n\n- 對正在接受 GLP-1 治療的成人，可把營養攝取、活動與體組成一併追蹤；本文的蛋白數字是各組處方目標，不能當作已達到的攝取量或本研究證成的最佳劑量。（§2.1）\n- BIA 的骨骼肌量是估計，會受水分狀態影響；如要判斷功能，另需肌力或身體功能量測。（§2.3、§4）\n- 不以本文探索性斜率作臨床決策閾值；≥3% 骨骼肌量下降是作者的分析切點，並非已驗證的臨床重要變化。（§2.5、§3–4）\n\n## Methods and Critical Appraisal\n\n| ROBINS-I 面向 | 判斷 | 依據 |\n|---|---|---|\n| 混雜 | 嚴重 | 自選運動，兩組蛋白處方不同；實際蛋白、總熱量、運動依從、組外活動及共病藥物未充分量測。（§2.1–2.2、§4） |\n| 參與者選入 | 嚴重 | 100 位初篩者有 30 位未開始治療或無追蹤，分析限至少一次追蹤者。（§2.1） |\n| 介入分類 | 中等 | 有運動組參與紀錄，卻缺完整運動量、強度與組外活動資料。（§2.2） |\n| 偏離預期介入 | 嚴重 | 實際藥物暴露、蛋白及熱量攝取未系統量測。（§2.1） |\n| 缺失資料 | 嚴重 | 12 個月多數結果僅個位數追蹤；mixed model 可用已有數據，不能排除與結果相關的流失。（§3–4） |\n| 結果量測 | 中等 | BIA 受水分影響，無直接肌力或功能結果。（§2.3、§4） |\n| 選擇性報告 | 無足夠資料 | 本次未核得事前註冊與完整分析計畫；探索性分析與多重比較未調整。（§2.5、§3） |\n\n統計採性別調整 mixed-effects model、探索性條件斜率模型，以及以 ≥3% 估計骨骼肌量下降為結果的 GEE。探索性斜率中脂肪、去脂量與總體重共享量測，不能據此推定運動獨立因果。無多重檢定校正，12 個月組間估計很不穩定。沒有可對照的預先指定 MCID；研究也沒有直接測肌力，故不宣稱達臨床重要差異。（§2.5、§3、Table 2–6）\n\n## Limitations and Disclosure\n\n單中心、小樣本、非隨機、蛋白處方與運動同時不同、嚴重追蹤流失、BIA 間接量測，且無單獨營養或單獨藥物對照組。作者聲明無研究經費與利益衝突；倫理審查核准號 30/2022。（§4、Funding、Conflicts of Interest、Institutional Review Board Statement）\n\n## Resource\n\n- Macesic M, et al. *Sports*. 2026;14(11):473. DOI: [10.3390/sports14110473](https://doi.org/10.3390/sports14110473). 完整來源：[PMC13808079](https://pmc.ncbi.nlm.nih.gov/articles/PMC13808079/)。本文僅發布原創評讀，不包含原全文副本。",
       "cards": [],
       "completedAt": "2026-11-27T04:04:07.711Z"
+    },
+    {
+      "id": "doi:10.3390/sports14110473:digest",
+      "paperId": "doi:10.3390/sports14110473",
+      "kind": "digest",
+      "evidenceScope": "full_text",
+      "title": "Body Composition and Quality of Weight Loss During Liraglutide 3.0 mg Therapy: Association with a Structured Exercise Programme.",
+      "authors": "Marija Macesic, Filip Radovic, Janko Zekovic, Aleksandar Simic, Ognjan Skrobic, Bosko Stepanovic, Jelena Martinov Nestorov, Jelena Popovic, Marija Bursic-Vukadin, Andrija Djuranovic",
+      "journal": "Sports",
+      "year": "2026",
+      "doi": "10.3390/sports14110473",
+      "abstract": "We evaluated changes in body composition, metabolic parameters, and quality of life during liraglutide 3.0 mg treatment within a multimodal obesity-management programme and explored their association with participation in structured exercise. This prospective, non-randomised, real-world cohort included 70 adults with overweight or obesity receiving liraglutide and medical nutrition therapy 23 participated in the structured exercise group (SEG) and 47 in the non-structured exercise group (NSEG). Sex-adjusted models showed significant changes over time in body weight, BMI, waist circumference, fat mass (FM), skeletal muscle mass (SMM) and several metabolic parameters, without significant time × group interactions for the main body-composition outcomes. Exploratory analyses showed different FM, FFM and SMM loss patterns per kilogram of total body-weight loss between groups (interaction p = 0.001, 0.004, and 0.014, respectively). Quality of life improved in several domains at 6 months. During liraglutide-based multimodal treatment, participants showed reductions in body weight and FM, together with favourable changes in several metabolic and quality-of-life measures. Absolute body composition trajectories were similar between groups, but exploratory analyses showed a different pattern in the composition of weight loss in SEG.",
+      "legalFullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13808079/",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43083341/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "dietitian clinical nutrition",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "obesity and metabolism",
+        "safety and interaction"
+      ],
+      "noteTitle": "Liraglutide 減重、運動與體組成：全文重點與自測",
+      "content": "---\ntags: [research/digest, nutrition/obesity]\ncitekey: \"Macesic2026BodyComposition\"\ndoi: \"10.3390/sports14110473\"\njournal: \"Sports\"\nyear: 2026\nmode: \"worker-batch\"\naliases: [\"Body Composition and Quality of Weight Loss During Liraglutide 3.0 mg Therapy\"]\n---\n\n> [!summary] 30 秒吸收\n> - 70 位成人在 liraglutide 與營養師照護中，23 位自選參加監督式運動，47 位沒有參加。（§2.1）\n> - 兩組體重及主要體組成的絕對變化軌跡沒有顯著交互作用。（§3、Table 2）\n> - 探索性模型中，每減重 1 kg 的脂肪減少斜率：運動組 0.780 kg、非運動組 0.451 kg；兩組蛋白處方也不同，不能把差異單獨歸因運動。（§2.1、§3、Table 3）\n> - 12 個月多個結果僅剩個位數量測，BIA 估計骨骼肌量不等於肌力或功能。（§3–4）\n> - 品質 → 見同篇品質快照；本篇是內容整理，因果可信度須看配對評讀。\n\n以下各節的「要點」構成 5 分鐘層，表格與段落提供完整層。\n\n## 研究問題 / 背景\n\n**要點**：作者關心減重的組成，而不只看體重下降。（§1）\n\n- GLP-1 治療期間的體重變化包含脂肪與去脂組織；研究問：共同接受藥物與營養治療時，參與監督式運動者的體組成變化是否不同。（§1）\n- 論文將「絕對體組成軌跡」與「每公斤體重變化伴隨的組成變化」分開分析；後者是探索性問題。（§2.5）\n\n## 方法\n\n**要點**：單中心非隨機隊列，兩組除了運動參與，蛋白處方也不同。（§2）\n\n- 2022–2025 年塞爾維亞單中心，100 位初步符合者中 70 位有至少一次追蹤並進分析；運動組 SEG 23 人、非運動組 NSEG 47 人，參與是自選。（§2.1）\n- 全部接受 liraglutide 每日治療與營養師每週追蹤，建議約 500–750 kcal/day 的能量赤字；NSEG 蛋白處方約 1.2 g/kg/day，SEG 約 1.4–2.0 g/kg/day，實際蛋白及能量攝取沒有系統紀錄。（§2.1）\n- SEG 建議每週 2–3 次監督式有氧與阻力訓練；有氧每週約 60 分鐘、阻力訓練約 50–70% 1RM。兩組都收到增加日常活動的建議。（§2.2）\n- 在基線、3、6、12 個月量測體重、腰圍與 InBody 270 BIA 估計的脂肪量、去脂量、骨骼肌量；生活品質 EQ-5D-5L 在基線與 6 個月測量。統計以性別調整 mixed-effects model；另以減重公斤數作探索性斜率分析。（§2.3–2.5）\n\n## 主要發現\n\n**要點**：絕對體組成軌跡沒有明確組間差異，探索性斜率則有差異。（§3）\n\n| 結果 | 運動組 SEG | 非運動組 NSEG | 解讀與位置 |\n|---|---:|---:|---|\n| 基線體重 | 106.09 ± 28.22 kg | 106.99 ± 25.81 kg | 兩組起點接近；Table 1 |\n| 3 個月體重觀察平均 | 95.96 kg，n=20 | 96.92 kg，n=46 | 不同時間點可能是不同人；Table 2 |\n| 體重時間×組別 | — | — | p=0.872，未顯示組間變化不同；Table 2 |\n| 脂肪量時間×組別 | — | — | p=0.550；Table 2 |\n| 去脂量時間×組別 | — | — | p=0.370；Table 2 |\n| 估計骨骼肌量時間×組別 | — | — | p=0.763；Table 2 |\n| 每減重 1 kg 伴隨的脂肪量減少斜率 | 0.780 kg | 0.451 kg | 斜率差 0.328 kg，95% CI 0.146–0.511，交互作用 p=0.001；探索性，Table 3 |\n| 每減重 1 kg 伴隨的去脂量減少斜率 | 0.194 kg | 0.427 kg | 斜率差 −0.233 kg，p=0.004；探索性，Table 3 |\n| 每減重 1 kg 伴隨的估計骨骼肌量減少斜率 | 0.119 kg | 0.244 kg | 斜率差 −0.125 kg，p=0.014；探索性，Table 3 |\n\n- 12 個月體重資料只剩 SEG 12、NSEG 5 人；脂肪量為 9、4 人；骨骼肌量為 9、3 人。晚期估計不能用作穩定組間結論。（§3、Table 2）\n- 在 42 人、69 次有骨骼肌量資料的追蹤中，分析性 ≥3% 下降切點發生 35 次。分別建立的 GEE 模型顯示，基線 BMI 每高 5 kg/m² 的 OR 為 1.75（95% CI 1.14–2.67），同步體重減少每多 5 個百分點的 OR 為 2.61（1.39–4.92）；這些不是互相調整的獨立風險估計，也不是已驗證的臨床切點。（§3、Table 5）\n- 64 人有配對生活品質資料，活動能力、疼痛與焦慮等領域的組內分數改善；兩組改變量的比較未達顯著。（§3、Supplementary Table S2–S3）\n\n## 臨床意義 / 怎麼用\n\n**要點**：可提醒營養師同時關注攝取、體組成與功能，但不能將組間探索性斜率當作運動療效。（§4–5）\n\n- 治療期間要檢視食慾與實際攝取、肌肉相關量測及活動，避免只看體重；本研究未量化實際蛋白達成率。（§2.1、§4）\n- BIA 的估計骨骼肌量受水分影響，本文未量肌力或功能，無法據此判定肌肉健康的臨床變化。（§2.3、§4）\n- 自選運動、蛋白處方不同、追蹤流失及缺單獨介入對照，使運動、營養與藥物效果無法拆解。（§4）\n\n## 重要圖表重述\n\n**要點**：Table 2 是主要絕對變化，Table 3 是探索性減重組成，兩者回答不同問題。（§3）\n\n- Table 1：兩組基線人口、體組成及代謝資料；運動組男性比例 39.1%，非運動組 19.1%，性別標準化差 0.451。（§3）\n- Table 2 與 Figure 1：各時間點觀察平均、性別調整模型及 95% CI；主要體組成沒有顯著時間×組別交互作用，12 個月資料稀少。（§3）\n- Table 3 與 Figure 2：探索性「每公斤體重變化」斜率與有配對量測者的描述變化；組成分子與體重分母共享量測，不能視為獨立運動效應。（§3）\n- Table 4–6：體組成指數與 ≥3% 骨骼肌量下降的探索性模型；多次比較未校正，部分晚期格數僅 1–3 人。（§3）\n\n## 與既有認知的對照\n\n**要點**：本次無可核驗的 vault_search 結果，不虛構既有筆記連結；可與同篇品質評讀對照其因果限制。\n\n## 概念 / 名詞整理\n\n**要點**：體重、去脂量與功能不是同一件事。（§2.3、§4）\n\n- FM 是脂肪量；FFM 是扣除脂肪後的組成，包含水分及其他組織；SMM 是 BIA 估計的骨骼肌量，不能直接代表肌力。\n- 「時間×組別交互作用」問兩組隨時間的變化軌跡是否不同；「每公斤減重斜率」問減重幅度相近時，組成量測與體重變化的條件關聯。兩者不應互換。\n- ≥3% SMM 下降是本研究分析切點，並非已確立的臨床重要差異。\n\n## 自我測驗\n\n> [!question]- Q1：為什麼不能說監督式運動已證明保護肌肉？\n> 運動是自選，兩組蛋白處方不同且實際攝取未量測；主要 SMM 時間×組別 p=0.763，探索性斜率不能拆出獨立運動效果。（§2.1、§3、Table 2–3）\n\n> [!question]- Q2：Table 2 與 Table 3 的問題有何不同？\n> Table 2 看絕對體組成軌跡，主要交互作用未達顯著；Table 3 看每公斤減重的條件組成斜率，屬探索性且共享量測。（§3）\n\n> [!question]- Q3：12 個月結果最需要哪個警告？\n> 追蹤樣本非常少，例如 FM 只有 9 與 4 人；不同時間點的平均值來自不完全相同的人，不能推定個人維持或反彈。（§3、Table 2）\n\n> [!question]- Q4：如何解讀 ≥3% 骨骼肌量下降的 OR？\n> 這是作者自選的分析切點；Table 5 各行是分別建模的關聯，BMI 與同步減重 OR 不代表互相調整的獨立因果風險。（§2.5、§3、Table 5）\n\n## Reference\n\n- Macesic M, et al. *Sports*. 2026;14(11):473. DOI: [10.3390/sports14110473](https://doi.org/10.3390/sports14110473). 完整來源：[PMC13808079](https://pmc.ncbi.nlm.nih.gov/articles/PMC13808079/)；本站只公開自寫整理，不包含原文全文。",
+      "cards": [
+        {
+          "title": "Liraglutide 減重與體組成",
+          "question": "為何不能將運動組的體組成斜率差解讀為運動獨立療效？",
+          "answer": "運動參與自選，兩組蛋白處方不同且實際攝取未量測；總體重與組成變化也共享量測。主要絕對體組成交互作用未顯著。（§2.1、§3、Table 2–3）",
+          "tags": [
+            "obesity",
+            "nutrition",
+            "body-composition"
+          ]
+        },
+        {
+          "title": "Liraglutide 減重與體組成",
+          "question": "本文主要絕對體組成軌跡有顯著運動組差異嗎？",
+          "answer": "沒有。脂肪量、去脂量與估計骨骼肌量的時間×組別 p 值依序 0.550、0.370、0.763。（§3、Table 2）",
+          "tags": [
+            "obesity",
+            "nutrition",
+            "body-composition"
+          ]
+        },
+        {
+          "title": "Liraglutide 減重與體組成",
+          "question": "12 個月資料為何不能可靠判定長期組間效果？",
+          "answer": "追蹤大幅減少；脂肪量僅運動組 9 人、非運動組 4 人，且不同訪視的參與者不完全相同。（§3、Table 2）",
+          "tags": [
+            "obesity",
+            "nutrition",
+            "body-composition"
+          ]
+        },
+        {
+          "title": "Liraglutide 減重與體組成",
+          "question": "≥3% 骨骼肌量下降的 OR 可否當臨床預測？",
+          "answer": "不可。切點未經臨床驗證，Table 5 各行為分別建模的探索性關聯，沒有互相調整。（§3、Table 5）",
+          "tags": [
+            "obesity",
+            "nutrition",
+            "body-composition"
+          ]
+        }
+      ],
+      "completedAt": "2026-11-27T04:09:53.759Z"
     }
   ]
 }
