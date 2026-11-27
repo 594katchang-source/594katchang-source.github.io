@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T11:21:44.179Z",
+  "generatedAt": "2026-11-27T04:06:36.250Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -120267,6 +120267,33 @@
         }
       ],
       "completedAt": "2026-11-26T11:20:20.384Z"
+    },
+    {
+      "id": "doi:10.3390/sports14110473:review",
+      "paperId": "doi:10.3390/sports14110473",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Body Composition and Quality of Weight Loss During Liraglutide 3.0 mg Therapy: Association with a Structured Exercise Programme.",
+      "authors": "Marija Macesic, Filip Radovic, Janko Zekovic, Aleksandar Simic, Ognjan Skrobic, Bosko Stepanovic, Jelena Martinov Nestorov, Jelena Popovic, Marija Bursic-Vukadin, Andrija Djuranovic",
+      "journal": "Sports",
+      "year": "2026",
+      "doi": "10.3390/sports14110473",
+      "abstract": "We evaluated changes in body composition, metabolic parameters, and quality of life during liraglutide 3.0 mg treatment within a multimodal obesity-management programme and explored their association with participation in structured exercise. This prospective, non-randomised, real-world cohort included 70 adults with overweight or obesity receiving liraglutide and medical nutrition therapy 23 participated in the structured exercise group (SEG) and 47 in the non-structured exercise group (NSEG). Sex-adjusted models showed significant changes over time in body weight, BMI, waist circumference, fat mass (FM), skeletal muscle mass (SMM) and several metabolic parameters, without significant time × group interactions for the main body-composition outcomes. Exploratory analyses showed different FM, FFM and SMM loss patterns per kilogram of total body-weight loss between groups (interaction p = 0.001, 0.004, and 0.014, respectively). Quality of life improved in several domains at 6 months. During liraglutide-based multimodal treatment, participants showed reductions in body weight and FM, together with favourable changes in several metabolic and quality-of-life measures. Absolute body composition trajectories were similar between groups, but exploratory analyses showed a different pattern in the composition of weight loss in SEG.",
+      "legalFullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13808079/",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43083341/",
+      "category": "recommended",
+      "tags": [
+        "clinical nutrition technology",
+        "dietitian clinical nutrition",
+        "human clinical population",
+        "nutrition and dietary pattern",
+        "obesity and metabolism",
+        "safety and interaction"
+      ],
+      "noteTitle": "Liraglutide 減重期間體組成與運動：前瞻性隊列品質評讀",
+      "content": "---\ntags: [source/journal, nutrition/obesity]\ncitekey: \"Macesic2026BodyComposition\"\ndoi: \"10.3390/sports14110473\"\njournal: \"Sports\"\nyear: 2026\nauthors: \"Marija Macesic; Filip Radovic; Janko Zekovic; Aleksandar Simic; Ognjan Skrobic; Bosko Stepanovic; Jelena Martinov Nestorov; Jelena Popovic; Marija Bursic-Vukadin; Andrija Djuranovic\"\nstudy_type: \"Prospective non-randomised cohort\"\nreview_depth: \"quick\"\nmode: \"focused-quick\"\n---\n\n> [!info] 品質快照\n> **設計／族群**：單中心、前瞻性非隨機隊列；70 位接受 liraglutide 及營養治療的成人，23 位自選參與監督式運動，47 位未參與。（§2.1、Table 1）\n> **主要判斷**：體重、脂肪量、去脂量及估計骨骼肌量的時間×組別交互作用均未達顯著；不能聲稱運動組的絕對軌跡較好。（§3、Table 2）\n> **偏差風險**：高；運動參與自選、兩組蛋白處方不同且實際攝取未量測，12 個月追蹤樣本稀少。（§2.1、§3–4）\n> **GRADE**：Very low，限本篇「運動組相對非運動組較能保存體組成」的因果問題；單篇觀察證據有嚴重混雜與不精確性，不代表所有相關研究的總體證據等級。\n> **一句話結論**：可作為營養與運動共同照護的假說來源，不能拆出運動的獨立療效。（§4–5）\n\n# Key Points\n\n## Summary\n\n> ✅ 已讀身份匹配的 PMC 完整 HTML：DOI、題名、摘要、§1–5、Table 1–6、圖說、聲明及參考文獻；來源 SHA 與取得收據保留在原 Worker。\n\n- 研究在 2022–2025 年納入 70 人；起初符合條件的 100 人中，30 人未開始藥物或沒有任何追蹤，未進分析。運動組 23 人、非運動組 47 人，組別並非隨機分派。（§2.1）\n- 兩組均接受營養師每週追蹤及 liraglutide；非運動組建議蛋白約 1.2 g/kg/day，運動組建議 1.4–2.0 g/kg/day，實際攝取及能量未系統量測。運動組處方每週監督式 2–3 次，含有氧與阻力訓練；實際依從及組外活動未完整量測。（§2.1–2.2）\n- 主要體組成的性別調整時間×組別 p 值：脂肪量 0.550、去脂量 0.370、估計骨骼肌量 0.763、體重 0.872；不能把組內隨時間變化解讀成組間療效。（§3、Table 2）\n- 探索性模型每多減重 1 kg，運動組與非運動組的脂肪減少斜率為 0.780 與 0.451 kg，差 0.328 kg（95% CI 0.146–0.511；交互作用 p=0.001）；去脂量差 −0.233 kg（p=0.004），估計骨骼肌量差 −0.125 kg（p=0.014）。（§3、Table 3）\n- 12 個月體重觀察只剩 12 與 5 人；脂肪量只剩 9 與 4 人，骨骼肌量只剩 9 與 3 人。每次追蹤的人不完全相同，不能從各時間點平均數推算個人長期維持或反彈。（§3、Table 2）\n\n## 白話導讀\n\n> [!abstract] 整篇講給你聽\n> - **一句話**：在共同接受 liraglutide 與營養治療的人當中，自選加入運動者的「每公斤減重包含多少脂肪與去脂量」呈現不同模式，但絕對體組成變化沒有明確組間差異。\n> - **為什麼做**：減重時同時可能減少肌肉相關量測；研究者想看有監督式運動及較高蛋白建議的照護組合是否伴隨不同體組成。（§1）\n> - **兩組怎麼分**：23 人自選運動組，47 人非運動組；兩組都有藥物與營養師照護，蛋白建議量也不同，因此並非只比較運動。（§2.1–2.2）\n> - **看到什麼**：主要絕對體組成軌跡沒有顯著組間差異；探索性減重組成斜率有差異，但此模型把相互關聯的總體重與組成變化放在一起。（§3、Table 2–3）\n> - **所以呢**：照護時應同時注意體重、營養攝取及體組成；這篇無法證明運動本身防止肌肉流失，亦未直接測量肌力或功能。（§4–5）\n\n## Clinical Application\n\n- 對正在接受 GLP-1 治療的成人，可把營養攝取、活動與體組成一併追蹤；本文的蛋白數字是各組處方目標，不能當作已達到的攝取量或本研究證成的最佳劑量。（§2.1）\n- BIA 的骨骼肌量是估計，會受水分狀態影響；如要判斷功能，另需肌力或身體功能量測。（§2.3、§4）\n- 不以本文探索性斜率作臨床決策閾值；≥3% 骨骼肌量下降是作者的分析切點，並非已驗證的臨床重要變化。（§2.5、§3–4）\n\n## Methods and Critical Appraisal\n\n| ROBINS-I 面向 | 判斷 | 依據 |\n|---|---|---|\n| 混雜 | 嚴重 | 自選運動，兩組蛋白處方不同；實際蛋白、總熱量、運動依從、組外活動及共病藥物未充分量測。（§2.1–2.2、§4） |\n| 參與者選入 | 嚴重 | 100 位初篩者有 30 位未開始治療或無追蹤，分析限至少一次追蹤者。（§2.1） |\n| 介入分類 | 中等 | 有運動組參與紀錄，卻缺完整運動量、強度與組外活動資料。（§2.2） |\n| 偏離預期介入 | 嚴重 | 實際藥物暴露、蛋白及熱量攝取未系統量測。（§2.1） |\n| 缺失資料 | 嚴重 | 12 個月多數結果僅個位數追蹤；mixed model 可用已有數據，不能排除與結果相關的流失。（§3–4） |\n| 結果量測 | 中等 | BIA 受水分影響，無直接肌力或功能結果。（§2.3、§4） |\n| 選擇性報告 | 無足夠資料 | 本次未核得事前註冊與完整分析計畫；探索性分析與多重比較未調整。（§2.5、§3） |\n\n統計採性別調整 mixed-effects model、探索性條件斜率模型，以及以 ≥3% 估計骨骼肌量下降為結果的 GEE。探索性斜率中脂肪、去脂量與總體重共享量測，不能據此推定運動獨立因果。無多重檢定校正，12 個月組間估計很不穩定。沒有可對照的預先指定 MCID；研究也沒有直接測肌力，故不宣稱達臨床重要差異。（§2.5、§3、Table 2–6）\n\n## Limitations and Disclosure\n\n單中心、小樣本、非隨機、蛋白處方與運動同時不同、嚴重追蹤流失、BIA 間接量測，且無單獨營養或單獨藥物對照組。作者聲明無研究經費與利益衝突；倫理審查核准號 30/2022。（§4、Funding、Conflicts of Interest、Institutional Review Board Statement）\n\n## Resource\n\n- Macesic M, et al. *Sports*. 2026;14(11):473. DOI: [10.3390/sports14110473](https://doi.org/10.3390/sports14110473). 完整來源：[PMC13808079](https://pmc.ncbi.nlm.nih.gov/articles/PMC13808079/)。本文僅發布原創評讀，不包含原全文副本。",
+      "cards": [],
+      "completedAt": "2026-11-27T04:04:07.711Z"
     }
   ]
 }
