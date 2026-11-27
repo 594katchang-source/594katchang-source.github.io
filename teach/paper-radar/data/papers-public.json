@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T06:12:07.827Z",
+  "generatedAt": "2026-11-27T06:20:07.590Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -120542,6 +120542,29 @@
         }
       ],
       "completedAt": "2026-11-27T06:10:35.597Z"
+    },
+    {
+      "id": "doi:10.1007/s00394-026-04115-3:review",
+      "paperId": "doi:10.1007/s00394-026-04115-3",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Identification of serum metabolites associated with the EAT-Lancet planetary health diet, and their mediating role in weight status and weight changes in adults.",
+      "authors": "Suikki T, Maukonen M, Havulinna A, Tammi R, Halme A, Pussinen P, Pietilä T, Pajari A, Männistö S",
+      "journal": "European Journal of Nutrition",
+      "year": "2026",
+      "doi": "10.1007/s00394-026-04115-3",
+      "abstract": "Better adherence to a healthy and sustainable diet has been associated with a lower body weight, but the underlying metabolic mechanisms remain unclear. We examined whether serum metabolites mediate this association. We used data from three Finnish population-based health examination studies (n = 9225, 54% of women, mean age of 54 years). Diet quality was assessed with a dietary score based on the Planetary Health Diet (PHD) adapted to Finnish food culture. Weight, height, waist circumference (WC), and body mass index were measured at baseline and follow-up, and their percentual changes over seven years were calculated. Serum metabolites (n = 158) were quantified using a high-throughput nuclear magnetic resonance (NMR) spectroscopy metabolomics platform (Nightingale Health Plc). The role of individual metabolites in the diet-anthropometry associations by sex were assessed by mediation analyses using multivariable linear regression. Analyses were replicated in an independent dataset of three additional Finnish studies (n = 10242). Mediation analyses indicated that seven metabolites partly mediated diet-WC association in both men and women: short-chain fatty acid acetate (7.6/3.1%, respectively), degree of fatty acid unsaturation (26.0/23.1%), and several fatty acid-to-total fatty acid ratios (polyunsaturated (35.6/46.5%), docosahexaenoic (5.5/9.6%), omega-3 (4.0/9.8%), linoleic (31.4/49.9%), and saturated fatty acids (12.1/13.0%). The association between higher PHD adherence and a smaller WC was partly explained by several serum metabolites likely reflecting higher fiber intake and better fat quality of the PHD. These findings suggest that healthy and sustainable diets may contribute to weight management through favourable metabolic profiles.",
+      "legalFullTextUrl": "",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42841987/",
+      "category": "candidate",
+      "tags": [
+        "nutrition and dietary pattern",
+        "precision nutrition"
+      ],
+      "noteTitle": "行星健康飲食、血清代謝物與腰圍：芬蘭成人研究評讀",
+      "content": "---\ntags: [source/journal, nutrition/diet-pattern]\ncitekey: \"Suikki2026PlanetaryMetabolites\"\ndoi: \"10.1007/s00394-026-04115-3\"\njournal: \"European Journal of Nutrition\"\nyear: 2026\nauthors: \"Tiina Suikki; Mirkka Maukonen; Aki S. Havulinna; Rilla Tammi; Anne-Mari Halme; Pirkko Pussinen; Tuulia Kreetta Pietilä; Anne-Maria Pajari; Satu Männistö\"\nstudy_type: \"Pooled observational cohorts with cross-sectional mediation\"\nreview_depth: \"quick\"\nmode: \"focused-quick\"\n---\n\n> [!info] 品質快照\n> **設計／族群**：芬蘭多個人口調查，主分析 9,225 位成人，另 10,242 位獨立資料複驗；飲食與血清代謝物、基線腰圍主要為同期觀察。（p1–5）\n> **關鍵結果**：主分析 PHD 分數每增 1 點，腰圍在男性 β −0.43 cm（95% CI −0.70 至 −0.17；FDR p=0.002）、女性 −0.50 cm（−0.74 至 −0.25；FDR p<0.001）；7 年體重、BMI、腰圍變化均未見顯著關聯。（p6–7 Table 3）\n> **複驗與機轉**：獨立資料僅女性腰圍關聯可複驗，男性未達顯著；乙酸與脂肪酸比值的統計「中介」多為同期觀察，不能建立因果鏈。（p7、p10 Table 4）\n> **偏差風險／GRADE**：觀察性設計有 FFQ 記憶誤差、健康生活型態和藥物殘餘混雜、部分追蹤自量；對「改善 PHD 飲食導致腰圍縮小」的因果主張確定性極低，不能把統計模型稱作機轉試驗。（p3–4、p11–12）\n> **一句話**：較高芬蘭版 PHD 分數與較小基線腰圍及某些血清代謝物同時相關，本文沒有證明 7 年減重或乙酸介導的因果效果。\n\n# Key Points\n\n## Summary\n\n> ✅ 15 頁原 PDF 首頁同時載 DOI、完整題名、*European Journal of Nutrition* 2026;65:269 與 © authors；已逐頁讀取，p1、p8、p15 為首／中／末抽核。自動題名擷取先抓到首頁機構行，但原 PDF 題名與 DOI 在同頁可直接核對，無借 metadata 代替。\n\n- 芬蘭版 PHD 分數（PHDS）由 13 個食物／營養項目各 0/1 構成；FFQ 回憶過去一年飲食。主分析男性平均 3.4、女性 4.1 分，滿分 13。（p3、p5 Table 1–2）\n- 主資料 PHDS 與同期腰圍男女都負相關，但 7 年追蹤體重、BMI、腰圍變化全部未顯著；不要把基線橫斷結果寫成減重效果。（p6–7 Table 3）\n- 158 個 NMR 血清標誌物中，乙酸、脂肪酸不飽和度、PUFA／SFA 等與 PHDS、腰圍有關；逐一放入迴歸後「中介比例」只是模型估算，曝露與中介同期量測，且有未測混雜可能。（p4、p6–10）\n- 主資料七項男女皆見的候選中介，到複驗資料只有女性的三項訊號及腰圍關聯；補充表本次未獨立取得，僅依主文敘述。（p7）\n\n## 白話導讀\n\n研究用芬蘭成年人的飲食問卷、腰圍與血液代謝物，問較接近「行星健康飲食」的人是否腰圍較小，以及乙酸或血中脂肪酸能否解釋關聯。確實看到同期關聯，但七年後的身體尺寸變化沒有相同訊號。這項研究可提出要測試的機轉，不能證明改吃這種飲食會經由乙酸減重。（p1、p6–7、p11–12）\n\n## Paper Details / Methods\n\n- 主資料 FinHealth 2017 與 DILGOM 2007/2014 合計 9,225；複驗 FINRISK 2012 與 Health 2000/2011 合計 10,242。主資料 4,209 男、5,016 女，平均 54 歲；有追蹤體重者較少。（p2–3、p5 Table 1）\n- 13 項 PHDS、128–131 食物 FFQ；血清 NMR 158 指標，回歸按性別分開，調整年齡、調查、活動、吸菸、降脂藥；多重檢定用 BH-FDR；逐一中介模型以 5,000 次 bootstrap。（p3–5）\n- 先測 PHDS→身體量測，再測 PHDS→代謝物、代謝物→身體量測，最後將代謝物逐項納入模型。這是觀察資料的統計分解，沒有隨機飲食或中介干預。（p4 Figure 1）\n\n## Critical Appraisal\n\n| 面向 | 判斷與來源 |\n|---|---|\n| 暴露測量 | FFQ 雖驗證仍有回憶／報告偏差；PHDS 項目按 2500 kcal 標準化，低分與窄分布限制外推。（p3、p9、p11） |\n| 結局測量 | 基線身體量測多由護士，DILGOM 2014 部分追蹤自量；主分析與追蹤樣本數不同。（p3、p5） |\n| 混雜 | 已調整部分生活型態和降脂藥，其他用藥未得；整體飲食、社經、能量與健康行為仍可能混雜。（p4–5、p11–12） |\n| 統計與複驗 | FDR 限多元迴歸；中介逐項估計，代謝物相互相關，部分訊號複驗只在女性。（p4、p7、p10） |\n| 因果方向 | 飲食、代謝物及基線腰圍同期測量，無時間先後；「中介」不得解釋為已驗證生物因果。（p3–4、p6–7） |\n| 長期變化 | 7 年體重、BMI、腰圍變化無顯著 PHDS 關聯，無支持預測減重。（p6–7 Table 3） |\n\n## Key Findings\n\n- 男、女基線腰圍每 1 分 PHDS 的調整 β 分別為 −0.43、−0.50 cm；女性體重和 BMI 亦有同期負相關，男性沒有。（p6–7 Table 3）\n- 男、女 7 年體重、BMI、腰圍變化全未顯著。複驗資料僅女性腰圍 β −0.40 cm、FDR p=0.01。（p6–7）\n- 主資料乙酸與脂肪酸比值等七項被作者稱為部分中介；Table 4 男性 omega-3/FA 的 FDR p=0.08，未達其 0.05 閾值，不能概括七項全顯著。女性表中某些比例為負值，亦不宜簡化為保護作用。（p10 Table 4）\n- 複驗資料僅女性乙酸、omega-3/FA、SFA/FA 三項相關模式，並非所有主資料發現重現。（p7）\n\n## Clinical Application\n\n- 可將較佳飲食品質與脂肪品質列入飲食評估，但本篇沒有足夠證據指定測血清乙酸來選病人或追蹤減重。（p9–12）\n- 解說時區分「基線腰圍較小」與「後續腰圍縮小」；後者本文未見顯著關聯。（p6–7）\n\n## Limitations and Disclosure\n\n芬蘭族群、橫斷中介、FFQ、部分自量及未測用藥限制因果與外推。作者聲明資助來源未干預發表、無利益衝突；補充資料與原始資料申請未獨立核驗。（p11–12）\n\n## Resource\n\nSuikki T, et al. *European Journal of Nutrition*. 2026;65:269. [DOI 10.1007/s00394-026-04115-3](https://doi.org/10.1007/s00394-026-04115-3). 不公開原 PDF。",
+      "cards": [],
+      "completedAt": "2026-11-27T06:19:18.655Z"
     }
   ]
 }
