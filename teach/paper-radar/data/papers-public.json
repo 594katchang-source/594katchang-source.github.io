@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T06:22:06.337Z",
+  "generatedAt": "2026-11-28T04:31:39.086Z",
   "papers": [
     {
       "id": "doi:10.31662/jmaj.2026-0197:review",
@@ -120625,6 +120625,30 @@
         }
       ],
       "completedAt": "2026-11-27T06:21:13.696Z"
+    },
+    {
+      "id": "doi:10.3390/nu18213489:review",
+      "paperId": "doi:10.3390/nu18213489",
+      "kind": "review",
+      "evidenceScope": "full_text",
+      "title": "Independent and Joint Associations of Diet Quality and Rest-Activity Rhythm Phenotypes with Frailty Among Rural Older Adults.",
+      "authors": "Du L, Wang L, Chen K, He Q, Pan Y, Zhang X, Chen S",
+      "journal": "Nutrients",
+      "year": "2026",
+      "doi": "10.3390/nu18213489",
+      "abstract": "Objectives: This study aimed to identify rest-activity rhythm (RAR) phenotypes and examine the independent and joint associations of RAR phenotypes and diet quality with frailty among rural older adults. Methods: This cross-sectional study included 1203 rural Chinese adults aged 65 to 85 years. Accelerometer-derived inter-daily stability, intra-daily variability, and relative amplitude were used to identify RAR phenotypes through latent profile analysis. Diet quality was assessed using the China Prime Diet Quality Score, and frailty was assessed using the Fried Frailty Phenotype. RAR phenotypes and median-dichotomized diet quality were combined into joint groups. Robust linear and ordered logistic regression examined associations with frailty score and severity, respectively. Subgroup and interaction analyses were conducted by sex and age group. Results: Five RAR phenotypes were identified. Compared with the robust-rhythm phenotype, the severely disrupted phenotype was associated with a 0.516-point higher frailty score and 148.6% higher odds of greater frailty severity, while the fragmented low-amplitude phenotype was associated with 49.3% higher odds. Each 10-point increase in diet quality score was associated with a 0.127-point lower frailty score and 29.3% lower odds of greater frailty severity. Joint analyses showed greater frailty in both typical-rhythm and fragmented low-amplitude phenotypes combined with lower diet quality (β = 0.229, OR = 2.020; β = 0.250, OR = 2.179, respectively), with the highest frailty score observed in the severely disrupted and lower-diet-quality group (β = 0.600; OR = 2.774). Severely disrupted combinations were associated with greater frailty whether diet quality was higher (β = 0.512; OR = 3.092) or lower (β = 0.600; OR = 2.774). No evidence of overall interaction by sex or age group was observed. Conclusions: Better diet quality and more robust RAR patterns were independently associated with lower frailty. Considering both factors may provide a broader perspective on behavioral factors related to frailty in older adults.",
+      "legalFullTextUrl": "https://doi.org/10.3390/nu18213489",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43030119/",
+      "category": "recommended",
+      "tags": [
+        "aging frailty sarcopenia",
+        "nutrition and dietary pattern",
+        "safety and interaction"
+      ],
+      "noteTitle": "飲食品質、休息活動節律與鄉村高齡者脆弱：品質評讀",
+      "content": "---\ntags: [source/journal, nutrition/frailty]\ncitekey: \"Du2026DietRhythmFrailty\"\ndoi: \"10.3390/nu18213489\"\njournal: \"Nutrients\"\nyear: 2026\nauthors: \"Litao Du; Lina Wang; Ke Chen; Qiang He; Yang Pan; Xianliang Zhang; Si Chen\"\nstudy_type: \"Cross-sectional analysis\"\nreview_depth: \"quick\"\nmode: \"focused-quick\"\n---\n\n> [!info] 品質快照\n> **設計／族群**：中國山東鄉村 65–85 歲成人，原基線 1906 人，分析納入 1203 人；橫斷資料，脆弱 34 人。（p2–6）\n> **主要關聯**：CPDQS 飲食品質每多 10 分，脆弱分數 β −0.127（95% CI −0.180 至 −0.073），較嚴重脆弱的勝算 OR 0.707（0.610–0.818）；最嚴重節律紊亂對穩健節律 OR 2.486（1.185–5.218）。（p7–8 Table 3–4）\n> **聯合分析**：相對穩健節律＋較高飲食品質，嚴重節律紊亂＋較低品質組 β 0.600、OR 2.774，但該 OR CI 1.000–7.693 很寬；飲食與節律交互作用檢定未見顯著。（p8–11）\n> **偏差風險**：橫斷設計與反向因果、FFQ 估計、僅 34 位脆弱者及聯合組稀疏；節律含活動量，與 Fried 脆弱量表的低活動項可能重疊。敏感度分析後部分較弱聯合組結果不再顯著。（p5、p9–11）\n> **GRADE**：對「改善飲食或節律可預防脆弱」之因果主張為 Very low，本文無干預或時間先後。\n> **一句話**：較佳飲食品質與較穩健休息活動節律均和較低同期脆弱程度相關，但不能據此宣稱兩項介入相加或有交互增效。\n\n# Key Points\n\n## Summary\n\n> ✅ 14 頁原 PDF 首頁題名、DOI、*Nutrients* 2026;18:3489、CC BY 一致；逐頁核對 p1–14，首／中／末見 p1、p7、p14。p12–14 為補充資料清單與參考文獻，補充檔本次未獨立讀取。\n\n- 七天手腕加速度計取得跨日穩定度 IS、日內片段化 IV、相對振幅 RA；LPA 分成五組：跨日不穩、低振幅片段化、典型、嚴重紊亂、穩健。（p3、p5–7）\n- 中國 CPDQS 以 FFQ 22 個構面求 0–100 分，Fried 脆弱量表 0–5 分；robust 658、pre-frail 511、frail 34。CPDQS 中位數分高低只為分析分組，非臨床閾值。（p3–6）\n- 飲食品質與脆弱關聯在多個調整模型中仍存在；嚴重節律紊亂組相對穩健組較高，但低振幅片段化組的脆弱分數 β CI 跨零（p=0.051），FDR 後其嚴重度結果也不再顯著。（p7–9）\n- 嚴重紊亂＋高品質組的 OR 3.092 甚至高於嚴重紊亂＋低品質組 2.774；差異不支持「高品質使其更壞」，因組小、CI 寬且交互作用 p=0.752。（p8–11）\n\n## 白話導讀\n\n這項研究同時量飲食品質和七天手腕活動節律，再看同一時間是否脆弱。飲食分數較高和日夜活動較規律的人，平均脆弱程度較低；但是脆弱本身也可能使人少活動、吃得較差。研究沒有追蹤誰先變脆弱，也沒測兩項生活方式介入的效果。（p1–5、p9–11）\n\n## Paper Details / Methods\n\n- Healthy Aging and Lifestyle Enhancement Project 基線資料，山東鄉村 65–85 歲；1906 人中 1203 人進分析，排除情況見未另取得的 Figure S1。心理治療或精神藥物使用者不納入。（p2–3、p5）\n- 手腕 ActiGraph 連續七天，至少 3 個有效日且每日佩戴至少 16 小時；IS、IV、RA 標準化後以 2–8 類 LPA，選五類。平均後驗分類機率 0.704–0.913。（p3、p5–7）\n- 飲食為近一年 FFQ，CPDQS 0–100；脆弱依疲憊、握力、步速、低活動及意外體重減少五項。調整年齡、性別、教育、獨居、BMI、吸菸、共病、總熱量、睡眠時長與效率。（p3–5）\n- 穩健線性迴歸和序位 logistic；平行勝算診斷部分不符，另作 partial proportional odds、FDR、LPA 不確定性 BCH，以及去掉低活動項的脆弱分數敏感度分析。（p5、p9）\n\n## Critical Appraisal\n\n| 面向 | 判斷與來源 |\n|---|---|\n| 選擇 | 單省鄉村，分析 1203/1906；作者稱納入與排除者性別、吸菸不同，細節在未另核的 Table S11。（p3、p5、p11） |\n| 暴露 | 節律客觀連續測七天，但不能直接測內生生理時鐘；FFQ 有回憶誤差，CPDQS 在本地調整。（p2–4、p11） |\n| 結局 | Fried 指標涵蓋自報疲憊、活動與體重改變及實測握力、步速；低活動和節律存在構念重疊。（p4–5） |\n| 精確性 | 脆弱僅 34 人、最嚴重節律組 61 人，10 個聯合格更稀疏；部分 OR CI 很寬。（p5–8、p11） |\n| 統計穩健性 | FDR 後飲食品質與嚴重紊亂仍顯著，低振幅片段化的嚴重度及嚴重紊亂＋高品質聯合組不再顯著；序位模型局部違反平行勝算。（p9） |\n| 因果／交互 | 橫斷不能排除反向因果；飲食 × 節律交互作用 p=0.778（分數）、0.752（嚴重度），不支持增效。（p9–11） |\n\n## Key Findings\n\n- 五節律組比例依次 5.4%、18.8%、51.0%、5.1%、19.7%；最嚴重組 IS、RA 最低、IV 最高。（p6–7 Table 2）\n- 嚴重紊亂對穩健組，調整後脆弱分數 β 0.516（0.205–0.826），序位 OR 2.486（1.185–5.218）；低振幅片段化 β 0.135（−0.001–0.271），p=0.051，不能稱分數結果顯著。（p7–8 Table 3）\n- CPDQS 每 10 分 β −0.127、OR 0.707；聯合組對照下，典型＋低品質 OR 2.020，片段低振幅＋低品質 OR 2.179，嚴重紊亂＋低品質 OR 2.774，皆屬同期比較。（p8 Figure 2）\n- 男女／65–74 與 ≥75 的整體交互檢定未顯著，不能宣稱某性別或年齡的確定差異。（p9–10）\n\n## Clinical Application\n\n- 可在高齡評估中同時詢問飲食品質、活動與睡眠節律，並直接評估握力、步速、疲憊、體重改變；本文未提供已驗證的 CPDQS 臨床分界或節律介入方案。（p3–5、p11）\n- 低飲食品質與節律紊亂是需進一步研究的線索，不能因本篇橫斷資料宣稱調整兩者會預防脆弱。（p10–11）\n\n## Resource\n\nDu L, et al. *Nutrients*. 2026;18:3489. [DOI 10.3390/nu18213489](https://doi.org/10.3390/nu18213489). 不公開原 PDF。",
+      "cards": [],
+      "completedAt": "2026-11-28T04:24:20.542Z"
     }
   ]
 }
